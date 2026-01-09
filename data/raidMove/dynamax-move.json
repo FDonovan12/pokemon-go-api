@@ -1,0 +1,746 @@
+[
+  {
+    "id": "VN_BM_001",
+    "movementId": "VN_BM_001",
+    "pokemonType": "POKEMON_TYPE_FIRE",
+    "powerLevels": [
+      250,
+      300,
+      350,
+      450
+    ],
+    "vfxName": "max_flare"
+  },
+  {
+    "id": "VN_BM_002",
+    "movementId": "VN_BM_002",
+    "pokemonType": "POKEMON_TYPE_BUG",
+    "powerLevels": [
+      250,
+      300,
+      350,
+      450
+    ],
+    "vfxName": "max_flutterby"
+  },
+  {
+    "id": "VN_BM_003",
+    "movementId": "VN_BM_003",
+    "pokemonType": "POKEMON_TYPE_ELECTRIC",
+    "powerLevels": [
+      250,
+      300,
+      350,
+      450
+    ],
+    "vfxName": "max_lightning"
+  },
+  {
+    "id": "VN_BM_004",
+    "movementId": "VN_BM_004",
+    "pokemonType": "POKEMON_TYPE_NORMAL",
+    "powerLevels": [
+      250,
+      300,
+      350,
+      450
+    ],
+    "vfxName": "max_strike"
+  },
+  {
+    "id": "VN_BM_005",
+    "movementId": "VN_BM_005",
+    "pokemonType": "POKEMON_TYPE_FIGHTING",
+    "powerLevels": [
+      250,
+      300,
+      350,
+      450
+    ],
+    "vfxName": "max_knuckle"
+  },
+  {
+    "id": "VN_BM_006",
+    "movementId": "VN_BM_006",
+    "pokemonType": "POKEMON_TYPE_GHOST",
+    "powerLevels": [
+      250,
+      300,
+      350,
+      450
+    ],
+    "vfxName": "max_phantasm"
+  },
+  {
+    "id": "VN_BM_007",
+    "movementId": "VN_BM_007",
+    "pokemonType": "POKEMON_TYPE_ICE",
+    "powerLevels": [
+      250,
+      300,
+      350,
+      450
+    ],
+    "vfxName": "max_hailstorm"
+  },
+  {
+    "id": "VN_BM_008",
+    "movementId": "VN_BM_008",
+    "pokemonType": "POKEMON_TYPE_POISON",
+    "powerLevels": [
+      250,
+      300,
+      350,
+      450
+    ],
+    "vfxName": "max_ooze"
+  },
+  {
+    "id": "VN_BM_009",
+    "movementId": "VN_BM_009",
+    "pokemonType": "POKEMON_TYPE_WATER",
+    "powerLevels": [
+      250,
+      300,
+      350,
+      450
+    ],
+    "vfxName": "max_geyser"
+  },
+  {
+    "id": "VN_BM_010",
+    "movementId": "VN_BM_010",
+    "pokemonType": "POKEMON_TYPE_FLYING",
+    "powerLevels": [
+      250,
+      300,
+      350,
+      450
+    ],
+    "vfxName": "max_airstream"
+  },
+  {
+    "id": "VN_BM_011",
+    "movementId": "VN_BM_011",
+    "pokemonType": "POKEMON_TYPE_FAIRY",
+    "powerLevels": [
+      250,
+      300,
+      350,
+      450
+    ],
+    "vfxName": "max_starfall"
+  },
+  {
+    "id": "VN_BM_012",
+    "movementId": "VN_BM_012",
+    "pokemonType": "POKEMON_TYPE_DRAGON",
+    "powerLevels": [
+      250,
+      300,
+      350,
+      450
+    ],
+    "vfxName": "max_wyrmwind"
+  },
+  {
+    "id": "VN_BM_013",
+    "movementId": "VN_BM_013",
+    "pokemonType": "POKEMON_TYPE_PSYCHIC",
+    "powerLevels": [
+      250,
+      300,
+      350,
+      450
+    ],
+    "vfxName": "max_mindstorm"
+  },
+  {
+    "id": "VN_BM_014",
+    "movementId": "VN_BM_014",
+    "pokemonType": "POKEMON_TYPE_ROCK",
+    "powerLevels": [
+      250,
+      300,
+      350,
+      450
+    ],
+    "vfxName": "max_rockfall"
+  },
+  {
+    "id": "VN_BM_015",
+    "movementId": "VN_BM_015",
+    "pokemonType": "POKEMON_TYPE_GROUND",
+    "powerLevels": [
+      250,
+      300,
+      350,
+      450
+    ],
+    "vfxName": "max_quake"
+  },
+  {
+    "id": "VN_BM_016",
+    "movementId": "VN_BM_016",
+    "pokemonType": "POKEMON_TYPE_DARK",
+    "powerLevels": [
+      250,
+      300,
+      350,
+      450
+    ],
+    "vfxName": "max_darkness"
+  },
+  {
+    "id": "VN_BM_017",
+    "movementId": "VN_BM_017",
+    "pokemonType": "POKEMON_TYPE_GRASS",
+    "powerLevels": [
+      250,
+      300,
+      350,
+      450
+    ],
+    "vfxName": "max_overgrowth"
+  },
+  {
+    "id": "VN_BM_018",
+    "movementId": "VN_BM_018",
+    "pokemonType": "POKEMON_TYPE_STEEL",
+    "powerLevels": [
+      250,
+      300,
+      350,
+      450
+    ],
+    "vfxName": "max_steelspike"
+  },
+  {
+    "id": "VN_BM_019",
+    "movementId": "VN_BM_019",
+    "pokemonType": "POKEMON_TYPE_FIRE",
+    "powerLevels": [
+      350,
+      400,
+      450,
+      550
+    ],
+    "vfxName": "gmax_wildfire"
+  },
+  {
+    "id": "VN_BM_020",
+    "movementId": "VN_BM_020",
+    "pokemonType": "POKEMON_TYPE_BUG",
+    "powerLevels": [
+      350,
+      400,
+      450,
+      550
+    ],
+    "vfxName": "gmax_befuddle"
+  },
+  {
+    "id": "VN_BM_021",
+    "movementId": "VN_BM_021",
+    "pokemonType": "POKEMON_TYPE_ELECTRIC",
+    "powerLevels": [
+      350,
+      400,
+      450,
+      550
+    ],
+    "vfxName": "gmax_voltcrash"
+  },
+  {
+    "id": "VN_BM_022",
+    "movementId": "VN_BM_022",
+    "pokemonType": "POKEMON_TYPE_NORMAL",
+    "powerLevels": [
+      350,
+      400,
+      450,
+      550
+    ],
+    "vfxName": "gmax_goldrush"
+  },
+  {
+    "id": "VN_BM_023",
+    "movementId": "VN_BM_023",
+    "pokemonType": "POKEMON_TYPE_FIGHTING",
+    "powerLevels": [
+      350,
+      400,
+      450,
+      550
+    ],
+    "vfxName": "gmax_chistrike"
+  },
+  {
+    "id": "VN_BM_024",
+    "movementId": "VN_BM_024",
+    "pokemonType": "POKEMON_TYPE_GHOST",
+    "powerLevels": [
+      350,
+      400,
+      450,
+      550
+    ],
+    "vfxName": "gmax_terror"
+  },
+  {
+    "id": "VN_BM_025",
+    "movementId": "VN_BM_025",
+    "pokemonType": "POKEMON_TYPE_WATER",
+    "powerLevels": [
+      350,
+      400,
+      450,
+      550
+    ],
+    "vfxName": "gmax_foamburst"
+  },
+  {
+    "id": "VN_BM_026",
+    "movementId": "VN_BM_026",
+    "pokemonType": "POKEMON_TYPE_ICE",
+    "powerLevels": [
+      350,
+      400,
+      450,
+      550
+    ],
+    "vfxName": "gmax_resonance"
+  },
+  {
+    "id": "VN_BM_027",
+    "movementId": "VN_BM_027",
+    "pokemonType": "POKEMON_TYPE_NORMAL",
+    "powerLevels": [
+      350,
+      400,
+      450,
+      550
+    ],
+    "vfxName": "gmax_cuddle"
+  },
+  {
+    "id": "VN_BM_028",
+    "movementId": "VN_BM_028",
+    "pokemonType": "POKEMON_TYPE_NORMAL",
+    "powerLevels": [
+      350,
+      400,
+      450,
+      550
+    ],
+    "vfxName": "gmax_replenish"
+  },
+  {
+    "id": "VN_BM_029",
+    "movementId": "VN_BM_029",
+    "pokemonType": "POKEMON_TYPE_POISON",
+    "powerLevels": [
+      350,
+      400,
+      450,
+      550
+    ],
+    "vfxName": "gmax_malodor"
+  },
+  {
+    "id": "VN_BM_030",
+    "movementId": "VN_BM_030",
+    "pokemonType": "POKEMON_TYPE_STEEL",
+    "powerLevels": [
+      350,
+      400,
+      450,
+      550
+    ],
+    "vfxName": "gmax_meltdown"
+  },
+  {
+    "id": "VN_BM_031",
+    "movementId": "VN_BM_031",
+    "pokemonType": "POKEMON_TYPE_FLYING",
+    "powerLevels": [
+      350,
+      400,
+      450,
+      550
+    ],
+    "vfxName": "gmax_windrage"
+  },
+  {
+    "id": "VN_BM_032",
+    "movementId": "VN_BM_032",
+    "pokemonType": "POKEMON_TYPE_PSYCHIC",
+    "powerLevels": [
+      350,
+      400,
+      450,
+      550
+    ],
+    "vfxName": "gmax_gravitas"
+  },
+  {
+    "id": "VN_BM_033",
+    "movementId": "VN_BM_033",
+    "pokemonType": "POKEMON_TYPE_WATER",
+    "powerLevels": [
+      350,
+      400,
+      450,
+      550
+    ],
+    "vfxName": "gmax_stonesurge"
+  },
+  {
+    "id": "VN_BM_034",
+    "movementId": "VN_BM_034",
+    "pokemonType": "POKEMON_TYPE_ROCK",
+    "powerLevels": [
+      350,
+      400,
+      450,
+      550
+    ],
+    "vfxName": "gmax_volcalith"
+  },
+  {
+    "id": "VN_BM_035",
+    "movementId": "VN_BM_035",
+    "pokemonType": "POKEMON_TYPE_GRASS",
+    "powerLevels": [
+      350,
+      400,
+      450,
+      550
+    ],
+    "vfxName": "gmax_tartness"
+  },
+  {
+    "id": "VN_BM_036",
+    "movementId": "VN_BM_036",
+    "pokemonType": "POKEMON_TYPE_GRASS",
+    "powerLevels": [
+      350,
+      400,
+      450,
+      550
+    ],
+    "vfxName": "gmax_sweetness"
+  },
+  {
+    "id": "VN_BM_037",
+    "movementId": "VN_BM_037",
+    "pokemonType": "POKEMON_TYPE_GROUND",
+    "powerLevels": [
+      350,
+      400,
+      450,
+      550
+    ],
+    "vfxName": "gmax_sandblast"
+  },
+  {
+    "id": "VN_BM_038",
+    "movementId": "VN_BM_038",
+    "pokemonType": "POKEMON_TYPE_ELECTRIC",
+    "powerLevels": [
+      350,
+      400,
+      450,
+      550
+    ],
+    "vfxName": "gmax_stun_shock"
+  },
+  {
+    "id": "VN_BM_039",
+    "movementId": "VN_BM_039",
+    "pokemonType": "POKEMON_TYPE_FIRE",
+    "powerLevels": [
+      350,
+      400,
+      450,
+      550
+    ],
+    "vfxName": "gmax_centiferno"
+  },
+  {
+    "id": "VN_BM_040",
+    "movementId": "VN_BM_040",
+    "pokemonType": "POKEMON_TYPE_FAIRY",
+    "powerLevels": [
+      350,
+      400,
+      450,
+      550
+    ],
+    "vfxName": "gmax_smite"
+  },
+  {
+    "id": "VN_BM_041",
+    "movementId": "VN_BM_041",
+    "pokemonType": "POKEMON_TYPE_DARK",
+    "powerLevels": [
+      350,
+      400,
+      450,
+      550
+    ],
+    "vfxName": "gmax_snooze"
+  },
+  {
+    "id": "VN_BM_042",
+    "movementId": "VN_BM_042",
+    "pokemonType": "POKEMON_TYPE_FAIRY",
+    "powerLevels": [
+      350,
+      400,
+      450,
+      550
+    ],
+    "vfxName": "gmax_finale"
+  },
+  {
+    "id": "VN_BM_043",
+    "movementId": "VN_BM_043",
+    "pokemonType": "POKEMON_TYPE_STEEL",
+    "powerLevels": [
+      350,
+      400,
+      450,
+      550
+    ],
+    "vfxName": "gmax_steelsurge"
+  },
+  {
+    "id": "VN_BM_044",
+    "movementId": "VN_BM_044",
+    "pokemonType": "POKEMON_TYPE_DRAGON",
+    "powerLevels": [
+      350,
+      400,
+      450,
+      550
+    ],
+    "vfxName": "gmax_depletion"
+  },
+  {
+    "id": "VN_BM_045",
+    "movementId": "VN_BM_045",
+    "pokemonType": "POKEMON_TYPE_GRASS",
+    "powerLevels": [
+      350,
+      400,
+      450,
+      550
+    ],
+    "vfxName": "gmax_vinelash"
+  },
+  {
+    "id": "VN_BM_046",
+    "movementId": "VN_BM_046",
+    "pokemonType": "POKEMON_TYPE_WATER",
+    "powerLevels": [
+      350,
+      400,
+      450,
+      550
+    ],
+    "vfxName": "gmax_cannonade"
+  },
+  {
+    "id": "VN_BM_047",
+    "movementId": "VN_BM_047",
+    "pokemonType": "POKEMON_TYPE_GRASS",
+    "powerLevels": [
+      350,
+      400,
+      450,
+      550
+    ],
+    "vfxName": "gmax_drumsolo"
+  },
+  {
+    "id": "VN_BM_048",
+    "movementId": "VN_BM_048",
+    "pokemonType": "POKEMON_TYPE_FIRE",
+    "powerLevels": [
+      350,
+      400,
+      450,
+      550
+    ],
+    "vfxName": "gmax_fireball"
+  },
+  {
+    "id": "VN_BM_049",
+    "movementId": "VN_BM_049",
+    "pokemonType": "POKEMON_TYPE_WATER",
+    "powerLevels": [
+      350,
+      400,
+      450,
+      550
+    ],
+    "vfxName": "gmax_hydrosnipe"
+  },
+  {
+    "id": "VN_BM_050",
+    "movementId": "VN_BM_050",
+    "pokemonType": "POKEMON_TYPE_DARK",
+    "powerLevels": [
+      350,
+      400,
+      450,
+      550
+    ],
+    "vfxName": "gmax_oneblow"
+  },
+  {
+    "id": "VN_BM_051",
+    "movementId": "VN_BM_051",
+    "pokemonType": "POKEMON_TYPE_WATER",
+    "powerLevels": [
+      350,
+      400,
+      450,
+      550
+    ],
+    "vfxName": "gmax_rapidflow"
+  },
+  {
+    "id": "VN_BM_052",
+    "movementId": "VN_BM_052",
+    "pokemonType": "POKEMON_TYPE_NORMAL",
+    "powerLevels": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vfxName": "max_shield"
+  },
+  {
+    "id": "VN_BM_053",
+    "movementId": "VN_BM_053",
+    "pokemonType": "POKEMON_TYPE_NORMAL",
+    "powerLevels": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vfxName": "max_heal"
+  },
+  {
+    "id": "VN_BM_054",
+    "movementId": "VN_BM_054",
+    "pokemonType": "POKEMON_TYPE_NORMAL",
+    "powerLevels": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vfxName": "max_shield"
+  },
+  {
+    "id": "VN_BM_055",
+    "movementId": "VN_BM_055",
+    "pokemonType": "POKEMON_TYPE_NORMAL",
+    "powerLevels": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vfxName": "max_heal"
+  },
+  {
+    "id": "VN_BM_056",
+    "movementId": "VN_BM_056",
+    "pokemonType": "POKEMON_TYPE_NORMAL",
+    "powerLevels": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vfxName": "max_shield"
+  },
+  {
+    "id": "VN_BM_057",
+    "movementId": "VN_BM_057",
+    "pokemonType": "POKEMON_TYPE_NORMAL",
+    "powerLevels": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vfxName": "max_heal"
+  },
+  {
+    "id": "VN_BM_058",
+    "movementId": "VN_BM_058",
+    "pokemonType": "POKEMON_TYPE_NORMAL",
+    "powerLevels": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vfxName": "max_shield"
+  },
+  {
+    "id": "VN_BM_059",
+    "movementId": "VN_BM_059",
+    "pokemonType": "POKEMON_TYPE_NORMAL",
+    "powerLevels": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vfxName": "max_heal"
+  },
+  {
+    "id": "VN_BM_060",
+    "movementId": "VN_BM_060",
+    "pokemonType": "POKEMON_TYPE_STEEL",
+    "powerLevels": [
+      250,
+      300,
+      350,
+      450
+    ],
+    "vfxName": "max_behemoth_blade"
+  },
+  {
+    "id": "VN_BM_061",
+    "movementId": "VN_BM_061",
+    "pokemonType": "POKEMON_TYPE_STEEL",
+    "powerLevels": [
+      250,
+      300,
+      350,
+      450
+    ],
+    "vfxName": "max_behemoth_bash"
+  },
+  {
+    "id": "VN_BM_062",
+    "movementId": "VN_BM_062",
+    "pokemonType": "POKEMON_TYPE_DRAGON",
+    "powerLevels": [
+      350,
+      400,
+      450,
+      550
+    ],
+    "vfxName": "max_dynamax_cannon"
+  }
+]

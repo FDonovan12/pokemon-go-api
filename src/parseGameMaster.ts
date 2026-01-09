@@ -13,20 +13,26 @@ export function parseGameMaster(_gameMaster: GameMaster): Record<string, unknown
 
     return {
         ...extractedData,
-        notParsedData: gameMasterByKey,
+        notParsedData: {},
     };
 }
+export type RuleDefinition<K extends GameMasterKey> = {
+    test: (item: GameMasterItemByKey<K>) => boolean;
+    transform?: (item: GameMasterItemByKey<K>) => any;
+};
 
 export type ExtractionRules = {
     [K in GameMasterKey]?: {
-        [resultKey: string]: (item: GameMasterItemByKey<K>) => boolean;
+        [resultKey: string]: RuleDefinition<K> | ((item: GameMasterItemByKey<K>) => boolean);
     };
 };
 
-function partitionAndExtract(source: GameMasterByKey, rules: ExtractionRules): ExtractionResult {
-    const result: ExtractionResult = {};
+function partitionAndExtract(
+    source: GameMasterByKey,
+    rules: ExtractionRules
+): Record<string, any[]> {
+    const result: Record<string, any[]> = {};
 
-    // On itère sur les clés définies dans nos règles
     for (const key in rules) {
         const currentKey = key as GameMasterKey;
         const items = source[currentKey];
@@ -39,13 +45,16 @@ function partitionAndExtract(source: GameMasterByKey, rules: ExtractionRules): E
         for (const item of items) {
             let matched = false;
 
-            // On teste chaque prédicat défini pour cette clé
-            for (const [resKey, predicate] of Object.entries(keyRules)) {
-                // Le cast 'as any' est ici nécessaire car TS ne peut pas prouver
-                // dynamiquement la correspondance exacte dans la boucle
+            for (const [resKey, rule] of Object.entries(keyRules)) {
+                const predicate = typeof rule === 'function' ? rule : rule.test;
+                const transform = typeof rule === 'object' ? rule.transform : undefined;
+
                 if ((predicate as (i: any) => boolean)(item)) {
                     if (!result[resKey]) result[resKey] = [];
-                    result[resKey].push(item);
+
+                    const dataToPush = transform ? transform(item) : item;
+
+                    result[resKey].push(dataToPush);
                     matched = true;
                     break;
                 }
@@ -55,24 +64,65 @@ function partitionAndExtract(source: GameMasterByKey, rules: ExtractionRules): E
                 remaining.push(item);
             }
         }
-
-        // On met à jour la source avec ce qui n'a pas été extrait
-        // @ts-ignore : On sait que le type correspond
         source[currentKey] = remaining;
     }
 
     return result;
 }
 
-// Le résultat sera un dictionnaire de tableaux d'items génériques
-// car les noms des clés (fastMove, etc.) sont dynamiques.
 export type ExtractionResult = Record<string, GameMasterItemByKey<any>[]>;
 
 const rulesByKey: ExtractionRules = {
     moveSettings: {
-        fastMove: (move) => move.templateId.includes('FAST'),
-        dynamaxMove: (move) => 'obMoveSettingsNumber18' in move.data,
-        chargedMove: (move) =>
-            !('obMoveSettingsNumber18' in move.data) && !move.templateId.includes('FAST'),
+        'raidMove/fastMove': {
+            test: (move) => move.templateId.includes('FAST'),
+            transform: (move) => ({
+                id: move.templateId,
+                movementId: move.data.movementId,
+                pokemonType: move.data.pokemonType,
+                power: move.data.power,
+                durationMs: move.data.durationMs,
+                energyDelta: move.data.energyDelta,
+                vfxName: move.data.vfxName,
+            }),
+        },
+        'raidMove/dynamaxMove': {
+            test: (move) => 'obMoveSettingsNumber18' in move.data,
+            transform: (move) => ({
+                id: move.templateId,
+                movementId: move.data.movementId,
+                pokemonType: move.data.pokemonType,
+                powerLevels: move.data.obMoveSettingsNumber18,
+                vfxName: move.data.vfxName,
+            }),
+        },
+        'raidMove/chargedMove': {
+            test: (move) => true,
+            transform: (move) => ({
+                id: move.templateId,
+                movementId: move.data.movementId,
+                pokemonType: move.data.pokemonType,
+                power: move.data.power,
+                durationMs: move.data.durationMs,
+                energyDelta: move.data.energyDelta,
+                vfxName: move.data.vfxName,
+            }),
+        },
+    },
+    pokemonSettings: {
+        pokemon: {
+            test: (move) => move.templateId.split('_').last()! !== move.data.pokemonId,
+            transform: (move) => ({
+                id: move.templateId,
+                pokemonId: move.data.pokemonId,
+                type: move.data.type,
+                type2: move.data.type2,
+                stats: move.data.stats,
+                quickMoves: move.data.quickMoves,
+                cinematicMoves: move.data.cinematicMoves,
+                evolutionIds: move.data.evolutionIds,
+                familyId: move.data.familyId,
+            }),
+        },
     },
 };
