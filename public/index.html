@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Pokemon GO Parser Dev</title>
+  </head>
+  <body>
+    <h1>Parser output</h1>
+    <pre id="output">Chargement...</pre>
+
+    <script>
+      async function load() {
+        const res = await fetch('/data/parsed-data.json');
+        const json = await res.json();
+        console.log(json);
+        document.getElementById('output').textContent = JSON.stringify(json, null, 2);
+      }
+
+      load();
+    </script>
+    <!-- setInterval(load, 1000); -->
+  </body>
+</html>

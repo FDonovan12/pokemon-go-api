@@ -1,4 +1,7 @@
-export function parseGameMaster(_gameMaster: unknown): Record<string, unknown> {
-    // 🔧 Parsing à implémenter plus tard
-    return { test: 'test' };
+import { GameMaster, GameMasterByKey, groupGameMaster } from './gameMasterType.js';
+
+export function parseGameMaster(_gameMaster: GameMaster): any {
+    const result: GameMasterByKey = groupGameMaster(_gameMaster);
+
+    return result;
 }
