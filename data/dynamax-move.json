@@ -1,0 +1,1366 @@
+[
+  {
+    "templateId": "VN_BM_001",
+    "data": {
+      "movementId": "VN_BM_001",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_FIRE",
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "max_flare",
+      "durationMs": 2500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 3400,
+      "obMoveSettingsNumber18": [
+        250,
+        300,
+        350,
+        450
+      ]
+    }
+  },
+  {
+    "templateId": "VN_BM_002",
+    "data": {
+      "movementId": "VN_BM_002",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_BUG",
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "max_flutterby",
+      "durationMs": 2500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 3400,
+      "obMoveSettingsNumber18": [
+        250,
+        300,
+        350,
+        450
+      ]
+    }
+  },
+  {
+    "templateId": "VN_BM_003",
+    "data": {
+      "movementId": "VN_BM_003",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_ELECTRIC",
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "max_lightning",
+      "durationMs": 2500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 3400,
+      "obMoveSettingsNumber18": [
+        250,
+        300,
+        350,
+        450
+      ]
+    }
+  },
+  {
+    "templateId": "VN_BM_004",
+    "data": {
+      "movementId": "VN_BM_004",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_NORMAL",
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "max_strike",
+      "durationMs": 2500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 3400,
+      "obMoveSettingsNumber18": [
+        250,
+        300,
+        350,
+        450
+      ]
+    }
+  },
+  {
+    "templateId": "VN_BM_005",
+    "data": {
+      "movementId": "VN_BM_005",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_FIGHTING",
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "max_knuckle",
+      "durationMs": 2500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 3400,
+      "obMoveSettingsNumber18": [
+        250,
+        300,
+        350,
+        450
+      ]
+    }
+  },
+  {
+    "templateId": "VN_BM_006",
+    "data": {
+      "movementId": "VN_BM_006",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_GHOST",
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "max_phantasm",
+      "durationMs": 2500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 3400,
+      "obMoveSettingsNumber18": [
+        250,
+        300,
+        350,
+        450
+      ]
+    }
+  },
+  {
+    "templateId": "VN_BM_007",
+    "data": {
+      "movementId": "VN_BM_007",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_ICE",
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "max_hailstorm",
+      "durationMs": 2500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 3400,
+      "obMoveSettingsNumber18": [
+        250,
+        300,
+        350,
+        450
+      ]
+    }
+  },
+  {
+    "templateId": "VN_BM_008",
+    "data": {
+      "movementId": "VN_BM_008",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_POISON",
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "max_ooze",
+      "durationMs": 2500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 3400,
+      "obMoveSettingsNumber18": [
+        250,
+        300,
+        350,
+        450
+      ]
+    }
+  },
+  {
+    "templateId": "VN_BM_009",
+    "data": {
+      "movementId": "VN_BM_009",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_WATER",
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "max_geyser",
+      "durationMs": 2500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 3400,
+      "obMoveSettingsNumber18": [
+        250,
+        300,
+        350,
+        450
+      ]
+    }
+  },
+  {
+    "templateId": "VN_BM_010",
+    "data": {
+      "movementId": "VN_BM_010",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_FLYING",
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "max_airstream",
+      "durationMs": 2500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 3400,
+      "obMoveSettingsNumber18": [
+        250,
+        300,
+        350,
+        450
+      ]
+    }
+  },
+  {
+    "templateId": "VN_BM_011",
+    "data": {
+      "movementId": "VN_BM_011",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_FAIRY",
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "max_starfall",
+      "durationMs": 2500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 3400,
+      "obMoveSettingsNumber18": [
+        250,
+        300,
+        350,
+        450
+      ]
+    }
+  },
+  {
+    "templateId": "VN_BM_012",
+    "data": {
+      "movementId": "VN_BM_012",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_DRAGON",
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "max_wyrmwind",
+      "durationMs": 2500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 3400,
+      "obMoveSettingsNumber18": [
+        250,
+        300,
+        350,
+        450
+      ]
+    }
+  },
+  {
+    "templateId": "VN_BM_013",
+    "data": {
+      "movementId": "VN_BM_013",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_PSYCHIC",
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "max_mindstorm",
+      "durationMs": 2500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 3400,
+      "obMoveSettingsNumber18": [
+        250,
+        300,
+        350,
+        450
+      ]
+    }
+  },
+  {
+    "templateId": "VN_BM_014",
+    "data": {
+      "movementId": "VN_BM_014",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_ROCK",
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "max_rockfall",
+      "durationMs": 2500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 3400,
+      "obMoveSettingsNumber18": [
+        250,
+        300,
+        350,
+        450
+      ]
+    }
+  },
+  {
+    "templateId": "VN_BM_015",
+    "data": {
+      "movementId": "VN_BM_015",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_GROUND",
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "max_quake",
+      "durationMs": 2500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 3400,
+      "obMoveSettingsNumber18": [
+        250,
+        300,
+        350,
+        450
+      ]
+    }
+  },
+  {
+    "templateId": "VN_BM_016",
+    "data": {
+      "movementId": "VN_BM_016",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_DARK",
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "max_darkness",
+      "durationMs": 2500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 3400,
+      "obMoveSettingsNumber18": [
+        250,
+        300,
+        350,
+        450
+      ]
+    }
+  },
+  {
+    "templateId": "VN_BM_017",
+    "data": {
+      "movementId": "VN_BM_017",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_GRASS",
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "max_overgrowth",
+      "durationMs": 2500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 3400,
+      "obMoveSettingsNumber18": [
+        250,
+        300,
+        350,
+        450
+      ]
+    }
+  },
+  {
+    "templateId": "VN_BM_018",
+    "data": {
+      "movementId": "VN_BM_018",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_STEEL",
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "max_steelspike",
+      "durationMs": 2500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 3400,
+      "obMoveSettingsNumber18": [
+        250,
+        300,
+        350,
+        450
+      ]
+    }
+  },
+  {
+    "templateId": "VN_BM_019",
+    "data": {
+      "movementId": "VN_BM_019",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_FIRE",
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "gmax_wildfire",
+      "durationMs": 2500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 3400,
+      "obMoveSettingsNumber18": [
+        350,
+        400,
+        450,
+        550
+      ]
+    }
+  },
+  {
+    "templateId": "VN_BM_020",
+    "data": {
+      "movementId": "VN_BM_020",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_BUG",
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "gmax_befuddle",
+      "durationMs": 2500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 3400,
+      "obMoveSettingsNumber18": [
+        350,
+        400,
+        450,
+        550
+      ]
+    }
+  },
+  {
+    "templateId": "VN_BM_021",
+    "data": {
+      "movementId": "VN_BM_021",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_ELECTRIC",
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "gmax_voltcrash",
+      "durationMs": 2500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 3400,
+      "obMoveSettingsNumber18": [
+        350,
+        400,
+        450,
+        550
+      ]
+    }
+  },
+  {
+    "templateId": "VN_BM_022",
+    "data": {
+      "movementId": "VN_BM_022",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_NORMAL",
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "gmax_goldrush",
+      "durationMs": 2500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 3400,
+      "obMoveSettingsNumber18": [
+        350,
+        400,
+        450,
+        550
+      ]
+    }
+  },
+  {
+    "templateId": "VN_BM_023",
+    "data": {
+      "movementId": "VN_BM_023",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_FIGHTING",
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "gmax_chistrike",
+      "durationMs": 2500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 3400,
+      "obMoveSettingsNumber18": [
+        350,
+        400,
+        450,
+        550
+      ]
+    }
+  },
+  {
+    "templateId": "VN_BM_024",
+    "data": {
+      "movementId": "VN_BM_024",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_GHOST",
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "gmax_terror",
+      "durationMs": 2500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 3400,
+      "obMoveSettingsNumber18": [
+        350,
+        400,
+        450,
+        550
+      ]
+    }
+  },
+  {
+    "templateId": "VN_BM_025",
+    "data": {
+      "movementId": "VN_BM_025",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_WATER",
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "gmax_foamburst",
+      "durationMs": 2500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 3400,
+      "obMoveSettingsNumber18": [
+        350,
+        400,
+        450,
+        550
+      ]
+    }
+  },
+  {
+    "templateId": "VN_BM_026",
+    "data": {
+      "movementId": "VN_BM_026",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_ICE",
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "gmax_resonance",
+      "durationMs": 2500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 3400,
+      "obMoveSettingsNumber18": [
+        350,
+        400,
+        450,
+        550
+      ]
+    }
+  },
+  {
+    "templateId": "VN_BM_027",
+    "data": {
+      "movementId": "VN_BM_027",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_NORMAL",
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "gmax_cuddle",
+      "durationMs": 2500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 3400,
+      "obMoveSettingsNumber18": [
+        350,
+        400,
+        450,
+        550
+      ]
+    }
+  },
+  {
+    "templateId": "VN_BM_028",
+    "data": {
+      "movementId": "VN_BM_028",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_NORMAL",
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "gmax_replenish",
+      "durationMs": 2500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 3400,
+      "obMoveSettingsNumber18": [
+        350,
+        400,
+        450,
+        550
+      ]
+    }
+  },
+  {
+    "templateId": "VN_BM_029",
+    "data": {
+      "movementId": "VN_BM_029",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_POISON",
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "gmax_malodor",
+      "durationMs": 2500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 3400,
+      "obMoveSettingsNumber18": [
+        350,
+        400,
+        450,
+        550
+      ]
+    }
+  },
+  {
+    "templateId": "VN_BM_030",
+    "data": {
+      "movementId": "VN_BM_030",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_STEEL",
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "gmax_meltdown",
+      "durationMs": 2500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 3400,
+      "obMoveSettingsNumber18": [
+        350,
+        400,
+        450,
+        550
+      ]
+    }
+  },
+  {
+    "templateId": "VN_BM_031",
+    "data": {
+      "movementId": "VN_BM_031",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_FLYING",
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "gmax_windrage",
+      "durationMs": 2500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 3400,
+      "obMoveSettingsNumber18": [
+        350,
+        400,
+        450,
+        550
+      ]
+    }
+  },
+  {
+    "templateId": "VN_BM_032",
+    "data": {
+      "movementId": "VN_BM_032",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_PSYCHIC",
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "gmax_gravitas",
+      "durationMs": 2500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 3400,
+      "obMoveSettingsNumber18": [
+        350,
+        400,
+        450,
+        550
+      ]
+    }
+  },
+  {
+    "templateId": "VN_BM_033",
+    "data": {
+      "movementId": "VN_BM_033",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_WATER",
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "gmax_stonesurge",
+      "durationMs": 2500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 3400,
+      "obMoveSettingsNumber18": [
+        350,
+        400,
+        450,
+        550
+      ]
+    }
+  },
+  {
+    "templateId": "VN_BM_034",
+    "data": {
+      "movementId": "VN_BM_034",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_ROCK",
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "gmax_volcalith",
+      "durationMs": 2500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 3400,
+      "obMoveSettingsNumber18": [
+        350,
+        400,
+        450,
+        550
+      ]
+    }
+  },
+  {
+    "templateId": "VN_BM_035",
+    "data": {
+      "movementId": "VN_BM_035",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_GRASS",
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "gmax_tartness",
+      "durationMs": 2500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 3400,
+      "obMoveSettingsNumber18": [
+        350,
+        400,
+        450,
+        550
+      ]
+    }
+  },
+  {
+    "templateId": "VN_BM_036",
+    "data": {
+      "movementId": "VN_BM_036",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_GRASS",
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "gmax_sweetness",
+      "durationMs": 2500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 3400,
+      "obMoveSettingsNumber18": [
+        350,
+        400,
+        450,
+        550
+      ]
+    }
+  },
+  {
+    "templateId": "VN_BM_037",
+    "data": {
+      "movementId": "VN_BM_037",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_GROUND",
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "gmax_sandblast",
+      "durationMs": 2500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 3400,
+      "obMoveSettingsNumber18": [
+        350,
+        400,
+        450,
+        550
+      ]
+    }
+  },
+  {
+    "templateId": "VN_BM_038",
+    "data": {
+      "movementId": "VN_BM_038",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_ELECTRIC",
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "gmax_stun_shock",
+      "durationMs": 2500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 3400,
+      "obMoveSettingsNumber18": [
+        350,
+        400,
+        450,
+        550
+      ]
+    }
+  },
+  {
+    "templateId": "VN_BM_039",
+    "data": {
+      "movementId": "VN_BM_039",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_FIRE",
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "gmax_centiferno",
+      "durationMs": 2500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 3400,
+      "obMoveSettingsNumber18": [
+        350,
+        400,
+        450,
+        550
+      ]
+    }
+  },
+  {
+    "templateId": "VN_BM_040",
+    "data": {
+      "movementId": "VN_BM_040",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_FAIRY",
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "gmax_smite",
+      "durationMs": 2500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 3400,
+      "obMoveSettingsNumber18": [
+        350,
+        400,
+        450,
+        550
+      ]
+    }
+  },
+  {
+    "templateId": "VN_BM_041",
+    "data": {
+      "movementId": "VN_BM_041",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_DARK",
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "gmax_snooze",
+      "durationMs": 2500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 3400,
+      "obMoveSettingsNumber18": [
+        350,
+        400,
+        450,
+        550
+      ]
+    }
+  },
+  {
+    "templateId": "VN_BM_042",
+    "data": {
+      "movementId": "VN_BM_042",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_FAIRY",
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "gmax_finale",
+      "durationMs": 2500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 3400,
+      "obMoveSettingsNumber18": [
+        350,
+        400,
+        450,
+        550
+      ]
+    }
+  },
+  {
+    "templateId": "VN_BM_043",
+    "data": {
+      "movementId": "VN_BM_043",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_STEEL",
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "gmax_steelsurge",
+      "durationMs": 2500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 3400,
+      "obMoveSettingsNumber18": [
+        350,
+        400,
+        450,
+        550
+      ]
+    }
+  },
+  {
+    "templateId": "VN_BM_044",
+    "data": {
+      "movementId": "VN_BM_044",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_DRAGON",
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "gmax_depletion",
+      "durationMs": 2500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 3400,
+      "obMoveSettingsNumber18": [
+        350,
+        400,
+        450,
+        550
+      ]
+    }
+  },
+  {
+    "templateId": "VN_BM_045",
+    "data": {
+      "movementId": "VN_BM_045",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_GRASS",
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "gmax_vinelash",
+      "durationMs": 2500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 3400,
+      "obMoveSettingsNumber18": [
+        350,
+        400,
+        450,
+        550
+      ]
+    }
+  },
+  {
+    "templateId": "VN_BM_046",
+    "data": {
+      "movementId": "VN_BM_046",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_WATER",
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "gmax_cannonade",
+      "durationMs": 2500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 3400,
+      "obMoveSettingsNumber18": [
+        350,
+        400,
+        450,
+        550
+      ]
+    }
+  },
+  {
+    "templateId": "VN_BM_047",
+    "data": {
+      "movementId": "VN_BM_047",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_GRASS",
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "gmax_drumsolo",
+      "durationMs": 2500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 3400,
+      "obMoveSettingsNumber18": [
+        350,
+        400,
+        450,
+        550
+      ]
+    }
+  },
+  {
+    "templateId": "VN_BM_048",
+    "data": {
+      "movementId": "VN_BM_048",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_FIRE",
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "gmax_fireball",
+      "durationMs": 2500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 3400,
+      "obMoveSettingsNumber18": [
+        350,
+        400,
+        450,
+        550
+      ]
+    }
+  },
+  {
+    "templateId": "VN_BM_049",
+    "data": {
+      "movementId": "VN_BM_049",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_WATER",
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "gmax_hydrosnipe",
+      "durationMs": 2500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 3400,
+      "obMoveSettingsNumber18": [
+        350,
+        400,
+        450,
+        550
+      ]
+    }
+  },
+  {
+    "templateId": "VN_BM_050",
+    "data": {
+      "movementId": "VN_BM_050",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_DARK",
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "gmax_oneblow",
+      "durationMs": 2500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 3400,
+      "obMoveSettingsNumber18": [
+        350,
+        400,
+        450,
+        550
+      ]
+    }
+  },
+  {
+    "templateId": "VN_BM_051",
+    "data": {
+      "movementId": "VN_BM_051",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_WATER",
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "gmax_rapidflow",
+      "durationMs": 2500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 3400,
+      "obMoveSettingsNumber18": [
+        350,
+        400,
+        450,
+        550
+      ]
+    }
+  },
+  {
+    "templateId": "VN_BM_052",
+    "data": {
+      "movementId": "VN_BM_052",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_NORMAL",
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "max_shield",
+      "durationMs": 2500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 3400,
+      "obMoveSettingsNumber18": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "templateId": "VN_BM_053",
+    "data": {
+      "movementId": "VN_BM_053",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_NORMAL",
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "max_heal",
+      "durationMs": 2500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 3400,
+      "obMoveSettingsNumber18": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "templateId": "VN_BM_054",
+    "data": {
+      "movementId": "VN_BM_054",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_NORMAL",
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "max_shield",
+      "durationMs": 2500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 3400,
+      "obMoveSettingsNumber18": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "templateId": "VN_BM_055",
+    "data": {
+      "movementId": "VN_BM_055",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_NORMAL",
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "max_heal",
+      "durationMs": 2500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 3400,
+      "obMoveSettingsNumber18": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "templateId": "VN_BM_056",
+    "data": {
+      "movementId": "VN_BM_056",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_NORMAL",
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "max_shield",
+      "durationMs": 2500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 3400,
+      "obMoveSettingsNumber18": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "templateId": "VN_BM_057",
+    "data": {
+      "movementId": "VN_BM_057",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_NORMAL",
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "max_heal",
+      "durationMs": 2500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 3400,
+      "obMoveSettingsNumber18": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "templateId": "VN_BM_058",
+    "data": {
+      "movementId": "VN_BM_058",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_NORMAL",
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "max_shield",
+      "durationMs": 2500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 3400,
+      "obMoveSettingsNumber18": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "templateId": "VN_BM_059",
+    "data": {
+      "movementId": "VN_BM_059",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_NORMAL",
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "max_heal",
+      "durationMs": 2500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 3400,
+      "obMoveSettingsNumber18": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "templateId": "VN_BM_060",
+    "data": {
+      "movementId": "VN_BM_060",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_STEEL",
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "max_behemoth_blade",
+      "durationMs": 2500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 3400,
+      "obMoveSettingsNumber18": [
+        250,
+        300,
+        350,
+        450
+      ]
+    }
+  },
+  {
+    "templateId": "VN_BM_061",
+    "data": {
+      "movementId": "VN_BM_061",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_STEEL",
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "max_behemoth_bash",
+      "durationMs": 2500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 3400,
+      "obMoveSettingsNumber18": [
+        250,
+        300,
+        350,
+        450
+      ]
+    }
+  },
+  {
+    "templateId": "VN_BM_062",
+    "data": {
+      "movementId": "VN_BM_062",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_DRAGON",
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "max_dynamax_cannon",
+      "durationMs": 2500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 3400,
+      "obMoveSettingsNumber18": [
+        350,
+        400,
+        450,
+        550
+      ]
+    }
+  }
+]

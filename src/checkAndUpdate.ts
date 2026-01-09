@@ -2,7 +2,10 @@ import fs from 'fs';
 import path from 'path';
 import { isDev } from './config.js';
 import { fetchGameMaster, fetchTimestamp } from './fetchGameMaster.js';
-import { GameMaster, parseGameMaster } from './parseGameMaster.js';
+import { GameMaster } from './gameMasterType.js';
+import { parseGameMaster } from './parseGameMaster.js';
+
+import 'utilitish';
 
 const META_DIR = 'meta';
 const DATA_DIR = 'data';
@@ -28,8 +31,12 @@ async function main() {
 
     const gameMaster: GameMaster = await fetchGameMaster();
     const parsedData = parseGameMaster(gameMaster);
+    Object.keys(parsedData).forEach((key) => {
+        const fileName = key.kebabCase() + '.json';
+        fs.writeFileSync(path.join(DATA_DIR, fileName), JSON.stringify(parsedData[key], null, 2));
+    });
 
-    fs.writeFileSync(path.join(DATA_DIR, 'parsed-data.json'), JSON.stringify(parsedData, null, 2));
+    // fs.writeFileSync(path.join(DATA_DIR, 'parsed-data.json'), JSON.stringify(parsedData, null, 2));
 
     if (!isDev) {
         fs.writeFileSync(

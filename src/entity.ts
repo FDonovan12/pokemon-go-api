@@ -1,17 +1,39 @@
-// ===== INTERFACES MÉTIER SPÉCIALISÉES =====
-// Base commune pour toutes les données
-export interface Setting {
-    [key: string]: unknown;
+import { GameMasterKey } from './gameMasterType.js';
+
+export interface AttackMove {
+    movementId: string;
+    animationId: number;
+    pokemonType: string;
+    power: number;
+    energyDelta: number;
+    accuracyChance: number;
+    staminaLossScalar: number;
+    trainerLevelMin: number;
+    trainerLevelMax: number;
+    vfxName: string;
+    durationMs: number;
+    damageWindowStartMs: number;
+    damageWindowEndMs: number;
 }
 
-// Ajouter vos interfaces spécialisées ici au fur et à mesure
-export interface MoveSettingsData extends Setting {
-    energy: number;
-    damage: number;
+export interface DynamaxMove {
+    movementId: string;
+    animationId: number;
+    pokemonType: string;
+    obMoveSettingsNumber18: number[];
+    accuracyChance: number;
+    staminaLossScalar: number;
+    trainerLevelMin: number;
+    trainerLevelMax: number;
+    vfxName: string;
+    durationMs: number;
+    damageWindowStartMs: number;
+    damageWindowEndMs: number;
 }
 
-// ===== MAPPING CLÉS -> TYPES SPÉCIALISÉS =====
-// Étendre cette interface avec vos nouvelles clés métier
-export interface GameMasterSpecializedDataTypes {
-    moveSettings: MoveSettingsData;
+export type MoveSettings = AttackMove | DynamaxMove;
+
+export const keysResult: GameMasterKey[] = ['moveSettings'];
+export interface SpecializedDataTypeMap {
+    moveSettings: MoveSettings;
 }

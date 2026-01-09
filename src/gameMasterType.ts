@@ -1,71 +1,47 @@
-import { GameMasterSpecializedDataTypes, Setting } from './entity.js';
+import { SpecializedDataTypeMap } from './entity.js';
 import { GAME_MASTER_KEYS } from './gameMasterKeys.js';
 
-// ===== TYPES DE BASE =====
-
-export type GameMasterKey = (typeof GAME_MASTER_KEYS)[number];
-
-// ===== INTERFACES MÉTIER SPÉCIALISÉES =====
-// Base commune pour toutes les données
-
-type GameMasterDataTypes = {
-    [K in GameMasterKey]: K extends keyof GameMasterSpecializedDataTypes
-        ? GameMasterSpecializedDataTypes[K]
-        : Setting;
-};
-
-// ===== TYPES DE TRANSFORMATION =====
-
-/** Élément groupé par clé avec type de data spécialisé */
-export type GameMasterItemByKey<K extends GameMasterKey = GameMasterKey> = {
-    templateId: string;
-    data: GameMasterDataTypes[K];
-};
-
-/** Résultat final: objet mappant chaque clé à une liste d'items */
-export type GameMasterByKey = {
-    [K in GameMasterKey]?: GameMasterItemByKey<K>[];
-};
-
-// ===== TYPES SOURCE =====
-
-/** Structure brute d'un item du GameMaster */
 export interface GameMasterItem {
     templateId: string;
     data: {
         templateId: string;
-        [key: string]: unknown; // Une seule clé métier parmi les 192 possibles
+        [key: string]: unknown;
     };
 }
 
-/** Liste brute d'items */
 export type GameMaster = GameMasterItem[];
 
-// ===== FONCTION DE TRANSFORMATION =====
+export type GameMasterKey = (typeof GAME_MASTER_KEYS)[number];
 
-/**
- * Transforme une liste plate d'items en un objet groupé par clé métier
- *
- * @param gameMaster - Liste des items bruts
- * @returns Objet avec les 192 clés, chacune contenant un tableau d'items transformés
- */
+export type DataTypeByKey = {
+    [K in GameMasterKey]: K extends keyof SpecializedDataTypeMap
+        ? SpecializedDataTypeMap[K]
+        : Record<string, unknown>;
+};
+
+export type GameMasterItemByKey<K extends GameMasterKey = GameMasterKey> = {
+    templateId: string;
+    data: DataTypeByKey[K];
+};
+
+export type GameMasterByKey = {
+    [K in GameMasterKey]?: GameMasterItemByKey<K>[];
+};
+
 export function groupGameMaster(gameMaster: GameMaster): GameMasterByKey {
     const result: GameMasterByKey = {};
 
     for (const item of gameMaster) {
-        // Extraire la clé métier (unique autre que templateId)
         const key = Object.keys(item.data).find((k) => k !== 'templateId') as
             | GameMasterKey
             | undefined;
 
         if (!key) continue;
 
-        // Initialiser le tableau pour cette clé si nécessaire
         if (!result[key]) {
             result[key] = [];
         }
 
-        // Transformer l'item: mettre le contenu de data[key] comme nouvelle data
         const newItem = {
             templateId: item.templateId,
             data: item.data[key],
@@ -75,4 +51,25 @@ export function groupGameMaster(gameMaster: GameMaster): GameMasterByKey {
     }
 
     return result;
+}
+
+export enum PokemonType {
+    PokemonTypeBug = 'POKEMON_TYPE_BUG',
+    PokemonTypeDark = 'POKEMON_TYPE_DARK',
+    PokemonTypeDragon = 'POKEMON_TYPE_DRAGON',
+    PokemonTypeElectric = 'POKEMON_TYPE_ELECTRIC',
+    PokemonTypeFairy = 'POKEMON_TYPE_FAIRY',
+    PokemonTypeFighting = 'POKEMON_TYPE_FIGHTING',
+    PokemonTypeFire = 'POKEMON_TYPE_FIRE',
+    PokemonTypeFlying = 'POKEMON_TYPE_FLYING',
+    PokemonTypeGhost = 'POKEMON_TYPE_GHOST',
+    PokemonTypeGrass = 'POKEMON_TYPE_GRASS',
+    PokemonTypeGround = 'POKEMON_TYPE_GROUND',
+    PokemonTypeIce = 'POKEMON_TYPE_ICE',
+    PokemonTypeNormal = 'POKEMON_TYPE_NORMAL',
+    PokemonTypePoison = 'POKEMON_TYPE_POISON',
+    PokemonTypePsychic = 'POKEMON_TYPE_PSYCHIC',
+    PokemonTypeRock = 'POKEMON_TYPE_ROCK',
+    PokemonTypeSteel = 'POKEMON_TYPE_STEEL',
+    PokemonTypeWater = 'POKEMON_TYPE_WATER',
 }
