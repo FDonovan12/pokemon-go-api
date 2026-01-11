@@ -5,10 +5,11 @@ import {
     GameMasterKey,
     groupGameMaster,
 } from './gameMasterType.js';
+import { saveRawAndGenerateTypes } from './saveRawData.js';
 
 export function parseGameMaster(_gameMaster: GameMaster): Record<string, unknown> {
     const gameMasterByKey: GameMasterByKey = groupGameMaster(_gameMaster);
-
+    saveRawAndGenerateTypes(gameMasterByKey, 'data/raw/');
     const extractedData = partitionAndExtract(gameMasterByKey, rulesByKey);
 
     return {
@@ -19,11 +20,15 @@ export function parseGameMaster(_gameMaster: GameMaster): Record<string, unknown
 export type RuleDefinition<K extends GameMasterKey> = {
     test: (item: GameMasterItemByKey<K>) => boolean;
     transform?: (item: GameMasterItemByKey<K>) => any;
+    output?: {
+        format: 'map' | 'list';
+        keyBy?: string;
+    };
 };
 
 export type ExtractionRules = {
     [K in GameMasterKey]?: {
-        [resultKey: string]: RuleDefinition<K> | ((item: GameMasterItemByKey<K>) => boolean);
+        [resultKey: string]: RuleDefinition<K>;
     };
 };
 
@@ -31,7 +36,7 @@ function partitionAndExtract(
     source: GameMasterByKey,
     rules: ExtractionRules
 ): Record<string, any[]> {
-    const result: Record<string, any[]> = {};
+    const result: Record<string, any> = {};
 
     for (const key in rules) {
         const currentKey = key as GameMasterKey;
@@ -43,24 +48,41 @@ function partitionAndExtract(
         const remaining: GameMasterItemByKey<any>[] = [];
 
         for (const item of items) {
-            let matched = false;
+            let matchedAtLeastOnce = false;
+            const entries = Object.entries(keyRules) as [
+                string,
+                RuleDefinition<typeof currentKey>
+            ][];
 
-            for (const [resKey, rule] of Object.entries(keyRules)) {
-                const predicate = typeof rule === 'function' ? rule : rule.test;
-                const transform = typeof rule === 'object' ? rule.transform : undefined;
+            for (const [resKey, rule] of entries) {
+                const predicate = rule.test;
 
                 if ((predicate as (i: any) => boolean)(item)) {
-                    if (!result[resKey]) result[resKey] = [];
+                    matchedAtLeastOnce = true;
+
+                    const transform = rule.transform;
+                    const configOutput = rule.output ?? { format: 'list' };
 
                     const dataToPush = transform ? transform(item) : item;
 
-                    result[resKey].push(dataToPush);
-                    matched = true;
-                    break;
+                    if (configOutput.format === 'map' && configOutput.keyBy) {
+                        if (!result[resKey]) result[resKey] = {};
+
+                        const id = dataToPush[configOutput.keyBy];
+                        if (id !== undefined) {
+                            result[resKey][id] = dataToPush;
+                        }
+                    } else {
+                        if (!result[resKey]) result[resKey] = [];
+                        result[resKey].push(dataToPush);
+                    }
+
+                    matchedAtLeastOnce = true;
+                    break; // Remove when one objet can be use in multiple files
                 }
             }
 
-            if (!matched) {
+            if (!matchedAtLeastOnce) {
                 remaining.push(item);
             }
         }
@@ -118,10 +140,18 @@ const rulesByKey: ExtractionRules = {
                 type: move.data.type,
                 type2: move.data.type2,
                 stats: move.data.stats,
-                quickMoves: move.data.quickMoves,
+                quickMoves: move.data.quickMoves ?? [],
                 cinematicMoves: move.data.cinematicMoves,
+                eliteQuickMove: move.data.eliteQuickMove,
+                eliteCinematicMove: move.data.eliteCinematicMove,
                 evolutionIds: move.data.evolutionIds,
                 familyId: move.data.familyId,
+                pokemonClass: move.data.pokemonClass,
+                nonTmCinematicMoves: move.data.nonTmCinematicMoves,
+                encounter: {
+                    stardustCaptureReward:
+                        (move.data.encounter.bonusStardustCaptureReward ?? 0) + 100,
+                },
             }),
         },
     },
