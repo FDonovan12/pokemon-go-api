@@ -1318,6 +1318,126 @@
     "familyId": "FAMILY_PIKACHU"
   },
   {
+    "id": "V0025_POKEMON_PIKACHU_GOTOUR_2026_A",
+    "pokemonId": "PIKACHU",
+    "type": "POKEMON_TYPE_ELECTRIC",
+    "stats": {
+      "baseStamina": 111,
+      "baseAttack": 112,
+      "baseDefense": 96
+    },
+    "quickMoves": [
+      "THUNDER_SHOCK_FAST",
+      "QUICK_ATTACK_FAST"
+    ],
+    "cinematicMoves": [
+      "DISCHARGE",
+      "THUNDERBOLT",
+      "WILD_CHARGE"
+    ],
+    "familyId": "FAMILY_PIKACHU"
+  },
+  {
+    "id": "V0025_POKEMON_PIKACHU_GOTOUR_2026_A_02",
+    "pokemonId": "PIKACHU",
+    "type": "POKEMON_TYPE_ELECTRIC",
+    "stats": {
+      "baseStamina": 111,
+      "baseAttack": 112,
+      "baseDefense": 96
+    },
+    "quickMoves": [
+      "THUNDER_SHOCK_FAST",
+      "QUICK_ATTACK_FAST"
+    ],
+    "cinematicMoves": [
+      "DISCHARGE",
+      "THUNDERBOLT",
+      "WILD_CHARGE"
+    ],
+    "familyId": "FAMILY_PIKACHU"
+  },
+  {
+    "id": "V0025_POKEMON_PIKACHU_GOTOUR_2026_B",
+    "pokemonId": "PIKACHU",
+    "type": "POKEMON_TYPE_ELECTRIC",
+    "stats": {
+      "baseStamina": 111,
+      "baseAttack": 112,
+      "baseDefense": 96
+    },
+    "quickMoves": [
+      "THUNDER_SHOCK_FAST",
+      "QUICK_ATTACK_FAST"
+    ],
+    "cinematicMoves": [
+      "DISCHARGE",
+      "THUNDERBOLT",
+      "WILD_CHARGE"
+    ],
+    "familyId": "FAMILY_PIKACHU"
+  },
+  {
+    "id": "V0025_POKEMON_PIKACHU_GOTOUR_2026_B_02",
+    "pokemonId": "PIKACHU",
+    "type": "POKEMON_TYPE_ELECTRIC",
+    "stats": {
+      "baseStamina": 111,
+      "baseAttack": 112,
+      "baseDefense": 96
+    },
+    "quickMoves": [
+      "THUNDER_SHOCK_FAST",
+      "QUICK_ATTACK_FAST"
+    ],
+    "cinematicMoves": [
+      "DISCHARGE",
+      "THUNDERBOLT",
+      "WILD_CHARGE"
+    ],
+    "familyId": "FAMILY_PIKACHU"
+  },
+  {
+    "id": "V0025_POKEMON_PIKACHU_GOTOUR_2026_C",
+    "pokemonId": "PIKACHU",
+    "type": "POKEMON_TYPE_ELECTRIC",
+    "stats": {
+      "baseStamina": 111,
+      "baseAttack": 112,
+      "baseDefense": 96
+    },
+    "quickMoves": [
+      "THUNDER_SHOCK_FAST",
+      "QUICK_ATTACK_FAST"
+    ],
+    "cinematicMoves": [
+      "DISCHARGE",
+      "THUNDERBOLT",
+      "WILD_CHARGE"
+    ],
+    "familyId": "FAMILY_PIKACHU"
+  },
+  {
+    "id": "V0025_POKEMON_PIKACHU_GOTOUR_2026_C_02",
+    "pokemonId": "PIKACHU",
+    "type": "POKEMON_TYPE_ELECTRIC",
+    "stats": {
+      "baseStamina": 111,
+      "baseAttack": 112,
+      "baseDefense": 96
+    },
+    "quickMoves": [
+      "THUNDER_SHOCK_FAST",
+      "QUICK_ATTACK_FAST"
+    ],
+    "cinematicMoves": [
+      "DISCHARGE",
+      "THUNDERBOLT",
+      "WILD_CHARGE"
+    ],
+    "familyId": "FAMILY_PIKACHU"
+  },
+  {
     "id": "V0025_POKEMON_PIKACHU_HORIZONS",
     "pokemonId": "PIKACHU",
     "type": "POKEMON_TYPE_ELECTRIC",
