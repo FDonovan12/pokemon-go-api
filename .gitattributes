@@ -1,0 +1,3 @@
+*.json linguist-generated=true
+data/api/types.ts linguist-generated=true
+data/raw/types.ts linguist-generated=true

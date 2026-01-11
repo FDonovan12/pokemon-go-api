@@ -2,7 +2,7 @@ name: Update Game Master
 
 on:
     schedule:
-        - cron: '0 */6 * * *'
+        - cron: '0 */6 * * *' # Toutes les 6 heures
     workflow_dispatch:
 
 permissions:
@@ -13,22 +13,47 @@ jobs:
         runs-on: ubuntu-latest
 
         steps:
-            - uses: actions/checkout@v4
+            - name: Checkout Source Code
+              uses: actions/checkout@v4
 
-            - uses: actions/setup-node@v4
+            - name: Setup Node.js
+              uses: actions/setup-node@v4
               with:
                   node-version: 20
+                  cache: 'npm'
 
-            - run: npm install
-            - run: npm run update
+            - name: Install dependencies
+              run: npm install
 
-            - run: |
-                  if [[ `git status --porcelain` ]]; then
-                    git config user.name "pogo-bot"
-                    git config user.email "bot@users.noreply.github.com"
+            - name: Run Update Script
+              run: npm run update # Ce script génère tes dossiers data/raw et data/api
+
+            - name: Deploy to api-dist branch
+              run: |
+                  git config user.name "pogo-bot"
+                  git config user.email "bot@users.noreply.github.com"
+
+                  # On se concentre uniquement sur les dossiers de sortie (ex: data/)
+                  if [[ -n $(git status --porcelain data/) ]]; then
+                    
+                    mkdir -p /tmp/generated_data
+                    cp -r data/* /tmp/generated_data/
+
+                    git fetch origin api-dist || true
+                    if git show-ref --verify --quiet refs/remotes/origin/api-dist; then
+                      git checkout api-dist
+                    else
+                      git checkout --orphan api-dist
+                    fi
+
+                    git rm -rf .
+                    cp -r /tmp/generated_data/* .
+                    
                     git add .
-                    git commit -m "Update Game Master"
-                    git push
+                    git commit -m "Update Game Master Data & Types - $(date +'%Y-%m-%d %H:%M')"
+                    git push origin api-dist --force
+                    
+                    echo "Data pushed to api-dist branch."
                   else
-                    echo "No changes to commit"
+                    echo "No changes detected in data. Skipping deployment."
                   fi
