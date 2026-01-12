@@ -47,13 +47,26 @@ jobs:
               run: |
                   if [[ -n $(git status --porcelain data/) ]]; then
 
+                    echo "📦 Backup generated data"
+                    rm -rf /tmp/generated_data
                     mkdir -p /tmp/generated_data
                     cp -r data/* /tmp/generated_data/
 
-                    git fetch origin api-dist || true
-                    git checkout api-dist || git checkout --orphan api-dist
+                    echo "🧹 Clean workspace before branch switch"
+                    git reset --hard
+                    git clean -fd
 
-                    git rm -rf . > /dev/null
+                    git fetch origin api-dist || true
+                    if git show-ref --verify --quiet refs/remotes/origin/api-dist; then
+                      git checkout api-dist
+                    else
+                      git checkout --orphan api-dist
+                    fi
+
+                    echo "🗑️ Remove old api-dist content"
+                    git rm -rf . > /dev/null || true
+
+                    echo "🚚 Restore generated data"
                     cp -r /tmp/generated_data/* .
 
                     git add .
