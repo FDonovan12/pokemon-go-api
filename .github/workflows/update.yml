@@ -51,7 +51,7 @@ jobs:
                     
                     git add .
                     git commit -m "Update Game Master Data & Types - $(date +'%Y-%m-%d %H:%M')"
-                    git push origin api-dist --force
+                    git push origin api-dist
                     
                     echo "Data pushed to api-dist branch."
                   else
