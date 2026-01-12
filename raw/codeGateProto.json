@@ -1,0 +1,77 @@
+[
+  {
+    "templateId": "BATTLE_ACCESSIBILITY_CODE_GATE",
+    "data": {
+      "isEnabled": true,
+      "subCodeGateList": {
+        "name": "show_move_effectiveness",
+        "isEnabled": true
+      }
+    }
+  },
+  {
+    "templateId": "BATTLE_REWARDS_CODE_GATE",
+    "data": {
+      "isEnabled": true,
+      "subCodeGateList": {
+        "name": "UNLIMITED_PLAYER_ACTIVITY_REWARDS_SUB_CODE_GATE"
+      }
+    }
+  },
+  {
+    "templateId": "COMBAT_VNEXT_CODE_GATE",
+    "data": {
+      "isEnabled": true,
+      "subCodeGateList": {
+        "name": "LEADER_VNEXT_CODE_GATE",
+        "isEnabled": true
+      }
+    }
+  },
+  {
+    "templateId": "IBFC_LWS_CODE_GATE",
+    "data": {
+      "isEnabled": true
+    }
+  },
+  {
+    "templateId": "INPUT_TRACKER_CODE_GATE",
+    "data": {
+      "isEnabled": true,
+      "subCodeGateList": {
+        "name": "trade_sub_code_gate",
+        "isEnabled": true
+      }
+    }
+  },
+  {
+    "templateId": "MAP_THEME_LOW_PERF_CODE_GATE",
+    "data": {
+      "isEnabled": true
+    }
+  },
+  {
+    "templateId": "PARTY_PLAY_GET_PARTY_REMOVE_ORIGINAL_CODE_GATE",
+    "data": {
+      "isEnabled": true
+    }
+  },
+  {
+    "templateId": "PARTY_TAB_SOCIAL_TAB_REORGANIZATION_CODE_GATE",
+    "data": {
+      "isEnabled": true
+    }
+  },
+  {
+    "templateId": "PUSH_GATEWAY_MULTI_ACTION_CODE_GATE",
+    "data": {
+      "isEnabled": true
+    }
+  },
+  {
+    "templateId": "USE_EXTENDED_SETTINGS_FOR_MAX_SCALE_CODE_GATE",
+    "data": {
+      "isEnabled": true
+    }
+  }
+]

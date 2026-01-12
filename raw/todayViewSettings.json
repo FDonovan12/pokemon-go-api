@@ -1,0 +1,10 @@
+[
+  {
+    "templateId": "TODAY_VIEW_SETTINGS_V2",
+    "data": {
+      "pinClaimableQuestEnabled": true,
+      "notificationServerAuthoritative": true,
+      "favoriteQuestEnabled": true
+    }
+  }
+]

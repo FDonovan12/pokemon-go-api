@@ -1,0 +1,14 @@
+[
+  {
+    "templateId": "REMOTE_TRADE_SETTINGS",
+    "data": {
+      "enabled": true,
+      "requestedPokemonCount": 3,
+      "pokemonUntradableDays": 30,
+      "maxRemoteTradesPerDay": 1,
+      "taggingUnlockPointThreshold": 85,
+      "tradeExpiryReminderMinutes": 1440,
+      "timeLimitMinutes": 2880
+    }
+  }
+]

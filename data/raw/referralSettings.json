@@ -1,0 +1,29 @@
+[
+  {
+    "templateId": "REFERRAL_SETTINGS",
+    "data": {
+      "featureEnabled": true,
+      "recentFeatures": [
+        {
+          "iconType": "XP",
+          "featureName": "welcome_level_up_faster_name",
+          "description": "welcome_level_up_faster_desc"
+        },
+        {
+          "iconType": 37,
+          "featureName": "feature_max_battle_name",
+          "description": "welcome_max_battle_desc"
+        },
+        {
+          "iconType": "RAID",
+          "featureName": "welcome_remote_raid_name",
+          "description": "welcome_remote_raid_desc"
+        }
+      ],
+      "addReferrerGracePeriodMs": "259200000",
+      "minNumDaysWithoutSessionForLapsedPlayer": 90,
+      "deepLinkUrl": "https://pokemongolive.com/refer?code={0}&source={1}",
+      "imageShareReferralEnabled": true
+    }
+  }
+]

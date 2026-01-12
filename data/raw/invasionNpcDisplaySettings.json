@@ -1,0 +1,1192 @@
+[
+  {
+    "templateId": "CHARACTER_BLANCHE",
+    "data": {
+      "trainerName": "combat_blanche",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_blanche_title",
+      "trainerQuote": "combat_blanche_quote",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "backdropImageBundle": "combat_blanche_backdrop",
+      "modelName": "combat_blanche"
+    }
+  },
+  {
+    "templateId": "CHARACTER_BUG_GRUNT_FEMALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_bug",
+      "iconUrl": "https://prodholoholo-public-images.nianticlabs.com/Icon_Blanche.png",
+      "modelName": "f_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_bug",
+      "tipsType": "POKEMON_TYPE_BUG"
+    }
+  },
+  {
+    "templateId": "CHARACTER_BUG_GRUNT_MALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_bug",
+      "iconUrl": "https://prodholoholo-public-images.nianticlabs.com/Icon_Blanche.png",
+      "modelName": "m_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_bug",
+      "isMale": true,
+      "tipsType": "POKEMON_TYPE_BUG"
+    }
+  },
+  {
+    "templateId": "CHARACTER_CANDELA",
+    "data": {
+      "trainerName": "combat_candela",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_candela_title",
+      "trainerQuote": "combat_candela_quote",
+      "iconUrl": "https://prodholoholo-public-images.nianticlabs.com/Icon_Candela.png",
+      "backdropImageBundle": "combat_candela_backdrop",
+      "modelName": "combat_candela"
+    }
+  },
+  {
+    "templateId": "CHARACTER_DARK_GRUNT_FEMALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_dark",
+      "iconUrl": "https://prodholoholo-public-images.nianticlabs.com/Icon_Blanche.png",
+      "modelName": "f_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_dark",
+      "tipsType": "POKEMON_TYPE_DARK"
+    }
+  },
+  {
+    "templateId": "CHARACTER_DARK_GRUNT_MALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_dark",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "m_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_dark",
+      "isMale": true,
+      "tipsType": "POKEMON_TYPE_DARK"
+    }
+  },
+  {
+    "templateId": "CHARACTER_DECOY_GRUNT_FEMALE",
+    "data": {
+      "trainerName": "combat_grunt_decoy_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_decoy_title",
+      "trainerQuote": "combat_grunt_decoy_quote",
+      "iconUrl": "https://prodholoholo-public-images.nianticlabs.com/Icon_Blanche.png",
+      "modelName": "f_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_normal"
+    }
+  },
+  {
+    "templateId": "CHARACTER_DECOY_GRUNT_MALE",
+    "data": {
+      "trainerName": "combat_grunt_decoy_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_decoy_title",
+      "trainerQuote": "combat_grunt_decoy_quote",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "m_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_normal",
+      "isMale": true
+    }
+  },
+  {
+    "templateId": "CHARACTER_DRAGON_GRUNT_FEMALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_dragon",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "f_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_dragon",
+      "tipsType": "POKEMON_TYPE_DRAGON"
+    }
+  },
+  {
+    "templateId": "CHARACTER_DRAGON_GRUNT_MALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_dragon",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "m_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_dragon",
+      "isMale": true,
+      "tipsType": "POKEMON_TYPE_DRAGON"
+    }
+  },
+  {
+    "templateId": "CHARACTER_ELECTRIC_GRUNT_FEMALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_electric",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "f_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_electric",
+      "tipsType": "POKEMON_TYPE_ELECTRIC"
+    }
+  },
+  {
+    "templateId": "CHARACTER_ELECTRIC_GRUNT_MALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_electric",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "m_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_electric",
+      "isMale": true,
+      "tipsType": "POKEMON_TYPE_ELECTRIC"
+    }
+  },
+  {
+    "templateId": "CHARACTER_EVENT_ARLO_UNTICKETED",
+    "data": {
+      "trainerName": "combat_arlo_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_arlo_title",
+      "trainerQuote": "combat_arlo_quote",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Arlo.png",
+      "modelName": "combat_execred",
+      "tutorialOnLossString": "type_tutorial_steel",
+      "isMale": true
+    }
+  },
+  {
+    "templateId": "CHARACTER_EVENT_CLIFF_UNTICKETED",
+    "data": {
+      "trainerName": "combat_cliff_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_cliff_title",
+      "trainerQuote": "combat_cliff_quote",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Cliff.png",
+      "modelName": "combat_execblue",
+      "tutorialOnLossString": "type_tutorial_rock",
+      "isMale": true
+    }
+  },
+  {
+    "templateId": "CHARACTER_EVENT_GIOVANNI_UNTICKETED",
+    "data": {
+      "trainerName": "combat_giovanni_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_giovanni_title",
+      "trainerQuote": "combat_giovanni_quote",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Giovanni.png",
+      "modelName": "combat_giovanni",
+      "tutorialOnLossString": "type_tutorial_ground",
+      "isMale": true
+    }
+  },
+  {
+    "templateId": "CHARACTER_EVENT_NPC_0",
+    "data": {
+      "trainerName": "event_fashion_week_sept21_npc00_title",
+      "avatar": {
+        "skin": 8,
+        "avatarHair": "AVATAR_m_hair_default_2",
+        "avatarShirt": "AVATAR_m_shirt_acetrainersm",
+        "avatarPants": "AVATAR_m_pants_skinnyjeans_0",
+        "avatarHat": "AVATAR_m_hat_default_1",
+        "avatarShoes": "AVATAR_m_shoes_acetrainersm",
+        "avatarEyes": "AVATAR_m_eyes_3",
+        "avatarBackpack": "AVATAR_m_backpack_guitarcasebackpack",
+        "avatarGloves": "AVATAR_m_gloves_swshuniformdragon",
+        "avatarSocks": "AVATAR_m_socks_empty",
+        "avatarBelt": "AVATAR_m_belt_empty",
+        "avatarGlasses": "AVATAR_m_glasses_empty",
+        "avatarNecklace": "AVATAR_m_necklace_empty",
+        "avatarPose": "AVATAR_m_pose_02",
+        "avatarFace": "AVATAR_m_face_empty"
+      },
+      "trainerTitle": "event_fashion_challenger_title",
+      "trainerQuote": "event_fashion_week_sept21_npc00_combat_quote",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Spark.png",
+      "backdropImageBundle": "combat_spark_backdrop",
+      "modelName": "player_male",
+      "tutorialOnLossString": "event_gotour_2021_npc00_victory__male_speaker",
+      "isMale": true,
+      "customIncidentMusic": "CombatLeaguePickerMusic",
+      "customCombatMusic": "CombatMusic"
+    }
+  },
+  {
+    "templateId": "CHARACTER_EVENT_NPC_1",
+    "data": {
+      "trainerName": "event_fashion_week_sept21_npc01_title",
+      "avatar": {
+        "skin": 3,
+        "avatar": 1,
+        "avatarHair": "AVATAR_f_hair_default_4",
+        "avatarShirt": "AVATAR_f_shirt_teamaqua",
+        "avatarPants": "AVATAR_f_pants_ultra_0",
+        "avatarHat": "AVATAR_f_hat_sylveonitems",
+        "avatarShoes": "AVATAR_f_shoes_sylveonitems",
+        "avatarEyes": "AVATAR_f_eyes_3",
+        "avatarBackpack": "AVATAR_f_backpack_default_3",
+        "avatarGloves": "AVATAR_f_gloves_default_0",
+        "avatarSocks": "AVATAR_f_socks_teamaqua",
+        "avatarBelt": "AVATAR_f_belt_empty",
+        "avatarGlasses": "AVATAR_f_glasses_empty",
+        "avatarNecklace": "AVATAR_f_necklace_empty",
+        "avatarPose": "AVATAR_f_pose_10",
+        "avatarFace": "AVATAR_f_face_empty"
+      },
+      "trainerTitle": "event_fashion_challenger_title",
+      "trainerQuote": "event_fashion_week_sept21_npc01_combat_quote",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "backdropImageBundle": "combat_blanche_backdrop",
+      "modelName": "player_female",
+      "tutorialOnLossString": "event_gotour_2021_npc00_victory__female_speaker",
+      "isMale": true,
+      "customIncidentMusic": "CombatLeaguePickerMusic",
+      "customCombatMusic": "CombatMusic"
+    }
+  },
+  {
+    "templateId": "CHARACTER_EVENT_NPC_10",
+    "data": {
+      "trainerName": "gotoursik_elitefour_d_name",
+      "avatar": {
+        "skin": 3,
+        "avatar": 1,
+        "avatarHair": "AVATAR_f_hair_default_19",
+        "avatarShirt": "AVATAR_f_shirt_battlegirl_0",
+        "avatarPants": "AVATAR_f_pants_acetrainerbw",
+        "avatarHat": "AVATAR_f_hat_pkmncap_1",
+        "avatarShoes": "AVATAR_f_shoes_pikachulibre",
+        "avatarEyes": "AVATAR_f_eyes_3",
+        "avatarBackpack": "AVATAR_f_backpack_snapcamera",
+        "avatarGloves": "AVATAR_f_gloves_frlg_0",
+        "avatarSocks": "AVATAR_f_socks_empty",
+        "avatarBelt": "AVATAR_f_belt_empty",
+        "avatarGlasses": "AVATAR_f_glasses_teardrop_0",
+        "avatarNecklace": "AVATAR_f_necklace_empty",
+        "avatarPose": "AVATAR_f_pose_05",
+        "avatarFace": "AVATAR_f_face_empty"
+      },
+      "trainerTitle": "gotoursik_elitefour_title",
+      "trainerQuote": "gotoursik_elitefour_d_quote",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Spark.png",
+      "backdropImageBundle": "combat_spark_backdrop",
+      "modelName": "player_female",
+      "tutorialOnLossString": "type_tutorial_fire",
+      "customIncidentMusic": "CombatLeaguePickerMusic",
+      "customCombatMusic": "GoTour2022Music02"
+    }
+  },
+  {
+    "templateId": "CHARACTER_EVENT_NPC_2",
+    "data": {
+      "trainerName": "event_fashion_week_sept21_npc02_title",
+      "avatar": {
+        "skin": 5,
+        "avatar": 1,
+        "avatarHair": "AVATAR_m_hair_default_2",
+        "avatarShirt": "AVATAR_m_shirt_pkmnshirts_201",
+        "avatarPants": "AVATAR_m_pants_teamcandela",
+        "avatarHat": "AVATAR_m_hat_munnapack_1",
+        "avatarShoes": "AVATAR_m_shoes_registeeljersies",
+        "avatarEyes": "AVATAR_m_eyes_3",
+        "avatarBackpack": "AVATAR_m_backpack_guitarcasebackpack",
+        "avatarGloves": "AVATAR_m_gloves_default_0",
+        "avatarSocks": "AVATAR_m_socks_default_0",
+        "avatarGlasses": "AVATAR_m_glasses_3d",
+        "avatarPose": "AVATAR_m_pose_31",
+        "avatarFace": "AVATAR_m_face_empty"
+      },
+      "trainerTitle": "event_fashion_challenger_title",
+      "trainerQuote": "event_fashion_week_sept21_npc02_combat_quote",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Spark.png",
+      "backdropImageBundle": "combat_spark_backdrop",
+      "modelName": "player_female",
+      "tutorialOnLossString": "event_gotour_2021_npc00_victory__male_speaker",
+      "customIncidentMusic": "CombatLeaguePickerMusic",
+      "customCombatMusic": "CombatMusic"
+    }
+  },
+  {
+    "templateId": "CHARACTER_EVENT_NPC_3",
+    "data": {
+      "trainerName": "event_fashion_week_sept21_npc03_title",
+      "avatar": {
+        "skin": 3,
+        "avatar": 1,
+        "avatarHair": "AVATAR_m_hair_default_10",
+        "avatarShirt": "AVATAR_m_shirt_mewtwo",
+        "avatarPants": "AVATAR_m_pants_mewtwo",
+        "avatarHat": "AVATAR_m_hat_empty",
+        "avatarShoes": "AVATAR_m_shoes_mewtwo",
+        "avatarEyes": "AVATAR_m_eyes_3",
+        "avatarBackpack": "AVATAR_m_backpack_empty",
+        "avatarGloves": "AVATAR_m_gloves_default_0",
+        "avatarSocks": "AVATAR_m_socks_default_0",
+        "avatarGlasses": "AVATAR_m_glasses_roundsunglasses",
+        "avatarPose": "AVATAR_m_pose_empty",
+        "avatarFace": "AVATAR_m_face_empty"
+      },
+      "trainerTitle": "event_fashion_challenger_title",
+      "trainerQuote": "event_fashion_week_sept21_npc03_combat_quote",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Spark.png",
+      "backdropImageBundle": "combat_spark_backdrop",
+      "modelName": "player_female",
+      "tutorialOnLossString": "event_gotour_2021_npc00_victory__male_speaker",
+      "customIncidentMusic": "CombatLeaguePickerMusic",
+      "customCombatMusic": "CombatMusic"
+    }
+  },
+  {
+    "templateId": "CHARACTER_EVENT_NPC_4",
+    "data": {
+      "trainerName": "event_fashion_week_sept21_npc04_title",
+      "avatar": {
+        "skin": 6,
+        "avatar": 1,
+        "avatarHair": "AVATAR_f_hair_default_8",
+        "avatarShirt": "AVATAR_f_shirt_ruinmaniac",
+        "avatarPants": "AVATAR_f_pants_ultra_0",
+        "avatarHat": "AVATAR_f_hat_laprasbandana",
+        "avatarShoes": "AVATAR_f_shoes_ss",
+        "avatarEyes": "AVATAR_f_eyes_1",
+        "avatarBackpack": "AVATAR_f_backpack_swshdlc2costume",
+        "avatarGloves": "AVATAR_f_gloves_swshdlc2costume",
+        "avatarSocks": "AVATAR_f_socks_swshuniformdefault",
+        "avatarBelt": "AVATAR_f_belt_empty",
+        "avatarGlasses": "AVATAR_f_glasses_empty",
+        "avatarNecklace": "AVATAR_f_necklace_heart_0",
+        "avatarPose": "AVATAR_f_pose_11",
+        "avatarFace": "AVATAR_f_face_empty"
+      },
+      "trainerTitle": "event_fashion_challenger_title",
+      "trainerQuote": "event_fashion_week_sept21_npc04_combat_quote",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Spark.png",
+      "backdropImageBundle": "combat_candela_backdrop",
+      "modelName": "player_female",
+      "tutorialOnLossString": "event_gotour_2021_npc00_victory__female_speaker",
+      "isMale": true,
+      "customIncidentMusic": "CombatLeaguePickerMusic",
+      "customCombatMusic": "CombatMusic"
+    }
+  },
+  {
+    "templateId": "CHARACTER_EVENT_NPC_5",
+    "data": {
+      "trainerName": "event_fashion_week_sept21_npc05_title",
+      "avatar": {
+        "skin": 2,
+        "avatarHair": "AVATAR_m_hair_default_2",
+        "avatarShirt": "AVATAR_m_shirt_pkmnshirts_201",
+        "avatarPants": "AVATAR_m_pants_teamcandela",
+        "avatarHat": "AVATAR_m_hat_munnapack_1",
+        "avatarShoes": "AVATAR_m_shoes_registeeljersies",
+        "avatarEyes": "AVATAR_m_eyes_3",
+        "avatarBackpack": "AVATAR_m_backpack_guitarcasebackpack",
+        "avatarGloves": "AVATAR_m_gloves_default_0",
+        "avatarSocks": "AVATAR_m_socks_default_0",
+        "avatarGlasses": "AVATAR_m_glasses_3d",
+        "avatarPose": "AVATAR_m_pose_31",
+        "avatarFace": "AVATAR_m_face_empty"
+      },
+      "trainerTitle": "event_fashion_challenger_title",
+      "trainerQuote": "event_fashion_week_sept21_npc05_combat_quote",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Spark.png",
+      "backdropImageBundle": "combat_spark_backdrop",
+      "modelName": "player_male",
+      "tutorialOnLossString": "event_gotour_2021_npc00_victory__male_speaker",
+      "isMale": true,
+      "customIncidentMusic": "CombatLeaguePickerMusic",
+      "customCombatMusic": "CombatMusic"
+    }
+  },
+  {
+    "templateId": "CHARACTER_EVENT_NPC_6",
+    "data": {
+      "trainerName": "event_fashion_week_sept21_npc06_title",
+      "avatar": {
+        "skin": 6,
+        "avatar": 1,
+        "avatarHair": "AVATAR_m_hair_default_2",
+        "avatarShirt": "AVATAR_m_shirt_pkmnshirts_201",
+        "avatarPants": "AVATAR_m_pants_teamcandela",
+        "avatarHat": "AVATAR_m_hat_munnapack_1",
+        "avatarShoes": "AVATAR_m_shoes_registeeljersies",
+        "avatarEyes": "AVATAR_m_eyes_3",
+        "avatarBackpack": "AVATAR_m_backpack_guitarcasebackpack",
+        "avatarGloves": "AVATAR_m_gloves_default_0",
+        "avatarSocks": "AVATAR_m_socks_default_0",
+        "avatarGlasses": "AVATAR_m_glasses_3d",
+        "avatarPose": "AVATAR_m_pose_31",
+        "avatarFace": "AVATAR_m_face_empty"
+      },
+      "trainerTitle": "event_wcs_challenger_title",
+      "trainerQuote": "event_fashion_week_sept21_npc06_combat_quote",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "backdropImageBundle": "combat_blanche_backdrop",
+      "modelName": "player_female",
+      "tutorialOnLossString": "event_gotour_2021_npc00_victory__female_speaker",
+      "customIncidentMusic": "CombatLeaguePickerMusic",
+      "customCombatMusic": "CombatMusic"
+    }
+  },
+  {
+    "templateId": "CHARACTER_EVENT_NPC_7",
+    "data": {
+      "trainerName": "event_fashion_week_sept21_npc07_title",
+      "avatar": {
+        "skin": 1,
+        "avatar": 1,
+        "avatarHair": "AVATAR_m_hair_default_10",
+        "avatarShirt": "AVATAR_m_shirt_mewtwo",
+        "avatarPants": "AVATAR_m_pants_mewtwo",
+        "avatarHat": "AVATAR_m_hat_empty",
+        "avatarShoes": "AVATAR_m_shoes_mewtwo",
+        "avatarEyes": "AVATAR_m_eyes_3",
+        "avatarBackpack": "AVATAR_m_backpack_empty",
+        "avatarGloves": "AVATAR_m_gloves_default_0",
+        "avatarSocks": "AVATAR_m_socks_default_0",
+        "avatarGlasses": "AVATAR_m_glasses_roundsunglasses",
+        "avatarPose": "AVATAR_m_pose_empty",
+        "avatarFace": "AVATAR_m_face_empty"
+      },
+      "trainerTitle": "event_wcs_challenger_title",
+      "trainerQuote": "event_fashion_week_sept21_npc07_combat_quote",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Spark.png",
+      "backdropImageBundle": "combat_spark_backdrop",
+      "modelName": "player_female",
+      "tutorialOnLossString": "event_gotour_2021_npc00_victory__male_speaker",
+      "customIncidentMusic": "CombatLeaguePickerMusic",
+      "customCombatMusic": "CombatMusic"
+    }
+  },
+  {
+    "templateId": "CHARACTER_EVENT_NPC_8",
+    "data": {
+      "trainerName": "gotoursik_elitefour_b_name",
+      "avatar": {
+        "skin": 10,
+        "avatarHair": "AVATAR_m_hair_default_5",
+        "avatarShirt": "AVATAR_m_shirt_pkmnshirts2021_01",
+        "avatarPants": "AVATAR_m_pants_teamrocket_0",
+        "avatarHat": "AVATAR_m_hat_sableyegoggles",
+        "avatarShoes": "AVATAR_m_shoes_steven",
+        "avatarEyes": "AVATAR_m_eyes_3",
+        "avatarBackpack": "AVATAR_m_backpack_gengar_0",
+        "avatarGloves": "AVATAR_m_gloves_gymleader_0",
+        "avatarSocks": "AVATAR_m_socks_default_3",
+        "avatarGlasses": "AVATAR_m_glasses_empty",
+        "avatarPose": "AVATAR_m_pose_05"
+      },
+      "trainerTitle": "gotoursik_elitefour_title",
+      "trainerQuote": "gotoursik_elitefour_b_quote",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "backdropImageBundle": "combat_blanche_backdrop",
+      "modelName": "player_male",
+      "tutorialOnLossString": "type_tutorial_poison",
+      "isMale": true,
+      "customIncidentMusic": "CombatLeaguePickerMusic",
+      "customCombatMusic": "GoTour2022Music02"
+    }
+  },
+  {
+    "templateId": "CHARACTER_EVENT_NPC_9",
+    "data": {
+      "trainerName": "gotoursik_elitefour_c_name",
+      "avatar": {
+        "skin": 9,
+        "avatar": 1,
+        "avatarHair": "AVATAR_f_hair_default_7",
+        "avatarShirt": "AVATAR_f_shirt_regiicejersies",
+        "avatarPants": "AVATAR_f_pants_misty",
+        "avatarHat": "AVATAR_f_hat_movie2020",
+        "avatarShoes": "AVATAR_f_shoes_teamrocket_1",
+        "avatarEyes": "AVATAR_f_eyes_3",
+        "avatarBackpack": "AVATAR_f_backpack_ultra_0",
+        "avatarGloves": "AVATAR_f_gloves_frlg_0",
+        "avatarSocks": "AVATAR_f_socks_default_0",
+        "avatarBelt": "AVATAR_f_belt_empty",
+        "avatarGlasses": "AVATAR_f_glasses_empty",
+        "avatarNecklace": "AVATAR_f_necklace_empty",
+        "avatarPose": "AVATAR_f_pose_19",
+        "avatarFace": "AVATAR_f_face_empty"
+      },
+      "trainerTitle": "gotoursik_elitefour_title",
+      "trainerQuote": "gotoursik_elitefour_c_quote",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Spark.png",
+      "backdropImageBundle": "combat_spark_backdrop",
+      "modelName": "player_female",
+      "tutorialOnLossString": "type_tutorial_water",
+      "customIncidentMusic": "CombatLeaguePickerMusic",
+      "customCombatMusic": "GoTour2022Music02"
+    }
+  },
+  {
+    "templateId": "CHARACTER_EVENT_SIERRA_UNTICKETED",
+    "data": {
+      "trainerName": "combat_sierra_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_sierra_title",
+      "trainerQuote": "combat_sierra_quote",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Sierra.png",
+      "modelName": "combat_execyellow",
+      "tutorialOnLossString": "type_tutorial_dark"
+    }
+  },
+  {
+    "templateId": "CHARACTER_EXECUTIVE_ARLO",
+    "data": {
+      "trainerName": "combat_arlo_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_arlo_title",
+      "trainerQuote": "combat_arlo_quote",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Arlo.png",
+      "modelName": "combat_execred",
+      "tutorialOnLossString": "type_tutorial_steel",
+      "isMale": true
+    }
+  },
+  {
+    "templateId": "CHARACTER_EXECUTIVE_CLIFF",
+    "data": {
+      "trainerName": "combat_cliff_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_cliff_title",
+      "trainerQuote": "combat_cliff_quote",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Cliff.png",
+      "modelName": "combat_execblue",
+      "tutorialOnLossString": "type_tutorial_rock",
+      "isMale": true
+    }
+  },
+  {
+    "templateId": "CHARACTER_EXECUTIVE_SIERRA",
+    "data": {
+      "trainerName": "combat_sierra_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_sierra_title",
+      "trainerQuote": "combat_sierra_quote",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Sierra.png",
+      "modelName": "combat_execyellow",
+      "tutorialOnLossString": "type_tutorial_dark"
+    }
+  },
+  {
+    "templateId": "CHARACTER_EXPLORER",
+    "data": {
+      "trainerName": "routes_NPC_explorer",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "routes_NPC_activity_ge",
+      "trainerQuote": "combat_spark_quote",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Spark.png",
+      "backdropImageBundle": "combat_spark_backdrop",
+      "modelName": "combat_explorer",
+      "isMale": true
+    }
+  },
+  {
+    "templateId": "CHARACTER_FAIRY_GRUNT_FEMALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_fairy",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "f_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_fairy",
+      "tipsType": "POKEMON_TYPE_FAIRY"
+    }
+  },
+  {
+    "templateId": "CHARACTER_FAIRY_GRUNT_MALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_fairy",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "m_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_fairy",
+      "isMale": true,
+      "tipsType": "POKEMON_TYPE_FAIRY"
+    }
+  },
+  {
+    "templateId": "CHARACTER_FIGHTING_GRUNT_FEMALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_fighting",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "f_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_fighting",
+      "tipsType": "POKEMON_TYPE_FIGHTING"
+    }
+  },
+  {
+    "templateId": "CHARACTER_FIGHTING_GRUNT_MALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_fighting",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "m_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_fighting",
+      "isMale": true,
+      "tipsType": "POKEMON_TYPE_FIGHTING"
+    }
+  },
+  {
+    "templateId": "CHARACTER_FIRE_GRUNT_FEMALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_fire",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "f_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_fire",
+      "tipsType": "POKEMON_TYPE_FIRE"
+    }
+  },
+  {
+    "templateId": "CHARACTER_FIRE_GRUNT_MALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_fire",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "m_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_fire",
+      "isMale": true,
+      "tipsType": "POKEMON_TYPE_FIRE"
+    }
+  },
+  {
+    "templateId": "CHARACTER_FLYING_GRUNT_FEMALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_flying",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "f_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_flying",
+      "tipsType": "POKEMON_TYPE_FLYING"
+    }
+  },
+  {
+    "templateId": "CHARACTER_FLYING_GRUNT_MALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_flying",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "m_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_flying",
+      "isMale": true,
+      "tipsType": "POKEMON_TYPE_FLYING"
+    }
+  },
+  {
+    "templateId": "CHARACTER_GHOST_GRUNT_FEMALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_ghost",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "f_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_ghost",
+      "tipsType": "POKEMON_TYPE_GHOST"
+    }
+  },
+  {
+    "templateId": "CHARACTER_GHOST_GRUNT_MALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_ghost",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "m_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_ghost",
+      "isMale": true,
+      "tipsType": "POKEMON_TYPE_GHOST"
+    }
+  },
+  {
+    "templateId": "CHARACTER_GIOVANNI",
+    "data": {
+      "trainerName": "combat_giovanni_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_giovanni_title",
+      "trainerQuote": "combat_giovanni_quote",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Giovanni.png",
+      "modelName": "combat_giovanni",
+      "tutorialOnLossString": "type_tutorial_ground",
+      "isMale": true
+    }
+  },
+  {
+    "templateId": "CHARACTER_GRASS_GRUNT_FEMALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_grass",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "f_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_grass",
+      "tipsType": "POKEMON_TYPE_GRASS"
+    }
+  },
+  {
+    "templateId": "CHARACTER_GRASS_GRUNT_MALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_grass",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "m_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_grass",
+      "isMale": true,
+      "tipsType": "POKEMON_TYPE_GRASS"
+    }
+  },
+  {
+    "templateId": "CHARACTER_GROUND_GRUNT_FEMALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_ground",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "f_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_ground",
+      "tipsType": "POKEMON_TYPE_GROUND"
+    }
+  },
+  {
+    "templateId": "CHARACTER_GROUND_GRUNT_MALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_ground",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "m_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_ground",
+      "isMale": true,
+      "tipsType": "POKEMON_TYPE_GROUND"
+    }
+  },
+  {
+    "templateId": "CHARACTER_GRUNTB_FEMALE",
+    "data": {
+      "trainerName": "combat_grunt_bf_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "grunt_bf_combat_quote",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Giovanni.png",
+      "modelName": "f_combat_gruntb",
+      "tutorialOnLossString": "{grunt_dynamic_tutorial}"
+    }
+  },
+  {
+    "templateId": "CHARACTER_GRUNTB_MALE",
+    "data": {
+      "trainerName": "combat_grunt_bm_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "grunt_bm_combat_quote",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Giovanni.png",
+      "modelName": "m_combat_gruntb",
+      "tutorialOnLossString": "{grunt_dynamic_tutorial}",
+      "isMale": true
+    }
+  },
+  {
+    "templateId": "CHARACTER_GRUNT_FEMALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "{grunt_dynamic_quote}",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "f_combat_grunt",
+      "tutorialOnLossString": "{grunt_dynamic_tutorial}"
+    }
+  },
+  {
+    "templateId": "CHARACTER_GRUNT_MALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "{grunt_dynamic_quote}",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "m_combat_grunt",
+      "tutorialOnLossString": "{grunt_dynamic_tutorial}",
+      "isMale": true
+    }
+  },
+  {
+    "templateId": "CHARACTER_ICE_GRUNT_FEMALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_ice",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "f_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_ice",
+      "tipsType": "POKEMON_TYPE_ICE"
+    }
+  },
+  {
+    "templateId": "CHARACTER_ICE_GRUNT_MALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_ice",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "m_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_ice",
+      "isMale": true,
+      "tipsType": "POKEMON_TYPE_ICE"
+    }
+  },
+  {
+    "templateId": "CHARACTER_METAL_GRUNT_FEMALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_steel",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "f_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_steel",
+      "tipsType": "POKEMON_TYPE_STEEL"
+    }
+  },
+  {
+    "templateId": "CHARACTER_METAL_GRUNT_MALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_steel",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "m_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_steel",
+      "isMale": true,
+      "tipsType": "POKEMON_TYPE_STEEL"
+    }
+  },
+  {
+    "templateId": "CHARACTER_NORMAL_GRUNT_FEMALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_normal",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "f_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_normal",
+      "tipsType": "POKEMON_TYPE_NORMAL"
+    }
+  },
+  {
+    "templateId": "CHARACTER_NORMAL_GRUNT_MALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_normal",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "m_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_normal",
+      "isMale": true,
+      "tipsType": "POKEMON_TYPE_NORMAL"
+    }
+  },
+  {
+    "templateId": "CHARACTER_POISON_GRUNT_FEMALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_poison",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "f_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_poison",
+      "tipsType": "POKEMON_TYPE_POISON"
+    }
+  },
+  {
+    "templateId": "CHARACTER_POISON_GRUNT_MALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_poison",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "m_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_poison",
+      "isMale": true,
+      "tipsType": "POKEMON_TYPE_POISON"
+    }
+  },
+  {
+    "templateId": "CHARACTER_PSYCHIC_GRUNT_FEMALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_psychic",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "f_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_psychic",
+      "tipsType": "POKEMON_TYPE_PSYCHIC"
+    }
+  },
+  {
+    "templateId": "CHARACTER_PSYCHIC_GRUNT_MALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_psychic",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "m_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_psychic",
+      "isMale": true,
+      "tipsType": "POKEMON_TYPE_PSYCHIC"
+    }
+  },
+  {
+    "templateId": "CHARACTER_ROCK_GRUNT_FEMALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_rock",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "f_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_rock",
+      "tipsType": "POKEMON_TYPE_ROCK"
+    }
+  },
+  {
+    "templateId": "CHARACTER_ROCK_GRUNT_MALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_rock",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "m_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_rock",
+      "isMale": true,
+      "tipsType": "POKEMON_TYPE_ROCK"
+    }
+  },
+  {
+    "templateId": "CHARACTER_SPARK",
+    "data": {
+      "trainerName": "combat_spark",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_spark_title",
+      "trainerQuote": "combat_spark_quote",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Spark.png",
+      "backdropImageBundle": "combat_spark_backdrop",
+      "modelName": "combat_spark",
+      "isMale": true
+    }
+  },
+  {
+    "templateId": "CHARACTER_WATER_GRUNT_FEMALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_water",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "f_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_water",
+      "tipsType": "POKEMON_TYPE_WATER"
+    }
+  },
+  {
+    "templateId": "CHARACTER_WATER_GRUNT_MALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_water",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "m_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_water",
+      "isMale": true,
+      "tipsType": "POKEMON_TYPE_WATER"
+    }
+  },
+  {
+    "templateId": "CHARACTER_WILLOW",
+    "data": {
+      "trainerName": "combat_blanche",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_blanche_title",
+      "trainerQuote": "combat_blanche_quote",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "combat_blanche",
+      "customIncidentMusic": "QuestMusic"
+    }
+  },
+  {
+    "templateId": "CHARACTER_WILLOWB",
+    "data": {
+      "trainerName": "combat_blanche",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_blanche_title",
+      "trainerQuote": "combat_blanche_quote",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "combat_blanche",
+      "customIncidentMusic": "QuestMusic"
+    }
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "templateId": "INCIDENT_PRIORITY_SETTINGS",
+    "data": {
+      "incidentPriority": [
+        {
+          "priority": 1,
+          "displayType": "INCIDENT_POKESTOP_ENCOUNTER"
+        },
+        {
+          "priority": 2,
+          "displayType": "INVASION_EVENT_NPC"
+        },
+        {
+          "priority": 3,
+          "displayType": "INVASION_GRUNT"
+        },
+        {
+          "priority": 4,
+          "displayType": "INVASION_LEADER"
+        },
+        {
+          "priority": 5,
+          "displayType": "INVASION_GIOVANNI"
+        },
+        {
+          "priority": 6,
+          "displayType": "INVASION_GENERIC"
+        },
+        {
+          "priority": 7,
+          "displayType": "INCIDENT_CONTEST"
+        }
+      ]
+    }
+  }
+]

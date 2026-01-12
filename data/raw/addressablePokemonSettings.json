@@ -1,0 +1,18 @@
+[
+  {
+    "templateId": "ADDRESSABLE_POKEMON_SETTINGS",
+    "data": {
+      "addressablePokemonIds": [
+        "BULBASAUR",
+        "SQUIRTLE",
+        "KAKUNA",
+        "PIKACHU",
+        "PONYTA",
+        "ZIGZAGOON",
+        "GARDEVOIR",
+        "FLYGON",
+        "MELOETTA"
+      ]
+    }
+  }
+]

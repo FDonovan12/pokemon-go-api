@@ -1,0 +1,13 @@
+[
+  {
+    "templateId": "ROUTE_BADGE_SETTINGS",
+    "data": {
+      "target": [
+        0,
+        5,
+        20,
+        100
+      ]
+    }
+  }
+]

@@ -1,0 +1,11 @@
+[
+  {
+    "templateId": "BUDDY_ENCOUNTER_CAMEO_SETTINGS",
+    "data": {
+      "buddyWildEncounterCameoChancePercent": 0.2,
+      "buddyQuestEncounterCameoChancePercent": 0.2,
+      "buddyRaidEncounterCameoChancePercent": 0.2,
+      "buddyInvasionEncounterCameoChancePercent": 0.2
+    }
+  }
+]

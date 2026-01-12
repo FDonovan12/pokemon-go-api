@@ -1,0 +1,24 @@
+[
+  {
+    "templateId": "PARTY_PLAY_IAP_BOOSTS_SETTINGS",
+    "data": {
+      "boost": [
+        {
+          "supportedItemTypes": "ITEM_INCENSE_ORDINARY",
+          "durationMultiplier": 0.5,
+          "dailyContributionLimit": 4
+        },
+        {
+          "supportedItemTypes": "ITEM_STAR_PIECE",
+          "durationMultiplier": 0.5,
+          "dailyContributionLimit": 4
+        },
+        {
+          "supportedItemTypes": "ITEM_LUCKY_EGG",
+          "durationMultiplier": 0.5,
+          "dailyContributionLimit": 4
+        }
+      ]
+    }
+  }
+]

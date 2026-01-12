@@ -1,0 +1,15 @@
+[
+  {
+    "templateId": "ROUTE_DISCOVERY_SETTINGS",
+    "data": {
+      "nearbyVisibleRadiusMeters": 500,
+      "popularRoutesFraction": 0.2,
+      "newRouteThreshold": 10,
+      "maxRoutesViewable": 30,
+      "maxClientMapPanningDistanceMeters": 250,
+      "enableBadgeRoutesDiscovery": true,
+      "maxBadgeRoutesDiscoverySpannerTxns": 5,
+      "maxFavoriteRoutes": 500
+    }
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "templateId": "POPUP_CONTROL_SETTINGS",
+    "data": {
+      "hideMedalEarnedPopupUnitAfterFirstPokemon": true,
+      "hideAwareOfYourSurroundingsPopup": true,
+      "hideWeatherWarningPopup": true
+    }
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "templateId": "VERBOSE_LOG_RAID_SETTINGS",
+    "data": {
+      "enabled": true,
+      "enableJoinLobby": true,
+      "enableLeaveLobby": true,
+      "enableGetRaidDetails": true,
+      "enableStartRaidBattle": true,
+      "enableAttackRaid": true,
+      "enableSendRaidInvitation": true,
+      "enableOnApplicationFocus": true,
+      "enableOnApplicationPause": true,
+      "enableOnApplicationQuit": true,
+      "enableExceptionCaught": true,
+      "enableProgressToken": true,
+      "enableRpcErrorData": true,
+      "enableClientPredictionInconsistencyData": true
+    }
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "templateId": "Hindi",
+    "data": {
+      "language": "Hindi",
+      "isEnabled": true
+    }
+  },
+  {
+    "templateId": "Indonesian",
+    "data": {
+      "language": "Indonesian",
+      "isEnabled": true
+    }
+  },
+  {
+    "templateId": "LATAM",
+    "data": {
+      "language": "spanishlatinamerican",
+      "isEnabled": true
+    }
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "templateId": "TICKET_GIFTING_SETTINGS",
+    "data": {
+      "minPlayerLevel": 5,
+      "dailyPlayerGiftingLimit": 20,
+      "minRequiredFriendshipLevel": "FRIENDSHIP_LEVEL_2"
+    }
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "templateId": "BATTLE_HUB_ORDER_SETTINGS",
+    "data": {
+      "section": [
+        {
+          "mainSection": "SECTION_VS_SEEKER",
+          "subsection": [
+            "SUBSECTION_VS_CHARGING",
+            "SUBSECTION_VS_FREE",
+            "SUBSECTION_VS_PREMIUM"
+          ]
+        }
+      ],
+      "sectionGroup": [
+        {
+          "section": [
+            "SECTION_VS_SEEKER",
+            "SECTION_CURR_SEASON",
+            "SECTION_LAST_SEASON"
+          ]
+        },
+        {
+          "section": [
+            "SECTION_QR_CODE"
+          ]
+        },
+        {
+          "section": [
+            "SECTION_TEAM_LEADERS"
+          ]
+        }
+      ]
+    }
+  }
+]

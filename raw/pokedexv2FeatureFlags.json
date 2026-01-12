@@ -1,0 +1,13 @@
+[
+  {
+    "templateId": "POKEDEXV2_FEATURE_FLAGS",
+    "data": {
+      "isFeatureEnabled": true,
+      "navigationFlag": 1650943169,
+      "detailV1Flag": -1491060175,
+      "detailBattleFlag": -838327144,
+      "celebV1Flag": -1191534987,
+      "notificationFlag": -915054132
+    }
+  }
+]

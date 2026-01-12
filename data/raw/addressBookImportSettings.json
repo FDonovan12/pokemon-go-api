@@ -1,0 +1,11 @@
+[
+  {
+    "templateId": "ADDRESS_BOOK_IMPORT_SETTINGS",
+    "data": {
+      "isEnabled": true,
+      "onboardingScreenLevel": 4,
+      "showOptOutCheckbox": true,
+      "repromptOnboardingForV1": true
+    }
+  }
+]

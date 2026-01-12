@@ -1,0 +1,9 @@
+[
+  {
+    "templateId": "BULK_HEALING_SETTINGS",
+    "data": {
+      "enabled": true,
+      "maxPokemonsPerHeal": 50
+    }
+  }
+]

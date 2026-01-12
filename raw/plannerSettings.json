@@ -1,0 +1,58 @@
+[
+  {
+    "templateId": "EVENT_PLANNER_SETTINGS",
+    "data": {
+      "enabled": true,
+      "eventSettings": [
+        {
+          "timeslotGapSeconds": 900,
+          "rsvpTimeslotDurationSeconds": 600,
+          "maxRsvpsPerSlot": 100,
+          "maxTimeslots": 20,
+          "rsvpClearInventoryMinutes": 30,
+          "messageTiming": [
+            {
+              "messageSendTime": "TIMESLOT_START"
+            },
+            {
+              "messageSendBeforeEventSeconds": 600,
+              "messageSendTime": "TIMESLOT_EARLY"
+            }
+          ],
+          "rsvpBonusTimeWindowMinutes": 17,
+          "rsvpInviteEnabled": true
+        },
+        {
+          "eventType": "GMAX",
+          "timeslotGapSeconds": 600,
+          "rsvpTimeslotDurationSeconds": 300,
+          "maxRsvpsPerSlot": 100,
+          "maxTimeslots": 500,
+          "rsvpClearInventoryMinutes": 30,
+          "messageTiming": [
+            {
+              "messageSendTime": "TIMESLOT_START"
+            },
+            {
+              "messageSendBeforeEventSeconds": 600,
+              "messageSendTime": "TIMESLOT_EARLY"
+            }
+          ],
+          "rsvpBonusTimeWindowMinutes": 32,
+          "rsvpInviteEnabled": true
+        }
+      ],
+      "maxRsvpsPerTrainer": 50,
+      "maxRsvpInvites": 5,
+      "maxPendingRsvpInvites": 10,
+      "nearbyRsvpTabEnabled": true,
+      "rsvpCountPushGatewayNamespace": "pgorelease/RSVP_COUNT",
+      "sendRsvpInviteEnabled": true,
+      "maxRsvpDisplayDistanceM": 4000,
+      "activeReminderTimeSeconds": 120,
+      "rsvpCountGeoPushGatewayNamespace": "pgorelease/RSVP_COUNT_GEO",
+      "rsvpCountUpdateTimeSeconds": 300,
+      "rsvpCountTopperPollingTimeSeconds": 300
+    }
+  }
+]

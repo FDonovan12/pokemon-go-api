@@ -1,0 +1,3519 @@
+[
+  {
+    "templateId": "EVOLUTION_V0052_POKEMON_MEOWTH",
+    "data": {
+      "pokemon": "MEOWTH",
+      "evolutionChains": [
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "MEOWTH"
+            },
+            {
+              "pokemon": "PERSIAN"
+            }
+          ]
+        },
+        {
+          "headerMessage": "alola_pokedex_header",
+          "evolutionInfos": [
+            {
+              "pokemon": "MEOWTH",
+              "form": "MEOWTH_ALOLA"
+            },
+            {
+              "pokemon": "PERSIAN",
+              "form": "PERSIAN_ALOLA"
+            }
+          ]
+        },
+        {
+          "headerMessage": "galarian_pokedex_header",
+          "evolutionInfos": [
+            {
+              "pokemon": "MEOWTH",
+              "form": "MEOWTH_GALARIAN"
+            },
+            {
+              "pokemon": "PERRSERKER"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0083_POKEMON_FARFETCHD",
+    "data": {
+      "pokemon": "FARFETCHD",
+      "evolutionChains": [
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "FARFETCHD"
+            }
+          ]
+        },
+        {
+          "headerMessage": "galarian_pokedex_header",
+          "evolutionInfos": [
+            {
+              "pokemon": "FARFETCHD",
+              "form": "FARFETCHD_GALARIAN"
+            },
+            {
+              "pokemon": "SIRFETCHD",
+              "form": "SIRFETCHD_NORMAL"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0122_POKEMON_MR_MIME",
+    "data": {
+      "pokemon": "MR_MIME",
+      "evolutionChains": [
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "MIME_JR"
+            },
+            {
+              "pokemon": "MR_MIME"
+            }
+          ]
+        },
+        {
+          "headerMessage": "galarian_pokedex_header",
+          "evolutionInfos": [
+            {
+              "pokemon": "MR_MIME",
+              "form": "MR_MIME_GALARIAN"
+            },
+            {
+              "pokemon": "MR_RIME",
+              "form": "MR_RIME_NORMAL"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0123_POKEMON_SCYTHER",
+    "data": {
+      "pokemon": "SCYTHER",
+      "evolutionChains": [
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SCYTHER"
+            },
+            {
+              "pokemon": "SCIZOR"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SCYTHER"
+            },
+            {
+              "pokemon": "KLEAVOR"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0150_POKEMON_MEWTWO",
+    "data": {
+      "pokemon": "MEWTWO",
+      "evolutionChains": [
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "MEWTWO",
+              "gender": "GENDERLESS"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0155_POKEMON_CYNDAQUIL",
+    "data": {
+      "pokemon": "CYNDAQUIL",
+      "evolutionChains": [
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "CYNDAQUIL"
+            },
+            {
+              "pokemon": "QUILAVA"
+            },
+            {
+              "pokemon": "TYPHLOSION"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0156_POKEMON_QUILAVA",
+    "data": {
+      "pokemon": "QUILAVA",
+      "evolutionChains": [
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "CYNDAQUIL"
+            },
+            {
+              "pokemon": "QUILAVA"
+            },
+            {
+              "pokemon": "TYPHLOSION"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0157_POKEMON_TYPHLOSION",
+    "data": {
+      "pokemon": "TYPHLOSION",
+      "evolutionChains": [
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "CYNDAQUIL"
+            },
+            {
+              "pokemon": "QUILAVA"
+            },
+            {
+              "pokemon": "TYPHLOSION"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0194_POKEMON_WOOPER",
+    "data": {
+      "pokemon": "WOOPER",
+      "evolutionChains": [
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "WOOPER"
+            },
+            {
+              "pokemon": "QUAGSIRE"
+            }
+          ]
+        },
+        {
+          "headerMessage": "paldean_pokedex_header",
+          "evolutionInfos": [
+            {
+              "pokemon": "WOOPER",
+              "form": "WOOPER_PALDEA"
+            },
+            {
+              "pokemon": "CLODSIRE"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0211_POKEMON_QWILFISH",
+    "data": {
+      "pokemon": "QWILFISH",
+      "evolutionChains": [
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "QWILFISH"
+            }
+          ]
+        },
+        {
+          "headerMessage": "hisuian_pokedex_header",
+          "evolutionInfos": [
+            {
+              "pokemon": "QWILFISH",
+              "form": "QWILFISH_HISUIAN"
+            },
+            {
+              "pokemon": "OVERQWIL"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0215_POKEMON_SNEASEL",
+    "data": {
+      "pokemon": "SNEASEL",
+      "evolutionChains": [
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SNEASEL"
+            },
+            {
+              "pokemon": "WEAVILE"
+            }
+          ]
+        },
+        {
+          "headerMessage": "hisuian_pokedex_header",
+          "evolutionInfos": [
+            {
+              "pokemon": "SNEASEL",
+              "form": "SNEASEL_HISUIAN"
+            },
+            {
+              "pokemon": "SNEASLER"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0222_POKEMON_CORSOLA",
+    "data": {
+      "pokemon": "CORSOLA",
+      "evolutionChains": [
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "CORSOLA"
+            }
+          ]
+        },
+        {
+          "headerMessage": "galarian_pokedex_header",
+          "evolutionInfos": [
+            {
+              "pokemon": "CORSOLA",
+              "form": "CORSOLA_GALARIAN"
+            },
+            {
+              "pokemon": "CURSOLA",
+              "form": "CURSOLA_NORMAL"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0234_POKEMON_STANTLER",
+    "data": {
+      "pokemon": "STANTLER",
+      "evolutionChains": [
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "STANTLER"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0263_POKEMON_ZIGZAGOON",
+    "data": {
+      "pokemon": "ZIGZAGOON",
+      "evolutionChains": [
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "ZIGZAGOON"
+            },
+            {
+              "pokemon": "LINOONE"
+            }
+          ]
+        },
+        {
+          "headerMessage": "galarian_pokedex_header",
+          "evolutionInfos": [
+            {
+              "pokemon": "ZIGZAGOON",
+              "form": "ZIGZAGOON_GALARIAN"
+            },
+            {
+              "pokemon": "LINOONE",
+              "form": "LINOONE_GALARIAN"
+            },
+            {
+              "pokemon": "OBSTAGOON",
+              "form": "OBSTAGOON_NORMAL"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0264_POKEMON_LINOONE",
+    "data": {
+      "pokemon": "LINOONE",
+      "evolutionChains": [
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "ZIGZAGOON"
+            },
+            {
+              "pokemon": "LINOONE"
+            }
+          ]
+        },
+        {
+          "headerMessage": "galarian_pokedex_header",
+          "evolutionInfos": [
+            {
+              "pokemon": "ZIGZAGOON",
+              "form": "ZIGZAGOON_GALARIAN"
+            },
+            {
+              "pokemon": "LINOONE",
+              "form": "LINOONE_GALARIAN"
+            },
+            {
+              "pokemon": "OBSTAGOON",
+              "form": "OBSTAGOON_NORMAL"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0290_POKEMON_NINCADA",
+    "data": {
+      "pokemon": "NINCADA",
+      "evolutionChains": [
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "NINCADA",
+              "form": "NINCADA_NORMAL"
+            },
+            {
+              "pokemon": "NINJASK",
+              "form": "NINJASK_NORMAL"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "NINCADA",
+              "form": "NINCADA_NORMAL"
+            },
+            {
+              "pokemon": "SHEDINJA",
+              "form": "SHEDINJA_NORMAL"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0412_POKEMON_BURMY",
+    "data": {
+      "pokemon": "BURMY",
+      "evolutionChains": [
+        {
+          "headerMessage": "gender_male",
+          "evolutionInfos": [
+            {
+              "pokemon": "BURMY",
+              "form": "BURMY_PLANT"
+            },
+            {
+              "pokemon": "MOTHIM",
+              "gender": "MALE"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "BURMY",
+              "form": "BURMY_SANDY"
+            },
+            {
+              "pokemon": "MOTHIM",
+              "gender": "MALE"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "BURMY",
+              "form": "BURMY_TRASH"
+            },
+            {
+              "pokemon": "MOTHIM",
+              "gender": "MALE"
+            }
+          ]
+        },
+        {
+          "headerMessage": "gender_female",
+          "evolutionInfos": [
+            {
+              "pokemon": "BURMY",
+              "form": "BURMY_PLANT"
+            },
+            {
+              "pokemon": "WORMADAM",
+              "form": "WORMADAM_PLANT",
+              "gender": "FEMALE"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "BURMY",
+              "form": "BURMY_SANDY"
+            },
+            {
+              "pokemon": "WORMADAM",
+              "form": "WORMADAM_SANDY",
+              "gender": "FEMALE"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "BURMY",
+              "form": "BURMY_TRASH"
+            },
+            {
+              "pokemon": "WORMADAM",
+              "form": "WORMADAM_TRASH",
+              "gender": "FEMALE"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0413_POKEMON_WORMADAM",
+    "data": {
+      "pokemon": "WORMADAM",
+      "evolutionChains": [
+        {
+          "headerMessage": "gender_female",
+          "evolutionInfos": [
+            {
+              "pokemon": "BURMY",
+              "form": "BURMY_PLANT"
+            },
+            {
+              "pokemon": "WORMADAM",
+              "form": "WORMADAM_PLANT",
+              "gender": "FEMALE"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "BURMY",
+              "form": "BURMY_SANDY"
+            },
+            {
+              "pokemon": "WORMADAM",
+              "form": "WORMADAM_SANDY",
+              "gender": "FEMALE"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "BURMY",
+              "form": "BURMY_TRASH"
+            },
+            {
+              "pokemon": "WORMADAM",
+              "form": "WORMADAM_TRASH",
+              "gender": "FEMALE"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0414_POKEMON_MOTHIM",
+    "data": {
+      "pokemon": "MOTHIM",
+      "evolutionChains": [
+        {
+          "headerMessage": "gender_male",
+          "evolutionInfos": [
+            {
+              "pokemon": "BURMY",
+              "form": "BURMY_PLANT"
+            },
+            {
+              "pokemon": "MOTHIM",
+              "gender": "MALE"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "BURMY",
+              "form": "BURMY_SANDY"
+            },
+            {
+              "pokemon": "MOTHIM",
+              "gender": "MALE"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "BURMY",
+              "form": "BURMY_TRASH"
+            },
+            {
+              "pokemon": "MOTHIM",
+              "gender": "MALE"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0420_POKEMON_CHERUBI",
+    "data": {
+      "pokemon": "CHERUBI",
+      "evolutionChains": [
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "CHERUBI"
+            },
+            {
+              "pokemon": "CHERRIM",
+              "form": "CHERRIM_OVERCAST"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "CHERUBI"
+            },
+            {
+              "pokemon": "CHERRIM",
+              "form": "CHERRIM_SUNNY"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0421_POKEMON_CHERRIM",
+    "data": {
+      "pokemon": "CHERRIM",
+      "evolutionChains": [
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "CHERUBI"
+            },
+            {
+              "pokemon": "CHERRIM",
+              "form": "CHERRIM_OVERCAST"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "CHERUBI"
+            },
+            {
+              "pokemon": "CHERRIM",
+              "form": "CHERRIM_SUNNY"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0422_POKEMON_SHELLOS",
+    "data": {
+      "pokemon": "SHELLOS",
+      "evolutionChains": [
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SHELLOS",
+              "form": "SHELLOS_WEST_SEA"
+            },
+            {
+              "pokemon": "GASTRODON",
+              "form": "GASTRODON_WEST_SEA"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SHELLOS",
+              "form": "SHELLOS_EAST_SEA"
+            },
+            {
+              "pokemon": "GASTRODON",
+              "form": "GASTRODON_EAST_SEA"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0423_POKEMON_GASTRODON",
+    "data": {
+      "pokemon": "GASTRODON",
+      "evolutionChains": [
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SHELLOS",
+              "form": "SHELLOS_WEST_SEA"
+            },
+            {
+              "pokemon": "GASTRODON",
+              "form": "GASTRODON_WEST_SEA"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SHELLOS",
+              "form": "SHELLOS_EAST_SEA"
+            },
+            {
+              "pokemon": "GASTRODON",
+              "form": "GASTRODON_EAST_SEA"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0449_POKEMON_HIPPOPOTAS",
+    "data": {
+      "pokemon": "HIPPOPOTAS",
+      "evolutionChains": [
+        {
+          "headerMessage": "gender_male",
+          "evolutionInfos": [
+            {
+              "pokemon": "HIPPOPOTAS",
+              "gender": "MALE"
+            },
+            {
+              "pokemon": "HIPPOWDON",
+              "gender": "MALE"
+            }
+          ]
+        },
+        {
+          "headerMessage": "gender_female",
+          "evolutionInfos": [
+            {
+              "pokemon": "HIPPOPOTAS",
+              "gender": "FEMALE"
+            },
+            {
+              "pokemon": "HIPPOWDON",
+              "gender": "FEMALE"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0450_POKEMON_HIPPOWDON",
+    "data": {
+      "pokemon": "HIPPOWDON",
+      "evolutionChains": [
+        {
+          "headerMessage": "gender_male",
+          "evolutionInfos": [
+            {
+              "pokemon": "HIPPOPOTAS",
+              "gender": "MALE"
+            },
+            {
+              "pokemon": "HIPPOWDON",
+              "gender": "MALE"
+            }
+          ]
+        },
+        {
+          "headerMessage": "gender_female",
+          "evolutionInfos": [
+            {
+              "pokemon": "HIPPOPOTAS",
+              "gender": "FEMALE"
+            },
+            {
+              "pokemon": "HIPPOWDON",
+              "gender": "FEMALE"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0501_POKEMON_OSHAWOTT",
+    "data": {
+      "pokemon": "OSHAWOTT",
+      "evolutionChains": [
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "OSHAWOTT"
+            },
+            {
+              "pokemon": "DEWOTT"
+            },
+            {
+              "pokemon": "SAMUROTT"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0502_POKEMON_DEWOTT",
+    "data": {
+      "pokemon": "DEWOTT",
+      "evolutionChains": [
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "OSHAWOTT"
+            },
+            {
+              "pokemon": "DEWOTT"
+            },
+            {
+              "pokemon": "SAMUROTT"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0503_POKEMON_SAMUROTT",
+    "data": {
+      "pokemon": "SAMUROTT",
+      "evolutionChains": [
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "OSHAWOTT"
+            },
+            {
+              "pokemon": "DEWOTT"
+            },
+            {
+              "pokemon": "SAMUROTT"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0519_POKEMON_PIDOVE",
+    "data": {
+      "pokemon": "PIDOVE",
+      "evolutionChains": [
+        {
+          "headerMessage": "gender_male",
+          "evolutionInfos": [
+            {
+              "pokemon": "PIDOVE",
+              "gender": "MALE"
+            },
+            {
+              "pokemon": "TRANQUILL",
+              "gender": "MALE"
+            },
+            {
+              "pokemon": "UNFEZANT",
+              "gender": "MALE"
+            }
+          ]
+        },
+        {
+          "headerMessage": "gender_female",
+          "evolutionInfos": [
+            {
+              "pokemon": "PIDOVE",
+              "gender": "FEMALE"
+            },
+            {
+              "pokemon": "TRANQUILL",
+              "gender": "FEMALE"
+            },
+            {
+              "pokemon": "UNFEZANT",
+              "gender": "FEMALE"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0520_POKEMON_TRANQUILL",
+    "data": {
+      "pokemon": "TRANQUILL",
+      "evolutionChains": [
+        {
+          "headerMessage": "gender_male",
+          "evolutionInfos": [
+            {
+              "pokemon": "PIDOVE",
+              "gender": "MALE"
+            },
+            {
+              "pokemon": "TRANQUILL",
+              "gender": "MALE"
+            },
+            {
+              "pokemon": "UNFEZANT",
+              "gender": "MALE"
+            }
+          ]
+        },
+        {
+          "headerMessage": "gender_female",
+          "evolutionInfos": [
+            {
+              "pokemon": "PIDOVE",
+              "gender": "FEMALE"
+            },
+            {
+              "pokemon": "TRANQUILL",
+              "gender": "FEMALE"
+            },
+            {
+              "pokemon": "UNFEZANT",
+              "gender": "FEMALE"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0521_POKEMON_UNFEZANT",
+    "data": {
+      "pokemon": "UNFEZANT",
+      "evolutionChains": [
+        {
+          "headerMessage": "gender_male",
+          "evolutionInfos": [
+            {
+              "pokemon": "PIDOVE",
+              "gender": "MALE"
+            },
+            {
+              "pokemon": "TRANQUILL",
+              "gender": "MALE"
+            },
+            {
+              "pokemon": "UNFEZANT",
+              "gender": "MALE"
+            }
+          ]
+        },
+        {
+          "headerMessage": "gender_female",
+          "evolutionInfos": [
+            {
+              "pokemon": "PIDOVE",
+              "gender": "FEMALE"
+            },
+            {
+              "pokemon": "TRANQUILL",
+              "gender": "FEMALE"
+            },
+            {
+              "pokemon": "UNFEZANT",
+              "gender": "FEMALE"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0550_POKEMON_BASCULIN",
+    "data": {
+      "pokemon": "BASCULIN",
+      "evolutionChains": [
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "BASCULIN",
+              "form": "BASCULIN_RED_STRIPED"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "BASCULIN",
+              "form": "BASCULIN_BLUE_STRIPED"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "BASCULIN",
+              "form": "BASCULIN_WHITE_STRIPED"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0554_POKEMON_DARUMAKA",
+    "data": {
+      "pokemon": "DARUMAKA",
+      "evolutionChains": [
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "DARUMAKA"
+            },
+            {
+              "pokemon": "DARMANITAN",
+              "form": "DARMANITAN_STANDARD"
+            }
+          ]
+        },
+        {
+          "headerMessage": "galarian_pokedex_header",
+          "evolutionInfos": [
+            {
+              "pokemon": "DARUMAKA",
+              "form": "DARUMAKA_GALARIAN"
+            },
+            {
+              "pokemon": "DARMANITAN",
+              "form": "DARMANITAN_GALARIAN_STANDARD"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0562_POKEMON_YAMASK",
+    "data": {
+      "pokemon": "YAMASK",
+      "evolutionChains": [
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "YAMASK"
+            },
+            {
+              "pokemon": "COFAGRIGUS"
+            }
+          ]
+        },
+        {
+          "headerMessage": "galarian_pokedex_header",
+          "evolutionInfos": [
+            {
+              "pokemon": "YAMASK",
+              "form": "YAMASK_GALARIAN"
+            },
+            {
+              "pokemon": "RUNERIGUS",
+              "form": "RUNERIGUS_NORMAL"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0585_POKEMON_DEERLING",
+    "data": {
+      "pokemon": "DEERLING",
+      "evolutionChains": [
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "DEERLING",
+              "form": "DEERLING_SPRING"
+            },
+            {
+              "pokemon": "SAWSBUCK",
+              "form": "SAWSBUCK_SPRING"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "DEERLING",
+              "form": "DEERLING_SUMMER"
+            },
+            {
+              "pokemon": "SAWSBUCK",
+              "form": "SAWSBUCK_SUMMER"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "DEERLING",
+              "form": "DEERLING_AUTUMN"
+            },
+            {
+              "pokemon": "SAWSBUCK",
+              "form": "SAWSBUCK_AUTUMN"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "DEERLING",
+              "form": "DEERLING_WINTER"
+            },
+            {
+              "pokemon": "SAWSBUCK",
+              "form": "SAWSBUCK_WINTER"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0586_POKEMON_SAWSBUCK",
+    "data": {
+      "pokemon": "SAWSBUCK",
+      "evolutionChains": [
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "DEERLING",
+              "form": "DEERLING_SPRING"
+            },
+            {
+              "pokemon": "SAWSBUCK",
+              "form": "SAWSBUCK_SPRING"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "DEERLING",
+              "form": "DEERLING_SUMMER"
+            },
+            {
+              "pokemon": "SAWSBUCK",
+              "form": "SAWSBUCK_SUMMER"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "DEERLING",
+              "form": "DEERLING_AUTUMN"
+            },
+            {
+              "pokemon": "SAWSBUCK",
+              "form": "SAWSBUCK_AUTUMN"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "DEERLING",
+              "form": "DEERLING_WINTER"
+            },
+            {
+              "pokemon": "SAWSBUCK",
+              "form": "SAWSBUCK_WINTER"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0592_POKEMON_FRILLISH",
+    "data": {
+      "pokemon": "FRILLISH",
+      "evolutionChains": [
+        {
+          "headerMessage": "gender_male",
+          "evolutionInfos": [
+            {
+              "pokemon": "FRILLISH",
+              "form": "FRILLISH_NORMAL",
+              "gender": "MALE"
+            },
+            {
+              "pokemon": "JELLICENT",
+              "form": "JELLICENT_NORMAL",
+              "gender": "MALE"
+            }
+          ]
+        },
+        {
+          "headerMessage": "gender_female",
+          "evolutionInfos": [
+            {
+              "pokemon": "FRILLISH",
+              "form": "FRILLISH_FEMALE",
+              "gender": "FEMALE"
+            },
+            {
+              "pokemon": "JELLICENT",
+              "form": "JELLICENT_FEMALE",
+              "gender": "FEMALE"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0593_POKEMON_JELLICENT",
+    "data": {
+      "pokemon": "JELLICENT",
+      "evolutionChains": [
+        {
+          "headerMessage": "gender_male",
+          "evolutionInfos": [
+            {
+              "pokemon": "FRILLISH",
+              "form": "FRILLISH_NORMAL",
+              "gender": "MALE"
+            },
+            {
+              "pokemon": "JELLICENT",
+              "form": "JELLICENT_NORMAL",
+              "gender": "MALE"
+            }
+          ]
+        },
+        {
+          "headerMessage": "gender_female",
+          "evolutionInfos": [
+            {
+              "pokemon": "FRILLISH",
+              "form": "FRILLISH_FEMALE",
+              "gender": "FEMALE"
+            },
+            {
+              "pokemon": "JELLICENT",
+              "form": "JELLICENT_FEMALE",
+              "gender": "FEMALE"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0664_POKEMON_SCATTERBUG",
+    "data": {
+      "pokemon": "SCATTERBUG",
+      "evolutionChains": [
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SCATTERBUG",
+              "form": "SCATTERBUG_ARCHIPELAGO"
+            },
+            {
+              "pokemon": "SPEWPA",
+              "form": "SPEWPA_ARCHIPELAGO"
+            },
+            {
+              "pokemon": "VIVILLON",
+              "form": "VIVILLON_ARCHIPELAGO"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SCATTERBUG",
+              "form": "SCATTERBUG_CONTINENTAL"
+            },
+            {
+              "pokemon": "SPEWPA",
+              "form": "SPEWPA_CONTINENTAL"
+            },
+            {
+              "pokemon": "VIVILLON",
+              "form": "VIVILLON_CONTINENTAL"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SCATTERBUG",
+              "form": "SCATTERBUG_ELEGANT"
+            },
+            {
+              "pokemon": "SPEWPA",
+              "form": "SPEWPA_ELEGANT"
+            },
+            {
+              "pokemon": "VIVILLON",
+              "form": "VIVILLON_ELEGANT"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SCATTERBUG",
+              "form": "SCATTERBUG_FANCY"
+            },
+            {
+              "pokemon": "SPEWPA",
+              "form": "SPEWPA_FANCY"
+            },
+            {
+              "pokemon": "VIVILLON",
+              "form": "VIVILLON_FANCY"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SCATTERBUG",
+              "form": "SCATTERBUG_GARDEN"
+            },
+            {
+              "pokemon": "SPEWPA",
+              "form": "SPEWPA_GARDEN"
+            },
+            {
+              "pokemon": "VIVILLON",
+              "form": "VIVILLON_GARDEN"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SCATTERBUG",
+              "form": "SCATTERBUG_HIGH_PLAINS"
+            },
+            {
+              "pokemon": "SPEWPA",
+              "form": "SPEWPA_HIGH_PLAINS"
+            },
+            {
+              "pokemon": "VIVILLON",
+              "form": "VIVILLON_HIGH_PLAINS"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SCATTERBUG",
+              "form": "SCATTERBUG_ICY_SNOW"
+            },
+            {
+              "pokemon": "SPEWPA",
+              "form": "SPEWPA_ICY_SNOW"
+            },
+            {
+              "pokemon": "VIVILLON",
+              "form": "VIVILLON_ICY_SNOW"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SCATTERBUG",
+              "form": "SCATTERBUG_JUNGLE"
+            },
+            {
+              "pokemon": "SPEWPA",
+              "form": "SPEWPA_JUNGLE"
+            },
+            {
+              "pokemon": "VIVILLON",
+              "form": "VIVILLON_JUNGLE"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SCATTERBUG",
+              "form": "SCATTERBUG_MARINE"
+            },
+            {
+              "pokemon": "SPEWPA",
+              "form": "SPEWPA_MARINE"
+            },
+            {
+              "pokemon": "VIVILLON",
+              "form": "VIVILLON_MARINE"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SCATTERBUG",
+              "form": "SCATTERBUG_MEADOW"
+            },
+            {
+              "pokemon": "SPEWPA",
+              "form": "SPEWPA_MEADOW"
+            },
+            {
+              "pokemon": "VIVILLON",
+              "form": "VIVILLON_MEADOW"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SCATTERBUG",
+              "form": "SCATTERBUG_MODERN"
+            },
+            {
+              "pokemon": "SPEWPA",
+              "form": "SPEWPA_MODERN"
+            },
+            {
+              "pokemon": "VIVILLON",
+              "form": "VIVILLON_MODERN"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SCATTERBUG",
+              "form": "SCATTERBUG_MONSOON"
+            },
+            {
+              "pokemon": "SPEWPA",
+              "form": "SPEWPA_MONSOON"
+            },
+            {
+              "pokemon": "VIVILLON",
+              "form": "VIVILLON_MONSOON"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SCATTERBUG",
+              "form": "SCATTERBUG_OCEAN"
+            },
+            {
+              "pokemon": "SPEWPA",
+              "form": "SPEWPA_OCEAN"
+            },
+            {
+              "pokemon": "VIVILLON",
+              "form": "VIVILLON_OCEAN"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SCATTERBUG",
+              "form": "SCATTERBUG_POKEBALL"
+            },
+            {
+              "pokemon": "SPEWPA",
+              "form": "SPEWPA_POKEBALL"
+            },
+            {
+              "pokemon": "VIVILLON",
+              "form": "VIVILLON_POKEBALL"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SCATTERBUG",
+              "form": "SCATTERBUG_POLAR"
+            },
+            {
+              "pokemon": "SPEWPA",
+              "form": "SPEWPA_POLAR"
+            },
+            {
+              "pokemon": "VIVILLON",
+              "form": "VIVILLON_POLAR"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SCATTERBUG",
+              "form": "SCATTERBUG_RIVER"
+            },
+            {
+              "pokemon": "SPEWPA",
+              "form": "SPEWPA_RIVER"
+            },
+            {
+              "pokemon": "VIVILLON",
+              "form": "VIVILLON_RIVER"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SCATTERBUG",
+              "form": "SCATTERBUG_SANDSTORM"
+            },
+            {
+              "pokemon": "SPEWPA",
+              "form": "SPEWPA_SANDSTORM"
+            },
+            {
+              "pokemon": "VIVILLON",
+              "form": "VIVILLON_SANDSTORM"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SCATTERBUG",
+              "form": "SCATTERBUG_SAVANNA"
+            },
+            {
+              "pokemon": "SPEWPA",
+              "form": "SPEWPA_SAVANNA"
+            },
+            {
+              "pokemon": "VIVILLON",
+              "form": "VIVILLON_SAVANNA"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SCATTERBUG",
+              "form": "SCATTERBUG_SUN"
+            },
+            {
+              "pokemon": "SPEWPA",
+              "form": "SPEWPA_SUN"
+            },
+            {
+              "pokemon": "VIVILLON",
+              "form": "VIVILLON_SUN"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SCATTERBUG",
+              "form": "SCATTERBUG_TUNDRA"
+            },
+            {
+              "pokemon": "SPEWPA",
+              "form": "SPEWPA_TUNDRA"
+            },
+            {
+              "pokemon": "VIVILLON",
+              "form": "VIVILLON_TUNDRA"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0665_POKEMON_SPEWPA",
+    "data": {
+      "pokemon": "SPEWPA",
+      "evolutionChains": [
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SCATTERBUG",
+              "form": "SCATTERBUG_ARCHIPELAGO"
+            },
+            {
+              "pokemon": "SPEWPA",
+              "form": "SPEWPA_ARCHIPELAGO"
+            },
+            {
+              "pokemon": "VIVILLON",
+              "form": "VIVILLON_ARCHIPELAGO"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SCATTERBUG",
+              "form": "SCATTERBUG_CONTINENTAL"
+            },
+            {
+              "pokemon": "SPEWPA",
+              "form": "SPEWPA_CONTINENTAL"
+            },
+            {
+              "pokemon": "VIVILLON",
+              "form": "VIVILLON_CONTINENTAL"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SCATTERBUG",
+              "form": "SCATTERBUG_ELEGANT"
+            },
+            {
+              "pokemon": "SPEWPA",
+              "form": "SPEWPA_ELEGANT"
+            },
+            {
+              "pokemon": "VIVILLON",
+              "form": "VIVILLON_ELEGANT"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SCATTERBUG",
+              "form": "SCATTERBUG_FANCY"
+            },
+            {
+              "pokemon": "SPEWPA",
+              "form": "SPEWPA_FANCY"
+            },
+            {
+              "pokemon": "VIVILLON",
+              "form": "VIVILLON_FANCY"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SCATTERBUG",
+              "form": "SCATTERBUG_GARDEN"
+            },
+            {
+              "pokemon": "SPEWPA",
+              "form": "SPEWPA_GARDEN"
+            },
+            {
+              "pokemon": "VIVILLON",
+              "form": "VIVILLON_GARDEN"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SCATTERBUG",
+              "form": "SCATTERBUG_HIGH_PLAINS"
+            },
+            {
+              "pokemon": "SPEWPA",
+              "form": "SPEWPA_HIGH_PLAINS"
+            },
+            {
+              "pokemon": "VIVILLON",
+              "form": "VIVILLON_HIGH_PLAINS"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SCATTERBUG",
+              "form": "SCATTERBUG_ICY_SNOW"
+            },
+            {
+              "pokemon": "SPEWPA",
+              "form": "SPEWPA_ICY_SNOW"
+            },
+            {
+              "pokemon": "VIVILLON",
+              "form": "VIVILLON_ICY_SNOW"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SCATTERBUG",
+              "form": "SCATTERBUG_JUNGLE"
+            },
+            {
+              "pokemon": "SPEWPA",
+              "form": "SPEWPA_JUNGLE"
+            },
+            {
+              "pokemon": "VIVILLON",
+              "form": "VIVILLON_JUNGLE"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SCATTERBUG",
+              "form": "SCATTERBUG_MARINE"
+            },
+            {
+              "pokemon": "SPEWPA",
+              "form": "SPEWPA_MARINE"
+            },
+            {
+              "pokemon": "VIVILLON",
+              "form": "VIVILLON_MARINE"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SCATTERBUG",
+              "form": "SCATTERBUG_MEADOW"
+            },
+            {
+              "pokemon": "SPEWPA",
+              "form": "SPEWPA_MEADOW"
+            },
+            {
+              "pokemon": "VIVILLON",
+              "form": "VIVILLON_MEADOW"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SCATTERBUG",
+              "form": "SCATTERBUG_MODERN"
+            },
+            {
+              "pokemon": "SPEWPA",
+              "form": "SPEWPA_MODERN"
+            },
+            {
+              "pokemon": "VIVILLON",
+              "form": "VIVILLON_MODERN"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SCATTERBUG",
+              "form": "SCATTERBUG_MONSOON"
+            },
+            {
+              "pokemon": "SPEWPA",
+              "form": "SPEWPA_MONSOON"
+            },
+            {
+              "pokemon": "VIVILLON",
+              "form": "VIVILLON_MONSOON"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SCATTERBUG",
+              "form": "SCATTERBUG_OCEAN"
+            },
+            {
+              "pokemon": "SPEWPA",
+              "form": "SPEWPA_OCEAN"
+            },
+            {
+              "pokemon": "VIVILLON",
+              "form": "VIVILLON_OCEAN"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SCATTERBUG",
+              "form": "SCATTERBUG_POKEBALL"
+            },
+            {
+              "pokemon": "SPEWPA",
+              "form": "SPEWPA_POKEBALL"
+            },
+            {
+              "pokemon": "VIVILLON",
+              "form": "VIVILLON_POKEBALL"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SCATTERBUG",
+              "form": "SCATTERBUG_POLAR"
+            },
+            {
+              "pokemon": "SPEWPA",
+              "form": "SPEWPA_POLAR"
+            },
+            {
+              "pokemon": "VIVILLON",
+              "form": "VIVILLON_POLAR"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SCATTERBUG",
+              "form": "SCATTERBUG_RIVER"
+            },
+            {
+              "pokemon": "SPEWPA",
+              "form": "SPEWPA_RIVER"
+            },
+            {
+              "pokemon": "VIVILLON",
+              "form": "VIVILLON_RIVER"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SCATTERBUG",
+              "form": "SCATTERBUG_SANDSTORM"
+            },
+            {
+              "pokemon": "SPEWPA",
+              "form": "SPEWPA_SANDSTORM"
+            },
+            {
+              "pokemon": "VIVILLON",
+              "form": "VIVILLON_SANDSTORM"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SCATTERBUG",
+              "form": "SCATTERBUG_SAVANNA"
+            },
+            {
+              "pokemon": "SPEWPA",
+              "form": "SPEWPA_SAVANNA"
+            },
+            {
+              "pokemon": "VIVILLON",
+              "form": "VIVILLON_SAVANNA"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SCATTERBUG",
+              "form": "SCATTERBUG_SUN"
+            },
+            {
+              "pokemon": "SPEWPA",
+              "form": "SPEWPA_SUN"
+            },
+            {
+              "pokemon": "VIVILLON",
+              "form": "VIVILLON_SUN"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SCATTERBUG",
+              "form": "SCATTERBUG_TUNDRA"
+            },
+            {
+              "pokemon": "SPEWPA",
+              "form": "SPEWPA_TUNDRA"
+            },
+            {
+              "pokemon": "VIVILLON",
+              "form": "VIVILLON_TUNDRA"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0666_POKEMON_VIVILLON",
+    "data": {
+      "pokemon": "VIVILLON",
+      "evolutionChains": [
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SCATTERBUG",
+              "form": "SCATTERBUG_ARCHIPELAGO"
+            },
+            {
+              "pokemon": "SPEWPA",
+              "form": "SPEWPA_ARCHIPELAGO"
+            },
+            {
+              "pokemon": "VIVILLON",
+              "form": "VIVILLON_ARCHIPELAGO"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SCATTERBUG",
+              "form": "SCATTERBUG_CONTINENTAL"
+            },
+            {
+              "pokemon": "SPEWPA",
+              "form": "SPEWPA_CONTINENTAL"
+            },
+            {
+              "pokemon": "VIVILLON",
+              "form": "VIVILLON_CONTINENTAL"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SCATTERBUG",
+              "form": "SCATTERBUG_ELEGANT"
+            },
+            {
+              "pokemon": "SPEWPA",
+              "form": "SPEWPA_ELEGANT"
+            },
+            {
+              "pokemon": "VIVILLON",
+              "form": "VIVILLON_ELEGANT"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SCATTERBUG",
+              "form": "SCATTERBUG_FANCY"
+            },
+            {
+              "pokemon": "SPEWPA",
+              "form": "SPEWPA_FANCY"
+            },
+            {
+              "pokemon": "VIVILLON",
+              "form": "VIVILLON_FANCY"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SCATTERBUG",
+              "form": "SCATTERBUG_GARDEN"
+            },
+            {
+              "pokemon": "SPEWPA",
+              "form": "SPEWPA_GARDEN"
+            },
+            {
+              "pokemon": "VIVILLON",
+              "form": "VIVILLON_GARDEN"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SCATTERBUG",
+              "form": "SCATTERBUG_HIGH_PLAINS"
+            },
+            {
+              "pokemon": "SPEWPA",
+              "form": "SPEWPA_HIGH_PLAINS"
+            },
+            {
+              "pokemon": "VIVILLON",
+              "form": "VIVILLON_HIGH_PLAINS"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SCATTERBUG",
+              "form": "SCATTERBUG_ICY_SNOW"
+            },
+            {
+              "pokemon": "SPEWPA",
+              "form": "SPEWPA_ICY_SNOW"
+            },
+            {
+              "pokemon": "VIVILLON",
+              "form": "VIVILLON_ICY_SNOW"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SCATTERBUG",
+              "form": "SCATTERBUG_JUNGLE"
+            },
+            {
+              "pokemon": "SPEWPA",
+              "form": "SPEWPA_JUNGLE"
+            },
+            {
+              "pokemon": "VIVILLON",
+              "form": "VIVILLON_JUNGLE"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SCATTERBUG",
+              "form": "SCATTERBUG_MARINE"
+            },
+            {
+              "pokemon": "SPEWPA",
+              "form": "SPEWPA_MARINE"
+            },
+            {
+              "pokemon": "VIVILLON",
+              "form": "VIVILLON_MARINE"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SCATTERBUG",
+              "form": "SCATTERBUG_MEADOW"
+            },
+            {
+              "pokemon": "SPEWPA",
+              "form": "SPEWPA_MEADOW"
+            },
+            {
+              "pokemon": "VIVILLON",
+              "form": "VIVILLON_MEADOW"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SCATTERBUG",
+              "form": "SCATTERBUG_MODERN"
+            },
+            {
+              "pokemon": "SPEWPA",
+              "form": "SPEWPA_MODERN"
+            },
+            {
+              "pokemon": "VIVILLON",
+              "form": "VIVILLON_MODERN"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SCATTERBUG",
+              "form": "SCATTERBUG_MONSOON"
+            },
+            {
+              "pokemon": "SPEWPA",
+              "form": "SPEWPA_MONSOON"
+            },
+            {
+              "pokemon": "VIVILLON",
+              "form": "VIVILLON_MONSOON"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SCATTERBUG",
+              "form": "SCATTERBUG_OCEAN"
+            },
+            {
+              "pokemon": "SPEWPA",
+              "form": "SPEWPA_OCEAN"
+            },
+            {
+              "pokemon": "VIVILLON",
+              "form": "VIVILLON_OCEAN"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SCATTERBUG",
+              "form": "SCATTERBUG_POKEBALL"
+            },
+            {
+              "pokemon": "SPEWPA",
+              "form": "SPEWPA_POKEBALL"
+            },
+            {
+              "pokemon": "VIVILLON",
+              "form": "VIVILLON_POKEBALL"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SCATTERBUG",
+              "form": "SCATTERBUG_POLAR"
+            },
+            {
+              "pokemon": "SPEWPA",
+              "form": "SPEWPA_POLAR"
+            },
+            {
+              "pokemon": "VIVILLON",
+              "form": "VIVILLON_POLAR"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SCATTERBUG",
+              "form": "SCATTERBUG_RIVER"
+            },
+            {
+              "pokemon": "SPEWPA",
+              "form": "SPEWPA_RIVER"
+            },
+            {
+              "pokemon": "VIVILLON",
+              "form": "VIVILLON_RIVER"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SCATTERBUG",
+              "form": "SCATTERBUG_SANDSTORM"
+            },
+            {
+              "pokemon": "SPEWPA",
+              "form": "SPEWPA_SANDSTORM"
+            },
+            {
+              "pokemon": "VIVILLON",
+              "form": "VIVILLON_SANDSTORM"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SCATTERBUG",
+              "form": "SCATTERBUG_SAVANNA"
+            },
+            {
+              "pokemon": "SPEWPA",
+              "form": "SPEWPA_SAVANNA"
+            },
+            {
+              "pokemon": "VIVILLON",
+              "form": "VIVILLON_SAVANNA"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SCATTERBUG",
+              "form": "SCATTERBUG_SUN"
+            },
+            {
+              "pokemon": "SPEWPA",
+              "form": "SPEWPA_SUN"
+            },
+            {
+              "pokemon": "VIVILLON",
+              "form": "VIVILLON_SUN"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SCATTERBUG",
+              "form": "SCATTERBUG_TUNDRA"
+            },
+            {
+              "pokemon": "SPEWPA",
+              "form": "SPEWPA_TUNDRA"
+            },
+            {
+              "pokemon": "VIVILLON",
+              "form": "VIVILLON_TUNDRA"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0667_POKEMON_LITLEO",
+    "data": {
+      "pokemon": "LITLEO",
+      "evolutionChains": [
+        {
+          "headerMessage": "gender_male",
+          "evolutionInfos": [
+            {
+              "pokemon": "LITLEO",
+              "gender": "MALE"
+            },
+            {
+              "pokemon": "PYROAR",
+              "form": "PYROAR_NORMAL",
+              "gender": "MALE"
+            }
+          ]
+        },
+        {
+          "headerMessage": "gender_female",
+          "evolutionInfos": [
+            {
+              "pokemon": "LITLEO",
+              "gender": "FEMALE"
+            },
+            {
+              "pokemon": "PYROAR",
+              "form": "PYROAR_FEMALE",
+              "gender": "FEMALE"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0668_POKEMON_PYROAR",
+    "data": {
+      "pokemon": "PYROAR",
+      "evolutionChains": [
+        {
+          "headerMessage": "gender_male",
+          "evolutionInfos": [
+            {
+              "pokemon": "LITLEO",
+              "gender": "MALE"
+            },
+            {
+              "pokemon": "PYROAR",
+              "form": "PYROAR_NORMAL",
+              "gender": "MALE"
+            }
+          ]
+        },
+        {
+          "headerMessage": "gender_female",
+          "evolutionInfos": [
+            {
+              "pokemon": "LITLEO",
+              "gender": "FEMALE"
+            },
+            {
+              "pokemon": "PYROAR",
+              "form": "PYROAR_FEMALE",
+              "gender": "FEMALE"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0669_POKEMON_FLABEBE",
+    "data": {
+      "pokemon": "FLABEBE",
+      "evolutionChains": [
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "FLABEBE",
+              "form": "FLABEBE_RED"
+            },
+            {
+              "pokemon": "FLOETTE",
+              "form": "FLOETTE_RED"
+            },
+            {
+              "pokemon": "FLORGES",
+              "form": "FLORGES_RED"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "FLABEBE",
+              "form": "FLABEBE_YELLOW"
+            },
+            {
+              "pokemon": "FLOETTE",
+              "form": "FLOETTE_YELLOW"
+            },
+            {
+              "pokemon": "FLORGES",
+              "form": "FLORGES_YELLOW"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "FLABEBE",
+              "form": "FLABEBE_ORANGE"
+            },
+            {
+              "pokemon": "FLOETTE",
+              "form": "FLOETTE_ORANGE"
+            },
+            {
+              "pokemon": "FLORGES",
+              "form": "FLORGES_ORANGE"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "FLABEBE",
+              "form": "FLABEBE_BLUE"
+            },
+            {
+              "pokemon": "FLOETTE",
+              "form": "FLOETTE_BLUE"
+            },
+            {
+              "pokemon": "FLORGES",
+              "form": "FLORGES_BLUE"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "FLABEBE",
+              "form": "FLABEBE_WHITE"
+            },
+            {
+              "pokemon": "FLOETTE",
+              "form": "FLOETTE_WHITE"
+            },
+            {
+              "pokemon": "FLORGES",
+              "form": "FLORGES_WHITE"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0670_POKEMON_FLOETTE",
+    "data": {
+      "pokemon": "FLOETTE",
+      "evolutionChains": [
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "FLABEBE",
+              "form": "FLABEBE_RED"
+            },
+            {
+              "pokemon": "FLOETTE",
+              "form": "FLOETTE_RED"
+            },
+            {
+              "pokemon": "FLORGES",
+              "form": "FLORGES_RED"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "FLABEBE",
+              "form": "FLABEBE_YELLOW"
+            },
+            {
+              "pokemon": "FLOETTE",
+              "form": "FLOETTE_YELLOW"
+            },
+            {
+              "pokemon": "FLORGES",
+              "form": "FLORGES_YELLOW"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "FLABEBE",
+              "form": "FLABEBE_ORANGE"
+            },
+            {
+              "pokemon": "FLOETTE",
+              "form": "FLOETTE_ORANGE"
+            },
+            {
+              "pokemon": "FLORGES",
+              "form": "FLORGES_ORANGE"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "FLABEBE",
+              "form": "FLABEBE_BLUE"
+            },
+            {
+              "pokemon": "FLOETTE",
+              "form": "FLOETTE_BLUE"
+            },
+            {
+              "pokemon": "FLORGES",
+              "form": "FLORGES_BLUE"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "FLABEBE",
+              "form": "FLABEBE_WHITE"
+            },
+            {
+              "pokemon": "FLOETTE",
+              "form": "FLOETTE_WHITE"
+            },
+            {
+              "pokemon": "FLORGES",
+              "form": "FLORGES_WHITE"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0671_POKEMON_FLORGES",
+    "data": {
+      "pokemon": "FLORGES",
+      "evolutionChains": [
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "FLABEBE",
+              "form": "FLABEBE_RED"
+            },
+            {
+              "pokemon": "FLOETTE",
+              "form": "FLOETTE_RED"
+            },
+            {
+              "pokemon": "FLORGES",
+              "form": "FLORGES_RED"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "FLABEBE",
+              "form": "FLABEBE_YELLOW"
+            },
+            {
+              "pokemon": "FLOETTE",
+              "form": "FLOETTE_YELLOW"
+            },
+            {
+              "pokemon": "FLORGES",
+              "form": "FLORGES_YELLOW"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "FLABEBE",
+              "form": "FLABEBE_ORANGE"
+            },
+            {
+              "pokemon": "FLOETTE",
+              "form": "FLOETTE_ORANGE"
+            },
+            {
+              "pokemon": "FLORGES",
+              "form": "FLORGES_ORANGE"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "FLABEBE",
+              "form": "FLABEBE_BLUE"
+            },
+            {
+              "pokemon": "FLOETTE",
+              "form": "FLOETTE_BLUE"
+            },
+            {
+              "pokemon": "FLORGES",
+              "form": "FLORGES_BLUE"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "FLABEBE",
+              "form": "FLABEBE_WHITE"
+            },
+            {
+              "pokemon": "FLOETTE",
+              "form": "FLOETTE_WHITE"
+            },
+            {
+              "pokemon": "FLORGES",
+              "form": "FLORGES_WHITE"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0677_POKEMON_ESPURR",
+    "data": {
+      "pokemon": "ESPURR",
+      "evolutionChains": [
+        {
+          "headerMessage": "gender_male",
+          "evolutionInfos": [
+            {
+              "pokemon": "ESPURR",
+              "gender": "MALE"
+            },
+            {
+              "pokemon": "MEOWSTIC",
+              "form": "MEOWSTIC_NORMAL",
+              "gender": "MALE"
+            }
+          ]
+        },
+        {
+          "headerMessage": "gender_female",
+          "evolutionInfos": [
+            {
+              "pokemon": "ESPURR",
+              "gender": "FEMALE"
+            },
+            {
+              "pokemon": "MEOWSTIC",
+              "form": "MEOWSTIC_FEMALE",
+              "gender": "FEMALE"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0678_POKEMON_MEOWSTIC",
+    "data": {
+      "pokemon": "MEOWSTIC",
+      "evolutionChains": [
+        {
+          "headerMessage": "gender_male",
+          "evolutionInfos": [
+            {
+              "pokemon": "ESPURR",
+              "gender": "MALE"
+            },
+            {
+              "pokemon": "MEOWSTIC",
+              "form": "MEOWSTIC_NORMAL",
+              "gender": "MALE"
+            }
+          ]
+        },
+        {
+          "headerMessage": "gender_female",
+          "evolutionInfos": [
+            {
+              "pokemon": "ESPURR",
+              "gender": "FEMALE"
+            },
+            {
+              "pokemon": "MEOWSTIC",
+              "form": "MEOWSTIC_FEMALE",
+              "gender": "FEMALE"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0679_POKEMON_HONEDGE",
+    "data": {
+      "pokemon": "HONEDGE",
+      "evolutionChains": [
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "HONEDGE"
+            },
+            {
+              "pokemon": "DOUBLADE"
+            },
+            {
+              "pokemon": "AEGISLASH",
+              "form": "AEGISLASH_SHIELD"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0680_POKEMON_DOUBLADE",
+    "data": {
+      "pokemon": "DOUBLADE",
+      "evolutionChains": [
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "HONEDGE"
+            },
+            {
+              "pokemon": "DOUBLADE"
+            },
+            {
+              "pokemon": "AEGISLASH",
+              "form": "AEGISLASH_SHIELD"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0681_POKEMON_AEGISLASH",
+    "data": {
+      "pokemon": "AEGISLASH",
+      "evolutionChains": [
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "HONEDGE"
+            },
+            {
+              "pokemon": "DOUBLADE"
+            },
+            {
+              "pokemon": "AEGISLASH",
+              "form": "AEGISLASH_SHIELD"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0710_POKEMON_PUMPKABOO",
+    "data": {
+      "pokemon": "PUMPKABOO",
+      "evolutionChains": [
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "PUMPKABOO",
+              "form": "PUMPKABOO_SMALL"
+            },
+            {
+              "pokemon": "GOURGEIST",
+              "form": "GOURGEIST_SMALL"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "PUMPKABOO",
+              "form": "PUMPKABOO_AVERAGE"
+            },
+            {
+              "pokemon": "GOURGEIST",
+              "form": "GOURGEIST_AVERAGE"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "PUMPKABOO",
+              "form": "PUMPKABOO_LARGE"
+            },
+            {
+              "pokemon": "GOURGEIST",
+              "form": "GOURGEIST_LARGE"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "PUMPKABOO",
+              "form": "PUMPKABOO_SUPER"
+            },
+            {
+              "pokemon": "GOURGEIST",
+              "form": "GOURGEIST_SUPER"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0711_POKEMON_GOURGEIST",
+    "data": {
+      "pokemon": "GOURGEIST",
+      "evolutionChains": [
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "PUMPKABOO",
+              "form": "PUMPKABOO_SMALL"
+            },
+            {
+              "pokemon": "GOURGEIST",
+              "form": "GOURGEIST_SMALL"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "PUMPKABOO",
+              "form": "PUMPKABOO_AVERAGE"
+            },
+            {
+              "pokemon": "GOURGEIST",
+              "form": "GOURGEIST_AVERAGE"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "PUMPKABOO",
+              "form": "PUMPKABOO_LARGE"
+            },
+            {
+              "pokemon": "GOURGEIST",
+              "form": "GOURGEIST_LARGE"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "PUMPKABOO",
+              "form": "PUMPKABOO_SUPER"
+            },
+            {
+              "pokemon": "GOURGEIST",
+              "form": "GOURGEIST_SUPER"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0718_POKEMON_ZYGARDE",
+    "data": {
+      "pokemon": "ZYGARDE",
+      "evolutionChains": [
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "ZYGARDE",
+              "form": "ZYGARDE_TEN_PERCENT"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0722_POKEMON_ROWLET",
+    "data": {
+      "pokemon": "ROWLET",
+      "evolutionChains": [
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "ROWLET"
+            },
+            {
+              "pokemon": "DARTRIX"
+            },
+            {
+              "pokemon": "DECIDUEYE"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0723_POKEMON_DARTRIX",
+    "data": {
+      "pokemon": "DARTRIX",
+      "evolutionChains": [
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "ROWLET"
+            },
+            {
+              "pokemon": "DARTRIX"
+            },
+            {
+              "pokemon": "DECIDUEYE"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0724_POKEMON_DECIDUEYE",
+    "data": {
+      "pokemon": "DECIDUEYE",
+      "evolutionChains": [
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "ROWLET"
+            },
+            {
+              "pokemon": "DARTRIX"
+            },
+            {
+              "pokemon": "DECIDUEYE"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0744_POKEMON_ROCKRUFF",
+    "data": {
+      "pokemon": "ROCKRUFF",
+      "evolutionChains": [
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "ROCKRUFF",
+              "form": "ROCKRUFF_NORMAL"
+            },
+            {
+              "pokemon": "LYCANROC",
+              "form": "LYCANROC_MIDDAY"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "ROCKRUFF",
+              "form": "ROCKRUFF_NORMAL"
+            },
+            {
+              "pokemon": "LYCANROC",
+              "form": "LYCANROC_MIDNIGHT"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "ROCKRUFF",
+              "form": "ROCKRUFF_DUSK"
+            },
+            {
+              "pokemon": "LYCANROC",
+              "form": "LYCANROC_DUSK"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0745_POKEMON_LYCANROC",
+    "data": {
+      "pokemon": "LYCANROC",
+      "evolutionChains": [
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "ROCKRUFF",
+              "form": "ROCKRUFF_NORMAL"
+            },
+            {
+              "pokemon": "LYCANROC",
+              "form": "LYCANROC_MIDDAY"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "ROCKRUFF",
+              "form": "ROCKRUFF_NORMAL"
+            },
+            {
+              "pokemon": "LYCANROC",
+              "form": "LYCANROC_MIDNIGHT"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "ROCKRUFF",
+              "form": "ROCKRUFF_DUSK"
+            },
+            {
+              "pokemon": "LYCANROC",
+              "form": "LYCANROC_DUSK"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0800_POKEMON_NECROZMA",
+    "data": {
+      "pokemon": "NECROZMA",
+      "evolutionChains": [
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "NECROZMA",
+              "form": "NECROZMA_NORMAL"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "NECROZMA",
+              "form": "NECROZMA_DUSK_MANE"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "NECROZMA",
+              "form": "NECROZMA_DAWN_WINGS"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0848_POKEMON_TOXEL",
+    "data": {
+      "pokemon": "TOXEL",
+      "evolutionChains": [
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "TOXEL"
+            },
+            {
+              "pokemon": "TOXTRICITY",
+              "form": "TOXTRICITY_LOW_KEY"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "TOXEL"
+            },
+            {
+              "pokemon": "TOXTRICITY",
+              "form": "TOXTRICITY_AMPED"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0849_POKEMON_TOXTRICITY",
+    "data": {
+      "pokemon": "TOXTRICITY",
+      "evolutionChains": [
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "TOXEL"
+            },
+            {
+              "pokemon": "TOXTRICITY",
+              "form": "TOXTRICITY_LOW_KEY"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "TOXEL"
+            },
+            {
+              "pokemon": "TOXTRICITY",
+              "form": "TOXTRICITY_AMPED"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0862_POKEMON_OBSTAGOON",
+    "data": {
+      "pokemon": "OBSTAGOON",
+      "evolutionChains": [
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "ZIGZAGOON",
+              "form": "ZIGZAGOON_GALARIAN"
+            },
+            {
+              "pokemon": "LINOONE",
+              "form": "LINOONE_GALARIAN"
+            },
+            {
+              "pokemon": "OBSTAGOON",
+              "form": "OBSTAGOON_NORMAL"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0863_POKEMON_PERRSERKER",
+    "data": {
+      "pokemon": "PERRSERKER",
+      "evolutionChains": [
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "MEOWTH",
+              "form": "MEOWTH_GALARIAN"
+            },
+            {
+              "pokemon": "PERRSERKER",
+              "form": "PERRSERKER_NORMAL"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0864_POKEMON_CURSOLA",
+    "data": {
+      "pokemon": "CURSOLA",
+      "evolutionChains": [
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "CORSOLA",
+              "form": "CORSOLA_GALARIAN"
+            },
+            {
+              "pokemon": "CURSOLA",
+              "form": "CURSOLA_NORMAL"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0865_POKEMON_SIRFETCHD",
+    "data": {
+      "pokemon": "SIRFETCHD",
+      "evolutionChains": [
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "FARFETCHD",
+              "form": "FARFETCHD_GALARIAN"
+            },
+            {
+              "pokemon": "SIRFETCHD",
+              "form": "SIRFETCHD_NORMAL"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0866_POKEMON_MR_RIME",
+    "data": {
+      "pokemon": "MR_RIME",
+      "evolutionChains": [
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "MR_MIME",
+              "form": "MR_MIME_GALARIAN"
+            },
+            {
+              "pokemon": "MR_RIME",
+              "form": "MR_RIME_NORMAL"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0867_POKEMON_RUNERIGUS",
+    "data": {
+      "pokemon": "RUNERIGUS",
+      "evolutionChains": [
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "YAMASK",
+              "form": "YAMASK_GALARIAN"
+            },
+            {
+              "pokemon": "RUNERIGUS",
+              "form": "RUNERIGUS_NORMAL"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0899_POKEMON_WYRDEER",
+    "data": {
+      "pokemon": "WYRDEER"
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0900_POKEMON_KLEAVOR",
+    "data": {
+      "pokemon": "KLEAVOR",
+      "evolutionChains": [
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SCYTHER"
+            },
+            {
+              "pokemon": "KLEAVOR"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0903_POKEMON_SNEASLER",
+    "data": {
+      "pokemon": "SNEASLER",
+      "evolutionChains": [
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "SNEASEL",
+              "form": "SNEASEL_HISUIAN"
+            },
+            {
+              "pokemon": "SNEASLER"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0904_POKEMON_OVERQWIL",
+    "data": {
+      "pokemon": "OVERQWIL",
+      "evolutionChains": [
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "QWILFISH",
+              "form": "QWILFISH_HISUIAN"
+            },
+            {
+              "pokemon": "OVERQWIL"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0915_POKEMON_LECHONK",
+    "data": {
+      "pokemon": "LECHONK",
+      "evolutionChains": [
+        {
+          "headerMessage": "gender_male",
+          "evolutionInfos": [
+            {
+              "pokemon": "LECHONK",
+              "gender": "MALE"
+            },
+            {
+              "pokemon": "OINKOLOGNE",
+              "form": "OINKOLOGNE_NORMAL",
+              "gender": "MALE"
+            }
+          ]
+        },
+        {
+          "headerMessage": "gender_female",
+          "evolutionInfos": [
+            {
+              "pokemon": "LECHONK",
+              "gender": "FEMALE"
+            },
+            {
+              "pokemon": "OINKOLOGNE",
+              "form": "OINKOLOGNE_FEMALE",
+              "gender": "FEMALE"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0916_POKEMON_OINKOLOGNE",
+    "data": {
+      "pokemon": "OINKOLOGNE",
+      "evolutionChains": [
+        {
+          "headerMessage": "gender_male",
+          "evolutionInfos": [
+            {
+              "pokemon": "LECHONK",
+              "gender": "MALE"
+            },
+            {
+              "pokemon": "OINKOLOGNE",
+              "form": "OINKOLOGNE_NORMAL",
+              "gender": "MALE"
+            }
+          ]
+        },
+        {
+          "headerMessage": "gender_female",
+          "evolutionInfos": [
+            {
+              "pokemon": "LECHONK",
+              "gender": "FEMALE"
+            },
+            {
+              "pokemon": "OINKOLOGNE",
+              "form": "OINKOLOGNE_FEMALE",
+              "gender": "FEMALE"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0924_POKEMON_TANDEMAUS",
+    "data": {
+      "pokemon": "TANDEMAUS",
+      "evolutionChains": [
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "TANDEMAUS"
+            },
+            {
+              "pokemon": "MAUSHOLD",
+              "form": "MAUSHOLD_FAMILY_OF_FOUR"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "TANDEMAUS"
+            },
+            {
+              "pokemon": "MAUSHOLD",
+              "form": "MAUSHOLD_FAMILY_OF_THREE"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0925_POKEMON_MAUSHOLD",
+    "data": {
+      "pokemon": "MAUSHOLD",
+      "evolutionChains": [
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "TANDEMAUS"
+            },
+            {
+              "pokemon": "MAUSHOLD",
+              "form": "MAUSHOLD_FAMILY_OF_FOUR"
+            }
+          ]
+        },
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "TANDEMAUS"
+            },
+            {
+              "pokemon": "MAUSHOLD",
+              "form": "MAUSHOLD_FAMILY_OF_THREE"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V0980_POKEMON_CLODSIRE",
+    "data": {
+      "pokemon": "CLODSIRE",
+      "evolutionChains": [
+        {
+          "evolutionInfos": [
+            {
+              "pokemon": "WOOPER",
+              "form": "WOOPER_PALDEA"
+            },
+            {
+              "pokemon": "CLODSIRE"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V1012_POKEMON_POLTCHAGEIST",
+    "data": {
+      "pokemon": "POLTCHAGEIST",
+      "evolutionChains": [
+        {
+          "headerMessage": "form_counterfeit",
+          "evolutionInfos": [
+            {
+              "pokemon": "POLTCHAGEIST",
+              "form": "POLTCHAGEIST_COUNTERFEIT"
+            },
+            {
+              "pokemon": "SINISTCHA",
+              "form": "SINISTCHA_UNREMARKABLE"
+            }
+          ]
+        },
+        {
+          "headerMessage": "form_masterpiece",
+          "evolutionInfos": [
+            {
+              "pokemon": "POLTCHAGEIST",
+              "form": "POLTCHAGEIST_ARTISAN"
+            },
+            {
+              "pokemon": "SINISTCHA",
+              "form": "SINISTCHA_MASTERPIECE"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVOLUTION_V1013_POKEMON_SINISTCHA",
+    "data": {
+      "pokemon": "SINISTCHA",
+      "evolutionChains": [
+        {
+          "headerMessage": "form_artisan",
+          "evolutionInfos": [
+            {
+              "pokemon": "POLTCHAGEIST",
+              "form": "POLTCHAGEIST_COUNTERFEIT"
+            },
+            {
+              "pokemon": "SINISTCHA",
+              "form": "SINISTCHA_UNREMARKABLE"
+            }
+          ]
+        },
+        {
+          "headerMessage": "form_masterpiece",
+          "evolutionInfos": [
+            {
+              "pokemon": "POLTCHAGEIST",
+              "form": "POLTCHAGEIST_ARTISAN"
+            },
+            {
+              "pokemon": "SINISTCHA",
+              "form": "SINISTCHA_MASTERPIECE"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

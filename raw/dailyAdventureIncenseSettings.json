@@ -1,0 +1,20 @@
+[
+  {
+    "templateId": "DAILY_ADVENTURE_INCENSE_SETTINGS",
+    "data": {
+      "enabled": true,
+      "pokeballGrantThreshold": 30,
+      "pokeballGrant": {
+        "lootItem": [
+          {
+            "item": "ITEM_POKE_BALL",
+            "count": 30
+          }
+        ]
+      },
+      "localDeliveryTime": "0:00:00",
+      "enablePushNotification": true,
+      "pushNotificationHourOfDay": 16
+    }
+  }
+]

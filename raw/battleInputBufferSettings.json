@@ -1,0 +1,42 @@
+[
+  {
+    "templateId": "DEFAULT_BATTLE_INPUT_BUFFER_SETTINGS",
+    "data": {
+      "raidsInputBufferPriorityList": {
+        "eventPriority": [
+          "ACTOR_ABILITY",
+          "ITEM",
+          "DODGE",
+          "SWAP_POKEMON"
+        ],
+        "priorityEventTypeList": [
+          "ACTOR_ABILITY",
+          "ITEM",
+          "DODGE",
+          "SWAP_POKEMON",
+          "CHARGE_ATTACK"
+        ]
+      },
+      "breadInputBufferPriorityList": {
+        "eventPriority": [
+          "DODGE",
+          "SWAP_POKEMON"
+        ],
+        "priorityEventTypeList": [
+          "DODGE",
+          "SWAP_POKEMON",
+          "CHARGE_ATTACK"
+        ]
+      },
+      "combatInputBufferPriorityList": {
+        "eventPriority": [
+          "SWAP_POKEMON"
+        ],
+        "priorityEventTypeList": [
+          "SWAP_POKEMON",
+          "CHARGE_ATTACK"
+        ]
+      }
+    }
+  }
+]

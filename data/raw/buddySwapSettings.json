@@ -1,0 +1,10 @@
+[
+  {
+    "templateId": "BUDDY_SWAP_SETTINGS",
+    "data": {
+      "maxSwapsPerDay": 20,
+      "enableSwapFreeEvolution": true,
+      "enableQuickSwap": true
+    }
+  }
+]

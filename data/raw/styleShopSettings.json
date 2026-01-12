@@ -1,0 +1,17 @@
+[
+  {
+    "templateId": "STYLE_SHOP_SETTINGS",
+    "data": {
+      "v2Enabled": true,
+      "setsEnabled": true,
+      "recommendedItemIconNames": [
+        "pose_35",
+        "m_shirt_genderlessskirt_00_bundle_icon",
+        "f_shirt_genderlessskirt_00_bundle_icon",
+        "m_backpack_lunalaitems_00_bundle_icon",
+        "f_backpack_lunalaitems_00_bundle_icon"
+      ],
+      "cartDisabled": true
+    }
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "templateId": "BATTLE_PARTY_SETTINGS",
+    "data": {
+      "enableBattlePartySaving": true,
+      "maxBattleParties": 10,
+      "overallPartiesCap": 40
+    }
+  }
+]

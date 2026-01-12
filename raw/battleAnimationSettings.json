@@ -1,0 +1,23 @@
+[
+  {
+    "templateId": "VNEXT_ANIMATION_CONFIGURATION",
+    "data": {
+      "raidsAnimationConfiguration": {
+        "fastAttackSettings": {
+          "normalizedStartOffset": 0.2,
+          "crossFadeDurationSeconds": 0.1
+        }
+      },
+      "maxBattleAnimationConfiguration": {
+        "fastAttackSettings": {
+          "normalizedStartOffset": 0.2,
+          "crossFadeDurationSeconds": 0.1
+        }
+      },
+      "combatAnimationConfiguration": {
+        "fastAttackSettings": {},
+        "projectedHealthAnimationDurationSeconds": 0.25
+      }
+    }
+  }
+]

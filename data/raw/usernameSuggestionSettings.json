@@ -1,0 +1,10 @@
+[
+  {
+    "templateId": "username_suggestion_settings",
+    "data": {
+      "featureEnabled": true,
+      "numSuggestionsDisplayed": 4,
+      "numSuggestionsGenerated": 16
+    }
+  }
+]

@@ -1,0 +1,8 @@
+[
+  {
+    "templateId": "SURVEY_SETTINGS",
+    "data": {
+      "surveyPollFrequencyS": 30
+    }
+  }
+]

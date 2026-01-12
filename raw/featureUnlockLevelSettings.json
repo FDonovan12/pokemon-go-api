@@ -1,0 +1,9 @@
+[
+  {
+    "templateId": "FEATURE_UNLOCK_LEVEL_SETTINGS",
+    "data": {
+      "luresUnlockLevel": 6,
+      "rareCandyConversionUnlockLevel": 1
+    }
+  }
+]

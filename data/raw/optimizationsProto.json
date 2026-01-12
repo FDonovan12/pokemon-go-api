@@ -1,0 +1,10 @@
+[
+  {
+    "templateId": "OPTIMIZATIONS_SETTINGS",
+    "data": {
+      "optimizationPhysicsToggleEnabled": true,
+      "adaptivePerformanceUpdateInterval": 3,
+      "adaptivePerformanceMinResolutionScale": 0.7
+    }
+  }
+]

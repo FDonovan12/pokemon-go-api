@@ -1,0 +1,8 @@
+[
+  {
+    "templateId": "HAPTICS_SETTINGS",
+    "data": {
+      "advancedHapticsEnabled": true
+    }
+  }
+]

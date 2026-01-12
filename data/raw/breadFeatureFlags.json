@@ -1,0 +1,20 @@
+[
+  {
+    "templateId": "BREAD_FEATURE_FLAGS",
+    "data": {
+      "enabled": true,
+      "discoveryEnabled": true,
+      "mpEnabled": true,
+      "stationDiscoveryMode": "DYNAMIC_STATIONS",
+      "battleSpawnMode": "GMT_SPAWN",
+      "battleEnabled": true,
+      "nearbyLobbyCounterEnabled": true,
+      "minimumPlayerLevel": 20,
+      "breadPostBattleRecoveryEnabled": true,
+      "powerSpotEditsEnabled": true,
+      "canUseMasterBallPostBattle": true,
+      "boostItemEnabled": true,
+      "debugRpcEnabled": true
+    }
+  }
+]

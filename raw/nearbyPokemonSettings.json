@@ -1,0 +1,9 @@
+[
+  {
+    "templateId": "NEARBY_POKEMON_SETTINGS",
+    "data": {
+      "obEnabled": true,
+      "obNearbyPokemonSettingsBool1": true
+    }
+  }
+]

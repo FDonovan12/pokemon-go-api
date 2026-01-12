@@ -1,0 +1,20 @@
+[
+  {
+    "templateId": "INCIDENT_VISIBILITY_SETTINGS",
+    "data": {
+      "hideIncidentForCharacter": [
+        "CHARACTER_EVENT_NPC_0",
+        "CHARACTER_EVENT_NPC_1",
+        "CHARACTER_EVENT_NPC_2",
+        "CHARACTER_EVENT_NPC_3",
+        "CHARACTER_EVENT_NPC_4",
+        "CHARACTER_EVENT_NPC_5",
+        "CHARACTER_EVENT_NPC_6",
+        "CHARACTER_EVENT_NPC_7",
+        "CHARACTER_EVENT_NPC_8",
+        "CHARACTER_EVENT_NPC_9",
+        "CHARACTER_EVENT_NPC_10"
+      ]
+    }
+  }
+]

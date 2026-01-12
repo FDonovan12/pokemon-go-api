@@ -1,0 +1,156 @@
+[
+  {
+    "templateId": "ITEM_EXPIRATION_ITEM_EVENT_PASS_POINT_GO_FEST_01",
+    "data": {
+      "item": "ITEM_EVENT_PASS_POINT_GO_FEST_01",
+      "expirationTime": "2025-06-29T23:59:59"
+    }
+  },
+  {
+    "templateId": "ITEM_EXPIRATION_ITEM_EVENT_PASS_POINT_GO_FEST_02",
+    "data": {
+      "item": "ITEM_EVENT_PASS_POINT_GO_FEST_02",
+      "expirationTime": "2025-08-26T21:00:00",
+      "emergencyExpirationTime": "2025-09-25T21:00:00"
+    }
+  },
+  {
+    "templateId": "ITEM_EXPIRATION_ITEM_EVENT_PASS_POINT_GO_TOUR_01",
+    "data": {
+      "item": "ITEM_EVENT_PASS_POINT_GO_TOUR_01",
+      "expirationTime": "2026-03-01T18:00:00"
+    }
+  },
+  {
+    "templateId": "ITEM_EXPIRATION_ITEM_EVENT_PASS_POINT_GO_TOUR_02",
+    "data": {
+      "item": "ITEM_EVENT_PASS_POINT_GO_TOUR_02",
+      "expirationTime": "2025-02-24T09:59:59",
+      "emergencyExpirationTime": "2025-03-26T09:59:59"
+    }
+  },
+  {
+    "templateId": "ITEM_EXPIRATION_ITEM_EVENT_PASS_POINT_GO_WILD_AREA_01",
+    "data": {
+      "item": "ITEM_EVENT_PASS_POINT_GO_WILD_AREA_01",
+      "expirationTime": "2025-11-16T18:00:00"
+    }
+  },
+  {
+    "templateId": "ITEM_EXPIRATION_ITEM_EVENT_PASS_POINT_LIVE_OPS_01",
+    "data": {
+      "item": "ITEM_EVENT_PASS_POINT_LIVE_OPS_01",
+      "expirationTime": "2026-01-08T10:00:00",
+      "emergencyExpirationTime": "2026-01-10T10:00:00"
+    }
+  },
+  {
+    "templateId": "ITEM_EXPIRATION_ITEM_EVENT_PASS_POINT_LIVE_OPS_02",
+    "data": {
+      "item": "ITEM_EVENT_PASS_POINT_LIVE_OPS_02",
+      "expirationTime": "2026-02-05T10:00:00",
+      "emergencyExpirationTime": "2026-02-07T10:00:00"
+    }
+  },
+  {
+    "templateId": "ITEM_EXPIRATION_ITEM_EVENT_PASS_POINT_LIVE_OPS_03",
+    "data": {
+      "item": "ITEM_EVENT_PASS_POINT_LIVE_OPS_03",
+      "expirationTime": "2025-12-04T10:00:00",
+      "emergencyExpirationTime": "2025-12-06T10:00:00"
+    }
+  },
+  {
+    "templateId": "ITEM_EXPIRATION_ITEM_EVENT_PASS_POINT_LIVE_OPS_04",
+    "data": {
+      "item": "ITEM_EVENT_PASS_POINT_LIVE_OPS_04",
+      "expirationTime": "2025-12-31T10:00:00",
+      "emergencyExpirationTime": "2026-01-02T10:00:00"
+    }
+  },
+  {
+    "templateId": "ITEM_EXPIRATION_ITEM_INCUBATOR_TIMED",
+    "data": {
+      "item": "ITEM_INCUBATOR_TIMED",
+      "expirationTime": "2026-01-13T10:00:00"
+    }
+  },
+  {
+    "templateId": "ITEM_EXPIRATION_ITEM_LUCKY_FRIEND_APPLICATOR",
+    "data": {
+      "item": "ITEM_LUCKY_FRIEND_APPLICATOR",
+      "expirationTime": "2026-02-08T23:59:00",
+      "emergencyExpirationTime": "2026-02-09T10:00:00"
+    }
+  },
+  {
+    "templateId": "ITEM_EXPIRATION_ITEM_SINGLE_STAT_INCREASE",
+    "data": {
+      "item": "ITEM_SINGLE_STAT_INCREASE",
+      "expirationTime": "2025-11-24T23:59:59",
+      "consolationItems": {
+        "lootItem": [
+          {
+            "stardust": true,
+            "count": 50000
+          }
+        ]
+      }
+    }
+  },
+  {
+    "templateId": "ITEM_EXPIRATION_ITEM_TRIPLE_STAT_INCREASE",
+    "data": {
+      "item": "ITEM_TRIPLE_STAT_INCREASE",
+      "expirationTime": "2025-07-06T23:59:59",
+      "consolationItems": {
+        "lootItem": [
+          {
+            "stardust": true,
+            "count": 50000
+          }
+        ]
+      }
+    }
+  },
+  {
+    "templateId": "ITEM_EXPIRATION_ITEM_WILD_BALL",
+    "data": {
+      "item": "ITEM_WILD_BALL",
+      "expirationTime": "2025-11-16T18:00:00",
+      "emergencyExpirationTime": "2025-11-16T18:00:00",
+      "itemEnablementSettings": {
+        "enabledTimePeriods": [
+          {
+            "enabledStartTime": "2025-11-15T10:00:00",
+            "enabledEndTime": "2025-11-15T18:00:00"
+          },
+          {
+            "enabledStartTime": "2025-11-16T10:00:00",
+            "enabledEndTime": "2025-11-16T18:00:00"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "templateId": "ITEM_EXPIRATION_ITEM_WILD_BALL_PREMIER",
+    "data": {
+      "item": "ITEM_WILD_BALL_PREMIER",
+      "expirationTime": "2025-11-16T18:00:00",
+      "emergencyExpirationTime": "2025-11-16T18:00:00",
+      "itemEnablementSettings": {
+        "enabledTimePeriods": [
+          {
+            "enabledStartTime": "2025-11-15T10:00:00",
+            "enabledEndTime": "2025-11-15T18:00:00"
+          },
+          {
+            "enabledStartTime": "2025-11-16T10:00:00",
+            "enabledEndTime": "2025-11-16T18:00:00"
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,2212 @@
+[
+  {
+    "templateId": "PHOTO_SET_ALOLA",
+    "data": {
+      "nameKey": "PHOTO_SET_ALOLA",
+      "frameColor": "SummerVibes",
+      "minimumPokemon": 1,
+      "pokemon": [
+        {
+          "pokemonId": "ROWLET"
+        },
+        {
+          "pokemonId": "LITTEN"
+        },
+        {
+          "pokemonId": "POPPLIO"
+        }
+      ],
+      "displayOrder": 30
+    }
+  },
+  {
+    "templateId": "PHOTO_SET_ANCIENT_FOSSILS",
+    "data": {
+      "nameKey": "PHOTO_SET_FOSSIL",
+      "frameColor": "Beachside",
+      "minimumPokemon": 1,
+      "pokemon": [
+        {
+          "pokemonId": "TYRUNT"
+        },
+        {
+          "pokemonId": "ARCHEN"
+        },
+        {
+          "pokemonId": "CRANIDOS"
+        },
+        {
+          "pokemonId": "LILEEP"
+        },
+        {
+          "pokemonId": "OMASTAR"
+        },
+        {
+          "pokemonId": "KABUTO"
+        },
+        {
+          "pokemonId": "ANORITH"
+        },
+        {
+          "pokemonId": "OMANYTE"
+        },
+        {
+          "pokemonId": "KABUTOPS"
+        },
+        {
+          "pokemonId": "AERODACTYL"
+        },
+        {
+          "pokemonId": "AERODACTYL",
+          "form": "AERODACTYL_SUMMER_2023"
+        },
+        {
+          "pokemonId": "CRADILY"
+        },
+        {
+          "pokemonId": "ARMALDO"
+        },
+        {
+          "pokemonId": "RAMPARDOS"
+        },
+        {
+          "pokemonId": "SHIELDON"
+        },
+        {
+          "pokemonId": "BASTIODON"
+        },
+        {
+          "pokemonId": "TIRTOUGA"
+        },
+        {
+          "pokemonId": "CARRACOSTA"
+        },
+        {
+          "pokemonId": "ARCHEOPS"
+        },
+        {
+          "pokemonId": "TYRANTRUM"
+        }
+      ],
+      "displayOrder": 40
+    }
+  },
+  {
+    "templateId": "PHOTO_SET_BATTLE_POKEMON",
+    "data": {
+      "nameKey": "PHOTO_SET_BATTLE_POKEMON",
+      "frameColor": "Fighting",
+      "minimumPokemon": 1,
+      "pokemon": [
+        {
+          "pokemonId": "HITMONTOP"
+        },
+        {
+          "pokemonId": "HITMONCHAN"
+        },
+        {
+          "pokemonId": "HITMONLEE"
+        }
+      ],
+      "displayOrder": 12
+    }
+  },
+  {
+    "templateId": "PHOTO_SET_BUNDLE_OF_JOY",
+    "data": {
+      "nameKey": "PHOTO_SET_BABIES",
+      "frameColor": "TinyBuddies",
+      "minimumPokemon": 1,
+      "pokemon": [
+        {
+          "pokemonId": "PICHU"
+        },
+        {
+          "pokemonId": "CLEFFA"
+        },
+        {
+          "pokemonId": "IGGLYBUFF"
+        },
+        {
+          "pokemonId": "TOGEPI"
+        },
+        {
+          "pokemonId": "TYROGUE"
+        },
+        {
+          "pokemonId": "SMOOCHUM"
+        },
+        {
+          "pokemonId": "ELEKID"
+        },
+        {
+          "pokemonId": "MAGBY"
+        },
+        {
+          "pokemonId": "AZURILL"
+        },
+        {
+          "pokemonId": "WYNAUT"
+        },
+        {
+          "pokemonId": "BUDEW"
+        },
+        {
+          "pokemonId": "CHINGLING"
+        },
+        {
+          "pokemonId": "BONSLY"
+        },
+        {
+          "pokemonId": "MIME_JR"
+        },
+        {
+          "pokemonId": "HAPPINY"
+        },
+        {
+          "pokemonId": "MUNCHLAX"
+        },
+        {
+          "pokemonId": "RIOLU"
+        },
+        {
+          "pokemonId": "MANTYKE"
+        },
+        {
+          "pokemonId": "DEERLING",
+          "form": "DEERLING_AUTUMN"
+        },
+        {
+          "pokemonId": "DEERLING",
+          "form": "DEERLING_SPRING"
+        },
+        {
+          "pokemonId": "DEERLING",
+          "form": "DEERLING_SUMMER"
+        },
+        {
+          "pokemonId": "DEERLING",
+          "form": "DEERLING_WINTER"
+        },
+        {
+          "pokemonId": "PHANTUMP"
+        }
+      ],
+      "displayOrder": 40
+    }
+  },
+  {
+    "templateId": "PHOTO_SET_BUSY_CITY",
+    "data": {
+      "nameKey": "PHOTO_SET_CITY",
+      "frameColor": "Nightfall",
+      "minimumPokemon": 1,
+      "pokemon": [
+        {
+          "pokemonId": "KOFFING"
+        },
+        {
+          "pokemonId": "GRIMER"
+        },
+        {
+          "pokemonId": "GROWLITHE"
+        },
+        {
+          "pokemonId": "RATICATE"
+        },
+        {
+          "pokemonId": "ELECTABUZZ"
+        },
+        {
+          "pokemonId": "PIDGEY"
+        },
+        {
+          "pokemonId": "MEOWTH"
+        },
+        {
+          "pokemonId": "PIDGEOTTO"
+        },
+        {
+          "pokemonId": "WIGGLYTUFF"
+        },
+        {
+          "pokemonId": "PERSIAN"
+        },
+        {
+          "pokemonId": "JIGGLYPUFF"
+        },
+        {
+          "pokemonId": "GASTLY"
+        },
+        {
+          "pokemonId": "MUK",
+          "form": "MUK_ALOLA"
+        },
+        {
+          "pokemonId": "VOLTORB"
+        },
+        {
+          "pokemonId": "MAGMAR"
+        },
+        {
+          "pokemonId": "JOLTEON"
+        },
+        {
+          "pokemonId": "SNORLAX"
+        },
+        {
+          "pokemonId": "PORYGON"
+        },
+        {
+          "pokemonId": "EEVEE"
+        },
+        {
+          "pokemonId": "WEEZING",
+          "form": "WEEZING_GALARIAN"
+        },
+        {
+          "pokemonId": "JYNX"
+        },
+        {
+          "pokemonId": "WEEZING"
+        },
+        {
+          "pokemonId": "HAUNTER"
+        },
+        {
+          "pokemonId": "SPEAROW"
+        },
+        {
+          "pokemonId": "MUK"
+        },
+        {
+          "pokemonId": "GRIMER",
+          "form": "GRIMER_ALOLA"
+        },
+        {
+          "pokemonId": "MAGNEMITE"
+        }
+      ],
+      "displayOrder": 40
+    }
+  },
+  {
+    "templateId": "PHOTO_SET_CLAWED_CUTIES",
+    "data": {
+      "nameKey": "PHOTO_SET_CLAWED_CUTIES",
+      "frameColor": "RainyDay",
+      "minimumPokemon": 1,
+      "pokemon": [
+        {
+          "pokemonId": "MEOWTH",
+          "form": "MEOWTH_GALARIAN"
+        },
+        {
+          "pokemonId": "SHINX"
+        },
+        {
+          "pokemonId": "GLAMEOW"
+        },
+        {
+          "pokemonId": "ESPURR"
+        },
+        {
+          "pokemonId": "MEOWSTIC",
+          "form": "MEOWSTIC_FEMALE"
+        },
+        {
+          "pokemonId": "LITTEN"
+        },
+        {
+          "pokemonId": "SPRIGATITO"
+        },
+        {
+          "pokemonId": "PURRLOIN"
+        },
+        {
+          "pokemonId": "LITLEO"
+        },
+        {
+          "pokemonId": "MEOWTH",
+          "form": "MEOWTH_ALOLA"
+        },
+        {
+          "pokemonId": "ESPEON"
+        },
+        {
+          "pokemonId": "SNEASEL",
+          "form": "SNEASEL_HISUIAN"
+        },
+        {
+          "pokemonId": "SNEASEL"
+        },
+        {
+          "pokemonId": "MEOWTH"
+        },
+        {
+          "pokemonId": "MEOWSTIC"
+        }
+      ],
+      "displayOrder": 40
+    }
+  },
+  {
+    "templateId": "PHOTO_SET_CUTE_POKEMON_PINK",
+    "data": {
+      "nameKey": "PHOTO_SET_CUTE_POKEMON_PINK",
+      "frameColor": "PinkPals",
+      "minimumPokemon": 1,
+      "pokemon": [
+        {
+          "pokemonId": "CLEFAIRY"
+        },
+        {
+          "pokemonId": "SYLVEON"
+        },
+        {
+          "pokemonId": "AUDINO"
+        }
+      ],
+      "displayOrder": 779
+    }
+  },
+  {
+    "templateId": "PHOTO_SET_FALL_VIBES",
+    "data": {
+      "nameKey": "PHOTO_SET_FALL_VIBES",
+      "frameColor": "Halloween",
+      "minimumPokemon": 1,
+      "pokemon": [
+        {
+          "pokemonId": "SEEDOT"
+        },
+        {
+          "pokemonId": "STARLY"
+        },
+        {
+          "pokemonId": "SKWOVET"
+        },
+        {
+          "pokemonId": "FOONGUS"
+        },
+        {
+          "pokemonId": "WEEDLE"
+        },
+        {
+          "pokemonId": "PARAS"
+        },
+        {
+          "pokemonId": "DEERLING",
+          "form": "DEERLING_AUTUMN"
+        },
+        {
+          "pokemonId": "MURKROW"
+        },
+        {
+          "pokemonId": "SAWSBUCK",
+          "form": "SAWSBUCK_AUTUMN"
+        },
+        {
+          "pokemonId": "RUFFLET"
+        }
+      ],
+      "displayOrder": 40
+    }
+  },
+  {
+    "templateId": "PHOTO_SET_FEATHERED_FRIENDS",
+    "data": {
+      "nameKey": "PHOTO_SET_FEATHERED_FRIENDS_SMALL",
+      "frameColor": "UkiyoEuphoria",
+      "minimumPokemon": 1,
+      "pokemon": [
+        {
+          "pokemonId": "PIDGEY"
+        },
+        {
+          "pokemonId": "ROWLET"
+        },
+        {
+          "pokemonId": "PIKIPEK"
+        },
+        {
+          "pokemonId": "SWABLU"
+        },
+        {
+          "pokemonId": "STARLY"
+        },
+        {
+          "pokemonId": "CHATOT"
+        },
+        {
+          "pokemonId": "WINGULL"
+        },
+        {
+          "pokemonId": "PIDOVE"
+        },
+        {
+          "pokemonId": "ARCHEN"
+        },
+        {
+          "pokemonId": "ORICORIO",
+          "form": "ORICORIO_BAILE"
+        },
+        {
+          "pokemonId": "DUCKLETT"
+        },
+        {
+          "pokemonId": "FLETCHLING"
+        },
+        {
+          "pokemonId": "NATU"
+        },
+        {
+          "pokemonId": "ORICORIO",
+          "form": "ORICORIO_POMPOM"
+        },
+        {
+          "pokemonId": "ORICORIO",
+          "form": "ORICORIO_PAU"
+        },
+        {
+          "pokemonId": "ORICORIO",
+          "form": "ORICORIO_SENSU"
+        },
+        {
+          "pokemonId": "RUFFLET"
+        }
+      ],
+      "displayOrder": 40
+    }
+  },
+  {
+    "templateId": "PHOTO_SET_FEATHERED_FRIENDS_LARGE",
+    "data": {
+      "nameKey": "PHOTO_SET_FEATHERED_FRIENDS",
+      "frameColor": "UkiyoEuphoria",
+      "minimumPokemon": 1,
+      "pokemon": [
+        {
+          "pokemonId": "HOOTHOOT"
+        },
+        {
+          "pokemonId": "PELIPPER"
+        },
+        {
+          "pokemonId": "HAWLUCHA"
+        }
+      ],
+      "displayOrder": 40
+    }
+  },
+  {
+    "templateId": "PHOTO_SET_FEELING_FANCY",
+    "data": {
+      "nameKey": "PHOTO_SET_FANCY",
+      "frameColor": "FloralFriends",
+      "minimumPokemon": 1,
+      "pokemon": [
+        {
+          "pokemonId": "FURFROU",
+          "form": "FURFROU_HEART"
+        },
+        {
+          "pokemonId": "FURFROU",
+          "form": "FURFROU_STAR"
+        },
+        {
+          "pokemonId": "FURFROU",
+          "form": "FURFROU_MATRON"
+        },
+        {
+          "pokemonId": "FURFROU",
+          "form": "FURFROU_LA_REINE"
+        },
+        {
+          "pokemonId": "DELCATTY"
+        },
+        {
+          "pokemonId": "BEAUTIFLY"
+        },
+        {
+          "pokemonId": "VIVILLON",
+          "form": "VIVILLON_FANCY"
+        },
+        {
+          "pokemonId": "VIVILLON",
+          "form": "VIVILLON_ELEGANT"
+        },
+        {
+          "pokemonId": "JYNX"
+        },
+        {
+          "pokemonId": "FLAAFFY"
+        },
+        {
+          "pokemonId": "BELLOSSOM"
+        },
+        {
+          "pokemonId": "SWABLU"
+        },
+        {
+          "pokemonId": "GLAMEOW"
+        },
+        {
+          "pokemonId": "FURFROU",
+          "form": "FURFROU_DANDY"
+        },
+        {
+          "pokemonId": "FURFROU",
+          "form": "FURFROU_DEBUTANTE"
+        },
+        {
+          "pokemonId": "FURFROU",
+          "form": "FURFROU_DIAMOND"
+        },
+        {
+          "pokemonId": "FURFROU",
+          "form": "FURFROU_KABUKI"
+        },
+        {
+          "pokemonId": "FURFROU",
+          "form": "FURFROU_NATURAL"
+        },
+        {
+          "pokemonId": "FURFROU",
+          "form": "FURFROU_PHARAOH"
+        },
+        {
+          "pokemonId": "ORICORIO",
+          "form": "ORICORIO_BAILE"
+        },
+        {
+          "pokemonId": "ORICORIO",
+          "form": "ORICORIO_SENSU"
+        }
+      ],
+      "displayOrder": 40
+    }
+  },
+  {
+    "templateId": "PHOTO_SET_FURRY_FRIENDS",
+    "data": {
+      "nameKey": "PHOTO_SET_FURRY_FRIENDS",
+      "frameColor": "Beachside",
+      "minimumPokemon": 1,
+      "pokemon": [
+        {
+          "pokemonId": "SKITTY"
+        },
+        {
+          "pokemonId": "SPRIGATITO"
+        },
+        {
+          "pokemonId": "LITTEN"
+        },
+        {
+          "pokemonId": "PURRLOIN"
+        },
+        {
+          "pokemonId": "GLAMEOW"
+        },
+        {
+          "pokemonId": "SHINX"
+        },
+        {
+          "pokemonId": "MEOWSTIC"
+        },
+        {
+          "pokemonId": "MEOWSTIC",
+          "form": "MEOWSTIC_FEMALE"
+        },
+        {
+          "pokemonId": "PERRSERKER"
+        },
+        {
+          "pokemonId": "MEOWTH"
+        },
+        {
+          "pokemonId": "MEOWTH",
+          "form": "MEOWTH_ALOLA"
+        },
+        {
+          "pokemonId": "MEOWTH",
+          "form": "MEOWTH_GALARIAN"
+        },
+        {
+          "pokemonId": "ESPEON"
+        },
+        {
+          "pokemonId": "LUXIO"
+        },
+        {
+          "pokemonId": "LITLEO"
+        },
+        {
+          "pokemonId": "ESPURR"
+        },
+        {
+          "pokemonId": "TORRACAT"
+        }
+      ],
+      "displayOrder": 40
+    }
+  },
+  {
+    "templateId": "PHOTO_SET_FURRY_FRIENDS_LARGE",
+    "data": {
+      "nameKey": "PHOTO_SET_FURRY_FRIENDS_BIG",
+      "frameColor": "Beachside",
+      "minimumPokemon": 1,
+      "pokemon": [
+        {
+          "pokemonId": "PYROAR",
+          "form": "PYROAR_FEMALE"
+        },
+        {
+          "pokemonId": "LIEPARD"
+        },
+        {
+          "pokemonId": "DELCATTY"
+        },
+        {
+          "pokemonId": "PERSIAN",
+          "form": "PERSIAN_ALOLA"
+        },
+        {
+          "pokemonId": "PERSIAN"
+        },
+        {
+          "pokemonId": "PURUGLY"
+        },
+        {
+          "pokemonId": "PYROAR"
+        }
+      ],
+      "displayOrder": 40
+    }
+  },
+  {
+    "templateId": "PHOTO_SET_GRACEFUL_FLYERS",
+    "data": {
+      "nameKey": "PHOTO_SET_GRACEFUL_FLYERS",
+      "frameColor": "UkiyoEuphoria",
+      "minimumPokemon": 1,
+      "pokemon": [
+        {
+          "pokemonId": "BUTTERFREE"
+        },
+        {
+          "pokemonId": "BEAUTIFLY"
+        },
+        {
+          "pokemonId": "COMBEE"
+        },
+        {
+          "pokemonId": "RIBOMBEE"
+        },
+        {
+          "pokemonId": "VIVILLON",
+          "form": "VIVILLON_ARCHIPELAGO"
+        },
+        {
+          "pokemonId": "VIVILLON",
+          "form": "VIVILLON_CONTINENTAL"
+        },
+        {
+          "pokemonId": "VIVILLON",
+          "form": "VIVILLON_ELEGANT"
+        },
+        {
+          "pokemonId": "VIVILLON",
+          "form": "VIVILLON_FANCY"
+        },
+        {
+          "pokemonId": "VIVILLON",
+          "form": "VIVILLON_GARDEN"
+        },
+        {
+          "pokemonId": "VIVILLON",
+          "form": "VIVILLON_HIGH_PLAINS"
+        },
+        {
+          "pokemonId": "VIVILLON",
+          "form": "VIVILLON_ICY_SNOW"
+        },
+        {
+          "pokemonId": "VIVILLON",
+          "form": "VIVILLON_JUNGLE"
+        },
+        {
+          "pokemonId": "VIVILLON",
+          "form": "VIVILLON_MARINE"
+        },
+        {
+          "pokemonId": "VIVILLON",
+          "form": "VIVILLON_MEADOW"
+        },
+        {
+          "pokemonId": "VIVILLON",
+          "form": "VIVILLON_MODERN"
+        },
+        {
+          "pokemonId": "VIVILLON",
+          "form": "VIVILLON_MONSOON"
+        },
+        {
+          "pokemonId": "VIVILLON",
+          "form": "VIVILLON_OCEAN"
+        },
+        {
+          "pokemonId": "VIVILLON",
+          "form": "VIVILLON_POKEBALL"
+        },
+        {
+          "pokemonId": "VIVILLON",
+          "form": "VIVILLON_POLAR"
+        },
+        {
+          "pokemonId": "VIVILLON",
+          "form": "VIVILLON_RIVER"
+        },
+        {
+          "pokemonId": "VIVILLON",
+          "form": "VIVILLON_SANDSTORM"
+        },
+        {
+          "pokemonId": "VIVILLON",
+          "form": "VIVILLON_SAVANNA"
+        },
+        {
+          "pokemonId": "VIVILLON",
+          "form": "VIVILLON_SUN"
+        },
+        {
+          "pokemonId": "VIVILLON",
+          "form": "VIVILLON_TUNDRA"
+        }
+      ],
+      "displayOrder": 40
+    }
+  },
+  {
+    "templateId": "PHOTO_SET_HISUI",
+    "data": {
+      "nameKey": "PHOTO_SET_HISUI",
+      "frameColor": "SummerVibes",
+      "minimumPokemon": 1,
+      "pokemon": [
+        {
+          "pokemonId": "ROWLET"
+        },
+        {
+          "pokemonId": "CYNDAQUIL"
+        },
+        {
+          "pokemonId": "OSHAWOTT"
+        }
+      ],
+      "displayOrder": 30
+    }
+  },
+  {
+    "templateId": "PHOTO_SET_HOENN",
+    "data": {
+      "nameKey": "PHOTO_SET_HOENN",
+      "frameColor": "SummerVibes",
+      "minimumPokemon": 1,
+      "pokemon": [
+        {
+          "pokemonId": "TREECKO"
+        },
+        {
+          "pokemonId": "TORCHIC"
+        },
+        {
+          "pokemonId": "MUDKIP"
+        }
+      ],
+      "displayOrder": 30
+    }
+  },
+  {
+    "templateId": "PHOTO_SET_JOHTO",
+    "data": {
+      "nameKey": "PHOTO_SET_JOHTO",
+      "frameColor": "SummerVibes",
+      "minimumPokemon": 1,
+      "pokemon": [
+        {
+          "pokemonId": "CHIKORITA"
+        },
+        {
+          "pokemonId": "CYNDAQUIL"
+        },
+        {
+          "pokemonId": "TOTODILE"
+        }
+      ],
+      "displayOrder": 30
+    }
+  },
+  {
+    "templateId": "PHOTO_SET_JUST_LOVELY",
+    "data": {
+      "nameKey": "PHOTO_SET_LOVELY",
+      "frameColor": "FloralFriends",
+      "minimumPokemon": 1,
+      "pokemon": [
+        {
+          "pokemonId": "AROMATISSE"
+        },
+        {
+          "pokemonId": "SNUBBULL"
+        },
+        {
+          "pokemonId": "STUFFUL"
+        },
+        {
+          "pokemonId": "SMOOCHUM"
+        },
+        {
+          "pokemonId": "TOGEPI"
+        },
+        {
+          "pokemonId": "JIGGLYPUFF"
+        },
+        {
+          "pokemonId": "VIVILLON",
+          "form": "VIVILLON_ELEGANT"
+        },
+        {
+          "pokemonId": "VIVILLON",
+          "form": "VIVILLON_MEADOW"
+        },
+        {
+          "pokemonId": "LUVDISC"
+        },
+        {
+          "pokemonId": "SWIRLIX"
+        },
+        {
+          "pokemonId": "SLURPUFF"
+        },
+        {
+          "pokemonId": "SYLVEON"
+        },
+        {
+          "pokemonId": "CHANSEY"
+        },
+        {
+          "pokemonId": "TOGETIC"
+        },
+        {
+          "pokemonId": "ROSELIA"
+        },
+        {
+          "pokemonId": "CHERUBI"
+        },
+        {
+          "pokemonId": "MESPRIT"
+        },
+        {
+          "pokemonId": "MUNNA"
+        },
+        {
+          "pokemonId": "PYROAR"
+        },
+        {
+          "pokemonId": "PYROAR",
+          "form": "PYROAR_FEMALE"
+        },
+        {
+          "pokemonId": "SPRITZEE"
+        },
+        {
+          "pokemonId": "BOUNSWEET"
+        },
+        {
+          "pokemonId": "TAPU_LELE"
+        }
+      ],
+      "displayOrder": 40
+    }
+  },
+  {
+    "templateId": "PHOTO_SET_KALOS",
+    "data": {
+      "nameKey": "PHOTO_SET_KALOS",
+      "frameColor": "SummerVibes",
+      "minimumPokemon": 1,
+      "pokemon": [
+        {
+          "pokemonId": "CHESPIN"
+        },
+        {
+          "pokemonId": "FENNEKIN"
+        },
+        {
+          "pokemonId": "FROAKIE"
+        }
+      ],
+      "displayOrder": 30
+    }
+  },
+  {
+    "templateId": "PHOTO_SET_KANTO",
+    "data": {
+      "nameKey": "PHOTO_SET_KANTO",
+      "frameColor": "SummerVibes",
+      "minimumPokemon": 1,
+      "pokemon": [
+        {
+          "pokemonId": "BULBASAUR"
+        },
+        {
+          "pokemonId": "CHARMANDER"
+        },
+        {
+          "pokemonId": "SQUIRTLE"
+        }
+      ],
+      "displayOrder": 1
+    }
+  },
+  {
+    "templateId": "PHOTO_SET_LITTLE_CHONKERS",
+    "data": {
+      "nameKey": "PHOTO_SET_LITTLE_CHONKERS",
+      "frameColor": "SummerVibes",
+      "minimumPokemon": 1,
+      "pokemon": [
+        {
+          "pokemonId": "DARUMAKA"
+        },
+        {
+          "pokemonId": "SLURPUFF"
+        },
+        {
+          "pokemonId": "BIDOOF"
+        },
+        {
+          "pokemonId": "MUNCHLAX"
+        },
+        {
+          "pokemonId": "VULLABY"
+        },
+        {
+          "pokemonId": "QUILLADIN"
+        },
+        {
+          "pokemonId": "FUECOCO"
+        },
+        {
+          "pokemonId": "LECHONK"
+        },
+        {
+          "pokemonId": "TOGEDEMARU"
+        },
+        {
+          "pokemonId": "PALPITOAD"
+        },
+        {
+          "pokemonId": "DARUMAKA",
+          "form": "DARUMAKA_GALARIAN"
+        },
+        {
+          "pokemonId": "HIPPOPOTAS"
+        },
+        {
+          "pokemonId": "SPHEAL"
+        },
+        {
+          "pokemonId": "SWINUB"
+        },
+        {
+          "pokemonId": "GULPIN"
+        },
+        {
+          "pokemonId": "BULBASAUR"
+        },
+        {
+          "pokemonId": "PSYDUCK"
+        },
+        {
+          "pokemonId": "PRIMEAPE"
+        },
+        {
+          "pokemonId": "POLIWHIRL"
+        },
+        {
+          "pokemonId": "SHELGON"
+        },
+        {
+          "pokemonId": "PURUGLY"
+        },
+        {
+          "pokemonId": "MUNNA"
+        },
+        {
+          "pokemonId": "CHARJABUG"
+        }
+      ],
+      "displayOrder": 40
+    }
+  },
+  {
+    "templateId": "PHOTO_SET_MOUNTAIN_PASS",
+    "data": {
+      "nameKey": "PHOTO_SET_MOUNTAIN",
+      "frameColor": "RainyDay",
+      "minimumPokemon": 1,
+      "pokemon": [
+        {
+          "pokemonId": "SANDSHREW",
+          "form": "SANDSHREW_ALOLA"
+        },
+        {
+          "pokemonId": "VULPIX",
+          "form": "VULPIX_ALOLA"
+        },
+        {
+          "pokemonId": "SWINUB"
+        },
+        {
+          "pokemonId": "SNORUNT"
+        },
+        {
+          "pokemonId": "SNOVER"
+        },
+        {
+          "pokemonId": "GLACEON"
+        },
+        {
+          "pokemonId": "CUBCHOO"
+        },
+        {
+          "pokemonId": "BERGMITE"
+        },
+        {
+          "pokemonId": "VANILLITE"
+        },
+        {
+          "pokemonId": "SNEASEL"
+        },
+        {
+          "pokemonId": "CASTFORM",
+          "form": "CASTFORM_SNOWY"
+        },
+        {
+          "pokemonId": "VANILLISH"
+        },
+        {
+          "pokemonId": "CRYOGONAL"
+        },
+        {
+          "pokemonId": "CRABOMINABLE"
+        },
+        {
+          "pokemonId": "FRIGIBAX"
+        },
+        {
+          "pokemonId": "ARCTIBAX"
+        },
+        {
+          "pokemonId": "SANDSLASH",
+          "form": "SANDSLASH_ALOLA"
+        },
+        {
+          "pokemonId": "NINETALES",
+          "form": "NINETALES_ALOLA"
+        },
+        {
+          "pokemonId": "KABUTO"
+        },
+        {
+          "pokemonId": "MAMOSWINE"
+        },
+        {
+          "pokemonId": "FROSLASS"
+        },
+        {
+          "pokemonId": "VANILLUXE"
+        },
+        {
+          "pokemonId": "BEARTIC"
+        },
+        {
+          "pokemonId": "GLALIE"
+        },
+        {
+          "pokemonId": "AVALUGG"
+        },
+        {
+          "pokemonId": "AVALUGG",
+          "form": "AVALUGG_HISUIAN"
+        }
+      ],
+      "displayOrder": 40
+    }
+  },
+  {
+    "templateId": "PHOTO_SET_MUSEUM_FOSSILS",
+    "data": {
+      "nameKey": "PHOTO_SET_MUSEUM_FOSSILS",
+      "frameColor": "Museum",
+      "minimumPokemon": 1,
+      "pokemon": [
+        {
+          "pokemonId": "AMAURA"
+        },
+        {
+          "pokemonId": "TYRUNT"
+        },
+        {
+          "pokemonId": "SHIELDON"
+        },
+        {
+          "pokemonId": "CRANIDOS"
+        }
+      ],
+      "displayOrder": 2572
+    }
+  },
+  {
+    "templateId": "PHOTO_SET_PALDEA",
+    "data": {
+      "nameKey": "PHOTO_SET_PALDEA",
+      "frameColor": "SummerVibes",
+      "minimumPokemon": 1,
+      "pokemon": [
+        {
+          "pokemonId": "SPRIGATITO"
+        },
+        {
+          "pokemonId": "FUECOCO"
+        },
+        {
+          "pokemonId": "QUAXLY"
+        }
+      ],
+      "displayOrder": 286
+    }
+  },
+  {
+    "templateId": "PHOTO_SET_PLAYFUL_PALS_LARGE",
+    "data": {
+      "nameKey": "PHOTO_SET_PLAYFUL_PALS_BIG",
+      "frameColor": "Safarizone",
+      "minimumPokemon": 1,
+      "pokemon": [
+        {
+          "pokemonId": "GROWLITHE",
+          "form": "GROWLITHE_HISUIAN"
+        },
+        {
+          "pokemonId": "HOUNDOUR"
+        },
+        {
+          "pokemonId": "POOCHYENA"
+        },
+        {
+          "pokemonId": "GREAVARD"
+        },
+        {
+          "pokemonId": "GROWLITHE"
+        },
+        {
+          "pokemonId": "LILLIPUP"
+        },
+        {
+          "pokemonId": "ROCKRUFF"
+        },
+        {
+          "pokemonId": "SNUBBULL"
+        },
+        {
+          "pokemonId": "FURFROU",
+          "form": "FURFROU_DANDY"
+        },
+        {
+          "pokemonId": "FURFROU",
+          "form": "FURFROU_DEBUTANTE"
+        },
+        {
+          "pokemonId": "FURFROU",
+          "form": "FURFROU_DIAMOND"
+        },
+        {
+          "pokemonId": "FURFROU",
+          "form": "FURFROU_HEART"
+        },
+        {
+          "pokemonId": "FURFROU",
+          "form": "FURFROU_KABUKI"
+        },
+        {
+          "pokemonId": "FURFROU",
+          "form": "FURFROU_LA_REINE"
+        },
+        {
+          "pokemonId": "FURFROU",
+          "form": "FURFROU_MATRON"
+        },
+        {
+          "pokemonId": "FURFROU",
+          "form": "FURFROU_NATURAL"
+        },
+        {
+          "pokemonId": "FURFROU",
+          "form": "FURFROU_PHARAOH"
+        },
+        {
+          "pokemonId": "FURFROU",
+          "form": "FURFROU_STAR"
+        },
+        {
+          "pokemonId": "SMEARGLE"
+        }
+      ],
+      "displayOrder": 40
+    }
+  },
+  {
+    "templateId": "PHOTO_SET_RELAXING_GARDEN",
+    "data": {
+      "nameKey": "PHOTO_SET_GARDEN",
+      "frameColor": "FloralFriends",
+      "minimumPokemon": 1,
+      "pokemon": [
+        {
+          "pokemonId": "BELLOSSOM"
+        },
+        {
+          "pokemonId": "SEEDOT"
+        },
+        {
+          "pokemonId": "ROWLET"
+        },
+        {
+          "pokemonId": "SUNKERN"
+        },
+        {
+          "pokemonId": "HOPPIP"
+        },
+        {
+          "pokemonId": "ROSELIA"
+        },
+        {
+          "pokemonId": "SNIVY"
+        },
+        {
+          "pokemonId": "ODDISH"
+        },
+        {
+          "pokemonId": "BELLSPROUT"
+        },
+        {
+          "pokemonId": "PANSAGE"
+        },
+        {
+          "pokemonId": "PETILIL"
+        },
+        {
+          "pokemonId": "DOLLIV"
+        },
+        {
+          "pokemonId": "BULBASAUR"
+        },
+        {
+          "pokemonId": "CATERPIE"
+        },
+        {
+          "pokemonId": "METAPOD"
+        },
+        {
+          "pokemonId": "WEEDLE"
+        },
+        {
+          "pokemonId": "KAKUNA"
+        },
+        {
+          "pokemonId": "BEEDRILL"
+        },
+        {
+          "pokemonId": "DIGLETT"
+        },
+        {
+          "pokemonId": "TANGELA"
+        },
+        {
+          "pokemonId": "CHIKORITA"
+        },
+        {
+          "pokemonId": "SPINARAK"
+        },
+        {
+          "pokemonId": "SUNFLORA"
+        },
+        {
+          "pokemonId": "CELEBI"
+        },
+        {
+          "pokemonId": "TREECKO"
+        },
+        {
+          "pokemonId": "LOTAD"
+        },
+        {
+          "pokemonId": "WORMADAM",
+          "form": "WORMADAM_PLANT"
+        }
+      ],
+      "displayOrder": 40
+    }
+  },
+  {
+    "templateId": "PHOTO_SET_SAFARI_TREK",
+    "data": {
+      "nameKey": "PHOTO_SET_SAFARI",
+      "frameColor": "Safarizone",
+      "minimumPokemon": 1,
+      "pokemon": [
+        {
+          "pokemonId": "ZEBSTRIKA"
+        },
+        {
+          "pokemonId": "KROOKODILE"
+        },
+        {
+          "pokemonId": "PYROAR"
+        },
+        {
+          "pokemonId": "PYROAR",
+          "form": "PYROAR_FEMALE"
+        },
+        {
+          "pokemonId": "HIPPOWDON"
+        },
+        {
+          "pokemonId": "DODUO"
+        },
+        {
+          "pokemonId": "DODRIO"
+        },
+        {
+          "pokemonId": "RHYHORN"
+        },
+        {
+          "pokemonId": "RHYDON"
+        },
+        {
+          "pokemonId": "GIRAFARIG"
+        },
+        {
+          "pokemonId": "PHANPY"
+        },
+        {
+          "pokemonId": "DONPHAN"
+        },
+        {
+          "pokemonId": "HIPPOPOTAS"
+        },
+        {
+          "pokemonId": "BLITZLE"
+        },
+        {
+          "pokemonId": "SANDILE"
+        },
+        {
+          "pokemonId": "KROKOROK"
+        },
+        {
+          "pokemonId": "LITLEO"
+        }
+      ],
+      "displayOrder": 40
+    }
+  },
+  {
+    "templateId": "PHOTO_SET_SANDY_SHORELINE",
+    "data": {
+      "nameKey": "PHOTO_SET_BEACH",
+      "frameColor": "Beachside",
+      "minimumPokemon": 1,
+      "pokemon": [
+        {
+          "pokemonId": "RAICHU",
+          "form": "RAICHU_ALOLA"
+        },
+        {
+          "pokemonId": "GASTRODON",
+          "form": "GASTRODON_EAST_SEA"
+        },
+        {
+          "pokemonId": "BRIONNE"
+        },
+        {
+          "pokemonId": "SANDYGAST"
+        },
+        {
+          "pokemonId": "WINGULL"
+        },
+        {
+          "pokemonId": "CRABRAWLER"
+        },
+        {
+          "pokemonId": "KINGLER"
+        },
+        {
+          "pokemonId": "PALOSSAND"
+        },
+        {
+          "pokemonId": "GASTRODON",
+          "form": "GASTRODON_WEST_SEA"
+        },
+        {
+          "pokemonId": "PELIPPER"
+        },
+        {
+          "pokemonId": "STARYU"
+        },
+        {
+          "pokemonId": "SHELLDER"
+        },
+        {
+          "pokemonId": "CLOYSTER"
+        },
+        {
+          "pokemonId": "KRABBY"
+        },
+        {
+          "pokemonId": "STARMIE"
+        },
+        {
+          "pokemonId": "SHELLOS",
+          "form": "SHELLOS_EAST_SEA"
+        },
+        {
+          "pokemonId": "SHELLOS",
+          "form": "SHELLOS_WEST_SEA"
+        },
+        {
+          "pokemonId": "BINACLE"
+        },
+        {
+          "pokemonId": "BARBARACLE"
+        },
+        {
+          "pokemonId": "POPPLIO"
+        },
+        {
+          "pokemonId": "PRIMARINA"
+        }
+      ],
+      "displayOrder": 40
+    }
+  },
+  {
+    "templateId": "PHOTO_SET_SHADOWS_OF_NIGHT",
+    "data": {
+      "nameKey": "PHOTO_SET_NIGHT",
+      "frameColor": "Nightfall",
+      "minimumPokemon": 1,
+      "pokemon": [
+        {
+          "pokemonId": "NOIBAT"
+        },
+        {
+          "pokemonId": "MURKROW"
+        },
+        {
+          "pokemonId": "HOUNDOUR"
+        },
+        {
+          "pokemonId": "HOOTHOOT"
+        },
+        {
+          "pokemonId": "ZUBAT"
+        },
+        {
+          "pokemonId": "DUSKULL"
+        },
+        {
+          "pokemonId": "UMBREON"
+        },
+        {
+          "pokemonId": "LUNATONE"
+        },
+        {
+          "pokemonId": "WOOBAT"
+        },
+        {
+          "pokemonId": "LITWICK"
+        }
+      ],
+      "displayOrder": 40
+    }
+  },
+  {
+    "templateId": "PHOTO_SET_SINNOH",
+    "data": {
+      "nameKey": "PHOTO_SET_SINNOH",
+      "frameColor": "SummerVibes",
+      "minimumPokemon": 1,
+      "pokemon": [
+        {
+          "pokemonId": "TURTWIG"
+        },
+        {
+          "pokemonId": "CHIMCHAR"
+        },
+        {
+          "pokemonId": "PIPLUP"
+        }
+      ],
+      "displayOrder": 30
+    }
+  },
+  {
+    "templateId": "PHOTO_SET_SMALL_AND_CUTE",
+    "data": {
+      "nameKey": "PHOTO_SET_SMALL_AND_CUTE",
+      "frameColor": "TinyBuddies",
+      "minimumPokemon": 1,
+      "pokemon": [
+        {
+          "pokemonId": "JIGGLYPUFF"
+        },
+        {
+          "pokemonId": "TOGEPI"
+        },
+        {
+          "pokemonId": "PACHIRISU"
+        },
+        {
+          "pokemonId": "EMOLGA"
+        },
+        {
+          "pokemonId": "BOUNSWEET"
+        },
+        {
+          "pokemonId": "PAWMI"
+        },
+        {
+          "pokemonId": "FENNEKIN"
+        },
+        {
+          "pokemonId": "MINCCINO"
+        },
+        {
+          "pokemonId": "BUNEARY"
+        },
+        {
+          "pokemonId": "AZURILL"
+        },
+        {
+          "pokemonId": "BELLOSSOM"
+        },
+        {
+          "pokemonId": "MEW"
+        },
+        {
+          "pokemonId": "CLEFFA"
+        },
+        {
+          "pokemonId": "VULPIX"
+        },
+        {
+          "pokemonId": "VULPIX",
+          "form": "VULPIX_ALOLA"
+        },
+        {
+          "pokemonId": "FLABEBE",
+          "form": "FLABEBE_RED"
+        },
+        {
+          "pokemonId": "FLABEBE",
+          "form": "FLABEBE_BLUE"
+        },
+        {
+          "pokemonId": "FLABEBE",
+          "form": "FLABEBE_ORANGE"
+        },
+        {
+          "pokemonId": "FLABEBE",
+          "form": "FLABEBE_YELLOW"
+        },
+        {
+          "pokemonId": "FLABEBE",
+          "form": "FLABEBE_WHITE"
+        },
+        {
+          "pokemonId": "CUTIEFLY"
+        },
+        {
+          "pokemonId": "STUFFUL"
+        },
+        {
+          "pokemonId": "SMOLIV"
+        }
+      ],
+      "displayOrder": 40
+    }
+  },
+  {
+    "templateId": "PHOTO_SET_SMALL_CUTE_POKEMON",
+    "data": {
+      "nameKey": "PHOTO_SET_SMALL_CUTE_POKEMON",
+      "frameColor": "TinyBuddies",
+      "minimumPokemon": 1,
+      "pokemon": [
+        {
+          "pokemonId": "PICHU"
+        },
+        {
+          "pokemonId": "HAPPINY"
+        },
+        {
+          "pokemonId": "TOGEPI"
+        }
+      ],
+      "displayOrder": 10
+    }
+  },
+  {
+    "templateId": "PHOTO_SET_SMALL_CUTE_POKEMON_PIKACHU_AND_EEVEE",
+    "data": {
+      "nameKey": "PHOTO_SET_SMALL_CUTE_POKEMON_PIKACHU_AND_EEVEE",
+      "frameColor": "TinyBuddies",
+      "minimumPokemon": 1,
+      "pokemon": [
+        {
+          "pokemonId": "PIKACHU"
+        },
+        {
+          "pokemonId": "EEVEE"
+        }
+      ],
+      "displayOrder": 522
+    }
+  },
+  {
+    "templateId": "PHOTO_SET_SMALL_CUTE_POKEMON_PINK",
+    "data": {
+      "nameKey": "PHOTO_SET_SMALL_CUTE_POKEMON_PINK",
+      "frameColor": "PinkPals",
+      "minimumPokemon": 1,
+      "pokemon": [
+        {
+          "pokemonId": "CLEFFA"
+        },
+        {
+          "pokemonId": "IGGLYBUFF"
+        },
+        {
+          "pokemonId": "HAPPINY"
+        }
+      ],
+      "displayOrder": 11
+    }
+  },
+  {
+    "templateId": "PHOTO_SET_SMALL_FLOWER_POKEMON",
+    "data": {
+      "nameKey": "PHOTO_SET_SMALL_FLOWER_POKEMON",
+      "frameColor": "FloralFriends",
+      "minimumPokemon": 1,
+      "pokemon": [
+        {
+          "pokemonId": "BELLOSSOM"
+        },
+        {
+          "pokemonId": "SUNKERN"
+        },
+        {
+          "pokemonId": "ROSELIA"
+        },
+        {
+          "pokemonId": "ODDISH"
+        }
+      ],
+      "displayOrder": 1803
+    }
+  },
+  {
+    "templateId": "PHOTO_SET_SMALL_FLOWER_POKEMON_MEDIUM",
+    "data": {
+      "nameKey": "PHOTO_SET_SMALL_FLOWER_POKEMON_MEDIUM",
+      "frameColor": "FloralFriends",
+      "minimumPokemon": 1,
+      "pokemon": [
+        {
+          "pokemonId": "LILLIGANT"
+        },
+        {
+          "pokemonId": "SUNFLORA"
+        },
+        {
+          "pokemonId": "ROSERADE"
+        }
+      ],
+      "displayOrder": 11
+    }
+  },
+  {
+    "templateId": "PHOTO_SET_SMALL_FLOWER_POKEMON_SEEDS",
+    "data": {
+      "nameKey": "PHOTO_SET_SMALL_FLOWER_POKEMON_SEEDS",
+      "frameColor": "GreenShoots",
+      "minimumPokemon": 1,
+      "pokemon": [
+        {
+          "pokemonId": "PETILIL"
+        },
+        {
+          "pokemonId": "SMOLIV"
+        },
+        {
+          "pokemonId": "BUDEW"
+        }
+      ],
+      "displayOrder": 11
+    }
+  },
+  {
+    "templateId": "PHOTO_SET_SMALL_WATER_POKEMON",
+    "data": {
+      "nameKey": "PHOTO_SET_SMALL_WATER_POKEMON",
+      "frameColor": "UkiyoEuphoria",
+      "minimumPokemon": 1,
+      "pokemon": [
+        {
+          "pokemonId": "PIPLUP"
+        },
+        {
+          "pokemonId": "HORSEA"
+        },
+        {
+          "pokemonId": "POPPLIO"
+        }
+      ],
+      "displayOrder": 12
+    }
+  },
+  {
+    "templateId": "PHOTO_SET_SPRING_VIBES",
+    "data": {
+      "nameKey": "PHOTO_SET_SPRING_VIBES",
+      "frameColor": "FloralFriends",
+      "minimumPokemon": 1,
+      "pokemon": [
+        {
+          "pokemonId": "PETILIL"
+        },
+        {
+          "pokemonId": "MARILL"
+        },
+        {
+          "pokemonId": "DEERLING",
+          "form": "DEERLING_SPRING"
+        },
+        {
+          "pokemonId": "WYNAUT"
+        },
+        {
+          "pokemonId": "BIDOOF"
+        },
+        {
+          "pokemonId": "BELLSPROUT"
+        },
+        {
+          "pokemonId": "COMBEE"
+        },
+        {
+          "pokemonId": "SEWADDLE"
+        },
+        {
+          "pokemonId": "LEDYBA"
+        },
+        {
+          "pokemonId": "SUDOWOODO"
+        },
+        {
+          "pokemonId": "CASTFORM",
+          "form": "CASTFORM_RAINY"
+        },
+        {
+          "pokemonId": "BUDEW"
+        },
+        {
+          "pokemonId": "CHERUBI"
+        },
+        {
+          "pokemonId": "SAWSBUCK",
+          "form": "SAWSBUCK_SPRING"
+        },
+        {
+          "pokemonId": "FLABEBE",
+          "form": "FLABEBE_RED"
+        },
+        {
+          "pokemonId": "FLABEBE",
+          "form": "FLABEBE_WHITE"
+        },
+        {
+          "pokemonId": "FLOETTE",
+          "form": "FLOETTE_BLUE"
+        }
+      ],
+      "displayOrder": 808
+    }
+  },
+  {
+    "templateId": "PHOTO_SET_STARTERS",
+    "data": {
+      "nameKey": "PHOTO_SET_STARTERS",
+      "frameColor": "TinyBuddies",
+      "minimumPokemon": 1,
+      "pokemon": [
+        {
+          "pokemonId": "BULBASAUR"
+        },
+        {
+          "pokemonId": "CHARMANDER"
+        },
+        {
+          "pokemonId": "SQUIRTLE"
+        },
+        {
+          "pokemonId": "CHIKORITA"
+        },
+        {
+          "pokemonId": "CYNDAQUIL"
+        },
+        {
+          "pokemonId": "TOTODILE"
+        },
+        {
+          "pokemonId": "TREECKO"
+        },
+        {
+          "pokemonId": "TORCHIC"
+        },
+        {
+          "pokemonId": "MUDKIP"
+        },
+        {
+          "pokemonId": "TURTWIG"
+        },
+        {
+          "pokemonId": "CHIMCHAR"
+        },
+        {
+          "pokemonId": "PIPLUP"
+        },
+        {
+          "pokemonId": "SNIVY"
+        },
+        {
+          "pokemonId": "TEPIG"
+        },
+        {
+          "pokemonId": "OSHAWOTT"
+        },
+        {
+          "pokemonId": "CHESPIN"
+        },
+        {
+          "pokemonId": "FENNEKIN"
+        },
+        {
+          "pokemonId": "FROAKIE"
+        },
+        {
+          "pokemonId": "ROWLET"
+        },
+        {
+          "pokemonId": "LITTEN"
+        },
+        {
+          "pokemonId": "POPPLIO"
+        },
+        {
+          "pokemonId": "SPRIGATITO"
+        },
+        {
+          "pokemonId": "FUECOCO"
+        },
+        {
+          "pokemonId": "QUAXLY"
+        }
+      ],
+      "displayOrder": 10240
+    }
+  },
+  {
+    "templateId": "PHOTO_SET_SUMMER_VIBES",
+    "data": {
+      "nameKey": "PHOTO_SET_SUMMER_VIBES",
+      "frameColor": "SummerVibes",
+      "minimumPokemon": 1,
+      "pokemon": [
+        {
+          "pokemonId": "DEERLING",
+          "form": "DEERLING_SUMMER"
+        },
+        {
+          "pokemonId": "OSHAWOTT"
+        },
+        {
+          "pokemonId": "SANDSHREW"
+        },
+        {
+          "pokemonId": "SUNFLORA"
+        },
+        {
+          "pokemonId": "KRABBY"
+        },
+        {
+          "pokemonId": "PANSAGE"
+        },
+        {
+          "pokemonId": "POLITOED"
+        },
+        {
+          "pokemonId": "SANDSLASH"
+        },
+        {
+          "pokemonId": "CHIMECHO"
+        },
+        {
+          "pokemonId": "SAWSBUCK",
+          "form": "SAWSBUCK_SUMMER"
+        },
+        {
+          "pokemonId": "EMOLGA"
+        },
+        {
+          "pokemonId": "DEDENNE"
+        },
+        {
+          "pokemonId": "PIKIPEK"
+        }
+      ],
+      "displayOrder": 40
+    }
+  },
+  {
+    "templateId": "PHOTO_SET_TINY_TIKES",
+    "data": {
+      "nameKey": "PHOTO_SET_TINY_TIKES",
+      "frameColor": "TinyBuddies",
+      "minimumPokemon": 1,
+      "pokemon": [
+        {
+          "pokemonId": "PICHU"
+        },
+        {
+          "pokemonId": "PIKIPEK"
+        },
+        {
+          "pokemonId": "CUTIEFLY"
+        },
+        {
+          "pokemonId": "SMOLIV"
+        },
+        {
+          "pokemonId": "AZURILL"
+        },
+        {
+          "pokemonId": "COSMOEM"
+        },
+        {
+          "pokemonId": "COSMOG"
+        },
+        {
+          "pokemonId": "GIMMIGHOUL"
+        },
+        {
+          "pokemonId": "SPRITZEE"
+        },
+        {
+          "pokemonId": "FLABEBE",
+          "form": "FLABEBE_RED"
+        },
+        {
+          "pokemonId": "FLABEBE",
+          "form": "FLABEBE_BLUE"
+        },
+        {
+          "pokemonId": "FLABEBE",
+          "form": "FLABEBE_ORANGE"
+        },
+        {
+          "pokemonId": "FLABEBE",
+          "form": "FLABEBE_YELLOW"
+        },
+        {
+          "pokemonId": "FLABEBE",
+          "form": "FLABEBE_WHITE"
+        },
+        {
+          "pokemonId": "JOLTIK"
+        },
+        {
+          "pokemonId": "NATU"
+        },
+        {
+          "pokemonId": "DIGLETT"
+        },
+        {
+          "pokemonId": "DIGLETT",
+          "form": "DIGLETT_ALOLA"
+        },
+        {
+          "pokemonId": "MAGNEMITE"
+        },
+        {
+          "pokemonId": "WEEDLE"
+        },
+        {
+          "pokemonId": "WURMPLE"
+        },
+        {
+          "pokemonId": "BURMY",
+          "form": "BURMY_PLANT"
+        },
+        {
+          "pokemonId": "BURMY",
+          "form": "BURMY_SANDY"
+        },
+        {
+          "pokemonId": "BURMY",
+          "form": "BURMY_TRASH"
+        },
+        {
+          "pokemonId": "TYNAMO"
+        },
+        {
+          "pokemonId": "COMFEY"
+        },
+        {
+          "pokemonId": "NYMBLE"
+        }
+      ],
+      "displayOrder": 40
+    }
+  },
+  {
+    "templateId": "PHOTO_SET_UNOVA",
+    "data": {
+      "nameKey": "PHOTO_SET_UNOVA",
+      "frameColor": "SummerVibes",
+      "minimumPokemon": 1,
+      "pokemon": [
+        {
+          "pokemonId": "SNIVY"
+        },
+        {
+          "pokemonId": "TEPIG"
+        },
+        {
+          "pokemonId": "OSHAWOTT"
+        }
+      ],
+      "displayOrder": 30
+    }
+  },
+  {
+    "templateId": "PHOTO_SET_WINGS_POKEMON",
+    "data": {
+      "nameKey": "PHOTO_SET_WINGS_POKEMON",
+      "frameColor": "BusyBugs",
+      "minimumPokemon": 1,
+      "pokemon": [
+        {
+          "pokemonId": "COMBEE"
+        },
+        {
+          "pokemonId": "LEDYBA"
+        },
+        {
+          "pokemonId": "VOLBEAT"
+        },
+        {
+          "pokemonId": "ILLUMISE"
+        }
+      ],
+      "displayOrder": 12
+    }
+  },
+  {
+    "templateId": "PHOTO_SET_WINTER_VIBES",
+    "data": {
+      "nameKey": "PHOTO_SET_WINTER_VIBES",
+      "frameColor": "RainyDay",
+      "minimumPokemon": 1,
+      "pokemon": [
+        {
+          "pokemonId": "VULPIX",
+          "form": "VULPIX_ALOLA"
+        },
+        {
+          "pokemonId": "SANDSHREW",
+          "form": "SANDSHREW_ALOLA"
+        },
+        {
+          "pokemonId": "VANILLITE"
+        },
+        {
+          "pokemonId": "PACHIRISU"
+        },
+        {
+          "pokemonId": "PIPLUP"
+        },
+        {
+          "pokemonId": "SNORUNT"
+        },
+        {
+          "pokemonId": "DEERLING",
+          "form": "DEERLING_WINTER"
+        },
+        {
+          "pokemonId": "CUBCHOO"
+        },
+        {
+          "pokemonId": "SEEL"
+        },
+        {
+          "pokemonId": "SANDSLASH",
+          "form": "SANDSLASH_ALOLA"
+        },
+        {
+          "pokemonId": "NINETALES",
+          "form": "NINETALES_ALOLA"
+        },
+        {
+          "pokemonId": "SWINUB"
+        },
+        {
+          "pokemonId": "CASTFORM",
+          "form": "CASTFORM_SNOWY"
+        },
+        {
+          "pokemonId": "SNOVER"
+        },
+        {
+          "pokemonId": "SAWSBUCK",
+          "form": "SAWSBUCK_WINTER"
+        },
+        {
+          "pokemonId": "CUBCHOO",
+          "form": "CUBCHOO_WINTER_2020"
+        },
+        {
+          "pokemonId": "BERGMITE"
+        }
+      ],
+      "displayOrder": 40
+    }
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "templateId": "POKEDEX_SIZE_STATS_SYSTEM_SETTINGS",
+    "data": {
+      "displayEnabled": true,
+      "pokedexDisplayPokemonTrackedThreshold": 3,
+      "recordDisplayPokemonTrackedThreshold": 3,
+      "numDaysNewBubbleTrack": 7,
+      "enableRandomizedHeightAndWeightForWildPokemon": true
+    }
+  }
+]

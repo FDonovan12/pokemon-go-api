@@ -1,0 +1,227 @@
+[
+  {
+    "templateId": "NON_COMBAT_V0388_MOVE_SPACIAL_REND",
+    "data": {
+      "uniqueId": "SPACIAL_REND",
+      "cost": {
+        "candyCost": 5,
+        "stardustCost": 5000
+      },
+      "bonusEffect": {
+        "spaceBonus": {
+          "pokemonVisibleRangeMeters": 90,
+          "encounterRangeMeters": 80,
+          "serverAllowableEncounterRangeMeters": 350
+        }
+      },
+      "durationMs": "600000",
+      "bonusType": "SPACE_BONUS",
+      "enableMultiUse": true,
+      "extraDurationMs": "4000",
+      "enableNonCombatMove": true
+    }
+  },
+  {
+    "templateId": "NON_COMBAT_V0394_MOVE_ROAR_OF_TIME",
+    "data": {
+      "uniqueId": "ROAR_OF_TIME",
+      "cost": {
+        "candyCost": 5,
+        "stardustCost": 5000
+      },
+      "bonusEffect": {
+        "timeBonus": {
+          "affectedItems": [
+            "ITEM_INCENSE_ORDINARY",
+            "ITEM_INCENSE_DAILY_ADVENTURE",
+            "ITEM_STAR_PIECE",
+            "ITEM_LUCKY_EGG"
+          ]
+        }
+      },
+      "durationMs": "360000",
+      "bonusType": "TIME_BONUS",
+      "enableMultiUse": true,
+      "extraDurationMs": "4000",
+      "enableNonCombatMove": true
+    }
+  },
+  {
+    "templateId": "NON_COMBAT_V0404_MOVE_SUNSTEEL_STRIKE",
+    "data": {
+      "uniqueId": "SUNSTEEL_STRIKE",
+      "cost": {
+        "candyCost": 3,
+        "stardustCost": 3000
+      },
+      "bonusEffect": {
+        "dayNightBonus": {
+          "incenseItem": "ITEM_INCENSE_DAY_BONUS"
+        }
+      },
+      "durationMs": "600000",
+      "bonusType": "DAY_BONUS",
+      "enableMultiUse": true,
+      "extraDurationMs": "4000",
+      "enableNonCombatMove": true
+    }
+  },
+  {
+    "templateId": "NON_COMBAT_V0405_MOVE_MOONGEIST_BEAM",
+    "data": {
+      "uniqueId": "MOONGEIST_BEAM",
+      "cost": {
+        "candyCost": 3,
+        "stardustCost": 3000
+      },
+      "bonusEffect": {
+        "dayNightBonus": {
+          "incenseItem": "ITEM_INCENSE_NIGHT_BONUS"
+        }
+      },
+      "durationMs": "600000",
+      "bonusType": "NIGHT_BONUS",
+      "enableMultiUse": true,
+      "extraDurationMs": "4000",
+      "enableNonCombatMove": true
+    }
+  },
+  {
+    "templateId": "NON_COMBAT_V0466_MOVE_FREEZE_SHOCK",
+    "data": {
+      "uniqueId": "FREEZE_SHOCK",
+      "cost": {
+        "candyCost": 5,
+        "stardustCost": 5000
+      },
+      "bonusEffect": {
+        "slowFreezeBonus": {
+          "catchCircleTimeScaleOverride": 0.5,
+          "catchRateIncreaseMultiplier": 1.25,
+          "catchCircleSpeedChangeThreshold": 1,
+          "catchCircleOuterTimeScaleOverride": 0.5
+        }
+      },
+      "durationMs": "600000",
+      "bonusType": "FREEZE_BONUS",
+      "enableMultiUse": true,
+      "extraDurationMs": "4000",
+      "enableNonCombatMove": true
+    }
+  },
+  {
+    "templateId": "NON_COMBAT_V0467_MOVE_ICE_BURN",
+    "data": {
+      "uniqueId": "ICE_BURN",
+      "cost": {
+        "candyCost": 5,
+        "stardustCost": 5000
+      },
+      "bonusEffect": {
+        "slowFreezeBonus": {
+          "catchCircleTimeScaleOverride": 0.2,
+          "catchRateIncreaseMultiplier": 1.5,
+          "catchCircleSpeedChangeThreshold": 1.6,
+          "catchCircleOuterTimeScaleOverride": 4
+        }
+      },
+      "durationMs": "600000",
+      "bonusType": "SLOW_BONUS",
+      "enableMultiUse": true,
+      "extraDurationMs": "4000",
+      "enableNonCombatMove": true
+    }
+  },
+  {
+    "templateId": "NON_COMBAT_V0469_MOVE_BEHEMOTH_BLADE",
+    "data": {
+      "uniqueId": "BEHEMOTH_BLADE",
+      "cost": {
+        "candyCost": 5,
+        "stardustCost": 5000
+      },
+      "bonusEffect": {
+        "attackDefenseBonus": {
+          "attributes": [
+            {
+              "combatTypes": [
+                "COMBAT_TYPE_RAID"
+              ],
+              "attackMultiplier": 1.1
+            },
+            {
+              "combatTypes": [
+                "COMBAT_TYPE_DMAX",
+                "COMBAT_TYPE_GMAX"
+              ],
+              "attackMultiplier": 1.05
+            }
+          ]
+        }
+      },
+      "durationMs": "360000",
+      "bonusType": "ATTACK_BONUS",
+      "enableMultiUse": true,
+      "extraDurationMs": "4000",
+      "enableNonCombatMove": true
+    }
+  },
+  {
+    "templateId": "NON_COMBAT_V0470_MOVE_BEHEMOTH_BASH",
+    "data": {
+      "uniqueId": "BEHEMOTH_BASH",
+      "cost": {
+        "candyCost": 5,
+        "stardustCost": 5000
+      },
+      "bonusEffect": {
+        "attackDefenseBonus": {
+          "attributes": [
+            {
+              "combatTypes": [
+                "COMBAT_TYPE_RAID"
+              ],
+              "defenseMultiplier": 1.1
+            },
+            {
+              "combatTypes": [
+                "COMBAT_TYPE_DMAX",
+                "COMBAT_TYPE_GMAX"
+              ],
+              "defenseMultiplier": 1.05
+            }
+          ]
+        }
+      },
+      "durationMs": "360000",
+      "bonusType": "DEFENSE_BONUS",
+      "enableMultiUse": true,
+      "extraDurationMs": "4000",
+      "enableNonCombatMove": true
+    }
+  },
+  {
+    "templateId": "NON_COMBAT_V0482_MOVE_DYNAMAX_CANNON",
+    "data": {
+      "uniqueId": "DYNAMAX_CANNON",
+      "cost": {
+        "candyCost": 30,
+        "stardustCost": 5000
+      },
+      "bonusEffect": {
+        "maxMoveBonus": {
+          "excludedPokedexIds": [
+            "ZACIAN",
+            "ZAMAZENTA"
+          ],
+          "numAllMaxMoveLevelIncrease": 1
+        }
+      },
+      "durationMs": "600000",
+      "bonusType": "MAX_MOVE_BONUS",
+      "enableMultiUse": true,
+      "extraDurationMs": "4000",
+      "enableNonCombatMove": true
+    }
+  }
+]

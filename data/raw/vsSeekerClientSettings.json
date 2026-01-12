@@ -1,0 +1,11 @@
+[
+  {
+    "templateId": "VS_SEEKER_CLIENT_SETTINGS",
+    "data": {
+      "allowedVsSeekerLeagueTemplateId": [
+        "COMBAT_LEAGUE_VS_SEEKER_ULTRA",
+        "COMBAT_LEAGUE_VS_SEEKER_SUNSHINE_GREAT"
+      ]
+    }
+  }
+]

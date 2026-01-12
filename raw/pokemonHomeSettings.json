@@ -1,0 +1,11 @@
+[
+  {
+    "templateId": "POKEMON_HOME_SETTINGS",
+    "data": {
+      "playerMinLevel": 1,
+      "transporterMaxEnergy": 10000,
+      "energySkuId": "hometransport.1",
+      "transporterEnergyGainPerHour": 60
+    }
+  }
+]

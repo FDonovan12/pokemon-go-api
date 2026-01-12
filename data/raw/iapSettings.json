@@ -1,0 +1,18 @@
+[
+  {
+    "templateId": "IAP_SETTINGS",
+    "data": {
+      "dailyDefenderBonusPerPokemon": [
+        500,
+        10
+      ],
+      "dailyDefenderBonusMaxDefenders": 10,
+      "dailyDefenderBonusCurrency": [
+        "STARDUST",
+        "POKECOIN"
+      ],
+      "minTimeBetweenClaimsMs": "75600000",
+      "prohibitPurchaseInTestEnvirnment": true
+    }
+  }
+]

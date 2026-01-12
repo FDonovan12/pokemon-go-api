@@ -1,0 +1,51 @@
+[
+  {
+    "templateId": "INVASION_AVAILABILITY_SETTINGS_FRIDAY",
+    "data": {
+      "availabilityStartMinute": "360",
+      "availabilityEndMinute": "1320"
+    }
+  },
+  {
+    "templateId": "INVASION_AVAILABILITY_SETTINGS_MONDAY",
+    "data": {
+      "availabilityStartMinute": "360",
+      "availabilityEndMinute": "1320"
+    }
+  },
+  {
+    "templateId": "INVASION_AVAILABILITY_SETTINGS_SATURDAY",
+    "data": {
+      "availabilityStartMinute": "360",
+      "availabilityEndMinute": "1320"
+    }
+  },
+  {
+    "templateId": "INVASION_AVAILABILITY_SETTINGS_SUNDAY",
+    "data": {
+      "availabilityStartMinute": "360",
+      "availabilityEndMinute": "1320"
+    }
+  },
+  {
+    "templateId": "INVASION_AVAILABILITY_SETTINGS_THURSDAY",
+    "data": {
+      "availabilityStartMinute": "360",
+      "availabilityEndMinute": "1320"
+    }
+  },
+  {
+    "templateId": "INVASION_AVAILABILITY_SETTINGS_TUESDAY",
+    "data": {
+      "availabilityStartMinute": "360",
+      "availabilityEndMinute": "1320"
+    }
+  },
+  {
+    "templateId": "INVASION_AVAILABILITY_SETTINGS_WEDNESDAY",
+    "data": {
+      "availabilityStartMinute": "360",
+      "availabilityEndMinute": "1320"
+    }
+  }
+]

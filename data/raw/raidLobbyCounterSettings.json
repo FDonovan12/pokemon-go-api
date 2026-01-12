@@ -1,0 +1,19 @@
+[
+  {
+    "templateId": "RAID_LOBBY_COUNTER_SETTINGS",
+    "data": {
+      "pollingEnabled": true,
+      "pollingIntervalMs": 60000,
+      "subscribeEnabled": true,
+      "publishEnabled": true,
+      "mapDisplayEnabled": true,
+      "nearbyDisplayEnabled": true,
+      "showCounterRadiusMeters": 709,
+      "subscribeS2Level": 13,
+      "maxCountToUpdate": 20,
+      "subscriptionNamespace": "pgorelease/RAID_LOBBY_COUNT",
+      "pollingRadiusMeters": 100,
+      "publishCutoffTimeMs": 20000
+    }
+  }
+]

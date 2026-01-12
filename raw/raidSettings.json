@@ -1,0 +1,121 @@
+[
+  {
+    "templateId": "RAID_CLIENT_SETTINGS",
+    "data": {
+      "remoteRaidEnabled": true,
+      "maxRemoteRaidPasses": 3,
+      "remoteDamageModifier": 1,
+      "remoteRaidsMinPlayerLevel": 5,
+      "maxNumFriendInvites": 5,
+      "friendInviteCutoffTimeSec": 20,
+      "canInviteFriendsInPerson": true,
+      "canInviteFriendsRemotely": true,
+      "maxPlayersPerLobby": 20,
+      "maxRemotePlayersPerLobby": 10,
+      "inviteCooldownDurationMillis": "30000",
+      "maxNumFriendInvitesPerAction": 5,
+      "unsupportedRaidLevelsForFriendInvites": [
+        "RAID_LEVEL_EXTENDED_EGG",
+        "RAID_LEVEL_4"
+      ],
+      "unsupportedRemoteRaidLevels": [
+        "RAID_LEVEL_EXTENDED_EGG",
+        "RAID_LEVEL_4"
+      ],
+      "ablcemdnbkc": true,
+      "raidLevelMusicOverrides": [
+        {
+          "raidLevel": "RAID_LEVEL_ULTRA_BEAST",
+          "battleMusicKey": "GoFest2022Music_Battle"
+        },
+        {
+          "raidLevel": "RAID_LEVEL_PRIMAL",
+          "battleMusicKey": "GoTour2023Music02"
+        },
+        {
+          "raidLevel": "RAID_LEVEL_1_SHADOW",
+          "battleMusicKey": "RocketCombatMusic"
+        },
+        {
+          "raidLevel": "RAID_LEVEL_3_SHADOW",
+          "battleMusicKey": "RocketLeaderCombatMusic"
+        },
+        {
+          "raidLevel": "RAID_LEVEL_5_SHADOW",
+          "battleMusicKey": "RocketBossCombatMusic"
+        },
+        {
+          "raidLevel": "RAID_LEVEL_MEGA_5",
+          "battleMusicKey": "GoTour2023Music02"
+        }
+      ],
+      "raidFeatureFlags": {
+        "useCachedRaidBossPokemon": true
+      },
+      "bootRaidEnabled": true,
+      "friendRequestsEnabled": true,
+      "remoteRaidDistanceValidation": true,
+      "popupTimeMs": 30000,
+      "failedFriendInviteInfoEnabled": true,
+      "minPlayersToBoot": 2,
+      "bootCutoffMs": 15000,
+      "bootSoloMs": 30000,
+      "obRaidClientSettingsNumber1": 1,
+      "obRaidClientSettingsNumber29": 1,
+      "pokemonMusicOverrides": [
+        {
+          "pokemon": "ZACIAN",
+          "forms": [
+            "ZACIAN_HERO",
+            "ZACIAN_CROWNED_SWORD"
+          ],
+          "battleMusicKey": "GoFest2025_Raid_Battle"
+        },
+        {
+          "pokemon": "ZAMAZENTA",
+          "forms": [
+            "ZAMAZENTA_HERO",
+            "ZAMAZENTA_CROWNED_SHIELD"
+          ],
+          "battleMusicKey": "GoFest2025_Raid_Battle"
+        },
+        {
+          "pokemon": "KYUREM",
+          "forms": [
+            "KYUREM_BLACK",
+            "KYUREM_WHITE",
+            "KYUREM_NORMAL"
+          ],
+          "battleMusicKey": "GoTour2025Music01"
+        },
+        {
+          "pokemon": "ZEKROM",
+          "battleMusicKey": "GoTour2025Music01"
+        },
+        {
+          "pokemon": "RESHIRAM",
+          "battleMusicKey": "GoTour2025Music01"
+        },
+        {
+          "pokemon": "NECROZMA",
+          "forms": [
+            "NECROZMA_NORMAL",
+            "NECROZMA_DUSK_MANE",
+            "NECROZMA_DAWN_WINGS",
+            "NECROZMA_ULTRA"
+          ],
+          "battleMusicKey": "GoFest2024Music_Battle"
+        },
+        {
+          "pokemon": "SOLGALEO",
+          "battleMusicKey": "GoFest2024Music_Battle"
+        },
+        {
+          "pokemon": "LUNALA",
+          "battleMusicKey": "GoFest2024Music_Battle"
+        }
+      ],
+      "fetchProfileFromSocialEnabled": true
+    }
+  }
+]

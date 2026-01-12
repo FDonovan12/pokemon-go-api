@@ -1,0 +1,90 @@
+[
+  {
+    "templateId": "STATIONED_POKEMON_POWER_BOOST_TABLE_SETTINGS",
+    "data": {
+      "stationedPokemonTableEnum": "STATIONED_POKEMON_POWER_BOOST_TABLE_SETTINGS",
+      "tierBoosts": [
+        {
+          "numStationed": 1,
+          "numBoostIcons": 1
+        },
+        {
+          "numStationed": 2,
+          "numBoostIcons": 2
+        },
+        {
+          "numStationed": 3,
+          "numBoostIcons": 2
+        },
+        {
+          "numStationed": 4,
+          "numBoostIcons": 3
+        },
+        {
+          "numStationed": 5,
+          "numBoostIcons": 3
+        },
+        {
+          "numStationed": 6,
+          "numBoostIcons": 3
+        },
+        {
+          "numStationed": 7,
+          "numBoostIcons": 3
+        },
+        {
+          "numStationed": 8,
+          "numBoostIcons": 3
+        },
+        {
+          "numStationed": 9,
+          "numBoostIcons": 3
+        },
+        {
+          "numStationed": 10,
+          "numBoostIcons": 3
+        },
+        {
+          "numStationed": 11,
+          "numBoostIcons": 3
+        },
+        {
+          "numStationed": 12,
+          "numBoostIcons": 3
+        },
+        {
+          "numStationed": 13,
+          "numBoostIcons": 3
+        },
+        {
+          "numStationed": 14,
+          "numBoostIcons": 3
+        },
+        {
+          "numStationed": 15,
+          "numBoostIcons": 4
+        },
+        {
+          "numStationed": 16,
+          "numBoostIcons": 4
+        },
+        {
+          "numStationed": 17,
+          "numBoostIcons": 4
+        },
+        {
+          "numStationed": 18,
+          "numBoostIcons": 4
+        },
+        {
+          "numStationed": 19,
+          "numBoostIcons": 4
+        },
+        {
+          "numStationed": 20,
+          "numBoostIcons": 4
+        }
+      ]
+    }
+  }
+]

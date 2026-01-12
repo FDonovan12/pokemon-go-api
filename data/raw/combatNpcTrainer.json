@@ -1,0 +1,251 @@
+[
+  {
+    "templateId": "TRAINER_BLANCHE_GREAT",
+    "data": {
+      "trainerName": "combat_blanche",
+      "combatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
+      "combatPersonalityId": "TRAINER_PERSONALITY_EASY",
+      "avatar": {
+        "avatar": 2
+      },
+      "availablePokemon": [
+        {
+          "pokemonType": "SNEASEL",
+          "pokemonDisplay": {
+            "form": "SNEASEL_NORMAL"
+          }
+        },
+        {
+          "pokemonType": "SEALEO"
+        },
+        {
+          "pokemonType": "VAPOREON"
+        }
+      ],
+      "trainerTitle": "combat_blanche_title",
+      "trainerQuote": "combat_blanche_quote",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "backdropImageBundle": "combat_blanche_backdrop"
+    }
+  },
+  {
+    "templateId": "TRAINER_BLANCHE_MASTER",
+    "data": {
+      "trainerName": "combat_blanche",
+      "combatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_MASTER",
+      "combatPersonalityId": "TRAINER_PERSONALITY_HARD",
+      "avatar": {
+        "avatar": 2
+      },
+      "availablePokemon": [
+        {
+          "pokemonType": "SUICUNE"
+        },
+        {
+          "pokemonType": "METAGROSS"
+        },
+        {
+          "pokemonType": "ARTICUNO",
+          "pokemonDisplay": {
+            "form": "ARTICUNO_NORMAL"
+          }
+        }
+      ],
+      "trainerTitle": "combat_blanche_title",
+      "trainerQuote": "combat_blanche_quote",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "backdropImageBundle": "combat_blanche_backdrop"
+    }
+  },
+  {
+    "templateId": "TRAINER_BLANCHE_ULTRA",
+    "data": {
+      "trainerName": "combat_blanche",
+      "combatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_ULTRA",
+      "combatPersonalityId": "TRAINER_PERSONALITY_MEDIUM",
+      "avatar": {
+        "avatar": 2
+      },
+      "availablePokemon": [
+        {
+          "pokemonType": "GLACEON"
+        },
+        {
+          "pokemonType": "EMPOLEON"
+        },
+        {
+          "pokemonType": "MAMOSWINE"
+        }
+      ],
+      "trainerTitle": "combat_blanche_title",
+      "trainerQuote": "combat_blanche_quote",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "backdropImageBundle": "combat_blanche_backdrop"
+    }
+  },
+  {
+    "templateId": "TRAINER_CANDELA_GREAT",
+    "data": {
+      "trainerName": "combat_candela",
+      "combatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
+      "combatPersonalityId": "TRAINER_PERSONALITY_EASY",
+      "avatar": {
+        "avatar": 2
+      },
+      "availablePokemon": [
+        {
+          "pokemonType": "COMBUSKEN"
+        },
+        {
+          "pokemonType": "MAGCARGO"
+        },
+        {
+          "pokemonType": "FLAREON"
+        }
+      ],
+      "trainerTitle": "combat_candela_title",
+      "trainerQuote": "combat_candela_quote",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Candela.png",
+      "backdropImageBundle": "combat_candela_backdrop"
+    }
+  },
+  {
+    "templateId": "TRAINER_CANDELA_MASTER",
+    "data": {
+      "trainerName": "combat_candela",
+      "combatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_MASTER",
+      "combatPersonalityId": "TRAINER_PERSONALITY_HARD",
+      "avatar": {
+        "avatar": 2
+      },
+      "availablePokemon": [
+        {
+          "pokemonType": "ENTEI"
+        },
+        {
+          "pokemonType": "SALAMENCE"
+        },
+        {
+          "pokemonType": "MOLTRES"
+        }
+      ],
+      "trainerTitle": "combat_candela_title",
+      "trainerQuote": "combat_candela_quote",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Candela.png",
+      "backdropImageBundle": "combat_candela_backdrop"
+    }
+  },
+  {
+    "templateId": "TRAINER_CANDELA_ULTRA",
+    "data": {
+      "trainerName": "combat_candela",
+      "combatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_ULTRA",
+      "combatPersonalityId": "TRAINER_PERSONALITY_MEDIUM",
+      "avatar": {
+        "avatar": 2
+      },
+      "availablePokemon": [
+        {
+          "pokemonType": "FLAREON"
+        },
+        {
+          "pokemonType": "TYPHLOSION"
+        },
+        {
+          "pokemonType": "MAGMORTAR",
+          "pokemonDisplay": {
+            "form": "MAGMORTAR_NORMAL"
+          }
+        }
+      ],
+      "trainerTitle": "combat_candela_title",
+      "trainerQuote": "combat_candela_quote",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Candela.png",
+      "backdropImageBundle": "combat_candela_backdrop"
+    }
+  },
+  {
+    "templateId": "TRAINER_SPARK_GREAT",
+    "data": {
+      "trainerName": "combat_spark",
+      "combatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
+      "combatPersonalityId": "TRAINER_PERSONALITY_EASY",
+      "avatar": {
+        "avatar": 2
+      },
+      "availablePokemon": [
+        {
+          "pokemonType": "PLUSLE"
+        },
+        {
+          "pokemonType": "ELECTRODE"
+        },
+        {
+          "pokemonType": "JOLTEON"
+        }
+      ],
+      "trainerTitle": "combat_spark_title",
+      "trainerQuote": "combat_spark_quote",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Spark.png",
+      "backdropImageBundle": "combat_spark_backdrop"
+    }
+  },
+  {
+    "templateId": "TRAINER_SPARK_MASTER",
+    "data": {
+      "trainerName": "combat_spark",
+      "combatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_MASTER",
+      "combatPersonalityId": "TRAINER_PERSONALITY_HARD",
+      "avatar": {
+        "avatar": 2
+      },
+      "availablePokemon": [
+        {
+          "pokemonType": "RAIKOU"
+        },
+        {
+          "pokemonType": "TYRANITAR",
+          "pokemonDisplay": {
+            "form": "TYRANITAR_NORMAL"
+          }
+        },
+        {
+          "pokemonType": "ZAPDOS"
+        }
+      ],
+      "trainerTitle": "combat_spark_title",
+      "trainerQuote": "combat_spark_quote",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Spark.png",
+      "backdropImageBundle": "combat_spark_backdrop"
+    }
+  },
+  {
+    "templateId": "TRAINER_SPARK_ULTRA",
+    "data": {
+      "trainerName": "combat_spark",
+      "combatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_ULTRA",
+      "combatPersonalityId": "TRAINER_PERSONALITY_MEDIUM",
+      "avatar": {
+        "avatar": 2
+      },
+      "availablePokemon": [
+        {
+          "pokemonType": "JOLTEON"
+        },
+        {
+          "pokemonType": "LUXRAY"
+        },
+        {
+          "pokemonType": "MAGNEZONE",
+          "pokemonDisplay": {
+            "form": "MAGNEZONE_NORMAL"
+          }
+        }
+      ],
+      "trainerTitle": "combat_spark_title",
+      "trainerQuote": "combat_spark_quote",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Spark.png",
+      "backdropImageBundle": "combat_spark_backdrop"
+    }
+  }
+]
