@@ -1,8 +1,0 @@
-[
-  {
-    "templateId": "ASSET_REFRESH_PROTO",
-    "data": {
-      "stringRefreshSeconds": 3600
-    }
-  }
-]

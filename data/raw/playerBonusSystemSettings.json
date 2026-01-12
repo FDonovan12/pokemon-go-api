@@ -1,9 +1,0 @@
-[
-  {
-    "templateId": "PLAYER_BONUS_SYSTEM_SETTINGS",
-    "data": {
-      "maxBonusDurationMs": "86400000",
-      "dayNightEvoEnabled": true
-    }
-  }
-]

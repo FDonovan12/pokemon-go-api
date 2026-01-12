@@ -1,9 +1,0 @@
-[
-  {
-    "templateId": "BREAD_LOBBY_UPDATE_SETTINGS",
-    "data": {
-      "joinPublishCutoffTimeMs": "15000",
-      "serverPublishRateLimitIntervalMs": "1000"
-    }
-  }
-]

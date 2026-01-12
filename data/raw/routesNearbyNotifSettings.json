@@ -1,9 +1,0 @@
-[
-  {
-    "templateId": "ROUTES_NEARBY_NOTIF_SETTINGS",
-    "data": {
-      "maxNotifs": 5,
-      "timeBetweenNotifsMs": "604800000"
-    }
-  }
-]

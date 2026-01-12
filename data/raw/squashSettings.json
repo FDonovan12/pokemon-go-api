@@ -1,9 +1,0 @@
-[
-  {
-    "templateId": "REMOTE_RAID_LIMIT_SETTINGS",
-    "data": {
-      "enabled": true,
-      "dailySquashLimit": 10
-    }
-  }
-]
