@@ -25,35 +25,40 @@ jobs:
             - name: Install dependencies
               run: npm install
 
-            - name: Run Update Script
-              run: npm run update # Ce script génère tes dossiers data/raw et data/api
-
-            - name: Deploy to api-dist branch
+            - name: Configure git
               run: |
                   git config user.name "pogo-bot"
                   git config user.email "bot@users.noreply.github.com"
 
-                  # On se concentre uniquement sur les dossiers de sortie (ex: data/)
+            - name: Run Update Script
+              run: npm run update # Ce script génère tes dossiers data/raw et data/api
+
+            - name: Commit meta timestamp (main)
+              run: |
+                  if [[ -n $(git status --porcelain meta/) ]]; then
+                    git add meta/
+                    git commit -m "chore(meta): update last Game Master timestamp"
+                    git push origin main
+                  else
+                    echo "No meta change"
+                  fi
+
+            - name: Deploy to api-dist branch
+              run: |
                   if [[ -n $(git status --porcelain data/) ]]; then
-                    
+
                     mkdir -p /tmp/generated_data
                     cp -r data/* /tmp/generated_data/
 
                     git fetch origin api-dist || true
-                    if git show-ref --verify --quiet refs/remotes/origin/api-dist; then
-                      git checkout api-dist
-                    else
-                      git checkout --orphan api-dist
-                    fi
+                    git checkout api-dist || git checkout --orphan api-dist
 
-                    git rm -rf .
+                    git rm -rf . > /dev/null
                     cp -r /tmp/generated_data/* .
-                    
+
                     git add .
-                    git commit -m "Update Game Master Data & Types - $(date +'%Y-%m-%d %H:%M')"
+                    git commit -m "Update Game Master Data - $(date +'%Y-%m-%d %H:%M')"
                     git push origin api-dist
-                    
-                    echo "Data pushed to api-dist branch."
                   else
-                    echo "No changes detected in data. Skipping deployment."
+                    echo "No data change"
                   fi
