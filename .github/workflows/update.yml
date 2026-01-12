@@ -43,14 +43,14 @@ jobs:
                     echo "No meta change"
                   fi
 
-            - name: Deploy to api-dist branch
+            - name: Deploy data to api-dist
               run: |
                   if [[ -n $(git status --porcelain data/) ]]; then
 
                     echo "📦 Backup generated data"
                     rm -rf /tmp/generated_data
                     mkdir -p /tmp/generated_data
-                    cp -r data/* /tmp/generated_data/
+                    cp -r data /tmp/generated_data/
 
                     echo "🧹 Clean workspace before branch switch"
                     git reset --hard
@@ -67,9 +67,10 @@ jobs:
                     git rm -rf . > /dev/null || true
 
                     echo "🚚 Restore generated data"
-                    cp -r /tmp/generated_data/* .
+                    cp -r /tmp/generated_data/data .
 
-                    git add .
+                    echo "📌 Commit only allowed content"
+                    git add data/
                     git commit -m "Update Game Master Data - $(date +'%Y-%m-%d %H:%M')"
                     git push origin api-dist
                   else
