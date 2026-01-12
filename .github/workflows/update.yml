@@ -45,23 +45,47 @@ jobs:
 
             - name: Deploy data to api-dist
               run: |
+                  # 1. Vérifier s'il y a des changements dans le dossier data/
                   if [[ -n $(git status --porcelain data/) ]]; then
+                    echo "Changes detected in data/, syncing to api-dist..."
 
-                    mkdir -p /tmp/generated_data
-                    cp -r data/* /tmp/generated_data/
+                    # 2. Sauvegarder le contenu de data/ dans un dossier temporaire
+                    mkdir -p /tmp/api_content
+                    cp -r data/* /tmp/api_content/
 
-                    git reset --hard
-                    git clean -fd
-
+                    # 3. Préparer la branche api-dist
+                    # On récupère l'historique pour pouvoir switcher proprement
                     git fetch origin api-dist || true
+                    
                     if git show-ref --verify --quiet refs/remotes/origin/api-dist; then
                       git checkout api-dist
+                      # On nettoie TOUT le contenu actuel de la branche pour repartir de zéro
+                      # (Sauf le dossier .git)
+                      find . -maxdepth 1 ! -name '.git' ! -name '.' -exec rm -rf {} +
                     else
                       git checkout --orphan api-dist
+                      git rm -rf .
                     fi
 
-                    rsync -av --delete /tmp/generated_data/ .
+                    # 4. Copier les nouveaux fichiers depuis le cache
+                    cp -r /tmp/api_content/* .
 
-                    git add *.json
-                    git commit -m "Update Game Master Data - $(date +'%Y-%m-%d %H:%M')"
-                    git push origin api-dist
+                    # 5. Configurer un .gitignore minimal pour api-dist (optionnel)
+                    # Cela évite de repousser des dossiers système si besoin
+                    echo "node_modules/" > .gitignore
+                    echo ".github/" >> .gitignore
+
+                    # 6. Commit et Push
+                    # git add -A permet de prendre en compte les ajouts, modifications ET suppressions
+                    git add -A
+                    
+                    # On vérifie s'il y a vraiment un changement après le nettoyage (au cas où)
+                    if git diff --staged --quiet; then
+                      echo "No actual changes to commit"
+                    else
+                      git commit -m "Update Game Master Data - $(date +'%Y-%m-%d %H:%M')"
+                      git push origin api-dist
+                    fi
+                  else
+                    echo "No changes in data/"
+                  fi

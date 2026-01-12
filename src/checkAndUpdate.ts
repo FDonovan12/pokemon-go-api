@@ -39,19 +39,19 @@ async function main() {
         fs.writeFileSync(path.join(finalDir, fileName), JSON.stringify(parsedData[key], null, 2));
     });
 
-    if (!isDev) {
-        fs.writeFileSync(
-            LAST_TIMESTAMP_FILE,
-            JSON.stringify(
-                {
-                    timestamp: remoteTimestamp,
-                    updated_at: new Date().toISOString(),
-                },
-                null,
-                2
-            )
-        );
-    }
+    // if (!isDev) { temporary comment
+    //     fs.writeFileSync(
+    //         LAST_TIMESTAMP_FILE,
+    //         JSON.stringify(
+    //             {
+    //                 timestamp: remoteTimestamp,
+    //                 updated_at: new Date().toISOString(),
+    //             },
+    //             null,
+    //             2
+    //         )
+    //     );
+    // }
 
     console.log('✅ Données mises à jour');
 }
