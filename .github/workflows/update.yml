@@ -45,21 +45,25 @@ jobs:
 
             - name: Deploy data to api-dist
               run: |
-                  # 1. Vérifier s'il y a des changements dans le dossier data/
+                  # 1. Vérifier s'il y a des changements
                   if [[ -n $(git status --porcelain data/) ]]; then
-                    echo "Changes detected in data/, syncing to api-dist..."
+                    echo "Changes detected, starting sync..."
 
-                    # 2. Sauvegarder le contenu de data/ dans un dossier temporaire
+                    # 2. Sauvegarde temporaire du CONTENU de data
                     mkdir -p /tmp/api_content
                     cp -r data/* /tmp/api_content/
 
-                    # 3. Préparer la branche api-dist
-                    # On récupère l'historique pour pouvoir switcher proprement
+                    # 3. NETTOYAGE CRUCIAL
+                    # On annule les changements locaux pour permettre le switch de branche
+                    git reset --hard HEAD
+                    git clean -fd
+
+                    # 4. Préparer la branche api-dist
                     git fetch origin api-dist || true
                     
                     if git show-ref --verify --quiet refs/remotes/origin/api-dist; then
                       git checkout api-dist
-                      # On nettoie TOUT le contenu actuel de la branche pour repartir de zéro
+                      # On vide la branche api-dist pour refléter exactement le nouveau contenu
                       # (Sauf le dossier .git)
                       find . -maxdepth 1 ! -name '.git' ! -name '.' -exec rm -rf {} +
                     else
@@ -67,19 +71,13 @@ jobs:
                       git rm -rf .
                     fi
 
-                    # 4. Copier les nouveaux fichiers depuis le cache
+                    # 5. Restaurer les données (le contenu de data/ à la racine)
                     cp -r /tmp/api_content/* .
 
-                    # 5. Configurer un .gitignore minimal pour api-dist (optionnel)
-                    # Cela évite de repousser des dossiers système si besoin
-                    echo "node_modules/" > .gitignore
-                    echo ".github/" >> .gitignore
-
                     # 6. Commit et Push
-                    # git add -A permet de prendre en compte les ajouts, modifications ET suppressions
+                    # git add -A est indispensable pour supprimer les fichiers disparus
                     git add -A
                     
-                    # On vérifie s'il y a vraiment un changement après le nettoyage (au cas où)
                     if git diff --staged --quiet; then
                       echo "No actual changes to commit"
                     else
@@ -87,5 +85,5 @@ jobs:
                       git push origin api-dist
                     fi
                   else
-                    echo "No changes in data/"
+                    echo "No changes in data folder."
                   fi
