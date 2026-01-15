@@ -1671,13 +1671,6 @@
       "THUNDERBOLT",
       "WILD_CHARGE"
     ],
-    "eliteQuickMove": [
-      "PRESENT_FAST"
-    ],
-    "eliteCinematicMove": [
-      "SURF",
-      "THUNDER"
-    ],
     "familyId": "FAMILY_PIKACHU",
     "encounter": {
       "stardustCaptureReward": 100
@@ -1700,13 +1693,6 @@
       "DISCHARGE",
       "THUNDERBOLT",
       "WILD_CHARGE"
-    ],
-    "eliteQuickMove": [
-      "PRESENT_FAST"
-    ],
-    "eliteCinematicMove": [
-      "SURF",
-      "THUNDER"
     ],
     "familyId": "FAMILY_PIKACHU",
     "encounter": {
@@ -1731,13 +1717,6 @@
       "THUNDERBOLT",
       "WILD_CHARGE"
     ],
-    "eliteQuickMove": [
-      "PRESENT_FAST"
-    ],
-    "eliteCinematicMove": [
-      "SURF",
-      "THUNDER"
-    ],
     "familyId": "FAMILY_PIKACHU",
     "encounter": {
       "stardustCaptureReward": 100
@@ -1760,13 +1739,6 @@
       "DISCHARGE",
       "THUNDERBOLT",
       "WILD_CHARGE"
-    ],
-    "eliteQuickMove": [
-      "PRESENT_FAST"
-    ],
-    "eliteCinematicMove": [
-      "SURF",
-      "THUNDER"
     ],
     "familyId": "FAMILY_PIKACHU",
     "encounter": {
@@ -1791,13 +1763,6 @@
       "THUNDERBOLT",
       "WILD_CHARGE"
     ],
-    "eliteQuickMove": [
-      "PRESENT_FAST"
-    ],
-    "eliteCinematicMove": [
-      "SURF",
-      "THUNDER"
-    ],
     "familyId": "FAMILY_PIKACHU",
     "encounter": {
       "stardustCaptureReward": 100
@@ -1820,13 +1785,6 @@
       "DISCHARGE",
       "THUNDERBOLT",
       "WILD_CHARGE"
-    ],
-    "eliteQuickMove": [
-      "PRESENT_FAST"
-    ],
-    "eliteCinematicMove": [
-      "SURF",
-      "THUNDER"
     ],
     "familyId": "FAMILY_PIKACHU",
     "encounter": {
@@ -20488,7 +20446,7 @@
     ],
     "familyId": "FAMILY_YAMASK",
     "encounter": {
-      "stardustCaptureReward": 100
+      "stardustCaptureReward": 300
     }
   },
   {
@@ -33264,7 +33222,7 @@
     ],
     "familyId": "FAMILY_TEDDIURSA",
     "encounter": {
-      "stardustCaptureReward": 300
+      "stardustCaptureReward": 500
     }
   },
   {
@@ -35086,7 +35044,8 @@
     "cinematicMoves": [
       "DAZZLING_GLEAM",
       "POWER_GEM",
-      "SLUDGE_WAVE"
+      "SLUDGE_WAVE",
+      "METEOR_BEAM"
     ],
     "familyId": "FAMILY_GLIMMET",
     "encounter": {

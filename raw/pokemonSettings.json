@@ -9288,13 +9288,6 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 1,
-      "eliteQuickMove": [
-        "PRESENT_FAST"
-      ],
-      "eliteCinematicMove": [
-        "SURF",
-        "THUNDER"
-      ],
       "disableTransferToPokemonHome": true,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -9383,13 +9376,6 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 1,
-      "eliteQuickMove": [
-        "PRESENT_FAST"
-      ],
-      "eliteCinematicMove": [
-        "SURF",
-        "THUNDER"
-      ],
       "disableTransferToPokemonHome": true,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -9478,13 +9464,6 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 1,
-      "eliteQuickMove": [
-        "PRESENT_FAST"
-      ],
-      "eliteCinematicMove": [
-        "SURF",
-        "THUNDER"
-      ],
       "disableTransferToPokemonHome": true,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -9573,13 +9552,6 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 1,
-      "eliteQuickMove": [
-        "PRESENT_FAST"
-      ],
-      "eliteCinematicMove": [
-        "SURF",
-        "THUNDER"
-      ],
       "disableTransferToPokemonHome": true,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -9668,13 +9640,6 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 1,
-      "eliteQuickMove": [
-        "PRESENT_FAST"
-      ],
-      "eliteCinematicMove": [
-        "SURF",
-        "THUNDER"
-      ],
       "disableTransferToPokemonHome": true,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -9763,13 +9728,6 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 1,
-      "eliteQuickMove": [
-        "PRESENT_FAST"
-      ],
-      "eliteCinematicMove": [
-        "SURF",
-        "THUNDER"
-      ],
       "disableTransferToPokemonHome": true,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -138467,6 +138425,7 @@
         "movementTimerS": 10,
         "jumpTimeS": 1,
         "attackTimerS": 29,
+        "bonusStardustCaptureReward": 200,
         "attackProbability": 0.2,
         "dodgeProbability": 0.15,
         "dodgeDurationS": 2,
@@ -138474,6 +138433,7 @@
         "cameraDistance": 7,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6,
+        "bonusXlCandyCaptureReward": 1,
         "shadowBaseCaptureRate": 0.1,
         "shadowAttackProbability": 0.2,
         "shadowDodgeProbability": 0.15
@@ -138565,6 +138525,7 @@
         "movementTimerS": 10,
         "jumpTimeS": 1,
         "attackTimerS": 29,
+        "bonusStardustCaptureReward": 200,
         "attackProbability": 0.2,
         "dodgeProbability": 0.15,
         "dodgeDurationS": 2,
@@ -138572,6 +138533,7 @@
         "cameraDistance": 7,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6,
+        "bonusXlCandyCaptureReward": 1,
         "shadowBaseCaptureRate": 0.1,
         "shadowAttackProbability": 0.2,
         "shadowDodgeProbability": 0.15
@@ -168524,11 +168486,9 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
-      "raidBossDistanceOffset": 3,
       "formChange": [
         {
           "availableForm": [
-            "FURFROU_DIAMOND",
             "FURFROU_MATRON",
             "FURFROU_DANDY"
           ],
@@ -168536,7 +168496,8 @@
           "stardustCost": 10000
         }
       ],
-      "ibfc": {}
+      "ibfc": {},
+      "breadTierGroup": "GROUP_3"
     }
   },
   {
@@ -168609,14 +168570,14 @@
         {
           "availableForm": [
             "FURFROU_NATURAL",
-            "FURFROU_DIAMOND",
             "FURFROU_MATRON"
           ],
           "candyCost": 25,
           "stardustCost": 10000
         }
       ],
-      "ibfc": {}
+      "ibfc": {},
+      "breadTierGroup": "GROUP_3"
     }
   },
   {
@@ -168689,7 +168650,6 @@
         {
           "availableForm": [
             "FURFROU_NATURAL",
-            "FURFROU_DIAMOND",
             "FURFROU_MATRON",
             "FURFROU_DANDY"
           ],
@@ -168697,7 +168657,8 @@
           "stardustCost": 10000
         }
       ],
-      "ibfc": {}
+      "ibfc": {},
+      "breadTierGroup": "GROUP_3"
     }
   },
   {
@@ -168777,7 +168738,8 @@
           "stardustCost": 10000
         }
       ],
-      "ibfc": {}
+      "ibfc": {},
+      "breadTierGroup": "GROUP_3"
     }
   },
   {
@@ -168850,7 +168812,6 @@
         {
           "availableForm": [
             "FURFROU_NATURAL",
-            "FURFROU_DIAMOND",
             "FURFROU_MATRON",
             "FURFROU_DANDY"
           ],
@@ -168858,7 +168819,8 @@
           "stardustCost": 10000
         }
       ],
-      "ibfc": {}
+      "ibfc": {},
+      "breadTierGroup": "GROUP_3"
     }
   },
   {
@@ -168931,7 +168893,6 @@
         {
           "availableForm": [
             "FURFROU_NATURAL",
-            "FURFROU_DIAMOND",
             "FURFROU_MATRON",
             "FURFROU_DANDY"
           ],
@@ -168939,7 +168900,8 @@
           "stardustCost": 10000
         }
       ],
-      "ibfc": {}
+      "ibfc": {},
+      "breadTierGroup": "GROUP_3"
     }
   },
   {
@@ -169012,7 +168974,6 @@
         {
           "availableForm": [
             "FURFROU_NATURAL",
-            "FURFROU_DIAMOND",
             "FURFROU_MATRON",
             "FURFROU_DANDY"
           ],
@@ -169020,7 +168981,8 @@
           "stardustCost": 10000
         }
       ],
-      "ibfc": {}
+      "ibfc": {},
+      "breadTierGroup": "GROUP_3"
     }
   },
   {
@@ -169093,14 +169055,14 @@
         {
           "availableForm": [
             "FURFROU_NATURAL",
-            "FURFROU_DIAMOND",
             "FURFROU_DANDY"
           ],
           "candyCost": 25,
           "stardustCost": 10000
         }
       ],
-      "ibfc": {}
+      "ibfc": {},
+      "breadTierGroup": "GROUP_3"
     }
   },
   {
@@ -169172,7 +169134,6 @@
       "formChange": [
         {
           "availableForm": [
-            "FURFROU_DIAMOND",
             "FURFROU_MATRON",
             "FURFROU_DANDY"
           ],
@@ -169180,7 +169141,8 @@
           "stardustCost": 10000
         }
       ],
-      "ibfc": {}
+      "ibfc": {},
+      "breadTierGroup": "GROUP_3"
     }
   },
   {
@@ -169253,7 +169215,6 @@
         {
           "availableForm": [
             "FURFROU_NATURAL",
-            "FURFROU_DIAMOND",
             "FURFROU_MATRON",
             "FURFROU_DANDY"
           ],
@@ -169261,7 +169222,8 @@
           "stardustCost": 10000
         }
       ],
-      "ibfc": {}
+      "ibfc": {},
+      "breadTierGroup": "GROUP_3"
     }
   },
   {
@@ -169334,7 +169296,6 @@
         {
           "availableForm": [
             "FURFROU_NATURAL",
-            "FURFROU_DIAMOND",
             "FURFROU_MATRON",
             "FURFROU_DANDY"
           ],
@@ -169342,7 +169303,8 @@
           "stardustCost": 10000
         }
       ],
-      "ibfc": {}
+      "ibfc": {},
+      "breadTierGroup": "GROUP_3"
     }
   },
   {
@@ -211509,7 +211471,7 @@
         "jumpTimeS": 1,
         "attackTimerS": 20,
         "bonusCandyCaptureReward": 7,
-        "bonusStardustCaptureReward": 200,
+        "bonusStardustCaptureReward": 400,
         "attackProbability": 0.1,
         "dodgeProbability": 0.15,
         "dodgeDurationS": 1,
@@ -211517,7 +211479,7 @@
         "cameraDistance": 5.15,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6,
-        "bonusXlCandyCaptureReward": 1,
+        "bonusXlCandyCaptureReward": 2,
         "shadowBaseCaptureRate": 0.5,
         "shadowAttackProbability": 0.7,
         "shadowDodgeProbability": 0.2
@@ -211627,7 +211589,7 @@
         "jumpTimeS": 1,
         "attackTimerS": 20,
         "bonusCandyCaptureReward": 7,
-        "bonusStardustCaptureReward": 200,
+        "bonusStardustCaptureReward": 400,
         "attackProbability": 0.1,
         "dodgeProbability": 0.15,
         "dodgeDurationS": 1,
@@ -211635,7 +211597,7 @@
         "cameraDistance": 5.15,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6,
-        "bonusXlCandyCaptureReward": 1,
+        "bonusXlCandyCaptureReward": 2,
         "shadowBaseCaptureRate": 0.5,
         "shadowAttackProbability": 0.7,
         "shadowDodgeProbability": 0.2
@@ -217470,14 +217432,22 @@
       "pokemonId": "WATTREL",
       "type": "POKEMON_TYPE_ELECTRIC",
       "type2": "POKEMON_TYPE_FLYING",
-      "camera": {},
+      "camera": {
+        "cylinderRadiusM": 0.5,
+        "cylinderHeightM": 0.7,
+        "cylinderGroundM": 0.25
+      },
       "encounter": {
+        "collisionRadiusM": 0.3,
+        "collisionHeightM": 0.3,
+        "collisionHeadRadiusM": 0.1,
         "movementType": "MOVEMENT_FLYING",
         "jumpTimeS": 1,
         "attackProbability": 0.1,
         "dodgeProbability": 0.15,
         "dodgeDurationS": 1,
-        "minPokemonActionFrequencyS": 0.2,
+        "cameraDistance": 3,
+        "minPokemonActionFrequencyS": 1,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -217500,11 +217470,29 @@
       "weightStdDev": 0.45,
       "familyId": "FAMILY_WATTREL",
       "kmBuddyDistance": 1,
+      "buddySize": "BUDDY_FLYING",
+      "modelHeight": 0.4,
       "evolutionBranch": [
         {
           "evolution": "KILOWATTREL",
           "candyCost": 50
         }
+      ],
+      "modelScaleV2": 1.1,
+      "buddyOffsetMale": [
+        0,
+        0,
+        0
+      ],
+      "buddyOffsetFemale": [
+        0,
+        0,
+        0
+      ],
+      "buddyPortraitOffset": [
+        0,
+        0,
+        0
       ],
       "thirdMove": {
         "stardustToUnlock": 10000,
@@ -217512,7 +217500,37 @@
       },
       "isTransferable": true,
       "isDeployable": true,
+      "combatShoulderCameraAngle": [
+        0,
+        0,
+        0
+      ],
       "isTradable": true,
+      "combatDefaultCameraAngle": [
+        0,
+        0,
+        0
+      ],
+      "combatOpponentFocusCameraAngle": [
+        0,
+        0,
+        0
+      ],
+      "combatPlayerFocusCameraAngle": [
+        0,
+        0,
+        0
+      ],
+      "combatPlayerPokemonPositionOffset": [
+        0,
+        0,
+        0
+      ],
+      "buddyPortraitRotation": [
+        0,
+        0,
+        0
+      ],
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
     }
@@ -217523,14 +217541,22 @@
       "pokemonId": "WATTREL",
       "type": "POKEMON_TYPE_ELECTRIC",
       "type2": "POKEMON_TYPE_FLYING",
-      "camera": {},
+      "camera": {
+        "cylinderRadiusM": 0.5,
+        "cylinderHeightM": 0.7,
+        "cylinderGroundM": 0.25
+      },
       "encounter": {
+        "collisionRadiusM": 0.3,
+        "collisionHeightM": 0.3,
+        "collisionHeadRadiusM": 0.1,
         "movementType": "MOVEMENT_FLYING",
         "jumpTimeS": 1,
         "attackProbability": 0.1,
         "dodgeProbability": 0.15,
         "dodgeDurationS": 1,
-        "minPokemonActionFrequencyS": 0.2,
+        "cameraDistance": 3,
+        "minPokemonActionFrequencyS": 1,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -217553,6 +217579,8 @@
       "weightStdDev": 0.45,
       "familyId": "FAMILY_WATTREL",
       "kmBuddyDistance": 1,
+      "buddySize": "BUDDY_FLYING",
+      "modelHeight": 0.4,
       "evolutionBranch": [
         {
           "evolution": "KILOWATTREL",
@@ -217560,14 +217588,60 @@
           "form": "KILOWATTREL_NORMAL"
         }
       ],
+      "modelScaleV2": 1.1,
       "form": "WATTREL_NORMAL",
+      "buddyOffsetMale": [
+        0,
+        0,
+        0
+      ],
+      "buddyOffsetFemale": [
+        0,
+        0,
+        0
+      ],
+      "buddyPortraitOffset": [
+        0,
+        0,
+        0
+      ],
       "thirdMove": {
         "stardustToUnlock": 10000,
         "candyToUnlock": 25
       },
       "isTransferable": true,
       "isDeployable": true,
+      "combatShoulderCameraAngle": [
+        0,
+        0,
+        0
+      ],
       "isTradable": true,
+      "combatDefaultCameraAngle": [
+        0,
+        0,
+        0
+      ],
+      "combatOpponentFocusCameraAngle": [
+        0,
+        0,
+        0
+      ],
+      "combatPlayerFocusCameraAngle": [
+        0,
+        0,
+        0
+      ],
+      "combatPlayerPokemonPositionOffset": [
+        0,
+        0,
+        0
+      ],
+      "buddyPortraitRotation": [
+        0,
+        0,
+        0
+      ],
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
     }
@@ -217584,9 +217658,9 @@
         "cylinderGroundM": 1.4
       },
       "encounter": {
-        "collisionRadiusM": 0.8,
+        "collisionRadiusM": 1.6,
         "collisionHeightM": 1,
-        "collisionHeadRadiusM": 0.2,
+        "collisionHeadRadiusM": 0.4,
         "movementType": "MOVEMENT_FLYING",
         "jumpTimeS": 1,
         "bonusCandyCaptureReward": 2,
@@ -217692,9 +217766,9 @@
         "cylinderGroundM": 1.4
       },
       "encounter": {
-        "collisionRadiusM": 0.8,
+        "collisionRadiusM": 1.6,
         "collisionHeightM": 1,
-        "collisionHeadRadiusM": 0.2,
+        "collisionHeadRadiusM": 0.4,
         "movementType": "MOVEMENT_FLYING",
         "jumpTimeS": 1,
         "bonusCandyCaptureReward": 2,
@@ -221232,7 +221306,7 @@
       "type2": "POKEMON_TYPE_POISON",
       "camera": {
         "cylinderRadiusM": 1,
-        "cylinderHeightM": 1.5,
+        "cylinderHeightM": 3.2,
         "cylinderGroundM": 0.6
       },
       "encounter": {
@@ -221263,7 +221337,8 @@
       "cinematicMoves": [
         "DAZZLING_GLEAM",
         "POWER_GEM",
-        "SLUDGE_WAVE"
+        "SLUDGE_WAVE",
+        "METEOR_BEAM"
       ],
       "pokedexHeightM": 1.5,
       "pokedexWeightKg": 45,
@@ -221274,7 +221349,7 @@
       "kmBuddyDistance": 3,
       "buddySize": "BUDDY_FLYING",
       "modelHeight": 1.5,
-      "modelScaleV2": 1.5,
+      "modelScaleV2": 1.2,
       "buddyScale": 14,
       "buddyPortraitOffset": [
         0,
@@ -221301,7 +221376,7 @@
       "type2": "POKEMON_TYPE_POISON",
       "camera": {
         "cylinderRadiusM": 1,
-        "cylinderHeightM": 1.5,
+        "cylinderHeightM": 3.2,
         "cylinderGroundM": 0.6
       },
       "encounter": {
@@ -221332,7 +221407,8 @@
       "cinematicMoves": [
         "DAZZLING_GLEAM",
         "POWER_GEM",
-        "SLUDGE_WAVE"
+        "SLUDGE_WAVE",
+        "METEOR_BEAM"
       ],
       "pokedexHeightM": 1.5,
       "pokedexWeightKg": 45,
@@ -221343,7 +221419,7 @@
       "kmBuddyDistance": 3,
       "buddySize": "BUDDY_FLYING",
       "modelHeight": 1.5,
-      "modelScaleV2": 1.5,
+      "modelScaleV2": 1.2,
       "form": "GLIMMORA_NORMAL",
       "buddyScale": 14,
       "buddyPortraitOffset": [

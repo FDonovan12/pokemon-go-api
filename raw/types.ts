@@ -38,6 +38,16 @@ export interface AddressBookImportSettingData {
     repromptOnboardingForV1: boolean;
 }
 
+export interface FeatureGate {
+    templateId: string;
+    data:       FeatureGateData;
+}
+
+export interface FeatureGateData {
+    status:            number;
+    rolloutPercentage: number;
+}
+
 export interface AdvancedSettings {
     templateId: string;
     data:       AdvancedSettingData;
@@ -135,8 +145,24 @@ export interface ArPhotoFeatureFlags {
 }
 
 export interface ArPhotoFeatureFlagData {
-    excludedPokemonIds:       string[];
-    pokemonWithExcludedForms: PokemonWithExcludedForm[];
+    excludedPokemonIds:        string[];
+    pokemonWithExcludedForms:  PokemonWithExcludedForm[];
+    mainMenuEntryEnabled:      number;
+    shareFunctionalityEnabled: number;
+    preLoginRollOutRatio:      number;
+    preLoginDeviceAllowList:   string[];
+    lapsedDaysCutoff:          number;
+    newDaysCutoff:             number;
+    rollOutCountryCodes:       string[];
+    errorReportingSettings:    ErrorReportingSettings;
+}
+
+export interface ErrorReportingSettings {
+    isEnabled:                    boolean;
+    percentChancePlayerSends:     number;
+    maxEventsPerSlidingWindow:    number;
+    slidingWindowLengthS:         number;
+    maxTotalEventsBeforeShutdown: string;
 }
 
 export interface PokemonWithExcludedForm {
@@ -307,15 +333,13 @@ export interface BadgeSettings {
 }
 
 export interface BadgeSettingData {
-    badgeType:           BadgeTypeElement;
+    badgeType:           string;
     badgeRank:           number;
     targets:             number[];
     eventBadge?:         boolean;
     eventBadgeSettings?: EventBadgeSettings;
     captureReward?:      CaptureReward[];
 }
-
-export type BadgeTypeElement = number | string;
 
 export interface CaptureReward {
     rewardTypes?: TypeElement[];
@@ -1039,7 +1063,7 @@ export interface CombatSettingData {
     shadowPokemonAttackBonusMultiplier:      number;
     shadowPokemonDefenseBonusMultiplier:     number;
     purifiedPokemonAttackMultiplierVsShadow: number;
-    combatExperiment:                        BadgeTypeElement[];
+    combatExperiment:                        CombatExperiment[];
     showQuickSwapButtonsDuringCountdown:     boolean;
     obCombatSettingsNotPushedBool2:          boolean;
     clockSyncSettings:                       ClockSyncSettings;
@@ -1051,6 +1075,8 @@ export interface ClockSyncSettings {
     syncAttemptCount: number;
     enabled:          boolean;
 }
+
+export type CombatExperiment = number | string;
 
 export interface CombatFeatureFlags {
     realDeviceTimeEnabled: boolean;
@@ -1209,8 +1235,8 @@ export interface DeepLinkingSettings {
 export interface DeepLinkingSettingData {
     minPlayerLevelForExternalLink:     number;
     minPlayerLevelForNotificationLink: number;
-    actionsThatIgnoreMinLevel:         BadgeTypeElement[];
-    actionsThatExecuteBeforeMapLoads:  BadgeTypeElement[];
+    actionsThatIgnoreMinLevel:         CombatExperiment[];
+    actionsThatExecuteBeforeMapLoads:  CombatExperiment[];
     iosActionButtonEnabled:            boolean;
 }
 
@@ -2087,7 +2113,7 @@ export interface IrisSocialUxFunnelSettingData {
 
 export interface EventStep {
     stepNumber: number;
-    event:      BadgeTypeElement;
+    event:      CombatExperiment;
 }
 
 export interface ItemExpirationSettings {
@@ -2166,7 +2192,7 @@ export interface LocationCardSettings {
 }
 
 export interface LocationCardSettingData {
-    locationCard: BadgeTypeElement;
+    locationCard: string;
     imageUrl:     string;
     cardType?:    CardType;
     vfxAddress?:  string;
@@ -2417,7 +2443,7 @@ export interface MpSettingData {
 
 export interface BattleMpCostPerTier {
     breadBattleCatchMpCost:       number;
-    battleLevel:                  BadgeTypeElement;
+    battleLevel:                  CombatExperiment;
     breadBattleRemoteCatchMpCost: number;
 }
 
@@ -2676,6 +2702,7 @@ export interface PartyPlayGeneralSettingData {
     sendInviteEnabled?:                  boolean;
     inviteExpirationMs?:                 number;
     notificationMilestones?:             number[];
+    matchmakingEnabled?:                 boolean;
     partyRewardGracePeriodMs?:           string;
     maxInvitesPerPlayer?:                number;
 }
@@ -2874,7 +2901,7 @@ export interface PokedexCategoriesSettingData {
 }
 
 export interface PokedexCategorySettingsInOrder {
-    pokedexCategory: BadgeTypeElement;
+    pokedexCategory: CombatExperiment;
     milestoneGoal:   number;
     visuallyHidden?: boolean;
 }
@@ -3029,17 +3056,6 @@ export interface TypeBoost {
     boostType: TemplateIdElement[];
 }
 
-export interface PtcOauthSettings {
-    templateId: string;
-    data:       PtcOauthSettingData;
-}
-
-export interface PtcOauthSettingData {
-    ptcAccountLinkingEnabled: boolean;
-    endTimeMs:                string;
-    linkingRewardItem:        string;
-}
-
 export interface QuestSettings {
     templateId: string;
     data:       QuestSettingData;
@@ -3165,7 +3181,7 @@ export interface ReferralSettingData {
 }
 
 export interface RecentFeature {
-    iconType:    BadgeTypeElement;
+    iconType:    CombatExperiment;
     featureName: string;
     description: string;
 }

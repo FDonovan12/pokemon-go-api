@@ -25,6 +25,12 @@ export const RawGameMaster = {
         });
         return (data.default || data) as unknown as Types.AddressBookImportSettings[];
     },
+    getFeatureGate: async (): Promise<Types.FeatureGate[]> => {
+        const data = await import('./featureGate.json', {
+            assert: { type: 'json' },
+        });
+        return (data.default || data) as unknown as Types.FeatureGate[];
+    },
     getAdvancedSettings: async (): Promise<Types.AdvancedSettings[]> => {
         const data = await import('./advancedSettings.json', {
             assert: { type: 'json' },
@@ -816,12 +822,6 @@ export const RawGameMaster = {
             assert: { type: 'json' },
         });
         return (data.default || data) as unknown as Types.PrimalEvoSettings[];
-    },
-    getPtcOauthSettings: async (): Promise<Types.PtcOauthSettings[]> => {
-        const data = await import('./ptcOauthSettings.json', {
-            assert: { type: 'json' },
-        });
-        return (data.default || data) as unknown as Types.PtcOauthSettings[];
     },
     getQuestSettings: async (): Promise<Types.QuestSettings[]> => {
         const data = await import('./questSettings.json', {

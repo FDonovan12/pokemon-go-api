@@ -1,0 +1,23 @@
+[
+  {
+    "templateId": "ADMIN_GM_NIA_OPS_ONLY_FILTER_AMS_FEATURE_GATE",
+    "data": {
+      "status": 1,
+      "rolloutPercentage": 100
+    }
+  },
+  {
+    "templateId": "AMS_FEATURE_GATE",
+    "data": {
+      "status": 24,
+      "rolloutPercentage": 100
+    }
+  },
+  {
+    "templateId": "AMS_FRONTEND_FEATURE_GATE",
+    "data": {
+      "status": 1,
+      "rolloutPercentage": 100
+    }
+  }
+]

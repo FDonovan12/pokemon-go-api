@@ -51,12 +51,6 @@
     }
   },
   {
-    "templateId": "PARTY_PLAY_GET_PARTY_REMOVE_ORIGINAL_CODE_GATE",
-    "data": {
-      "isEnabled": true
-    }
-  },
-  {
     "templateId": "PARTY_TAB_SOCIAL_TAB_REORGANIZATION_CODE_GATE",
     "data": {
       "isEnabled": true

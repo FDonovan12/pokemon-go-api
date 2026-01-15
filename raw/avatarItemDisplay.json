@@ -2022,6 +2022,13 @@
     }
   },
   {
+    "templateId": "N_DISPLAY_n_hat_communityambassador_0",
+    "data": {
+      "iconAddress": "n_hat_communityambassador_0_icon",
+      "displayStringId": "avatar_n_hat_communityambassador"
+    }
+  },
+  {
     "templateId": "N_DISPLAY_n_hat_cosmog_0",
     "data": {
       "iconAddress": "n_hat_cosmog_0_icon",
@@ -5015,6 +5022,13 @@
     "data": {
       "iconAddress": "n_pose_buddypokeball_icon",
       "displayStringId": "avatar_pose_pokeballbuddy"
+    }
+  },
+  {
+    "templateId": "N_DISPLAY_n_pose_communityambassador",
+    "data": {
+      "iconAddress": "n_pose_communityambassador_icon",
+      "displayStringId": "avatar_n_pose_communityambassador"
     }
   },
   {

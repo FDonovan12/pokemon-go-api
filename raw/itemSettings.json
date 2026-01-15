@@ -498,8 +498,8 @@
           {
             "type": "AVATAR_CLOTHING",
             "neutralAvatarItemTemplate": {
-              "itemTemplateId": "N_AVATAR_n_pose_concierge",
-              "displayTemplateId": "N_DISPLAY_n_pose_concierge"
+              "itemTemplateId": "N_AVATAR_n_pose_heart",
+              "displayTemplateId": "N_DISPLAY_n_pose_heart"
             }
           },
           {
@@ -523,7 +523,8 @@
         "clientEventStartTimeUtcMs": "1768903200000",
         "clientEventEndTimeUtcMs": "1769371200000"
       },
-      "nameOverride": "general1.ticket.5_buddy_event_title"
+      "nameOverride": "general1.ticket.5_buddy_event_title",
+      "descriptionOverride": "item_event_ticket_gray_desc_buddy_event"
     }
   },
   {
@@ -541,7 +542,8 @@
         "clientEventStartTimeUtcMs": "1768903200000",
         "clientEventEndTimeUtcMs": "1769371200000"
       },
-      "ignoreInventorySpace": true
+      "ignoreInventorySpace": true,
+      "descriptionOverride": "item_event_ticket_gray_desc_buddy_event"
     }
   },
   {

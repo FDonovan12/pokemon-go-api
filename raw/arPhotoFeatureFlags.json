@@ -3,6 +3,11 @@
     "templateId": "AR_PHOTO_FEATURE_FLAGS",
     "data": {
       "excludedPokemonIds": [
+        "PHIONE",
+        "MANAPHY",
+        "ARCEUS",
+        "WISHIWASHI",
+        "PYUKUMUKU",
         "TYPE_NULL",
         "SILVALLY",
         "MINIOR",
@@ -49,8 +54,10 @@
         "PALAFIN",
         "CYCLIZAR",
         "ORTHWORM",
+        "FLAMIGO",
         "VELUZA",
         "FARIGIRAF",
+        "GREATTUSK",
         "SCREAMTAIL",
         "BRUTEBONNET",
         "FLUTTERMANE",
@@ -447,7 +454,34 @@
             "GIMMIGHOUL_NORMAL"
           ]
         }
-      ]
+      ],
+      "mainMenuEntryEnabled": -1412802175,
+      "shareFunctionalityEnabled": 295065062,
+      "preLoginRollOutRatio": 1,
+      "preLoginDeviceAllowList": [
+        "eeef41808b1ea6b81ba2816ae45813b87fa00ec62581f43fe382880fe0afdca0",
+        "5f8688d5be7e2382afb9980beeaa2bb5e692afcd97d2a06f2997a21091a4737d",
+        "3f200621fe1107fc08766965c8efc20d7ca145bc8acff71f7e4b4c484a513a2f",
+        "d24f6de5ab288a106d3e286fdc96c2629919214bbfd944a8a31a9ad9453d4388",
+        "0c691fb70e5064fb1a717ab41b4c029bd49d00882ec45dd926ab7256231919ae",
+        "bc440d794a6463a6e83b88ee3832ae8ae58d543177198b8940ba354856cb1429"
+      ],
+      "lapsedDaysCutoff": 29,
+      "newDaysCutoff": 3,
+      "rollOutCountryCodes": [
+        "PE",
+        "IN",
+        "CL",
+        "PL",
+        "KR"
+      ],
+      "errorReportingSettings": {
+        "isEnabled": true,
+        "percentChancePlayerSends": 1,
+        "maxEventsPerSlidingWindow": 5,
+        "slidingWindowLengthS": 10,
+        "maxTotalEventsBeforeShutdown": "1000"
+      }
     }
   }
 ]
