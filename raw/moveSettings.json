@@ -5845,6 +5845,24 @@
     }
   },
   {
+    "templateId": "V0492_MOVE_DRUM_BEATING",
+    "data": {
+      "movementId": "DRUM_BEATING",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_GRASS",
+      "power": 115,
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "drum_beating",
+      "durationMs": 4500,
+      "damageWindowStartMs": 3000,
+      "damageWindowEndMs": 4000,
+      "energyDelta": -33
+    }
+  },
+  {
     "templateId": "VN_BM_001",
     "data": {
       "movementId": "VN_BM_001",

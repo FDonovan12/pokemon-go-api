@@ -8414,13 +8414,13 @@
       "sortOrder": 4,
       "hidden": true,
       "spriteId": "evergreenticket.1",
-      "title": "general1.ticket.4_SUNMOON_RESEARCHTR2025_title",
+      "title": "general1.ticket.5_IntoTDepths26_title",
       "skuEnableTime": "2019-03-14T08:00:00",
-      "skuDisableTime": "2025-12-20T17:00:00",
+      "skuDisableTime": "2026-02-01T20:00:00",
       "skuEnableTimeUtcMs": "1552550400000",
-      "skuDisableTimeUtcMs": "1766250000000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO_Celestial_Research_1024x576_nologo.jpg",
-      "webstoreSkuId": "web-research-day-dec-25-ticket-box",
+      "skuDisableTimeUtcMs": "1769976000000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Into_The_Depths_LiveOp_2026_v3-1024x576-nologo.jpg",
+      "webstoreSkuId": "web-encounter-jan-26-ticket-box",
       "webstoreSkuPriceE6": 1990000
     }
   },
@@ -8432,12 +8432,11 @@
       "sortOrder": 4,
       "hidden": true,
       "spriteId": "evergreenticket.1",
-      "title": "general1.ticket.4_SUNMOON_RESEARCHTR2025_title",
       "skuEnableTime": "2019-03-14T08:00:00",
-      "skuDisableTime": "2025-12-20T17:00:00",
+      "skuDisableTime": "2026-02-01T20:00:00",
       "skuEnableTimeUtcMs": "1552550400000",
-      "skuDisableTimeUtcMs": "1766250000000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO_Celestial_Research_1024x576_nologo.jpg"
+      "skuDisableTimeUtcMs": "1769976000000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Into_The_Depths_LiveOp_2026_v3-1024x576-nologo.jpg"
     }
   },
   {
@@ -8813,14 +8812,14 @@
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 2,
       "hidden": true,
-      "spriteId": "general1.ticket.4",
-      "title": "general2.ticket.6_gmaxSnorlax25_title",
+      "spriteId": "general2.ticket.6",
+      "title": "general2.ticket.6_ShadowRaikouRaidWeekend_title",
       "skuEnableTime": "2019-03-14T08:00:00",
-      "skuDisableTime": "2025-12-14T17:00:00",
+      "skuDisableTime": "2026-01-24T17:00:00",
       "skuEnableTimeUtcMs": "1552550400000",
-      "skuDisableTimeUtcMs": "1765731600000",
-      "imageUrl": "https://storage.googleapis.com/prod-public-images/pgo_GMAX_Snorlax_2025_nologo.jpg",
-      "webstoreSkuId": "web-gmax-snorlax-dec-25-ticket-box",
+      "skuDisableTimeUtcMs": "1769274000000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Shadow_Raikou_RaidDay_v2-1024x512-nologo.jpg",
+      "webstoreSkuId": "web-shadow-raid-raikou-26-ticket-box",
       "webstoreSkuPriceE6": 4990000
     }
   },
@@ -8831,13 +8830,13 @@
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 2,
       "hidden": true,
-      "spriteId": "general1.ticket.4",
-      "title": "general2.ticket.6_gmaxSnorlax25_title",
+      "spriteId": "general2.ticket.6",
+      "title": "general2.ticket.6_ShadowRaikouRaidWeekend_title",
       "skuEnableTime": "2019-03-14T08:00:00",
-      "skuDisableTime": "2025-12-14T17:00:00",
+      "skuDisableTime": "2026-01-24T17:00:00",
       "skuEnableTimeUtcMs": "1552550400000",
-      "skuDisableTimeUtcMs": "1765731600000",
-      "imageUrl": "https://storage.googleapis.com/prod-public-images/pgo_GMAX_Snorlax_2025_nologo.jpg"
+      "skuDisableTimeUtcMs": "1769274000000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Shadow_Raikou_RaidDay_v2-1024x512-nologo.jpg"
     }
   },
   {
@@ -9871,13 +9870,13 @@
       "sortOrder": 4,
       "hidden": true,
       "spriteId": "evergreenticket.1",
-      "title": "general1.ticket.4_SUNMOON_RESEARCHTR2025_title",
+      "title": "general1.ticket.5_IntoTDepths26_title",
       "skuEnableTime": "2019-03-14T08:00:00",
-      "skuDisableTime": "2025-12-20T17:00:00",
+      "skuDisableTime": "2026-02-01T20:00:00",
       "skuEnableTimeUtcMs": "1552550400000",
-      "skuDisableTimeUtcMs": "1766250000000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO_Celestial_Research_1024x576_nologo.jpg",
-      "webstoreSkuId": "web-research-day-dec-25-ticket-box",
+      "skuDisableTimeUtcMs": "1769976000000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Into_The_Depths_LiveOp_2026_v3-1024x576-nologo.jpg",
+      "webstoreSkuId": "web-encounter-jan-26-ticket-box",
       "webstoreSkuPriceE6": 1990000
     }
   },
@@ -9889,12 +9888,11 @@
       "sortOrder": 4,
       "hidden": true,
       "spriteId": "evergreenticket.1",
-      "title": "general1.ticket.4_SUNMOON_RESEARCHTR2025_title",
       "skuEnableTime": "2019-03-14T08:00:00",
-      "skuDisableTime": "2025-12-20T17:00:00",
+      "skuDisableTime": "2026-02-01T20:00:00",
       "skuEnableTimeUtcMs": "1552550400000",
-      "skuDisableTimeUtcMs": "1766250000000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO_Celestial_Research_1024x576_nologo.jpg"
+      "skuDisableTimeUtcMs": "1769976000000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Into_The_Depths_LiveOp_2026_v3-1024x576-nologo.jpg"
     }
   },
   {
@@ -10240,14 +10238,14 @@
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 2,
       "hidden": true,
-      "spriteId": "general1.ticket.4",
-      "title": "general2.ticket.6_gmaxSnorlax25_title",
+      "spriteId": "general2.ticket.6",
+      "title": "general2.ticket.6_ShadowRaikouRaidWeekend_title",
       "skuEnableTime": "2019-03-14T08:00:00",
-      "skuDisableTime": "2025-12-14T17:00:00",
+      "skuDisableTime": "2026-01-24T17:00:00",
       "skuEnableTimeUtcMs": "1552550400000",
-      "skuDisableTimeUtcMs": "1765731600000",
-      "imageUrl": "https://storage.googleapis.com/prod-public-images/pgo_GMAX_Snorlax_2025_nologo.jpg",
-      "webstoreSkuId": "web-gmax-snorlax-dec-25-ticket-box",
+      "skuDisableTimeUtcMs": "1769274000000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Shadow_Raikou_RaidDay_v2-1024x512-nologo.jpg",
+      "webstoreSkuId": "web-shadow-raid-raikou-26-ticket-box",
       "webstoreSkuPriceE6": 4990000
     }
   },
@@ -10258,13 +10256,13 @@
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 2,
       "hidden": true,
-      "spriteId": "general1.ticket.4",
-      "title": "general2.ticket.6_gmaxSnorlax25_title",
+      "spriteId": "general2.ticket.6",
+      "title": "general2.ticket.6_ShadowRaikouRaidWeekend_title",
       "skuEnableTime": "2019-03-14T08:00:00",
-      "skuDisableTime": "2025-12-14T17:00:00",
+      "skuDisableTime": "2026-01-24T17:00:00",
       "skuEnableTimeUtcMs": "1552550400000",
-      "skuDisableTimeUtcMs": "1765731600000",
-      "imageUrl": "https://storage.googleapis.com/prod-public-images/pgo_GMAX_Snorlax_2025_nologo.jpg"
+      "skuDisableTimeUtcMs": "1769274000000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Shadow_Raikou_RaidDay_v2-1024x512-nologo.jpg"
     }
   },
   {

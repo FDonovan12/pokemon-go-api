@@ -930,8 +930,8 @@ export interface PokemonCondition {
     pokemonCaughtTimestamp?: PokemonCaughtTimestamp;
     pokemonWhiteList?:       PokemonWhiteList;
     withPokemonType?:        WithPokemonType;
-    pokemonBanList?:         PokemonBanList;
     pokemonLevelRange?:      PokemonLevelRange;
+    pokemonBanList?:         PokemonBanList;
 }
 
 export interface PokemonBanList {
@@ -1809,8 +1809,8 @@ export interface IconReward {
     exp?:                       number;
     item?:                      IconRewardItem;
     neutralAvatarItemTemplate?: NeutralAvatarItemTemplate;
-    candy?:                     Candy;
     stardust?:                  number;
+    candy?:                     Candy;
 }
 
 export interface IconRewardPokemonEncounter {
@@ -3054,6 +3054,17 @@ export interface CommonTempSettings {
 export interface TypeBoost {
     pokemonId: string;
     boostType: TemplateIdElement[];
+}
+
+export interface PtcOauthSettings {
+    templateId: string;
+    data:       PtcOauthSettingData;
+}
+
+export interface PtcOauthSettingData {
+    ptcAccountLinkingEnabled: boolean;
+    endTimeMs:                string;
+    linkingRewardItem:        string;
 }
 
 export interface QuestSettings {

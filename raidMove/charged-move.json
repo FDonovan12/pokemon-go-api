@@ -2135,5 +2135,14 @@
     "durationMs": 4000,
     "energyDelta": -33,
     "vfxName": "mind_blown"
+  },
+  {
+    "id": "V0492_MOVE_DRUM_BEATING",
+    "movementId": "DRUM_BEATING",
+    "pokemonType": "POKEMON_TYPE_GRASS",
+    "power": 115,
+    "durationMs": 4500,
+    "energyDelta": -33,
+    "vfxName": "drum_beating"
   }
 ]

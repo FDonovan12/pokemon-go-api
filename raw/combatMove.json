@@ -3585,5 +3585,19 @@
         "buffActivationChance": 1
       }
     }
+  },
+  {
+    "templateId": "COMBAT_V0492_MOVE_DRUM_BEATING",
+    "data": {
+      "uniqueId": "DRUM_BEATING",
+      "type": "POKEMON_TYPE_GRASS",
+      "power": 60,
+      "vfxName": "drum_beating",
+      "energyDelta": -35,
+      "buffs": {
+        "targetAttackStatStageChange": -1,
+        "buffActivationChance": 1
+      }
+    }
   }
 ]

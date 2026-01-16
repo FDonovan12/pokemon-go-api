@@ -1034,6 +1034,20 @@
     }
   },
   {
+    "templateId": "sequence_drum_beating",
+    "data": {
+      "sequence": [
+        "anim attacker atk-move",
+        "wait 0.5",
+        "vfx drum_beating",
+        "sfx attacker 536-0_leaf_tornado",
+        "wait 1.0",
+        "sys ui-sync",
+        "sys complete"
+      ]
+    }
+  },
+  {
     "templateId": "sequence_dynamax_cannon",
     "data": {
       "sequence": [

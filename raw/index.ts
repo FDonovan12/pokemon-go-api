@@ -823,6 +823,12 @@ export const RawGameMaster = {
         });
         return (data.default || data) as unknown as Types.PrimalEvoSettings[];
     },
+    getPtcOauthSettings: async (): Promise<Types.PtcOauthSettings[]> => {
+        const data = await import('./ptcOauthSettings.json', {
+            assert: { type: 'json' },
+        });
+        return (data.default || data) as unknown as Types.PtcOauthSettings[];
+    },
     getQuestSettings: async (): Promise<Types.QuestSettings[]> => {
         const data = await import('./questSettings.json', {
             assert: { type: 'json' },
