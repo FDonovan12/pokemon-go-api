@@ -23839,6 +23839,12 @@
                   "FORM_UNSET",
                   "KINGAMBIT_NORMAL"
                 ]
+              },
+              {
+                "id": "URSHIFU",
+                "forms": [
+                  "URSHIFU_SINGLE_STRIKE"
+                ]
               }
             ]
           }

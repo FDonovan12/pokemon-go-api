@@ -6000,10 +6000,13 @@
       "sku": "bundle.cd2022.1",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 1,
-      "hidden": true,
       "sale": true,
-      "spriteId": "bundle.halloween.small.1",
-      "title": "bundle.halloween.small.1_title"
+      "spriteId": "bundle.general4.small.1",
+      "title": "bundle.general4.small.1_title",
+      "skuEnableTime": "2022-10-13T12:00:00",
+      "skuDisableTime": "2026-01-18T23:59:59",
+      "skuEnableTimeUtcMs": "1665662400000",
+      "skuDisableTimeUtcMs": "1768780799000"
     }
   },
   {
@@ -6012,10 +6015,13 @@
       "sku": "bundle.cd2022.2",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 2,
-      "hidden": true,
       "sale": true,
-      "spriteId": "bundle.halloween.adventure.1",
-      "title": "bundle.halloween.adventure.1_title"
+      "spriteId": "bundle.general1.medium.1",
+      "title": "bundle.general1.medium.1_title",
+      "skuEnableTime": "2022-10-13T12:00:00",
+      "skuDisableTime": "2026-01-18T23:59:59",
+      "skuEnableTimeUtcMs": "1665662400000",
+      "skuDisableTimeUtcMs": "1768780799000"
     }
   },
   {
@@ -8708,7 +8714,6 @@
       "sku": "general2.ticket.3",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 2,
-      "hidden": true,
       "spriteId": "general1.ticket.2",
       "title": "general1.ticket_CD_Grookey25_title",
       "skuEnableTime": "2019-03-14T08:00:00",
@@ -8726,7 +8731,6 @@
       "sku": "general2.ticket.3.giftable",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 2,
-      "hidden": true,
       "spriteId": "general1.ticket.2",
       "title": "general1.ticket_CD_Grookey25_title",
       "skuEnableTime": "2019-03-14T08:00:00",
@@ -10134,7 +10138,6 @@
       "sku": "pgorelease.general2.ticket.3",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 2,
-      "hidden": true,
       "spriteId": "general1.ticket.2",
       "title": "general1.ticket_CD_Grookey25_title",
       "skuEnableTime": "2019-03-14T08:00:00",
@@ -10152,7 +10155,6 @@
       "sku": "pgorelease.general2.ticket.3.giftable",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 2,
-      "hidden": true,
       "spriteId": "general1.ticket.2",
       "title": "general1.ticket_CD_Grookey25_title",
       "skuEnableTime": "2019-03-14T08:00:00",

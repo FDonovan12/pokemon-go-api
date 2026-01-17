@@ -569,36 +569,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "GENESECT",
+            "pokemonId": "THUNDURUS",
             "pokemonDisplay": {
-              "form": "GENESECT_BURN"
-            }
-          },
-          "unlockedAtRank": 20,
-          "attackIvOverride": {
-            "range": {
-              "min": 10,
-              "max": 15
-            }
-          },
-          "defenseIvOverride": {
-            "range": {
-              "min": 10,
-              "max": 15
-            }
-          },
-          "staminaIvOverride": {
-            "range": {
-              "min": 10,
-              "max": 15
-            }
-          }
-        },
-        {
-          "pokemon": {
-            "pokemonId": "GENESECT",
-            "pokemonDisplay": {
-              "form": "GENESECT_CHILL"
+              "form": "THUNDURUS_INCARNATE"
             }
           },
           "unlockedAtRank": 20,
@@ -1194,36 +1167,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "GENESECT",
+            "pokemonId": "THUNDURUS",
             "pokemonDisplay": {
-              "form": "GENESECT_BURN"
-            }
-          },
-          "unlockedAtRank": 20,
-          "attackIvOverride": {
-            "range": {
-              "min": 10,
-              "max": 15
-            }
-          },
-          "defenseIvOverride": {
-            "range": {
-              "min": 10,
-              "max": 15
-            }
-          },
-          "staminaIvOverride": {
-            "range": {
-              "min": 10,
-              "max": 15
-            }
-          }
-        },
-        {
-          "pokemon": {
-            "pokemonId": "GENESECT",
-            "pokemonDisplay": {
-              "form": "GENESECT_CHILL"
+              "form": "THUNDURUS_INCARNATE"
             }
           },
           "unlockedAtRank": 20,
