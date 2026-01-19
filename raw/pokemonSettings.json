@@ -196369,7 +196369,8 @@
       "cinematicMoves": [
         "ENERGY_BALL",
         "GRASS_KNOT",
-        "EARTH_POWER"
+        "EARTH_POWER",
+        "DRUM_BEATING"
       ],
       "pokedexHeightM": 2.1,
       "pokedexWeightKg": 90,
@@ -196400,6 +196401,9 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 2,
+      "eliteCinematicMove": [
+        "FRENZY_PLANT"
+      ],
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
     }
@@ -196441,7 +196445,8 @@
       "cinematicMoves": [
         "ENERGY_BALL",
         "GRASS_KNOT",
-        "EARTH_POWER"
+        "EARTH_POWER",
+        "DRUM_BEATING"
       ],
       "pokedexHeightM": 2.1,
       "pokedexWeightKg": 90,
@@ -196473,6 +196478,9 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 2,
+      "eliteCinematicMove": [
+        "FRENZY_PLANT"
+      ],
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
     }
