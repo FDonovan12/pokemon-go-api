@@ -99,7 +99,7 @@
     "data": {
       "minPointsToReach": 90,
       "milestoneXpReward": 150000,
-      "attackBonusPercentage": 1.12,
+      "attackBonusPercentage": 1.24,
       "raidBallBonus": 4,
       "unlockedTrading": [
         "REGULAR_IN_POKEDEX",

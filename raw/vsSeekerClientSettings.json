@@ -3,8 +3,8 @@
     "templateId": "VS_SEEKER_CLIENT_SETTINGS",
     "data": {
       "allowedVsSeekerLeagueTemplateId": [
-        "COMBAT_LEAGUE_VS_SEEKER_MASTER_PREMIER",
-        "COMBAT_LEAGUE_VS_SEEKER_GREAT_RETRO"
+        "COMBAT_LEAGUE_VS_SEEKER_GREAT",
+        "COMBAT_LEAGUE_VS_SEEKER_ULTRA_PREMIER"
       ]
     }
   }

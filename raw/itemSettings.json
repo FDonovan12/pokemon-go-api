@@ -555,13 +555,13 @@
       "globalEventTicket": {
         "eventStartTime": "2026-01-24T14:00:00",
         "eventEndTime": "2026-01-24T17:00:00",
-        "itemBagDescriptionKey": "item_event_ticket_gray_desc_ShadowRaikouRaidWeekend",
+        "itemBagDescriptionKey": "item_event_ticket_gray_desc_RaikouShadowRaidDay",
         "giftable": true,
         "giftItem": "ITEM_EVENT_TICKET_06_TO_GIFT",
         "displayV2Enabled": true,
         "backgroundImageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Shadow_Raikou_RaidDay_v2-1024x512-nologo.jpg",
-        "eventDatetimeRangeKey": "event_datetime_range_key_ShadowRaikouRaidWeekend",
-        "textRewardsKey": "text_rewards_key_ShadowRaikouRaidWeekend",
+        "eventDatetimeRangeKey": "event_datetime_range_key_RaikouShadowRaidDay",
+        "textRewardsKey": "text_rewards_key_RaikouShadowRaidDay",
         "iconRewards": [
           {
             "type": "ITEM",
@@ -579,8 +579,8 @@
         "clientEventStartTimeUtcMs": "1769263200000",
         "clientEventEndTimeUtcMs": "1769274000000"
       },
-      "nameOverride": "general2.ticket.6_ShadowRaikouRaidWeekend_title",
-      "descriptionOverride": "item_event_ticket_gray_desc_ShadowRaikouRaidWeekend"
+      "nameOverride": "general2.ticket.6_ShadowRaikouRaidDay_title",
+      "descriptionOverride": "item_event_ticket_gray_details_RaikouShadowRaidDay"
     }
   },
   {
@@ -592,13 +592,13 @@
       "globalEventTicket": {
         "eventStartTime": "2026-01-24T14:00:00",
         "eventEndTime": "2026-01-24T17:00:00",
-        "itemBagDescriptionKey": "item_event_ticket_gray_details_ShadowRaikouRaidWeekend",
+        "itemBagDescriptionKey": "item_event_ticket_gray_desc_RaikouShadowRaidDay",
         "ticketItem": "ITEM_EVENT_TICKET_06",
         "clientEventStartTimeUtcMs": "1769263200000",
         "clientEventEndTimeUtcMs": "1769274000000"
       },
       "ignoreInventorySpace": true,
-      "descriptionOverride": "item_event_ticket_gray_details_ShadowRaikouRaidWeekend"
+      "descriptionOverride": "item_event_ticket_gray_details_RaikouShadowRaidDay"
     }
   },
   {

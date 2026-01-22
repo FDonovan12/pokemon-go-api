@@ -197,10 +197,10 @@
           "averageHeightM": 24,
           "camera": {
             "cylinderRadiusM": 1.25,
-            "cylinderHeightM": 1.5
+            "cylinderHeightM": 1.9
           },
-          "modelScaleV2": 1.1,
-          "modelHeight": 1.9,
+          "modelScaleV2": 1,
+          "modelHeight": 1.54,
           "maxEncounterVisualSettings": {
             "scale": 10.74,
             "cameraDistance": 32.3,
@@ -286,10 +286,10 @@
           "averageHeightM": 24,
           "camera": {
             "cylinderRadiusM": 1.25,
-            "cylinderHeightM": 1.5
+            "cylinderHeightM": 1.9
           },
-          "modelScaleV2": 1.1,
-          "modelHeight": 1.9,
+          "modelScaleV2": 1,
+          "modelHeight": 1.54,
           "maxEncounterVisualSettings": {
             "scale": 10.74,
             "cameraDistance": 32.3,
@@ -514,11 +514,11 @@
           "breadMode": "BREAD_DOUGH_MODE",
           "averageHeightM": 28,
           "camera": {
-            "cylinderRadiusM": 1.25,
-            "cylinderHeightM": 2
+            "cylinderRadiusM": 1.5,
+            "cylinderHeightM": 2.2
           },
-          "modelScaleV2": 1.2,
-          "modelHeight": 2,
+          "modelScaleV2": 1.31,
+          "modelHeight": 2.2,
           "maxEncounterVisualSettings": {
             "scale": 12.53,
             "cameraDistance": 29.9,
@@ -608,11 +608,11 @@
           "breadMode": "BREAD_DOUGH_MODE",
           "averageHeightM": 28,
           "camera": {
-            "cylinderRadiusM": 1.25,
-            "cylinderHeightM": 2
+            "cylinderRadiusM": 1.5,
+            "cylinderHeightM": 2.2
           },
-          "modelScaleV2": 1.2,
-          "modelHeight": 2,
+          "modelScaleV2": 1.31,
+          "modelHeight": 2.2,
           "maxEncounterVisualSettings": {
             "scale": 12.53,
             "cameraDistance": 29.9,
@@ -824,11 +824,11 @@
           "breadMode": "BREAD_DOUGH_MODE",
           "averageHeightM": 25,
           "camera": {
-            "cylinderRadiusM": 1.4,
-            "cylinderHeightM": 2.1
+            "cylinderRadiusM": 1.5,
+            "cylinderHeightM": 2.5
           },
-          "modelScaleV2": 0.8,
-          "modelHeight": 1.2,
+          "modelScaleV2": 0.94,
+          "modelHeight": 2.23,
           "maxEncounterVisualSettings": {
             "scale": 10.16,
             "cameraDistance": 39.2,
@@ -909,11 +909,11 @@
           "breadMode": "BREAD_DOUGH_MODE",
           "averageHeightM": 25,
           "camera": {
-            "cylinderRadiusM": 1.4,
-            "cylinderHeightM": 2.1
+            "cylinderRadiusM": 1.5,
+            "cylinderHeightM": 2.5
           },
-          "modelScaleV2": 0.8,
-          "modelHeight": 1.2,
+          "modelScaleV2": 0.94,
+          "modelHeight": 2.23,
           "maxEncounterVisualSettings": {
             "scale": 10.16,
             "cameraDistance": 39.2,
@@ -1087,12 +1087,12 @@
           "breadMode": "BREAD_DOUGH_MODE",
           "averageHeightM": 17,
           "camera": {
-            "cylinderRadiusM": 1,
-            "cylinderHeightM": 1,
-            "cylinderGroundM": 0.7
+            "cylinderRadiusM": 1.65,
+            "cylinderHeightM": 1.5,
+            "cylinderGroundM": 0.6
           },
           "modelScaleV2": 1,
-          "modelHeight": 1,
+          "modelHeight": 1.31,
           "maxEncounterVisualSettings": {
             "scale": 14.31,
             "cameraDistance": 40,
@@ -1143,12 +1143,12 @@
           "breadMode": "BREAD_DOUGH_MODE",
           "averageHeightM": 17,
           "camera": {
-            "cylinderRadiusM": 1,
-            "cylinderHeightM": 1,
-            "cylinderGroundM": 0.7
+            "cylinderRadiusM": 1.65,
+            "cylinderHeightM": 1.5,
+            "cylinderGroundM": 0.6
           },
           "modelScaleV2": 1,
-          "modelHeight": 1,
+          "modelHeight": 1.31,
           "maxEncounterVisualSettings": {
             "scale": 14.31,
             "cameraDistance": 40,
@@ -4082,10 +4082,10 @@
           "averageHeightM": 25,
           "camera": {
             "cylinderRadiusM": 1.5,
-            "cylinderHeightM": 3
+            "cylinderHeightM": 2.55
           },
           "modelScaleV2": 0.86,
-          "modelHeight": 1.5,
+          "modelHeight": 2.57,
           "catchOverrideSettings": {
             "collisionRadiusM": 1,
             "collisionHeightM": 1.246,
@@ -4143,10 +4143,10 @@
           "averageHeightM": 25,
           "camera": {
             "cylinderRadiusM": 1.5,
-            "cylinderHeightM": 3
+            "cylinderHeightM": 2.55
           },
           "modelScaleV2": 0.86,
-          "modelHeight": 1.5,
+          "modelHeight": 2.57,
           "catchOverrideSettings": {
             "collisionRadiusM": 1,
             "collisionHeightM": 1.246,
@@ -5232,11 +5232,11 @@
           "breadMode": "BREAD_DOUGH_MODE",
           "averageHeightM": 20,
           "camera": {
-            "cylinderRadiusM": 1.15,
-            "cylinderHeightM": 1.45
+            "cylinderRadiusM": 1.35,
+            "cylinderHeightM": 2.25
           },
-          "modelScaleV2": 0.86,
-          "modelHeight": 1.77,
+          "modelScaleV2": 0.97,
+          "modelHeight": 2.13,
           "maxEncounterVisualSettings": {
             "scale": 10.67,
             "cameraDistance": 30,
@@ -5328,11 +5328,11 @@
           "breadMode": "BREAD_DOUGH_MODE",
           "averageHeightM": 20,
           "camera": {
-            "cylinderRadiusM": 1.15,
-            "cylinderHeightM": 1.45
+            "cylinderRadiusM": 1.35,
+            "cylinderHeightM": 2.25
           },
-          "modelScaleV2": 0.86,
-          "modelHeight": 1.77,
+          "modelScaleV2": 0.97,
+          "modelHeight": 2.13,
           "maxEncounterVisualSettings": {
             "scale": 10.67,
             "cameraDistance": 30,
@@ -5528,10 +5528,10 @@
           "averageHeightM": 19,
           "camera": {
             "cylinderRadiusM": 1.1,
-            "cylinderHeightM": 1
+            "cylinderHeightM": 1.7
           },
           "modelScaleV2": 1,
-          "modelHeight": 1,
+          "modelHeight": 1.7,
           "maxEncounterVisualSettings": {
             "scale": 11.1,
             "cameraDistance": 35,
@@ -5580,10 +5580,10 @@
           "averageHeightM": 19,
           "camera": {
             "cylinderRadiusM": 1.1,
-            "cylinderHeightM": 1
+            "cylinderHeightM": 1.7
           },
           "modelScaleV2": 1,
-          "modelHeight": 1,
+          "modelHeight": 1.7,
           "maxEncounterVisualSettings": {
             "scale": 11.1,
             "cameraDistance": 35,
@@ -6861,8 +6861,8 @@
             "cylinderRadiusM": 1.35,
             "cylinderHeightM": 2.05
           },
-          "modelScaleV2": 1,
-          "modelHeight": 2.17,
+          "modelScaleV2": 0.86,
+          "modelHeight": 2.57,
           "maxEncounterVisualSettings": {
             "scale": 7.47,
             "cameraDistance": 30,
@@ -6936,8 +6936,8 @@
             "cylinderRadiusM": 1.35,
             "cylinderHeightM": 2.05
           },
-          "modelScaleV2": 1,
-          "modelHeight": 2.17,
+          "modelScaleV2": 0.86,
+          "modelHeight": 2.57,
           "maxEncounterVisualSettings": {
             "scale": 7.47,
             "cameraDistance": 30,
@@ -7679,11 +7679,11 @@
           "breadMode": "BREAD_DOUGH_MODE",
           "averageHeightM": 35,
           "camera": {
-            "cylinderRadiusM": 1.15,
-            "cylinderHeightM": 2.15
+            "cylinderRadiusM": 1.65,
+            "cylinderHeightM": 2.65
           },
-          "modelScaleV2": 1,
-          "modelHeight": 2,
+          "modelScaleV2": 0.86,
+          "modelHeight": 2.57,
           "catchOverrideSettings": {
             "collisionRadiusM": 1.4,
             "collisionHeightM": 1.11,
@@ -7728,11 +7728,11 @@
           "breadMode": "BREAD_DOUGH_MODE",
           "averageHeightM": 35,
           "camera": {
-            "cylinderRadiusM": 1.15,
-            "cylinderHeightM": 2.15
+            "cylinderRadiusM": 1.65,
+            "cylinderHeightM": 2.65
           },
-          "modelScaleV2": 1,
-          "modelHeight": 2,
+          "modelScaleV2": 0.86,
+          "modelHeight": 2.57,
           "catchOverrideSettings": {
             "collisionRadiusM": 1.4,
             "collisionHeightM": 1.11,
@@ -24350,11 +24350,11 @@
           "breadMode": "BREAD_DOUGH_MODE",
           "averageHeightM": 21,
           "camera": {
-            "cylinderRadiusM": 2,
-            "cylinderHeightM": 2.5
+            "cylinderRadiusM": 1.75,
+            "cylinderHeightM": 1.25
           },
-          "modelScaleV2": 1.7,
-          "modelHeight": 2.57,
+          "modelScaleV2": 1,
+          "modelHeight": 1.48,
           "catchOverrideSettings": {
             "collisionRadiusM": 0.75,
             "collisionHeightM": 0.1,
@@ -24419,11 +24419,11 @@
           "breadMode": "BREAD_DOUGH_MODE",
           "averageHeightM": 21,
           "camera": {
-            "cylinderRadiusM": 2,
-            "cylinderHeightM": 2.5
+            "cylinderRadiusM": 1.75,
+            "cylinderHeightM": 1.25
           },
-          "modelScaleV2": 1.7,
-          "modelHeight": 2.57,
+          "modelScaleV2": 1,
+          "modelHeight": 1.48,
           "catchOverrideSettings": {
             "collisionRadiusM": 0.75,
             "collisionHeightM": 0.1,
@@ -34412,11 +34412,11 @@
           "breadMode": "BREAD_DOUGH_MODE",
           "averageHeightM": 28,
           "camera": {
-            "cylinderRadiusM": 2.5,
-            "cylinderHeightM": 1.8
+            "cylinderRadiusM": 1.5,
+            "cylinderHeightM": 1.9
           },
-          "modelScaleV2": 0.97,
-          "modelHeight": 2.13,
+          "modelScaleV2": 1,
+          "modelHeight": 1.6,
           "catchOverrideSettings": {
             "collisionRadiusM": 0.3,
             "collisionHeightM": 0.5,
@@ -34470,11 +34470,11 @@
           "breadMode": "BREAD_DOUGH_MODE",
           "averageHeightM": 28,
           "camera": {
-            "cylinderRadiusM": 2.5,
-            "cylinderHeightM": 1.8
+            "cylinderRadiusM": 1.5,
+            "cylinderHeightM": 1.9
           },
-          "modelScaleV2": 0.97,
-          "modelHeight": 2.13,
+          "modelScaleV2": 1,
+          "modelHeight": 1.6,
           "catchOverrideSettings": {
             "collisionRadiusM": 0.3,
             "collisionHeightM": 0.5,
@@ -34663,11 +34663,11 @@
           "breadMode": "BREAD_DOUGH_MODE",
           "averageHeightM": 27,
           "camera": {
-            "cylinderRadiusM": 1.25,
-            "cylinderHeightM": 2.5
+            "cylinderRadiusM": 1.5,
+            "cylinderHeightM": 3.35
           },
-          "modelScaleV2": 0.65,
-          "modelHeight": 1.5,
+          "modelScaleV2": 0.88,
+          "modelHeight": 2.8,
           "maxEncounterVisualSettings": {
             "scale": 7,
             "cameraDistance": 36,
@@ -34724,11 +34724,11 @@
           "breadMode": "BREAD_DOUGH_MODE",
           "averageHeightM": 27,
           "camera": {
-            "cylinderRadiusM": 1.25,
-            "cylinderHeightM": 2.5
+            "cylinderRadiusM": 1.5,
+            "cylinderHeightM": 3.35
           },
-          "modelScaleV2": 0.65,
-          "modelHeight": 1.5,
+          "modelScaleV2": 0.88,
+          "modelHeight": 2.8,
           "maxEncounterVisualSettings": {
             "scale": 7,
             "cameraDistance": 36,
@@ -34921,8 +34921,8 @@
             "cylinderRadiusM": 1,
             "cylinderHeightM": 3.3
           },
-          "modelScaleV2": 0.8,
-          "modelHeight": 2.14,
+          "modelScaleV2": 0.83,
+          "modelHeight": 3.19,
           "catchOverrideSettings": {
             "collisionRadiusM": 0.9,
             "collisionHeightM": 0.9,
@@ -34988,8 +34988,8 @@
             "cylinderRadiusM": 1,
             "cylinderHeightM": 3.3
           },
-          "modelScaleV2": 0.8,
-          "modelHeight": 2.14,
+          "modelScaleV2": 0.83,
+          "modelHeight": 3.19,
           "catchOverrideSettings": {
             "collisionRadiusM": 0.9,
             "collisionHeightM": 0.9,
@@ -36210,7 +36210,7 @@
           },
           "camera": {
             "cylinderRadiusM": 1.5,
-            "cylinderHeightM": 1.6
+            "cylinderHeightM": 2.15
           },
           "modelScaleV2": 0.86,
           "modelHeight": 3,
@@ -36277,7 +36277,7 @@
           },
           "camera": {
             "cylinderRadiusM": 1.5,
-            "cylinderHeightM": 1.6
+            "cylinderHeightM": 2.15
           },
           "modelScaleV2": 0.86,
           "modelHeight": 3,
@@ -36344,7 +36344,7 @@
           },
           "camera": {
             "cylinderRadiusM": 1.5,
-            "cylinderHeightM": 1.6
+            "cylinderHeightM": 2.15
           },
           "modelScaleV2": 0.86,
           "modelHeight": 3,
@@ -36834,8 +36834,8 @@
             "cylinderRadiusM": 1,
             "cylinderHeightM": 3
           },
-          "modelScaleV2": 0.6,
-          "modelHeight": 0.6,
+          "modelScaleV2": 0.86,
+          "modelHeight": 3,
           "maxEncounterVisualSettings": {
             "scale": 13,
             "cameraDistance": 32,
@@ -36882,8 +36882,8 @@
             "cylinderRadiusM": 1,
             "cylinderHeightM": 3
           },
-          "modelScaleV2": 0.6,
-          "modelHeight": 0.6,
+          "modelScaleV2": 0.86,
+          "modelHeight": 3,
           "maxEncounterVisualSettings": {
             "scale": 13,
             "cameraDistance": 32,

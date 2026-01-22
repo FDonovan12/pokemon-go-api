@@ -38761,7 +38761,7 @@
           "priority": 100,
           "questDisplay": [
             {
-              "questRequirementTemplateId": "SYLVEON_EVOLUTION_QUEST"
+              "questRequirementTemplateId": "SYLVEON_BUDDY_EVENT_EVOLUTION_QUEST"
             }
           ]
         }
@@ -39105,7 +39105,7 @@
           "priority": 100,
           "questDisplay": [
             {
-              "questRequirementTemplateId": "SYLVEON_EVOLUTION_QUEST"
+              "questRequirementTemplateId": "SYLVEON_BUDDY_EVENT_EVOLUTION_QUEST"
             }
           ]
         }
@@ -168175,7 +168175,7 @@
           "candyCost": 50,
           "questDisplay": [
             {
-              "questRequirementTemplateId": "PANCHAM_EVOLUTION_QUEST"
+              "questRequirementTemplateId": "PANCHAM_BUDDY_EVENT_EVOLUTION_QUEST"
             }
           ]
         }
@@ -168253,7 +168253,7 @@
           "form": "PANGORO_NORMAL",
           "questDisplay": [
             {
-              "questRequirementTemplateId": "PANCHAM_EVOLUTION_QUEST"
+              "questRequirementTemplateId": "PANCHAM_BUDDY_EVENT_EVOLUTION_QUEST"
             }
           ]
         }
@@ -214762,7 +214762,7 @@
           "kmBuddyDistanceRequirement": 25,
           "questDisplay": [
             {
-              "questRequirementTemplateId": "PAWMOT_EVOLUTION_QUEST"
+              "questRequirementTemplateId": "PAWMOT_BUDDY_EVENT_EVOLUTION_QUEST"
             }
           ]
         }
@@ -214840,7 +214840,7 @@
           "form": "PAWMOT_NORMAL",
           "questDisplay": [
             {
-              "questRequirementTemplateId": "PAWMOT_EVOLUTION_QUEST"
+              "questRequirementTemplateId": "PAWMOT_BUDDY_EVENT_EVOLUTION_QUEST"
             }
           ]
         }
