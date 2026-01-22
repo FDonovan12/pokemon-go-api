@@ -473,7 +473,17 @@
         "IN",
         "CL",
         "PL",
-        "KR"
+        "KR",
+        "IT",
+        "TH",
+        "AR",
+        "BE",
+        "MY",
+        "ID",
+        "SG",
+        "HK",
+        "PH",
+        "TW"
       ],
       "errorReportingSettings": {
         "isEnabled": true,

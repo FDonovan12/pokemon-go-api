@@ -120669,6 +120669,7 @@
       "eliteCinematicMove": [
         "MAGMA_STORM"
       ],
+      "raidBossDistanceOffset": 4.6,
       "ibfc": {},
       "breadTierGroup": "GROUP_4"
     }
@@ -120772,6 +120773,7 @@
       "eliteCinematicMove": [
         "MAGMA_STORM"
       ],
+      "raidBossDistanceOffset": 4.6,
       "ibfc": {},
       "breadTierGroup": "GROUP_4"
     }
