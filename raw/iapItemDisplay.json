@@ -8560,14 +8560,14 @@
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 2,
       "hidden": true,
-      "spriteId": "general1.ticket.5",
-      "title": "general1.ticket.5_PsychicSpecTGR_title",
+      "spriteId": "general1.ticket.4",
+      "title": "general1.ticket.6_dmaxHooh26_title",
       "skuEnableTime": "2019-03-14T08:00:00",
-      "skuDisableTime": "2025-09-21T23:59:59",
+      "skuDisableTime": "2026-02-01T21:00:00",
       "skuEnableTimeUtcMs": "1552550400000",
-      "skuDisableTimeUtcMs": "1758499199000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Psychic_Spectacular_2025_Ticket_v1-1024x576-nologo.jpg",
-      "webstoreSkuId": "web-super-rocket-radar-ticket-box",
+      "skuDisableTimeUtcMs": "1769979600000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_DMAX_Ho-oh_Max_Battle_v2_1024x576-nologo.jpg",
+      "webstoreSkuId": "web-dmax-ho-oh-26-ticket-box",
       "webstoreSkuPriceE6": 4990000
     }
   },
@@ -8578,13 +8578,13 @@
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 2,
       "hidden": true,
-      "spriteId": "general1.ticket.5",
-      "title": "general1.ticket.5_PsychicSpecTGR_title",
+      "spriteId": "general1.ticket.4",
+      "title": "general1.ticket.6_dmaxHooh26_title",
       "skuEnableTime": "2019-03-14T08:00:00",
-      "skuDisableTime": "2025-09-21T23:59:59",
+      "skuDisableTime": "2026-02-01T21:00:00",
       "skuEnableTimeUtcMs": "1552550400000",
-      "skuDisableTimeUtcMs": "1758499199000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Psychic_Spectacular_2025_Ticket_v1-1024x576-nologo.jpg"
+      "skuDisableTimeUtcMs": "1769979600000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_DMAX_Ho-oh_Max_Battle_v2_1024x576-nologo.jpg"
     }
   },
   {
@@ -9378,8 +9378,12 @@
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 1,
       "hidden": true,
-      "spriteId": "bundle.general2.large.1",
-      "title": "battle_box"
+      "spriteId": "bundle1.sprite.a",
+      "title": "battle_box",
+      "skuEnableTime": "2019-10-31T21:00:00",
+      "skuDisableTime": "2026-01-25T23:59:00",
+      "skuEnableTimeUtcMs": "1572555600000",
+      "skuDisableTimeUtcMs": "1769385540000"
     }
   },
   {
@@ -10002,14 +10006,14 @@
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 2,
       "hidden": true,
-      "spriteId": "general1.ticket.5",
-      "title": "general1.ticket.5_PsychicSpecTGR_title",
+      "spriteId": "general1.ticket.4",
+      "title": "general1.ticket.6_dmaxHooh26_title",
       "skuEnableTime": "2019-03-14T08:00:00",
-      "skuDisableTime": "2025-09-21T23:59:59",
+      "skuDisableTime": "2026-02-01T21:00:00",
       "skuEnableTimeUtcMs": "1552550400000",
-      "skuDisableTimeUtcMs": "1758499199000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Psychic_Spectacular_2025_Ticket_v1-1024x576-nologo.jpg",
-      "webstoreSkuId": "web-super-rocket-radar-ticket-box",
+      "skuDisableTimeUtcMs": "1769979600000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_DMAX_Ho-oh_Max_Battle_v2_1024x576-nologo.jpg",
+      "webstoreSkuId": "web-dmax-ho-oh-26-ticket-box",
       "webstoreSkuPriceE6": 4990000
     }
   },
@@ -10020,13 +10024,13 @@
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 2,
       "hidden": true,
-      "spriteId": "general1.ticket.5",
-      "title": "general1.ticket.5_PsychicSpecTGR_title",
+      "spriteId": "general1.ticket.4",
+      "title": "general1.ticket.6_dmaxHooh26_title",
       "skuEnableTime": "2019-03-14T08:00:00",
-      "skuDisableTime": "2025-09-21T23:59:59",
+      "skuDisableTime": "2026-02-01T21:00:00",
       "skuEnableTimeUtcMs": "1552550400000",
-      "skuDisableTimeUtcMs": "1758499199000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Psychic_Spectacular_2025_Ticket_v1-1024x576-nologo.jpg"
+      "skuDisableTimeUtcMs": "1769979600000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_DMAX_Ho-oh_Max_Battle_v2_1024x576-nologo.jpg"
     }
   },
   {
