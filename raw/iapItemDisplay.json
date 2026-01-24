@@ -7055,7 +7055,7 @@
       "sortOrder": 1,
       "hidden": true,
       "spriteId": "bundle.general.adventure.1",
-      "title": "hatch_box"
+      "title": "bundle.xmas.large.1_title"
     }
   },
   {
@@ -8391,9 +8391,15 @@
       "sku": "bundle.zzraid.1",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 1,
-      "hidden": true,
       "spriteId": "bundle.general.premiumbox.medium.1",
-      "title": "standard_raid_box_title"
+      "title": "standard_raid_box_title",
+      "skuEnableTime": "2019-10-31T21:00:00",
+      "skuDisableTime": "2026-01-24T20:00:00",
+      "skuEnableTimeUtcMs": "1572555600000",
+      "skuDisableTimeUtcMs": "1769284800000",
+      "showDiscountTag": true,
+      "showStrikethroughPrice": true,
+      "totalValue": 590
     }
   },
   {
@@ -8811,7 +8817,6 @@
       "sku": "general2.ticket.6",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 2,
-      "hidden": true,
       "spriteId": "general2.ticket.6",
       "title": "general2.ticket.6_ShadowRaikouRaidDay_title",
       "skuEnableTime": "2019-03-14T08:00:00",
@@ -8829,7 +8834,6 @@
       "sku": "general2.ticket.6.giftable",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 2,
-      "hidden": true,
       "spriteId": "general2.ticket.6",
       "title": "general2.ticket.6_ShadowRaikouRaidDay_title",
       "skuEnableTime": "2019-03-14T08:00:00",
@@ -8912,15 +8916,16 @@
     "data": {
       "sku": "general2.ticket.9",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
-      "sortOrder": 2,
+      "sortOrder": 1,
       "hidden": true,
       "spriteId": "general2.ticket.9",
-      "title": "general1.ticket._KyuremFusionRaidDay_title",
-      "skuEnableTime": "2019-03-14T08:00:00",
-      "skuDisableTime": "2026-01-10T17:00:00",
-      "skuEnableTimeUtcMs": "1552550400000",
-      "skuDisableTimeUtcMs": "1768064400000",
-      "webstoreSkuId": "web-kyurem-raid-day-ticket-box",
+      "title": "general1.ticket.5_CarnivalOFlamigo26_title",
+      "skuEnableTime": "2023-04-06T10:00:00",
+      "skuDisableTime": "2026-02-08T20:00:00",
+      "skuEnableTimeUtcMs": "1680775200000",
+      "skuDisableTimeUtcMs": "1770580800000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Carnival_of_Flamigo_v2-1024x576-nologo.jpg",
+      "webstoreSkuId": "web-carnival-flamigo-ticket-box",
       "webstoreSkuPriceE6": 4990000
     }
   },
@@ -8929,14 +8934,15 @@
     "data": {
       "sku": "general2.ticket.9.giftable",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
-      "sortOrder": 2,
+      "sortOrder": 1,
       "hidden": true,
       "spriteId": "general2.ticket.9",
-      "title": "general1.ticket._KyuremFusionRaidDay_title",
-      "skuEnableTime": "2019-03-14T08:00:00",
-      "skuDisableTime": "2026-01-10T17:00:00",
-      "skuEnableTimeUtcMs": "1552550400000",
-      "skuDisableTimeUtcMs": "1768064400000"
+      "title": "general1.ticket.5_CarnivalOFlamigo26_title",
+      "skuEnableTime": "2023-04-06T10:00:00",
+      "skuDisableTime": "2026-02-08T20:00:00",
+      "skuEnableTimeUtcMs": "1680775200000",
+      "skuDisableTimeUtcMs": "1770580800000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Carnival_of_Flamigo_v2-1024x576-nologo.jpg"
     }
   },
   {
@@ -9377,7 +9383,7 @@
       "sku": "pgorelease.bundle.general.thirdparty.medium.1",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 1,
-      "hidden": true,
+      "sale": true,
       "spriteId": "bundle1.sprite.a",
       "title": "battle_box",
       "skuEnableTime": "2019-10-31T21:00:00",
@@ -10241,7 +10247,6 @@
       "sku": "pgorelease.general2.ticket.6",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 2,
-      "hidden": true,
       "spriteId": "general2.ticket.6",
       "title": "general2.ticket.6_ShadowRaikouRaidDay_title",
       "skuEnableTime": "2019-03-14T08:00:00",
@@ -10259,7 +10264,6 @@
       "sku": "pgorelease.general2.ticket.6.giftable",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 2,
-      "hidden": true,
       "spriteId": "general2.ticket.6",
       "title": "general2.ticket.6_ShadowRaikouRaidDay_title",
       "skuEnableTime": "2019-03-14T08:00:00",
@@ -10342,15 +10346,16 @@
     "data": {
       "sku": "pgorelease.general2.ticket.9",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
-      "sortOrder": 2,
+      "sortOrder": 1,
       "hidden": true,
       "spriteId": "general2.ticket.9",
-      "title": "general1.ticket._KyuremFusionRaidDay_title",
-      "skuEnableTime": "2019-03-14T08:00:00",
-      "skuDisableTime": "2026-01-10T17:00:00",
-      "skuEnableTimeUtcMs": "1552550400000",
-      "skuDisableTimeUtcMs": "1768064400000",
-      "webstoreSkuId": "web-kyurem-raid-day-ticket-box",
+      "title": "general1.ticket.5_CarnivalOFlamigo26_title",
+      "skuEnableTime": "2023-04-06T10:00:00",
+      "skuDisableTime": "2026-02-08T20:00:00",
+      "skuEnableTimeUtcMs": "1680775200000",
+      "skuDisableTimeUtcMs": "1770580800000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Carnival_of_Flamigo_v2-1024x576-nologo.jpg",
+      "webstoreSkuId": "web-carnival-flamigo-ticket-box",
       "webstoreSkuPriceE6": 4990000
     }
   },
@@ -10359,14 +10364,15 @@
     "data": {
       "sku": "pgorelease.general2.ticket.9.giftable",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
-      "sortOrder": 2,
+      "sortOrder": 1,
       "hidden": true,
       "spriteId": "general2.ticket.9",
-      "title": "general1.ticket._KyuremFusionRaidDay_title",
-      "skuEnableTime": "2019-03-14T08:00:00",
-      "skuDisableTime": "2026-01-10T17:00:00",
-      "skuEnableTimeUtcMs": "1552550400000",
-      "skuDisableTimeUtcMs": "1768064400000"
+      "title": "general1.ticket.5_CarnivalOFlamigo26_title",
+      "skuEnableTime": "2023-04-06T10:00:00",
+      "skuDisableTime": "2026-02-08T20:00:00",
+      "skuEnableTimeUtcMs": "1680775200000",
+      "skuDisableTimeUtcMs": "1770580800000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Carnival_of_Flamigo_v2-1024x576-nologo.jpg"
     }
   },
   {

@@ -1063,7 +1063,7 @@ export interface CombatSettingData {
     shadowPokemonAttackBonusMultiplier:      number;
     shadowPokemonDefenseBonusMultiplier:     number;
     purifiedPokemonAttackMultiplierVsShadow: number;
-    combatExperiment:                        CombatExperiment[];
+    combatExperiment:                        LocationCard[];
     showQuickSwapButtonsDuringCountdown:     boolean;
     obCombatSettingsNotPushedBool2:          boolean;
     clockSyncSettings:                       ClockSyncSettings;
@@ -1076,7 +1076,7 @@ export interface ClockSyncSettings {
     enabled:          boolean;
 }
 
-export type CombatExperiment = number | string;
+export type LocationCard = number | string;
 
 export interface CombatFeatureFlags {
     realDeviceTimeEnabled: boolean;
@@ -1235,8 +1235,8 @@ export interface DeepLinkingSettings {
 export interface DeepLinkingSettingData {
     minPlayerLevelForExternalLink:     number;
     minPlayerLevelForNotificationLink: number;
-    actionsThatIgnoreMinLevel:         CombatExperiment[];
-    actionsThatExecuteBeforeMapLoads:  CombatExperiment[];
+    actionsThatIgnoreMinLevel:         LocationCard[];
+    actionsThatExecuteBeforeMapLoads:  LocationCard[];
     iosActionButtonEnabled:            boolean;
 }
 
@@ -2113,7 +2113,7 @@ export interface IrisSocialUxFunnelSettingData {
 
 export interface EventStep {
     stepNumber: number;
-    event:      CombatExperiment;
+    event:      LocationCard;
 }
 
 export interface ItemExpirationSettings {
@@ -2192,7 +2192,7 @@ export interface LocationCardSettings {
 }
 
 export interface LocationCardSettingData {
-    locationCard: string;
+    locationCard: LocationCard;
     imageUrl:     string;
     cardType?:    CardType;
     vfxAddress?:  string;
@@ -2443,7 +2443,7 @@ export interface MpSettingData {
 
 export interface BattleMpCostPerTier {
     breadBattleCatchMpCost:       number;
-    battleLevel:                  CombatExperiment;
+    battleLevel:                  LocationCard;
     breadBattleRemoteCatchMpCost: number;
 }
 
@@ -2901,7 +2901,7 @@ export interface PokedexCategoriesSettingData {
 }
 
 export interface PokedexCategorySettingsInOrder {
-    pokedexCategory: CombatExperiment;
+    pokedexCategory: LocationCard;
     milestoneGoal:   number;
     visuallyHidden?: boolean;
 }
@@ -3192,7 +3192,7 @@ export interface ReferralSettingData {
 }
 
 export interface RecentFeature {
-    iconType:    CombatExperiment;
+    iconType:    LocationCard;
     featureName: string;
     description: string;
 }

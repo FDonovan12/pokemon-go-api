@@ -728,41 +728,49 @@
       "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
       "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
       "globalEventTicket": {
-        "eventStartTime": "2026-01-10T14:00:00",
-        "eventEndTime": "2026-01-10T17:00:00",
-        "itemBagDescriptionKey": "item_event_ticket_gray_desc_KyuremFusionRaidDay",
+        "eventStartTime": "2026-02-03T10:00:00",
+        "eventEndTime": "2026-02-08T20:00:00",
+        "itemBagDescriptionKey": "item_event_ticket_evergreen_desc_CarnivalOFlamigo26",
         "giftable": true,
         "giftItem": "ITEM_EVENT_TICKET_09_TO_GIFT",
-        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Kyurem_FusionDay_v1-1024x576-nologo.jpg",
+        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Carnival_of_Flamigo_v2-1024x576-nologo.jpg",
         "displayV2Enabled": true,
-        "backgroundImageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Kyurem_FusionDay_v1-1024x576-nologo.jpg",
-        "eventDatetimeRangeKey": "event_datetime_range_key_KyuremFusionRaidDay",
-        "textRewardsKey": "text_rewards_key_KyuremFusionRaidDay",
+        "backgroundImageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Carnival_of_Flamigo_v2-1024x576-nologo.jpg",
+        "eventDatetimeRangeKey": "event_datetime_range_key_CarnivalOFlamigo26",
+        "textRewardsKey": "text_rewards_key_CarnivalOFlamigo26",
         "iconRewards": [
           {
-            "type": "ITEM",
-            "item": {
-              "item": "ITEM_FREE_RAID_TICKET",
-              "amount": 8
+            "type": "AVATAR_CLOTHING",
+            "neutralAvatarItemTemplate": {
+              "itemTemplateId": "N_AVATAR_n_pose_tinkatonhammer",
+              "displayTemplateId": "N_DISPLAY_n_pose_tinkatonhammer"
             }
           },
           {
-            "type": "ITEM",
-            "item": {
-              "item": "ITEM_XL_RARE_CANDY"
+            "type": "POKEMON_ENCOUNTER",
+            "pokemonEncounter": {
+              "pokemonId": "FLAMIGO",
+              "pokemonDisplay": {
+                "form": "FLAMIGO_NORMAL"
+              }
             }
           },
           {
-            "type": "STARDUST",
-            "stardust": 2
+            "type": "POKEMON_ENCOUNTER",
+            "pokemonEncounter": {
+              "pokemonId": "SPRITZEE",
+              "pokemonDisplay": {
+                "form": "SPRITZEE_NORMAL"
+              }
+            }
           }
         ],
         "detailsLinkKey": "details_link_key",
-        "clientEventStartTimeUtcMs": "1768053600000",
-        "clientEventEndTimeUtcMs": "1768064400000"
+        "clientEventStartTimeUtcMs": "1770112800000",
+        "clientEventEndTimeUtcMs": "1770580800000"
       },
-      "nameOverride": "general1.ticket._KyuremFusionRaidDay_title",
-      "descriptionOverride": "item_event_ticket_gray_desc_KyuremFusionRaidDay"
+      "nameOverride": "general1.ticket.5_CarnivalOFlamigo26_title",
+      "descriptionOverride": "item_event_ticket_evergreen_desc_CarnivalOFlamigo26"
     }
   },
   {
@@ -772,17 +780,17 @@
       "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
       "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
       "globalEventTicket": {
-        "eventStartTime": "2026-01-10T14:00:00",
-        "eventEndTime": "2026-01-10T17:00:00",
-        "itemBagDescriptionKey": "item_event_ticket_gray_details_KyuremFusionRaidDay",
+        "eventStartTime": "2026-02-03T10:00:00",
+        "eventEndTime": "2026-02-08T20:00:00",
+        "itemBagDescriptionKey": "item_event_ticket_evergreen_details_CarnivalOFlamigo26",
         "ticketItem": "ITEM_EVENT_TICKET_09",
-        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Kyurem_FusionDay_v1-1024x576-nologo.jpg",
-        "clientEventStartTimeUtcMs": "1768053600000",
-        "clientEventEndTimeUtcMs": "1768064400000"
+        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Carnival_of_Flamigo_v2-1024x576-nologo.jpg",
+        "clientEventStartTimeUtcMs": "1770112800000",
+        "clientEventEndTimeUtcMs": "1770580800000"
       },
       "ignoreInventorySpace": true,
-      "nameOverride": "general1.ticket._KyuremFusionRaidDay_title",
-      "descriptionOverride": "item_event_ticket_gray_details_KyuremFusionRaidDay"
+      "nameOverride": "general1.ticket.5_CarnivalOFlamigo26_title",
+      "descriptionOverride": "item_event_ticket_evergreen_details_CarnivalOFlamigo26"
     }
   },
   {
@@ -868,44 +876,35 @@
       "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
       "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
       "globalEventTicket": {
-        "eventStartTime": "2025-09-16T00:00:00",
-        "eventEndTime": "2025-09-21T23:59:59",
-        "itemBagDescriptionKey": "item_event_ticket_gray_desc_PsychicSpecTGR",
+        "eventStartTime": "2026-01-31T06:00:00",
+        "eventEndTime": "2026-02-01T21:00:00",
+        "itemBagDescriptionKey": "item_event_ticket_08_desc_gmaxHooh26",
         "giftable": true,
         "giftItem": "ITEM_EVENT_TICKET_GRAY_TO_GIFT",
-        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Psychic_Spectacular_2025_Ticket_v1-1024x576-nologo.jpg",
+        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_DMAX_Ho-oh_Max_Battle_v2_1024x576-nologo.jpg",
         "displayV2Enabled": true,
-        "backgroundImageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Psychic_Spectacular_2025_Ticket_v1-1024x576-nologo.jpg",
-        "eventDatetimeRangeKey": "event_datetime_range_key_PsychicSpecTGR",
-        "textRewardsKey": "text_rewards_key_PsychicSpecTGR",
+        "backgroundImageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_DMAX_Ho-oh_Max_Battle_v2_1024x576-nologo.jpg",
+        "eventDatetimeRangeKey": "event_datetime_range_key_dmaxHooh26",
+        "textRewardsKey": "text_rewards_key_dmaxHooh26",
         "iconRewards": [
           {
-            "type": "POKEMON_ENCOUNTER",
-            "pokemonEncounter": {
-              "pokemonId": "WYRDEER"
+            "type": "ITEM",
+            "item": {
+              "item": "ITEM_MP",
+              "amount": 6400
             }
           },
           {
-            "type": "ITEM",
-            "item": {
-              "item": "ITEM_GIOVANNI_MAP",
-              "amount": 1
-            }
-          },
-          {
-            "type": "ITEM",
-            "item": {
-              "item": "ITEM_PAID_RAID_TICKET",
-              "amount": 2
-            }
+            "type": "EXPERIENCE",
+            "exp": 2
           }
         ],
         "detailsLinkKey": "details_link_key",
-        "clientEventStartTimeUtcMs": "1757980800000",
-        "clientEventEndTimeUtcMs": "1758499199000"
+        "clientEventStartTimeUtcMs": "1769839200000",
+        "clientEventEndTimeUtcMs": "1769979600000"
       },
-      "nameOverride": "general1.ticket.5_PsychicSpecTGR_title",
-      "descriptionOverride": "item_event_ticket_gray_desc_PsychicSpecTGR"
+      "nameOverride": "general1.ticket.6_dmaxHooh26_title",
+      "descriptionOverride": "item_event_ticket_08_desc_gmaxHooh26"
     }
   },
   {
@@ -915,16 +914,16 @@
       "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
       "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
       "globalEventTicket": {
-        "eventStartTime": "2025-09-16T00:00:00",
-        "eventEndTime": "2025-09-21T23:59:59",
-        "itemBagDescriptionKey": "item_event_ticket_gray_details_PsychicSpecTGR",
+        "eventStartTime": "2026-01-31T06:00:00",
+        "eventEndTime": "2026-02-01T21:00:00",
+        "itemBagDescriptionKey": "item_event_ticket_08_details_gmaxHooh26",
         "ticketItem": "ITEM_EVENT_TICKET_GRAY",
-        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Psychic_Spectacular_2025_Ticket_v1-1024x576-nologo.jpg",
-        "clientEventStartTimeUtcMs": "1757980800000",
-        "clientEventEndTimeUtcMs": "1758499199000"
+        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_DMAX_Ho-oh_Max_Battle_v2_1024x576-nologo.jpg",
+        "clientEventStartTimeUtcMs": "1769839200000",
+        "clientEventEndTimeUtcMs": "1769979600000"
       },
       "ignoreInventorySpace": true,
-      "descriptionOverride": "item_event_ticket_gray_details_PsychicSpecTGR"
+      "descriptionOverride": "item_event_ticket_08_details_gmaxHooh26"
     }
   },
   {
