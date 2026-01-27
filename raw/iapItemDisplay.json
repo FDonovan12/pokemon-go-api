@@ -37,11 +37,10 @@
       "hidden": true,
       "title": "gotour_2025_deluxe_event_pass_track_unlock_title",
       "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
-      "skuEnableTime": "2024-01-01T10:00:00",
-      "skuDisableTime": "2024-01-02T10:00:00",
-      "skuEnableTimeUtcMs": "1704103200000",
-      "skuDisableTimeUtcMs": "1704189600000",
-      "imageUrl": "https://storage.googleapis.com/prod-public-images/20241209_gotour_2025_victini_003_1024x512.jpg"
+      "skuEnableTime": "2025-01-01T00:00:00",
+      "skuDisableTime": "2025-01-02T00:00:00",
+      "skuEnableTimeUtcMs": "1735689600000",
+      "skuDisableTimeUtcMs": "1735776000000"
     }
   },
   {
@@ -213,11 +212,10 @@
       "hidden": true,
       "title": "gotour_2025_deluxe_event_pass_track_unlock_title",
       "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
-      "skuEnableTime": "2024-01-01T10:00:00",
-      "skuDisableTime": "2024-01-02T10:00:00",
-      "skuEnableTimeUtcMs": "1704103200000",
-      "skuDisableTimeUtcMs": "1704189600000",
-      "imageUrl": "https://storage.googleapis.com/prod-public-images/20241209_gotour_2025_victini_003_1024x512.jpg"
+      "skuEnableTime": "2025-01-01T00:00:00",
+      "skuDisableTime": "2025-01-02T00:00:00",
+      "skuEnableTimeUtcMs": "1735689600000",
+      "skuDisableTimeUtcMs": "1735776000000"
     }
   },
   {
@@ -228,11 +226,10 @@
       "hidden": true,
       "title": "gotour_2025_deluxe_event_pass_track_unlock_plus_points_title",
       "description": "gotour_2025_deluxe_event_pass_track_unlock_plus_points_description",
-      "skuEnableTime": "2024-01-01T10:00:00",
-      "skuDisableTime": "2024-01-02T10:00:00",
-      "skuEnableTimeUtcMs": "1704103200000",
-      "skuDisableTimeUtcMs": "1704189600000",
-      "imageUrl": "https://storage.googleapis.com/prod-public-images/20241209_gotour_2025_victini_003_1024x512.jpg"
+      "skuEnableTime": "2025-01-01T00:00:00",
+      "skuDisableTime": "2025-01-02T00:00:00",
+      "skuEnableTimeUtcMs": "1735689600000",
+      "skuDisableTimeUtcMs": "1735776000000"
     }
   },
   {
@@ -8391,15 +8388,9 @@
       "sku": "bundle.zzraid.1",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 1,
+      "hidden": true,
       "spriteId": "bundle.general.premiumbox.medium.1",
-      "title": "standard_raid_box_title",
-      "skuEnableTime": "2019-10-31T21:00:00",
-      "skuDisableTime": "2026-01-24T20:00:00",
-      "skuEnableTimeUtcMs": "1572555600000",
-      "skuDisableTimeUtcMs": "1769284800000",
-      "showDiscountTag": true,
-      "showStrikethroughPrice": true,
-      "totalValue": 590
+      "title": "standard_raid_box_title"
     }
   },
   {
@@ -8783,6 +8774,7 @@
       "sku": "general2.ticket.5",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 46324,
+      "hidden": true,
       "spriteId": "general2.ticket.5",
       "title": "general1.ticket.5_buddy_event_title",
       "description": "item_event_ticket_gray_desc_buddy_event",
@@ -8801,6 +8793,7 @@
       "sku": "general2.ticket.5.giftable",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 46324,
+      "hidden": true,
       "spriteId": "general2.ticket.5",
       "title": "general1.ticket.5_buddy_event_title",
       "description": "item_event_ticket_gray_desc_buddy_event",
@@ -8817,6 +8810,7 @@
       "sku": "general2.ticket.6",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 2,
+      "hidden": true,
       "spriteId": "general2.ticket.6",
       "title": "general2.ticket.6_ShadowRaikouRaidDay_title",
       "skuEnableTime": "2019-03-14T08:00:00",
@@ -8834,6 +8828,7 @@
       "sku": "general2.ticket.6.giftable",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 2,
+      "hidden": true,
       "spriteId": "general2.ticket.6",
       "title": "general2.ticket.6_ShadowRaikouRaidDay_title",
       "skuEnableTime": "2019-03-14T08:00:00",
@@ -9383,7 +9378,7 @@
       "sku": "pgorelease.bundle.general.thirdparty.medium.1",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 1,
-      "sale": true,
+      "hidden": true,
       "spriteId": "bundle1.sprite.a",
       "title": "battle_box",
       "skuEnableTime": "2019-10-31T21:00:00",
@@ -10213,6 +10208,7 @@
       "sku": "pgorelease.general2.ticket.5",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 46324,
+      "hidden": true,
       "spriteId": "general2.ticket.2",
       "title": "general1.ticket.5_buddy_event_title",
       "description": "item_event_ticket_gray_desc_buddy_event",
@@ -10231,6 +10227,7 @@
       "sku": "pgorelease.general2.ticket.5.giftable",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 46324,
+      "hidden": true,
       "spriteId": "general2.ticket.2",
       "title": "general1.ticket.5_buddy_event_title",
       "description": "item_event_ticket_gray_desc_buddy_event",
@@ -10247,6 +10244,7 @@
       "sku": "pgorelease.general2.ticket.6",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 2,
+      "hidden": true,
       "spriteId": "general2.ticket.6",
       "title": "general2.ticket.6_ShadowRaikouRaidDay_title",
       "skuEnableTime": "2019-03-14T08:00:00",
@@ -10264,6 +10262,7 @@
       "sku": "pgorelease.general2.ticket.6.giftable",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 2,
+      "hidden": true,
       "spriteId": "general2.ticket.6",
       "title": "general2.ticket.6_ShadowRaikouRaidDay_title",
       "skuEnableTime": "2019-03-14T08:00:00",

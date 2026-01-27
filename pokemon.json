@@ -30726,9 +30726,6 @@
       "EARTH_POWER",
       "DRUM_BEATING"
     ],
-    "eliteCinematicMove": [
-      "FRENZY_PLANT"
-    ],
     "familyId": "FAMILY_GROOKEY",
     "encounter": {
       "stardustCaptureReward": 500

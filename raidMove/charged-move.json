@@ -1987,7 +1987,7 @@
     "id": "V0465_MOVE_FLOWER_TRICK",
     "movementId": "FLOWER_TRICK",
     "pokemonType": "POKEMON_TYPE_GRASS",
-    "power": 85,
+    "power": 75,
     "durationMs": 3000,
     "energyDelta": -33,
     "vfxName": "flower_trick"
@@ -2050,7 +2050,7 @@
     "id": "V0472_MOVE_THUNDER_CAGE",
     "movementId": "THUNDER_CAGE",
     "pokemonType": "POKEMON_TYPE_ELECTRIC",
-    "power": 230,
+    "power": 220,
     "durationMs": 3500,
     "energyDelta": -100,
     "vfxName": "thunder_cage"
@@ -2068,7 +2068,7 @@
     "id": "V0484_MOVE_CLANGING_SCALES",
     "movementId": "CLANGING_SCALES",
     "pokemonType": "POKEMON_TYPE_DRAGON",
-    "power": 130,
+    "power": 120,
     "durationMs": 3500,
     "energyDelta": -100,
     "vfxName": "clanging_scales"
@@ -2077,7 +2077,7 @@
     "id": "V0485_MOVE_CRUSH_GRIP",
     "movementId": "CRUSH_GRIP",
     "pokemonType": "POKEMON_TYPE_NORMAL",
-    "power": 230,
+    "power": 210,
     "durationMs": 2000,
     "energyDelta": -100,
     "vfxName": "crush_grip"
@@ -2086,7 +2086,7 @@
     "id": "V0486_MOVE_DRAGON_ENERGY",
     "movementId": "DRAGON_ENERGY",
     "pokemonType": "POKEMON_TYPE_DRAGON",
-    "power": 165,
+    "power": 155,
     "durationMs": 3500,
     "energyDelta": -50,
     "vfxName": "dragon_energy"

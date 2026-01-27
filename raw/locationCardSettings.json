@@ -549,6 +549,48 @@
     }
   },
   {
+    "templateId": "LC_POKELID_AICHI",
+    "data": {
+      "locationCard": "LC_POKELID_AICHI",
+      "imageUrl": "lc_pokelid_aichi"
+    }
+  },
+  {
+    "templateId": "LC_POKELID_AKITA",
+    "data": {
+      "locationCard": "LC_POKELID_AKITA",
+      "imageUrl": "lc_pokelid_akita"
+    }
+  },
+  {
+    "templateId": "LC_POKELID_AOMORI",
+    "data": {
+      "locationCard": "LC_POKELID_AOMORI",
+      "imageUrl": "lc_pokelid_aomori"
+    }
+  },
+  {
+    "templateId": "LC_POKELID_CHIBA",
+    "data": {
+      "locationCard": "LC_POKELID_CHIBA",
+      "imageUrl": "lc_pokelid_chiba"
+    }
+  },
+  {
+    "templateId": "LC_POKELID_EHIME",
+    "data": {
+      "locationCard": "LC_POKELID_EHIME",
+      "imageUrl": "lc_pokelid_ehime"
+    }
+  },
+  {
+    "templateId": "LC_POKELID_FUKUI",
+    "data": {
+      "locationCard": "LC_POKELID_FUKUI",
+      "imageUrl": "lc_pokelid_fukui"
+    }
+  },
+  {
     "templateId": "LC_POKELID_FUKUOKA",
     "data": {
       "locationCard": "LC_POKELID_FUKUOKA",
@@ -556,10 +598,101 @@
     }
   },
   {
+    "templateId": "LC_POKELID_FUKUSHIMA",
+    "data": {
+      "locationCard": "LC_POKELID_FUKUSHIMA",
+      "imageUrl": "lc_pokelid_fukushima"
+    }
+  },
+  {
+    "templateId": "LC_POKELID_GIFU",
+    "data": {
+      "locationCard": "LC_POKELID_GIFU",
+      "imageUrl": "lc_pokelid_gifu"
+    }
+  },
+  {
+    "templateId": "LC_POKELID_HOKKAIDO",
+    "data": {
+      "locationCard": "LC_POKELID_HOKKAIDO",
+      "imageUrl": "lc_pokelid_hokkaido"
+    }
+  },
+  {
+    "templateId": "LC_POKELID_HYOGO",
+    "data": {
+      "locationCard": "LC_POKELID_HYOGO",
+      "imageUrl": "lc_pokelid_hyogo"
+    }
+  },
+  {
+    "templateId": "LC_POKELID_IBARAKI",
+    "data": {
+      "locationCard": "LC_POKELID_IBARAKI",
+      "imageUrl": "lc_pokelid_ibaraki"
+    }
+  },
+  {
+    "templateId": "LC_POKELID_ISHIKAWA",
+    "data": {
+      "locationCard": "LC_POKELID_ISHIKAWA",
+      "imageUrl": "lc_pokelid_ishikawa"
+    }
+  },
+  {
+    "templateId": "LC_POKELID_IWATE",
+    "data": {
+      "locationCard": "LC_POKELID_IWATE",
+      "imageUrl": "lc_pokelid_iwate"
+    }
+  },
+  {
+    "templateId": "LC_POKELID_KAGAWA",
+    "data": {
+      "locationCard": "LC_POKELID_KAGAWA",
+      "imageUrl": "lc_pokelid_kagawa"
+    }
+  },
+  {
     "templateId": "LC_POKELID_KAGOSHIMA",
     "data": {
       "locationCard": "LC_POKELID_KAGOSHIMA",
       "imageUrl": "lc_pokelid_kagoshima"
+    }
+  },
+  {
+    "templateId": "LC_POKELID_KANAGAWA",
+    "data": {
+      "locationCard": "LC_POKELID_KANAGAWA",
+      "imageUrl": "lc_pokelid_kanagawa"
+    }
+  },
+  {
+    "templateId": "LC_POKELID_KOCHI",
+    "data": {
+      "locationCard": "LC_POKELID_KOCHI",
+      "imageUrl": "lc_pokelid_kochi"
+    }
+  },
+  {
+    "templateId": "LC_POKELID_KYOTO",
+    "data": {
+      "locationCard": "LC_POKELID_KYOTO",
+      "imageUrl": "lc_pokelid_kyoto"
+    }
+  },
+  {
+    "templateId": "LC_POKELID_MIE",
+    "data": {
+      "locationCard": "LC_POKELID_MIE",
+      "imageUrl": "lc_pokelid_mie"
+    }
+  },
+  {
+    "templateId": "LC_POKELID_MIYAGI",
+    "data": {
+      "locationCard": "LC_POKELID_MIYAGI",
+      "imageUrl": "lc_pokelid_miyagi"
     }
   },
   {
@@ -577,6 +710,27 @@
     }
   },
   {
+    "templateId": "LC_POKELID_NARA",
+    "data": {
+      "locationCard": "LC_POKELID_NARA",
+      "imageUrl": "lc_pokelid_nara"
+    }
+  },
+  {
+    "templateId": "LC_POKELID_NIIGATA",
+    "data": {
+      "locationCard": "LC_POKELID_NIIGATA",
+      "imageUrl": "lc_pokelid_niigata"
+    }
+  },
+  {
+    "templateId": "LC_POKELID_OKAYAMA",
+    "data": {
+      "locationCard": "LC_POKELID_OKAYAMA",
+      "imageUrl": "lc_pokelid_okayama"
+    }
+  },
+  {
     "templateId": "LC_POKELID_OKINAWA",
     "data": {
       "locationCard": "LC_POKELID_OKINAWA",
@@ -584,10 +738,101 @@
     }
   },
   {
+    "templateId": "LC_POKELID_OSAKA",
+    "data": {
+      "locationCard": "LC_POKELID_OSAKA",
+      "imageUrl": "lc_pokelid_osaka"
+    }
+  },
+  {
     "templateId": "LC_POKELID_SAGA",
     "data": {
       "locationCard": "LC_POKELID_SAGA",
       "imageUrl": "lc_pokelid_saga"
+    }
+  },
+  {
+    "templateId": "LC_POKELID_SAITAMA",
+    "data": {
+      "locationCard": "LC_POKELID_SAITAMA",
+      "imageUrl": "lc_pokelid_saitama"
+    }
+  },
+  {
+    "templateId": "LC_POKELID_SHIGA",
+    "data": {
+      "locationCard": "LC_POKELID_SHIGA",
+      "imageUrl": "lc_pokelid_shiga"
+    }
+  },
+  {
+    "templateId": "LC_POKELID_SHIMANE",
+    "data": {
+      "locationCard": "LC_POKELID_SHIMANE",
+      "imageUrl": "lc_pokelid_shimane"
+    }
+  },
+  {
+    "templateId": "LC_POKELID_SHIZUOKA",
+    "data": {
+      "locationCard": "LC_POKELID_SHIZUOKA",
+      "imageUrl": "lc_pokelid_shizuoka"
+    }
+  },
+  {
+    "templateId": "LC_POKELID_TOCHIGI",
+    "data": {
+      "locationCard": "LC_POKELID_TOCHIGI",
+      "imageUrl": "lc_pokelid_tochigi"
+    }
+  },
+  {
+    "templateId": "LC_POKELID_TOKUSHIMA",
+    "data": {
+      "locationCard": "LC_POKELID_TOKUSHIMA",
+      "imageUrl": "lc_pokelid_tokushima"
+    }
+  },
+  {
+    "templateId": "LC_POKELID_TOKYO",
+    "data": {
+      "locationCard": "LC_POKELID_TOKYO",
+      "imageUrl": "lc_pokelid_tokyo"
+    }
+  },
+  {
+    "templateId": "LC_POKELID_TOTTORI",
+    "data": {
+      "locationCard": "LC_POKELID_TOTTORI",
+      "imageUrl": "lc_pokelid_tottori"
+    }
+  },
+  {
+    "templateId": "LC_POKELID_TOYAMA",
+    "data": {
+      "locationCard": "LC_POKELID_TOYAMA",
+      "imageUrl": "lc_pokelid_toyama"
+    }
+  },
+  {
+    "templateId": "LC_POKELID_WAKAYAMA",
+    "data": {
+      "locationCard": "LC_POKELID_WAKAYAMA",
+      "imageUrl": "lc_pokelid_wakayama"
+    }
+  },
+  {
+    "templateId": "LC_POKELID_YAMAGATA",
+    "data": {
+      "locationCard": "LC_POKELID_YAMAGATA",
+      "imageUrl": "lc_pokelid_yamagata"
+    }
+  },
+  {
+    "templateId": "LC_POKELID_YAMAGUCHI",
+    "data": {
+      "locationCard": "LC_POKELID_YAMAGUCHI",
+      "imageUrl": "lc_pokelid_yamaguchi"
     }
   },
   {
@@ -822,11 +1067,66 @@
     }
   },
   {
+    "templateId": "LC_SPECIALBACKGROUND_2026_GLOBAL_DIAMOND_001",
+    "data": {
+      "locationCard": 220,
+      "imageUrl": "sb_GoTour2026_diamond",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_Diamond"
+    }
+  },
+  {
+    "templateId": "LC_SPECIALBACKGROUND_2026_GLOBAL_GOLD_001",
+    "data": {
+      "locationCard": 216,
+      "imageUrl": "sb_GoTour2026_gold",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_Gold"
+    }
+  },
+  {
     "templateId": "LC_SPECIALBACKGROUND_2026_GLOBAL_MEGA_001",
     "data": {
       "locationCard": 224,
       "imageUrl": "sb_GoTour2026_mega",
-      "cardType": "SPECIAL_BACKGROUND"
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_Mega"
+    }
+  },
+  {
+    "templateId": "LC_SPECIALBACKGROUND_2026_GLOBAL_PEARL_001",
+    "data": {
+      "locationCard": 221,
+      "imageUrl": "sb_GoTour2026_pearl",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_Pearl"
+    }
+  },
+  {
+    "templateId": "LC_SPECIALBACKGROUND_2026_GLOBAL_RUBY_001",
+    "data": {
+      "locationCard": 218,
+      "imageUrl": "sb_GoTour2026_ruby",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_Ruby"
+    }
+  },
+  {
+    "templateId": "LC_SPECIALBACKGROUND_2026_GLOBAL_SAPPHIRE_001",
+    "data": {
+      "locationCard": 219,
+      "imageUrl": "sb_GoTour2026_sapphire",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_Sapphire"
+    }
+  },
+  {
+    "templateId": "LC_SPECIALBACKGROUND_2026_GLOBAL_SILVER_001",
+    "data": {
+      "locationCard": 217,
+      "imageUrl": "sb_GoTour2026_silver",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_Silver"
     }
   },
   {
@@ -834,7 +1134,8 @@
     "data": {
       "locationCard": 222,
       "imageUrl": "sb_GoTour2026_x",
-      "cardType": "SPECIAL_BACKGROUND"
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_X"
     }
   },
   {
@@ -842,7 +1143,8 @@
     "data": {
       "locationCard": 223,
       "imageUrl": "sb_GoTour2026_y",
-      "cardType": "SPECIAL_BACKGROUND"
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_Y"
     }
   },
   {

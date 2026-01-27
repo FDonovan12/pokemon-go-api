@@ -1737,20 +1737,16 @@
         "questContext": "WEEKLY_CHALLENGE_QUEST",
         "templateId": "WEEKLY_CHALLENGE_PARTY_QUEST",
         "goal": {
-          "target": 500
+          "target": 100
         },
         "questRewards": [
           {
             "type": "STARDUST",
-            "stardust": 6000
+            "stardust": 600
           },
           {
             "type": "FRIENDSHIP_POINTS",
             "friendshipPoints": 7
-          },
-          {
-            "type": "EXPERIENCE",
-            "exp": 20000
           }
         ],
         "difficulty": "EASY"

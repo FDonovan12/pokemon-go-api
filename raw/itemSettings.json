@@ -893,10 +893,6 @@
               "item": "ITEM_MP",
               "amount": 6400
             }
-          },
-          {
-            "type": "EXPERIENCE",
-            "exp": 2
           }
         ],
         "detailsLinkKey": "details_link_key",

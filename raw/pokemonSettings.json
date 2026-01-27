@@ -38761,7 +38761,7 @@
           "priority": 100,
           "questDisplay": [
             {
-              "questRequirementTemplateId": "SYLVEON_BUDDY_EVENT_EVOLUTION_QUEST"
+              "questRequirementTemplateId": "SYLVEON_EVOLUTION_QUEST"
             }
           ]
         }
@@ -39105,7 +39105,7 @@
           "priority": 100,
           "questDisplay": [
             {
-              "questRequirementTemplateId": "SYLVEON_BUDDY_EVENT_EVOLUTION_QUEST"
+              "questRequirementTemplateId": "SYLVEON_EVOLUTION_QUEST"
             }
           ]
         }
@@ -168177,7 +168177,7 @@
           "candyCost": 50,
           "questDisplay": [
             {
-              "questRequirementTemplateId": "PANCHAM_BUDDY_EVENT_EVOLUTION_QUEST"
+              "questRequirementTemplateId": "PANCHAM_EVOLUTION_QUEST"
             }
           ]
         }
@@ -168255,7 +168255,7 @@
           "form": "PANGORO_NORMAL",
           "questDisplay": [
             {
-              "questRequirementTemplateId": "PANCHAM_BUDDY_EVENT_EVOLUTION_QUEST"
+              "questRequirementTemplateId": "PANCHAM_EVOLUTION_QUEST"
             }
           ]
         }
@@ -196403,9 +196403,6 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 2,
-      "eliteCinematicMove": [
-        "FRENZY_PLANT"
-      ],
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
     }
@@ -196480,9 +196477,6 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 2,
-      "eliteCinematicMove": [
-        "FRENZY_PLANT"
-      ],
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
     }
@@ -214764,7 +214758,7 @@
           "kmBuddyDistanceRequirement": 25,
           "questDisplay": [
             {
-              "questRequirementTemplateId": "PAWMOT_BUDDY_EVENT_EVOLUTION_QUEST"
+              "questRequirementTemplateId": "PAWMOT_EVOLUTION_QUEST"
             }
           ]
         }
@@ -214842,7 +214836,7 @@
           "form": "PAWMOT_NORMAL",
           "questDisplay": [
             {
-              "questRequirementTemplateId": "PAWMOT_BUDDY_EVENT_EVOLUTION_QUEST"
+              "questRequirementTemplateId": "PAWMOT_EVOLUTION_QUEST"
             }
           ]
         }

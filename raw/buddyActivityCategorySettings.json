@@ -17,14 +17,14 @@
     "templateId": "BUDDY_CATEGORY_CARE",
     "data": {
       "activityCategory": "BUDDY_CATEGORY_CARE",
-      "maxPointsPerDay": 3
+      "maxPointsPerDay": 1
     }
   },
   {
     "templateId": "BUDDY_CATEGORY_EXPLORE",
     "data": {
       "activityCategory": "BUDDY_CATEGORY_EXPLORE",
-      "maxPointsPerDay": 3
+      "maxPointsPerDay": 1
     }
   },
   {
@@ -38,14 +38,14 @@
     "templateId": "BUDDY_CATEGORY_ROUTE",
     "data": {
       "activityCategory": "BUDDY_CATEGORY_ROUTE",
-      "maxPointsPerDay": 3
+      "maxPointsPerDay": 1
     }
   },
   {
     "templateId": "BUDDY_CATEGORY_SNAPSHOT",
     "data": {
       "activityCategory": "BUDDY_CATEGORY_SNAPSHOT",
-      "maxPointsPerDay": 3
+      "maxPointsPerDay": 1
     }
   },
   {

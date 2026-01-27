@@ -51,12 +51,6 @@
     }
   },
   {
-    "templateId": "PARTY_TAB_SOCIAL_TAB_REORGANIZATION_CODE_GATE",
-    "data": {
-      "isEnabled": true
-    }
-  },
-  {
     "templateId": "PUSH_GATEWAY_MULTI_ACTION_CODE_GATE",
     "data": {
       "isEnabled": true
