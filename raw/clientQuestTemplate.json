@@ -1914,6 +1914,15 @@
           {
             "type": "EXPERIENCE",
             "exp": 20000
+          },
+          {
+            "type": "POKEMON_ENCOUNTER",
+            "pokemonEncounter": {
+              "pokemonId": "TANDEMAUS",
+              "pokemonDisplay": {
+                "form": "TANDEMAUS_NORMAL"
+              }
+            }
           }
         ],
         "difficulty": "EASY"
