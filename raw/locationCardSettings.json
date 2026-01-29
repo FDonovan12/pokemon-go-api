@@ -491,6 +491,13 @@
     }
   },
   {
+    "templateId": "LC_2026_COLOGNE_CARNIVAL_001",
+    "data": {
+      "locationCard": 244,
+      "imageUrl": "lc_carnivalFlamigo_cologne_2026"
+    }
+  },
+  {
     "templateId": "LC_2026_LOSANGELES_GOTOUR_001",
     "data": {
       "locationCard": 214,
@@ -503,6 +510,13 @@
     "data": {
       "locationCard": "LC_2026_PPK_001",
       "imageUrl": "lc_2026_ppk_001"
+    }
+  },
+  {
+    "templateId": "LC_2026_RIODEJANEIRO_CARNIVAL_001",
+    "data": {
+      "locationCard": 243,
+      "imageUrl": "lc_carnivalFlamigo_rio_2026"
     }
   },
   {

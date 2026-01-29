@@ -566,6 +566,33 @@
               "max": 15
             }
           }
+        },
+        {
+          "pokemon": {
+            "pokemonId": "TORNADUS",
+            "pokemonDisplay": {
+              "form": "TORNADUS_INCARNATE"
+            }
+          },
+          "unlockedAtRank": 20,
+          "attackIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          },
+          "defenseIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          },
+          "staminaIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          }
         }
       ]
     }
@@ -1119,6 +1146,33 @@
             }
           },
           "unlockedAtRank": 16,
+          "attackIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          },
+          "defenseIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          },
+          "staminaIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          }
+        },
+        {
+          "pokemon": {
+            "pokemonId": "TORNADUS",
+            "pokemonDisplay": {
+              "form": "TORNADUS_INCARNATE"
+            }
+          },
+          "unlockedAtRank": 20,
           "attackIvOverride": {
             "range": {
               "min": 10,

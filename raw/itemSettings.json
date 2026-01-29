@@ -742,8 +742,8 @@
           {
             "type": "AVATAR_CLOTHING",
             "neutralAvatarItemTemplate": {
-              "itemTemplateId": "N_AVATAR_n_pose_tinkatonhammer",
-              "displayTemplateId": "N_DISPLAY_n_pose_tinkatonhammer"
+              "itemTemplateId": "N_AVATAR_n_pose_carnival",
+              "displayTemplateId": "N_DISPLAY_n_pose_carnival"
             }
           },
           {

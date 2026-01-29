@@ -5025,6 +5025,13 @@
     }
   },
   {
+    "templateId": "N_DISPLAY_n_pose_carnival",
+    "data": {
+      "iconAddress": "n_pose_carnival_icon",
+      "displayStringId": "avatar_pose_carnival"
+    }
+  },
+  {
     "templateId": "N_DISPLAY_n_pose_communityambassador",
     "data": {
       "iconAddress": "n_pose_communityambassador_icon",
