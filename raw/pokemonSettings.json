@@ -221710,13 +221710,19 @@
       "pokemonId": "FLAMIGO",
       "type": "POKEMON_TYPE_FLYING",
       "type2": "POKEMON_TYPE_FIGHTING",
-      "camera": {},
+      "camera": {
+        "cylinderRadiusM": 0.4,
+        "cylinderHeightM": 1.6
+      },
       "encounter": {
+        "collisionRadiusM": 0.4,
+        "collisionHeightM": 1.6,
         "movementType": "MOVEMENT_JUMP",
         "jumpTimeS": 1,
         "attackProbability": 0.1,
         "dodgeProbability": 0.15,
         "dodgeDurationS": 1,
+        "cameraDistance": 4.8,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
@@ -221732,7 +221738,7 @@
       "cinematicMoves": [
         "AERIAL_ACE",
         "BRAVE_BIRD",
-        "CLOSE_COMBAT"
+        "UPPER_HAND"
       ],
       "pokedexHeightM": 1.6,
       "pokedexWeightKg": 37,
@@ -221740,6 +221746,13 @@
       "weightStdDev": 4.625,
       "familyId": "FAMILY_FLAMIGO",
       "kmBuddyDistance": 3,
+      "modelHeight": 1.6,
+      "modelScaleV2": 1,
+      "buddyPortraitOffset": [
+        -20,
+        30,
+        200
+      ],
       "thirdMove": {
         "stardustToUnlock": 75000,
         "candyToUnlock": 75
@@ -221747,6 +221760,11 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "buddyPortraitRotation": [
+        0,
+        -10,
+        0
+      ],
       "ibfc": {},
       "breadTierGroup": "GROUP_3"
     }
@@ -221757,13 +221775,19 @@
       "pokemonId": "FLAMIGO",
       "type": "POKEMON_TYPE_FLYING",
       "type2": "POKEMON_TYPE_FIGHTING",
-      "camera": {},
+      "camera": {
+        "cylinderRadiusM": 0.4,
+        "cylinderHeightM": 1.6
+      },
       "encounter": {
+        "collisionRadiusM": 0.4,
+        "collisionHeightM": 1.6,
         "movementType": "MOVEMENT_JUMP",
         "jumpTimeS": 1,
         "attackProbability": 0.1,
         "dodgeProbability": 0.15,
         "dodgeDurationS": 1,
+        "cameraDistance": 4.8,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
@@ -221779,7 +221803,7 @@
       "cinematicMoves": [
         "AERIAL_ACE",
         "BRAVE_BIRD",
-        "CLOSE_COMBAT"
+        "UPPER_HAND"
       ],
       "pokedexHeightM": 1.6,
       "pokedexWeightKg": 37,
@@ -221787,7 +221811,14 @@
       "weightStdDev": 4.625,
       "familyId": "FAMILY_FLAMIGO",
       "kmBuddyDistance": 3,
+      "modelHeight": 1.6,
+      "modelScaleV2": 1,
       "form": "FLAMIGO_NORMAL",
+      "buddyPortraitOffset": [
+        -20,
+        30,
+        200
+      ],
       "thirdMove": {
         "stardustToUnlock": 75000,
         "candyToUnlock": 75
@@ -221795,6 +221826,11 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "buddyPortraitRotation": [
+        0,
+        -10,
+        0
+      ],
       "ibfc": {},
       "breadTierGroup": "GROUP_3"
     }

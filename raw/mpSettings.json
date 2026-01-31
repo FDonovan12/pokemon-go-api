@@ -3,12 +3,12 @@
     "templateId": "MP_SHARED_SETTINGS",
     "data": {
       "numMpFromWalkQuest": 300,
-      "numMetersGoal": 2000,
+      "numMetersGoal": 500,
       "debugAllowRemoveWalkQuest": true,
-      "numMpFromLootStation": 100,
+      "numMpFromLootStation": 800,
       "numExtraMpFromFirstLootStation": 20,
       "mpCapacity": 1500,
-      "mpBaseDailyLimit": 800,
+      "mpBaseDailyLimit": 1600,
       "mpClaimParticleSpeedMultiplier": 1,
       "battleMpCostPerTier": [
         {

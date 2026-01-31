@@ -12,7 +12,6 @@
         "SILVALLY",
         "MINIOR",
         "MAGEARNA",
-        "ZERAORA",
         "BLIPBUG",
         "DOTTLER",
         "ORBEETLE",
@@ -53,7 +52,6 @@
         "PALAFIN",
         "CYCLIZAR",
         "ORTHWORM",
-        "FLAMIGO",
         "VELUZA",
         "FARIGIRAF",
         "GREATTUSK",
@@ -385,6 +383,12 @@
           "pokemonId": "WISHIWASHI",
           "excludedForms": [
             "WISHIWASHI_SCHOOL"
+          ]
+        },
+        {
+          "pokemonId": "MIMIKYU",
+          "excludedForms": [
+            "MIMIKYU_BUSTED"
           ]
         },
         {

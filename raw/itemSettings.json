@@ -226,9 +226,7 @@
         "eventPassId": "EVENT_PASS_JANUARY2026_SEASON"
       },
       "timePeriodCounters": {
-        "playerActivity": {
-          "limit": 250
-        }
+        "playerActivity": {}
       }
     }
   },
@@ -241,7 +239,7 @@
       "ignoreInventorySpace": true,
       "itemCap": 999999,
       "eventPassPoint": {
-        "eventPassId": "EVENT_PASS_NOVEMBER2025_SEASON"
+        "eventPassId": "EVENT_PASS_FEBRUARY2026_SEASON"
       },
       "timePeriodCounters": {
         "playerActivity": {
@@ -275,48 +273,32 @@
       "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
       "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
       "globalEventTicket": {
-        "eventStartTime": "2026-01-06T10:00:00",
-        "eventEndTime": "2026-01-11T20:00:00",
-        "itemBagDescriptionKey": "item_event_ticket_02_desc_PINCH_PERFECT",
+        "eventStartTime": "2026-02-07T10:00:00",
+        "eventEndTime": "2026-02-07T20:00:00",
+        "itemBagDescriptionKey": "item_event_ticket_02_desc_CATCH_MASTERY_ORICORIO",
         "giftable": true,
         "giftItem": "ITEM_EVENT_TICKET_02_TO_GIFT",
-        "eventBannerUrl": "https://storage.googleapis.com/prod-public-images/pgo_archen_catch_mastery_2025.jpg",
+        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2F20260113_pgo_s22_oricorio_1024x576_nologo.jpg",
         "displayV2Enabled": true,
-        "backgroundImageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Surf_Turf_LiveOp_v3_1024x576-nologo.jpg",
-        "eventDatetimeRangeKey": "event_datetime_range_key_PINCH_PERFECT",
-        "textRewardsKey": "text_rewards_key_PINCH_PERFECT",
+        "backgroundImageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2F20260113_pgo_s22_oricorio_1024x576_nologo.jpg",
+        "eventDatetimeRangeKey": "event_datetime_range_key_CATCH_MASTERY_ORICORIO",
+        "textRewardsKey": "text_rewards_key_CATCH_MASTERY_ORICORIO",
         "iconRewards": [
           {
-            "type": "POKEMON_ENCOUNTER",
-            "pokemonEncounter": {
-              "pokemonId": "KLAWF",
-              "pokemonDisplay": {
-                "form": "KLAWF_NORMAL"
-              }
-            }
-          },
-          {
             "type": "EXPERIENCE",
-            "exp": 19000
+            "exp": 12000
           },
           {
-            "type": "ITEM",
-            "item": {
-              "item": "ITEM_PAID_RAID_TICKET"
-            }
-          },
-          {
-            "item": {
-              "amount": 2
-            }
+            "type": "STARDUST",
+            "stardust": 3000
           }
         ],
-        "detailsLinkKey": "details_link_key_PINCH_PERFECT_EVENT_NAME_JAN2026",
-        "clientEventStartTimeUtcMs": "1767693600000",
-        "clientEventEndTimeUtcMs": "1768161600000"
+        "detailsLinkKey": "details_link_key_ORICORIO_MASTERY_FEB2026",
+        "clientEventStartTimeUtcMs": "1770458400000",
+        "clientEventEndTimeUtcMs": "1770494400000"
       },
-      "nameOverride": "general2.ticket2.PINCH_PERFECT",
-      "descriptionOverride": "item_event_ticket_02_details_PINCH_PERFECT"
+      "nameOverride": "general2.ticket2.CATCH_MASTERY_ORICORIO",
+      "descriptionOverride": "item_event_ticket_02_details_CATCH_MASTERY_ORICORIO"
     }
   },
   {
@@ -326,17 +308,17 @@
       "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
       "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
       "globalEventTicket": {
-        "eventStartTime": "2026-01-06T10:00:00",
-        "eventEndTime": "2026-01-11T20:00:00",
-        "itemBagDescriptionKey": "item_event_ticket_02_desc_PINCH_PERFECT",
+        "eventStartTime": "2026-02-07T10:00:00",
+        "eventEndTime": "2026-02-07T20:00:00",
+        "itemBagDescriptionKey": "item_event_ticket_02_desc_CATCH_MASTERY_ORICORIO",
         "ticketItem": "ITEM_EVENT_TICKET_02",
-        "eventBannerUrl": "https://storage.googleapis.com/prod-public-images/pgo_archen_catch_mastery_2025.jpg",
-        "clientEventStartTimeUtcMs": "1767693600000",
-        "clientEventEndTimeUtcMs": "1768161600000"
+        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2F20260113_pgo_s22_oricorio_1024x576_nologo.jpg",
+        "clientEventStartTimeUtcMs": "1770458400000",
+        "clientEventEndTimeUtcMs": "1770494400000"
       },
       "ignoreInventorySpace": true,
-      "nameOverride": "general2.ticket2.PINCH_PERFECT",
-      "descriptionOverride": "item_event_ticket_02_details_PINCH_PERFECT"
+      "nameOverride": "general2.ticket2.CATCH_MASTERY_ORICORIO",
+      "descriptionOverride": "item_event_ticket_02_details_CATCH_MASTERY_ORICORIO"
     }
   },
   {

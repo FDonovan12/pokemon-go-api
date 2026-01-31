@@ -1456,8 +1456,8 @@ export interface Candy {
 }
 
 export interface IconRewardItem {
-    item?:   string;
-    amount?: number;
+    item:   string;
+    amount: number;
 }
 
 export interface PlayerAttribute {
@@ -1804,12 +1804,12 @@ export interface GlobalEventTicket {
 }
 
 export interface IconReward {
-    type?:                      TypeElement;
-    pokemonEncounter?:          IconRewardPokemonEncounter;
+    type:                       TypeElement;
     exp?:                       number;
+    stardust?:                  number;
+    pokemonEncounter?:          IconRewardPokemonEncounter;
     item?:                      IconRewardItem;
     neutralAvatarItemTemplate?: NeutralAvatarItemTemplate;
-    stardust?:                  number;
     candy?:                     Candy;
 }
 
@@ -1867,7 +1867,7 @@ export interface TimePeriodCounters {
 }
 
 export interface PlayerActivity {
-    limit: number;
+    limit?: number;
 }
 
 export interface XpBoost {

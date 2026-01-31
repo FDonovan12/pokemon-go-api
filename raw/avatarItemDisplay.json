@@ -6131,6 +6131,20 @@
     }
   },
   {
+    "templateId": "N_DISPLAY_n_shirt_gotour2026-black_0",
+    "data": {
+      "iconAddress": "n_shirt_gotour2026-black_0_icon",
+      "displayStringId": "avatar_shirt_gotour_black"
+    }
+  },
+  {
+    "templateId": "N_DISPLAY_n_shirt_gotour2026-gray_0",
+    "data": {
+      "iconAddress": "n_shirt_gotour2026-gray_0_icon",
+      "displayStringId": "avatar_shirt_gotour_grey"
+    }
+  },
+  {
     "templateId": "N_DISPLAY_n_shirt_gowa2024_0",
     "data": {
       "iconAddress": "n_shirt_gowa2024_0_icon",
@@ -7150,6 +7164,13 @@
     "data": {
       "iconAddress": "n_shirt_shayminskytshirt_0_icon",
       "displayStringId": "n_shirt_shayminskytshirt_0_display_name"
+    }
+  },
+  {
+    "templateId": "N_DISPLAY_n_shirt_shinydiancie",
+    "data": {
+      "iconAddress": "n_shirt_shinydiancie_icon",
+      "displayStringId": "avatar_shirt_shinydiancie"
     }
   },
   {
@@ -8179,6 +8200,13 @@
     "data": {
       "iconAddress": "n_shirt_zoruaonesie_0_icon",
       "displayStringId": "n_shirt_zoruaonesie_0_display_name"
+    }
+  },
+  {
+    "templateId": "N_DISPLAY_n_shirt_zygarde100items_0",
+    "data": {
+      "iconAddress": "n_shirt_zygarde100items_0_icon",
+      "displayStringId": "avatar_shirt_zygarde"
     }
   },
   {
