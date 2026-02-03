@@ -342,15 +342,16 @@ export interface BadgeSettingData {
 }
 
 export interface CaptureReward {
-    rewardTypes?: TypeElement[];
+    rewardTypes?: DailyDefenderBonusCurrency[];
 }
 
-export enum TypeElement {
+export enum DailyDefenderBonusCurrency {
     AvatarClothing = "AVATAR_CLOTHING",
     Candy = "CANDY",
     Experience = "EXPERIENCE",
     Item = "ITEM",
     PlayerAttribute = "PLAYER_ATTRIBUTE",
+    Pokecoin = "POKECOIN",
     PokemonEncounter = "POKEMON_ENCOUNTER",
     Stardust = "STARDUST",
     XlCandy = "XL_CANDY",
@@ -1303,49 +1304,6 @@ export enum PokemonClass {
     PokemonClassUltraBeast = "POKEMON_CLASS_ULTRA_BEAST",
 }
 
-export interface IapItemDisplay {
-    templateId: string;
-    data:       IapItemDisplayData;
-}
-
-export interface IapItemDisplayData {
-    sku:                     string;
-    sortOrder?:              number;
-    hidden?:                 boolean;
-    title?:                  string;
-    description?:            string;
-    skuEnableTime?:          Date;
-    skuDisableTime?:         Date;
-    skuEnableTimeUtcMs?:     string;
-    skuDisableTimeUtcMs?:    string;
-    imageUrl?:               string;
-    category?:               CategoryEnum;
-    spriteId?:               string;
-    sale?:                   boolean;
-    showDiscountTag?:        boolean;
-    showStrikethroughPrice?: boolean;
-    totalValue?:             number;
-    maxLevel?:               number;
-    webstoreSkuId?:          string;
-    webstoreSkuPriceE6?:     number;
-}
-
-export enum CategoryEnum {
-    IapCategoryAvatar = "IAP_CATEGORY_AVATAR",
-    IapCategoryBundle = "IAP_CATEGORY_BUNDLE",
-    IapCategoryFlairBundle = "IAP_CATEGORY_FLAIR_BUNDLE",
-    IapCategoryFree = "IAP_CATEGORY_FREE",
-    IapCategoryGlobalEventTicket = "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
-    IapCategoryItems = "IAP_CATEGORY_ITEMS",
-    IapCategoryNone = "IAP_CATEGORY_NONE",
-    IapCategoryPokecoins = "IAP_CATEGORY_POKECOINS",
-    IapCategoryRewardedSpend = "IAP_CATEGORY_REWARDED_SPEND",
-    IapCategorySticker = "IAP_CATEGORY_STICKER",
-    IapCategoryTeamChange = "IAP_CATEGORY_TEAM_CHANGE",
-    IapCategoryTransporterEnergy = "IAP_CATEGORY_TRANSPORTER_ENERGY",
-    IapCategoryUpgrades = "IAP_CATEGORY_UPGRADES",
-}
-
 export interface EventPassSettings {
     templateId: string;
     data:       EventPassSettingData;
@@ -1367,12 +1325,12 @@ export interface EventPassDisplaySettings {
     eventPassTrackUpgradeDescriptions: EventPassTrackUpgradeDescription[];
     eventPassTitleKey:                 string;
     headerIconUrl:                     string;
-    premiumRewardBannerTop:            string;
-    premiumRewardBannerMiddle:         string;
-    premiumRewardBannerBottom:         string;
-    premiumRewardBannerImageUrl:       string;
     premiumRewardsDescription:         string;
     todayViewSection:                  string;
+    premiumRewardBannerTop?:           string;
+    premiumRewardBannerMiddle?:        string;
+    premiumRewardBannerBottom?:        string;
+    premiumRewardBannerImageUrl?:      string;
 }
 
 export interface EventPassDisplaySettingsBonusBox {
@@ -1440,10 +1398,11 @@ export interface BonusSettings {
 }
 
 export interface PurpleReward {
-    type:              TypeElement;
+    type:              DailyDefenderBonusCurrency;
     pokemonEncounter?: RewardPokemonEncounter;
-    item?:             IconRewardItem;
+    pokecoin?:         number;
     stardust?:         number;
+    item?:             IconRewardItem;
     candy?:            Candy;
     xlCandy?:          Candy;
     exp?:              number;
@@ -1480,6 +1439,49 @@ export interface PurplePokemonDisplay {
 export interface StatsLimitsOverride {
     minPokemonLevel: number;
     maxPokemonLevel: number;
+}
+
+export interface IapItemDisplay {
+    templateId: string;
+    data:       IapItemDisplayData;
+}
+
+export interface IapItemDisplayData {
+    sku:                     string;
+    sortOrder?:              number;
+    hidden?:                 boolean;
+    title?:                  string;
+    description?:            string;
+    skuEnableTime?:          Date;
+    skuDisableTime?:         Date;
+    skuEnableTimeUtcMs?:     string;
+    skuDisableTimeUtcMs?:    string;
+    imageUrl?:               string;
+    category?:               CategoryEnum;
+    spriteId?:               string;
+    sale?:                   boolean;
+    showDiscountTag?:        boolean;
+    showStrikethroughPrice?: boolean;
+    totalValue?:             number;
+    maxLevel?:               number;
+    webstoreSkuId?:          string;
+    webstoreSkuPriceE6?:     number;
+}
+
+export enum CategoryEnum {
+    IapCategoryAvatar = "IAP_CATEGORY_AVATAR",
+    IapCategoryBundle = "IAP_CATEGORY_BUNDLE",
+    IapCategoryFlairBundle = "IAP_CATEGORY_FLAIR_BUNDLE",
+    IapCategoryFree = "IAP_CATEGORY_FREE",
+    IapCategoryGlobalEventTicket = "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
+    IapCategoryItems = "IAP_CATEGORY_ITEMS",
+    IapCategoryNone = "IAP_CATEGORY_NONE",
+    IapCategoryPokecoins = "IAP_CATEGORY_POKECOINS",
+    IapCategoryRewardedSpend = "IAP_CATEGORY_REWARDED_SPEND",
+    IapCategorySticker = "IAP_CATEGORY_STICKER",
+    IapCategoryTeamChange = "IAP_CATEGORY_TEAM_CHANGE",
+    IapCategoryTransporterEnergy = "IAP_CATEGORY_TRANSPORTER_ENERGY",
+    IapCategoryUpgrades = "IAP_CATEGORY_UPGRADES",
 }
 
 export interface EventPlannerPopularNotificationSettings {
@@ -1804,7 +1806,7 @@ export interface GlobalEventTicket {
 }
 
 export interface IconReward {
-    type:                       TypeElement;
+    type:                       DailyDefenderBonusCurrency;
     exp?:                       number;
     stardust?:                  number;
     pokemonEncounter?:          IconRewardPokemonEncounter;
@@ -1975,7 +1977,7 @@ export interface IapSettings {
 export interface IapSettingData {
     dailyDefenderBonusPerPokemon:     number[];
     dailyDefenderBonusMaxDefenders:   number;
-    dailyDefenderBonusCurrency:       string[];
+    dailyDefenderBonusCurrency:       DailyDefenderBonusCurrency[];
     minTimeBetweenClaimsMs:           string;
     prohibitPurchaseInTestEnvirnment: boolean;
 }

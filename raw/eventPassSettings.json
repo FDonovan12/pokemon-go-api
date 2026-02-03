@@ -1,5 +1,68 @@
 [
   {
+    "templateId": "EVENT_PASS_FEBRUARY2026_SEASON",
+    "data": {
+      "prefix": "EVENT_PASS_FEBRUARY2026_SEASON",
+      "pointsItemId": "ITEM_EVENT_PASS_POINT_LIVE_OPS_03",
+      "trackConditions": [
+        {
+          "track": "FREE",
+          "trackTitleKey": "season_pass_base_track_title_feb"
+        },
+        {
+          "track": "PREMIUM",
+          "badge": "BADGE_EVENT_0153",
+          "trackTitleKey": "season_pass_premium_track_title_feb"
+        }
+      ],
+      "expirationTime": "2026-03-03T10:00:00",
+      "maxTierLevel": 200,
+      "additionalBonusTiersLevel": 101,
+      "eventPassDisplaySettings": {
+        "bonusBoxes": [
+          {
+            "text": "quest_catch_pokemon_singular",
+            "iconType": "SPAWN_UNKNOWN",
+            "quantity": 5
+          },
+          {
+            "text": "quest_hatch_egg_singular",
+            "iconType": "EGG",
+            "quantity": 40
+          },
+          {
+            "text": "quest_win_raid_singular",
+            "iconType": "RAID",
+            "quantity": 100
+          }
+        ],
+        "eventPassTrackUpgradeDescriptions": [
+          {
+            "passTrackUpgradeHeaderDescription": "season_pass_october2025_track_upgrade_header_description",
+            "eventPassTrackToUpgradeTo": "PREMIUM",
+            "trackUnlockSkuId": "pgorelease.month3_deluxe_event_pass_track_unlock",
+            "trackUnlockPlusPointsSkuId": "pgorelease.month3_deluxe_event_pass_track_unlock_plus_points",
+            "eventDurationKey": "season_pass_february2026_event_duration",
+            "upgradeDescriptionKey": "season_pass_february2026_upgrade_description",
+            "ranksToHighlightRewards": [
+              94,
+              99,
+              100
+            ],
+            "detailsLinkKey": "season_pass_details_link_september2025",
+            "trackUnlockImageUrl": "https://storage.googleapis.com/prod-public-images/ic_eventpass_deluxe.png",
+            "trackUnlockPlusPointsImageUrl": "https://storage.googleapis.com/prod-public-images/ic_eventpass_deluxe_plus.png"
+          }
+        ],
+        "eventPassTitleKey": "season_pass_base_track_title_feb",
+        "headerIconUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fs21-logo-square.png",
+        "premiumRewardsDescription": "season_pass_premium_rewards_desc_monthly_no_disclaimer",
+        "todayViewSection": "SEASONAL_EVENT_PASS_SECTION"
+      },
+      "gracePeriodEndTime": "2026-03-05T10:00:00"
+    }
+  },
+  {
     "templateId": "EVENT_PASS_JANUARY2026_SEASON",
     "data": {
       "prefix": "EVENT_PASS_JANUARY2026_SEASON",

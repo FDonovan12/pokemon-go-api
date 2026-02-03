@@ -1761,12 +1761,12 @@
     "templateId": "WEEKLY_CHALLENGE_PARTY_QUEST_WEEK1",
     "data": {
       "quest": {
-        "questType": "QUEST_WALK",
+        "questType": "QUEST_HATCH_EGG",
         "questId": "WEEKLY_CHALLENGE_PARTY_QUEST_WEEK1",
         "questContext": "WEEKLY_CHALLENGE_QUEST",
         "templateId": "WEEKLY_CHALLENGE_PARTY_QUEST_WEEK1",
         "goal": {
-          "target": 30
+          "target": 20
         },
         "questRewards": [
           {
@@ -1794,8 +1794,8 @@
         "difficulty": "EASY"
       },
       "questDisplay": {
-        "description": "quest_explore_km",
-        "title": "quest_explore_km"
+        "description": "quest_hatch_egg_plural",
+        "title": "quest_hatch_egg_plural"
       }
     }
   },

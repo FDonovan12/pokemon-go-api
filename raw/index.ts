@@ -385,12 +385,6 @@ export const RawGameMaster = {
         });
         return (data.default || data) as unknown as Types.PokemonHomeEnergyCosts[];
     },
-    getIapItemDisplay: async (): Promise<Types.IapItemDisplay[]> => {
-        const data = await import('./iapItemDisplay.json', {
-            assert: { type: 'json' },
-        });
-        return (data.default || data) as unknown as Types.IapItemDisplay[];
-    },
     getEventPassSettings: async (): Promise<Types.EventPassSettings[]> => {
         const data = await import('./eventPassSettings.json', {
             assert: { type: 'json' },
@@ -402,6 +396,12 @@ export const RawGameMaster = {
             assert: { type: 'json' },
         });
         return (data.default || data) as unknown as Types.EventPassTierSettings[];
+    },
+    getIapItemDisplay: async (): Promise<Types.IapItemDisplay[]> => {
+        const data = await import('./iapItemDisplay.json', {
+            assert: { type: 'json' },
+        });
+        return (data.default || data) as unknown as Types.IapItemDisplay[];
     },
     getEventPlannerPopularNotificationSettings: async (): Promise<Types.EventPlannerPopularNotificationSettings[]> => {
         const data = await import('./eventPlannerPopularNotificationSettings.json', {

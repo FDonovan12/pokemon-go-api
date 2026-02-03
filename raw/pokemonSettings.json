@@ -14723,7 +14723,8 @@
       ],
       "eliteCinematicMove": [
         "FIRE_BLAST",
-        "FLAMETHROWER"
+        "FLAMETHROWER",
+        "ENERGY_BALL"
       ],
       "ibfc": {},
       "breadTierGroup": "GROUP_2"
@@ -221729,6 +221730,7 @@
         "collisionHeightM": 1.6,
         "movementType": "MOVEMENT_JUMP",
         "jumpTimeS": 1,
+        "bonusStardustCaptureReward": 500,
         "attackProbability": 0.1,
         "dodgeProbability": 0.15,
         "dodgeDurationS": 1,
@@ -221794,6 +221796,7 @@
         "collisionHeightM": 1.6,
         "movementType": "MOVEMENT_JUMP",
         "jumpTimeS": 1,
+        "bonusStardustCaptureReward": 500,
         "attackProbability": 0.1,
         "dodgeProbability": 0.15,
         "dodgeDurationS": 1,

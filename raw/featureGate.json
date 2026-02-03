@@ -21,6 +21,13 @@
     }
   },
   {
+    "templateId": "DAY_NIGHT_POI_FEATURE_GATE",
+    "data": {
+      "status": 1827323905,
+      "rolloutPercentage": 100
+    }
+  },
+  {
     "templateId": "ENABLE_PVP_CHALLENGE_SPANNER_FEATURE_GATE",
     "data": {
       "status": 1,
