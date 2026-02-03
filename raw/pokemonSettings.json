@@ -14828,6 +14828,9 @@
         "shadowChargeMove": "FRUSTRATION"
       },
       "buddyGroupNumber": 3,
+      "eliteCinematicMove": [
+        "CHILLING_WATER"
+      ],
       "ibfc": {},
       "breadTierGroup": "GROUP_2"
     }
@@ -14935,7 +14938,8 @@
       ],
       "eliteCinematicMove": [
         "FIRE_BLAST",
-        "FLAMETHROWER"
+        "FLAMETHROWER",
+        "ENERGY_BALL"
       ],
       "ibfc": {},
       "breadTierGroup": "GROUP_2"
@@ -196403,6 +196407,9 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 2,
+      "eliteCinematicMove": [
+        "FRENZY_PLANT"
+      ],
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
     }
@@ -196477,6 +196484,9 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 2,
+      "eliteCinematicMove": [
+        "FRENZY_PLANT"
+      ],
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
     }

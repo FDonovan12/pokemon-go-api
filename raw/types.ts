@@ -1867,7 +1867,7 @@ export interface TimePeriodCounters {
 }
 
 export interface PlayerActivity {
-    limit?: number;
+    limit: number;
 }
 
 export interface XpBoost {
