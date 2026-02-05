@@ -3555,7 +3555,23 @@
         "mUpperBound": 0.875,
         "xlUpperBound": 1.05,
         "xxlUpperBound": 1.225
-      }
+      },
+      "breadOverrides": [
+        {
+          "breadMode": "BREAD_MODE",
+          "maxEncounterVisualSettings": {
+            "scale": 18,
+            "cameraDistance": 28,
+            "maxReticleSize": 8
+          },
+          "maxBattleVisualSettings": {
+            "scale": 36
+          },
+          "maxStationVisualSettings": {
+            "scale": 2.45
+          }
+        }
+      ]
     }
   },
   {
@@ -3585,7 +3601,23 @@
         "mUpperBound": 0.875,
         "xlUpperBound": 1.05,
         "xxlUpperBound": 1.225
-      }
+      },
+      "breadOverrides": [
+        {
+          "breadMode": "BREAD_MODE",
+          "maxEncounterVisualSettings": {
+            "scale": 18,
+            "cameraDistance": 28,
+            "maxReticleSize": 8
+          },
+          "maxBattleVisualSettings": {
+            "scale": 36
+          },
+          "maxStationVisualSettings": {
+            "scale": 2.45
+          }
+        }
+      ]
     }
   },
   {
@@ -3599,7 +3631,23 @@
         "mUpperBound": 2.375,
         "xlUpperBound": 2.85,
         "xxlUpperBound": 3.325
-      }
+      },
+      "breadOverrides": [
+        {
+          "breadMode": "BREAD_MODE",
+          "maxEncounterVisualSettings": {
+            "scale": 8,
+            "cameraDistance": 35,
+            "maxReticleSize": 10
+          },
+          "maxBattleVisualSettings": {
+            "scale": 16
+          },
+          "maxStationVisualSettings": {
+            "scale": 1.08
+          }
+        }
+      ]
     }
   },
   {
@@ -3629,7 +3677,23 @@
         "mUpperBound": 2.375,
         "xlUpperBound": 2.85,
         "xxlUpperBound": 3.325
-      }
+      },
+      "breadOverrides": [
+        {
+          "breadMode": "BREAD_MODE",
+          "maxEncounterVisualSettings": {
+            "scale": 8,
+            "cameraDistance": 35,
+            "maxReticleSize": 10
+          },
+          "maxBattleVisualSettings": {
+            "scale": 16
+          },
+          "maxStationVisualSettings": {
+            "scale": 1.08
+          }
+        }
+      ]
     }
   },
   {

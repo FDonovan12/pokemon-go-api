@@ -1064,7 +1064,7 @@ export interface CombatSettingData {
     shadowPokemonAttackBonusMultiplier:      number;
     shadowPokemonDefenseBonusMultiplier:     number;
     purifiedPokemonAttackMultiplierVsShadow: number;
-    combatExperiment:                        LocationCard[];
+    combatExperiment:                        ItemIdElement[];
     showQuickSwapButtonsDuringCountdown:     boolean;
     obCombatSettingsNotPushedBool2:          boolean;
     clockSyncSettings:                       ClockSyncSettings;
@@ -1077,7 +1077,7 @@ export interface ClockSyncSettings {
     enabled:          boolean;
 }
 
-export type LocationCard = number | string;
+export type ItemIdElement = number | string;
 
 export interface CombatFeatureFlags {
     realDeviceTimeEnabled: boolean;
@@ -1236,8 +1236,8 @@ export interface DeepLinkingSettings {
 export interface DeepLinkingSettingData {
     minPlayerLevelForExternalLink:     number;
     minPlayerLevelForNotificationLink: number;
-    actionsThatIgnoreMinLevel:         LocationCard[];
-    actionsThatExecuteBeforeMapLoads:  LocationCard[];
+    actionsThatIgnoreMinLevel:         ItemIdElement[];
+    actionsThatExecuteBeforeMapLoads:  ItemIdElement[];
     iosActionButtonEnabled:            boolean;
 }
 
@@ -1327,10 +1327,6 @@ export interface EventPassDisplaySettings {
     headerIconUrl:                     string;
     premiumRewardsDescription:         string;
     todayViewSection:                  string;
-    premiumRewardBannerTop?:           string;
-    premiumRewardBannerMiddle?:        string;
-    premiumRewardBannerBottom?:        string;
-    premiumRewardBannerImageUrl?:      string;
 }
 
 export interface EventPassDisplaySettingsBonusBox {
@@ -1731,9 +1727,9 @@ export interface ItemSettings {
 }
 
 export interface ItemSettingData {
-    itemId:                string;
-    itemType:              string;
-    category:              string;
+    itemId:                ItemIdElement;
+    itemType:              ItemIdElement;
+    category:              ItemIdElement;
     dropTrainerLevel?:     number;
     ignoreInventorySpace?: boolean;
     itemCap?:              number;
@@ -1956,7 +1952,7 @@ export interface IapCategoryDisplay {
 }
 
 export interface IapCategoryDisplayData {
-    category?:      CategoryUnion;
+    category?:      PurpleCategory;
     sortOrder?:     number;
     imageUrl?:      string;
     description?:   string;
@@ -1967,7 +1963,7 @@ export interface IapCategoryDisplayData {
     displayRows?:   number;
 }
 
-export type CategoryUnion = CategoryEnum | number;
+export type PurpleCategory = CategoryEnum | number;
 
 export interface IapSettings {
     templateId: string;
@@ -2115,7 +2111,7 @@ export interface IrisSocialUxFunnelSettingData {
 
 export interface EventStep {
     stepNumber: number;
-    event:      LocationCard;
+    event:      ItemIdElement;
 }
 
 export interface ItemExpirationSettings {
@@ -2159,7 +2155,7 @@ export interface ItemInventoryUpdateSettingData {
 }
 
 export interface CategoryProto {
-    category:     string[];
+    category:     ItemIdElement[];
     categoryName: string;
     sortOrder?:   number;
 }
@@ -2194,7 +2190,7 @@ export interface LocationCardSettings {
 }
 
 export interface LocationCardSettingData {
-    locationCard: LocationCard;
+    locationCard: ItemIdElement;
     imageUrl:     string;
     cardType?:    CardType;
     vfxAddress?:  string;
@@ -2445,7 +2441,7 @@ export interface MpSettingData {
 
 export interface BattleMpCostPerTier {
     breadBattleCatchMpCost:       number;
-    battleLevel:                  LocationCard;
+    battleLevel:                  ItemIdElement;
     breadBattleRemoteCatchMpCost: number;
 }
 
@@ -2903,7 +2899,7 @@ export interface PokedexCategoriesSettingData {
 }
 
 export interface PokedexCategorySettingsInOrder {
-    pokedexCategory: LocationCard;
+    pokedexCategory: ItemIdElement;
     milestoneGoal:   number;
     visuallyHidden?: boolean;
 }
@@ -3194,7 +3190,7 @@ export interface ReferralSettingData {
 }
 
 export interface RecentFeature {
-    iconType:    LocationCard;
+    iconType:    ItemIdElement;
     featureName: string;
     description: string;
 }
@@ -3523,13 +3519,13 @@ export interface StickerMetadatumData {
     stickerId:    string;
     maxCount:     number;
     pokemonId?:   string;
-    category:     CategoryElement[];
+    category:     DataCategoryEnum[];
     releaseDate?: number;
     regionId?:    number;
     stickerUrl?:  string;
 }
 
-export enum CategoryElement {
+export enum DataCategoryEnum {
     Characters = "Characters",
     Decoration = "Decoration",
     Messages = "Messages",

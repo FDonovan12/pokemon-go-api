@@ -569,9 +569,36 @@
         },
         {
           "pokemon": {
-            "pokemonId": "TORNADUS",
+            "pokemonId": "DIALGA",
             "pokemonDisplay": {
-              "form": "TORNADUS_INCARNATE"
+              "form": "DIALGA_NORMAL"
+            }
+          },
+          "unlockedAtRank": 20,
+          "attackIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          },
+          "defenseIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          },
+          "staminaIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          }
+        },
+        {
+          "pokemon": {
+            "pokemonId": "PALKIA",
+            "pokemonDisplay": {
+              "form": "PALKIA_NORMAL"
             }
           },
           "unlockedAtRank": 20,
@@ -1167,9 +1194,36 @@
         },
         {
           "pokemon": {
-            "pokemonId": "TORNADUS",
+            "pokemonId": "DIALGA",
             "pokemonDisplay": {
-              "form": "TORNADUS_INCARNATE"
+              "form": "DIALGA_NORMAL"
+            }
+          },
+          "unlockedAtRank": 20,
+          "attackIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          },
+          "defenseIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          },
+          "staminaIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          }
+        },
+        {
+          "pokemon": {
+            "pokemonId": "PALKIA",
+            "pokemonDisplay": {
+              "form": "PALKIA_NORMAL"
             }
           },
           "unlockedAtRank": 20,

@@ -9991,10 +9991,10 @@
       "pokemon": "MIMIKYU",
       "forms": [
         {
-          "form": "MIMIKYU_BUSTED"
+          "form": "MIMIKYU_DISGUISED"
         },
         {
-          "form": "MIMIKYU_DISGUISED"
+          "form": "MIMIKYU_BUSTED"
         }
       ]
     }

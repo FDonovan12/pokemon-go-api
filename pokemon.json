@@ -33322,13 +33322,14 @@
     },
     "quickMoves": [
       "ASTONISH_FAST",
-      "ZEN_HEADBUTT_FAST",
+      "EXTRASENSORY_FAST",
       "FAIRY_WIND_FAST"
     ],
     "cinematicMoves": [
-      "DAZZLING_GLEAM",
+      "MOONBLAST",
       "FLY",
-      "GRASS_KNOT"
+      "EARTH_POWER",
+      "MYSTICAL_FIRE"
     ],
     "familyId": "FAMILY_ENAMORUS",
     "pokemonClass": "POKEMON_CLASS_LEGENDARY",

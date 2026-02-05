@@ -118,6 +118,27 @@
     }
   },
   {
+    "templateId": "ITEM_ENHANCED_CURRENCY",
+    "data": {
+      "itemId": 1410,
+      "itemType": 33,
+      "category": 32,
+      "dropTrainerLevel": 1,
+      "ignoreInventorySpace": true,
+      "itemCap": 2000
+    }
+  },
+  {
+    "templateId": "ITEM_ENHANCED_CURRENCY_HOLDER",
+    "data": {
+      "itemId": 1411,
+      "itemType": 35,
+      "category": 33,
+      "ignoreInventorySpace": true,
+      "itemCap": 1
+    }
+  },
+  {
     "templateId": "ITEM_EVENT_PASS_POINT_GO_FEST_01",
     "data": {
       "itemId": "ITEM_EVENT_PASS_POINT_GO_FEST_01",
@@ -227,7 +248,7 @@
       },
       "timePeriodCounters": {
         "playerActivity": {
-          "limit": 250
+          "limit": 300
         }
       }
     }

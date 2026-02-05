@@ -14564,7 +14564,11 @@
                 "id": "MILOTIC"
               },
               {
-                "id": "CASTFORM"
+                "id": "CASTFORM",
+                "forms": [
+                  "FORM_UNSET",
+                  "CASTFORM_NORMAL"
+                ]
               },
               {
                 "id": "KECLEON"
