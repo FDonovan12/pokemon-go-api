@@ -205,7 +205,8 @@
     "templateId": "V0069_FAMILY_BELLSPROUT",
     "data": {
       "familyId": "FAMILY_BELLSPROUT",
-      "candyPerXlCandy": 100
+      "candyPerXlCandy": 100,
+      "megaEvolvablePokemonId": "VICTREEBEL"
     }
   },
   {

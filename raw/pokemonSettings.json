@@ -22808,6 +22808,13 @@
       "kmBuddyDistance": 3,
       "buddySize": "BUDDY_BIG",
       "modelHeight": 1.48,
+      "evolutionBranch": [
+        {
+          "temporaryEvolution": "TEMP_EVOLUTION_MEGA",
+          "temporaryEvolutionEnergyCost": 300,
+          "temporaryEvolutionEnergyCostSubsequent": 60
+        }
+      ],
       "modelScaleV2": 1,
       "buddyOffsetMale": [
         5.1,
@@ -22837,6 +22844,27 @@
       "eliteQuickMove": [
         "MAGICAL_LEAF_FAST"
       ],
+      "tempEvoOverrides": [
+        {
+          "tempEvoId": "TEMP_EVOLUTION_MEGA",
+          "stats": {
+            "baseStamina": 190,
+            "baseAttack": 265,
+            "baseDefense": 181
+          },
+          "averageHeightM": 4.5,
+          "averageWeightKg": 125.5,
+          "typeOverride1": "POKEMON_TYPE_GRASS",
+          "typeOverride2": "POKEMON_TYPE_POISON",
+          "camera": {
+            "cylinderRadiusM": 1.8,
+            "cylinderHeightM": 4.8
+          },
+          "modelScaleV2": 0.7,
+          "modelHeight": 4.5
+        }
+      ],
+      "buddyWalkedMegaEnergyAward": 15,
       "ibfc": {},
       "breadTierGroup": "GROUP_2"
     }
@@ -22913,6 +22941,13 @@
       "kmBuddyDistance": 3,
       "buddySize": "BUDDY_BIG",
       "modelHeight": 1.48,
+      "evolutionBranch": [
+        {
+          "temporaryEvolution": "TEMP_EVOLUTION_MEGA",
+          "temporaryEvolutionEnergyCost": 300,
+          "temporaryEvolutionEnergyCostSubsequent": 60
+        }
+      ],
       "modelScaleV2": 1,
       "form": "VICTREEBEL_NORMAL",
       "buddyOffsetMale": [
@@ -22943,6 +22978,27 @@
       "eliteQuickMove": [
         "MAGICAL_LEAF_FAST"
       ],
+      "tempEvoOverrides": [
+        {
+          "tempEvoId": "TEMP_EVOLUTION_MEGA",
+          "stats": {
+            "baseStamina": 190,
+            "baseAttack": 265,
+            "baseDefense": 181
+          },
+          "averageHeightM": 4.5,
+          "averageWeightKg": 125.5,
+          "typeOverride1": "POKEMON_TYPE_GRASS",
+          "typeOverride2": "POKEMON_TYPE_POISON",
+          "camera": {
+            "cylinderRadiusM": 1.8,
+            "cylinderHeightM": 4.8
+          },
+          "modelScaleV2": 0.7,
+          "modelHeight": 4.5
+        }
+      ],
+      "buddyWalkedMegaEnergyAward": 15,
       "ibfc": {},
       "breadTierGroup": "GROUP_2"
     }

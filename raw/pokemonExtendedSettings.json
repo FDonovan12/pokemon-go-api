@@ -4297,6 +4297,19 @@
     "templateId": "EXTENDED_V0071_POKEMON_VICTREEBEL",
     "data": {
       "uniqueId": "VICTREEBEL",
+      "tempEvoOverrides": [
+        {
+          "tempEvoId": "TEMP_EVOLUTION_MEGA",
+          "sizeSettings": {
+            "xxsLowerBound": 2.205,
+            "xsLowerBound": 2.25,
+            "mLowerBound": 3.375,
+            "mUpperBound": 5.625,
+            "xlUpperBound": 6.75,
+            "xxlUpperBound": 9
+          }
+        }
+      ],
       "sizeSettings": {
         "xxsLowerBound": 0.833,
         "xsLowerBound": 0.85,
@@ -4312,6 +4325,19 @@
     "data": {
       "uniqueId": "VICTREEBEL",
       "form": "VICTREEBEL_NORMAL",
+      "tempEvoOverrides": [
+        {
+          "tempEvoId": "TEMP_EVOLUTION_MEGA",
+          "sizeSettings": {
+            "xxsLowerBound": 2.205,
+            "xsLowerBound": 2.25,
+            "mLowerBound": 3.375,
+            "mUpperBound": 5.625,
+            "xlUpperBound": 6.75,
+            "xxlUpperBound": 9
+          }
+        }
+      ],
       "sizeSettings": {
         "xxsLowerBound": 0.833,
         "xsLowerBound": 0.85,

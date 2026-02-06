@@ -25,8 +25,7 @@
     "templateId": "ITEM_EXPIRATION_ITEM_EVENT_PASS_POINT_GO_TOUR_02",
     "data": {
       "item": "ITEM_EVENT_PASS_POINT_GO_TOUR_02",
-      "expirationTime": "2025-02-24T09:59:59",
-      "emergencyExpirationTime": "2025-03-26T09:59:59"
+      "expirationTime": "2026-02-22T17:00:00"
     }
   },
   {

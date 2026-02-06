@@ -1411,8 +1411,8 @@ export interface Candy {
 }
 
 export interface IconRewardItem {
-    item:   string;
-    amount: number;
+    item:    string;
+    amount?: number;
 }
 
 export interface PlayerAttribute {
@@ -1809,6 +1809,7 @@ export interface IconReward {
     item?:                      IconRewardItem;
     neutralAvatarItemTemplate?: NeutralAvatarItemTemplate;
     candy?:                     Candy;
+    pokecoin?:                  number;
 }
 
 export interface IconRewardPokemonEncounter {

@@ -76,6 +76,18 @@
     }
   },
   {
+    "templateId": "TEMPORARY_EVOLUTION_V0071_POKEMON_VICTREEBEL",
+    "data": {
+      "pokemonId": "VICTREEBEL",
+      "temporaryEvolutions": [
+        {
+          "temporaryEvolutionId": "TEMP_EVOLUTION_MEGA",
+          "assetBundleValue": 51
+        }
+      ]
+    }
+  },
+  {
     "templateId": "TEMPORARY_EVOLUTION_V0080_POKEMON_SLOWBRO",
     "data": {
       "pokemonId": "SLOWBRO",

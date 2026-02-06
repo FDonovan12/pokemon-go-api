@@ -8546,16 +8546,16 @@
     "data": {
       "sku": "general1.ticket.4",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
-      "sortOrder": 1,
+      "sortOrder": 4,
       "hidden": true,
       "spriteId": "general1.ticket.4",
-      "title": "evergreenticket.1.WATTSUP_JAN2026",
-      "skuEnableTime": "2023-01-01T11:00:01",
-      "skuDisableTime": "2026-01-18T20:00:00",
-      "skuEnableTimeUtcMs": "1672570801000",
-      "skuDisableTimeUtcMs": "1768766400000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Watts_Up_2025_TICKET_v1-1024x576.jpg",
-      "webstoreSkuId": "web-watts-up-ticket-box",
+      "title": "general1.ticket._LunarNY0226_title",
+      "skuEnableTime": "2019-03-14T08:00:00",
+      "skuDisableTime": "2026-02-21T20:00:00",
+      "skuEnableTimeUtcMs": "1552550400000",
+      "skuDisableTimeUtcMs": "1771704000000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Lunar_New_Year_2026_TICKET_v1-1025x576-nologo.jpg",
+      "webstoreSkuId": "web-lunar-new-year-26-ticket-box",
       "webstoreSkuPriceE6": 1990000
     }
   },
@@ -8564,15 +8564,15 @@
     "data": {
       "sku": "general1.ticket.4.giftable",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
-      "sortOrder": 1,
+      "sortOrder": 4,
       "hidden": true,
       "spriteId": "general1.ticket.4",
-      "title": "evergreenticket.1.WATTSUP_JAN2026",
-      "skuEnableTime": "2023-01-01T11:00:01",
-      "skuDisableTime": "2026-01-18T20:00:00",
-      "skuEnableTimeUtcMs": "1672570801000",
-      "skuDisableTimeUtcMs": "1768766400000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Watts_Up_2025_TICKET_v1-1024x576.jpg"
+      "title": "general1.ticket._LunarNY0226_title",
+      "skuEnableTime": "2019-03-14T08:00:00",
+      "skuDisableTime": "2026-02-21T20:00:00",
+      "skuEnableTimeUtcMs": "1552550400000",
+      "skuDisableTimeUtcMs": "1771704000000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Lunar_New_Year_2026_TICKET_v1-1025x576-nologo.jpg"
     }
   },
   {
@@ -8582,14 +8582,14 @@
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 2,
       "hidden": true,
-      "spriteId": "general1.ticket.4",
-      "title": "general1.ticket.6_dmaxHooh26_title",
+      "spriteId": "general1.ticket.5",
+      "title": "general1.ticket.4_gmaxMeowth26_title",
       "skuEnableTime": "2019-03-14T08:00:00",
-      "skuDisableTime": "2026-02-01T21:00:00",
+      "skuDisableTime": "2026-02-15T17:00:00",
       "skuEnableTimeUtcMs": "1552550400000",
-      "skuDisableTimeUtcMs": "1769979600000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_DMAX_Ho-oh_Max_Battle_v2_1024x576-nologo.jpg",
-      "webstoreSkuId": "web-dmax-ho-oh-26-ticket-box",
+      "skuDisableTimeUtcMs": "1771174800000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_GMAX_Meowth_MaxBattle_v1_1024x576-nologo.jpg",
+      "webstoreSkuId": "web-gmax-meowth-ticket-box",
       "webstoreSkuPriceE6": 4990000
     }
   },
@@ -8600,13 +8600,13 @@
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 2,
       "hidden": true,
-      "spriteId": "general1.ticket.4",
-      "title": "general1.ticket.6_dmaxHooh26_title",
+      "spriteId": "general1.ticket.5",
+      "title": "general1.ticket.4_gmaxMeowth26_title",
       "skuEnableTime": "2019-03-14T08:00:00",
-      "skuDisableTime": "2026-02-01T21:00:00",
+      "skuDisableTime": "2026-02-15T17:00:00",
       "skuEnableTimeUtcMs": "1552550400000",
-      "skuDisableTimeUtcMs": "1769979600000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_DMAX_Ho-oh_Max_Battle_v2_1024x576-nologo.jpg"
+      "skuDisableTimeUtcMs": "1771174800000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_GMAX_Meowth_MaxBattle_v1_1024x576-nologo.jpg"
     }
   },
   {
@@ -8698,7 +8698,6 @@
       "sku": "general2.ticket.2",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 1,
-      "hidden": true,
       "spriteId": "general2.ticket.2",
       "title": "general2.ticket2.CATCH_MASTERY_ORICORIO",
       "skuEnableTime": "2023-01-01T11:00:03",
@@ -8716,7 +8715,6 @@
       "sku": "general2.ticket.2.giftable",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 1,
-      "hidden": true,
       "spriteId": "general2.ticket.2",
       "title": "general2.ticket2.CATCH_MASTERY_ORICORIO",
       "skuEnableTime": "2023-01-01T11:00:03",
@@ -8838,13 +8836,13 @@
       "sortOrder": 2,
       "hidden": true,
       "spriteId": "general2.ticket.6",
-      "title": "general2.ticket.6_ShadowRaikouRaidDay_title",
+      "title": "general2.ticket.6_EnamorusTherianRaidDay_title",
       "skuEnableTime": "2019-03-14T08:00:00",
-      "skuDisableTime": "2026-01-24T17:00:00",
+      "skuDisableTime": "2026-02-14T17:00:00",
       "skuEnableTimeUtcMs": "1552550400000",
-      "skuDisableTimeUtcMs": "1769274000000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Shadow_Raikou_RaidDay_v2-1024x512-nologo.jpg",
-      "webstoreSkuId": "web-shadow-raid-raikou-26-ticket-box",
+      "skuDisableTimeUtcMs": "1771088400000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Enamorus_Therian_Forme_RaidDay_v1-1024x576.jpg",
+      "webstoreSkuId": "web-enamorus-raid-ticket-box",
       "webstoreSkuPriceE6": 4990000
     }
   },
@@ -8856,12 +8854,12 @@
       "sortOrder": 2,
       "hidden": true,
       "spriteId": "general2.ticket.6",
-      "title": "general2.ticket.6_ShadowRaikouRaidDay_title",
+      "title": "general2.ticket.6_EnamorusTherianRaidDay_title",
       "skuEnableTime": "2019-03-14T08:00:00",
-      "skuDisableTime": "2026-01-24T17:00:00",
+      "skuDisableTime": "2026-02-14T17:00:00",
       "skuEnableTimeUtcMs": "1552550400000",
-      "skuDisableTimeUtcMs": "1769274000000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Shadow_Raikou_RaidDay_v2-1024x512-nologo.jpg"
+      "skuDisableTimeUtcMs": "1771088400000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Enamorus_Therian_Forme_RaidDay_v1-1024x576.jpg"
     }
   },
   {
@@ -9995,16 +9993,16 @@
     "data": {
       "sku": "pgorelease.general1.ticket.4",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
-      "sortOrder": 1,
+      "sortOrder": 4,
       "hidden": true,
       "spriteId": "general1.ticket.4",
-      "title": "evergreenticket.1.WATTSUP_JAN2026",
-      "skuEnableTime": "2023-01-01T11:00:03",
-      "skuDisableTime": "2026-01-18T20:00:00",
-      "skuEnableTimeUtcMs": "1672570803000",
-      "skuDisableTimeUtcMs": "1768766400000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Watts_Up_2025_TICKET_v1-1024x576.jpg",
-      "webstoreSkuId": "web-watts-up-ticket-box",
+      "title": "general1.ticket._LunarNY0226_title",
+      "skuEnableTime": "2019-03-14T08:00:00",
+      "skuDisableTime": "2026-02-21T20:00:00",
+      "skuEnableTimeUtcMs": "1552550400000",
+      "skuDisableTimeUtcMs": "1771704000000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Lunar_New_Year_2026_TICKET_v1-1025x576-nologo.jpg",
+      "webstoreSkuId": "web-lunar-new-year-26-ticket-box",
       "webstoreSkuPriceE6": 1990000
     }
   },
@@ -10013,15 +10011,15 @@
     "data": {
       "sku": "pgorelease.general1.ticket.4.giftable",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
-      "sortOrder": 1,
+      "sortOrder": 4,
       "hidden": true,
       "spriteId": "general1.ticket.4",
-      "title": "evergreenticket.1.WATTSUP_JAN2026",
-      "skuEnableTime": "2023-01-01T11:00:03",
-      "skuDisableTime": "2026-01-18T20:00:00",
-      "skuEnableTimeUtcMs": "1672570803000",
-      "skuDisableTimeUtcMs": "1768766400000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Watts_Up_2025_TICKET_v1-1024x576.jpg"
+      "title": "general1.ticket._LunarNY0226_title",
+      "skuEnableTime": "2019-03-14T08:00:00",
+      "skuDisableTime": "2026-02-21T20:00:00",
+      "skuEnableTimeUtcMs": "1552550400000",
+      "skuDisableTimeUtcMs": "1771704000000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Lunar_New_Year_2026_TICKET_v1-1025x576-nologo.jpg"
     }
   },
   {
@@ -10031,14 +10029,14 @@
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 2,
       "hidden": true,
-      "spriteId": "general1.ticket.4",
-      "title": "general1.ticket.6_dmaxHooh26_title",
+      "spriteId": "general1.ticket.5",
+      "title": "general1.ticket.4_gmaxMeowth26_title",
       "skuEnableTime": "2019-03-14T08:00:00",
-      "skuDisableTime": "2026-02-01T21:00:00",
+      "skuDisableTime": "2026-02-15T17:00:00",
       "skuEnableTimeUtcMs": "1552550400000",
-      "skuDisableTimeUtcMs": "1769979600000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_DMAX_Ho-oh_Max_Battle_v2_1024x576-nologo.jpg",
-      "webstoreSkuId": "web-dmax-ho-oh-26-ticket-box",
+      "skuDisableTimeUtcMs": "1771174800000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_GMAX_Meowth_MaxBattle_v1_1024x576-nologo.jpg",
+      "webstoreSkuId": "web-gmax-meowth-ticket-box",
       "webstoreSkuPriceE6": 4990000
     }
   },
@@ -10049,13 +10047,13 @@
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 2,
       "hidden": true,
-      "spriteId": "general1.ticket.4",
-      "title": "general1.ticket.6_dmaxHooh26_title",
+      "spriteId": "general1.ticket.5",
+      "title": "general1.ticket.4_gmaxMeowth26_title",
       "skuEnableTime": "2019-03-14T08:00:00",
-      "skuDisableTime": "2026-02-01T21:00:00",
+      "skuDisableTime": "2026-02-15T17:00:00",
       "skuEnableTimeUtcMs": "1552550400000",
-      "skuDisableTimeUtcMs": "1769979600000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_DMAX_Ho-oh_Max_Battle_v2_1024x576-nologo.jpg"
+      "skuDisableTimeUtcMs": "1771174800000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_GMAX_Meowth_MaxBattle_v1_1024x576-nologo.jpg"
     }
   },
   {
@@ -10131,7 +10129,6 @@
       "sku": "pgorelease.general2.ticket.2",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 1,
-      "hidden": true,
       "spriteId": "general2.ticket.2",
       "title": "general2.ticket2.CATCH_MASTERY_ORICORIO",
       "skuEnableTime": "2023-01-01T11:00:01",
@@ -10149,7 +10146,6 @@
       "sku": "pgorelease.general2.ticket.2.giftable",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 1,
-      "hidden": true,
       "spriteId": "general2.ticket.2",
       "title": "general2.ticket2.CATCH_MASTERY_ORICORIO",
       "skuEnableTime": "2023-01-01T11:00:01",
@@ -10271,13 +10267,13 @@
       "sortOrder": 2,
       "hidden": true,
       "spriteId": "general2.ticket.6",
-      "title": "general2.ticket.6_ShadowRaikouRaidDay_title",
+      "title": "general2.ticket.6_EnamorusTherianRaidDay_title",
       "skuEnableTime": "2019-03-14T08:00:00",
-      "skuDisableTime": "2026-01-24T17:00:00",
+      "skuDisableTime": "2026-02-14T17:00:00",
       "skuEnableTimeUtcMs": "1552550400000",
-      "skuDisableTimeUtcMs": "1769274000000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Shadow_Raikou_RaidDay_v2-1024x512-nologo.jpg",
-      "webstoreSkuId": "web-shadow-raid-raikou-26-ticket-box",
+      "skuDisableTimeUtcMs": "1771088400000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Enamorus_Therian_Forme_RaidDay_v1-1024x576.jpg",
+      "webstoreSkuId": "web-enamorus-raid-ticket-box",
       "webstoreSkuPriceE6": 4990000
     }
   },
@@ -10289,12 +10285,12 @@
       "sortOrder": 2,
       "hidden": true,
       "spriteId": "general2.ticket.6",
-      "title": "general2.ticket.6_ShadowRaikouRaidDay_title",
+      "title": "general2.ticket.6_EnamorusTherianRaidDay_title",
       "skuEnableTime": "2019-03-14T08:00:00",
-      "skuDisableTime": "2026-01-24T17:00:00",
+      "skuDisableTime": "2026-02-14T17:00:00",
       "skuEnableTimeUtcMs": "1552550400000",
-      "skuDisableTimeUtcMs": "1769274000000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Shadow_Raikou_RaidDay_v2-1024x512-nologo.jpg"
+      "skuDisableTimeUtcMs": "1771088400000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Enamorus_Therian_Forme_RaidDay_v1-1024x576.jpg"
     }
   },
   {
