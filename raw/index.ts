@@ -253,6 +253,12 @@ export const RawGameMaster = {
         });
         return (data.default || data) as unknown as Types.BulkHealingSettings[];
     },
+    getIapItemDisplay: async (): Promise<Types.IapItemDisplay[]> => {
+        const data = await import('./iapItemDisplay.json', {
+            assert: { type: 'json' },
+        });
+        return (data.default || data) as unknown as Types.IapItemDisplay[];
+    },
     getButterflyCollectorSettings: async (): Promise<Types.ButterflyCollectorSettings[]> => {
         const data = await import('./butterflyCollectorSettings.json', {
             assert: { type: 'json' },
@@ -396,12 +402,6 @@ export const RawGameMaster = {
             assert: { type: 'json' },
         });
         return (data.default || data) as unknown as Types.EventPassTierSettings[];
-    },
-    getIapItemDisplay: async (): Promise<Types.IapItemDisplay[]> => {
-        const data = await import('./iapItemDisplay.json', {
-            assert: { type: 'json' },
-        });
-        return (data.default || data) as unknown as Types.IapItemDisplay[];
     },
     getEventPlannerPopularNotificationSettings: async (): Promise<Types.EventPlannerPopularNotificationSettings[]> => {
         const data = await import('./eventPlannerPopularNotificationSettings.json', {
@@ -822,12 +822,6 @@ export const RawGameMaster = {
             assert: { type: 'json' },
         });
         return (data.default || data) as unknown as Types.PrimalEvoSettings[];
-    },
-    getPtcOauthSettings: async (): Promise<Types.PtcOauthSettings[]> => {
-        const data = await import('./ptcOauthSettings.json', {
-            assert: { type: 'json' },
-        });
-        return (data.default || data) as unknown as Types.PtcOauthSettings[];
     },
     getQuestSettings: async (): Promise<Types.QuestSettings[]> => {
         const data = await import('./questSettings.json', {

@@ -568,7 +568,7 @@
         "displayV2Enabled": true,
         "backgroundImageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Enamorus_Therian_Forme_RaidDay_v1-1024x576.jpg",
         "eventDatetimeRangeKey": "event_datetime_range_key_EnamorusTherianRaidDay",
-        "textRewardsKey": "text_rewards_key_EnamorusTherianRaidDay",
+        "textRewardsKey": "text_rewards_key_FalinksRaidDay",
         "iconRewards": [
           {
             "type": "ITEM",
@@ -1151,7 +1151,7 @@
         "iconRewards": [
           {
             "type": "POKECOIN",
-            "pokecoin": 20
+            "pokecoin": 200
           },
           {
             "type": "POKEMON_ENCOUNTER",
@@ -1169,20 +1169,6 @@
               "pokemonDisplay": {
                 "form": "DARUMAKA_NORMAL"
               }
-            }
-          },
-          {
-            "type": "ITEM",
-            "item": {
-              "item": "ITEM_LUCKY_EGG",
-              "amount": 2
-            }
-          },
-          {
-            "type": "ITEM",
-            "item": {
-              "item": "ITEM_INCENSE_ORDINARY",
-              "amount": 1
             }
           }
         ],

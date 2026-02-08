@@ -3,9 +3,6 @@
     "templateId": "AR_PHOTO_FEATURE_FLAGS",
     "data": {
       "excludedPokemonIds": [
-        "PHIONE",
-        "MANAPHY",
-        "ARCEUS",
         "WISHIWASHI",
         "PYUKUMUKU",
         "TYPE_NULL",
@@ -41,7 +38,6 @@
         "MABOSSTIFF",
         "BRAMBLIN",
         "BRAMBLEGHAST",
-        "KLAWF",
         "CAPSAKID",
         "SCOVILLAIN",
         "RELLOR",
@@ -66,6 +62,7 @@
         "IRONJUGULIS",
         "IRONMOTH",
         "IRONTHORNS",
+        "GHOLDENGO",
         "WOCHIEN",
         "CHIENPAO",
         "TINGLU",
@@ -473,9 +470,9 @@
       "newDaysCutoff": 3,
       "rollOutCountryCodes": [
         "PE",
-        "IN",
         "CL",
         "PL",
+        "IN",
         "KR",
         "IT",
         "TH",

@@ -29753,6 +29753,19 @@
     "templateId": "EXTENDED_V0687_POKEMON_MALAMAR",
     "data": {
       "uniqueId": "MALAMAR",
+      "tempEvoOverrides": [
+        {
+          "tempEvoId": "TEMP_EVOLUTION_MEGA",
+          "sizeSettings": {
+            "xxsLowerBound": 1.421,
+            "xsLowerBound": 1.45,
+            "mLowerBound": 2.175,
+            "mUpperBound": 3.625,
+            "xlUpperBound": 4.35,
+            "xxlUpperBound": 5.8
+          }
+        }
+      ],
       "sizeSettings": {
         "xxsLowerBound": 0.735,
         "xsLowerBound": 0.75,
@@ -29790,6 +29803,19 @@
     "data": {
       "uniqueId": "MALAMAR",
       "form": "MALAMAR_NORMAL",
+      "tempEvoOverrides": [
+        {
+          "tempEvoId": "TEMP_EVOLUTION_MEGA",
+          "sizeSettings": {
+            "xxsLowerBound": 1.421,
+            "xsLowerBound": 1.45,
+            "mLowerBound": 2.175,
+            "mUpperBound": 3.625,
+            "xlUpperBound": 4.35,
+            "xxlUpperBound": 5.8
+          }
+        }
+      ],
       "sizeSettings": {
         "xxsLowerBound": 0.735,
         "xsLowerBound": 0.75,

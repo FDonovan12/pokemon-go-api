@@ -568,6 +568,18 @@
     }
   },
   {
+    "templateId": "TEMPORARY_EVOLUTION_V0687_POKEMON_MALAMAR",
+    "data": {
+      "pokemonId": "MALAMAR",
+      "temporaryEvolutions": [
+        {
+          "temporaryEvolutionId": "TEMP_EVOLUTION_MEGA",
+          "assetBundleValue": 51
+        }
+      ]
+    }
+  },
+  {
     "templateId": "TEMPORARY_EVOLUTION_V0719_POKEMON_DIANCIE",
     "data": {
       "pokemonId": "DIANCIE",

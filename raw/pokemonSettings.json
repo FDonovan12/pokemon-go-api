@@ -168549,11 +168549,9 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
-      "raidBossDistanceOffset": 3,
       "formChange": [
         {
           "availableForm": [
-            "FURFROU_DIAMOND",
             "FURFROU_MATRON",
             "FURFROU_DANDY"
           ],
@@ -168561,7 +168559,8 @@
           "stardustCost": 10000
         }
       ],
-      "ibfc": {}
+      "ibfc": {},
+      "breadTierGroup": "GROUP_3"
     }
   },
   {
@@ -168634,14 +168633,14 @@
         {
           "availableForm": [
             "FURFROU_NATURAL",
-            "FURFROU_DIAMOND",
             "FURFROU_MATRON"
           ],
           "candyCost": 25,
           "stardustCost": 10000
         }
       ],
-      "ibfc": {}
+      "ibfc": {},
+      "breadTierGroup": "GROUP_3"
     }
   },
   {
@@ -168714,7 +168713,6 @@
         {
           "availableForm": [
             "FURFROU_NATURAL",
-            "FURFROU_DIAMOND",
             "FURFROU_MATRON",
             "FURFROU_DANDY"
           ],
@@ -168722,7 +168720,8 @@
           "stardustCost": 10000
         }
       ],
-      "ibfc": {}
+      "ibfc": {},
+      "breadTierGroup": "GROUP_3"
     }
   },
   {
@@ -168802,7 +168801,8 @@
           "stardustCost": 10000
         }
       ],
-      "ibfc": {}
+      "ibfc": {},
+      "breadTierGroup": "GROUP_3"
     }
   },
   {
@@ -168875,7 +168875,6 @@
         {
           "availableForm": [
             "FURFROU_NATURAL",
-            "FURFROU_DIAMOND",
             "FURFROU_MATRON",
             "FURFROU_DANDY"
           ],
@@ -168883,7 +168882,8 @@
           "stardustCost": 10000
         }
       ],
-      "ibfc": {}
+      "ibfc": {},
+      "breadTierGroup": "GROUP_3"
     }
   },
   {
@@ -168956,7 +168956,6 @@
         {
           "availableForm": [
             "FURFROU_NATURAL",
-            "FURFROU_DIAMOND",
             "FURFROU_MATRON",
             "FURFROU_DANDY"
           ],
@@ -168964,7 +168963,8 @@
           "stardustCost": 10000
         }
       ],
-      "ibfc": {}
+      "ibfc": {},
+      "breadTierGroup": "GROUP_3"
     }
   },
   {
@@ -169037,7 +169037,6 @@
         {
           "availableForm": [
             "FURFROU_NATURAL",
-            "FURFROU_DIAMOND",
             "FURFROU_MATRON",
             "FURFROU_DANDY"
           ],
@@ -169045,7 +169044,8 @@
           "stardustCost": 10000
         }
       ],
-      "ibfc": {}
+      "ibfc": {},
+      "breadTierGroup": "GROUP_3"
     }
   },
   {
@@ -169118,14 +169118,14 @@
         {
           "availableForm": [
             "FURFROU_NATURAL",
-            "FURFROU_DIAMOND",
             "FURFROU_DANDY"
           ],
           "candyCost": 25,
           "stardustCost": 10000
         }
       ],
-      "ibfc": {}
+      "ibfc": {},
+      "breadTierGroup": "GROUP_3"
     }
   },
   {
@@ -169197,7 +169197,6 @@
       "formChange": [
         {
           "availableForm": [
-            "FURFROU_DIAMOND",
             "FURFROU_MATRON",
             "FURFROU_DANDY"
           ],
@@ -169205,7 +169204,8 @@
           "stardustCost": 10000
         }
       ],
-      "ibfc": {}
+      "ibfc": {},
+      "breadTierGroup": "GROUP_3"
     }
   },
   {
@@ -169278,7 +169278,6 @@
         {
           "availableForm": [
             "FURFROU_NATURAL",
-            "FURFROU_DIAMOND",
             "FURFROU_MATRON",
             "FURFROU_DANDY"
           ],
@@ -169286,7 +169285,8 @@
           "stardustCost": 10000
         }
       ],
-      "ibfc": {}
+      "ibfc": {},
+      "breadTierGroup": "GROUP_3"
     }
   },
   {
@@ -169359,7 +169359,6 @@
         {
           "availableForm": [
             "FURFROU_NATURAL",
-            "FURFROU_DIAMOND",
             "FURFROU_MATRON",
             "FURFROU_DANDY"
           ],
@@ -169367,7 +169366,8 @@
           "stardustCost": 10000
         }
       ],
-      "ibfc": {}
+      "ibfc": {},
+      "breadTierGroup": "GROUP_3"
     }
   },
   {
@@ -171271,7 +171271,15 @@
       "weightStdDev": 5.875,
       "familyId": "FAMILY_INKAY",
       "kmBuddyDistance": 3,
+      "buddySize": "BUDDY_BIG",
       "modelHeight": 1.8,
+      "evolutionBranch": [
+        {
+          "temporaryEvolution": "TEMP_EVOLUTION_MEGA",
+          "temporaryEvolutionEnergyCost": 300,
+          "temporaryEvolutionEnergyCostSubsequent": 60
+        }
+      ],
       "modelScaleV2": 1,
       "buddyOffsetMale": [
         -0.5,
@@ -171296,6 +171304,29 @@
         "purifiedChargeMove": "RETURN",
         "shadowChargeMove": "FRUSTRATION"
       },
+      "buddyGroupNumber": 3,
+      "tempEvoOverrides": [
+        {
+          "tempEvoId": "TEMP_EVOLUTION_MEGA",
+          "stats": {
+            "baseStamina": 200,
+            "baseAttack": 208,
+            "baseDefense": 222
+          },
+          "averageHeightM": 2.9,
+          "averageWeightKg": 69.8,
+          "typeOverride1": "POKEMON_TYPE_DARK",
+          "typeOverride2": "POKEMON_TYPE_PSYCHIC",
+          "camera": {
+            "cylinderRadiusM": 2,
+            "cylinderHeightM": 3.1,
+            "cylinderGroundM": 1.55
+          },
+          "modelScaleV2": 0.8,
+          "modelHeight": 2.9
+        }
+      ],
+      "buddyWalkedMegaEnergyAward": 15,
       "ibfc": {},
       "breadTierGroup": "GROUP_2"
     }
@@ -171363,7 +171394,15 @@
       "weightStdDev": 5.875,
       "familyId": "FAMILY_INKAY",
       "kmBuddyDistance": 3,
+      "buddySize": "BUDDY_BIG",
       "modelHeight": 1.8,
+      "evolutionBranch": [
+        {
+          "temporaryEvolution": "TEMP_EVOLUTION_MEGA",
+          "temporaryEvolutionEnergyCost": 300,
+          "temporaryEvolutionEnergyCostSubsequent": 60
+        }
+      ],
       "modelScaleV2": 1,
       "form": "MALAMAR_NORMAL",
       "buddyOffsetMale": [
@@ -171389,6 +171428,29 @@
         "purifiedChargeMove": "RETURN",
         "shadowChargeMove": "FRUSTRATION"
       },
+      "buddyGroupNumber": 3,
+      "tempEvoOverrides": [
+        {
+          "tempEvoId": "TEMP_EVOLUTION_MEGA",
+          "stats": {
+            "baseStamina": 200,
+            "baseAttack": 208,
+            "baseDefense": 222
+          },
+          "averageHeightM": 2.9,
+          "averageWeightKg": 69.8,
+          "typeOverride1": "POKEMON_TYPE_DARK",
+          "typeOverride2": "POKEMON_TYPE_PSYCHIC",
+          "camera": {
+            "cylinderRadiusM": 2,
+            "cylinderHeightM": 3.1,
+            "cylinderGroundM": 1.55
+          },
+          "modelScaleV2": 0.8,
+          "modelHeight": 2.9
+        }
+      ],
+      "buddyWalkedMegaEnergyAward": 15,
       "ibfc": {},
       "breadTierGroup": "GROUP_2"
     }

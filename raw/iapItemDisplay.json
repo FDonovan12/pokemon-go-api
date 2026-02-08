@@ -1,5 +1,23 @@
 [
   {
+    "templateId": "BUNDLE_EC_200_RPP_1",
+    "data": {
+      "sku": "BUNDLE_EC_200_RPP_1",
+      "category": "IAP_CATEGORY_ITEMS",
+      "hidden": true,
+      "spriteId": "enhanced_currency_medium_rrp"
+    }
+  },
+  {
+    "templateId": "BUNDLE_EC_600_RPP_3",
+    "data": {
+      "sku": "BUNDLE_EC_600_RPP_3",
+      "category": "IAP_CATEGORY_ITEMS",
+      "hidden": true,
+      "spriteId": "enhanced_currency_large_3rrp"
+    }
+  },
+  {
     "templateId": "EVENT_PASS_GOFEST2025_FINALE_STORE_REDIRECT",
     "data": {
       "sku": "pgorelease.gofest_finale_2025_deluxe_event_pass_track_redirect",
@@ -341,6 +359,24 @@
       "skuEnableTimeUtcMs": "1729504800000",
       "skuDisableTimeUtcMs": "1730714400000",
       "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_GOPass_Halloween_v5_pose_1024x576_nologo.jpg"
+    }
+  },
+  {
+    "templateId": "ITEM_ENHANCED_CURRENCY_200",
+    "data": {
+      "sku": "ITEM_ENHANCED_CURRENCY_200",
+      "category": "IAP_CATEGORY_ITEMS",
+      "hidden": true,
+      "spriteId": "enhanced_currency_medium"
+    }
+  },
+  {
+    "templateId": "ITEM_ENHANCED_CURRENCY_600",
+    "data": {
+      "sku": "ITEM_ENHANCED_CURRENCY_600",
+      "category": "IAP_CATEGORY_ITEMS",
+      "hidden": true,
+      "spriteId": "enhanced_currency_large"
     }
   },
   {
@@ -8698,6 +8734,7 @@
       "sku": "general2.ticket.2",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 1,
+      "hidden": true,
       "spriteId": "general2.ticket.2",
       "title": "general2.ticket2.CATCH_MASTERY_ORICORIO",
       "skuEnableTime": "2023-01-01T11:00:03",
@@ -8715,6 +8752,7 @@
       "sku": "general2.ticket.2.giftable",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 1,
+      "hidden": true,
       "spriteId": "general2.ticket.2",
       "title": "general2.ticket2.CATCH_MASTERY_ORICORIO",
       "skuEnableTime": "2023-01-01T11:00:03",
@@ -10129,6 +10167,7 @@
       "sku": "pgorelease.general2.ticket.2",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 1,
+      "hidden": true,
       "spriteId": "general2.ticket.2",
       "title": "general2.ticket2.CATCH_MASTERY_ORICORIO",
       "skuEnableTime": "2023-01-01T11:00:01",
@@ -10146,6 +10185,7 @@
       "sku": "pgorelease.general2.ticket.2.giftable",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 1,
+      "hidden": true,
       "spriteId": "general2.ticket.2",
       "title": "general2.ticket2.CATCH_MASTERY_ORICORIO",
       "skuEnableTime": "2023-01-01T11:00:01",

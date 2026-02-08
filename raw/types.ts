@@ -755,6 +755,49 @@ export interface BulkHealingSettingData {
     maxPokemonsPerHeal: number;
 }
 
+export interface IapItemDisplay {
+    templateId: string;
+    data:       IapItemDisplayData;
+}
+
+export interface IapItemDisplayData {
+    sku:                     string;
+    category?:               CategoryEnum;
+    hidden?:                 boolean;
+    spriteId?:               string;
+    sortOrder?:              number;
+    title?:                  string;
+    description?:            string;
+    skuEnableTime?:          Date;
+    skuDisableTime?:         Date;
+    skuEnableTimeUtcMs?:     string;
+    skuDisableTimeUtcMs?:    string;
+    imageUrl?:               string;
+    sale?:                   boolean;
+    showDiscountTag?:        boolean;
+    showStrikethroughPrice?: boolean;
+    totalValue?:             number;
+    maxLevel?:               number;
+    webstoreSkuId?:          string;
+    webstoreSkuPriceE6?:     number;
+}
+
+export enum CategoryEnum {
+    IapCategoryAvatar = "IAP_CATEGORY_AVATAR",
+    IapCategoryBundle = "IAP_CATEGORY_BUNDLE",
+    IapCategoryFlairBundle = "IAP_CATEGORY_FLAIR_BUNDLE",
+    IapCategoryFree = "IAP_CATEGORY_FREE",
+    IapCategoryGlobalEventTicket = "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
+    IapCategoryItems = "IAP_CATEGORY_ITEMS",
+    IapCategoryNone = "IAP_CATEGORY_NONE",
+    IapCategoryPokecoins = "IAP_CATEGORY_POKECOINS",
+    IapCategoryRewardedSpend = "IAP_CATEGORY_REWARDED_SPEND",
+    IapCategorySticker = "IAP_CATEGORY_STICKER",
+    IapCategoryTeamChange = "IAP_CATEGORY_TEAM_CHANGE",
+    IapCategoryTransporterEnergy = "IAP_CATEGORY_TRANSPORTER_ENERGY",
+    IapCategoryUpgrades = "IAP_CATEGORY_UPGRADES",
+}
+
 export interface ButterflyCollectorSettings {
     templateId: string;
     data:       ButterflyCollectorSettingData;
@@ -1437,49 +1480,6 @@ export interface StatsLimitsOverride {
     maxPokemonLevel: number;
 }
 
-export interface IapItemDisplay {
-    templateId: string;
-    data:       IapItemDisplayData;
-}
-
-export interface IapItemDisplayData {
-    sku:                     string;
-    sortOrder?:              number;
-    hidden?:                 boolean;
-    title?:                  string;
-    description?:            string;
-    skuEnableTime?:          Date;
-    skuDisableTime?:         Date;
-    skuEnableTimeUtcMs?:     string;
-    skuDisableTimeUtcMs?:    string;
-    imageUrl?:               string;
-    category?:               CategoryEnum;
-    spriteId?:               string;
-    sale?:                   boolean;
-    showDiscountTag?:        boolean;
-    showStrikethroughPrice?: boolean;
-    totalValue?:             number;
-    maxLevel?:               number;
-    webstoreSkuId?:          string;
-    webstoreSkuPriceE6?:     number;
-}
-
-export enum CategoryEnum {
-    IapCategoryAvatar = "IAP_CATEGORY_AVATAR",
-    IapCategoryBundle = "IAP_CATEGORY_BUNDLE",
-    IapCategoryFlairBundle = "IAP_CATEGORY_FLAIR_BUNDLE",
-    IapCategoryFree = "IAP_CATEGORY_FREE",
-    IapCategoryGlobalEventTicket = "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
-    IapCategoryItems = "IAP_CATEGORY_ITEMS",
-    IapCategoryNone = "IAP_CATEGORY_NONE",
-    IapCategoryPokecoins = "IAP_CATEGORY_POKECOINS",
-    IapCategoryRewardedSpend = "IAP_CATEGORY_REWARDED_SPEND",
-    IapCategorySticker = "IAP_CATEGORY_STICKER",
-    IapCategoryTeamChange = "IAP_CATEGORY_TEAM_CHANGE",
-    IapCategoryTransporterEnergy = "IAP_CATEGORY_TRANSPORTER_ENERGY",
-    IapCategoryUpgrades = "IAP_CATEGORY_UPGRADES",
-}
-
 export interface EventPlannerPopularNotificationSettings {
     templateId: string;
     data:       EventPlannerPopularNotificationSettingData;
@@ -1905,12 +1905,11 @@ export interface GuiSearchSettings {
 }
 
 export interface GuiSearchSettingData {
-    guiSearchEnabled:                    boolean;
-    maxNumberRecentSearches:             number;
-    maxNumberFavoriteSearches:           number;
-    maxQueryLength:                      number;
-    searchHelpUrl:                       string;
-    completeStartLetterCountPerLanguage: string[];
+    guiSearchEnabled:          boolean;
+    maxNumberRecentSearches:   number;
+    maxNumberFavoriteSearches: number;
+    maxQueryLength:            number;
+    searchHelpUrl:             string;
 }
 
 export interface GymBadgeSettings {
@@ -3055,17 +3054,6 @@ export interface TypeBoost {
     boostType: TemplateIdElement[];
 }
 
-export interface PtcOauthSettings {
-    templateId: string;
-    data:       PtcOauthSettingData;
-}
-
-export interface PtcOauthSettingData {
-    ptcAccountLinkingEnabled: boolean;
-    endTimeMs:                string;
-    linkingRewardItem:        string;
-}
-
 export interface QuestSettings {
     templateId: string;
     data:       QuestSettingData;
@@ -3368,13 +3356,13 @@ export interface SettingsOverrideRule {
 }
 
 export interface SettingsOverrideRuleData {
-    ruleType:            RuleType;
+    ruleType:            RuleTypeUnion;
     sortOrder:           number;
     ruleValue?:          string;
-    meshingEnabled:      FusedDepthEnabled;
+    meshingEnabled?:     FusedDepthEnabled;
     occlusionEnabled:    FusedDepthEnabled;
     semanticsEnabled:    FusedDepthEnabled;
-    vpsEnabled:          FusedDepthEnabled;
+    vpsEnabled?:         FusedDepthEnabled;
     occlusionDefaultOn?: FusedDepthEnabled;
     fusedDepthEnabled?:  FusedDepthEnabled;
 }
@@ -3384,7 +3372,9 @@ export enum FusedDepthEnabled {
     True = "TRUE",
 }
 
-export enum RuleType {
+export type RuleTypeUnion = RuleTypeEnum | number;
+
+export enum RuleTypeEnum {
     All = "ALL",
     DeviceModel = "DEVICE_MODEL",
     DeviceModelContains = "DEVICE_MODEL_CONTAINS",

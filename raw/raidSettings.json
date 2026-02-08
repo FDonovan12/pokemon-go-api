@@ -113,6 +113,14 @@
         {
           "pokemon": "LUNALA",
           "battleMusicKey": "GoFest2024Music_Battle"
+        },
+        {
+          "pokemon": "XERNEAS",
+          "battleMusicKey": "RaidXerneasYveltalBattleMusic"
+        },
+        {
+          "pokemon": "YVELTAL",
+          "battleMusicKey": "RaidXerneasYveltalBattleMusic"
         }
       ],
       "fetchProfileFromSocialEnabled": true

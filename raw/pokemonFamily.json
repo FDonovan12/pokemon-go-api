@@ -2460,7 +2460,8 @@
     "templateId": "V0686_FAMILY_INKAY",
     "data": {
       "familyId": "FAMILY_INKAY",
-      "candyPerXlCandy": 100
+      "candyPerXlCandy": 100,
+      "megaEvolvablePokemonId": "MALAMAR"
     }
   },
   {

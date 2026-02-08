@@ -2856,6 +2856,16 @@
     }
   },
   {
+    "templateId": "SETTINGS_RULES_ANDROID_14_ONWARD",
+    "data": {
+      "ruleType": 10,
+      "sortOrder": 5,
+      "ruleValue": "33",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE"
+    }
+  },
+  {
     "templateId": "SETTINGS_RULES_BASE",
     "data": {
       "ruleType": "ALL",
@@ -2866,6 +2876,54 @@
       "semanticsEnabled": "TRUE",
       "fusedDepthEnabled": "TRUE",
       "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_DENY_GOOGLEPIXEL10",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Google Pixel 10",
+      "meshingEnabled": "FALSE",
+      "occlusionEnabled": "FALSE",
+      "semanticsEnabled": "FALSE",
+      "vpsEnabled": "FALSE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_DENY_GOOGLEPIXEL10PRO",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Google Pixel 10 Pro",
+      "meshingEnabled": "FALSE",
+      "occlusionEnabled": "FALSE",
+      "semanticsEnabled": "FALSE",
+      "vpsEnabled": "FALSE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_DENY_GOOGLEPIXEL10PROFOLD",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Google Pixel 10 Pro Fold",
+      "meshingEnabled": "FALSE",
+      "occlusionEnabled": "FALSE",
+      "semanticsEnabled": "FALSE",
+      "vpsEnabled": "FALSE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_DENY_GOOGLEPIXEL10PROXL",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Google Pixel 10 Pro XL",
+      "meshingEnabled": "FALSE",
+      "occlusionEnabled": "FALSE",
+      "semanticsEnabled": "FALSE",
+      "vpsEnabled": "FALSE"
     }
   },
   {
