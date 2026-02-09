@@ -43,6 +43,16 @@ jobs:
                   if [ -n "$(git status --porcelain)" ]; then
                     git commit -m "sync: update from main commit $MAIN_HASH"
                     git push origin state
+                    echo "has_changes=true" >> $GITHUB_OUTPUT
                   else
                     echo "Aucun changement détecté."
+                    echo "has_changes=false" >> $GITHUB_OUTPUT
                   fi
+
+            # Déclenchement manuel du workflow de state (pour contourner la sécurité)
+            - name: Trigger State Workflow
+              if: steps.sync.outputs.has_changes == 'true'
+              run: |
+                  gh workflow run generate-output.yml --ref state
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
