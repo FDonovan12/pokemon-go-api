@@ -3,6 +3,9 @@ name: Sync to State Branch
 on:
     push:
         branches: [main]
+    schedule:
+        - cron: '0 */6 * * *' # Déclenche la génération toutes les 6h
+    workflow_dispatch:
 
 jobs:
     sync-state:
