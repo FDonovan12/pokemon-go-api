@@ -48,7 +48,7 @@ jobs:
                   SKIP_PREPARE: 'true'
               run: |
                   npm ci
-                  npm run generate
+                  npm run update
 
             # 3. Publication sur la branche 'output' (Méthode propre)
             - name: Deploy to output branch
