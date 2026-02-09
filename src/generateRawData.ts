@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { InputData, jsonInputForTargetLanguage, quicktype } from 'quicktype-core';
 import { fetchGameMaster } from './fetchGameMaster.js';
-import { GameMaster, GameMasterByKey, groupGameMaster } from './gameMasterType.js';
+import { GameMaster, GameMasterByKey, groupGameMaster } from './type/gameMasterType.js';
 
 import 'utilitish';
 

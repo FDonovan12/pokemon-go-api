@@ -1,5 +1,5 @@
 import { sourceConfig } from './config.js';
-import { GameMaster } from './gameMasterType.js';
+import { GameMaster } from './type/gameMasterType.js';
 
 export async function fetchTimestamp(): Promise<string> {
     const res = await fetch(sourceConfig.timestamp_url);

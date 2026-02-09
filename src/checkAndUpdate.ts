@@ -1,8 +1,8 @@
 import fs from 'fs';
 import path from 'path';
 import { fetchGameMaster } from './fetchGameMaster.js';
-import { GameMaster } from './gameMasterType.js';
 import { parseGameMaster } from './parseGameMaster.js';
+import { GameMaster } from './type/gameMasterType.js';
 
 import 'utilitish';
 
