@@ -48,8 +48,8 @@ async function main() {
                     updated_at: new Date().toISOString(),
                 },
                 null,
-                2
-            )
+                2,
+            ),
         );
     }
 
