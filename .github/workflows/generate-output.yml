@@ -23,7 +23,7 @@ jobs:
             - name: Check if generation is needed
               id: check
               run: |
-                  REMOTE_TS=$(curl -s https://TON_URL_TIMESTAMP | jq -r .uploadTime)
+                  REMOTE_TS=$(curl -s https://raw.githubusercontent.com/alexelgt/game_masters/refs/heads/master/timestamp.json | jq -r .uploadTime)
                   LAST_TS=$(jq -r .remoteTimestamp meta/generation.json || echo "0")
 
                   # On récupère le hash injecté par main lors de la synchro
