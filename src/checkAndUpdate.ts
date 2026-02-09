@@ -6,7 +6,7 @@ import { GameMaster } from './type/gameMasterType.js';
 
 import 'utilitish';
 
-const DATA_DIR = 'data';
+const DATA_DIR = 'generated/data';
 
 async function main() {
     console.log('🚀 Starting data generation process...');
