@@ -9,12 +9,13 @@ jobs:
         runs-on: ubuntu-latest
         permissions:
             contents: write
+            actions: write
 
         steps:
             - name: Checkout Repository
               uses: actions/checkout@v4
               with:
-                  fetch-depth: 0 # Important pour voir toutes les branches
+                  fetch-depth: 0
 
             - name: Setup Git
               run: |
@@ -22,37 +23,44 @@ jobs:
                   git config user.email "github-actions[bot]@users.noreply.github.com"
 
             - name: Sync and Push
+              id: sync
               run: |
-                  # 1. On sauvegarde le hash de main
-                  MAIN_HASH=$(git rev-parse HEAD)
+                  MAIN_HASH=$(git rev-parse --short HEAD)
 
-                  # 2. On bascule sur la branche state
+                  # On va sur state
                   git checkout state
+                  git pull origin state
 
-                  # 3. On récupère les fichiers de main sans toucher au dossier .github de state
-                  # Cette commande magique extrait les fichiers de main vers l'index de state
+                  # On importe TOUT de main
                   git checkout main -- .
-                  git reset HEAD .github/ # On ne veut PAS importer les workflows de main
-                  git checkout .github/   # On restaure les workflows originaux de state
 
-                  # 4. On injecte le hash
+                  # --- PROTECTION DES WORKFLOWS ---
+                  # On force la restauration du dossier .github de la branche state
+                  # Pour ne pas écraser generate-output.yml par sync-to-state.yml
+                  git checkout HEAD -- .github/
+
+                  # Injection du hash
                   echo "$MAIN_HASH" > main_source_hash.txt
 
-                  # 5. Commit et Push
                   git add .
+
                   if [ -n "$(git status --porcelain)" ]; then
-                    git commit -m "sync: update from main commit $MAIN_HASH"
+                    git commit -m "sync: update code from main ($MAIN_HASH)"
                     git push origin state
-                    echo "has_changes=true" >> $GITHUB_OUTPUT
+                    # Utilisation de la nouvelle méthode GITHUB_OUTPUT
+                    echo "run_trigger=true" >> $GITHUB_OUTPUT
+                    echo "CHANGES_FOUND=true"
                   else
-                    echo "Aucun changement détecté."
-                    echo "has_changes=false" >> $GITHUB_OUTPUT
+                    echo "run_trigger=false" >> $GITHUB_OUTPUT
+                    echo "CHANGES_FOUND=false"
                   fi
 
-            # Déclenchement manuel du workflow de state (pour contourner la sécurité)
             - name: Trigger State Workflow
-              if: steps.sync.outputs.has_changes == 'true'
+              # On utilise une condition basée sur le log précédent si l'output bug
+              if: steps.sync.outputs.run_trigger == 'true'
               run: |
+                  echo "🚀 Déclenchement du workflow de génération sur state..."
+                  # REMPLACE BIEN par le nom de ton fichier sur la branche STATE
                   gh workflow run generate-output.yml --ref state
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
