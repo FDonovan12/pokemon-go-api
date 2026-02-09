@@ -4,6 +4,8 @@ import { InputData, jsonInputForTargetLanguage, quicktype } from 'quicktype-core
 import { fetchGameMaster } from './fetchGameMaster.js';
 import { GameMaster, GameMasterByKey, groupGameMaster } from './gameMasterType.js';
 
+import 'utilitish';
+
 mainRawGenerated().catch((err) => {
     console.error('❌ Erreur:', err);
     process.exit(1);
