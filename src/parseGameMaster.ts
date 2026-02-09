@@ -5,11 +5,9 @@ import {
     GameMasterKey,
     groupGameMaster,
 } from './gameMasterType.js';
-import { saveRawAndGenerateTypes } from './saveRawData.js';
 
 export function parseGameMaster(_gameMaster: GameMaster): Record<string, unknown> {
     const gameMasterByKey: GameMasterByKey = groupGameMaster(_gameMaster);
-    saveRawAndGenerateTypes(gameMasterByKey, 'data/raw/');
     const extractedData = partitionAndExtract(gameMasterByKey, rulesByKey);
 
     return {
@@ -34,7 +32,7 @@ export type ExtractionRules = {
 
 function partitionAndExtract(
     source: GameMasterByKey,
-    rules: ExtractionRules
+    rules: ExtractionRules,
 ): Record<string, any[]> {
     const result: Record<string, any> = {};
 
@@ -51,7 +49,7 @@ function partitionAndExtract(
             let matchedAtLeastOnce = false;
             const entries = Object.entries(keyRules) as [
                 string,
-                RuleDefinition<typeof currentKey>
+                RuleDefinition<typeof currentKey>,
             ][];
 
             for (const [resKey, rule] of entries) {

@@ -1,21 +1,32 @@
 import fs from 'fs';
 import path from 'path';
 import { InputData, jsonInputForTargetLanguage, quicktype } from 'quicktype-core';
-import { GameMasterByKey } from './gameMasterType.js';
+import { fetchGameMaster } from './fetchGameMaster.js';
+import { GameMaster, GameMasterByKey, groupGameMaster } from './gameMasterType.js';
 
-export async function saveRawAndGenerateTypes(groupedData: GameMasterByKey, outputDir: string) {
+mainRawGenerated().catch((err) => {
+    console.error('❌ Erreur:', err);
+    process.exit(1);
+});
+
+async function mainRawGenerated() {
+    const gameMaster: GameMaster = await fetchGameMaster();
+    const gameMasterByKey: GameMasterByKey = groupGameMaster(gameMaster);
+
+    saveRawAndGenerateTypes(gameMasterByKey);
+}
+
+async function saveRawAndGenerateTypes(groupedData: GameMasterByKey) {
+    const outputDir: string = '/generated/data/raw';
     if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
 
     const inputData = new InputData();
     const filesMapping: string[] = [];
 
     for (const [key, items] of Object.entries(groupedData)) {
-        // 1. Sauvegarde du JSON
         const fileName = `${key}.json`;
         fs.writeFileSync(path.join(outputDir, fileName), JSON.stringify(items, null, 2));
 
-        // 2. Préparation pour Quicktype
-        // On donne un nom d'interface propre (ex: pokemonSettings -> PokemonSettings)
         const typeName = key.camelCase().capitalize();
 
         await inputData.addSource(
@@ -24,13 +35,12 @@ export async function saveRawAndGenerateTypes(groupedData: GameMasterByKey, outp
                 name: typeName,
                 samples: [JSON.stringify(items)],
             },
-            () => jsonInputForTargetLanguage('typescript')
+            () => jsonInputForTargetLanguage('typescript'),
         );
 
         filesMapping.push(key);
     }
 
-    // 3. Génération du fichier types.ts
     const { lines } = await quicktype({
         inputData,
         lang: 'typescript',
@@ -43,11 +53,10 @@ export async function saveRawAndGenerateTypes(groupedData: GameMasterByKey, outp
         fixedTopLevels: true,
     });
 
-    fs.writeFileSync(path.join(outputDir, 'types.ts'), lines.join('\n'));
+    fs.writeFileSync(path.join('/generated', 'types.ts'), lines.join('\n'));
 
-    // 4. Génération de l'index.ts (Usage Interne)
     const indexContent = generateInternalIndex(filesMapping);
-    fs.writeFileSync(path.join(outputDir, 'index.ts'), indexContent);
+    fs.writeFileSync(path.join('/generated', 'index.ts'), indexContent);
 }
 
 function generateInternalIndex(keys: string[]): string {
@@ -56,7 +65,6 @@ function generateInternalIndex(keys: string[]): string {
 
     keys.forEach((key) => {
         const typeName = key.camelCase().capitalize();
-        // Ici, on utilise un chemin relatif pour l'import ou le fetch interne
         content += `    get${typeName}: async (): Promise<Types.${typeName}[]> => {\n`;
         content += `        const data = await import('./${key}.json', {\n`;
         content += `            assert: { type: 'json' },\n`;

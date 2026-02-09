@@ -5,10 +5,12 @@
   "type": "module",
   "scripts": {
     "build": "tsc",
+    "generate": "npm run build && node dist/saveRawData.js",
     "update": "npm run build && node dist/checkAndUpdate.js",
     "dev": "tsc --watch",
     "run": "node dist/checkAndUpdate.js",
-    "run:watch": "node --watch dist/checkAndUpdate.js"
+    "run:watch": "node --watch dist/checkAndUpdate.js",
+    "prepare": "npm run generate"
   },
   "devDependencies": {
     "@types/node": "^25.0.3",
