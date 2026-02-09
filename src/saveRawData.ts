@@ -17,7 +17,7 @@ async function mainRawGenerated() {
 }
 
 async function saveRawAndGenerateTypes(groupedData: GameMasterByKey) {
-    const outputDir: string = '/generated/data/raw';
+    const outputDir: string = 'generated/data/raw';
     if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
 
     const inputData = new InputData();
@@ -53,10 +53,10 @@ async function saveRawAndGenerateTypes(groupedData: GameMasterByKey) {
         fixedTopLevels: true,
     });
 
-    fs.writeFileSync(path.join('/generated', 'types.ts'), lines.join('\n'));
+    fs.writeFileSync(path.join('generated', 'types.ts'), lines.join('\n'));
 
     const indexContent = generateInternalIndex(filesMapping);
-    fs.writeFileSync(path.join('/generated', 'index.ts'), indexContent);
+    fs.writeFileSync(path.join('generated', 'index.ts'), indexContent);
 }
 
 function generateInternalIndex(keys: string[]): string {
