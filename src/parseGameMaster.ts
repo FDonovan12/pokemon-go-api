@@ -4,7 +4,7 @@ import {
     GameMasterItemByKey,
     GameMasterKey,
     groupGameMaster,
-} from './gameMasterType.js';
+} from './type/gameMasterType.js';
 
 export function parseGameMaster(_gameMaster: GameMaster): Record<string, unknown> {
     const gameMasterByKey: GameMasterByKey = groupGameMaster(_gameMaster);
