@@ -31,7 +31,7 @@ jobs:
                   rsync -av --exclude='.github/' main-folder/ state-folder/
 
                   # 3. On crée le fichier de hash (ton besoin spécifique)
-                  echo "${{ github.sha }}" > state-folder/source_commit_hash.txt
+                  echo "${{ github.sha }}" > main_source_hash.txt
 
             - name: Commit and Push
               run: |
