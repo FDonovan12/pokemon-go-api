@@ -1,0 +1,14 @@
+[
+  {
+    "templateId": "JOIN_RAID_VIA_FRIEND_LIST_SETTINGS",
+    "data": {
+      "enabled": true,
+      "minPlayerLevel": 5,
+      "minFriendshipScore": 7,
+      "friendActivitiesBackgroundUpdatePeriodMs": "10000",
+      "maxBattleEnabled": true,
+      "maxBattleMinPlayerLevel": 13,
+      "maxBattleMinFriendshipScore": 7
+    }
+  }
+]

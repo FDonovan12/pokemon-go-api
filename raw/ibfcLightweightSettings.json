@@ -1,0 +1,11 @@
+[
+  {
+    "templateId": "IBFC_LIGHTWEIGHT_SETTINGS",
+    "data": {
+      "defaultDefenseMultiplier": 1,
+      "defaultDefenseOverride": 272,
+      "defaultStaminaOverride": 155,
+      "defaultEnergyChargeOverride": 6
+    }
+  }
+]

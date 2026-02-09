@@ -1,0 +1,104 @@
+[
+  {
+    "templateId": "IAP_CATEGORY_AVATAR",
+    "data": {
+      "category": "IAP_CATEGORY_AVATAR",
+      "sortOrder": 5,
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO_Avatar_Blacephalon_Shoes.jpg",
+      "description": "avatar_shop_description_new"
+    }
+  },
+  {
+    "templateId": "IAP_CATEGORY_BUNDLE",
+    "data": {
+      "category": "IAP_CATEGORY_BUNDLE",
+      "sortOrder": 3,
+      "bannerEnabled": true,
+      "bannerTitle": "shop_limited_time"
+    }
+  },
+  {
+    "templateId": "IAP_CATEGORY_FLAIR_BUNDLE",
+    "data": {
+      "category": "IAP_CATEGORY_FLAIR_BUNDLE",
+      "hidden": true
+    }
+  },
+  {
+    "templateId": "IAP_CATEGORY_FREE",
+    "data": {
+      "category": "IAP_CATEGORY_FREE",
+      "sortOrder": 7
+    }
+  },
+  {
+    "templateId": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
+    "data": {
+      "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
+      "name": "shop_category_global_events",
+      "sortOrder": 1,
+      "bannerEnabled": true,
+      "bannerTitle": "shop_category_global_events",
+      "imageUrl": "https://storage.googleapis.com/prod-public-images/GOFestFinaleTicket.jpg",
+      "description": "live_events_shop_category_description"
+    }
+  },
+  {
+    "templateId": "IAP_CATEGORY_ITEMS",
+    "data": {
+      "category": "IAP_CATEGORY_ITEMS",
+      "sortOrder": 9
+    }
+  },
+  {
+    "templateId": "IAP_CATEGORY_NONE",
+    "data": {
+      "hidden": true
+    }
+  },
+  {
+    "templateId": "IAP_CATEGORY_POKECOINS",
+    "data": {
+      "category": "IAP_CATEGORY_POKECOINS",
+      "sortOrder": 17
+    }
+  },
+  {
+    "templateId": "IAP_CATEGORY_REWARDED_SPEND",
+    "data": {
+      "category": 19,
+      "name": "REWARDED_SPEND_MONTHLY_REWARD_ROAD_KEY",
+      "description": "rewarded_spend_category_description"
+    }
+  },
+  {
+    "templateId": "IAP_CATEGORY_STICKER",
+    "data": {
+      "category": "IAP_CATEGORY_STICKER",
+      "name": "shop_sticker",
+      "sortOrder": 13,
+      "displayRows": 2
+    }
+  },
+  {
+    "templateId": "IAP_CATEGORY_TEAM_CHANGE",
+    "data": {
+      "category": "IAP_CATEGORY_TEAM_CHANGE",
+      "sortOrder": 15
+    }
+  },
+  {
+    "templateId": "IAP_CATEGORY_TRANSPORTER_ENERGY",
+    "data": {
+      "category": "IAP_CATEGORY_TRANSPORTER_ENERGY",
+      "hidden": true
+    }
+  },
+  {
+    "templateId": "IAP_CATEGORY_UPGRADES",
+    "data": {
+      "category": "IAP_CATEGORY_UPGRADES",
+      "sortOrder": 11
+    }
+  }
+]

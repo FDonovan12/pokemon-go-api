@@ -1,0 +1,10 @@
+[
+  {
+    "templateId": "EGG_HATCH_IMPROVEMENTS_SETTINGS",
+    "data": {
+      "featureEnabled": true,
+      "bootDelayMs": 8000,
+      "raidInviteHardCapMs": 300000
+    }
+  }
+]

@@ -1,0 +1,7550 @@
+[
+  {
+    "templateId": "STICKER_2023COLLAB_1",
+    "data": {
+      "stickerId": "STICKER_2023COLLAB_1",
+      "maxCount": 25,
+      "pokemonId": "PIKACHU",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230926
+    }
+  },
+  {
+    "templateId": "STICKER_2023COLLAB_2",
+    "data": {
+      "stickerId": "STICKER_2023COLLAB_2",
+      "maxCount": 25,
+      "pokemonId": "PIKACHU",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230926
+    }
+  },
+  {
+    "templateId": "STICKER_2023COLLAB_3",
+    "data": {
+      "stickerId": "STICKER_2023COLLAB_3",
+      "maxCount": 25,
+      "pokemonId": "SLOWPOKE",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230926
+    }
+  },
+  {
+    "templateId": "STICKER_2023COLLAB_4",
+    "data": {
+      "stickerId": "STICKER_2023COLLAB_4",
+      "maxCount": 25,
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230926
+    }
+  },
+  {
+    "templateId": "STICKER_6ANNIV_1",
+    "data": {
+      "stickerId": "STICKER_6ANNIV_1",
+      "maxCount": 25,
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220706,
+      "regionId": 2000
+    }
+  },
+  {
+    "templateId": "STICKER_6ANNIV_2",
+    "data": {
+      "stickerId": "STICKER_6ANNIV_2",
+      "maxCount": 25,
+      "pokemonId": "PIKACHU",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220706
+    }
+  },
+  {
+    "templateId": "STICKER_6ANNIV_3",
+    "data": {
+      "stickerId": "STICKER_6ANNIV_3",
+      "maxCount": 25,
+      "pokemonId": "CHARMELEON",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220706
+    }
+  },
+  {
+    "templateId": "STICKER_6ANNIV_4",
+    "data": {
+      "stickerId": "STICKER_6ANNIV_4",
+      "maxCount": 25,
+      "pokemonId": "CHARMANDER",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220706
+    }
+  },
+  {
+    "templateId": "STICKER_6ANNIV_5",
+    "data": {
+      "stickerId": "STICKER_6ANNIV_5",
+      "maxCount": 25,
+      "pokemonId": "CHARIZARD",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220706
+    }
+  },
+  {
+    "templateId": "STICKER_6ANNIV_6",
+    "data": {
+      "stickerId": "STICKER_6ANNIV_6",
+      "maxCount": 25,
+      "pokemonId": "PIKACHU",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220706
+    }
+  },
+  {
+    "templateId": "STICKER_7ANNIV_1",
+    "data": {
+      "stickerId": "STICKER_7ANNIV_1",
+      "maxCount": 25,
+      "pokemonId": "SQUIRTLE",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230629
+    }
+  },
+  {
+    "templateId": "STICKER_7ANNIV_2",
+    "data": {
+      "stickerId": "STICKER_7ANNIV_2",
+      "maxCount": 25,
+      "pokemonId": "WARTORTLE",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230629
+    }
+  },
+  {
+    "templateId": "STICKER_7ANNIV_3",
+    "data": {
+      "stickerId": "STICKER_7ANNIV_3",
+      "maxCount": 25,
+      "pokemonId": "BLASTOISE",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230629
+    }
+  },
+  {
+    "templateId": "STICKER_7ANNIV_4",
+    "data": {
+      "stickerId": "STICKER_7ANNIV_4",
+      "maxCount": 25,
+      "pokemonId": "PONYTA",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230629
+    }
+  },
+  {
+    "templateId": "STICKER_7ANNIV_5",
+    "data": {
+      "stickerId": "STICKER_7ANNIV_5",
+      "maxCount": 25,
+      "pokemonId": "TOGEDEMARU",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230629,
+      "regionId": 6
+    }
+  },
+  {
+    "templateId": "STICKER_8ANNIV_1",
+    "data": {
+      "stickerId": "STICKER_8ANNIV_1",
+      "maxCount": 25,
+      "category": [
+        "Misc"
+      ],
+      "releaseDate": 20240620
+    }
+  },
+  {
+    "templateId": "STICKER_8ANNIV_2",
+    "data": {
+      "stickerId": "STICKER_8ANNIV_2",
+      "maxCount": 25,
+      "pokemonId": "GRIMER",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240620
+    }
+  },
+  {
+    "templateId": "STICKER_8ANNIV_3",
+    "data": {
+      "stickerId": "STICKER_8ANNIV_3",
+      "maxCount": 25,
+      "pokemonId": "BULBASAUR",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240620,
+      "regionId": 2000
+    }
+  },
+  {
+    "templateId": "STICKER_8ANNIV_4",
+    "data": {
+      "stickerId": "STICKER_8ANNIV_4",
+      "maxCount": 25,
+      "pokemonId": "MELTAN",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240620,
+      "regionId": 6
+    }
+  },
+  {
+    "templateId": "STICKER_9ANNIV_1",
+    "data": {
+      "stickerId": "STICKER_9ANNIV_1",
+      "maxCount": 25,
+      "pokemonId": "BULBASAUR",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20250701
+    }
+  },
+  {
+    "templateId": "STICKER_9ANNIV_2",
+    "data": {
+      "stickerId": "STICKER_9ANNIV_2",
+      "maxCount": 25,
+      "pokemonId": "IVYSAUR",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20250701
+    }
+  },
+  {
+    "templateId": "STICKER_9ANNIV_3",
+    "data": {
+      "stickerId": "STICKER_9ANNIV_3",
+      "maxCount": 25,
+      "pokemonId": "VENUSAUR",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20250701
+    }
+  },
+  {
+    "templateId": "STICKER_ALOLAISHI_1",
+    "data": {
+      "stickerId": "STICKER_ALOLAISHI_1",
+      "maxCount": 25,
+      "pokemonId": "GEODUDE",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220521,
+      "regionId": 6
+    }
+  },
+  {
+    "templateId": "STICKER_ALOLAISHI_2",
+    "data": {
+      "stickerId": "STICKER_ALOLAISHI_2",
+      "maxCount": 25,
+      "pokemonId": "GRAVELER",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220521,
+      "regionId": 2000
+    }
+  },
+  {
+    "templateId": "STICKER_ALOLAISHI_3",
+    "data": {
+      "stickerId": "STICKER_ALOLAISHI_3",
+      "maxCount": 25,
+      "pokemonId": "GOLEM",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220521,
+      "regionId": 2000
+    }
+  },
+  {
+    "templateId": "STICKER_ALOLAISHI_4",
+    "data": {
+      "stickerId": "STICKER_ALOLAISHI_4",
+      "maxCount": 25,
+      "pokemonId": "GEODUDE",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220521,
+      "regionId": 6
+    }
+  },
+  {
+    "templateId": "STICKER_APRILFOOL2023_1",
+    "data": {
+      "stickerId": "STICKER_APRILFOOL2023_1",
+      "maxCount": 25,
+      "pokemonId": "PIDGEY",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230331
+    }
+  },
+  {
+    "templateId": "STICKER_APRILFOOL2023_2",
+    "data": {
+      "stickerId": "STICKER_APRILFOOL2023_2",
+      "maxCount": 25,
+      "pokemonId": "PIDGEY",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230331
+    }
+  },
+  {
+    "templateId": "STICKER_AUDINO",
+    "data": {
+      "stickerId": "STICKER_AUDINO",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_audino.png",
+      "maxCount": 25,
+      "pokemonId": "AUDINO",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220210,
+      "regionId": 4
+    }
+  },
+  {
+    "templateId": "STICKER_BELLSPROUTCD_1",
+    "data": {
+      "stickerId": "STICKER_BELLSPROUTCD_1",
+      "maxCount": 25,
+      "pokemonId": "BELLSPROUT",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240410
+    }
+  },
+  {
+    "templateId": "STICKER_BELLSPROUTCD_2",
+    "data": {
+      "stickerId": "STICKER_BELLSPROUTCD_2",
+      "maxCount": 25,
+      "pokemonId": "BELLSPROUT",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240410
+    }
+  },
+  {
+    "templateId": "STICKER_BELLSPROUTCD_3",
+    "data": {
+      "stickerId": "STICKER_BELLSPROUTCD_3",
+      "maxCount": 25,
+      "pokemonId": "BELLSPROUT",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240410
+    }
+  },
+  {
+    "templateId": "STICKER_BELLSPROUTCD_4",
+    "data": {
+      "stickerId": "STICKER_BELLSPROUTCD_4",
+      "maxCount": 25,
+      "pokemonId": "BELLSPROUT",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240410
+    }
+  },
+  {
+    "templateId": "STICKER_BIDOOFDAY_1",
+    "data": {
+      "stickerId": "STICKER_BIDOOFDAY_1",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_bidoofDay_1.png",
+      "maxCount": 25,
+      "pokemonId": "BIDOOF",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20210625,
+      "regionId": 3
+    }
+  },
+  {
+    "templateId": "STICKER_BIDOOFDAY_2",
+    "data": {
+      "stickerId": "STICKER_BIDOOFDAY_2",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_bidoofDay_2.png",
+      "maxCount": 25,
+      "pokemonId": "BIDOOF",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20210625,
+      "regionId": 3
+    }
+  },
+  {
+    "templateId": "STICKER_BIDOOFDAY_3",
+    "data": {
+      "stickerId": "STICKER_BIDOOFDAY_3",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_bidoofDay_3.png",
+      "maxCount": 25,
+      "pokemonId": "BIDOOF",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20210625,
+      "regionId": 3
+    }
+  },
+  {
+    "templateId": "STICKER_BOUNSWEETCD2024_1",
+    "data": {
+      "stickerId": "STICKER_BOUNSWEETCD2024_1",
+      "maxCount": 25,
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240508,
+      "regionId": 6
+    }
+  },
+  {
+    "templateId": "STICKER_BOUNSWEETCD2024_2",
+    "data": {
+      "stickerId": "STICKER_BOUNSWEETCD2024_2",
+      "maxCount": 25,
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240508,
+      "regionId": 6
+    }
+  },
+  {
+    "templateId": "STICKER_BOUNSWEETCD2024_3",
+    "data": {
+      "stickerId": "STICKER_BOUNSWEETCD2024_3",
+      "maxCount": 25,
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240508,
+      "regionId": 6
+    }
+  },
+  {
+    "templateId": "STICKER_BOUNSWEETCD2024_4",
+    "data": {
+      "stickerId": "STICKER_BOUNSWEETCD2024_4",
+      "maxCount": 25,
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240508,
+      "regionId": 6
+    }
+  },
+  {
+    "templateId": "STICKER_BREADKOREA_001",
+    "data": {
+      "stickerId": "STICKER_BREADKOREA_001",
+      "maxCount": 25,
+      "pokemonId": "EEVEE",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220801
+    }
+  },
+  {
+    "templateId": "STICKER_BREADKOREA_002",
+    "data": {
+      "stickerId": "STICKER_BREADKOREA_002",
+      "maxCount": 25,
+      "pokemonId": "PIKACHU",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220801
+    }
+  },
+  {
+    "templateId": "STICKER_BREADKOREA_003",
+    "data": {
+      "stickerId": "STICKER_BREADKOREA_003",
+      "maxCount": 25,
+      "pokemonId": "GENGAR",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220801
+    }
+  },
+  {
+    "templateId": "STICKER_BREADKOREA_004",
+    "data": {
+      "stickerId": "STICKER_BREADKOREA_004",
+      "maxCount": 25,
+      "pokemonId": "PIKACHU",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220801
+    }
+  },
+  {
+    "templateId": "STICKER_BREADKOREA_005",
+    "data": {
+      "stickerId": "STICKER_BREADKOREA_005",
+      "maxCount": 25,
+      "pokemonId": "EEVEE",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220801
+    }
+  },
+  {
+    "templateId": "STICKER_BREADKOREA_006",
+    "data": {
+      "stickerId": "STICKER_BREADKOREA_006",
+      "maxCount": 25,
+      "pokemonId": "PIKACHU",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220801
+    }
+  },
+  {
+    "templateId": "STICKER_CHANSEYCD_1",
+    "data": {
+      "stickerId": "STICKER_CHANSEYCD_1",
+      "maxCount": 25,
+      "pokemonId": "CHANSEY",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240123
+    }
+  },
+  {
+    "templateId": "STICKER_CHANSEYCD_2",
+    "data": {
+      "stickerId": "STICKER_CHANSEYCD_2",
+      "maxCount": 25,
+      "pokemonId": "CHANSEY",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240123,
+      "regionId": 2000
+    }
+  },
+  {
+    "templateId": "STICKER_CHANSEYCD_3",
+    "data": {
+      "stickerId": "STICKER_CHANSEYCD_3",
+      "maxCount": 25,
+      "pokemonId": "CHANSEY",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240123,
+      "regionId": 1
+    }
+  },
+  {
+    "templateId": "STICKER_CHANSEYCD_4",
+    "data": {
+      "stickerId": "STICKER_CHANSEYCD_4",
+      "maxCount": 25,
+      "pokemonId": "CHANSEY",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240123
+    }
+  },
+  {
+    "templateId": "STICKER_CHARIZARD_1",
+    "data": {
+      "stickerId": "STICKER_CHARIZARD_1",
+      "maxCount": 25,
+      "pokemonId": "CHARIZARD",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20241004
+    }
+  },
+  {
+    "templateId": "STICKER_CHARIZARD_2",
+    "data": {
+      "stickerId": "STICKER_CHARIZARD_2",
+      "maxCount": 25,
+      "pokemonId": "CHARIZARD",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20241004
+    }
+  },
+  {
+    "templateId": "STICKER_CHARIZARD_3",
+    "data": {
+      "stickerId": "STICKER_CHARIZARD_3",
+      "maxCount": 25,
+      "pokemonId": "CHARIZARD",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20241004
+    }
+  },
+  {
+    "templateId": "STICKER_CHESPIN_1",
+    "data": {
+      "stickerId": "STICKER_CHESPIN_1",
+      "maxCount": 25,
+      "pokemonId": "CHESPIN",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230107,
+      "regionId": 5
+    }
+  },
+  {
+    "templateId": "STICKER_CHESPIN_2",
+    "data": {
+      "stickerId": "STICKER_CHESPIN_2",
+      "maxCount": 25,
+      "pokemonId": "CHESPIN",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230107,
+      "regionId": 5
+    }
+  },
+  {
+    "templateId": "STICKER_CHESPIN_3",
+    "data": {
+      "stickerId": "STICKER_CHESPIN_3",
+      "maxCount": 25,
+      "pokemonId": "CHESPIN",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230107,
+      "regionId": 5
+    }
+  },
+  {
+    "templateId": "STICKER_CHESPIN_4",
+    "data": {
+      "stickerId": "STICKER_CHESPIN_4",
+      "maxCount": 25,
+      "pokemonId": "CHESPIN",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230107,
+      "regionId": 5
+    }
+  },
+  {
+    "templateId": "STICKER_CITYSPOTLIGHT",
+    "data": {
+      "stickerId": "STICKER_CITYSPOTLIGHT",
+      "stickerUrl": "https://storage.googleapis.com/prod-public-images/Stickers/sticker_CitySpotlight.png",
+      "maxCount": 25,
+      "category": [
+        "Misc"
+      ],
+      "releaseDate": 20201122
+    }
+  },
+  {
+    "templateId": "STICKER_CONCIERGE_EEVEE",
+    "data": {
+      "stickerId": "STICKER_CONCIERGE_EEVEE",
+      "maxCount": 25,
+      "pokemonId": "EEVEE",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20250909
+    }
+  },
+  {
+    "templateId": "STICKER_CONCIERGE_PSYDUCK",
+    "data": {
+      "stickerId": "STICKER_CONCIERGE_PSYDUCK",
+      "maxCount": 25,
+      "pokemonId": "PSYDUCK",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20250909
+    }
+  },
+  {
+    "templateId": "STICKER_CONCIERGE_SEALEO",
+    "data": {
+      "stickerId": "STICKER_CONCIERGE_SEALEO",
+      "maxCount": 25,
+      "pokemonId": "SEALEO",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20250909,
+      "regionId": 2
+    }
+  },
+  {
+    "templateId": "STICKER_CONCIERGE_SHINX",
+    "data": {
+      "stickerId": "STICKER_CONCIERGE_SHINX",
+      "maxCount": 25,
+      "pokemonId": "SHINX",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20250909,
+      "regionId": 3
+    }
+  },
+  {
+    "templateId": "STICKER_DEINO_1",
+    "data": {
+      "stickerId": "STICKER_DEINO_1",
+      "maxCount": 25,
+      "pokemonId": "DEINO",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220625,
+      "regionId": 4
+    }
+  },
+  {
+    "templateId": "STICKER_DEINO_2",
+    "data": {
+      "stickerId": "STICKER_DEINO_2",
+      "maxCount": 25,
+      "pokemonId": "ZWEILOUS",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220625,
+      "regionId": 4
+    }
+  },
+  {
+    "templateId": "STICKER_DEINO_3",
+    "data": {
+      "stickerId": "STICKER_DEINO_3",
+      "maxCount": 25,
+      "pokemonId": "ZWEILOUS",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220625,
+      "regionId": 4
+    }
+  },
+  {
+    "templateId": "STICKER_DEINO_4",
+    "data": {
+      "stickerId": "STICKER_DEINO_4",
+      "maxCount": 25,
+      "pokemonId": "HYDREIGON",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220625,
+      "regionId": 2000
+    }
+  },
+  {
+    "templateId": "STICKER_DIADEMUERTOS2023_1",
+    "data": {
+      "stickerId": "STICKER_DIADEMUERTOS2023_1",
+      "maxCount": 25,
+      "category": [
+        "Misc"
+      ],
+      "releaseDate": 20231030
+    }
+  },
+  {
+    "templateId": "STICKER_DIADEMUERTOS2023_2",
+    "data": {
+      "stickerId": "STICKER_DIADEMUERTOS2023_2",
+      "maxCount": 25,
+      "category": [
+        "Misc"
+      ],
+      "releaseDate": 20231030
+    }
+  },
+  {
+    "templateId": "STICKER_DIADEMUERTOS2023_3",
+    "data": {
+      "stickerId": "STICKER_DIADEMUERTOS2023_3",
+      "maxCount": 25,
+      "category": [
+        "Misc"
+      ],
+      "releaseDate": 20231030
+    }
+  },
+  {
+    "templateId": "STICKER_DIADEMUERTOS2023_4",
+    "data": {
+      "stickerId": "STICKER_DIADEMUERTOS2023_4",
+      "maxCount": 25,
+      "category": [
+        "Misc"
+      ],
+      "releaseDate": 20231030
+    }
+  },
+  {
+    "templateId": "STICKER_DIAMONDPEARLCHIMCHAR",
+    "data": {
+      "stickerId": "STICKER_DIAMONDPEARLCHIMCHAR",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_diamondPearlChimchar.png",
+      "maxCount": 25,
+      "pokemonId": "CHIMCHAR",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20211116,
+      "regionId": 3
+    }
+  },
+  {
+    "templateId": "STICKER_DIAMONDPEARLDIALGA",
+    "data": {
+      "stickerId": "STICKER_DIAMONDPEARLDIALGA",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_diamondPearlDialga.png",
+      "maxCount": 25,
+      "pokemonId": "DIALGA",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20211116,
+      "regionId": 3
+    }
+  },
+  {
+    "templateId": "STICKER_DIAMONDPEARLLUCARIO",
+    "data": {
+      "stickerId": "STICKER_DIAMONDPEARLLUCARIO",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_diamondPearlLucario.png",
+      "maxCount": 25,
+      "pokemonId": "LUCARIO",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20211116,
+      "regionId": 3
+    }
+  },
+  {
+    "templateId": "STICKER_DIAMONDPEARLPALKIA",
+    "data": {
+      "stickerId": "STICKER_DIAMONDPEARLPALKIA",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_diamondPearlPalkia.png",
+      "maxCount": 25,
+      "pokemonId": "PALKIA",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20211116,
+      "regionId": 3
+    }
+  },
+  {
+    "templateId": "STICKER_DIAMONDPEARLPIPLUP",
+    "data": {
+      "stickerId": "STICKER_DIAMONDPEARLPIPLUP",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_diamondPearlPiplup.png",
+      "maxCount": 25,
+      "pokemonId": "PIPLUP",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20211116,
+      "regionId": 3
+    }
+  },
+  {
+    "templateId": "STICKER_DIAMONDPEARLTURTWIG",
+    "data": {
+      "stickerId": "STICKER_DIAMONDPEARLTURTWIG",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_diamondPearlTurtwig.png",
+      "maxCount": 25,
+      "pokemonId": "TURTWIG",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20211116,
+      "regionId": 3
+    }
+  },
+  {
+    "templateId": "STICKER_DITTO_1",
+    "data": {
+      "stickerId": "STICKER_DITTO_1",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_ditto_1.png",
+      "maxCount": 25,
+      "pokemonId": "DITTO",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220401
+    }
+  },
+  {
+    "templateId": "STICKER_DITTO_2",
+    "data": {
+      "stickerId": "STICKER_DITTO_2",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_ditto_2.png",
+      "maxCount": 25,
+      "pokemonId": "DITTO",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220401
+    }
+  },
+  {
+    "templateId": "STICKER_DITTO_3",
+    "data": {
+      "stickerId": "STICKER_DITTO_3",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_ditto_3.png",
+      "maxCount": 25,
+      "pokemonId": "DITTO",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220401
+    }
+  },
+  {
+    "templateId": "STICKER_DITTO_4",
+    "data": {
+      "stickerId": "STICKER_DITTO_4",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_ditto_4.png",
+      "maxCount": 25,
+      "pokemonId": "DITTO",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220401
+    }
+  },
+  {
+    "templateId": "STICKER_DITTO_5",
+    "data": {
+      "stickerId": "STICKER_DITTO_5",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_ditto_5.png",
+      "maxCount": 25,
+      "pokemonId": "DITTO",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220401
+    }
+  },
+  {
+    "templateId": "STICKER_DITTO_6",
+    "data": {
+      "stickerId": "STICKER_DITTO_6",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_ditto_6.png",
+      "maxCount": 25,
+      "pokemonId": "DITTO",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220401
+    }
+  },
+  {
+    "templateId": "STICKER_EEVEEFRIENDS_1",
+    "data": {
+      "stickerId": "STICKER_EEVEEFRIENDS_1",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_eeveeFriends_1.png",
+      "maxCount": 25,
+      "pokemonId": "SYLVEON",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20210525,
+      "regionId": 5
+    }
+  },
+  {
+    "templateId": "STICKER_EEVEEFRIENDS_2",
+    "data": {
+      "stickerId": "STICKER_EEVEEFRIENDS_2",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_eeveeFriends_2.png",
+      "maxCount": 25,
+      "pokemonId": "GLACEON",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20210525,
+      "regionId": 3
+    }
+  },
+  {
+    "templateId": "STICKER_EEVEEFRIENDS_3",
+    "data": {
+      "stickerId": "STICKER_EEVEEFRIENDS_3",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_eeveeFriends_3.png",
+      "maxCount": 25,
+      "pokemonId": "LEAFEON",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20210525,
+      "regionId": 3
+    }
+  },
+  {
+    "templateId": "STICKER_EEVEEFRIENDS_4",
+    "data": {
+      "stickerId": "STICKER_EEVEEFRIENDS_4",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_eeveeFriends_4.png",
+      "maxCount": 25,
+      "pokemonId": "UMBREON",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20210525,
+      "regionId": 1
+    }
+  },
+  {
+    "templateId": "STICKER_EEVEEFRIENDS_5",
+    "data": {
+      "stickerId": "STICKER_EEVEEFRIENDS_5",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_eeveeFriends_5.png",
+      "maxCount": 25,
+      "pokemonId": "ESPEON",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20210525,
+      "regionId": 1
+    }
+  },
+  {
+    "templateId": "STICKER_EEVEEFRIENDS_6",
+    "data": {
+      "stickerId": "STICKER_EEVEEFRIENDS_6",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_eeveeFriends_6.png",
+      "maxCount": 25,
+      "pokemonId": "FLAREON",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20210525
+    }
+  },
+  {
+    "templateId": "STICKER_EEVEEFRIENDS_7",
+    "data": {
+      "stickerId": "STICKER_EEVEEFRIENDS_7",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_eeveeFriends_7.png",
+      "maxCount": 25,
+      "pokemonId": "JOLTEON",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20210525
+    }
+  },
+  {
+    "templateId": "STICKER_EEVEEFRIENDS_8",
+    "data": {
+      "stickerId": "STICKER_EEVEEFRIENDS_8",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_eeveeFriends_8.png",
+      "maxCount": 25,
+      "pokemonId": "VAPOREON",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20210525
+    }
+  },
+  {
+    "templateId": "STICKER_EEVEEFRIENDS_9",
+    "data": {
+      "stickerId": "STICKER_EEVEEFRIENDS_9",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_eeveeFriends_9.png",
+      "maxCount": 25,
+      "pokemonId": "EEVEE",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20210525
+    }
+  },
+  {
+    "templateId": "STICKER_ETERNATUS",
+    "data": {
+      "stickerId": "STICKER_ETERNATUS",
+      "maxCount": 25,
+      "pokemonId": "ETERNATUS",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20250718,
+      "regionId": 7
+    }
+  },
+  {
+    "templateId": "STICKER_FALL_2023_1",
+    "data": {
+      "stickerId": "STICKER_FALL_2023_1",
+      "maxCount": 25,
+      "pokemonId": "DEERLING",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230830,
+      "regionId": 2000
+    }
+  },
+  {
+    "templateId": "STICKER_FALL_2023_2",
+    "data": {
+      "stickerId": "STICKER_FALL_2023_2",
+      "maxCount": 25,
+      "pokemonId": "UMBREON",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230830,
+      "regionId": 1
+    }
+  },
+  {
+    "templateId": "STICKER_FALL_2023_3",
+    "data": {
+      "stickerId": "STICKER_FALL_2023_3",
+      "maxCount": 25,
+      "pokemonId": "ZORUA",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230830,
+      "regionId": 4
+    }
+  },
+  {
+    "templateId": "STICKER_FALL_2023_4",
+    "data": {
+      "stickerId": "STICKER_FALL_2023_4",
+      "maxCount": 25,
+      "pokemonId": "PUMPKABOO",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230830,
+      "regionId": 2000
+    }
+  },
+  {
+    "templateId": "STICKER_FALL_2023_5",
+    "data": {
+      "stickerId": "STICKER_FALL_2023_5",
+      "maxCount": 25,
+      "pokemonId": "LECHONK",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230830,
+      "regionId": 1001
+    }
+  },
+  {
+    "templateId": "STICKER_FALL_2023_6",
+    "data": {
+      "stickerId": "STICKER_FALL_2023_6",
+      "maxCount": 25,
+      "pokemonId": "FURRET",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230830,
+      "regionId": 1
+    }
+  },
+  {
+    "templateId": "STICKER_FALL_2024_1",
+    "data": {
+      "stickerId": "STICKER_FALL_2024_1",
+      "maxCount": 25,
+      "pokemonId": "BIDOOF",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240827,
+      "regionId": 3
+    }
+  },
+  {
+    "templateId": "STICKER_FALL_2024_2",
+    "data": {
+      "stickerId": "STICKER_FALL_2024_2",
+      "maxCount": 25,
+      "pokemonId": "DREEPY",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240827,
+      "regionId": 7
+    }
+  },
+  {
+    "templateId": "STICKER_FALL_2024_3",
+    "data": {
+      "stickerId": "STICKER_FALL_2024_3",
+      "maxCount": 25,
+      "pokemonId": "MUNCHLAX",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240827,
+      "regionId": 3
+    }
+  },
+  {
+    "templateId": "STICKER_FALL_2024_4",
+    "data": {
+      "stickerId": "STICKER_FALL_2024_4",
+      "maxCount": 25,
+      "pokemonId": "MEOWTH",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240827
+    }
+  },
+  {
+    "templateId": "STICKER_FALL_2024_5",
+    "data": {
+      "stickerId": "STICKER_FALL_2024_5",
+      "maxCount": 25,
+      "pokemonId": "WOOLOO",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240827,
+      "regionId": 7
+    }
+  },
+  {
+    "templateId": "STICKER_FALL_2024_6",
+    "data": {
+      "stickerId": "STICKER_FALL_2024_6",
+      "maxCount": 25,
+      "pokemonId": "GREEDENT",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240827,
+      "regionId": 7
+    }
+  },
+  {
+    "templateId": "STICKER_FALL_2025_1",
+    "data": {
+      "stickerId": "STICKER_FALL_2025_1",
+      "maxCount": 25,
+      "pokemonId": "GREAVARD",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20250902,
+      "regionId": 1001
+    }
+  },
+  {
+    "templateId": "STICKER_FALL_2025_2",
+    "data": {
+      "stickerId": "STICKER_FALL_2025_2",
+      "maxCount": 25,
+      "pokemonId": "NICKIT",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20250902,
+      "regionId": 7
+    }
+  },
+  {
+    "templateId": "STICKER_FALL_2025_3",
+    "data": {
+      "stickerId": "STICKER_FALL_2025_3",
+      "maxCount": 25,
+      "pokemonId": "CLEFAIRY",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20250902
+    }
+  },
+  {
+    "templateId": "STICKER_FALL_2025_4",
+    "data": {
+      "stickerId": "STICKER_FALL_2025_4",
+      "maxCount": 25,
+      "pokemonId": "APPLETUN",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20250902,
+      "regionId": 7
+    }
+  },
+  {
+    "templateId": "STICKER_FALL_SAWSBUCK",
+    "data": {
+      "stickerId": "STICKER_FALL_SAWSBUCK",
+      "maxCount": 25,
+      "pokemonId": "SAWSBUCK",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220901,
+      "regionId": 4
+    }
+  },
+  {
+    "templateId": "STICKER_FALL_SHROOMISH",
+    "data": {
+      "stickerId": "STICKER_FALL_SHROOMISH",
+      "maxCount": 25,
+      "pokemonId": "SHROOMISH",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220901,
+      "regionId": 2000
+    }
+  },
+  {
+    "templateId": "STICKER_FALL_SKWOVET",
+    "data": {
+      "stickerId": "STICKER_FALL_SKWOVET",
+      "maxCount": 25,
+      "pokemonId": "SKWOVET",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220901,
+      "regionId": 7
+    }
+  },
+  {
+    "templateId": "STICKER_FALL_TEDDIURSA",
+    "data": {
+      "stickerId": "STICKER_FALL_TEDDIURSA",
+      "maxCount": 25,
+      "pokemonId": "TEDDIURSA",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220901,
+      "regionId": 1
+    }
+  },
+  {
+    "templateId": "STICKER_FALL_TREVENANT",
+    "data": {
+      "stickerId": "STICKER_FALL_TREVENANT",
+      "maxCount": 25,
+      "pokemonId": "TREVENANT",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220901,
+      "regionId": 5
+    }
+  },
+  {
+    "templateId": "STICKER_FALL_VULPIX",
+    "data": {
+      "stickerId": "STICKER_FALL_VULPIX",
+      "maxCount": 25,
+      "pokemonId": "VULPIX",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220901,
+      "regionId": 2000
+    }
+  },
+  {
+    "templateId": "STICKER_FENNEKIN_1",
+    "data": {
+      "stickerId": "STICKER_FENNEKIN_1",
+      "maxCount": 25,
+      "pokemonId": "FENNEKIN",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230508,
+      "regionId": 5
+    }
+  },
+  {
+    "templateId": "STICKER_FENNEKIN_2",
+    "data": {
+      "stickerId": "STICKER_FENNEKIN_2",
+      "maxCount": 25,
+      "pokemonId": "FENNEKIN",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230508,
+      "regionId": 5
+    }
+  },
+  {
+    "templateId": "STICKER_FENNEKIN_3",
+    "data": {
+      "stickerId": "STICKER_FENNEKIN_3",
+      "maxCount": 25,
+      "pokemonId": "FENNEKIN",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230508,
+      "regionId": 5
+    }
+  },
+  {
+    "templateId": "STICKER_FENNEKIN_4",
+    "data": {
+      "stickerId": "STICKER_FENNEKIN_4",
+      "maxCount": 25,
+      "pokemonId": "FENNEKIN",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230508,
+      "regionId": 5
+    }
+  },
+  {
+    "templateId": "STICKER_FESTIVALOFLIGHT_MORELULL",
+    "data": {
+      "stickerId": "STICKER_FESTIVALOFLIGHT_MORELULL",
+      "maxCount": 25,
+      "pokemonId": "MORELULL",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20221014,
+      "regionId": 6
+    }
+  },
+  {
+    "templateId": "STICKER_FESTIVALOFLIGHT_SHIINOTIC",
+    "data": {
+      "stickerId": "STICKER_FESTIVALOFLIGHT_SHIINOTIC",
+      "maxCount": 25,
+      "pokemonId": "SHIINOTIC",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20221014,
+      "regionId": 6
+    }
+  },
+  {
+    "templateId": "STICKER_FESTIVALOFTHELIGHTS21_V1",
+    "data": {
+      "stickerId": "STICKER_FESTIVALOFTHELIGHTS21_V1",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_festivalOfTheLights21_v1.png",
+      "maxCount": 25,
+      "pokemonId": "DEDENNE",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20211105,
+      "regionId": 5
+    }
+  },
+  {
+    "templateId": "STICKER_FESTIVALOFTHELIGHTS21_V2",
+    "data": {
+      "stickerId": "STICKER_FESTIVALOFTHELIGHTS21_V2",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_festivalOfTheLights21_v2.png",
+      "maxCount": 25,
+      "pokemonId": "DEDENNE",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20211105,
+      "regionId": 5
+    }
+  },
+  {
+    "templateId": "STICKER_FESTIVALOFTHELIGHTS21_V3",
+    "data": {
+      "stickerId": "STICKER_FESTIVALOFTHELIGHTS21_V3",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_festivalOfTheLights21_v3.png",
+      "maxCount": 25,
+      "pokemonId": "DEDENNE",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20211105,
+      "regionId": 5
+    }
+  },
+  {
+    "templateId": "STICKER_FESTIVALOFTHELIGHTS21_V4",
+    "data": {
+      "stickerId": "STICKER_FESTIVALOFTHELIGHTS21_V4",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_festivalOfTheLights21_v4.png",
+      "maxCount": 25,
+      "pokemonId": "DEDENNE",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20211105,
+      "regionId": 5
+    }
+  },
+  {
+    "templateId": "STICKER_FLABEBE_1",
+    "data": {
+      "stickerId": "STICKER_FLABEBE_1",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_flabebe_1.png",
+      "maxCount": 25,
+      "pokemonId": "FLABEBE",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220210,
+      "regionId": 5
+    }
+  },
+  {
+    "templateId": "STICKER_FLABEBE_2",
+    "data": {
+      "stickerId": "STICKER_FLABEBE_2",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_flabebe_2.png",
+      "maxCount": 25,
+      "pokemonId": "FLABEBE",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220210,
+      "regionId": 5
+    }
+  },
+  {
+    "templateId": "STICKER_FLAIR_HEART_1",
+    "data": {
+      "stickerId": "STICKER_FLAIR_HEART_1",
+      "maxCount": 25,
+      "category": [
+        "Decoration"
+      ]
+    }
+  },
+  {
+    "templateId": "STICKER_FLAIR_HEART_2",
+    "data": {
+      "stickerId": "STICKER_FLAIR_HEART_2",
+      "maxCount": 25,
+      "category": [
+        "Decoration"
+      ]
+    }
+  },
+  {
+    "templateId": "STICKER_FLAIR_HEART_3",
+    "data": {
+      "stickerId": "STICKER_FLAIR_HEART_3",
+      "maxCount": 25,
+      "category": [
+        "Decoration"
+      ]
+    }
+  },
+  {
+    "templateId": "STICKER_FLAIR_HEART_4",
+    "data": {
+      "stickerId": "STICKER_FLAIR_HEART_4",
+      "maxCount": 25,
+      "category": [
+        "Decoration"
+      ]
+    }
+  },
+  {
+    "templateId": "STICKER_FLAIR_HEART_5",
+    "data": {
+      "stickerId": "STICKER_FLAIR_HEART_5",
+      "maxCount": 25,
+      "category": [
+        "Decoration"
+      ]
+    }
+  },
+  {
+    "templateId": "STICKER_FLAIR_STAR_1",
+    "data": {
+      "stickerId": "STICKER_FLAIR_STAR_1",
+      "maxCount": 25,
+      "category": [
+        "Decoration"
+      ]
+    }
+  },
+  {
+    "templateId": "STICKER_FLAIR_STAR_2",
+    "data": {
+      "stickerId": "STICKER_FLAIR_STAR_2",
+      "maxCount": 25,
+      "category": [
+        "Decoration"
+      ]
+    }
+  },
+  {
+    "templateId": "STICKER_FLAIR_STAR_3",
+    "data": {
+      "stickerId": "STICKER_FLAIR_STAR_3",
+      "maxCount": 25,
+      "category": [
+        "Decoration"
+      ]
+    }
+  },
+  {
+    "templateId": "STICKER_FLAIR_STAR_4",
+    "data": {
+      "stickerId": "STICKER_FLAIR_STAR_4",
+      "maxCount": 25,
+      "category": [
+        "Decoration"
+      ]
+    }
+  },
+  {
+    "templateId": "STICKER_FLAIR_STAR_5",
+    "data": {
+      "stickerId": "STICKER_FLAIR_STAR_5",
+      "maxCount": 25,
+      "category": [
+        "Decoration"
+      ]
+    }
+  },
+  {
+    "templateId": "STICKER_FLAIR_STAR_6",
+    "data": {
+      "stickerId": "STICKER_FLAIR_STAR_6",
+      "maxCount": 25,
+      "category": [
+        "Decoration"
+      ]
+    }
+  },
+  {
+    "templateId": "STICKER_FLAIR_STAR_7",
+    "data": {
+      "stickerId": "STICKER_FLAIR_STAR_7",
+      "maxCount": 25,
+      "category": [
+        "Decoration"
+      ]
+    }
+  },
+  {
+    "templateId": "STICKER_FORMULAEKOREA_PIKACHU",
+    "data": {
+      "stickerId": "STICKER_FORMULAEKOREA_PIKACHU",
+      "maxCount": 25,
+      "pokemonId": "PIKACHU",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220810
+    }
+  },
+  {
+    "templateId": "STICKER_FOSSILMUSEUM_1",
+    "data": {
+      "stickerId": "STICKER_FOSSILMUSEUM_1",
+      "maxCount": 25,
+      "pokemonId": "PIKACHU",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20250308
+    }
+  },
+  {
+    "templateId": "STICKER_FOSSILMUSEUM_2",
+    "data": {
+      "stickerId": "STICKER_FOSSILMUSEUM_2",
+      "maxCount": 25,
+      "pokemonId": "PIKACHU",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20250308
+    }
+  },
+  {
+    "templateId": "STICKER_FROAKIE_1",
+    "data": {
+      "stickerId": "STICKER_FROAKIE_1",
+      "maxCount": 25,
+      "pokemonId": "FROGADIER",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230808,
+      "regionId": 5
+    }
+  },
+  {
+    "templateId": "STICKER_FROAKIE_2",
+    "data": {
+      "stickerId": "STICKER_FROAKIE_2",
+      "maxCount": 25,
+      "pokemonId": "GRENINJA",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230808,
+      "regionId": 5
+    }
+  },
+  {
+    "templateId": "STICKER_FROAKIE_3",
+    "data": {
+      "stickerId": "STICKER_FROAKIE_3",
+      "maxCount": 25,
+      "pokemonId": "FROAKIE",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230808,
+      "regionId": 5
+    }
+  },
+  {
+    "templateId": "STICKER_FROAKIE_4",
+    "data": {
+      "stickerId": "STICKER_FROAKIE_4",
+      "maxCount": 25,
+      "pokemonId": "FROAKIE",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230808,
+      "regionId": 5
+    }
+  },
+  {
+    "templateId": "STICKER_FUNAWARI_04_312",
+    "data": {
+      "stickerId": "STICKER_FUNAWARI_04_312",
+      "stickerUrl": "https://storage.googleapis.com/prod-public-images/sticker_funwari_04_312.png",
+      "maxCount": 25,
+      "pokemonId": "BULBASAUR",
+      "category": [
+        "Pokemon",
+        "Messages"
+      ],
+      "releaseDate": 20200611
+    }
+  },
+  {
+    "templateId": "STICKER_FUNAWARI_05_312",
+    "data": {
+      "stickerId": "STICKER_FUNAWARI_05_312",
+      "stickerUrl": "https://storage.googleapis.com/prod-public-images/sticker_funwari_05_312.png",
+      "maxCount": 25,
+      "pokemonId": "CHARMANDER",
+      "category": [
+        "Pokemon",
+        "Messages"
+      ],
+      "releaseDate": 20200611
+    }
+  },
+  {
+    "templateId": "STICKER_FUNAWARI_06_312",
+    "data": {
+      "stickerId": "STICKER_FUNAWARI_06_312",
+      "stickerUrl": "https://storage.googleapis.com/prod-public-images/sticker_funwari_06_312.png",
+      "maxCount": 25,
+      "pokemonId": "SQUIRTLE",
+      "category": [
+        "Pokemon",
+        "Messages"
+      ],
+      "releaseDate": 20200611
+    }
+  },
+  {
+    "templateId": "STICKER_FUNAWARI_22_312",
+    "data": {
+      "stickerId": "STICKER_FUNAWARI_22_312",
+      "stickerUrl": "https://storage.googleapis.com/prod-public-images/sticker_funwari_22_312.png",
+      "maxCount": 25,
+      "pokemonId": "DITTO",
+      "category": [
+        "Pokemon",
+        "24_7"
+      ],
+      "releaseDate": 20200611
+    }
+  },
+  {
+    "templateId": "STICKER_FUNWARI_02_0608",
+    "data": {
+      "stickerId": "STICKER_FUNWARI_02_0608",
+      "stickerUrl": "https://storage.googleapis.com/prod-public-images/Stickers/sticker_funwari_02_0608.png",
+      "maxCount": 25,
+      "pokemonId": "VULPIX",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20201222
+    }
+  },
+  {
+    "templateId": "STICKER_FUNWARI_10",
+    "data": {
+      "stickerId": "STICKER_FUNWARI_10",
+      "stickerUrl": "https://storage.googleapis.com/prod-public-images/sticker_funwari_10.png",
+      "maxCount": 25,
+      "pokemonId": "TREECKO",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20200819,
+      "regionId": 2
+    }
+  },
+  {
+    "templateId": "STICKER_FUNWARI_11_THANKU",
+    "data": {
+      "stickerId": "STICKER_FUNWARI_11_THANKU",
+      "stickerUrl": "https://storage.googleapis.com/prod-public-images/sticker_funwari_11_thanku.png",
+      "maxCount": 25,
+      "pokemonId": "TORCHIC",
+      "category": [
+        "Pokemon",
+        "Messages"
+      ],
+      "releaseDate": 20200819,
+      "regionId": 2
+    }
+  },
+  {
+    "templateId": "STICKER_FUNWARI_12_02",
+    "data": {
+      "stickerId": "STICKER_FUNWARI_12_02",
+      "stickerUrl": "https://storage.googleapis.com/prod-public-images/sticker_funwari_12_02.png",
+      "maxCount": 25,
+      "pokemonId": "MUDKIP",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20200819,
+      "regionId": 2
+    }
+  },
+  {
+    "templateId": "STICKER_FUNWARI_18",
+    "data": {
+      "stickerId": "STICKER_FUNWARI_18",
+      "stickerUrl": "https://storage.googleapis.com/prod-public-images/sticker_funwari_18.png",
+      "maxCount": 25,
+      "pokemonId": "PIKACHU",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20200819
+    }
+  },
+  {
+    "templateId": "STICKER_FUNWARI_20",
+    "data": {
+      "stickerId": "STICKER_FUNWARI_20",
+      "stickerUrl": "https://storage.googleapis.com/prod-public-images/sticker_funwari_20.png",
+      "maxCount": 25,
+      "pokemonId": "OSHAWOTT",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20200819,
+      "regionId": 4
+    }
+  },
+  {
+    "templateId": "STICKER_FUNWARI_35",
+    "data": {
+      "stickerId": "STICKER_FUNWARI_35",
+      "stickerUrl": "https://storage.googleapis.com/prod-public-images/Stickers/sticker_funwari_35.png",
+      "maxCount": 25,
+      "pokemonId": "WHIMSICOTT",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20201222,
+      "regionId": 4
+    }
+  },
+  {
+    "templateId": "STICKER_FUNWARI_PIDGEY_18",
+    "data": {
+      "stickerId": "STICKER_FUNWARI_PIDGEY_18",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_funwari_pidgey_18.png",
+      "maxCount": 25,
+      "pokemonId": "PIDGEY",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20210320
+    }
+  },
+  {
+    "templateId": "STICKER_FURFROUHEART_1",
+    "data": {
+      "stickerId": "STICKER_FURFROUHEART_1",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_furfrouHeart_1.png",
+      "maxCount": 25,
+      "pokemonId": "FURFROU",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220210,
+      "regionId": 5
+    }
+  },
+  {
+    "templateId": "STICKER_FURFROUHEART_2",
+    "data": {
+      "stickerId": "STICKER_FURFROUHEART_2",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_furfrouHeart_2.png",
+      "maxCount": 25,
+      "pokemonId": "FURFROU",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220210,
+      "regionId": 5
+    }
+  },
+  {
+    "templateId": "STICKER_GALARIANZIGZAGOON_1",
+    "data": {
+      "stickerId": "STICKER_GALARIANZIGZAGOON_1",
+      "maxCount": 25,
+      "pokemonId": "ZIGZAGOON",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220813,
+      "regionId": 7
+    }
+  },
+  {
+    "templateId": "STICKER_GALARIANZIGZAGOON_2",
+    "data": {
+      "stickerId": "STICKER_GALARIANZIGZAGOON_2",
+      "maxCount": 25,
+      "pokemonId": "ZIGZAGOON",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220813,
+      "regionId": 7
+    }
+  },
+  {
+    "templateId": "STICKER_GALARIANZIGZAGOON_3",
+    "data": {
+      "stickerId": "STICKER_GALARIANZIGZAGOON_3",
+      "maxCount": 25,
+      "pokemonId": "ZIGZAGOON",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220813,
+      "regionId": 7
+    }
+  },
+  {
+    "templateId": "STICKER_GALARIANZIGZAGOON_4",
+    "data": {
+      "stickerId": "STICKER_GALARIANZIGZAGOON_4",
+      "maxCount": 25,
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220813,
+      "regionId": 2000
+    }
+  },
+  {
+    "templateId": "STICKER_GIFTTHANKYOU",
+    "data": {
+      "stickerId": "STICKER_GIFTTHANKYOU",
+      "stickerUrl": "https://storage.googleapis.com/prod-public-images/sticker_GiftThankyou.png",
+      "maxCount": 25,
+      "category": [
+        "Messages",
+        "24_7"
+      ],
+      "releaseDate": 20200819
+    }
+  },
+  {
+    "templateId": "STICKER_GIMMIGHOUL_1",
+    "data": {
+      "stickerId": "STICKER_GIMMIGHOUL_1",
+      "maxCount": 25,
+      "pokemonId": "GIMMIGHOUL",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230224,
+      "regionId": 1001
+    }
+  },
+  {
+    "templateId": "STICKER_GIMMIGHOUL_2",
+    "data": {
+      "stickerId": "STICKER_GIMMIGHOUL_2",
+      "maxCount": 25,
+      "pokemonId": "GIMMIGHOUL",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230224,
+      "regionId": 1001
+    }
+  },
+  {
+    "templateId": "STICKER_GIMMIGHOUL_3",
+    "data": {
+      "stickerId": "STICKER_GIMMIGHOUL_3",
+      "maxCount": 25,
+      "pokemonId": "GIMMIGHOUL",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230224,
+      "regionId": 1001
+    }
+  },
+  {
+    "templateId": "STICKER_GIMMIGHOUL_4",
+    "data": {
+      "stickerId": "STICKER_GIMMIGHOUL_4",
+      "maxCount": 25,
+      "pokemonId": "GIMMIGHOUL",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230224,
+      "regionId": 1001
+    }
+  },
+  {
+    "templateId": "STICKER_GIMMIGHOUL_5",
+    "data": {
+      "stickerId": "STICKER_GIMMIGHOUL_5",
+      "maxCount": 25,
+      "pokemonId": "GIMMIGHOUL",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230224,
+      "regionId": 1001
+    }
+  },
+  {
+    "templateId": "STICKER_GOOMYCD_1",
+    "data": {
+      "stickerId": "STICKER_GOOMYCD_1",
+      "maxCount": 25,
+      "pokemonId": "GOOMY",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240529,
+      "regionId": 5
+    }
+  },
+  {
+    "templateId": "STICKER_GOOMYCD_2",
+    "data": {
+      "stickerId": "STICKER_GOOMYCD_2",
+      "maxCount": 25,
+      "pokemonId": "GOOMY",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240529,
+      "regionId": 5
+    }
+  },
+  {
+    "templateId": "STICKER_GOOMYCD_3",
+    "data": {
+      "stickerId": "STICKER_GOOMYCD_3",
+      "maxCount": 25,
+      "pokemonId": "GOOMY",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240529,
+      "regionId": 5
+    }
+  },
+  {
+    "templateId": "STICKER_GOOMYCD_4",
+    "data": {
+      "stickerId": "STICKER_GOOMYCD_4",
+      "maxCount": 25,
+      "pokemonId": "GOOMY",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240529,
+      "regionId": 5
+    }
+  },
+  {
+    "templateId": "STICKER_GOTOUR2021",
+    "data": {
+      "stickerId": "STICKER_GOTOUR2021",
+      "stickerUrl": "https://storage.googleapis.com/prod-public-images/Stickers/sticker_goTour2021_29075.png",
+      "maxCount": 25,
+      "category": [
+        "Misc"
+      ],
+      "releaseDate": 20210220
+    }
+  },
+  {
+    "templateId": "STICKER_GOTOUR2022_1",
+    "data": {
+      "stickerId": "STICKER_GOTOUR2022_1",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_goTour2022_1.png",
+      "maxCount": 25,
+      "pokemonId": "SQUIRTLE",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220227
+    }
+  },
+  {
+    "templateId": "STICKER_GOTOUR2022_2",
+    "data": {
+      "stickerId": "STICKER_GOTOUR2022_2",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_goTour2022_2.png",
+      "maxCount": 25,
+      "pokemonId": "BULBASAUR",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220227
+    }
+  },
+  {
+    "templateId": "STICKER_GOTOUR2022_3",
+    "data": {
+      "stickerId": "STICKER_GOTOUR2022_3",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_goTour2022_3.png",
+      "maxCount": 25,
+      "pokemonId": "CHARMANDER",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220227
+    }
+  },
+  {
+    "templateId": "STICKER_GOTOUR2022_4",
+    "data": {
+      "stickerId": "STICKER_GOTOUR2022_4",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_goTour2022_4.png",
+      "maxCount": 25,
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220227
+    }
+  },
+  {
+    "templateId": "STICKER_GOTOUR2022_CHIKORITA",
+    "data": {
+      "stickerId": "STICKER_GOTOUR2022_CHIKORITA",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_goTour2022_chikorita.png",
+      "maxCount": 25,
+      "pokemonId": "CHIKORITA",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220226,
+      "regionId": 1
+    }
+  },
+  {
+    "templateId": "STICKER_GOTOUR2022_CYNDAQUIL",
+    "data": {
+      "stickerId": "STICKER_GOTOUR2022_CYNDAQUIL",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_goTour2022_cyndaquil.png",
+      "maxCount": 25,
+      "pokemonId": "CYNDAQUIL",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220226,
+      "regionId": 1
+    }
+  },
+  {
+    "templateId": "STICKER_GOTOUR2022_HOOH",
+    "data": {
+      "stickerId": "STICKER_GOTOUR2022_HOOH",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_goTour2022_hooh.png",
+      "maxCount": 25,
+      "pokemonId": "HO_OH",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220226,
+      "regionId": 1
+    }
+  },
+  {
+    "templateId": "STICKER_GOTOUR2022_LUGIA",
+    "data": {
+      "stickerId": "STICKER_GOTOUR2022_LUGIA",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_goTour2022_lugia.png",
+      "maxCount": 25,
+      "pokemonId": "LUGIA",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220226,
+      "regionId": 1
+    }
+  },
+  {
+    "templateId": "STICKER_GOTOUR2022_TOGEPI",
+    "data": {
+      "stickerId": "STICKER_GOTOUR2022_TOGEPI",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_goTour2022_togepi.png",
+      "maxCount": 25,
+      "pokemonId": "TOGEPI",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220226,
+      "regionId": 1
+    }
+  },
+  {
+    "templateId": "STICKER_GOTOUR2022_TOTODILE",
+    "data": {
+      "stickerId": "STICKER_GOTOUR2022_TOTODILE",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_goTour2022_totodile.png",
+      "maxCount": 25,
+      "pokemonId": "CROCONAW",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220226,
+      "regionId": 1
+    }
+  },
+  {
+    "templateId": "STICKER_GOTOUR2025_BADGE",
+    "data": {
+      "stickerId": "STICKER_GOTOUR2025_BADGE",
+      "maxCount": 25,
+      "category": [
+        "Misc"
+      ],
+      "releaseDate": 20250221
+    }
+  },
+  {
+    "templateId": "STICKER_GOTOUR2025_KYUREMBLACK",
+    "data": {
+      "stickerId": "STICKER_GOTOUR2025_KYUREMBLACK",
+      "maxCount": 25,
+      "pokemonId": "KYUREM",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20250221,
+      "regionId": 4
+    }
+  },
+  {
+    "templateId": "STICKER_GOTOUR2025_KYUREMWHITE",
+    "data": {
+      "stickerId": "STICKER_GOTOUR2025_KYUREMWHITE",
+      "maxCount": 25,
+      "pokemonId": "KYUREM",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20250221,
+      "regionId": 4
+    }
+  },
+  {
+    "templateId": "STICKER_GOTOUR2025_RESHIRAM",
+    "data": {
+      "stickerId": "STICKER_GOTOUR2025_RESHIRAM",
+      "maxCount": 25,
+      "pokemonId": "RESHIRAM",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20250221,
+      "regionId": 4
+    }
+  },
+  {
+    "templateId": "STICKER_GOTOUR2025_RZ",
+    "data": {
+      "stickerId": "STICKER_GOTOUR2025_RZ",
+      "maxCount": 25,
+      "category": [
+        "Misc"
+      ],
+      "releaseDate": 20250221
+    }
+  },
+  {
+    "templateId": "STICKER_GOTOUR2025_ZEKROM",
+    "data": {
+      "stickerId": "STICKER_GOTOUR2025_ZEKROM",
+      "maxCount": 25,
+      "pokemonId": "ZEKROM",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20250221,
+      "regionId": 4
+    }
+  },
+  {
+    "templateId": "STICKER_GOTOURHOENN_1",
+    "data": {
+      "stickerId": "STICKER_GOTOURHOENN_1",
+      "maxCount": 25,
+      "pokemonId": "KECLEON",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230209,
+      "regionId": 2
+    }
+  },
+  {
+    "templateId": "STICKER_GOTOURHOENN_2",
+    "data": {
+      "stickerId": "STICKER_GOTOURHOENN_2",
+      "maxCount": 25,
+      "pokemonId": "TORCHIC",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230209,
+      "regionId": 2
+    }
+  },
+  {
+    "templateId": "STICKER_GOTOURHOENN_3",
+    "data": {
+      "stickerId": "STICKER_GOTOURHOENN_3",
+      "maxCount": 25,
+      "pokemonId": "GROUDON",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230209,
+      "regionId": 2
+    }
+  },
+  {
+    "templateId": "STICKER_GOTOURHOENN_4",
+    "data": {
+      "stickerId": "STICKER_GOTOURHOENN_4",
+      "maxCount": 25,
+      "pokemonId": "TREECKO",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230209,
+      "regionId": 2
+    }
+  },
+  {
+    "templateId": "STICKER_GOTOURHOENN_5",
+    "data": {
+      "stickerId": "STICKER_GOTOURHOENN_5",
+      "maxCount": 25,
+      "pokemonId": "MUDKIP",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230209,
+      "regionId": 2
+    }
+  },
+  {
+    "templateId": "STICKER_GOTOURHOENN_6",
+    "data": {
+      "stickerId": "STICKER_GOTOURHOENN_6",
+      "maxCount": 25,
+      "pokemonId": "KYOGRE",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230209,
+      "regionId": 2
+    }
+  },
+  {
+    "templateId": "STICKER_GOWA2025_01",
+    "data": {
+      "stickerId": "STICKER_GOWA2025_01",
+      "maxCount": 25,
+      "category": [
+        "Misc"
+      ],
+      "releaseDate": 20251027
+    }
+  },
+  {
+    "templateId": "STICKER_GOWA2025_02",
+    "data": {
+      "stickerId": "STICKER_GOWA2025_02",
+      "maxCount": 25,
+      "pokemonId": "GRIMMSNARL",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20251027,
+      "regionId": 7
+    }
+  },
+  {
+    "templateId": "STICKER_GOWA2025_03",
+    "data": {
+      "stickerId": "STICKER_GOWA2025_03",
+      "maxCount": 25,
+      "pokemonId": "GRIMMSNARL",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20251027,
+      "regionId": 7
+    }
+  },
+  {
+    "templateId": "STICKER_GOWA2025_04",
+    "data": {
+      "stickerId": "STICKER_GOWA2025_04",
+      "maxCount": 25,
+      "pokemonId": "MORGREM",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20251027,
+      "regionId": 7
+    }
+  },
+  {
+    "templateId": "STICKER_GOWA2025_05",
+    "data": {
+      "stickerId": "STICKER_GOWA2025_05",
+      "maxCount": 25,
+      "pokemonId": "IMPIDIMP",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20251027,
+      "regionId": 7
+    }
+  },
+  {
+    "templateId": "STICKER_GRUBBIN_1",
+    "data": {
+      "stickerId": "STICKER_GRUBBIN_1",
+      "maxCount": 25,
+      "pokemonId": "GRUBBIN",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230923,
+      "regionId": 6
+    }
+  },
+  {
+    "templateId": "STICKER_GRUBBIN_2",
+    "data": {
+      "stickerId": "STICKER_GRUBBIN_2",
+      "maxCount": 25,
+      "pokemonId": "GRUBBIN",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230923,
+      "regionId": 6
+    }
+  },
+  {
+    "templateId": "STICKER_GRUBBIN_3",
+    "data": {
+      "stickerId": "STICKER_GRUBBIN_3",
+      "maxCount": 25,
+      "pokemonId": "GRUBBIN",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230923,
+      "regionId": 6
+    }
+  },
+  {
+    "templateId": "STICKER_GRUBBIN_4",
+    "data": {
+      "stickerId": "STICKER_GRUBBIN_4",
+      "maxCount": 25,
+      "pokemonId": "GRUBBIN",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230923,
+      "regionId": 6
+    }
+  },
+  {
+    "templateId": "STICKER_HALLOWEEN2022_GENGAR",
+    "data": {
+      "stickerId": "STICKER_HALLOWEEN2022_GENGAR",
+      "maxCount": 25,
+      "pokemonId": "GENGAR",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20221020
+    }
+  },
+  {
+    "templateId": "STICKER_HALLOWEEN2022_PUMPKABOO",
+    "data": {
+      "stickerId": "STICKER_HALLOWEEN2022_PUMPKABOO",
+      "maxCount": 25,
+      "pokemonId": "PUMPKABOO",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20221020,
+      "regionId": 5
+    }
+  },
+  {
+    "templateId": "STICKER_HALLOWEEN2022_VULPIX",
+    "data": {
+      "stickerId": "STICKER_HALLOWEEN2022_VULPIX",
+      "maxCount": 25,
+      "pokemonId": "VULPIX",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20221020
+    }
+  },
+  {
+    "templateId": "STICKER_HALLOWEEN2025_NOIBAT",
+    "data": {
+      "stickerId": "STICKER_HALLOWEEN2025_NOIBAT",
+      "maxCount": 25,
+      "pokemonId": "NOIBAT",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20251021,
+      "regionId": 5
+    }
+  },
+  {
+    "templateId": "STICKER_HALLOWEEN2025_TEDDIURSA",
+    "data": {
+      "stickerId": "STICKER_HALLOWEEN2025_TEDDIURSA",
+      "maxCount": 25,
+      "pokemonId": "TEDDIURSA",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20251021,
+      "regionId": 1
+    }
+  },
+  {
+    "templateId": "STICKER_HALLOWEEN21_FUWARAID",
+    "data": {
+      "stickerId": "STICKER_HALLOWEEN21_FUWARAID",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_halloween21_fuwaraid.png",
+      "maxCount": 25,
+      "pokemonId": "DRIFBLIM",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20211015,
+      "regionId": 3
+    }
+  },
+  {
+    "templateId": "STICKER_HALLOWEEN21_GHOSTPIKA",
+    "data": {
+      "stickerId": "STICKER_HALLOWEEN21_GHOSTPIKA",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_halloween21_ghostpika.png",
+      "maxCount": 25,
+      "pokemonId": "PIKACHU",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20211015
+    }
+  },
+  {
+    "templateId": "STICKER_HALLOWEEN21_PIKACHU",
+    "data": {
+      "stickerId": "STICKER_HALLOWEEN21_PIKACHU",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_halloween21_pikachu.png",
+      "maxCount": 25,
+      "pokemonId": "PIKACHU",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20211015
+    }
+  },
+  {
+    "templateId": "STICKER_HALLOWEEN21_POCHAMA",
+    "data": {
+      "stickerId": "STICKER_HALLOWEEN21_POCHAMA",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_halloween21_pochama.png",
+      "maxCount": 25,
+      "pokemonId": "PIPLUP",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20211015,
+      "regionId": 3
+    }
+  },
+  {
+    "templateId": "STICKER_HALLOWEEN23_GENGAR",
+    "data": {
+      "stickerId": "STICKER_HALLOWEEN23_GENGAR",
+      "maxCount": 25,
+      "pokemonId": "GENGAR",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20231031
+    }
+  },
+  {
+    "templateId": "STICKER_HALLOWEEN23_GREAVARD",
+    "data": {
+      "stickerId": "STICKER_HALLOWEEN23_GREAVARD",
+      "maxCount": 25,
+      "pokemonId": "GREAVARD",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20231031,
+      "regionId": 1001
+    }
+  },
+  {
+    "templateId": "STICKER_HALLOWEEN23_MISDREAVUS",
+    "data": {
+      "stickerId": "STICKER_HALLOWEEN23_MISDREAVUS",
+      "maxCount": 25,
+      "pokemonId": "MISDREAVUS",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20231031,
+      "regionId": 2000
+    }
+  },
+  {
+    "templateId": "STICKER_HALLOWEEN23_PHANTUMP",
+    "data": {
+      "stickerId": "STICKER_HALLOWEEN23_PHANTUMP",
+      "maxCount": 25,
+      "pokemonId": "PHANTUMP",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20231031,
+      "regionId": 5
+    }
+  },
+  {
+    "templateId": "STICKER_HALLOWEEN24_FROAKIE",
+    "data": {
+      "stickerId": "STICKER_HALLOWEEN24_FROAKIE",
+      "maxCount": 25,
+      "pokemonId": "FROAKIE",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20241009,
+      "regionId": 5
+    }
+  },
+  {
+    "templateId": "STICKER_HALLOWEEN24_ROWLET",
+    "data": {
+      "stickerId": "STICKER_HALLOWEEN24_ROWLET",
+      "maxCount": 25,
+      "pokemonId": "ROWLET",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20241009,
+      "regionId": 6
+    }
+  },
+  {
+    "templateId": "STICKER_HALLOWEEN_BULB",
+    "data": {
+      "stickerId": "STICKER_HALLOWEEN_BULB",
+      "stickerUrl": "https://storage.googleapis.com/prod-public-images/Stickers/sticker_Halloween_Bulb.png",
+      "maxCount": 25,
+      "pokemonId": "BULBASAUR",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20201027
+    }
+  },
+  {
+    "templateId": "STICKER_HALLOWEEN_CHARM",
+    "data": {
+      "stickerId": "STICKER_HALLOWEEN_CHARM",
+      "stickerUrl": "https://storage.googleapis.com/prod-public-images/Stickers/sticker_Halloween_Charm.png",
+      "maxCount": 25,
+      "pokemonId": "CHARMANDER",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20201027
+    }
+  },
+  {
+    "templateId": "STICKER_HALLOWEEN_GENGARMD",
+    "data": {
+      "stickerId": "STICKER_HALLOWEEN_GENGARMD",
+      "stickerUrl": "https://storage.googleapis.com/prod-public-images/Stickers/sticker_Halloween_GengarMD.png",
+      "maxCount": 25,
+      "pokemonId": "GENGAR",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20201027
+    }
+  },
+  {
+    "templateId": "STICKER_HALLOWEEN_PIKA",
+    "data": {
+      "stickerId": "STICKER_HALLOWEEN_PIKA",
+      "stickerUrl": "https://storage.googleapis.com/prod-public-images/Stickers/sticker_Halloween_Pika.png",
+      "maxCount": 25,
+      "pokemonId": "PIKACHU",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20201027
+    }
+  },
+  {
+    "templateId": "STICKER_HALLOWEEN_SABLEYEMD",
+    "data": {
+      "stickerId": "STICKER_HALLOWEEN_SABLEYEMD",
+      "stickerUrl": "https://storage.googleapis.com/prod-public-images/Stickers/sticker_Halloween_SableyeMD.png",
+      "maxCount": 25,
+      "pokemonId": "SABLEYE",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20201027,
+      "regionId": 2
+    }
+  },
+  {
+    "templateId": "STICKER_HALLOWEEN_SQU",
+    "data": {
+      "stickerId": "STICKER_HALLOWEEN_SQU",
+      "stickerUrl": "https://storage.googleapis.com/prod-public-images/Stickers/sticker_Halloween_Squ.png",
+      "maxCount": 25,
+      "pokemonId": "SQUIRTLE",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20201027
+    }
+  },
+  {
+    "templateId": "STICKER_HARU_CHERRIM",
+    "data": {
+      "stickerId": "STICKER_HARU_CHERRIM",
+      "maxCount": 25,
+      "pokemonId": "CHERRIM",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230221,
+      "regionId": 3
+    }
+  },
+  {
+    "templateId": "STICKER_HARU_DREDEARPIKA",
+    "data": {
+      "stickerId": "STICKER_HARU_DREDEARPIKA",
+      "maxCount": 25,
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230221,
+      "regionId": 2000
+    }
+  },
+  {
+    "templateId": "STICKER_HARU_KIREIHANA",
+    "data": {
+      "stickerId": "STICKER_HARU_KIREIHANA",
+      "maxCount": 25,
+      "pokemonId": "BELLOSSOM",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230221,
+      "regionId": 1
+    }
+  },
+  {
+    "templateId": "STICKER_HARU_LALANTES",
+    "data": {
+      "stickerId": "STICKER_HARU_LALANTES",
+      "maxCount": 25,
+      "pokemonId": "LURANTIS",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230221,
+      "regionId": 6
+    }
+  },
+  {
+    "templateId": "STICKER_HARU_MEBUKISHIKIJIK",
+    "data": {
+      "stickerId": "STICKER_HARU_MEBUKISHIKIJIK",
+      "maxCount": 25,
+      "pokemonId": "DEERLING",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230221,
+      "regionId": 2000
+    }
+  },
+  {
+    "templateId": "STICKER_HARU_MITSUHONEY",
+    "data": {
+      "stickerId": "STICKER_HARU_MITSUHONEY",
+      "maxCount": 25,
+      "pokemonId": "COMBEE",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230221,
+      "regionId": 3
+    }
+  },
+  {
+    "templateId": "STICKER_HAWLUCHA_01",
+    "data": {
+      "stickerId": "STICKER_HAWLUCHA_01",
+      "maxCount": 25,
+      "pokemonId": "HAWLUCHA",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20250919,
+      "regionId": 5
+    }
+  },
+  {
+    "templateId": "STICKER_HISUIDISCO_ARCANINE",
+    "data": {
+      "stickerId": "STICKER_HISUIDISCO_ARCANINE",
+      "maxCount": 25,
+      "pokemonId": "ARCANINE",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220728,
+      "regionId": 1000
+    }
+  },
+  {
+    "templateId": "STICKER_HISUIDISCO_BRAVIARY",
+    "data": {
+      "stickerId": "STICKER_HISUIDISCO_BRAVIARY",
+      "maxCount": 25,
+      "pokemonId": "BRAVIARY",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220728,
+      "regionId": 1000
+    }
+  },
+  {
+    "templateId": "STICKER_HISUIDISCO_GROWLITHE",
+    "data": {
+      "stickerId": "STICKER_HISUIDISCO_GROWLITHE",
+      "maxCount": 25,
+      "pokemonId": "GROWLITHE",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220728,
+      "regionId": 1000
+    }
+  },
+  {
+    "templateId": "STICKER_HOLIDAYEVENT21_1",
+    "data": {
+      "stickerId": "STICKER_HOLIDAYEVENT21_1",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_holidayEvent21_1.png",
+      "maxCount": 25,
+      "pokemonId": "PIKACHU",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20211216
+    }
+  },
+  {
+    "templateId": "STICKER_HOLIDAYEVENT21_2",
+    "data": {
+      "stickerId": "STICKER_HOLIDAYEVENT21_2",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_holidayEvent21_2.png",
+      "maxCount": 25,
+      "pokemonId": "VANILLITE",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20211216,
+      "regionId": 4
+    }
+  },
+  {
+    "templateId": "STICKER_HOLIDAYEVENT21_3",
+    "data": {
+      "stickerId": "STICKER_HOLIDAYEVENT21_3",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_holidayEvent21_3.png",
+      "maxCount": 25,
+      "pokemonId": "SPHEAL",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20211216,
+      "regionId": 2
+    }
+  },
+  {
+    "templateId": "STICKER_HOLIDAYEVENT21_4",
+    "data": {
+      "stickerId": "STICKER_HOLIDAYEVENT21_4",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_holidayEvent21_4.png",
+      "maxCount": 25,
+      "pokemonId": "GLACEON",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20211216,
+      "regionId": 3
+    }
+  },
+  {
+    "templateId": "STICKER_HOLIDAYEVENT22_CUBCHOO",
+    "data": {
+      "stickerId": "STICKER_HOLIDAYEVENT22_CUBCHOO",
+      "maxCount": 25,
+      "pokemonId": "CUBCHOO",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20221215,
+      "regionId": 4
+    }
+  },
+  {
+    "templateId": "STICKER_HOLIDAYEVENT22_SCATTERBUG",
+    "data": {
+      "stickerId": "STICKER_HOLIDAYEVENT22_SCATTERBUG",
+      "maxCount": 25,
+      "pokemonId": "SCATTERBUG",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20221215,
+      "regionId": 5
+    }
+  },
+  {
+    "templateId": "STICKER_HOLIDAYEVENT22_SNOWPIKA",
+    "data": {
+      "stickerId": "STICKER_HOLIDAYEVENT22_SNOWPIKA",
+      "maxCount": 25,
+      "pokemonId": "PIKACHU",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20221215
+    }
+  },
+  {
+    "templateId": "STICKER_HOLIDAYEVENT22_VULPIX",
+    "data": {
+      "stickerId": "STICKER_HOLIDAYEVENT22_VULPIX",
+      "maxCount": 25,
+      "pokemonId": "VULPIX",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20221215,
+      "regionId": 2000
+    }
+  },
+  {
+    "templateId": "STICKER_HOLIDAYEVENT23_CETODDLE",
+    "data": {
+      "stickerId": "STICKER_HOLIDAYEVENT23_CETODDLE",
+      "maxCount": 25,
+      "pokemonId": "CETODDLE",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20231207,
+      "regionId": 1001
+    }
+  },
+  {
+    "templateId": "STICKER_HOLIDAYEVENT23_CRYOGONAL",
+    "data": {
+      "stickerId": "STICKER_HOLIDAYEVENT23_CRYOGONAL",
+      "maxCount": 25,
+      "pokemonId": "CRYOGONAL",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20231207,
+      "regionId": 4
+    }
+  },
+  {
+    "templateId": "STICKER_HOLIDAYEVENT23_PSYDUCK",
+    "data": {
+      "stickerId": "STICKER_HOLIDAYEVENT23_PSYDUCK",
+      "maxCount": 25,
+      "pokemonId": "PSYDUCK",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20231207
+    }
+  },
+  {
+    "templateId": "STICKER_HOLIDAYEVENT23_SEEL",
+    "data": {
+      "stickerId": "STICKER_HOLIDAYEVENT23_SEEL",
+      "maxCount": 25,
+      "pokemonId": "SEEL",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20231207
+    }
+  },
+  {
+    "templateId": "STICKER_HOLIDAYEVENT23_VANILLISH",
+    "data": {
+      "stickerId": "STICKER_HOLIDAYEVENT23_VANILLISH",
+      "maxCount": 25,
+      "pokemonId": "VANILLISH",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20231207,
+      "regionId": 4
+    }
+  },
+  {
+    "templateId": "STICKER_HOLOGRAPHIC_CHANCEY",
+    "data": {
+      "stickerId": "STICKER_HOLOGRAPHIC_CHANCEY",
+      "maxCount": 25,
+      "pokemonId": "CHANSEY",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220616
+    }
+  },
+  {
+    "templateId": "STICKER_HOLOGRAPHIC_CHARMELEON",
+    "data": {
+      "stickerId": "STICKER_HOLOGRAPHIC_CHARMELEON",
+      "maxCount": 25,
+      "pokemonId": "CHARMELEON",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220616
+    }
+  },
+  {
+    "templateId": "STICKER_HOLOGRAPHIC_IVYSAUR",
+    "data": {
+      "stickerId": "STICKER_HOLOGRAPHIC_IVYSAUR",
+      "maxCount": 25,
+      "pokemonId": "IVYSAUR",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220616
+    }
+  },
+  {
+    "templateId": "STICKER_HOLOGRAPHIC_MELTAN",
+    "data": {
+      "stickerId": "STICKER_HOLOGRAPHIC_MELTAN",
+      "maxCount": 25,
+      "pokemonId": "MELTAN",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220616,
+      "regionId": 6
+    }
+  },
+  {
+    "templateId": "STICKER_HOLOGRAPHIC_PIKACHU",
+    "data": {
+      "stickerId": "STICKER_HOLOGRAPHIC_PIKACHU",
+      "maxCount": 25,
+      "pokemonId": "PIKACHU",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220616
+    }
+  },
+  {
+    "templateId": "STICKER_HOLOGRAPHIC_WARTORTLE",
+    "data": {
+      "stickerId": "STICKER_HOLOGRAPHIC_WARTORTLE",
+      "maxCount": 25,
+      "pokemonId": "WARTORTLE",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220616
+    }
+  },
+  {
+    "templateId": "STICKER_HOPPIP_1",
+    "data": {
+      "stickerId": "STICKER_HOPPIP_1",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_hoppip_1.png",
+      "maxCount": 25,
+      "pokemonId": "HOPPIP",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220212,
+      "regionId": 1
+    }
+  },
+  {
+    "templateId": "STICKER_HOPPIP_2",
+    "data": {
+      "stickerId": "STICKER_HOPPIP_2",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_hoppip_2.png",
+      "maxCount": 25,
+      "pokemonId": "HOPPIP",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220212,
+      "regionId": 1
+    }
+  },
+  {
+    "templateId": "STICKER_HOPPIP_3",
+    "data": {
+      "stickerId": "STICKER_HOPPIP_3",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_hoppip_3.png",
+      "maxCount": 25,
+      "pokemonId": "HOPPIP",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220212,
+      "regionId": 1
+    }
+  },
+  {
+    "templateId": "STICKER_HOPPIP_4",
+    "data": {
+      "stickerId": "STICKER_HOPPIP_4",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_hoppip_4.png",
+      "maxCount": 25,
+      "pokemonId": "HOPPIP",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220212,
+      "regionId": 1
+    }
+  },
+  {
+    "templateId": "STICKER_INDONESIAJOURNEY_1",
+    "data": {
+      "stickerId": "STICKER_INDONESIAJOURNEY_1",
+      "maxCount": 25,
+      "pokemonId": "PIKACHU",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240302
+    }
+  },
+  {
+    "templateId": "STICKER_INDONESIAJOURNEY_2",
+    "data": {
+      "stickerId": "STICKER_INDONESIAJOURNEY_2",
+      "maxCount": 25,
+      "pokemonId": "PIKACHU",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240302
+    }
+  },
+  {
+    "templateId": "STICKER_IPLPARTNERSHIP_1",
+    "data": {
+      "stickerId": "STICKER_IPLPARTNERSHIP_1",
+      "maxCount": 25,
+      "category": [
+        "Misc"
+      ],
+      "releaseDate": 20250305
+    }
+  },
+  {
+    "templateId": "STICKER_IPLPARTNERSHIP_2",
+    "data": {
+      "stickerId": "STICKER_IPLPARTNERSHIP_2",
+      "maxCount": 25,
+      "category": [
+        "Misc"
+      ],
+      "releaseDate": 20250305
+    }
+  },
+  {
+    "templateId": "STICKER_JUNECD2023_AXEW_1",
+    "data": {
+      "stickerId": "STICKER_JUNECD2023_AXEW_1",
+      "maxCount": 25,
+      "pokemonId": "AXEW",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230610,
+      "regionId": 4
+    }
+  },
+  {
+    "templateId": "STICKER_JUNECD2023_AXEW_2",
+    "data": {
+      "stickerId": "STICKER_JUNECD2023_AXEW_2",
+      "maxCount": 25,
+      "pokemonId": "AXEW",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230610,
+      "regionId": 4
+    }
+  },
+  {
+    "templateId": "STICKER_JUNECD2023_AXEW_3",
+    "data": {
+      "stickerId": "STICKER_JUNECD2023_AXEW_3",
+      "maxCount": 25,
+      "pokemonId": "AXEW",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230610,
+      "regionId": 4
+    }
+  },
+  {
+    "templateId": "STICKER_JUNECD2023_AXEW_4",
+    "data": {
+      "stickerId": "STICKER_JUNECD2023_AXEW_4",
+      "maxCount": 25,
+      "pokemonId": "AXEW",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230610,
+      "regionId": 4
+    }
+  },
+  {
+    "templateId": "STICKER_KOREATOWN_1",
+    "data": {
+      "stickerId": "STICKER_KOREATOWN_1",
+      "maxCount": 25,
+      "pokemonId": "PIKACHU",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240412
+    }
+  },
+  {
+    "templateId": "STICKER_KOREATOWN_2",
+    "data": {
+      "stickerId": "STICKER_KOREATOWN_2",
+      "maxCount": 25,
+      "pokemonId": "PIKACHU",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240412,
+      "regionId": 2000
+    }
+  },
+  {
+    "templateId": "STICKER_KOREATOWN_3",
+    "data": {
+      "stickerId": "STICKER_KOREATOWN_3",
+      "maxCount": 25,
+      "pokemonId": "PIKACHU",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240412
+    }
+  },
+  {
+    "templateId": "STICKER_KR_DITTO",
+    "data": {
+      "stickerId": "STICKER_KR_DITTO",
+      "maxCount": 25,
+      "pokemonId": "DITTO",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20250428
+    }
+  },
+  {
+    "templateId": "STICKER_KURTASAREE_1",
+    "data": {
+      "stickerId": "STICKER_KURTASAREE_1",
+      "maxCount": 25,
+      "pokemonId": "PIKACHU",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20241015
+    }
+  },
+  {
+    "templateId": "STICKER_KURTASAREE_2",
+    "data": {
+      "stickerId": "STICKER_KURTASAREE_2",
+      "maxCount": 25,
+      "pokemonId": "PIKACHU",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20241015
+    }
+  },
+  {
+    "templateId": "STICKER_KURTASAREE_3",
+    "data": {
+      "stickerId": "STICKER_KURTASAREE_3",
+      "maxCount": 25,
+      "pokemonId": "PIKACHU",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20241015
+    }
+  },
+  {
+    "templateId": "STICKER_KURTASAREE_4",
+    "data": {
+      "stickerId": "STICKER_KURTASAREE_4",
+      "maxCount": 25,
+      "pokemonId": "PIKACHU",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20241015
+    }
+  },
+  {
+    "templateId": "STICKER_KURTASAREE_5",
+    "data": {
+      "stickerId": "STICKER_KURTASAREE_5",
+      "maxCount": 25,
+      "pokemonId": "PIKACHU",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20241015
+    }
+  },
+  {
+    "templateId": "STICKER_KURTASAREE_6",
+    "data": {
+      "stickerId": "STICKER_KURTASAREE_6",
+      "maxCount": 25,
+      "pokemonId": "PIKACHU",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20241015
+    }
+  },
+  {
+    "templateId": "STICKER_LENTILLAUNCH_CAMERA",
+    "data": {
+      "stickerId": "STICKER_LENTILLAUNCH_CAMERA",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_lentilLaunch_camera.png",
+      "maxCount": 25,
+      "category": [
+        "Misc"
+      ],
+      "releaseDate": 20210429
+    }
+  },
+  {
+    "templateId": "STICKER_LITTENCD_1",
+    "data": {
+      "stickerId": "STICKER_LITTENCD_1",
+      "maxCount": 25,
+      "pokemonId": "LITTEN",
+      "category": [
+        "Pokemon"
+      ],
+      "regionId": 6
+    }
+  },
+  {
+    "templateId": "STICKER_LITTENCD_2",
+    "data": {
+      "stickerId": "STICKER_LITTENCD_2",
+      "maxCount": 25,
+      "pokemonId": "LITTEN",
+      "category": [
+        "Pokemon"
+      ],
+      "regionId": 6
+    }
+  },
+  {
+    "templateId": "STICKER_LITTENCD_3",
+    "data": {
+      "stickerId": "STICKER_LITTENCD_3",
+      "maxCount": 25,
+      "pokemonId": "LITTEN",
+      "category": [
+        "Pokemon"
+      ],
+      "regionId": 6
+    }
+  },
+  {
+    "templateId": "STICKER_LITTENCD_4",
+    "data": {
+      "stickerId": "STICKER_LITTENCD_4",
+      "maxCount": 25,
+      "pokemonId": "LITTEN",
+      "category": [
+        "Pokemon"
+      ],
+      "regionId": 6
+    }
+  },
+  {
+    "templateId": "STICKER_LITWICK_1",
+    "data": {
+      "stickerId": "STICKER_LITWICK_1",
+      "maxCount": 25,
+      "pokemonId": "LITWICK",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20221014,
+      "regionId": 4
+    }
+  },
+  {
+    "templateId": "STICKER_LITWICK_2",
+    "data": {
+      "stickerId": "STICKER_LITWICK_2",
+      "maxCount": 25,
+      "pokemonId": "LITWICK",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20221014,
+      "regionId": 4
+    }
+  },
+  {
+    "templateId": "STICKER_LITWICK_3",
+    "data": {
+      "stickerId": "STICKER_LITWICK_3",
+      "maxCount": 25,
+      "pokemonId": "LITWICK",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20221014,
+      "regionId": 4
+    }
+  },
+  {
+    "templateId": "STICKER_LITWICK_4",
+    "data": {
+      "stickerId": "STICKER_LITWICK_4",
+      "maxCount": 25,
+      "pokemonId": "LITWICK",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20221014,
+      "regionId": 4
+    }
+  },
+  {
+    "templateId": "STICKER_LUVDISC",
+    "data": {
+      "stickerId": "STICKER_LUVDISC",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_luvdisc.png",
+      "maxCount": 25,
+      "pokemonId": "LUVDISC",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220210,
+      "regionId": 2
+    }
+  },
+  {
+    "templateId": "STICKER_MANKEY_1",
+    "data": {
+      "stickerId": "STICKER_MANKEY_1",
+      "maxCount": 25,
+      "pokemonId": "MANKEY",
+      "category": [
+        "Pokemon"
+      ]
+    }
+  },
+  {
+    "templateId": "STICKER_MANKEY_2",
+    "data": {
+      "stickerId": "STICKER_MANKEY_2",
+      "maxCount": 25,
+      "pokemonId": "MANKEY",
+      "category": [
+        "Pokemon"
+      ]
+    }
+  },
+  {
+    "templateId": "STICKER_MANKEY_3",
+    "data": {
+      "stickerId": "STICKER_MANKEY_3",
+      "maxCount": 25,
+      "pokemonId": "MANKEY",
+      "category": [
+        "Pokemon"
+      ]
+    }
+  },
+  {
+    "templateId": "STICKER_MANKEY_4",
+    "data": {
+      "stickerId": "STICKER_MANKEY_4",
+      "maxCount": 25,
+      "pokemonId": "ANNIHILAPE",
+      "category": [
+        "Pokemon"
+      ],
+      "regionId": 1001
+    }
+  },
+  {
+    "templateId": "STICKER_MEGAEVOLUTION_PARIS_1",
+    "data": {
+      "stickerId": "STICKER_MEGAEVOLUTION_PARIS_1",
+      "maxCount": 25,
+      "pokemonId": "CHARIZARD",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20250912
+    }
+  },
+  {
+    "templateId": "STICKER_MEGAEVOLUTION_PARIS_2",
+    "data": {
+      "stickerId": "STICKER_MEGAEVOLUTION_PARIS_2",
+      "maxCount": 25,
+      "pokemonId": "CHARIZARD",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20250912
+    }
+  },
+  {
+    "templateId": "STICKER_MEGAEVOLUTION_PARIS_3",
+    "data": {
+      "stickerId": "STICKER_MEGAEVOLUTION_PARIS_3",
+      "maxCount": 25,
+      "pokemonId": "PIKACHU",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20250912
+    }
+  },
+  {
+    "templateId": "STICKER_MEWTWO",
+    "data": {
+      "stickerId": "STICKER_MEWTWO",
+      "stickerUrl": "https://storage.googleapis.com/prod-public-images/Stickers/sticker_mewtwo.png",
+      "maxCount": 25,
+      "pokemonId": "MEW",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20210220
+    }
+  },
+  {
+    "templateId": "STICKER_MEW_LAUGH",
+    "data": {
+      "stickerId": "STICKER_MEW_LAUGH",
+      "stickerUrl": "https://storage.googleapis.com/prod-public-images/Stickers/sticker_mew_laugh.png",
+      "maxCount": 25,
+      "pokemonId": "MEWTWO",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20210220
+    }
+  },
+  {
+    "templateId": "STICKER_MUKKURU_CD_1",
+    "data": {
+      "stickerId": "STICKER_MUKKURU_CD_1",
+      "maxCount": 25,
+      "pokemonId": "STARLY",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220717,
+      "regionId": 3
+    }
+  },
+  {
+    "templateId": "STICKER_MUKKURU_CD_2",
+    "data": {
+      "stickerId": "STICKER_MUKKURU_CD_2",
+      "maxCount": 25,
+      "pokemonId": "STARLY",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220717,
+      "regionId": 3
+    }
+  },
+  {
+    "templateId": "STICKER_MUKKURU_CD_3",
+    "data": {
+      "stickerId": "STICKER_MUKKURU_CD_3",
+      "maxCount": 25,
+      "pokemonId": "STARLY",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220717,
+      "regionId": 3
+    }
+  },
+  {
+    "templateId": "STICKER_MUKKURU_CD_4",
+    "data": {
+      "stickerId": "STICKER_MUKKURU_CD_4",
+      "maxCount": 25,
+      "pokemonId": "STARLY",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220717,
+      "regionId": 3
+    }
+  },
+  {
+    "templateId": "STICKER_NAGANO_06_312",
+    "data": {
+      "stickerId": "STICKER_NAGANO_06_312",
+      "stickerUrl": "https://storage.googleapis.com/prod-public-images/sticker_nagano_06_312.png",
+      "maxCount": 25,
+      "category": [
+        "Pokemon",
+        "24_7"
+      ],
+      "releaseDate": 20200611,
+      "regionId": 2000
+    }
+  },
+  {
+    "templateId": "STICKER_NAGANO_08",
+    "data": {
+      "stickerId": "STICKER_NAGANO_08",
+      "stickerUrl": "https://storage.googleapis.com/prod-public-images/Stickers/sticker_nagano_08.png",
+      "maxCount": 25,
+      "pokemonId": "VULPIX",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20201222,
+      "regionId": 6
+    }
+  },
+  {
+    "templateId": "STICKER_NAGANO_11",
+    "data": {
+      "stickerId": "STICKER_NAGANO_11",
+      "stickerUrl": "https://storage.googleapis.com/prod-public-images/Stickers/sticker_nagano_11.png",
+      "maxCount": 25,
+      "pokemonId": "SLOWPOKE",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20201231
+    }
+  },
+  {
+    "templateId": "STICKER_NAGANO_15",
+    "data": {
+      "stickerId": "STICKER_NAGANO_15",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_nagano_15.png",
+      "maxCount": 25,
+      "pokemonId": "PIKACHU",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20210405
+    }
+  },
+  {
+    "templateId": "STICKER_NAGANO_15_312",
+    "data": {
+      "stickerId": "STICKER_NAGANO_15_312",
+      "stickerUrl": "https://storage.googleapis.com/prod-public-images/sticker_nagano_15_312.png",
+      "maxCount": 25,
+      "pokemonId": "PIKACHU",
+      "category": [
+        "Pokemon",
+        "24_7"
+      ],
+      "releaseDate": 20200611
+    }
+  },
+  {
+    "templateId": "STICKER_NAGANO_BATH",
+    "data": {
+      "stickerId": "STICKER_NAGANO_BATH",
+      "stickerUrl": "https://storage.googleapis.com/prod-public-images/Stickers/sticker_nagano_bath.png",
+      "maxCount": 25,
+      "pokemonId": "CROAGUNK",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20201222,
+      "regionId": 3
+    }
+  },
+  {
+    "templateId": "STICKER_NAGANO_MARILL",
+    "data": {
+      "stickerId": "STICKER_NAGANO_MARILL",
+      "stickerUrl": "https://storage.googleapis.com/prod-public-images/sticker_nagano_marill.png",
+      "maxCount": 25,
+      "pokemonId": "MARILL",
+      "category": [
+        "Pokemon",
+        "24_7"
+      ],
+      "releaseDate": 20200819,
+      "regionId": 1
+    }
+  },
+  {
+    "templateId": "STICKER_NAGANO_YADON",
+    "data": {
+      "stickerId": "STICKER_NAGANO_YADON",
+      "stickerUrl": "https://storage.googleapis.com/prod-public-images/sticker_nagano_yadon.png",
+      "maxCount": 25,
+      "pokemonId": "SLOWPOKE",
+      "category": [
+        "Pokemon",
+        "24_7"
+      ],
+      "releaseDate": 20200819
+    }
+  },
+  {
+    "templateId": "STICKER_NEWPOKEMON2_1",
+    "data": {
+      "stickerId": "STICKER_NEWPOKEMON2_1",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_newPokemon2_1.png",
+      "maxCount": 25,
+      "pokemonId": "PIKACHU",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20210214
+    }
+  },
+  {
+    "templateId": "STICKER_NEWPOKEMON2_15",
+    "data": {
+      "stickerId": "STICKER_NEWPOKEMON2_15",
+      "stickerUrl": "https://storage.googleapis.com/prod-public-images/Stickers/sticker_newPokemon2_15.png",
+      "maxCount": 25,
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20201231,
+      "regionId": 2000
+    }
+  },
+  {
+    "templateId": "STICKER_NEWPOKEMON2_33",
+    "data": {
+      "stickerId": "STICKER_NEWPOKEMON2_33",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_newPokemon2_33.png",
+      "maxCount": 25,
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20210214,
+      "regionId": 2000
+    }
+  },
+  {
+    "templateId": "STICKER_NEWPOKEMON_04",
+    "data": {
+      "stickerId": "STICKER_NEWPOKEMON_04",
+      "stickerUrl": "https://storage.googleapis.com/prod-public-images/Stickers/sticker_newPokemon_04.png",
+      "maxCount": 25,
+      "pokemonId": "PIKACHU",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20201231
+    }
+  },
+  {
+    "templateId": "STICKER_NEWPOKEMON_20",
+    "data": {
+      "stickerId": "STICKER_NEWPOKEMON_20",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_newPokemon_20.png",
+      "maxCount": 25,
+      "pokemonId": "TOGEPI",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20210405,
+      "regionId": 1
+    }
+  },
+  {
+    "templateId": "STICKER_NEWPOKEMON_37",
+    "data": {
+      "stickerId": "STICKER_NEWPOKEMON_37",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_newPokemon_37.png",
+      "maxCount": 25,
+      "pokemonId": "SLOWPOKE",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20210608
+    }
+  },
+  {
+    "templateId": "STICKER_NEWTEAMRASCAL",
+    "data": {
+      "stickerId": "STICKER_NEWTEAMRASCAL",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_newTeamRascal.png",
+      "maxCount": 25,
+      "pokemonId": "GRIMER",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20210420
+    }
+  },
+  {
+    "templateId": "STICKER_NEWTEAMRASCALPIKACHU_26",
+    "data": {
+      "stickerId": "STICKER_NEWTEAMRASCALPIKACHU_26",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_newTeamRascalPikachu_26.png",
+      "maxCount": 25,
+      "pokemonId": "SLOWPOKE",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20210608
+    }
+  },
+  {
+    "templateId": "STICKER_NEWYEARS22_1",
+    "data": {
+      "stickerId": "STICKER_NEWYEARS22_1",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_newYears22_1.png",
+      "maxCount": 25,
+      "pokemonId": "SLOWPOKE",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20211230
+    }
+  },
+  {
+    "templateId": "STICKER_NEWYEARS22_2",
+    "data": {
+      "stickerId": "STICKER_NEWYEARS22_2",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_newYears22_2.png",
+      "maxCount": 25,
+      "pokemonId": "HOOTHOOT",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20211230,
+      "regionId": 1
+    }
+  },
+  {
+    "templateId": "STICKER_NEWYEARS22_3",
+    "data": {
+      "stickerId": "STICKER_NEWYEARS22_3",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_newYears22_3.png",
+      "maxCount": 25,
+      "pokemonId": "PIKACHU",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20211230
+    }
+  },
+  {
+    "templateId": "STICKER_NEWYEARS22_4",
+    "data": {
+      "stickerId": "STICKER_NEWYEARS22_4",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_newYears22_4.png",
+      "maxCount": 25,
+      "pokemonId": "PIKACHU",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20211230
+    }
+  },
+  {
+    "templateId": "STICKER_NEWYEARS23_1",
+    "data": {
+      "stickerId": "STICKER_NEWYEARS23_1",
+      "maxCount": 25,
+      "pokemonId": "PIKACHU",
+      "category": [
+        "Pokemon",
+        "Messages"
+      ],
+      "releaseDate": 20230101
+    }
+  },
+  {
+    "templateId": "STICKER_NEWYEARS23_2",
+    "data": {
+      "stickerId": "STICKER_NEWYEARS23_2",
+      "maxCount": 25,
+      "pokemonId": "WURMPLE",
+      "category": [
+        "Pokemon",
+        "Messages"
+      ],
+      "releaseDate": 20230101,
+      "regionId": 2
+    }
+  },
+  {
+    "templateId": "STICKER_NEWYEARS23_3",
+    "data": {
+      "stickerId": "STICKER_NEWYEARS23_3",
+      "maxCount": 25,
+      "pokemonId": "NOCTOWL",
+      "category": [
+        "Pokemon",
+        "Messages"
+      ],
+      "releaseDate": 20230101,
+      "regionId": 1
+    }
+  },
+  {
+    "templateId": "STICKER_NEWYEARS23_4",
+    "data": {
+      "stickerId": "STICKER_NEWYEARS23_4",
+      "maxCount": 25,
+      "pokemonId": "HOOTHOOT",
+      "category": [
+        "Pokemon",
+        "Messages"
+      ],
+      "releaseDate": 20230101,
+      "regionId": 1
+    }
+  },
+  {
+    "templateId": "STICKER_NIA_LOGO",
+    "data": {
+      "stickerId": "STICKER_NIA_LOGO",
+      "stickerUrl": "https://storage.googleapis.com/prod-public-images/sticker_nia_logo.png",
+      "maxCount": 25,
+      "category": [
+        "Misc"
+      ],
+      "releaseDate": 20200625
+    }
+  },
+  {
+    "templateId": "STICKER_NIGIYAKA_08_0508_312",
+    "data": {
+      "stickerId": "STICKER_NIGIYAKA_08_0508_312",
+      "stickerUrl": "https://storage.googleapis.com/prod-public-images/sticker_nigiyaka_08_0508_312.png",
+      "maxCount": 25,
+      "pokemonId": "PIKACHU",
+      "category": [
+        "Pokemon",
+        "Messages"
+      ],
+      "releaseDate": 20200611
+    }
+  },
+  {
+    "templateId": "STICKER_NIGIYAKA_16_0508_312",
+    "data": {
+      "stickerId": "STICKER_NIGIYAKA_16_0508_312",
+      "stickerUrl": "https://storage.googleapis.com/prod-public-images/sticker_nigiyaka_16_0508_312.png",
+      "maxCount": 25,
+      "pokemonId": "PIKACHU",
+      "category": [
+        "Pokemon",
+        "Messages"
+      ],
+      "releaseDate": 20200611
+    }
+  },
+  {
+    "templateId": "STICKER_NOIBAT_CD_1",
+    "data": {
+      "stickerId": "STICKER_NOIBAT_CD_1",
+      "maxCount": 25,
+      "pokemonId": "NOIBAT",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230201,
+      "regionId": 5
+    }
+  },
+  {
+    "templateId": "STICKER_NOIBAT_CD_2",
+    "data": {
+      "stickerId": "STICKER_NOIBAT_CD_2",
+      "maxCount": 25,
+      "pokemonId": "NOIBAT",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230201,
+      "regionId": 5
+    }
+  },
+  {
+    "templateId": "STICKER_NOIBAT_CD_3",
+    "data": {
+      "stickerId": "STICKER_NOIBAT_CD_3",
+      "maxCount": 25,
+      "pokemonId": "NOIBAT",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230201,
+      "regionId": 5
+    }
+  },
+  {
+    "templateId": "STICKER_NOIBAT_CD_4",
+    "data": {
+      "stickerId": "STICKER_NOIBAT_CD_4",
+      "maxCount": 25,
+      "pokemonId": "NOIBAT",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230201,
+      "regionId": 5
+    }
+  },
+  {
+    "templateId": "STICKER_NYARTH_38",
+    "data": {
+      "stickerId": "STICKER_NYARTH_38",
+      "stickerUrl": "https://storage.googleapis.com/prod-public-images/sticker_nyarth_38.png",
+      "maxCount": 25,
+      "pokemonId": "MEOWTH",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20200819,
+      "regionId": 6
+    }
+  },
+  {
+    "templateId": "STICKER_OBSERVATORY_01",
+    "data": {
+      "stickerId": "STICKER_OBSERVATORY_01",
+      "maxCount": 25,
+      "pokemonId": "PIKACHU",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20251101
+    }
+  },
+  {
+    "templateId": "STICKER_OBSERVATORY_02",
+    "data": {
+      "stickerId": "STICKER_OBSERVATORY_02",
+      "maxCount": 25,
+      "pokemonId": "PIKACHU",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20251101
+    }
+  },
+  {
+    "templateId": "STICKER_PAPELPICADOTGR_1",
+    "data": {
+      "stickerId": "STICKER_PAPELPICADOTGR_1",
+      "maxCount": 25,
+      "pokemonId": "ARTICUNO",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20241015
+    }
+  },
+  {
+    "templateId": "STICKER_PAPELPICADOTGR_2",
+    "data": {
+      "stickerId": "STICKER_PAPELPICADOTGR_2",
+      "maxCount": 25,
+      "pokemonId": "ZAPDOS",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20241015
+    }
+  },
+  {
+    "templateId": "STICKER_PAPELPICADOTGR_3",
+    "data": {
+      "stickerId": "STICKER_PAPELPICADOTGR_3",
+      "maxCount": 25,
+      "pokemonId": "MOLTRES",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20241015
+    }
+  },
+  {
+    "templateId": "STICKER_PAPELPICADOTGR_4",
+    "data": {
+      "stickerId": "STICKER_PAPELPICADOTGR_4",
+      "maxCount": 25,
+      "category": [
+        "Misc"
+      ],
+      "releaseDate": 20241015
+    }
+  },
+  {
+    "templateId": "STICKER_PAPELPICADOTGR_5",
+    "data": {
+      "stickerId": "STICKER_PAPELPICADOTGR_5",
+      "maxCount": 25,
+      "category": [
+        "Misc"
+      ],
+      "releaseDate": 20241015
+    }
+  },
+  {
+    "templateId": "STICKER_PGOFEST2021_GALARIANZIGZAGOON",
+    "data": {
+      "stickerId": "STICKER_PGOFEST2021_GALARIANZIGZAGOON",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_pgoFest2021_galarianZigzagoon.png",
+      "maxCount": 25,
+      "pokemonId": "ZIGZAGOON",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20210727,
+      "regionId": 7
+    }
+  },
+  {
+    "templateId": "STICKER_PGOFEST2021_LOGO",
+    "data": {
+      "stickerId": "STICKER_PGOFEST2021_LOGO",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_pgoFest2021_logo.png",
+      "maxCount": 25,
+      "category": [
+        "Misc"
+      ],
+      "releaseDate": 20210727
+    }
+  },
+  {
+    "templateId": "STICKER_PGOFEST2021_MELOETTA_1",
+    "data": {
+      "stickerId": "STICKER_PGOFEST2021_MELOETTA_1",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_pgoFest2021_meloetta_1.png",
+      "maxCount": 25,
+      "pokemonId": "MELOETTA",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20210727,
+      "regionId": 4
+    }
+  },
+  {
+    "templateId": "STICKER_PGOFEST2021_MELOETTA_2",
+    "data": {
+      "stickerId": "STICKER_PGOFEST2021_MELOETTA_2",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_pgoFest2021_meloetta_2.png",
+      "maxCount": 25,
+      "pokemonId": "MELOETTA",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20210727,
+      "regionId": 4
+    }
+  },
+  {
+    "templateId": "STICKER_PGOFEST2021_PONYTA",
+    "data": {
+      "stickerId": "STICKER_PGOFEST2021_PONYTA",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_pgoFest2021_ponyta.png",
+      "maxCount": 25,
+      "pokemonId": "PONYTA",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20210727,
+      "regionId": 7
+    }
+  },
+  {
+    "templateId": "STICKER_PGOFEST2021_SHIRTICON",
+    "data": {
+      "stickerId": "STICKER_PGOFEST2021_SHIRTICON",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_pgoFest2021_shirtIcon.png",
+      "maxCount": 25,
+      "category": [
+        "Misc"
+      ],
+      "releaseDate": 20210727
+    }
+  },
+  {
+    "templateId": "STICKER_PGOFEST2022_DENJYUMOKU",
+    "data": {
+      "stickerId": "STICKER_PGOFEST2022_DENJYUMOKU",
+      "maxCount": 25,
+      "pokemonId": "XURKITREE",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220805,
+      "regionId": 6
+    }
+  },
+  {
+    "templateId": "STICKER_PGOFEST2022_GROUDON",
+    "data": {
+      "stickerId": "STICKER_PGOFEST2022_GROUDON",
+      "maxCount": 25,
+      "pokemonId": "GROUDON",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220604,
+      "regionId": 2
+    }
+  },
+  {
+    "templateId": "STICKER_PGOFEST2022_KIBAGO",
+    "data": {
+      "stickerId": "STICKER_PGOFEST2022_KIBAGO",
+      "maxCount": 25,
+      "pokemonId": "AXEW",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220604,
+      "regionId": 4
+    }
+  },
+  {
+    "templateId": "STICKER_PGOFEST2022_KYOGRE",
+    "data": {
+      "stickerId": "STICKER_PGOFEST2022_KYOGRE",
+      "maxCount": 25,
+      "pokemonId": "KYOGRE",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220604,
+      "regionId": 2
+    }
+  },
+  {
+    "templateId": "STICKER_PGOFEST2022_MASSIVOON",
+    "data": {
+      "stickerId": "STICKER_PGOFEST2022_MASSIVOON",
+      "maxCount": 25,
+      "pokemonId": "KOMMO_O",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220722,
+      "regionId": 6
+    }
+  },
+  {
+    "templateId": "STICKER_PGOFEST2022_PHEROACHE",
+    "data": {
+      "stickerId": "STICKER_PGOFEST2022_PHEROACHE",
+      "maxCount": 25,
+      "pokemonId": "PHEROMOSA",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220701,
+      "regionId": 6
+    }
+  },
+  {
+    "templateId": "STICKER_PGOFEST2022_PIKACHU",
+    "data": {
+      "stickerId": "STICKER_PGOFEST2022_PIKACHU",
+      "maxCount": 25,
+      "pokemonId": "PIKACHU",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220604
+    }
+  },
+  {
+    "templateId": "STICKER_PGOFEST2022_POCHAMA",
+    "data": {
+      "stickerId": "STICKER_PGOFEST2022_POCHAMA",
+      "maxCount": 25,
+      "pokemonId": "PIPLUP",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220604,
+      "regionId": 3
+    }
+  },
+  {
+    "templateId": "STICKER_PGOFEST2022_SHAYMIN",
+    "data": {
+      "stickerId": "STICKER_PGOFEST2022_SHAYMIN",
+      "maxCount": 25,
+      "pokemonId": "SHAYMIN",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220604,
+      "regionId": 3
+    }
+  },
+  {
+    "templateId": "STICKER_PGOFEST2022_SHAYMINSKY",
+    "data": {
+      "stickerId": "STICKER_PGOFEST2022_SHAYMINSKY",
+      "maxCount": 25,
+      "pokemonId": "SHAYMIN",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220701,
+      "regionId": 3
+    }
+  },
+  {
+    "templateId": "STICKER_PGOFEST2022_UTUROID",
+    "data": {
+      "stickerId": "STICKER_PGOFEST2022_UTUROID",
+      "maxCount": 25,
+      "pokemonId": "NIHILEGO",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220805,
+      "regionId": 6
+    }
+  },
+  {
+    "templateId": "STICKER_PGO_FEST_2017",
+    "data": {
+      "stickerId": "STICKER_PGO_FEST_2017",
+      "stickerUrl": "https://storage.googleapis.com/prod-public-images/sticker_pgo_fest_2017.png",
+      "maxCount": 25,
+      "category": [
+        "Misc"
+      ],
+      "releaseDate": 20200625
+    }
+  },
+  {
+    "templateId": "STICKER_PGO_FEST_2018",
+    "data": {
+      "stickerId": "STICKER_PGO_FEST_2018",
+      "stickerUrl": "https://storage.googleapis.com/prod-public-images/sticker_pgo_fest_2018.png",
+      "maxCount": 25,
+      "category": [
+        "Misc"
+      ],
+      "releaseDate": 20200625
+    }
+  },
+  {
+    "templateId": "STICKER_PGO_FEST_2019",
+    "data": {
+      "stickerId": "STICKER_PGO_FEST_2019",
+      "stickerUrl": "https://storage.googleapis.com/prod-public-images/sticker_pgo_fest_2019.png",
+      "maxCount": 25,
+      "category": [
+        "Misc"
+      ],
+      "releaseDate": 20200625
+    }
+  },
+  {
+    "templateId": "STICKER_PGO_FEST_2020",
+    "data": {
+      "stickerId": "STICKER_PGO_FEST_2020",
+      "stickerUrl": "https://storage.googleapis.com/prod-public-images/sticker_pgo_fest_2020.png",
+      "maxCount": 25,
+      "category": [
+        "Misc"
+      ],
+      "releaseDate": 20200625
+    }
+  },
+  {
+    "templateId": "STICKER_PGO_FEST_2020_LOGO",
+    "data": {
+      "stickerId": "STICKER_PGO_FEST_2020_LOGO",
+      "stickerUrl": "https://storage.googleapis.com/prod-public-images/sticker_pgo_fest_2020_logo.png",
+      "maxCount": 25,
+      "category": [
+        "Misc"
+      ],
+      "releaseDate": 20200625
+    }
+  },
+  {
+    "templateId": "STICKER_PGO_FEST_2022",
+    "data": {
+      "stickerId": "STICKER_PGO_FEST_2022",
+      "maxCount": 25,
+      "category": [
+        "Misc"
+      ],
+      "releaseDate": 20220604
+    }
+  },
+  {
+    "templateId": "STICKER_PGO_FEST_2022_LOGO",
+    "data": {
+      "stickerId": "STICKER_PGO_FEST_2022_LOGO",
+      "maxCount": 25,
+      "category": [
+        "Misc"
+      ],
+      "releaseDate": 20220604
+    }
+  },
+  {
+    "templateId": "STICKER_PGO_FEST_2023",
+    "data": {
+      "stickerId": "STICKER_PGO_FEST_2023",
+      "maxCount": 25,
+      "category": [
+        "Misc"
+      ],
+      "releaseDate": 20230801
+    }
+  },
+  {
+    "templateId": "STICKER_PGO_FEST_2023_1",
+    "data": {
+      "stickerId": "STICKER_PGO_FEST_2023_1",
+      "maxCount": 25,
+      "category": [
+        "Misc"
+      ],
+      "releaseDate": 20230801,
+      "regionId": 5
+    }
+  },
+  {
+    "templateId": "STICKER_PGO_FEST_2023_2",
+    "data": {
+      "stickerId": "STICKER_PGO_FEST_2023_2",
+      "maxCount": 25,
+      "category": [
+        "Misc"
+      ],
+      "releaseDate": 20230801,
+      "regionId": 2
+    }
+  },
+  {
+    "templateId": "STICKER_PGO_FEST_2023_3",
+    "data": {
+      "stickerId": "STICKER_PGO_FEST_2023_3",
+      "maxCount": 25,
+      "category": [
+        "Misc"
+      ],
+      "releaseDate": 20230801,
+      "regionId": 5
+    }
+  },
+  {
+    "templateId": "STICKER_PGO_FEST_2023_4",
+    "data": {
+      "stickerId": "STICKER_PGO_FEST_2023_4",
+      "maxCount": 25,
+      "category": [
+        "Misc"
+      ],
+      "releaseDate": 20230801,
+      "regionId": 2
+    }
+  },
+  {
+    "templateId": "STICKER_PGO_FEST_2023_5",
+    "data": {
+      "stickerId": "STICKER_PGO_FEST_2023_5",
+      "maxCount": 25,
+      "category": [
+        "Misc"
+      ],
+      "releaseDate": 20230801
+    }
+  },
+  {
+    "templateId": "STICKER_PGO_FEST_2023_6",
+    "data": {
+      "stickerId": "STICKER_PGO_FEST_2023_6",
+      "maxCount": 25,
+      "category": [
+        "Misc"
+      ],
+      "releaseDate": 20230801
+    }
+  },
+  {
+    "templateId": "STICKER_PGO_FEST_2023_LOGO",
+    "data": {
+      "stickerId": "STICKER_PGO_FEST_2023_LOGO",
+      "maxCount": 25,
+      "category": [
+        "Misc"
+      ],
+      "releaseDate": 20230801
+    }
+  },
+  {
+    "templateId": "STICKER_PGO_FEST_2024",
+    "data": {
+      "stickerId": "STICKER_PGO_FEST_2024",
+      "maxCount": 25,
+      "category": [
+        "Misc"
+      ],
+      "releaseDate": 20240429
+    }
+  },
+  {
+    "templateId": "STICKER_PGO_FEST_2024_1",
+    "data": {
+      "stickerId": "STICKER_PGO_FEST_2024_1",
+      "maxCount": 25,
+      "pokemonId": "SOLGALEO",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240429,
+      "regionId": 6
+    }
+  },
+  {
+    "templateId": "STICKER_PGO_FEST_2024_2",
+    "data": {
+      "stickerId": "STICKER_PGO_FEST_2024_2",
+      "maxCount": 25,
+      "pokemonId": "LUNALA",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240429,
+      "regionId": 6
+    }
+  },
+  {
+    "templateId": "STICKER_PGO_FEST_2024_3",
+    "data": {
+      "stickerId": "STICKER_PGO_FEST_2024_3",
+      "maxCount": 25,
+      "pokemonId": "MARSHADOW",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240429,
+      "regionId": 6
+    }
+  },
+  {
+    "templateId": "STICKER_PGO_FEST_2024_4",
+    "data": {
+      "stickerId": "STICKER_PGO_FEST_2024_4",
+      "maxCount": 25,
+      "pokemonId": "NECROZMA",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240429,
+      "regionId": 6
+    }
+  },
+  {
+    "templateId": "STICKER_PGO_FEST_2024_5",
+    "data": {
+      "stickerId": "STICKER_PGO_FEST_2024_5",
+      "maxCount": 25,
+      "pokemonId": "NECROZMA",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240429,
+      "regionId": 6
+    }
+  },
+  {
+    "templateId": "STICKER_PGO_FEST_2024_6",
+    "data": {
+      "stickerId": "STICKER_PGO_FEST_2024_6",
+      "maxCount": 25,
+      "pokemonId": "NECROZMA",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240429,
+      "regionId": 6
+    }
+  },
+  {
+    "templateId": "STICKER_PGO_FEST_2024_LOGO",
+    "data": {
+      "stickerId": "STICKER_PGO_FEST_2024_LOGO",
+      "maxCount": 25,
+      "category": [
+        "Misc"
+      ],
+      "releaseDate": 20240429
+    }
+  },
+  {
+    "templateId": "STICKER_PGO_FEST_2025",
+    "data": {
+      "stickerId": "STICKER_PGO_FEST_2025",
+      "maxCount": 25,
+      "pokemonId": "ZACIAN",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20250529,
+      "regionId": 7
+    }
+  },
+  {
+    "templateId": "STICKER_PGO_FEST_2025_1",
+    "data": {
+      "stickerId": "STICKER_PGO_FEST_2025_1",
+      "maxCount": 25,
+      "pokemonId": "VOLCANION",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20250529,
+      "regionId": 5
+    }
+  },
+  {
+    "templateId": "STICKER_PGO_FEST_2025_2",
+    "data": {
+      "stickerId": "STICKER_PGO_FEST_2025_2",
+      "maxCount": 25,
+      "pokemonId": "ZAMAZENTA",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20250529,
+      "regionId": 7
+    }
+  },
+  {
+    "templateId": "STICKER_PGO_FEST_2025_3",
+    "data": {
+      "stickerId": "STICKER_PGO_FEST_2025_3",
+      "maxCount": 25,
+      "pokemonId": "ZACIAN",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20250529,
+      "regionId": 7
+    }
+  },
+  {
+    "templateId": "STICKER_PGO_FEST_2025_LOGO",
+    "data": {
+      "stickerId": "STICKER_PGO_FEST_2025_LOGO",
+      "maxCount": 25,
+      "category": [
+        "Misc"
+      ],
+      "releaseDate": 20250529
+    }
+  },
+  {
+    "templateId": "STICKER_PGO_FEST_VICTINI_05",
+    "data": {
+      "stickerId": "STICKER_PGO_FEST_VICTINI_05",
+      "stickerUrl": "https://storage.googleapis.com/prod-public-images/sticker_pgo_fest_victini_05.png",
+      "maxCount": 25,
+      "pokemonId": "VICTINI",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20200625,
+      "regionId": 4
+    }
+  },
+  {
+    "templateId": "STICKER_PGO_TOUR_2024",
+    "data": {
+      "stickerId": "STICKER_PGO_TOUR_2024",
+      "maxCount": 25,
+      "category": [
+        "Misc"
+      ],
+      "releaseDate": 20240216
+    }
+  },
+  {
+    "templateId": "STICKER_PGO_TOUR_2024_1",
+    "data": {
+      "stickerId": "STICKER_PGO_TOUR_2024_1",
+      "maxCount": 25,
+      "pokemonId": "DIALGA",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240216,
+      "regionId": 1000
+    }
+  },
+  {
+    "templateId": "STICKER_PGO_TOUR_2024_2",
+    "data": {
+      "stickerId": "STICKER_PGO_TOUR_2024_2",
+      "maxCount": 25,
+      "pokemonId": "PALKIA",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240216,
+      "regionId": 1000
+    }
+  },
+  {
+    "templateId": "STICKER_PGO_TOUR_2024_3",
+    "data": {
+      "stickerId": "STICKER_PGO_TOUR_2024_3",
+      "maxCount": 25,
+      "pokemonId": "GIRATINA",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240216,
+      "regionId": 3
+    }
+  },
+  {
+    "templateId": "STICKER_PGO_TOUR_2024_4",
+    "data": {
+      "stickerId": "STICKER_PGO_TOUR_2024_4",
+      "maxCount": 25,
+      "pokemonId": "TURTWIG",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240216,
+      "regionId": 2000
+    }
+  },
+  {
+    "templateId": "STICKER_PGO_TOUR_2024_5",
+    "data": {
+      "stickerId": "STICKER_PGO_TOUR_2024_5",
+      "maxCount": 25,
+      "pokemonId": "ROWLET",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240216,
+      "regionId": 2000
+    }
+  },
+  {
+    "templateId": "STICKER_PGO_TOUR_2024_LOGO",
+    "data": {
+      "stickerId": "STICKER_PGO_TOUR_2024_LOGO",
+      "maxCount": 25,
+      "category": [
+        "Misc"
+      ],
+      "releaseDate": 20240216
+    }
+  },
+  {
+    "templateId": "STICKER_PGO_TOUR_2026",
+    "data": {
+      "stickerId": "STICKER_PGO_TOUR_2026",
+      "maxCount": 25,
+      "category": [
+        "Misc"
+      ],
+      "releaseDate": 20250212
+    }
+  },
+  {
+    "templateId": "STICKER_PGO_TOUR_2026_1",
+    "data": {
+      "stickerId": "STICKER_PGO_TOUR_2026_1",
+      "maxCount": 25,
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20250212,
+      "regionId": 2000
+    }
+  },
+  {
+    "templateId": "STICKER_PGO_TOUR_2026_2",
+    "data": {
+      "stickerId": "STICKER_PGO_TOUR_2026_2",
+      "maxCount": 25,
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20250212,
+      "regionId": 5
+    }
+  },
+  {
+    "templateId": "STICKER_PGO_TOUR_2026_3",
+    "data": {
+      "stickerId": "STICKER_PGO_TOUR_2026_3",
+      "maxCount": 25,
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20250212,
+      "regionId": 5
+    }
+  },
+  {
+    "templateId": "STICKER_PGO_TOUR_2026_LOGO",
+    "data": {
+      "stickerId": "STICKER_PGO_TOUR_LOGO",
+      "maxCount": 25,
+      "category": [
+        "Misc"
+      ],
+      "releaseDate": 20250212
+    }
+  },
+  {
+    "templateId": "STICKER_PGO_WILDAREA_2024",
+    "data": {
+      "stickerId": "STICKER_PGO_WILDAREA_2024",
+      "maxCount": 25,
+      "category": [
+        "Misc"
+      ],
+      "releaseDate": 20241010
+    }
+  },
+  {
+    "templateId": "STICKER_PGO_WILDAREA_2024_1",
+    "data": {
+      "stickerId": "STICKER_PGO_WILDAREA_2024_1",
+      "maxCount": 25,
+      "pokemonId": "TOXEL",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20241010,
+      "regionId": 7
+    }
+  },
+  {
+    "templateId": "STICKER_PGO_WILDAREA_2024_2",
+    "data": {
+      "stickerId": "STICKER_PGO_WILDAREA_2024_2",
+      "maxCount": 25,
+      "pokemonId": "TOXTRICITY",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20241010,
+      "regionId": 7
+    }
+  },
+  {
+    "templateId": "STICKER_PGO_WILDAREA_2024_3",
+    "data": {
+      "stickerId": "STICKER_PGO_WILDAREA_2024_3",
+      "maxCount": 25,
+      "pokemonId": "TOXTRICITY",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20241010,
+      "regionId": 7
+    }
+  },
+  {
+    "templateId": "STICKER_PGO_WILDAREA_2024_4",
+    "data": {
+      "stickerId": "STICKER_PGO_WILDAREA_2024_4",
+      "maxCount": 25,
+      "pokemonId": "TOXTRICITY",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20241010,
+      "regionId": 7
+    }
+  },
+  {
+    "templateId": "STICKER_PGO_WILDAREA_2024_LOGO",
+    "data": {
+      "stickerId": "STICKER_PGO_WILDAREA_2024_LOGO",
+      "maxCount": 25,
+      "category": [
+        "Misc"
+      ],
+      "releaseDate": 20241010
+    }
+  },
+  {
+    "templateId": "STICKER_PIKAAIRADVENTURE_1",
+    "data": {
+      "stickerId": "STICKER_PIKAAIRADVENTURE_1",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_pikaairadventure_1.png",
+      "maxCount": 25,
+      "pokemonId": "PIKACHU",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220503
+    }
+  },
+  {
+    "templateId": "STICKER_PIKAAIRADVENTURE_2",
+    "data": {
+      "stickerId": "STICKER_PIKAAIRADVENTURE_2",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_pikaairadventure_2.png",
+      "maxCount": 25,
+      "pokemonId": "PIKACHU",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220503
+    }
+  },
+  {
+    "templateId": "STICKER_PIKAAIRADVENTURE_3",
+    "data": {
+      "stickerId": "STICKER_PIKAAIRADVENTURE_3",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_pikaairadventure_3.png",
+      "maxCount": 25,
+      "pokemonId": "CORSOLA",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220503,
+      "regionId": 1
+    }
+  },
+  {
+    "templateId": "STICKER_PIKAAIRJEJU_PIKACHU",
+    "data": {
+      "stickerId": "STICKER_PIKAAIRJEJU_PIKACHU",
+      "maxCount": 25,
+      "pokemonId": "PIKACHU",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230721
+    }
+  },
+  {
+    "templateId": "STICKER_PIKAAIRSINGAPORE_LAPRAS",
+    "data": {
+      "stickerId": "STICKER_PIKAAIRSINGAPORE_LAPRAS",
+      "maxCount": 25,
+      "pokemonId": "LAPRAS",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20221117
+    }
+  },
+  {
+    "templateId": "STICKER_PIKAAIRSINGAPORE_PIKACHU",
+    "data": {
+      "stickerId": "STICKER_PIKAAIRSINGAPORE_PIKACHU",
+      "maxCount": 25,
+      "pokemonId": "PIKACHU",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20221117
+    }
+  },
+  {
+    "templateId": "STICKER_PIKAAIRTAIWAN_PIKACHU",
+    "data": {
+      "stickerId": "STICKER_PIKAAIRTAIWAN_PIKACHU",
+      "maxCount": 25,
+      "pokemonId": "PIKACHU",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20221001
+    }
+  },
+  {
+    "templateId": "STICKER_PIKAAIRTAIWAN_SNORLAX",
+    "data": {
+      "stickerId": "STICKER_PIKAAIRTAIWAN_SNORLAX",
+      "maxCount": 25,
+      "pokemonId": "SNORLAX",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20221001
+    }
+  },
+  {
+    "templateId": "STICKER_PIKACHU_JOL",
+    "data": {
+      "stickerId": "STICKER_PIKACHU_JOL",
+      "stickerUrl": "https://storage.googleapis.com/prod-public-images/Stickers/sticker_pikachu_JOL.png",
+      "maxCount": 25,
+      "pokemonId": "PIKACHU",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20201027
+    }
+  },
+  {
+    "templateId": "STICKER_PIKA_14_THANKYOU",
+    "data": {
+      "stickerId": "STICKER_PIKA_14_THANKYOU",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_pika_14_thankyou.png",
+      "maxCount": 25,
+      "pokemonId": "PIKACHU",
+      "category": [
+        "Pokemon",
+        "Messages"
+      ],
+      "releaseDate": 20210320
+    }
+  },
+  {
+    "templateId": "STICKER_POKEMONCHATPALS2_04",
+    "data": {
+      "stickerId": "STICKER_POKEMONCHATPALS2_04",
+      "stickerUrl": "https://storage.googleapis.com/prod-public-images/Stickers/sticker_pokemonChatPals2_04.png",
+      "maxCount": 25,
+      "pokemonId": "EEVEE",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20201231
+    }
+  },
+  {
+    "templateId": "STICKER_POKEMONCHATPALS2_40",
+    "data": {
+      "stickerId": "STICKER_POKEMONCHATPALS2_40",
+      "stickerUrl": "https://storage.googleapis.com/prod-public-images/Stickers/sticker_pokemonChatPals2_40.png",
+      "maxCount": 25,
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20201231,
+      "regionId": 2000
+    }
+  },
+  {
+    "templateId": "STICKER_POLIWAG_1",
+    "data": {
+      "stickerId": "STICKER_POLIWAG_1",
+      "maxCount": 25,
+      "pokemonId": "POLIWAG",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230720
+    }
+  },
+  {
+    "templateId": "STICKER_POLIWAG_2",
+    "data": {
+      "stickerId": "STICKER_POLIWAG_2",
+      "maxCount": 25,
+      "pokemonId": "POLIWAG",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230720
+    }
+  },
+  {
+    "templateId": "STICKER_POLIWAG_3",
+    "data": {
+      "stickerId": "STICKER_POLIWAG_3",
+      "maxCount": 25,
+      "pokemonId": "POLIWAG",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230720
+    }
+  },
+  {
+    "templateId": "STICKER_POLIWAG_4",
+    "data": {
+      "stickerId": "STICKER_POLIWAG_4",
+      "maxCount": 25,
+      "pokemonId": "POLIWAG",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230720
+    }
+  },
+  {
+    "templateId": "STICKER_PONYTA_1",
+    "data": {
+      "stickerId": "STICKER_PONYTA_1",
+      "maxCount": 25,
+      "pokemonId": "PONYTA",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240828
+    }
+  },
+  {
+    "templateId": "STICKER_PONYTA_2",
+    "data": {
+      "stickerId": "STICKER_PONYTA_2",
+      "maxCount": 25,
+      "pokemonId": "PONYTA",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240828,
+      "regionId": 7
+    }
+  },
+  {
+    "templateId": "STICKER_PONYTA_3",
+    "data": {
+      "stickerId": "STICKER_PONYTA_3",
+      "maxCount": 25,
+      "pokemonId": "PONYTA",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240828,
+      "regionId": 2000
+    }
+  },
+  {
+    "templateId": "STICKER_PONYTA_4",
+    "data": {
+      "stickerId": "STICKER_PONYTA_4",
+      "maxCount": 25,
+      "pokemonId": "PONYTA",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240828,
+      "regionId": 2000
+    }
+  },
+  {
+    "templateId": "STICKER_POPPLIOCD_1",
+    "data": {
+      "stickerId": "STICKER_POPPLIOCD_1",
+      "maxCount": 25,
+      "pokemonId": "POPPLIO",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240819,
+      "regionId": 6
+    }
+  },
+  {
+    "templateId": "STICKER_POPPLIOCD_2",
+    "data": {
+      "stickerId": "STICKER_POPPLIOCD_2",
+      "maxCount": 25,
+      "pokemonId": "POPPLIO",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240819,
+      "regionId": 6
+    }
+  },
+  {
+    "templateId": "STICKER_POPPLIOCD_3",
+    "data": {
+      "stickerId": "STICKER_POPPLIOCD_3",
+      "maxCount": 25,
+      "pokemonId": "POPPLIO",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240819,
+      "regionId": 6
+    }
+  },
+  {
+    "templateId": "STICKER_POPPLIOCD_4",
+    "data": {
+      "stickerId": "STICKER_POPPLIOCD_4",
+      "maxCount": 25,
+      "pokemonId": "PRIMARINA",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240819,
+      "regionId": 6
+    }
+  },
+  {
+    "templateId": "STICKER_PROJECTGUITAR_04",
+    "data": {
+      "stickerId": "STICKER_PROJECTGUITAR_04",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_projectGuitar_04.png",
+      "maxCount": 25,
+      "pokemonId": "PIPLUP",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20211122,
+      "regionId": 3
+    }
+  },
+  {
+    "templateId": "STICKER_PROJECTGUITAR_07",
+    "data": {
+      "stickerId": "STICKER_PROJECTGUITAR_07",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_projectGuitar_07.png",
+      "maxCount": 25,
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20211122,
+      "regionId": 1
+    }
+  },
+  {
+    "templateId": "STICKER_PROJECTGUITAR_13",
+    "data": {
+      "stickerId": "STICKER_PROJECTGUITAR_13",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_projectGuitar_13.png",
+      "maxCount": 25,
+      "pokemonId": "CASCOON",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20211122,
+      "regionId": 2
+    }
+  },
+  {
+    "templateId": "STICKER_PROJECTGUITAR_25",
+    "data": {
+      "stickerId": "STICKER_PROJECTGUITAR_25",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_projectGuitar_25.png",
+      "maxCount": 25,
+      "pokemonId": "SQUIRTLE",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20211122
+    }
+  },
+  {
+    "templateId": "STICKER_PROJECTGUITAR_FROAKIE",
+    "data": {
+      "stickerId": "STICKER_PROJECTGUITAR_FROAKIE",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_projectGuitar_froakie.png",
+      "maxCount": 25,
+      "pokemonId": "FROAKIE",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20211122,
+      "regionId": 5
+    }
+  },
+  {
+    "templateId": "STICKER_PSYCHICSPEC21_INKAY",
+    "data": {
+      "stickerId": "STICKER_PSYCHICSPEC21_INKAY",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_psychicSpec21_inkay.png",
+      "maxCount": 25,
+      "pokemonId": "INKAY",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20210908,
+      "regionId": 5
+    }
+  },
+  {
+    "templateId": "STICKER_PSYCHICSPEC21_INKAY2",
+    "data": {
+      "stickerId": "STICKER_PSYCHICSPEC21_INKAY2",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_psychicSpec21_inkay2.png",
+      "maxCount": 25,
+      "pokemonId": "INKAY",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20210908,
+      "regionId": 5
+    }
+  },
+  {
+    "templateId": "STICKER_ROGGENROLA_CD_1",
+    "data": {
+      "stickerId": "STICKER_ROGGENROLA_CD_1",
+      "maxCount": 25,
+      "pokemonId": "ROGGENROLA",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220914,
+      "regionId": 4
+    }
+  },
+  {
+    "templateId": "STICKER_ROGGENROLA_CD_2",
+    "data": {
+      "stickerId": "STICKER_ROGGENROLA_CD_2",
+      "maxCount": 25,
+      "pokemonId": "ROGGENROLA",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220914,
+      "regionId": 4
+    }
+  },
+  {
+    "templateId": "STICKER_ROGGENROLA_CD_3",
+    "data": {
+      "stickerId": "STICKER_ROGGENROLA_CD_3",
+      "maxCount": 25,
+      "pokemonId": "ROGGENROLA",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220914,
+      "regionId": 4
+    }
+  },
+  {
+    "templateId": "STICKER_ROGGENROLA_CD_4",
+    "data": {
+      "stickerId": "STICKER_ROGGENROLA_CD_4",
+      "maxCount": 25,
+      "pokemonId": "ROGGENROLA",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220914,
+      "regionId": 4
+    }
+  },
+  {
+    "templateId": "STICKER_ROWLETCD_1",
+    "data": {
+      "stickerId": "STICKER_ROWLETCD_1",
+      "maxCount": 25,
+      "pokemonId": "ROWLET",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240106,
+      "regionId": 6
+    }
+  },
+  {
+    "templateId": "STICKER_ROWLETCD_2",
+    "data": {
+      "stickerId": "STICKER_ROWLETCD_2",
+      "maxCount": 25,
+      "pokemonId": "ROWLET",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240106,
+      "regionId": 6
+    }
+  },
+  {
+    "templateId": "STICKER_ROWLETCD_3",
+    "data": {
+      "stickerId": "STICKER_ROWLETCD_3",
+      "maxCount": 25,
+      "pokemonId": "ROWLET",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240106,
+      "regionId": 6
+    }
+  },
+  {
+    "templateId": "STICKER_ROWLETCD_4",
+    "data": {
+      "stickerId": "STICKER_ROWLETCD_4",
+      "maxCount": 25,
+      "pokemonId": "ROWLET",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240106,
+      "regionId": 6
+    }
+  },
+  {
+    "templateId": "STICKER_SANDSHREW_1",
+    "data": {
+      "stickerId": "STICKER_SANDSHREW_1",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_sandshrew_1.png",
+      "maxCount": 25,
+      "pokemonId": "SANDSHREW",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220313
+    }
+  },
+  {
+    "templateId": "STICKER_SANDSHREW_2",
+    "data": {
+      "stickerId": "STICKER_SANDSHREW_2",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_sandshrew_2.png",
+      "maxCount": 25,
+      "pokemonId": "SANDSHREW",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220313
+    }
+  },
+  {
+    "templateId": "STICKER_SANDSHREW_3",
+    "data": {
+      "stickerId": "STICKER_SANDSHREW_3",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_sandshrew_3.png",
+      "maxCount": 25,
+      "pokemonId": "SANDSHREW",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220313,
+      "regionId": 6
+    }
+  },
+  {
+    "templateId": "STICKER_SANDSHREW_4",
+    "data": {
+      "stickerId": "STICKER_SANDSHREW_4",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_sandshrew_4.png",
+      "maxCount": 25,
+      "pokemonId": "SANDSHREW",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220313
+    }
+  },
+  {
+    "templateId": "STICKER_SECRETSOFTHEJUNGLE_1",
+    "data": {
+      "stickerId": "STICKER_SECRETSOFTHEJUNGLE_1",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_secretsOfTheJungle_1.png",
+      "maxCount": 25,
+      "pokemonId": "FLYGON",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20211001,
+      "regionId": 2
+    }
+  },
+  {
+    "templateId": "STICKER_SECRETSOFTHEJUNGLE_4",
+    "data": {
+      "stickerId": "STICKER_SECRETSOFTHEJUNGLE_4",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_secretsOfTheJungle_4.png",
+      "maxCount": 25,
+      "pokemonId": "DIGLETT",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20211001
+    }
+  },
+  {
+    "templateId": "STICKER_SECRETSOFTHEJUNGLE_5",
+    "data": {
+      "stickerId": "STICKER_SECRETSOFTHEJUNGLE_5",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_secretsOfTheJungle_5.png",
+      "maxCount": 25,
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20211001,
+      "regionId": 2000
+    }
+  },
+  {
+    "templateId": "STICKER_SECRETSOFTHEJUNGLE_6",
+    "data": {
+      "stickerId": "STICKER_SECRETSOFTHEJUNGLE_6",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_secretsOfTheJungle_6.png",
+      "maxCount": 25,
+      "pokemonId": "LICKITUNG",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20211001
+    }
+  },
+  {
+    "templateId": "STICKER_SECRETSOFTHEJUNGLE_7",
+    "data": {
+      "stickerId": "STICKER_SECRETSOFTHEJUNGLE_7",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_secretsOfTheJungle_7.png",
+      "maxCount": 25,
+      "pokemonId": "PINSIR",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20211001
+    }
+  },
+  {
+    "templateId": "STICKER_SECRETSOFTHEJUNGLE_8",
+    "data": {
+      "stickerId": "STICKER_SECRETSOFTHEJUNGLE_8",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_secretsOfTheJungle_8.png",
+      "maxCount": 25,
+      "pokemonId": "ODDISH",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20211001
+    }
+  },
+  {
+    "templateId": "STICKER_SECRETSOFTHEJUNGLE_9",
+    "data": {
+      "stickerId": "STICKER_SECRETSOFTHEJUNGLE_9",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_secretsOfTheJungle_9.png",
+      "maxCount": 25,
+      "pokemonId": "ZARUDE",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20211001,
+      "regionId": 7
+    }
+  },
+  {
+    "templateId": "STICKER_SEWADDLECD_1",
+    "data": {
+      "stickerId": "STICKER_SEWADDLECD_1",
+      "maxCount": 25,
+      "pokemonId": "SEWADDLE",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240930,
+      "regionId": 4
+    }
+  },
+  {
+    "templateId": "STICKER_SEWADDLECD_2",
+    "data": {
+      "stickerId": "STICKER_SEWADDLECD_2",
+      "maxCount": 25,
+      "pokemonId": "SEWADDLE",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240930,
+      "regionId": 4
+    }
+  },
+  {
+    "templateId": "STICKER_SEWADDLECD_3",
+    "data": {
+      "stickerId": "STICKER_SEWADDLECD_3",
+      "maxCount": 25,
+      "pokemonId": "SEWADDLE",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240930,
+      "regionId": 4
+    }
+  },
+  {
+    "templateId": "STICKER_SEWADDLECD_4",
+    "data": {
+      "stickerId": "STICKER_SEWADDLECD_4",
+      "maxCount": 25,
+      "pokemonId": "SEWADDLE",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240930,
+      "regionId": 4
+    }
+  },
+  {
+    "templateId": "STICKER_SHELMET_KARRABLAST_1",
+    "data": {
+      "stickerId": "STICKER_SHELMET_KARRABLAST_1",
+      "maxCount": 25,
+      "pokemonId": "SHELMET",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20250128,
+      "regionId": 2000
+    }
+  },
+  {
+    "templateId": "STICKER_SHELMET_KARRABLAST_2",
+    "data": {
+      "stickerId": "STICKER_SHELMET_KARRABLAST_2",
+      "maxCount": 25,
+      "pokemonId": "SHELMET",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20250128,
+      "regionId": 4
+    }
+  },
+  {
+    "templateId": "STICKER_SHELMET_KARRABLAST_3",
+    "data": {
+      "stickerId": "STICKER_SHELMET_KARRABLAST_3",
+      "maxCount": 25,
+      "pokemonId": "KARRABLAST",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20250128,
+      "regionId": 4
+    }
+  },
+  {
+    "templateId": "STICKER_SLEEP_1",
+    "data": {
+      "stickerId": "STICKER_SLEEP_1",
+      "maxCount": 25,
+      "pokemonId": "PIKACHU",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230710
+    }
+  },
+  {
+    "templateId": "STICKER_SLEEP_2",
+    "data": {
+      "stickerId": "STICKER_SLEEP_2",
+      "maxCount": 25,
+      "pokemonId": "SNORLAX",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230710
+    }
+  },
+  {
+    "templateId": "STICKER_SLEEP_3",
+    "data": {
+      "stickerId": "STICKER_SLEEP_3",
+      "maxCount": 25,
+      "pokemonId": "SNORLAX",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230710
+    }
+  },
+  {
+    "templateId": "STICKER_SLEEP_4",
+    "data": {
+      "stickerId": "STICKER_SLEEP_4",
+      "maxCount": 25,
+      "pokemonId": "SLAKOTH",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230710,
+      "regionId": 2
+    }
+  },
+  {
+    "templateId": "STICKER_SLEEP_5",
+    "data": {
+      "stickerId": "STICKER_SLEEP_5",
+      "maxCount": 25,
+      "pokemonId": "MUNCHLAX",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230710,
+      "regionId": 3
+    }
+  },
+  {
+    "templateId": "STICKER_SLEEP_6",
+    "data": {
+      "stickerId": "STICKER_SLEEP_6",
+      "maxCount": 25,
+      "pokemonId": "MUNNA",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230710,
+      "regionId": 4
+    }
+  },
+  {
+    "templateId": "STICKER_SLEEP_7",
+    "data": {
+      "stickerId": "STICKER_SLEEP_7",
+      "maxCount": 25,
+      "pokemonId": "KOMALA",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230710,
+      "regionId": 6
+    }
+  },
+  {
+    "templateId": "STICKER_SLOWPOKE_1",
+    "data": {
+      "stickerId": "STICKER_SLOWPOKE_1",
+      "maxCount": 25,
+      "pokemonId": "SLOWPOKE",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230318,
+      "regionId": 2000
+    }
+  },
+  {
+    "templateId": "STICKER_SLOWPOKE_2",
+    "data": {
+      "stickerId": "STICKER_SLOWPOKE_2",
+      "maxCount": 25,
+      "pokemonId": "SLOWPOKE",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230318,
+      "regionId": 2000
+    }
+  },
+  {
+    "templateId": "STICKER_SLOWPOKE_3",
+    "data": {
+      "stickerId": "STICKER_SLOWPOKE_3",
+      "maxCount": 25,
+      "pokemonId": "SLOWPOKE",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230318
+    }
+  },
+  {
+    "templateId": "STICKER_SLOWPOKE_4",
+    "data": {
+      "stickerId": "STICKER_SLOWPOKE_4",
+      "maxCount": 25,
+      "pokemonId": "SLOWPOKE",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230318,
+      "regionId": 7
+    }
+  },
+  {
+    "templateId": "STICKER_SPHEAL_1",
+    "data": {
+      "stickerId": "STICKER_SPHEAL_1",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_spheal_1.png",
+      "maxCount": 25,
+      "pokemonId": "SPHEAL",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220116,
+      "regionId": 2
+    }
+  },
+  {
+    "templateId": "STICKER_SPHEAL_2",
+    "data": {
+      "stickerId": "STICKER_SPHEAL_2",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_spheal_2.png",
+      "maxCount": 25,
+      "pokemonId": "SPHEAL",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220116,
+      "regionId": 2
+    }
+  },
+  {
+    "templateId": "STICKER_SPHEAL_3",
+    "data": {
+      "stickerId": "STICKER_SPHEAL_3",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_spheal_3.png",
+      "maxCount": 25,
+      "pokemonId": "SPHEAL",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220116,
+      "regionId": 2
+    }
+  },
+  {
+    "templateId": "STICKER_SPHEAL_4",
+    "data": {
+      "stickerId": "STICKER_SPHEAL_4",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_spheal_4.png",
+      "maxCount": 25,
+      "pokemonId": "SPHEAL",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220116,
+      "regionId": 2
+    }
+  },
+  {
+    "templateId": "STICKER_SPRIGATITO_1",
+    "data": {
+      "stickerId": "STICKER_SPRIGATITO_1",
+      "maxCount": 25,
+      "pokemonId": "SPRIGATITO",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20241218,
+      "regionId": 1001
+    }
+  },
+  {
+    "templateId": "STICKER_SPRIGATITO_2",
+    "data": {
+      "stickerId": "STICKER_SPRIGATITO_2",
+      "maxCount": 25,
+      "pokemonId": "SPRIGATITO",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20241218,
+      "regionId": 1001
+    }
+  },
+  {
+    "templateId": "STICKER_SPRIGATITO_3",
+    "data": {
+      "stickerId": "STICKER_SPRIGATITO_3",
+      "maxCount": 25,
+      "pokemonId": "SPRIGATITO",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20241218,
+      "regionId": 1001
+    }
+  },
+  {
+    "templateId": "STICKER_SPRIGATITO_4",
+    "data": {
+      "stickerId": "STICKER_SPRIGATITO_4",
+      "maxCount": 25,
+      "pokemonId": "SPRIGATITO",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20241218,
+      "regionId": 1001
+    }
+  },
+  {
+    "templateId": "STICKER_SPRING_2024_1",
+    "data": {
+      "stickerId": "STICKER_SPRING_2024_1",
+      "maxCount": 25,
+      "pokemonId": "VESPIQUEN",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240301,
+      "regionId": 2000
+    }
+  },
+  {
+    "templateId": "STICKER_SPRING_2024_2",
+    "data": {
+      "stickerId": "STICKER_SPRING_2024_2",
+      "maxCount": 25,
+      "pokemonId": "SWADLOON",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240301,
+      "regionId": 4
+    }
+  },
+  {
+    "templateId": "STICKER_SPRING_2024_3",
+    "data": {
+      "stickerId": "STICKER_SPRING_2024_3",
+      "maxCount": 25,
+      "pokemonId": "JIGGLYPUFF",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240301
+    }
+  },
+  {
+    "templateId": "STICKER_SPRING_2024_4",
+    "data": {
+      "stickerId": "STICKER_SPRING_2024_4",
+      "maxCount": 25,
+      "pokemonId": "ODDISH",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240301
+    }
+  },
+  {
+    "templateId": "STICKER_SPRING_2024_5",
+    "data": {
+      "stickerId": "STICKER_SPRING_2024_5",
+      "maxCount": 25,
+      "pokemonId": "CLEFAIRY",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240301
+    }
+  },
+  {
+    "templateId": "STICKER_SPRING_2024_6",
+    "data": {
+      "stickerId": "STICKER_SPRING_2024_6",
+      "maxCount": 25,
+      "pokemonId": "CUTIEFLY",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240301,
+      "regionId": 6
+    }
+  },
+  {
+    "templateId": "STICKER_SPRING_2025_1",
+    "data": {
+      "stickerId": "STICKER_SPRING_2025_1",
+      "maxCount": 25,
+      "pokemonId": "RIBOMBEE",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20250303,
+      "regionId": 6
+    }
+  },
+  {
+    "templateId": "STICKER_SPRING_2025_2",
+    "data": {
+      "stickerId": "STICKER_SPRING_2025_2",
+      "maxCount": 25,
+      "pokemonId": "BUTTERFREE",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20250303
+    }
+  },
+  {
+    "templateId": "STICKER_SPRING_2025_3",
+    "data": {
+      "stickerId": "STICKER_SPRING_2025_3",
+      "maxCount": 25,
+      "pokemonId": "VILEPLUME",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20250303
+    }
+  },
+  {
+    "templateId": "STICKER_SPRING_2025_4",
+    "data": {
+      "stickerId": "STICKER_SPRING_2025_4",
+      "maxCount": 25,
+      "pokemonId": "PETILIL",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20250303,
+      "regionId": 4
+    }
+  },
+  {
+    "templateId": "STICKER_SPRING_EIEVUI",
+    "data": {
+      "stickerId": "STICKER_SPRING_EIEVUI",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_spring_eievui.png",
+      "maxCount": 25,
+      "pokemonId": "EEVEE",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220423
+    }
+  },
+  {
+    "templateId": "STICKER_SPRING_HAPINAS",
+    "data": {
+      "stickerId": "STICKER_SPRING_HAPINAS",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_spring_hapinas.png",
+      "maxCount": 25,
+      "pokemonId": "BLISSEY",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220423,
+      "regionId": 1
+    }
+  },
+  {
+    "templateId": "STICKER_SPRING_MIMIROL",
+    "data": {
+      "stickerId": "STICKER_SPRING_MIMIROL",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_spring_mimirol.png",
+      "maxCount": 25,
+      "pokemonId": "BUNEARY",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220423,
+      "regionId": 3
+    }
+  },
+  {
+    "templateId": "STICKER_SPRING_NIMPHIA",
+    "data": {
+      "stickerId": "STICKER_SPRING_NIMPHIA",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_spring_nimphia.png",
+      "maxCount": 25,
+      "pokemonId": "SYLVEON",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220423,
+      "regionId": 5
+    }
+  },
+  {
+    "templateId": "STICKER_SPRING_PIKACHU",
+    "data": {
+      "stickerId": "STICKER_SPRING_PIKACHU",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_spring_pikachu.png",
+      "maxCount": 25,
+      "pokemonId": "PIKACHU",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220423
+    }
+  },
+  {
+    "templateId": "STICKER_SPRING_PIPITO",
+    "data": {
+      "stickerId": "STICKER_SPRING_PIPITO",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_spring_pipito.png",
+      "maxCount": 25,
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220423,
+      "regionId": 2000
+    }
+  },
+  {
+    "templateId": "STICKER_STUFFUL_1",
+    "data": {
+      "stickerId": "STICKER_STUFFUL_1",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_stufful_1.png",
+      "maxCount": 25,
+      "pokemonId": "STUFFUL",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220423,
+      "regionId": 6
+    }
+  },
+  {
+    "templateId": "STICKER_STUFFUL_2",
+    "data": {
+      "stickerId": "STICKER_STUFFUL_2",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_stufful_2.png",
+      "maxCount": 25,
+      "pokemonId": "STUFFUL",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220423,
+      "regionId": 6
+    }
+  },
+  {
+    "templateId": "STICKER_STUFFUL_3",
+    "data": {
+      "stickerId": "STICKER_STUFFUL_3",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_stufful_3.png",
+      "maxCount": 25,
+      "pokemonId": "STUFFUL",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220423,
+      "regionId": 6
+    }
+  },
+  {
+    "templateId": "STICKER_STUFFUL_4",
+    "data": {
+      "stickerId": "STICKER_STUFFUL_4",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_stufful_4.png",
+      "maxCount": 25,
+      "pokemonId": "STUFFUL",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220423,
+      "regionId": 6
+    }
+  },
+  {
+    "templateId": "STICKER_SUMMER_1",
+    "data": {
+      "stickerId": "STICKER_SUMMER_1",
+      "maxCount": 25,
+      "pokemonId": "CASTFORM",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220601,
+      "regionId": 2
+    }
+  },
+  {
+    "templateId": "STICKER_SUMMER_2",
+    "data": {
+      "stickerId": "STICKER_SUMMER_2",
+      "maxCount": 25,
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220601,
+      "regionId": 5
+    }
+  },
+  {
+    "templateId": "STICKER_SUMMER_2023_BLASTOISE",
+    "data": {
+      "stickerId": "STICKER_SUMMER_2023_BLASTOISE",
+      "maxCount": 25,
+      "pokemonId": "BLASTOISE",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230530
+    }
+  },
+  {
+    "templateId": "STICKER_SUMMER_2023_BUTTERFREE",
+    "data": {
+      "stickerId": "STICKER_SUMMER_2023_BUTTERFREE",
+      "maxCount": 25,
+      "pokemonId": "BUTTERFREE",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230530
+    }
+  },
+  {
+    "templateId": "STICKER_SUMMER_2023_CLAMPERL",
+    "data": {
+      "stickerId": "STICKER_SUMMER_2023_CLAMPERL",
+      "maxCount": 25,
+      "pokemonId": "CLAMPERL",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230530,
+      "regionId": 2
+    }
+  },
+  {
+    "templateId": "STICKER_SUMMER_2023_LEDIAN",
+    "data": {
+      "stickerId": "STICKER_SUMMER_2023_LEDIAN",
+      "maxCount": 25,
+      "pokemonId": "LEDIAN",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230530,
+      "regionId": 1
+    }
+  },
+  {
+    "templateId": "STICKER_SUMMER_2023_SAWSBUCK",
+    "data": {
+      "stickerId": "STICKER_SUMMER_2023_SAWSBUCK",
+      "maxCount": 25,
+      "pokemonId": "SAWSBUCK",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230530,
+      "regionId": 2000
+    }
+  },
+  {
+    "templateId": "STICKER_SUMMER_2023_SQUIRTLE",
+    "data": {
+      "stickerId": "STICKER_SUMMER_2023_SQUIRTLE",
+      "maxCount": 25,
+      "pokemonId": "SQUIRTLE",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230530
+    }
+  },
+  {
+    "templateId": "STICKER_SUMMER_2024_1",
+    "data": {
+      "stickerId": "STICKER_SUMMER_2024_1",
+      "maxCount": 25,
+      "pokemonId": "DUCKLETT",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240522,
+      "regionId": 4
+    }
+  },
+  {
+    "templateId": "STICKER_SUMMER_2024_2",
+    "data": {
+      "stickerId": "STICKER_SUMMER_2024_2",
+      "maxCount": 25,
+      "pokemonId": "PASSIMIAN",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240522,
+      "regionId": 6
+    }
+  },
+  {
+    "templateId": "STICKER_SUMMER_2024_3",
+    "data": {
+      "stickerId": "STICKER_SUMMER_2024_3",
+      "maxCount": 25,
+      "pokemonId": "EMOLGA",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240522,
+      "regionId": 4
+    }
+  },
+  {
+    "templateId": "STICKER_SUMMER_2024_4",
+    "data": {
+      "stickerId": "STICKER_SUMMER_2024_4",
+      "maxCount": 25,
+      "pokemonId": "PELIPPER",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240522,
+      "regionId": 2
+    }
+  },
+  {
+    "templateId": "STICKER_SUMMER_2024_5",
+    "data": {
+      "stickerId": "STICKER_SUMMER_2024_5",
+      "maxCount": 25,
+      "pokemonId": "WAILORD",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240522,
+      "regionId": 2000
+    }
+  },
+  {
+    "templateId": "STICKER_SUMMER_2024_6",
+    "data": {
+      "stickerId": "STICKER_SUMMER_2024_6",
+      "maxCount": 25,
+      "pokemonId": "WAILMER",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240522,
+      "regionId": 2
+    }
+  },
+  {
+    "templateId": "STICKER_SUMMER_2025_1",
+    "data": {
+      "stickerId": "STICKER_SUMMER_2025_1",
+      "maxCount": 25,
+      "pokemonId": "SHARPEDO",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20250603,
+      "regionId": 2
+    }
+  },
+  {
+    "templateId": "STICKER_SUMMER_2025_2",
+    "data": {
+      "stickerId": "STICKER_SUMMER_2025_2",
+      "maxCount": 25,
+      "pokemonId": "EXEGGUTOR",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20250603,
+      "regionId": 6
+    }
+  },
+  {
+    "templateId": "STICKER_SUMMER_2025_3",
+    "data": {
+      "stickerId": "STICKER_SUMMER_2025_3",
+      "maxCount": 25,
+      "pokemonId": "TOUCANNON",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20250603,
+      "regionId": 6
+    }
+  },
+  {
+    "templateId": "STICKER_SUMMER_2025_4",
+    "data": {
+      "stickerId": "STICKER_SUMMER_2025_4",
+      "maxCount": 25,
+      "pokemonId": "WIGLETT",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20250603,
+      "regionId": 1001
+    }
+  },
+  {
+    "templateId": "STICKER_SUMMER_3",
+    "data": {
+      "stickerId": "STICKER_SUMMER_3",
+      "maxCount": 25,
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220601,
+      "regionId": 2000
+    }
+  },
+  {
+    "templateId": "STICKER_SUMMER_4",
+    "data": {
+      "stickerId": "STICKER_SUMMER_4",
+      "maxCount": 25,
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220601
+    }
+  },
+  {
+    "templateId": "STICKER_SUMMER_5",
+    "data": {
+      "stickerId": "STICKER_SUMMER_5",
+      "maxCount": 25,
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220601,
+      "regionId": 2000
+    }
+  },
+  {
+    "templateId": "STICKER_SUMMER_6",
+    "data": {
+      "stickerId": "STICKER_SUMMER_6",
+      "maxCount": 25,
+      "pokemonId": "SUNFLORA",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20220601,
+      "regionId": 1
+    }
+  },
+  {
+    "templateId": "STICKER_SWORDSHIELD21_1",
+    "data": {
+      "stickerId": "STICKER_SWORDSHIELD21_1",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_swordShield21_1.png",
+      "maxCount": 25,
+      "pokemonId": "SKWOVET",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20210920,
+      "regionId": 7
+    }
+  },
+  {
+    "templateId": "STICKER_SWORDSHIELD21_2",
+    "data": {
+      "stickerId": "STICKER_SWORDSHIELD21_2",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_swordShield21_2.png",
+      "maxCount": 25,
+      "pokemonId": "SKWOVET",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20210920,
+      "regionId": 7
+    }
+  },
+  {
+    "templateId": "STICKER_SWORDSHIELD21_3",
+    "data": {
+      "stickerId": "STICKER_SWORDSHIELD21_3",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_swordShield21_3.png",
+      "maxCount": 25,
+      "pokemonId": "WOOLOO",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20210920,
+      "regionId": 7
+    }
+  },
+  {
+    "templateId": "STICKER_SWORDSHIELD21_4",
+    "data": {
+      "stickerId": "STICKER_SWORDSHIELD21_4",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_swordShield21_4.png",
+      "maxCount": 25,
+      "pokemonId": "DUBWOOL",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20210920,
+      "regionId": 7
+    }
+  },
+  {
+    "templateId": "STICKER_SWORDSHIELD21_5",
+    "data": {
+      "stickerId": "STICKER_SWORDSHIELD21_5",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_swordShield21_5.png",
+      "maxCount": 25,
+      "pokemonId": "FALINKS",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20210920,
+      "regionId": 7
+    }
+  },
+  {
+    "templateId": "STICKER_TEDDIURSA_1",
+    "data": {
+      "stickerId": "STICKER_TEDDIURSA_1",
+      "maxCount": 25,
+      "pokemonId": "TEDDIURSA",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20221112,
+      "regionId": 1
+    }
+  },
+  {
+    "templateId": "STICKER_TEDDIURSA_2",
+    "data": {
+      "stickerId": "STICKER_TEDDIURSA_2",
+      "maxCount": 25,
+      "pokemonId": "TEDDIURSA",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20221112,
+      "regionId": 1
+    }
+  },
+  {
+    "templateId": "STICKER_TEDDIURSA_3",
+    "data": {
+      "stickerId": "STICKER_TEDDIURSA_3",
+      "maxCount": 25,
+      "pokemonId": "TEDDIURSA",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20221112,
+      "regionId": 1
+    }
+  },
+  {
+    "templateId": "STICKER_TEDDIURSA_4",
+    "data": {
+      "stickerId": "STICKER_TEDDIURSA_4",
+      "maxCount": 25,
+      "pokemonId": "TEDDIURSA",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20221112,
+      "regionId": 2000
+    }
+  },
+  {
+    "templateId": "STICKER_TIMBURR_1",
+    "data": {
+      "stickerId": "STICKER_TIMBURR_1",
+      "maxCount": 25,
+      "pokemonId": "TIMBURR",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20231010,
+      "regionId": 4
+    }
+  },
+  {
+    "templateId": "STICKER_TIMBURR_2",
+    "data": {
+      "stickerId": "STICKER_TIMBURR_2",
+      "maxCount": 25,
+      "pokemonId": "TIMBURR",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20231010,
+      "regionId": 4
+    }
+  },
+  {
+    "templateId": "STICKER_TIMBURR_3",
+    "data": {
+      "stickerId": "STICKER_TIMBURR_3",
+      "maxCount": 25,
+      "pokemonId": "TIMBURR",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20231010,
+      "regionId": 4
+    }
+  },
+  {
+    "templateId": "STICKER_TIMBURR_4",
+    "data": {
+      "stickerId": "STICKER_TIMBURR_4",
+      "maxCount": 25,
+      "pokemonId": "TIMBURR",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20231010,
+      "regionId": 4
+    }
+  },
+  {
+    "templateId": "STICKER_TL_BLANCHE",
+    "data": {
+      "stickerId": "STICKER_TL_BLANCHE",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_TL_Blanche.png",
+      "maxCount": 25,
+      "category": [
+        "Characters"
+      ],
+      "releaseDate": 20210606
+    }
+  },
+  {
+    "templateId": "STICKER_TL_CANDELA",
+    "data": {
+      "stickerId": "STICKER_TL_CANDELA",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_TL_Candela.png",
+      "maxCount": 25,
+      "category": [
+        "Characters"
+      ],
+      "releaseDate": 20210606
+    }
+  },
+  {
+    "templateId": "STICKER_TL_SPARK",
+    "data": {
+      "stickerId": "STICKER_TL_SPARK",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_TL_Spark.png",
+      "maxCount": 25,
+      "category": [
+        "Characters"
+      ],
+      "releaseDate": 20210606
+    }
+  },
+  {
+    "templateId": "STICKER_TOGETICCD2023_1",
+    "data": {
+      "stickerId": "STICKER_TOGETICCD2023_1",
+      "maxCount": 25,
+      "pokemonId": "TOGETIC",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230410,
+      "regionId": 1
+    }
+  },
+  {
+    "templateId": "STICKER_TOGETICCD2023_2",
+    "data": {
+      "stickerId": "STICKER_TOGETICCD2023_2",
+      "maxCount": 25,
+      "pokemonId": "TOGETIC",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230410,
+      "regionId": 1
+    }
+  },
+  {
+    "templateId": "STICKER_TOGETICCD2023_3",
+    "data": {
+      "stickerId": "STICKER_TOGETICCD2023_3",
+      "maxCount": 25,
+      "pokemonId": "TOGETIC",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230410,
+      "regionId": 1
+    }
+  },
+  {
+    "templateId": "STICKER_TOGETICCD2023_4",
+    "data": {
+      "stickerId": "STICKER_TOGETICCD2023_4",
+      "maxCount": 25,
+      "pokemonId": "TOGETIC",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230410,
+      "regionId": 1
+    }
+  },
+  {
+    "templateId": "STICKER_TR_ARLO",
+    "data": {
+      "stickerId": "STICKER_TR_ARLO",
+      "stickerUrl": "https://storage.googleapis.com/prod-public-images/Stickers/sticker_TR_Arlo.png",
+      "maxCount": 25,
+      "category": [
+        "Characters"
+      ],
+      "releaseDate": 20201013
+    }
+  },
+  {
+    "templateId": "STICKER_TR_CLIFF",
+    "data": {
+      "stickerId": "STICKER_TR_CLIFF",
+      "stickerUrl": "https://storage.googleapis.com/prod-public-images/Stickers/sticker_TR_Cliff.png",
+      "maxCount": 25,
+      "category": [
+        "Characters"
+      ],
+      "releaseDate": 20201013
+    }
+  },
+  {
+    "templateId": "STICKER_TR_SIERRA",
+    "data": {
+      "stickerId": "STICKER_TR_SIERRA",
+      "stickerUrl": "https://storage.googleapis.com/prod-public-images/Stickers/sticker_TR_Sierra.png",
+      "maxCount": 25,
+      "category": [
+        "Characters"
+      ],
+      "releaseDate": 20201013
+    }
+  },
+  {
+    "templateId": "STICKER_TYNAMOCD_1",
+    "data": {
+      "stickerId": "STICKER_TYNAMOCD_1",
+      "maxCount": 25,
+      "pokemonId": "TYNAMO",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240608,
+      "regionId": 4
+    }
+  },
+  {
+    "templateId": "STICKER_TYNAMOCD_2",
+    "data": {
+      "stickerId": "STICKER_TYNAMOCD_2",
+      "maxCount": 25,
+      "pokemonId": "TYNAMO",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240608,
+      "regionId": 4
+    }
+  },
+  {
+    "templateId": "STICKER_TYNAMOCD_3",
+    "data": {
+      "stickerId": "STICKER_TYNAMOCD_3",
+      "maxCount": 25,
+      "pokemonId": "TYNAMO",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240608,
+      "regionId": 4
+    }
+  },
+  {
+    "templateId": "STICKER_TYNAMOCD_4",
+    "data": {
+      "stickerId": "STICKER_TYNAMOCD_4",
+      "maxCount": 25,
+      "pokemonId": "EELEKTROSS",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20240608,
+      "regionId": 4
+    }
+  },
+  {
+    "templateId": "STICKER_VALENTINE2023_1",
+    "data": {
+      "stickerId": "STICKER_VALENTINE2023_1",
+      "maxCount": 25,
+      "pokemonId": "FRILLISH",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230202,
+      "regionId": 4
+    }
+  },
+  {
+    "templateId": "STICKER_VALENTINE2023_2",
+    "data": {
+      "stickerId": "STICKER_VALENTINE2023_2",
+      "maxCount": 25,
+      "pokemonId": "GARDEVOIR",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230202,
+      "regionId": 2
+    }
+  },
+  {
+    "templateId": "STICKER_VALENTINE2023_3",
+    "data": {
+      "stickerId": "STICKER_VALENTINE2023_3",
+      "maxCount": 25,
+      "pokemonId": "GALLADE",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20230202,
+      "regionId": 3
+    }
+  },
+  {
+    "templateId": "STICKER_WCS2025_CAR_GROUP",
+    "data": {
+      "stickerId": "STICKER_WCS2025_CAR_GROUP",
+      "maxCount": 25,
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20250815,
+      "regionId": 2000
+    }
+  },
+  {
+    "templateId": "STICKER_WCS2025_JIGGLYPUFF",
+    "data": {
+      "stickerId": "STICKER_WCS2025_JIGGLYPUFF",
+      "maxCount": 25,
+      "pokemonId": "JIGGLYPUFF",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20250815
+    }
+  },
+  {
+    "templateId": "STICKER_WCS2025_MURKROW",
+    "data": {
+      "stickerId": "STICKER_WCS2025_MURKROW",
+      "maxCount": 25,
+      "pokemonId": "MURKROW",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20250815,
+      "regionId": 1
+    }
+  },
+  {
+    "templateId": "STICKER_WCS2025_PIKACHU",
+    "data": {
+      "stickerId": "STICKER_WCS2025_PIKACHU",
+      "maxCount": 25,
+      "pokemonId": "PIKACHU",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20250815
+    }
+  },
+  {
+    "templateId": "STICKER_WCS_PLAY",
+    "data": {
+      "stickerId": "STICKER_WCS_PLAY",
+      "maxCount": 25,
+      "category": [
+        "Misc"
+      ],
+      "releaseDate": 20230923
+    }
+  },
+  {
+    "templateId": "STICKER_WILLOW_BRONZE",
+    "data": {
+      "stickerId": "STICKER_WILLOW_BRONZE",
+      "maxCount": 25,
+      "category": [
+        "Characters"
+      ],
+      "releaseDate": 20220604
+    }
+  },
+  {
+    "templateId": "STICKER_WILLOW_GOLD",
+    "data": {
+      "stickerId": "STICKER_WILLOW_GOLD",
+      "maxCount": 25,
+      "category": [
+        "Characters"
+      ],
+      "releaseDate": 20220604
+    }
+  },
+  {
+    "templateId": "STICKER_WILLOW_SILVER",
+    "data": {
+      "stickerId": "STICKER_WILLOW_SILVER",
+      "maxCount": 25,
+      "category": [
+        "Characters"
+      ],
+      "releaseDate": 20220604
+    }
+  },
+  {
+    "templateId": "STICKER_WINTER2023_1",
+    "data": {
+      "stickerId": "STICKER_WINTER2023_1",
+      "maxCount": 25,
+      "pokemonId": "DELIBIRD",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20231128,
+      "regionId": 1
+    }
+  },
+  {
+    "templateId": "STICKER_WINTER2023_2",
+    "data": {
+      "stickerId": "STICKER_WINTER2023_2",
+      "maxCount": 25,
+      "pokemonId": "MR_MIME",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20231128,
+      "regionId": 7
+    }
+  },
+  {
+    "templateId": "STICKER_WINTER2023_3",
+    "data": {
+      "stickerId": "STICKER_WINTER2023_3",
+      "maxCount": 25,
+      "pokemonId": "BERGMITE",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20231128,
+      "regionId": 5
+    }
+  },
+  {
+    "templateId": "STICKER_WINTER2023_4",
+    "data": {
+      "stickerId": "STICKER_WINTER2023_4",
+      "maxCount": 25,
+      "pokemonId": "WEAVILE",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20231128,
+      "regionId": 3
+    }
+  },
+  {
+    "templateId": "STICKER_WINTER2023_5",
+    "data": {
+      "stickerId": "STICKER_WINTER2023_5",
+      "maxCount": 25,
+      "pokemonId": "SPHEAL",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20231128,
+      "regionId": 2
+    }
+  },
+  {
+    "templateId": "STICKER_WINTER2023_6",
+    "data": {
+      "stickerId": "STICKER_WINTER2023_6",
+      "maxCount": 25,
+      "pokemonId": "SNOVER",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20231128,
+      "regionId": 3
+    }
+  },
+  {
+    "templateId": "STICKER_WINTER2025_1",
+    "data": {
+      "stickerId": "STICKER_WINTER2025_1",
+      "maxCount": 25,
+      "pokemonId": "SWABLU",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20251202,
+      "regionId": 2
+    }
+  },
+  {
+    "templateId": "STICKER_WINTER2025_2",
+    "data": {
+      "stickerId": "STICKER_WINTER2025_2",
+      "maxCount": 25,
+      "pokemonId": "LITTEN",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20251202,
+      "regionId": 6
+    }
+  },
+  {
+    "templateId": "STICKER_WINTER2025_3",
+    "data": {
+      "stickerId": "STICKER_WINTER2025_3",
+      "maxCount": 25,
+      "pokemonId": "MAUSHOLD",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20251202,
+      "regionId": 1001
+    }
+  },
+  {
+    "templateId": "STICKER_WINTER2025_4",
+    "data": {
+      "stickerId": "STICKER_WINTER2025_4",
+      "maxCount": 25,
+      "pokemonId": "FLAREON",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20251202
+    }
+  },
+  {
+    "templateId": "STICKER_WINTER_2024_1",
+    "data": {
+      "stickerId": "STICKER_WINTER_2024_1",
+      "maxCount": 25,
+      "pokemonId": "VULPIX",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20241126,
+      "regionId": 6
+    }
+  },
+  {
+    "templateId": "STICKER_WINTER_2024_2",
+    "data": {
+      "stickerId": "STICKER_WINTER_2024_2",
+      "maxCount": 25,
+      "pokemonId": "STANTLER",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20241126,
+      "regionId": 1
+    }
+  },
+  {
+    "templateId": "STICKER_WINTER_2024_3",
+    "data": {
+      "stickerId": "STICKER_WINTER_2024_3",
+      "maxCount": 25,
+      "pokemonId": "CHANDELURE",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20241126,
+      "regionId": 4
+    }
+  },
+  {
+    "templateId": "STICKER_WINTER_2024_4",
+    "data": {
+      "stickerId": "STICKER_WINTER_2024_4",
+      "maxCount": 25,
+      "pokemonId": "URSALUNA",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20241126,
+      "regionId": 1000
+    }
+  },
+  {
+    "templateId": "STICKER_WINTER_2024_5",
+    "data": {
+      "stickerId": "STICKER_WINTER_2024_5",
+      "maxCount": 25,
+      "pokemonId": "MAREEP",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20241126,
+      "regionId": 1
+    }
+  },
+  {
+    "templateId": "STICKER_WINTER_2024_6",
+    "data": {
+      "stickerId": "STICKER_WINTER_2024_6",
+      "maxCount": 25,
+      "pokemonId": "MORELULL",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20241126,
+      "regionId": 6
+    }
+  },
+  {
+    "templateId": "STICKER_WINTER_AMAURA",
+    "data": {
+      "stickerId": "STICKER_WINTER_AMAURA",
+      "maxCount": 25,
+      "pokemonId": "AMAURA",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20221131,
+      "regionId": 5
+    }
+  },
+  {
+    "templateId": "STICKER_WINTER_DARUMAKA",
+    "data": {
+      "stickerId": "STICKER_WINTER_DARUMAKA",
+      "maxCount": 25,
+      "pokemonId": "DARUMAKA",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20221131,
+      "regionId": 7
+    }
+  },
+  {
+    "templateId": "STICKER_WINTER_GLACEON",
+    "data": {
+      "stickerId": "STICKER_WINTER_GLACEON",
+      "maxCount": 25,
+      "pokemonId": "GLACEON",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20221131,
+      "regionId": 3
+    }
+  },
+  {
+    "templateId": "STICKER_WINTER_PIKACHU",
+    "data": {
+      "stickerId": "STICKER_WINTER_PIKACHU",
+      "maxCount": 25,
+      "pokemonId": "PIKACHU",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20221131,
+      "regionId": 2000
+    }
+  },
+  {
+    "templateId": "STICKER_WINTER_SAWSBUCK",
+    "data": {
+      "stickerId": "STICKER_WINTER_SAWSBUCK",
+      "maxCount": 25,
+      "pokemonId": "SAWSBUCK",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20221131,
+      "regionId": 4
+    }
+  },
+  {
+    "templateId": "STICKER_WINTER_SNORUNT",
+    "data": {
+      "stickerId": "STICKER_WINTER_SNORUNT",
+      "maxCount": 25,
+      "pokemonId": "SNORUNT",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20221131,
+      "regionId": 2
+    }
+  },
+  {
+    "templateId": "STICKER_WOOPERCD2023_1",
+    "data": {
+      "stickerId": "STICKER_WOOPERCD2023_1",
+      "maxCount": 25,
+      "pokemonId": "WOOPER",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20231030,
+      "regionId": 2000
+    }
+  },
+  {
+    "templateId": "STICKER_WOOPERCD2023_2",
+    "data": {
+      "stickerId": "STICKER_WOOPERCD2023_2",
+      "maxCount": 25,
+      "pokemonId": "WOOPER",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20231030,
+      "regionId": 1001
+    }
+  },
+  {
+    "templateId": "STICKER_WOOPERCD2023_3",
+    "data": {
+      "stickerId": "STICKER_WOOPERCD2023_3",
+      "maxCount": 25,
+      "pokemonId": "WOOPER",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20231030,
+      "regionId": 1
+    }
+  },
+  {
+    "templateId": "STICKER_WOOPERCD2023_4",
+    "data": {
+      "stickerId": "STICKER_WOOPERCD2023_4",
+      "maxCount": 25,
+      "pokemonId": "WOOPER",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20231030,
+      "regionId": 2000
+    }
+  },
+  {
+    "templateId": "STICKER_YADON",
+    "data": {
+      "stickerId": "STICKER_YADON",
+      "stickerUrl": "https://storage.googleapis.com/prod-public-images/sticker_yadon.png",
+      "maxCount": 25,
+      "pokemonId": "SLOWBRO",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20200819
+    }
+  },
+  {
+    "templateId": "STICKER_YURUTTO_12",
+    "data": {
+      "stickerId": "STICKER_YURUTTO_12",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_yurutto_12.png",
+      "maxCount": 25,
+      "pokemonId": "WOBBUFFET",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20210908,
+      "regionId": 1
+    }
+  },
+  {
+    "templateId": "STICKER_YURUTTO_24",
+    "data": {
+      "stickerId": "STICKER_YURUTTO_24",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_yurutto_24.png",
+      "maxCount": 25,
+      "pokemonId": "SLOWPOKE",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20210908
+    }
+  },
+  {
+    "templateId": "STICKER_YURUTTO_26",
+    "data": {
+      "stickerId": "STICKER_YURUTTO_26",
+      "stickerUrl": "https://storage.googleapis.com/prod-public-images/Stickers/sticker_yurutto_26.png",
+      "maxCount": 25,
+      "pokemonId": "MAGIKARP",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20201231
+    }
+  },
+  {
+    "templateId": "STICKER_YURUTTO_33",
+    "data": {
+      "stickerId": "STICKER_YURUTTO_33",
+      "stickerUrl": "https://storage.googleapis.com/prod-public-images/Stickers/sticker_yurutto_33.png",
+      "maxCount": 25,
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20201222,
+      "regionId": 2000
+    }
+  },
+  {
+    "templateId": "STICKER_YURUTTO_36",
+    "data": {
+      "stickerId": "STICKER_YURUTTO_36",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_yurutto_36.png",
+      "maxCount": 25,
+      "pokemonId": "CHANSEY",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20210405
+    }
+  },
+  {
+    "templateId": "STICKER_YURUTTO_37",
+    "data": {
+      "stickerId": "STICKER_YURUTTO_37",
+      "stickerUrl": "https://prodholoholo-public-images.nianticlabs.com/Stickers/sticker_yurutto_37.png",
+      "maxCount": 25,
+      "pokemonId": "SQUIRTLE",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20210420
+    }
+  }
+]

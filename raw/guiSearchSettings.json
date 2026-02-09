@@ -1,0 +1,12 @@
+[
+  {
+    "templateId": "GUI_SEARCH_SETTINGS",
+    "data": {
+      "guiSearchEnabled": true,
+      "maxNumberRecentSearches": 4,
+      "maxNumberFavoriteSearches": 12,
+      "maxQueryLength": 1024,
+      "searchHelpUrl": "niantic.helpshift.com/hc/faq/1486-searching-filtering-your-pokemon-inventory/"
+    }
+  }
+]

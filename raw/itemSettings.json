@@ -1,0 +1,2206 @@
+[
+  {
+    "templateId": "FUSION_RESOURCE_BLACK_KYUREM",
+    "data": {
+      "itemId": "FUSION_RESOURCE_BLACK_KYUREM",
+      "itemType": "ITEM_TYPE_EVOLUTION_REQUIREMENT",
+      "category": "ITEM_CATEGORY_EVOLUTION_REQUIREMENT",
+      "dropTrainerLevel": 1,
+      "ignoreInventorySpace": true,
+      "itemCap": 10000
+    }
+  },
+  {
+    "templateId": "FUSION_RESOURCE_DAWNWINGS_NECROZMA",
+    "data": {
+      "itemId": "FUSION_RESOURCE_DAWNWINGS_NECROZMA",
+      "itemType": "ITEM_TYPE_EVOLUTION_REQUIREMENT",
+      "category": "ITEM_CATEGORY_EVOLUTION_REQUIREMENT",
+      "dropTrainerLevel": 1,
+      "ignoreInventorySpace": true,
+      "itemCap": 10000
+    }
+  },
+  {
+    "templateId": "FUSION_RESOURCE_DUSKMANE_NECROZMA",
+    "data": {
+      "itemId": "FUSION_RESOURCE_DUSKMANE_NECROZMA",
+      "itemType": "ITEM_TYPE_EVOLUTION_REQUIREMENT",
+      "category": "ITEM_CATEGORY_EVOLUTION_REQUIREMENT",
+      "dropTrainerLevel": 1,
+      "ignoreInventorySpace": true,
+      "itemCap": 10000
+    }
+  },
+  {
+    "templateId": "FUSION_RESOURCE_WHITE_KYUREM",
+    "data": {
+      "itemId": "FUSION_RESOURCE_WHITE_KYUREM",
+      "itemType": "ITEM_TYPE_EVOLUTION_REQUIREMENT",
+      "category": "ITEM_CATEGORY_EVOLUTION_REQUIREMENT",
+      "dropTrainerLevel": 1,
+      "ignoreInventorySpace": true,
+      "itemCap": 10000
+    }
+  },
+  {
+    "templateId": "ITEM_BATTLE_PASS_TICKET",
+    "data": {
+      "itemId": "ITEM_BATTLE_PASS_TICKET",
+      "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
+      "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
+      "globalEventTicket": {
+        "eventStartTime": "2025-12-02T13:00:00",
+        "eventEndTime": "2026-03-03T10:00:00",
+        "itemBagDescriptionKey": "item_battle_pass_ticket_desc",
+        "eventBannerUrl": "https://storage.googleapis.com/prod-public-images/pgo-s21gbl-nologo-2025.jpg",
+        "clientEventStartTimeUtcMs": "1764680400000",
+        "clientEventEndTimeUtcMs": "1772532000000"
+      }
+    }
+  },
+  {
+    "templateId": "ITEM_BEANS",
+    "data": {
+      "itemId": "ITEM_BEANS",
+      "itemType": "ITEM_TYPE_EVOLUTION_REQUIREMENT",
+      "category": "ITEM_CATEGORY_EVOLUTION_REQUIREMENT",
+      "dropTrainerLevel": 1,
+      "ignoreInventorySpace": true,
+      "itemCap": 300
+    }
+  },
+  {
+    "templateId": "ITEM_BEAST_BALL",
+    "data": {
+      "itemId": "ITEM_BEAST_BALL",
+      "itemType": "ITEM_TYPE_POKEBALL",
+      "category": "ITEM_CATEGORY_POKEBALL",
+      "dropTrainerLevel": 100
+    }
+  },
+  {
+    "templateId": "ITEM_BLUK_BERRY",
+    "data": {
+      "itemId": "ITEM_BLUK_BERRY",
+      "itemType": "ITEM_TYPE_FOOD",
+      "category": "ITEM_CATEGORY_FOOD",
+      "dropTrainerLevel": 100,
+      "food": {
+        "itemEffect": [
+          "ITEM_EFFECT_CAP_NO_MOVEMENT"
+        ],
+        "itemEffectPercent": [
+          1
+        ],
+        "growthPercent": 0.1
+      }
+    }
+  },
+  {
+    "templateId": "ITEM_BREAKFAST",
+    "data": {
+      "itemId": "ITEM_BREAKFAST",
+      "itemType": "ITEM_TYPE_BREAKFAST",
+      "category": "ITEM_CATEGORY_UTILITES",
+      "dropTrainerLevel": 1,
+      "ignoreInventorySpace": true,
+      "itemCap": 1
+    }
+  },
+  {
+    "templateId": "ITEM_DRAGON_SCALE",
+    "data": {
+      "itemId": "ITEM_DRAGON_SCALE",
+      "itemType": "ITEM_TYPE_EVOLUTION_REQUIREMENT",
+      "category": "ITEM_CATEGORY_EVOLUTION_REQUIREMENT",
+      "dropTrainerLevel": 10
+    }
+  },
+  {
+    "templateId": "ITEM_ENHANCED_CURRENCY",
+    "data": {
+      "itemId": 1410,
+      "itemType": 33,
+      "category": 32,
+      "dropTrainerLevel": 1,
+      "ignoreInventorySpace": true,
+      "itemCap": 2000
+    }
+  },
+  {
+    "templateId": "ITEM_ENHANCED_CURRENCY_HOLDER",
+    "data": {
+      "itemId": 1411,
+      "itemType": 35,
+      "category": 33,
+      "ignoreInventorySpace": true,
+      "itemCap": 1
+    }
+  },
+  {
+    "templateId": "ITEM_EVENT_PASS_POINT_GO_FEST_01",
+    "data": {
+      "itemId": "ITEM_EVENT_PASS_POINT_GO_FEST_01",
+      "itemType": "ITEM_TYPE_EVENT_PASS_POINT",
+      "category": "ITEM_CATEGORY_EVENT_PASS_POINT",
+      "ignoreInventorySpace": true,
+      "itemCap": 999999,
+      "eventPassPoint": {
+        "eventPassId": "EVENT_PASS_GOFEST2025_GLOBAL"
+      }
+    }
+  },
+  {
+    "templateId": "ITEM_EVENT_PASS_POINT_GO_FEST_02",
+    "data": {
+      "itemId": "ITEM_EVENT_PASS_POINT_GO_FEST_02",
+      "itemType": "ITEM_TYPE_EVENT_PASS_POINT",
+      "category": "ITEM_CATEGORY_EVENT_PASS_POINT",
+      "ignoreInventorySpace": true,
+      "itemCap": 999999,
+      "eventPassPoint": {
+        "eventPassId": "EVENT_PASS_GOFEST2025_MAXFINALE"
+      },
+      "timePeriodCounters": {
+        "playerActivity": {
+          "limit": 50
+        }
+      }
+    }
+  },
+  {
+    "templateId": "ITEM_EVENT_PASS_POINT_GO_TOUR_01",
+    "data": {
+      "itemId": "ITEM_EVENT_PASS_POINT_GO_TOUR_01",
+      "itemType": "ITEM_TYPE_EVENT_PASS_POINT",
+      "category": "ITEM_CATEGORY_EVENT_PASS_POINT",
+      "ignoreInventorySpace": true,
+      "itemCap": 999999,
+      "eventPassPoint": {
+        "eventPassId": "EVENT_PASS_GOTOUR2026_GLOBAL"
+      },
+      "timePeriodCounters": {
+        "playerActivity": {
+          "limit": 150
+        }
+      }
+    }
+  },
+  {
+    "templateId": "ITEM_EVENT_PASS_POINT_GO_TOUR_02",
+    "data": {
+      "itemId": "ITEM_EVENT_PASS_POINT_GO_TOUR_02",
+      "itemType": "ITEM_TYPE_EVENT_PASS_POINT",
+      "category": "ITEM_CATEGORY_EVENT_PASS_POINT",
+      "ignoreInventorySpace": true,
+      "itemCap": 999999,
+      "eventPassPoint": {
+        "eventPassId": "EVENT_PASS_GOTOUR2026_IRL"
+      }
+    }
+  },
+  {
+    "templateId": "ITEM_EVENT_PASS_POINT_GO_WILD_AREA_01",
+    "data": {
+      "itemId": "ITEM_EVENT_PASS_POINT_GO_WILD_AREA_01",
+      "itemType": "ITEM_TYPE_EVENT_PASS_POINT",
+      "category": "ITEM_CATEGORY_EVENT_PASS_POINT",
+      "ignoreInventorySpace": true,
+      "itemCap": 6000,
+      "eventPassPoint": {
+        "eventPassId": "EVENT_PASS_GOWA_2025"
+      },
+      "timePeriodCounters": {
+        "playerActivity": {
+          "limit": 100
+        }
+      }
+    }
+  },
+  {
+    "templateId": "ITEM_EVENT_PASS_POINT_LIVE_OPS_01",
+    "data": {
+      "itemId": "ITEM_EVENT_PASS_POINT_LIVE_OPS_01",
+      "itemType": "ITEM_TYPE_EVENT_PASS_POINT",
+      "category": "ITEM_CATEGORY_EVENT_PASS_POINT",
+      "ignoreInventorySpace": true,
+      "itemCap": 999999,
+      "eventPassPoint": {
+        "eventPassId": "EVENT_PASS_DECEMBER2025_SEASON"
+      },
+      "timePeriodCounters": {
+        "playerActivity": {
+          "limit": 300
+        }
+      }
+    }
+  },
+  {
+    "templateId": "ITEM_EVENT_PASS_POINT_LIVE_OPS_02",
+    "data": {
+      "itemId": "ITEM_EVENT_PASS_POINT_LIVE_OPS_02",
+      "itemType": "ITEM_TYPE_EVENT_PASS_POINT",
+      "category": "ITEM_CATEGORY_EVENT_PASS_POINT",
+      "ignoreInventorySpace": true,
+      "itemCap": 999999,
+      "eventPassPoint": {
+        "eventPassId": "EVENT_PASS_JANUARY2026_SEASON"
+      },
+      "timePeriodCounters": {
+        "playerActivity": {
+          "limit": 300
+        }
+      }
+    }
+  },
+  {
+    "templateId": "ITEM_EVENT_PASS_POINT_LIVE_OPS_03",
+    "data": {
+      "itemId": "ITEM_EVENT_PASS_POINT_LIVE_OPS_03",
+      "itemType": "ITEM_TYPE_EVENT_PASS_POINT",
+      "category": "ITEM_CATEGORY_EVENT_PASS_POINT",
+      "ignoreInventorySpace": true,
+      "itemCap": 999999,
+      "eventPassPoint": {
+        "eventPassId": "EVENT_PASS_FEBRUARY2026_SEASON"
+      },
+      "timePeriodCounters": {
+        "playerActivity": {
+          "limit": 250
+        }
+      }
+    }
+  },
+  {
+    "templateId": "ITEM_EVENT_PASS_POINT_LIVE_OPS_04",
+    "data": {
+      "itemId": "ITEM_EVENT_PASS_POINT_LIVE_OPS_04",
+      "itemType": "ITEM_TYPE_EVENT_PASS_POINT",
+      "category": "ITEM_CATEGORY_EVENT_PASS_POINT",
+      "ignoreInventorySpace": true,
+      "itemCap": 999999,
+      "eventPassPoint": {
+        "eventPassId": "EVENT_PASS_WINTERHOLIDAYS2025_EVENT"
+      },
+      "timePeriodCounters": {
+        "playerActivity": {
+          "limit": 300
+        }
+      }
+    }
+  },
+  {
+    "templateId": "ITEM_EVENT_TICKET_02",
+    "data": {
+      "itemId": "ITEM_EVENT_TICKET_02",
+      "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
+      "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
+      "globalEventTicket": {
+        "eventStartTime": "2026-02-07T10:00:00",
+        "eventEndTime": "2026-02-07T20:00:00",
+        "itemBagDescriptionKey": "item_event_ticket_02_desc_CATCH_MASTERY_ORICORIO",
+        "giftable": true,
+        "giftItem": "ITEM_EVENT_TICKET_02_TO_GIFT",
+        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2F20260113_pgo_s22_oricorio_1024x576_nologo.jpg",
+        "displayV2Enabled": true,
+        "backgroundImageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2F20260113_pgo_s22_oricorio_1024x576_nologo.jpg",
+        "eventDatetimeRangeKey": "event_datetime_range_key_CATCH_MASTERY_ORICORIO",
+        "textRewardsKey": "text_rewards_key_CATCH_MASTERY_ORICORIO",
+        "iconRewards": [
+          {
+            "type": "EXPERIENCE",
+            "exp": 12000
+          },
+          {
+            "type": "STARDUST",
+            "stardust": 3000
+          }
+        ],
+        "detailsLinkKey": "details_link_key_ORICORIO_MASTERY_FEB2026",
+        "clientEventStartTimeUtcMs": "1770458400000",
+        "clientEventEndTimeUtcMs": "1770494400000"
+      },
+      "nameOverride": "general2.ticket2.CATCH_MASTERY_ORICORIO",
+      "descriptionOverride": "item_event_ticket_02_details_CATCH_MASTERY_ORICORIO"
+    }
+  },
+  {
+    "templateId": "ITEM_EVENT_TICKET_02_TO_GIFT",
+    "data": {
+      "itemId": "ITEM_EVENT_TICKET_02_TO_GIFT",
+      "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
+      "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
+      "globalEventTicket": {
+        "eventStartTime": "2026-02-07T10:00:00",
+        "eventEndTime": "2026-02-07T20:00:00",
+        "itemBagDescriptionKey": "item_event_ticket_02_desc_CATCH_MASTERY_ORICORIO",
+        "ticketItem": "ITEM_EVENT_TICKET_02",
+        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2F20260113_pgo_s22_oricorio_1024x576_nologo.jpg",
+        "clientEventStartTimeUtcMs": "1770458400000",
+        "clientEventEndTimeUtcMs": "1770494400000"
+      },
+      "ignoreInventorySpace": true,
+      "nameOverride": "general2.ticket2.CATCH_MASTERY_ORICORIO",
+      "descriptionOverride": "item_event_ticket_02_details_CATCH_MASTERY_ORICORIO"
+    }
+  },
+  {
+    "templateId": "ITEM_EVENT_TICKET_03",
+    "data": {
+      "itemId": "ITEM_EVENT_TICKET_03",
+      "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
+      "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
+      "globalEventTicket": {
+        "eventStartTime": "2026-02-01T14:00:00",
+        "eventEndTime": "2026-02-01T17:00:00",
+        "itemBagDescriptionKey": "item_event_ticket_pink_desc_CD_Vulpix26",
+        "giftable": true,
+        "giftItem": "ITEM_EVENT_TICKET_03_TO_GIFT",
+        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO_MCS_CD_KeyArt_Vulpix_Alolan_v3-1024x576-nologo.jpg",
+        "displayV2Enabled": true,
+        "backgroundImageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO_MCS_CD_KeyArt_Vulpix_Alolan_v3-1024x576-nologo.jpg",
+        "eventDatetimeRangeKey": "event_datetime_range_key_CD_Vulpix26",
+        "textRewardsKey": "text_rewards_key_CD_Vulpix26",
+        "iconRewards": [
+          {
+            "type": "POKEMON_ENCOUNTER",
+            "pokemonEncounter": {
+              "pokemonId": "NINETALES",
+              "pokemonDisplay": {
+                "form": "NINETALES_NORMAL"
+              }
+            }
+          },
+          {
+            "type": "ITEM",
+            "item": {
+              "item": "ITEM_LUCKY_EGG",
+              "amount": 1
+            }
+          },
+          {
+            "type": "ITEM",
+            "item": {
+              "item": "ITEM_XL_RARE_CANDY",
+              "amount": 1
+            }
+          }
+        ],
+        "detailsLinkKey": "details_link_key",
+        "clientEventStartTimeUtcMs": "1769954400000",
+        "clientEventEndTimeUtcMs": "1769965200000"
+      },
+      "nameOverride": "general1.ticket_CD_Vulpix26_title",
+      "descriptionOverride": "item_event_ticket_pink_details_CD_Vulpix26"
+    }
+  },
+  {
+    "templateId": "ITEM_EVENT_TICKET_03_TO_GIFT",
+    "data": {
+      "itemId": "ITEM_EVENT_TICKET_03_TO_GIFT",
+      "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
+      "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
+      "globalEventTicket": {
+        "eventStartTime": "2026-02-01T14:00:00",
+        "eventEndTime": "2026-02-01T17:00:00",
+        "itemBagDescriptionKey": "item_event_ticket_pink_desc_CD_Vulpix26",
+        "ticketItem": "ITEM_EVENT_TICKET_03",
+        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO_MCS_CD_KeyArt_Vulpix_Alolan_v3-1024x576-nologo.jpg",
+        "clientEventStartTimeUtcMs": "1769954400000",
+        "clientEventEndTimeUtcMs": "1769965200000"
+      },
+      "ignoreInventorySpace": true,
+      "nameOverride": "general1.ticket_CD_Vulpix26_title",
+      "descriptionOverride": "item_event_ticket_pink_details_CD_Vulpix26"
+    }
+  },
+  {
+    "templateId": "ITEM_EVENT_TICKET_04",
+    "data": {
+      "itemId": "ITEM_EVENT_TICKET_04",
+      "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
+      "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
+      "globalEventTicket": {
+        "eventStartTime": "2025-08-25T10:00:00",
+        "eventEndTime": "2025-08-31T20:00:00",
+        "itemBagDescriptionKey": "item_event_ticket_evergreen_desc_SunkissedETR0825",
+        "giftable": true,
+        "giftItem": "ITEM_EVENT_TICKET_04_TO_GIFT",
+        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-sunkissed-shores-encounter-ticket-nologo-2025.jpg",
+        "displayV2Enabled": true,
+        "backgroundImageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-sunkissed-shores-encounter-ticket-nologo-2025.jpg",
+        "eventDatetimeRangeKey": "event_datetime_range_key_SunkissedETR0825",
+        "textRewardsKey": "text_rewards_key_SunkissedETR0825",
+        "iconRewards": [
+          {
+            "type": "POKEMON_ENCOUNTER",
+            "pokemonEncounter": {
+              "pokemonId": "SLAKOTH",
+              "pokemonDisplay": {
+                "costume": "SUMMER_2024"
+              }
+            }
+          },
+          {
+            "type": "ITEM",
+            "item": {
+              "item": "ITEM_PAID_RAID_TICKET",
+              "amount": 2
+            }
+          },
+          {
+            "type": "POKEMON_ENCOUNTER",
+            "pokemonEncounter": {
+              "pokemonId": "DONDOZO"
+            }
+          }
+        ],
+        "detailsLinkKey": "details_link_key",
+        "clientEventStartTimeUtcMs": "1756116000000",
+        "clientEventEndTimeUtcMs": "1756670400000"
+      },
+      "nameOverride": "general1.ticket._SunkissedETR0825_title",
+      "descriptionOverride": "item_event_ticket_evergreen_desc_SunkissedETR0825"
+    }
+  },
+  {
+    "templateId": "ITEM_EVENT_TICKET_04_TO_GIFT",
+    "data": {
+      "itemId": "ITEM_EVENT_TICKET_04_TO_GIFT",
+      "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
+      "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
+      "globalEventTicket": {
+        "eventStartTime": "2025-08-25T10:00:00",
+        "eventEndTime": "2025-08-31T20:00:00",
+        "itemBagDescriptionKey": "item_event_ticket_evergreen_details_SunkissedETR0825",
+        "ticketItem": "ITEM_EVENT_TICKET_04",
+        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-sunkissed-shores-encounter-ticket-nologo-2025.jpg",
+        "clientEventStartTimeUtcMs": "1756116000000",
+        "clientEventEndTimeUtcMs": "1756670400000"
+      },
+      "ignoreInventorySpace": true,
+      "descriptionOverride": "item_event_ticket_evergreen_details_SunkissedETR0825"
+    }
+  },
+  {
+    "templateId": "ITEM_EVENT_TICKET_05",
+    "data": {
+      "itemId": "ITEM_EVENT_TICKET_05",
+      "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
+      "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
+      "globalEventTicket": {
+        "eventStartTime": "2026-01-20T10:00:00",
+        "eventEndTime": "2026-01-25T20:00:00",
+        "itemBagDescriptionKey": "item_event_ticket_gray_details_buddy_event",
+        "giftable": true,
+        "giftItem": "ITEM_EVENT_TICKET_05_TO_GIFT",
+        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPreciousPalsAvatar_1024x576.jpg",
+        "displayV2Enabled": true,
+        "backgroundImageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPreciousPalsAvatar_1024x576.jpg",
+        "eventDatetimeRangeKey": "event_datetime_range_key_buddy_event",
+        "textRewardsKey": "text_rewards_key_buddy_event",
+        "iconRewards": [
+          {
+            "type": "AVATAR_CLOTHING",
+            "neutralAvatarItemTemplate": {
+              "itemTemplateId": "N_AVATAR_n_pose_heart",
+              "displayTemplateId": "N_DISPLAY_n_pose_heart"
+            }
+          },
+          {
+            "type": "POKEMON_ENCOUNTER",
+            "pokemonEncounter": {
+              "pokemonId": "FIDOUGH",
+              "pokemonDisplay": {
+                "form": "FIDOUGH_NORMAL"
+              }
+            }
+          },
+          {
+            "type": "ITEM",
+            "item": {
+              "item": "ITEM_POFFIN",
+              "amount": 1
+            }
+          }
+        ],
+        "detailsLinkKey": "details_link_key",
+        "clientEventStartTimeUtcMs": "1768903200000",
+        "clientEventEndTimeUtcMs": "1769371200000"
+      },
+      "nameOverride": "general1.ticket.5_buddy_event_title",
+      "descriptionOverride": "item_event_ticket_gray_desc_buddy_event"
+    }
+  },
+  {
+    "templateId": "ITEM_EVENT_TICKET_05_TO_GIFT",
+    "data": {
+      "itemId": "ITEM_EVENT_TICKET_05_TO_GIFT",
+      "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
+      "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
+      "globalEventTicket": {
+        "eventStartTime": "2026-01-20T10:00:00",
+        "eventEndTime": "2026-01-25T20:00:00",
+        "itemBagDescriptionKey": "item_event_ticket_gray_details_buddy_event",
+        "ticketItem": "ITEM_EVENT_TICKET_05",
+        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPreciousPalsAvatar_1024x576.jpg",
+        "clientEventStartTimeUtcMs": "1768903200000",
+        "clientEventEndTimeUtcMs": "1769371200000"
+      },
+      "ignoreInventorySpace": true,
+      "descriptionOverride": "item_event_ticket_gray_desc_buddy_event"
+    }
+  },
+  {
+    "templateId": "ITEM_EVENT_TICKET_06",
+    "data": {
+      "itemId": "ITEM_EVENT_TICKET_06",
+      "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
+      "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
+      "globalEventTicket": {
+        "eventStartTime": "2026-02-14T14:00:00",
+        "eventEndTime": "2026-02-14T17:00:00",
+        "itemBagDescriptionKey": "item_event_ticket_gray_desc_EnamorusTherianRaidDay",
+        "giftable": true,
+        "giftItem": "ITEM_EVENT_TICKET_06_TO_GIFT",
+        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Enamorus_Therian_Forme_RaidDay_v1-1024x576.jpg",
+        "displayV2Enabled": true,
+        "backgroundImageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Enamorus_Therian_Forme_RaidDay_v1-1024x576.jpg",
+        "eventDatetimeRangeKey": "event_datetime_range_key_EnamorusTherianRaidDay",
+        "textRewardsKey": "text_rewards_key_FalinksRaidDay",
+        "iconRewards": [
+          {
+            "type": "ITEM",
+            "item": {
+              "item": "ITEM_FREE_RAID_TICKET",
+              "amount": 8
+            }
+          },
+          {
+            "type": "ITEM",
+            "item": {
+              "item": "ITEM_XL_RARE_CANDY"
+            }
+          }
+        ],
+        "detailsLinkKey": "details_link_key",
+        "clientEventStartTimeUtcMs": "1771077600000",
+        "clientEventEndTimeUtcMs": "1771088400000"
+      },
+      "nameOverride": "general2.ticket.6_EnamorusTherianRaidDay_title",
+      "descriptionOverride": "item_event_ticket_gray_desc_EnamorusTherianRaidDay"
+    }
+  },
+  {
+    "templateId": "ITEM_EVENT_TICKET_06_TO_GIFT",
+    "data": {
+      "itemId": "ITEM_EVENT_TICKET_06_TO_GIFT",
+      "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
+      "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
+      "globalEventTicket": {
+        "eventStartTime": "2026-02-14T14:00:00",
+        "eventEndTime": "2026-02-14T17:00:00",
+        "itemBagDescriptionKey": "item_event_ticket_gray_details_EnamorusTherianRaidDay",
+        "ticketItem": "ITEM_EVENT_TICKET_06",
+        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Enamorus_Therian_Forme_RaidDay_v1-1024x576.jpg",
+        "clientEventStartTimeUtcMs": "1771077600000",
+        "clientEventEndTimeUtcMs": "1771088400000"
+      },
+      "ignoreInventorySpace": true,
+      "descriptionOverride": "item_event_ticket_gray_details_EnamorusTherianRaidDay"
+    }
+  },
+  {
+    "templateId": "ITEM_EVENT_TICKET_07",
+    "data": {
+      "itemId": "ITEM_EVENT_TICKET_07",
+      "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
+      "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
+      "globalEventTicket": {
+        "eventStartTime": "2025-12-02T10:00:00",
+        "eventEndTime": "2026-02-22T20:00:00",
+        "itemBagDescriptionKey": "item_event_ticket_07_desc_masterball25",
+        "giftable": true,
+        "giftItem": "ITEM_EVENT_TICKET_07_TO_GIFT",
+        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO_MCS_MasterBall_KeyArt_TK_GP_V2_S14_1024x512_nologo.jpg",
+        "displayV2Enabled": true,
+        "backgroundImageUrl": "https://storage.googleapis.com/prod-public-images/masterball-keyart.png",
+        "textRewardsKey": "text_rewards_key_masterball25",
+        "iconRewards": [
+          {
+            "type": "ITEM",
+            "item": {
+              "item": "ITEM_MASTER_BALL",
+              "amount": 1
+            }
+          }
+        ],
+        "detailsLinkKey": "details_link_key",
+        "clientEventStartTimeUtcMs": "1764669600000",
+        "clientEventEndTimeUtcMs": "1771790400000"
+      },
+      "nameOverride": "general2.ticket.7_masterball25_title",
+      "descriptionOverride": "item_event_ticket_07_desc_masterball25"
+    }
+  },
+  {
+    "templateId": "ITEM_EVENT_TICKET_07_TO_GIFT",
+    "data": {
+      "itemId": "ITEM_EVENT_TICKET_07_TO_GIFT",
+      "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
+      "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
+      "globalEventTicket": {
+        "eventStartTime": "2025-12-02T10:00:00",
+        "eventEndTime": "2026-02-22T20:00:00",
+        "itemBagDescriptionKey": "item_event_ticket_07_details_masterball25",
+        "ticketItem": "ITEM_EVENT_TICKET_07",
+        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO_MCS_MasterBall_KeyArt_TK_GP_V2_S14_1024x512_nologo.jpg",
+        "clientEventStartTimeUtcMs": "1764669600000",
+        "clientEventEndTimeUtcMs": "1771790400000"
+      },
+      "ignoreInventorySpace": true,
+      "descriptionOverride": "item_event_ticket_07_details_masterball25"
+    }
+  },
+  {
+    "templateId": "ITEM_EVENT_TICKET_08",
+    "data": {
+      "itemId": "ITEM_EVENT_TICKET_08",
+      "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
+      "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
+      "globalEventTicket": {
+        "eventStartTime": "2025-11-25T10:00:00",
+        "eventEndTime": "2025-11-30T20:00:00",
+        "itemBagDescriptionKey": "item_event_ticket_gray_desc_FinalJustice2025",
+        "giftable": true,
+        "giftItem": "ITEM_EVENT_TICKET_08_TO_GIFT",
+        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Shiny_Keldeo_KeyArt_v1-1024x576-nologo.jpg",
+        "displayV2Enabled": true,
+        "backgroundImageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Shiny_Keldeo_KeyArt_v1-1024x576-nologo.jpg",
+        "eventDatetimeRangeKey": "event_datetime_range_key_FinalJustice2025",
+        "textRewardsKey": "text_rewards_key_FinalJustice2025",
+        "iconRewards": [
+          {
+            "type": "POKEMON_ENCOUNTER",
+            "pokemonEncounter": {
+              "pokemonId": "KELDEO",
+              "pokemonDisplay": {
+                "shiny": true,
+                "form": "KELDEO_ORDINARY"
+              }
+            }
+          },
+          {
+            "type": "CANDY",
+            "candy": {
+              "pokemonId": "KELDEO",
+              "amount": 30
+            }
+          },
+          {
+            "type": "AVATAR_CLOTHING",
+            "neutralAvatarItemTemplate": {
+              "displayTemplateId": "N_DISPLAY_n_shirt_shinykeldeoshirt_0"
+            }
+          }
+        ],
+        "detailsLinkKey": "details_link_key",
+        "clientEventStartTimeUtcMs": "1764064800000",
+        "clientEventEndTimeUtcMs": "1764532800000"
+      },
+      "descriptionOverride": "item_event_ticket_gray_desc_FinalJustice2025"
+    }
+  },
+  {
+    "templateId": "ITEM_EVENT_TICKET_08_TO_GIFT",
+    "data": {
+      "itemId": "ITEM_EVENT_TICKET_08_TO_GIFT",
+      "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
+      "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
+      "globalEventTicket": {
+        "eventStartTime": "2025-11-25T10:00:00",
+        "eventEndTime": "2025-11-30T20:00:00",
+        "itemBagDescriptionKey": "item_event_ticket_gray_desc_FinalJustice2025",
+        "ticketItem": "ITEM_EVENT_TICKET_08",
+        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Shiny_Keldeo_KeyArt_v1-1024x576-nologo.jpg",
+        "clientEventStartTimeUtcMs": "1764064800000",
+        "clientEventEndTimeUtcMs": "1764532800000"
+      },
+      "ignoreInventorySpace": true,
+      "descriptionOverride": "item_event_ticket_gray_desc_FinalJustice2025"
+    }
+  },
+  {
+    "templateId": "ITEM_EVENT_TICKET_09",
+    "data": {
+      "itemId": "ITEM_EVENT_TICKET_09",
+      "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
+      "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
+      "globalEventTicket": {
+        "eventStartTime": "2026-02-03T10:00:00",
+        "eventEndTime": "2026-02-08T20:00:00",
+        "itemBagDescriptionKey": "item_event_ticket_evergreen_desc_CarnivalOFlamigo26",
+        "giftable": true,
+        "giftItem": "ITEM_EVENT_TICKET_09_TO_GIFT",
+        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Carnival_of_Flamigo_v2-1024x576-nologo.jpg",
+        "displayV2Enabled": true,
+        "backgroundImageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Carnival_of_Flamigo_v2-1024x576-nologo.jpg",
+        "eventDatetimeRangeKey": "event_datetime_range_key_CarnivalOFlamigo26",
+        "textRewardsKey": "text_rewards_key_CarnivalOFlamigo26",
+        "iconRewards": [
+          {
+            "type": "AVATAR_CLOTHING",
+            "neutralAvatarItemTemplate": {
+              "itemTemplateId": "N_AVATAR_n_pose_carnival",
+              "displayTemplateId": "N_DISPLAY_n_pose_carnival"
+            }
+          },
+          {
+            "type": "POKEMON_ENCOUNTER",
+            "pokemonEncounter": {
+              "pokemonId": "FLAMIGO",
+              "pokemonDisplay": {
+                "form": "FLAMIGO_NORMAL"
+              }
+            }
+          },
+          {
+            "type": "POKEMON_ENCOUNTER",
+            "pokemonEncounter": {
+              "pokemonId": "SPRITZEE",
+              "pokemonDisplay": {
+                "form": "SPRITZEE_NORMAL"
+              }
+            }
+          }
+        ],
+        "detailsLinkKey": "details_link_key",
+        "clientEventStartTimeUtcMs": "1770112800000",
+        "clientEventEndTimeUtcMs": "1770580800000"
+      },
+      "nameOverride": "general1.ticket.5_CarnivalOFlamigo26_title",
+      "descriptionOverride": "item_event_ticket_evergreen_desc_CarnivalOFlamigo26"
+    }
+  },
+  {
+    "templateId": "ITEM_EVENT_TICKET_09_TO_GIFT",
+    "data": {
+      "itemId": "ITEM_EVENT_TICKET_09_TO_GIFT",
+      "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
+      "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
+      "globalEventTicket": {
+        "eventStartTime": "2026-02-03T10:00:00",
+        "eventEndTime": "2026-02-08T20:00:00",
+        "itemBagDescriptionKey": "item_event_ticket_evergreen_details_CarnivalOFlamigo26",
+        "ticketItem": "ITEM_EVENT_TICKET_09",
+        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Carnival_of_Flamigo_v2-1024x576-nologo.jpg",
+        "clientEventStartTimeUtcMs": "1770112800000",
+        "clientEventEndTimeUtcMs": "1770580800000"
+      },
+      "ignoreInventorySpace": true,
+      "nameOverride": "general1.ticket.5_CarnivalOFlamigo26_title",
+      "descriptionOverride": "item_event_ticket_evergreen_details_CarnivalOFlamigo26"
+    }
+  },
+  {
+    "templateId": "ITEM_EVENT_TICKET_10",
+    "data": {
+      "itemId": "ITEM_EVENT_TICKET_10",
+      "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
+      "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
+      "globalEventTicket": {
+        "eventStartTime": "2026-02-28T00:00:00",
+        "eventEndTime": "2026-03-01T23:59:59",
+        "itemBagDescriptionKey": "item_global_event_ticket_details_GOTour2026",
+        "giftable": true,
+        "giftItem": "ITEM_EVENT_TICKET_10_TO_GIFT",
+        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fgo_tour_kalos_1024x512.jpg",
+        "displayV2Enabled": true,
+        "backgroundImageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fgo_tour_kalos_1024x512_logoless.jpg",
+        "titleImageUrl": "https://storage.googleapis.com/prod-public-images/gotourlogo_1914247967.png",
+        "eventDatetimeRangeKey": "event_datetime_range_key_GOTour2026",
+        "textRewardsKey": "text_rewards_key_GOTour2026",
+        "iconRewards": [
+          {
+            "type": "POKEMON_ENCOUNTER",
+            "pokemonEncounter": {
+              "pokemonId": "DIANCIE",
+              "pokemonDisplay": {
+                "shiny": true,
+                "form": "DIANCIE_NORMAL"
+              }
+            }
+          },
+          {
+            "type": "POKEMON_ENCOUNTER",
+            "pokemonEncounter": {
+              "pokemonId": "LATIAS",
+              "pokemonDisplay": {
+                "form": "LATIAS_NORMAL"
+              }
+            }
+          },
+          {
+            "type": "POKEMON_ENCOUNTER",
+            "pokemonEncounter": {
+              "pokemonId": "LATIOS",
+              "pokemonDisplay": {
+                "form": "LATIOS_NORMAL"
+              }
+            }
+          }
+        ],
+        "detailsLinkKey": "item_global_event_ticket_details_GOTour2026",
+        "clientEventStartTimeUtcMs": "1772236800000",
+        "clientEventEndTimeUtcMs": "1772409599000"
+      },
+      "nameOverride": "GOTour_2026_ticket_title",
+      "descriptionOverride": "item_global_event_ticket_details_GOTour2026"
+    }
+  },
+  {
+    "templateId": "ITEM_EVENT_TICKET_10_TO_GIFT",
+    "data": {
+      "itemId": "ITEM_EVENT_TICKET_10_TO_GIFT",
+      "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
+      "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
+      "globalEventTicket": {
+        "eventStartTime": "2026-02-28T00:00:00",
+        "eventEndTime": "2026-03-01T23:59:59",
+        "itemBagDescriptionKey": "item_global_event_ticket_details_GOTour2026",
+        "ticketItem": "ITEM_EVENT_TICKET_10",
+        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fgo_tour_kalos_1024x512.jpg",
+        "clientEventStartTimeUtcMs": "1772236800000",
+        "clientEventEndTimeUtcMs": "1772409599000"
+      },
+      "ignoreInventorySpace": true,
+      "nameOverride": "GOTour_2026_ticket_title",
+      "descriptionOverride": "item_global_event_ticket_details_GOTour2026"
+    }
+  },
+  {
+    "templateId": "ITEM_EVENT_TICKET_GRAY",
+    "data": {
+      "itemId": "ITEM_EVENT_TICKET_GRAY",
+      "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
+      "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
+      "globalEventTicket": {
+        "eventStartTime": "2026-02-15T14:00:00",
+        "eventEndTime": "2026-02-15T17:00:00",
+        "itemBagDescriptionKey": "item_event_ticket_gray_desc_gmaxMeowth26",
+        "giftable": true,
+        "giftItem": "ITEM_EVENT_TICKET_GRAY_TO_GIFT",
+        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_GMAX_Meowth_MaxBattle_v1_1024x576-nologo.jpg",
+        "displayV2Enabled": true,
+        "backgroundImageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_GMAX_Meowth_MaxBattle_v1_1024x576-nologo.jpg",
+        "eventDatetimeRangeKey": "event_datetime_range_key_gmaxMeowth26",
+        "textRewardsKey": "text_rewards_key_gmaxMeowth26",
+        "iconRewards": [
+          {
+            "type": "ITEM",
+            "item": {
+              "item": "ITEM_MAX_BOOST",
+              "amount": 1
+            }
+          },
+          {
+            "type": "EXPERIENCE",
+            "exp": 25000
+          },
+          {
+            "type": "ITEM",
+            "item": {
+              "item": "ITEM_MP",
+              "amount": 6400
+            }
+          }
+        ],
+        "detailsLinkKey": "details_link_key",
+        "clientEventStartTimeUtcMs": "1771164000000",
+        "clientEventEndTimeUtcMs": "1771174800000"
+      },
+      "nameOverride": "general1.ticket.4_gmaxMeowth26_title",
+      "descriptionOverride": "item_event_ticket_gray_desc_gmaxMeowth26"
+    }
+  },
+  {
+    "templateId": "ITEM_EVENT_TICKET_GRAY_TO_GIFT",
+    "data": {
+      "itemId": "ITEM_EVENT_TICKET_GRAY_TO_GIFT",
+      "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
+      "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
+      "globalEventTicket": {
+        "eventStartTime": "2026-02-15T14:00:00",
+        "eventEndTime": "2026-02-15T17:00:00",
+        "itemBagDescriptionKey": "item_event_ticket_gray_details_gmaxMeowth26",
+        "ticketItem": "ITEM_EVENT_TICKET_GRAY",
+        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_GMAX_Meowth_MaxBattle_v1_1024x576-nologo.jpg",
+        "clientEventStartTimeUtcMs": "1771164000000",
+        "clientEventEndTimeUtcMs": "1771174800000"
+      },
+      "ignoreInventorySpace": true,
+      "descriptionOverride": "item_event_ticket_gray_details_gmaxMeowth26"
+    }
+  },
+  {
+    "templateId": "ITEM_EVENT_TICKET_PINK",
+    "data": {
+      "itemId": "ITEM_EVENT_TICKET_PINK",
+      "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
+      "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
+      "globalEventTicket": {
+        "eventStartTime": "2025-06-20T00:00:00",
+        "eventEndTime": "2025-06-22T23:59:59",
+        "itemBagDescriptionKey": "item_event_ticket_evergreen_details_PawPrint_20250620",
+        "giftable": true,
+        "giftItem": "ITEM_EVENT_TICKET_PINK_TO_GIFT",
+        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-yampers-paw-prints-ticket-nologo-2025.jpg",
+        "displayV2Enabled": true,
+        "backgroundImageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-yampers-paw-prints-ticket-nologo-2025.jpg",
+        "eventDatetimeRangeKey": "event_datetime_range_key_PawPrint_20250620",
+        "textRewardsKey": "text_rewards_key_PawPrint_20250620",
+        "iconRewards": [
+          {
+            "type": "POKEMON_ENCOUNTER",
+            "pokemonEncounter": {
+              "pokemonId": "YAMPER"
+            }
+          },
+          {
+            "type": "POKEMON_ENCOUNTER",
+            "pokemonEncounter": {
+              "pokemonId": "ROCKRUFF",
+              "pokemonDisplay": {
+                "form": "ROCKRUFF_NORMAL"
+              }
+            }
+          },
+          {
+            "type": "ITEM",
+            "item": {
+              "item": "ITEM_INCENSE_ORDINARY",
+              "amount": 4
+            }
+          }
+        ],
+        "detailsLinkKey": "item_event_ticket_evergreen_details_PawPrint_20250620",
+        "clientEventStartTimeUtcMs": "1750377600000",
+        "clientEventEndTimeUtcMs": "1750636799000"
+      },
+      "descriptionOverride": "item_event_ticket_evergreen_desc_PawPrint_20250620"
+    }
+  },
+  {
+    "templateId": "ITEM_EVENT_TICKET_PINK_TO_GIFT",
+    "data": {
+      "itemId": "ITEM_EVENT_TICKET_PINK_TO_GIFT",
+      "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
+      "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
+      "globalEventTicket": {
+        "eventStartTime": "2025-06-20T00:00:00",
+        "eventEndTime": "2025-06-22T23:59:59",
+        "itemBagDescriptionKey": "item_event_ticket_evergreen_details_PawPrint_20250620",
+        "ticketItem": "ITEM_EVENT_TICKET_PINK",
+        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-yampers-paw-prints-ticket-nologo-2025.jpg",
+        "clientEventStartTimeUtcMs": "1750377600000",
+        "clientEventEndTimeUtcMs": "1750636799000"
+      },
+      "ignoreInventorySpace": true,
+      "descriptionOverride": "item_event_ticket_evergreen_desc_PawPrint_20250620"
+    }
+  },
+  {
+    "templateId": "ITEM_EVERGREEN_TICKET",
+    "data": {
+      "itemId": "ITEM_EVERGREEN_TICKET",
+      "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
+      "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
+      "globalEventTicket": {
+        "eventStartTime": "2026-01-27T10:00:00",
+        "eventEndTime": "2026-02-01T20:00:00",
+        "itemBagDescriptionKey": "item_event_ticket_evergreen_desc_IntoTDepths26",
+        "giftable": true,
+        "giftItem": "ITEM_EVERGREEN_TICKET_TO_GIFT",
+        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Into_The_Depths_LiveOp_2026_v3-1024x576-nologo.jpg",
+        "displayV2Enabled": true,
+        "backgroundImageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Into_The_Depths_LiveOp_2026_v3-1024x576-nologo.jpg",
+        "eventDatetimeRangeKey": "event_datetime_range_key_IntoTDepths26",
+        "textRewardsKey": "text_rewards_key_IntoTDepths26",
+        "iconRewards": [
+          {
+            "type": "POKEMON_ENCOUNTER",
+            "pokemonEncounter": {
+              "pokemonId": "GLIMMET",
+              "pokemonDisplay": {
+                "form": "GLIMMET_NORMAL"
+              }
+            }
+          },
+          {
+            "type": "POKEMON_ENCOUNTER",
+            "pokemonEncounter": {
+              "pokemonId": "YUNGOOS",
+              "pokemonDisplay": {
+                "form": "YUNGOOS_NORMAL"
+              }
+            }
+          },
+          {
+            "type": "POKEMON_ENCOUNTER",
+            "pokemonEncounter": {
+              "pokemonId": "DIGLETT",
+              "pokemonDisplay": {
+                "form": "DIGLETT_NORMAL"
+              }
+            }
+          }
+        ],
+        "detailsLinkKey": "details_link_key",
+        "clientEventStartTimeUtcMs": "1769508000000",
+        "clientEventEndTimeUtcMs": "1769976000000"
+      },
+      "nameOverride": "general1.ticket.5_IntoTDepths26_title",
+      "descriptionOverride": "item_event_ticket_evergreen_desc_IntoTDepths26"
+    }
+  },
+  {
+    "templateId": "ITEM_EVERGREEN_TICKET_TO_GIFT",
+    "data": {
+      "itemId": "ITEM_EVERGREEN_TICKET_TO_GIFT",
+      "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
+      "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
+      "globalEventTicket": {
+        "eventStartTime": "2026-01-27T10:00:00",
+        "eventEndTime": "2026-02-01T20:00:00",
+        "itemBagDescriptionKey": "item_event_ticket_evergreen_details_IntoTDepths26",
+        "ticketItem": "ITEM_EVERGREEN_TICKET",
+        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Into_The_Depths_LiveOp_2026_v3-1024x576-nologo.jpg",
+        "clientEventStartTimeUtcMs": "1769508000000",
+        "clientEventEndTimeUtcMs": "1769976000000"
+      },
+      "ignoreInventorySpace": true,
+      "descriptionOverride": "item_event_ticket_evergreen_details_IntoTDepths26"
+    }
+  },
+  {
+    "templateId": "ITEM_FREE_RAID_TICKET",
+    "data": {
+      "itemId": "ITEM_FREE_RAID_TICKET",
+      "itemType": "ITEM_TYPE_RAID_TICKET",
+      "category": "ITEM_CATEGORY_RAID_TICKET",
+      "dropTrainerLevel": 100
+    }
+  },
+  {
+    "templateId": "ITEM_FRIEND_GIFT_BOX",
+    "data": {
+      "itemId": "ITEM_FRIEND_GIFT_BOX",
+      "itemType": "ITEM_TYPE_FRIEND_GIFT_BOX",
+      "category": "ITEM_CATEGORY_FRIEND_GIFT_BOX",
+      "dropTrainerLevel": 100
+    }
+  },
+  {
+    "templateId": "ITEM_GEN4_EVOLUTION_STONE",
+    "data": {
+      "itemId": "ITEM_GEN4_EVOLUTION_STONE",
+      "itemType": "ITEM_TYPE_EVOLUTION_REQUIREMENT",
+      "category": "ITEM_CATEGORY_EVOLUTION_REQUIREMENT",
+      "dropTrainerLevel": 10
+    }
+  },
+  {
+    "templateId": "ITEM_GEN5_EVOLUTION_STONE",
+    "data": {
+      "itemId": "ITEM_GEN5_EVOLUTION_STONE",
+      "itemType": "ITEM_TYPE_EVOLUTION_REQUIREMENT",
+      "category": "ITEM_CATEGORY_EVOLUTION_REQUIREMENT",
+      "dropTrainerLevel": 10
+    }
+  },
+  {
+    "templateId": "ITEM_GIOVANNI_MAP",
+    "data": {
+      "itemId": "ITEM_GIOVANNI_MAP",
+      "itemType": "ITEM_TYPE_INCIDENT_TICKET",
+      "category": "ITEM_CATEGORY_INCIDENT_TICKET",
+      "dropTrainerLevel": 8,
+      "incidentTicket": {
+        "ignoreFullInventory": true
+      }
+    }
+  },
+  {
+    "templateId": "ITEM_GLOBAL_EVENT_TICKET",
+    "data": {
+      "itemId": "ITEM_GLOBAL_EVENT_TICKET",
+      "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
+      "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
+      "globalEventTicket": {
+        "eventStartTime": "2026-02-17T00:00:00",
+        "eventEndTime": "2026-02-21T20:00:00",
+        "itemBagDescriptionKey": "item_event_ticket_evergreen_desc_LunarNY0226",
+        "giftable": true,
+        "giftItem": "ITEM_GLOBAL_EVENT_TICKET_TO_GIFT",
+        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Lunar_New_Year_2026_TICKET_v1-1025x576-nologo.jpg",
+        "displayV2Enabled": true,
+        "backgroundImageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Lunar_New_Year_2026_TICKET_v1-1025x576-nologo.jpg",
+        "eventDatetimeRangeKey": "event_datetime_range_key_LunarNY0226",
+        "textRewardsKey": "text_rewards_key_LunarNY0226",
+        "iconRewards": [
+          {
+            "type": "POKECOIN",
+            "pokecoin": 200
+          },
+          {
+            "type": "POKEMON_ENCOUNTER",
+            "pokemonEncounter": {
+              "pokemonId": "BLITZLE",
+              "pokemonDisplay": {
+                "form": "BLITZLE_NORMAL"
+              }
+            }
+          },
+          {
+            "type": "POKEMON_ENCOUNTER",
+            "pokemonEncounter": {
+              "pokemonId": "DARUMAKA",
+              "pokemonDisplay": {
+                "form": "DARUMAKA_NORMAL"
+              }
+            }
+          }
+        ],
+        "detailsLinkKey": "details_link_key_LUNAR_NEW_YEAR_FEB2026",
+        "clientEventStartTimeUtcMs": "1771286400000",
+        "clientEventEndTimeUtcMs": "1771704000000"
+      },
+      "nameOverride": "general1.ticket._LunarNY0226_title",
+      "descriptionOverride": "item_event_ticket_evergreen_desc_LunarNY0226"
+    }
+  },
+  {
+    "templateId": "ITEM_GLOBAL_EVENT_TICKET_TO_GIFT",
+    "data": {
+      "itemId": "ITEM_GLOBAL_EVENT_TICKET_TO_GIFT",
+      "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
+      "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
+      "globalEventTicket": {
+        "eventStartTime": "2026-02-17T00:00:00",
+        "eventEndTime": "2026-02-21T20:00:00",
+        "itemBagDescriptionKey": "item_event_ticket_evergreen_details_LunarNY0226",
+        "ticketItem": "ITEM_GLOBAL_EVENT_TICKET",
+        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Lunar_New_Year_2026_TICKET_v1-1025x576-nologo.jpg",
+        "clientEventStartTimeUtcMs": "1771286400000",
+        "clientEventEndTimeUtcMs": "1771704000000"
+      },
+      "ignoreInventorySpace": true,
+      "nameOverride": "general1.ticket._LunarNY0226_title",
+      "descriptionOverride": "item_event_ticket_evergreen_details_LunarNY0226"
+    }
+  },
+  {
+    "templateId": "ITEM_GOLDEN_PINAP_BERRY",
+    "data": {
+      "itemId": "ITEM_GOLDEN_PINAP_BERRY",
+      "itemType": "ITEM_TYPE_FOOD",
+      "category": "ITEM_CATEGORY_FOOD",
+      "dropTrainerLevel": 20,
+      "food": {
+        "itemEffect": [
+          "ITEM_EFFECT_CANDY_AWARD",
+          "ITEM_EFFECT_CAP_CHANCE_SINGLE_THROW"
+        ],
+        "itemEffectPercent": [
+          2.3334,
+          1.8
+        ],
+        "growthPercent": 0.1,
+        "berryMultiplier": 2,
+        "remoteBerryMultiplier": 0.5,
+        "numBuddyAffectionPoints": 2,
+        "mapDurationMs": "10800000",
+        "timeFullDurationMs": "10800000",
+        "numBuddyHungerPoints": 6
+      }
+    }
+  },
+  {
+    "templateId": "ITEM_GOLDEN_RAZZ_BERRY",
+    "data": {
+      "itemId": "ITEM_GOLDEN_RAZZ_BERRY",
+      "itemType": "ITEM_TYPE_FOOD",
+      "category": "ITEM_CATEGORY_FOOD",
+      "dropTrainerLevel": 10,
+      "food": {
+        "itemEffect": [
+          "ITEM_EFFECT_CAP_CHANCE_SINGLE_THROW",
+          "ITEM_EFFECT_FULL_MOTIVATION"
+        ],
+        "itemEffectPercent": [
+          2.5,
+          1
+        ],
+        "growthPercent": 0.1,
+        "berryMultiplier": 1,
+        "remoteBerryMultiplier": 1,
+        "numBuddyAffectionPoints": 2,
+        "mapDurationMs": "10800000",
+        "timeFullDurationMs": "10800000",
+        "numBuddyHungerPoints": 6
+      }
+    }
+  },
+  {
+    "templateId": "ITEM_GREAT_BALL",
+    "data": {
+      "itemId": "ITEM_GREAT_BALL",
+      "itemType": "ITEM_TYPE_POKEBALL",
+      "category": "ITEM_CATEGORY_POKEBALL",
+      "dropTrainerLevel": 12
+    }
+  },
+  {
+    "templateId": "ITEM_HYPER_POTION",
+    "data": {
+      "itemId": "ITEM_HYPER_POTION",
+      "itemType": "ITEM_TYPE_POTION",
+      "category": "ITEM_CATEGORY_MEDICINE",
+      "dropTrainerLevel": 15,
+      "potion": {
+        "staAmount": 200
+      }
+    }
+  },
+  {
+    "templateId": "ITEM_INCENSE_BELUGA_BOX",
+    "data": {
+      "itemId": "ITEM_INCENSE_BELUGA_BOX",
+      "itemType": "ITEM_TYPE_INCENSE",
+      "category": "ITEM_CATEGORY_INCENSE",
+      "dropTrainerLevel": 1,
+      "incense": {
+        "incenseLifetimeSeconds": 3600,
+        "spawnTableProbability": 1
+      }
+    }
+  },
+  {
+    "templateId": "ITEM_INCENSE_DAILY_ADVENTURE",
+    "data": {
+      "itemId": "ITEM_INCENSE_DAILY_ADVENTURE",
+      "itemType": "ITEM_TYPE_INCENSE",
+      "category": "ITEM_CATEGORY_INCENSE",
+      "dropTrainerLevel": 6,
+      "incense": {
+        "incenseLifetimeSeconds": 1800,
+        "spawnTableProbability": 0.25
+      },
+      "ignoreInventorySpace": true
+    }
+  },
+  {
+    "templateId": "ITEM_INCENSE_DAY_BONUS",
+    "data": {
+      "itemId": "ITEM_INCENSE_DAY_BONUS",
+      "itemType": "ITEM_TYPE_INCENSE",
+      "category": "ITEM_CATEGORY_INCENSE",
+      "dropTrainerLevel": 1,
+      "incense": {
+        "incenseLifetimeSeconds": 3600,
+        "spawnTableProbability": 1
+      },
+      "ignoreInventorySpace": true
+    }
+  },
+  {
+    "templateId": "ITEM_INCENSE_NIGHT_BONUS",
+    "data": {
+      "itemId": "ITEM_INCENSE_NIGHT_BONUS",
+      "itemType": "ITEM_TYPE_INCENSE",
+      "category": "ITEM_CATEGORY_INCENSE",
+      "dropTrainerLevel": 1,
+      "incense": {
+        "incenseLifetimeSeconds": 3600,
+        "spawnTableProbability": 1
+      },
+      "ignoreInventorySpace": true
+    }
+  },
+  {
+    "templateId": "ITEM_INCENSE_ORDINARY",
+    "data": {
+      "itemId": "ITEM_INCENSE_ORDINARY",
+      "itemType": "ITEM_TYPE_INCENSE",
+      "category": "ITEM_CATEGORY_INCENSE",
+      "dropTrainerLevel": 1,
+      "incense": {
+        "incenseLifetimeSeconds": 7200
+      }
+    }
+  },
+  {
+    "templateId": "ITEM_INCENSE_SPARKLY",
+    "data": {
+      "itemId": "ITEM_INCENSE_SPARKLY",
+      "itemType": "ITEM_TYPE_INCENSE",
+      "category": "ITEM_CATEGORY_INCENSE",
+      "dropTrainerLevel": 1,
+      "incense": {
+        "incenseLifetimeSeconds": 1800,
+        "spawnTableProbability": 1
+      }
+    }
+  },
+  {
+    "templateId": "ITEM_INCUBATOR_BASIC",
+    "data": {
+      "itemId": "ITEM_INCUBATOR_BASIC",
+      "itemType": "ITEM_TYPE_INCUBATOR",
+      "category": "ITEM_CATEGORY_INCUBATOR",
+      "dropTrainerLevel": 1,
+      "eggIncubator": {
+        "incubatorType": "INCUBATOR_DISTANCE",
+        "uses": 3,
+        "distanceMultiplier": 1
+      }
+    }
+  },
+  {
+    "templateId": "ITEM_INCUBATOR_BASIC_UNLIMITED",
+    "data": {
+      "itemId": "ITEM_INCUBATOR_BASIC_UNLIMITED",
+      "itemType": "ITEM_TYPE_INCUBATOR",
+      "category": "ITEM_CATEGORY_INCUBATOR",
+      "dropTrainerLevel": 100,
+      "eggIncubator": {
+        "incubatorType": "INCUBATOR_DISTANCE",
+        "distanceMultiplier": 1
+      }
+    }
+  },
+  {
+    "templateId": "ITEM_INCUBATOR_SPECIAL",
+    "data": {
+      "itemId": "ITEM_INCUBATOR_SPECIAL",
+      "itemType": "ITEM_TYPE_INCUBATOR",
+      "category": "ITEM_CATEGORY_INCUBATOR",
+      "dropTrainerLevel": 15,
+      "eggIncubator": {
+        "incubatorType": "INCUBATOR_DISTANCE",
+        "distanceMultiplier": 1
+      },
+      "ignoreInventorySpace": true,
+      "hideItemInInventory": true
+    }
+  },
+  {
+    "templateId": "ITEM_INCUBATOR_SUPER",
+    "data": {
+      "itemId": "ITEM_INCUBATOR_SUPER",
+      "itemType": "ITEM_TYPE_INCUBATOR",
+      "category": "ITEM_CATEGORY_INCUBATOR",
+      "dropTrainerLevel": 1,
+      "eggIncubator": {
+        "incubatorType": "INCUBATOR_DISTANCE",
+        "uses": 3,
+        "distanceMultiplier": 0.6666667
+      }
+    }
+  },
+  {
+    "templateId": "ITEM_INCUBATOR_TIMED",
+    "data": {
+      "itemId": "ITEM_INCUBATOR_TIMED",
+      "itemType": "ITEM_TYPE_INCUBATOR",
+      "category": "ITEM_CATEGORY_INCUBATOR",
+      "dropTrainerLevel": 100,
+      "eggIncubator": {
+        "incubatorType": "INCUBATOR_DISTANCE",
+        "distanceMultiplier": 1,
+        "expiredIncubatorReplacement": {
+          "incubatorReplacement": "ITEM_INCUBATOR_BASIC",
+          "usesCountOverride": 1
+        },
+        "useBonusIncubatorAttributes": true,
+        "maxHatchSummaryEntries": 10
+      }
+    }
+  },
+  {
+    "templateId": "ITEM_ITEM_STORAGE_UPGRADE",
+    "data": {
+      "itemId": "ITEM_ITEM_STORAGE_UPGRADE",
+      "itemType": "ITEM_TYPE_INVENTORY_UPGRADE",
+      "category": "ITEM_CATEGORY_INVENTORY_UPGRADE",
+      "dropTrainerLevel": 100,
+      "inventoryUpgrade": {
+        "additionalStorage": 50,
+        "upgradeType": "INCREASE_ITEM_STORAGE"
+      }
+    }
+  },
+  {
+    "templateId": "ITEM_KINGS_ROCK",
+    "data": {
+      "itemId": "ITEM_KINGS_ROCK",
+      "itemType": "ITEM_TYPE_EVOLUTION_REQUIREMENT",
+      "category": "ITEM_CATEGORY_EVOLUTION_REQUIREMENT",
+      "dropTrainerLevel": 10
+    }
+  },
+  {
+    "templateId": "ITEM_LEADER_MAP",
+    "data": {
+      "itemId": "ITEM_LEADER_MAP",
+      "itemType": "ITEM_TYPE_INCIDENT_TICKET",
+      "category": "ITEM_CATEGORY_INCIDENT_TICKET",
+      "dropTrainerLevel": 8,
+      "incidentTicket": {
+        "ignoreFullInventory": true
+      }
+    }
+  },
+  {
+    "templateId": "ITEM_LEADER_MAP_FRAGMENT",
+    "data": {
+      "itemId": "ITEM_LEADER_MAP_FRAGMENT",
+      "itemType": "ITEM_TYPE_INCIDENT_TICKET",
+      "category": "ITEM_CATEGORY_INCIDENT_TICKET",
+      "dropTrainerLevel": 8,
+      "incidentTicket": {
+        "upgradeRequirementCount": 6,
+        "upgradedItem": "ITEM_LEADER_MAP"
+      }
+    }
+  },
+  {
+    "templateId": "ITEM_LUCKY_EGG",
+    "data": {
+      "itemId": "ITEM_LUCKY_EGG",
+      "itemType": "ITEM_TYPE_XP_BOOST",
+      "category": "ITEM_CATEGORY_XP_BOOST",
+      "dropTrainerLevel": 1,
+      "xpBoost": {
+        "xpMultiplier": 2,
+        "boostDurationMs": 1800000
+      }
+    }
+  },
+  {
+    "templateId": "ITEM_LUCKY_FRIEND_APPLICATOR",
+    "data": {
+      "itemId": "ITEM_LUCKY_FRIEND_APPLICATOR",
+      "itemType": "ITEM_TYPE_FRIEND_BOOST",
+      "category": "ITEM_CATEGORY_XP_BOOST"
+    }
+  },
+  {
+    "templateId": "ITEM_MASTER_BALL",
+    "data": {
+      "itemId": "ITEM_MASTER_BALL",
+      "itemType": "ITEM_TYPE_POKEBALL",
+      "category": "ITEM_CATEGORY_POKEBALL",
+      "dropTrainerLevel": 1
+    }
+  },
+  {
+    "templateId": "ITEM_MAX_BOOST",
+    "data": {
+      "itemId": "ITEM_MAX_BOOST",
+      "itemType": "ITEM_TYPE_BATTLE",
+      "category": "ITEM_CATEGORY_BOOST",
+      "dropTrainerLevel": 12
+    }
+  },
+  {
+    "templateId": "ITEM_MAX_POTION",
+    "data": {
+      "itemId": "ITEM_MAX_POTION",
+      "itemType": "ITEM_TYPE_POTION",
+      "category": "ITEM_CATEGORY_MEDICINE",
+      "dropTrainerLevel": 25,
+      "potion": {
+        "staPercent": 1
+      }
+    }
+  },
+  {
+    "templateId": "ITEM_MAX_REVIVE",
+    "data": {
+      "itemId": "ITEM_MAX_REVIVE",
+      "itemType": "ITEM_TYPE_REVIVE",
+      "category": "ITEM_CATEGORY_MEDICINE",
+      "dropTrainerLevel": 30,
+      "revive": {
+        "staPercent": 1
+      }
+    }
+  },
+  {
+    "templateId": "ITEM_METAL_COAT",
+    "data": {
+      "itemId": "ITEM_METAL_COAT",
+      "itemType": "ITEM_TYPE_EVOLUTION_REQUIREMENT",
+      "category": "ITEM_CATEGORY_EVOLUTION_REQUIREMENT",
+      "dropTrainerLevel": 10
+    }
+  },
+  {
+    "templateId": "ITEM_MOVE_REROLL_ELITE_FAST_ATTACK",
+    "data": {
+      "itemId": "ITEM_MOVE_REROLL_ELITE_FAST_ATTACK",
+      "itemType": "ITEM_TYPE_MOVE_REROLL",
+      "category": "ITEM_CATEGORY_MOVE_REROLL",
+      "dropTrainerLevel": 1
+    }
+  },
+  {
+    "templateId": "ITEM_MOVE_REROLL_ELITE_SPECIAL_ATTACK",
+    "data": {
+      "itemId": "ITEM_MOVE_REROLL_ELITE_SPECIAL_ATTACK",
+      "itemType": "ITEM_TYPE_MOVE_REROLL",
+      "category": "ITEM_CATEGORY_MOVE_REROLL",
+      "dropTrainerLevel": 1
+    }
+  },
+  {
+    "templateId": "ITEM_MOVE_REROLL_FAST_ATTACK",
+    "data": {
+      "itemId": "ITEM_MOVE_REROLL_FAST_ATTACK",
+      "itemType": "ITEM_TYPE_MOVE_REROLL",
+      "category": "ITEM_CATEGORY_MOVE_REROLL",
+      "dropTrainerLevel": 15
+    }
+  },
+  {
+    "templateId": "ITEM_MOVE_REROLL_OTHER_SPECIAL_ATTACK_A",
+    "data": {
+      "itemId": "ITEM_MOVE_REROLL_OTHER_SPECIAL_ATTACK_A",
+      "itemType": "ITEM_TYPE_MOVE_REROLL",
+      "category": "ITEM_CATEGORY_MOVE_REROLL",
+      "ignoreInventorySpace": true
+    }
+  },
+  {
+    "templateId": "ITEM_MOVE_REROLL_SPECIAL_ATTACK",
+    "data": {
+      "itemId": "ITEM_MOVE_REROLL_SPECIAL_ATTACK",
+      "itemType": "ITEM_TYPE_MOVE_REROLL",
+      "category": "ITEM_CATEGORY_MOVE_REROLL",
+      "dropTrainerLevel": 25
+    }
+  },
+  {
+    "templateId": "ITEM_MP",
+    "data": {
+      "itemId": "ITEM_MP",
+      "itemType": "ITEM_TYPE_MP",
+      "category": "ITEM_CATEGORY_MP",
+      "dropTrainerLevel": 1,
+      "ignoreInventorySpace": true
+    }
+  },
+  {
+    "templateId": "ITEM_MP_REPLENISH",
+    "data": {
+      "itemId": "ITEM_MP_REPLENISH",
+      "itemType": "ITEM_TYPE_MP_REPLENISH",
+      "category": "ITEM_CATEGORY_BREAD",
+      "dropTrainerLevel": 1,
+      "itemCap": 12,
+      "replenishMp": {
+        "mpAmount": 800
+      }
+    }
+  },
+  {
+    "templateId": "ITEM_NANAB_BERRY",
+    "data": {
+      "itemId": "ITEM_NANAB_BERRY",
+      "itemType": "ITEM_TYPE_FOOD",
+      "category": "ITEM_CATEGORY_FOOD",
+      "dropTrainerLevel": 4,
+      "food": {
+        "itemEffect": [
+          "ITEM_EFFECT_CAP_TARGET_SLOW"
+        ],
+        "itemEffectPercent": [
+          0
+        ],
+        "growthPercent": 0.1,
+        "berryMultiplier": 1.25,
+        "remoteBerryMultiplier": 0.3125,
+        "numBuddyAffectionPoints": 1,
+        "mapDurationMs": "3600000",
+        "timeFullDurationMs": "3600000",
+        "numBuddyHungerPoints": 2
+      }
+    }
+  },
+  {
+    "templateId": "ITEM_OTHER_EVOLUTION_STONE_A",
+    "data": {
+      "itemId": "ITEM_OTHER_EVOLUTION_STONE_A",
+      "itemType": "ITEM_TYPE_EVOLUTION_REQUIREMENT",
+      "category": "ITEM_CATEGORY_EVOLUTION_REQUIREMENT",
+      "dropTrainerLevel": 10,
+      "ignoreInventorySpace": true,
+      "itemCap": 9999
+    }
+  },
+  {
+    "templateId": "ITEM_OTHER_EVOLUTION_STONE_MAPLE_A",
+    "data": {
+      "itemId": "ITEM_OTHER_EVOLUTION_STONE_MAPLE_A",
+      "itemType": "ITEM_TYPE_EVOLUTION_REQUIREMENT",
+      "category": "ITEM_CATEGORY_EVOLUTION_REQUIREMENT",
+      "dropTrainerLevel": 10,
+      "ignoreInventorySpace": true,
+      "hideItemInInventory": true
+    }
+  },
+  {
+    "templateId": "ITEM_OTHER_EVOLUTION_STONE_MAPLE_B",
+    "data": {
+      "itemId": "ITEM_OTHER_EVOLUTION_STONE_MAPLE_B",
+      "itemType": "ITEM_TYPE_EVOLUTION_REQUIREMENT",
+      "category": "ITEM_CATEGORY_EVOLUTION_REQUIREMENT",
+      "dropTrainerLevel": 10,
+      "ignoreInventorySpace": true,
+      "hideItemInInventory": true
+    }
+  },
+  {
+    "templateId": "ITEM_OTHER_EVOLUTION_STONE_MAPLE_C",
+    "data": {
+      "itemId": "ITEM_OTHER_EVOLUTION_STONE_MAPLE_C",
+      "itemType": "ITEM_TYPE_EVOLUTION_REQUIREMENT",
+      "category": "ITEM_CATEGORY_EVOLUTION_REQUIREMENT",
+      "dropTrainerLevel": 10,
+      "ignoreInventorySpace": true,
+      "hideItemInInventory": true
+    }
+  },
+  {
+    "templateId": "ITEM_PAID_RAID_TICKET",
+    "data": {
+      "itemId": "ITEM_PAID_RAID_TICKET",
+      "itemType": "ITEM_TYPE_RAID_TICKET",
+      "category": "ITEM_CATEGORY_RAID_TICKET",
+      "dropTrainerLevel": 1
+    }
+  },
+  {
+    "templateId": "ITEM_PINAP_BERRY",
+    "data": {
+      "itemId": "ITEM_PINAP_BERRY",
+      "itemType": "ITEM_TYPE_FOOD",
+      "category": "ITEM_CATEGORY_FOOD",
+      "dropTrainerLevel": 18,
+      "food": {
+        "itemEffect": [
+          "ITEM_EFFECT_CANDY_AWARD"
+        ],
+        "itemEffectPercent": [
+          2
+        ],
+        "growthPercent": 0.1,
+        "berryMultiplier": 1,
+        "remoteBerryMultiplier": 0.25,
+        "numBuddyAffectionPoints": 1,
+        "mapDurationMs": "3600000",
+        "timeFullDurationMs": "3600000",
+        "numBuddyHungerPoints": 2
+      }
+    }
+  },
+  {
+    "templateId": "ITEM_POFFIN",
+    "data": {
+      "itemId": "ITEM_POFFIN",
+      "itemType": "ITEM_TYPE_FOOD",
+      "category": "ITEM_CATEGORY_BUDDY_EXCLUSIVE_FOOD",
+      "food": {
+        "numBuddyAffectionPoints": 1,
+        "mapDurationMs": "21600000",
+        "timeFullDurationMs": "21600000",
+        "numBuddyHungerPoints": 6
+      }
+    }
+  },
+  {
+    "templateId": "ITEM_POKEMON_STORAGE_UPGRADE",
+    "data": {
+      "itemId": "ITEM_POKEMON_STORAGE_UPGRADE",
+      "itemType": "ITEM_TYPE_INVENTORY_UPGRADE",
+      "category": "ITEM_CATEGORY_INVENTORY_UPGRADE",
+      "dropTrainerLevel": 100,
+      "inventoryUpgrade": {
+        "additionalStorage": 50,
+        "upgradeType": "INCREASE_POKEMON_STORAGE"
+      }
+    }
+  },
+  {
+    "templateId": "ITEM_POKE_BALL",
+    "data": {
+      "itemId": "ITEM_POKE_BALL",
+      "itemType": "ITEM_TYPE_POKEBALL",
+      "category": "ITEM_CATEGORY_POKEBALL",
+      "dropTrainerLevel": 1
+    }
+  },
+  {
+    "templateId": "ITEM_POSTCARD_INVENTORY",
+    "data": {
+      "itemId": "ITEM_POSTCARD_INVENTORY",
+      "itemType": "ITEM_TYPE_POSTCARD_INVENTORY",
+      "category": "ITEM_CATEGORY_POSTCARD_INVENTORY",
+      "dropTrainerLevel": 100,
+      "nameOverride": "item_postcard_inventory_name_stamp",
+      "descriptionOverride": "item_postcard_inventory_desc_stamp"
+    }
+  },
+  {
+    "templateId": "ITEM_POSTCARD_STORAGE_UPGRADE",
+    "data": {
+      "itemId": "ITEM_POSTCARD_STORAGE_UPGRADE",
+      "itemType": "ITEM_TYPE_INVENTORY_UPGRADE",
+      "category": "ITEM_CATEGORY_INVENTORY_UPGRADE",
+      "dropTrainerLevel": 100,
+      "inventoryUpgrade": {
+        "additionalStorage": 50,
+        "upgradeType": "INCREASE_POSTCARD_STORAGE"
+      }
+    }
+  },
+  {
+    "templateId": "ITEM_POTION",
+    "data": {
+      "itemId": "ITEM_POTION",
+      "itemType": "ITEM_TYPE_POTION",
+      "category": "ITEM_CATEGORY_MEDICINE",
+      "dropTrainerLevel": 5,
+      "potion": {
+        "staAmount": 20
+      }
+    }
+  },
+  {
+    "templateId": "ITEM_PREMIER_BALL",
+    "data": {
+      "itemId": "ITEM_PREMIER_BALL",
+      "itemType": "ITEM_TYPE_POKEBALL",
+      "category": "ITEM_CATEGORY_POKEBALL",
+      "dropTrainerLevel": 100
+    }
+  },
+  {
+    "templateId": "ITEM_RARE_CANDY",
+    "data": {
+      "itemId": "ITEM_RARE_CANDY",
+      "itemType": "ITEM_TYPE_CANDY",
+      "category": "ITEM_CATEGORY_CANDY",
+      "dropTrainerLevel": 5
+    }
+  },
+  {
+    "templateId": "ITEM_RAZZ_BERRY",
+    "data": {
+      "itemId": "ITEM_RAZZ_BERRY",
+      "itemType": "ITEM_TYPE_FOOD",
+      "category": "ITEM_CATEGORY_FOOD",
+      "dropTrainerLevel": 8,
+      "food": {
+        "itemEffect": [
+          "ITEM_EFFECT_CAP_CHANCE_SINGLE_THROW"
+        ],
+        "itemEffectPercent": [
+          1.5
+        ],
+        "growthPercent": 0.1,
+        "berryMultiplier": 1,
+        "remoteBerryMultiplier": 0.25,
+        "numBuddyAffectionPoints": 1,
+        "mapDurationMs": "3600000",
+        "timeFullDurationMs": "3600000",
+        "numBuddyHungerPoints": 2
+      }
+    }
+  },
+  {
+    "templateId": "ITEM_REMOTE_RAID_TICKET",
+    "data": {
+      "itemId": "ITEM_REMOTE_RAID_TICKET",
+      "itemType": "ITEM_TYPE_RAID_TICKET",
+      "category": "ITEM_CATEGORY_RAID_TICKET",
+      "dropTrainerLevel": 5
+    }
+  },
+  {
+    "templateId": "ITEM_RESOURCE_CROWNED_ZACIAN",
+    "data": {
+      "itemId": "ITEM_RESOURCE_CROWNED_ZACIAN",
+      "itemType": "ITEM_TYPE_EVOLUTION_REQUIREMENT",
+      "category": "ITEM_CATEGORY_EVOLUTION_REQUIREMENT",
+      "dropTrainerLevel": 1,
+      "ignoreInventorySpace": true,
+      "itemCap": 10000,
+      "hideItemInInventory": true
+    }
+  },
+  {
+    "templateId": "ITEM_RESOURCE_CROWNED_ZAMAZENTA",
+    "data": {
+      "itemId": "ITEM_RESOURCE_CROWNED_ZAMAZENTA",
+      "itemType": "ITEM_TYPE_EVOLUTION_REQUIREMENT",
+      "category": "ITEM_CATEGORY_EVOLUTION_REQUIREMENT",
+      "dropTrainerLevel": 1,
+      "ignoreInventorySpace": true,
+      "itemCap": 10000,
+      "hideItemInInventory": true
+    }
+  },
+  {
+    "templateId": "ITEM_REVIVE",
+    "data": {
+      "itemId": "ITEM_REVIVE",
+      "itemType": "ITEM_TYPE_REVIVE",
+      "category": "ITEM_CATEGORY_MEDICINE",
+      "dropTrainerLevel": 5,
+      "revive": {
+        "staPercent": 0.5
+      }
+    }
+  },
+  {
+    "templateId": "ITEM_ROUTE_MAKER",
+    "data": {
+      "itemId": "ITEM_ROUTE_MAKER",
+      "itemType": "ITEM_TYPE_ROUTE_MAKER",
+      "category": "ITEM_CATEGORY_ROUTE_MAKER",
+      "dropTrainerLevel": 100
+    }
+  },
+  {
+    "templateId": "ITEM_SHADOW_GEM",
+    "data": {
+      "itemId": "ITEM_SHADOW_GEM",
+      "itemType": "ITEM_TYPE_INCIDENT_TICKET",
+      "category": "ITEM_CATEGORY_INCIDENT_TICKET",
+      "dropTrainerLevel": 100,
+      "incidentTicket": {
+        "ignoreFullInventory": true
+      }
+    }
+  },
+  {
+    "templateId": "ITEM_SHADOW_GEM_FRAGMENT",
+    "data": {
+      "itemId": "ITEM_SHADOW_GEM_FRAGMENT",
+      "itemType": "ITEM_TYPE_INCIDENT_TICKET",
+      "category": "ITEM_CATEGORY_INCIDENT_TICKET",
+      "dropTrainerLevel": 5,
+      "incidentTicket": {
+        "upgradeRequirementCount": 4,
+        "upgradedItem": "ITEM_SHADOW_GEM"
+      }
+    }
+  },
+  {
+    "templateId": "ITEM_SINGLE_STAT_INCREASE",
+    "data": {
+      "itemId": "ITEM_SINGLE_STAT_INCREASE",
+      "itemType": "ITEM_TYPE_STAT_INCREASE",
+      "category": "ITEM_CATEGORY_STAT_INCREASE",
+      "ignoreInventorySpace": true,
+      "statIncrease": {
+        "statsToIncreaseLimit": 1
+      }
+    }
+  },
+  {
+    "templateId": "ITEM_SPECIAL_CAMERA",
+    "data": {
+      "itemId": "ITEM_SPECIAL_CAMERA",
+      "itemType": "ITEM_TYPE_CAMERA",
+      "category": "ITEM_CATEGORY_CAMERA",
+      "dropTrainerLevel": 100,
+      "ignoreInventorySpace": true
+    }
+  },
+  {
+    "templateId": "ITEM_STAR_PIECE",
+    "data": {
+      "itemId": "ITEM_STAR_PIECE",
+      "itemType": "ITEM_TYPE_STARDUST_BOOST",
+      "category": "ITEM_CATEGORY_STARDUST_BOOST",
+      "dropTrainerLevel": 1,
+      "stardustBoost": {
+        "stardustMultiplier": 1.5,
+        "boostDurationMs": 1800000
+      }
+    }
+  },
+  {
+    "templateId": "ITEM_STICKER_INVENTORY",
+    "data": {
+      "itemId": "ITEM_STICKER_INVENTORY",
+      "itemType": "ITEM_TYPE_STICKER_INVENTORY",
+      "category": "ITEM_CATEGORY_STICKER",
+      "dropTrainerLevel": 100
+    }
+  },
+  {
+    "templateId": "ITEM_SUN_STONE",
+    "data": {
+      "itemId": "ITEM_SUN_STONE",
+      "itemType": "ITEM_TYPE_EVOLUTION_REQUIREMENT",
+      "category": "ITEM_CATEGORY_EVOLUTION_REQUIREMENT",
+      "dropTrainerLevel": 10
+    }
+  },
+  {
+    "templateId": "ITEM_SUPER_POTION",
+    "data": {
+      "itemId": "ITEM_SUPER_POTION",
+      "itemType": "ITEM_TYPE_POTION",
+      "category": "ITEM_CATEGORY_MEDICINE",
+      "dropTrainerLevel": 10,
+      "potion": {
+        "staAmount": 50
+      }
+    }
+  },
+  {
+    "templateId": "ITEM_TEAM_CHANGE",
+    "data": {
+      "itemId": "ITEM_TEAM_CHANGE",
+      "itemType": "ITEM_TYPE_TEAM_CHANGE",
+      "category": "ITEM_CATEGORY_TEAM_CHANGE",
+      "dropTrainerLevel": 100
+    }
+  },
+  {
+    "templateId": "ITEM_TICKET_CITY_SAFARI_00",
+    "data": {
+      "itemId": "ITEM_TICKET_CITY_SAFARI_00",
+      "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
+      "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
+      "globalEventTicket": {
+        "eventStartTime": "2023-10-09T10:00:00",
+        "eventEndTime": "2024-10-08T22:00:00",
+        "itemBagDescriptionKey": "item_ticket_city_safari_00_desc",
+        "clientEventStartTimeUtcMs": "1696845600000",
+        "clientEventEndTimeUtcMs": "1728424800000"
+      }
+    }
+  },
+  {
+    "templateId": "ITEM_TICKET_CITY_SAFARI_01",
+    "data": {
+      "itemId": "ITEM_TICKET_CITY_SAFARI_01",
+      "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
+      "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
+      "globalEventTicket": {
+        "eventStartTime": "2023-10-15T10:00:00",
+        "eventEndTime": "2024-10-14T22:00:00",
+        "itemBagDescriptionKey": "item_ticket_city_safari_01_desc",
+        "clientEventStartTimeUtcMs": "1697364000000",
+        "clientEventEndTimeUtcMs": "1728943200000"
+      }
+    }
+  },
+  {
+    "templateId": "ITEM_TICKET_CITY_SAFARI_02",
+    "data": {
+      "itemId": "ITEM_TICKET_CITY_SAFARI_02",
+      "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
+      "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
+      "globalEventTicket": {
+        "eventStartTime": "2023-11-06T10:00:00",
+        "eventEndTime": "2024-11-05T22:00:00",
+        "itemBagDescriptionKey": "item_ticket_city_safari_02_desc",
+        "clientEventStartTimeUtcMs": "1699264800000",
+        "clientEventEndTimeUtcMs": "1730844000000"
+      }
+    }
+  },
+  {
+    "templateId": "ITEM_TICKET_CITY_SAFARI_04",
+    "data": {
+      "itemId": "ITEM_TICKET_CITY_SAFARI_04",
+      "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
+      "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
+      "globalEventTicket": {
+        "eventStartTime": "2024-11-23T10:00:00",
+        "eventEndTime": "2024-11-24T18:15:00",
+        "itemBagDescriptionKey": "item_event_ticket_evergreen_desc_GOWA2024GSBEA",
+        "clientEventStartTimeUtcMs": "1732356000000",
+        "clientEventEndTimeUtcMs": "1732472100000"
+      },
+      "ignoreInventorySpace": true,
+      "nameOverride": "general1.ticket._GOWA2024GSBEA_title",
+      "descriptionOverride": "item_event_ticket_evergreen_details_GOWA2024GSBEA"
+    }
+  },
+  {
+    "templateId": "ITEM_TRIPLE_STAT_INCREASE",
+    "data": {
+      "itemId": "ITEM_TRIPLE_STAT_INCREASE",
+      "itemType": "ITEM_TYPE_STAT_INCREASE",
+      "category": "ITEM_CATEGORY_STAT_INCREASE",
+      "ignoreInventorySpace": true,
+      "statIncrease": {
+        "statsToIncreaseLimit": 3
+      }
+    }
+  },
+  {
+    "templateId": "ITEM_TROY_DISK",
+    "data": {
+      "itemId": "ITEM_TROY_DISK",
+      "itemType": "ITEM_TYPE_DISK",
+      "category": "ITEM_CATEGORY_DISK",
+      "dropTrainerLevel": 1
+    }
+  },
+  {
+    "templateId": "ITEM_TROY_DISK_GLACIAL",
+    "data": {
+      "itemId": "ITEM_TROY_DISK_GLACIAL",
+      "itemType": "ITEM_TYPE_DISK",
+      "category": "ITEM_CATEGORY_DISK",
+      "dropTrainerLevel": 1
+    }
+  },
+  {
+    "templateId": "ITEM_TROY_DISK_MAGNETIC",
+    "data": {
+      "itemId": "ITEM_TROY_DISK_MAGNETIC",
+      "itemType": "ITEM_TYPE_DISK",
+      "category": "ITEM_CATEGORY_DISK",
+      "dropTrainerLevel": 1
+    }
+  },
+  {
+    "templateId": "ITEM_TROY_DISK_MOSSY",
+    "data": {
+      "itemId": "ITEM_TROY_DISK_MOSSY",
+      "itemType": "ITEM_TYPE_DISK",
+      "category": "ITEM_CATEGORY_DISK",
+      "dropTrainerLevel": 1
+    }
+  },
+  {
+    "templateId": "ITEM_TROY_DISK_RAINY",
+    "data": {
+      "itemId": "ITEM_TROY_DISK_RAINY",
+      "itemType": "ITEM_TYPE_DISK",
+      "category": "ITEM_CATEGORY_DISK",
+      "dropTrainerLevel": 1
+    }
+  },
+  {
+    "templateId": "ITEM_TROY_DISK_SPARKLY",
+    "data": {
+      "itemId": "ITEM_TROY_DISK_SPARKLY",
+      "itemType": "ITEM_TYPE_DISK",
+      "category": "ITEM_CATEGORY_DISK",
+      "dropTrainerLevel": 1,
+      "itemCap": 1
+    }
+  },
+  {
+    "templateId": "ITEM_ULTRA_BALL",
+    "data": {
+      "itemId": "ITEM_ULTRA_BALL",
+      "itemType": "ITEM_TYPE_POKEBALL",
+      "category": "ITEM_CATEGORY_POKEBALL",
+      "dropTrainerLevel": 20
+    }
+  },
+  {
+    "templateId": "ITEM_UP_GRADE",
+    "data": {
+      "itemId": "ITEM_UP_GRADE",
+      "itemType": "ITEM_TYPE_EVOLUTION_REQUIREMENT",
+      "category": "ITEM_CATEGORY_EVOLUTION_REQUIREMENT",
+      "dropTrainerLevel": 10
+    }
+  },
+  {
+    "templateId": "ITEM_WEPAR_BERRY",
+    "data": {
+      "itemId": "ITEM_WEPAR_BERRY",
+      "itemType": "ITEM_TYPE_FOOD",
+      "category": "ITEM_CATEGORY_FOOD",
+      "dropTrainerLevel": 100,
+      "food": {
+        "itemEffect": [
+          "ITEM_EFFECT_CAP_TARGET_MAX"
+        ],
+        "itemEffectPercent": [
+          1
+        ],
+        "growthPercent": 0.1
+      }
+    }
+  },
+  {
+    "templateId": "ITEM_WILD_BALL",
+    "data": {
+      "itemId": "ITEM_WILD_BALL",
+      "itemType": "ITEM_TYPE_POKEBALL",
+      "category": "ITEM_CATEGORY_POKEBALL",
+      "dropTrainerLevel": 1
+    }
+  },
+  {
+    "templateId": "ITEM_WILD_BALL_PREMIER",
+    "data": {
+      "itemId": "ITEM_WILD_BALL_PREMIER",
+      "itemType": "ITEM_TYPE_POKEBALL",
+      "category": "ITEM_CATEGORY_POKEBALL",
+      "dropTrainerLevel": 1
+    }
+  },
+  {
+    "templateId": "ITEM_XL_RARE_CANDY",
+    "data": {
+      "itemId": "ITEM_XL_RARE_CANDY",
+      "itemType": "ITEM_TYPE_CANDY",
+      "category": "ITEM_CATEGORY_CANDY",
+      "dropTrainerLevel": 31
+    }
+  },
+  {
+    "templateId": "ITEM_X_ATTACK",
+    "data": {
+      "itemId": "ITEM_X_ATTACK",
+      "itemType": "ITEM_TYPE_BATTLE",
+      "category": "ITEM_CATEGORY_BOOST",
+      "dropTrainerLevel": 100
+    }
+  },
+  {
+    "templateId": "ITEM_X_DEFENSE",
+    "data": {
+      "itemId": "ITEM_X_DEFENSE",
+      "itemType": "ITEM_TYPE_BATTLE",
+      "category": "ITEM_CATEGORY_BOOST",
+      "dropTrainerLevel": 100
+    }
+  },
+  {
+    "templateId": "ITEM_X_MIRACLE",
+    "data": {
+      "itemId": "ITEM_X_MIRACLE",
+      "itemType": "ITEM_TYPE_BATTLE",
+      "category": "ITEM_CATEGORY_BOOST",
+      "dropTrainerLevel": 100
+    }
+  }
+]

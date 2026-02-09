@@ -1,0 +1,10 @@
+[
+  {
+    "templateId": "BATTLE_VISUAL_SETTINGS",
+    "data": {
+      "enhancementsEnabled": true,
+      "crowdTextureAsset": "tx_Stadium_Crowd",
+      "bannerTextureAsset": "tx_Stadium_Banner"
+    }
+  }
+]

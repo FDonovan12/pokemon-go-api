@@ -1,0 +1,10 @@
+[
+  {
+    "templateId": "ONBOARDING_SETTINGS",
+    "data": {
+      "disableInitialArPrompt": true,
+      "arPromptPlayerLevel": 55,
+      "adventureSyncPromptStep": 1
+    }
+  }
+]

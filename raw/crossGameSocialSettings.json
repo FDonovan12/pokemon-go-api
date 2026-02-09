@@ -1,0 +1,9 @@
+[
+  {
+    "templateId": "CROSS_GAME_SOCIAL_SETTING",
+    "data": {
+      "onlineStatusEnabledOverrideLevel": true,
+      "nianticProfileEnabledOverrideLevel": true
+    }
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "templateId": "GIFTING_SETTINGS",
+    "data": {
+      "enableGiftToStardust": true,
+      "stardustPerGift": 50,
+      "stardustMultiplier": [
+        {
+          "multiplier": 1,
+          "randomWeight": 0.6
+        },
+        {
+          "multiplier": 2,
+          "randomWeight": 0.3
+        },
+        {
+          "multiplier": 4,
+          "randomWeight": 0.1
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,11 @@
+[
+  {
+    "templateId": "MAP_OBJECTS_INTERACTION_RANGE_SETTINGS",
+    "data": {
+      "interactionRangeMeters": 80,
+      "farInteractionRangeMeters": 2000,
+      "remoteInteractionRangeMeters": 3500,
+      "whitePulseRadiusMeters": 50
+    }
+  }
+]

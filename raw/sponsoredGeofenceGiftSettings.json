@@ -1,0 +1,17 @@
+[
+  {
+    "templateId": "SPONSORED_GEOFENCE_GIFT_SETTINGS",
+    "data": {
+      "giftPersistenceTimeMs": 3000,
+      "mapPresentationTimeMs": 7000,
+      "enableSponsoredGeofenceGift": true,
+      "fullscreenDisableExitButtonTimeMs": 3000,
+      "balloonGiftSettings": {
+        "enableBalloonGift": true,
+        "balloonAutoDismissTimeMs": 600000,
+        "getWasabiAdRpcIntervalMs": 60000,
+        "enableBalloonWebView": true
+      }
+    }
+  }
+]

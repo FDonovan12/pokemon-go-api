@@ -1,0 +1,36 @@
+[
+  {
+    "templateId": "CLIENT_VNEXT_BATTLE_CONFIG",
+    "data": {
+      "raidsBattleConfig": {
+        "battleEndTimeoutThresholdMs": "2000",
+        "badNetworkWarningThresholdTurns": "12",
+        "deadNetworkDisconnectThresholdTurns": "60",
+        "noOpponentConnectionDisconnectThresholdTurns": "12"
+      },
+      "maxBattleConfig": {
+        "battleEndTimeoutThresholdMs": "2000",
+        "badNetworkWarningThresholdTurns": "12",
+        "deadNetworkDisconnectThresholdTurns": "60",
+        "noOpponentConnectionDisconnectThresholdTurns": "12"
+      },
+      "pvpBattleConfig": {
+        "battleEndTimeoutThresholdMs": "2000",
+        "badNetworkWarningThresholdTurns": "12",
+        "deadNetworkDisconnectThresholdTurns": "60",
+        "noOpponentConnectionDisconnectThresholdTurns": "12"
+      }
+    }
+  },
+  {
+    "templateId": "VNEXT_BATTLE_CONFIG",
+    "data": {
+      "raidsBattleConfig": {
+        "deadNetworkDisconnectThresholdTurns": "60"
+      },
+      "maxBattleConfig": {
+        "deadNetworkDisconnectThresholdTurns": "60"
+      }
+    }
+  }
+]

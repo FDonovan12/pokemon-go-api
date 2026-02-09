@@ -1,0 +1,12 @@
+[
+  {
+    "templateId": "MONODEPTH_SETTINGS",
+    "data": {
+      "enableOcclusions": true,
+      "occlusionsToggleVisible": true,
+      "enableGroundSuppression": true,
+      "minGroundSuppressionThresh": 0.3,
+      "suppressionChannelId": 1
+    }
+  }
+]

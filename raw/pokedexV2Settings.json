@@ -1,0 +1,15 @@
+[
+  {
+    "templateId": "POKEDEX_V2_SETTINGS",
+    "data": {
+      "maxTrackedPokemon": 1,
+      "pokemonAlertExcluded": [
+        "DITTO",
+        "ZORUA",
+        "ZOROARK",
+        "SMEARGLE",
+        "KECLEON"
+      ]
+    }
+  }
+]

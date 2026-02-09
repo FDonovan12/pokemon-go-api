@@ -1,0 +1,3001 @@
+[
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_ASUSASUS_I006D",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "asus ASUS_I006D",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_GOOGLEPIXEL6",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Google Pixel 6",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_GOOGLEPIXEL6A",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Google Pixel 6a",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_GOOGLEPIXEL6PRO",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Google Pixel 6 Pro",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_GOOGLEPIXEL7",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Google Pixel 7",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_GOOGLEPIXEL7A",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Google Pixel 7a",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_GOOGLEPIXEL7PRO",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Google Pixel 7 Pro",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_GOOGLEPIXEL8",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Google Pixel 8",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_GOOGLEPIXEL8PRO",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Google Pixel 8 Pro",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_GOOGLEPIXEL9",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Google Pixel 9",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_GOOGLEPIXEL9PRO",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Google Pixel 9 Pro",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_GOOGLEPIXELPROFOLD",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Google Pixel 9 Pro Fold",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_GOOGLEPIXELPROXL",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Google Pixel 9 Pro XL",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_LGELM_V600",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "LGE LM-V600",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_MOTOROLAMOTOROLAEDGE40",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "motorola motorola edge 40",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_ONEPLUSCPH2399",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "OnePlus CPH2399",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_ONEPLUSCPH2449",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "OnePlus CPH2449",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_ONEPLUSDN2103",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "OnePlus DN2103",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_ONEPLUSKB2003",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "OnePlus KB2003",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_ONEPLUSLE2113",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "OnePlus LE2113",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_ONEPLUSLE2123",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "OnePlus LE2123",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_ONEPLUSNE2213",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "OnePlus NE2213",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_ONEPLUS_CPH2413",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "OnePlus CPH2413",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_ONEPLUS_CPH2415",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "OnePlus CPH2415",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_ONEPLUS_CPH2417",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "OnePlus CPH2417",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_ONEPLUS_CPH2447",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "OnePlus CPH2447",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_ONEPLUS_CPH2451",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "OnePlus CPH2451",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_ONEPLUS_CPH2573",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "OnePlus CPH2573",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_ONEPLUS_CPH2581",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "OnePlus CPH2581",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_ONEPLUS_CPH2583",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "OnePlus CPH2583",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_ONEPLUS_CPH2585",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "OnePlus CPH2585",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_ONEPLUS_CPH2609",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "OnePlus CPH2609",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_ONEPLUS_LE2115",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "OnePlus LE2115",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_ONEPLUS_LE2120",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "OnePlus LE2120",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_ONEPLUS_LE2121",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "OnePlus LE2121",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_ONEPLUS_LE2123",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "OnePlus LE2123",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_ONEPLUS_LE2125",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "OnePlus LE2125",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_ONEPLUS_LE2127",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "OnePlus LE2127",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_ONEPLUS_NE2210",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "OnePlus NE2210",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_ONEPLUS_NE2211",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "OnePlus NE2211",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_ONEPLUS_NE2213",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "OnePlus NE2213",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_ONEPLUS_NE2215",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "OnePlus NE2215",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_ONEPLUS_NE2217",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "OnePlus NE2217",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_ONEPLUS_PHB110",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "OnePlus PHB110",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_ONEPLUS_PJD110",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "OnePlus PJD110",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_OPPOCPH2359",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "OPPO CPH2359",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSCG09",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SCG09",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSCG13",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SCG13",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSC_51A",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SC-51A",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSC_51B",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SC-51B",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSC_51C",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SC-51C",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSC_51D",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SC-51D",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSC_52C",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SC-52C",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSC_52D",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SC-52D",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSC_A528B",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-A528B",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_F711B",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-F711B",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_F711N",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-F711N",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_F711U",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-F711U",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_F721B",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-F721B",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_F721N",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-F721N",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_F721U",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-F721U",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_F731B",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-F731B",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_F731N",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-F731N",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_F731U",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-F731U",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_F926B",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-F926B",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_F926N",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-F926N",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_F926U",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-F926U",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_F936B",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-F936B",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_F936N",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-F936N",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_F936U",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-F936U",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_F946B",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-F946B",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_F946N",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-F946N",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_F946U",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-F946U",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_G780F",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-G780F",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_G780G",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-G780G",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_G781B",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-G781B",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_G781N",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-G781N",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_G781U",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-G781U",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_G781U1",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-G781U1",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_G781V",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-G781V",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_G781W",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-G781W",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_G980F",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-G980F",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_G981B",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-G981B",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_G981N",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-G981N",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_G981U",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-G981U",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_G981U1",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-G981U1",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_G985F",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-G985F",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_G986B",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-G986B",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_G986N",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-G986N",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_G986U",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-G986U",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_G986U1",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-G986U1",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_G988B",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-G988B",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_G988N",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-G988N",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_G988U",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-G988U",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_G990B",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-G990B",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_G990B2",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-G990B2",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_G990E",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-G990E",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_G990U",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-G990U",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_G990U2",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-G990U2",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_G990W2",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-G990W2",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_G9910",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-G9910",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_G991B",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-G991B",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_G991N",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-G991N",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_G991U",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-G991U",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_G991U1",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-G991U1",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_G991W",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-G991W",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_G996B",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-G996B",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_G996N",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-G996N",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_G996U",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-G996U",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_G996U1",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-G996U1",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_G998B",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-G998B",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_G998N",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-G998N",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_G998U",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-G998U",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_G998U1",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-G998U1",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_N970U",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-N970U",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_N980F",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-N980F",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_N981B",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-N981B",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_N981N",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-N981N",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_N981U",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-N981U",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_N9860",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-N9860",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_N986B",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-N986B",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_N986N",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-N986N",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_N986U",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-N986U",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_N986U1",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-N986U1",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_S711B",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-S711B",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_S711N",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-S711N",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_S711U",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-S711U",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_S711W",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-S711W",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_S901B",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-S901B",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_S901E",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-S901E",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_S901N",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-S901N",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_S901U",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-S901U",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_S901U1",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-S901U1",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_S901W",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-S901W",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_S9060",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-S9060",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_S906B",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-S906B",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_S906E",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-S906E",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_S906N",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-S906N",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_S906U",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-S906U",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_S906U1",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-S906U1",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_S9080",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-S9080",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_S908B",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-S908B",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_S908E",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-S908E",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_S908N",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-S908N",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_S908U",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-S908U",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_S908U1",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-S908U1",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_S908W",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-S908W",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_S911B",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-S911B",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_S911N",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-S911N",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_S911U",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-S911U",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_S911U1",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-S911U1",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_S911W",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-S911W",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_S9160",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-S9160",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_S916B",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-S916B",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_S916N",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-S916N",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_S916U",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-S916U",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_S916U1",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-S916U1",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_S9180",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-S9180",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_S918B",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-S918B",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_S918N",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-S918N",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_S918U",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-S918U",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_S918U1",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-S918U1",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_S918W",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-S918W",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_S921B",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-S921B",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_S921N",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-S921N",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_S9260",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-S9260",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_S926U",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-S926U",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_S9280",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-S9280",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_S928B",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-S928B",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_S928N",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-S928N",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_S928U",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-S928U",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SAMSUNGSM_S928U1",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "samsung SM-S928U1",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SHARPSH_51B",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "SHARP SH-51B",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SONYSOG02",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Sony SOG02",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SONYSOG05",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Sony SOG05",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SONYSOG06",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Sony SOG06",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SONYSO_51A",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Sony SO-51A",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SONYSO_51B",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Sony SO-51B",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SONYSO_51C",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Sony SO-51C",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SONYSO_52A",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Sony SO-52A",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SONYSO_53B",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Sony SO-53B",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SONYSO_54C",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Sony SO-54C",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SONY_A002SO",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Sony A002SO",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SONY_A101SO",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Sony A101SO",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SONY_A103SO",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Sony A103SO",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SONY_A201SO",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Sony A201SO",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SONY_SO53B",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Sony SO-53B",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SONY_SOG01",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Sony SOG01",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SONY_SOG03",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Sony SOG03",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SONY_XPERIA_1_II",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Sony Xperia 1 II",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SONY_XPERIA_1_III",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Sony Xperia 1 III",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SONY_XPERIA_1_IV",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Sony Xperia 1 IV",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SONY_XPERIA_1_V",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Sony Xperia 1 V",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SONY_XPERIA_5_II",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Sony Xperia 5 II",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SONY_XPERIA_5_III",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Sony Xperia 5 III",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SONY_XPERIA_5_V",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Sony Xperia 5 V",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SONY_XPERIA_PRO",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Sony Xperia PRO",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SONY_XPERIA_PROI",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Sony Xperia PRO-I",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SONY_XQAQ52",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Sony XQ-AQ52",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SONY_XQAQ62",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Sony XQ-AQ62",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SONY_XQAS42",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Sony XQ-AS42",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SONY_XQAS52",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Sony XQ-AS52",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SONY_XQAS62",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Sony XQ-AS62",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SONY_XQAS72",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Sony XQ-AS72",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SONY_XQAT42",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Sony XQ-AT42",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SONY_XQAT51",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Sony XQ-AT51",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SONY_XQAT52",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Sony XQ-AT52",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SONY_XQAT72",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Sony XQ-AT72",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SONY_XQBC42",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Sony XQ-BC42",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SONY_XQBC52",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Sony XQ-BC52",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SONY_XQBC62",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Sony XQ-BC62",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SONY_XQBC72",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Sony XQ-BC72",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SONY_XQBE52",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Sony XQ-BE52",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SONY_XQBE62",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Sony XQ-BE62",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SONY_XQBE72",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Sony XQ-BE72",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SONY_XQBQ42",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Sony XQ-BQ42",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SONY_XQBQ52",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Sony XQ-BQ52",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SONY_XQBQ62",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Sony XQ-BQ62",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SONY_XQBQ72",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Sony XQ-BQ72",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SONY_XQCT54",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Sony XQ-CT54",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SONY_XQCT62",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Sony XQ-CT62",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SONY_XQCT72",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Sony XQ-CT72",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SONY_XQ_DE44",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Sony XQ-DE44",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_SONY_XQ_DQ44",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Sony XQ-DQ44",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_XIAOMI21061110AG",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Xiaomi 21061110AG",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_XIAOMI2107113SG",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Xiaomi 2107113SG",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_XIAOMI21081111RG",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Xiaomi 21081111RG",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_XIAOMI21121210G",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Xiaomi 21121210G",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_XIAOMI2201123G",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Xiaomi 2201123G",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_XIAOMI22021211RG",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Xiaomi 22021211RG",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_XIAOMI22041216G",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Xiaomi 22041216G",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_XIAOMI22081212UG",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Xiaomi 22081212UG",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_XIAOMI23049PCD8G",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Xiaomi 23049PCD8G",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_XIAOMIM2007J3SG",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Xiaomi M2007J3SG",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_XIAOMIM2007J3SY",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Xiaomi M2007J3SY",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_XIAOMIM2012K11AG",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Xiaomi M2012K11AG",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ALLOW_XIAOMIM2102K1AC",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Xiaomi M2102K1AC",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ANDROID",
+    "data": {
+      "ruleType": "PLATFORM",
+      "sortOrder": 2,
+      "ruleValue": "Android",
+      "meshingEnabled": "FALSE",
+      "occlusionEnabled": "FALSE",
+      "semanticsEnabled": "FALSE",
+      "vpsEnabled": "FALSE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_ANDROID_14_ONWARD",
+    "data": {
+      "ruleType": 10,
+      "sortOrder": 5,
+      "ruleValue": "33",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_BASE",
+    "data": {
+      "ruleType": "ALL",
+      "sortOrder": 1,
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "occlusionDefaultOn": "FALSE",
+      "semanticsEnabled": "TRUE",
+      "fusedDepthEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_DENY_GOOGLEPIXEL10",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Google Pixel 10",
+      "meshingEnabled": "FALSE",
+      "occlusionEnabled": "FALSE",
+      "semanticsEnabled": "FALSE",
+      "vpsEnabled": "FALSE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_DENY_GOOGLEPIXEL10PRO",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Google Pixel 10 Pro",
+      "meshingEnabled": "FALSE",
+      "occlusionEnabled": "FALSE",
+      "semanticsEnabled": "FALSE",
+      "vpsEnabled": "FALSE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_DENY_GOOGLEPIXEL10PROFOLD",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Google Pixel 10 Pro Fold",
+      "meshingEnabled": "FALSE",
+      "occlusionEnabled": "FALSE",
+      "semanticsEnabled": "FALSE",
+      "vpsEnabled": "FALSE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_DENY_GOOGLEPIXEL10PROXL",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Google Pixel 10 Pro XL",
+      "meshingEnabled": "FALSE",
+      "occlusionEnabled": "FALSE",
+      "semanticsEnabled": "FALSE",
+      "vpsEnabled": "FALSE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_DENY_IPAD4",
+    "data": {
+      "ruleType": "DEVICE_MODEL_CONTAINS",
+      "sortOrder": 10,
+      "ruleValue": "iPad4",
+      "meshingEnabled": "FALSE",
+      "occlusionEnabled": "FALSE",
+      "semanticsEnabled": "FALSE",
+      "vpsEnabled": "FALSE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_DENY_IPAD5",
+    "data": {
+      "ruleType": "DEVICE_MODEL_CONTAINS",
+      "sortOrder": 10,
+      "ruleValue": "iPad5",
+      "meshingEnabled": "FALSE",
+      "occlusionEnabled": "FALSE",
+      "semanticsEnabled": "FALSE",
+      "vpsEnabled": "FALSE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_DENY_IPAD6",
+    "data": {
+      "ruleType": "DEVICE_MODEL_CONTAINS",
+      "sortOrder": 10,
+      "ruleValue": "iPad6",
+      "meshingEnabled": "FALSE",
+      "occlusionEnabled": "FALSE",
+      "semanticsEnabled": "FALSE",
+      "vpsEnabled": "FALSE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_DENY_IPHONE6",
+    "data": {
+      "ruleType": "DEVICE_MODEL_CONTAINS",
+      "sortOrder": 10,
+      "ruleValue": "iPhone7",
+      "meshingEnabled": "FALSE",
+      "occlusionEnabled": "FALSE",
+      "semanticsEnabled": "FALSE",
+      "vpsEnabled": "FALSE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_DENY_IPHONE7",
+    "data": {
+      "ruleType": "DEVICE_MODEL_CONTAINS",
+      "sortOrder": 10,
+      "ruleValue": "iPhone9",
+      "meshingEnabled": "FALSE",
+      "occlusionEnabled": "FALSE",
+      "semanticsEnabled": "FALSE",
+      "vpsEnabled": "FALSE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_DENY_IPHONESE",
+    "data": {
+      "ruleType": "DEVICE_MODEL_CONTAINS",
+      "sortOrder": 10,
+      "ruleValue": "iPhone8",
+      "meshingEnabled": "FALSE",
+      "occlusionEnabled": "FALSE",
+      "semanticsEnabled": "FALSE",
+      "vpsEnabled": "FALSE"
+    }
+  }
+]

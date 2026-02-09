@@ -1,0 +1,77 @@
+[
+  {
+    "templateId": "PARTY_PLAY_GENERAL_SETTINGS",
+    "data": {
+      "enabled": true,
+      "minPlayerLevel": 21,
+      "creationToStartTimeoutMs": "600000",
+      "complianceZonesEnabled": true,
+      "enablePartyRaidInformation": true,
+      "friendRequestsEnabled": true,
+      "partyExpiryDurationMs": "10800000",
+      "partyExpiryWarningMinutes": 10,
+      "enabledFriendStatusIncrease": true,
+      "restartPartyRejoinPromptEnabled": true,
+      "partyIapBoostsEnabled": true,
+      "partyNewQuestNotificationV2Enabled": true,
+      "pgDeliveryMechanic": "POLLING_BIT",
+      "partyCatchTagsEnabled": true,
+      "partyQuestEncounterRewardEnabled": true,
+      "maxStackedEncounterReward": 1,
+      "fallbackPartyQuestEnabled": true
+    }
+  },
+  {
+    "templateId": "WEEKLY_CHALLENGE_GENERAL_SETTINGS",
+    "data": {
+      "enabled": true,
+      "minPlayerLevel": 13,
+      "friendRequestsEnabled": true,
+      "fallbackPartyQuestEnabled": true,
+      "maxPartySize": 4,
+      "partySchedulingSettings": {
+        "recurringChallengeSchedule": {
+          "timezoneId": "America/Los_Angeles",
+          "dayAndTimeStartTime": {
+            "dayOfWeek": 1,
+            "hourOfDay": 17
+          },
+          "dayAndTimeEndTime": {
+            "dayOfWeek": 1,
+            "hourOfDay": 17
+          },
+          "startNotification": {
+            "enabled": true,
+            "isLocal": true,
+            "time": {
+              "dayOfWeek": 2,
+              "hourOfDay": 10
+            },
+            "avalibleWindowHours": 120
+          },
+          "nearEndNotification": {
+            "enabled": true,
+            "isLocal": true,
+            "time": {
+              "dayOfWeek": 1,
+              "hourOfDay": 11
+            },
+            "avalibleWindowHours": 2
+          },
+          "maxNumChallengePerCycle": 1
+        }
+      },
+      "sendInviteEnabled": true,
+      "inviteExpirationMs": 86400000,
+      "notificationMilestones": [
+        0.25,
+        0.5,
+        0.75,
+        1
+      ],
+      "matchmakingEnabled": true,
+      "partyRewardGracePeriodMs": "604800000",
+      "maxInvitesPerPlayer": 10
+    }
+  }
+]

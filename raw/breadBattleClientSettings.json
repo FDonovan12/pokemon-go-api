@@ -1,0 +1,29 @@
+[
+  {
+    "templateId": "BREAD_BATTLE_CLIENT_SETTINGS",
+    "data": {
+      "remoteBreadBattleEnabled": true,
+      "breadBattleMinPlayerLevel": 13,
+      "remoteBreadBattleMinPlayerLevel": 13,
+      "maxNumFriendInvites": 10,
+      "friendInviteCutoffTimeSec": 20,
+      "canInviteFriendsInPerson": true,
+      "canInviteFriendsRemotely": true,
+      "maxPlayersPerBreadLobby": 4,
+      "maxRemotePlayersPerBreadLobby": 4,
+      "inviteCooldownDurationMillis": "30000",
+      "maxNumFriendInvitesPerAction": 3,
+      "prepareBreadLobbyEnabled": true,
+      "minPlayersToPrepareBreadLobby": 1,
+      "prepareBreadLobbyCutoffMs": 15000,
+      "prepareBreadLobbySoloMs": 80000,
+      "rvnVersion": 1,
+      "maxPlayersPerBreadDoughLobby": 100,
+      "maxRemotePlayersPerBreadDoughLobby": 100,
+      "maxRemoteBreadBattlePassesAllowed": 10,
+      "maxNumFriendInvitesToBreadDoughLobbyPerAction": 10,
+      "fetchProfileFromSocialEnabled": true,
+      "maxPlayersToPrepareBreadDoughLobby": 98
+    }
+  }
+]
