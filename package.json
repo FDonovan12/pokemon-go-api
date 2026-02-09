@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "build": "tsc",
-    "generate": "npm run build && node dist/saveRawData.js",
+    "generate": "npm run build && node dist/generateRawData.js",
     "update": "npm run build && node dist/checkAndUpdate.js",
     "dev": "tsc --watch",
     "run": "node dist/checkAndUpdate.js",
