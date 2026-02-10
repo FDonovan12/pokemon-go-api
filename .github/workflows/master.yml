@@ -4,8 +4,12 @@ on:
     push:
         branches: [main]
     schedule:
-        - cron: '*/10 * * * *'
+        - cron: '*/30 * * * *' # - cron: '*/10 * * * *'
     workflow_dispatch:
+
+concurrency: # (nouveau)
+    group: master-sync # (nouveau)
+    cancel-in-progress: true # (nouveau)
 
 jobs:
     pipeline:
@@ -24,34 +28,49 @@ jobs:
                   git config user.name "github-actions[bot]"
                   git config user.email "github-actions[bot]@users.noreply.github.com"
 
-            # 1. SYNCHRONISATION (Uniquement lors d'un Push sur Main)
+            # 1. SYNCHRONISATION (Push main → state propre, sans doublons)
             - name: Sync Main to State
               if: github.event_name == 'push'
               run: |
-                  MAIN_HASH=$(git rev-parse --short HEAD)
-                  git checkout state
-                  git pull origin state
-                  git checkout main -- .
-                  git checkout HEAD -- .github/ 
-                  echo "$MAIN_HASH" > main_source_hash.txt
+                  MAIN_HASH=$(git rev-parse --short origin/main) # MAIN_HASH=$(git rev-parse --short HEAD)
 
-                  git add .
+                  git fetch origin
+
+                  git checkout state || git checkout -b state origin/state || git checkout -b state
+
+                  git reset --hard origin/state || true
+
+                  git rm -rf .                              # (nouveau, évite doublons)
+                  # git checkout main -- .                 # (ancien)
+
+                  git checkout origin/main -- .            # (nouveau plus robuste)
+
+                  echo "Synced from main @ $MAIN_HASH"
+
+                  git add -A
                   if [ -n "$(git status --porcelain)" ]; then
                     git commit -m "sync: updated from main ($MAIN_HASH)"
                     git push origin state
                   fi
 
-            # 2. VÉRIFICATION (Hash Main vs Hash State ou Timestamp distant)
+            # 2. CHECK PROPRE ET ROBUSTE
             - name: Check if generation is needed
               id: check
               run: |
-                  git checkout state || git checkout -b state
+                  git fetch origin
+                  git checkout state || git checkout -b state origin/state || git checkout -b state
 
                   REMOTE_TS=$(curl -s https://raw.githubusercontent.com/alexelgt/game_masters/refs/heads/master/timestamp.json | jq -r .uploadTime)
-                  LAST_TS=$(jq -r .remoteTimestamp meta/generation.json || echo "0")
 
-                  CURRENT_HASH=$(cat main_source_hash.txt || echo "none")
-                  LAST_HASH=$(jq -r .lastHash meta/generation.json || echo "none")
+                  if [ -f meta/generation.json ]; then
+                    LAST_TS=$(jq -r .remoteTimestamp meta/generation.json)
+                    LAST_HASH=$(jq -r .lastHash meta/generation.json)
+                  else
+                    LAST_TS="0"
+                    LAST_HASH="none"
+                  fi
+
+                  CURRENT_HASH=$(git rev-parse --short origin/main) # CURRENT_HASH=$(cat main_source_hash.txt || echo "none")
 
                   echo "remote_ts=$REMOTE_TS" >> $GITHUB_OUTPUT
                   echo "current_hash=$CURRENT_HASH" >> $GITHUB_OUTPUT
@@ -62,7 +81,7 @@ jobs:
                     echo "should_run=false" >> $GITHUB_OUTPUT
                   fi
 
-            # 3. GÉNÉRATION (Si nécessaire : Installation -> Generate -> Update)
+            # 3. GENERATION
             - name: Run Build and Scripts
               if: steps.check.outputs.should_run == 'true'
               run: |
@@ -70,7 +89,7 @@ jobs:
                   npm run generate
                   npm run update
 
-            # 4. DÉPLOIEMENT
+            # 4. DEPLOY OUTPUT
             - name: Deploy to Output Branch
               if: steps.check.outputs.should_run == 'true'
               uses: peaceiris/actions-gh-pages@v3
@@ -80,15 +99,17 @@ jobs:
                   publish_dir: ./generated/data
                   keep_files: false
 
+            # 5. UPDATE META SAFE
             - name: Update State Metadata
               if: steps.check.outputs.should_run == 'true'
               run: |
                   mkdir -p meta
+
                   jq -n \
                     --arg ts "${{ steps.check.outputs.remote_ts }}" \
                     --arg hash "${{ steps.check.outputs.current_hash }}" \
                     '{remoteTimestamp: $ts, lastHash: $hash}' > meta/generation.json
 
                   git add meta/generation.json
-                  git commit -m "chore(state): update tracking [hash: ${{ steps.check.outputs.current_hash }}]"
+                  git commit -m "chore(state): update tracking [hash: ${{ steps.check.outputs.current_hash }}]" || echo "No changes"
                   git push origin state
