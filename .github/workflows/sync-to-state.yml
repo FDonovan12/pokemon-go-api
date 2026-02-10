@@ -48,8 +48,8 @@ jobs:
                   git add .
 
                   if [ -n "$(git status --porcelain)" ]; then
-                    git commit -m "sync: update code from main ($MAIN_HASH)"
-                    git push origin state
+                    # git commit -m "sync: update code from main ($MAIN_HASH)"
+                    # git push origin state
                     # Utilisation de la nouvelle méthode GITHUB_OUTPUT
                     echo "run_trigger=true" >> $GITHUB_OUTPUT
                     echo "CHANGES_FOUND=true"
