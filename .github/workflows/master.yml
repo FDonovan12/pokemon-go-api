@@ -1,0 +1,94 @@
+name: Master Sync & Generate
+
+on:
+    push:
+        branches: [main]
+    schedule:
+        - cron: '*/10 * * * *'
+    workflow_dispatch:
+
+jobs:
+    pipeline:
+        runs-on: ubuntu-latest
+        permissions:
+            contents: write
+
+        steps:
+            - name: Checkout Full Repository
+              uses: actions/checkout@v4
+              with:
+                  fetch-depth: 0
+
+            - name: Setup Git Config
+              run: |
+                  git config user.name "github-actions[bot]"
+                  git config user.email "github-actions[bot]@users.noreply.github.com"
+
+            # 1. SYNCHRONISATION (Uniquement lors d'un Push sur Main)
+            - name: Sync Main to State
+              if: github.event_name == 'push'
+              run: |
+                  MAIN_HASH=$(git rev-parse --short HEAD)
+                  git checkout state
+                  git pull origin state
+                  git checkout main -- .
+                  git checkout HEAD -- .github/ 
+                  echo "$MAIN_HASH" > main_source_hash.txt
+
+                  git add .
+                  if [ -n "$(git status --porcelain)" ]; then
+                    git commit -m "sync: updated from main ($MAIN_HASH)"
+                    git push origin state
+                  fi
+
+            # 2. VÉRIFICATION (Hash Main vs Hash State ou Timestamp distant)
+            - name: Check if generation is needed
+              id: check
+              run: |
+                  git checkout state || git checkout -b state
+
+                  REMOTE_TS=$(curl -s https://raw.githubusercontent.com/alexelgt/game_masters/refs/heads/master/timestamp.json | jq -r .uploadTime)
+                  LAST_TS=$(jq -r .remoteTimestamp meta/generation.json || echo "0")
+
+                  CURRENT_HASH=$(cat main_source_hash.txt || echo "none")
+                  LAST_HASH=$(jq -r .lastHash meta/generation.json || echo "none")
+
+                  echo "remote_ts=$REMOTE_TS" >> $GITHUB_OUTPUT
+                  echo "current_hash=$CURRENT_HASH" >> $GITHUB_OUTPUT
+
+                  if [ "$REMOTE_TS" != "$LAST_TS" ] || [ "$CURRENT_HASH" != "$LAST_HASH" ] || [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
+                    echo "should_run=true" >> $GITHUB_OUTPUT
+                  else
+                    echo "should_run=false" >> $GITHUB_OUTPUT
+                  fi
+
+            # 3. GÉNÉRATION (Si nécessaire : Installation -> Generate -> Update)
+            - name: Run Build and Scripts
+              if: steps.check.outputs.should_run == 'true'
+              run: |
+                  npm ci
+                  npm run generate
+                  npm run update
+
+            # 4. DÉPLOIEMENT
+            - name: Deploy to Output Branch
+              if: steps.check.outputs.should_run == 'true'
+              uses: peaceiris/actions-gh-pages@v3
+              with:
+                  github_token: ${{ secrets.GITHUB_TOKEN }}
+                  publish_branch: output
+                  publish_dir: ./generated/data
+                  keep_files: false
+
+            - name: Update State Metadata
+              if: steps.check.outputs.should_run == 'true'
+              run: |
+                  mkdir -p meta
+                  jq -n \
+                    --arg ts "${{ steps.check.outputs.remote_ts }}" \
+                    --arg hash "${{ steps.check.outputs.current_hash }}" \
+                    '{remoteTimestamp: $ts, lastHash: $hash}' > meta/generation.json
+
+                  git add meta/generation.json
+                  git commit -m "chore(state): update tracking [hash: ${{ steps.check.outputs.current_hash }}]"
+                  git push origin state
