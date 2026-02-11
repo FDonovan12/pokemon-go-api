@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
   <head>
     <meta charset="UTF-8" />
@@ -10,7 +10,7 @@
 
     <script>
       async function load() {
-        const res = await fetch('/data/parsed-data.json');
+        const res = await fetch('/generated/data/pokemon.json');
         const json = await res.json();
         console.log(json);
         document.getElementById('output').textContent = JSON.stringify(json, null, 2);

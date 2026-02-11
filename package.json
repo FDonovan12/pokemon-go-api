@@ -7,9 +7,7 @@
     "build": "tsc",
     "generate": "npm run build && node dist/generateRawData.js",
     "update": "npm run build && node dist/checkAndUpdate.js",
-    "dev": "tsc --watch",
-    "run": "node dist/checkAndUpdate.js",
-    "run:watch": "node --watch dist/checkAndUpdate.js",
+    "dev": "npm run generate && tsx watch src/checkAndUpdate.ts",
     "prepare": "npm run generate"
   },
   "devDependencies": {
@@ -19,6 +17,7 @@
   "dependencies": {
     "dotenv": "^17.2.3",
     "quicktype-core": "^23.2.6",
+    "tsx": "^4.21.0",
     "utilitish": "^0.0.5"
   }
 }

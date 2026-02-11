@@ -15,5 +15,3 @@ if (!fs.existsSync(SOURCE_PATH)) {
 }
 
 export const sourceConfig: SourceConfig = JSON.parse(fs.readFileSync(SOURCE_PATH, 'utf8'));
-
-export const isDev = process.env.NODE_ENV === 'development';
