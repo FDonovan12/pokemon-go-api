@@ -78,8 +78,8 @@
     "templateId": "ITEM_EXPIRATION_ITEM_LUCKY_FRIEND_APPLICATOR",
     "data": {
       "item": "ITEM_LUCKY_FRIEND_APPLICATOR",
-      "expirationTime": "2026-02-08T23:59:00",
-      "emergencyExpirationTime": "2026-02-09T10:00:00"
+      "expirationTime": "2025-06-08T23:59:00",
+      "emergencyExpirationTime": "2025-06-09T10:00:00"
     }
   },
   {
