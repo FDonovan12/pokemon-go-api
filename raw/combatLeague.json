@@ -14138,6 +14138,63 @@
     }
   },
   {
+    "templateId": "COMBAT_LEAGUE_VS_SEEKER_GREAT_CATCH_S22",
+    "data": {
+      "title": "catch_cup_s13_title",
+      "enabled": true,
+      "unlockCondition": [
+        {
+          "type": "WITH_UNIQUE_POKEMON",
+          "minPokemonCount": 3
+        }
+      ],
+      "pokemonCondition": [
+        {
+          "type": "WITH_POKEMON_CP_LIMIT",
+          "withPokemonCpLimit": {
+            "maxCp": 1500
+          }
+        },
+        {
+          "type": "WITH_UNIQUE_POKEMON"
+        },
+        {
+          "type": "POKEMON_CAUGHT_TIMESTAMP",
+          "pokemonCaughtTimestamp": {
+            "afterTimestamp": "1772571600000",
+            "beforeTimestamp": "1780430400000"
+          }
+        }
+      ],
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/premierball_sprite.png",
+      "pokemonCount": 3,
+      "bannedPokemon": [
+        "DITTO",
+        "SHEDINJA",
+        "MEW",
+        "CELEBI",
+        "JIRACHI",
+        "DEOXYS",
+        "DARKRAI",
+        "VICTINI",
+        "MELOETTA",
+        "GENESECT",
+        "HOOPA",
+        "MELTAN",
+        "MELMETAL",
+        "ZARUDE",
+        "DIANCIE",
+        "SHAYMIN",
+        "KELDEO",
+        "VOLCANION",
+        "MARSHADOW"
+      ],
+      "badgeType": "BADGE_GREAT_LEAGUE",
+      "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
+      "leagueType": "PREMIER"
+    }
+  },
+  {
     "templateId": "COMBAT_LEAGUE_VS_SEEKER_GREAT_CATCH_S8",
     "data": {
       "title": "gofest_2022_catch_cup_title",
@@ -18150,22 +18207,6 @@
         },
         {
           "type": "WITH_UNIQUE_POKEMON"
-        },
-        {
-          "type": "POKEMON_BANLIST",
-          "pokemonBanList": {
-            "pokemon": [
-              {
-                "id": "GLIGAR"
-              },
-              {
-                "id": "STUNFISK",
-                "forms": [
-                  "STUNFISK_GALARIAN"
-                ]
-              }
-            ]
-          }
         },
         {
           "type": "WITH_POKEMON_TYPE",

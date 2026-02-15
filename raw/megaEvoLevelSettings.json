@@ -59,6 +59,26 @@
     }
   },
   {
+    "templateId": "MEGA_EVOLUTION_LEVEL_0_V0071_POKEMON_VICTREEBEL",
+    "data": {
+      "pokemonId": "VICTREEBEL",
+      "progression": {
+        "pointsLimitPerPeriod": 1,
+        "pointsPerMegaEvoAction": 1
+      },
+      "cooldown": {
+        "durationMs": "1209600000",
+        "bypassCostInitial": 300,
+        "bypassCostRoundingValue": 1
+      },
+      "effects": {
+        "differentTypeAttackBoost": 1.1,
+        "sameTypeAttackBoost": 1.3,
+        "sameTypeExtraCatchCandy": 1
+      }
+    }
+  },
+  {
     "templateId": "MEGA_EVOLUTION_LEVEL_0_V0080_POKEMON_SLOWBRO",
     "data": {
       "pokemonId": "SLOWBRO",
@@ -419,6 +439,26 @@
     }
   },
   {
+    "templateId": "MEGA_EVOLUTION_LEVEL_0_V0687_POKEMON_MALAMAR",
+    "data": {
+      "pokemonId": "MALAMAR",
+      "progression": {
+        "pointsLimitPerPeriod": 1,
+        "pointsPerMegaEvoAction": 1
+      },
+      "cooldown": {
+        "durationMs": "1209600000",
+        "bypassCostInitial": 300,
+        "bypassCostRoundingValue": 1
+      },
+      "effects": {
+        "differentTypeAttackBoost": 1.1,
+        "sameTypeAttackBoost": 1.3,
+        "sameTypeExtraCatchCandy": 1
+      }
+    }
+  },
+  {
     "templateId": "MEGA_EVOLUTION_LEVEL_0_V0719_POKEMON_DIANCIE",
     "data": {
       "pokemonId": "DIANCIE",
@@ -494,6 +534,28 @@
       "cooldown": {
         "durationMs": "604800000",
         "bypassCostInitial": 20,
+        "bypassCostRoundingValue": 1
+      },
+      "effects": {
+        "differentTypeAttackBoost": 1.1,
+        "sameTypeAttackBoost": 1.3,
+        "sameTypeExtraCatchCandy": 1
+      }
+    }
+  },
+  {
+    "templateId": "MEGA_EVOLUTION_LEVEL_1_V0071_POKEMON_VICTREEBEL",
+    "data": {
+      "level": 1,
+      "pokemonId": "VICTREEBEL",
+      "progression": {
+        "pointsRequired": 1,
+        "pointsLimitPerPeriod": 1,
+        "pointsPerMegaEvoAction": 1
+      },
+      "cooldown": {
+        "durationMs": "604800000",
+        "bypassCostInitial": 40,
         "bypassCostRoundingValue": 1
       },
       "effects": {
@@ -900,6 +962,28 @@
     }
   },
   {
+    "templateId": "MEGA_EVOLUTION_LEVEL_1_V0687_POKEMON_MALAMAR",
+    "data": {
+      "level": 1,
+      "pokemonId": "MALAMAR",
+      "progression": {
+        "pointsRequired": 1,
+        "pointsLimitPerPeriod": 1,
+        "pointsPerMegaEvoAction": 1
+      },
+      "cooldown": {
+        "durationMs": "604800000",
+        "bypassCostInitial": 40,
+        "bypassCostRoundingValue": 1
+      },
+      "effects": {
+        "differentTypeAttackBoost": 1.1,
+        "sameTypeAttackBoost": 1.3,
+        "sameTypeExtraCatchCandy": 1
+      }
+    }
+  },
+  {
     "templateId": "MEGA_EVOLUTION_LEVEL_1_V0719_POKEMON_DIANCIE",
     "data": {
       "level": 1,
@@ -981,6 +1065,30 @@
       "cooldown": {
         "durationMs": "432000000",
         "bypassCostInitial": 10,
+        "bypassCostRoundingValue": 1
+      },
+      "effects": {
+        "differentTypeAttackBoost": 1.1,
+        "sameTypeAttackBoost": 1.3,
+        "sameTypeExtraCatchCandy": 1,
+        "sameTypeExtraCatchXp": 50,
+        "sameTypeExtraCatchCandyXlChance": 0.1
+      }
+    }
+  },
+  {
+    "templateId": "MEGA_EVOLUTION_LEVEL_2_V0071_POKEMON_VICTREEBEL",
+    "data": {
+      "level": 2,
+      "pokemonId": "VICTREEBEL",
+      "progression": {
+        "pointsRequired": 7,
+        "pointsLimitPerPeriod": 1,
+        "pointsPerMegaEvoAction": 1
+      },
+      "cooldown": {
+        "durationMs": "432000000",
+        "bypassCostInitial": 20,
         "bypassCostRoundingValue": 1
       },
       "effects": {
@@ -1425,6 +1533,30 @@
     }
   },
   {
+    "templateId": "MEGA_EVOLUTION_LEVEL_2_V0687_POKEMON_MALAMAR",
+    "data": {
+      "level": 2,
+      "pokemonId": "MALAMAR",
+      "progression": {
+        "pointsRequired": 7,
+        "pointsLimitPerPeriod": 1,
+        "pointsPerMegaEvoAction": 1
+      },
+      "cooldown": {
+        "durationMs": "432000000",
+        "bypassCostInitial": 20,
+        "bypassCostRoundingValue": 1
+      },
+      "effects": {
+        "differentTypeAttackBoost": 1.1,
+        "sameTypeAttackBoost": 1.3,
+        "sameTypeExtraCatchCandy": 1,
+        "sameTypeExtraCatchXp": 50,
+        "sameTypeExtraCatchCandyXlChance": 0.1
+      }
+    }
+  },
+  {
     "templateId": "MEGA_EVOLUTION_LEVEL_2_V0719_POKEMON_DIANCIE",
     "data": {
       "level": 2,
@@ -1508,6 +1640,30 @@
       "cooldown": {
         "durationMs": "259200000",
         "bypassCostInitial": 5,
+        "bypassCostRoundingValue": 1
+      },
+      "effects": {
+        "differentTypeAttackBoost": 1.1,
+        "sameTypeAttackBoost": 1.3,
+        "sameTypeExtraCatchCandy": 2,
+        "sameTypeExtraCatchXp": 100,
+        "sameTypeExtraCatchCandyXlChance": 0.25
+      }
+    }
+  },
+  {
+    "templateId": "MEGA_EVOLUTION_LEVEL_3_V0071_POKEMON_VICTREEBEL",
+    "data": {
+      "level": 3,
+      "pokemonId": "VICTREEBEL",
+      "progression": {
+        "pointsRequired": 30,
+        "pointsLimitPerPeriod": 1,
+        "pointsPerMegaEvoAction": 1
+      },
+      "cooldown": {
+        "durationMs": "259200000",
+        "bypassCostInitial": 10,
         "bypassCostRoundingValue": 1
       },
       "effects": {
@@ -1952,6 +2108,30 @@
     }
   },
   {
+    "templateId": "MEGA_EVOLUTION_LEVEL_3_V0687_POKEMON_MALAMAR",
+    "data": {
+      "level": 3,
+      "pokemonId": "MALAMAR",
+      "progression": {
+        "pointsRequired": 30,
+        "pointsLimitPerPeriod": 1,
+        "pointsPerMegaEvoAction": 1
+      },
+      "cooldown": {
+        "durationMs": "259200000",
+        "bypassCostInitial": 10,
+        "bypassCostRoundingValue": 1
+      },
+      "effects": {
+        "differentTypeAttackBoost": 1.1,
+        "sameTypeAttackBoost": 1.3,
+        "sameTypeExtraCatchCandy": 2,
+        "sameTypeExtraCatchXp": 100,
+        "sameTypeExtraCatchCandyXlChance": 0.25
+      }
+    }
+  },
+  {
     "templateId": "MEGA_EVOLUTION_LEVEL_3_V0719_POKEMON_DIANCIE",
     "data": {
       "level": 3,
@@ -1971,6 +2151,54 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 2,
         "sameTypeExtraCatchXp": 100,
+        "sameTypeExtraCatchCandyXlChance": 0.25
+      }
+    }
+  },
+  {
+    "templateId": "MEGA_EVOLUTION_LEVEL_4_V0071_POKEMON_VICTREEBEL",
+    "data": {
+      "level": 4,
+      "pokemonId": "VICTREEBEL",
+      "progression": {
+        "pointsRequired": 30,
+        "pointsLimitPerPeriod": 1,
+        "pointsPerMegaEvoAction": 1
+      },
+      "cooldown": {
+        "durationMs": "86400000",
+        "bypassCostInitial": 5,
+        "bypassCostRoundingValue": 1
+      },
+      "effects": {
+        "differentTypeAttackBoost": 1.1,
+        "sameTypeAttackBoost": 1.3,
+        "sameTypeExtraCatchCandy": 3,
+        "sameTypeExtraCatchXp": 200,
+        "sameTypeExtraCatchCandyXlChance": 0.25
+      }
+    }
+  },
+  {
+    "templateId": "MEGA_EVOLUTION_LEVEL_4_V0687_POKEMON_MALAMAR",
+    "data": {
+      "level": 4,
+      "pokemonId": "MALAMAR",
+      "progression": {
+        "pointsRequired": 30,
+        "pointsLimitPerPeriod": 1,
+        "pointsPerMegaEvoAction": 1
+      },
+      "cooldown": {
+        "durationMs": "86400000",
+        "bypassCostInitial": 5,
+        "bypassCostRoundingValue": 1
+      },
+      "effects": {
+        "differentTypeAttackBoost": 1.1,
+        "sameTypeAttackBoost": 1.3,
+        "sameTypeExtraCatchCandy": 3,
+        "sameTypeExtraCatchXp": 200,
         "sameTypeExtraCatchCandyXlChance": 0.25
       }
     }

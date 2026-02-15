@@ -68,6 +68,14 @@
     }
   },
   {
+    "templateId": "ITEM_EXPIRATION_ITEM_EVENT_PASS_POINT_MONTHLY_01",
+    "data": {
+      "item": 2151,
+      "expirationTime": "2026-04-09T10:00:00",
+      "emergencyExpirationTime": "2026-04-11T10:00:00"
+    }
+  },
+  {
     "templateId": "ITEM_EXPIRATION_ITEM_INCUBATOR_TIMED",
     "data": {
       "item": "ITEM_INCUBATOR_TIMED",
@@ -78,8 +86,7 @@
     "templateId": "ITEM_EXPIRATION_ITEM_LUCKY_FRIEND_APPLICATOR",
     "data": {
       "item": "ITEM_LUCKY_FRIEND_APPLICATOR",
-      "expirationTime": "2025-06-08T23:59:00",
-      "emergencyExpirationTime": "2025-06-09T10:00:00"
+      "expirationTime": "2026-03-02T23:59:59"
     }
   },
   {

@@ -6,7 +6,24 @@
       "maxNumberRecentSearches": 4,
       "maxNumberFavoriteSearches": 12,
       "maxQueryLength": 1024,
-      "searchHelpUrl": "niantic.helpshift.com/hc/faq/1486-searching-filtering-your-pokemon-inventory/"
+      "searchHelpUrl": "niantic.helpshift.com/hc/faq/1486-searching-filtering-your-pokemon-inventory/",
+      "completeStartLetterCountPerLanguage": [
+        "en-US,2",
+        "pt-BR,2",
+        "zh-TW,2",
+        "fr-FR,2",
+        "de-DE,2",
+        "it-IT,2",
+        "ja-JP,2",
+        "ko-KR,2",
+        "es-ES,2",
+        "th-TH,2",
+        "ru-RU,2",
+        "tr-TR,2",
+        "hi-IN,2",
+        "id-ID,2",
+        "es-MX,2"
+      ]
     }
   }
 ]

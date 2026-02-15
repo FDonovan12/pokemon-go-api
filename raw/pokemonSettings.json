@@ -2925,8 +2925,8 @@
       "type": "POKEMON_TYPE_BUG",
       "camera": {
         "diskRadiusM": 0.459,
-        "cylinderRadiusM": 0.5,
-        "cylinderHeightM": 0.2
+        "cylinderRadiusM": 0.14,
+        "cylinderHeightM": 0.4
       },
       "encounter": {
         "collisionRadiusM": 0.102,
@@ -3028,8 +3028,8 @@
       "type": "POKEMON_TYPE_BUG",
       "camera": {
         "diskRadiusM": 0.459,
-        "cylinderRadiusM": 0.5,
-        "cylinderHeightM": 0.2
+        "cylinderRadiusM": 0.14,
+        "cylinderHeightM": 0.4
       },
       "encounter": {
         "collisionRadiusM": 0.102,
@@ -22861,7 +22861,8 @@
             "cylinderHeightM": 4.8
           },
           "modelScaleV2": 0.7,
-          "modelHeight": 4.5
+          "modelHeight": 4.5,
+          "raidBossDistanceOffset": 4.5
         }
       ],
       "buddyWalkedMegaEnergyAward": 15,
@@ -22995,7 +22996,8 @@
             "cylinderHeightM": 4.8
           },
           "modelScaleV2": 0.7,
-          "modelHeight": 4.5
+          "modelHeight": 4.5,
+          "raidBossDistanceOffset": 4.5
         }
       ],
       "buddyWalkedMegaEnergyAward": 15,
@@ -67372,7 +67374,7 @@
         "dodgeProbability": 0.15,
         "dodgeDurationS": 1,
         "dodgeDistance": 1,
-        "cameraDistance": 5,
+        "cameraDistance": 9,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6,
         "bonusXlCandyCaptureReward": 3,
@@ -67475,7 +67477,7 @@
         "dodgeProbability": 0.15,
         "dodgeDurationS": 1,
         "dodgeDistance": 1,
-        "cameraDistance": 5,
+        "cameraDistance": 9,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6,
         "bonusXlCandyCaptureReward": 3,
@@ -67579,7 +67581,7 @@
         "dodgeProbability": 0.15,
         "dodgeDurationS": 1,
         "dodgeDistance": 1,
-        "cameraDistance": 5,
+        "cameraDistance": 9,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6,
         "bonusXlCandyCaptureReward": 3,

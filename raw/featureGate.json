@@ -33,5 +33,12 @@
       "status": 1,
       "rolloutPercentage": 100
     }
+  },
+  {
+    "templateId": "MEGA_2026_FEATURE_GATE",
+    "data": {
+      "status": 216426293,
+      "rolloutPercentage": 100
+    }
   }
 ]
