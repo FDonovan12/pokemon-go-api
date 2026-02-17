@@ -493,14 +493,14 @@
   {
     "templateId": "LC_2026_COLOGNE_CARNIVAL_001",
     "data": {
-      "locationCard": 244,
+      "locationCard": "LC_2026_COLOGNE_CARNIVAL_001",
       "imageUrl": "lc_carnivalFlamigo_cologne_2026"
     }
   },
   {
     "templateId": "LC_2026_LOSANGELES_GOTOUR_001",
     "data": {
-      "locationCard": 214,
+      "locationCard": "LC_2026_LOSANGELES_GOTOUR_001",
       "imageUrl": "lc_GoTour2026_losAngeles",
       "cardType": "LOCATION_CARD"
     }
@@ -515,14 +515,14 @@
   {
     "templateId": "LC_2026_RIODEJANEIRO_CARNIVAL_001",
     "data": {
-      "locationCard": 243,
+      "locationCard": "LC_2026_RIODEJANEIRO_CARNIVAL_001",
       "imageUrl": "lc_carnivalFlamigo_rio_2026"
     }
   },
   {
     "templateId": "LC_2026_TAINAN_GOTOUR_001",
     "data": {
-      "locationCard": 215,
+      "locationCard": "LC_2026_TAINAN_GOTOUR_001",
       "imageUrl": "lc_GoTour2026_tainan",
       "cardType": "LOCATION_CARD"
     }
@@ -1083,7 +1083,7 @@
   {
     "templateId": "LC_SPECIALBACKGROUND_2026_GLOBAL_DIAMOND_001",
     "data": {
-      "locationCard": 220,
+      "locationCard": "LC_SPECIALBACKGROUND_2026_GLOBAL_DIAMOND_001",
       "imageUrl": "sb_GoTour2026_diamond",
       "cardType": "SPECIAL_BACKGROUND",
       "vfxAddress": "bgfx_Diamond"
@@ -1092,7 +1092,7 @@
   {
     "templateId": "LC_SPECIALBACKGROUND_2026_GLOBAL_GOLD_001",
     "data": {
-      "locationCard": 216,
+      "locationCard": "LC_SPECIALBACKGROUND_2026_GLOBAL_GOLD_001",
       "imageUrl": "sb_GoTour2026_gold",
       "cardType": "SPECIAL_BACKGROUND",
       "vfxAddress": "bgfx_Gold"
@@ -1101,7 +1101,7 @@
   {
     "templateId": "LC_SPECIALBACKGROUND_2026_GLOBAL_MEGA_001",
     "data": {
-      "locationCard": 224,
+      "locationCard": "LC_SPECIALBACKGROUND_2026_GLOBAL_MEGA_001",
       "imageUrl": "sb_GoTour2026_mega",
       "cardType": "SPECIAL_BACKGROUND",
       "vfxAddress": "bgfx_Mega"
@@ -1110,7 +1110,7 @@
   {
     "templateId": "LC_SPECIALBACKGROUND_2026_GLOBAL_PEARL_001",
     "data": {
-      "locationCard": 221,
+      "locationCard": "LC_SPECIALBACKGROUND_2026_GLOBAL_PEARL_001",
       "imageUrl": "sb_GoTour2026_pearl",
       "cardType": "SPECIAL_BACKGROUND",
       "vfxAddress": "bgfx_Pearl"
@@ -1119,7 +1119,7 @@
   {
     "templateId": "LC_SPECIALBACKGROUND_2026_GLOBAL_RUBY_001",
     "data": {
-      "locationCard": 218,
+      "locationCard": "LC_SPECIALBACKGROUND_2026_GLOBAL_RUBY_001",
       "imageUrl": "sb_GoTour2026_ruby",
       "cardType": "SPECIAL_BACKGROUND",
       "vfxAddress": "bgfx_Ruby"
@@ -1128,7 +1128,7 @@
   {
     "templateId": "LC_SPECIALBACKGROUND_2026_GLOBAL_SAPPHIRE_001",
     "data": {
-      "locationCard": 219,
+      "locationCard": "LC_SPECIALBACKGROUND_2026_GLOBAL_SAPPHIRE_001",
       "imageUrl": "sb_GoTour2026_sapphire",
       "cardType": "SPECIAL_BACKGROUND",
       "vfxAddress": "bgfx_Sapphire"
@@ -1137,7 +1137,7 @@
   {
     "templateId": "LC_SPECIALBACKGROUND_2026_GLOBAL_SILVER_001",
     "data": {
-      "locationCard": 217,
+      "locationCard": "LC_SPECIALBACKGROUND_2026_GLOBAL_SILVER_001",
       "imageUrl": "sb_GoTour2026_silver",
       "cardType": "SPECIAL_BACKGROUND",
       "vfxAddress": "bgfx_Silver"
@@ -1146,7 +1146,7 @@
   {
     "templateId": "LC_SPECIALBACKGROUND_2026_GLOBAL_X_001",
     "data": {
-      "locationCard": 222,
+      "locationCard": "LC_SPECIALBACKGROUND_2026_GLOBAL_X_001",
       "imageUrl": "sb_GoTour2026_x",
       "cardType": "SPECIAL_BACKGROUND",
       "vfxAddress": "bgfx_X"
@@ -1155,7 +1155,7 @@
   {
     "templateId": "LC_SPECIALBACKGROUND_2026_GLOBAL_Y_001",
     "data": {
-      "locationCard": 223,
+      "locationCard": "LC_SPECIALBACKGROUND_2026_GLOBAL_Y_001",
       "imageUrl": "sb_GoTour2026_y",
       "cardType": "SPECIAL_BACKGROUND",
       "vfxAddress": "bgfx_Y"

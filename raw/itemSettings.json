@@ -120,9 +120,9 @@
   {
     "templateId": "ITEM_ENHANCED_CURRENCY",
     "data": {
-      "itemId": 1410,
-      "itemType": 33,
-      "category": 32,
+      "itemId": "ITEM_ENHANCED_CURRENCY",
+      "itemType": "ITEM_TYPE_ENHANCED_CURRENCY",
+      "category": "ITEM_CATEGORY_ENHANCED_CURRENCY",
       "dropTrainerLevel": 1,
       "ignoreInventorySpace": true,
       "itemCap": 600
@@ -131,9 +131,9 @@
   {
     "templateId": "ITEM_ENHANCED_CURRENCY_HOLDER",
     "data": {
-      "itemId": 1411,
-      "itemType": 35,
-      "category": 33,
+      "itemId": "ITEM_ENHANCED_CURRENCY_HOLDER",
+      "itemType": "ITEM_TYPE_ENHANCED_CURRENCY_HOLDER",
+      "category": "ITEM_CATEGORY_ENHANCED_CURRENCY_HOLDER",
       "ignoreInventorySpace": true,
       "itemCap": 1
     }
@@ -293,7 +293,7 @@
   {
     "templateId": "ITEM_EVENT_PASS_POINT_MONTHLY_01",
     "data": {
-      "itemId": 2151,
+      "itemId": "ITEM_EVENT_PASS_POINT_MONTHLY_01",
       "itemType": "ITEM_TYPE_EVENT_PASS_POINT",
       "category": "ITEM_CATEGORY_EVENT_PASS_POINT",
       "ignoreInventorySpace": true,
@@ -1381,7 +1381,7 @@
       "eggIncubator": {
         "incubatorType": "INCUBATOR_DISTANCE",
         "uses": 3,
-        "distanceMultiplier": 0.5
+        "distanceMultiplier": 1
       }
     }
   },
@@ -1394,7 +1394,7 @@
       "dropTrainerLevel": 100,
       "eggIncubator": {
         "incubatorType": "INCUBATOR_DISTANCE",
-        "distanceMultiplier": 0.5
+        "distanceMultiplier": 1
       }
     }
   },
@@ -1423,7 +1423,7 @@
       "eggIncubator": {
         "incubatorType": "INCUBATOR_DISTANCE",
         "uses": 3,
-        "distanceMultiplier": 0.33333334
+        "distanceMultiplier": 0.6666667
       }
     }
   },
@@ -1436,7 +1436,7 @@
       "dropTrainerLevel": 100,
       "eggIncubator": {
         "incubatorType": "INCUBATOR_DISTANCE",
-        "distanceMultiplier": 0.5,
+        "distanceMultiplier": 1,
         "expiredIncubatorReplacement": {
           "incubatorReplacement": "ITEM_INCUBATOR_BASIC",
           "usesCountOverride": 1

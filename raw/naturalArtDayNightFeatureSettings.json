@@ -1,0 +1,11 @@
+[
+  {
+    "templateId": "NATURAL_ART_DAY_NIGHT_FEATURE_SETTINGS",
+    "data": {
+      "dayStartTime": "06:00:00",
+      "dayEndTime": "18:00:00",
+      "nightEndTime": "05:59:00",
+      "dbsSpawnRadiusMeters": 60
+    }
+  }
+]

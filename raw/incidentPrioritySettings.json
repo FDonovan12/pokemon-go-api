@@ -5,11 +5,11 @@
       "incidentPriority": [
         {
           "priority": 1,
-          "displayType": "INCIDENT_POKESTOP_ENCOUNTER"
+          "displayType": "INVASION_GENERIC"
         },
         {
           "priority": 2,
-          "displayType": "INVASION_EVENT_NPC"
+          "displayType": "INCIDENT_POKESTOP_ENCOUNTER"
         },
         {
           "priority": 3,
@@ -25,7 +25,7 @@
         },
         {
           "priority": 6,
-          "displayType": "INVASION_GENERIC"
+          "displayType": "INVASION_EVENT_NPC"
         },
         {
           "priority": 7,

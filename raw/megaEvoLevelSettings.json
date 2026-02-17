@@ -2175,8 +2175,11 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 3,
         "sameTypeExtraCatchXp": 200,
-        "sameTypeExtraCatchCandyXlChance": 0.25
-      }
+        "sameTypeExtraCatchCandyXlChance": 0.3,
+        "selfCpBoostAdditionalLevel": 2
+      },
+      "megaEnergyCostToUnlock": 5000,
+      "FtueExpirationTimestamp": "1775001600000"
     }
   },
   {
@@ -2199,8 +2202,11 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 3,
         "sameTypeExtraCatchXp": 200,
-        "sameTypeExtraCatchCandyXlChance": 0.25
-      }
+        "sameTypeExtraCatchCandyXlChance": 0.3,
+        "selfCpBoostAdditionalLevel": 2
+      },
+      "megaEnergyCostToUnlock": 5000,
+      "FtueExpirationTimestamp": "1775001600000"
     }
   }
 ]

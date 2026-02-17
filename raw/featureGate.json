@@ -38,7 +38,41 @@
     "templateId": "MEGA_2026_FEATURE_GATE",
     "data": {
       "status": 216426293,
-      "rolloutPercentage": 100
+      "rolloutPercentage": 100,
+      "subFeatureGateList": [
+        {
+          "name": "MEGA_LEVELS_TUTORIAL_SUB_FEATURE_GATE",
+          "status": 817843414
+        },
+        {
+          "name": "MEGA_EVOLVE_BUTTON_SUB_FEATURE_GATE",
+          "status": 466713653
+        },
+        {
+          "name": "MEGA_HUD_SUB_FEATURE_GATE",
+          "status": 292744512
+        },
+        {
+          "name": "MEGA_HUD_TIMER_SUB_FEATURE_GATE",
+          "status": 991283745
+        },
+        {
+          "name": "MEGA_2026_FTUE_SUB_FEATURE_GATE",
+          "status": 382901475
+        },
+        {
+          "name": "MEGA_LEVEL_4_ENABLED_SUB_FEATURE_GATE",
+          "status": 311989544
+        },
+        {
+          "name": "REMOTE_NC_HELP_TEXT_SUB_FEATURE_GATE",
+          "status": 222
+        },
+        {
+          "name": "MEGA_CP_BOOST_ENABLED_SUB_FEATURE_GATE",
+          "status": 368387608
+        }
+      ]
     }
   }
 ]

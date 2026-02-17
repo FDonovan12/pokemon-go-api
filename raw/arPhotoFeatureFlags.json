@@ -2,6 +2,7 @@
   {
     "templateId": "AR_PHOTO_FEATURE_FLAGS",
     "data": {
+      "isFeatureEnabled": true,
       "excludedPokemonIds": [
         "WISHIWASHI",
         "PYUKUMUKU",
@@ -454,7 +455,9 @@
           ]
         }
       ],
+      "showSticker": "ALWAYS_SHOW",
       "mainMenuEntryEnabled": -1412802175,
+      "arMenuEntryEnabled": -716916653,
       "shareFunctionalityEnabled": 295065062,
       "preLoginRollOutRatio": 1,
       "preLoginDeviceAllowList": [
@@ -467,13 +470,29 @@
       ],
       "lapsedDaysCutoff": 29,
       "newDaysCutoff": 3,
+      "captureSettings": {
+        "countdownSeconds": 5,
+        "contextualCheckIntervalSeconds": 0.5
+      },
+      "incentives": [
+        {
+          "incentiveStringKey": "incentive_gengar_encounter_key",
+          "incentiveIconName": "pm94.icon"
+        },
+        {
+          "incentiveStringKey": "incentive_pokeball_30_and_pokecoin_100_key",
+          "incentiveIconName": "tx_coin_pouch_pokeball"
+        }
+      ],
+      "incentivesEnabled": true,
       "errorReportingSettings": {
         "isEnabled": true,
         "percentChancePlayerSends": 1,
         "maxEventsPerSlidingWindow": 5,
         "slidingWindowLengthS": 10,
         "maxTotalEventsBeforeShutdown": "1000"
-      }
+      },
+      "preLoginMetricsEnabled": -1374928056
     }
   }
 ]

@@ -83,7 +83,7 @@
             "ITEM_CATEGORY_CAMERA",
             "ITEM_CATEGORY_ROUTE_MAKER",
             "ITEM_CATEGORY_UTILITES",
-            33
+            "ITEM_CATEGORY_ENHANCED_CURRENCY_HOLDER"
           ],
           "categoryName": "item_bag_category_key_items",
           "sortOrder": 9
