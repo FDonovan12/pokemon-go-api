@@ -3363,6 +3363,21 @@
     "data": {
       "sequence": [
         "sys faintbegin",
+        "vfx attacker combat_pokeball_enter",
+        "wait 0.05",
+        "silhouette attacker 3.0/3.0/3.0/0.0",
+        "wait 0.01",
+        "scale attacker 0.0/3",
+        "wait 0.66",
+        "sys complete"
+      ]
+    }
+  },
+  {
+    "templateId": "sequence_seq_combat_faint_ending",
+    "data": {
+      "sequence": [
+        "sys faintbegin",
         "anim attacker down01",
         "wait 0.9",
         "vfx attacker combat_pokeball_enter",
@@ -3371,6 +3386,16 @@
         "wait 0.01",
         "scale attacker 0.0/3",
         "wait 0.66",
+        "sys complete"
+      ]
+    }
+  },
+  {
+    "templateId": "sequence_seq_combat_return",
+    "data": {
+      "sequence": [
+        "scale attacker 0.0/50",
+        "wait 0.05",
         "sys complete"
       ]
     }

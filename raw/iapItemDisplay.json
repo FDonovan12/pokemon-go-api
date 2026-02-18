@@ -5832,7 +5832,6 @@
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 7,
       "hidden": true,
-      "sale": true,
       "spriteId": "bundle2.sprite.a",
       "title": "sticker_box"
     }

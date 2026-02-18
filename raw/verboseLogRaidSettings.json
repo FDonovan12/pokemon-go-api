@@ -2,7 +2,6 @@
   {
     "templateId": "VERBOSE_LOG_RAID_SETTINGS",
     "data": {
-      "enabled": true,
       "enableJoinLobby": true,
       "enableLeaveLobby": true,
       "enableGetRaidDetails": true,

@@ -22596,6 +22596,34 @@
               },
               {
                 "id": "TAPU_LELE"
+              },
+              {
+                "id": "TINKATINK",
+                "forms": [
+                  "FORM_UNSET",
+                  "TINKATINK_NORMAL"
+                ]
+              },
+              {
+                "id": "TINKATUFF",
+                "forms": [
+                  "FORM_UNSET",
+                  "TINKATUFF_NORMAL"
+                ]
+              },
+              {
+                "id": "TINKATON",
+                "forms": [
+                  "FORM_UNSET",
+                  "TINKATON_NORMAL"
+                ]
+              },
+              {
+                "id": "FLAMIGO",
+                "forms": [
+                  "FORM_UNSET",
+                  "FLAMIGO_NORMAL"
+                ]
               }
             ]
           }

@@ -1833,8 +1833,7 @@
             }
           }
         ],
-        "difficulty": "EASY",
-        "questUpdateToastProgressPercentageThreshold": 0.02
+        "difficulty": "EASY"
       },
       "questDisplay": {
         "description": "quest_catch_pokemon_plural",
@@ -1876,8 +1875,7 @@
             }
           }
         ],
-        "difficulty": "EASY",
-        "questUpdateToastProgressPercentageThreshold": 0.1
+        "difficulty": "EASY"
       },
       "questDisplay": {
         "description": "quest_visit_pokestops_plural",
