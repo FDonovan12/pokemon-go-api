@@ -2179,7 +2179,7 @@
         "selfCpBoostAdditionalLevel": 2
       },
       "megaEnergyCostToUnlock": 5000,
-      "FtueExpirationTimestamp": "1775001600000"
+      "ftueExpirationTimestamp": "1775001600000"
     }
   },
   {
@@ -2206,7 +2206,7 @@
         "selfCpBoostAdditionalLevel": 2
       },
       "megaEnergyCostToUnlock": 5000,
-      "FtueExpirationTimestamp": "1775001600000"
+      "ftueExpirationTimestamp": "1775001600000"
     }
   }
 ]
