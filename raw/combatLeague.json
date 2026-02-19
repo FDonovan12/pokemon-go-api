@@ -22598,31 +22598,77 @@
                 "id": "TAPU_LELE"
               },
               {
-                "id": "TINKATINK",
+                "id": "SIZZLIPEDE"
+              },
+              {
+                "id": "CENTISKORCH"
+              },
+              {
+                "id": "TINKATINK"
+              },
+              {
+                "id": "TINKATUFF"
+              },
+              {
+                "id": "TINKATON"
+              },
+              {
+                "id": "TATSUGIRI",
                 "forms": [
-                  "FORM_UNSET",
-                  "TINKATINK_NORMAL"
+                  "TATSUGIRI_CURLY",
+                  "TATSUGIRI_DROOPY"
                 ]
               },
               {
-                "id": "TINKATUFF",
+                "id": "IMPIDIMP"
+              },
+              {
+                "id": "MORGREM"
+              },
+              {
+                "id": "KLAWF"
+              },
+              {
+                "id": "FLAMIGO"
+              },
+              {
+                "id": "GROUDON"
+              },
+              {
+                "id": "DEOXYS"
+              },
+              {
+                "id": "MESPRIT"
+              },
+              {
+                "id": "ZAMAZENTA"
+              },
+              {
+                "id": "LATIAS"
+              },
+              {
+                "id": "MOLTRES",
                 "forms": [
-                  "FORM_UNSET",
-                  "TINKATUFF_NORMAL"
+                  "MOLTRES_GALARIAN"
                 ]
               },
               {
-                "id": "TINKATON",
-                "forms": [
-                  "FORM_UNSET",
-                  "TINKATON_NORMAL"
-                ]
+                "id": "HO_OH"
               },
               {
-                "id": "FLAMIGO",
+                "id": "MEW"
+              },
+              {
+                "id": "DIANCIE"
+              },
+              {
+                "id": "VIVILLON",
                 "forms": [
-                  "FORM_UNSET",
-                  "FLAMIGO_NORMAL"
+                  "VIVILLON_MODERN",
+                  "VIVILLON_SUN",
+                  "VIVILLON_OCEAN",
+                  "VIVILLON_MEADOW",
+                  "VIVILLON_FANCY"
                 ]
               }
             ]

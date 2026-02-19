@@ -4984,7 +4984,7 @@
       "category": [
         "Misc"
       ],
-      "releaseDate": 20250212
+      "releaseDate": 20260220
     }
   },
   {
@@ -4995,7 +4995,7 @@
       "category": [
         "Pokemon"
       ],
-      "releaseDate": 20250212,
+      "releaseDate": 20260220,
       "regionId": 2000
     }
   },
@@ -5004,10 +5004,11 @@
     "data": {
       "stickerId": "STICKER_PGO_TOUR_2026_2",
       "maxCount": 25,
+      "pokemonId": "XERNEAS",
       "category": [
         "Pokemon"
       ],
-      "releaseDate": 20250212,
+      "releaseDate": 20260220,
       "regionId": 5
     }
   },
@@ -5016,10 +5017,11 @@
     "data": {
       "stickerId": "STICKER_PGO_TOUR_2026_3",
       "maxCount": 25,
+      "pokemonId": "YVELTAL",
       "category": [
         "Pokemon"
       ],
-      "releaseDate": 20250212,
+      "releaseDate": 20260220,
       "regionId": 5
     }
   },
@@ -5031,7 +5033,7 @@
       "category": [
         "Misc"
       ],
-      "releaseDate": 20250212
+      "releaseDate": 20260220
     }
   },
   {
@@ -6219,6 +6221,57 @@
       ],
       "releaseDate": 20250303,
       "regionId": 4
+    }
+  },
+  {
+    "templateId": "STICKER_SPRING_2026_1",
+    "data": {
+      "stickerId": "STICKER_SPRING_2026_1",
+      "maxCount": 25,
+      "pokemonId": "KAKUNA",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20260303
+    }
+  },
+  {
+    "templateId": "STICKER_SPRING_2026_2",
+    "data": {
+      "stickerId": "STICKER_SPRING_2026_2",
+      "maxCount": 25,
+      "pokemonId": "LEAFEON",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20260303,
+      "regionId": 3
+    }
+  },
+  {
+    "templateId": "STICKER_SPRING_2026_3",
+    "data": {
+      "stickerId": "STICKER_SPRING_2026_3",
+      "maxCount": 25,
+      "pokemonId": "ESPURR",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20260303,
+      "regionId": 5
+    }
+  },
+  {
+    "templateId": "STICKER_SPRING_2026_4",
+    "data": {
+      "stickerId": "STICKER_SPRING_2026_4",
+      "maxCount": 25,
+      "pokemonId": "FEEBAS",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20260303,
+      "regionId": 2
     }
   },
   {

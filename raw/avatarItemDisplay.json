@@ -3366,6 +3366,13 @@
     }
   },
   {
+    "templateId": "N_DISPLAY_n_hat_xerneasitems_0",
+    "data": {
+      "iconAddress": "n_hat_xerneasitems_0_icon",
+      "displayStringId": "avatar_hat_xerneas"
+    }
+  },
+  {
     "templateId": "N_DISPLAY_n_hat_yamaskhat_0",
     "data": {
       "iconAddress": "n_hat_yamaskhat_0_icon",
@@ -8179,6 +8186,13 @@
     "data": {
       "iconAddress": "n_shirt_wintersweater2023_0_icon",
       "displayStringId": "n_shirt_wintersweater2023_0_display_name"
+    }
+  },
+  {
+    "templateId": "N_DISPLAY_n_shirt_yveltaljacket",
+    "data": {
+      "iconAddress": "n_shirt_yveltaljacket_icon",
+      "displayStringId": "avatar_shirt_yveltal"
     }
   },
   {
