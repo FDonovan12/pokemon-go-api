@@ -8280,6 +8280,19 @@
     "templateId": "EXTENDED_V0149_POKEMON_DRAGONITE",
     "data": {
       "uniqueId": "DRAGONITE",
+      "tempEvoOverrides": [
+        {
+          "tempEvoId": "TEMP_EVOLUTION_MEGA",
+          "sizeSettings": {
+            "xxsLowerBound": 1.8865,
+            "xsLowerBound": 1.925,
+            "mLowerBound": 2.8875,
+            "mUpperBound": 4.8125,
+            "xlUpperBound": 5.775,
+            "xxlUpperBound": 3.85
+          }
+        }
+      ],
       "sizeSettings": {
         "xxsLowerBound": 1.078,
         "xsLowerBound": 1.1,
@@ -8295,6 +8308,19 @@
     "data": {
       "uniqueId": "DRAGONITE",
       "form": "DRAGONITE_NORMAL",
+      "tempEvoOverrides": [
+        {
+          "tempEvoId": "TEMP_EVOLUTION_MEGA",
+          "sizeSettings": {
+            "xxsLowerBound": 1.8865,
+            "xsLowerBound": 1.925,
+            "mLowerBound": 2.8875,
+            "mUpperBound": 4.8125,
+            "xlUpperBound": 5.775,
+            "xxlUpperBound": 3.85
+          }
+        }
+      ],
       "sizeSettings": {
         "xxsLowerBound": 1.078,
         "xsLowerBound": 1.1,

@@ -22384,6 +22384,7 @@
         "shadowChargeMove": "FRUSTRATION"
       },
       "buddyGroupNumber": 2,
+      "buddyWalkedMegaEnergyAward": 15,
       "ibfc": {},
       "breadTierGroup": "GROUP_2"
     }
@@ -22491,6 +22492,7 @@
         "shadowChargeMove": "FRUSTRATION"
       },
       "buddyGroupNumber": 2,
+      "buddyWalkedMegaEnergyAward": 15,
       "ibfc": {},
       "breadTierGroup": "GROUP_2"
     }
@@ -22611,6 +22613,7 @@
       "eliteQuickMove": [
         "RAZOR_LEAF_FAST"
       ],
+      "buddyWalkedMegaEnergyAward": 15,
       "ibfc": {},
       "breadTierGroup": "GROUP_2"
     }
@@ -22732,6 +22735,7 @@
       "eliteQuickMove": [
         "RAZOR_LEAF_FAST"
       ],
+      "buddyWalkedMegaEnergyAward": 15,
       "ibfc": {},
       "breadTierGroup": "GROUP_2"
     }
@@ -42639,6 +42643,7 @@
         "shadowChargeMove": "FRUSTRATION"
       },
       "buddyGroupNumber": 2,
+      "buddyWalkedMegaEnergyAward": 15,
       "ibfc": {},
       "breadTierGroup": "GROUP_3"
     }
@@ -42745,6 +42750,7 @@
         "shadowChargeMove": "FRUSTRATION"
       },
       "buddyGroupNumber": 2,
+      "buddyWalkedMegaEnergyAward": 15,
       "ibfc": {},
       "breadTierGroup": "GROUP_3"
     }
@@ -42856,6 +42862,7 @@
         "shadowChargeMove": "FRUSTRATION"
       },
       "buddyGroupNumber": 3,
+      "buddyWalkedMegaEnergyAward": 15,
       "ibfc": {},
       "breadTierGroup": "GROUP_3"
     }
@@ -42968,6 +42975,7 @@
         "shadowChargeMove": "FRUSTRATION"
       },
       "buddyGroupNumber": 3,
+      "buddyWalkedMegaEnergyAward": 15,
       "ibfc": {},
       "breadTierGroup": "GROUP_3"
     }
@@ -43046,6 +43054,13 @@
       "kmBuddyDistance": 5,
       "buddySize": "BUDDY_BIG",
       "modelHeight": 2.28,
+      "evolutionBranch": [
+        {
+          "temporaryEvolution": "TEMP_EVOLUTION_MEGA",
+          "temporaryEvolutionEnergyCost": 300,
+          "temporaryEvolutionEnergyCostSubsequent": 60
+        }
+      ],
       "modelScaleV2": 0.96,
       "buddyOffsetMale": [
         20,
@@ -43081,6 +43096,28 @@
         "DRACO_METEOR",
         "DRAGON_PULSE"
       ],
+      "tempEvoOverrides": [
+        {
+          "tempEvoId": "TEMP_EVOLUTION_MEGA",
+          "stats": {
+            "baseStamina": 209,
+            "baseAttack": 299,
+            "baseDefense": 255
+          },
+          "averageHeightM": 2.2,
+          "averageWeightKg": 290,
+          "typeOverride1": "POKEMON_TYPE_DRAGON",
+          "typeOverride2": "POKEMON_TYPE_FLYING",
+          "camera": {
+            "cylinderRadiusM": 3,
+            "cylinderHeightM": 3.2,
+            "cylinderGroundM": 1.25
+          },
+          "modelScaleV2": 0.9,
+          "modelHeight": 2.2
+        }
+      ],
+      "buddyWalkedMegaEnergyAward": 15,
       "useIrisFlyingPlacement": true,
       "irisPhotoEmote1": "PhysicalAttack",
       "irisPhotoEmote2": "SpecialAttack",
@@ -43162,6 +43199,13 @@
       "kmBuddyDistance": 5,
       "buddySize": "BUDDY_BIG",
       "modelHeight": 2.28,
+      "evolutionBranch": [
+        {
+          "temporaryEvolution": "TEMP_EVOLUTION_MEGA",
+          "temporaryEvolutionEnergyCost": 300,
+          "temporaryEvolutionEnergyCostSubsequent": 60
+        }
+      ],
       "modelScaleV2": 0.96,
       "form": "DRAGONITE_NORMAL",
       "buddyOffsetMale": [
@@ -43198,6 +43242,28 @@
         "DRACO_METEOR",
         "DRAGON_PULSE"
       ],
+      "tempEvoOverrides": [
+        {
+          "tempEvoId": "TEMP_EVOLUTION_MEGA",
+          "stats": {
+            "baseStamina": 209,
+            "baseAttack": 299,
+            "baseDefense": 255
+          },
+          "averageHeightM": 2.2,
+          "averageWeightKg": 290,
+          "typeOverride1": "POKEMON_TYPE_DRAGON",
+          "typeOverride2": "POKEMON_TYPE_FLYING",
+          "camera": {
+            "cylinderRadiusM": 3,
+            "cylinderHeightM": 3.2,
+            "cylinderGroundM": 1.25
+          },
+          "modelScaleV2": 0.9,
+          "modelHeight": 2.2
+        }
+      ],
+      "buddyWalkedMegaEnergyAward": 15,
       "useIrisFlyingPlacement": true,
       "irisPhotoEmote1": "PhysicalAttack",
       "irisPhotoEmote2": "SpecialAttack",
@@ -171120,6 +171186,7 @@
         "purifiedChargeMove": "RETURN",
         "shadowChargeMove": "FRUSTRATION"
       },
+      "buddyWalkedMegaEnergyAward": 15,
       "ibfc": {},
       "breadTierGroup": "GROUP_2"
     }
@@ -171206,6 +171273,7 @@
         "purifiedChargeMove": "RETURN",
         "shadowChargeMove": "FRUSTRATION"
       },
+      "buddyWalkedMegaEnergyAward": 15,
       "ibfc": {},
       "breadTierGroup": "GROUP_2"
     }

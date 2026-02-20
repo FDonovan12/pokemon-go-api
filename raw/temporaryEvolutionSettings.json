@@ -160,6 +160,18 @@
     }
   },
   {
+    "templateId": "TEMPORARY_EVOLUTION_V0149_POKEMON_DRAGONITE",
+    "data": {
+      "pokemonId": "DRAGONITE",
+      "temporaryEvolutions": [
+        {
+          "temporaryEvolutionId": "TEMP_EVOLUTION_MEGA",
+          "assetBundleValue": 51
+        }
+      ]
+    }
+  },
+  {
     "templateId": "TEMPORARY_EVOLUTION_V0181_POKEMON_AMPHAROS",
     "data": {
       "pokemonId": "AMPHAROS",

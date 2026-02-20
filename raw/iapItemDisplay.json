@@ -3,8 +3,6 @@
     "templateId": "BUNDLE_EC_200_RPP_1",
     "data": {
       "sku": "BUNDLE_EC_200_RPP_1",
-      "category": "IAP_CATEGORY_ITEMS",
-      "hidden": true,
       "spriteId": "enhanced_currency_medium_rrp"
     }
   },
@@ -12,9 +10,10 @@
     "templateId": "BUNDLE_EC_600_RPP_3",
     "data": {
       "sku": "BUNDLE_EC_600_RPP_3",
-      "category": "IAP_CATEGORY_ITEMS",
-      "hidden": true,
-      "spriteId": "enhanced_currency_large_3rrp"
+      "spriteId": "enhanced_currency_large_3rrp",
+      "showDiscountTag": true,
+      "showStrikethroughPrice": true,
+      "totalValue": 885
     }
   },
   {
@@ -366,7 +365,7 @@
     "data": {
       "sku": "ITEM_ENHANCED_CURRENCY_200",
       "category": "IAP_CATEGORY_ITEMS",
-      "hidden": true,
+      "sortOrder": 1,
       "spriteId": "enhanced_currency_medium"
     }
   },
@@ -375,8 +374,11 @@
     "data": {
       "sku": "ITEM_ENHANCED_CURRENCY_600",
       "category": "IAP_CATEGORY_ITEMS",
-      "hidden": true,
-      "spriteId": "enhanced_currency_large"
+      "sortOrder": 2,
+      "spriteId": "enhanced_currency_large",
+      "showDiscountTag": true,
+      "showStrikethroughPrice": true,
+      "totalValue": 300
     }
   },
   {
@@ -9189,11 +9191,20 @@
     }
   },
   {
+    "templateId": "incenseordinary.1",
+    "data": {
+      "sku": "incenseordinary.1",
+      "category": "IAP_CATEGORY_ITEMS",
+      "sortOrder": 18,
+      "spriteId": "incenseordinary.1"
+    }
+  },
+  {
     "templateId": "incenseordinary.8",
     "data": {
       "sku": "incenseordinary.8",
       "category": "IAP_CATEGORY_ITEMS",
-      "sortOrder": 55,
+      "sortOrder": 19,
       "spriteId": "incenseordinary.8",
       "showDiscountTag": true,
       "showStrikethroughPrice": true,
@@ -9201,13 +9212,40 @@
     }
   },
   {
+    "templateId": "incubatorbasic.1",
+    "data": {
+      "sku": "incubatorbasic.1",
+      "category": "IAP_CATEGORY_ITEMS",
+      "sortOrder": 15,
+      "spriteId": "incubatorbasic.1"
+    }
+  },
+  {
+    "templateId": "incubatorsuper.1",
+    "data": {
+      "sku": "incubatorsuper.1",
+      "category": "IAP_CATEGORY_ITEMS",
+      "sortOrder": 10,
+      "spriteId": "incubatorsuper.1"
+    }
+  },
+  {
     "templateId": "itemleadermap",
     "data": {
       "sku": "itemleadermap",
       "category": "IAP_CATEGORY_ITEMS",
-      "sortOrder": 60,
-      "spriteId": "leadermap.1",
+      "sortOrder": 22,
+      "spriteId": "itemleadermap",
       "title": "itemleadermap_title"
+    }
+  },
+  {
+    "templateId": "luckyegg.1",
+    "data": {
+      "sku": "luckyegg.1",
+      "category": "IAP_CATEGORY_ITEMS",
+      "sortOrder": 11,
+      "spriteId": "luckyegg.1"
     }
   },
   {
@@ -9215,7 +9253,7 @@
     "data": {
       "sku": "luckyegg.8",
       "category": "IAP_CATEGORY_ITEMS",
-      "sortOrder": 85,
+      "sortOrder": 12,
       "spriteId": "luckyegg.8",
       "showDiscountTag": true,
       "showStrikethroughPrice": true,
@@ -9227,7 +9265,7 @@
     "data": {
       "sku": "max_boost.1",
       "category": "IAP_CATEGORY_ITEMS",
-      "sortOrder": 3,
+      "sortOrder": 26,
       "spriteId": "max_boost.1"
     }
   },
@@ -9236,7 +9274,7 @@
     "data": {
       "sku": "max_boost.3",
       "category": "IAP_CATEGORY_ITEMS",
-      "sortOrder": 4,
+      "sortOrder": 27,
       "spriteId": "max_boost.3",
       "showDiscountTag": true,
       "showStrikethroughPrice": true,
@@ -9248,7 +9286,7 @@
     "data": {
       "sku": "maxpotion.10",
       "category": "IAP_CATEGORY_ITEMS",
-      "sortOrder": 86,
+      "sortOrder": 23,
       "spriteId": "maxpotion.10",
       "title": "maxpotion.10_title"
     }
@@ -9282,7 +9320,7 @@
     "data": {
       "sku": "maxrevive.6",
       "category": "IAP_CATEGORY_ITEMS",
-      "sortOrder": 87,
+      "sortOrder": 17,
       "spriteId": "maxrevive.6",
       "title": "maxrevive.6_title"
     }
@@ -9292,7 +9330,7 @@
     "data": {
       "sku": "mp_replenish.1",
       "category": "IAP_CATEGORY_ITEMS",
-      "sortOrder": 1,
+      "sortOrder": 13,
       "spriteId": "mp_replenish.1"
     }
   },
@@ -9301,7 +9339,7 @@
     "data": {
       "sku": "mp_replenish.3",
       "category": "IAP_CATEGORY_ITEMS",
-      "sortOrder": 2,
+      "sortOrder": 14,
       "spriteId": "mp_replenish.3",
       "showDiscountTag": true,
       "showStrikethroughPrice": true,
@@ -9325,11 +9363,20 @@
     }
   },
   {
+    "templateId": "paidraidticket.1",
+    "data": {
+      "sku": "paidraidticket.1",
+      "category": "IAP_CATEGORY_ITEMS",
+      "sortOrder": 8,
+      "spriteId": "paidraidticket.1"
+    }
+  },
+  {
     "templateId": "paidraidticket.3",
     "data": {
       "sku": "paidraidticket.3",
       "category": "IAP_CATEGORY_ITEMS",
-      "sortOrder": 16,
+      "sortOrder": 9,
       "spriteId": "paidraidticket.3",
       "showDiscountTag": true,
       "showStrikethroughPrice": true,
@@ -10642,11 +10689,20 @@
     }
   },
   {
+    "templateId": "poffin",
+    "data": {
+      "sku": "poffin",
+      "category": "IAP_CATEGORY_ITEMS",
+      "sortOrder": 16,
+      "spriteId": "poffin"
+    }
+  },
+  {
     "templateId": "pokeball.100",
     "data": {
       "sku": "pokeball.100",
       "category": "IAP_CATEGORY_ITEMS",
-      "sortOrder": 40,
+      "sortOrder": 6,
       "spriteId": "pokeball.100",
       "showDiscountTag": true,
       "showStrikethroughPrice": true,
@@ -10654,11 +10710,20 @@
     }
   },
   {
+    "templateId": "pokeball.20",
+    "data": {
+      "sku": "pokeball.20",
+      "category": "IAP_CATEGORY_ITEMS",
+      "sortOrder": 5,
+      "spriteId": "pokeball.20"
+    }
+  },
+  {
     "templateId": "pokeball.200",
     "data": {
       "sku": "pokeball.200",
       "category": "IAP_CATEGORY_ITEMS",
-      "sortOrder": 45,
+      "sortOrder": 7,
       "spriteId": "pokeball.200",
       "showDiscountTag": true,
       "showStrikethroughPrice": true,
@@ -10677,11 +10742,20 @@
     }
   },
   {
+    "templateId": "remoteraidticket.1",
+    "data": {
+      "sku": "remoteraidticket.1",
+      "category": "IAP_CATEGORY_ITEMS",
+      "sortOrder": 3,
+      "spriteId": "remoteraidticket.1"
+    }
+  },
+  {
     "templateId": "remoteraidticket.3",
     "data": {
       "sku": "remoteraidticket.3",
       "category": "IAP_CATEGORY_ITEMS",
-      "sortOrder": 10,
+      "sortOrder": 4,
       "spriteId": "remoteraidticket.3",
       "showDiscountTag": true,
       "showStrikethroughPrice": true,
@@ -10689,11 +10763,20 @@
     }
   },
   {
+    "templateId": "starpiece.1",
+    "data": {
+      "sku": "starpiece.1",
+      "category": "IAP_CATEGORY_ITEMS",
+      "sortOrder": 24,
+      "spriteId": "starpiece.1"
+    }
+  },
+  {
     "templateId": "starpiece.8",
     "data": {
       "sku": "starpiece.8",
       "category": "IAP_CATEGORY_ITEMS",
-      "sortOrder": 70,
+      "sortOrder": 25,
       "spriteId": "starpiece.8",
       "showDiscountTag": true,
       "showStrikethroughPrice": true,
@@ -10701,11 +10784,20 @@
     }
   },
   {
+    "templateId": "troydisk.1",
+    "data": {
+      "sku": "troydisk.1",
+      "category": "IAP_CATEGORY_ITEMS",
+      "sortOrder": 20,
+      "spriteId": "troydisk.1"
+    }
+  },
+  {
     "templateId": "troydisk.8",
     "data": {
       "sku": "troydisk.8",
       "category": "IAP_CATEGORY_ITEMS",
-      "sortOrder": 115,
+      "sortOrder": 21,
       "spriteId": "troydisk.8",
       "showDiscountTag": true,
       "showStrikethroughPrice": true,

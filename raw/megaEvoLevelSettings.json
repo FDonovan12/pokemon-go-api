@@ -119,6 +119,26 @@
     }
   },
   {
+    "templateId": "MEGA_EVOLUTION_LEVEL_0_V0149_POKEMON_DRAGONITE",
+    "data": {
+      "pokemonId": "DRAGONITE",
+      "progression": {
+        "pointsLimitPerPeriod": 1,
+        "pointsPerMegaEvoAction": 1
+      },
+      "cooldown": {
+        "durationMs": "1209600000",
+        "bypassCostInitial": 500,
+        "bypassCostRoundingValue": 1
+      },
+      "effects": {
+        "differentTypeAttackBoost": 1.1,
+        "sameTypeAttackBoost": 1.3,
+        "sameTypeExtraCatchCandy": 1
+      }
+    }
+  },
+  {
     "templateId": "MEGA_EVOLUTION_LEVEL_0_V0150_POKEMON_MEWTWO",
     "data": {
       "pokemonId": "MEWTWO",
@@ -600,6 +620,28 @@
       "cooldown": {
         "durationMs": "604800000",
         "bypassCostInitial": 60,
+        "bypassCostRoundingValue": 1
+      },
+      "effects": {
+        "differentTypeAttackBoost": 1.1,
+        "sameTypeAttackBoost": 1.3,
+        "sameTypeExtraCatchCandy": 1
+      }
+    }
+  },
+  {
+    "templateId": "MEGA_EVOLUTION_LEVEL_1_V0149_POKEMON_DRAGONITE",
+    "data": {
+      "level": 1,
+      "pokemonId": "DRAGONITE",
+      "progression": {
+        "pointsRequired": 1,
+        "pointsLimitPerPeriod": 1,
+        "pointsPerMegaEvoAction": 1
+      },
+      "cooldown": {
+        "durationMs": "604800000",
+        "bypassCostInitial": 40,
         "bypassCostRoundingValue": 1
       },
       "effects": {
@@ -1137,6 +1179,30 @@
       "cooldown": {
         "durationMs": "432000000",
         "bypassCostInitial": 30,
+        "bypassCostRoundingValue": 1
+      },
+      "effects": {
+        "differentTypeAttackBoost": 1.1,
+        "sameTypeAttackBoost": 1.3,
+        "sameTypeExtraCatchCandy": 1,
+        "sameTypeExtraCatchXp": 50,
+        "sameTypeExtraCatchCandyXlChance": 0.1
+      }
+    }
+  },
+  {
+    "templateId": "MEGA_EVOLUTION_LEVEL_2_V0149_POKEMON_DRAGONITE",
+    "data": {
+      "level": 2,
+      "pokemonId": "DRAGONITE",
+      "progression": {
+        "pointsRequired": 7,
+        "pointsLimitPerPeriod": 1,
+        "pointsPerMegaEvoAction": 1
+      },
+      "cooldown": {
+        "durationMs": "432000000",
+        "bypassCostInitial": 20,
         "bypassCostRoundingValue": 1
       },
       "effects": {
@@ -1724,6 +1790,30 @@
     }
   },
   {
+    "templateId": "MEGA_EVOLUTION_LEVEL_3_V0149_POKEMON_DRAGONITE",
+    "data": {
+      "level": 3,
+      "pokemonId": "DRAGONITE",
+      "progression": {
+        "pointsRequired": 30,
+        "pointsLimitPerPeriod": 1,
+        "pointsPerMegaEvoAction": 1
+      },
+      "cooldown": {
+        "durationMs": "259200000",
+        "bypassCostInitial": 10,
+        "bypassCostRoundingValue": 1
+      },
+      "effects": {
+        "differentTypeAttackBoost": 1.1,
+        "sameTypeAttackBoost": 1.3,
+        "sameTypeExtraCatchCandy": 2,
+        "sameTypeExtraCatchXp": 100,
+        "sameTypeExtraCatchCandyXlChance": 0.25
+      }
+    }
+  },
+  {
     "templateId": "MEGA_EVOLUTION_LEVEL_3_V0150_POKEMON_MEWTWO",
     "data": {
       "level": 3,
@@ -2160,6 +2250,33 @@
     "data": {
       "level": 4,
       "pokemonId": "VICTREEBEL",
+      "progression": {
+        "pointsRequired": 30,
+        "pointsLimitPerPeriod": 1,
+        "pointsPerMegaEvoAction": 1
+      },
+      "cooldown": {
+        "durationMs": "86400000",
+        "bypassCostInitial": 5,
+        "bypassCostRoundingValue": 1
+      },
+      "effects": {
+        "differentTypeAttackBoost": 1.1,
+        "sameTypeAttackBoost": 1.3,
+        "sameTypeExtraCatchCandy": 3,
+        "sameTypeExtraCatchXp": 200,
+        "sameTypeExtraCatchCandyXlChance": 0.3,
+        "selfCpBoostAdditionalLevel": 2
+      },
+      "megaEnergyCostToUnlock": 5000,
+      "ftueExpirationTimestamp": "1775001600000"
+    }
+  },
+  {
+    "templateId": "MEGA_EVOLUTION_LEVEL_4_V0149_POKEMON_DRAGONITE",
+    "data": {
+      "level": 4,
+      "pokemonId": "DRAGONITE",
       "progression": {
         "pointsRequired": 30,
         "pointsLimitPerPeriod": 1,

@@ -35,6 +35,13 @@
     }
   },
   {
+    "templateId": "HEAL_TOAST_FEATURE_GATE",
+    "data": {
+      "status": 41414141,
+      "rolloutPercentage": 100
+    }
+  },
+  {
     "templateId": "MEGA_2026_FEATURE_GATE",
     "data": {
       "status": 216426293,
@@ -42,19 +49,23 @@
       "subFeatureGateList": [
         {
           "name": "MEGA_LEVELS_TUTORIAL_SUB_FEATURE_GATE",
-          "status": 817843414
+          "status": 817843414,
+          "rolloutPercentage": 100
         },
         {
           "name": "MEGA_EVOLVE_BUTTON_SUB_FEATURE_GATE",
-          "status": 466713653
+          "status": 466713653,
+          "rolloutPercentage": 100
         },
         {
           "name": "MEGA_HUD_SUB_FEATURE_GATE",
-          "status": 292744512
+          "status": 292744512,
+          "rolloutPercentage": 100
         },
         {
           "name": "MEGA_HUD_TIMER_SUB_FEATURE_GATE",
-          "status": 991283745
+          "status": 991283745,
+          "rolloutPercentage": 100
         },
         {
           "name": "MEGA_2026_FTUE_SUB_FEATURE_GATE",
@@ -62,15 +73,18 @@
         },
         {
           "name": "MEGA_LEVEL_4_ENABLED_SUB_FEATURE_GATE",
-          "status": 311989544
+          "status": 311989544,
+          "rolloutPercentage": 100
         },
         {
           "name": "REMOTE_NC_HELP_TEXT_SUB_FEATURE_GATE",
-          "status": 222
+          "status": 222,
+          "rolloutPercentage": 100
         },
         {
           "name": "MEGA_CP_BOOST_ENABLED_SUB_FEATURE_GATE",
-          "status": 368387608
+          "status": 368387608,
+          "rolloutPercentage": 100
         }
       ]
     }

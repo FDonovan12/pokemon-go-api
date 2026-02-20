@@ -536,7 +536,8 @@
     "templateId": "V0147_FAMILY_DRATINI",
     "data": {
       "familyId": "FAMILY_DRATINI",
-      "candyPerXlCandy": 100
+      "candyPerXlCandy": 100,
+      "megaEvolvablePokemonId": "DRAGONITE"
     }
   },
   {

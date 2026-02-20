@@ -5,12 +5,12 @@
       "evolutionLengthMs": "28800000",
       "attackBoostFromMegaDifferentType": 1.1,
       "attackBoostFromMegaSameType": 1.3,
-      "maxCandyHoardSize": 9999,
+      "maxCandyHoardSize": 10000,
       "enableBuddyWalkingMegaEnergyAward": true,
       "activeMegaBonusCatchCandy": 1,
       "enableMegaLevel": true,
       "enableMegaEvolveInLobby": true,
-      "numMegaLevels": 3,
+      "numMegaLevels": 4,
       "clientMegaCooldownBufferMs": 2000,
       "enableMegaLevelLegacyAward": true
     }
