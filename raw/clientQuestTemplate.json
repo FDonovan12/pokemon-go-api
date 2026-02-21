@@ -1803,12 +1803,17 @@
     "templateId": "WEEKLY_CHALLENGE_PARTY_QUEST_WEEK2",
     "data": {
       "quest": {
-        "questType": "QUEST_CATCH_POKEMON",
+        "questType": "QUEST_COMPLETE_RAID_BATTLE",
         "questId": "WEEKLY_CHALLENGE_PARTY_QUEST_WEEK2",
         "questContext": "WEEKLY_CHALLENGE_QUEST",
         "templateId": "WEEKLY_CHALLENGE_PARTY_QUEST_WEEK2",
         "goal": {
-          "target": 500
+          "condition": [
+            {
+              "type": "WITH_WIN_RAID_STATUS"
+            }
+          ],
+          "target": 12
         },
         "questRewards": [
           {
@@ -1831,13 +1836,20 @@
                 "form": "TANDEMAUS_NORMAL"
               }
             }
+          },
+          {
+            "type": "ITEM",
+            "item": {
+              "item": "ITEM_ENHANCED_CURRENCY",
+              "amount": 600
+            }
           }
         ],
         "difficulty": "EASY"
       },
       "questDisplay": {
-        "description": "quest_catch_pokemon_plural",
-        "title": "quest_catch_pokemon_plural"
+        "description": "quest_win_raid_plural",
+        "title": "quest_win_raid_plural"
       }
     }
   },
@@ -1872,6 +1884,13 @@
               "pokemonDisplay": {
                 "form": "TANDEMAUS_NORMAL"
               }
+            }
+          },
+          {
+            "type": "ITEM",
+            "item": {
+              "item": "ITEM_ENHANCED_CURRENCY",
+              "amount": 250
             }
           }
         ],

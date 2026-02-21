@@ -42643,7 +42643,7 @@
         "shadowChargeMove": "FRUSTRATION"
       },
       "buddyGroupNumber": 2,
-      "buddyWalkedMegaEnergyAward": 15,
+      "buddyWalkedMegaEnergyAward": 25,
       "ibfc": {},
       "breadTierGroup": "GROUP_3"
     }
@@ -42750,7 +42750,7 @@
         "shadowChargeMove": "FRUSTRATION"
       },
       "buddyGroupNumber": 2,
-      "buddyWalkedMegaEnergyAward": 15,
+      "buddyWalkedMegaEnergyAward": 25,
       "ibfc": {},
       "breadTierGroup": "GROUP_3"
     }
@@ -42862,7 +42862,7 @@
         "shadowChargeMove": "FRUSTRATION"
       },
       "buddyGroupNumber": 3,
-      "buddyWalkedMegaEnergyAward": 15,
+      "buddyWalkedMegaEnergyAward": 25,
       "ibfc": {},
       "breadTierGroup": "GROUP_3"
     }
@@ -42975,7 +42975,7 @@
         "shadowChargeMove": "FRUSTRATION"
       },
       "buddyGroupNumber": 3,
-      "buddyWalkedMegaEnergyAward": 15,
+      "buddyWalkedMegaEnergyAward": 25,
       "ibfc": {},
       "breadTierGroup": "GROUP_3"
     }
@@ -43117,7 +43117,7 @@
           "modelHeight": 2.2
         }
       ],
-      "buddyWalkedMegaEnergyAward": 15,
+      "buddyWalkedMegaEnergyAward": 25,
       "useIrisFlyingPlacement": true,
       "irisPhotoEmote1": "PhysicalAttack",
       "irisPhotoEmote2": "SpecialAttack",
@@ -43263,7 +43263,7 @@
           "modelHeight": 2.2
         }
       ],
-      "buddyWalkedMegaEnergyAward": 15,
+      "buddyWalkedMegaEnergyAward": 25,
       "useIrisFlyingPlacement": true,
       "irisPhotoEmote1": "PhysicalAttack",
       "irisPhotoEmote2": "SpecialAttack",

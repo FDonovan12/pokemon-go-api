@@ -9235,7 +9235,7 @@
       "sku": "itemleadermap",
       "category": "IAP_CATEGORY_ITEMS",
       "sortOrder": 22,
-      "spriteId": "itemleadermap",
+      "spriteId": "leadermap.1",
       "title": "itemleadermap_title"
     }
   },
