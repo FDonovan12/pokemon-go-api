@@ -116,16 +116,10 @@
         },
         {
           "pokemon": "XERNEAS",
-          "forms": [
-            "XERNEAS_NORMAL"
-          ],
           "battleMusicKey": "RaidXerneasYveltalBattleMusic"
         },
         {
           "pokemon": "YVELTAL",
-          "forms": [
-            "YVELTAL_NORMAL"
-          ],
           "battleMusicKey": "RaidXerneasYveltalBattleMusic"
         }
       ],
