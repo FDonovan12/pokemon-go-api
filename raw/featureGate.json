@@ -69,7 +69,8 @@
         },
         {
           "name": "MEGA_2026_FTUE_SUB_FEATURE_GATE",
-          "status": 382901475
+          "status": 382901475,
+          "rolloutPercentage": 100
         },
         {
           "name": "MEGA_LEVEL_4_ENABLED_SUB_FEATURE_GATE",

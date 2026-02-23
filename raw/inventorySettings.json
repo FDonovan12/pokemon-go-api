@@ -2,8 +2,8 @@
   {
     "templateId": "INVENTORY_SETTINGS",
     "data": {
-      "maxPokemon": 11150,
-      "maxBagItems": 10500,
+      "maxPokemon": 11650,
+      "maxBagItems": 11000,
       "basePokemon": 300,
       "baseBagItems": 350,
       "baseEggs": 9,

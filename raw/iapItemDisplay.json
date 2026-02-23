@@ -50,14 +50,14 @@
     "templateId": "EVENT_PASS_GOTOUR2025_GLOBAL_STORE_REDIRECT",
     "data": {
       "sku": "pgorelease.gotour_2025_deluxe_event_pass_track_redirect",
+      "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 1,
-      "hidden": true,
       "title": "gotour_2025_deluxe_event_pass_track_unlock_title",
       "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
       "skuEnableTime": "2025-01-01T00:00:00",
-      "skuDisableTime": "2025-01-02T00:00:00",
+      "skuDisableTime": "2026-03-03T18:00:00",
       "skuEnableTimeUtcMs": "1735689600000",
-      "skuDisableTimeUtcMs": "1735776000000",
+      "skuDisableTimeUtcMs": "1772560800000",
       "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FTourPass2026.jpg"
     }
   },
@@ -227,13 +227,12 @@
     "data": {
       "sku": "pgorelease.gotour_2025_deluxe_event_pass_track_unlock",
       "sortOrder": 1,
-      "hidden": true,
       "title": "gotour_2025_deluxe_event_pass_track_unlock_title",
       "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
       "skuEnableTime": "2025-01-01T00:00:00",
-      "skuDisableTime": "2025-01-02T00:00:00",
+      "skuDisableTime": "2026-03-03T18:00:00",
       "skuEnableTimeUtcMs": "1735689600000",
-      "skuDisableTimeUtcMs": "1735776000000",
+      "skuDisableTimeUtcMs": "1772560800000",
       "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FTourPass2026.jpg"
     }
   },
@@ -242,13 +241,12 @@
     "data": {
       "sku": "pgorelease.gotour_2025_deluxe_event_pass_track_unlock_plus_points",
       "sortOrder": 1,
-      "hidden": true,
       "title": "gotour_2025_deluxe_event_pass_track_unlock_plus_points_title",
       "description": "gotour_2025_deluxe_event_pass_track_unlock_plus_points_description",
       "skuEnableTime": "2025-01-01T00:00:00",
-      "skuDisableTime": "2025-01-02T00:00:00",
+      "skuDisableTime": "2026-03-03T18:00:00",
       "skuEnableTimeUtcMs": "1735689600000",
-      "skuDisableTimeUtcMs": "1735776000000",
+      "skuDisableTimeUtcMs": "1772560800000",
       "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FTourPass2026.jpg"
     }
   },
@@ -5910,9 +5908,15 @@
       "sku": "bundle.GOTour2024.1",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 1,
-      "hidden": true,
       "spriteId": "bundle.general5.small.1",
-      "title": "great_storage_box"
+      "title": "great_storage_box",
+      "skuEnableTime": "2022-10-13T12:00:00",
+      "skuDisableTime": "2026-03-01T22:00:00",
+      "skuEnableTimeUtcMs": "1665662400000",
+      "skuDisableTimeUtcMs": "1772402400000",
+      "showDiscountTag": true,
+      "showStrikethroughPrice": true,
+      "totalValue": 695
     }
   },
   {
@@ -5921,9 +5925,15 @@
       "sku": "bundle.GOTour2024.2",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 2,
-      "hidden": true,
       "spriteId": "bundle.general.adventure.1",
-      "title": "hatch_box"
+      "title": "hatch_box",
+      "skuEnableTime": "2022-10-13T12:00:01",
+      "skuDisableTime": "2026-03-01T22:00:00",
+      "skuEnableTimeUtcMs": "1665662401000",
+      "skuDisableTimeUtcMs": "1772402400000",
+      "showDiscountTag": true,
+      "showStrikethroughPrice": true,
+      "totalValue": 5350
     }
   },
   {
@@ -5932,9 +5942,15 @@
       "sku": "bundle.GOTour2024.3",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 3,
-      "hidden": true,
       "spriteId": "bundle.general.remotebox.medium.1",
-      "title": "great_raid_box_title"
+      "title": "great_raid_box_title",
+      "skuEnableTime": "2022-10-13T12:00:02",
+      "skuDisableTime": "2026-03-01T22:00:00",
+      "skuEnableTimeUtcMs": "1665662402000",
+      "skuDisableTimeUtcMs": "1772402400000",
+      "showDiscountTag": true,
+      "showStrikethroughPrice": true,
+      "totalValue": 1185
     }
   },
   {
@@ -5943,9 +5959,15 @@
       "sku": "bundle.GOTour2024.4",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 4,
-      "hidden": true,
       "spriteId": "bundle.general1.small.2",
-      "title": "catch_box"
+      "title": "catch_box",
+      "skuEnableTime": "2022-10-13T12:00:03",
+      "skuDisableTime": "2026-03-01T22:00:00",
+      "skuEnableTimeUtcMs": "1665662403000",
+      "skuDisableTimeUtcMs": "1772402400000",
+      "showDiscountTag": true,
+      "showStrikethroughPrice": true,
+      "totalValue": 580
     }
   },
   {
@@ -5954,9 +5976,15 @@
       "sku": "bundle.GOTour2024.5",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 5,
-      "hidden": true,
       "spriteId": "bundle.general1.large.2",
-      "title": "external_box_name_2"
+      "title": "external_box_name_2",
+      "skuEnableTime": "2022-10-13T12:00:04",
+      "skuDisableTime": "2026-03-01T22:00:00",
+      "skuEnableTimeUtcMs": "1665662404000",
+      "skuDisableTimeUtcMs": "1772402400000",
+      "showDiscountTag": true,
+      "showStrikethroughPrice": true,
+      "totalValue": 17500
     }
   },
   {
@@ -5965,10 +5993,13 @@
       "sku": "bundle.GOTour2024.6",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 6,
-      "hidden": true,
       "sale": true,
       "spriteId": "bundle.general.premiumbox.large.1",
-      "title": "ultra_raid_box_title"
+      "title": "ultra_raid_box_title",
+      "skuEnableTime": "2022-10-13T12:00:05",
+      "skuDisableTime": "2026-03-01T22:00:00",
+      "skuEnableTimeUtcMs": "1665662405000",
+      "skuDisableTimeUtcMs": "1772402400000"
     }
   },
   {
@@ -5977,9 +6008,12 @@
       "sku": "bundle.GOTour2024.7",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 7,
-      "hidden": true,
       "spriteId": "bundle2.sprite.a",
-      "title": "sticker_box"
+      "title": "sticker_box",
+      "skuEnableTime": "2022-10-13T12:00:05",
+      "skuDisableTime": "2026-03-01T22:00:00",
+      "skuEnableTimeUtcMs": "1665662405000",
+      "skuDisableTimeUtcMs": "1772402400000"
     }
   },
   {
@@ -10625,6 +10659,32 @@
       "skuEnableTimeUtcMs": "1680775200000",
       "skuDisableTimeUtcMs": "1770580800000",
       "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Carnival_of_Flamigo_v2-1024x576-nologo.jpg"
+    }
+  },
+  {
+    "templateId": "pgorelease.gotour_2025_deluxe_event_pass_track_unlock",
+    "data": {
+      "sku": "pgorelease.gotour_2025_deluxe_event_pass_track_unlock",
+      "sortOrder": 1,
+      "title": "gotour_2025_deluxe_event_pass_track_unlock_title",
+      "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
+      "skuEnableTime": "2025-01-01T00:00:00",
+      "skuDisableTime": "2026-03-03T18:00:00",
+      "skuEnableTimeUtcMs": "1735689600000",
+      "skuDisableTimeUtcMs": "1772560800000"
+    }
+  },
+  {
+    "templateId": "pgorelease.gotour_2025_deluxe_event_pass_track_unlock_plus_points",
+    "data": {
+      "sku": "pgorelease.gotour_2025_deluxe_event_pass_track_unlock_plus_points",
+      "sortOrder": 1,
+      "title": "gotour_2025_deluxe_event_pass_track_unlock_plus_points_title",
+      "description": "gotour_2025_deluxe_event_pass_track_unlock_plus_points_description",
+      "skuEnableTime": "2025-01-01T00:00:00",
+      "skuDisableTime": "2026-03-03T18:00:00",
+      "skuEnableTimeUtcMs": "1735689600000",
+      "skuDisableTimeUtcMs": "1772560800000"
     }
   },
   {

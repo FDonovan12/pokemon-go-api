@@ -1356,7 +1356,8 @@
       "category": "ITEM_CATEGORY_INCENSE",
       "dropTrainerLevel": 1,
       "incense": {
-        "incenseLifetimeSeconds": 3600
+        "incenseLifetimeSeconds": 3600,
+        "spawnTableProbability": 0.8
       }
     }
   },
@@ -1383,7 +1384,7 @@
       "eggIncubator": {
         "incubatorType": "INCUBATOR_DISTANCE",
         "uses": 3,
-        "distanceMultiplier": 1
+        "distanceMultiplier": 0.5
       }
     }
   },
@@ -1396,7 +1397,7 @@
       "dropTrainerLevel": 100,
       "eggIncubator": {
         "incubatorType": "INCUBATOR_DISTANCE",
-        "distanceMultiplier": 1
+        "distanceMultiplier": 0.5
       }
     }
   },
@@ -1425,7 +1426,7 @@
       "eggIncubator": {
         "incubatorType": "INCUBATOR_DISTANCE",
         "uses": 3,
-        "distanceMultiplier": 0.6666667
+        "distanceMultiplier": 0.33333334
       }
     }
   },
@@ -1438,7 +1439,7 @@
       "dropTrainerLevel": 100,
       "eggIncubator": {
         "incubatorType": "INCUBATOR_DISTANCE",
-        "distanceMultiplier": 1,
+        "distanceMultiplier": 0.5,
         "expiredIncubatorReplacement": {
           "incubatorReplacement": "ITEM_INCUBATOR_BASIC",
           "usesCountOverride": 1
