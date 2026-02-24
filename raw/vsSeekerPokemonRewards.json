@@ -569,9 +569,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "ARTICUNO",
+            "pokemonId": "HO_OH",
             "pokemonDisplay": {
-              "form": "ARTICUNO_NORMAL"
+              "form": "HO_OH_NORMAL"
             }
           },
           "unlockedAtRank": 20,
@@ -596,36 +596,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "ZAPDOS",
+            "pokemonId": "LUGIA",
             "pokemonDisplay": {
-              "form": "ZAPDOS_NORMAL"
-            }
-          },
-          "unlockedAtRank": 20,
-          "attackIvOverride": {
-            "range": {
-              "min": 10,
-              "max": 15
-            }
-          },
-          "defenseIvOverride": {
-            "range": {
-              "min": 10,
-              "max": 15
-            }
-          },
-          "staminaIvOverride": {
-            "range": {
-              "min": 10,
-              "max": 15
-            }
-          }
-        },
-        {
-          "pokemon": {
-            "pokemonId": "MOLTRES",
-            "pokemonDisplay": {
-              "form": "MOLTRES_NORMAL"
+              "form": "LUGIA_NORMAL"
             }
           },
           "unlockedAtRank": 20,
@@ -1221,9 +1194,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "ARTICUNO",
+            "pokemonId": "HO_OH",
             "pokemonDisplay": {
-              "form": "ARTICUNO_NORMAL"
+              "form": "HO_OH_NORMAL"
             }
           },
           "unlockedAtRank": 20,
@@ -1248,36 +1221,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "ZAPDOS",
+            "pokemonId": "LUGIA",
             "pokemonDisplay": {
-              "form": "ZAPDOS_NORMAL"
-            }
-          },
-          "unlockedAtRank": 20,
-          "attackIvOverride": {
-            "range": {
-              "min": 10,
-              "max": 15
-            }
-          },
-          "defenseIvOverride": {
-            "range": {
-              "min": 10,
-              "max": 15
-            }
-          },
-          "staminaIvOverride": {
-            "range": {
-              "min": 10,
-              "max": 15
-            }
-          }
-        },
-        {
-          "pokemon": {
-            "pokemonId": "MOLTRES",
-            "pokemonDisplay": {
-              "form": "MOLTRES_NORMAL"
+              "form": "LUGIA_NORMAL"
             }
           },
           "unlockedAtRank": 20,
