@@ -569,9 +569,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "HO_OH",
+            "pokemonId": "GROUDON",
             "pokemonDisplay": {
-              "form": "HO_OH_NORMAL"
+              "form": "GROUDON_NORMAL"
             }
           },
           "unlockedAtRank": 20,
@@ -596,9 +596,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "LUGIA",
+            "pokemonId": "KYOGRE",
             "pokemonDisplay": {
-              "form": "LUGIA_NORMAL"
+              "form": "KYOGRE_NORMAL"
             }
           },
           "unlockedAtRank": 20,
@@ -1194,9 +1194,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "HO_OH",
+            "pokemonId": "GROUDON",
             "pokemonDisplay": {
-              "form": "HO_OH_NORMAL"
+              "form": "GROUDON_NORMAL"
             }
           },
           "unlockedAtRank": 20,
@@ -1221,9 +1221,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "LUGIA",
+            "pokemonId": "KYOGRE",
             "pokemonDisplay": {
-              "form": "LUGIA_NORMAL"
+              "form": "KYOGRE_NORMAL"
             }
           },
           "unlockedAtRank": 20,
