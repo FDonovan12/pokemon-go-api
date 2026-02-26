@@ -3,7 +3,8 @@
     "templateId": "MAP_DISPLAY_SETTINGS",
     "data": {
       "showEnhancedSky": true,
-      "skyOverride": "EventSkydome_GoFest2021"
+      "skyOverride": "EventSkydome_GoFest2021",
+      "skyEffectName": "EventSkyFX_GoTour2024"
     }
   }
 ]

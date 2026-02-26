@@ -273,6 +273,13 @@
     }
   },
   {
+    "templateId": "N_DISPLAY_n_backpack_greenpikavee_0",
+    "data": {
+      "iconAddress": "n_backpack_greenpikavee_0_icon",
+      "displayStringId": "avatar_backpack_s22blue"
+    }
+  },
+  {
     "templateId": "N_DISPLAY_n_backpack_guccibackpack_0",
     "data": {
       "iconAddress": "n_backpack_guccibackpack_0_icon",
@@ -3793,6 +3800,13 @@
     }
   },
   {
+    "templateId": "N_DISPLAY_n_pants_greenpikavee_0",
+    "data": {
+      "iconAddress": "n_pants_greenpikavee_0_icon",
+      "displayStringId": "avatar_pants_s22blue"
+    }
+  },
+  {
     "templateId": "N_DISPLAY_n_pants_grimsley_0",
     "data": {
       "iconAddress": "n_pants_grimsley_0_icon",
@@ -5165,6 +5179,13 @@
     }
   },
   {
+    "templateId": "N_DISPLAY_n_pose_s22gbl",
+    "data": {
+      "iconAddress": "n_pose_s22gbl_icon",
+      "displayStringId": "avatar_pose_s22blue"
+    }
+  },
+  {
     "templateId": "N_DISPLAY_n_pose_teapot",
     "data": {
       "iconAddress": "n_pose_teapot_icon",
@@ -6191,6 +6212,13 @@
     "data": {
       "iconAddress": "n_shirt_greencoat_0_icon",
       "displayStringId": "n_shirt_greencoat_0_display_name"
+    }
+  },
+  {
+    "templateId": "N_DISPLAY_n_shirt_greenpikavee_0",
+    "data": {
+      "iconAddress": "n_shirt_greenpikavee_0_icon",
+      "displayStringId": "avatar_shirt_s22blue"
     }
   },
   {
@@ -8588,6 +8616,13 @@
     }
   },
   {
+    "templateId": "N_DISPLAY_n_shoes_greenpikavee_0",
+    "data": {
+      "iconAddress": "n_shoes_greenpikavee_0_icon",
+      "displayStringId": "avatar_shoes_s22blue"
+    }
+  },
+  {
     "templateId": "N_DISPLAY_n_shoes_grimsley_0",
     "data": {
       "iconAddress": "n_shoes_grimsley_0_icon",
@@ -10590,6 +10625,12 @@
     "templateId": "N_DISPLAY_set_s19gbl_0",
     "data": {
       "iconAddress": "set_s19gbl"
+    }
+  },
+  {
+    "templateId": "N_DISPLAY_set_s22gbl_0",
+    "data": {
+      "iconAddress": "set_s22gbl_0"
     }
   },
   {

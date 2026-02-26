@@ -148,7 +148,8 @@
       "itemCap": 999999,
       "eventPassPoint": {
         "eventPassId": "EVENT_PASS_GOFEST2025_GLOBAL"
-      }
+      },
+      "hideItemInInventory": true
     }
   },
   {
@@ -166,7 +167,8 @@
         "playerActivity": {
           "limit": 50
         }
-      }
+      },
+      "hideItemInInventory": true
     }
   },
   {
@@ -184,7 +186,8 @@
         "playerActivity": {
           "limit": 150
         }
-      }
+      },
+      "hideItemInInventory": true
     }
   },
   {
@@ -197,7 +200,8 @@
       "itemCap": 999999,
       "eventPassPoint": {
         "eventPassId": "EVENT_PASS_GOTOUR2026_IRL"
-      }
+      },
+      "hideItemInInventory": true
     }
   },
   {
@@ -215,7 +219,8 @@
         "playerActivity": {
           "limit": 100
         }
-      }
+      },
+      "hideItemInInventory": true
     }
   },
   {
@@ -233,7 +238,8 @@
         "playerActivity": {
           "limit": 300
         }
-      }
+      },
+      "hideItemInInventory": true
     }
   },
   {
@@ -251,7 +257,8 @@
         "playerActivity": {
           "limit": 300
         }
-      }
+      },
+      "hideItemInInventory": true
     }
   },
   {
@@ -269,7 +276,8 @@
         "playerActivity": {
           "limit": 250
         }
-      }
+      },
+      "hideItemInInventory": true
     }
   },
   {
@@ -281,13 +289,14 @@
       "ignoreInventorySpace": true,
       "itemCap": 999999,
       "eventPassPoint": {
-        "eventPassId": "EVENT_PASS_WINTERHOLIDAYS2025_EVENT"
+        "eventPassId": "EVENT_PASS_30ANNIV2026_EVENT"
       },
       "timePeriodCounters": {
         "playerActivity": {
           "limit": 300
         }
-      }
+      },
+      "hideItemInInventory": true
     }
   },
   {
@@ -298,6 +307,7 @@
       "category": "ITEM_CATEGORY_EVENT_PASS_POINT",
       "ignoreInventorySpace": true,
       "itemCap": 999999,
+      "nameOverride": "ITEM_EVENT_PASS_POINT_LIVE_OPS_01_name",
       "eventPassPoint": {
         "eventPassId": "EVENT_PASS_MARCH2026_SEASON"
       },
@@ -305,7 +315,8 @@
         "playerActivity": {
           "limit": 300
         }
-      }
+      },
+      "hideItemInInventory": true
     }
   },
   {

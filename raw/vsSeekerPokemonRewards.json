@@ -569,9 +569,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "GROUDON",
+            "pokemonId": "DIALGA",
             "pokemonDisplay": {
-              "form": "GROUDON_NORMAL"
+              "form": "DIALGA_NORMAL"
             }
           },
           "unlockedAtRank": 20,
@@ -596,9 +596,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "KYOGRE",
+            "pokemonId": "PALKIA",
             "pokemonDisplay": {
-              "form": "KYOGRE_NORMAL"
+              "form": "PALKIA_NORMAL"
             }
           },
           "unlockedAtRank": 20,
@@ -1194,9 +1194,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "GROUDON",
+            "pokemonId": "DIALGA",
             "pokemonDisplay": {
-              "form": "GROUDON_NORMAL"
+              "form": "DIALGA_NORMAL"
             }
           },
           "unlockedAtRank": 20,
@@ -1221,9 +1221,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "KYOGRE",
+            "pokemonId": "PALKIA",
             "pokemonDisplay": {
-              "form": "KYOGRE_NORMAL"
+              "form": "PALKIA_NORMAL"
             }
           },
           "unlockedAtRank": 20,

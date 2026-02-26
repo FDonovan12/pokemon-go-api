@@ -97,13 +97,13 @@
       "sku": "pgorelease.month1_deluxe_event_pass_track_redirect",
       "sortOrder": 1,
       "hidden": true,
-      "title": "season_pass_premium_track_title_dec",
+      "title": "season_pass_premium_track_title_mar",
       "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
-      "skuEnableTime": "2024-12-02T10:00:00",
-      "skuDisableTime": "2025-01-08T10:00:00",
-      "skuEnableTimeUtcMs": "1733133600000",
-      "skuDisableTimeUtcMs": "1736330400000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_GOPass_DEC_v1-1024x576-noPalkia.jpg"
+      "skuEnableTime": "2025-03-03T10:00:00",
+      "skuDisableTime": "2025-04-09T10:00:00",
+      "skuEnableTimeUtcMs": "1740996000000",
+      "skuDisableTimeUtcMs": "1744192800000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-deluxe-gopass-march-2026-nologo.jpg"
     }
   },
   {
@@ -385,13 +385,13 @@
       "sku": "pgorelease.month1_deluxe_event_pass_track_unlock",
       "sortOrder": 1,
       "hidden": true,
-      "title": "season_pass_premium_track_title_dec",
+      "title": "season_pass_premium_track_title_mar",
       "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
-      "skuEnableTime": "2024-12-02T10:00:00",
-      "skuDisableTime": "2025-01-08T10:00:00",
-      "skuEnableTimeUtcMs": "1733133600000",
-      "skuDisableTimeUtcMs": "1736330400000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_GOPass_DEC_v1-1024x576-noPalkia.jpg"
+      "skuEnableTime": "2025-03-03T10:00:00",
+      "skuDisableTime": "2025-04-09T10:00:00",
+      "skuEnableTimeUtcMs": "1740996000000",
+      "skuDisableTimeUtcMs": "1744192800000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-deluxe-gopass-march-2026-nologo.jpg"
     }
   },
   {
@@ -400,13 +400,13 @@
       "sku": "pgorelease.month1_deluxe_event_pass_track_unlock_plus_points",
       "sortOrder": 1,
       "hidden": true,
-      "title": "season_pass_premium_track_plus_ten_ranks_title_dec",
+      "title": "season_pass_premium_track_plus_ten_ranks_title_mar",
       "description": "gotour_2025_deluxe_event_pass_track_unlock_plus_points_description",
-      "skuEnableTime": "2024-12-02T10:00:00",
-      "skuDisableTime": "2025-01-08T10:00:00",
-      "skuEnableTimeUtcMs": "1733133600000",
-      "skuDisableTimeUtcMs": "1736330400000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_GOPass_DEC_v1-1024x576-noPalkia.jpg"
+      "skuEnableTime": "2025-03-03T10:00:00",
+      "skuDisableTime": "2025-04-09T10:00:00",
+      "skuEnableTimeUtcMs": "1740996000000",
+      "skuDisableTimeUtcMs": "1744192800000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-deluxe-gopass-march-2026-nologo.jpg"
     }
   },
   {
