@@ -8287,9 +8287,9 @@
             "xxsLowerBound": 1.8865,
             "xsLowerBound": 1.925,
             "mLowerBound": 2.8875,
-            "mUpperBound": 4.8125,
-            "xlUpperBound": 5.775,
-            "xxlUpperBound": 3.85
+            "mUpperBound": 3.85,
+            "xlUpperBound": 4.8125,
+            "xxlUpperBound": 5.775
           }
         }
       ],
@@ -8315,9 +8315,9 @@
             "xxsLowerBound": 1.8865,
             "xsLowerBound": 1.925,
             "mLowerBound": 2.8875,
-            "mUpperBound": 4.8125,
-            "xlUpperBound": 5.775,
-            "xxlUpperBound": 3.85
+            "mUpperBound": 3.85,
+            "xlUpperBound": 4.8125,
+            "xxlUpperBound": 5.775
           }
         }
       ],

@@ -569,9 +569,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "DIALGA",
+            "pokemonId": "RESHIRAM",
             "pokemonDisplay": {
-              "form": "DIALGA_NORMAL"
+              "form": "RESHIRAM_NORMAL"
             }
           },
           "unlockedAtRank": 20,
@@ -596,9 +596,36 @@
         },
         {
           "pokemon": {
-            "pokemonId": "PALKIA",
+            "pokemonId": "ZEKROM",
             "pokemonDisplay": {
-              "form": "PALKIA_NORMAL"
+              "form": "ZEKROM_NORMAL"
+            }
+          },
+          "unlockedAtRank": 20,
+          "attackIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          },
+          "defenseIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          },
+          "staminaIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          }
+        },
+        {
+          "pokemon": {
+            "pokemonId": "KYUREM",
+            "pokemonDisplay": {
+              "form": "KYUREM_NORMAL"
             }
           },
           "unlockedAtRank": 20,
@@ -1194,9 +1221,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "DIALGA",
+            "pokemonId": "RESHIRAM",
             "pokemonDisplay": {
-              "form": "DIALGA_NORMAL"
+              "form": "RESHIRAM_NORMAL"
             }
           },
           "unlockedAtRank": 20,
@@ -1221,9 +1248,36 @@
         },
         {
           "pokemon": {
-            "pokemonId": "PALKIA",
+            "pokemonId": "ZEKROM",
             "pokemonDisplay": {
-              "form": "PALKIA_NORMAL"
+              "form": "ZEKROM_NORMAL"
+            }
+          },
+          "unlockedAtRank": 20,
+          "attackIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          },
+          "defenseIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          },
+          "staminaIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          }
+        },
+        {
+          "pokemon": {
+            "pokemonId": "KYUREM",
+            "pokemonDisplay": {
+              "form": "KYUREM_NORMAL"
             }
           },
           "unlockedAtRank": 20,
