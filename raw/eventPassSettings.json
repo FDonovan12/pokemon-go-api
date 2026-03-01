@@ -86,17 +86,17 @@
           {
             "text": "catch_a_pokemon_short_title",
             "iconType": "SPAWN_UNKNOWN",
-            "quantity": 1
+            "quantity": 5
           },
           {
             "text": "quest_hatch_egg_singular",
             "iconType": "EGG",
-            "quantity": 10
+            "quantity": 50
           },
           {
             "text": "quest_win_raid_singular",
             "iconType": "RAID",
-            "quantity": 50
+            "quantity": 100
           }
         ],
         "eventPassTrackUpgradeDescriptions": [

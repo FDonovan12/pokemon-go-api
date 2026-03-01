@@ -569,63 +569,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "RESHIRAM",
+            "pokemonId": "LUNALA",
             "pokemonDisplay": {
-              "form": "RESHIRAM_NORMAL"
-            }
-          },
-          "unlockedAtRank": 20,
-          "attackIvOverride": {
-            "range": {
-              "min": 10,
-              "max": 15
-            }
-          },
-          "defenseIvOverride": {
-            "range": {
-              "min": 10,
-              "max": 15
-            }
-          },
-          "staminaIvOverride": {
-            "range": {
-              "min": 10,
-              "max": 15
-            }
-          }
-        },
-        {
-          "pokemon": {
-            "pokemonId": "ZEKROM",
-            "pokemonDisplay": {
-              "form": "ZEKROM_NORMAL"
-            }
-          },
-          "unlockedAtRank": 20,
-          "attackIvOverride": {
-            "range": {
-              "min": 10,
-              "max": 15
-            }
-          },
-          "defenseIvOverride": {
-            "range": {
-              "min": 10,
-              "max": 15
-            }
-          },
-          "staminaIvOverride": {
-            "range": {
-              "min": 10,
-              "max": 15
-            }
-          }
-        },
-        {
-          "pokemon": {
-            "pokemonId": "KYUREM",
-            "pokemonDisplay": {
-              "form": "KYUREM_NORMAL"
+              "form": "LUNALA_NORMAL"
             }
           },
           "unlockedAtRank": 20,
@@ -1221,63 +1167,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "RESHIRAM",
+            "pokemonId": "LUNALA",
             "pokemonDisplay": {
-              "form": "RESHIRAM_NORMAL"
-            }
-          },
-          "unlockedAtRank": 20,
-          "attackIvOverride": {
-            "range": {
-              "min": 10,
-              "max": 15
-            }
-          },
-          "defenseIvOverride": {
-            "range": {
-              "min": 10,
-              "max": 15
-            }
-          },
-          "staminaIvOverride": {
-            "range": {
-              "min": 10,
-              "max": 15
-            }
-          }
-        },
-        {
-          "pokemon": {
-            "pokemonId": "ZEKROM",
-            "pokemonDisplay": {
-              "form": "ZEKROM_NORMAL"
-            }
-          },
-          "unlockedAtRank": 20,
-          "attackIvOverride": {
-            "range": {
-              "min": 10,
-              "max": 15
-            }
-          },
-          "defenseIvOverride": {
-            "range": {
-              "min": 10,
-              "max": 15
-            }
-          },
-          "staminaIvOverride": {
-            "range": {
-              "min": 10,
-              "max": 15
-            }
-          }
-        },
-        {
-          "pokemon": {
-            "pokemonId": "KYUREM",
-            "pokemonDisplay": {
-              "form": "KYUREM_NORMAL"
+              "form": "LUNALA_NORMAL"
             }
           },
           "unlockedAtRank": 20,

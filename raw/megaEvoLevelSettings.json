@@ -63,8 +63,8 @@
     "data": {
       "pokemonId": "VICTREEBEL",
       "progression": {
-        "pointsLimitPerPeriod": 1,
-        "pointsPerMegaEvoAction": 1
+        "pointsLimitPerPeriod": 3,
+        "pointsPerMegaEvoAction": 2
       },
       "cooldown": {
         "durationMs": "1209600000",
@@ -123,8 +123,8 @@
     "data": {
       "pokemonId": "DRAGONITE",
       "progression": {
-        "pointsLimitPerPeriod": 1,
-        "pointsPerMegaEvoAction": 1
+        "pointsLimitPerPeriod": 3,
+        "pointsPerMegaEvoAction": 2
       },
       "cooldown": {
         "durationMs": "1209600000",
@@ -463,8 +463,8 @@
     "data": {
       "pokemonId": "MALAMAR",
       "progression": {
-        "pointsLimitPerPeriod": 1,
-        "pointsPerMegaEvoAction": 1
+        "pointsLimitPerPeriod": 3,
+        "pointsPerMegaEvoAction": 2
       },
       "cooldown": {
         "durationMs": "1209600000",
@@ -515,7 +515,8 @@
       "effects": {
         "differentTypeAttackBoost": 1.1,
         "sameTypeAttackBoost": 1.3,
-        "sameTypeExtraCatchCandy": 1
+        "sameTypeExtraCatchCandy": 1,
+        "selfCpBoostAdditionalLevel": 5
       }
     }
   },
@@ -537,7 +538,8 @@
       "effects": {
         "differentTypeAttackBoost": 1.1,
         "sameTypeAttackBoost": 1.3,
-        "sameTypeExtraCatchCandy": 1
+        "sameTypeExtraCatchCandy": 1,
+        "selfCpBoostAdditionalLevel": 5
       }
     }
   },
@@ -559,7 +561,8 @@
       "effects": {
         "differentTypeAttackBoost": 1.1,
         "sameTypeAttackBoost": 1.3,
-        "sameTypeExtraCatchCandy": 1
+        "sameTypeExtraCatchCandy": 1,
+        "selfCpBoostAdditionalLevel": 5
       }
     }
   },
@@ -570,8 +573,8 @@
       "pokemonId": "VICTREEBEL",
       "progression": {
         "pointsRequired": 1,
-        "pointsLimitPerPeriod": 1,
-        "pointsPerMegaEvoAction": 1
+        "pointsLimitPerPeriod": 3,
+        "pointsPerMegaEvoAction": 2
       },
       "cooldown": {
         "durationMs": "604800000",
@@ -581,7 +584,8 @@
       "effects": {
         "differentTypeAttackBoost": 1.1,
         "sameTypeAttackBoost": 1.3,
-        "sameTypeExtraCatchCandy": 1
+        "sameTypeExtraCatchCandy": 1,
+        "selfCpBoostAdditionalLevel": 10
       }
     }
   },
@@ -603,7 +607,8 @@
       "effects": {
         "differentTypeAttackBoost": 1.1,
         "sameTypeAttackBoost": 1.3,
-        "sameTypeExtraCatchCandy": 1
+        "sameTypeExtraCatchCandy": 1,
+        "selfCpBoostAdditionalLevel": 5
       }
     }
   },
@@ -625,7 +630,8 @@
       "effects": {
         "differentTypeAttackBoost": 1.1,
         "sameTypeAttackBoost": 1.3,
-        "sameTypeExtraCatchCandy": 1
+        "sameTypeExtraCatchCandy": 1,
+        "selfCpBoostAdditionalLevel": 5
       }
     }
   },
@@ -636,8 +642,8 @@
       "pokemonId": "DRAGONITE",
       "progression": {
         "pointsRequired": 1,
-        "pointsLimitPerPeriod": 1,
-        "pointsPerMegaEvoAction": 1
+        "pointsLimitPerPeriod": 3,
+        "pointsPerMegaEvoAction": 2
       },
       "cooldown": {
         "durationMs": "604800000",
@@ -647,7 +653,8 @@
       "effects": {
         "differentTypeAttackBoost": 1.1,
         "sameTypeAttackBoost": 1.3,
-        "sameTypeExtraCatchCandy": 1
+        "sameTypeExtraCatchCandy": 1,
+        "selfCpBoostAdditionalLevel": 10
       }
     }
   },
@@ -691,7 +698,8 @@
       "effects": {
         "differentTypeAttackBoost": 1.1,
         "sameTypeAttackBoost": 1.3,
-        "sameTypeExtraCatchCandy": 1
+        "sameTypeExtraCatchCandy": 1,
+        "selfCpBoostAdditionalLevel": 5
       }
     }
   },
@@ -713,7 +721,8 @@
       "effects": {
         "differentTypeAttackBoost": 1.1,
         "sameTypeAttackBoost": 1.3,
-        "sameTypeExtraCatchCandy": 1
+        "sameTypeExtraCatchCandy": 1,
+        "selfCpBoostAdditionalLevel": 5
       }
     }
   },
@@ -735,7 +744,8 @@
       "effects": {
         "differentTypeAttackBoost": 1.1,
         "sameTypeAttackBoost": 1.3,
-        "sameTypeExtraCatchCandy": 1
+        "sameTypeExtraCatchCandy": 1,
+        "selfCpBoostAdditionalLevel": 5
       }
     }
   },
@@ -757,7 +767,8 @@
       "effects": {
         "differentTypeAttackBoost": 1.1,
         "sameTypeAttackBoost": 1.3,
-        "sameTypeExtraCatchCandy": 1
+        "sameTypeExtraCatchCandy": 1,
+        "selfCpBoostAdditionalLevel": 5
       }
     }
   },
@@ -779,7 +790,8 @@
       "effects": {
         "differentTypeAttackBoost": 1.1,
         "sameTypeAttackBoost": 1.3,
-        "sameTypeExtraCatchCandy": 1
+        "sameTypeExtraCatchCandy": 1,
+        "selfCpBoostAdditionalLevel": 5
       }
     }
   },
@@ -801,7 +813,8 @@
       "effects": {
         "differentTypeAttackBoost": 1.1,
         "sameTypeAttackBoost": 1.3,
-        "sameTypeExtraCatchCandy": 1
+        "sameTypeExtraCatchCandy": 1,
+        "selfCpBoostAdditionalLevel": 5
       }
     }
   },
@@ -823,7 +836,8 @@
       "effects": {
         "differentTypeAttackBoost": 1.1,
         "sameTypeAttackBoost": 1.3,
-        "sameTypeExtraCatchCandy": 1
+        "sameTypeExtraCatchCandy": 1,
+        "selfCpBoostAdditionalLevel": 5
       }
     }
   },
@@ -845,7 +859,8 @@
       "effects": {
         "differentTypeAttackBoost": 1.1,
         "sameTypeAttackBoost": 1.3,
-        "sameTypeExtraCatchCandy": 1
+        "sameTypeExtraCatchCandy": 1,
+        "selfCpBoostAdditionalLevel": 5
       }
     }
   },
@@ -867,7 +882,8 @@
       "effects": {
         "differentTypeAttackBoost": 1.1,
         "sameTypeAttackBoost": 1.3,
-        "sameTypeExtraCatchCandy": 1
+        "sameTypeExtraCatchCandy": 1,
+        "selfCpBoostAdditionalLevel": 5
       }
     }
   },
@@ -889,7 +905,8 @@
       "effects": {
         "differentTypeAttackBoost": 1.1,
         "sameTypeAttackBoost": 1.3,
-        "sameTypeExtraCatchCandy": 1
+        "sameTypeExtraCatchCandy": 1,
+        "selfCpBoostAdditionalLevel": 5
       }
     }
   },
@@ -911,7 +928,8 @@
       "effects": {
         "differentTypeAttackBoost": 1.1,
         "sameTypeAttackBoost": 1.3,
-        "sameTypeExtraCatchCandy": 1
+        "sameTypeExtraCatchCandy": 1,
+        "selfCpBoostAdditionalLevel": 5
       }
     }
   },
@@ -977,7 +995,8 @@
       "effects": {
         "differentTypeAttackBoost": 1.1,
         "sameTypeAttackBoost": 1.3,
-        "sameTypeExtraCatchCandy": 1
+        "sameTypeExtraCatchCandy": 1,
+        "selfCpBoostAdditionalLevel": 5
       }
     }
   },
@@ -999,7 +1018,8 @@
       "effects": {
         "differentTypeAttackBoost": 1.1,
         "sameTypeAttackBoost": 1.3,
-        "sameTypeExtraCatchCandy": 1
+        "sameTypeExtraCatchCandy": 1,
+        "selfCpBoostAdditionalLevel": 5
       }
     }
   },
@@ -1010,8 +1030,8 @@
       "pokemonId": "MALAMAR",
       "progression": {
         "pointsRequired": 1,
-        "pointsLimitPerPeriod": 1,
-        "pointsPerMegaEvoAction": 1
+        "pointsLimitPerPeriod": 3,
+        "pointsPerMegaEvoAction": 2
       },
       "cooldown": {
         "durationMs": "604800000",
@@ -1021,7 +1041,8 @@
       "effects": {
         "differentTypeAttackBoost": 1.1,
         "sameTypeAttackBoost": 1.3,
-        "sameTypeExtraCatchCandy": 1
+        "sameTypeExtraCatchCandy": 1,
+        "selfCpBoostAdditionalLevel": 10
       }
     }
   },
@@ -1043,7 +1064,8 @@
       "effects": {
         "differentTypeAttackBoost": 1.1,
         "sameTypeAttackBoost": 1.3,
-        "sameTypeExtraCatchCandy": 1
+        "sameTypeExtraCatchCandy": 1,
+        "selfCpBoostAdditionalLevel": 5
       }
     }
   },
@@ -1066,7 +1088,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 1,
         "sameTypeExtraCatchXp": 50,
-        "sameTypeExtraCatchCandyXlChance": 0.1
+        "sameTypeExtraCatchCandyXlChance": 0.1,
+        "selfCpBoostAdditionalLevel": 5
       }
     }
   },
@@ -1090,7 +1113,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 1,
         "sameTypeExtraCatchXp": 50,
-        "sameTypeExtraCatchCandyXlChance": 0.1
+        "sameTypeExtraCatchCandyXlChance": 0.1,
+        "selfCpBoostAdditionalLevel": 5
       }
     }
   },
@@ -1114,7 +1138,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 1,
         "sameTypeExtraCatchXp": 50,
-        "sameTypeExtraCatchCandyXlChance": 0.1
+        "sameTypeExtraCatchCandyXlChance": 0.1,
+        "selfCpBoostAdditionalLevel": 5
       }
     }
   },
@@ -1125,8 +1150,8 @@
       "pokemonId": "VICTREEBEL",
       "progression": {
         "pointsRequired": 7,
-        "pointsLimitPerPeriod": 1,
-        "pointsPerMegaEvoAction": 1
+        "pointsLimitPerPeriod": 3,
+        "pointsPerMegaEvoAction": 2
       },
       "cooldown": {
         "durationMs": "432000000",
@@ -1138,7 +1163,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 1,
         "sameTypeExtraCatchXp": 50,
-        "sameTypeExtraCatchCandyXlChance": 0.1
+        "sameTypeExtraCatchCandyXlChance": 0.1,
+        "selfCpBoostAdditionalLevel": 10
       }
     }
   },
@@ -1162,7 +1188,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 1,
         "sameTypeExtraCatchXp": 50,
-        "sameTypeExtraCatchCandyXlChance": 0.1
+        "sameTypeExtraCatchCandyXlChance": 0.1,
+        "selfCpBoostAdditionalLevel": 5
       }
     }
   },
@@ -1186,7 +1213,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 1,
         "sameTypeExtraCatchXp": 50,
-        "sameTypeExtraCatchCandyXlChance": 0.1
+        "sameTypeExtraCatchCandyXlChance": 0.1,
+        "selfCpBoostAdditionalLevel": 5
       }
     }
   },
@@ -1197,8 +1225,8 @@
       "pokemonId": "DRAGONITE",
       "progression": {
         "pointsRequired": 7,
-        "pointsLimitPerPeriod": 1,
-        "pointsPerMegaEvoAction": 1
+        "pointsLimitPerPeriod": 3,
+        "pointsPerMegaEvoAction": 2
       },
       "cooldown": {
         "durationMs": "432000000",
@@ -1210,7 +1238,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 1,
         "sameTypeExtraCatchXp": 50,
-        "sameTypeExtraCatchCandyXlChance": 0.1
+        "sameTypeExtraCatchCandyXlChance": 0.1,
+        "selfCpBoostAdditionalLevel": 10
       }
     }
   },
@@ -1258,7 +1287,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 1,
         "sameTypeExtraCatchXp": 50,
-        "sameTypeExtraCatchCandyXlChance": 0.1
+        "sameTypeExtraCatchCandyXlChance": 0.1,
+        "selfCpBoostAdditionalLevel": 5
       }
     }
   },
@@ -1282,7 +1312,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 1,
         "sameTypeExtraCatchXp": 50,
-        "sameTypeExtraCatchCandyXlChance": 0.1
+        "sameTypeExtraCatchCandyXlChance": 0.1,
+        "selfCpBoostAdditionalLevel": 5
       }
     }
   },
@@ -1306,7 +1337,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 1,
         "sameTypeExtraCatchXp": 50,
-        "sameTypeExtraCatchCandyXlChance": 0.1
+        "sameTypeExtraCatchCandyXlChance": 0.1,
+        "selfCpBoostAdditionalLevel": 5
       }
     }
   },
@@ -1330,7 +1362,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 1,
         "sameTypeExtraCatchXp": 50,
-        "sameTypeExtraCatchCandyXlChance": 0.1
+        "sameTypeExtraCatchCandyXlChance": 0.1,
+        "selfCpBoostAdditionalLevel": 5
       }
     }
   },
@@ -1354,7 +1387,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 1,
         "sameTypeExtraCatchXp": 50,
-        "sameTypeExtraCatchCandyXlChance": 0.1
+        "sameTypeExtraCatchCandyXlChance": 0.1,
+        "selfCpBoostAdditionalLevel": 5
       }
     }
   },
@@ -1378,7 +1412,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 1,
         "sameTypeExtraCatchXp": 50,
-        "sameTypeExtraCatchCandyXlChance": 0.1
+        "sameTypeExtraCatchCandyXlChance": 0.1,
+        "selfCpBoostAdditionalLevel": 5
       }
     }
   },
@@ -1402,7 +1437,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 1,
         "sameTypeExtraCatchXp": 50,
-        "sameTypeExtraCatchCandyXlChance": 0.1
+        "sameTypeExtraCatchCandyXlChance": 0.1,
+        "selfCpBoostAdditionalLevel": 5
       }
     }
   },
@@ -1426,7 +1462,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 1,
         "sameTypeExtraCatchXp": 50,
-        "sameTypeExtraCatchCandyXlChance": 0.1
+        "sameTypeExtraCatchCandyXlChance": 0.1,
+        "selfCpBoostAdditionalLevel": 5
       }
     }
   },
@@ -1450,7 +1487,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 1,
         "sameTypeExtraCatchXp": 50,
-        "sameTypeExtraCatchCandyXlChance": 0.1
+        "sameTypeExtraCatchCandyXlChance": 0.1,
+        "selfCpBoostAdditionalLevel": 5
       }
     }
   },
@@ -1474,7 +1512,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 1,
         "sameTypeExtraCatchXp": 50,
-        "sameTypeExtraCatchCandyXlChance": 0.1
+        "sameTypeExtraCatchCandyXlChance": 0.1,
+        "selfCpBoostAdditionalLevel": 5
       }
     }
   },
@@ -1498,7 +1537,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 1,
         "sameTypeExtraCatchXp": 50,
-        "sameTypeExtraCatchCandyXlChance": 0.1
+        "sameTypeExtraCatchCandyXlChance": 0.1,
+        "selfCpBoostAdditionalLevel": 5
       }
     }
   },
@@ -1570,7 +1610,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 1,
         "sameTypeExtraCatchXp": 50,
-        "sameTypeExtraCatchCandyXlChance": 0.1
+        "sameTypeExtraCatchCandyXlChance": 0.1,
+        "selfCpBoostAdditionalLevel": 5
       }
     }
   },
@@ -1594,7 +1635,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 1,
         "sameTypeExtraCatchXp": 50,
-        "sameTypeExtraCatchCandyXlChance": 0.1
+        "sameTypeExtraCatchCandyXlChance": 0.1,
+        "selfCpBoostAdditionalLevel": 5
       }
     }
   },
@@ -1605,8 +1647,8 @@
       "pokemonId": "MALAMAR",
       "progression": {
         "pointsRequired": 7,
-        "pointsLimitPerPeriod": 1,
-        "pointsPerMegaEvoAction": 1
+        "pointsLimitPerPeriod": 3,
+        "pointsPerMegaEvoAction": 2
       },
       "cooldown": {
         "durationMs": "432000000",
@@ -1618,7 +1660,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 1,
         "sameTypeExtraCatchXp": 50,
-        "sameTypeExtraCatchCandyXlChance": 0.1
+        "sameTypeExtraCatchCandyXlChance": 0.1,
+        "selfCpBoostAdditionalLevel": 10
       }
     }
   },
@@ -1642,7 +1685,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 1,
         "sameTypeExtraCatchXp": 50,
-        "sameTypeExtraCatchCandyXlChance": 0.1
+        "sameTypeExtraCatchCandyXlChance": 0.1,
+        "selfCpBoostAdditionalLevel": 5
       }
     }
   },
@@ -1665,7 +1709,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 2,
         "sameTypeExtraCatchXp": 100,
-        "sameTypeExtraCatchCandyXlChance": 0.25
+        "sameTypeExtraCatchCandyXlChance": 0.25,
+        "selfCpBoostAdditionalLevel": 5
       }
     }
   },
@@ -1689,7 +1734,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 2,
         "sameTypeExtraCatchXp": 100,
-        "sameTypeExtraCatchCandyXlChance": 0.25
+        "sameTypeExtraCatchCandyXlChance": 0.25,
+        "selfCpBoostAdditionalLevel": 5
       }
     }
   },
@@ -1713,7 +1759,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 2,
         "sameTypeExtraCatchXp": 100,
-        "sameTypeExtraCatchCandyXlChance": 0.25
+        "sameTypeExtraCatchCandyXlChance": 0.25,
+        "selfCpBoostAdditionalLevel": 5
       }
     }
   },
@@ -1724,8 +1771,8 @@
       "pokemonId": "VICTREEBEL",
       "progression": {
         "pointsRequired": 30,
-        "pointsLimitPerPeriod": 1,
-        "pointsPerMegaEvoAction": 1
+        "pointsLimitPerPeriod": 3,
+        "pointsPerMegaEvoAction": 2
       },
       "cooldown": {
         "durationMs": "259200000",
@@ -1737,7 +1784,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 2,
         "sameTypeExtraCatchXp": 100,
-        "sameTypeExtraCatchCandyXlChance": 0.25
+        "sameTypeExtraCatchCandyXlChance": 0.25,
+        "selfCpBoostAdditionalLevel": 10
       }
     }
   },
@@ -1761,7 +1809,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 2,
         "sameTypeExtraCatchXp": 100,
-        "sameTypeExtraCatchCandyXlChance": 0.25
+        "sameTypeExtraCatchCandyXlChance": 0.25,
+        "selfCpBoostAdditionalLevel": 5
       }
     }
   },
@@ -1785,7 +1834,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 2,
         "sameTypeExtraCatchXp": 100,
-        "sameTypeExtraCatchCandyXlChance": 0.25
+        "sameTypeExtraCatchCandyXlChance": 0.25,
+        "selfCpBoostAdditionalLevel": 5
       }
     }
   },
@@ -1796,8 +1846,8 @@
       "pokemonId": "DRAGONITE",
       "progression": {
         "pointsRequired": 30,
-        "pointsLimitPerPeriod": 1,
-        "pointsPerMegaEvoAction": 1
+        "pointsLimitPerPeriod": 3,
+        "pointsPerMegaEvoAction": 2
       },
       "cooldown": {
         "durationMs": "259200000",
@@ -1809,7 +1859,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 2,
         "sameTypeExtraCatchXp": 100,
-        "sameTypeExtraCatchCandyXlChance": 0.25
+        "sameTypeExtraCatchCandyXlChance": 0.25,
+        "selfCpBoostAdditionalLevel": 10
       }
     }
   },
@@ -1857,7 +1908,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 2,
         "sameTypeExtraCatchXp": 100,
-        "sameTypeExtraCatchCandyXlChance": 0.25
+        "sameTypeExtraCatchCandyXlChance": 0.25,
+        "selfCpBoostAdditionalLevel": 5
       }
     }
   },
@@ -1881,7 +1933,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 2,
         "sameTypeExtraCatchXp": 100,
-        "sameTypeExtraCatchCandyXlChance": 0.25
+        "sameTypeExtraCatchCandyXlChance": 0.25,
+        "selfCpBoostAdditionalLevel": 5
       }
     }
   },
@@ -1905,7 +1958,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 2,
         "sameTypeExtraCatchXp": 100,
-        "sameTypeExtraCatchCandyXlChance": 0.25
+        "sameTypeExtraCatchCandyXlChance": 0.25,
+        "selfCpBoostAdditionalLevel": 5
       }
     }
   },
@@ -1929,7 +1983,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 2,
         "sameTypeExtraCatchXp": 100,
-        "sameTypeExtraCatchCandyXlChance": 0.25
+        "sameTypeExtraCatchCandyXlChance": 0.25,
+        "selfCpBoostAdditionalLevel": 5
       }
     }
   },
@@ -1953,7 +2008,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 2,
         "sameTypeExtraCatchXp": 100,
-        "sameTypeExtraCatchCandyXlChance": 0.25
+        "sameTypeExtraCatchCandyXlChance": 0.25,
+        "selfCpBoostAdditionalLevel": 5
       }
     }
   },
@@ -1977,7 +2033,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 2,
         "sameTypeExtraCatchXp": 100,
-        "sameTypeExtraCatchCandyXlChance": 0.25
+        "sameTypeExtraCatchCandyXlChance": 0.25,
+        "selfCpBoostAdditionalLevel": 5
       }
     }
   },
@@ -2001,7 +2058,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 2,
         "sameTypeExtraCatchXp": 100,
-        "sameTypeExtraCatchCandyXlChance": 0.25
+        "sameTypeExtraCatchCandyXlChance": 0.25,
+        "selfCpBoostAdditionalLevel": 5
       }
     }
   },
@@ -2025,7 +2083,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 2,
         "sameTypeExtraCatchXp": 100,
-        "sameTypeExtraCatchCandyXlChance": 0.25
+        "sameTypeExtraCatchCandyXlChance": 0.25,
+        "selfCpBoostAdditionalLevel": 5
       }
     }
   },
@@ -2049,7 +2108,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 2,
         "sameTypeExtraCatchXp": 100,
-        "sameTypeExtraCatchCandyXlChance": 0.25
+        "sameTypeExtraCatchCandyXlChance": 0.25,
+        "selfCpBoostAdditionalLevel": 5
       }
     }
   },
@@ -2073,7 +2133,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 2,
         "sameTypeExtraCatchXp": 100,
-        "sameTypeExtraCatchCandyXlChance": 0.25
+        "sameTypeExtraCatchCandyXlChance": 0.25,
+        "selfCpBoostAdditionalLevel": 5
       }
     }
   },
@@ -2097,7 +2158,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 2,
         "sameTypeExtraCatchXp": 100,
-        "sameTypeExtraCatchCandyXlChance": 0.25
+        "sameTypeExtraCatchCandyXlChance": 0.25,
+        "selfCpBoostAdditionalLevel": 5
       }
     }
   },
@@ -2169,7 +2231,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 2,
         "sameTypeExtraCatchXp": 100,
-        "sameTypeExtraCatchCandyXlChance": 0.25
+        "sameTypeExtraCatchCandyXlChance": 0.25,
+        "selfCpBoostAdditionalLevel": 5
       }
     }
   },
@@ -2193,7 +2256,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 2,
         "sameTypeExtraCatchXp": 100,
-        "sameTypeExtraCatchCandyXlChance": 0.25
+        "sameTypeExtraCatchCandyXlChance": 0.25,
+        "selfCpBoostAdditionalLevel": 5
       }
     }
   },
@@ -2204,8 +2268,8 @@
       "pokemonId": "MALAMAR",
       "progression": {
         "pointsRequired": 30,
-        "pointsLimitPerPeriod": 1,
-        "pointsPerMegaEvoAction": 1
+        "pointsLimitPerPeriod": 3,
+        "pointsPerMegaEvoAction": 2
       },
       "cooldown": {
         "durationMs": "259200000",
@@ -2217,7 +2281,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 2,
         "sameTypeExtraCatchXp": 100,
-        "sameTypeExtraCatchCandyXlChance": 0.25
+        "sameTypeExtraCatchCandyXlChance": 0.25,
+        "selfCpBoostAdditionalLevel": 10
       }
     }
   },
@@ -2241,7 +2306,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 2,
         "sameTypeExtraCatchXp": 100,
-        "sameTypeExtraCatchCandyXlChance": 0.25
+        "sameTypeExtraCatchCandyXlChance": 0.25,
+        "selfCpBoostAdditionalLevel": 5
       }
     }
   },
@@ -2252,8 +2318,8 @@
       "pokemonId": "VICTREEBEL",
       "progression": {
         "pointsRequired": 30,
-        "pointsLimitPerPeriod": 1,
-        "pointsPerMegaEvoAction": 1
+        "pointsLimitPerPeriod": 3,
+        "pointsPerMegaEvoAction": 2
       },
       "cooldown": {
         "durationMs": "86400000",
@@ -2266,7 +2332,7 @@
         "sameTypeExtraCatchCandy": 3,
         "sameTypeExtraCatchXp": 200,
         "sameTypeExtraCatchCandyXlChance": 0.3,
-        "selfCpBoostAdditionalLevel": 2
+        "selfCpBoostAdditionalLevel": 12
       },
       "megaEnergyCostToUnlock": 5000,
       "ftueExpirationTimestamp": "1775001600000"
@@ -2279,8 +2345,8 @@
       "pokemonId": "DRAGONITE",
       "progression": {
         "pointsRequired": 30,
-        "pointsLimitPerPeriod": 1,
-        "pointsPerMegaEvoAction": 1
+        "pointsLimitPerPeriod": 3,
+        "pointsPerMegaEvoAction": 2
       },
       "cooldown": {
         "durationMs": "86400000",
@@ -2293,7 +2359,7 @@
         "sameTypeExtraCatchCandy": 3,
         "sameTypeExtraCatchXp": 200,
         "sameTypeExtraCatchCandyXlChance": 0.3,
-        "selfCpBoostAdditionalLevel": 2
+        "selfCpBoostAdditionalLevel": 12
       },
       "megaEnergyCostToUnlock": 5000,
       "ftueExpirationTimestamp": "1775001600000"
@@ -2306,8 +2372,8 @@
       "pokemonId": "MALAMAR",
       "progression": {
         "pointsRequired": 30,
-        "pointsLimitPerPeriod": 1,
-        "pointsPerMegaEvoAction": 1
+        "pointsLimitPerPeriod": 3,
+        "pointsPerMegaEvoAction": 2
       },
       "cooldown": {
         "durationMs": "86400000",
@@ -2320,7 +2386,7 @@
         "sameTypeExtraCatchCandy": 3,
         "sameTypeExtraCatchXp": 200,
         "sameTypeExtraCatchCandyXlChance": 0.3,
-        "selfCpBoostAdditionalLevel": 2
+        "selfCpBoostAdditionalLevel": 12
       },
       "megaEnergyCostToUnlock": 5000,
       "ftueExpirationTimestamp": "1775001600000"

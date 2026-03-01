@@ -2,8 +2,10 @@
   {
     "templateId": "MAP_DISPLAY_SETTINGS",
     "data": {
+      "mbmchdofgdg": "https://prodholoholo-public-images.nianticlabs.com/gotourlogo_1914247967.png",
       "showEnhancedSky": true,
-      "skyOverride": "EventSkydome_GoFest2021"
+      "skyOverride": "EventSkydome_GoFest2021",
+      "mapEffectName": "fx_confetti_team"
     }
   }
 ]

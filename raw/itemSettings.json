@@ -51,11 +51,11 @@
       "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
       "globalEventTicket": {
         "eventStartTime": "2026-03-03T13:00:00",
-        "eventEndTime": "2026-06-02T10:00:00",
+        "eventEndTime": "2026-04-03T10:00:00",
         "itemBagDescriptionKey": "item_battle_pass_ticket_desc",
         "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-s22-gbl-nologo-2026.jpg",
         "clientEventStartTimeUtcMs": "1772542800000",
-        "clientEventEndTimeUtcMs": "1780394400000"
+        "clientEventEndTimeUtcMs": "1775210400000"
       }
     }
   },
@@ -183,9 +183,7 @@
         "eventPassId": "EVENT_PASS_GOTOUR2026_GLOBAL"
       },
       "timePeriodCounters": {
-        "playerActivity": {
-          "limit": 150
-        }
+        "playerActivity": {}
       },
       "hideItemInInventory": true
     }
@@ -273,9 +271,7 @@
         "eventPassId": "EVENT_PASS_FEBRUARY2026_SEASON"
       },
       "timePeriodCounters": {
-        "playerActivity": {
-          "limit": 250
-        }
+        "playerActivity": {}
       },
       "hideItemInInventory": true
     }
@@ -1368,7 +1364,7 @@
       "dropTrainerLevel": 1,
       "incense": {
         "incenseLifetimeSeconds": 3600,
-        "spawnTableProbability": 0.8
+        "spawnTableProbability": 0.9
       }
     }
   },

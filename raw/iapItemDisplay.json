@@ -92,6 +92,21 @@
     }
   },
   {
+    "templateId": "EVENT_PASS_MARCH1_SEASON_STORE_REDIRECT",
+    "data": {
+      "sku": "pgorelease.march1_2026_deluxe_event_pass_track_redirect",
+      "sortOrder": 1,
+      "hidden": true,
+      "title": "season_pass_premium_track_title_30anniv_2026",
+      "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
+      "skuEnableTime": "2025-03-03T10:00:00",
+      "skuDisableTime": "2026-03-15T20:00:00",
+      "skuEnableTimeUtcMs": "1740996000000",
+      "skuDisableTimeUtcMs": "1773604800000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-legendary-birds-nologo-2026.jpg"
+    }
+  },
+  {
     "templateId": "EVENT_PASS_MONTH1_SEASON_STORE_REDIRECT",
     "data": {
       "sku": "pgorelease.month1_deluxe_event_pass_track_redirect",
@@ -377,6 +392,36 @@
       "showDiscountTag": true,
       "showStrikethroughPrice": true,
       "totalValue": 300
+    }
+  },
+  {
+    "templateId": "MARCH1_2026_DELUXE_EVENT_PASS_TRACK_UNLOCK",
+    "data": {
+      "sku": "pgorelease.march1_2026_deluxe_event_pass_track_unlock",
+      "sortOrder": 1,
+      "hidden": true,
+      "title": "season_pass_premium_track_title_30anniv_2026",
+      "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
+      "skuEnableTime": "2025-03-03T10:00:00",
+      "skuDisableTime": "2026-03-15T20:00:00",
+      "skuEnableTimeUtcMs": "1740996000000",
+      "skuDisableTimeUtcMs": "1773604800000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-legendary-birds-nologo-2026.jpg"
+    }
+  },
+  {
+    "templateId": "MARCH1_2026_DELUXE_EVENT_PASS_TRACK_UNLOCK_PLUS_POINTS",
+    "data": {
+      "sku": "pgorelease.march1_2026_deluxe_event_pass_track_unlock_plus_points",
+      "sortOrder": 1,
+      "hidden": true,
+      "title": "season_pass_premium_track_plus_ten_ranks_title_30anniv_2026",
+      "description": "gotour_2025_deluxe_event_pass_track_unlock_plus_points_description",
+      "skuEnableTime": "2025-03-03T10:00:00",
+      "skuDisableTime": "2026-03-15T20:00:00",
+      "skuEnableTimeUtcMs": "1740996000000",
+      "skuDisableTimeUtcMs": "1773604800000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-legendary-birds-nologo-2026.jpg"
     }
   },
   {
