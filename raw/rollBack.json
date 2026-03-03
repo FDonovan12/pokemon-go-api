@@ -4,5 +4,11 @@
     "data": {
       "rollbackPercentage": 100
     }
+  },
+  {
+    "templateId": "REMOVE_UI_CAM_ROLL_BACK",
+    "data": {
+      "rollbackPercentage": 100
+    }
   }
 ]

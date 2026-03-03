@@ -4034,7 +4034,8 @@
       "durationMs": 2000,
       "damageWindowStartMs": 1000,
       "damageWindowEndMs": 1800,
-      "energyDelta": -33
+      "energyDelta": -33,
+      "isLocked": true
     }
   },
   {
@@ -5859,6 +5860,24 @@
       "damageWindowStartMs": 3000,
       "damageWindowEndMs": 4000,
       "energyDelta": -33
+    }
+  },
+  {
+    "templateId": "V0493_MOVE_PYROBALL",
+    "data": {
+      "movementId": 493,
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_FIRE",
+      "power": 150,
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "pyroball",
+      "durationMs": 2000,
+      "damageWindowStartMs": 900,
+      "damageWindowEndMs": 1600,
+      "energyDelta": -100
     }
   },
   {

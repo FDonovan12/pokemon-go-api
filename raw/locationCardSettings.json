@@ -1170,6 +1170,15 @@
     }
   },
   {
+    "templateId": "LC_SPECIALBACKGROUND_EXTRA_2025_01",
+    "data": {
+      "locationCard": "LC_SPECIALBACKGROUND_EXTRA_2025_01",
+      "imageUrl": "sb_FestivalofColors_2026",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_holi_2026"
+    }
+  },
+  {
     "templateId": "LC_SPECIALBACKGROUND_KR2025_LOTTE_01",
     "data": {
       "locationCard": "LC_SPECIALBACKGROUND_KR2025_LOTTE_01",
@@ -1181,6 +1190,14 @@
     "data": {
       "locationCard": "LC_SPECIALBACKGROUND_OBSERVATORY_EXHIBITION_TOUR",
       "imageUrl": "sb_ObservatoryExhibitionTour",
+      "cardType": "SPECIAL_BACKGROUND"
+    }
+  },
+  {
+    "templateId": "LC_SPECIALBACKGROUND_POK2026",
+    "data": {
+      "locationCard": "LC_SPECIALBACKGROUND_POK2026",
+      "imageUrl": "lc_pokopia2026",
       "cardType": "SPECIAL_BACKGROUND"
     }
   },

@@ -3605,6 +3605,24 @@
     }
   },
   {
+    "templateId": "SPAWN_V0132_POKEMON_DITTO_SPRING_2026_A",
+    "data": {
+      "pokemon": "DITTO",
+      "gender": {
+        "genderlessPercent": 1
+      }
+    }
+  },
+  {
+    "templateId": "SPAWN_V0132_POKEMON_DITTO_SPRING_2026_B",
+    "data": {
+      "pokemon": "DITTO",
+      "gender": {
+        "genderlessPercent": 1
+      }
+    }
+  },
+  {
     "templateId": "SPAWN_V0133_POKEMON_EEVEE",
     "data": {
       "pokemon": "EEVEE",

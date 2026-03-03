@@ -1854,6 +1854,14 @@
       "forms": [
         {
           "form": "DITTO_NORMAL"
+        },
+        {
+          "form": 3337,
+          "isCostume": true
+        },
+        {
+          "form": 3338,
+          "isCostume": true
         }
       ]
     }

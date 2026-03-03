@@ -56,6 +56,7 @@
       "friendRequestsEnabled": true,
       "remoteRaidDistanceValidation": true,
       "popupTimeMs": 30000,
+      "failedFriendInviteInfoEnabled": true,
       "minPlayersToBoot": 2,
       "bootCutoffMs": 15000,
       "bootSoloMs": 30000,
@@ -120,6 +121,22 @@
         {
           "pokemon": "YVELTAL",
           "battleMusicKey": "RaidXerneasYveltalBattleMusic"
+        },
+        {
+          "pokemon": "PALKIA",
+          "forms": [
+            "PALKIA_NORMAL",
+            "PALKIA_ORIGIN"
+          ],
+          "battleMusicKey": "GoTour2024Music01"
+        },
+        {
+          "pokemon": "DIALGA",
+          "forms": [
+            "DIALGA_NORMAL",
+            "DIALGA_ORIGIN"
+          ],
+          "battleMusicKey": "GoTour2024Music01"
         }
       ],
       "fetchProfileFromSocialEnabled": true

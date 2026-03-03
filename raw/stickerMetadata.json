@@ -5264,6 +5264,55 @@
     }
   },
   {
+    "templateId": "STICKER_POKOPIA_BULBASAUR",
+    "data": {
+      "stickerId": "STICKER_POKOPIA_BULBASAUR",
+      "maxCount": 25,
+      "pokemonId": "BULBASAUR",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20260310
+    }
+  },
+  {
+    "templateId": "STICKER_POKOPIA_PIKACHU",
+    "data": {
+      "stickerId": "STICKER_POKOPIA_PIKACHU",
+      "maxCount": 25,
+      "pokemonId": "PIKACHU",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20260310
+    }
+  },
+  {
+    "templateId": "STICKER_POKOPIA_SNORLAX",
+    "data": {
+      "stickerId": "STICKER_POKOPIA_SNORLAX",
+      "maxCount": 25,
+      "pokemonId": "SNORLAX",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20260310
+    }
+  },
+  {
+    "templateId": "STICKER_POKOPIA_TANGROWTH",
+    "data": {
+      "stickerId": "STICKER_POKOPIA_TANGROWTH",
+      "maxCount": 25,
+      "pokemonId": "TANGROWTH",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20260310,
+      "regionId": 3
+    }
+  },
+  {
     "templateId": "STICKER_POLIWAG_1",
     "data": {
       "stickerId": "STICKER_POLIWAG_1",

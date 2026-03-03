@@ -20,7 +20,7 @@
       "rvnVersion": 1,
       "maxPlayersPerBreadDoughLobby": 100,
       "maxRemotePlayersPerBreadDoughLobby": 100,
-      "maxRemoteBreadBattlePassesAllowed": 999999,
+      "maxRemoteBreadBattlePassesAllowed": 10,
       "maxNumFriendInvitesToBreadDoughLobbyPerAction": 10,
       "fetchProfileFromSocialEnabled": true,
       "maxPlayersToPrepareBreadDoughLobby": 98

@@ -1,5 +1,73 @@
 [
   {
+    "templateId": "EVENT_PASS_30ANNIV2026_EVENT",
+    "data": {
+      "prefix": "EVENT_PASS_30ANNIV2026_EVENT",
+      "pointsItemId": "ITEM_EVENT_PASS_POINT_LIVE_OPS_04",
+      "trackConditions": [
+        {
+          "track": "FREE",
+          "trackTitleKey": "season_pass_base_track_title_30anniv_2026"
+        },
+        {
+          "track": "PREMIUM",
+          "badge": "BADGE_EVENT_0186",
+          "trackTitleKey": "season_pass_premium_track_title_30anniv_2026"
+        }
+      ],
+      "expirationTime": "2026-03-09T20:00:00",
+      "maxTierLevel": 100,
+      "additionalBonusTiersLevel": 81,
+      "eventPassDisplaySettings": {
+        "bonusBoxes": [
+          {
+            "text": "quest_catch_pokemon_singular",
+            "iconType": "SPAWN_UNKNOWN",
+            "quantity": 5
+          },
+          {
+            "text": "quest_hatch_egg_singular",
+            "iconType": "EGG",
+            "quantity": 40
+          },
+          {
+            "text": "quest_win_raid_singular",
+            "iconType": "RAID",
+            "quantity": 100
+          }
+        ],
+        "eventPassTrackUpgradeDescriptions": [
+          {
+            "passTrackUpgradeHeaderDescription": "season_pass_30anniv_2026_track_upgrade_header_description",
+            "eventPassTrackToUpgradeTo": "PREMIUM",
+            "trackUnlockSkuId": "pgorelease.march1_2026_deluxe_event_pass_track_unlock",
+            "trackUnlockPlusPointsSkuId": "pgorelease.march1_2026_deluxe_event_pass_track_unlock_plus_points",
+            "eventDurationKey": "season_pass_30anniv_2026_event_duration",
+            "upgradeDescriptionKey": "season_pass_30anniv_2026_upgrade_description",
+            "ranksToHighlightRewards": [
+              77,
+              78,
+              79
+            ],
+            "detailsLinkKey": "season_pass_details_link_30anniv_2026",
+            "trackUnlockImageUrl": "https://storage.googleapis.com/prod-public-images/ic_eventpass_deluxe.png",
+            "trackUnlockPlusPointsImageUrl": "https://storage.googleapis.com/prod-public-images/ic_eventpass_deluxe_plus.png"
+          }
+        ],
+        "eventPassTitleKey": "season_pass_base_track_title_30anniv_2026",
+        "headerIconUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-s22-memories-in-motion-logo-2026-square.png",
+        "premiumRewardBannerTop": "event_pass_premium_reward_banner_top_text",
+        "premiumRewardBannerMiddle": "item_30anniv_2026_milestone_name",
+        "premiumRewardBannerBottom": "event_pass_premium_reward_banner_bottom_text_30anniv_2026",
+        "premiumRewardBannerImageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-s22-memories-in-motion-logo-2026-square.png",
+        "premiumRewardsDescription": "season_pass_premium_rewards_desc_monthly_no_disclaimer",
+        "todayViewSection": "SEASONAL_EVENT_PASS_SECTION",
+        "sectionDisplayPriority": 10
+      },
+      "gracePeriodEndTime": "2026-03-15T20:00:00"
+    }
+  },
+  {
     "templateId": "EVENT_PASS_FEBRUARY2026_SEASON",
     "data": {
       "prefix": "EVENT_PASS_FEBRUARY2026_SEASON",
@@ -63,35 +131,35 @@
     }
   },
   {
-    "templateId": "EVENT_PASS_GOTOUR2026_GLOBAL",
+    "templateId": "EVENT_PASS_MARCH2026_SEASON",
     "data": {
-      "prefix": "EVENT_PASS_GOTOUR2026_GLOBAL",
-      "pointsItemId": "ITEM_EVENT_PASS_POINT_GO_TOUR_01",
+      "prefix": "EVENT_PASS_MARCH2026_SEASON",
+      "pointsItemId": "ITEM_EVENT_PASS_POINT_MONTHLY_01",
       "trackConditions": [
         {
           "track": "FREE",
-          "trackTitleKey": "gotour_2026_event_pass_title"
+          "trackTitleKey": "season_pass_base_track_title_mar"
         },
         {
           "track": "PREMIUM",
-          "badge": "BADGE_GO_TOUR_2026_DELUXE_PASS",
-          "trackTitleKey": "gotour_2026_event_pass_deluxe_title"
+          "badge": "BADGE_EVENT_0174",
+          "trackTitleKey": "season_pass_premium_track_title_mar"
         }
       ],
-      "expirationTime": "2026-03-01T18:00:00",
-      "maxTierLevel": 600,
+      "expirationTime": "2026-04-07T10:00:00",
+      "maxTierLevel": 200,
       "additionalBonusTiersLevel": 101,
       "eventPassDisplaySettings": {
         "bonusBoxes": [
           {
-            "text": "catch_a_pokemon_short_title",
+            "text": "quest_catch_pokemon_singular",
             "iconType": "SPAWN_UNKNOWN",
             "quantity": 5
           },
           {
             "text": "quest_hatch_egg_singular",
             "iconType": "EGG",
-            "quantity": 50
+            "quantity": 40
           },
           {
             "text": "quest_win_raid_singular",
@@ -101,31 +169,33 @@
         ],
         "eventPassTrackUpgradeDescriptions": [
           {
-            "passTrackUpgradeHeaderDescription": "gotour_2026_pass_track_upgrade_header_description",
+            "passTrackUpgradeHeaderDescription": "season_pass_march2026_track_upgrade_header_description",
             "eventPassTrackToUpgradeTo": "PREMIUM",
-            "trackUnlockSkuId": "pgorelease.gotour_2025_deluxe_event_pass_track_unlock",
-            "trackUnlockPlusPointsSkuId": "pgorelease.gotour_2025_deluxe_event_pass_track_unlock_plus_points",
-            "eventDurationKey": "gotour_2026_event_duration",
-            "upgradeDescriptionKey": "gotour_2026_upgrade_description",
+            "trackUnlockSkuId": "pgorelease.month1_deluxe_event_pass_track_unlock",
+            "trackUnlockPlusPointsSkuId": "pgorelease.month1_deluxe_event_pass_track_unlock_plus_points",
+            "eventDurationKey": "season_pass_march2026_event_duration",
+            "upgradeDescriptionKey": "season_pass_march2026_upgrade_description",
             "ranksToHighlightRewards": [
-              1,
-              40,
-              100
+              20,
+              82,
+              99
             ],
-            "detailsLinkKey": "gotour_2026_event_pass_details_link",
+            "detailsLinkKey": "season_pass_details_link_march2026",
             "trackUnlockImageUrl": "https://storage.googleapis.com/prod-public-images/ic_eventpass_deluxe.png",
             "trackUnlockPlusPointsImageUrl": "https://storage.googleapis.com/prod-public-images/ic_eventpass_deluxe_plus.png"
           }
         ],
-        "eventPassTitleKey": "gotour_2026_event_pass_title",
-        "headerIconUrl": "https://prodholoholo-public-images.nianticlabs.com/gotourlogo_1914247967.png",
+        "eventPassTitleKey": "season_pass_base_track_title_mar",
+        "headerIconUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-s22-memories-in-motion-logo-2026-square.png",
         "premiumRewardBannerTop": "event_pass_premium_reward_banner_top_text",
-        "premiumRewardBannerMiddle": "event_pass_premium_reward_banner_middle_text",
-        "premiumRewardBannerBottom": "event_pass_premium_reward_banner_bottom_text",
-        "premiumRewardBannerImageUrl": "https://storage.googleapis.com/prod-public-images/lucky_trinket_small.png",
-        "premiumRewardsDescription": "gotour_2025_premium_rewards_desc"
+        "premiumRewardBannerMiddle": "item_incubator_timed_name",
+        "premiumRewardBannerBottom": "event_pass_premium_reward_banner_bottom_text_timed_incubator",
+        "premiumRewardBannerImageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets/Incubator_green_empty.png",
+        "premiumRewardsDescription": "season_pass_premium_rewards_desc_monthly_no_disclaimer",
+        "todayViewSection": "SEASONAL_EVENT_PASS_SECTION",
+        "sectionDisplayPriority": 9
       },
-      "gracePeriodEndTime": "2026-03-03T18:00:00"
+      "gracePeriodEndTime": "2026-04-09T10:00:00"
     }
   }
 ]

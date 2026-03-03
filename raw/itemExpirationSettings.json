@@ -18,7 +18,7 @@
     "templateId": "ITEM_EXPIRATION_ITEM_EVENT_PASS_POINT_GO_TOUR_01",
     "data": {
       "item": "ITEM_EVENT_PASS_POINT_GO_TOUR_01",
-      "expirationTime": "2026-03-01T18:00:00"
+      "expirationTime": "2026-03-03T18:00:00"
     }
   },
   {
@@ -79,7 +79,7 @@
     "templateId": "ITEM_EXPIRATION_ITEM_INCUBATOR_TIMED",
     "data": {
       "item": "ITEM_INCUBATOR_TIMED",
-      "expirationTime": "2026-01-13T10:00:00"
+      "expirationTime": "2026-04-14T10:00:00"
     }
   },
   {

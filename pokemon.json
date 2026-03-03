@@ -639,7 +639,8 @@
       "HURRICANE",
       "AERIAL_ACE",
       "BRAVE_BIRD",
-      "FEATHER_DANCE"
+      "FEATHER_DANCE",
+      "HEAT_WAVE"
     ],
     "eliteQuickMove": [
       "WING_ATTACK_FAST",
@@ -6453,6 +6454,46 @@
     }
   },
   {
+    "id": "V0132_POKEMON_DITTO_SPRING_2026_A",
+    "pokemonId": "DITTO",
+    "type": "POKEMON_TYPE_NORMAL",
+    "stats": {
+      "baseStamina": 134,
+      "baseAttack": 91,
+      "baseDefense": 91
+    },
+    "quickMoves": [
+      "TRANSFORM_FAST"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "familyId": "FAMILY_DITTO",
+    "encounter": {
+      "stardustCaptureReward": 100
+    }
+  },
+  {
+    "id": "V0132_POKEMON_DITTO_SPRING_2026_B",
+    "pokemonId": "DITTO",
+    "type": "POKEMON_TYPE_NORMAL",
+    "stats": {
+      "baseStamina": 134,
+      "baseAttack": 91,
+      "baseDefense": 91
+    },
+    "quickMoves": [
+      "TRANSFORM_FAST"
+    ],
+    "cinematicMoves": [
+      "STRUGGLE"
+    ],
+    "familyId": "FAMILY_DITTO",
+    "encounter": {
+      "stardustCaptureReward": 100
+    }
+  },
+  {
     "id": "V0133_POKEMON_EEVEE_GOFEST_2024_MTIARA",
     "pokemonId": "EEVEE",
     "type": "POKEMON_TYPE_NORMAL",
@@ -6919,7 +6960,8 @@
     },
     "quickMoves": [
       "FROST_BREATH_FAST",
-      "ICE_SHARD_FAST"
+      "ICE_SHARD_FAST",
+      "POWDER_SNOW_FAST"
     ],
     "cinematicMoves": [
       "ICE_BEAM",
@@ -6980,7 +7022,8 @@
       "THUNDERBOLT",
       "THUNDER",
       "ANCIENT_POWER",
-      "DRILL_PECK"
+      "DRILL_PECK",
+      "HEAT_WAVE"
     ],
     "eliteQuickMove": [
       "THUNDER_SHOCK_FAST"
@@ -7035,7 +7078,8 @@
       "FIRE_BLAST",
       "HEAT_WAVE",
       "OVERHEAT",
-      "ANCIENT_POWER"
+      "ANCIENT_POWER",
+      "FLY"
     ],
     "eliteCinematicMove": [
       "SKY_ATTACK"
@@ -7942,7 +7986,8 @@
       "DAZZLING_GLEAM",
       "AERIAL_ACE",
       "DRAINING_KISS",
-      "PSYSHOCK"
+      "PSYSHOCK",
+      "HEAT_WAVE"
     ],
     "eliteQuickMove": [
       "STEEL_WING_FAST",
@@ -9654,14 +9699,16 @@
     },
     "quickMoves": [
       "COUNTER_FAST",
-      "STRUGGLE_BUG_FAST"
+      "STRUGGLE_BUG_FAST",
+      "FURY_CUTTER_FAST"
     ],
     "cinematicMoves": [
       "MEGAHORN",
       "CLOSE_COMBAT",
       "EARTHQUAKE",
       "ROCK_BLAST",
-      "UPPER_HAND"
+      "UPPER_HAND",
+      "ROCK_TOMB"
     ],
     "familyId": "FAMILY_HERACROSS",
     "encounter": {
@@ -12741,7 +12788,9 @@
       "EARTHQUAKE",
       "OVERHEAT",
       "SOLAR_BEAM",
-      "EARTH_POWER"
+      "EARTH_POWER",
+      "ROCK_TOMB",
+      "SCORCHING_SANDS"
     ],
     "familyId": "FAMILY_NUMEL",
     "encounter": {
@@ -13352,7 +13401,8 @@
       "STONE_EDGE",
       "BOOMBURST",
       "SCORCHING_SANDS",
-      "SAND_TOMB"
+      "SAND_TOMB",
+      "TWISTER"
     ],
     "eliteCinematicMove": [
       "EARTH_POWER"
@@ -15687,7 +15737,8 @@
     },
     "quickMoves": [
       "CONFUSION_FAST",
-      "BUG_BITE_FAST"
+      "BUG_BITE_FAST",
+      "SUCKER_PUNCH_FAST"
     ],
     "cinematicMoves": [
       "PSYBEAM",
@@ -15711,7 +15762,8 @@
     },
     "quickMoves": [
       "CONFUSION_FAST",
-      "BUG_BITE_FAST"
+      "BUG_BITE_FAST",
+      "SUCKER_PUNCH_FAST"
     ],
     "cinematicMoves": [
       "PSYBEAM",
@@ -15736,7 +15788,8 @@
     "quickMoves": [
       "CONFUSION_FAST",
       "BUG_BITE_FAST",
-      "METAL_SOUND_FAST"
+      "METAL_SOUND_FAST",
+      "SUCKER_PUNCH_FAST"
     ],
     "cinematicMoves": [
       "PSYBEAM",
@@ -16608,7 +16661,8 @@
       "EARTHQUAKE",
       "FIRE_BLAST",
       "SAND_TOMB",
-      "BREAKING_SWIPE"
+      "BREAKING_SWIPE",
+      "TWISTER"
     ],
     "eliteCinematicMove": [
       "EARTH_POWER"
@@ -17322,7 +17376,8 @@
       "EARTHQUAKE",
       "AERIAL_ACE",
       "NIGHT_SLASH",
-      "SAND_TOMB"
+      "SAND_TOMB",
+      "ACROBATICS"
     ],
     "familyId": "FAMILY_GLIGAR",
     "encounter": {
@@ -17611,7 +17666,8 @@
     "cinematicMoves": [
       "OMINOUS_WIND",
       "THUNDERBOLT",
-      "THUNDER"
+      "THUNDER",
+      "LEAF_STORM"
     ],
     "familyId": "FAMILY_ROTOM",
     "encounter": {
@@ -19814,7 +19870,8 @@
       "MEGAHORN",
       "SLUDGE_BOMB",
       "GYRO_BALL",
-      "X_SCISSOR"
+      "X_SCISSOR",
+      "AQUA_TAIL"
     ],
     "familyId": "FAMILY_VENIPEDE",
     "encounter": {
@@ -27230,7 +27287,8 @@
       "HYDRO_PUMP",
       "OVERHEAT",
       "EARTH_POWER",
-      "SLUDGE_BOMB"
+      "SLUDGE_BOMB",
+      "SCALD"
     ],
     "familyId": "FAMILY_VOLCANION",
     "pokemonClass": "POKEMON_CLASS_MYTHIC",
@@ -30474,7 +30532,8 @@
     "quickMoves": [
       "SUCKER_PUNCH_FAST",
       "COUNTER_FAST",
-      "POISON_JAB_FAST"
+      "POISON_JAB_FAST",
+      "SHADOW_CLAW_FAST"
     ],
     "cinematicMoves": [
       "CLOSE_COMBAT",

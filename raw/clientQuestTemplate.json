@@ -1894,7 +1894,8 @@
             }
           }
         ],
-        "difficulty": "EASY"
+        "difficulty": "EASY",
+        "questUpdateToastProgressPercentageThreshold": 0.02
       },
       "questDisplay": {
         "description": "quest_visit_pokestops_plural",

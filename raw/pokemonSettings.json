@@ -4736,7 +4736,8 @@
         "HURRICANE",
         "AERIAL_ACE",
         "BRAVE_BIRD",
-        "FEATHER_DANCE"
+        "FEATHER_DANCE",
+        "HEAT_WAVE"
       ],
       "animationTime": [
         2.0667,
@@ -4885,7 +4886,8 @@
         "HURRICANE",
         "AERIAL_ACE",
         "BRAVE_BIRD",
-        "FEATHER_DANCE"
+        "FEATHER_DANCE",
+        "HEAT_WAVE"
       ],
       "animationTime": [
         2.0667,
@@ -38698,6 +38700,170 @@
     }
   },
   {
+    "templateId": "V0132_POKEMON_DITTO_SPRING_2026_A",
+    "data": {
+      "pokemonId": "DITTO",
+      "modelScale": 1.61,
+      "type": "POKEMON_TYPE_NORMAL",
+      "camera": {
+        "diskRadiusM": 0.6038,
+        "cylinderRadiusM": 0.3,
+        "cylinderHeightM": 0.52325,
+        "shoulderModeScale": 0.5
+      },
+      "encounter": {
+        "collisionRadiusM": 0.4025,
+        "collisionHeightM": 0.52325,
+        "collisionHeadRadiusM": 0.20125,
+        "movementType": "MOVEMENT_JUMP",
+        "movementTimerS": 3600,
+        "jumpTimeS": 1,
+        "attackTimerS": 3600,
+        "attackProbability": 0.1,
+        "dodgeProbability": 0.15,
+        "dodgeDurationS": 1,
+        "dodgeDistance": 1,
+        "cameraDistance": 3.01875,
+        "minPokemonActionFrequencyS": 0.2,
+        "maxPokemonActionFrequencyS": 1.6
+      },
+      "stats": {
+        "baseStamina": 134,
+        "baseAttack": 91,
+        "baseDefense": 91
+      },
+      "quickMoves": [
+        "TRANSFORM_FAST"
+      ],
+      "cinematicMoves": [
+        "STRUGGLE"
+      ],
+      "animationTime": [
+        0,
+        0.6667,
+        1.6667,
+        1.6667,
+        0,
+        2,
+        2,
+        0
+      ],
+      "evolutionPips": 1,
+      "pokedexHeightM": 0.3,
+      "pokedexWeightKg": 4,
+      "heightStdDev": 0.0375,
+      "weightStdDev": 0.5,
+      "familyId": "FAMILY_DITTO",
+      "kmBuddyDistance": 3,
+      "modelHeight": 0.33,
+      "modelScaleV2": 1.21,
+      "form": 3337,
+      "buddyOffsetMale": [
+        6,
+        0,
+        0
+      ],
+      "buddyOffsetFemale": [
+        6,
+        0,
+        0
+      ],
+      "buddyScale": 19,
+      "thirdMove": {
+        "stardustToUnlock": 50000,
+        "candyToUnlock": 50
+      },
+      "isTransferable": true,
+      "isDeployable": true,
+      "isTradable": true,
+      "buddyGroupNumber": 3,
+      "ibfc": {},
+      "breadTierGroup": "GROUP_2"
+    }
+  },
+  {
+    "templateId": "V0132_POKEMON_DITTO_SPRING_2026_B",
+    "data": {
+      "pokemonId": "DITTO",
+      "modelScale": 1.61,
+      "type": "POKEMON_TYPE_NORMAL",
+      "camera": {
+        "diskRadiusM": 0.6038,
+        "cylinderRadiusM": 0.3,
+        "cylinderHeightM": 0.52325,
+        "shoulderModeScale": 0.5
+      },
+      "encounter": {
+        "collisionRadiusM": 0.4025,
+        "collisionHeightM": 0.52325,
+        "collisionHeadRadiusM": 0.20125,
+        "movementType": "MOVEMENT_JUMP",
+        "movementTimerS": 3600,
+        "jumpTimeS": 1,
+        "attackTimerS": 3600,
+        "attackProbability": 0.1,
+        "dodgeProbability": 0.15,
+        "dodgeDurationS": 1,
+        "dodgeDistance": 1,
+        "cameraDistance": 3.01875,
+        "minPokemonActionFrequencyS": 0.2,
+        "maxPokemonActionFrequencyS": 1.6
+      },
+      "stats": {
+        "baseStamina": 134,
+        "baseAttack": 91,
+        "baseDefense": 91
+      },
+      "quickMoves": [
+        "TRANSFORM_FAST"
+      ],
+      "cinematicMoves": [
+        "STRUGGLE"
+      ],
+      "animationTime": [
+        0,
+        0.6667,
+        1.6667,
+        1.6667,
+        0,
+        2,
+        2,
+        0
+      ],
+      "evolutionPips": 1,
+      "pokedexHeightM": 0.3,
+      "pokedexWeightKg": 4,
+      "heightStdDev": 0.0375,
+      "weightStdDev": 0.5,
+      "familyId": "FAMILY_DITTO",
+      "kmBuddyDistance": 3,
+      "modelHeight": 0.33,
+      "modelScaleV2": 1.21,
+      "form": 3338,
+      "buddyOffsetMale": [
+        6,
+        0,
+        0
+      ],
+      "buddyOffsetFemale": [
+        6,
+        0,
+        0
+      ],
+      "buddyScale": 19,
+      "thirdMove": {
+        "stardustToUnlock": 50000,
+        "candyToUnlock": 50
+      },
+      "isTransferable": true,
+      "isDeployable": true,
+      "isTradable": true,
+      "buddyGroupNumber": 3,
+      "ibfc": {},
+      "breadTierGroup": "GROUP_2"
+    }
+  },
+  {
     "templateId": "V0133_POKEMON_EEVEE",
     "data": {
       "pokemonId": "EEVEE",
@@ -41658,7 +41824,8 @@
       },
       "quickMoves": [
         "FROST_BREATH_FAST",
-        "ICE_SHARD_FAST"
+        "ICE_SHARD_FAST",
+        "POWDER_SNOW_FAST"
       ],
       "cinematicMoves": [
         "ICE_BEAM",
@@ -41862,7 +42029,8 @@
       },
       "quickMoves": [
         "FROST_BREATH_FAST",
-        "ICE_SHARD_FAST"
+        "ICE_SHARD_FAST",
+        "POWDER_SNOW_FAST"
       ],
       "cinematicMoves": [
         "ICE_BEAM",
@@ -41973,7 +42141,8 @@
         "THUNDERBOLT",
         "THUNDER",
         "ANCIENT_POWER",
-        "DRILL_PECK"
+        "DRILL_PECK",
+        "HEAT_WAVE"
       ],
       "animationTime": [
         1.6,
@@ -42178,7 +42347,8 @@
         "THUNDERBOLT",
         "THUNDER",
         "ANCIENT_POWER",
-        "DRILL_PECK"
+        "DRILL_PECK",
+        "HEAT_WAVE"
       ],
       "animationTime": [
         1.6,
@@ -42282,7 +42452,8 @@
         "FIRE_BLAST",
         "HEAT_WAVE",
         "OVERHEAT",
-        "ANCIENT_POWER"
+        "ANCIENT_POWER",
+        "FLY"
       ],
       "animationTime": [
         2.7333,
@@ -42485,7 +42656,8 @@
         "FIRE_BLAST",
         "HEAT_WAVE",
         "OVERHEAT",
-        "ANCIENT_POWER"
+        "ANCIENT_POWER",
+        "FLY"
       ],
       "animationTime": [
         2.7333,
@@ -48832,7 +49004,8 @@
         "DAZZLING_GLEAM",
         "AERIAL_ACE",
         "DRAINING_KISS",
-        "PSYSHOCK"
+        "PSYSHOCK",
+        "HEAT_WAVE"
       ],
       "animationTime": [
         1.3333,
@@ -48941,7 +49114,8 @@
         "DAZZLING_GLEAM",
         "AERIAL_ACE",
         "DRAINING_KISS",
-        "PSYSHOCK"
+        "PSYSHOCK",
+        "HEAT_WAVE"
       ],
       "animationTime": [
         1.3333,
@@ -59665,14 +59839,16 @@
       },
       "quickMoves": [
         "COUNTER_FAST",
-        "STRUGGLE_BUG_FAST"
+        "STRUGGLE_BUG_FAST",
+        "FURY_CUTTER_FAST"
       ],
       "cinematicMoves": [
         "MEGAHORN",
         "CLOSE_COMBAT",
         "EARTHQUAKE",
         "ROCK_BLAST",
-        "UPPER_HAND"
+        "UPPER_HAND",
+        "ROCK_TOMB"
       ],
       "animationTime": [
         1.3333,
@@ -59797,14 +59973,16 @@
       },
       "quickMoves": [
         "COUNTER_FAST",
-        "STRUGGLE_BUG_FAST"
+        "STRUGGLE_BUG_FAST",
+        "FURY_CUTTER_FAST"
       ],
       "cinematicMoves": [
         "MEGAHORN",
         "CLOSE_COMBAT",
         "EARTHQUAKE",
         "ROCK_BLAST",
-        "UPPER_HAND"
+        "UPPER_HAND",
+        "ROCK_TOMB"
       ],
       "animationTime": [
         1.3333,
@@ -83391,7 +83569,9 @@
         "EARTHQUAKE",
         "OVERHEAT",
         "SOLAR_BEAM",
-        "EARTH_POWER"
+        "EARTH_POWER",
+        "ROCK_TOMB",
+        "SCORCHING_SANDS"
       ],
       "animationTime": [
         1.3333,
@@ -83521,7 +83701,9 @@
         "EARTHQUAKE",
         "OVERHEAT",
         "SOLAR_BEAM",
-        "EARTH_POWER"
+        "EARTH_POWER",
+        "ROCK_TOMB",
+        "SCORCHING_SANDS"
       ],
       "animationTime": [
         1.3333,
@@ -86486,7 +86668,8 @@
         "STONE_EDGE",
         "BOOMBURST",
         "SCORCHING_SANDS",
-        "SAND_TOMB"
+        "SAND_TOMB",
+        "TWISTER"
       ],
       "animationTime": [
         1.3333,
@@ -86595,7 +86778,8 @@
         "STONE_EDGE",
         "BOOMBURST",
         "SCORCHING_SANDS",
-        "SAND_TOMB"
+        "SAND_TOMB",
+        "TWISTER"
       ],
       "animationTime": [
         1.3333,
@@ -105007,7 +105191,8 @@
       },
       "quickMoves": [
         "TACKLE_FAST",
-        "BUG_BITE_FAST"
+        "BUG_BITE_FAST",
+        "SUCKER_PUNCH_FAST"
       ],
       "cinematicMoves": [
         "STRUGGLE"
@@ -105101,7 +105286,8 @@
       },
       "quickMoves": [
         "CONFUSION_FAST",
-        "BUG_BITE_FAST"
+        "BUG_BITE_FAST",
+        "SUCKER_PUNCH_FAST"
       ],
       "cinematicMoves": [
         "PSYBEAM",
@@ -105197,7 +105383,8 @@
       },
       "quickMoves": [
         "CONFUSION_FAST",
-        "BUG_BITE_FAST"
+        "BUG_BITE_FAST",
+        "SUCKER_PUNCH_FAST"
       ],
       "cinematicMoves": [
         "PSYBEAM",
@@ -105294,7 +105481,8 @@
       "quickMoves": [
         "CONFUSION_FAST",
         "BUG_BITE_FAST",
-        "METAL_SOUND_FAST"
+        "METAL_SOUND_FAST",
+        "SUCKER_PUNCH_FAST"
       ],
       "cinematicMoves": [
         "PSYBEAM",
@@ -111816,7 +112004,8 @@
         "EARTHQUAKE",
         "FIRE_BLAST",
         "SAND_TOMB",
-        "BREAKING_SWIPE"
+        "BREAKING_SWIPE",
+        "TWISTER"
       ],
       "animationTime": [
         1.9,
@@ -111943,7 +112132,8 @@
         "EARTHQUAKE",
         "FIRE_BLAST",
         "SAND_TOMB",
-        "BREAKING_SWIPE"
+        "BREAKING_SWIPE",
+        "TWISTER"
       ],
       "animationTime": [
         1.9,
@@ -117437,7 +117627,8 @@
         "EARTHQUAKE",
         "AERIAL_ACE",
         "NIGHT_SLASH",
-        "SAND_TOMB"
+        "SAND_TOMB",
+        "ACROBATICS"
       ],
       "animationTime": [
         1.9,
@@ -117543,7 +117734,8 @@
         "EARTHQUAKE",
         "AERIAL_ACE",
         "NIGHT_SLASH",
-        "SAND_TOMB"
+        "SAND_TOMB",
+        "ACROBATICS"
       ],
       "animationTime": [
         1.9,
@@ -119345,7 +119537,8 @@
       "cinematicMoves": [
         "OMINOUS_WIND",
         "THUNDERBOLT",
-        "THUNDER"
+        "THUNDER",
+        "LEAF_STORM"
       ],
       "animationTime": [
         1.9,
@@ -134354,7 +134547,8 @@
         "MEGAHORN",
         "SLUDGE_BOMB",
         "GYRO_BALL",
-        "X_SCISSOR"
+        "X_SCISSOR",
+        "AQUA_TAIL"
       ],
       "animationTime": [
         1.9,
@@ -134455,7 +134649,8 @@
         "MEGAHORN",
         "SLUDGE_BOMB",
         "GYRO_BALL",
-        "X_SCISSOR"
+        "X_SCISSOR",
+        "AQUA_TAIL"
       ],
       "animationTime": [
         1.9,
@@ -178583,7 +178778,8 @@
         "HYDRO_PUMP",
         "OVERHEAT",
         "EARTH_POWER",
-        "SLUDGE_BOMB"
+        "SLUDGE_BOMB",
+        "SCALD"
       ],
       "animationTime": [
         1.9,
@@ -178669,7 +178865,8 @@
         "HYDRO_PUMP",
         "OVERHEAT",
         "EARTH_POWER",
-        "SLUDGE_BOMB"
+        "SLUDGE_BOMB",
+        "SCALD"
       ],
       "animationTime": [
         1.9,
@@ -194897,7 +195094,8 @@
       "quickMoves": [
         "SUCKER_PUNCH_FAST",
         "COUNTER_FAST",
-        "POISON_JAB_FAST"
+        "POISON_JAB_FAST",
+        "SHADOW_CLAW_FAST"
       ],
       "cinematicMoves": [
         "CLOSE_COMBAT",
@@ -194968,7 +195166,8 @@
       "quickMoves": [
         "SUCKER_PUNCH_FAST",
         "COUNTER_FAST",
-        "POISON_JAB_FAST"
+        "POISON_JAB_FAST",
+        "SHADOW_CLAW_FAST"
       ],
       "cinematicMoves": [
         "CLOSE_COMBAT",

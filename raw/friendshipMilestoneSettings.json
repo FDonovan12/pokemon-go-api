@@ -14,7 +14,7 @@
     "data": {
       "minPointsToReach": 1,
       "milestoneXpReward": 3000,
-      "attackBonusPercentage": 1.06,
+      "attackBonusPercentage": 1.03,
       "unlockedTrading": [
         "REGULAR_IN_POKEDEX",
         "SPECIAL_IN_POKEDEX",
@@ -33,7 +33,7 @@
     "data": {
       "minPointsToReach": 7,
       "milestoneXpReward": 10000,
-      "attackBonusPercentage": 1.1,
+      "attackBonusPercentage": 1.05,
       "raidBallBonus": 1,
       "unlockedTrading": [
         "REGULAR_IN_POKEDEX",
@@ -55,7 +55,7 @@
     "data": {
       "minPointsToReach": 30,
       "milestoneXpReward": 50000,
-      "attackBonusPercentage": 1.14,
+      "attackBonusPercentage": 1.07,
       "raidBallBonus": 2,
       "unlockedTrading": [
         "REGULAR_IN_POKEDEX",
@@ -77,7 +77,7 @@
     "data": {
       "minPointsToReach": 90,
       "milestoneXpReward": 100000,
-      "attackBonusPercentage": 1.2,
+      "attackBonusPercentage": 1.1,
       "raidBallBonus": 4,
       "unlockedTrading": [
         "REGULAR_IN_POKEDEX",
@@ -99,7 +99,7 @@
     "data": {
       "minPointsToReach": 90,
       "milestoneXpReward": 150000,
-      "attackBonusPercentage": 1.24,
+      "attackBonusPercentage": 1.12,
       "raidBallBonus": 4,
       "unlockedTrading": [
         "REGULAR_IN_POKEDEX",

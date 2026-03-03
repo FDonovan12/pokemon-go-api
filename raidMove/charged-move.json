@@ -2144,5 +2144,14 @@
     "durationMs": 4500,
     "energyDelta": -33,
     "vfxName": "drum_beating"
+  },
+  {
+    "id": "V0493_MOVE_PYROBALL",
+    "movementId": 493,
+    "pokemonType": "POKEMON_TYPE_FIRE",
+    "power": 150,
+    "durationMs": 2000,
+    "energyDelta": -100,
+    "vfxName": "pyroball"
   }
 ]

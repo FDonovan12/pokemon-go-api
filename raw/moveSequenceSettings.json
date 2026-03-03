@@ -2979,6 +2979,20 @@
     }
   },
   {
+    "templateId": "sequence_pyroball",
+    "data": {
+      "sequence": [
+        "anim attacker atk-move",
+        "wait 0.5",
+        "vfx pyroball",
+        "sfx attacker 172-0_flame_wheel",
+        "wait 1.0",
+        "sys ui-sync",
+        "sys complete"
+      ]
+    }
+  },
+  {
     "templateId": "sequence_quick_attack_fast",
     "data": {
       "sequence": [

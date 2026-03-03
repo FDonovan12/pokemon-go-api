@@ -7275,6 +7275,36 @@
     }
   },
   {
+    "templateId": "EXTENDED_V0132_POKEMON_DITTO_SPRING_2026_A",
+    "data": {
+      "uniqueId": "DITTO",
+      "form": 3337,
+      "sizeSettings": {
+        "xxsLowerBound": 0.147,
+        "xsLowerBound": 0.15,
+        "mLowerBound": 0.225,
+        "mUpperBound": 0.375,
+        "xlUpperBound": 0.45,
+        "xxlUpperBound": 0.6
+      }
+    }
+  },
+  {
+    "templateId": "EXTENDED_V0132_POKEMON_DITTO_SPRING_2026_B",
+    "data": {
+      "uniqueId": "DITTO",
+      "form": 3338,
+      "sizeSettings": {
+        "xxsLowerBound": 0.147,
+        "xsLowerBound": 0.15,
+        "mLowerBound": 0.225,
+        "mUpperBound": 0.375,
+        "xlUpperBound": 0.45,
+        "xxlUpperBound": 0.6
+      }
+    }
+  },
+  {
     "templateId": "EXTENDED_V0133_POKEMON_EEVEE",
     "data": {
       "uniqueId": "EEVEE",
