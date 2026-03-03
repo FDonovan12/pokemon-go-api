@@ -7278,7 +7278,7 @@
     "templateId": "EXTENDED_V0132_POKEMON_DITTO_SPRING_2026_A",
     "data": {
       "uniqueId": "DITTO",
-      "form": 3337,
+      "form": "DITTO_SPRING_2026_A",
       "sizeSettings": {
         "xxsLowerBound": 0.147,
         "xsLowerBound": 0.15,
@@ -7293,7 +7293,7 @@
     "templateId": "EXTENDED_V0132_POKEMON_DITTO_SPRING_2026_B",
     "data": {
       "uniqueId": "DITTO",
-      "form": 3338,
+      "form": "DITTO_SPRING_2026_B",
       "sizeSettings": {
         "xxsLowerBound": 0.147,
         "xsLowerBound": 0.15,

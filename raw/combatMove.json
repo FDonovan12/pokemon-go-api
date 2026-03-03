@@ -3603,7 +3603,7 @@
   {
     "templateId": "COMBAT_V0493_MOVE_PYROBALL",
     "data": {
-      "uniqueId": 493,
+      "uniqueId": "PYROBALL",
       "type": "POKEMON_TYPE_FIRE",
       "power": 75,
       "vfxName": "pyroball",

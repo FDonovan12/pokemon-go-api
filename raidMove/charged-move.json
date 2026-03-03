@@ -2147,7 +2147,7 @@
   },
   {
     "id": "V0493_MOVE_PYROBALL",
-    "movementId": 493,
+    "movementId": "PYROBALL",
     "pokemonType": "POKEMON_TYPE_FIRE",
     "power": 150,
     "durationMs": 2000,

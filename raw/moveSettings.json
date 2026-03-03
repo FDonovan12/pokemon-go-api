@@ -5865,7 +5865,7 @@
   {
     "templateId": "V0493_MOVE_PYROBALL",
     "data": {
-      "movementId": 493,
+      "movementId": "PYROBALL",
       "animationId": 5,
       "pokemonType": "POKEMON_TYPE_FIRE",
       "power": 150,

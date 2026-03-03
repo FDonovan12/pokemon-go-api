@@ -1856,11 +1856,11 @@
           "form": "DITTO_NORMAL"
         },
         {
-          "form": 3337,
+          "form": "DITTO_SPRING_2026_A",
           "isCostume": true
         },
         {
-          "form": 3338,
+          "form": "DITTO_SPRING_2026_B",
           "isCostume": true
         }
       ]
