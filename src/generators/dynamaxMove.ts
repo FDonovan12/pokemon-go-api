@@ -7,7 +7,7 @@ export default class DynamaxMoveSettingGenerator extends FileGenerator {
     }
     async getFileContent(): Promise<string> {
         const raw = await RawGameMaster.getMoveSettings();
-        const pokemons = raw
+        const moves = raw
             .filter((move) => 'obMoveSettingsNumber18' in move.data)
             .map((move) => ({
                 id: move.templateId,
@@ -15,7 +15,8 @@ export default class DynamaxMoveSettingGenerator extends FileGenerator {
                 pokemonType: move.data.pokemonType,
                 powerLevels: move.data.obMoveSettingsNumber18,
                 vfxName: move.data.vfxName,
-            }));
-        return JSON.stringify(pokemons, null, 2);
+            }))
+            .toMap((move) => move.movementId);
+        return JSON.stringify(Object.fromEntries(moves), null, 2);
     }
 }
