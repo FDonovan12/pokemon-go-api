@@ -7,7 +7,7 @@ export default class RaidFastSettingGenerator extends FileGenerator {
     }
     async getFileContent(): Promise<string> {
         const raw = await RawGameMaster.getMoveSettings();
-        const pokemons = raw
+        const moves = raw
             .filter((move) => move.templateId.includes('FAST'))
             .map((move) => ({
                 id: move.templateId,
@@ -17,7 +17,8 @@ export default class RaidFastSettingGenerator extends FileGenerator {
                 durationMs: move.data.durationMs,
                 energyDelta: move.data.energyDelta,
                 vfxName: move.data.vfxName,
-            }));
-        return JSON.stringify(pokemons, null, 2);
+            }))
+            .toMap((move) => move.movementId);
+        return JSON.stringify(Object.fromEntries(moves), null, 2);
     }
 }
