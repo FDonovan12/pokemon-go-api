@@ -62,14 +62,14 @@ async function saveRawAndGenerateTypes(groupedData: GameMasterByKey) {
 }
 
 function generateInternalIndex(keys: string[]): string {
-    let content = `import * as Types from './types';\n\n`;
+    let content = `import * as Types from './types.js';\n\n`;
     content += `export const RawGameMaster = {\n`;
 
     keys.forEach((key) => {
         const typeName = key.camelCase().capitalize();
         content += `    get${typeName}: async (): Promise<Types.${typeName}[]> => {\n`;
-        content += `        const data = await import('./${key}.json', {\n`;
-        content += `            assert: { type: 'json' },\n`;
+        content += `        const data = await import('./data/raw/${key}.json', {\n`;
+        content += `            with: { type: 'json' },\n`;
         content += `        });\n`;
         content += `        return (data.default || data) as unknown as Types.${typeName}[];\n`;
         content += `    },\n`;
