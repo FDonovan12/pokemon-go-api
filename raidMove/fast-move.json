@@ -1,5 +1,5 @@
-[
-  {
+{
+  "FURY_CUTTER_FAST": {
     "id": "V0200_MOVE_FURY_CUTTER_FAST",
     "movementId": "FURY_CUTTER_FAST",
     "pokemonType": "POKEMON_TYPE_BUG",
@@ -8,7 +8,7 @@
     "energyDelta": 8,
     "vfxName": "fury_cutter_fast"
   },
-  {
+  "BUG_BITE_FAST": {
     "id": "V0201_MOVE_BUG_BITE_FAST",
     "movementId": "BUG_BITE_FAST",
     "pokemonType": "POKEMON_TYPE_BUG",
@@ -17,7 +17,7 @@
     "energyDelta": 6,
     "vfxName": "bug_bite_fast"
   },
-  {
+  "BITE_FAST": {
     "id": "V0202_MOVE_BITE_FAST",
     "movementId": "BITE_FAST",
     "pokemonType": "POKEMON_TYPE_DARK",
@@ -26,7 +26,7 @@
     "energyDelta": 4,
     "vfxName": "bite_fast"
   },
-  {
+  "SUCKER_PUNCH_FAST": {
     "id": "V0203_MOVE_SUCKER_PUNCH_FAST",
     "movementId": "SUCKER_PUNCH_FAST",
     "pokemonType": "POKEMON_TYPE_DARK",
@@ -35,7 +35,7 @@
     "energyDelta": 6,
     "vfxName": "sucker_punch_fast"
   },
-  {
+  "DRAGON_BREATH_FAST": {
     "id": "V0204_MOVE_DRAGON_BREATH_FAST",
     "movementId": "DRAGON_BREATH_FAST",
     "pokemonType": "POKEMON_TYPE_DRAGON",
@@ -44,7 +44,7 @@
     "energyDelta": 4,
     "vfxName": "dragon_breath_fast"
   },
-  {
+  "THUNDER_SHOCK_FAST": {
     "id": "V0205_MOVE_THUNDER_SHOCK_FAST",
     "movementId": "THUNDER_SHOCK_FAST",
     "pokemonType": "POKEMON_TYPE_ELECTRIC",
@@ -53,7 +53,7 @@
     "energyDelta": 7,
     "vfxName": "thunder_shock_fast"
   },
-  {
+  "SPARK_FAST": {
     "id": "V0206_MOVE_SPARK_FAST",
     "movementId": "SPARK_FAST",
     "pokemonType": "POKEMON_TYPE_ELECTRIC",
@@ -62,7 +62,7 @@
     "energyDelta": 6,
     "vfxName": "spark_fast"
   },
-  {
+  "LOW_KICK_FAST": {
     "id": "V0207_MOVE_LOW_KICK_FAST",
     "movementId": "LOW_KICK_FAST",
     "pokemonType": "POKEMON_TYPE_FIGHTING",
@@ -71,7 +71,7 @@
     "energyDelta": 5,
     "vfxName": "low_kick_fast"
   },
-  {
+  "KARATE_CHOP_FAST": {
     "id": "V0208_MOVE_KARATE_CHOP_FAST",
     "movementId": "KARATE_CHOP_FAST",
     "pokemonType": "POKEMON_TYPE_FIGHTING",
@@ -80,7 +80,7 @@
     "energyDelta": 13,
     "vfxName": "karate_chop_fast"
   },
-  {
+  "EMBER_FAST": {
     "id": "V0209_MOVE_EMBER_FAST",
     "movementId": "EMBER_FAST",
     "pokemonType": "POKEMON_TYPE_FIRE",
@@ -89,7 +89,7 @@
     "energyDelta": 10,
     "vfxName": "ember_fast"
   },
-  {
+  "WING_ATTACK_FAST": {
     "id": "V0210_MOVE_WING_ATTACK_FAST",
     "movementId": "WING_ATTACK_FAST",
     "pokemonType": "POKEMON_TYPE_FLYING",
@@ -98,7 +98,7 @@
     "energyDelta": 11,
     "vfxName": "wing_attack_fast"
   },
-  {
+  "PECK_FAST": {
     "id": "V0211_MOVE_PECK_FAST",
     "movementId": "PECK_FAST",
     "pokemonType": "POKEMON_TYPE_FLYING",
@@ -107,7 +107,7 @@
     "energyDelta": 10,
     "vfxName": "peck_fast"
   },
-  {
+  "LICK_FAST": {
     "id": "V0212_MOVE_LICK_FAST",
     "movementId": "LICK_FAST",
     "pokemonType": "POKEMON_TYPE_GHOST",
@@ -116,7 +116,7 @@
     "energyDelta": 6,
     "vfxName": "lick_fast"
   },
-  {
+  "SHADOW_CLAW_FAST": {
     "id": "V0213_MOVE_SHADOW_CLAW_FAST",
     "movementId": "SHADOW_CLAW_FAST",
     "pokemonType": "POKEMON_TYPE_GHOST",
@@ -125,7 +125,7 @@
     "energyDelta": 4,
     "vfxName": "shadow_claw_fast"
   },
-  {
+  "VINE_WHIP_FAST": {
     "id": "V0214_MOVE_VINE_WHIP_FAST",
     "movementId": "VINE_WHIP_FAST",
     "pokemonType": "POKEMON_TYPE_GRASS",
@@ -134,7 +134,7 @@
     "energyDelta": 5,
     "vfxName": "vine_whip_fast"
   },
-  {
+  "RAZOR_LEAF_FAST": {
     "id": "V0215_MOVE_RAZOR_LEAF_FAST",
     "movementId": "RAZOR_LEAF_FAST",
     "pokemonType": "POKEMON_TYPE_GRASS",
@@ -143,7 +143,7 @@
     "energyDelta": 7,
     "vfxName": "razor_leaf_fast"
   },
-  {
+  "MUD_SHOT_FAST": {
     "id": "V0216_MOVE_MUD_SHOT_FAST",
     "movementId": "MUD_SHOT_FAST",
     "pokemonType": "POKEMON_TYPE_GROUND",
@@ -152,7 +152,7 @@
     "energyDelta": 6,
     "vfxName": "mud_shot_fast"
   },
-  {
+  "ICE_SHARD_FAST": {
     "id": "V0217_MOVE_ICE_SHARD_FAST",
     "movementId": "ICE_SHARD_FAST",
     "pokemonType": "POKEMON_TYPE_ICE",
@@ -161,7 +161,7 @@
     "energyDelta": 10,
     "vfxName": "ice_shard_fast"
   },
-  {
+  "FROST_BREATH_FAST": {
     "id": "V0218_MOVE_FROST_BREATH_FAST",
     "movementId": "FROST_BREATH_FAST",
     "pokemonType": "POKEMON_TYPE_ICE",
@@ -170,7 +170,7 @@
     "energyDelta": 9,
     "vfxName": "frost_breath_fast"
   },
-  {
+  "QUICK_ATTACK_FAST": {
     "id": "V0219_MOVE_QUICK_ATTACK_FAST",
     "movementId": "QUICK_ATTACK_FAST",
     "pokemonType": "POKEMON_TYPE_NORMAL",
@@ -179,7 +179,7 @@
     "energyDelta": 13,
     "vfxName": "quick_attack_fast"
   },
-  {
+  "SCRATCH_FAST": {
     "id": "V0220_MOVE_SCRATCH_FAST",
     "movementId": "SCRATCH_FAST",
     "pokemonType": "POKEMON_TYPE_NORMAL",
@@ -188,7 +188,7 @@
     "energyDelta": 4,
     "vfxName": "scratch_fast"
   },
-  {
+  "TACKLE_FAST": {
     "id": "V0221_MOVE_TACKLE_FAST",
     "movementId": "TACKLE_FAST",
     "pokemonType": "POKEMON_TYPE_NORMAL",
@@ -197,7 +197,7 @@
     "energyDelta": 5,
     "vfxName": "tackle_fast"
   },
-  {
+  "POUND_FAST": {
     "id": "V0222_MOVE_POUND_FAST",
     "movementId": "POUND_FAST",
     "pokemonType": "POKEMON_TYPE_NORMAL",
@@ -206,7 +206,7 @@
     "energyDelta": 5,
     "vfxName": "pound_fast"
   },
-  {
+  "CUT_FAST": {
     "id": "V0223_MOVE_CUT_FAST",
     "movementId": "CUT_FAST",
     "pokemonType": "POKEMON_TYPE_NORMAL",
@@ -215,7 +215,7 @@
     "energyDelta": 5,
     "vfxName": "cut_fast"
   },
-  {
+  "POISON_JAB_FAST": {
     "id": "V0224_MOVE_POISON_JAB_FAST",
     "movementId": "POISON_JAB_FAST",
     "pokemonType": "POKEMON_TYPE_POISON",
@@ -224,7 +224,7 @@
     "energyDelta": 9,
     "vfxName": "poison_jab_fast"
   },
-  {
+  "ACID_FAST": {
     "id": "V0225_MOVE_ACID_FAST",
     "movementId": "ACID_FAST",
     "pokemonType": "POKEMON_TYPE_POISON",
@@ -233,7 +233,7 @@
     "energyDelta": 10,
     "vfxName": "acid_fast"
   },
-  {
+  "PSYCHO_CUT_FAST": {
     "id": "V0226_MOVE_PSYCHO_CUT_FAST",
     "movementId": "PSYCHO_CUT_FAST",
     "pokemonType": "POKEMON_TYPE_PSYCHIC",
@@ -242,7 +242,7 @@
     "energyDelta": 7,
     "vfxName": "psycho_cut_fast"
   },
-  {
+  "ROCK_THROW_FAST": {
     "id": "V0227_MOVE_ROCK_THROW_FAST",
     "movementId": "ROCK_THROW_FAST",
     "pokemonType": "POKEMON_TYPE_ROCK",
@@ -251,7 +251,7 @@
     "energyDelta": 8,
     "vfxName": "rock_throw_fast"
   },
-  {
+  "METAL_CLAW_FAST": {
     "id": "V0228_MOVE_METAL_CLAW_FAST",
     "movementId": "METAL_CLAW_FAST",
     "pokemonType": "POKEMON_TYPE_STEEL",
@@ -260,7 +260,7 @@
     "energyDelta": 5,
     "vfxName": "metal_claw_fast"
   },
-  {
+  "BULLET_PUNCH_FAST": {
     "id": "V0229_MOVE_BULLET_PUNCH_FAST",
     "movementId": "BULLET_PUNCH_FAST",
     "pokemonType": "POKEMON_TYPE_STEEL",
@@ -269,7 +269,7 @@
     "energyDelta": 11,
     "vfxName": "bullet_punch_fast"
   },
-  {
+  "WATER_GUN_FAST": {
     "id": "V0230_MOVE_WATER_GUN_FAST",
     "movementId": "WATER_GUN_FAST",
     "pokemonType": "POKEMON_TYPE_WATER",
@@ -278,7 +278,7 @@
     "energyDelta": 5,
     "vfxName": "water_gun_fast"
   },
-  {
+  "SPLASH_FAST": {
     "id": "V0231_MOVE_SPLASH_FAST",
     "movementId": "SPLASH_FAST",
     "pokemonType": "POKEMON_TYPE_WATER",
@@ -286,7 +286,7 @@
     "energyDelta": 17,
     "vfxName": "splash_fast"
   },
-  {
+  "WATER_GUN_FAST_BLASTOISE": {
     "id": "V0232_MOVE_WATER_GUN_FAST_BLASTOISE",
     "movementId": "WATER_GUN_FAST_BLASTOISE",
     "pokemonType": "POKEMON_TYPE_WATER",
@@ -295,7 +295,7 @@
     "energyDelta": 6,
     "vfxName": "water_gun_fast_blastoise"
   },
-  {
+  "MUD_SLAP_FAST": {
     "id": "V0233_MOVE_MUD_SLAP_FAST",
     "movementId": "MUD_SLAP_FAST",
     "pokemonType": "POKEMON_TYPE_GROUND",
@@ -304,7 +304,7 @@
     "energyDelta": 13,
     "vfxName": "mud_slap_fast"
   },
-  {
+  "ZEN_HEADBUTT_FAST": {
     "id": "V0234_MOVE_ZEN_HEADBUTT_FAST",
     "movementId": "ZEN_HEADBUTT_FAST",
     "pokemonType": "POKEMON_TYPE_PSYCHIC",
@@ -313,7 +313,7 @@
     "energyDelta": 9,
     "vfxName": "zen_headbutt_fast"
   },
-  {
+  "CONFUSION_FAST": {
     "id": "V0235_MOVE_CONFUSION_FAST",
     "movementId": "CONFUSION_FAST",
     "pokemonType": "POKEMON_TYPE_PSYCHIC",
@@ -322,7 +322,7 @@
     "energyDelta": 14,
     "vfxName": "confusion_fast"
   },
-  {
+  "POISON_STING_FAST": {
     "id": "V0236_MOVE_POISON_STING_FAST",
     "movementId": "POISON_STING_FAST",
     "pokemonType": "POKEMON_TYPE_POISON",
@@ -331,7 +331,7 @@
     "energyDelta": 6,
     "vfxName": "poison_sting_fast"
   },
-  {
+  "BUBBLE_FAST": {
     "id": "V0237_MOVE_BUBBLE_FAST",
     "movementId": "BUBBLE_FAST",
     "pokemonType": "POKEMON_TYPE_WATER",
@@ -340,7 +340,7 @@
     "energyDelta": 12,
     "vfxName": "bubble_fast"
   },
-  {
+  "FEINT_ATTACK_FAST": {
     "id": "V0238_MOVE_FEINT_ATTACK_FAST",
     "movementId": "FEINT_ATTACK_FAST",
     "pokemonType": "POKEMON_TYPE_DARK",
@@ -349,7 +349,7 @@
     "energyDelta": 10,
     "vfxName": "feint_attack_fast"
   },
-  {
+  "STEEL_WING_FAST": {
     "id": "V0239_MOVE_STEEL_WING_FAST",
     "movementId": "STEEL_WING_FAST",
     "pokemonType": "POKEMON_TYPE_STEEL",
@@ -358,7 +358,7 @@
     "energyDelta": 8,
     "vfxName": "steel_wing_fast"
   },
-  {
+  "FIRE_FANG_FAST": {
     "id": "V0240_MOVE_FIRE_FANG_FAST",
     "movementId": "FIRE_FANG_FAST",
     "pokemonType": "POKEMON_TYPE_FIRE",
@@ -367,7 +367,7 @@
     "energyDelta": 9,
     "vfxName": "fire_fang_fast"
   },
-  {
+  "ROCK_SMASH_FAST": {
     "id": "V0241_MOVE_ROCK_SMASH_FAST",
     "movementId": "ROCK_SMASH_FAST",
     "pokemonType": "POKEMON_TYPE_FIGHTING",
@@ -376,14 +376,14 @@
     "energyDelta": 12,
     "vfxName": "rock_smash_fast"
   },
-  {
+  "TRANSFORM_FAST": {
     "id": "V0242_MOVE_TRANSFORM_FAST",
     "movementId": "TRANSFORM_FAST",
     "pokemonType": "POKEMON_TYPE_NORMAL",
     "durationMs": 2000,
     "vfxName": "transform_fast"
   },
-  {
+  "COUNTER_FAST": {
     "id": "V0243_MOVE_COUNTER_FAST",
     "movementId": "COUNTER_FAST",
     "pokemonType": "POKEMON_TYPE_FIGHTING",
@@ -392,7 +392,7 @@
     "energyDelta": 9,
     "vfxName": "counter_fast"
   },
-  {
+  "POWDER_SNOW_FAST": {
     "id": "V0244_MOVE_POWDER_SNOW_FAST",
     "movementId": "POWDER_SNOW_FAST",
     "pokemonType": "POKEMON_TYPE_ICE",
@@ -401,7 +401,7 @@
     "energyDelta": 15,
     "vfxName": "powder_snow_fast"
   },
-  {
+  "CHARGE_BEAM_FAST": {
     "id": "V0249_MOVE_CHARGE_BEAM_FAST",
     "movementId": "CHARGE_BEAM_FAST",
     "pokemonType": "POKEMON_TYPE_ELECTRIC",
@@ -410,7 +410,7 @@
     "energyDelta": 14,
     "vfxName": "charge_beam_fast"
   },
-  {
+  "VOLT_SWITCH_FAST": {
     "id": "V0250_MOVE_VOLT_SWITCH_FAST",
     "movementId": "VOLT_SWITCH_FAST",
     "pokemonType": "POKEMON_TYPE_ELECTRIC",
@@ -419,7 +419,7 @@
     "energyDelta": 20,
     "vfxName": "volt_switch_fast"
   },
-  {
+  "DRAGON_TAIL_FAST": {
     "id": "V0253_MOVE_DRAGON_TAIL_FAST",
     "movementId": "DRAGON_TAIL_FAST",
     "pokemonType": "POKEMON_TYPE_DRAGON",
@@ -428,7 +428,7 @@
     "energyDelta": 8,
     "vfxName": "dragon_tail_fast"
   },
-  {
+  "AIR_SLASH_FAST": {
     "id": "V0255_MOVE_AIR_SLASH_FAST",
     "movementId": "AIR_SLASH_FAST",
     "pokemonType": "POKEMON_TYPE_FLYING",
@@ -437,7 +437,7 @@
     "energyDelta": 8,
     "vfxName": "air_slash_fast"
   },
-  {
+  "INFESTATION_FAST": {
     "id": "V0260_MOVE_INFESTATION_FAST",
     "movementId": "INFESTATION_FAST",
     "pokemonType": "POKEMON_TYPE_BUG",
@@ -446,7 +446,7 @@
     "energyDelta": 13,
     "vfxName": "infestation_fast"
   },
-  {
+  "STRUGGLE_BUG_FAST": {
     "id": "V0261_MOVE_STRUGGLE_BUG_FAST",
     "movementId": "STRUGGLE_BUG_FAST",
     "pokemonType": "POKEMON_TYPE_BUG",
@@ -455,7 +455,7 @@
     "energyDelta": 15,
     "vfxName": "struggle_bug_fast"
   },
-  {
+  "ASTONISH_FAST": {
     "id": "V0263_MOVE_ASTONISH_FAST",
     "movementId": "ASTONISH_FAST",
     "pokemonType": "POKEMON_TYPE_GHOST",
@@ -464,7 +464,7 @@
     "energyDelta": 13,
     "vfxName": "astonish_fast"
   },
-  {
+  "HEX_FAST": {
     "id": "V0264_MOVE_HEX_FAST",
     "movementId": "HEX_FAST",
     "pokemonType": "POKEMON_TYPE_GHOST",
@@ -473,7 +473,7 @@
     "energyDelta": 13,
     "vfxName": "hex_fast"
   },
-  {
+  "IRON_TAIL_FAST": {
     "id": "V0266_MOVE_IRON_TAIL_FAST",
     "movementId": "IRON_TAIL_FAST",
     "pokemonType": "POKEMON_TYPE_STEEL",
@@ -482,7 +482,7 @@
     "energyDelta": 6,
     "vfxName": "iron_tail_fast"
   },
-  {
+  "FIRE_SPIN_FAST": {
     "id": "V0269_MOVE_FIRE_SPIN_FAST",
     "movementId": "FIRE_SPIN_FAST",
     "pokemonType": "POKEMON_TYPE_FIRE",
@@ -491,7 +491,7 @@
     "energyDelta": 9,
     "vfxName": "fire_spin_fast"
   },
-  {
+  "BULLET_SEED_FAST": {
     "id": "V0271_MOVE_BULLET_SEED_FAST",
     "movementId": "BULLET_SEED_FAST",
     "pokemonType": "POKEMON_TYPE_GRASS",
@@ -500,7 +500,7 @@
     "energyDelta": 13,
     "vfxName": "bullet_seed_fast"
   },
-  {
+  "EXTRASENSORY_FAST": {
     "id": "V0274_MOVE_EXTRASENSORY_FAST",
     "movementId": "EXTRASENSORY_FAST",
     "pokemonType": "POKEMON_TYPE_PSYCHIC",
@@ -509,7 +509,7 @@
     "energyDelta": 11,
     "vfxName": "extrasensory_fast"
   },
-  {
+  "SNARL_FAST": {
     "id": "V0278_MOVE_SNARL_FAST",
     "movementId": "SNARL_FAST",
     "pokemonType": "POKEMON_TYPE_DARK",
@@ -518,7 +518,7 @@
     "energyDelta": 13,
     "vfxName": "snarl_fast"
   },
-  {
+  "HIDDEN_POWER_FAST": {
     "id": "V0281_MOVE_HIDDEN_POWER_FAST",
     "movementId": "HIDDEN_POWER_FAST",
     "pokemonType": "POKEMON_TYPE_NORMAL",
@@ -527,7 +527,7 @@
     "energyDelta": 15,
     "vfxName": "hidden_power_fast"
   },
-  {
+  "TAKE_DOWN_FAST": {
     "id": "V0282_MOVE_TAKE_DOWN_FAST",
     "movementId": "TAKE_DOWN_FAST",
     "pokemonType": "POKEMON_TYPE_NORMAL",
@@ -536,7 +536,7 @@
     "energyDelta": 8,
     "vfxName": "take_down_fast"
   },
-  {
+  "WATERFALL_FAST": {
     "id": "V0283_MOVE_WATERFALL_FAST",
     "movementId": "WATERFALL_FAST",
     "pokemonType": "POKEMON_TYPE_WATER",
@@ -545,7 +545,7 @@
     "energyDelta": 7,
     "vfxName": "waterfall_fast"
   },
-  {
+  "YAWN_FAST": {
     "id": "V0287_MOVE_YAWN_FAST",
     "movementId": "YAWN_FAST",
     "pokemonType": "POKEMON_TYPE_NORMAL",
@@ -553,7 +553,7 @@
     "energyDelta": 13,
     "vfxName": "yawn_fast"
   },
-  {
+  "PRESENT_FAST": {
     "id": "V0291_MOVE_PRESENT_FAST",
     "movementId": "PRESENT_FAST",
     "pokemonType": "POKEMON_TYPE_NORMAL",
@@ -562,7 +562,7 @@
     "energyDelta": 23,
     "vfxName": "present_fast"
   },
-  {
+  "SMACK_DOWN_FAST": {
     "id": "V0297_MOVE_SMACK_DOWN_FAST",
     "movementId": "SMACK_DOWN_FAST",
     "pokemonType": "POKEMON_TYPE_ROCK",
@@ -571,7 +571,7 @@
     "energyDelta": 7,
     "vfxName": "smack_down_fast"
   },
-  {
+  "CHARM_FAST": {
     "id": "V0320_MOVE_CHARM_FAST",
     "movementId": "CHARM_FAST",
     "pokemonType": "POKEMON_TYPE_FAIRY",
@@ -580,7 +580,7 @@
     "energyDelta": 11,
     "vfxName": "charm_fast"
   },
-  {
+  "LOCK_ON_FAST": {
     "id": "V0325_MOVE_LOCK_ON_FAST",
     "movementId": "LOCK_ON_FAST",
     "pokemonType": "POKEMON_TYPE_NORMAL",
@@ -589,7 +589,7 @@
     "energyDelta": 10,
     "vfxName": "lock_on_fast"
   },
-  {
+  "THUNDER_FANG_FAST": {
     "id": "V0326_MOVE_THUNDER_FANG_FAST",
     "movementId": "THUNDER_FANG_FAST",
     "pokemonType": "POKEMON_TYPE_ELECTRIC",
@@ -598,7 +598,7 @@
     "energyDelta": 13,
     "vfxName": "thunder_fang_fast"
   },
-  {
+  "ICE_FANG_FAST": {
     "id": "V0327_MOVE_ICE_FANG_FAST",
     "movementId": "ICE_FANG_FAST",
     "pokemonType": "POKEMON_TYPE_ICE",
@@ -607,7 +607,7 @@
     "energyDelta": 20,
     "vfxName": "ice_fang_fast"
   },
-  {
+  "GUST_FAST": {
     "id": "V0345_MOVE_GUST_FAST",
     "movementId": "GUST_FAST",
     "pokemonType": "POKEMON_TYPE_FLYING",
@@ -616,7 +616,7 @@
     "energyDelta": 20,
     "vfxName": "gust_fast"
   },
-  {
+  "INCINERATE_FAST": {
     "id": "V0346_MOVE_INCINERATE_FAST",
     "movementId": "INCINERATE_FAST",
     "pokemonType": "POKEMON_TYPE_FIRE",
@@ -625,7 +625,7 @@
     "energyDelta": 22,
     "vfxName": "incinerate_fast"
   },
-  {
+  "FAIRY_WIND_FAST": {
     "id": "V0350_MOVE_FAIRY_WIND_FAST",
     "movementId": "FAIRY_WIND_FAST",
     "pokemonType": "POKEMON_TYPE_FAIRY",
@@ -634,7 +634,7 @@
     "energyDelta": 13,
     "vfxName": "fairy_wind_fast"
   },
-  {
+  "DOUBLE_KICK_FAST": {
     "id": "V0356_MOVE_DOUBLE_KICK_FAST",
     "movementId": "DOUBLE_KICK_FAST",
     "pokemonType": "POKEMON_TYPE_FIGHTING",
@@ -643,7 +643,7 @@
     "energyDelta": 13,
     "vfxName": "double_kick_fast"
   },
-  {
+  "MAGICAL_LEAF_FAST": {
     "id": "V0357_MOVE_MAGICAL_LEAF_FAST",
     "movementId": "MAGICAL_LEAF_FAST",
     "pokemonType": "POKEMON_TYPE_GRASS",
@@ -652,7 +652,7 @@
     "energyDelta": 17,
     "vfxName": "magical_leaf_fast"
   },
-  {
+  "ROLLOUT_FAST": {
     "id": "V0368_MOVE_ROLLOUT_FAST",
     "movementId": "ROLLOUT_FAST",
     "pokemonType": "POKEMON_TYPE_ROCK",
@@ -661,7 +661,7 @@
     "energyDelta": 19,
     "vfxName": "rollout_fast"
   },
-  {
+  "WATER_SHURIKEN_FAST": {
     "id": "V0373_MOVE_WATER_SHURIKEN_FAST",
     "movementId": "WATER_SHURIKEN_FAST",
     "pokemonType": "POKEMON_TYPE_WATER",
@@ -670,7 +670,7 @@
     "energyDelta": 14,
     "vfxName": "water_shuriken_fast"
   },
-  {
+  "LEAFAGE_FAST": {
     "id": "V0385_MOVE_LEAFAGE_FAST",
     "movementId": "LEAFAGE_FAST",
     "pokemonType": "POKEMON_TYPE_GRASS",
@@ -679,7 +679,7 @@
     "energyDelta": 4,
     "vfxName": "leafage_fast"
   },
-  {
+  "GEOMANCY_FAST": {
     "id": "V0387_MOVE_GEOMANCY_FAST",
     "movementId": "GEOMANCY_FAST",
     "pokemonType": "POKEMON_TYPE_FAIRY",
@@ -688,7 +688,7 @@
     "energyDelta": 14,
     "vfxName": "geomancy_fast"
   },
-  {
+  "PSYWAVE_FAST": {
     "id": "V0401_MOVE_PSYWAVE_FAST",
     "movementId": "PSYWAVE_FAST",
     "pokemonType": "POKEMON_TYPE_PSYCHIC",
@@ -697,7 +697,7 @@
     "energyDelta": 7,
     "vfxName": "psywave"
   },
-  {
+  "METAL_SOUND_FAST": {
     "id": "V0402_MOVE_METAL_SOUND_FAST",
     "movementId": "METAL_SOUND_FAST",
     "pokemonType": "POKEMON_TYPE_STEEL",
@@ -706,7 +706,7 @@
     "energyDelta": 6,
     "vfxName": "metal_sound"
   },
-  {
+  "SAND_ATTACK_FAST": {
     "id": "V0403_MOVE_SAND_ATTACK_FAST",
     "movementId": "SAND_ATTACK_FAST",
     "pokemonType": "POKEMON_TYPE_GROUND",
@@ -715,7 +715,7 @@
     "energyDelta": 7,
     "vfxName": "sand_attack"
   },
-  {
+  "FORCE_PALM_FAST": {
     "id": "V0462_MOVE_FORCE_PALM_FAST",
     "movementId": "FORCE_PALM_FAST",
     "pokemonType": "POKEMON_TYPE_FIGHTING",
@@ -724,4 +724,4 @@
     "energyDelta": 16,
     "vfxName": "force_palm_fast"
   }
-]
+}

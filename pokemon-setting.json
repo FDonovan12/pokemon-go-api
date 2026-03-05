@@ -5992,32 +5992,6 @@
     }
   },
   {
-    "id": "V0122_POKEMON_MR_MIME",
-    "pokemonId": "MR_MIME",
-    "type": "POKEMON_TYPE_PSYCHIC",
-    "type2": "POKEMON_TYPE_FAIRY",
-    "stats": {
-      "baseStamina": 120,
-      "baseAttack": 192,
-      "baseDefense": 205
-    },
-    "quickMoves": [
-      "CONFUSION_FAST",
-      "ZEN_HEADBUTT_FAST",
-      "MAGICAL_LEAF_FAST",
-      "PSYWAVE_FAST"
-    ],
-    "cinematicMoves": [
-      "PSYBEAM",
-      "PSYCHIC",
-      "SHADOW_BALL"
-    ],
-    "familyId": "FAMILY_MR_MIME",
-    "encounter": {
-      "stardustCaptureReward": 100
-    }
-  },
-  {
     "id": "V0122_POKEMON_MR_MIME_GALARIAN",
     "pokemonId": "MR_MIME",
     "type": "POKEMON_TYPE_ICE",
@@ -10816,37 +10790,6 @@
       "AEROBLAST"
     ],
     "familyId": "FAMILY_LUGIA",
-    "pokemonClass": "POKEMON_CLASS_LEGENDARY",
-    "encounter": {
-      "stardustCaptureReward": 100
-    }
-  },
-  {
-    "id": "V0250_POKEMON_HO_OH",
-    "pokemonId": "HO_OH",
-    "type": "POKEMON_TYPE_FIRE",
-    "type2": "POKEMON_TYPE_FLYING",
-    "stats": {
-      "baseStamina": 214,
-      "baseAttack": 239,
-      "baseDefense": 244
-    },
-    "quickMoves": [
-      "EXTRASENSORY_FAST",
-      "STEEL_WING_FAST",
-      "HIDDEN_POWER_FAST",
-      "INCINERATE_FAST"
-    ],
-    "cinematicMoves": [
-      "BRAVE_BIRD",
-      "FIRE_BLAST",
-      "SOLAR_BEAM"
-    ],
-    "eliteCinematicMove": [
-      "EARTHQUAKE",
-      "SACRED_FIRE"
-    ],
-    "familyId": "FAMILY_HO_OH",
     "pokemonClass": "POKEMON_CLASS_LEGENDARY",
     "encounter": {
       "stardustCaptureReward": 100
@@ -16477,30 +16420,6 @@
     }
   },
   {
-    "id": "V0439_POKEMON_MIME_JR",
-    "pokemonId": "MIME_JR",
-    "type": "POKEMON_TYPE_PSYCHIC",
-    "type2": "POKEMON_TYPE_FAIRY",
-    "stats": {
-      "baseStamina": 85,
-      "baseAttack": 125,
-      "baseDefense": 142
-    },
-    "quickMoves": [
-      "CONFUSION_FAST",
-      "POUND_FAST"
-    ],
-    "cinematicMoves": [
-      "PSYBEAM",
-      "PSYCHIC",
-      "PSYSHOCK"
-    ],
-    "familyId": "FAMILY_MR_MIME",
-    "encounter": {
-      "stardustCaptureReward": 100
-    }
-  },
-  {
     "id": "V0439_POKEMON_MIME_JR_NORMAL",
     "pokemonId": "MIME_JR",
     "type": "POKEMON_TYPE_PSYCHIC",
@@ -17409,34 +17328,6 @@
       "ANCIENT_POWER"
     ],
     "familyId": "FAMILY_SWINUB",
-    "encounter": {
-      "stardustCaptureReward": 500
-    }
-  },
-  {
-    "id": "V0474_POKEMON_PORYGON_Z",
-    "pokemonId": "PORYGON_Z",
-    "type": "POKEMON_TYPE_NORMAL",
-    "stats": {
-      "baseStamina": 198,
-      "baseAttack": 264,
-      "baseDefense": 150
-    },
-    "quickMoves": [
-      "HIDDEN_POWER_FAST",
-      "CHARGE_BEAM_FAST",
-      "LOCK_ON_FAST"
-    ],
-    "cinematicMoves": [
-      "SOLAR_BEAM",
-      "HYPER_BEAM",
-      "ZAP_CANNON",
-      "BLIZZARD"
-    ],
-    "eliteCinematicMove": [
-      "TRI_ATTACK"
-    ],
-    "familyId": "FAMILY_PORYGON",
     "encounter": {
       "stardustCaptureReward": 500
     }
@@ -28818,30 +28709,6 @@
     }
   },
   {
-    "id": "V0772_POKEMON_TYPE_NULL",
-    "pokemonId": "TYPE_NULL",
-    "type": "POKEMON_TYPE_NORMAL",
-    "stats": {
-      "baseStamina": 216,
-      "baseAttack": 184,
-      "baseDefense": 184
-    },
-    "quickMoves": [
-      "TACKLE_FAST",
-      "TAKE_DOWN_FAST"
-    ],
-    "cinematicMoves": [
-      "TRI_ATTACK",
-      "IRON_HEAD",
-      "AERIAL_ACE"
-    ],
-    "familyId": "FAMILY_TYPE_NULL",
-    "pokemonClass": "POKEMON_CLASS_LEGENDARY",
-    "encounter": {
-      "stardustCaptureReward": 100
-    }
-  },
-  {
     "id": "V0772_POKEMON_TYPE_NULL_NORMAL",
     "pokemonId": "TYPE_NULL",
     "type": "POKEMON_TYPE_NORMAL",
@@ -29703,29 +29570,6 @@
     }
   },
   {
-    "id": "V0782_POKEMON_JANGMO_O",
-    "pokemonId": "JANGMO_O",
-    "type": "POKEMON_TYPE_DRAGON",
-    "stats": {
-      "baseStamina": 128,
-      "baseAttack": 102,
-      "baseDefense": 108
-    },
-    "quickMoves": [
-      "TACKLE_FAST",
-      "DRAGON_TAIL_FAST"
-    ],
-    "cinematicMoves": [
-      "DRAGON_CLAW",
-      "BRICK_BREAK",
-      "DRAGON_PULSE"
-    ],
-    "familyId": "FAMILY_JANGMO_O",
-    "encounter": {
-      "stardustCaptureReward": 100
-    }
-  },
-  {
     "id": "V0782_POKEMON_JANGMO_O_NORMAL",
     "pokemonId": "JANGMO_O",
     "type": "POKEMON_TYPE_DRAGON",
@@ -29746,31 +29590,6 @@
     "familyId": "FAMILY_JANGMO_O",
     "encounter": {
       "stardustCaptureReward": 100
-    }
-  },
-  {
-    "id": "V0783_POKEMON_HAKAMO_O",
-    "pokemonId": "HAKAMO_O",
-    "type": "POKEMON_TYPE_DRAGON",
-    "type2": "POKEMON_TYPE_FIGHTING",
-    "stats": {
-      "baseStamina": 146,
-      "baseAttack": 145,
-      "baseDefense": 162
-    },
-    "quickMoves": [
-      "TACKLE_FAST",
-      "DRAGON_TAIL_FAST"
-    ],
-    "cinematicMoves": [
-      "DRAGON_CLAW",
-      "BRICK_BREAK",
-      "DRAGON_PULSE",
-      "ROCK_TOMB"
-    ],
-    "familyId": "FAMILY_JANGMO_O",
-    "encounter": {
-      "stardustCaptureReward": 300
     }
   },
   {
@@ -29796,37 +29615,6 @@
     "familyId": "FAMILY_JANGMO_O",
     "encounter": {
       "stardustCaptureReward": 300
-    }
-  },
-  {
-    "id": "V0784_POKEMON_KOMMO_O",
-    "pokemonId": "KOMMO_O",
-    "type": "POKEMON_TYPE_DRAGON",
-    "type2": "POKEMON_TYPE_FIGHTING",
-    "stats": {
-      "baseStamina": 181,
-      "baseAttack": 222,
-      "baseDefense": 240
-    },
-    "quickMoves": [
-      "POISON_JAB_FAST",
-      "DRAGON_TAIL_FAST",
-      "METAL_SOUND_FAST"
-    ],
-    "cinematicMoves": [
-      "DRAGON_CLAW",
-      "CLOSE_COMBAT",
-      "FLAMETHROWER",
-      "BOOMBURST",
-      "BRICK_BREAK",
-      "UPPER_HAND"
-    ],
-    "eliteCinematicMove": [
-      "CLANGING_SCALES"
-    ],
-    "familyId": "FAMILY_JANGMO_O",
-    "encounter": {
-      "stardustCaptureReward": 500
     }
   },
   {
@@ -29861,35 +29649,6 @@
     }
   },
   {
-    "id": "V0785_POKEMON_TAPU_KOKO",
-    "pokemonId": "TAPU_KOKO",
-    "type": "POKEMON_TYPE_ELECTRIC",
-    "type2": "POKEMON_TYPE_FAIRY",
-    "stats": {
-      "baseStamina": 172,
-      "baseAttack": 250,
-      "baseDefense": 181
-    },
-    "quickMoves": [
-      "VOLT_SWITCH_FAST",
-      "QUICK_ATTACK_FAST"
-    ],
-    "cinematicMoves": [
-      "THUNDERBOLT",
-      "DAZZLING_GLEAM",
-      "BRAVE_BIRD",
-      "THUNDER"
-    ],
-    "eliteCinematicMove": [
-      "NATURES_MADNESS"
-    ],
-    "familyId": "FAMILY_TAPU_KOKO",
-    "pokemonClass": "POKEMON_CLASS_LEGENDARY",
-    "encounter": {
-      "stardustCaptureReward": 100
-    }
-  },
-  {
     "id": "V0785_POKEMON_TAPU_KOKO_NORMAL",
     "pokemonId": "TAPU_KOKO",
     "type": "POKEMON_TYPE_ELECTRIC",
@@ -29913,36 +29672,6 @@
       "NATURES_MADNESS"
     ],
     "familyId": "FAMILY_TAPU_KOKO",
-    "pokemonClass": "POKEMON_CLASS_LEGENDARY",
-    "encounter": {
-      "stardustCaptureReward": 100
-    }
-  },
-  {
-    "id": "V0786_POKEMON_TAPU_LELE",
-    "pokemonId": "TAPU_LELE",
-    "type": "POKEMON_TYPE_PSYCHIC",
-    "type2": "POKEMON_TYPE_FAIRY",
-    "stats": {
-      "baseStamina": 172,
-      "baseAttack": 259,
-      "baseDefense": 208
-    },
-    "quickMoves": [
-      "CONFUSION_FAST",
-      "ASTONISH_FAST"
-    ],
-    "cinematicMoves": [
-      "PSYSHOCK",
-      "MOONBLAST",
-      "FOCUS_BLAST",
-      "FUTURESIGHT",
-      "DRAINING_KISS"
-    ],
-    "eliteCinematicMove": [
-      "NATURES_MADNESS"
-    ],
-    "familyId": "FAMILY_TAPU_LELE",
     "pokemonClass": "POKEMON_CLASS_LEGENDARY",
     "encounter": {
       "stardustCaptureReward": 100
@@ -29979,35 +29708,6 @@
     }
   },
   {
-    "id": "V0787_POKEMON_TAPU_BULU",
-    "pokemonId": "TAPU_BULU",
-    "type": "POKEMON_TYPE_GRASS",
-    "type2": "POKEMON_TYPE_FAIRY",
-    "stats": {
-      "baseStamina": 172,
-      "baseAttack": 249,
-      "baseDefense": 215
-    },
-    "quickMoves": [
-      "BULLET_SEED_FAST",
-      "ROCK_SMASH_FAST"
-    ],
-    "cinematicMoves": [
-      "GRASS_KNOT",
-      "DAZZLING_GLEAM",
-      "MEGAHORN",
-      "SOLAR_BEAM"
-    ],
-    "eliteCinematicMove": [
-      "NATURES_MADNESS"
-    ],
-    "familyId": "FAMILY_TAPU_BULU",
-    "pokemonClass": "POKEMON_CLASS_LEGENDARY",
-    "encounter": {
-      "stardustCaptureReward": 100
-    }
-  },
-  {
     "id": "V0787_POKEMON_TAPU_BULU_NORMAL",
     "pokemonId": "TAPU_BULU",
     "type": "POKEMON_TYPE_GRASS",
@@ -30031,35 +29731,6 @@
       "NATURES_MADNESS"
     ],
     "familyId": "FAMILY_TAPU_BULU",
-    "pokemonClass": "POKEMON_CLASS_LEGENDARY",
-    "encounter": {
-      "stardustCaptureReward": 100
-    }
-  },
-  {
-    "id": "V0788_POKEMON_TAPU_FINI",
-    "pokemonId": "TAPU_FINI",
-    "type": "POKEMON_TYPE_WATER",
-    "type2": "POKEMON_TYPE_FAIRY",
-    "stats": {
-      "baseStamina": 172,
-      "baseAttack": 189,
-      "baseDefense": 254
-    },
-    "quickMoves": [
-      "WATER_GUN_FAST",
-      "HIDDEN_POWER_FAST"
-    ],
-    "cinematicMoves": [
-      "SURF",
-      "MOONBLAST",
-      "ICE_BEAM",
-      "HYDRO_PUMP"
-    ],
-    "eliteCinematicMove": [
-      "NATURES_MADNESS"
-    ],
-    "familyId": "FAMILY_TAPU_FINI",
     "pokemonClass": "POKEMON_CLASS_LEGENDARY",
     "encounter": {
       "stardustCaptureReward": 100
@@ -32114,33 +31785,6 @@
       "NIGHT_SLASH"
     ],
     "familyId": "FAMILY_FARFETCHD",
-    "encounter": {
-      "stardustCaptureReward": 300
-    }
-  },
-  {
-    "id": "V0866_POKEMON_MR_RIME",
-    "pokemonId": "MR_RIME",
-    "type": "POKEMON_TYPE_ICE",
-    "type2": "POKEMON_TYPE_PSYCHIC",
-    "stats": {
-      "baseStamina": 190,
-      "baseAttack": 212,
-      "baseDefense": 179
-    },
-    "quickMoves": [
-      "CONFUSION_FAST",
-      "ZEN_HEADBUTT_FAST",
-      "ICE_SHARD_FAST"
-    ],
-    "cinematicMoves": [
-      "PSYBEAM",
-      "PSYCHIC",
-      "ICE_PUNCH",
-      "ICY_WIND",
-      "TRIPLE_AXEL"
-    ],
-    "familyId": "FAMILY_MR_MIME",
     "encounter": {
       "stardustCaptureReward": 300
     }
