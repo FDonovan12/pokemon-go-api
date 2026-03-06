@@ -8,7 +8,7 @@ export default class PokemonSettingGenerator extends FileGenerator {
     async getFileContent(): Promise<string> {
         const raw = await RawGameMaster.getPokemonSettings();
         const pokemons = raw
-            .filter((pokemon) => !pokemon.templateId.endsWith(pokemon.data.pokemonId))
+            // .filter((pokemon) => !pokemon.templateId.endsWith(pokemon.data.pokemonId))
             .map((pokemon) => ({
                 id: pokemon.templateId,
                 pokemonId: pokemon.data.pokemonId,
@@ -27,28 +27,61 @@ export default class PokemonSettingGenerator extends FileGenerator {
                     stardustCaptureReward:
                         (pokemon.data.encounter.bonusStardustCaptureReward ?? 0) + 100,
                 },
-            }));
-        return JSON.stringify(pokemons, null, 2);
-    }
+            }))
+            .groupBy('pokemonId')
+            .toList('values');
 
-    // test: (move) => move.templateId.split('_').last()! !== move.data.pokemonId,
-    //         transform: (move) => ({
-    //             id: move.templateId,
-    //             pokemonId: move.data.pokemonId,
-    //             type: move.data.type,
-    //             type2: move.data.type2,
-    //             stats: move.data.stats,
-    //             quickMoves: move.data.quickMoves ?? [],
-    //             cinematicMoves: move.data.cinematicMoves,
-    //             eliteQuickMove: move.data.eliteQuickMove,
-    //             eliteCinematicMove: move.data.eliteCinematicMove,
-    //             evolutionIds: move.data.evolutionIds,
-    //             familyId: move.data.familyId,
-    //             pokemonClass: move.data.pokemonClass,
-    //             nonTmCinematicMoves: move.data.nonTmCinematicMoves,
-    //             encounter: {
-    //                 stardustCaptureReward:
-    //                     (move.data.encounter.bonusStardustCaptureReward ?? 0) + 100,
-    //             },
-    //         }),
+        const finalPokemon = pokemons.map((pokemonForms) => {
+            const pokemonId = pokemonForms[0].pokemonId;
+            const familyId = pokemonForms[0].familyId;
+            const id = +pokemonForms[0].id.split('_')[0].slice(1);
+
+            const hasNormalForm =
+                pokemonForms.filter((form) => form.id.endsWith('NORMAL')).length >= 1;
+            const baseForm = pokemonForms
+                .filter((form) => form.id.endsWith(form.pokemonId))
+                .first();
+            const extractFormName = (form: any) => {
+                const index = form.id.indexOf(pokemonId);
+                let result = 'empty';
+                if (index !== -1) {
+                    result = form.id.slice(index + pokemonId.length);
+                }
+                return result.slugify();
+            };
+            const withoutId = (obj: any) => {
+                const { id, ...rest } = obj;
+                return rest;
+            };
+            const baseFormName = hasNormalForm
+                ? 'normal'
+                : extractFormName(
+                      pokemonForms
+                          .filter(({ id, ...form }) => {
+                              return form.deepEquals(withoutId(baseForm));
+                          })
+                          .last() ?? baseForm,
+                  );
+            const formsList = pokemonForms
+                .filter((form) => !form.id.endsWith(form.pokemonId))
+                .map(({ pokemonId, familyId, ...rest }) => ({
+                    ...rest,
+                    formName: extractFormName(rest),
+                }));
+            const forms = formsList.reduce((acc: any, obj) => {
+                const name = extractFormName(obj);
+                acc[name] = obj;
+                return acc;
+            }, {});
+            const finalPokemon = {
+                pokemonId,
+                familyId,
+                id,
+                baseFormName,
+                forms,
+            };
+            return finalPokemon;
+        });
+        return JSON.stringify(finalPokemon, null, 2);
+    }
 }

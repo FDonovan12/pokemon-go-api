@@ -1,11 +1,7 @@
-import dotenv from 'dotenv';
 import fs from 'fs';
-
-dotenv.config();
 
 export interface SourceConfig {
     game_master_url: string;
-    timestamp_url: string;
 }
 
 const SOURCE_PATH = 'meta/source.json';
