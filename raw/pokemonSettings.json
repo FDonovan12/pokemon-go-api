@@ -198632,8 +198632,14 @@
     "data": {
       "pokemonId": "BLIPBUG",
       "type": "POKEMON_TYPE_BUG",
-      "camera": {},
+      "camera": {
+        "cylinderRadiusM": 0.1,
+        "cylinderHeightM": 0.2
+      },
       "encounter": {
+        "collisionRadiusM": 0.1045,
+        "collisionHeightM": 0.209,
+        "collisionHeadRadiusM": 0.15675,
         "attackProbability": 0.1,
         "dodgeProbability": 0.15,
         "dodgeDurationS": 1,
@@ -198659,25 +198665,30 @@
       "weightStdDev": 1,
       "familyId": "FAMILY_BLIPBUG",
       "kmBuddyDistance": 1,
-      "modelHeight": 1,
+      "modelHeight": 0.4,
       "evolutionBranch": [
         {
           "evolution": "DOTTLER",
           "candyCost": 25
         }
       ],
-      "modelScaleV2": 1,
+      "modelScaleV2": 1.1,
       "buddyOffsetMale": [
+        -3,
         0,
-        0,
-        0
+        -2
       ],
       "buddyOffsetFemale": [
+        -3,
         0,
-        0,
-        0
+        -2
       ],
       "buddyScale": 19,
+      "buddyPortraitOffset": [
+        -7,
+        -50,
+        -70
+      ],
       "thirdMove": {
         "stardustToUnlock": 10000,
         "candyToUnlock": 25
@@ -198686,6 +198697,11 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 2,
+      "buddyPortraitRotation": [
+        10,
+        0,
+        0
+      ],
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
     }
@@ -198695,8 +198711,14 @@
     "data": {
       "pokemonId": "BLIPBUG",
       "type": "POKEMON_TYPE_BUG",
-      "camera": {},
+      "camera": {
+        "cylinderRadiusM": 0.1,
+        "cylinderHeightM": 0.2
+      },
       "encounter": {
+        "collisionRadiusM": 0.1045,
+        "collisionHeightM": 0.209,
+        "collisionHeadRadiusM": 0.15675,
         "attackProbability": 0.1,
         "dodgeProbability": 0.15,
         "dodgeDurationS": 1,
@@ -198722,7 +198744,7 @@
       "weightStdDev": 1,
       "familyId": "FAMILY_BLIPBUG",
       "kmBuddyDistance": 1,
-      "modelHeight": 1,
+      "modelHeight": 0.4,
       "evolutionBranch": [
         {
           "evolution": "DOTTLER",
@@ -198730,19 +198752,24 @@
           "form": "DOTTLER_NORMAL"
         }
       ],
-      "modelScaleV2": 1,
+      "modelScaleV2": 1.1,
       "form": "BLIPBUG_NORMAL",
       "buddyOffsetMale": [
+        -3,
         0,
-        0,
-        0
+        -2
       ],
       "buddyOffsetFemale": [
+        -3,
         0,
-        0,
-        0
+        -2
       ],
       "buddyScale": 19,
+      "buddyPortraitOffset": [
+        -7,
+        -50,
+        -70
+      ],
       "thirdMove": {
         "stardustToUnlock": 10000,
         "candyToUnlock": 25
@@ -198751,6 +198778,11 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 2,
+      "buddyPortraitRotation": [
+        10,
+        0,
+        0
+      ],
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
     }
@@ -198761,14 +198793,21 @@
       "pokemonId": "DOTTLER",
       "type": "POKEMON_TYPE_BUG",
       "type2": "POKEMON_TYPE_PSYCHIC",
-      "camera": {},
+      "camera": {
+        "cylinderRadiusM": 0.4,
+        "cylinderHeightM": 0.44
+      },
       "encounter": {
+        "collisionRadiusM": 0.32,
+        "collisionHeightM": 0.6,
+        "collisionHeadRadiusM": 0.27,
+        "jumpTimeS": 1.15,
         "bonusCandyCaptureReward": 2,
         "bonusStardustCaptureReward": 200,
         "attackProbability": 0.1,
         "dodgeDurationS": 1,
         "dodgeDistance": 0.5,
-        "cameraDistance": 4,
+        "cameraDistance": 2.5,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6,
         "bonusXlCandyCaptureReward": 1
@@ -198793,14 +198832,14 @@
       "weightStdDev": 2.4375,
       "familyId": "FAMILY_BLIPBUG",
       "kmBuddyDistance": 1,
-      "modelHeight": 1,
+      "modelHeight": 0.6,
       "evolutionBranch": [
         {
           "evolution": "ORBEETLE",
           "candyCost": 100
         }
       ],
-      "modelScaleV2": 1,
+      "modelScaleV2": 1.3,
       "buddyOffsetMale": [
         0,
         0,
@@ -198830,14 +198869,21 @@
       "pokemonId": "DOTTLER",
       "type": "POKEMON_TYPE_BUG",
       "type2": "POKEMON_TYPE_PSYCHIC",
-      "camera": {},
+      "camera": {
+        "cylinderRadiusM": 0.4,
+        "cylinderHeightM": 0.44
+      },
       "encounter": {
+        "collisionRadiusM": 0.32,
+        "collisionHeightM": 0.6,
+        "collisionHeadRadiusM": 0.27,
+        "jumpTimeS": 1.15,
         "bonusCandyCaptureReward": 2,
         "bonusStardustCaptureReward": 200,
         "attackProbability": 0.1,
         "dodgeDurationS": 1,
         "dodgeDistance": 0.5,
-        "cameraDistance": 4,
+        "cameraDistance": 2.5,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6,
         "bonusXlCandyCaptureReward": 1
@@ -198862,7 +198908,7 @@
       "weightStdDev": 2.4375,
       "familyId": "FAMILY_BLIPBUG",
       "kmBuddyDistance": 1,
-      "modelHeight": 1,
+      "modelHeight": 0.6,
       "evolutionBranch": [
         {
           "evolution": "ORBEETLE",
@@ -198870,7 +198916,7 @@
           "form": "ORBEETLE_NORMAL"
         }
       ],
-      "modelScaleV2": 1,
+      "modelScaleV2": 1.3,
       "form": "DOTTLER_NORMAL",
       "buddyOffsetMale": [
         0,
@@ -198901,8 +198947,15 @@
       "pokemonId": "ORBEETLE",
       "type": "POKEMON_TYPE_BUG",
       "type2": "POKEMON_TYPE_PSYCHIC",
-      "camera": {},
+      "camera": {
+        "cylinderRadiusM": 0.28,
+        "cylinderHeightM": 0.4,
+        "cylinderGroundM": 0.22
+      },
       "encounter": {
+        "collisionRadiusM": 0.2,
+        "collisionHeightM": 0.2,
+        "collisionHeadRadiusM": 0.1,
         "movementType": "MOVEMENT_HOVERING",
         "bonusCandyCaptureReward": 7,
         "bonusStardustCaptureReward": 400,
@@ -198910,7 +198963,7 @@
         "dodgeProbability": 0.2,
         "dodgeDurationS": 1,
         "dodgeDistance": 0.5,
-        "cameraDistance": 4,
+        "cameraDistance": 2.5,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6,
         "bonusXlCandyCaptureReward": 2
@@ -198935,8 +198988,8 @@
       "weightStdDev": 5.1,
       "familyId": "FAMILY_BLIPBUG",
       "kmBuddyDistance": 1,
-      "modelHeight": 1,
-      "modelScaleV2": 1,
+      "modelHeight": 0.6,
+      "modelScaleV2": 1.6,
       "buddyOffsetMale": [
         0,
         0,
@@ -198966,8 +199019,15 @@
       "pokemonId": "ORBEETLE",
       "type": "POKEMON_TYPE_BUG",
       "type2": "POKEMON_TYPE_PSYCHIC",
-      "camera": {},
+      "camera": {
+        "cylinderRadiusM": 0.28,
+        "cylinderHeightM": 0.4,
+        "cylinderGroundM": 0.22
+      },
       "encounter": {
+        "collisionRadiusM": 0.2,
+        "collisionHeightM": 0.2,
+        "collisionHeadRadiusM": 0.1,
         "movementType": "MOVEMENT_HOVERING",
         "bonusCandyCaptureReward": 7,
         "bonusStardustCaptureReward": 400,
@@ -198975,7 +199035,7 @@
         "dodgeProbability": 0.2,
         "dodgeDurationS": 1,
         "dodgeDistance": 0.5,
-        "cameraDistance": 4,
+        "cameraDistance": 2.5,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6,
         "bonusXlCandyCaptureReward": 2
@@ -199000,8 +199060,8 @@
       "weightStdDev": 5.1,
       "familyId": "FAMILY_BLIPBUG",
       "kmBuddyDistance": 1,
-      "modelHeight": 1,
-      "modelScaleV2": 1,
+      "modelHeight": 0.6,
+      "modelScaleV2": 1.6,
       "form": "ORBEETLE_NORMAL",
       "buddyOffsetMale": [
         0,

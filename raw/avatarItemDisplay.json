@@ -854,6 +854,13 @@
     }
   },
   {
+    "templateId": "N_DISPLAY_n_glasses_dittoeyewear_0",
+    "data": {
+      "iconAddress": "n_glasses_dittoeyewear_0_icon",
+      "displayStringId": "avatar_glasses_ditto"
+    }
+  },
+  {
     "templateId": "N_DISPLAY_n_glasses_divingsuit_0",
     "data": {
       "iconAddress": "n_glasses_divingsuit_0_icon",

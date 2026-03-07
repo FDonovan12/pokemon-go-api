@@ -140,13 +140,13 @@
     "templateId": "EVENT_PASS_MONTH3_SEASON_STORE_REDIRECT",
     "data": {
       "sku": "pgorelease.month3_deluxe_event_pass_track_redirect",
-      "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 1,
+      "hidden": true,
       "title": "season_pass_premium_track_title_feb",
       "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
-      "skuEnableTime": "2026-01-27T10:00:00",
+      "skuEnableTime": "2025-02-03T10:00:00",
       "skuDisableTime": "2026-03-05T10:00:00",
-      "skuEnableTimeUtcMs": "1769508000000",
+      "skuEnableTimeUtcMs": "1738576800000",
       "skuDisableTimeUtcMs": "1772704800000",
       "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_GO_Pass_February_TICKET_v1-1024x576-nologo.jpg"
     }
@@ -487,11 +487,12 @@
     "data": {
       "sku": "pgorelease.month3_deluxe_event_pass_track_unlock",
       "sortOrder": 1,
+      "hidden": true,
       "title": "season_pass_premium_track_title_feb",
       "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
-      "skuEnableTime": "2026-01-27T10:00:00",
+      "skuEnableTime": "2025-02-03T10:00:00",
       "skuDisableTime": "2026-03-05T10:00:00",
-      "skuEnableTimeUtcMs": "1769508000000",
+      "skuEnableTimeUtcMs": "1738576800000",
       "skuDisableTimeUtcMs": "1772704800000",
       "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_GO_Pass_February_TICKET_v1-1024x576-nologo.jpg"
     }
@@ -501,11 +502,12 @@
     "data": {
       "sku": "pgorelease.month3_deluxe_event_pass_track_unlock_plus_points",
       "sortOrder": 1,
+      "hidden": true,
       "title": "season_pass_premium_track_plus_ten_ranks_title_feb",
       "description": "gotour_2025_deluxe_event_pass_track_unlock_plus_points_description",
-      "skuEnableTime": "2026-01-27T10:00:00",
+      "skuEnableTime": "2025-02-03T10:00:00",
       "skuDisableTime": "2026-03-05T10:00:00",
-      "skuEnableTimeUtcMs": "1769508000000",
+      "skuEnableTimeUtcMs": "1738576800000",
       "skuDisableTimeUtcMs": "1772704800000",
       "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_GO_Pass_February_TICKET_v1-1024x576-nologo.jpg"
     }
@@ -9269,13 +9271,13 @@
       "sortOrder": 2,
       "hidden": true,
       "spriteId": "general1.ticket.2",
-      "title": "general1.ticket_CD_Vulpix26_title",
+      "title": "general1.ticket_CD_Scorbunny26_title",
       "skuEnableTime": "2019-03-14T08:00:00",
-      "skuDisableTime": "2026-02-01T17:00:00",
+      "skuDisableTime": "2026-03-14T17:00:00",
       "skuEnableTimeUtcMs": "1552550400000",
-      "skuDisableTimeUtcMs": "1769965200000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO_MCS_CD_KeyArt_Vulpix_Alolan_v3-1024x576-nologo.jpg",
-      "webstoreSkuId": "web-vulpix-cd-26-ticket-box",
+      "skuDisableTimeUtcMs": "1773507600000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-scorbunny-community-day-2026-nologo.jpg",
+      "webstoreSkuId": "web-scorbunny-cd-26-ticket-box",
       "webstoreSkuPriceE6": 1990000
     }
   },
@@ -9287,12 +9289,12 @@
       "sortOrder": 2,
       "hidden": true,
       "spriteId": "general1.ticket.2",
-      "title": "general1.ticket_CD_Vulpix26_title",
+      "title": "general1.ticket_CD_Scorbunny26_title",
       "skuEnableTime": "2019-03-14T08:00:00",
-      "skuDisableTime": "2026-02-01T17:00:00",
+      "skuDisableTime": "2026-03-14T17:00:00",
       "skuEnableTimeUtcMs": "1552550400000",
-      "skuDisableTimeUtcMs": "1769965200000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO_MCS_CD_KeyArt_Vulpix_Alolan_v3-1024x576-nologo.jpg"
+      "skuDisableTimeUtcMs": "1773507600000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-scorbunny-community-day-2026-nologo.jpg"
     }
   },
   {
@@ -10751,13 +10753,13 @@
       "sortOrder": 2,
       "hidden": true,
       "spriteId": "general1.ticket.2",
-      "title": "general1.ticket_CD_Vulpix26_title",
+      "title": "general1.ticket_CD_Scorbunny26_title",
       "skuEnableTime": "2019-03-14T08:00:00",
-      "skuDisableTime": "2026-02-01T17:00:00",
+      "skuDisableTime": "2026-03-14T17:00:00",
       "skuEnableTimeUtcMs": "1552550400000",
-      "skuDisableTimeUtcMs": "1769965200000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO_MCS_CD_KeyArt_Vulpix_Alolan_v3-1024x576-nologo.jpg",
-      "webstoreSkuId": "web-vulpix-cd-26-ticket-box",
+      "skuDisableTimeUtcMs": "1773507600000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-scorbunny-community-day-2026-nologo.jpg",
+      "webstoreSkuId": "web-scorbunny-cd-26-ticket-box",
       "webstoreSkuPriceE6": 1990000
     }
   },
@@ -10769,12 +10771,12 @@
       "sortOrder": 2,
       "hidden": true,
       "spriteId": "general1.ticket.2",
-      "title": "general1.ticket_CD_Vulpix26_title",
+      "title": "general1.ticket_CD_Scorbunny26_title",
       "skuEnableTime": "2019-03-14T08:00:00",
-      "skuDisableTime": "2026-02-01T17:00:00",
+      "skuDisableTime": "2026-03-14T17:00:00",
       "skuEnableTimeUtcMs": "1552550400000",
-      "skuDisableTimeUtcMs": "1769965200000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO_MCS_CD_KeyArt_Vulpix_Alolan_v3-1024x576-nologo.jpg"
+      "skuDisableTimeUtcMs": "1773507600000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-scorbunny-community-day-2026-nologo.jpg"
     }
   },
   {
@@ -11035,32 +11037,6 @@
       "skuDisableTime": "2026-04-09T10:00:00",
       "skuEnableTimeUtcMs": "1771927200000",
       "skuDisableTimeUtcMs": "1775728800000"
-    }
-  },
-  {
-    "templateId": "pgorelease.month3_deluxe_event_pass_track_unlock",
-    "data": {
-      "sku": "pgorelease.month3_deluxe_event_pass_track_unlock",
-      "sortOrder": 1,
-      "title": "season_pass_premium_track_title_feb",
-      "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
-      "skuEnableTime": "2026-01-27T10:00:00",
-      "skuDisableTime": "2026-03-05T10:00:00",
-      "skuEnableTimeUtcMs": "1769508000000",
-      "skuDisableTimeUtcMs": "1772704800000"
-    }
-  },
-  {
-    "templateId": "pgorelease.month3_deluxe_event_pass_track_unlock_plus_points",
-    "data": {
-      "sku": "pgorelease.month3_deluxe_event_pass_track_unlock_plus_points",
-      "sortOrder": 1,
-      "title": "season_pass_premium_track_plus_ten_ranks_title_feb",
-      "description": "gotour_2025_deluxe_event_pass_track_unlock_plus_points_description",
-      "skuEnableTime": "2026-01-27T10:00:00",
-      "skuDisableTime": "2026-03-05T10:00:00",
-      "skuEnableTimeUtcMs": "1769508000000",
-      "skuDisableTimeUtcMs": "1772704800000"
     }
   },
   {

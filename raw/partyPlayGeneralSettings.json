@@ -31,21 +31,21 @@
       "maxPartySize": 4,
       "partySchedulingSettings": {
         "recurringChallengeSchedule": {
-          "timezoneId": "America/Los_Angeles",
+          "timezoneId": "UTC",
           "dayAndTimeStartTime": {
-            "dayOfWeek": 1,
-            "hourOfDay": 17
+            "dayOfWeek": 2,
+            "hourOfDay": 1
           },
           "dayAndTimeEndTime": {
-            "dayOfWeek": 1,
-            "hourOfDay": 17
+            "dayOfWeek": 2,
+            "hourOfDay": 1
           },
           "startNotification": {
             "enabled": true,
             "isLocal": true,
             "time": {
               "dayOfWeek": 2,
-              "hourOfDay": 10
+              "hourOfDay": 18
             },
             "avalibleWindowHours": 120
           },
@@ -54,7 +54,7 @@
             "isLocal": true,
             "time": {
               "dayOfWeek": 1,
-              "hourOfDay": 11
+              "hourOfDay": 19
             },
             "avalibleWindowHours": 2
           },

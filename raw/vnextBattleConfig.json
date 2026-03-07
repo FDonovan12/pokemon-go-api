@@ -17,7 +17,7 @@
       "pvpBattleConfig": {
         "battleEndTimeoutThresholdMs": "2000",
         "badNetworkWarningThresholdTurns": "12",
-        "deadNetworkDisconnectThresholdTurns": "60",
+        "deadNetworkDisconnectThresholdTurns": "120",
         "noOpponentConnectionDisconnectThresholdTurns": "12"
       }
     }

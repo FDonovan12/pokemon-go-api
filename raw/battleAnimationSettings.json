@@ -16,7 +16,7 @@
       },
       "combatAnimationConfiguration": {
         "fastAttackSettings": {},
-        "projectedHealthAnimationDurationSeconds": 0.25
+        "projectedHealthAnimationDurationSeconds": 0.05
       }
     }
   }

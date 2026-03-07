@@ -1789,6 +1789,13 @@
                 "form": "TANDEMAUS_NORMAL"
               }
             }
+          },
+          {
+            "type": "ITEM",
+            "item": {
+              "item": "ITEM_ENHANCED_CURRENCY",
+              "amount": 250
+            }
           }
         ],
         "difficulty": "EASY"

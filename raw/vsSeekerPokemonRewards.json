@@ -14,7 +14,7 @@
             "identifier": "seasonalLibre",
             "perCompetitiveCombatSeasonMaxCount": 1
           },
-          "unlockedAtRank": 20,
+          "unlockedAtRank": 24,
           "attackIvOverride": {
             "range": {
               "min": 10,
@@ -37,12 +37,12 @@
         {
           "guaranteedLimitedPokemonReward": {
             "pokemon": {
-              "pokemonId": "YAMASK",
+              "pokemonId": "PIDGEOT",
               "pokemonDisplay": {
-                "form": "YAMASK_GALARIAN"
+                "form": "PIDGEOT_NORMAL"
               }
             },
-            "identifier": "season28_gyamask",
+            "identifier": "season29_pidgeot",
             "lifetimeMaxCount": 1
           },
           "unlockedAtRank": 1,
@@ -73,7 +73,7 @@
                 "form": "PANCHAM_NORMAL"
               }
             },
-            "identifier": "season28_pancham",
+            "identifier": "season29_pancham",
             "lifetimeMaxCount": 1
           },
           "unlockedAtRank": 6,
@@ -104,10 +104,10 @@
                 "form": "TOGETIC_NORMAL"
               }
             },
-            "identifier": "season28_togetic",
+            "identifier": "season29_togetic",
             "lifetimeMaxCount": 1
           },
-          "unlockedAtRank": 17,
+          "unlockedAtRank": 21,
           "attackIvOverride": {
             "range": {
               "min": 10,
@@ -135,10 +135,10 @@
                 "form": "HONEDGE_NORMAL"
               }
             },
-            "identifier": "season28_honedge",
+            "identifier": "season29_honedge",
             "lifetimeMaxCount": 1
           },
-          "unlockedAtRank": 18,
+          "unlockedAtRank": 22,
           "attackIvOverride": {
             "range": {
               "min": 10,
@@ -166,10 +166,10 @@
                 "form": "DREEPY_NORMAL"
               }
             },
-            "identifier": "season28_dreepy",
+            "identifier": "season29_dreepy",
             "lifetimeMaxCount": 1
           },
-          "unlockedAtRank": 19,
+          "unlockedAtRank": 23,
           "attackIvOverride": {
             "range": {
               "min": 10,
@@ -218,9 +218,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "DEDENNE",
+            "pokemonId": "MARILL",
             "pokemonDisplay": {
-              "form": "DEDENNE_NORMAL"
+              "form": "MARILL_NORMAL"
             }
           },
           "unlockedAtRank": 1,
@@ -353,9 +353,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "SHIELDON",
+            "pokemonId": "FURRET",
             "pokemonDisplay": {
-              "form": "SHIELDON_NORMAL"
+              "form": "FURRET_NORMAL"
             }
           },
           "unlockedAtRank": 6,
@@ -407,9 +407,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "TOGEDEMARU",
+            "pokemonId": "TOGETIC",
             "pokemonDisplay": {
-              "form": "TOGEDEMARU_NORMAL"
+              "form": "TOGETIC_NORMAL"
             }
           },
           "unlockedAtRank": 11,
@@ -569,9 +569,144 @@
         },
         {
           "pokemon": {
-            "pokemonId": "LUNALA",
+            "pokemonId": "JANGMO_O",
             "pokemonDisplay": {
-              "form": "LUNALA_NORMAL"
+              "form": "JANGMO_O_NORMAL"
+            }
+          },
+          "unlockedAtRank": 21,
+          "attackIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          },
+          "defenseIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          },
+          "staminaIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          }
+        },
+        {
+          "pokemon": {
+            "pokemonId": "FRIGIBAX",
+            "pokemonDisplay": {
+              "form": "FRIGIBAX_NORMAL"
+            }
+          },
+          "unlockedAtRank": 22,
+          "attackIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          },
+          "defenseIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          },
+          "staminaIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          }
+        },
+        {
+          "pokemon": {
+            "pokemonId": "DREEPY",
+            "pokemonDisplay": {
+              "form": "DREEPY_NORMAL"
+            }
+          },
+          "unlockedAtRank": 23,
+          "attackIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          },
+          "defenseIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          },
+          "staminaIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          }
+        },
+        {
+          "pokemon": {
+            "pokemonId": "ARTICUNO",
+            "pokemonDisplay": {
+              "form": "ARTICUNO_NORMAL"
+            }
+          },
+          "unlockedAtRank": 20,
+          "attackIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          },
+          "defenseIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          },
+          "staminaIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          }
+        },
+        {
+          "pokemon": {
+            "pokemonId": "ZAPDOS",
+            "pokemonDisplay": {
+              "form": "ZAPDOS_NORMAL"
+            }
+          },
+          "unlockedAtRank": 20,
+          "attackIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          },
+          "defenseIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          },
+          "staminaIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          }
+        },
+        {
+          "pokemon": {
+            "pokemonId": "MOLTRES",
+            "pokemonDisplay": {
+              "form": "MOLTRES_NORMAL"
             }
           },
           "unlockedAtRank": 20,
@@ -612,7 +747,7 @@
             "identifier": "seasonalLibre",
             "perCompetitiveCombatSeasonMaxCount": 1
           },
-          "unlockedAtRank": 20,
+          "unlockedAtRank": 24,
           "attackIvOverride": {
             "range": {
               "min": 10,
@@ -635,12 +770,12 @@
         {
           "guaranteedLimitedPokemonReward": {
             "pokemon": {
-              "pokemonId": "YAMASK",
+              "pokemonId": "PIDGEOT",
               "pokemonDisplay": {
-                "form": "YAMASK_GALARIAN"
+                "form": "PIDGEOT_NORMAL"
               }
             },
-            "identifier": "season28_gyamask",
+            "identifier": "season29_pidgeot",
             "lifetimeMaxCount": 1
           },
           "unlockedAtRank": 1,
@@ -671,7 +806,7 @@
                 "form": "PANCHAM_NORMAL"
               }
             },
-            "identifier": "season28_pancham",
+            "identifier": "season29_pancham",
             "lifetimeMaxCount": 1
           },
           "unlockedAtRank": 6,
@@ -702,10 +837,10 @@
                 "form": "TOGETIC_NORMAL"
               }
             },
-            "identifier": "season28_togetic",
+            "identifier": "season29_togetic",
             "lifetimeMaxCount": 1
           },
-          "unlockedAtRank": 17,
+          "unlockedAtRank": 21,
           "attackIvOverride": {
             "range": {
               "min": 10,
@@ -733,10 +868,10 @@
                 "form": "HONEDGE_NORMAL"
               }
             },
-            "identifier": "season28_honedge",
+            "identifier": "season29_honedge",
             "lifetimeMaxCount": 1
           },
-          "unlockedAtRank": 18,
+          "unlockedAtRank": 22,
           "attackIvOverride": {
             "range": {
               "min": 10,
@@ -764,10 +899,10 @@
                 "form": "DREEPY_NORMAL"
               }
             },
-            "identifier": "season28_dreepy",
+            "identifier": "season29_dreepy",
             "lifetimeMaxCount": 1
           },
-          "unlockedAtRank": 19,
+          "unlockedAtRank": 23,
           "attackIvOverride": {
             "range": {
               "min": 10,
@@ -816,9 +951,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "DEDENNE",
+            "pokemonId": "MARILL",
             "pokemonDisplay": {
-              "form": "DEDENNE_NORMAL"
+              "form": "MARILL_NORMAL"
             }
           },
           "unlockedAtRank": 1,
@@ -951,9 +1086,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "SHIELDON",
+            "pokemonId": "FURRET",
             "pokemonDisplay": {
-              "form": "SHIELDON_NORMAL"
+              "form": "FURRET_NORMAL"
             }
           },
           "unlockedAtRank": 6,
@@ -1005,9 +1140,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "TOGEDEMARU",
+            "pokemonId": "TOGETIC",
             "pokemonDisplay": {
-              "form": "TOGEDEMARU_NORMAL"
+              "form": "TOGETIC_NORMAL"
             }
           },
           "unlockedAtRank": 11,
@@ -1167,9 +1302,144 @@
         },
         {
           "pokemon": {
-            "pokemonId": "LUNALA",
+            "pokemonId": "JANGMO_O",
             "pokemonDisplay": {
-              "form": "LUNALA_NORMAL"
+              "form": "JANGMO_O_NORMAL"
+            }
+          },
+          "unlockedAtRank": 21,
+          "attackIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          },
+          "defenseIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          },
+          "staminaIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          }
+        },
+        {
+          "pokemon": {
+            "pokemonId": "FRIGIBAX",
+            "pokemonDisplay": {
+              "form": "FRIGIBAX_NORMAL"
+            }
+          },
+          "unlockedAtRank": 22,
+          "attackIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          },
+          "defenseIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          },
+          "staminaIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          }
+        },
+        {
+          "pokemon": {
+            "pokemonId": "DREEPY",
+            "pokemonDisplay": {
+              "form": "DREEPY_NORMAL"
+            }
+          },
+          "unlockedAtRank": 23,
+          "attackIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          },
+          "defenseIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          },
+          "staminaIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          }
+        },
+        {
+          "pokemon": {
+            "pokemonId": "ARTICUNO",
+            "pokemonDisplay": {
+              "form": "ARTICUNO_NORMAL"
+            }
+          },
+          "unlockedAtRank": 20,
+          "attackIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          },
+          "defenseIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          },
+          "staminaIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          }
+        },
+        {
+          "pokemon": {
+            "pokemonId": "ZAPDOS",
+            "pokemonDisplay": {
+              "form": "ZAPDOS_NORMAL"
+            }
+          },
+          "unlockedAtRank": 20,
+          "attackIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          },
+          "defenseIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          },
+          "staminaIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          }
+        },
+        {
+          "pokemon": {
+            "pokemonId": "MOLTRES",
+            "pokemonDisplay": {
+              "form": "MOLTRES_NORMAL"
             }
           },
           "unlockedAtRank": 20,
