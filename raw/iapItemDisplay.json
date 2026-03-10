@@ -8121,6 +8121,34 @@
     }
   },
   {
+    "templateId": "bundle.ramadan.1",
+    "data": {
+      "sku": "bundle.ramadan.1",
+      "category": "IAP_CATEGORY_BUNDLE",
+      "sortOrder": 1,
+      "hidden": true,
+      "spriteId": "bundle3.sprite.b",
+      "title": "bundle.night.treats.incense_title",
+      "showDiscountTag": true,
+      "showStrikethroughPrice": true,
+      "totalValue": 200
+    }
+  },
+  {
+    "templateId": "bundle.ramadan.2",
+    "data": {
+      "sku": "bundle.ramadan.2",
+      "category": "IAP_CATEGORY_BUNDLE",
+      "sortOrder": 1,
+      "hidden": true,
+      "spriteId": "bundle3.sprite.d",
+      "title": "bundle.night.treats.raid_title",
+      "showDiscountTag": true,
+      "showStrikethroughPrice": true,
+      "totalValue": 250
+    }
+  },
+  {
     "templateId": "bundle.rarebundle.1",
     "data": {
       "sku": "bundle.rarebundle.1",

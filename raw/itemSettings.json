@@ -292,7 +292,9 @@
         "eventPassId": "EVENT_PASS_30ANNIV2026_EVENT"
       },
       "timePeriodCounters": {
-        "playerActivity": {}
+        "playerActivity": {
+          "limit": 500
+        }
       },
       "hideItemInInventory": true
     }
@@ -1384,8 +1386,7 @@
       "category": "ITEM_CATEGORY_INCENSE",
       "dropTrainerLevel": 1,
       "incense": {
-        "incenseLifetimeSeconds": 3600,
-        "spawnTableProbability": 0.075
+        "incenseLifetimeSeconds": 3600
       }
     }
   },
