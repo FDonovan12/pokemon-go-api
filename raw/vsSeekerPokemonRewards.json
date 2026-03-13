@@ -9,7 +9,8 @@
               "pokemonId": "PIKACHU",
               "pokemonDisplay": {
                 "form": "PIKACHU_VS_2019"
-              }
+              },
+              "shinyProbability": 0.05
             },
             "identifier": "seasonalLibre",
             "perCompetitiveCombatSeasonMaxCount": 1
@@ -650,63 +651,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "ARTICUNO",
+            "pokemonId": "ZACIAN",
             "pokemonDisplay": {
-              "form": "ARTICUNO_NORMAL"
-            }
-          },
-          "unlockedAtRank": 20,
-          "attackIvOverride": {
-            "range": {
-              "min": 10,
-              "max": 15
-            }
-          },
-          "defenseIvOverride": {
-            "range": {
-              "min": 10,
-              "max": 15
-            }
-          },
-          "staminaIvOverride": {
-            "range": {
-              "min": 10,
-              "max": 15
-            }
-          }
-        },
-        {
-          "pokemon": {
-            "pokemonId": "ZAPDOS",
-            "pokemonDisplay": {
-              "form": "ZAPDOS_NORMAL"
-            }
-          },
-          "unlockedAtRank": 20,
-          "attackIvOverride": {
-            "range": {
-              "min": 10,
-              "max": 15
-            }
-          },
-          "defenseIvOverride": {
-            "range": {
-              "min": 10,
-              "max": 15
-            }
-          },
-          "staminaIvOverride": {
-            "range": {
-              "min": 10,
-              "max": 15
-            }
-          }
-        },
-        {
-          "pokemon": {
-            "pokemonId": "MOLTRES",
-            "pokemonDisplay": {
-              "form": "MOLTRES_NORMAL"
+              "form": "ZACIAN_HERO"
             }
           },
           "unlockedAtRank": 20,
@@ -742,7 +689,8 @@
               "pokemonId": "PIKACHU",
               "pokemonDisplay": {
                 "form": "PIKACHU_VS_2019"
-              }
+              },
+              "shinyProbability": 0.05
             },
             "identifier": "seasonalLibre",
             "perCompetitiveCombatSeasonMaxCount": 1
@@ -1383,63 +1331,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "ARTICUNO",
+            "pokemonId": "ZACIAN",
             "pokemonDisplay": {
-              "form": "ARTICUNO_NORMAL"
-            }
-          },
-          "unlockedAtRank": 20,
-          "attackIvOverride": {
-            "range": {
-              "min": 10,
-              "max": 15
-            }
-          },
-          "defenseIvOverride": {
-            "range": {
-              "min": 10,
-              "max": 15
-            }
-          },
-          "staminaIvOverride": {
-            "range": {
-              "min": 10,
-              "max": 15
-            }
-          }
-        },
-        {
-          "pokemon": {
-            "pokemonId": "ZAPDOS",
-            "pokemonDisplay": {
-              "form": "ZAPDOS_NORMAL"
-            }
-          },
-          "unlockedAtRank": 20,
-          "attackIvOverride": {
-            "range": {
-              "min": 10,
-              "max": 15
-            }
-          },
-          "defenseIvOverride": {
-            "range": {
-              "min": 10,
-              "max": 15
-            }
-          },
-          "staminaIvOverride": {
-            "range": {
-              "min": 10,
-              "max": 15
-            }
-          }
-        },
-        {
-          "pokemon": {
-            "pokemonId": "MOLTRES",
-            "pokemonDisplay": {
-              "form": "MOLTRES_NORMAL"
+              "form": "ZACIAN_HERO"
             }
           },
           "unlockedAtRank": 20,

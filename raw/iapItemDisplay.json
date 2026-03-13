@@ -107,6 +107,21 @@
     }
   },
   {
+    "templateId": "EVENT_PASS_MARCH2_SEASON_STORE_REDIRECT",
+    "data": {
+      "sku": "pgorelease.march2_2026_deluxe_event_pass_track_redirect",
+      "sortOrder": 1,
+      "hidden": true,
+      "title": "season_pass_premium_track_title_bugoutbuddies2026",
+      "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
+      "skuEnableTime": "2025-03-17T10:00:00",
+      "skuDisableTime": "2025-03-24T00:00:00",
+      "skuEnableTimeUtcMs": "1742205600000",
+      "skuDisableTimeUtcMs": "1742774400000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-bug-out-2026-nologo.jpg"
+    }
+  },
+  {
     "templateId": "EVENT_PASS_MONTH1_SEASON_STORE_REDIRECT",
     "data": {
       "sku": "pgorelease.month1_deluxe_event_pass_track_redirect",
@@ -422,6 +437,36 @@
       "skuEnableTimeUtcMs": "1740996000000",
       "skuDisableTimeUtcMs": "1773604800000",
       "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-legendary-birds-nologo-2026.jpg"
+    }
+  },
+  {
+    "templateId": "MARCH2_2026_DELUXE_EVENT_PASS_TRACK_UNLOCK",
+    "data": {
+      "sku": "pgorelease.march2_2026_deluxe_event_pass_track_unlock",
+      "sortOrder": 1,
+      "hidden": true,
+      "title": "season_pass_premium_track_title_bugoutbuddies2026",
+      "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
+      "skuEnableTime": "2025-03-17T10:00:00",
+      "skuDisableTime": "2025-03-24T00:00:00",
+      "skuEnableTimeUtcMs": "1742205600000",
+      "skuDisableTimeUtcMs": "1742774400000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-bug-out-2026-nologo.jpg"
+    }
+  },
+  {
+    "templateId": "MARCH2_2026_DELUXE_EVENT_PASS_TRACK_UNLOCK_PLUS_POINTS",
+    "data": {
+      "sku": "pgorelease.march2_2026_deluxe_event_pass_track_unlock_plus_points",
+      "sortOrder": 1,
+      "hidden": true,
+      "title": "season_pass_premium_track_plus_ten_ranks_title_bugoutbuddies2026",
+      "description": "event_pass_plus_points_6_ranks_description",
+      "skuEnableTime": "2025-03-17T10:00:00",
+      "skuDisableTime": "2025-03-24T00:00:00",
+      "skuEnableTimeUtcMs": "1742205600000",
+      "skuDisableTimeUtcMs": "1742774400000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-bug-out-2026-nologo.jpg"
     }
   },
   {
@@ -3815,7 +3860,8 @@
     "data": {
       "sku": "STICKER_PGO_TOUR_2026.3",
       "category": "IAP_CATEGORY_STICKER",
-      "sortOrder": 8
+      "sortOrder": 8,
+      "hidden": true
     }
   },
   {
@@ -3823,7 +3869,8 @@
     "data": {
       "sku": "STICKER_PGO_TOUR_2026.5",
       "category": "IAP_CATEGORY_STICKER",
-      "sortOrder": 7
+      "sortOrder": 7,
+      "hidden": true
     }
   },
   {
@@ -3831,7 +3878,8 @@
     "data": {
       "sku": "STICKER_PGO_TOUR_2026_1.3",
       "category": "IAP_CATEGORY_STICKER",
-      "sortOrder": 2
+      "sortOrder": 2,
+      "hidden": true
     }
   },
   {
@@ -3839,7 +3887,8 @@
     "data": {
       "sku": "STICKER_PGO_TOUR_2026_1.5",
       "category": "IAP_CATEGORY_STICKER",
-      "sortOrder": 1
+      "sortOrder": 1,
+      "hidden": true
     }
   },
   {
@@ -3847,7 +3896,8 @@
     "data": {
       "sku": "STICKER_PGO_TOUR_2026_2.3",
       "category": "IAP_CATEGORY_STICKER",
-      "sortOrder": 4
+      "sortOrder": 4,
+      "hidden": true
     }
   },
   {
@@ -3855,7 +3905,8 @@
     "data": {
       "sku": "STICKER_PGO_TOUR_2026_2.5",
       "category": "IAP_CATEGORY_STICKER",
-      "sortOrder": 3
+      "sortOrder": 3,
+      "hidden": true
     }
   },
   {
@@ -3863,7 +3914,8 @@
     "data": {
       "sku": "STICKER_PGO_TOUR_2026_3.3",
       "category": "IAP_CATEGORY_STICKER",
-      "sortOrder": 6
+      "sortOrder": 6,
+      "hidden": true
     }
   },
   {
@@ -3871,7 +3923,8 @@
     "data": {
       "sku": "STICKER_PGO_TOUR_2026_3.5",
       "category": "IAP_CATEGORY_STICKER",
-      "sortOrder": 5
+      "sortOrder": 5,
+      "hidden": true
     }
   },
   {
@@ -3879,7 +3932,8 @@
     "data": {
       "sku": "STICKER_PGO_TOUR_2026_LOGO.3",
       "category": "IAP_CATEGORY_STICKER",
-      "sortOrder": 10
+      "sortOrder": 10,
+      "hidden": true
     }
   },
   {
@@ -3887,7 +3941,8 @@
     "data": {
       "sku": "STICKER_PGO_TOUR_2026_LOGO.5",
       "category": "IAP_CATEGORY_STICKER",
-      "sortOrder": 9
+      "sortOrder": 9,
+      "hidden": true
     }
   },
   {
@@ -6535,10 +6590,13 @@
       "sku": "bundle.cd2022.1",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 1,
-      "hidden": true,
       "sale": true,
-      "spriteId": "bundle.halloween.small.1",
-      "title": "bundle.halloween.small.1_title"
+      "spriteId": "bundle.general4.small.1",
+      "title": "bundle.general4.small.1_title",
+      "skuEnableTime": "2022-10-13T12:00:00",
+      "skuDisableTime": "2026-03-14T23:59:59",
+      "skuEnableTimeUtcMs": "1665662400000",
+      "skuDisableTimeUtcMs": "1773532799000"
     }
   },
   {
@@ -6547,10 +6605,13 @@
       "sku": "bundle.cd2022.2",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 2,
-      "hidden": true,
       "sale": true,
-      "spriteId": "bundle.halloween.adventure.1",
-      "title": "bundle.halloween.adventure.1_title"
+      "spriteId": "bundle.general1.medium.1",
+      "title": "bundle.general1.medium.1_title",
+      "skuEnableTime": "2022-10-13T12:00:00",
+      "skuDisableTime": "2026-03-14T23:59:59",
+      "skuEnableTimeUtcMs": "1665662400000",
+      "skuDisableTimeUtcMs": "1773532799000"
     }
   },
   {
@@ -9297,7 +9358,6 @@
       "sku": "general2.ticket.3",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 2,
-      "hidden": true,
       "spriteId": "general1.ticket.2",
       "title": "general1.ticket_CD_Scorbunny26_title",
       "skuEnableTime": "2019-03-14T08:00:00",
@@ -9315,7 +9375,6 @@
       "sku": "general2.ticket.3.giftable",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 2,
-      "hidden": true,
       "spriteId": "general1.ticket.2",
       "title": "general1.ticket_CD_Scorbunny26_title",
       "skuEnableTime": "2019-03-14T08:00:00",
@@ -9344,37 +9403,20 @@
     }
   },
   {
-    "templateId": "general2.ticket.4.giftable",
-    "data": {
-      "sku": "general2.ticket.4.giftable",
-      "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
-      "sortOrder": 1,
-      "hidden": true,
-      "spriteId": "general2.ticket.4",
-      "title": "general1.ticket._SunkissedETR0825_title",
-      "skuEnableTime": "2023-01-01T11:00:01",
-      "skuDisableTime": "2025-08-31T20:00:00",
-      "skuEnableTimeUtcMs": "1672570801000",
-      "skuDisableTimeUtcMs": "1756670400000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-sunkissed-shores-encounter-ticket-nologo-2025.jpg"
-    }
-  },
-  {
     "templateId": "general2.ticket.5",
     "data": {
       "sku": "general2.ticket.5",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
-      "sortOrder": 46324,
+      "sortOrder": 1,
       "hidden": true,
       "spriteId": "general2.ticket.5",
-      "title": "general1.ticket.5_buddy_event_title",
-      "description": "item_event_ticket_gray_desc_buddy_event",
+      "title": "general2.ticket5.GMAX_PIKACHU_MAX_BATTLE",
       "skuEnableTime": "2023-01-01T11:00:04",
-      "skuDisableTime": "2026-01-25T20:00:00",
+      "skuDisableTime": "2026-03-28T17:00:00",
       "skuEnableTimeUtcMs": "1672570804000",
-      "skuDisableTimeUtcMs": "1769371200000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPreciousPalsAvatar_1024x576.jpg",
-      "webstoreSkuId": "web-buddy-avatar-ticket-box",
+      "skuDisableTimeUtcMs": "1774717200000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-gmax-pikachu-2026-nologo.jpg",
+      "webstoreSkuId": "web-gmax-pika-ticket-box",
       "webstoreSkuPriceE6": 4990000
     }
   },
@@ -9383,16 +9425,15 @@
     "data": {
       "sku": "general2.ticket.5.giftable",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
-      "sortOrder": 46324,
+      "sortOrder": 1,
       "hidden": true,
       "spriteId": "general2.ticket.5",
-      "title": "general1.ticket.5_buddy_event_title",
-      "description": "item_event_ticket_gray_desc_buddy_event",
+      "title": "general2.ticket5.GMAX_PIKACHU_MAX_BATTLE",
       "skuEnableTime": "2023-01-01T11:00:04",
-      "skuDisableTime": "2026-01-25T20:00:00",
+      "skuDisableTime": "2026-03-28T17:00:00",
       "skuEnableTimeUtcMs": "1672570804000",
-      "skuDisableTimeUtcMs": "1769371200000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPreciousPalsAvatar_1024x576.jpg"
+      "skuDisableTimeUtcMs": "1774717200000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-gmax-pikachu-2026-nologo.jpg"
     }
   },
   {
@@ -10779,7 +10820,6 @@
       "sku": "pgorelease.general2.ticket.3",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 2,
-      "hidden": true,
       "spriteId": "general1.ticket.2",
       "title": "general1.ticket_CD_Scorbunny26_title",
       "skuEnableTime": "2019-03-14T08:00:00",
@@ -10797,7 +10837,6 @@
       "sku": "pgorelease.general2.ticket.3.giftable",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 2,
-      "hidden": true,
       "spriteId": "general1.ticket.2",
       "title": "general1.ticket_CD_Scorbunny26_title",
       "skuEnableTime": "2019-03-14T08:00:00",
@@ -10808,55 +10847,20 @@
     }
   },
   {
-    "templateId": "pgorelease.general2.ticket.4",
-    "data": {
-      "sku": "pgorelease.general2.ticket.4",
-      "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
-      "sortOrder": 1,
-      "hidden": true,
-      "spriteId": "general2.ticket.4",
-      "title": "general1.ticket._SunkissedETR0825_title",
-      "skuEnableTime": "2023-01-01T11:00:01",
-      "skuDisableTime": "2025-08-31T20:00:00",
-      "skuEnableTimeUtcMs": "1672570801000",
-      "skuDisableTimeUtcMs": "1756670400000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-sunkissed-shores-encounter-ticket-nologo-2025.jpg",
-      "webstoreSkuId": "web-encounter-2025-ticket-box",
-      "webstoreSkuPriceE6": 1990000
-    }
-  },
-  {
-    "templateId": "pgorelease.general2.ticket.4.giftable",
-    "data": {
-      "sku": "pgorelease.general2.ticket.4.giftable",
-      "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
-      "sortOrder": 1,
-      "hidden": true,
-      "spriteId": "general2.ticket.4",
-      "title": "general1.ticket._SunkissedETR0825_title",
-      "skuEnableTime": "2023-01-01T11:00:01",
-      "skuDisableTime": "2025-08-31T20:00:00",
-      "skuEnableTimeUtcMs": "1672570801000",
-      "skuDisableTimeUtcMs": "1756670400000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-sunkissed-shores-encounter-ticket-nologo-2025.jpg"
-    }
-  },
-  {
     "templateId": "pgorelease.general2.ticket.5",
     "data": {
       "sku": "pgorelease.general2.ticket.5",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
-      "sortOrder": 46324,
+      "sortOrder": 1,
       "hidden": true,
       "spriteId": "general2.ticket.2",
-      "title": "general1.ticket.5_buddy_event_title",
-      "description": "item_event_ticket_gray_desc_buddy_event",
+      "title": "general2.ticket5.GMAX_PIKACHU_MAX_BATTLE",
       "skuEnableTime": "2023-01-01T11:00:01",
-      "skuDisableTime": "2026-01-25T20:00:00",
+      "skuDisableTime": "2026-03-28T17:00:00",
       "skuEnableTimeUtcMs": "1672570801000",
-      "skuDisableTimeUtcMs": "1769371200000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPreciousPalsAvatar_1024x576.jpg",
-      "webstoreSkuId": "web-buddy-avatar-ticket-box",
+      "skuDisableTimeUtcMs": "1774717200000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-gmax-pikachu-2026-nologo.jpg",
+      "webstoreSkuId": "web-gmax-pika-ticket-box",
       "webstoreSkuPriceE6": 4990000
     }
   },
@@ -10865,16 +10869,15 @@
     "data": {
       "sku": "pgorelease.general2.ticket.5.giftable",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
-      "sortOrder": 46324,
+      "sortOrder": 1,
       "hidden": true,
       "spriteId": "general2.ticket.2",
-      "title": "general1.ticket.5_buddy_event_title",
-      "description": "item_event_ticket_gray_desc_buddy_event",
+      "title": "general2.ticket5.GMAX_PIKACHU_MAX_BATTLE",
       "skuEnableTime": "2023-01-01T11:00:01",
-      "skuDisableTime": "2026-01-25T20:00:00",
+      "skuDisableTime": "2026-03-28T17:00:00",
       "skuEnableTimeUtcMs": "1672570801000",
-      "skuDisableTimeUtcMs": "1769371200000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPreciousPalsAvatar_1024x576.jpg"
+      "skuDisableTimeUtcMs": "1774717200000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-gmax-pikachu-2026-nologo.jpg"
     }
   },
   {

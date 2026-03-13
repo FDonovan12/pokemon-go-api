@@ -470,65 +470,51 @@
       "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
       "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
       "globalEventTicket": {
-        "eventStartTime": "2025-08-25T10:00:00",
-        "eventEndTime": "2025-08-31T20:00:00",
-        "itemBagDescriptionKey": "item_event_ticket_evergreen_desc_SunkissedETR0825",
+        "eventStartTime": "2026-03-21T14:00:00",
+        "eventEndTime": "2026-03-21T17:00:00",
+        "itemBagDescriptionKey": "item_event_ticket_pink_desc_WaterRRD26",
         "giftable": true,
         "giftItem": "ITEM_EVENT_TICKET_04_TO_GIFT",
-        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-sunkissed-shores-encounter-ticket-nologo-2025.jpg",
+        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-replay-water-research-day-2026-nologo.jpg",
         "displayV2Enabled": true,
-        "backgroundImageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-sunkissed-shores-encounter-ticket-nologo-2025.jpg",
-        "eventDatetimeRangeKey": "event_datetime_range_key_SunkissedETR0825",
-        "textRewardsKey": "text_rewards_key_SunkissedETR0825",
+        "backgroundImageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-replay-water-research-day-2026-nologo.jpg",
+        "eventDatetimeRangeKey": "event_datetime_range_key_WaterRRD26",
+        "textRewardsKey": "text_rewards_key_WaterRRD26",
         "iconRewards": [
           {
             "type": "POKEMON_ENCOUNTER",
             "pokemonEncounter": {
-              "pokemonId": "SLAKOTH",
+              "pokemonId": "FEEBAS",
               "pokemonDisplay": {
-                "costume": "SUMMER_2024"
+                "form": "FEEBAS_NORMAL"
               }
-            }
-          },
-          {
-            "type": "ITEM",
-            "item": {
-              "item": "ITEM_PAID_RAID_TICKET",
-              "amount": 2
             }
           },
           {
             "type": "POKEMON_ENCOUNTER",
             "pokemonEncounter": {
-              "pokemonId": "DONDOZO"
+              "pokemonId": "LOTAD",
+              "pokemonDisplay": {
+                "form": "LOTAD_NORMAL"
+              }
+            }
+          },
+          {
+            "type": "POKEMON_ENCOUNTER",
+            "pokemonEncounter": {
+              "pokemonId": "CLAMPERL",
+              "pokemonDisplay": {
+                "form": "CLAMPERL_NORMAL"
+              }
             }
           }
         ],
         "detailsLinkKey": "details_link_key",
-        "clientEventStartTimeUtcMs": "1756116000000",
-        "clientEventEndTimeUtcMs": "1756670400000"
+        "clientEventStartTimeUtcMs": "1774101600000",
+        "clientEventEndTimeUtcMs": "1774112400000"
       },
-      "nameOverride": "general1.ticket._SunkissedETR0825_title",
-      "descriptionOverride": "item_event_ticket_evergreen_desc_SunkissedETR0825"
-    }
-  },
-  {
-    "templateId": "ITEM_EVENT_TICKET_04_TO_GIFT",
-    "data": {
-      "itemId": "ITEM_EVENT_TICKET_04_TO_GIFT",
-      "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
-      "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
-      "globalEventTicket": {
-        "eventStartTime": "2025-08-25T10:00:00",
-        "eventEndTime": "2025-08-31T20:00:00",
-        "itemBagDescriptionKey": "item_event_ticket_evergreen_details_SunkissedETR0825",
-        "ticketItem": "ITEM_EVENT_TICKET_04",
-        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-sunkissed-shores-encounter-ticket-nologo-2025.jpg",
-        "clientEventStartTimeUtcMs": "1756116000000",
-        "clientEventEndTimeUtcMs": "1756670400000"
-      },
-      "ignoreInventorySpace": true,
-      "descriptionOverride": "item_event_ticket_evergreen_details_SunkissedETR0825"
+      "nameOverride": "general1.ticket.2_WaterRRD26_title",
+      "descriptionOverride": "item_event_ticket_pink_details_WaterRRD26"
     }
   },
   {
@@ -538,47 +524,35 @@
       "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
       "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
       "globalEventTicket": {
-        "eventStartTime": "2026-01-20T10:00:00",
-        "eventEndTime": "2026-01-25T20:00:00",
-        "itemBagDescriptionKey": "item_event_ticket_gray_details_buddy_event",
+        "eventStartTime": "2026-03-28T14:00:00",
+        "eventEndTime": "2026-03-28T17:00:00",
+        "itemBagDescriptionKey": "item_event_ticket_05_details_GMAX_PIKACHU_MAX_BATTLE",
         "giftable": true,
         "giftItem": "ITEM_EVENT_TICKET_05_TO_GIFT",
-        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPreciousPalsAvatar_1024x576.jpg",
+        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-gmax-pikachu-2026-nologo.jpg",
         "displayV2Enabled": true,
-        "backgroundImageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPreciousPalsAvatar_1024x576.jpg",
-        "eventDatetimeRangeKey": "event_datetime_range_key_buddy_event",
-        "textRewardsKey": "text_rewards_key_buddy_event",
+        "backgroundImageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-gmax-pikachu-2026-nologo.jpg",
+        "eventDatetimeRangeKey": "event_datetime_range_key_GMAX_PIKACHU_MAX_BATTLE",
+        "textRewardsKey": "text_rewards_key_GMAX_PIKACHU_MAX_BATTLE",
         "iconRewards": [
-          {
-            "type": "AVATAR_CLOTHING",
-            "neutralAvatarItemTemplate": {
-              "itemTemplateId": "N_AVATAR_n_pose_heart",
-              "displayTemplateId": "N_DISPLAY_n_pose_heart"
-            }
-          },
-          {
-            "type": "POKEMON_ENCOUNTER",
-            "pokemonEncounter": {
-              "pokemonId": "FIDOUGH",
-              "pokemonDisplay": {
-                "form": "FIDOUGH_NORMAL"
-              }
-            }
-          },
           {
             "type": "ITEM",
             "item": {
-              "item": "ITEM_POFFIN",
+              "item": "ITEM_MAX_BOOST",
               "amount": 1
             }
+          },
+          {
+            "type": "EXPERIENCE",
+            "exp": 25000
           }
         ],
-        "detailsLinkKey": "details_link_key",
-        "clientEventStartTimeUtcMs": "1768903200000",
-        "clientEventEndTimeUtcMs": "1769371200000"
+        "detailsLinkKey": "details_link_key_GMAX_PIKACHU_MAX_BATTLE",
+        "clientEventStartTimeUtcMs": "1774706400000",
+        "clientEventEndTimeUtcMs": "1774717200000"
       },
-      "nameOverride": "general1.ticket.5_buddy_event_title",
-      "descriptionOverride": "item_event_ticket_gray_desc_buddy_event"
+      "nameOverride": "general2.ticket5.GMAX_PIKACHU_MAX_BATTLE",
+      "descriptionOverride": "item_event_ticket_05_desc_GMAX_PIKACHU_MAX_BATTLE"
     }
   },
   {
@@ -588,16 +562,18 @@
       "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
       "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
       "globalEventTicket": {
-        "eventStartTime": "2026-01-20T10:00:00",
-        "eventEndTime": "2026-01-25T20:00:00",
-        "itemBagDescriptionKey": "item_event_ticket_gray_details_buddy_event",
+        "eventStartTime": "2026-03-28T14:00:00",
+        "eventEndTime": "2026-03-28T17:00:00",
+        "itemBagDescriptionKey": "item_event_ticket_05_details_GMAX_PIKACHU_MAX_BATTLE",
         "ticketItem": "ITEM_EVENT_TICKET_05",
-        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPreciousPalsAvatar_1024x576.jpg",
-        "clientEventStartTimeUtcMs": "1768903200000",
-        "clientEventEndTimeUtcMs": "1769371200000"
+        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-gmax-pikachu-2026-nologo.jpg",
+        "backgroundImageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-gmax-pikachu-2026-nologo.jpg",
+        "clientEventStartTimeUtcMs": "1774706400000",
+        "clientEventEndTimeUtcMs": "1774717200000"
       },
       "ignoreInventorySpace": true,
-      "descriptionOverride": "item_event_ticket_gray_desc_buddy_event"
+      "nameOverride": "general2.ticket5.GMAX_PIKACHU_MAX_BATTLE",
+      "descriptionOverride": "item_event_ticket_05_desc_GMAX_PIKACHU_MAX_BATTLE"
     }
   },
   {

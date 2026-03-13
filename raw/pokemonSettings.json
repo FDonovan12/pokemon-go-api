@@ -198975,11 +198975,13 @@
       },
       "quickMoves": [
         "STRUGGLE_BUG_FAST",
-        "CONFUSION_FAST"
+        "CONFUSION_FAST",
+        "PSYCHO_CUT_FAST"
       ],
       "cinematicMoves": [
         "BUG_BUZZ",
-        "PSYCHIC"
+        "PSYCHIC",
+        "PSYSHOCK"
       ],
       "pokedexHeightM": 0.4,
       "pokedexWeightKg": 40.8,
@@ -199047,11 +199049,13 @@
       },
       "quickMoves": [
         "STRUGGLE_BUG_FAST",
-        "CONFUSION_FAST"
+        "CONFUSION_FAST",
+        "PSYCHO_CUT_FAST"
       ],
       "cinematicMoves": [
         "BUG_BUZZ",
-        "PSYCHIC"
+        "PSYCHIC",
+        "PSYSHOCK"
       ],
       "pokedexHeightM": 0.4,
       "pokedexWeightKg": 40.8,

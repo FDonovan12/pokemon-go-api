@@ -5711,6 +5711,20 @@
     }
   },
   {
+    "templateId": "N_DISPLAY_n_shirt_disguise-hoodoff_0",
+    "data": {
+      "iconAddress": "n_shirt_disguise-hoodoff_0_icon",
+      "displayStringId": "avatar_shirt_disguise-hoodoff"
+    }
+  },
+  {
+    "templateId": "N_DISPLAY_n_shirt_disguise-hoodon_0",
+    "data": {
+      "iconAddress": "questionmark_icon",
+      "displayStringId": "avatar_generic_name"
+    }
+  },
+  {
     "templateId": "N_DISPLAY_n_shirt_divingsuit_0",
     "data": {
       "iconAddress": "n_shirt_divingsuit_0_icon",
