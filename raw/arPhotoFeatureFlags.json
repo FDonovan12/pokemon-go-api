@@ -10,9 +10,6 @@
         "SILVALLY",
         "MINIOR",
         "MAGEARNA",
-        "BLIPBUG",
-        "DOTTLER",
-        "ORBEETLE",
         "CHEWTLE",
         "DREDNAW",
         "SILICOBRA",
@@ -455,7 +452,7 @@
           ]
         }
       ],
-      "showSticker": "ALWAYS_SHOW",
+      "showSticker": "SOMETIMES_SHOW",
       "mainMenuEntryEnabled": -1412802175,
       "arMenuEntryEnabled": -716916653,
       "shareFunctionalityEnabled": 295065062,

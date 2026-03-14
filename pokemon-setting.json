@@ -34471,12 +34471,12 @@
         },
         "quickMoves": [
           "SHADOW_CLAW_FAST",
-          "CHARM_FAST"
+          "HEX_FAST"
         ],
         "cinematicMoves": [
           "SHADOW_SNEAK",
           "PLAY_ROUGH",
-          "SHADOW_BALL"
+          "THUNDER"
         ],
         "encounter": {
           "stardustCaptureReward": 100
@@ -34494,12 +34494,12 @@
         },
         "quickMoves": [
           "SHADOW_CLAW_FAST",
-          "CHARM_FAST"
+          "HEX_FAST"
         ],
         "cinematicMoves": [
           "SHADOW_SNEAK",
           "PLAY_ROUGH",
-          "SHADOW_BALL"
+          "THUNDER"
         ],
         "encounter": {
           "stardustCaptureReward": 100

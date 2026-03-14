@@ -190828,8 +190828,14 @@
       "pokemonId": "MIMIKYU",
       "type": "POKEMON_TYPE_GHOST",
       "type2": "POKEMON_TYPE_FAIRY",
-      "camera": {},
+      "camera": {
+        "cylinderRadiusM": 0.32,
+        "cylinderHeightM": 0.35
+      },
       "encounter": {
+        "collisionRadiusM": 0.222,
+        "collisionHeightM": 0.37,
+        "collisionHeadRadiusM": 0.222,
         "movementType": "MOVEMENT_JUMP",
         "attackProbability": 0.1,
         "dodgeProbability": 0.15,
@@ -190846,12 +190852,12 @@
       },
       "quickMoves": [
         "SHADOW_CLAW_FAST",
-        "CHARM_FAST"
+        "HEX_FAST"
       ],
       "cinematicMoves": [
         "SHADOW_SNEAK",
         "PLAY_ROUGH",
-        "SHADOW_BALL"
+        "THUNDER"
       ],
       "pokedexHeightM": 0.2,
       "pokedexWeightKg": 0.7,
@@ -190859,19 +190865,24 @@
       "weightStdDev": 0.0875,
       "familyId": "FAMILY_MIMIKYU",
       "kmBuddyDistance": 5,
-      "modelHeight": 1,
-      "modelScaleV2": 1,
+      "modelHeight": 0.5,
+      "modelScaleV2": 1.09,
       "buddyOffsetMale": [
+        3,
         0,
-        0,
-        0
+        -7
       ],
       "buddyOffsetFemale": [
+        3,
         0,
-        0,
-        0
+        -7
       ],
       "buddyScale": 19,
+      "buddyPortraitOffset": [
+        3,
+        50,
+        -7
+      ],
       "thirdMove": {
         "stardustToUnlock": 50000,
         "candyToUnlock": 50
@@ -190880,7 +190891,26 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 2,
-      "ibfc": {},
+      "buddyPortraitRotation": [
+        0,
+        0,
+        0
+      ],
+      "ibfc": {
+        "combatEnable": true,
+        "defaultForm": "MIMIKYU_DISGUISED",
+        "alternateForm": "MIMIKYU_BUSTED",
+        "defaultToAlternateIbfcSettings": {
+          "animationDurationTurns": 5,
+          "animationPlayPoint": "BEFORE_CM_ATTACKER",
+          "ibfcVfxKey": "DEFAULT_TO_ALTERNATE"
+        },
+        "alternateToDefaultIbfcSettings": {
+          "animationDurationTurns": 5,
+          "animationPlayPoint": "BEFORE_CM_ATTACKER",
+          "ibfcVfxKey": "ALTERNATE_TO_DEFAULT"
+        }
+      },
       "breadTierGroup": "GROUP_2"
     }
   },
@@ -190890,8 +190920,14 @@
       "pokemonId": "MIMIKYU",
       "type": "POKEMON_TYPE_GHOST",
       "type2": "POKEMON_TYPE_FAIRY",
-      "camera": {},
+      "camera": {
+        "cylinderRadiusM": 0.32,
+        "cylinderHeightM": 0.35
+      },
       "encounter": {
+        "collisionRadiusM": 0.222,
+        "collisionHeightM": 0.37,
+        "collisionHeadRadiusM": 0.222,
         "movementType": "MOVEMENT_JUMP",
         "attackProbability": 0.1,
         "dodgeProbability": 0.15,
@@ -190908,12 +190944,12 @@
       },
       "quickMoves": [
         "SHADOW_CLAW_FAST",
-        "CHARM_FAST"
+        "HEX_FAST"
       ],
       "cinematicMoves": [
         "SHADOW_SNEAK",
         "PLAY_ROUGH",
-        "SHADOW_BALL"
+        "THUNDER"
       ],
       "pokedexHeightM": 0.2,
       "pokedexWeightKg": 0.7,
@@ -190921,20 +190957,25 @@
       "weightStdDev": 0.0875,
       "familyId": "FAMILY_MIMIKYU",
       "kmBuddyDistance": 5,
-      "modelHeight": 1,
-      "modelScaleV2": 1,
+      "modelHeight": 0.5,
+      "modelScaleV2": 1.09,
       "form": "MIMIKYU_BUSTED",
       "buddyOffsetMale": [
+        3,
         0,
-        0,
-        0
+        -7
       ],
       "buddyOffsetFemale": [
+        3,
         0,
-        0,
-        0
+        -7
       ],
       "buddyScale": 19,
+      "buddyPortraitOffset": [
+        3,
+        50,
+        -7
+      ],
       "thirdMove": {
         "stardustToUnlock": 50000,
         "candyToUnlock": 50
@@ -190943,6 +190984,11 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 2,
+      "buddyPortraitRotation": [
+        0,
+        0,
+        0
+      ],
       "ibfc": {},
       "breadTierGroup": "GROUP_2"
     }
@@ -190953,8 +190999,14 @@
       "pokemonId": "MIMIKYU",
       "type": "POKEMON_TYPE_GHOST",
       "type2": "POKEMON_TYPE_FAIRY",
-      "camera": {},
+      "camera": {
+        "cylinderRadiusM": 0.32,
+        "cylinderHeightM": 0.35
+      },
       "encounter": {
+        "collisionRadiusM": 0.222,
+        "collisionHeightM": 0.37,
+        "collisionHeadRadiusM": 0.222,
         "movementType": "MOVEMENT_JUMP",
         "attackProbability": 0.1,
         "dodgeProbability": 0.15,
@@ -190971,12 +191023,12 @@
       },
       "quickMoves": [
         "SHADOW_CLAW_FAST",
-        "CHARM_FAST"
+        "HEX_FAST"
       ],
       "cinematicMoves": [
         "SHADOW_SNEAK",
         "PLAY_ROUGH",
-        "SHADOW_BALL"
+        "THUNDER"
       ],
       "pokedexHeightM": 0.2,
       "pokedexWeightKg": 0.7,
@@ -190984,20 +191036,25 @@
       "weightStdDev": 0.0875,
       "familyId": "FAMILY_MIMIKYU",
       "kmBuddyDistance": 5,
-      "modelHeight": 1,
-      "modelScaleV2": 1,
+      "modelHeight": 0.5,
+      "modelScaleV2": 1.09,
       "form": "MIMIKYU_DISGUISED",
       "buddyOffsetMale": [
+        3,
         0,
-        0,
-        0
+        -7
       ],
       "buddyOffsetFemale": [
+        3,
         0,
-        0,
-        0
+        -7
       ],
       "buddyScale": 19,
+      "buddyPortraitOffset": [
+        3,
+        50,
+        -7
+      ],
       "thirdMove": {
         "stardustToUnlock": 50000,
         "candyToUnlock": 50
@@ -191006,6 +191063,11 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 2,
+      "buddyPortraitRotation": [
+        0,
+        0,
+        0
+      ],
       "ibfc": {},
       "breadTierGroup": "GROUP_2"
     }
