@@ -35798,7 +35798,11 @@
         "cinematicMoves": [
           "FLAME_CHARGE",
           "FLAMETHROWER",
-          "FOCUS_BLAST"
+          "FOCUS_BLAST",
+          "PYROBALL"
+        ],
+        "eliteCinematicMove": [
+          "BLAST_BURN"
         ],
         "encounter": {
           "stardustCaptureReward": 500

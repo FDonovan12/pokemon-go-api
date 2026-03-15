@@ -197287,7 +197287,8 @@
       "cinematicMoves": [
         "FLAME_CHARGE",
         "FLAMETHROWER",
-        "FOCUS_BLAST"
+        "FOCUS_BLAST",
+        "PYROBALL"
       ],
       "pokedexHeightM": 1.4,
       "pokedexWeightKg": 33,
@@ -197317,6 +197318,9 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 2,
+      "eliteCinematicMove": [
+        "BLAST_BURN"
+      ],
       "raidBossDistanceOffset": 9,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -197360,7 +197364,8 @@
       "cinematicMoves": [
         "FLAME_CHARGE",
         "FLAMETHROWER",
-        "FOCUS_BLAST"
+        "FOCUS_BLAST",
+        "PYROBALL"
       ],
       "pokedexHeightM": 1.4,
       "pokedexWeightKg": 33,
@@ -197391,6 +197396,9 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 2,
+      "eliteCinematicMove": [
+        "BLAST_BURN"
+      ],
       "raidBossDistanceOffset": 9,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
