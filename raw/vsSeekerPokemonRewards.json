@@ -651,9 +651,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "ZACIAN",
+            "pokemonId": "ZAMAZENTA",
             "pokemonDisplay": {
-              "form": "ZACIAN_HERO"
+              "form": "ZAMAZENTA_HERO"
             }
           },
           "unlockedAtRank": 20,
@@ -1331,9 +1331,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "ZACIAN",
+            "pokemonId": "ZAMAZENTA",
             "pokemonDisplay": {
-              "form": "ZACIAN_HERO"
+              "form": "ZAMAZENTA_HERO"
             }
           },
           "unlockedAtRank": 20,
