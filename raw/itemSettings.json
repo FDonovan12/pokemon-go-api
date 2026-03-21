@@ -311,11 +311,27 @@
         "eventPassId": "EVENT_PASS_BUGOUTBUDDIES2026_EVENT"
       },
       "timePeriodCounters": {
-        "playerActivity": {
-          "limit": 500
-        }
+        "playerActivity": {}
       },
       "hideItemInInventory": true
+    }
+  },
+  {
+    "templateId": "ITEM_EVENT_PASS_POINT_LIVE_OPS_06",
+    "data": {
+      "itemId": "ITEM_EVENT_PASS_POINT_LIVE_OPS_06",
+      "itemType": "ITEM_TYPE_EVENT_PASS_POINT",
+      "category": "ITEM_CATEGORY_EVENT_PASS_POINT",
+      "ignoreInventorySpace": true,
+      "itemCap": 999999,
+      "eventPassPoint": {
+        "eventPassId": "EVENT_PASS_SHOCKINGLYGOOD2026_EVENT"
+      },
+      "timePeriodCounters": {
+        "playerActivity": {
+          "limit": 300
+        }
+      }
     }
   },
   {
@@ -514,6 +530,25 @@
         "clientEventEndTimeUtcMs": "1774112400000"
       },
       "nameOverride": "general1.ticket.2_WaterRRD26_title",
+      "descriptionOverride": "item_event_ticket_pink_details_WaterRRD26"
+    }
+  },
+  {
+    "templateId": "ITEM_EVENT_TICKET_04_TO_GIFT",
+    "data": {
+      "itemId": "ITEM_EVENT_TICKET_04_TO_GIFT",
+      "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
+      "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
+      "globalEventTicket": {
+        "eventStartTime": "2026-03-21T14:00:00",
+        "eventEndTime": "2026-03-21T17:00:00",
+        "itemBagDescriptionKey": "item_event_ticket_pink_desc_WaterRRD26",
+        "ticketItem": "ITEM_EVENT_TICKET_04",
+        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-replay-water-research-day-2026-nologo.jpg",
+        "clientEventStartTimeUtcMs": "1774101600000",
+        "clientEventEndTimeUtcMs": "1774112400000"
+      },
+      "ignoreInventorySpace": true,
       "descriptionOverride": "item_event_ticket_pink_details_WaterRRD26"
     }
   },

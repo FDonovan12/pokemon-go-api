@@ -1,5 +1,35 @@
 [
   {
+    "templateId": "APRIL1_2026_DELUXE_EVENT_PASS_TRACK_UNLOCK",
+    "data": {
+      "sku": "pgorelease.april1_2026_deluxe_event_pass_track_unlock",
+      "sortOrder": 1,
+      "hidden": true,
+      "title": "season_pass_premium_track_title_shockingly_good_2026",
+      "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
+      "skuEnableTime": "2025-03-31T10:00:00",
+      "skuDisableTime": "2025-04-08T20:00:00",
+      "skuEnableTimeUtcMs": "1743415200000",
+      "skuDisableTimeUtcMs": "1744142400000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-paid-shockingly-good-time-2026-nologo.jpg"
+    }
+  },
+  {
+    "templateId": "APRIL1_2026_DELUXE_EVENT_PASS_TRACK_UNLOCK_PLUS_POINTS",
+    "data": {
+      "sku": "pgorelease.april1_2026_deluxe_event_pass_track_unlock_plus_points",
+      "sortOrder": 1,
+      "hidden": true,
+      "title": "season_pass_premium_track_plus_six_ranks_title_shockingly_good_2026",
+      "description": "gotour_2025_deluxe_event_pass_track_unlock_plus_points_description",
+      "skuEnableTime": "2025-03-31T10:00:00",
+      "skuDisableTime": "2025-04-08T20:00:00",
+      "skuEnableTimeUtcMs": "1743415200000",
+      "skuDisableTimeUtcMs": "1744142400000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-paid-shockingly-good-time-2026-nologo.jpg"
+    }
+  },
+  {
     "templateId": "BUNDLE_EC_200_RPP_1",
     "data": {
       "sku": "BUNDLE_EC_200_RPP_1",
@@ -14,6 +44,21 @@
       "showDiscountTag": true,
       "showStrikethroughPrice": true,
       "totalValue": 885
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_APRIL1_SEASON_STORE_REDIRECT",
+    "data": {
+      "sku": "pgorelease.april1_2026_deluxe_event_pass_track_redirect",
+      "sortOrder": 1,
+      "hidden": true,
+      "title": "season_pass_premium_track_title_shockingly_good_2026",
+      "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
+      "skuEnableTime": "2025-03-31T10:00:00",
+      "skuDisableTime": "2025-04-08T20:00:00",
+      "skuEnableTimeUtcMs": "1743415200000",
+      "skuDisableTimeUtcMs": "1744142400000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-paid-shockingly-good-time-2026-nologo.jpg"
     }
   },
   {
@@ -9394,15 +9439,31 @@
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 1,
       "hidden": true,
-      "spriteId": "general2.ticket.4",
-      "title": "general1.ticket._SunkissedETR0825_title",
+      "spriteId": "general2.ticket.2",
+      "title": "general1.ticket.2_WaterRRD26_title",
       "skuEnableTime": "2023-01-01T11:00:01",
-      "skuDisableTime": "2025-08-31T20:00:00",
+      "skuDisableTime": "2026-03-21T17:00:00",
       "skuEnableTimeUtcMs": "1672570801000",
-      "skuDisableTimeUtcMs": "1756670400000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-sunkissed-shores-encounter-ticket-nologo-2025.jpg",
-      "webstoreSkuId": "web-encounter-2025-ticket-box",
+      "skuDisableTimeUtcMs": "1774112400000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-replay-water-research-day-2026-nologo.jpg",
+      "webstoreSkuId": "web-water-research-day-ticket-box",
       "webstoreSkuPriceE6": 1990000
+    }
+  },
+  {
+    "templateId": "general2.ticket.4.giftable",
+    "data": {
+      "sku": "general2.ticket.4.giftable",
+      "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
+      "sortOrder": 1,
+      "hidden": true,
+      "spriteId": "general2.ticket.2",
+      "title": "general1.ticket.2_WaterRRD26_title",
+      "skuEnableTime": "2023-01-01T11:00:01",
+      "skuDisableTime": "2026-03-21T17:00:00",
+      "skuEnableTimeUtcMs": "1672570801000",
+      "skuDisableTimeUtcMs": "1774112400000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-replay-water-research-day-2026-nologo.jpg"
     }
   },
   {
@@ -10849,6 +10910,40 @@
       "skuEnableTimeUtcMs": "1552550400000",
       "skuDisableTimeUtcMs": "1773507600000",
       "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-scorbunny-community-day-2026-nologo.jpg"
+    }
+  },
+  {
+    "templateId": "pgorelease.general2.ticket.4",
+    "data": {
+      "sku": "pgorelease.general2.ticket.4",
+      "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
+      "sortOrder": 1,
+      "hidden": true,
+      "spriteId": "general2.ticket.2",
+      "title": "general1.ticket.2_WaterRRD26_title",
+      "skuEnableTime": "2023-01-01T11:00:01",
+      "skuDisableTime": "2026-03-21T17:00:00",
+      "skuEnableTimeUtcMs": "1672570801000",
+      "skuDisableTimeUtcMs": "1774112400000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-replay-water-research-day-2026-nologo.jpg",
+      "webstoreSkuId": "web-water-research-day-ticket-box",
+      "webstoreSkuPriceE6": 1990000
+    }
+  },
+  {
+    "templateId": "pgorelease.general2.ticket.4.giftable",
+    "data": {
+      "sku": "pgorelease.general2.ticket.4.giftable",
+      "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
+      "sortOrder": 1,
+      "hidden": true,
+      "spriteId": "general2.ticket.2",
+      "title": "general1.ticket.2_WaterRRD26_title",
+      "skuEnableTime": "2023-01-01T11:00:01",
+      "skuDisableTime": "2026-03-21T17:00:00",
+      "skuEnableTimeUtcMs": "1672570801000",
+      "skuDisableTimeUtcMs": "1774112400000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-replay-water-research-day-2026-nologo.jpg"
     }
   },
   {
