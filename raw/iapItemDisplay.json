@@ -7766,15 +7766,9 @@
       "sku": "bundle.hisuiraidday2023.1",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 1,
+      "hidden": true,
       "spriteId": "bundle.general.remotebox.medium.1",
-      "title": "great_raid_box_title",
-      "skuEnableTime": "2022-10-13T12:00:00",
-      "skuDisableTime": "2026-03-23T17:00:00",
-      "skuEnableTimeUtcMs": "1665662400000",
-      "skuDisableTimeUtcMs": "1774285200000",
-      "showDiscountTag": true,
-      "showStrikethroughPrice": true,
-      "totalValue": 1035
+      "title": "great_raid_box_title"
     }
   },
   {

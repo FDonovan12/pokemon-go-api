@@ -538,6 +538,10 @@
         {
           "form": "PIKACHU_GOTOUR_2026_C_02",
           "isCostume": true
+        },
+        {
+          "form": 3340,
+          "isCostume": true
         }
       ]
     }

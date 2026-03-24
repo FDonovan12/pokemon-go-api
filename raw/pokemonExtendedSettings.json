@@ -1673,6 +1673,21 @@
     }
   },
   {
+    "templateId": "EXTENDED_V0025_POKEMON_PIKACHU_BB_2026",
+    "data": {
+      "uniqueId": "PIKACHU",
+      "form": 3340,
+      "sizeSettings": {
+        "xxsLowerBound": 0.196,
+        "xsLowerBound": 0.2,
+        "mLowerBound": 0.3,
+        "mUpperBound": 0.5,
+        "xlUpperBound": 0.6,
+        "xxlUpperBound": 0.7
+      }
+    }
+  },
+  {
     "templateId": "EXTENDED_V0025_POKEMON_PIKACHU_COPY_2019",
     "data": {
       "uniqueId": "PIKACHU",

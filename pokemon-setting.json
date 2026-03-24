@@ -1063,6 +1063,28 @@
         },
         "formName": "adventure-hat-2020"
       },
+      "bb-2026": {
+        "id": "V0025_POKEMON_PIKACHU_BB_2026",
+        "type": "POKEMON_TYPE_ELECTRIC",
+        "stats": {
+          "baseStamina": 111,
+          "baseAttack": 112,
+          "baseDefense": 96
+        },
+        "quickMoves": [
+          "THUNDER_SHOCK_FAST",
+          "QUICK_ATTACK_FAST"
+        ],
+        "cinematicMoves": [
+          "DISCHARGE",
+          "THUNDERBOLT",
+          "WILD_CHARGE"
+        ],
+        "encounter": {
+          "stardustCaptureReward": 100
+        },
+        "formName": "bb-2026"
+      },
       "copy-2019": {
         "id": "V0025_POKEMON_PIKACHU_COPY_2019",
         "type": "POKEMON_TYPE_ELECTRIC",

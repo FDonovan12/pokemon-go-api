@@ -311,7 +311,9 @@
         "eventPassId": "EVENT_PASS_BUGOUTBUDDIES2026_EVENT"
       },
       "timePeriodCounters": {
-        "playerActivity": {}
+        "playerActivity": {
+          "limit": 500
+        }
       },
       "hideItemInInventory": true
     }
@@ -331,7 +333,8 @@
         "playerActivity": {
           "limit": 300
         }
-      }
+      },
+      "hideItemInInventory": true
     }
   },
   {
@@ -1980,6 +1983,16 @@
       "statIncrease": {
         "statsToIncreaseLimit": 1
       }
+    }
+  },
+  {
+    "templateId": "ITEM_SOFT_SFIDA",
+    "data": {
+      "itemId": "ITEM_SOFT_SFIDA",
+      "itemType": "ITEM_TYPE_SOFT_SFIDA",
+      "category": "ITEM_CATEGORY_UTILITES",
+      "dropTrainerLevel": 99,
+      "ignoreInventorySpace": true
     }
   },
   {
