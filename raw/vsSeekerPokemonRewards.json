@@ -651,9 +651,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "ZAMAZENTA",
+            "pokemonId": "REGIELEKI",
             "pokemonDisplay": {
-              "form": "ZAMAZENTA_HERO"
+              "form": "REGIELEKI_NORMAL"
             }
           },
           "unlockedAtRank": 20,
@@ -1331,9 +1331,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "ZAMAZENTA",
+            "pokemonId": "REGIELEKI",
             "pokemonDisplay": {
-              "form": "ZAMAZENTA_HERO"
+              "form": "REGIELEKI_NORMAL"
             }
           },
           "unlockedAtRank": 20,
