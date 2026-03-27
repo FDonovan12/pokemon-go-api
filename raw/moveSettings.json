@@ -5881,6 +5881,24 @@
     }
   },
   {
+    "templateId": "V0494_MOVE_GIGATON_HAMMER",
+    "data": {
+      "movementId": 494,
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_STEEL",
+      "power": 300,
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "gigaton_hammer",
+      "durationMs": 3000,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 3100,
+      "energyDelta": -100
+    }
+  },
+  {
     "templateId": "VN_BM_001",
     "data": {
       "movementId": "VN_BM_001",

@@ -1574,6 +1574,20 @@
     }
   },
   {
+    "templateId": "sequence_gigaton_hammer",
+    "data": {
+      "sequence": [
+        "anim attacker atk-move",
+        "wait 0.5",
+        "vfx gigaton_hammer",
+        "sfx attacker 587-0_gigaton_hammer",
+        "wait 1.0",
+        "sys ui-sync",
+        "sys complete"
+      ]
+    }
+  },
+  {
     "templateId": "sequence_glaciate",
     "data": {
       "sequence": [

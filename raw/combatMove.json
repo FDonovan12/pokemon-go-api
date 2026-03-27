@@ -3609,5 +3609,15 @@
       "vfxName": "pyroball",
       "energyDelta": -40
     }
+  },
+  {
+    "templateId": "COMBAT_V0494_MOVE_GIGATON_HAMMER",
+    "data": {
+      "uniqueId": 494,
+      "type": "POKEMON_TYPE_STEEL",
+      "power": 130,
+      "vfxName": "gigaton_hammer",
+      "energyDelta": -60
+    }
   }
 ]

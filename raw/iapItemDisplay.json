@@ -7275,9 +7275,12 @@
       "sku": "bundle.gmaxday.1",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 1,
-      "hidden": true,
       "spriteId": "bundle3.sprite.d",
       "title": "ace_box_title",
+      "skuEnableTime": "2019-10-31T21:00:00",
+      "skuDisableTime": "2026-03-28T20:00:00",
+      "skuEnableTimeUtcMs": "1572555600000",
+      "skuDisableTimeUtcMs": "1774728000000",
       "showDiscountTag": true,
       "showStrikethroughPrice": true,
       "totalValue": 1000
