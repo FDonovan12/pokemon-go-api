@@ -5883,7 +5883,7 @@
   {
     "templateId": "V0494_MOVE_GIGATON_HAMMER",
     "data": {
-      "movementId": 494,
+      "movementId": "GIGATON_HAMMER",
       "animationId": 5,
       "pokemonType": "POKEMON_TYPE_STEEL",
       "power": 300,

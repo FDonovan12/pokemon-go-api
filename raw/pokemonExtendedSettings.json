@@ -1676,7 +1676,7 @@
     "templateId": "EXTENDED_V0025_POKEMON_PIKACHU_BB_2026",
     "data": {
       "uniqueId": "PIKACHU",
-      "form": 3340,
+      "form": "PIKACHU_BB_2026",
       "sizeSettings": {
         "xxsLowerBound": 0.196,
         "xsLowerBound": 0.2,

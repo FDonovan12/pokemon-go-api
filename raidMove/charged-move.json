@@ -1,13 +1,4 @@
 {
-  "494": {
-    "id": "V0494_MOVE_GIGATON_HAMMER",
-    "movementId": 494,
-    "pokemonType": "POKEMON_TYPE_STEEL",
-    "power": 300,
-    "durationMs": 3000,
-    "energyDelta": -100,
-    "vfxName": "gigaton_hammer"
-  },
   "WRAP": {
     "id": "V0013_MOVE_WRAP",
     "movementId": "WRAP",
@@ -2162,5 +2153,14 @@
     "durationMs": 2000,
     "energyDelta": -100,
     "vfxName": "pyroball"
+  },
+  "GIGATON_HAMMER": {
+    "id": "V0494_MOVE_GIGATON_HAMMER",
+    "movementId": "GIGATON_HAMMER",
+    "pokemonType": "POKEMON_TYPE_STEEL",
+    "power": 300,
+    "durationMs": 3000,
+    "energyDelta": -100,
+    "vfxName": "gigaton_hammer"
   }
 }
