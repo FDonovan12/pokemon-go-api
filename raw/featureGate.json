@@ -103,5 +103,12 @@
         }
       ]
     }
+  },
+  {
+    "templateId": "STORE_REFRESH_FEATURE_GATE",
+    "data": {
+      "status": 87970808,
+      "rolloutPercentage": 100
+    }
   }
 ]

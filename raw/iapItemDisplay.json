@@ -4,13 +4,12 @@
     "data": {
       "sku": "pgorelease.april1_2026_deluxe_event_pass_track_unlock",
       "sortOrder": 1,
-      "hidden": true,
       "title": "season_pass_premium_track_title_shockingly_good_2026",
       "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
       "skuEnableTime": "2025-03-31T10:00:00",
-      "skuDisableTime": "2025-04-08T20:00:00",
+      "skuDisableTime": "2026-04-08T20:00:00",
       "skuEnableTimeUtcMs": "1743415200000",
-      "skuDisableTimeUtcMs": "1744142400000",
+      "skuDisableTimeUtcMs": "1775678400000",
       "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-paid-shockingly-good-time-2026-nologo.jpg"
     }
   },
@@ -19,13 +18,12 @@
     "data": {
       "sku": "pgorelease.april1_2026_deluxe_event_pass_track_unlock_plus_points",
       "sortOrder": 1,
-      "hidden": true,
       "title": "season_pass_premium_track_plus_six_ranks_title_shockingly_good_2026",
       "description": "gotour_2025_deluxe_event_pass_track_unlock_plus_points_description",
       "skuEnableTime": "2025-03-31T10:00:00",
-      "skuDisableTime": "2025-04-08T20:00:00",
+      "skuDisableTime": "2026-04-08T20:00:00",
       "skuEnableTimeUtcMs": "1743415200000",
-      "skuDisableTimeUtcMs": "1744142400000",
+      "skuDisableTimeUtcMs": "1775678400000",
       "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-paid-shockingly-good-time-2026-nologo.jpg"
     }
   },
@@ -50,14 +48,14 @@
     "templateId": "EVENT_PASS_APRIL1_SEASON_STORE_REDIRECT",
     "data": {
       "sku": "pgorelease.april1_2026_deluxe_event_pass_track_redirect",
+      "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 1,
-      "hidden": true,
       "title": "season_pass_premium_track_title_shockingly_good_2026",
       "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
       "skuEnableTime": "2025-03-31T10:00:00",
-      "skuDisableTime": "2025-04-08T20:00:00",
+      "skuDisableTime": "2026-04-08T20:00:00",
       "skuEnableTimeUtcMs": "1743415200000",
-      "skuDisableTimeUtcMs": "1744142400000",
+      "skuDisableTimeUtcMs": "1775678400000",
       "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-paid-shockingly-good-time-2026-nologo.jpg"
     }
   },
@@ -7275,12 +7273,9 @@
       "sku": "bundle.gmaxday.1",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 1,
+      "hidden": true,
       "spriteId": "bundle3.sprite.d",
       "title": "ace_box_title",
-      "skuEnableTime": "2019-10-31T21:00:00",
-      "skuDisableTime": "2026-03-28T20:00:00",
-      "skuEnableTimeUtcMs": "1572555600000",
-      "skuDisableTimeUtcMs": "1774728000000",
       "showDiscountTag": true,
       "showStrikethroughPrice": true,
       "totalValue": 1000
@@ -9471,6 +9466,7 @@
       "sku": "general2.ticket.5",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 1,
+      "hidden": true,
       "spriteId": "general2.ticket.5",
       "title": "general2.ticket5.GMAX_PIKACHU_MAX_BATTLE",
       "skuEnableTime": "2023-01-01T11:00:04",
@@ -9488,6 +9484,7 @@
       "sku": "general2.ticket.5.giftable",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 1,
+      "hidden": true,
       "spriteId": "general2.ticket.5",
       "title": "general2.ticket5.GMAX_PIKACHU_MAX_BATTLE",
       "skuEnableTime": "2023-01-01T11:00:04",
@@ -9869,6 +9866,34 @@
       "showDiscountTag": true,
       "showStrikethroughPrice": true,
       "totalValue": 300
+    }
+  },
+  {
+    "templateId": "pgorelease.april1_2026_deluxe_event_pass_track_unlock",
+    "data": {
+      "sku": "pgorelease.april1_2026_deluxe_event_pass_track_unlock",
+      "sortOrder": 1,
+      "title": "season_pass_premium_track_title_shockingly_good_2026",
+      "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
+      "skuEnableTime": "2025-03-31T10:00:00",
+      "skuDisableTime": "2026-04-08T20:00:00",
+      "skuEnableTimeUtcMs": "1743415200000",
+      "skuDisableTimeUtcMs": "1775678400000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-paid-shockingly-good-time-2026-nologo.jpg"
+    }
+  },
+  {
+    "templateId": "pgorelease.april1_2026_deluxe_event_pass_track_unlock_plus_points",
+    "data": {
+      "sku": "pgorelease.april1_2026_deluxe_event_pass_track_unlock_plus_points",
+      "sortOrder": 1,
+      "title": "season_pass_premium_track_plus_six_ranks_title_shockingly_good_2026",
+      "description": "gotour_2025_deluxe_event_pass_track_unlock_plus_points_description",
+      "skuEnableTime": "2025-03-31T10:00:00",
+      "skuDisableTime": "2026-04-08T20:00:00",
+      "skuEnableTimeUtcMs": "1743415200000",
+      "skuDisableTimeUtcMs": "1775678400000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-paid-shockingly-good-time-2026-nologo.jpg"
     }
   },
   {
@@ -10949,6 +10974,7 @@
       "sku": "pgorelease.general2.ticket.5",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 1,
+      "hidden": true,
       "spriteId": "general2.ticket.2",
       "title": "general2.ticket5.GMAX_PIKACHU_MAX_BATTLE",
       "skuEnableTime": "2023-01-01T11:00:01",
@@ -10966,6 +10992,7 @@
       "sku": "pgorelease.general2.ticket.5.giftable",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 1,
+      "hidden": true,
       "spriteId": "general2.ticket.2",
       "title": "general2.ticket5.GMAX_PIKACHU_MAX_BATTLE",
       "skuEnableTime": "2023-01-01T11:00:01",

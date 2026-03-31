@@ -331,7 +331,7 @@
       },
       "timePeriodCounters": {
         "playerActivity": {
-          "limit": 300
+          "limit": 500
         }
       },
       "hideItemInInventory": true

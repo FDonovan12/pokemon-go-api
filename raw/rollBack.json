@@ -6,6 +6,12 @@
     }
   },
   {
+    "templateId": "BIDIRECTIONAL_FP_WEEKLY_CHALLENGE_REWARD_ROLL_BACK",
+    "data": {
+      "rollbackPercentage": 100
+    }
+  },
+  {
     "templateId": "DELAYED_NOTIF_ROLL_BACK",
     "data": {
       "rollbackPercentage": 100

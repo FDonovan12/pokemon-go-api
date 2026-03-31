@@ -66,5 +66,73 @@
       },
       "gracePeriodEndTime": "2026-04-09T10:00:00"
     }
+  },
+  {
+    "templateId": "EVENT_PASS_SHOCKINGLYGOOD2026_EVENT",
+    "data": {
+      "prefix": "EVENT_PASS_SHOCKINGLYGOOD2026_EVENT",
+      "pointsItemId": "ITEM_EVENT_PASS_POINT_LIVE_OPS_06",
+      "trackConditions": [
+        {
+          "track": "FREE",
+          "trackTitleKey": "season_pass_base_track_title_shockingly_good_2026"
+        },
+        {
+          "track": "PREMIUM",
+          "badge": "BADGE_EVENT_0188",
+          "trackTitleKey": "season_pass_premium_track_title_shockingly_good_2026"
+        }
+      ],
+      "expirationTime": "2026-04-06T20:00:00",
+      "maxTierLevel": 60,
+      "additionalBonusTiersLevel": 31,
+      "eventPassDisplaySettings": {
+        "bonusBoxes": [
+          {
+            "text": "quest_catch_pokemon_singular",
+            "iconType": "SPAWN_UNKNOWN",
+            "quantity": 5
+          },
+          {
+            "text": "quest_hatch_egg_singular",
+            "iconType": "EGG",
+            "quantity": 40
+          },
+          {
+            "text": "quest_win_raid_singular",
+            "iconType": "RAID",
+            "quantity": 100
+          }
+        ],
+        "eventPassTrackUpgradeDescriptions": [
+          {
+            "passTrackUpgradeHeaderDescription": "season_pass_shockingly_good_2026_track_upgrade_header_description",
+            "eventPassTrackToUpgradeTo": "PREMIUM",
+            "trackUnlockSkuId": "pgorelease.april1_2026_deluxe_event_pass_track_unlock",
+            "trackUnlockPlusPointsSkuId": "pgorelease.april1_2026_deluxe_event_pass_track_unlock_plus_points",
+            "eventDurationKey": "season_pass_shockingly_good_2026_event_duration",
+            "upgradeDescriptionKey": "season_pass_shockingly_good_2026_upgrade_description",
+            "ranksToHighlightRewards": [
+              15,
+              19,
+              30
+            ],
+            "detailsLinkKey": "season_pass_details_link_shockingly_good_2026",
+            "trackUnlockImageUrl": "https://storage.googleapis.com/prod-public-images/ic_eventpass_deluxe.png",
+            "trackUnlockPlusPointsImageUrl": "https://storage.googleapis.com/prod-public-images/ic_eventpass_deluxe_plus.png"
+          }
+        ],
+        "eventPassTitleKey": "season_pass_base_track_title_shockingly_good_2026",
+        "headerIconUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-s22-memories-in-motion-logo-2026-square.png",
+        "premiumRewardBannerTop": "event_pass_premium_reward_banner_top_text",
+        "premiumRewardBannerMiddle": "item_shockingly_good_milestone_name",
+        "premiumRewardBannerBottom": "event_pass_premium_reward_banner_bottom_text_shockingly_good_2026",
+        "premiumRewardBannerImageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FS22_MemoriesInMotion_Logo.png",
+        "premiumRewardsDescription": "season_pass_premium_rewards_desc_monthly_no_disclaimer",
+        "todayViewSection": "SEASONAL_EVENT_PASS_SECTION",
+        "sectionDisplayPriority": 12
+      },
+      "gracePeriodEndTime": "2026-04-08T20:00:00"
+    }
   }
 ]
