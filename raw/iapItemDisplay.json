@@ -19,7 +19,7 @@
       "sku": "pgorelease.april1_2026_deluxe_event_pass_track_unlock_plus_points",
       "sortOrder": 1,
       "title": "season_pass_premium_track_plus_six_ranks_title_shockingly_good_2026",
-      "description": "gotour_2025_deluxe_event_pass_track_unlock_plus_points_description",
+      "description": "event_pass_plus_points_6_ranks_description",
       "skuEnableTime": "2025-03-31T10:00:00",
       "skuDisableTime": "2026-04-08T20:00:00",
       "skuEnableTimeUtcMs": "1743415200000",
@@ -9400,13 +9400,13 @@
       "sortOrder": 2,
       "hidden": true,
       "spriteId": "general1.ticket.2",
-      "title": "general1.ticket_CD_Scorbunny26_title",
+      "title": "general1.ticket_CD_Tinkatink26_title",
       "skuEnableTime": "2019-03-14T08:00:00",
-      "skuDisableTime": "2026-03-14T17:00:00",
+      "skuDisableTime": "2026-04-11T17:00:00",
       "skuEnableTimeUtcMs": "1552550400000",
-      "skuDisableTimeUtcMs": "1773507600000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-scorbunny-community-day-2026-nologo.jpg",
-      "webstoreSkuId": "web-scorbunny-cd-26-ticket-box",
+      "skuDisableTimeUtcMs": "1775926800000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-tinkatink-community-day-2026-nologo.jpg",
+      "webstoreSkuId": "web-tinkatink-cd-deluxe",
       "webstoreSkuPriceE6": 1990000
     }
   },
@@ -9418,12 +9418,11 @@
       "sortOrder": 2,
       "hidden": true,
       "spriteId": "general1.ticket.2",
-      "title": "general1.ticket_CD_Scorbunny26_title",
+      "title": "general1.ticket_CD_Tinkatink26_title",
       "skuEnableTime": "2019-03-14T08:00:00",
-      "skuDisableTime": "2026-03-14T17:00:00",
+      "skuDisableTime": "2026-04-11T17:00:00",
       "skuEnableTimeUtcMs": "1552550400000",
-      "skuDisableTimeUtcMs": "1773507600000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-scorbunny-community-day-2026-nologo.jpg"
+      "skuDisableTimeUtcMs": "1775926800000"
     }
   },
   {
@@ -9497,35 +9496,19 @@
   {
     "templateId": "general2.ticket.6",
     "data": {
-      "sku": "general2.ticket.6",
+      "sku": "pgorelease.general2.ticket.6",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
-      "sortOrder": 2,
+      "sortOrder": 1,
       "hidden": true,
       "spriteId": "general2.ticket.6",
-      "title": "general2.ticket.6_EnamorusTherianRaidDay_title",
-      "skuEnableTime": "2019-03-14T08:00:00",
-      "skuDisableTime": "2026-02-14T17:00:00",
-      "skuEnableTimeUtcMs": "1552550400000",
-      "skuDisableTimeUtcMs": "1771088400000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Enamorus_Therian_Forme_RaidDay_v1-1024x576.jpg",
-      "webstoreSkuId": "web-enamorus-raid-ticket-box",
+      "title": "general2.ticket.6.REPLAY_GO_BIGGER",
+      "skuEnableTime": "2023-01-01T11:00:04",
+      "skuDisableTime": "2026-04-25T17:00:00",
+      "skuEnableTimeUtcMs": "1672570804000",
+      "skuDisableTimeUtcMs": "1777136400000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-gmax-kanto-max-battle-day-2026-nologo.jpg",
+      "webstoreSkuId": "web-gmax-kanto-box-ultra",
       "webstoreSkuPriceE6": 4990000
-    }
-  },
-  {
-    "templateId": "general2.ticket.6.giftable",
-    "data": {
-      "sku": "general2.ticket.6.giftable",
-      "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
-      "sortOrder": 2,
-      "hidden": true,
-      "spriteId": "general2.ticket.6",
-      "title": "general2.ticket.6_EnamorusTherianRaidDay_title",
-      "skuEnableTime": "2019-03-14T08:00:00",
-      "skuDisableTime": "2026-02-14T17:00:00",
-      "skuEnableTimeUtcMs": "1552550400000",
-      "skuDisableTimeUtcMs": "1771088400000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Enamorus_Therian_Forme_RaidDay_v1-1024x576.jpg"
     }
   },
   {
@@ -9888,7 +9871,7 @@
       "sku": "pgorelease.april1_2026_deluxe_event_pass_track_unlock_plus_points",
       "sortOrder": 1,
       "title": "season_pass_premium_track_plus_six_ranks_title_shockingly_good_2026",
-      "description": "gotour_2025_deluxe_event_pass_track_unlock_plus_points_description",
+      "description": "event_pass_plus_points_6_ranks_description",
       "skuEnableTime": "2025-03-31T10:00:00",
       "skuDisableTime": "2026-04-08T20:00:00",
       "skuEnableTimeUtcMs": "1743415200000",
@@ -10908,13 +10891,13 @@
       "sortOrder": 2,
       "hidden": true,
       "spriteId": "general1.ticket.2",
-      "title": "general1.ticket_CD_Scorbunny26_title",
+      "title": "general1.ticket_CD_Tinkatink26_title",
       "skuEnableTime": "2019-03-14T08:00:00",
-      "skuDisableTime": "2026-03-14T17:00:00",
+      "skuDisableTime": "2026-04-11T17:00:00",
       "skuEnableTimeUtcMs": "1552550400000",
-      "skuDisableTimeUtcMs": "1773507600000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-scorbunny-community-day-2026-nologo.jpg",
-      "webstoreSkuId": "web-scorbunny-cd-26-ticket-box",
+      "skuDisableTimeUtcMs": "1775926800000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-tinkatink-community-day-2026-nologo.jpg",
+      "webstoreSkuId": "web-tinkatink-cd-deluxe",
       "webstoreSkuPriceE6": 1990000
     }
   },
@@ -10926,12 +10909,11 @@
       "sortOrder": 2,
       "hidden": true,
       "spriteId": "general1.ticket.2",
-      "title": "general1.ticket_CD_Scorbunny26_title",
+      "title": "general1.ticket_CD_Tinkatink26_title",
       "skuEnableTime": "2019-03-14T08:00:00",
-      "skuDisableTime": "2026-03-14T17:00:00",
+      "skuDisableTime": "2026-04-11T17:00:00",
       "skuEnableTimeUtcMs": "1552550400000",
-      "skuDisableTimeUtcMs": "1773507600000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-scorbunny-community-day-2026-nologo.jpg"
+      "skuDisableTimeUtcMs": "1775926800000"
     }
   },
   {
@@ -11000,40 +10982,6 @@
       "skuEnableTimeUtcMs": "1672570801000",
       "skuDisableTimeUtcMs": "1774717200000",
       "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-gmax-pikachu-2026-nologo.jpg"
-    }
-  },
-  {
-    "templateId": "pgorelease.general2.ticket.6",
-    "data": {
-      "sku": "pgorelease.general2.ticket.6",
-      "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
-      "sortOrder": 2,
-      "hidden": true,
-      "spriteId": "general2.ticket.6",
-      "title": "general2.ticket.6_EnamorusTherianRaidDay_title",
-      "skuEnableTime": "2019-03-14T08:00:00",
-      "skuDisableTime": "2026-02-14T17:00:00",
-      "skuEnableTimeUtcMs": "1552550400000",
-      "skuDisableTimeUtcMs": "1771088400000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Enamorus_Therian_Forme_RaidDay_v1-1024x576.jpg",
-      "webstoreSkuId": "web-enamorus-raid-ticket-box",
-      "webstoreSkuPriceE6": 4990000
-    }
-  },
-  {
-    "templateId": "pgorelease.general2.ticket.6.giftable",
-    "data": {
-      "sku": "pgorelease.general2.ticket.6.giftable",
-      "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
-      "sortOrder": 2,
-      "hidden": true,
-      "spriteId": "general2.ticket.6",
-      "title": "general2.ticket.6_EnamorusTherianRaidDay_title",
-      "skuEnableTime": "2019-03-14T08:00:00",
-      "skuDisableTime": "2026-02-14T17:00:00",
-      "skuEnableTimeUtcMs": "1552550400000",
-      "skuDisableTimeUtcMs": "1771088400000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Enamorus_Therian_Forme_RaidDay_v1-1024x576.jpg"
     }
   },
   {

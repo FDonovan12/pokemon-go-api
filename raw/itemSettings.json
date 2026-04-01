@@ -437,30 +437,30 @@
       "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
       "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
       "globalEventTicket": {
-        "eventStartTime": "2026-03-14T14:00:00",
-        "eventEndTime": "2026-03-14T17:00:00",
-        "itemBagDescriptionKey": "item_event_ticket_pink_desc_CD_Scorbunny26",
+        "eventStartTime": "2026-04-11T14:00:00",
+        "eventEndTime": "2026-04-11T17:00:00",
+        "itemBagDescriptionKey": "item_event_ticket_pink_desc_CD_Tinkatink26",
         "giftable": true,
         "giftItem": "ITEM_EVENT_TICKET_03_TO_GIFT",
-        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-scorbunny-community-day-2026-nologo.jpg",
+        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-tinkatink-community-day-2026-nologo.jpg",
         "displayV2Enabled": true,
-        "backgroundImageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-scorbunny-community-day-2026-nologo.jpg",
-        "eventDatetimeRangeKey": "event_datetime_range_key_CD_Scorbunny26",
-        "textRewardsKey": "text_rewards_key_CD_Scorbunny26",
+        "backgroundImageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-tinkatink-community-day-2026-nologo.jpg",
+        "eventDatetimeRangeKey": "event_datetime_range_key_CD_Tinkatink26",
+        "textRewardsKey": "text_rewards_key_CD_Tinkatink26",
         "iconRewards": [
           {
             "type": "POKEMON_ENCOUNTER",
             "pokemonEncounter": {
-              "pokemonId": "CINDERACE",
+              "pokemonId": "TINKATON",
               "pokemonDisplay": {
-                "form": "CINDERACE_NORMAL"
+                "form": "TINKATON_NORMAL"
               }
             }
           },
           {
             "type": "ITEM",
             "item": {
-              "item": "ITEM_INCUBATOR_BASIC",
+              "item": "ITEM_STAR_PIECE",
               "amount": 1
             }
           },
@@ -473,11 +473,11 @@
           }
         ],
         "detailsLinkKey": "details_link_key",
-        "clientEventStartTimeUtcMs": "1773496800000",
-        "clientEventEndTimeUtcMs": "1773507600000"
+        "clientEventStartTimeUtcMs": "1775916000000",
+        "clientEventEndTimeUtcMs": "1775926800000"
       },
-      "nameOverride": "general1.ticket_CD_Scorbunny26_title",
-      "descriptionOverride": "item_event_ticket_pink_details_CD_Scorbunny26"
+      "nameOverride": "general1.ticket_CD_Tinkatink26_title",
+      "descriptionOverride": "item_event_ticket_pink_details_CD_Tinkatink26"
     }
   },
   {
@@ -487,17 +487,17 @@
       "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
       "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
       "globalEventTicket": {
-        "eventStartTime": "2026-03-14T14:00:00",
-        "eventEndTime": "2026-03-14T17:00:00",
-        "itemBagDescriptionKey": "item_event_ticket_pink_desc_CD_Scorbunny26",
+        "eventStartTime": "2026-04-11T14:00:00",
+        "eventEndTime": "2026-04-11T17:00:00",
+        "itemBagDescriptionKey": "item_event_ticket_pink_desc_CD_Tinkatink26",
         "ticketItem": "ITEM_EVENT_TICKET_03",
-        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-scorbunny-community-day-2026-nologo.jpg",
-        "clientEventStartTimeUtcMs": "1773496800000",
-        "clientEventEndTimeUtcMs": "1773507600000"
+        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-tinkatink-community-day-2026-nologo.jpg",
+        "clientEventStartTimeUtcMs": "1775916000000",
+        "clientEventEndTimeUtcMs": "1775926800000"
       },
       "ignoreInventorySpace": true,
-      "nameOverride": "general1.ticket_CD_Scorbunny26_title",
-      "descriptionOverride": "item_event_ticket_pink_details_CD_Scorbunny26"
+      "nameOverride": "general1.ticket_CD_Tinkatink26_title",
+      "descriptionOverride": "item_event_ticket_pink_details_CD_Tinkatink26"
     }
   },
   {
@@ -639,56 +639,35 @@
       "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
       "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
       "globalEventTicket": {
-        "eventStartTime": "2026-02-14T14:00:00",
-        "eventEndTime": "2026-02-14T17:00:00",
-        "itemBagDescriptionKey": "item_event_ticket_gray_desc_EnamorusTherianRaidDay",
+        "eventStartTime": "2023-04-25T14:00:00",
+        "eventEndTime": "2026-04-25T17:00:00",
+        "itemBagDescriptionKey": "item_event_ticket_06_details_REPLAY_GO_BIGGER",
         "giftable": true,
         "giftItem": "ITEM_EVENT_TICKET_06_TO_GIFT",
-        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Enamorus_Therian_Forme_RaidDay_v1-1024x576.jpg",
+        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-gmax-kanto-max-battle-day-2026-nologo.jpg",
         "displayV2Enabled": true,
-        "backgroundImageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Enamorus_Therian_Forme_RaidDay_v1-1024x576.jpg",
-        "eventDatetimeRangeKey": "event_datetime_range_key_EnamorusTherianRaidDay",
-        "textRewardsKey": "text_rewards_key_FalinksRaidDay",
+        "backgroundImageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-gmax-kanto-max-battle-day-2026-nologo.jpg",
+        "eventDatetimeRangeKey": "event_datetime_range_key_REPLAY_GO_BIGGER",
+        "textRewardsKey": "text_rewards_key_REPLAY_GO_BIGGER",
         "iconRewards": [
           {
             "type": "ITEM",
             "item": {
-              "item": "ITEM_FREE_RAID_TICKET",
-              "amount": 8
+              "item": "ITEM_MAX_BOOST",
+              "amount": 1
             }
           },
           {
-            "type": "ITEM",
-            "item": {
-              "item": "ITEM_XL_RARE_CANDY"
-            }
+            "type": "EXPERIENCE",
+            "exp": 25000
           }
         ],
-        "detailsLinkKey": "details_link_key",
-        "clientEventStartTimeUtcMs": "1771077600000",
-        "clientEventEndTimeUtcMs": "1771088400000"
+        "detailsLinkKey": "details_link_key_REPLAY_GO_BIGGER_MAX_BATTLE",
+        "clientEventStartTimeUtcMs": "1682431200000",
+        "clientEventEndTimeUtcMs": "1777136400000"
       },
-      "nameOverride": "general2.ticket.6_EnamorusTherianRaidDay_title",
-      "descriptionOverride": "item_event_ticket_gray_desc_EnamorusTherianRaidDay"
-    }
-  },
-  {
-    "templateId": "ITEM_EVENT_TICKET_06_TO_GIFT",
-    "data": {
-      "itemId": "ITEM_EVENT_TICKET_06_TO_GIFT",
-      "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
-      "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
-      "globalEventTicket": {
-        "eventStartTime": "2026-02-14T14:00:00",
-        "eventEndTime": "2026-02-14T17:00:00",
-        "itemBagDescriptionKey": "item_event_ticket_gray_details_EnamorusTherianRaidDay",
-        "ticketItem": "ITEM_EVENT_TICKET_06",
-        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Enamorus_Therian_Forme_RaidDay_v1-1024x576.jpg",
-        "clientEventStartTimeUtcMs": "1771077600000",
-        "clientEventEndTimeUtcMs": "1771088400000"
-      },
-      "ignoreInventorySpace": true,
-      "descriptionOverride": "item_event_ticket_gray_details_EnamorusTherianRaidDay"
+      "nameOverride": "general2.ticket.6.REPLAY_GO_BIGGER",
+      "descriptionOverride": "item_event_ticket_06_desc_REPLAY_GO_BIGGER"
     }
   },
   {
