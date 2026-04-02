@@ -11319,6 +11319,28 @@
           "stardustCaptureReward": 100
         },
         "formName": "normal"
+      },
+      "spring-2026": {
+        "id": "V0222_POKEMON_CORSOLA_SPRING_2026",
+        "type": "POKEMON_TYPE_GHOST",
+        "stats": {
+          "baseStamina": 155,
+          "baseAttack": 116,
+          "baseDefense": 182
+        },
+        "quickMoves": [
+          "TACKLE_FAST",
+          "ASTONISH_FAST"
+        ],
+        "cinematicMoves": [
+          "ROCK_BLAST",
+          "POWER_GEM",
+          "NIGHT_SHADE"
+        ],
+        "encounter": {
+          "stardustCaptureReward": 100
+        },
+        "formName": "spring-2026"
       }
     }
   },

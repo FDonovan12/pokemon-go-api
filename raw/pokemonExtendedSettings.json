@@ -11423,6 +11423,21 @@
     }
   },
   {
+    "templateId": "EXTENDED_V0222_POKEMON_CORSOLA_SPRING_2026",
+    "data": {
+      "uniqueId": "CORSOLA",
+      "form": 3339,
+      "sizeSettings": {
+        "xxsLowerBound": 0.2989,
+        "xsLowerBound": 0.305,
+        "mLowerBound": 0.4575,
+        "mUpperBound": 0.7625,
+        "xlUpperBound": 0.915,
+        "xxlUpperBound": 1.22
+      }
+    }
+  },
+  {
     "templateId": "EXTENDED_V0223_POKEMON_REMORAID",
     "data": {
       "uniqueId": "REMORAID",
@@ -15767,7 +15782,23 @@
         "mUpperBound": 0.8875,
         "xlUpperBound": 1.065,
         "xxlUpperBound": 1.2425
-      }
+      },
+      "breadOverrides": [
+        {
+          "breadMode": "BREAD_MODE",
+          "maxEncounterVisualSettings": {
+            "scale": 20.51,
+            "cameraDistance": 30,
+            "maxReticleSize": 14
+          },
+          "maxBattleVisualSettings": {
+            "scale": 41.01
+          },
+          "maxStationVisualSettings": {
+            "scale": 2.79
+          }
+        }
+      ]
     }
   },
   {
@@ -15782,7 +15813,23 @@
         "mUpperBound": 0.8875,
         "xlUpperBound": 1.065,
         "xxlUpperBound": 1.2425
-      }
+      },
+      "breadOverrides": [
+        {
+          "breadMode": "BREAD_MODE",
+          "maxEncounterVisualSettings": {
+            "scale": 20.51,
+            "cameraDistance": 30,
+            "maxReticleSize": 14
+          },
+          "maxBattleVisualSettings": {
+            "scale": 41.01
+          },
+          "maxStationVisualSettings": {
+            "scale": 2.79
+          }
+        }
+      ]
     }
   },
   {
@@ -15796,7 +15843,23 @@
         "mUpperBound": 1.3625,
         "xlUpperBound": 1.635,
         "xxlUpperBound": 1.9075
-      }
+      },
+      "breadOverrides": [
+        {
+          "breadMode": "BREAD_MODE",
+          "maxEncounterVisualSettings": {
+            "scale": 15.58,
+            "cameraDistance": 30,
+            "maxReticleSize": 14
+          },
+          "maxBattleVisualSettings": {
+            "scale": 31.15
+          },
+          "maxStationVisualSettings": {
+            "scale": 2.12
+          }
+        }
+      ]
     }
   },
   {
@@ -15811,7 +15874,23 @@
         "mUpperBound": 1.3625,
         "xlUpperBound": 1.635,
         "xxlUpperBound": 1.9075
-      }
+      },
+      "breadOverrides": [
+        {
+          "breadMode": "BREAD_MODE",
+          "maxEncounterVisualSettings": {
+            "scale": 15.58,
+            "cameraDistance": 30,
+            "maxReticleSize": 14
+          },
+          "maxBattleVisualSettings": {
+            "scale": 31.15
+          },
+          "maxStationVisualSettings": {
+            "scale": 2.12
+          }
+        }
+      ]
     }
   },
   {
@@ -15825,7 +15904,23 @@
         "mUpperBound": 2.5125,
         "xlUpperBound": 3.015,
         "xxlUpperBound": 4.02
-      }
+      },
+      "breadOverrides": [
+        {
+          "breadMode": "BREAD_MODE",
+          "maxEncounterVisualSettings": {
+            "scale": 9.33,
+            "cameraDistance": 30,
+            "maxReticleSize": 14
+          },
+          "maxBattleVisualSettings": {
+            "scale": 18.66
+          },
+          "maxStationVisualSettings": {
+            "scale": 1.27
+          }
+        }
+      ]
     }
   },
   {
@@ -15840,7 +15935,23 @@
         "mUpperBound": 2.5125,
         "xlUpperBound": 3.015,
         "xxlUpperBound": 4.02
-      }
+      },
+      "breadOverrides": [
+        {
+          "breadMode": "BREAD_MODE",
+          "maxEncounterVisualSettings": {
+            "scale": 9.33,
+            "cameraDistance": 30,
+            "maxReticleSize": 14
+          },
+          "maxBattleVisualSettings": {
+            "scale": 18.66
+          },
+          "maxStationVisualSettings": {
+            "scale": 1.27
+          }
+        }
+      ]
     }
   },
   {

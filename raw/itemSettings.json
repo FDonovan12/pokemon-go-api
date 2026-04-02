@@ -822,7 +822,7 @@
             }
           }
         ],
-        "detailsLinkKey": "details_link_key",
+        "detailsLinkKey": "details_link_key_fashion_raid_day",
         "clientEventStartTimeUtcMs": "1775311200000",
         "clientEventEndTimeUtcMs": "1775322000000"
       },
@@ -1385,7 +1385,7 @@
       "category": "ITEM_CATEGORY_INCENSE",
       "dropTrainerLevel": 1,
       "incense": {
-        "incenseLifetimeSeconds": 3600
+        "incenseLifetimeSeconds": 7200
       }
     }
   },

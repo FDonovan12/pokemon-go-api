@@ -6756,7 +6756,7 @@
     "data": {
       "rank": 20,
       "track": "FREE",
-      "minPointsRequired": 2400,
+      "minPointsRequired": 1900,
       "rewards": [
         {
           "type": "PLAYER_ATTRIBUTE",
@@ -6973,7 +6973,7 @@
     "data": {
       "rank": 25,
       "track": "FREE",
-      "minPointsRequired": 2200,
+      "minPointsRequired": 2400,
       "rewards": [
         {
           "type": "ITEM",

@@ -28,6 +28,36 @@
     }
   },
   {
+    "templateId": "APRIL2_2026_DELUXE_EVENT_PASS_TRACK_UNLOCK",
+    "data": {
+      "sku": "pgorelease.april2_2026_deluxe_event_pass_track_unlock",
+      "sortOrder": 1,
+      "hidden": true,
+      "title": "season_pass_premium_track_title_sustainabilityweek2026",
+      "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
+      "skuEnableTime": "2025-04-14T10:00:00",
+      "skuDisableTime": "2025-04-22T20:00:00",
+      "skuEnableTimeUtcMs": "1744624800000",
+      "skuDisableTimeUtcMs": "1745352000000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-paid-sustainability-week-2026-nologo.jpg"
+    }
+  },
+  {
+    "templateId": "APRIL2_2026_DELUXE_EVENT_PASS_TRACK_UNLOCK_PLUS_POINTS",
+    "data": {
+      "sku": "pgorelease.april2_2026_deluxe_event_pass_track_unlock_plus_points",
+      "sortOrder": 1,
+      "hidden": true,
+      "title": "season_pass_premium_track_plus_six_ranks_title_sustainabilityweek2026",
+      "description": "gotour_2025_deluxe_event_pass_track_unlock_plus_points_description",
+      "skuEnableTime": "2025-04-14T10:00:00",
+      "skuDisableTime": "2025-04-22T20:00:00",
+      "skuEnableTimeUtcMs": "1744624800000",
+      "skuDisableTimeUtcMs": "1745352000000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-paid-sustainability-week-2026-nologo.jpg"
+    }
+  },
+  {
     "templateId": "BUNDLE_EC_200_RPP_1",
     "data": {
       "sku": "BUNDLE_EC_200_RPP_1",
@@ -9585,7 +9615,6 @@
       "sku": "general2.ticket.9",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 2,
-      "hidden": true,
       "spriteId": "general2.ticket.9",
       "title": "general2.ticket.9_fashionRaidDay26_title",
       "skuEnableTime": "2019-03-14T08:00:00",
@@ -9603,7 +9632,6 @@
       "sku": "general2.ticket.9.giftable",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 2,
-      "hidden": true,
       "spriteId": "general2.ticket.9",
       "title": "general2.ticket.9_fashionRaidDay26_title",
       "skuEnableTime": "2019-03-14T08:00:00",
@@ -9877,6 +9905,21 @@
       "skuEnableTimeUtcMs": "1743415200000",
       "skuDisableTimeUtcMs": "1775678400000",
       "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-paid-shockingly-good-time-2026-nologo.jpg"
+    }
+  },
+  {
+    "templateId": "pgorelease.april2_2026_deluxe_event_pass_track_redirect",
+    "data": {
+      "sku": "pgorelease.april2_2026_deluxe_event_pass_track_redirect",
+      "sortOrder": 1,
+      "hidden": true,
+      "title": "season_pass_premium_track_title_sustainabilityweek2026",
+      "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
+      "skuEnableTime": "2025-04-14T10:00:00",
+      "skuDisableTime": "2025-04-22T20:00:00",
+      "skuEnableTimeUtcMs": "1744624800000",
+      "skuDisableTimeUtcMs": "1745352000000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-paid-sustainability-week-2026-nologo.jpg"
     }
   },
   {
@@ -11058,7 +11101,6 @@
       "sku": "pgorelease.general2.ticket.9",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 2,
-      "hidden": true,
       "spriteId": "general2.ticket.9",
       "title": "general2.ticket.9_fashionRaidDay26_title",
       "skuEnableTime": "2019-03-14T08:00:00",
@@ -11076,7 +11118,6 @@
       "sku": "pgorelease.general2.ticket.9.giftable",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 2,
-      "hidden": true,
       "spriteId": "general2.ticket.9",
       "title": "general2.ticket.9_fashionRaidDay26_title",
       "skuEnableTime": "2019-03-14T08:00:00",

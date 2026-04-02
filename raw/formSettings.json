@@ -3034,6 +3034,10 @@
         },
         {
           "form": "CORSOLA_GALARIAN"
+        },
+        {
+          "form": 3339,
+          "isCostume": true
         }
       ]
     }

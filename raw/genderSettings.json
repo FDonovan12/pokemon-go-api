@@ -589,8 +589,7 @@
       "gender": {
         "malePercent": 0.5,
         "femalePercent": 0.5
-      },
-      "form": "PIKACHU_BB_2026"
+      }
     }
   },
   {
@@ -5859,6 +5858,16 @@
   },
   {
     "templateId": "SPAWN_V0222_POKEMON_CORSOLA_NORMAL",
+    "data": {
+      "pokemon": "CORSOLA",
+      "gender": {
+        "malePercent": 0.25,
+        "femalePercent": 0.75
+      }
+    }
+  },
+  {
+    "templateId": "SPAWN_V0222_POKEMON_CORSOLA_SPRING_2026",
     "data": {
       "pokemon": "CORSOLA",
       "gender": {
