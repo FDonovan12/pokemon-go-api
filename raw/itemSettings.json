@@ -330,9 +330,7 @@
         "eventPassId": "EVENT_PASS_SHOCKINGLYGOOD2026_EVENT"
       },
       "timePeriodCounters": {
-        "playerActivity": {
-          "limit": 500
-        }
+        "playerActivity": {}
       },
       "hideItemInInventory": true
     }
@@ -350,9 +348,7 @@
         "eventPassId": "EVENT_PASS_MARCH2026_SEASON"
       },
       "timePeriodCounters": {
-        "playerActivity": {
-          "limit": 250
-        }
+        "playerActivity": {}
       },
       "hideItemInInventory": true
     }
