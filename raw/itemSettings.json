@@ -348,7 +348,9 @@
         "eventPassId": "EVENT_PASS_MARCH2026_SEASON"
       },
       "timePeriodCounters": {
-        "playerActivity": {}
+        "playerActivity": {
+          "limit": 250
+        }
       },
       "hideItemInInventory": true
     }
