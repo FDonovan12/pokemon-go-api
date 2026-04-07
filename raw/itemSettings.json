@@ -330,7 +330,9 @@
         "eventPassId": "EVENT_PASS_SHOCKINGLYGOOD2026_EVENT"
       },
       "timePeriodCounters": {
-        "playerActivity": {}
+        "playerActivity": {
+          "limit": 500
+        }
       },
       "hideItemInInventory": true
     }
@@ -368,7 +370,7 @@
       },
       "timePeriodCounters": {
         "playerActivity": {
-          "limit": 300
+          "limit": 250
         }
       }
     }
@@ -1341,7 +1343,7 @@
       "category": "ITEM_CATEGORY_INCENSE",
       "dropTrainerLevel": 6,
       "incense": {
-        "incenseLifetimeSeconds": 1800,
+        "incenseLifetimeSeconds": 900,
         "spawnTableProbability": 0.25
       },
       "ignoreInventorySpace": true
@@ -1383,7 +1385,7 @@
       "category": "ITEM_CATEGORY_INCENSE",
       "dropTrainerLevel": 1,
       "incense": {
-        "incenseLifetimeSeconds": 7200
+        "incenseLifetimeSeconds": 3600
       }
     }
   },
