@@ -5193,6 +5193,13 @@
     }
   },
   {
+    "templateId": "N_DISPLAY_n_pose_sustainability",
+    "data": {
+      "iconAddress": "n_pose_sustainability_icon",
+      "displayStringId": "avatar_pose_plant"
+    }
+  },
+  {
     "templateId": "N_DISPLAY_n_pose_teapot",
     "data": {
       "iconAddress": "n_pose_teapot_icon",

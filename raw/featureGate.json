@@ -110,5 +110,19 @@
       "status": 87970808,
       "rolloutPercentage": 100
     }
+  },
+  {
+    "templateId": "VNEXT_PRE_RESPONSE_INPUT_BLOCKING_BEHAVIOR_FEATURE_GATE",
+    "data": {
+      "status": 1,
+      "rolloutPercentage": 100,
+      "subFeatureGateList": [
+        {
+          "name": "PVP",
+          "status": 2,
+          "rolloutPercentage": 100
+        }
+      ]
+    }
   }
 ]

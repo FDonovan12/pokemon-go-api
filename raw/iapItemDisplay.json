@@ -4,12 +4,13 @@
     "data": {
       "sku": "pgorelease.april1_2026_deluxe_event_pass_track_unlock",
       "sortOrder": 1,
+      "hidden": true,
       "title": "season_pass_premium_track_title_shockingly_good_2026",
       "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
       "skuEnableTime": "2025-03-31T10:00:00",
-      "skuDisableTime": "2026-04-08T20:00:00",
+      "skuDisableTime": "2025-04-08T20:00:00",
       "skuEnableTimeUtcMs": "1743415200000",
-      "skuDisableTimeUtcMs": "1775678400000",
+      "skuDisableTimeUtcMs": "1744142400000",
       "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-paid-shockingly-good-time-2026-nologo.jpg"
     }
   },
@@ -18,12 +19,13 @@
     "data": {
       "sku": "pgorelease.april1_2026_deluxe_event_pass_track_unlock_plus_points",
       "sortOrder": 1,
+      "hidden": true,
       "title": "season_pass_premium_track_plus_six_ranks_title_shockingly_good_2026",
       "description": "event_pass_plus_points_6_ranks_description",
       "skuEnableTime": "2025-03-31T10:00:00",
-      "skuDisableTime": "2026-04-08T20:00:00",
+      "skuDisableTime": "2025-04-08T20:00:00",
       "skuEnableTimeUtcMs": "1743415200000",
-      "skuDisableTimeUtcMs": "1775678400000",
+      "skuDisableTimeUtcMs": "1744142400000",
       "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-paid-shockingly-good-time-2026-nologo.jpg"
     }
   },
@@ -49,7 +51,7 @@
       "sortOrder": 1,
       "hidden": true,
       "title": "season_pass_premium_track_plus_six_ranks_title_sustainabilityweek2026",
-      "description": "gotour_2025_deluxe_event_pass_track_unlock_plus_points_description",
+      "description": "event_pass_plus_points_6_ranks_description",
       "skuEnableTime": "2025-04-14T10:00:00",
       "skuDisableTime": "2025-04-22T20:00:00",
       "skuEnableTimeUtcMs": "1744624800000",
@@ -78,14 +80,14 @@
     "templateId": "EVENT_PASS_APRIL1_SEASON_STORE_REDIRECT",
     "data": {
       "sku": "pgorelease.april1_2026_deluxe_event_pass_track_redirect",
-      "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 1,
+      "hidden": true,
       "title": "season_pass_premium_track_title_shockingly_good_2026",
       "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
       "skuEnableTime": "2025-03-31T10:00:00",
-      "skuDisableTime": "2026-04-08T20:00:00",
+      "skuDisableTime": "2025-04-08T20:00:00",
       "skuEnableTimeUtcMs": "1743415200000",
-      "skuDisableTimeUtcMs": "1775678400000",
+      "skuDisableTimeUtcMs": "1744142400000",
       "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-paid-shockingly-good-time-2026-nologo.jpg"
     }
   },
@@ -198,14 +200,14 @@
     "templateId": "EVENT_PASS_MONTH1_SEASON_STORE_REDIRECT",
     "data": {
       "sku": "pgorelease.month1_deluxe_event_pass_track_redirect",
-      "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 1,
+      "hidden": true,
       "title": "season_pass_premium_track_title_mar",
       "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
-      "skuEnableTime": "2026-02-24T10:00:00",
-      "skuDisableTime": "2026-04-09T10:00:00",
-      "skuEnableTimeUtcMs": "1771927200000",
-      "skuDisableTimeUtcMs": "1775728800000",
+      "skuEnableTime": "2025-03-03T10:00:00",
+      "skuDisableTime": "2025-04-09T10:00:00",
+      "skuEnableTimeUtcMs": "1740996000000",
+      "skuDisableTimeUtcMs": "1744192800000",
       "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-deluxe-gopass-march-2026-nologo.jpg"
     }
   },
@@ -549,12 +551,13 @@
     "data": {
       "sku": "pgorelease.month1_deluxe_event_pass_track_unlock",
       "sortOrder": 1,
+      "hidden": true,
       "title": "season_pass_premium_track_title_mar",
       "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
-      "skuEnableTime": "2026-02-24T10:00:00",
-      "skuDisableTime": "2026-04-09T10:00:00",
-      "skuEnableTimeUtcMs": "1771927200000",
-      "skuDisableTimeUtcMs": "1775728800000",
+      "skuEnableTime": "2025-03-03T10:00:00",
+      "skuDisableTime": "2025-04-09T10:00:00",
+      "skuEnableTimeUtcMs": "1740996000000",
+      "skuDisableTimeUtcMs": "1744192800000",
       "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-deluxe-gopass-march-2026-nologo.jpg"
     }
   },
@@ -563,12 +566,13 @@
     "data": {
       "sku": "pgorelease.month1_deluxe_event_pass_track_unlock_plus_points",
       "sortOrder": 1,
+      "hidden": true,
       "title": "season_pass_premium_track_plus_ten_ranks_title_mar",
       "description": "gotour_2025_deluxe_event_pass_track_unlock_plus_points_description",
-      "skuEnableTime": "2026-02-24T10:00:00",
-      "skuDisableTime": "2026-04-09T10:00:00",
-      "skuEnableTimeUtcMs": "1771927200000",
-      "skuDisableTimeUtcMs": "1775728800000",
+      "skuEnableTime": "2025-03-03T10:00:00",
+      "skuDisableTime": "2025-04-09T10:00:00",
+      "skuEnableTimeUtcMs": "1740996000000",
+      "skuDisableTimeUtcMs": "1744192800000",
       "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-deluxe-gopass-march-2026-nologo.jpg"
     }
   },
@@ -9238,16 +9242,16 @@
     "data": {
       "sku": "general1.ticket.4",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
-      "sortOrder": 4,
+      "sortOrder": 1,
       "hidden": true,
       "spriteId": "general1.ticket.4",
-      "title": "general1.ticket._LunarNY0226_title",
-      "skuEnableTime": "2019-03-14T08:00:00",
-      "skuDisableTime": "2026-02-21T20:00:00",
-      "skuEnableTimeUtcMs": "1552550400000",
-      "skuDisableTimeUtcMs": "1771704000000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Lunar_New_Year_2026_TICKET_v1-1025x576-nologo.jpg",
-      "webstoreSkuId": "web-lunar-new-year-26-ticket-box",
+      "title": "general1.ticket.4_Riolu0426_title",
+      "skuEnableTime": "2023-01-01T11:00:01",
+      "skuDisableTime": "2026-04-18T17:00:00",
+      "skuEnableTimeUtcMs": "1672570801000",
+      "skuDisableTimeUtcMs": "1776531600000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-riolu-hatch-day-2026-nologo.jpg",
+      "webstoreSkuId": "web-riolu-hatch-day-ultra",
       "webstoreSkuPriceE6": 1990000
     }
   },
@@ -9256,15 +9260,15 @@
     "data": {
       "sku": "general1.ticket.4.giftable",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
-      "sortOrder": 4,
+      "sortOrder": 1,
       "hidden": true,
       "spriteId": "general1.ticket.4",
-      "title": "general1.ticket._LunarNY0226_title",
-      "skuEnableTime": "2019-03-14T08:00:00",
-      "skuDisableTime": "2026-02-21T20:00:00",
-      "skuEnableTimeUtcMs": "1552550400000",
-      "skuDisableTimeUtcMs": "1771704000000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Lunar_New_Year_2026_TICKET_v1-1025x576-nologo.jpg"
+      "title": "general1.ticket.4_Riolu0426_title",
+      "skuEnableTime": "2023-01-01T11:00:01",
+      "skuDisableTime": "2026-04-18T17:00:00",
+      "skuEnableTimeUtcMs": "1672570801000",
+      "skuDisableTimeUtcMs": "1776531600000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-riolu-hatch-day-2026-nologo.jpg"
     }
   },
   {
@@ -9426,7 +9430,6 @@
       "sku": "general2.ticket.3",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 2,
-      "hidden": true,
       "spriteId": "general1.ticket.2",
       "title": "general1.ticket_CD_Tinkatink26_title",
       "skuEnableTime": "2019-03-14T08:00:00",
@@ -9444,7 +9447,6 @@
       "sku": "general2.ticket.3.giftable",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 2,
-      "hidden": true,
       "spriteId": "general1.ticket.2",
       "title": "general1.ticket_CD_Tinkatink26_title",
       "skuEnableTime": "2019-03-14T08:00:00",
@@ -9877,34 +9879,6 @@
       "showDiscountTag": true,
       "showStrikethroughPrice": true,
       "totalValue": 300
-    }
-  },
-  {
-    "templateId": "pgorelease.april1_2026_deluxe_event_pass_track_unlock",
-    "data": {
-      "sku": "pgorelease.april1_2026_deluxe_event_pass_track_unlock",
-      "sortOrder": 1,
-      "title": "season_pass_premium_track_title_shockingly_good_2026",
-      "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
-      "skuEnableTime": "2025-03-31T10:00:00",
-      "skuDisableTime": "2026-04-08T20:00:00",
-      "skuEnableTimeUtcMs": "1743415200000",
-      "skuDisableTimeUtcMs": "1775678400000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-paid-shockingly-good-time-2026-nologo.jpg"
-    }
-  },
-  {
-    "templateId": "pgorelease.april1_2026_deluxe_event_pass_track_unlock_plus_points",
-    "data": {
-      "sku": "pgorelease.april1_2026_deluxe_event_pass_track_unlock_plus_points",
-      "sortOrder": 1,
-      "title": "season_pass_premium_track_plus_six_ranks_title_shockingly_good_2026",
-      "description": "event_pass_plus_points_6_ranks_description",
-      "skuEnableTime": "2025-03-31T10:00:00",
-      "skuDisableTime": "2026-04-08T20:00:00",
-      "skuEnableTimeUtcMs": "1743415200000",
-      "skuDisableTimeUtcMs": "1775678400000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-paid-shockingly-good-time-2026-nologo.jpg"
     }
   },
   {
@@ -10760,16 +10734,16 @@
     "data": {
       "sku": "pgorelease.general1.ticket.4",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
-      "sortOrder": 4,
+      "sortOrder": 1,
       "hidden": true,
       "spriteId": "general1.ticket.4",
-      "title": "general1.ticket._LunarNY0226_title",
-      "skuEnableTime": "2019-03-14T08:00:00",
-      "skuDisableTime": "2026-02-21T20:00:00",
-      "skuEnableTimeUtcMs": "1552550400000",
-      "skuDisableTimeUtcMs": "1771704000000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Lunar_New_Year_2026_TICKET_v1-1025x576-nologo.jpg",
-      "webstoreSkuId": "web-lunar-new-year-26-ticket-box",
+      "title": "general1.ticket.4_Riolu0426_title",
+      "skuEnableTime": "2023-01-01T11:00:03",
+      "skuDisableTime": "2026-04-18T17:00:00",
+      "skuEnableTimeUtcMs": "1672570803000",
+      "skuDisableTimeUtcMs": "1776531600000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-riolu-hatch-day-2026-nologo.jpg",
+      "webstoreSkuId": "web-riolu-hatch-day-ultra",
       "webstoreSkuPriceE6": 1990000
     }
   },
@@ -10778,15 +10752,15 @@
     "data": {
       "sku": "pgorelease.general1.ticket.4.giftable",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
-      "sortOrder": 4,
+      "sortOrder": 1,
       "hidden": true,
       "spriteId": "general1.ticket.4",
-      "title": "general1.ticket._LunarNY0226_title",
-      "skuEnableTime": "2019-03-14T08:00:00",
-      "skuDisableTime": "2026-02-21T20:00:00",
-      "skuEnableTimeUtcMs": "1552550400000",
-      "skuDisableTimeUtcMs": "1771704000000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Lunar_New_Year_2026_TICKET_v1-1025x576-nologo.jpg"
+      "title": "general1.ticket.4_Riolu0426_title",
+      "skuEnableTime": "2023-01-01T11:00:03",
+      "skuDisableTime": "2026-04-18T17:00:00",
+      "skuEnableTimeUtcMs": "1672570803000",
+      "skuDisableTimeUtcMs": "1776531600000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-riolu-hatch-day-2026-nologo.jpg"
     }
   },
   {
@@ -10932,7 +10906,6 @@
       "sku": "pgorelease.general2.ticket.3",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 2,
-      "hidden": true,
       "spriteId": "general1.ticket.2",
       "title": "general1.ticket_CD_Tinkatink26_title",
       "skuEnableTime": "2019-03-14T08:00:00",
@@ -10950,7 +10923,6 @@
       "sku": "pgorelease.general2.ticket.3.giftable",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 2,
-      "hidden": true,
       "spriteId": "general1.ticket.2",
       "title": "general1.ticket_CD_Tinkatink26_title",
       "skuEnableTime": "2019-03-14T08:00:00",
@@ -11127,32 +11099,6 @@
       "skuEnableTimeUtcMs": "1552550400000",
       "skuDisableTimeUtcMs": "1775322000000",
       "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-fashion-raid-day-2026-nologo.jpg"
-    }
-  },
-  {
-    "templateId": "pgorelease.month1_deluxe_event_pass_track_unlock",
-    "data": {
-      "sku": "pgorelease.month1_deluxe_event_pass_track_unlock",
-      "sortOrder": 1,
-      "title": "season_pass_premium_track_title_mar",
-      "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
-      "skuEnableTime": "2026-02-24T10:00:00",
-      "skuDisableTime": "2026-04-09T10:00:00",
-      "skuEnableTimeUtcMs": "1771927200000",
-      "skuDisableTimeUtcMs": "1775728800000"
-    }
-  },
-  {
-    "templateId": "pgorelease.month1_deluxe_event_pass_track_unlock_plus_points",
-    "data": {
-      "sku": "pgorelease.month1_deluxe_event_pass_track_unlock_plus_points",
-      "sortOrder": 1,
-      "title": "season_pass_premium_track_plus_ten_ranks_title_mar",
-      "description": "gotour_2025_deluxe_event_pass_track_unlock_plus_points_description",
-      "skuEnableTime": "2026-02-24T10:00:00",
-      "skuDisableTime": "2026-04-09T10:00:00",
-      "skuEnableTimeUtcMs": "1771927200000",
-      "skuDisableTimeUtcMs": "1775728800000"
     }
   },
   {

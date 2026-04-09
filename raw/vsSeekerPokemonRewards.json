@@ -651,9 +651,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "REGIDRAGO",
+            "pokemonId": "KYOGRE",
             "pokemonDisplay": {
-              "form": "REGIDRAGO_NORMAL"
+              "form": "KYOGRE_NORMAL"
             }
           },
           "unlockedAtRank": 20,
@@ -1331,9 +1331,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "REGIDRAGO",
+            "pokemonId": "KYOGRE",
             "pokemonDisplay": {
-              "form": "REGIDRAGO_NORMAL"
+              "form": "KYOGRE_NORMAL"
             }
           },
           "unlockedAtRank": 20,

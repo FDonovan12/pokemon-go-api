@@ -331,10 +331,28 @@
       },
       "timePeriodCounters": {
         "playerActivity": {
-          "limit": 500
+          "limit": 300
         }
       },
       "hideItemInInventory": true
+    }
+  },
+  {
+    "templateId": "ITEM_EVENT_PASS_POINT_LIVE_OPS_07",
+    "data": {
+      "itemId": "ITEM_EVENT_PASS_POINT_LIVE_OPS_07",
+      "itemType": "ITEM_TYPE_EVENT_PASS_POINT",
+      "category": "ITEM_CATEGORY_EVENT_PASS_POINT",
+      "ignoreInventorySpace": true,
+      "itemCap": 999999,
+      "eventPassPoint": {
+        "eventPassId": "EVENT_PASS_SUSTAINABILITY2026_EVENT"
+      },
+      "timePeriodCounters": {
+        "playerActivity": {
+          "limit": 300
+        }
+      }
     }
   },
   {
@@ -351,7 +369,7 @@
       },
       "timePeriodCounters": {
         "playerActivity": {
-          "limit": 250
+          "limit": 300
         }
       },
       "hideItemInInventory": true
@@ -639,7 +657,7 @@
       "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
       "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
       "globalEventTicket": {
-        "eventStartTime": "2023-04-25T14:00:00",
+        "eventStartTime": "2026-04-25T14:00:00",
         "eventEndTime": "2026-04-25T17:00:00",
         "itemBagDescriptionKey": "item_event_ticket_06_details_REPLAY_GO_BIGGER",
         "giftable": true,
@@ -663,7 +681,7 @@
           }
         ],
         "detailsLinkKey": "details_link_key_REPLAY_GO_BIGGER_MAX_BATTLE",
-        "clientEventStartTimeUtcMs": "1682431200000",
+        "clientEventStartTimeUtcMs": "1777125600000",
         "clientEventEndTimeUtcMs": "1777136400000"
       },
       "nameOverride": "general2.ticket.6.REPLAY_GO_BIGGER",
@@ -1187,46 +1205,42 @@
       "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
       "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
       "globalEventTicket": {
-        "eventStartTime": "2026-02-17T00:00:00",
-        "eventEndTime": "2026-02-21T20:00:00",
-        "itemBagDescriptionKey": "item_event_ticket_evergreen_desc_LunarNY0226",
+        "eventStartTime": "2026-04-18T11:00:00",
+        "eventEndTime": "2026-04-18T17:00:00",
+        "itemBagDescriptionKey": "item_event_ticket_evergreen_desc_Riolu0426",
         "giftable": true,
         "giftItem": "ITEM_GLOBAL_EVENT_TICKET_TO_GIFT",
-        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Lunar_New_Year_2026_TICKET_v1-1025x576-nologo.jpg",
+        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-riolu-hatch-day-2026-nologo.jpg",
         "displayV2Enabled": true,
-        "backgroundImageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Lunar_New_Year_2026_TICKET_v1-1025x576-nologo.jpg",
-        "eventDatetimeRangeKey": "event_datetime_range_key_LunarNY0226",
-        "textRewardsKey": "text_rewards_key_LunarNY0226",
+        "backgroundImageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-riolu-hatch-day-2026-nologo.jpg",
+        "eventDatetimeRangeKey": "event_datetime_range_key_Riolu0426",
+        "textRewardsKey": "text_rewards_key_Riolu0426",
         "iconRewards": [
           {
-            "type": "POKECOIN",
-            "pokecoin": 200
-          },
-          {
-            "type": "POKEMON_ENCOUNTER",
-            "pokemonEncounter": {
-              "pokemonId": "BLITZLE",
-              "pokemonDisplay": {
-                "form": "BLITZLE_NORMAL"
-              }
+            "type": "ITEM",
+            "item": {
+              "item": "ITEM_STAR_PIECE",
+              "amount": 1
             }
           },
           {
-            "type": "POKEMON_ENCOUNTER",
-            "pokemonEncounter": {
-              "pokemonId": "DARUMAKA",
-              "pokemonDisplay": {
-                "form": "DARUMAKA_NORMAL"
-              }
+            "type": "ITEM",
+            "item": {
+              "item": "ITEM_INCUBATOR_SUPER",
+              "amount": 2
             }
+          },
+          {
+            "type": "EXPERIENCE",
+            "exp": 10000
           }
         ],
-        "detailsLinkKey": "details_link_key_LUNAR_NEW_YEAR_FEB2026",
-        "clientEventStartTimeUtcMs": "1771286400000",
-        "clientEventEndTimeUtcMs": "1771704000000"
+        "detailsLinkKey": "details_link_key_Riolu_Hatch0426",
+        "clientEventStartTimeUtcMs": "1776510000000",
+        "clientEventEndTimeUtcMs": "1776531600000"
       },
-      "nameOverride": "general1.ticket._LunarNY0226_title",
-      "descriptionOverride": "item_event_ticket_evergreen_desc_LunarNY0226"
+      "nameOverride": "general1.ticket.4_Riolu0426_title",
+      "descriptionOverride": "item_event_ticket_evergreen_desc_Riolu0426"
     }
   },
   {
@@ -1236,17 +1250,17 @@
       "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
       "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
       "globalEventTicket": {
-        "eventStartTime": "2026-02-17T00:00:00",
-        "eventEndTime": "2026-02-21T20:00:00",
-        "itemBagDescriptionKey": "item_event_ticket_evergreen_details_LunarNY0226",
+        "eventStartTime": "2026-04-18T11:00:00",
+        "eventEndTime": "2026-04-18T17:00:00",
+        "itemBagDescriptionKey": "item_event_ticket_evergreen_details_Riolu0426",
         "ticketItem": "ITEM_GLOBAL_EVENT_TICKET",
-        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Lunar_New_Year_2026_TICKET_v1-1025x576-nologo.jpg",
-        "clientEventStartTimeUtcMs": "1771286400000",
-        "clientEventEndTimeUtcMs": "1771704000000"
+        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-riolu-hatch-day-2026-nologo.jpg",
+        "clientEventStartTimeUtcMs": "1776510000000",
+        "clientEventEndTimeUtcMs": "1776531600000"
       },
       "ignoreInventorySpace": true,
-      "nameOverride": "general1.ticket._LunarNY0226_title",
-      "descriptionOverride": "item_event_ticket_evergreen_details_LunarNY0226"
+      "nameOverride": "general1.ticket.4_Riolu0426_title",
+      "descriptionOverride": "item_event_ticket_evergreen_details_Riolu0426"
     }
   },
   {
