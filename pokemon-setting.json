@@ -40767,6 +40767,9 @@
           "BULLDOZE",
           "HEAVY_SLAM"
         ],
+        "eliteCinematicMove": [
+          "GIGATON_HAMMER"
+        ],
         "encounter": {
           "stardustCaptureReward": 500
         },
