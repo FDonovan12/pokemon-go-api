@@ -6668,13 +6668,10 @@
       "sku": "bundle.cd2022.1",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 1,
+      "hidden": true,
       "sale": true,
-      "spriteId": "bundle.general4.small.1",
-      "title": "bundle.general4.small.1_title",
-      "skuEnableTime": "2022-10-13T12:00:00",
-      "skuDisableTime": "2026-04-12T23:59:59",
-      "skuEnableTimeUtcMs": "1665662400000",
-      "skuDisableTimeUtcMs": "1776038399000"
+      "spriteId": "bundle.halloween.small.1",
+      "title": "bundle.halloween.small.1_title"
     }
   },
   {
@@ -6683,13 +6680,10 @@
       "sku": "bundle.cd2022.2",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 2,
+      "hidden": true,
       "sale": true,
-      "spriteId": "bundle.general1.medium.1",
-      "title": "bundle.general1.medium.1_title",
-      "skuEnableTime": "2022-10-13T12:00:00",
-      "skuDisableTime": "2026-04-12T23:59:59",
-      "skuEnableTimeUtcMs": "1665662400000",
-      "skuDisableTimeUtcMs": "1776038399000"
+      "spriteId": "bundle.halloween.adventure.1",
+      "title": "bundle.halloween.adventure.1_title"
     }
   },
   {
