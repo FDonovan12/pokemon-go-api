@@ -43,10 +43,6 @@
         {
           "raidLevel": "RAID_LEVEL_5_SHADOW",
           "battleMusicKey": "RocketBossCombatMusic"
-        },
-        {
-          "raidLevel": "RAID_LEVEL_MEGA_5",
-          "battleMusicKey": "GoTour2023Music02"
         }
       ],
       "raidFeatureFlags": {
@@ -137,6 +133,10 @@
             "DIALGA_ORIGIN"
           ],
           "battleMusicKey": "GoTour2024Music01"
+        },
+        {
+          "pokemon": "RAYQUAZA",
+          "battleMusicKey": "GoTour2023Music02"
         }
       ],
       "fetchProfileFromSocialEnabled": true

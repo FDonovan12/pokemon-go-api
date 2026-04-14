@@ -2771,6 +2771,13 @@
     }
   },
   {
+    "templateId": "N_DISPLAY_n_hat_mlb-padres_0",
+    "data": {
+      "iconAddress": "n_hat_mlb-padres_0_icon",
+      "displayStringId": "avatar_hat_mlbpadres"
+    }
+  },
+  {
     "templateId": "N_DISPLAY_n_hat_mlb-rangers_0",
     "data": {
       "iconAddress": "n_hat_mlb-rangers_0_icon",

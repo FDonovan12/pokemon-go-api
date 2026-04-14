@@ -45,6 +45,12 @@
     }
   },
   {
+    "templateId": "IS_SKU_AVAILABLE_NO_APP_ID_CODE_GATE",
+    "data": {
+      "isEnabled": true
+    }
+  },
+  {
     "templateId": "MAP_THEME_LOW_PERF_CODE_GATE",
     "data": {
       "isEnabled": true
@@ -63,7 +69,19 @@
     }
   },
   {
+    "templateId": "STAMP_COLLECTION_SNAPSHOT_ENABLED_CODE_GATE",
+    "data": {
+      "isEnabled": true
+    }
+  },
+  {
     "templateId": "USE_EXTENDED_SETTINGS_FOR_MAX_SCALE_CODE_GATE",
+    "data": {
+      "isEnabled": true
+    }
+  },
+  {
+    "templateId": "USE_GMT_SKU_DATA_CODE_GATE",
     "data": {
       "isEnabled": true
     }
