@@ -156515,7 +156515,10 @@
         "cameraDistance": 6,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6,
-        "bonusXlCandyCaptureReward": 3
+        "bonusXlCandyCaptureReward": 3,
+        "shadowBaseCaptureRate": 0.2,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
       },
       "stats": {
         "baseStamina": 205,
@@ -156570,6 +156573,12 @@
       },
       "isTransferable": true,
       "isTradable": true,
+      "shadow": {
+        "purificationStardustNeeded": 20000,
+        "purificationCandyNeeded": 20,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
       "buddyGroupNumber": 7,
       "ibfc": {},
       "breadTierGroup": "GROUP_4"
@@ -156604,7 +156613,10 @@
         "cameraDistance": 6,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6,
-        "bonusXlCandyCaptureReward": 3
+        "bonusXlCandyCaptureReward": 3,
+        "shadowBaseCaptureRate": 0.2,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
       },
       "stats": {
         "baseStamina": 205,
@@ -156660,6 +156672,12 @@
       },
       "isTransferable": true,
       "isTradable": true,
+      "shadow": {
+        "purificationStardustNeeded": 20000,
+        "purificationCandyNeeded": 20,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
       "buddyGroupNumber": 7,
       "useIrisFlyingPlacement": true,
       "ibfc": {},
@@ -156695,7 +156713,10 @@
         "cameraDistance": 6,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6,
-        "bonusXlCandyCaptureReward": 3
+        "bonusXlCandyCaptureReward": 3,
+        "shadowBaseCaptureRate": 0.2,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
       },
       "stats": {
         "baseStamina": 205,
@@ -156751,6 +156772,12 @@
       },
       "isTransferable": true,
       "isTradable": true,
+      "shadow": {
+        "purificationStardustNeeded": 20000,
+        "purificationCandyNeeded": 20,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
       "buddyGroupNumber": 7,
       "eliteCinematicMove": [
         "SANDSEAR_STORM"
@@ -172888,81 +172915,10 @@
         "dodgeProbability": 0.2,
         "cameraDistance": 2.5,
         "minPokemonActionFrequencyS": 0.2,
-        "maxPokemonActionFrequencyS": 1.6
-      },
-      "stats": {
-        "baseStamina": 127,
-        "baseAttack": 115,
-        "baseDefense": 78
-      },
-      "quickMoves": [
-        "QUICK_ATTACK_FAST",
-        "THUNDER_SHOCK_FAST"
-      ],
-      "cinematicMoves": [
-        "PARABOLIC_CHARGE",
-        "BULLDOZE",
-        "THUNDERBOLT"
-      ],
-      "animationTime": [
-        1.9,
-        0.6666,
-        1.7666,
-        0,
-        2.4,
-        0.08667,
-        0
-      ],
-      "pokedexHeightM": 0.5,
-      "pokedexWeightKg": 6,
-      "heightStdDev": 0.0625,
-      "weightStdDev": 0.75,
-      "familyId": "FAMILY_HELIOPTILE",
-      "kmBuddyDistance": 3,
-      "modelHeight": 0.5,
-      "evolutionBranch": [
-        {
-          "evolution": "HELIOLISK",
-          "evolutionItemRequirement": "ITEM_SUN_STONE",
-          "candyCost": 50
-        }
-      ],
-      "modelScaleV2": 1,
-      "thirdMove": {
-        "stardustToUnlock": 50000,
-        "candyToUnlock": 50
-      },
-      "isTransferable": true,
-      "isDeployable": true,
-      "isTradable": true,
-      "ibfc": {},
-      "breadTierGroup": "GROUP_2"
-    }
-  },
-  {
-    "templateId": "V0694_POKEMON_HELIOPTILE_NORMAL",
-    "data": {
-      "pokemonId": "HELIOPTILE",
-      "modelScale": 1.35,
-      "type": "POKEMON_TYPE_ELECTRIC",
-      "type2": "POKEMON_TYPE_NORMAL",
-      "camera": {
-        "cylinderRadiusM": 0.3,
-        "cylinderHeightM": 0.4
-      },
-      "encounter": {
-        "collisionRadiusM": 0.14,
-        "collisionHeightM": 0.1,
-        "collisionHeadRadiusM": 0.126,
-        "movementType": "MOVEMENT_JUMP",
-        "movementTimerS": 10,
-        "jumpTimeS": 0.9,
-        "attackTimerS": 29,
-        "attackProbability": 0.1,
-        "dodgeProbability": 0.2,
-        "cameraDistance": 2.5,
-        "minPokemonActionFrequencyS": 0.2,
-        "maxPokemonActionFrequencyS": 1.6
+        "maxPokemonActionFrequencyS": 1.6,
+        "shadowBaseCaptureRate": 0.3,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
       },
       "stats": {
         "baseStamina": 127,
@@ -172999,7 +172955,92 @@
           "evolution": "HELIOLISK",
           "evolutionItemRequirement": "ITEM_SUN_STONE",
           "candyCost": 50,
-          "form": "HELIOLISK_NORMAL"
+          "candyCostPurified": 45
+        }
+      ],
+      "modelScaleV2": 1,
+      "thirdMove": {
+        "stardustToUnlock": 50000,
+        "candyToUnlock": 50
+      },
+      "isTransferable": true,
+      "isDeployable": true,
+      "isTradable": true,
+      "shadow": {
+        "purificationStardustNeeded": 3000,
+        "purificationCandyNeeded": 3,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
+      "ibfc": {},
+      "breadTierGroup": "GROUP_2"
+    }
+  },
+  {
+    "templateId": "V0694_POKEMON_HELIOPTILE_NORMAL",
+    "data": {
+      "pokemonId": "HELIOPTILE",
+      "modelScale": 1.35,
+      "type": "POKEMON_TYPE_ELECTRIC",
+      "type2": "POKEMON_TYPE_NORMAL",
+      "camera": {
+        "cylinderRadiusM": 0.3,
+        "cylinderHeightM": 0.4
+      },
+      "encounter": {
+        "collisionRadiusM": 0.14,
+        "collisionHeightM": 0.1,
+        "collisionHeadRadiusM": 0.126,
+        "movementType": "MOVEMENT_JUMP",
+        "movementTimerS": 10,
+        "jumpTimeS": 0.9,
+        "attackTimerS": 29,
+        "attackProbability": 0.1,
+        "dodgeProbability": 0.2,
+        "cameraDistance": 2.5,
+        "minPokemonActionFrequencyS": 0.2,
+        "maxPokemonActionFrequencyS": 1.6,
+        "shadowBaseCaptureRate": 0.3,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
+      },
+      "stats": {
+        "baseStamina": 127,
+        "baseAttack": 115,
+        "baseDefense": 78
+      },
+      "quickMoves": [
+        "QUICK_ATTACK_FAST",
+        "THUNDER_SHOCK_FAST"
+      ],
+      "cinematicMoves": [
+        "PARABOLIC_CHARGE",
+        "BULLDOZE",
+        "THUNDERBOLT"
+      ],
+      "animationTime": [
+        1.9,
+        0.6666,
+        1.7666,
+        0,
+        2.4,
+        0.08667,
+        0
+      ],
+      "pokedexHeightM": 0.5,
+      "pokedexWeightKg": 6,
+      "heightStdDev": 0.0625,
+      "weightStdDev": 0.75,
+      "familyId": "FAMILY_HELIOPTILE",
+      "kmBuddyDistance": 3,
+      "modelHeight": 0.5,
+      "evolutionBranch": [
+        {
+          "evolution": "HELIOLISK",
+          "evolutionItemRequirement": "ITEM_SUN_STONE",
+          "candyCost": 50,
+          "form": "HELIOLISK_NORMAL",
+          "candyCostPurified": 45
         }
       ],
       "modelScaleV2": 1,
@@ -173011,6 +173052,12 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "shadow": {
+        "purificationStardustNeeded": 3000,
+        "purificationCandyNeeded": 3,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
       "ibfc": {},
       "breadTierGroup": "GROUP_2"
     }
@@ -173041,7 +173088,10 @@
         "cameraDistance": 3,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6,
-        "bonusXlCandyCaptureReward": 1
+        "bonusXlCandyCaptureReward": 1,
+        "shadowBaseCaptureRate": 0.125,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
       },
       "stats": {
         "baseStamina": 158,
@@ -173095,6 +173145,12 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "shadow": {
+        "purificationStardustNeeded": 3000,
+        "purificationCandyNeeded": 3,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
       "ibfc": {},
       "breadTierGroup": "GROUP_2"
     }
@@ -173125,7 +173181,10 @@
         "cameraDistance": 3,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6,
-        "bonusXlCandyCaptureReward": 1
+        "bonusXlCandyCaptureReward": 1,
+        "shadowBaseCaptureRate": 0.125,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
       },
       "stats": {
         "baseStamina": 158,
@@ -173180,6 +173239,12 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "shadow": {
+        "purificationStardustNeeded": 3000,
+        "purificationCandyNeeded": 3,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
       "ibfc": {},
       "breadTierGroup": "GROUP_2"
     }
@@ -185063,7 +185128,10 @@
         "dodgeDistance": 0.5,
         "cameraDistance": 2,
         "minPokemonActionFrequencyS": 0.2,
-        "maxPokemonActionFrequencyS": 1.6
+        "maxPokemonActionFrequencyS": 1.6,
+        "shadowBaseCaptureRate": 0.3,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
       },
       "stats": {
         "baseStamina": 116,
@@ -185089,7 +185157,8 @@
       "evolutionBranch": [
         {
           "evolution": "ARAQUANID",
-          "candyCost": 50
+          "candyCost": 50,
+          "candyCostPurified": 45
         }
       ],
       "modelScaleV2": 1.2,
@@ -185116,6 +185185,12 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "shadow": {
+        "purificationStardustNeeded": 3000,
+        "purificationCandyNeeded": 3,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
       "buddyGroupNumber": 1,
       "raidBossDistanceOffset": 3,
       "ibfc": {},
@@ -185144,7 +185219,10 @@
         "dodgeDistance": 0.5,
         "cameraDistance": 2,
         "minPokemonActionFrequencyS": 0.2,
-        "maxPokemonActionFrequencyS": 1.6
+        "maxPokemonActionFrequencyS": 1.6,
+        "shadowBaseCaptureRate": 0.3,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
       },
       "stats": {
         "baseStamina": 116,
@@ -185171,7 +185249,8 @@
         {
           "evolution": "ARAQUANID",
           "candyCost": 50,
-          "form": "ARAQUANID_NORMAL"
+          "form": "ARAQUANID_NORMAL",
+          "candyCostPurified": 45
         }
       ],
       "modelScaleV2": 1.2,
@@ -185199,6 +185278,12 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "shadow": {
+        "purificationStardustNeeded": 3000,
+        "purificationCandyNeeded": 3,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
       "buddyGroupNumber": 1,
       "raidBossDistanceOffset": 3,
       "ibfc": {},
@@ -185230,7 +185315,10 @@
         "cameraDistance": 7,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6,
-        "bonusXlCandyCaptureReward": 1
+        "bonusXlCandyCaptureReward": 1,
+        "shadowBaseCaptureRate": 0.125,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
       },
       "stats": {
         "baseStamina": 169,
@@ -185280,6 +185368,12 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "shadow": {
+        "purificationStardustNeeded": 3000,
+        "purificationCandyNeeded": 3,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
       "buddyGroupNumber": 3,
       "raidBossDistanceOffset": 8,
       "ibfc": {},
@@ -185311,7 +185405,10 @@
         "cameraDistance": 7,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6,
-        "bonusXlCandyCaptureReward": 1
+        "bonusXlCandyCaptureReward": 1,
+        "shadowBaseCaptureRate": 0.125,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
       },
       "stats": {
         "baseStamina": 169,
@@ -185362,6 +185459,12 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "shadow": {
+        "purificationStardustNeeded": 3000,
+        "purificationCandyNeeded": 3,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
       "buddyGroupNumber": 3,
       "raidBossDistanceOffset": 8,
       "ibfc": {},
@@ -185770,7 +185873,10 @@
         "dodgeDistance": 0.5,
         "cameraDistance": 2,
         "minPokemonActionFrequencyS": 0.2,
-        "maxPokemonActionFrequencyS": 1.6
+        "maxPokemonActionFrequencyS": 1.6,
+        "shadowBaseCaptureRate": 0.3,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
       },
       "stats": {
         "baseStamina": 120,
@@ -185794,7 +185900,8 @@
       "evolutionBranch": [
         {
           "evolution": "SHIINOTIC",
-          "candyCost": 50
+          "candyCost": 50,
+          "candyCostPurified": 45
         }
       ],
       "modelScaleV2": 1.1,
@@ -185821,6 +185928,12 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "shadow": {
+        "purificationStardustNeeded": 3000,
+        "purificationCandyNeeded": 3,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
       "buddyGroupNumber": 2,
       "ibfc": {},
       "breadTierGroup": "GROUP_2"
@@ -185849,7 +185962,10 @@
         "dodgeDistance": 0.5,
         "cameraDistance": 2,
         "minPokemonActionFrequencyS": 0.2,
-        "maxPokemonActionFrequencyS": 1.6
+        "maxPokemonActionFrequencyS": 1.6,
+        "shadowBaseCaptureRate": 0.3,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
       },
       "stats": {
         "baseStamina": 120,
@@ -185874,7 +185990,8 @@
         {
           "evolution": "SHIINOTIC",
           "candyCost": 50,
-          "form": "SHIINOTIC_NORMAL"
+          "form": "SHIINOTIC_NORMAL",
+          "candyCostPurified": 45
         }
       ],
       "modelScaleV2": 1.1,
@@ -185902,6 +186019,12 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "shadow": {
+        "purificationStardustNeeded": 3000,
+        "purificationCandyNeeded": 3,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
       "buddyGroupNumber": 2,
       "ibfc": {},
       "breadTierGroup": "GROUP_2"
@@ -185931,7 +186054,10 @@
         "cameraDistance": 4,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6,
-        "bonusXlCandyCaptureReward": 1
+        "bonusXlCandyCaptureReward": 1,
+        "shadowBaseCaptureRate": 0.125,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
       },
       "stats": {
         "baseStamina": 155,
@@ -185978,6 +186104,12 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "shadow": {
+        "purificationStardustNeeded": 3000,
+        "purificationCandyNeeded": 3,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
       "buddyGroupNumber": 2,
       "raidBossDistanceOffset": 3,
       "ibfc": {},
@@ -186008,7 +186140,10 @@
         "cameraDistance": 4,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6,
-        "bonusXlCandyCaptureReward": 1
+        "bonusXlCandyCaptureReward": 1,
+        "shadowBaseCaptureRate": 0.125,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
       },
       "stats": {
         "baseStamina": 155,
@@ -186056,6 +186191,12 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "shadow": {
+        "purificationStardustNeeded": 3000,
+        "purificationCandyNeeded": 3,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
       "buddyGroupNumber": 2,
       "raidBossDistanceOffset": 3,
       "ibfc": {},
@@ -186406,7 +186547,10 @@
         "dodgeDistance": 0.5,
         "cameraDistance": 4,
         "minPokemonActionFrequencyS": 0.2,
-        "maxPokemonActionFrequencyS": 1.6
+        "maxPokemonActionFrequencyS": 1.6,
+        "shadowBaseCaptureRate": 0.7,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
       },
       "stats": {
         "baseStamina": 172,
@@ -186432,7 +186576,8 @@
       "evolutionBranch": [
         {
           "evolution": "BEWEAR",
-          "candyCost": 400
+          "candyCost": 400,
+          "candyCostPurified": 360
         }
       ],
       "modelScaleV2": 1,
@@ -186484,6 +186629,12 @@
         0,
         0
       ],
+      "shadow": {
+        "purificationStardustNeeded": 1000,
+        "purificationCandyNeeded": 1,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
       "buddyGroupNumber": 2,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -186510,7 +186661,10 @@
         "dodgeDistance": 0.5,
         "cameraDistance": 4,
         "minPokemonActionFrequencyS": 0.2,
-        "maxPokemonActionFrequencyS": 1.6
+        "maxPokemonActionFrequencyS": 1.6,
+        "shadowBaseCaptureRate": 0.7,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
       },
       "stats": {
         "baseStamina": 172,
@@ -186537,7 +186691,8 @@
         {
           "evolution": "BEWEAR",
           "candyCost": 400,
-          "form": "BEWEAR_NORMAL"
+          "form": "BEWEAR_NORMAL",
+          "candyCostPurified": 360
         }
       ],
       "modelScaleV2": 1,
@@ -186590,6 +186745,12 @@
         0,
         0
       ],
+      "shadow": {
+        "purificationStardustNeeded": 1000,
+        "purificationCandyNeeded": 1,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
       "buddyGroupNumber": 2,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -186620,7 +186781,10 @@
         "cameraDistance": 4.5,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6,
-        "bonusXlCandyCaptureReward": 1
+        "bonusXlCandyCaptureReward": 1,
+        "shadowBaseCaptureRate": 0.1,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
       },
       "stats": {
         "baseStamina": 260,
@@ -186695,6 +186859,12 @@
         0,
         0
       ],
+      "shadow": {
+        "purificationStardustNeeded": 1000,
+        "purificationCandyNeeded": 1,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
       "buddyGroupNumber": 3,
       "eliteCinematicMove": [
         "DRAIN_PUNCH"
@@ -186728,7 +186898,10 @@
         "cameraDistance": 4.5,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6,
-        "bonusXlCandyCaptureReward": 1
+        "bonusXlCandyCaptureReward": 1,
+        "shadowBaseCaptureRate": 0.1,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
       },
       "stats": {
         "baseStamina": 260,
@@ -186804,6 +186977,12 @@
         0,
         0
       ],
+      "shadow": {
+        "purificationStardustNeeded": 1000,
+        "purificationCandyNeeded": 1,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
       "buddyGroupNumber": 3,
       "eliteCinematicMove": [
         "DRAIN_PUNCH"
@@ -186837,7 +187016,10 @@
         "cameraDistance": 4.5,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6,
-        "bonusXlCandyCaptureReward": 1
+        "bonusXlCandyCaptureReward": 1,
+        "shadowBaseCaptureRate": 0.1,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
       },
       "stats": {
         "baseStamina": 260,
@@ -186913,6 +187095,12 @@
         0,
         0
       ],
+      "shadow": {
+        "purificationStardustNeeded": 1000,
+        "purificationCandyNeeded": 1,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
       "buddyGroupNumber": 3,
       "eliteCinematicMove": [
         "DRAIN_PUNCH"
@@ -221949,12 +222137,19 @@
     "data": {
       "pokemonId": "ORTHWORM",
       "type": "POKEMON_TYPE_STEEL",
-      "camera": {},
+      "camera": {
+        "cylinderRadiusM": 1.28,
+        "cylinderHeightM": 1.09
+      },
       "encounter": {
+        "collisionRadiusM": 0.24,
+        "collisionHeightM": 0.26,
+        "collisionHeadRadiusM": 0.28,
         "jumpTimeS": 1,
         "attackProbability": 0.1,
         "dodgeProbability": 0.15,
         "dodgeDurationS": 1,
+        "cameraDistance": 4.6,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
@@ -221978,13 +222173,61 @@
       "weightStdDev": 38.75,
       "familyId": "FAMILY_ORTHWORM",
       "kmBuddyDistance": 5,
+      "modelHeight": 2.31,
+      "modelScaleV2": 1.28,
+      "buddyOffsetMale": [
+        0,
+        0,
+        0
+      ],
+      "buddyOffsetFemale": [
+        0,
+        0,
+        0
+      ],
+      "buddyScale": 15,
+      "buddyPortraitOffset": [
+        -50,
+        100,
+        -560
+      ],
       "thirdMove": {
         "stardustToUnlock": 75000,
         "candyToUnlock": 75
       },
       "isTransferable": true,
       "isDeployable": true,
+      "combatShoulderCameraAngle": [
+        0,
+        0,
+        0
+      ],
       "isTradable": true,
+      "combatDefaultCameraAngle": [
+        0,
+        0,
+        0
+      ],
+      "combatOpponentFocusCameraAngle": [
+        0,
+        0,
+        0
+      ],
+      "combatPlayerFocusCameraAngle": [
+        0,
+        0,
+        0
+      ],
+      "combatPlayerPokemonPositionOffset": [
+        0,
+        0,
+        0
+      ],
+      "buddyPortraitRotation": [
+        0,
+        0,
+        0
+      ],
       "ibfc": {},
       "breadTierGroup": "GROUP_3"
     }
@@ -221994,12 +222237,19 @@
     "data": {
       "pokemonId": "ORTHWORM",
       "type": "POKEMON_TYPE_STEEL",
-      "camera": {},
+      "camera": {
+        "cylinderRadiusM": 1.28,
+        "cylinderHeightM": 1.09
+      },
       "encounter": {
+        "collisionRadiusM": 0.24,
+        "collisionHeightM": 0.26,
+        "collisionHeadRadiusM": 0.28,
         "jumpTimeS": 1,
         "attackProbability": 0.1,
         "dodgeProbability": 0.15,
         "dodgeDurationS": 1,
+        "cameraDistance": 4.6,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
@@ -222023,14 +222273,62 @@
       "weightStdDev": 38.75,
       "familyId": "FAMILY_ORTHWORM",
       "kmBuddyDistance": 5,
+      "modelHeight": 2.31,
+      "modelScaleV2": 1.28,
       "form": "ORTHWORM_NORMAL",
+      "buddyOffsetMale": [
+        0,
+        0,
+        0
+      ],
+      "buddyOffsetFemale": [
+        0,
+        0,
+        0
+      ],
+      "buddyScale": 15,
+      "buddyPortraitOffset": [
+        -50,
+        100,
+        -560
+      ],
       "thirdMove": {
         "stardustToUnlock": 75000,
         "candyToUnlock": 75
       },
       "isTransferable": true,
       "isDeployable": true,
+      "combatShoulderCameraAngle": [
+        0,
+        0,
+        0
+      ],
       "isTradable": true,
+      "combatDefaultCameraAngle": [
+        0,
+        0,
+        0
+      ],
+      "combatOpponentFocusCameraAngle": [
+        0,
+        0,
+        0
+      ],
+      "combatPlayerFocusCameraAngle": [
+        0,
+        0,
+        0
+      ],
+      "combatPlayerPokemonPositionOffset": [
+        0,
+        0,
+        0
+      ],
+      "buddyPortraitRotation": [
+        0,
+        0,
+        0
+      ],
       "ibfc": {},
       "breadTierGroup": "GROUP_3"
     }

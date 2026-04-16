@@ -289,14 +289,13 @@
       "ignoreInventorySpace": true,
       "itemCap": 999999,
       "eventPassPoint": {
-        "eventPassId": "EVENT_PASS_30ANNIV2026_EVENT"
+        "eventPassId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT"
       },
       "timePeriodCounters": {
         "playerActivity": {
           "limit": 300
         }
-      },
-      "hideItemInInventory": true
+      }
     }
   },
   {
