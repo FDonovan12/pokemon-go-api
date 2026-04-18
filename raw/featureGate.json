@@ -35,6 +35,13 @@
     }
   },
   {
+    "templateId": "EVENT_LIST_FEATURE_GATE",
+    "data": {
+      "status": 1,
+      "rolloutPercentage": 100
+    }
+  },
+  {
     "templateId": "EVENT_PASS_BONUS_RANKS_FEATURE_GATE",
     "data": {
       "status": 1,
@@ -108,6 +115,13 @@
     "templateId": "STORE_REFRESH_FEATURE_GATE",
     "data": {
       "status": 87970808,
+      "rolloutPercentage": 100
+    }
+  },
+  {
+    "templateId": "UPDATE_TICKETS_STRING_FEATURE_GATE",
+    "data": {
+      "status": 29825861,
       "rolloutPercentage": 100
     }
   },

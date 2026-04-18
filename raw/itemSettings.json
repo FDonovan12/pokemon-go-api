@@ -295,7 +295,8 @@
         "playerActivity": {
           "limit": 300
         }
-      }
+      },
+      "hideItemInInventory": true
     }
   },
   {
@@ -348,10 +349,27 @@
         "eventPassId": "EVENT_PASS_SUSTAINABILITY2026_EVENT"
       },
       "timePeriodCounters": {
-        "playerActivity": {
-          "limit": 500
-        }
+        "playerActivity": {}
       }
+    }
+  },
+  {
+    "templateId": "ITEM_EVENT_PASS_POINT_LIVE_OPS_08",
+    "data": {
+      "itemId": "ITEM_EVENT_PASS_POINT_LIVE_OPS_08",
+      "itemType": "ITEM_TYPE_EVENT_PASS_POINT",
+      "category": "ITEM_CATEGORY_EVENT_PASS_POINT",
+      "ignoreInventorySpace": true,
+      "itemCap": 999999,
+      "eventPassPoint": {
+        "eventPassId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT"
+      },
+      "timePeriodCounters": {
+        "playerActivity": {
+          "limit": 300
+        }
+      },
+      "hideItemInInventory": true
     }
   },
   {
@@ -1425,7 +1443,7 @@
       "eggIncubator": {
         "incubatorType": "INCUBATOR_DISTANCE",
         "uses": 3,
-        "distanceMultiplier": 1
+        "distanceMultiplier": 0.5
       }
     }
   },
@@ -1438,7 +1456,7 @@
       "dropTrainerLevel": 100,
       "eggIncubator": {
         "incubatorType": "INCUBATOR_DISTANCE",
-        "distanceMultiplier": 1
+        "distanceMultiplier": 0.5
       }
     }
   },
@@ -1467,7 +1485,7 @@
       "eggIncubator": {
         "incubatorType": "INCUBATOR_DISTANCE",
         "uses": 3,
-        "distanceMultiplier": 0.6666667
+        "distanceMultiplier": 0.33333334
       }
     }
   },
@@ -1480,7 +1498,7 @@
       "dropTrainerLevel": 100,
       "eggIncubator": {
         "incubatorType": "INCUBATOR_DISTANCE",
-        "distanceMultiplier": 1,
+        "distanceMultiplier": 0.5,
         "expiredIncubatorReplacement": {
           "incubatorReplacement": "ITEM_INCUBATOR_BASIC",
           "usesCountOverride": 1

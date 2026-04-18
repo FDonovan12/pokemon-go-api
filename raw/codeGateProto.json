@@ -75,6 +75,12 @@
     }
   },
   {
+    "templateId": "TODAY_VIEW_V3_CODE_GATE",
+    "data": {
+      "isEnabled": true
+    }
+  },
+  {
     "templateId": "USE_EXTENDED_SETTINGS_FOR_MAX_SCALE_CODE_GATE",
     "data": {
       "isEnabled": true
