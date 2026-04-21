@@ -8924,6 +8924,13 @@
     }
   },
   {
+    "templateId": "N_DISPLAY_n_shoes_pikachuathletic",
+    "data": {
+      "iconAddress": "n_shoes_pikachuathletic_icon",
+      "displayStringId": "avatar_shoes_marathon"
+    }
+  },
+  {
     "templateId": "N_DISPLAY_n_shoes_pikachufan_0",
     "data": {
       "iconAddress": "n_shoes_pikachufan_0_icon",

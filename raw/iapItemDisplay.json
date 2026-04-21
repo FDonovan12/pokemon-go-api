@@ -79,7 +79,7 @@
       "sortOrder": 1,
       "hidden": true,
       "title": "season_pass_premium_track_plus_six_ranks_title_steeled_resolve_2026",
-      "description": "gotour_2025_deluxe_event_pass_track_unlock_plus_points_description",
+      "description": "event_pass_plus_points_6_ranks_description",
       "skuEnableTime": "2025-04-28T10:00:00",
       "skuDisableTime": "2025-05-06T20:00:00",
       "skuEnableTimeUtcMs": "1745834400000",
@@ -7786,15 +7786,9 @@
       "sku": "bundle.hatchbox2024.1",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 1,
+      "hidden": true,
       "spriteId": "bundle.general.adventure.1",
-      "title": "bundle.xmas.large.1_title",
-      "skuEnableTime": "2022-10-13T12:00:00",
-      "skuDisableTime": "2026-04-20T20:00:00",
-      "skuEnableTimeUtcMs": "1665662400000",
-      "skuDisableTimeUtcMs": "1776715200000",
-      "showDiscountTag": true,
-      "showStrikethroughPrice": true,
-      "totalValue": 1910
+      "title": "bundle.xmas.large.1_title"
     }
   },
   {
