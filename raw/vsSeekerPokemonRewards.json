@@ -651,9 +651,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "GROUDON",
+            "pokemonId": "TAPU_KOKO",
             "pokemonDisplay": {
-              "form": "GROUDON_NORMAL"
+              "form": "TAPU_KOKO_NORMAL"
             }
           },
           "unlockedAtRank": 20,
@@ -1331,9 +1331,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "GROUDON",
+            "pokemonId": "TAPU_KOKO",
             "pokemonDisplay": {
-              "form": "GROUDON_NORMAL"
+              "form": "TAPU_KOKO_NORMAL"
             }
           },
           "unlockedAtRank": 20,

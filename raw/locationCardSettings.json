@@ -1181,6 +1181,14 @@
     }
   },
   {
+    "templateId": "LC_SPECIALBACKGROUND_2026_GLOBAL_GOFEST_001",
+    "data": {
+      "locationCard": 248,
+      "imageUrl": "sb_GoTour2026_mega",
+      "cardType": "SPECIAL_BACKGROUND"
+    }
+  },
+  {
     "templateId": "LC_SPECIALBACKGROUND_2026_GLOBAL_GOLD_001",
     "data": {
       "locationCard": "LC_SPECIALBACKGROUND_2026_GLOBAL_GOLD_001",

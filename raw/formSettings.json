@@ -132,6 +132,10 @@
       "forms": [
         {
           "form": "CATERPIE_NORMAL"
+        },
+        {
+          "form": 3346,
+          "isCostume": true
         }
       ]
     }
@@ -541,6 +545,18 @@
         },
         {
           "form": "PIKACHU_BB_2026",
+          "isCostume": true
+        },
+        {
+          "form": 3344,
+          "isCostume": true
+        },
+        {
+          "form": 3343,
+          "isCostume": true
+        },
+        {
+          "form": 3345,
           "isCostume": true
         }
       ]

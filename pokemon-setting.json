@@ -473,6 +473,26 @@
     "id": 10,
     "baseFormName": "normal",
     "forms": {
+      "gofest-2026": {
+        "id": "V0010_POKEMON_CATERPIE_GOFEST_2026",
+        "type": "POKEMON_TYPE_BUG",
+        "stats": {
+          "baseStamina": 128,
+          "baseAttack": 55,
+          "baseDefense": 55
+        },
+        "quickMoves": [
+          "BUG_BITE_FAST",
+          "TACKLE_FAST"
+        ],
+        "cinematicMoves": [
+          "STRUGGLE"
+        ],
+        "encounter": {
+          "stardustCaptureReward": 100
+        },
+        "formName": "gofest-2026"
+      },
       "normal": {
         "id": "V0010_POKEMON_CATERPIE_NORMAL",
         "type": "POKEMON_TYPE_BUG",
@@ -1636,6 +1656,93 @@
           "stardustCaptureReward": 100
         },
         "formName": "gofest-2025-monocle-yellow"
+      },
+      "gofest-2026-cap-blue": {
+        "id": "V0025_POKEMON_PIKACHU_GOFEST_2026_CAP_BLUE",
+        "type": "POKEMON_TYPE_ELECTRIC",
+        "stats": {
+          "baseStamina": 111,
+          "baseAttack": 112,
+          "baseDefense": 96
+        },
+        "quickMoves": [
+          "THUNDER_SHOCK_FAST",
+          "QUICK_ATTACK_FAST"
+        ],
+        "cinematicMoves": [
+          "DISCHARGE",
+          "THUNDERBOLT",
+          "WILD_CHARGE"
+        ],
+        "eliteQuickMove": [
+          "PRESENT_FAST"
+        ],
+        "eliteCinematicMove": [
+          "SURF",
+          "THUNDER"
+        ],
+        "encounter": {
+          "stardustCaptureReward": 100
+        },
+        "formName": "gofest-2026-cap-blue"
+      },
+      "gofest-2026-cap-red": {
+        "id": "V0025_POKEMON_PIKACHU_GOFEST_2026_CAP_RED",
+        "type": "POKEMON_TYPE_ELECTRIC",
+        "stats": {
+          "baseStamina": 111,
+          "baseAttack": 112,
+          "baseDefense": 96
+        },
+        "quickMoves": [
+          "THUNDER_SHOCK_FAST",
+          "QUICK_ATTACK_FAST"
+        ],
+        "cinematicMoves": [
+          "DISCHARGE",
+          "THUNDERBOLT",
+          "WILD_CHARGE"
+        ],
+        "eliteQuickMove": [
+          "PRESENT_FAST"
+        ],
+        "eliteCinematicMove": [
+          "SURF",
+          "THUNDER"
+        ],
+        "encounter": {
+          "stardustCaptureReward": 100
+        },
+        "formName": "gofest-2026-cap-red"
+      },
+      "gofest-2026-cap-yellow": {
+        "id": "V0025_POKEMON_PIKACHU_GOFEST_2026_CAP_YELLOW",
+        "type": "POKEMON_TYPE_ELECTRIC",
+        "stats": {
+          "baseStamina": 111,
+          "baseAttack": 112,
+          "baseDefense": 96
+        },
+        "quickMoves": [
+          "THUNDER_SHOCK_FAST",
+          "QUICK_ATTACK_FAST"
+        ],
+        "cinematicMoves": [
+          "DISCHARGE",
+          "THUNDERBOLT",
+          "WILD_CHARGE"
+        ],
+        "eliteQuickMove": [
+          "PRESENT_FAST"
+        ],
+        "eliteCinematicMove": [
+          "SURF",
+          "THUNDER"
+        ],
+        "encounter": {
+          "stardustCaptureReward": 100
+        },
+        "formName": "gofest-2026-cap-yellow"
       },
       "gotour-2024-a": {
         "id": "V0025_POKEMON_PIKACHU_GOTOUR_2024_A",

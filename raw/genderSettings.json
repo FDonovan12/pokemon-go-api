@@ -250,6 +250,17 @@
     }
   },
   {
+    "templateId": "SPAWN_V0010_POKEMON_CATERPIE_GOFEST_2026",
+    "data": {
+      "pokemon": "CATERPIE",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      },
+      "form": 3346
+    }
+  },
+  {
     "templateId": "SPAWN_V0010_POKEMON_CATERPIE_NORMAL",
     "data": {
       "pokemon": "CATERPIE",
@@ -786,6 +797,39 @@
         "malePercent": 0.5,
         "femalePercent": 0.5
       }
+    }
+  },
+  {
+    "templateId": "SPAWN_V0025_POKEMON_PIKACHU_GOFEST_2026_CAP_BLUE",
+    "data": {
+      "pokemon": "PIKACHU",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      },
+      "form": 3343
+    }
+  },
+  {
+    "templateId": "SPAWN_V0025_POKEMON_PIKACHU_GOFEST_2026_CAP_RED",
+    "data": {
+      "pokemon": "PIKACHU",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      },
+      "form": 3344
+    }
+  },
+  {
+    "templateId": "SPAWN_V0025_POKEMON_PIKACHU_GOFEST_2026_CAP_YELLOW",
+    "data": {
+      "pokemon": "PIKACHU",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      },
+      "form": 3345
     }
   },
   {

@@ -965,6 +965,37 @@
     }
   },
   {
+    "templateId": "EXTENDED_V0010_POKEMON_CATERPIE_GOFEST_2026",
+    "data": {
+      "uniqueId": "CATERPIE",
+      "form": 3346,
+      "sizeSettings": {
+        "xxsLowerBound": 0.147,
+        "xsLowerBound": 0.15,
+        "mLowerBound": 0.225,
+        "mUpperBound": 0.375,
+        "xlUpperBound": 0.45,
+        "xxlUpperBound": 0.525
+      },
+      "breadOverrides": [
+        {
+          "breadMode": "BREAD_MODE",
+          "maxEncounterVisualSettings": {
+            "scale": 57.77,
+            "cameraDistance": 30,
+            "maxReticleSize": 14
+          },
+          "maxBattleVisualSettings": {
+            "scale": 115.54
+          },
+          "maxStationVisualSettings": {
+            "scale": 7.68
+          }
+        }
+      ]
+    }
+  },
+  {
     "templateId": "EXTENDED_V0010_POKEMON_CATERPIE_NORMAL",
     "data": {
       "uniqueId": "CATERPIE",
@@ -1985,6 +2016,189 @@
         "xlUpperBound": 0.6,
         "xxlUpperBound": 0.7
       }
+    }
+  },
+  {
+    "templateId": "EXTENDED_V0025_POKEMON_PIKACHU_GOFEST_2026_CAP_BLUE",
+    "data": {
+      "uniqueId": "PIKACHU",
+      "form": 3343,
+      "sizeSettings": {
+        "xxsLowerBound": 0.196,
+        "xsLowerBound": 0.2,
+        "mLowerBound": 0.3,
+        "mUpperBound": 0.5,
+        "xlUpperBound": 0.6,
+        "xxlUpperBound": 0.7
+      },
+      "breadOverrides": [
+        {
+          "breadMode": "BREAD_MODE",
+          "maxEncounterVisualSettings": {
+            "scale": 31,
+            "cameraDistance": 27.5,
+            "maxReticleSize": 14
+          },
+          "maxBattleVisualSettings": {
+            "scale": 62
+          },
+          "maxStationVisualSettings": {
+            "scale": 4.22
+          }
+        },
+        {
+          "breadMode": "BREAD_DOUGH_MODE",
+          "averageHeightM": 21,
+          "camera": {
+            "cylinderRadiusM": 1.3,
+            "cylinderHeightM": 1.1
+          },
+          "modelScaleV2": 0.86,
+          "modelHeight": 2.57,
+          "catchOverrideSettings": {
+            "collisionRadiusM": 0.25,
+            "collisionHeadRadiusM": 0.25
+          },
+          "maxEncounterVisualSettings": {
+            "scale": 10.5,
+            "cameraDistance": 32.5,
+            "maxReticleSize": 14
+          },
+          "maxBattleVisualSettings": {
+            "scale": 20,
+            "xOffset": 3
+          },
+          "maxBattleTrainerVisualSettings": {
+            "xOffset": -5,
+            "yOffset": -5
+          },
+          "maxStationVisualSettings": {
+            "scale": 1.25
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EXTENDED_V0025_POKEMON_PIKACHU_GOFEST_2026_CAP_RED",
+    "data": {
+      "uniqueId": "PIKACHU",
+      "form": 3344,
+      "sizeSettings": {
+        "xxsLowerBound": 0.196,
+        "xsLowerBound": 0.2,
+        "mLowerBound": 0.3,
+        "mUpperBound": 0.5,
+        "xlUpperBound": 0.6,
+        "xxlUpperBound": 0.7
+      },
+      "breadOverrides": [
+        {
+          "breadMode": "BREAD_MODE",
+          "maxEncounterVisualSettings": {
+            "scale": 31,
+            "cameraDistance": 27.5,
+            "maxReticleSize": 14
+          },
+          "maxBattleVisualSettings": {
+            "scale": 62
+          },
+          "maxStationVisualSettings": {
+            "scale": 4.22
+          }
+        },
+        {
+          "breadMode": "BREAD_DOUGH_MODE",
+          "averageHeightM": 21,
+          "camera": {
+            "cylinderRadiusM": 1.3,
+            "cylinderHeightM": 1.1
+          },
+          "modelScaleV2": 0.86,
+          "modelHeight": 2.57,
+          "catchOverrideSettings": {
+            "collisionRadiusM": 0.25,
+            "collisionHeadRadiusM": 0.25
+          },
+          "maxEncounterVisualSettings": {
+            "scale": 10.5,
+            "cameraDistance": 32.5,
+            "maxReticleSize": 14
+          },
+          "maxBattleVisualSettings": {
+            "scale": 20,
+            "xOffset": 3
+          },
+          "maxBattleTrainerVisualSettings": {
+            "xOffset": -5,
+            "yOffset": -5
+          },
+          "maxStationVisualSettings": {
+            "scale": 1.25
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EXTENDED_V0025_POKEMON_PIKACHU_GOFEST_2026_CAP_YELLOW",
+    "data": {
+      "uniqueId": "PIKACHU",
+      "form": 3345,
+      "sizeSettings": {
+        "xxsLowerBound": 0.196,
+        "xsLowerBound": 0.2,
+        "mLowerBound": 0.3,
+        "mUpperBound": 0.5,
+        "xlUpperBound": 0.6,
+        "xxlUpperBound": 0.7
+      },
+      "breadOverrides": [
+        {
+          "breadMode": "BREAD_MODE",
+          "maxEncounterVisualSettings": {
+            "scale": 31,
+            "cameraDistance": 27.5,
+            "maxReticleSize": 14
+          },
+          "maxBattleVisualSettings": {
+            "scale": 62
+          },
+          "maxStationVisualSettings": {
+            "scale": 4.22
+          }
+        },
+        {
+          "breadMode": "BREAD_DOUGH_MODE",
+          "averageHeightM": 21,
+          "camera": {
+            "cylinderRadiusM": 1.3,
+            "cylinderHeightM": 1.1
+          },
+          "modelScaleV2": 0.86,
+          "modelHeight": 2.57,
+          "catchOverrideSettings": {
+            "collisionRadiusM": 0.25,
+            "collisionHeadRadiusM": 0.25
+          },
+          "maxEncounterVisualSettings": {
+            "scale": 10.5,
+            "cameraDistance": 32.5,
+            "maxReticleSize": 14
+          },
+          "maxBattleVisualSettings": {
+            "scale": 20,
+            "xOffset": 3
+          },
+          "maxBattleTrainerVisualSettings": {
+            "xOffset": -5,
+            "yOffset": -5
+          },
+          "maxStationVisualSettings": {
+            "scale": 1.25
+          }
+        }
+      ]
     }
   },
   {
@@ -24158,7 +24372,33 @@
         "mUpperBound": 0.375,
         "xlUpperBound": 0.45,
         "xxlUpperBound": 0.525
-      }
+      },
+      "breadOverrides": [
+        {
+          "breadMode": "BREAD_MODE",
+          "maxEncounterVisualSettings": {
+            "scale": 49.24,
+            "cameraDistance": 25,
+            "maxReticleSize": 14
+          },
+          "maxBattleVisualSettings": {
+            "scale": 98.48
+          },
+          "maxBattleTrainerVisualSettings": {},
+          "maxStationVisualSettings": {
+            "scale": 6.7,
+            "yOffset": -2
+          },
+          "maxLobbyVisualSettings": {
+            "yOffset": -2
+          }
+        },
+        {
+          "maxLobbyVisualSettings": {
+            "cameraFov": -2
+          }
+        }
+      ]
     }
   },
   {
@@ -24173,7 +24413,33 @@
         "mUpperBound": 0.375,
         "xlUpperBound": 0.45,
         "xxlUpperBound": 0.525
-      }
+      },
+      "breadOverrides": [
+        {
+          "breadMode": "BREAD_MODE",
+          "maxEncounterVisualSettings": {
+            "scale": 49.24,
+            "cameraDistance": 25,
+            "maxReticleSize": 14
+          },
+          "maxBattleVisualSettings": {
+            "scale": 98.48
+          },
+          "maxBattleTrainerVisualSettings": {},
+          "maxStationVisualSettings": {
+            "scale": 6.7,
+            "yOffset": -2
+          },
+          "maxLobbyVisualSettings": {
+            "yOffset": -2
+          }
+        },
+        {
+          "maxLobbyVisualSettings": {
+            "cameraFov": -2
+          }
+        }
+      ]
     }
   },
   {
@@ -24187,7 +24453,27 @@
         "mUpperBound": 0.875,
         "xlUpperBound": 1.05,
         "xxlUpperBound": 1.225
-      }
+      },
+      "breadOverrides": [
+        {
+          "breadMode": "BREAD_MODE",
+          "maxEncounterVisualSettings": {
+            "scale": 23.12,
+            "cameraDistance": 25,
+            "maxReticleSize": 14
+          },
+          "maxBattleVisualSettings": {
+            "scale": 46.24
+          },
+          "maxBattleTrainerVisualSettings": {
+            "xOffset": -7,
+            "yOffset": -7
+          },
+          "maxStationVisualSettings": {
+            "scale": 3.15
+          }
+        }
+      ]
     }
   },
   {
@@ -24202,7 +24488,27 @@
         "mUpperBound": 0.875,
         "xlUpperBound": 1.05,
         "xxlUpperBound": 1.225
-      }
+      },
+      "breadOverrides": [
+        {
+          "breadMode": "BREAD_MODE",
+          "maxEncounterVisualSettings": {
+            "scale": 23.12,
+            "cameraDistance": 25,
+            "maxReticleSize": 14
+          },
+          "maxBattleVisualSettings": {
+            "scale": 46.24
+          },
+          "maxBattleTrainerVisualSettings": {
+            "xOffset": -7,
+            "yOffset": -7
+          },
+          "maxStationVisualSettings": {
+            "scale": 3.15
+          }
+        }
+      ]
     }
   },
   {
