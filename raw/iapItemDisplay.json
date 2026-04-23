@@ -34,12 +34,13 @@
     "data": {
       "sku": "pgorelease.april2_2026_deluxe_event_pass_track_unlock",
       "sortOrder": 1,
+      "hidden": true,
       "title": "season_pass_premium_track_title_sustainabilityweek2026",
       "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
       "skuEnableTime": "2025-04-14T10:00:00",
-      "skuDisableTime": "2026-04-22T20:00:00",
+      "skuDisableTime": "2025-04-22T20:00:00",
       "skuEnableTimeUtcMs": "1744624800000",
-      "skuDisableTimeUtcMs": "1776888000000",
+      "skuDisableTimeUtcMs": "1745352000000",
       "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-paid-sustainability-week-2026-nologo.jpg"
     }
   },
@@ -48,12 +49,13 @@
     "data": {
       "sku": "pgorelease.april2_2026_deluxe_event_pass_track_unlock_plus_points",
       "sortOrder": 1,
+      "hidden": true,
       "title": "season_pass_premium_track_plus_six_ranks_title_sustainabilityweek2026",
       "description": "event_pass_plus_points_6_ranks_description",
       "skuEnableTime": "2025-04-14T10:00:00",
-      "skuDisableTime": "2026-04-22T20:00:00",
+      "skuDisableTime": "2025-04-22T20:00:00",
       "skuEnableTimeUtcMs": "1744624800000",
-      "skuDisableTimeUtcMs": "1776888000000",
+      "skuDisableTimeUtcMs": "1745352000000",
       "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-paid-sustainability-week-2026-nologo.jpg"
     }
   },
@@ -275,13 +277,13 @@
       "sku": "pgorelease.month3_deluxe_event_pass_track_redirect",
       "sortOrder": 1,
       "hidden": true,
-      "title": "season_pass_premium_track_title_feb",
+      "title": "season_pass_premium_track_title_may",
       "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
-      "skuEnableTime": "2025-02-03T10:00:00",
-      "skuDisableTime": "2026-03-05T10:00:00",
-      "skuEnableTimeUtcMs": "1738576800000",
-      "skuDisableTimeUtcMs": "1772704800000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_GO_Pass_February_TICKET_v1-1024x576-nologo.jpg"
+      "skuEnableTime": "2025-05-05T10:00:00",
+      "skuDisableTime": "2025-06-04T10:00:00",
+      "skuEnableTimeUtcMs": "1746439200000",
+      "skuDisableTimeUtcMs": "1749031200000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_GO_Pass_May_2026_TICKET_v1-1204x576.jpg"
     }
   },
   {
@@ -653,13 +655,13 @@
       "sku": "pgorelease.month3_deluxe_event_pass_track_unlock",
       "sortOrder": 1,
       "hidden": true,
-      "title": "season_pass_premium_track_title_feb",
+      "title": "season_pass_premium_track_title_may",
       "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
-      "skuEnableTime": "2025-02-03T10:00:00",
-      "skuDisableTime": "2026-03-05T10:00:00",
-      "skuEnableTimeUtcMs": "1738576800000",
-      "skuDisableTimeUtcMs": "1772704800000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_GO_Pass_February_TICKET_v1-1024x576-nologo.jpg"
+      "skuEnableTime": "2025-05-05T10:00:00",
+      "skuDisableTime": "2025-06-04T10:00:00",
+      "skuEnableTimeUtcMs": "1746439200000",
+      "skuDisableTimeUtcMs": "1749031200000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_GO_Pass_May_2026_TICKET_v1-1204x576.jpg"
     }
   },
   {
@@ -668,13 +670,13 @@
       "sku": "pgorelease.month3_deluxe_event_pass_track_unlock_plus_points",
       "sortOrder": 1,
       "hidden": true,
-      "title": "season_pass_premium_track_plus_ten_ranks_title_feb",
+      "title": "season_pass_premium_track_plus_ten_ranks_title_may",
       "description": "gotour_2025_deluxe_event_pass_track_unlock_plus_points_description",
-      "skuEnableTime": "2025-02-03T10:00:00",
-      "skuDisableTime": "2026-03-05T10:00:00",
-      "skuEnableTimeUtcMs": "1738576800000",
-      "skuDisableTimeUtcMs": "1772704800000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_GO_Pass_February_TICKET_v1-1024x576-nologo.jpg"
+      "skuEnableTime": "2025-05-05T10:00:00",
+      "skuDisableTime": "2025-06-04T10:00:00",
+      "skuEnableTimeUtcMs": "1746439200000",
+      "skuDisableTimeUtcMs": "1749031200000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_GO_Pass_May_2026_TICKET_v1-1204x576.jpg"
     }
   },
   {
@@ -9558,7 +9560,6 @@
       "sku": "pgorelease.general2.ticket.6",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 1,
-      "hidden": true,
       "spriteId": "general2.ticket.6",
       "title": "general2.ticket.6.REPLAY_GO_BIGGER",
       "skuEnableTime": "2023-01-01T11:00:04",
@@ -9914,42 +9915,14 @@
     "templateId": "pgorelease.april2_2026_deluxe_event_pass_track_redirect",
     "data": {
       "sku": "pgorelease.april2_2026_deluxe_event_pass_track_redirect",
-      "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 1,
+      "hidden": true,
       "title": "season_pass_premium_track_title_sustainabilityweek2026",
       "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
       "skuEnableTime": "2025-04-14T10:00:00",
-      "skuDisableTime": "2026-04-22T20:00:00",
+      "skuDisableTime": "2025-04-22T20:00:00",
       "skuEnableTimeUtcMs": "1744624800000",
-      "skuDisableTimeUtcMs": "1776888000000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-paid-sustainability-week-2026-nologo.jpg"
-    }
-  },
-  {
-    "templateId": "pgorelease.april2_2026_deluxe_event_pass_track_unlock",
-    "data": {
-      "sku": "pgorelease.april2_2026_deluxe_event_pass_track_unlock",
-      "sortOrder": 1,
-      "title": "season_pass_premium_track_title_sustainabilityweek2026",
-      "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
-      "skuEnableTime": "2025-04-14T10:00:00",
-      "skuDisableTime": "2026-04-22T20:00:00",
-      "skuEnableTimeUtcMs": "1744624800000",
-      "skuDisableTimeUtcMs": "1776888000000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-paid-sustainability-week-2026-nologo.jpg"
-    }
-  },
-  {
-    "templateId": "pgorelease.april2_2026_deluxe_event_pass_track_unlock_plus_points",
-    "data": {
-      "sku": "pgorelease.april2_2026_deluxe_event_pass_track_unlock_plus_points",
-      "sortOrder": 1,
-      "title": "season_pass_premium_track_plus_six_ranks_title_sustainabilityweek2026",
-      "description": "event_pass_plus_points_6_ranks_description",
-      "skuEnableTime": "2025-04-14T10:00:00",
-      "skuDisableTime": "2026-04-22T20:00:00",
-      "skuEnableTimeUtcMs": "1744624800000",
-      "skuDisableTimeUtcMs": "1776888000000",
+      "skuDisableTimeUtcMs": "1745352000000",
       "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-paid-sustainability-week-2026-nologo.jpg"
     }
   },
