@@ -5094,6 +5094,42 @@
     }
   },
   {
+    "templateId": "BADGE_GOFEST_2026_EVENT_PASS_DELUXE",
+    "data": {
+      "badgeType": 6212,
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true,
+      "eventBadgeSettings": {
+        "obEventBadgeSettingsNumber6": 1
+      }
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_GLOBAL",
+    "data": {
+      "badgeType": 6210,
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_GLOBAL_TEST",
+    "data": {
+      "badgeType": 6211,
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
     "templateId": "BADGE_GOTOUR_2021_GREEN_GLOBAL",
     "data": {
       "badgeType": "BADGE_GOTOUR_2021_GREEN_GLOBAL",
@@ -7056,6 +7092,34 @@
         2000,
         50000
       ]
+    }
+  },
+  {
+    "templateId": "BADGE_QUEST_DIALOGUE_INBOX_CONTROL",
+    "data": {
+      "badgeType": 6214,
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true,
+      "eventBadgeSettings": {
+        "obEventBadgeSettingsNumber6": 1
+      }
+    }
+  },
+  {
+    "templateId": "BADGE_QUEST_DIALOGUE_INBOX_ROLLOUT",
+    "data": {
+      "badgeType": 6213,
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true,
+      "eventBadgeSettings": {
+        "obEventBadgeSettingsNumber6": 1
+      }
     }
   },
   {
