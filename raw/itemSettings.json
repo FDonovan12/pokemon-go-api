@@ -727,6 +727,26 @@
     }
   },
   {
+    "templateId": "ITEM_EVENT_TICKET_06_TO_GIFT",
+    "data": {
+      "itemId": "ITEM_EVENT_TICKET_06_TO_GIFT",
+      "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
+      "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
+      "globalEventTicket": {
+        "eventStartTime": "2026-04-25T14:00:00",
+        "eventEndTime": "2026-04-25T17:00:00",
+        "itemBagDescriptionKey": "item_event_ticket_06_details_REPLAY_GO_BIGGER",
+        "ticketItem": "ITEM_EVENT_TICKET_06",
+        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-gmax-kanto-max-battle-day-2026-nologo.jpg",
+        "clientEventStartTimeUtcMs": "1777125600000",
+        "clientEventEndTimeUtcMs": "1777136400000"
+      },
+      "ignoreInventorySpace": true,
+      "nameOverride": "general2.ticket.6.REPLAY_GO_BIGGER",
+      "descriptionOverride": "item_event_ticket_06_desc_REPLAY_GO_BIGGER"
+    }
+  },
+  {
     "templateId": "ITEM_EVENT_TICKET_07",
     "data": {
       "itemId": "ITEM_EVENT_TICKET_07",
