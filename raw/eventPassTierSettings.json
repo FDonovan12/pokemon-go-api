@@ -6348,5 +6348,2403 @@
         }
       ]
     }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_100_FREE",
+    "data": {
+      "rank": 100,
+      "track": "FREE",
+      "minPointsRequired": 9900,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_10_FREE",
+    "data": {
+      "rank": 10,
+      "track": "FREE",
+      "minPointsRequired": 900,
+      "rewards": [
+        {
+          "type": "PLAYER_ATTRIBUTE",
+          "playerAttribute": {
+            "key": "steeledresolve2026_season_pass_rank_01",
+            "durationMins": 131487
+          }
+        }
+      ],
+      "bonusSettings": {
+        "eventName": "season_pass_milestone_bonus_title_01",
+        "bonusBoxes": [
+          {
+            "text": "catch_candy_double",
+            "iconType": "CANDY_GENERAL"
+          }
+        ]
+      },
+      "activeBonusDisplaySettings": {
+        "bonusBoxes": [
+          {
+            "text": "catch_candy_double",
+            "iconType": "CANDY_GENERAL"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_10_PREMIUM",
+    "data": {
+      "rank": 10,
+      "track": "PREMIUM"
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_11_FREE",
+    "data": {
+      "rank": 11,
+      "track": "FREE",
+      "minPointsRequired": 1000,
+      "rewards": [
+        {
+          "type": "CANDY",
+          "candy": {
+            "pokemonId": "BELDUM",
+            "amount": 10
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_11_PREMIUM",
+    "data": {
+      "rank": 11,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "XL_CANDY",
+          "xlCandy": {
+            "pokemonId": "BELDUM",
+            "amount": 3
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_12_FREE",
+    "data": {
+      "rank": 12,
+      "track": "FREE",
+      "minPointsRequired": 1100,
+      "rewards": [
+        {
+          "type": "POKEMON_ENCOUNTER",
+          "pokemonEncounter": {
+            "pokemonId": "BELDUM",
+            "pokemonDisplay": {
+              "form": "BELDUM_NORMAL"
+            },
+            "isFeaturedPokemon": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_12_PREMIUM",
+    "data": {
+      "rank": 12,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "POKEMON_ENCOUNTER",
+          "pokemonEncounter": {
+            "pokemonId": "BELDUM",
+            "pokemonDisplay": {
+              "form": "BELDUM_NORMAL"
+            },
+            "isFeaturedPokemon": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_13_FREE",
+    "data": {
+      "rank": 13,
+      "track": "FREE",
+      "minPointsRequired": 1200,
+      "rewards": [
+        {
+          "type": "ITEM",
+          "item": {
+            "item": "ITEM_RAZZ_BERRY",
+            "amount": 3
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_13_PREMIUM",
+    "data": {
+      "rank": 13,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "ITEM",
+          "item": {
+            "item": "ITEM_INCENSE_ORDINARY",
+            "amount": 1
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_14_FREE",
+    "data": {
+      "rank": 14,
+      "track": "FREE",
+      "minPointsRequired": 1300,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 2500
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_14_PREMIUM",
+    "data": {
+      "rank": 14,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 5000
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_15_FREE",
+    "data": {
+      "rank": 15,
+      "track": "FREE",
+      "minPointsRequired": 1400,
+      "rewards": [
+        {
+          "type": "ITEM",
+          "item": {
+            "item": "ITEM_REVIVE",
+            "amount": 2
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_15_PREMIUM",
+    "data": {
+      "rank": 15,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "ITEM",
+          "item": {
+            "item": "ITEM_MAX_REVIVE",
+            "amount": 2
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_16_FREE",
+    "data": {
+      "rank": 16,
+      "track": "FREE",
+      "minPointsRequired": 1500,
+      "rewards": [
+        {
+          "type": "ITEM",
+          "item": {
+            "item": "ITEM_SUPER_POTION",
+            "amount": 2
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_16_PREMIUM",
+    "data": {
+      "rank": 16,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "ITEM",
+          "item": {
+            "item": "ITEM_INCUBATOR_BASIC",
+            "amount": 1
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_17_FREE",
+    "data": {
+      "rank": 17,
+      "track": "FREE",
+      "minPointsRequired": 1600,
+      "rewards": [
+        {
+          "type": "ITEM",
+          "item": {
+            "item": "ITEM_SHADOW_GEM_FRAGMENT",
+            "amount": 12
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_17_PREMIUM",
+    "data": {
+      "rank": 17,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "ITEM",
+          "item": {
+            "item": "ITEM_MAX_POTION",
+            "amount": 3
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_18_FREE",
+    "data": {
+      "rank": 18,
+      "track": "FREE",
+      "minPointsRequired": 1700,
+      "rewards": [
+        {
+          "type": "CANDY",
+          "candy": {
+            "pokemonId": "PAWNIARD",
+            "amount": 10
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_18_PREMIUM",
+    "data": {
+      "rank": 18,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "XL_CANDY",
+          "xlCandy": {
+            "pokemonId": "PAWNIARD",
+            "amount": 3
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_19_FREE",
+    "data": {
+      "rank": 19,
+      "track": "FREE",
+      "minPointsRequired": 1800,
+      "rewards": [
+        {
+          "type": "POKEMON_ENCOUNTER",
+          "pokemonEncounter": {
+            "pokemonId": "PAWNIARD",
+            "pokemonDisplay": {
+              "form": "PAWNIARD_NORMAL"
+            },
+            "isFeaturedPokemon": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_19_PREMIUM",
+    "data": {
+      "rank": 19,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "POKEMON_ENCOUNTER",
+          "pokemonEncounter": {
+            "pokemonId": "PAWNIARD",
+            "pokemonDisplay": {
+              "form": "PAWNIARD_NORMAL"
+            },
+            "isFeaturedPokemon": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_1_FREE",
+    "data": {
+      "rank": 1,
+      "track": "FREE",
+      "rewards": [
+        {
+          "type": "EXPERIENCE",
+          "exp": 2500
+        },
+        {
+          "type": "PLAYER_ATTRIBUTE",
+          "playerAttribute": {
+            "key": "steeledresolve2026_season_pass_entitlement",
+            "durationMins": 131487
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_1_PREMIUM",
+    "data": {
+      "rank": 1,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "ITEM",
+          "item": {
+            "item": "ITEM_GIOVANNI_MAP",
+            "amount": 1
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_20_FREE",
+    "data": {
+      "rank": 20,
+      "track": "FREE",
+      "minPointsRequired": 1900,
+      "rewards": [
+        {
+          "type": "PLAYER_ATTRIBUTE",
+          "playerAttribute": {
+            "key": "steeledresolve2026_season_pass_rank_02",
+            "durationMins": 131487
+          }
+        }
+      ],
+      "bonusSettings": {
+        "eventName": "season_pass_milestone_bonus_title_02",
+        "bonusBoxes": [
+          {
+            "text": "rocket_stardust_double",
+            "iconType": "TEAM_ROCKET"
+          }
+        ]
+      },
+      "activeBonusDisplaySettings": {
+        "bonusBoxes": [
+          {
+            "text": "catch_candy_double",
+            "iconType": "CANDY_GENERAL"
+          },
+          {
+            "text": "rocket_stardust_double",
+            "iconType": "TEAM_ROCKET"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_20_PREMIUM",
+    "data": {
+      "rank": 20,
+      "track": "PREMIUM"
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_21_FREE",
+    "data": {
+      "rank": 21,
+      "track": "FREE",
+      "minPointsRequired": 2000,
+      "rewards": [
+        {
+          "type": "CANDY",
+          "candy": {
+            "pokemonId": "HONEDGE",
+            "amount": 10
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_21_PREMIUM",
+    "data": {
+      "rank": 21,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "XL_CANDY",
+          "xlCandy": {
+            "pokemonId": "HONEDGE",
+            "amount": 3
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_22_FREE",
+    "data": {
+      "rank": 22,
+      "track": "FREE",
+      "minPointsRequired": 2100,
+      "rewards": [
+        {
+          "type": "POKEMON_ENCOUNTER",
+          "pokemonEncounter": {
+            "pokemonId": "HONEDGE",
+            "pokemonDisplay": {
+              "form": "HONEDGE_NORMAL"
+            },
+            "isFeaturedPokemon": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_22_PREMIUM",
+    "data": {
+      "rank": 22,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "POKEMON_ENCOUNTER",
+          "pokemonEncounter": {
+            "pokemonId": "HONEDGE",
+            "pokemonDisplay": {
+              "form": "HONEDGE_NORMAL"
+            },
+            "isFeaturedPokemon": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_23_FREE",
+    "data": {
+      "rank": 23,
+      "track": "FREE",
+      "minPointsRequired": 2200,
+      "rewards": [
+        {
+          "type": "ITEM",
+          "item": {
+            "item": "ITEM_ULTRA_BALL",
+            "amount": 10
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_23_PREMIUM",
+    "data": {
+      "rank": 23,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "ITEM",
+          "item": {
+            "item": "ITEM_INCUBATOR_BASIC",
+            "amount": 1
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_24_FREE",
+    "data": {
+      "rank": 24,
+      "track": "FREE",
+      "minPointsRequired": 2300,
+      "rewards": [
+        {
+          "type": "ITEM",
+          "item": {
+            "item": "ITEM_SHADOW_GEM_FRAGMENT",
+            "amount": 12
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_24_PREMIUM",
+    "data": {
+      "rank": 24,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "ITEM",
+          "item": {
+            "item": "ITEM_PAID_RAID_TICKET",
+            "amount": 2
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_25_FREE",
+    "data": {
+      "rank": 25,
+      "track": "FREE",
+      "minPointsRequired": 2400,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 2500
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_25_PREMIUM",
+    "data": {
+      "rank": 25,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 5000
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_26_FREE",
+    "data": {
+      "rank": 26,
+      "track": "FREE",
+      "minPointsRequired": 2500,
+      "rewards": [
+        {
+          "type": "ITEM",
+          "item": {
+            "item": "ITEM_LEADER_MAP_FRAGMENT",
+            "amount": 3
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_26_PREMIUM",
+    "data": {
+      "rank": 26,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "ITEM",
+          "item": {
+            "item": "ITEM_LEADER_MAP_FRAGMENT",
+            "amount": 3
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_27_FREE",
+    "data": {
+      "rank": 27,
+      "track": "FREE",
+      "minPointsRequired": 2600,
+      "rewards": [
+        {
+          "type": "EXPERIENCE",
+          "exp": 5000
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_27_PREMIUM",
+    "data": {
+      "rank": 27,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "EXPERIENCE",
+          "exp": 7500
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_28_FREE",
+    "data": {
+      "rank": 28,
+      "track": "FREE",
+      "minPointsRequired": 2700,
+      "rewards": [
+        {
+          "type": "CANDY",
+          "candy": {
+            "pokemonId": "MELTAN",
+            "amount": 10
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_28_PREMIUM",
+    "data": {
+      "rank": 28,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "XL_CANDY",
+          "xlCandy": {
+            "pokemonId": "MELTAN",
+            "amount": 3
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_29_FREE",
+    "data": {
+      "rank": 29,
+      "track": "FREE",
+      "minPointsRequired": 2800,
+      "rewards": [
+        {
+          "type": "POKEMON_ENCOUNTER",
+          "pokemonEncounter": {
+            "pokemonId": "MELTAN",
+            "pokemonDisplay": {
+              "form": "MELTAN_NORMAL"
+            },
+            "isFeaturedPokemon": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_29_PREMIUM",
+    "data": {
+      "rank": 29,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "POKEMON_ENCOUNTER",
+          "pokemonEncounter": {
+            "pokemonId": "MELTAN",
+            "pokemonDisplay": {
+              "form": "MELTAN_NORMAL"
+            },
+            "isFeaturedPokemon": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_2_FREE",
+    "data": {
+      "rank": 2,
+      "track": "FREE",
+      "minPointsRequired": 100,
+      "rewards": [
+        {
+          "type": "ITEM",
+          "item": {
+            "item": "ITEM_POKE_BALL",
+            "amount": 10
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_2_PREMIUM",
+    "data": {
+      "rank": 2,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "ITEM",
+          "item": {
+            "item": "ITEM_POKE_BALL",
+            "amount": 30
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_30_FREE",
+    "data": {
+      "rank": 30,
+      "track": "FREE",
+      "minPointsRequired": 2900,
+      "rewards": [
+        {
+          "type": "ITEM",
+          "item": {
+            "item": "ITEM_GIOVANNI_MAP",
+            "amount": 1
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_30_PREMIUM",
+    "data": {
+      "rank": 30,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "POKEMON_ENCOUNTER",
+          "pokemonEncounter": {
+            "pokemonId": "MELTAN",
+            "pokemonDisplay": {
+              "form": "MELTAN_NORMAL"
+            },
+            "isFeaturedPokemon": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_31_FREE",
+    "data": {
+      "rank": 31,
+      "track": "FREE",
+      "minPointsRequired": 3000,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_31_PREMIUM",
+    "data": {
+      "rank": 31,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 100
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_32_FREE",
+    "data": {
+      "rank": 32,
+      "track": "FREE",
+      "minPointsRequired": 3100,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_32_PREMIUM",
+    "data": {
+      "rank": 32,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 100
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_33_FREE",
+    "data": {
+      "rank": 33,
+      "track": "FREE",
+      "minPointsRequired": 3200,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_33_PREMIUM",
+    "data": {
+      "rank": 33,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 100
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_34_FREE",
+    "data": {
+      "rank": 34,
+      "track": "FREE",
+      "minPointsRequired": 3300,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_34_PREMIUM",
+    "data": {
+      "rank": 34,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 100
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_35_FREE",
+    "data": {
+      "rank": 35,
+      "track": "FREE",
+      "minPointsRequired": 3400,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_35_PREMIUM",
+    "data": {
+      "rank": 35,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 100
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_36_FREE",
+    "data": {
+      "rank": 36,
+      "track": "FREE",
+      "minPointsRequired": 3500,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_36_PREMIUM",
+    "data": {
+      "rank": 36,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 100
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_37_FREE",
+    "data": {
+      "rank": 37,
+      "track": "FREE",
+      "minPointsRequired": 3600,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_37_PREMIUM",
+    "data": {
+      "rank": 37,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 100
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_38_FREE",
+    "data": {
+      "rank": 38,
+      "track": "FREE",
+      "minPointsRequired": 3700,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_38_PREMIUM",
+    "data": {
+      "rank": 38,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 100
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_39_FREE",
+    "data": {
+      "rank": 39,
+      "track": "FREE",
+      "minPointsRequired": 3800,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_39_PREMIUM",
+    "data": {
+      "rank": 39,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 100
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_3_FREE",
+    "data": {
+      "rank": 3,
+      "track": "FREE",
+      "minPointsRequired": 200,
+      "rewards": [
+        {
+          "type": "ITEM",
+          "item": {
+            "item": "ITEM_PINAP_BERRY",
+            "amount": 3
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_3_PREMIUM",
+    "data": {
+      "rank": 3,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "ITEM",
+          "item": {
+            "item": "ITEM_PAID_RAID_TICKET",
+            "amount": 1
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_40_FREE",
+    "data": {
+      "rank": 40,
+      "track": "FREE",
+      "minPointsRequired": 3900,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_40_PREMIUM",
+    "data": {
+      "rank": 40,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 100
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_41_FREE",
+    "data": {
+      "rank": 41,
+      "track": "FREE",
+      "minPointsRequired": 4000,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_41_PREMIUM",
+    "data": {
+      "rank": 41,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 100
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_42_FREE",
+    "data": {
+      "rank": 42,
+      "track": "FREE",
+      "minPointsRequired": 4100,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_42_PREMIUM",
+    "data": {
+      "rank": 42,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 100
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_43_FREE",
+    "data": {
+      "rank": 43,
+      "track": "FREE",
+      "minPointsRequired": 4200,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_43_PREMIUM",
+    "data": {
+      "rank": 43,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 100
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_44_FREE",
+    "data": {
+      "rank": 44,
+      "track": "FREE",
+      "minPointsRequired": 4300,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_44_PREMIUM",
+    "data": {
+      "rank": 44,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 100
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_45_FREE",
+    "data": {
+      "rank": 45,
+      "track": "FREE",
+      "minPointsRequired": 4400,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_45_PREMIUM",
+    "data": {
+      "rank": 45,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 100
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_46_FREE",
+    "data": {
+      "rank": 46,
+      "track": "FREE",
+      "minPointsRequired": 4500,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_46_PREMIUM",
+    "data": {
+      "rank": 46,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 100
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_47_FREE",
+    "data": {
+      "rank": 47,
+      "track": "FREE",
+      "minPointsRequired": 4600,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_47_PREMIUM",
+    "data": {
+      "rank": 47,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 100
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_48_FREE",
+    "data": {
+      "rank": 48,
+      "track": "FREE",
+      "minPointsRequired": 4700,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_48_PREMIUM",
+    "data": {
+      "rank": 48,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 100
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_49_FREE",
+    "data": {
+      "rank": 49,
+      "track": "FREE",
+      "minPointsRequired": 4800,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_49_PREMIUM",
+    "data": {
+      "rank": 49,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 100
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_4_FREE",
+    "data": {
+      "rank": 4,
+      "track": "FREE",
+      "minPointsRequired": 300,
+      "rewards": [
+        {
+          "type": "CANDY",
+          "candy": {
+            "pokemonId": "FERROSEED",
+            "amount": 10
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_4_PREMIUM",
+    "data": {
+      "rank": 4,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "XL_CANDY",
+          "xlCandy": {
+            "pokemonId": "FERROSEED",
+            "amount": 2
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_50_FREE",
+    "data": {
+      "rank": 50,
+      "track": "FREE",
+      "minPointsRequired": 4900,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_50_PREMIUM",
+    "data": {
+      "rank": 50,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 100
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_51_FREE",
+    "data": {
+      "rank": 51,
+      "track": "FREE",
+      "minPointsRequired": 5000,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_51_PREMIUM",
+    "data": {
+      "rank": 51,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 100
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_52_FREE",
+    "data": {
+      "rank": 52,
+      "track": "FREE",
+      "minPointsRequired": 5100,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_52_PREMIUM",
+    "data": {
+      "rank": 52,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 100
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_53_FREE",
+    "data": {
+      "rank": 53,
+      "track": "FREE",
+      "minPointsRequired": 5200,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_53_PREMIUM",
+    "data": {
+      "rank": 53,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 100
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_54_FREE",
+    "data": {
+      "rank": 54,
+      "track": "FREE",
+      "minPointsRequired": 5300,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_54_PREMIUM",
+    "data": {
+      "rank": 54,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 100
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_55_FREE",
+    "data": {
+      "rank": 55,
+      "track": "FREE",
+      "minPointsRequired": 5400,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_55_PREMIUM",
+    "data": {
+      "rank": 55,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 100
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_56_FREE",
+    "data": {
+      "rank": 56,
+      "track": "FREE",
+      "minPointsRequired": 5500,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_56_PREMIUM",
+    "data": {
+      "rank": 56,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 100
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_57_FREE",
+    "data": {
+      "rank": 57,
+      "track": "FREE",
+      "minPointsRequired": 5600,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_57_PREMIUM",
+    "data": {
+      "rank": 57,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 100
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_58_FREE",
+    "data": {
+      "rank": 58,
+      "track": "FREE",
+      "minPointsRequired": 5700,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_58_PREMIUM",
+    "data": {
+      "rank": 58,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 100
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_59_FREE",
+    "data": {
+      "rank": 59,
+      "track": "FREE",
+      "minPointsRequired": 5800,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_59_PREMIUM",
+    "data": {
+      "rank": 59,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 100
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_5_FREE",
+    "data": {
+      "rank": 5,
+      "track": "FREE",
+      "minPointsRequired": 400,
+      "rewards": [
+        {
+          "type": "POKEMON_ENCOUNTER",
+          "pokemonEncounter": {
+            "pokemonId": "FERROSEED",
+            "pokemonDisplay": {
+              "form": "FERROSEED_NORMAL"
+            },
+            "isFeaturedPokemon": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_5_PREMIUM",
+    "data": {
+      "rank": 5,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "POKEMON_ENCOUNTER",
+          "pokemonEncounter": {
+            "pokemonId": "FERROSEED",
+            "pokemonDisplay": {
+              "form": "FERROSEED_NORMAL"
+            },
+            "isFeaturedPokemon": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_60_FREE",
+    "data": {
+      "rank": 60,
+      "track": "FREE",
+      "minPointsRequired": 5900,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_60_PREMIUM",
+    "data": {
+      "rank": 60,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 100
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_61_FREE",
+    "data": {
+      "rank": 61,
+      "track": "FREE",
+      "minPointsRequired": 6000,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_62_FREE",
+    "data": {
+      "rank": 62,
+      "track": "FREE",
+      "minPointsRequired": 6100,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_63_FREE",
+    "data": {
+      "rank": 63,
+      "track": "FREE",
+      "minPointsRequired": 6200,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_64_FREE",
+    "data": {
+      "rank": 64,
+      "track": "FREE",
+      "minPointsRequired": 6300,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_65_FREE",
+    "data": {
+      "rank": 65,
+      "track": "FREE",
+      "minPointsRequired": 6400,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_66_FREE",
+    "data": {
+      "rank": 66,
+      "track": "FREE",
+      "minPointsRequired": 6500,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_67_FREE",
+    "data": {
+      "rank": 67,
+      "track": "FREE",
+      "minPointsRequired": 6600,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_68_FREE",
+    "data": {
+      "rank": 68,
+      "track": "FREE",
+      "minPointsRequired": 6700,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_69_FREE",
+    "data": {
+      "rank": 69,
+      "track": "FREE",
+      "minPointsRequired": 6800,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_6_FREE",
+    "data": {
+      "rank": 6,
+      "track": "FREE",
+      "minPointsRequired": 500,
+      "rewards": [
+        {
+          "type": "ITEM",
+          "item": {
+            "item": "ITEM_GREAT_BALL",
+            "amount": 10
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_6_PREMIUM",
+    "data": {
+      "rank": 6,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "ITEM",
+          "item": {
+            "item": "ITEM_GREAT_BALL",
+            "amount": 20
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_70_FREE",
+    "data": {
+      "rank": 70,
+      "track": "FREE",
+      "minPointsRequired": 6900,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_71_FREE",
+    "data": {
+      "rank": 71,
+      "track": "FREE",
+      "minPointsRequired": 7000,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_72_FREE",
+    "data": {
+      "rank": 72,
+      "track": "FREE",
+      "minPointsRequired": 7100,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_73_FREE",
+    "data": {
+      "rank": 73,
+      "track": "FREE",
+      "minPointsRequired": 7200,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_74_FREE",
+    "data": {
+      "rank": 74,
+      "track": "FREE",
+      "minPointsRequired": 7300,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_75_FREE",
+    "data": {
+      "rank": 75,
+      "track": "FREE",
+      "minPointsRequired": 7400,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_76_FREE",
+    "data": {
+      "rank": 76,
+      "track": "FREE",
+      "minPointsRequired": 7500,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_77_FREE",
+    "data": {
+      "rank": 77,
+      "track": "FREE",
+      "minPointsRequired": 7600,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_78_FREE",
+    "data": {
+      "rank": 78,
+      "track": "FREE",
+      "minPointsRequired": 7700,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_79_FREE",
+    "data": {
+      "rank": 79,
+      "track": "FREE",
+      "minPointsRequired": 7800,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_7_FREE",
+    "data": {
+      "rank": 7,
+      "track": "FREE",
+      "minPointsRequired": 600,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 2500
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_7_PREMIUM",
+    "data": {
+      "rank": 7,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "EXPERIENCE",
+          "exp": 5000
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_80_FREE",
+    "data": {
+      "rank": 80,
+      "track": "FREE",
+      "minPointsRequired": 7900,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_81_FREE",
+    "data": {
+      "rank": 81,
+      "track": "FREE",
+      "minPointsRequired": 8000,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_82_FREE",
+    "data": {
+      "rank": 82,
+      "track": "FREE",
+      "minPointsRequired": 8100,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_83_FREE",
+    "data": {
+      "rank": 83,
+      "track": "FREE",
+      "minPointsRequired": 8200,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_84_FREE",
+    "data": {
+      "rank": 84,
+      "track": "FREE",
+      "minPointsRequired": 8300,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_85_FREE",
+    "data": {
+      "rank": 85,
+      "track": "FREE",
+      "minPointsRequired": 8400,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_86_FREE",
+    "data": {
+      "rank": 86,
+      "track": "FREE",
+      "minPointsRequired": 8500,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_87_FREE",
+    "data": {
+      "rank": 87,
+      "track": "FREE",
+      "minPointsRequired": 8600,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_88_FREE",
+    "data": {
+      "rank": 88,
+      "track": "FREE",
+      "minPointsRequired": 8700,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_89_FREE",
+    "data": {
+      "rank": 89,
+      "track": "FREE",
+      "minPointsRequired": 8800,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_8_FREE",
+    "data": {
+      "rank": 8,
+      "track": "FREE",
+      "minPointsRequired": 700,
+      "rewards": [
+        {
+          "type": "CANDY",
+          "candy": {
+            "pokemonId": "SHIELDON",
+            "amount": 10
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_8_PREMIUM",
+    "data": {
+      "rank": 8,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "XL_CANDY",
+          "xlCandy": {
+            "pokemonId": "SHIELDON",
+            "amount": 3
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_90_FREE",
+    "data": {
+      "rank": 90,
+      "track": "FREE",
+      "minPointsRequired": 8900,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_91_FREE",
+    "data": {
+      "rank": 91,
+      "track": "FREE",
+      "minPointsRequired": 9000,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_92_FREE",
+    "data": {
+      "rank": 92,
+      "track": "FREE",
+      "minPointsRequired": 9100,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_93_FREE",
+    "data": {
+      "rank": 93,
+      "track": "FREE",
+      "minPointsRequired": 9200,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_94_FREE",
+    "data": {
+      "rank": 94,
+      "track": "FREE",
+      "minPointsRequired": 9300,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_95_FREE",
+    "data": {
+      "rank": 95,
+      "track": "FREE",
+      "minPointsRequired": 9400,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_96_FREE",
+    "data": {
+      "rank": 96,
+      "track": "FREE",
+      "minPointsRequired": 9500,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_97_FREE",
+    "data": {
+      "rank": 97,
+      "track": "FREE",
+      "minPointsRequired": 9600,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_98_FREE",
+    "data": {
+      "rank": 98,
+      "track": "FREE",
+      "minPointsRequired": 9700,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_99_FREE",
+    "data": {
+      "rank": 99,
+      "track": "FREE",
+      "minPointsRequired": 9800,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_9_FREE",
+    "data": {
+      "rank": 9,
+      "track": "FREE",
+      "minPointsRequired": 800,
+      "rewards": [
+        {
+          "type": "POKEMON_ENCOUNTER",
+          "pokemonEncounter": {
+            "pokemonId": "SHIELDON",
+            "pokemonDisplay": {
+              "form": "SHIELDON_NORMAL"
+            },
+            "isFeaturedPokemon": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT_9_PREMIUM",
+    "data": {
+      "rank": 9,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "POKEMON_ENCOUNTER",
+          "pokemonEncounter": {
+            "pokemonId": "SHIELDON",
+            "pokemonDisplay": {
+              "form": "SHIELDON_NORMAL"
+            },
+            "isFeaturedPokemon": true
+          }
+        }
+      ]
+    }
   }
 ]

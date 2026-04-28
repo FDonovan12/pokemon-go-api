@@ -49,6 +49,13 @@
     }
   },
   {
+    "templateId": "EVENT_PASS_CLAIMABLE_REWARD_TOGGLE_FEATURE_GATE",
+    "data": {
+      "status": 1,
+      "rolloutPercentage": 100
+    }
+  },
+  {
     "templateId": "EVENT_PASS_MILESTONE_REWARDS_FEATURE_GATE",
     "data": {
       "status": 1,

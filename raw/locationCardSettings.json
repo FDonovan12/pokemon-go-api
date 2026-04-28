@@ -1360,5 +1360,26 @@
       "cardType": "SPECIAL_BACKGROUND",
       "vfxAddress": "bgfx_UltraWormhole"
     }
+  },
+  {
+    "templateId": "LC_TOKMUN_STAMP_01",
+    "data": {
+      "locationCard": 271,
+      "imageUrl": "lc_2026_ppk_001"
+    }
+  },
+  {
+    "templateId": "LC_TOKMUN_STAMP_02",
+    "data": {
+      "locationCard": 272,
+      "imageUrl": "lc_2026_ppk_001"
+    }
+  },
+  {
+    "templateId": "LC_TOKMUN_STAMP_03",
+    "data": {
+      "locationCard": 273,
+      "imageUrl": "lc_2026_ppk_001"
+    }
   }
 ]

@@ -987,6 +987,27 @@
     }
   },
   {
+    "templateId": "N_DISPLAY_n_glasses_pokeballsunglasses-great",
+    "data": {
+      "iconAddress": "n_glasses_pokeballsunglasses-great_icon",
+      "displayStringId": "avatar_glasses_greatball"
+    }
+  },
+  {
+    "templateId": "N_DISPLAY_n_glasses_pokeballsunglasses-regular",
+    "data": {
+      "iconAddress": "n_glasses_pokeballsunglasses-regular_icon",
+      "displayStringId": "avatar_glasses_pokeball"
+    }
+  },
+  {
+    "templateId": "N_DISPLAY_n_glasses_pokeballsunglasses-ultra",
+    "data": {
+      "iconAddress": "n_glasses_pokeballsunglasses-ultra_icon",
+      "displayStringId": "avatar_glasses_ultraball"
+    }
+  },
+  {
     "templateId": "N_DISPLAY_n_glasses_roundsunglasses_0",
     "data": {
       "iconAddress": "n_glasses_roundsunglasses_0_icon",
@@ -5102,6 +5123,13 @@
     }
   },
   {
+    "templateId": "N_DISPLAY_n_pose_gofest2026",
+    "data": {
+      "iconAddress": "n_pose_gofest2026_icon",
+      "displayStringId": "avatar_pose_team_leader"
+    }
+  },
+  {
     "templateId": "N_DISPLAY_n_pose_growingup",
     "data": {
       "iconAddress": "n_pose_growingup_icon",
@@ -6100,6 +6128,20 @@
     "data": {
       "iconAddress": "n_shirt_gofest2025cream_0_icon",
       "displayStringId": "avatar_shirt_gofest2025cream"
+    }
+  },
+  {
+    "templateId": "N_DISPLAY_n_shirt_gofest2026-black",
+    "data": {
+      "iconAddress": "n_shirt_gofest2026-black_icon",
+      "displayStringId": "avatar_shirt_gofest2026black"
+    }
+  },
+  {
+    "templateId": "N_DISPLAY_n_shirt_gofest2026-purple",
+    "data": {
+      "iconAddress": "n_shirt_gofest2026-purple_icon",
+      "displayStringId": "avatar_shirt_gofest2026purple"
     }
   },
   {
@@ -8270,6 +8312,13 @@
     "data": {
       "iconAddress": "n_shirt_zacostume_b_0_icon",
       "displayStringId": "avatar_n_shirt_zacostume_b"
+    }
+  },
+  {
+    "templateId": "N_DISPLAY_n_shirt_zeraoratshirt",
+    "data": {
+      "iconAddress": "n_shirt_zeraoratshirt_icon",
+      "displayStringId": "avatar_n_shirt_zeraoratshirt"
     }
   },
   {

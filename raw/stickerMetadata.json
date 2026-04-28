@@ -4876,6 +4876,72 @@
     }
   },
   {
+    "templateId": "STICKER_PGO_FEST_2026",
+    "data": {
+      "stickerId": "STICKER_PGO_FEST_2026",
+      "maxCount": 25,
+      "category": [
+        "Misc"
+      ],
+      "releaseDate": 20260528
+    }
+  },
+  {
+    "templateId": "STICKER_PGO_FEST_2026_1",
+    "data": {
+      "stickerId": "STICKER_PGO_FEST_2026_1",
+      "maxCount": 25,
+      "category": [
+        "Misc"
+      ],
+      "releaseDate": 20260528
+    }
+  },
+  {
+    "templateId": "STICKER_PGO_FEST_2026_2",
+    "data": {
+      "stickerId": "STICKER_PGO_FEST_2026_2",
+      "maxCount": 25,
+      "category": [
+        "Misc"
+      ],
+      "releaseDate": 20260528
+    }
+  },
+  {
+    "templateId": "STICKER_PGO_FEST_2026_3",
+    "data": {
+      "stickerId": "STICKER_PGO_FEST_2026_3",
+      "maxCount": 25,
+      "category": [
+        "Misc"
+      ],
+      "releaseDate": 20260528
+    }
+  },
+  {
+    "templateId": "STICKER_PGO_FEST_2026_4",
+    "data": {
+      "stickerId": "STICKER_PGO_FEST_2026_4",
+      "maxCount": 25,
+      "category": [
+        "Misc"
+      ],
+      "releaseDate": 20260528
+    }
+  },
+  {
+    "templateId": "STICKER_PGO_FEST_2026_LOGO",
+    "data": {
+      "stickerId": "STICKER_PGO_FEST_2026_LOGO",
+      "maxCount": 25,
+      "category": [
+        "Misc"
+      ],
+      "releaseDate": 20260528
+    }
+  },
+  {
     "templateId": "STICKER_PGO_FEST_VICTINI_05",
     "data": {
       "stickerId": "STICKER_PGO_FEST_VICTINI_05",
