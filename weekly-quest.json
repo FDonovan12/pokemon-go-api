@@ -1,0 +1,185 @@
+[
+  {
+    "id": "WEEKLY_CHALLENGE_PARTY_QUEST",
+    "achievement": {
+      "type": "QUEST_CATCH_POKEMON",
+      "goal": {
+        "target": 100
+      }
+    },
+    "reward": [
+      {
+        "type": "STARDUST",
+        "stardust": 600
+      },
+      {
+        "type": "FRIENDSHIP_POINTS",
+        "friendshipPoints": 7
+      }
+    ]
+  },
+  {
+    "id": "WEEKLY_CHALLENGE_PARTY_QUEST_WEEK1",
+    "achievement": {
+      "type": "QUEST_HATCH_EGG",
+      "goal": {
+        "target": 20
+      }
+    },
+    "reward": [
+      {
+        "type": "STARDUST",
+        "stardust": 6000
+      },
+      {
+        "type": "FRIENDSHIP_POINTS",
+        "friendshipPoints": 7
+      },
+      {
+        "type": "EXPERIENCE",
+        "exp": 20000
+      },
+      {
+        "type": "POKEMON_ENCOUNTER",
+        "pokemonEncounter": {
+          "pokemonId": "TANDEMAUS",
+          "pokemonDisplay": {
+            "form": "TANDEMAUS_NORMAL"
+          }
+        }
+      },
+      {
+        "type": "ITEM",
+        "item": {
+          "item": "ITEM_ENHANCED_CURRENCY",
+          "amount": 250
+        }
+      }
+    ]
+  },
+  {
+    "id": "WEEKLY_CHALLENGE_PARTY_QUEST_WEEK2",
+    "achievement": {
+      "type": "QUEST_CATCH_POKEMON",
+      "goal": {
+        "target": 500
+      }
+    },
+    "reward": [
+      {
+        "type": "STARDUST",
+        "stardust": 6000
+      },
+      {
+        "type": "FRIENDSHIP_POINTS",
+        "friendshipPoints": 7
+      },
+      {
+        "type": "EXPERIENCE",
+        "exp": 20000
+      },
+      {
+        "type": "POKEMON_ENCOUNTER",
+        "pokemonEncounter": {
+          "pokemonId": "TANDEMAUS",
+          "pokemonDisplay": {
+            "form": "TANDEMAUS_NORMAL"
+          }
+        }
+      },
+      {
+        "type": "ITEM",
+        "item": {
+          "item": "ITEM_ENHANCED_CURRENCY",
+          "amount": 250
+        }
+      }
+    ]
+  },
+  {
+    "id": "WEEKLY_CHALLENGE_PARTY_QUEST_WEEK3",
+    "achievement": {
+      "type": "QUEST_SPIN_POKESTOP",
+      "goal": {
+        "target": 150
+      }
+    },
+    "reward": [
+      {
+        "type": "STARDUST",
+        "stardust": 6000
+      },
+      {
+        "type": "FRIENDSHIP_POINTS",
+        "friendshipPoints": 7
+      },
+      {
+        "type": "EXPERIENCE",
+        "exp": 20000
+      },
+      {
+        "type": "POKEMON_ENCOUNTER",
+        "pokemonEncounter": {
+          "pokemonId": "TANDEMAUS",
+          "pokemonDisplay": {
+            "form": "TANDEMAUS_NORMAL"
+          }
+        }
+      },
+      {
+        "type": "ITEM",
+        "item": {
+          "item": "ITEM_ENHANCED_CURRENCY",
+          "amount": 250
+        }
+      }
+    ]
+  },
+  {
+    "id": "WEEKLY_CHALLENGE_PARTY_QUEST_WEEK4",
+    "achievement": {
+      "type": "QUEST_COMPLETE_QUEST",
+      "goal": {
+        "condition": [
+          {
+            "type": "WITH_QUEST_CONTEXT",
+            "withQuestContext": {
+              "context": "CHALLENGE_QUEST"
+            }
+          }
+        ],
+        "target": 25
+      }
+    },
+    "reward": [
+      {
+        "type": "STARDUST",
+        "stardust": 6000
+      },
+      {
+        "type": "FRIENDSHIP_POINTS",
+        "friendshipPoints": 7
+      },
+      {
+        "type": "EXPERIENCE",
+        "exp": 20000
+      },
+      {
+        "type": "POKEMON_ENCOUNTER",
+        "pokemonEncounter": {
+          "pokemonId": "TANDEMAUS",
+          "pokemonDisplay": {
+            "form": "TANDEMAUS_NORMAL"
+          }
+        }
+      },
+      {
+        "type": "ITEM",
+        "item": {
+          "item": "ITEM_ENHANCED_CURRENCY",
+          "amount": 250
+        }
+      }
+    ]
+  }
+]
