@@ -196695,8 +196695,14 @@
     "data": {
       "pokemonId": "ZERAORA",
       "type": "POKEMON_TYPE_ELECTRIC",
-      "camera": {},
+      "camera": {
+        "cylinderRadiusM": 0.7,
+        "cylinderHeightM": 0.75
+      },
       "encounter": {
+        "collisionRadiusM": 1,
+        "collisionHeightM": 0.5,
+        "collisionHeadRadiusM": 0.25,
         "movementType": "MOVEMENT_JUMP",
         "attackProbability": 0.1,
         "dodgeProbability": 0.15,
@@ -196741,6 +196747,11 @@
         0
       ],
       "buddyScale": 19,
+      "buddyPortraitOffset": [
+        0,
+        100,
+        0
+      ],
       "thirdMove": {
         "stardustToUnlock": 100000,
         "candyToUnlock": 100
@@ -196755,8 +196766,14 @@
     "data": {
       "pokemonId": "ZERAORA",
       "type": "POKEMON_TYPE_ELECTRIC",
-      "camera": {},
+      "camera": {
+        "cylinderRadiusM": 0.7,
+        "cylinderHeightM": 0.75
+      },
       "encounter": {
+        "collisionRadiusM": 1,
+        "collisionHeightM": 0.5,
+        "collisionHeadRadiusM": 0.25,
         "movementType": "MOVEMENT_JUMP",
         "attackProbability": 0.1,
         "dodgeProbability": 0.15,
@@ -196802,6 +196819,11 @@
         0
       ],
       "buddyScale": 19,
+      "buddyPortraitOffset": [
+        0,
+        100,
+        0
+      ],
       "thirdMove": {
         "stardustToUnlock": 100000,
         "candyToUnlock": 100
@@ -222867,8 +222889,7 @@
       "type2": "POKEMON_TYPE_POISON",
       "camera": {
         "cylinderRadiusM": 1,
-        "cylinderHeightM": 3.2,
-        "cylinderGroundM": 0.6
+        "cylinderHeightM": 3
       },
       "encounter": {
         "collisionRadiusM": 0.8,
@@ -222937,8 +222958,7 @@
       "type2": "POKEMON_TYPE_POISON",
       "camera": {
         "cylinderRadiusM": 1,
-        "cylinderHeightM": 3.2,
-        "cylinderGroundM": 0.6
+        "cylinderHeightM": 3
       },
       "encounter": {
         "collisionRadiusM": 0.8,
@@ -223780,8 +223800,8 @@
       "pokemonId": "DONDOZO",
       "type": "POKEMON_TYPE_WATER",
       "camera": {
-        "cylinderRadiusM": 6,
-        "cylinderHeightM": 4,
+        "cylinderRadiusM": 7,
+        "cylinderHeightM": 3,
         "cylinderGroundM": 0.5
       },
       "encounter": {
@@ -223818,9 +223838,8 @@
       "weightStdDev": 27.5,
       "familyId": "FAMILY_DONDOZO",
       "kmBuddyDistance": 5,
-      "buddySize": "BUDDY_BIG",
-      "modelHeight": 3,
-      "modelScaleV2": 0.47,
+      "modelHeight": 4,
+      "modelScaleV2": 0.35,
       "buddyScale": 19,
       "buddyPortraitOffset": [
         0,
@@ -223856,8 +223875,8 @@
       "pokemonId": "DONDOZO",
       "type": "POKEMON_TYPE_WATER",
       "camera": {
-        "cylinderRadiusM": 6,
-        "cylinderHeightM": 4,
+        "cylinderRadiusM": 7,
+        "cylinderHeightM": 3,
         "cylinderGroundM": 0.5
       },
       "encounter": {
@@ -223894,9 +223913,8 @@
       "weightStdDev": 27.5,
       "familyId": "FAMILY_DONDOZO",
       "kmBuddyDistance": 5,
-      "buddySize": "BUDDY_BIG",
-      "modelHeight": 3,
-      "modelScaleV2": 0.47,
+      "modelHeight": 4,
+      "modelScaleV2": 0.35,
       "form": "DONDOZO_NORMAL",
       "buddyScale": 19,
       "buddyPortraitOffset": [

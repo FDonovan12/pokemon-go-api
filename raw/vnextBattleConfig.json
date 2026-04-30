@@ -1,6 +1,6 @@
 [
   {
-    "templateId": "CLIENT_VNEXT_BATTLE_CONFIG",
+    "templateId": "VNEXT_BATTLE_CLIENT_SETTINGS",
     "data": {
       "raidsBattleConfig": {
         "battleEndTimeoutThresholdMs": "2000",
@@ -19,17 +19,6 @@
         "badNetworkWarningThresholdTurns": "12",
         "deadNetworkDisconnectThresholdTurns": "120",
         "noOpponentConnectionDisconnectThresholdTurns": "12"
-      }
-    }
-  },
-  {
-    "templateId": "VNEXT_BATTLE_CONFIG",
-    "data": {
-      "raidsBattleConfig": {
-        "deadNetworkDisconnectThresholdTurns": "60"
-      },
-      "maxBattleConfig": {
-        "deadNetworkDisconnectThresholdTurns": "60"
       }
     }
   }

@@ -4880,8 +4880,9 @@
     "data": {
       "stickerId": "STICKER_PGO_FEST_2026",
       "maxCount": 25,
+      "pokemonId": "MEWTWO",
       "category": [
-        "Misc"
+        "Pokemon"
       ],
       "releaseDate": 20260528
     }
@@ -4891,8 +4892,9 @@
     "data": {
       "stickerId": "STICKER_PGO_FEST_2026_1",
       "maxCount": 25,
+      "pokemonId": "MEWTWO",
       "category": [
-        "Misc"
+        "Pokemon"
       ],
       "releaseDate": 20260528
     }
@@ -4902,8 +4904,9 @@
     "data": {
       "stickerId": "STICKER_PGO_FEST_2026_2",
       "maxCount": 25,
+      "pokemonId": "MEWTWO",
       "category": [
-        "Misc"
+        "Pokemon"
       ],
       "releaseDate": 20260528
     }
@@ -4913,8 +4916,9 @@
     "data": {
       "stickerId": "STICKER_PGO_FEST_2026_3",
       "maxCount": 25,
+      "pokemonId": "MEWTWO",
       "category": [
-        "Misc"
+        "Pokemon"
       ],
       "releaseDate": 20260528
     }
@@ -4924,10 +4928,12 @@
     "data": {
       "stickerId": "STICKER_PGO_FEST_2026_4",
       "maxCount": 25,
+      "pokemonId": "ZERAORA",
       "category": [
-        "Misc"
+        "Pokemon"
       ],
-      "releaseDate": 20260528
+      "releaseDate": 20260528,
+      "regionId": 6
     }
   },
   {
