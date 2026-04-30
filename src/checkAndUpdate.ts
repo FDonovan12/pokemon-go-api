@@ -5,7 +5,7 @@ import { GeneratorRunner } from './generatorRunner.js';
 import { loadGenerators } from './loadGenerator.js';
 
 async function main() {
-    const folder = path.resolve('./src/generators');
+    const folder = path.resolve('./dist/src/generators');
     console.log('folder');
     const generators = await loadGenerators(folder);
     console.log('generators');
