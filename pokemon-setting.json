@@ -769,6 +769,12 @@
           "form": "costume-tshirt-03"
         },
         {
+          "id": "V0025_POKEMON_PIKACHU_VISOR_2026",
+          "pokemonId": "PIKACHU",
+          "familyId": "FAMILY_PIKACHU",
+          "form": "costume-3341"
+        },
+        {
           "id": "V0025_POKEMON_PIKACHU_VS_2019",
           "pokemonId": "PIKACHU",
           "familyId": "FAMILY_PIKACHU",

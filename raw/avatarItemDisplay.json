@@ -5270,6 +5270,20 @@
     }
   },
   {
+    "templateId": "N_DISPLAY_n_shirt_10thanniversary-beige",
+    "data": {
+      "iconAddress": "n_shirt_10thanniversary-beige_icon",
+      "displayStringId": "avatar_shirt_10thanniversarybeige"
+    }
+  },
+  {
+    "templateId": "N_DISPLAY_n_shirt_10thanniversary-yellow",
+    "data": {
+      "iconAddress": "n_shirt_10thanniversary-yellow_icon",
+      "displayStringId": "avatar_shirt_10thanniversaryorange"
+    }
+  },
+  {
     "templateId": "N_DISPLAY_n_shirt_6thanniversary_a_0",
     "data": {
       "iconAddress": "n_shirt_6thanniversary_a_0_icon",
@@ -8270,6 +8284,20 @@
     "data": {
       "iconAddress": "n_shirt_wcs2025winnersitems_0_icon",
       "displayStringId": "avatar_shirt_wcs2025champion"
+    }
+  },
+  {
+    "templateId": "N_DISPLAY_n_shirt_wcs2026",
+    "data": {
+      "iconAddress": "n_shirt_wcs2026_icon",
+      "displayStringId": "avatar_shirt_wcsregional2026"
+    }
+  },
+  {
+    "templateId": "N_DISPLAY_n_shirt_wcs2027",
+    "data": {
+      "iconAddress": "n_shirt_wcs2027_icon",
+      "displayStringId": "avatar_shirt_wcsregional2027"
     }
   },
   {
