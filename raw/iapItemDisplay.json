@@ -8992,15 +8992,9 @@
       "sku": "bundle.ultrabeastraid.2024",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 1,
+      "hidden": true,
       "spriteId": "bundle.general.premiumbox.small.1",
-      "title": "raiding_box",
-      "skuEnableTime": "2022-10-13T12:00:00",
-      "skuDisableTime": "2026-05-03T11:59:59",
-      "skuEnableTimeUtcMs": "1665662400000",
-      "skuDisableTimeUtcMs": "1777809599000",
-      "showDiscountTag": true,
-      "showStrikethroughPrice": true,
-      "totalValue": 785
+      "title": "raiding_box"
     }
   },
   {
