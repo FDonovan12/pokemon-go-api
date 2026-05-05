@@ -1,4 +1,13 @@
 {
+  "497": {
+    "id": "V0497_MOVE_PLASMA_FISTS",
+    "movementId": 497,
+    "pokemonType": "POKEMON_TYPE_ELECTRIC",
+    "power": 135,
+    "durationMs": 3500,
+    "energyDelta": -50,
+    "vfxName": "plasma_fists"
+  },
   "WRAP": {
     "id": "V0013_MOVE_WRAP",
     "movementId": "WRAP",

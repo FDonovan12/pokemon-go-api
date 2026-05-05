@@ -273,14 +273,14 @@
     "templateId": "EVENT_PASS_MONTH3_SEASON_STORE_REDIRECT",
     "data": {
       "sku": "pgorelease.month3_deluxe_event_pass_track_redirect",
+      "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 1,
-      "hidden": true,
       "title": "season_pass_premium_track_title_may",
       "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
-      "skuEnableTime": "2025-05-05T10:00:00",
-      "skuDisableTime": "2025-06-04T10:00:00",
-      "skuEnableTimeUtcMs": "1746439200000",
-      "skuDisableTimeUtcMs": "1749031200000",
+      "skuEnableTime": "2025-04-28T10:00:00",
+      "skuDisableTime": "2026-06-04T10:00:00",
+      "skuEnableTimeUtcMs": "1745834400000",
+      "skuDisableTimeUtcMs": "1780567200000",
       "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_GO_Pass_May_2026_TICKET_v1-1204x576.jpg"
     }
   },
@@ -652,13 +652,12 @@
     "data": {
       "sku": "pgorelease.month3_deluxe_event_pass_track_unlock",
       "sortOrder": 1,
-      "hidden": true,
       "title": "season_pass_premium_track_title_may",
       "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
-      "skuEnableTime": "2025-05-05T10:00:00",
-      "skuDisableTime": "2025-06-04T10:00:00",
-      "skuEnableTimeUtcMs": "1746439200000",
-      "skuDisableTimeUtcMs": "1749031200000",
+      "skuEnableTime": "2025-04-28T10:00:00",
+      "skuDisableTime": "2026-06-04T10:00:00",
+      "skuEnableTimeUtcMs": "1745834400000",
+      "skuDisableTimeUtcMs": "1780567200000",
       "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_GO_Pass_May_2026_TICKET_v1-1204x576.jpg"
     }
   },
@@ -667,13 +666,12 @@
     "data": {
       "sku": "pgorelease.month3_deluxe_event_pass_track_unlock_plus_points",
       "sortOrder": 1,
-      "hidden": true,
       "title": "season_pass_premium_track_plus_ten_ranks_title_may",
       "description": "gotour_2025_deluxe_event_pass_track_unlock_plus_points_description",
-      "skuEnableTime": "2025-05-05T10:00:00",
-      "skuDisableTime": "2025-06-04T10:00:00",
-      "skuEnableTimeUtcMs": "1746439200000",
-      "skuDisableTimeUtcMs": "1749031200000",
+      "skuEnableTime": "2025-04-28T10:00:00",
+      "skuDisableTime": "2026-06-04T10:00:00",
+      "skuEnableTimeUtcMs": "1745834400000",
+      "skuDisableTimeUtcMs": "1780567200000",
       "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_GO_Pass_May_2026_TICKET_v1-1204x576.jpg"
     }
   },
@@ -11088,6 +11086,32 @@
       "skuDisableTime": "2026-05-07T10:00:00",
       "skuEnableTimeUtcMs": "1743415200000",
       "skuDisableTimeUtcMs": "1778148000000"
+    }
+  },
+  {
+    "templateId": "pgorelease.month3_deluxe_event_pass_track_unlock",
+    "data": {
+      "sku": "pgorelease.month3_deluxe_event_pass_track_unlock",
+      "sortOrder": 1,
+      "title": "season_pass_premium_track_title_may",
+      "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
+      "skuEnableTime": "2025-04-28T10:00:00",
+      "skuDisableTime": "2026-06-04T10:00:00",
+      "skuEnableTimeUtcMs": "1745834400000",
+      "skuDisableTimeUtcMs": "1780567200000"
+    }
+  },
+  {
+    "templateId": "pgorelease.month3_deluxe_event_pass_track_unlock_plus_points",
+    "data": {
+      "sku": "pgorelease.month3_deluxe_event_pass_track_unlock_plus_points",
+      "sortOrder": 1,
+      "title": "season_pass_premium_track_plus_ten_ranks_title_may",
+      "description": "gotour_2025_deluxe_event_pass_track_unlock_plus_points_description",
+      "skuEnableTime": "2025-04-28T10:00:00",
+      "skuDisableTime": "2026-06-04T10:00:00",
+      "skuEnableTimeUtcMs": "1745834400000",
+      "skuDisableTimeUtcMs": "1780567200000"
     }
   },
   {

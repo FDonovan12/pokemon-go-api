@@ -4034,7 +4034,8 @@
       "durationMs": 2000,
       "damageWindowStartMs": 1000,
       "damageWindowEndMs": 1800,
-      "energyDelta": -33
+      "energyDelta": -33,
+      "isLocked": true
     }
   },
   {
@@ -5895,6 +5896,24 @@
       "damageWindowStartMs": 2000,
       "damageWindowEndMs": 3100,
       "energyDelta": -100
+    }
+  },
+  {
+    "templateId": "V0497_MOVE_PLASMA_FISTS",
+    "data": {
+      "movementId": 497,
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_ELECTRIC",
+      "power": 135,
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "plasma_fists",
+      "durationMs": 3500,
+      "damageWindowStartMs": 2500,
+      "damageWindowEndMs": 3000,
+      "energyDelta": -50
     }
   },
   {

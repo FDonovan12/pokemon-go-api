@@ -2714,6 +2714,20 @@
     }
   },
   {
+    "templateId": "sequence_plasma_fists",
+    "data": {
+      "sequence": [
+        "anim attacker atk-move",
+        "wait 0.5",
+        "vfx plasma_fists",
+        "sfx attacker 451-0_charge_beam",
+        "wait 1.0",
+        "sys ui-sync",
+        "sys complete"
+      ]
+    }
+  },
+  {
     "templateId": "sequence_play_rough",
     "data": {
       "sequence": [
