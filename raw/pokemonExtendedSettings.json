@@ -38239,6 +38239,19 @@
     "templateId": "EXTENDED_V0870_POKEMON_FALINKS",
     "data": {
       "uniqueId": "FALINKS",
+      "tempEvoOverrides": [
+        {
+          "tempEvoId": "TEMP_EVOLUTION_MEGA",
+          "sizeSettings": {
+            "xxsLowerBound": 1.47,
+            "xsLowerBound": 1.5,
+            "mLowerBound": 2.25,
+            "mUpperBound": 3.75,
+            "xlUpperBound": 4.5,
+            "xxlUpperBound": 4.65
+          }
+        }
+      ],
       "sizeSettings": {
         "xxsLowerBound": 1.47,
         "xsLowerBound": 1.5,
@@ -38270,6 +38283,19 @@
     "data": {
       "uniqueId": "FALINKS",
       "form": "FALINKS_GOFEST_2025_TRAIN_CONDUCTOR",
+      "tempEvoOverrides": [
+        {
+          "tempEvoId": "TEMP_EVOLUTION_MEGA",
+          "sizeSettings": {
+            "xxsLowerBound": 1.47,
+            "xsLowerBound": 1.5,
+            "mLowerBound": 2.25,
+            "mUpperBound": 3.75,
+            "xlUpperBound": 4.5,
+            "xxlUpperBound": 4.65
+          }
+        }
+      ],
       "sizeSettings": {
         "xxsLowerBound": 1.47,
         "xsLowerBound": 1.5,
@@ -38285,6 +38311,19 @@
     "data": {
       "uniqueId": "FALINKS",
       "form": "FALINKS_NORMAL",
+      "tempEvoOverrides": [
+        {
+          "tempEvoId": "TEMP_EVOLUTION_MEGA",
+          "sizeSettings": {
+            "xxsLowerBound": 1.47,
+            "xsLowerBound": 1.5,
+            "mLowerBound": 2.25,
+            "mUpperBound": 3.75,
+            "xlUpperBound": 4.5,
+            "xxlUpperBound": 4.65
+          }
+        }
+      ],
       "sizeSettings": {
         "xxsLowerBound": 1.47,
         "xsLowerBound": 1.5,

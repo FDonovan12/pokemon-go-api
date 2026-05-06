@@ -602,5 +602,17 @@
         }
       ]
     }
+  },
+  {
+    "templateId": "TEMPORARY_EVOLUTION_V0870_POKEMON_FALINKS",
+    "data": {
+      "pokemonId": "FALINKS",
+      "temporaryEvolutions": [
+        {
+          "temporaryEvolutionId": "TEMP_EVOLUTION_MEGA",
+          "assetBundleValue": 51
+        }
+      ]
+    }
   }
 ]

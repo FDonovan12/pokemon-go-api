@@ -232,7 +232,7 @@
       "ignoreInventorySpace": true,
       "itemCap": 999999,
       "eventPassPoint": {
-        "eventPassId": "EVENT_PASS_DECEMBER2025_SEASON"
+        "eventPassId": "EVENT_PASS_SPRINGMARATHON2026_EVENT"
       },
       "timePeriodCounters": {
         "playerActivity": {
@@ -368,7 +368,7 @@
       },
       "timePeriodCounters": {
         "playerActivity": {
-          "limit": 500
+          "limit": 300
         }
       },
       "hideItemInInventory": true

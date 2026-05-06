@@ -3163,7 +3163,8 @@
     "templateId": "V0870_FAMILY_FALINKS",
     "data": {
       "familyId": "FAMILY_FALINKS",
-      "candyPerXlCandy": 100
+      "candyPerXlCandy": 100,
+      "megaEvolvablePokemonId": "FALINKS"
     }
   },
   {

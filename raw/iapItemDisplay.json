@@ -64,12 +64,13 @@
     "data": {
       "sku": "pgorelease.april3_2026_deluxe_event_pass_track_unlock",
       "sortOrder": 1,
+      "hidden": true,
       "title": "season_pass_premium_track_title_steeled_resolve_2026",
       "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
       "skuEnableTime": "2025-04-28T10:00:00",
-      "skuDisableTime": "2026-05-06T20:00:00",
+      "skuDisableTime": "2025-05-06T20:00:00",
       "skuEnableTimeUtcMs": "1745834400000",
-      "skuDisableTimeUtcMs": "1778097600000",
+      "skuDisableTimeUtcMs": "1746561600000",
       "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Memory_Lane_Meltan_Celebration_SRR_v1-1024x576.jpg"
     }
   },
@@ -78,12 +79,13 @@
     "data": {
       "sku": "pgorelease.april3_2026_deluxe_event_pass_track_unlock_plus_points",
       "sortOrder": 1,
+      "hidden": true,
       "title": "season_pass_premium_track_plus_six_ranks_title_steeled_resolve_2026",
       "description": "event_pass_plus_points_6_ranks_description",
       "skuEnableTime": "2025-04-28T10:00:00",
-      "skuDisableTime": "2026-05-06T20:00:00",
+      "skuDisableTime": "2025-05-06T20:00:00",
       "skuEnableTimeUtcMs": "1745834400000",
-      "skuDisableTimeUtcMs": "1778097600000",
+      "skuDisableTimeUtcMs": "1746561600000",
       "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Memory_Lane_Meltan_Celebration_SRR_v1-1024x576.jpg"
     }
   },
@@ -123,14 +125,14 @@
     "templateId": "EVENT_PASS_APRIL3_EVENT_STORE_REDIRECT",
     "data": {
       "sku": "pgorelease.april3_2026_deluxe_event_pass_track_redirect",
-      "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 1,
+      "hidden": true,
       "title": "season_pass_premium_track_title_steeled_resolve_2026",
       "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
       "skuEnableTime": "2025-04-28T10:00:00",
-      "skuDisableTime": "2026-05-06T20:00:00",
+      "skuDisableTime": "2025-05-06T20:00:00",
       "skuEnableTimeUtcMs": "1745834400000",
-      "skuDisableTimeUtcMs": "1778097600000",
+      "skuDisableTimeUtcMs": "1746561600000",
       "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Memory_Lane_Meltan_Celebration_SRR_v1-1024x576.jpg"
     }
   },
@@ -9892,34 +9894,6 @@
       "skuEnableTimeUtcMs": "1744624800000",
       "skuDisableTimeUtcMs": "1745352000000",
       "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-paid-sustainability-week-2026-nologo.jpg"
-    }
-  },
-  {
-    "templateId": "pgorelease.april3_2026_deluxe_event_pass_track_unlock",
-    "data": {
-      "sku": "pgorelease.april3_2026_deluxe_event_pass_track_unlock",
-      "sortOrder": 1,
-      "title": "season_pass_premium_track_title_steeled_resolve_2026",
-      "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
-      "skuEnableTime": "2025-04-28T10:00:00",
-      "skuDisableTime": "2026-05-06T20:00:00",
-      "skuEnableTimeUtcMs": "1745834400000",
-      "skuDisableTimeUtcMs": "1778097600000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Memory_Lane_Meltan_Celebration_SRR_v1-1024x576.jpg"
-    }
-  },
-  {
-    "templateId": "pgorelease.april3_2026_deluxe_event_pass_track_unlock_plus_points",
-    "data": {
-      "sku": "pgorelease.april3_2026_deluxe_event_pass_track_unlock_plus_points",
-      "sortOrder": 1,
-      "title": "season_pass_premium_track_plus_six_ranks_title_steeled_resolve_2026",
-      "description": "event_pass_plus_points_6_ranks_description",
-      "skuEnableTime": "2025-04-28T10:00:00",
-      "skuDisableTime": "2026-05-06T20:00:00",
-      "skuEnableTimeUtcMs": "1745834400000",
-      "skuDisableTimeUtcMs": "1778097600000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Memory_Lane_Meltan_Celebration_SRR_v1-1024x576.jpg"
     }
   },
   {

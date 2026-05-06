@@ -196824,7 +196824,8 @@
       "cinematicMoves": [
         "THUNDER_PUNCH",
         "DISCHARGE",
-        "WILD_CHARGE"
+        "WILD_CHARGE",
+        497
       ],
       "pokemonClass": "POKEMON_CLASS_MYTHIC",
       "pokedexHeightM": 1.5,
@@ -196895,7 +196896,8 @@
       "cinematicMoves": [
         "THUNDER_PUNCH",
         "DISCHARGE",
-        "WILD_CHARGE"
+        "WILD_CHARGE",
+        497
       ],
       "pokemonClass": "POKEMON_CLASS_MYTHIC",
       "pokedexHeightM": 1.5,
@@ -207257,6 +207259,13 @@
       "familyId": "FAMILY_FALINKS",
       "kmBuddyDistance": 5,
       "modelHeight": 0.6,
+      "evolutionBranch": [
+        {
+          "temporaryEvolution": "TEMP_EVOLUTION_MEGA",
+          "temporaryEvolutionEnergyCost": 200,
+          "temporaryEvolutionEnergyCostSubsequent": 40
+        }
+      ],
       "modelScaleV2": 1.05,
       "buddyOffsetMale": [
         17,
@@ -207282,6 +207291,19 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 2,
+      "tempEvoOverrides": [
+        {
+          "tempEvoId": "TEMP_EVOLUTION_MEGA",
+          "stats": {
+            "baseStamina": 163,
+            "baseAttack": 267,
+            "baseDefense": 229
+          },
+          "averageHeightM": 1.6,
+          "averageWeightKg": 99,
+          "typeOverride1": "POKEMON_TYPE_FIGHTING"
+        }
+      ],
       "raidBossDistanceOffset": 17,
       "ibfc": {},
       "breadTierGroup": "GROUP_3"
@@ -207331,6 +207353,13 @@
       "familyId": "FAMILY_FALINKS",
       "kmBuddyDistance": 5,
       "modelHeight": 0.6,
+      "evolutionBranch": [
+        {
+          "temporaryEvolution": "TEMP_EVOLUTION_MEGA",
+          "temporaryEvolutionEnergyCost": 200,
+          "temporaryEvolutionEnergyCostSubsequent": 40
+        }
+      ],
       "modelScaleV2": 1.05,
       "form": "FALINKS_GOFEST_2025_TRAIN_CONDUCTOR",
       "buddyOffsetMale": [
@@ -207357,6 +207386,19 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 2,
+      "tempEvoOverrides": [
+        {
+          "tempEvoId": "TEMP_EVOLUTION_MEGA",
+          "stats": {
+            "baseStamina": 163,
+            "baseAttack": 267,
+            "baseDefense": 229
+          },
+          "averageHeightM": 1.6,
+          "averageWeightKg": 99,
+          "typeOverride1": "POKEMON_TYPE_FIGHTING"
+        }
+      ],
       "disableTransferToPokemonHome": true,
       "raidBossDistanceOffset": 17,
       "ibfc": {},
@@ -207407,6 +207449,13 @@
       "familyId": "FAMILY_FALINKS",
       "kmBuddyDistance": 5,
       "modelHeight": 0.6,
+      "evolutionBranch": [
+        {
+          "temporaryEvolution": "TEMP_EVOLUTION_MEGA",
+          "temporaryEvolutionEnergyCost": 200,
+          "temporaryEvolutionEnergyCostSubsequent": 40
+        }
+      ],
       "modelScaleV2": 1.05,
       "form": "FALINKS_NORMAL",
       "buddyOffsetMale": [
@@ -207433,6 +207482,19 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 2,
+      "tempEvoOverrides": [
+        {
+          "tempEvoId": "TEMP_EVOLUTION_MEGA",
+          "stats": {
+            "baseStamina": 163,
+            "baseAttack": 267,
+            "baseDefense": 229
+          },
+          "averageHeightM": 1.6,
+          "averageWeightKg": 99,
+          "typeOverride1": "POKEMON_TYPE_FIGHTING"
+        }
+      ],
       "raidBossDistanceOffset": 17,
       "ibfc": {},
       "breadTierGroup": "GROUP_3"
@@ -220931,13 +220993,21 @@
     "data": {
       "pokemonId": "FLITTLE",
       "type": "POKEMON_TYPE_PSYCHIC",
-      "camera": {},
+      "camera": {
+        "cylinderRadiusM": 0.2,
+        "cylinderHeightM": 0.3,
+        "cylinderGroundM": 0.375
+      },
       "encounter": {
+        "collisionRadiusM": 0.2,
+        "collisionHeightM": 0.25,
+        "collisionHeadRadiusM": 0.2,
         "movementType": "MOVEMENT_PSYCHIC",
         "jumpTimeS": 1,
         "attackProbability": 0.1,
         "dodgeProbability": 0.15,
         "dodgeDurationS": 1,
+        "cameraDistance": 4,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
@@ -220961,12 +221031,15 @@
       "weightStdDev": 0.1875,
       "familyId": "FAMILY_FLITTLE",
       "kmBuddyDistance": 3,
+      "modelHeight": 0.5,
       "evolutionBranch": [
         {
           "evolution": "ESPATHRA",
           "candyCost": 50
         }
       ],
+      "modelScaleV2": 1.6,
+      "buddyScale": 14,
       "thirdMove": {
         "stardustToUnlock": 50000,
         "candyToUnlock": 50
@@ -220974,6 +221047,7 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "buddyGroupNumber": 1,
       "ibfc": {},
       "breadTierGroup": "GROUP_2"
     }
@@ -220983,13 +221057,21 @@
     "data": {
       "pokemonId": "FLITTLE",
       "type": "POKEMON_TYPE_PSYCHIC",
-      "camera": {},
+      "camera": {
+        "cylinderRadiusM": 0.2,
+        "cylinderHeightM": 0.3,
+        "cylinderGroundM": 0.375
+      },
       "encounter": {
+        "collisionRadiusM": 0.2,
+        "collisionHeightM": 0.25,
+        "collisionHeadRadiusM": 0.2,
         "movementType": "MOVEMENT_PSYCHIC",
         "jumpTimeS": 1,
         "attackProbability": 0.1,
         "dodgeProbability": 0.15,
         "dodgeDurationS": 1,
+        "cameraDistance": 4,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
@@ -221013,6 +221095,7 @@
       "weightStdDev": 0.1875,
       "familyId": "FAMILY_FLITTLE",
       "kmBuddyDistance": 3,
+      "modelHeight": 0.5,
       "evolutionBranch": [
         {
           "evolution": "ESPATHRA",
@@ -221020,7 +221103,9 @@
           "form": "ESPATHRA_NORMAL"
         }
       ],
+      "modelScaleV2": 1.6,
       "form": "FLITTLE_NORMAL",
+      "buddyScale": 14,
       "thirdMove": {
         "stardustToUnlock": 50000,
         "candyToUnlock": 50
@@ -221028,6 +221113,7 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "buddyGroupNumber": 1,
       "ibfc": {},
       "breadTierGroup": "GROUP_2"
     }
@@ -221037,8 +221123,14 @@
     "data": {
       "pokemonId": "ESPATHRA",
       "type": "POKEMON_TYPE_PSYCHIC",
-      "camera": {},
+      "camera": {
+        "cylinderRadiusM": 1,
+        "cylinderHeightM": 1.9
+      },
       "encounter": {
+        "collisionRadiusM": 1,
+        "collisionHeightM": 1.9,
+        "collisionHeadRadiusM": 0.25,
         "movementType": "MOVEMENT_JUMP",
         "jumpTimeS": 1,
         "bonusCandyCaptureReward": 2,
@@ -221046,6 +221138,7 @@
         "attackProbability": 0.1,
         "dodgeProbability": 0.15,
         "dodgeDurationS": 1,
+        "cameraDistance": 4,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6,
         "bonusXlCandyCaptureReward": 1
@@ -221072,6 +221165,14 @@
       "weightStdDev": 11.25,
       "familyId": "FAMILY_FLITTLE",
       "kmBuddyDistance": 3,
+      "modelHeight": 1.9,
+      "modelScaleV2": 0.95,
+      "buddyScale": 19,
+      "buddyPortraitOffset": [
+        0,
+        200,
+        -1300
+      ],
       "thirdMove": {
         "stardustToUnlock": 50000,
         "candyToUnlock": 50
@@ -221079,6 +221180,7 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "buddyGroupNumber": 2,
       "ibfc": {},
       "breadTierGroup": "GROUP_2"
     }
@@ -221088,8 +221190,14 @@
     "data": {
       "pokemonId": "ESPATHRA",
       "type": "POKEMON_TYPE_PSYCHIC",
-      "camera": {},
+      "camera": {
+        "cylinderRadiusM": 1,
+        "cylinderHeightM": 1.9
+      },
       "encounter": {
+        "collisionRadiusM": 1,
+        "collisionHeightM": 1.9,
+        "collisionHeadRadiusM": 0.25,
         "movementType": "MOVEMENT_JUMP",
         "jumpTimeS": 1,
         "bonusCandyCaptureReward": 2,
@@ -221097,6 +221205,7 @@
         "attackProbability": 0.1,
         "dodgeProbability": 0.15,
         "dodgeDurationS": 1,
+        "cameraDistance": 4,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6,
         "bonusXlCandyCaptureReward": 1
@@ -221123,7 +221232,15 @@
       "weightStdDev": 11.25,
       "familyId": "FAMILY_FLITTLE",
       "kmBuddyDistance": 3,
+      "modelHeight": 1.9,
+      "modelScaleV2": 0.95,
       "form": "ESPATHRA_NORMAL",
+      "buddyScale": 19,
+      "buddyPortraitOffset": [
+        0,
+        200,
+        -1300
+      ],
       "thirdMove": {
         "stardustToUnlock": 50000,
         "candyToUnlock": 50
@@ -221131,6 +221248,7 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "buddyGroupNumber": 2,
       "ibfc": {},
       "breadTierGroup": "GROUP_2"
     }
