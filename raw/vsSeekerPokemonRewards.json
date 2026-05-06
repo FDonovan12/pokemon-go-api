@@ -651,9 +651,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "TAPU_LELE",
+            "pokemonId": "NIHILEGO",
             "pokemonDisplay": {
-              "form": "TAPU_LELE_NORMAL"
+              "form": "NIHILEGO_NORMAL"
             }
           },
           "unlockedAtRank": 20,
@@ -1331,9 +1331,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "TAPU_LELE",
+            "pokemonId": "NIHILEGO",
             "pokemonDisplay": {
-              "form": "TAPU_LELE_NORMAL"
+              "form": "NIHILEGO_NORMAL"
             }
           },
           "unlockedAtRank": 20,

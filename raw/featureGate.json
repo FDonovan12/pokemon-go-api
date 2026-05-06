@@ -114,6 +114,10 @@
           "name": "MEGA_CP_BOOST_ENABLED_SUB_FEATURE_GATE",
           "status": 368387608,
           "rolloutPercentage": 100
+        },
+        {
+          "name": "MEGA_LEVEL_SPEEDUP_SUB_FEATURE_GATE",
+          "status": 344171892
         }
       ]
     }
