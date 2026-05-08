@@ -491,10 +491,26 @@
     }
   },
   {
+    "templateId": "LC_2026_CHICAGO_GOFEST_001",
+    "data": {
+      "locationCard": "LC_2026_CHICAGO_GOFEST_001",
+      "imageUrl": "lc_GoFest2026_chicago",
+      "cardType": "LOCATION_CARD"
+    }
+  },
+  {
     "templateId": "LC_2026_COLOGNE_CARNIVAL_001",
     "data": {
       "locationCard": "LC_2026_COLOGNE_CARNIVAL_001",
       "imageUrl": "lc_carnivalFlamigo_cologne_2026"
+    }
+  },
+  {
+    "templateId": "LC_2026_COPENHAGEN_GOFEST_001",
+    "data": {
+      "locationCard": "LC_2026_COPENHAGEN_GOFEST_001",
+      "imageUrl": "lc_GoFest2026_copenhagen",
+      "cardType": "LOCATION_CARD"
     }
   },
   {
@@ -615,6 +631,14 @@
     "data": {
       "locationCard": "LC_2026_TAINAN_GOTOUR_001",
       "imageUrl": "lc_GoTour2026_tainan",
+      "cardType": "LOCATION_CARD"
+    }
+  },
+  {
+    "templateId": "LC_2026_TOKYO_GOFEST_001",
+    "data": {
+      "locationCard": "LC_2026_TOKYO_GOFEST_001",
+      "imageUrl": "lc_GoFest2026_tokyo",
       "cardType": "LOCATION_CARD"
     }
   },
@@ -1184,8 +1208,9 @@
     "templateId": "LC_SPECIALBACKGROUND_2026_GLOBAL_GOFEST_001",
     "data": {
       "locationCard": "LC_SPECIALBACKGROUND_2026_GLOBAL_GOFEST_001",
-      "imageUrl": "sb_GoTour2026_mega",
-      "cardType": "SPECIAL_BACKGROUND"
+      "imageUrl": "sb_GoFest2026_global",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_goFest_2026_global"
     }
   },
   {
@@ -1258,6 +1283,24 @@
       "imageUrl": "sb_GoTour2026_y",
       "cardType": "SPECIAL_BACKGROUND",
       "vfxAddress": "bgfx_Y"
+    }
+  },
+  {
+    "templateId": "LC_SPECIALBACKGROUND_2026_MEWTWO_001",
+    "data": {
+      "locationCard": "LC_SPECIALBACKGROUND_2026_MEWTWO_001",
+      "imageUrl": "sb_GoFest2026_mewtwo",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_goFest_2026_mewtwo_002"
+    }
+  },
+  {
+    "templateId": "LC_SPECIALBACKGROUND_2026_MEWTWO_002",
+    "data": {
+      "locationCard": "LC_SPECIALBACKGROUND_2026_MEWTWO_002",
+      "imageUrl": "sb_GoFest2026_mewtwo",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_goFest_2026_mewtwo_001"
     }
   },
   {
@@ -1365,21 +1408,21 @@
     "templateId": "LC_TOKMUN_STAMP_01",
     "data": {
       "locationCard": "LC_TOKMUN_STAMP_01",
-      "imageUrl": "lc_2026_ppk_001"
+      "imageUrl": "lc_TokMun_shinagawa"
     }
   },
   {
     "templateId": "LC_TOKMUN_STAMP_02",
     "data": {
       "locationCard": "LC_TOKMUN_STAMP_02",
-      "imageUrl": "lc_2026_ppk_001"
+      "imageUrl": "lc_TokMun_koto"
     }
   },
   {
     "templateId": "LC_TOKMUN_STAMP_03",
     "data": {
       "locationCard": "LC_TOKMUN_STAMP_03",
-      "imageUrl": "lc_2026_ppk_001"
+      "imageUrl": "lc_TokMun_minato"
     }
   }
 ]

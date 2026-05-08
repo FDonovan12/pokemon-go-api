@@ -407,7 +407,7 @@
       },
       "timePeriodCounters": {
         "playerActivity": {
-          "limit": 250
+          "limit": 300
         }
       }
     }
