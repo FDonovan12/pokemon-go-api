@@ -15,6 +15,18 @@
           "DODGE",
           "SWAP_POKEMON",
           "CHARGE_ATTACK"
+        ],
+        "bufferBlockingEventTypeList": [
+          "CHARGE_ATTACK"
+        ],
+        "inputBlockExceptionList": [
+          {
+            "currentAction": "CHARGE_ATTACK",
+            "allowedBufferedActions": [
+              "DODGE",
+              "SWAP_POKEMON"
+            ]
+          }
         ]
       },
       "breadInputBufferPriorityList": {
@@ -26,6 +38,18 @@
           "DODGE",
           "SWAP_POKEMON",
           "CHARGE_ATTACK"
+        ],
+        "bufferBlockingEventTypeList": [
+          "CHARGE_ATTACK",
+          "SWAP_POKEMON"
+        ],
+        "inputBlockExceptionList": [
+          {
+            "currentAction": "CHARGE_ATTACK",
+            "allowedBufferedActions": [
+              "DODGE"
+            ]
+          }
         ]
       },
       "combatInputBufferPriorityList": {
@@ -35,6 +59,10 @@
         "priorityEventTypeList": [
           "SWAP_POKEMON",
           "CHARGE_ATTACK"
+        ],
+        "bufferBlockingEventTypeList": [
+          "CHARGE_ATTACK",
+          "SWAP_POKEMON"
         ]
       }
     }

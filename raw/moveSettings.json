@@ -5901,7 +5901,7 @@
   {
     "templateId": "V0497_MOVE_PLASMA_FISTS",
     "data": {
-      "movementId": 497,
+      "movementId": "PLASMA_FISTS",
       "animationId": 5,
       "pokemonType": "POKEMON_TYPE_ELECTRIC",
       "power": 135,

@@ -9333,7 +9333,8 @@
       "skuDisableTimeUtcMs": "1777741200000",
       "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-entei-shadow-raid-day-2026-nologo.jpg",
       "webstoreSkuId": "web-shadow-entei-raid-box-ultra",
-      "webstoreSkuPriceE6": 4990000
+      "webstoreSkuPriceE6": 4990000,
+      "useEnvironmentPrefix": true
     }
   },
   {
@@ -9538,7 +9539,8 @@
       "skuDisableTimeUtcMs": "1777136400000",
       "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-gmax-kanto-max-battle-day-2026-nologo.jpg",
       "webstoreSkuId": "web-gmax-kanto-box-ultra",
-      "webstoreSkuPriceE6": 4990000
+      "webstoreSkuPriceE6": 4990000,
+      "useEnvironmentPrefix": true
     }
   },
   {

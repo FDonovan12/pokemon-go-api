@@ -71,7 +71,8 @@
       ],
       "matchmakingEnabled": true,
       "partyRewardGracePeriodMs": "604800000",
-      "maxInvitesPerPlayer": 10
+      "maxInvitesPerPlayer": 10,
+      "questUpdateToastEnabled": true
     }
   }
 ]

@@ -487,7 +487,11 @@
         "slidingWindowLengthS": 10,
         "maxTotalEventsBeforeShutdown": "1000"
       },
-      "preLoginMetricsEnabled": -1374928056
+      "preLoginMetricsEnabled": -1374928056,
+      "downloadMessageEnabled": true,
+      "shareMessageEnabled": true,
+      "signInButtonEnabled": true,
+      "reorderSummary": true
     }
   }
 ]

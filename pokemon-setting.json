@@ -190,7 +190,7 @@
           "id": "V0010_POKEMON_CATERPIE_GOFEST_2026",
           "pokemonId": "CATERPIE",
           "familyId": "FAMILY_CATERPIE",
-          "form": "costume-3346"
+          "form": "costume-gofest-2026"
         },
         {
           "id": "V0010_POKEMON_CATERPIE_NORMAL",
@@ -580,19 +580,19 @@
           "id": "V0025_POKEMON_PIKACHU_GOFEST_2026_CAP_BLUE",
           "pokemonId": "PIKACHU",
           "familyId": "FAMILY_PIKACHU",
-          "form": "costume-3343"
+          "form": "costume-gofest-2026-cap-blue"
         },
         {
           "id": "V0025_POKEMON_PIKACHU_GOFEST_2026_CAP_RED",
           "pokemonId": "PIKACHU",
           "familyId": "FAMILY_PIKACHU",
-          "form": "costume-3344"
+          "form": "costume-gofest-2026-cap-red"
         },
         {
           "id": "V0025_POKEMON_PIKACHU_GOFEST_2026_CAP_YELLOW",
           "pokemonId": "PIKACHU",
           "familyId": "FAMILY_PIKACHU",
-          "form": "costume-3345"
+          "form": "costume-gofest-2026-cap-yellow"
         },
         {
           "id": "V0025_POKEMON_PIKACHU_GOTOUR_2024_A",
@@ -772,7 +772,7 @@
           "id": "V0025_POKEMON_PIKACHU_VISOR_2026",
           "pokemonId": "PIKACHU",
           "familyId": "FAMILY_PIKACHU",
-          "form": "costume-3341"
+          "form": "costume-visor-2026"
         },
         {
           "id": "V0025_POKEMON_PIKACHU_VS_2019",
@@ -4464,7 +4464,7 @@
           "id": "V0222_POKEMON_CORSOLA_SPRING_2026",
           "pokemonId": "CORSOLA",
           "familyId": "FAMILY_CORSOLA",
-          "form": "costume-3339"
+          "form": "costume-spring-2026"
         }
       ]
     }

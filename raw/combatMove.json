@@ -3623,7 +3623,7 @@
   {
     "templateId": "COMBAT_V0497_MOVE_PLASMA_FISTS",
     "data": {
-      "uniqueId": 497,
+      "uniqueId": "PLASMA_FISTS",
       "type": "POKEMON_TYPE_ELECTRIC",
       "power": 60,
       "vfxName": "plasma_fists",

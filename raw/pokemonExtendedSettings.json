@@ -968,7 +968,7 @@
     "templateId": "EXTENDED_V0010_POKEMON_CATERPIE_GOFEST_2026",
     "data": {
       "uniqueId": "CATERPIE",
-      "form": 3346,
+      "form": "CATERPIE_GOFEST_2026",
       "sizeSettings": {
         "xxsLowerBound": 0.147,
         "xsLowerBound": 0.15,
@@ -2022,7 +2022,7 @@
     "templateId": "EXTENDED_V0025_POKEMON_PIKACHU_GOFEST_2026_CAP_BLUE",
     "data": {
       "uniqueId": "PIKACHU",
-      "form": 3343,
+      "form": "PIKACHU_GOFEST_2026_CAP_BLUE",
       "sizeSettings": {
         "xxsLowerBound": 0.196,
         "xsLowerBound": 0.2,
@@ -2083,7 +2083,7 @@
     "templateId": "EXTENDED_V0025_POKEMON_PIKACHU_GOFEST_2026_CAP_RED",
     "data": {
       "uniqueId": "PIKACHU",
-      "form": 3344,
+      "form": "PIKACHU_GOFEST_2026_CAP_RED",
       "sizeSettings": {
         "xxsLowerBound": 0.196,
         "xsLowerBound": 0.2,
@@ -2144,7 +2144,7 @@
     "templateId": "EXTENDED_V0025_POKEMON_PIKACHU_GOFEST_2026_CAP_YELLOW",
     "data": {
       "uniqueId": "PIKACHU",
-      "form": 3345,
+      "form": "PIKACHU_GOFEST_2026_CAP_YELLOW",
       "sizeSettings": {
         "xxsLowerBound": 0.196,
         "xsLowerBound": 0.2,
@@ -2686,7 +2686,7 @@
     "templateId": "EXTENDED_V0025_POKEMON_PIKACHU_VISOR_2026",
     "data": {
       "uniqueId": "PIKACHU",
-      "form": 3341,
+      "form": "PIKACHU_VISOR_2026",
       "sizeSettings": {
         "xxsLowerBound": 0.196,
         "xsLowerBound": 0.2,
@@ -11655,7 +11655,7 @@
     "templateId": "EXTENDED_V0222_POKEMON_CORSOLA_SPRING_2026",
     "data": {
       "uniqueId": "CORSOLA",
-      "form": 3339,
+      "form": "CORSOLA_SPRING_2026",
       "sizeSettings": {
         "xxsLowerBound": 0.2989,
         "xsLowerBound": 0.305,

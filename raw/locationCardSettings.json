@@ -1183,7 +1183,7 @@
   {
     "templateId": "LC_SPECIALBACKGROUND_2026_GLOBAL_GOFEST_001",
     "data": {
-      "locationCard": 248,
+      "locationCard": "LC_SPECIALBACKGROUND_2026_GLOBAL_GOFEST_001",
       "imageUrl": "sb_GoTour2026_mega",
       "cardType": "SPECIAL_BACKGROUND"
     }
@@ -1364,21 +1364,21 @@
   {
     "templateId": "LC_TOKMUN_STAMP_01",
     "data": {
-      "locationCard": 271,
+      "locationCard": "LC_TOKMUN_STAMP_01",
       "imageUrl": "lc_2026_ppk_001"
     }
   },
   {
     "templateId": "LC_TOKMUN_STAMP_02",
     "data": {
-      "locationCard": 272,
+      "locationCard": "LC_TOKMUN_STAMP_02",
       "imageUrl": "lc_2026_ppk_001"
     }
   },
   {
     "templateId": "LC_TOKMUN_STAMP_03",
     "data": {
-      "locationCard": 273,
+      "locationCard": "LC_TOKMUN_STAMP_03",
       "imageUrl": "lc_2026_ppk_001"
     }
   }

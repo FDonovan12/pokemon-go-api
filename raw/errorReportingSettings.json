@@ -1,0 +1,13 @@
+[
+  {
+    "templateId": "ERROR_REPORTING_SETTINGS_PRE_LOGIN",
+    "data": {
+      "isEnabled": true,
+      "eventSampleRate": 1,
+      "percentChancePlayerSends": 1,
+      "maxEventsPerSlidingWindow": 5,
+      "slidingWindowLengthS": 10,
+      "maxTotalEventsBeforeShutdown": "1000"
+    }
+  }
+]

@@ -3083,7 +3083,7 @@
       "buddySize": "BUDDY_SHOULDER",
       "modelHeight": 0.19,
       "modelScaleV2": 1.63,
-      "form": 3346,
+      "form": "CATERPIE_GOFEST_2026",
       "buddyOffsetMale": [
         0,
         0,
@@ -8749,7 +8749,7 @@
       "buddySize": "BUDDY_SHOULDER",
       "modelHeight": 0.4,
       "modelScaleV2": 1.1,
-      "form": 3343,
+      "form": "PIKACHU_GOFEST_2026_CAP_BLUE",
       "buddyOffsetMale": [
         0,
         0,
@@ -8845,7 +8845,7 @@
       "buddySize": "BUDDY_SHOULDER",
       "modelHeight": 0.4,
       "modelScaleV2": 1.1,
-      "form": 3344,
+      "form": "PIKACHU_GOFEST_2026_CAP_RED",
       "buddyOffsetMale": [
         0,
         0,
@@ -8941,7 +8941,7 @@
       "buddySize": "BUDDY_SHOULDER",
       "modelHeight": 0.4,
       "modelScaleV2": 1.1,
-      "form": 3345,
+      "form": "PIKACHU_GOFEST_2026_CAP_YELLOW",
       "buddyOffsetMale": [
         0,
         0,
@@ -11644,7 +11644,7 @@
       "buddySize": "BUDDY_SHOULDER",
       "modelHeight": 0.4,
       "modelScaleV2": 1.1,
-      "form": 3341,
+      "form": "PIKACHU_VISOR_2026",
       "buddyOffsetMale": [
         0,
         0,
@@ -62527,7 +62527,7 @@
       "kmBuddyDistance": 3,
       "modelHeight": 1.25,
       "modelScaleV2": 1,
-      "form": 3339,
+      "form": "CORSOLA_SPRING_2026",
       "buddyOffsetMale": [
         0,
         0,
@@ -196825,7 +196825,7 @@
         "THUNDER_PUNCH",
         "DISCHARGE",
         "WILD_CHARGE",
-        497
+        "PLASMA_FISTS"
       ],
       "pokemonClass": "POKEMON_CLASS_MYTHIC",
       "pokedexHeightM": 1.5,
@@ -196897,7 +196897,7 @@
         "THUNDER_PUNCH",
         "DISCHARGE",
         "WILD_CHARGE",
-        497
+        "PLASMA_FISTS"
       ],
       "pokemonClass": "POKEMON_CLASS_MYTHIC",
       "pokedexHeightM": 1.5,
