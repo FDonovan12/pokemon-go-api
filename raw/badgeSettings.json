@@ -5136,6 +5136,646 @@
     }
   },
   {
+    "templateId": "BADGE_GOFEST_2026_CHICAGO_ADDON_HATCH",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_CHICAGO_ADDON_HATCH",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_CHICAGO_ADDON_RAID",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_CHICAGO_ADDON_RAID",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_CHICAGO_EXPERT_1",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_CHICAGO_EXPERT_1",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_CHICAGO_EXPERT_2",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_CHICAGO_EXPERT_2",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_CHICAGO_EXPERT_3",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_CHICAGO_EXPERT_3",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_CHICAGO_EXPERT_4",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_CHICAGO_EXPERT_4",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_CHICAGO_EXPERT_FULL",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_CHICAGO_EXPERT_FULL",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_CHICAGO_FRIDAY_CITY",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_CHICAGO_FRIDAY_CITY",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_CHICAGO_FRIDAY_ESSENTIAL",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_CHICAGO_FRIDAY_ESSENTIAL",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true,
+      "eventBadgeSettings": {
+        "obEventBadgeSettingsNumber6": 1
+      }
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_CHICAGO_FRIDAY_PARK_AFTERNOON",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_CHICAGO_FRIDAY_PARK_AFTERNOON",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_CHICAGO_FRIDAY_PARK_MORNING",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_CHICAGO_FRIDAY_PARK_MORNING",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_CHICAGO_SATURDAY_CITY",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_CHICAGO_SATURDAY_CITY",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_CHICAGO_SATURDAY_ESSENTIAL",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_CHICAGO_SATURDAY_ESSENTIAL",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true,
+      "eventBadgeSettings": {
+        "obEventBadgeSettingsNumber6": 1
+      }
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_CHICAGO_SATURDAY_PARK_AFTERNOON",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_CHICAGO_SATURDAY_PARK_AFTERNOON",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_CHICAGO_SATURDAY_PARK_MORNING",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_CHICAGO_SATURDAY_PARK_MORNING",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_CHICAGO_SUNDAY_CITY",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_CHICAGO_SUNDAY_CITY",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_CHICAGO_SUNDAY_ESSENTIAL",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_CHICAGO_SUNDAY_ESSENTIAL",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true,
+      "eventBadgeSettings": {
+        "obEventBadgeSettingsNumber6": 1
+      }
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_CHICAGO_SUNDAY_PARK_AFTERNOON",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_CHICAGO_SUNDAY_PARK_AFTERNOON",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_CHICAGO_SUNDAY_PARK_MORNING",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_CHICAGO_SUNDAY_PARK_MORNING",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_CHICAGO_TEST_ADDON_HATCH",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_CHICAGO_TEST_ADDON_HATCH",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_CHICAGO_TEST_ADDON_RAID",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_CHICAGO_TEST_ADDON_RAID",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_CHICAGO_TEST_CITY",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_CHICAGO_TEST_CITY",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_CHICAGO_TEST_ESSENTIAL",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_CHICAGO_TEST_ESSENTIAL",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_CHICAGO_TEST_EVERYTHING",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_CHICAGO_TEST_EVERYTHING",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_CHICAGO_TEST_PARK",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_CHICAGO_TEST_PARK",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_CHICAGO_THURSDAY_CITY",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_CHICAGO_THURSDAY_CITY",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_CHICAGO_THURSDAY_ESSENTIAL",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_CHICAGO_THURSDAY_ESSENTIAL",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true,
+      "eventBadgeSettings": {
+        "obEventBadgeSettingsNumber6": 1
+      }
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_CHICAGO_VIP",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_CHICAGO_VIP",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_COPENHAGEN_ADDON_HATCH",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_COPENHAGEN_ADDON_HATCH",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_COPENHAGEN_ADDON_RAID",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_COPENHAGEN_ADDON_RAID",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_COPENHAGEN_EXPERT_1",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_COPENHAGEN_EXPERT_1",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_COPENHAGEN_EXPERT_2",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_COPENHAGEN_EXPERT_2",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_COPENHAGEN_EXPERT_3",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_COPENHAGEN_EXPERT_3",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_COPENHAGEN_EXPERT_4",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_COPENHAGEN_EXPERT_4",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_COPENHAGEN_EXPERT_FULL",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_COPENHAGEN_EXPERT_FULL",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_COPENHAGEN_FRIDAY_CITY",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_COPENHAGEN_FRIDAY_CITY",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_COPENHAGEN_FRIDAY_ESSENTIAL",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_COPENHAGEN_FRIDAY_ESSENTIAL",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true,
+      "eventBadgeSettings": {
+        "obEventBadgeSettingsNumber6": 1
+      }
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_COPENHAGEN_FRIDAY_PARK_AFTERNOON",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_COPENHAGEN_FRIDAY_PARK_AFTERNOON",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_COPENHAGEN_FRIDAY_PARK_MORNING",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_COPENHAGEN_FRIDAY_PARK_MORNING",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_COPENHAGEN_SATURDAY_CITY",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_COPENHAGEN_SATURDAY_CITY",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_COPENHAGEN_SATURDAY_ESSENTIAL",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_COPENHAGEN_SATURDAY_ESSENTIAL",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true,
+      "eventBadgeSettings": {
+        "obEventBadgeSettingsNumber6": 1
+      }
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_COPENHAGEN_SATURDAY_PARK_AFTERNOON",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_COPENHAGEN_SATURDAY_PARK_AFTERNOON",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_COPENHAGEN_SATURDAY_PARK_MORNING",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_COPENHAGEN_SATURDAY_PARK_MORNING",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_COPENHAGEN_SUNDAY_CITY",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_COPENHAGEN_SUNDAY_CITY",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_COPENHAGEN_SUNDAY_ESSENTIAL",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_COPENHAGEN_SUNDAY_ESSENTIAL",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true,
+      "eventBadgeSettings": {
+        "obEventBadgeSettingsNumber6": 1
+      }
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_COPENHAGEN_SUNDAY_PARK_AFTERNOON",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_COPENHAGEN_SUNDAY_PARK_AFTERNOON",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_COPENHAGEN_SUNDAY_PARK_MORNING",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_COPENHAGEN_SUNDAY_PARK_MORNING",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_COPENHAGEN_TEST_ADDON_HATCH",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_COPENHAGEN_TEST_ADDON_HATCH",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_COPENHAGEN_TEST_ADDON_RAID",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_COPENHAGEN_TEST_ADDON_RAID",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_COPENHAGEN_TEST_CITY",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_COPENHAGEN_TEST_CITY",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_COPENHAGEN_TEST_ESSENTIAL",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_COPENHAGEN_TEST_ESSENTIAL",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_COPENHAGEN_TEST_EVERYTHING",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_COPENHAGEN_TEST_EVERYTHING",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_COPENHAGEN_TEST_PARK",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_COPENHAGEN_TEST_PARK",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_COPENHAGEN_THURSDAY_CITY",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_COPENHAGEN_THURSDAY_CITY",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_COPENHAGEN_THURSDAY_ESSENTIAL",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_COPENHAGEN_THURSDAY_ESSENTIAL",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true,
+      "eventBadgeSettings": {
+        "obEventBadgeSettingsNumber6": 1
+      }
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_COPENHAGEN_VIP",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_COPENHAGEN_VIP",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
     "templateId": "BADGE_GOFEST_2026_EVENT_PASS_DELUXE",
     "data": {
       "badgeType": "BADGE_GOFEST_2026_EVENT_PASS_DELUXE",
@@ -5169,6 +5809,448 @@
         100
       ],
       "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_TOKYO_1MONDAY_CITY",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_TOKYO_1MONDAY_CITY",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_TOKYO_1MONDAY_ESSENTIAL",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_TOKYO_1MONDAY_ESSENTIAL",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true,
+      "eventBadgeSettings": {
+        "obEventBadgeSettingsNumber6": 1
+      }
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_TOKYO_2MONDAY_CITY",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_TOKYO_2MONDAY_CITY",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_TOKYO_2MONDAY_ESSENTIAL",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_TOKYO_2MONDAY_ESSENTIAL",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true,
+      "eventBadgeSettings": {
+        "obEventBadgeSettingsNumber6": 1
+      }
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_TOKYO_2MONDAY_PARK_AFTERNOON",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_TOKYO_2MONDAY_PARK_AFTERNOON",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_TOKYO_2MONDAY_PARK_MORNING",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_TOKYO_2MONDAY_PARK_MORNING",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_TOKYO_ADDON_HATCH",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_TOKYO_ADDON_HATCH",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_TOKYO_ADDON_RAID",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_TOKYO_ADDON_RAID",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_TOKYO_EXPERT_1",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_TOKYO_EXPERT_1",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_TOKYO_EXPERT_2",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_TOKYO_EXPERT_2",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_TOKYO_EXPERT_3",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_TOKYO_EXPERT_3",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_TOKYO_EXPERT_4",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_TOKYO_EXPERT_4",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_TOKYO_EXPERT_FULL",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_TOKYO_EXPERT_FULL",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_TOKYO_FRIDAY_CITY",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_TOKYO_FRIDAY_CITY",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_TOKYO_FRIDAY_ESSENTIAL",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_TOKYO_FRIDAY_ESSENTIAL",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true,
+      "eventBadgeSettings": {
+        "obEventBadgeSettingsNumber6": 1
+      }
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_TOKYO_FRIDAY_PARK_AFTERNOON",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_TOKYO_FRIDAY_PARK_AFTERNOON",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_TOKYO_FRIDAY_PARK_MORNING",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_TOKYO_FRIDAY_PARK_MORNING",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_TOKYO_SATURDAY_CITY",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_TOKYO_SATURDAY_CITY",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_TOKYO_SATURDAY_ESSENTIAL",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_TOKYO_SATURDAY_ESSENTIAL",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true,
+      "eventBadgeSettings": {
+        "obEventBadgeSettingsNumber6": 1
+      }
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_TOKYO_SATURDAY_PARK_AFTERNOON",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_TOKYO_SATURDAY_PARK_AFTERNOON",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_TOKYO_SATURDAY_PARK_MORNING",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_TOKYO_SATURDAY_PARK_MORNING",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_TOKYO_SUNDAY_CITY",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_TOKYO_SUNDAY_CITY",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_TOKYO_SUNDAY_ESSENTIAL",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_TOKYO_SUNDAY_ESSENTIAL",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true,
+      "eventBadgeSettings": {
+        "obEventBadgeSettingsNumber6": 1
+      }
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_TOKYO_SUNDAY_PARK_AFTERNOON",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_TOKYO_SUNDAY_PARK_AFTERNOON",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_TOKYO_SUNDAY_PARK_MORNING",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_TOKYO_SUNDAY_PARK_MORNING",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_TOKYO_TEST_ADDON_HATCH",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_TOKYO_TEST_ADDON_HATCH",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_TOKYO_TEST_ADDON_RAID",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_TOKYO_TEST_ADDON_RAID",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_TOKYO_TEST_CITY",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_TOKYO_TEST_CITY",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_TOKYO_TEST_ESSENTIAL",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_TOKYO_TEST_ESSENTIAL",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_TOKYO_TEST_EVERYTHING",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_TOKYO_TEST_EVERYTHING",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_TOKYO_TEST_PARK",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_TOKYO_TEST_PARK",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_TOKYO_THURSDAY_CITY",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_TOKYO_THURSDAY_CITY",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_TOKYO_THURSDAY_ESSENTIAL",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_TOKYO_THURSDAY_ESSENTIAL",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true,
+      "eventBadgeSettings": {
+        "obEventBadgeSettingsNumber6": 1
+      }
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_TOKYO_TUESDAY_CITY",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_TOKYO_TUESDAY_CITY",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_TOKYO_TUESDAY_ESSENTIAL",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_TOKYO_TUESDAY_ESSENTIAL",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true,
+      "eventBadgeSettings": {
+        "obEventBadgeSettingsNumber6": 1
+      }
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_TOKYO_VIP",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_TOKYO_VIP",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_TOKYO_WEDNESDAY_CITY",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_TOKYO_WEDNESDAY_CITY",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOFEST_2026_TOKYO_WEDNESDAY_ESSENTIAL",
+    "data": {
+      "badgeType": "BADGE_GOFEST_2026_TOKYO_WEDNESDAY_ESSENTIAL",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true,
+      "eventBadgeSettings": {
+        "obEventBadgeSettingsNumber6": 1
+      }
     }
   },
   {
