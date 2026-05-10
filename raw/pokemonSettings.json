@@ -215489,6 +215489,9 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 2,
+      "eliteQuickMove": [
+        "MUD_SLAP_FAST"
+      ],
       "raidBossDistanceOffset": 2,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -215558,6 +215561,9 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 2,
+      "eliteQuickMove": [
+        "MUD_SLAP_FAST"
+      ],
       "raidBossDistanceOffset": 2,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -215627,6 +215633,9 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 2,
+      "eliteQuickMove": [
+        "MUD_SLAP_FAST"
+      ],
       "raidBossDistanceOffset": 2,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"

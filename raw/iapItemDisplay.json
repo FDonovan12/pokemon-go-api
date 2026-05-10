@@ -9525,22 +9525,6 @@
     }
   },
   {
-    "templateId": "general2.ticket.3",
-    "data": {
-      "sku": "pgorelease.general2.ticket.3",
-      "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
-      "sortOrder": 2,
-      "spriteId": "general1.ticket.2",
-      "title": "general1.ticket_CD_Lechonk26_title",
-      "skuEnableTime": "2019-03-14T08:00:00",
-      "skuDisableTime": "2026-05-09T17:00:00",
-      "skuEnableTimeUtcMs": "1552550400000",
-      "skuDisableTimeUtcMs": "1778346000000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-lechonk-community-day-2026-nologo.jpg",
-      "useEnvironmentPrefix": true
-    }
-  },
-  {
     "templateId": "general2.ticket.4",
     "data": {
       "sku": "general2.ticket.4",
