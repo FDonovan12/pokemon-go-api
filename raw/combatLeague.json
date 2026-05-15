@@ -76,6 +76,36 @@
     }
   },
   {
+    "templateId": "COMBAT_LEAGUE_DEFAULT_MASTER_NPC",
+    "data": {
+      "title": "combat_master_league",
+      "enabled": true,
+      "unlockCondition": [
+        {
+          "type": "WITH_POKEMON_CP_LIMIT",
+          "minPokemonCount": 3,
+          "withPokemonCpLimit": {
+            "minCp": 2500,
+            "maxCp": 50000
+          }
+        }
+      ],
+      "pokemonCondition": [
+        {
+          "type": "WITH_POKEMON_CP_LIMIT",
+          "withPokemonCpLimit": {
+            "maxCp": 10000
+          }
+        }
+      ],
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/pogo_master_league.png",
+      "pokemonCount": 3,
+      "badgeType": "BADGE_MASTER_LEAGUE",
+      "leagueType": "STANDARD",
+      "allowTempEvos": true
+    }
+  },
+  {
     "templateId": "COMBAT_LEAGUE_DEFAULT_ULTRA",
     "data": {
       "title": "combat_ultra_league",
@@ -14412,7 +14442,23 @@
         "KELDEO",
         "VOLCANION",
         "MARSHADOW",
-        "MIMIKYU"
+        "MIMIKYU",
+        "XERNEAS",
+        "YVELTAL",
+        "COBALION",
+        "TERRAKION",
+        "VIRIZION",
+        "RESHIRAM",
+        "ZEKROM",
+        "KYUREM",
+        "TAPU_KOKO",
+        "TAPU_LELE",
+        "TAPU_BULU",
+        "SOLGALEO",
+        "LUNALA",
+        "ZACIAN",
+        "ZAMAZENTA",
+        "ENAMORUS"
       ],
       "badgeType": "BADGE_GREAT_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",

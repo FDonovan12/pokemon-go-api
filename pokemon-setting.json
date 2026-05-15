@@ -523,6 +523,12 @@
           "form": "costume-flying-okinawa"
         },
         {
+          "id": "V0025_POKEMON_PIKACHU_FOSSIL_2026",
+          "pokemonId": "PIKACHU",
+          "familyId": "FAMILY_PIKACHU",
+          "form": "costume-fossil-2026"
+        },
+        {
           "id": "V0025_POKEMON_PIKACHU_GOFEST_2022",
           "pokemonId": "PIKACHU",
           "familyId": "FAMILY_PIKACHU",

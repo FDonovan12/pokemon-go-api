@@ -6,7 +6,7 @@
     }
   },
   {
-    "templateId": "BIDIRECTIONAL_FP_WEEKLY_CHALLENGE_REWARD_ROLL_BACK",
+    "templateId": "NPC_LEAGUE_SUFFIX_ROLL_BACK",
     "data": {
       "rollbackPercentage": 100
     }

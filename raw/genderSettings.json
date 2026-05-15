@@ -710,6 +710,17 @@
     }
   },
   {
+    "templateId": "SPAWN_V0025_POKEMON_PIKACHU_FOSSIL_2026",
+    "data": {
+      "pokemon": "PIKACHU",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      },
+      "form": "PIKACHU_FOSSIL_2026"
+    }
+  },
+  {
     "templateId": "SPAWN_V0025_POKEMON_PIKACHU_GOFEST_2022",
     "data": {
       "pokemon": "PIKACHU",

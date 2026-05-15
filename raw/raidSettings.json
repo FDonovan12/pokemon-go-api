@@ -141,6 +141,10 @@
         {
           "pokemon": "RAYQUAZA",
           "battleMusicKey": "GoTour2023Music02"
+        },
+        {
+          "pokemon": "MEWTWO",
+          "battleMusicKey": "RaidMegaMewtwoBattleMusic"
         }
       ],
       "fetchProfileFromSocialEnabled": true

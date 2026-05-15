@@ -651,9 +651,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "NIHILEGO",
+            "pokemonId": "PHEROMOSA",
             "pokemonDisplay": {
-              "form": "NIHILEGO_NORMAL"
+              "form": "PHEROMOSA_NORMAL"
             }
           },
           "unlockedAtRank": 20,
@@ -1331,9 +1331,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "NIHILEGO",
+            "pokemonId": "PHEROMOSA",
             "pokemonDisplay": {
-              "form": "NIHILEGO_NORMAL"
+              "form": "PHEROMOSA_NORMAL"
             }
           },
           "unlockedAtRank": 20,
