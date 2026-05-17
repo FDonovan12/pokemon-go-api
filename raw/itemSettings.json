@@ -50,12 +50,12 @@
       "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
       "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
       "globalEventTicket": {
-        "eventStartTime": "2026-03-03T13:00:00",
-        "eventEndTime": "2026-04-03T10:00:00",
+        "eventStartTime": "2026-06-02T13:00:00",
+        "eventEndTime": "2026-06-16T10:00:00",
         "itemBagDescriptionKey": "item_battle_pass_ticket_desc",
         "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-s22-gbl-nologo-2026.jpg",
-        "clientEventStartTimeUtcMs": "1772542800000",
-        "clientEventEndTimeUtcMs": "1775210400000"
+        "clientEventStartTimeUtcMs": "1780405200000",
+        "clientEventEndTimeUtcMs": "1781604000000"
       }
     }
   },
@@ -235,9 +235,7 @@
         "eventPassId": "EVENT_PASS_SPRINGMARATHON2026_EVENT"
       },
       "timePeriodCounters": {
-        "playerActivity": {
-          "limit": 500
-        }
+        "playerActivity": {}
       },
       "hideItemInInventory": true
     }
@@ -1452,7 +1450,7 @@
       "category": "ITEM_CATEGORY_INCENSE",
       "dropTrainerLevel": 1,
       "incense": {
-        "incenseLifetimeSeconds": 3600
+        "incenseLifetimeSeconds": 7200
       }
     }
   },
@@ -1479,7 +1477,7 @@
       "eggIncubator": {
         "incubatorType": "INCUBATOR_DISTANCE",
         "uses": 3,
-        "distanceMultiplier": 1
+        "distanceMultiplier": 0.5
       }
     }
   },
@@ -1492,7 +1490,7 @@
       "dropTrainerLevel": 100,
       "eggIncubator": {
         "incubatorType": "INCUBATOR_DISTANCE",
-        "distanceMultiplier": 1
+        "distanceMultiplier": 0.5
       }
     }
   },
@@ -1521,7 +1519,7 @@
       "eggIncubator": {
         "incubatorType": "INCUBATOR_DISTANCE",
         "uses": 3,
-        "distanceMultiplier": 0.6666667
+        "distanceMultiplier": 0.33333334
       }
     }
   },
@@ -1534,7 +1532,7 @@
       "dropTrainerLevel": 100,
       "eggIncubator": {
         "incubatorType": "INCUBATOR_DISTANCE",
-        "distanceMultiplier": 1,
+        "distanceMultiplier": 0.5,
         "expiredIncubatorReplacement": {
           "incubatorReplacement": "ITEM_INCUBATOR_BASIC",
           "usesCountOverride": 1

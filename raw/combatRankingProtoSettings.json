@@ -1979,6 +1979,114 @@
     }
   },
   {
+    "templateId": "COMBAT_RANKING_SETTINGS_S30",
+    "data": {
+      "rankLevel": [
+        {
+          "rankLevel": 1
+        },
+        {
+          "rankLevel": 2,
+          "additionalTotalBattlesRequired": 5
+        },
+        {
+          "rankLevel": 3,
+          "additionalTotalBattlesRequired": 5
+        },
+        {
+          "rankLevel": 4,
+          "additionalTotalBattlesRequired": 5
+        },
+        {
+          "rankLevel": 5,
+          "additionalTotalBattlesRequired": 5
+        },
+        {
+          "rankLevel": 6,
+          "additionalTotalBattlesRequired": 5
+        },
+        {
+          "rankLevel": 7,
+          "additionalWinsRequired": 1
+        },
+        {
+          "rankLevel": 8,
+          "additionalWinsRequired": 1
+        },
+        {
+          "rankLevel": 9,
+          "additionalWinsRequired": 1
+        },
+        {
+          "rankLevel": 10,
+          "additionalWinsRequired": 1
+        },
+        {
+          "rankLevel": 11,
+          "additionalTotalBattlesRequired": 5
+        },
+        {
+          "rankLevel": 12,
+          "additionalWinsRequired": 5
+        },
+        {
+          "rankLevel": 13,
+          "additionalWinsRequired": 6
+        },
+        {
+          "rankLevel": 14,
+          "additionalWinsRequired": 7
+        },
+        {
+          "rankLevel": 15,
+          "additionalWinsRequired": 8
+        },
+        {
+          "rankLevel": 16,
+          "additionalTotalBattlesRequired": 5
+        },
+        {
+          "rankLevel": 17,
+          "additionalWinsRequired": 10
+        },
+        {
+          "rankLevel": 18,
+          "additionalWinsRequired": 15
+        },
+        {
+          "rankLevel": 19,
+          "additionalWinsRequired": 20
+        },
+        {
+          "rankLevel": 20,
+          "additionalTotalBattlesRequired": 5
+        },
+        {
+          "rankLevel": 21,
+          "minRatingRequired": 2000
+        },
+        {
+          "rankLevel": 22,
+          "minRatingRequired": 2500
+        },
+        {
+          "rankLevel": 23,
+          "minRatingRequired": 2750
+        },
+        {
+          "rankLevel": 24,
+          "minRatingRequired": 3000
+        }
+      ],
+      "requiredForRewards": {
+        "rankLevel": 1,
+        "additionalTotalBattlesRequired": 5
+      },
+      "minRankToDisplayRating": 20,
+      "minRatingRequired": 30
+    }
+  },
+  {
     "templateId": "COMBAT_RANKING_SETTINGS_S8",
     "data": {
       "rankLevel": [
