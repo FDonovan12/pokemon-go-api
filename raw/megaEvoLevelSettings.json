@@ -499,6 +499,26 @@
     }
   },
   {
+    "templateId": "MEGA_EVOLUTION_LEVEL_0_V0870_POKEMON_FALINKS",
+    "data": {
+      "pokemonId": "FALINKS",
+      "progression": {
+        "pointsLimitPerPeriod": 1,
+        "pointsPerMegaEvoAction": 1
+      },
+      "cooldown": {
+        "durationMs": "1209600000",
+        "bypassCostInitial": 300,
+        "bypassCostRoundingValue": 1
+      },
+      "effects": {
+        "differentTypeAttackBoost": 1.1,
+        "sameTypeAttackBoost": 1.3,
+        "sameTypeExtraCatchCandy": 1
+      }
+    }
+  },
+  {
     "templateId": "MEGA_EVOLUTION_LEVEL_1",
     "data": {
       "level": 1,
@@ -575,7 +595,7 @@
       },
       "cooldown": {
         "durationMs": "604800000",
-        "bypassCostInitial": 40,
+        "bypassCostInitial": 60,
         "bypassCostRoundingValue": 1
       },
       "effects": {
@@ -641,7 +661,7 @@
       },
       "cooldown": {
         "durationMs": "604800000",
-        "bypassCostInitial": 40,
+        "bypassCostInitial": 60,
         "bypassCostRoundingValue": 1
       },
       "effects": {
@@ -1015,7 +1035,7 @@
       },
       "cooldown": {
         "durationMs": "604800000",
-        "bypassCostInitial": 40,
+        "bypassCostInitial": 60,
         "bypassCostRoundingValue": 1
       },
       "effects": {
@@ -1030,6 +1050,28 @@
     "data": {
       "level": 1,
       "pokemonId": "DIANCIE",
+      "progression": {
+        "pointsRequired": 1,
+        "pointsLimitPerPeriod": 1,
+        "pointsPerMegaEvoAction": 1
+      },
+      "cooldown": {
+        "durationMs": "604800000",
+        "bypassCostInitial": 60,
+        "bypassCostRoundingValue": 1
+      },
+      "effects": {
+        "differentTypeAttackBoost": 1.1,
+        "sameTypeAttackBoost": 1.3,
+        "sameTypeExtraCatchCandy": 1
+      }
+    }
+  },
+  {
+    "templateId": "MEGA_EVOLUTION_LEVEL_1_V0870_POKEMON_FALINKS",
+    "data": {
+      "level": 1,
+      "pokemonId": "FALINKS",
       "progression": {
         "pointsRequired": 1,
         "pointsLimitPerPeriod": 1,
@@ -1130,7 +1172,7 @@
       },
       "cooldown": {
         "durationMs": "432000000",
-        "bypassCostInitial": 20,
+        "bypassCostInitial": 30,
         "bypassCostRoundingValue": 1
       },
       "effects": {
@@ -1202,7 +1244,7 @@
       },
       "cooldown": {
         "durationMs": "432000000",
-        "bypassCostInitial": 20,
+        "bypassCostInitial": 30,
         "bypassCostRoundingValue": 1
       },
       "effects": {
@@ -1610,7 +1652,7 @@
       },
       "cooldown": {
         "durationMs": "432000000",
-        "bypassCostInitial": 20,
+        "bypassCostInitial": 30,
         "bypassCostRoundingValue": 1
       },
       "effects": {
@@ -1627,6 +1669,30 @@
     "data": {
       "level": 2,
       "pokemonId": "DIANCIE",
+      "progression": {
+        "pointsRequired": 7,
+        "pointsLimitPerPeriod": 1,
+        "pointsPerMegaEvoAction": 1
+      },
+      "cooldown": {
+        "durationMs": "432000000",
+        "bypassCostInitial": 30,
+        "bypassCostRoundingValue": 1
+      },
+      "effects": {
+        "differentTypeAttackBoost": 1.1,
+        "sameTypeAttackBoost": 1.3,
+        "sameTypeExtraCatchCandy": 1,
+        "sameTypeExtraCatchXp": 50,
+        "sameTypeExtraCatchCandyXlChance": 0.1
+      }
+    }
+  },
+  {
+    "templateId": "MEGA_EVOLUTION_LEVEL_2_V0870_POKEMON_FALINKS",
+    "data": {
+      "level": 2,
+      "pokemonId": "FALINKS",
       "progression": {
         "pointsRequired": 7,
         "pointsLimitPerPeriod": 1,
@@ -1729,7 +1795,7 @@
       },
       "cooldown": {
         "durationMs": "259200000",
-        "bypassCostInitial": 10,
+        "bypassCostInitial": 15,
         "bypassCostRoundingValue": 1
       },
       "effects": {
@@ -1801,7 +1867,7 @@
       },
       "cooldown": {
         "durationMs": "259200000",
-        "bypassCostInitial": 10,
+        "bypassCostInitial": 15,
         "bypassCostRoundingValue": 1
       },
       "effects": {
@@ -2209,7 +2275,7 @@
       },
       "cooldown": {
         "durationMs": "259200000",
-        "bypassCostInitial": 10,
+        "bypassCostInitial": 15,
         "bypassCostRoundingValue": 1
       },
       "effects": {
@@ -2226,6 +2292,30 @@
     "data": {
       "level": 3,
       "pokemonId": "DIANCIE",
+      "progression": {
+        "pointsRequired": 30,
+        "pointsLimitPerPeriod": 1,
+        "pointsPerMegaEvoAction": 1
+      },
+      "cooldown": {
+        "durationMs": "259200000",
+        "bypassCostInitial": 15,
+        "bypassCostRoundingValue": 1
+      },
+      "effects": {
+        "differentTypeAttackBoost": 1.1,
+        "sameTypeAttackBoost": 1.3,
+        "sameTypeExtraCatchCandy": 2,
+        "sameTypeExtraCatchXp": 100,
+        "sameTypeExtraCatchCandyXlChance": 0.25
+      }
+    }
+  },
+  {
+    "templateId": "MEGA_EVOLUTION_LEVEL_3_V0870_POKEMON_FALINKS",
+    "data": {
+      "level": 3,
+      "pokemonId": "FALINKS",
       "progression": {
         "pointsRequired": 30,
         "pointsLimitPerPeriod": 1,
@@ -2304,6 +2394,33 @@
     "data": {
       "level": 4,
       "pokemonId": "MALAMAR",
+      "progression": {
+        "pointsRequired": 30,
+        "pointsLimitPerPeriod": 1,
+        "pointsPerMegaEvoAction": 1
+      },
+      "cooldown": {
+        "durationMs": "86400000",
+        "bypassCostInitial": 5,
+        "bypassCostRoundingValue": 1
+      },
+      "effects": {
+        "differentTypeAttackBoost": 1.1,
+        "sameTypeAttackBoost": 1.3,
+        "sameTypeExtraCatchCandy": 3,
+        "sameTypeExtraCatchXp": 200,
+        "sameTypeExtraCatchCandyXlChance": 0.3,
+        "selfCpBoostAdditionalLevel": 2
+      },
+      "megaEnergyCostToUnlock": 5000,
+      "ftueExpirationTimestamp": "1775001600000"
+    }
+  },
+  {
+    "templateId": "MEGA_EVOLUTION_LEVEL_4_V0870_POKEMON_FALINKS",
+    "data": {
+      "level": 4,
+      "pokemonId": "FALINKS",
       "progression": {
         "pointsRequired": 30,
         "pointsLimitPerPeriod": 1,

@@ -1,5 +1,11 @@
 [
   {
+    "templateId": "AR_PHOTO_MULTIPLE_CONCURRENT_CAMPAIGN_CODE_GATE",
+    "data": {
+      "isEnabled": true
+    }
+  },
+  {
     "templateId": "BATTLE_ACCESSIBILITY_CODE_GATE",
     "data": {
       "isEnabled": true,
@@ -26,6 +32,12 @@
         "name": "LEADER_VNEXT_CODE_GATE",
         "isEnabled": true
       }
+    }
+  },
+  {
+    "templateId": "EVENT_POI_REFRESH_CODE_GATE",
+    "data": {
+      "isEnabled": true
     }
   },
   {

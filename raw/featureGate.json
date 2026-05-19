@@ -110,7 +110,8 @@
         },
         {
           "name": "MEGA_LEVEL_SPEEDUP_SUB_FEATURE_GATE",
-          "status": 344171892
+          "status": 344171892,
+          "rolloutPercentage": 100
         }
       ]
     }

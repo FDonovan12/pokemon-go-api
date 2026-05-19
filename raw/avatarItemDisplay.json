@@ -6761,6 +6761,20 @@
     }
   },
   {
+    "templateId": "N_DISPLAY_n_shirt_megamewtwox",
+    "data": {
+      "iconAddress": "n_shirt_megamewtwox_icon",
+      "displayStringId": "avatar_shirt_100thieves_x"
+    }
+  },
+  {
+    "templateId": "N_DISPLAY_n_shirt_megamewtwoy",
+    "data": {
+      "iconAddress": "n_shirt_megamewtwoy_icon",
+      "displayStringId": "avatar_shirt_100thieves_y"
+    }
+  },
+  {
     "templateId": "N_DISPLAY_n_shirt_megarayquaza_0",
     "data": {
       "iconAddress": "n_shirt_megarayquaza_0_icon",

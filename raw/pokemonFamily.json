@@ -12,7 +12,9 @@
     "data": {
       "familyId": "FAMILY_CHARMANDER",
       "candyPerXlCandy": 100,
-      "megaEvolvablePokemonId": "CHARIZARD"
+      "megaEvolvablePokemonIds": [
+        "CHARIZARD"
+      ]
     }
   },
   {

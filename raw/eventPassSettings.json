@@ -23,17 +23,17 @@
           {
             "text": "quest_catch_pokemon_singular",
             "iconType": "SPAWN_UNKNOWN",
-            "quantity": 10
+            "quantity": 5
           },
           {
             "text": "quest_hatch_egg_singular",
             "iconType": "EGG",
-            "quantity": 80
+            "quantity": 40
           },
           {
             "text": "quest_win_raid_singular",
             "iconType": "RAID",
-            "quantity": 200
+            "quantity": 100
           }
         ],
         "eventPassTrackUpgradeDescriptions": [
@@ -87,17 +87,17 @@
           {
             "text": "quest_catch_pokemon_singular",
             "iconType": "SPAWN_UNKNOWN",
-            "quantity": 10
+            "quantity": 5
           },
           {
             "text": "quest_hatch_egg_singular",
             "iconType": "EGG",
-            "quantity": 80
+            "quantity": 40
           },
           {
             "text": "quest_win_raid_singular",
             "iconType": "RAID",
-            "quantity": 200
+            "quantity": 100
           }
         ],
         "eventPassTrackUpgradeDescriptions": [
