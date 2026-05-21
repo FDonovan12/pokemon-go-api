@@ -651,9 +651,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "PHEROMOSA",
+            "pokemonId": "TAPU_BULU",
             "pokemonDisplay": {
-              "form": "PHEROMOSA_NORMAL"
+              "form": "TAPU_BULU_NORMAL"
             }
           },
           "unlockedAtRank": 20,
@@ -1331,9 +1331,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "PHEROMOSA",
+            "pokemonId": "TAPU_BULU",
             "pokemonDisplay": {
-              "form": "PHEROMOSA_NORMAL"
+              "form": "TAPU_BULU_NORMAL"
             }
           },
           "unlockedAtRank": 20,

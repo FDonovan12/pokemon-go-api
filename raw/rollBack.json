@@ -10,11 +10,5 @@
     "data": {
       "rollbackPercentage": 100
     }
-  },
-  {
-    "templateId": "SINGLE_ROLL_SHINY_RATE_ROLL_BACK",
-    "data": {
-      "rollbackPercentage": 100
-    }
   }
 ]

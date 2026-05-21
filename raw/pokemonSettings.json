@@ -7944,6 +7944,9 @@
         1.1333,
         1.066667
       ],
+      "evolutionIds": [
+        "RAICHU"
+      ],
       "evolutionPips": 1,
       "pokedexHeightM": 0.4,
       "pokedexWeightKg": 6,
@@ -207389,7 +207392,7 @@
       "pokemonId": "FALINKS",
       "type": "POKEMON_TYPE_FIGHTING",
       "camera": {
-        "cylinderRadiusM": 2.5,
+        "cylinderRadiusM": 2.2,
         "cylinderHeightM": 1
       },
       "encounter": {
@@ -207469,9 +207472,21 @@
           },
           "averageHeightM": 1.6,
           "averageWeightKg": 99,
-          "typeOverride1": "POKEMON_TYPE_FIGHTING"
+          "typeOverride1": "POKEMON_TYPE_FIGHTING",
+          "camera": {
+            "cylinderRadiusM": 1.5,
+            "cylinderHeightM": 3
+          },
+          "modelScaleV2": 0.8,
+          "modelHeight": 2.9,
+          "buddyPortraitOffset": [
+            0,
+            -200,
+            0
+          ]
         }
       ],
+      "buddyWalkedMegaEnergyAward": 25,
       "raidBossDistanceOffset": 17,
       "ibfc": {},
       "breadTierGroup": "GROUP_3"
@@ -207483,7 +207498,7 @@
       "pokemonId": "FALINKS",
       "type": "POKEMON_TYPE_FIGHTING",
       "camera": {
-        "cylinderRadiusM": 2.5,
+        "cylinderRadiusM": 2.2,
         "cylinderHeightM": 1
       },
       "encounter": {
@@ -207564,9 +207579,21 @@
           },
           "averageHeightM": 1.6,
           "averageWeightKg": 99,
-          "typeOverride1": "POKEMON_TYPE_FIGHTING"
+          "typeOverride1": "POKEMON_TYPE_FIGHTING",
+          "camera": {
+            "cylinderRadiusM": 1.5,
+            "cylinderHeightM": 3
+          },
+          "modelScaleV2": 0.8,
+          "modelHeight": 2.9,
+          "buddyPortraitOffset": [
+            0,
+            -200,
+            0
+          ]
         }
       ],
+      "buddyWalkedMegaEnergyAward": 25,
       "disableTransferToPokemonHome": true,
       "raidBossDistanceOffset": 17,
       "ibfc": {},
@@ -207579,7 +207606,7 @@
       "pokemonId": "FALINKS",
       "type": "POKEMON_TYPE_FIGHTING",
       "camera": {
-        "cylinderRadiusM": 2.5,
+        "cylinderRadiusM": 2.2,
         "cylinderHeightM": 1
       },
       "encounter": {
@@ -207660,9 +207687,21 @@
           },
           "averageHeightM": 1.6,
           "averageWeightKg": 99,
-          "typeOverride1": "POKEMON_TYPE_FIGHTING"
+          "typeOverride1": "POKEMON_TYPE_FIGHTING",
+          "camera": {
+            "cylinderRadiusM": 1.5,
+            "cylinderHeightM": 3
+          },
+          "modelScaleV2": 0.8,
+          "modelHeight": 2.9,
+          "buddyPortraitOffset": [
+            0,
+            -200,
+            0
+          ]
         }
       ],
+      "buddyWalkedMegaEnergyAward": 25,
       "raidBossDistanceOffset": 17,
       "ibfc": {},
       "breadTierGroup": "GROUP_3"
