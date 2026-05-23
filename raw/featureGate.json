@@ -59,7 +59,7 @@
     "templateId": "FRIENDSHIP_RESYNC_ON_READ_FEATURE_GATE",
     "data": {
       "status": 1,
-      "rolloutPercentage": 10
+      "rolloutPercentage": 25
     }
   },
   {

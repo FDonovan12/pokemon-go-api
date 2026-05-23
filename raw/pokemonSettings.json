@@ -44251,6 +44251,18 @@
       "kmBuddyDistance": 20,
       "buddySize": "BUDDY_BIG",
       "modelHeight": 2,
+      "evolutionBranch": [
+        {
+          "temporaryEvolution": "TEMP_EVOLUTION_MEGA_X",
+          "temporaryEvolutionEnergyCost": 7500,
+          "temporaryEvolutionEnergyCostSubsequent": 150
+        },
+        {
+          "temporaryEvolution": "TEMP_EVOLUTION_MEGA_Y",
+          "temporaryEvolutionEnergyCost": 7500,
+          "temporaryEvolutionEnergyCostSubsequent": 150
+        }
+      ],
       "modelScaleV2": 1,
       "buddyOffsetMale": [
         20,
@@ -44280,6 +44292,52 @@
         "PSYSTRIKE",
         "SHADOW_BALL",
         "HYPER_BEAM"
+      ],
+      "tempEvoOverrides": [
+        {
+          "tempEvoId": "TEMP_EVOLUTION_MEGA_X",
+          "stats": {
+            "baseStamina": 228,
+            "baseAttack": 399,
+            "baseDefense": 215
+          },
+          "averageHeightM": 2.3,
+          "averageWeightKg": 127,
+          "typeOverride1": "POKEMON_TYPE_PSYCHIC",
+          "typeOverride2": "POKEMON_TYPE_FIGHTING",
+          "camera": {
+            "cylinderRadiusM": 1,
+            "cylinderHeightM": 2.4
+          },
+          "modelScaleV2": 0.86
+        },
+        {
+          "tempEvoId": "TEMP_EVOLUTION_MEGA_Y",
+          "stats": {
+            "baseStamina": 228,
+            "baseAttack": 413,
+            "baseDefense": 223
+          },
+          "averageHeightM": 1.5,
+          "averageWeightKg": 33,
+          "typeOverride1": "POKEMON_TYPE_PSYCHIC",
+          "camera": {
+            "cylinderRadiusM": 0.9,
+            "cylinderHeightM": 2
+          },
+          "modelScaleV2": 1.2,
+          "modelHeight": 1.7
+        }
+      ],
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "MEWTWO",
+          "megaEnergyAwardAmount": 100
+        },
+        {
+          "megaPokemonId": "MEWTWO",
+          "megaEnergyAwardAmount": 100
+        }
       ],
       "ibfc": {},
       "breadTierGroup": "GROUP_4"
@@ -44454,6 +44512,18 @@
       "kmBuddyDistance": 20,
       "buddySize": "BUDDY_BIG",
       "modelHeight": 2,
+      "evolutionBranch": [
+        {
+          "temporaryEvolution": "TEMP_EVOLUTION_MEGA_X",
+          "temporaryEvolutionEnergyCost": 7500,
+          "temporaryEvolutionEnergyCostSubsequent": 150
+        },
+        {
+          "temporaryEvolution": "TEMP_EVOLUTION_MEGA_Y",
+          "temporaryEvolutionEnergyCost": 7500,
+          "temporaryEvolutionEnergyCostSubsequent": 150
+        }
+      ],
       "modelScaleV2": 1,
       "form": "MEWTWO_NORMAL",
       "buddyOffsetMale": [
@@ -44484,6 +44554,52 @@
         "PSYSTRIKE",
         "SHADOW_BALL",
         "HYPER_BEAM"
+      ],
+      "tempEvoOverrides": [
+        {
+          "tempEvoId": "TEMP_EVOLUTION_MEGA_X",
+          "stats": {
+            "baseStamina": 228,
+            "baseAttack": 399,
+            "baseDefense": 215
+          },
+          "averageHeightM": 2.3,
+          "averageWeightKg": 127,
+          "typeOverride1": "POKEMON_TYPE_PSYCHIC",
+          "typeOverride2": "POKEMON_TYPE_FIGHTING",
+          "camera": {
+            "cylinderRadiusM": 1,
+            "cylinderHeightM": 2.4
+          },
+          "modelScaleV2": 0.86
+        },
+        {
+          "tempEvoId": "TEMP_EVOLUTION_MEGA_Y",
+          "stats": {
+            "baseStamina": 228,
+            "baseAttack": 413,
+            "baseDefense": 223
+          },
+          "averageHeightM": 1.5,
+          "averageWeightKg": 33,
+          "typeOverride1": "POKEMON_TYPE_PSYCHIC",
+          "camera": {
+            "cylinderRadiusM": 0.9,
+            "cylinderHeightM": 2
+          },
+          "modelScaleV2": 1.2,
+          "modelHeight": 1.7
+        }
+      ],
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "MEWTWO",
+          "megaEnergyAwardAmount": 100
+        },
+        {
+          "megaPokemonId": "MEWTWO",
+          "megaEnergyAwardAmount": 100
+        }
       ],
       "ibfc": {},
       "breadTierGroup": "GROUP_4"

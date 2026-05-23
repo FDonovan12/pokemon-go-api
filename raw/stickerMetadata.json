@@ -265,6 +265,66 @@
     }
   },
   {
+    "templateId": "STICKER_ACORN_PARTNERSHIP_1",
+    "data": {
+      "stickerId": "STICKER_ACORN_PARTNERSHIP_1",
+      "maxCount": 25,
+      "pokemonId": "EEVEE",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20260612
+    }
+  },
+  {
+    "templateId": "STICKER_ACORN_PARTNERSHIP_2",
+    "data": {
+      "stickerId": "STICKER_ACORN_PARTNERSHIP_2",
+      "maxCount": 25,
+      "pokemonId": "PIKACHU",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20260612
+    }
+  },
+  {
+    "templateId": "STICKER_ACORN_PARTNERSHIP_3",
+    "data": {
+      "stickerId": "STICKER_ACORN_PARTNERSHIP_3",
+      "maxCount": 25,
+      "pokemonId": "CHARIZARD",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20260612
+    }
+  },
+  {
+    "templateId": "STICKER_ACORN_PARTNERSHIP_4",
+    "data": {
+      "stickerId": "STICKER_ACORN_PARTNERSHIP_4",
+      "maxCount": 25,
+      "pokemonId": "BLASTOISE",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20260612
+    }
+  },
+  {
+    "templateId": "STICKER_ACORN_PARTNERSHIP_5",
+    "data": {
+      "stickerId": "STICKER_ACORN_PARTNERSHIP_5",
+      "maxCount": 25,
+      "pokemonId": "VENUSAUR",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20260612
+    }
+  },
+  {
     "templateId": "STICKER_ALOLAISHI_1",
     "data": {
       "stickerId": "STICKER_ALOLAISHI_1",

@@ -6,6 +6,12 @@
     }
   },
   {
+    "templateId": "INCREMENTAL_CM_MINIGAME_SCORE_UPDATES_ROLL_BACK",
+    "data": {
+      "rollbackPercentage": 100
+    }
+  },
+  {
     "templateId": "NPC_LEAGUE_SUFFIX_ROLL_BACK",
     "data": {
       "rollbackPercentage": 100

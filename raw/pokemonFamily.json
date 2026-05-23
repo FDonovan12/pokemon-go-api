@@ -546,7 +546,10 @@
     "templateId": "V0150_FAMILY_MEWTWO",
     "data": {
       "familyId": "FAMILY_MEWTWO",
-      "candyPerXlCandy": 100
+      "candyPerXlCandy": 100,
+      "megaEvolvablePokemonIds": [
+        "MEWTWO"
+      ]
     }
   },
   {

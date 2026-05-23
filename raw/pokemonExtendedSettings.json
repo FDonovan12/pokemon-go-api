@@ -11566,6 +11566,30 @@
     "templateId": "EXTENDED_V0150_POKEMON_MEWTWO",
     "data": {
       "uniqueId": "MEWTWO",
+      "tempEvoOverrides": [
+        {
+          "tempEvoId": "TEMP_EVOLUTION_MEGA_X",
+          "sizeSettings": {
+            "xxsLowerBound": 1.127,
+            "xsLowerBound": 1.15,
+            "mLowerBound": 1.725,
+            "mUpperBound": 2.875,
+            "xlUpperBound": 3.45,
+            "xxlUpperBound": 3.565
+          }
+        },
+        {
+          "tempEvoId": "TEMP_EVOLUTION_MEGA_Y",
+          "sizeSettings": {
+            "xxsLowerBound": 0.735,
+            "xsLowerBound": 0.75,
+            "mLowerBound": 1.125,
+            "mUpperBound": 1.875,
+            "xlUpperBound": 2.25,
+            "xxlUpperBound": 2.325
+          }
+        }
+      ],
       "sizeSettings": {
         "xxsLowerBound": 0.98,
         "xsLowerBound": 1,
@@ -11596,6 +11620,30 @@
     "data": {
       "uniqueId": "MEWTWO",
       "form": "MEWTWO_NORMAL",
+      "tempEvoOverrides": [
+        {
+          "tempEvoId": "TEMP_EVOLUTION_MEGA_X",
+          "sizeSettings": {
+            "xxsLowerBound": 1.127,
+            "xsLowerBound": 1.15,
+            "mLowerBound": 1.725,
+            "mUpperBound": 2.875,
+            "xlUpperBound": 3.45,
+            "xxlUpperBound": 3.565
+          }
+        },
+        {
+          "tempEvoId": "TEMP_EVOLUTION_MEGA_Y",
+          "sizeSettings": {
+            "xxsLowerBound": 0.735,
+            "xsLowerBound": 0.75,
+            "mLowerBound": 1.125,
+            "mUpperBound": 1.875,
+            "xlUpperBound": 2.25,
+            "xxlUpperBound": 2.325
+          }
+        }
+      ],
       "sizeSettings": {
         "xxsLowerBound": 0.98,
         "xsLowerBound": 1,

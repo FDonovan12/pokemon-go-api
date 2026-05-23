@@ -257,7 +257,8 @@
         "playerActivity": {
           "limit": 300
         }
-      }
+      },
+      "hideItemInInventory": true
     }
   },
   {

@@ -5,7 +5,7 @@
       "evolutionLengthMs": "28800000",
       "attackBoostFromMegaDifferentType": 1.1,
       "attackBoostFromMegaSameType": 1.3,
-      "maxCandyHoardSize": 10000,
+      "maxCandyHoardSize": 50000,
       "enableBuddyWalkingMegaEnergyAward": true,
       "activeMegaBonusCatchCandy": 1,
       "enableMegaLevel": true,

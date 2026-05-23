@@ -107,6 +107,21 @@
     }
   },
   {
+    "templateId": "EVENT_PASS_AMER2026_STORE_REDIRECT",
+    "data": {
+      "sku": "pgorelease.june1_2026_deluxe_event_pass_track_unlock_redirect",
+      "sortOrder": 1,
+      "hidden": true,
+      "title": "season_pass_premium_track_title_amer_2026",
+      "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
+      "skuEnableTime": "2025-06-02T10:00:00",
+      "skuDisableTime": "2025-06-10T10:00:00",
+      "skuEnableTimeUtcMs": "1748858400000",
+      "skuDisableTimeUtcMs": "1749549600000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fe3025fe6_PGO-MCS_GO_Fest_2026_AMER_Global_LiveOp_v2-1024x576.jpg"
+    }
+  },
+  {
     "templateId": "EVENT_PASS_APRIL1_SEASON_STORE_REDIRECT",
     "data": {
       "sku": "pgorelease.april1_2026_deluxe_event_pass_track_redirect",
@@ -9937,9 +9952,15 @@
       "sku": "bundle.hisuiraidday2023.1",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 1,
-      "hidden": true,
       "spriteId": "bundle.general.remotebox.medium.1",
-      "title": "great_raid_box_title"
+      "title": "great_raid_box_title",
+      "skuEnableTime": "2022-10-13T12:00:00",
+      "skuDisableTime": "2026-05-24T23:59:59",
+      "skuEnableTimeUtcMs": "1665662400000",
+      "skuDisableTimeUtcMs": "1779667199000",
+      "showDiscountTag": true,
+      "showStrikethroughPrice": true,
+      "totalValue": 1035
     }
   },
   {
@@ -13091,21 +13112,6 @@
       "skuEnableTimeUtcMs": "1783296000000",
       "skuDisableTimeUtcMs": "1784073599000",
       "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FEvent%20Pass%20Placeholder.png"
-    }
-  },
-  {
-    "templateId": "pgorelease.june1_2026_deluxe_event_pass_track_unlock_redirect",
-    "data": {
-      "sku": "pgorelease.june1_2026_deluxe_event_pass_track_unlock_redirect",
-      "sortOrder": 1,
-      "hidden": true,
-      "title": "season_pass_premium_track_title_amer_2026",
-      "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
-      "skuEnableTime": "2025-06-02T10:00:00",
-      "skuDisableTime": "2025-06-10T10:00:00",
-      "skuEnableTimeUtcMs": "1748858400000",
-      "skuDisableTimeUtcMs": "1749549600000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fe3025fe6_PGO-MCS_GO_Fest_2026_AMER_Global_LiveOp_v2-1024x576.jpg"
     }
   },
   {

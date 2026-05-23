@@ -172,6 +172,22 @@
     }
   },
   {
+    "templateId": "TEMPORARY_EVOLUTION_V0150_POKEMON_MEWTWO",
+    "data": {
+      "pokemonId": "MEWTWO",
+      "temporaryEvolutions": [
+        {
+          "temporaryEvolutionId": "TEMP_EVOLUTION_MEGA_X",
+          "assetBundleValue": 51
+        },
+        {
+          "temporaryEvolutionId": "TEMP_EVOLUTION_MEGA_Y",
+          "assetBundleValue": 52
+        }
+      ]
+    }
+  },
+  {
     "templateId": "TEMPORARY_EVOLUTION_V0181_POKEMON_AMPHAROS",
     "data": {
       "pokemonId": "AMPHAROS",
