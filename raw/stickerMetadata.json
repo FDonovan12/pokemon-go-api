@@ -6823,6 +6823,58 @@
     }
   },
   {
+    "templateId": "STICKER_SUMMER_2026_1",
+    "data": {
+      "stickerId": "STICKER_SUMMER_2026_1",
+      "maxCount": 25,
+      "pokemonId": "STARMIE",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20260602,
+      "regionId": 1
+    }
+  },
+  {
+    "templateId": "STICKER_SUMMER_2026_2",
+    "data": {
+      "stickerId": "STICKER_SUMMER_2026_2",
+      "maxCount": 25,
+      "pokemonId": "VAPOREON",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20260602,
+      "regionId": 1
+    }
+  },
+  {
+    "templateId": "STICKER_SUMMER_2026_3",
+    "data": {
+      "stickerId": "STICKER_SUMMER_2026_3",
+      "maxCount": 25,
+      "pokemonId": "DRAGONAIR",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20260602,
+      "regionId": 1
+    }
+  },
+  {
+    "templateId": "STICKER_SUMMER_2026_4",
+    "data": {
+      "stickerId": "STICKER_SUMMER_2026_4",
+      "maxCount": 25,
+      "pokemonId": "LUDICOLO",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20260602,
+      "regionId": 2
+    }
+  },
+  {
     "templateId": "STICKER_SUMMER_3",
     "data": {
       "stickerId": "STICKER_SUMMER_3",

@@ -651,9 +651,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "TAPU_BULU",
+            "pokemonId": "TAPU_FINI",
             "pokemonDisplay": {
-              "form": "TAPU_BULU_NORMAL"
+              "form": "TAPU_FINI_NORMAL"
             }
           },
           "unlockedAtRank": 20,
@@ -1331,9 +1331,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "TAPU_BULU",
+            "pokemonId": "TAPU_FINI",
             "pokemonDisplay": {
-              "form": "TAPU_BULU_NORMAL"
+              "form": "TAPU_FINI_NORMAL"
             }
           },
           "unlockedAtRank": 20,

@@ -491,6 +491,13 @@
     }
   },
   {
+    "templateId": "LC_2026_BR_001",
+    "data": {
+      "locationCard": "LC_2026_BR_001",
+      "imageUrl": "lc_2026_br_001"
+    }
+  },
+  {
     "templateId": "LC_2026_CHICAGO_GOFEST_001",
     "data": {
       "locationCard": "LC_2026_CHICAGO_GOFEST_001",
@@ -1332,6 +1339,14 @@
     "data": {
       "locationCard": "LC_SPECIALBACKGROUND_KR2025_LOTTE_01",
       "imageUrl": "lc_LotteGiants"
+    }
+  },
+  {
+    "templateId": "LC_SPECIALBACKGROUND_LEGO_2026_01",
+    "data": {
+      "locationCard": 281,
+      "imageUrl": "sb_lego_2026",
+      "cardType": "SPECIAL_BACKGROUND"
     }
   },
   {

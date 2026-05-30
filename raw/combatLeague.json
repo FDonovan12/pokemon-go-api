@@ -9184,6 +9184,20 @@
                   "FORM_UNSET",
                   "ARCTIBAX_NORMAL"
                 ]
+              },
+              {
+                "id": "BISHARP",
+                "forms": [
+                  "FORM_UNSET",
+                  "BISHARP_NORMAL"
+                ]
+              },
+              {
+                "id": "DIPPLIN",
+                "forms": [
+                  "FORM_UNSET",
+                  "DIPPLIN_NORMAL"
+                ]
               }
             ]
           }
@@ -26170,6 +26184,125 @@
                 "id": "URSHIFU",
                 "forms": [
                   "URSHIFU_SINGLE_STRIKE"
+                ]
+              },
+              {
+                "id": "MASCHIFF",
+                "forms": [
+                  "FORM_UNSET",
+                  "MASCHIFF_NORMAL"
+                ]
+              },
+              {
+                "id": "MABOSSTIFF",
+                "forms": [
+                  "FORM_UNSET",
+                  "MABOSSTIFF_NORMAL"
+                ]
+              },
+              {
+                "id": "BRUTEBONNET",
+                "forms": [
+                  "FORM_UNSET",
+                  "BRUTEBONNET_NORMAL"
+                ]
+              },
+              {
+                "id": "IRONJUGULIS",
+                "forms": [
+                  "FORM_UNSET",
+                  "IRONJUGULIS_NORMAL"
+                ]
+              },
+              {
+                "id": "WOCHIEN",
+                "forms": [
+                  "FORM_UNSET",
+                  "WOCHIEN_NORMAL"
+                ]
+              },
+              {
+                "id": "CHIENPAO",
+                "forms": [
+                  "FORM_UNSET",
+                  "CHIENPAO_NORMAL"
+                ]
+              },
+              {
+                "id": "TINGLU",
+                "forms": [
+                  "FORM_UNSET",
+                  "TINGLU_NORMAL"
+                ]
+              },
+              {
+                "id": "CHIYU",
+                "forms": [
+                  "FORM_UNSET",
+                  "CHIYU_NORMAL"
+                ]
+              },
+              {
+                "id": "ROARINGMOON",
+                "forms": [
+                  "FORM_UNSET",
+                  "ROARINGMOON_NORMAL"
+                ]
+              },
+              {
+                "id": "ORTHWORM",
+                "forms": [
+                  "FORM_UNSET",
+                  "ORTHWORM_NORMAL"
+                ]
+              },
+              {
+                "id": "IRONTREADS",
+                "forms": [
+                  "FORM_UNSET",
+                  "IRONTREADS_NORMAL"
+                ]
+              },
+              {
+                "id": "ARCHALUDON",
+                "forms": [
+                  "FORM_UNSET",
+                  "ARCHALUDON_NORMAL"
+                ]
+              },
+              {
+                "id": "IRONCROWN",
+                "forms": [
+                  "FORM_UNSET",
+                  "IRONCROWN_NORMAL"
+                ]
+              },
+              {
+                "id": "SCREAMTAIL",
+                "forms": [
+                  "FORM_UNSET",
+                  "SCREAMTAIL_NORMAL"
+                ]
+              },
+              {
+                "id": "FLUTTERMANE",
+                "forms": [
+                  "FORM_UNSET",
+                  "FLUTTERMANE_NORMAL"
+                ]
+              },
+              {
+                "id": "IRONVALIANT",
+                "forms": [
+                  "FORM_UNSET",
+                  "IRONVALIANT_NORMAL"
+                ]
+              },
+              {
+                "id": "FEZANDIPITI",
+                "forms": [
+                  "FORM_UNSET",
+                  "FEZANDIPITI_NORMAL"
                 ]
               }
             ]

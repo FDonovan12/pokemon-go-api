@@ -1799,6 +1799,18 @@
     }
   },
   {
+    "templateId": "N_DISPLAY_n_hair_blanche",
+    "data": {
+      "iconAddress": "n_hair_blanche_icon"
+    }
+  },
+  {
+    "templateId": "N_DISPLAY_n_hair_candela",
+    "data": {
+      "iconAddress": "n_hair_candela_icon"
+    }
+  },
+  {
     "templateId": "N_DISPLAY_n_hair_coilyshort_0",
     "data": {
       "iconAddress": "n_hair_coilyshort_0_icon"
@@ -1868,6 +1880,12 @@
     "templateId": "N_DISPLAY_n_hair_morgrem_0",
     "data": {
       "iconAddress": "n_hair_morgrem_0_icon"
+    }
+  },
+  {
+    "templateId": "N_DISPLAY_n_hair_spark",
+    "data": {
+      "iconAddress": "n_hair_spark_icon"
     }
   },
   {
@@ -2089,6 +2107,13 @@
     "data": {
       "iconAddress": "n_hat_cubonehat_0_icon",
       "displayStringId": "n_hat_cubonehat_0_display_name"
+    }
+  },
+  {
+    "templateId": "N_DISPLAY_n_hat_cynthia",
+    "data": {
+      "iconAddress": "n_hat_cynthia_icon",
+      "displayStringId": "avatar_hat_hairpin_s23cynthia"
     }
   },
   {
@@ -3629,6 +3654,13 @@
     "data": {
       "iconAddress": "n_pants_clay_0_icon",
       "displayStringId": "n_pants_clay_0_display_name"
+    }
+  },
+  {
+    "templateId": "N_DISPLAY_n_pants_cynthia",
+    "data": {
+      "iconAddress": "n_pants_cynthia_icon",
+      "displayStringId": "avatar_pants_s23cynthia"
     }
   },
   {
@@ -5228,6 +5260,13 @@
     }
   },
   {
+    "templateId": "N_DISPLAY_n_pose_s23gbl",
+    "data": {
+      "iconAddress": "n_pose_s23gbl_icon",
+      "displayStringId": "avatar_pose_s23cynthia"
+    }
+  },
+  {
     "templateId": "N_DISPLAY_n_pose_sustainability",
     "data": {
       "iconAddress": "n_pose_sustainability_icon",
@@ -5582,6 +5621,13 @@
     "data": {
       "iconAddress": "n_shirt_cowichansweater_0_icon",
       "displayStringId": "n_shirt_cowichansweater_0_display_name"
+    }
+  },
+  {
+    "templateId": "N_DISPLAY_n_shirt_cynthia",
+    "data": {
+      "iconAddress": "n_shirt_cynthia_icon",
+      "displayStringId": "avatar_shirt_s23cynthia"
     }
   },
   {
@@ -8504,6 +8550,13 @@
     }
   },
   {
+    "templateId": "N_DISPLAY_n_shoes_cynthia",
+    "data": {
+      "iconAddress": "n_shoes_cynthia_icon",
+      "displayStringId": "avatar_shoes_s23cynthia"
+    }
+  },
+  {
     "templateId": "N_DISPLAY_n_shoes_dedenneitems_0",
     "data": {
       "iconAddress": "n_shoes_dedenneitems_0_icon",
@@ -9810,6 +9863,12 @@
     "templateId": "N_DISPLAY_set_cosmog_m",
     "data": {
       "iconAddress": "set_cosmog_b"
+    }
+  },
+  {
+    "templateId": "N_DISPLAY_set_cynthia",
+    "data": {
+      "iconAddress": "set_cynthia"
     }
   },
   {

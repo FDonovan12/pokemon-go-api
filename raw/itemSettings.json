@@ -254,9 +254,7 @@
         "eventPassId": "EVENT_PASS_BLANCHE2026_EVENT"
       },
       "timePeriodCounters": {
-        "playerActivity": {
-          "limit": 300
-        }
+        "playerActivity": {}
       },
       "hideItemInInventory": true
     }
@@ -308,7 +306,7 @@
       "ignoreInventorySpace": true,
       "itemCap": 999999,
       "eventPassPoint": {
-        "eventPassId": "EVENT_PASS_BUGOUTBUDDIES2026_EVENT"
+        "eventPassId": "EVENT_PASS_EMEA2026_EVENT"
       },
       "timePeriodCounters": {
         "playerActivity": {
@@ -423,9 +421,7 @@
         "eventPassId": "EVENT_PASS_MAY2026_SEASON"
       },
       "timePeriodCounters": {
-        "playerActivity": {
-          "limit": 250
-        }
+        "playerActivity": {}
       },
       "hideItemInInventory": true
     }
@@ -1453,7 +1449,8 @@
       "category": "ITEM_CATEGORY_INCENSE",
       "dropTrainerLevel": 1,
       "incense": {
-        "incenseLifetimeSeconds": 7200
+        "incenseLifetimeSeconds": 3600,
+        "spawnTableProbability": 0.6
       }
     }
   },
@@ -1480,7 +1477,7 @@
       "eggIncubator": {
         "incubatorType": "INCUBATOR_DISTANCE",
         "uses": 3,
-        "distanceMultiplier": 0.5
+        "distanceMultiplier": 1
       }
     }
   },
@@ -1493,7 +1490,7 @@
       "dropTrainerLevel": 100,
       "eggIncubator": {
         "incubatorType": "INCUBATOR_DISTANCE",
-        "distanceMultiplier": 0.5
+        "distanceMultiplier": 1
       }
     }
   },
@@ -1522,7 +1519,7 @@
       "eggIncubator": {
         "incubatorType": "INCUBATOR_DISTANCE",
         "uses": 3,
-        "distanceMultiplier": 0.33333334
+        "distanceMultiplier": 0.6666667
       }
     }
   },
@@ -1535,7 +1532,7 @@
       "dropTrainerLevel": 100,
       "eggIncubator": {
         "incubatorType": "INCUBATOR_DISTANCE",
-        "distanceMultiplier": 0.5,
+        "distanceMultiplier": 1,
         "expiredIncubatorReplacement": {
           "incubatorReplacement": "ITEM_INCUBATOR_BASIC",
           "usesCountOverride": 1

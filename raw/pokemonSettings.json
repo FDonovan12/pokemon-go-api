@@ -44309,7 +44309,8 @@
             "cylinderRadiusM": 1,
             "cylinderHeightM": 2.4
           },
-          "modelScaleV2": 0.86
+          "modelScaleV2": 0.86,
+          "modelHeight": 2.3
         },
         {
           "tempEvoId": "TEMP_EVOLUTION_MEGA_Y",
@@ -44438,6 +44439,16 @@
       "buddyGroupNumber": 3,
       "eliteCinematicMove": [
         "PSYSTRIKE"
+      ],
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "MEWTWO",
+          "megaEnergyAwardAmount": 100
+        },
+        {
+          "megaPokemonId": "MEWTWO",
+          "megaEnergyAwardAmount": 100
+        }
       ],
       "disableTransferToPokemonHome": true,
       "ibfc": {},
@@ -44571,7 +44582,8 @@
             "cylinderRadiusM": 1,
             "cylinderHeightM": 2.4
           },
-          "modelScaleV2": 0.86
+          "modelScaleV2": 0.86,
+          "modelHeight": 2.3
         },
         {
           "tempEvoId": "TEMP_EVOLUTION_MEGA_Y",
