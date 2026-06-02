@@ -4,11 +4,11 @@
     "data": {
       "screenCaptureSize": 2,
       "isIrisEnabled": true,
-      "irisFlags": 2011175120,
+      "irisFlags": 2009075920,
       "bannerImageUrl": [
-        "PokemonSetsHeaderImage01",
-        "PokemonSetsHeaderImage02",
-        "PokemonSetsHeaderImage03"
+        "PokemonSetsHeaderImage_s20_1",
+        "PokemonSetsHeaderImage_s20_2",
+        "PokemonSetsHeaderImage_s20_3"
       ]
     }
   }

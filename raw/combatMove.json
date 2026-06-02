@@ -4,7 +4,7 @@
     "data": {
       "uniqueId": "WRAP",
       "type": "POKEMON_TYPE_NORMAL",
-      "power": 60,
+      "power": 70,
       "vfxName": "wrap",
       "energyDelta": -45,
       "buffs": {
@@ -118,7 +118,7 @@
     "data": {
       "uniqueId": "EARTHQUAKE",
       "type": "POKEMON_TYPE_GROUND",
-      "power": 110,
+      "power": 120,
       "vfxName": "earthquake",
       "energyDelta": -65
     }
@@ -170,7 +170,7 @@
       "type": "POKEMON_TYPE_STEEL",
       "power": 110,
       "vfxName": "flash_cannon",
-      "energyDelta": -70
+      "energyDelta": -65
     }
   },
   {
@@ -228,9 +228,9 @@
     "data": {
       "uniqueId": "DRILL_RUN",
       "type": "POKEMON_TYPE_GROUND",
-      "power": 80,
+      "power": 70,
       "vfxName": "drill_run",
-      "energyDelta": -45
+      "energyDelta": -40
     }
   },
   {
@@ -901,7 +901,7 @@
       "type": "POKEMON_TYPE_FLYING",
       "power": 110,
       "vfxName": "hurricane",
-      "energyDelta": -65
+      "energyDelta": -60
     }
   },
   {
@@ -1712,7 +1712,7 @@
     "data": {
       "uniqueId": "SILVER_WIND",
       "type": "POKEMON_TYPE_BUG",
-      "power": 60,
+      "power": 75,
       "vfxName": "silver_wind",
       "energyDelta": -45,
       "buffs": {
@@ -1836,9 +1836,9 @@
     "data": {
       "uniqueId": "ENERGY_BALL",
       "type": "POKEMON_TYPE_GRASS",
-      "power": 90,
+      "power": 80,
       "vfxName": "energy_ball",
-      "energyDelta": -55,
+      "energyDelta": -45,
       "buffs": {
         "targetDefenseStatStageChange": -1,
         "buffActivationChance": 0.1
@@ -2179,7 +2179,7 @@
       "type": "POKEMON_TYPE_GROUND",
       "power": 90,
       "vfxName": "earth_power",
-      "energyDelta": -55,
+      "energyDelta": -50,
       "buffs": {
         "targetDefenseStatStageChange": -1,
         "buffActivationChance": 0.1
@@ -2370,7 +2370,7 @@
     "data": {
       "uniqueId": "CHARM_FAST",
       "type": "POKEMON_TYPE_FAIRY",
-      "power": 13,
+      "power": 12,
       "vfxName": "charm_fast",
       "durationTurns": 2,
       "energyDelta": 8
@@ -2623,7 +2623,7 @@
       "power": 16,
       "vfxName": "gust_fast",
       "durationTurns": 3,
-      "energyDelta": 12
+      "energyDelta": 14
     }
   },
   {
@@ -3032,9 +3032,9 @@
     "data": {
       "uniqueId": "DRAGON_ASCENT",
       "type": "POKEMON_TYPE_FLYING",
-      "power": 150,
+      "power": 110,
       "vfxName": "dragon_ascent",
-      "energyDelta": -70,
+      "energyDelta": -45,
       "buffs": {
         "attackerDefenseStatStageChange": -1,
         "buffActivationChance": 1

@@ -8688,15 +8688,14 @@
       "sku": "battlepassticket.1",
       "category": "IAP_CATEGORY_FREE",
       "sortOrder": 1,
-      "hidden": true,
       "spriteId": "battlepassticket.1",
       "title": "iap_battle_pass_ticket_name",
       "description": "battle_pass_ticket_IAP_description",
       "skuEnableTime": "2023-02-27T20:00:00",
-      "skuDisableTime": "2024-06-15T13:00:00",
+      "skuDisableTime": "2026-06-16T13:00:00",
       "skuEnableTimeUtcMs": "1677528000000",
-      "skuDisableTimeUtcMs": "1718456400000",
-      "imageUrl": "https://storage.googleapis.com/prod-public-images/GBL_SharedSkies_2024.jpeg"
+      "skuDisableTimeUtcMs": "1781614800000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-s22-gbl-nologo-2026.jpg"
     }
   },
   {

@@ -2,7 +2,7 @@
   {
     "templateId": "POWER_UP_POKESTOP_SHARED_SETTINGS",
     "data": {
-      "powerUpPokestopsMinPlayerLevel": 20,
+      "powerUpPokestopsMinPlayerLevel": 200,
       "validatePokestopOnFortSearchPercent": 1
     }
   }

@@ -4907,7 +4907,8 @@
         "AERIAL_ACE",
         "BRAVE_BIRD",
         "FEATHER_DANCE",
-        "HEAT_WAVE"
+        "HEAT_WAVE",
+        "TWISTER"
       ],
       "animationTime": [
         2.0667,
@@ -5057,7 +5058,8 @@
         "AERIAL_ACE",
         "BRAVE_BIRD",
         "FEATHER_DANCE",
-        "HEAT_WAVE"
+        "HEAT_WAVE",
+        "TWISTER"
       ],
       "animationTime": [
         2.0667,
@@ -36491,7 +36493,8 @@
         "THUNDER",
         "ICE_BEAM",
         "PSYBEAM",
-        "SURF"
+        "SURF",
+        "AQUA_JET"
       ],
       "animationTime": [
         1.7333,
@@ -36598,7 +36601,8 @@
         "THUNDER",
         "ICE_BEAM",
         "PSYBEAM",
-        "SURF"
+        "SURF",
+        "AQUA_JET"
       ],
       "animationTime": [
         1.7333,
@@ -41623,7 +41627,8 @@
       "cinematicMoves": [
         "ANCIENT_POWER",
         "WATER_PULSE",
-        "STONE_EDGE"
+        "STONE_EDGE",
+        "AQUA_JET"
       ],
       "animationTime": [
         2.1667,
@@ -41726,7 +41731,8 @@
       "cinematicMoves": [
         "ANCIENT_POWER",
         "WATER_PULSE",
-        "STONE_EDGE"
+        "STONE_EDGE",
+        "AQUA_JET"
       ],
       "animationTime": [
         2.1667,
@@ -42981,7 +42987,8 @@
         "baseDefense": 189
       },
       "quickMoves": [
-        "COUNTER_FAST"
+        "COUNTER_FAST",
+        "LOW_KICK_FAST"
       ],
       "cinematicMoves": [
         "CLOSE_COMBAT",
@@ -47898,13 +47905,15 @@
       "quickMoves": [
         "STRUGGLE_BUG_FAST",
         "BUG_BITE_FAST",
-        "COUNTER_FAST"
+        "COUNTER_FAST",
+        "ROLLOUT_FAST"
       ],
       "cinematicMoves": [
         "BUG_BUZZ",
         "SILVER_WIND",
         "AERIAL_ACE",
-        "DYNAMIC_PUNCH"
+        "DYNAMIC_PUNCH",
+        "ACROBATICS"
       ],
       "animationTime": [
         1.3333,
@@ -48002,13 +48011,15 @@
       "quickMoves": [
         "STRUGGLE_BUG_FAST",
         "BUG_BITE_FAST",
-        "COUNTER_FAST"
+        "COUNTER_FAST",
+        "ROLLOUT_FAST"
       ],
       "cinematicMoves": [
         "BUG_BUZZ",
         "SILVER_WIND",
         "AERIAL_ACE",
-        "DYNAMIC_PUNCH"
+        "DYNAMIC_PUNCH",
+        "ACROBATICS"
       ],
       "animationTime": [
         1.3333,
@@ -50314,7 +50325,8 @@
         "OMINOUS_WIND",
         "FUTURESIGHT",
         "AERIAL_ACE",
-        "PSYSHOCK"
+        "PSYSHOCK",
+        "SHADOW_BALL"
       ],
       "animationTime": [
         1.3333,
@@ -50418,7 +50430,8 @@
         "OMINOUS_WIND",
         "FUTURESIGHT",
         "AERIAL_ACE",
-        "PSYSHOCK"
+        "PSYSHOCK",
+        "SHADOW_BALL"
       ],
       "animationTime": [
         1.3333,
@@ -59950,7 +59963,8 @@
         "SLUDGE_WAVE",
         "ACID_SPRAY",
         "FELL_STINGER",
-        "SCALD"
+        "SCALD",
+        "SHADOW_BALL"
       ],
       "animationTime": [
         1.3333,
@@ -60158,7 +60172,8 @@
         "SLUDGE_WAVE",
         "ACID_SPRAY",
         "FELL_STINGER",
-        "SCALD"
+        "SCALD",
+        "SHADOW_BALL"
       ],
       "animationTime": [
         1.3333,
@@ -63564,7 +63579,8 @@
         "WATER_PULSE",
         "ICE_BEAM",
         "AERIAL_ACE",
-        "BUBBLE_BEAM"
+        "BUBBLE_BEAM",
+        "TWISTER"
       ],
       "animationTime": [
         1.3333,
@@ -63654,7 +63670,8 @@
         "WATER_PULSE",
         "ICE_BEAM",
         "AERIAL_ACE",
-        "BUBBLE_BEAM"
+        "BUBBLE_BEAM",
+        "TWISTER"
       ],
       "animationTime": [
         1.3333,
@@ -64438,7 +64455,8 @@
         "BLIZZARD",
         "OUTRAGE",
         "OCTAZOOKA",
-        "SWIFT"
+        "SWIFT",
+        "SURF"
       ],
       "animationTime": [
         1.3333,
@@ -64543,7 +64561,8 @@
         "BLIZZARD",
         "OUTRAGE",
         "OCTAZOOKA",
-        "SWIFT"
+        "SWIFT",
+        "SURF"
       ],
       "animationTime": [
         1.3333,
@@ -92402,7 +92421,9 @@
         "THUNDER",
         "ICE_BEAM",
         "AERIAL_ACE",
-        "SHADOW_SNEAK"
+        "SHADOW_SNEAK",
+        "DYNAMIC_PUNCH",
+        "THUNDER_PUNCH"
       ],
       "animationTime": [
         1.3333,
@@ -92489,7 +92510,9 @@
         "THUNDER",
         "ICE_BEAM",
         "AERIAL_ACE",
-        "SHADOW_SNEAK"
+        "SHADOW_SNEAK",
+        "DYNAMIC_PUNCH",
+        "THUNDER_PUNCH"
       ],
       "animationTime": [
         1.3333,
@@ -109502,7 +109525,9 @@
         "FIRE_PUNCH",
         "HYPER_BEAM",
         "FOCUS_BLAST",
-        "TRIPLE_AXEL"
+        "TRIPLE_AXEL",
+        "SHADOW_BALL",
+        "THUNDER_PUNCH"
       ],
       "animationTime": [
         1.9,
@@ -109626,7 +109651,9 @@
         "FIRE_PUNCH",
         "HYPER_BEAM",
         "FOCUS_BLAST",
-        "TRIPLE_AXEL"
+        "TRIPLE_AXEL",
+        "SHADOW_BALL",
+        "THUNDER_PUNCH"
       ],
       "animationTime": [
         1.9,
@@ -115454,7 +115481,8 @@
       },
       "quickMoves": [
         "WATERFALL_FAST",
-        "WATER_GUN_FAST"
+        "WATER_GUN_FAST",
+        "GUST_FAST"
       ],
       "cinematicMoves": [
         "WATER_PULSE",
@@ -115545,7 +115573,8 @@
       },
       "quickMoves": [
         "WATERFALL_FAST",
-        "WATER_GUN_FAST"
+        "WATER_GUN_FAST",
+        "GUST_FAST"
       ],
       "cinematicMoves": [
         "WATER_PULSE",
@@ -116941,7 +116970,8 @@
         "STONE_EDGE",
         "SKULL_BASH",
         "SUPER_POWER",
-        "BREAKING_SWIPE"
+        "BREAKING_SWIPE",
+        "DRILL_RUN"
       ],
       "animationTime": [
         1.9,
@@ -117057,7 +117087,8 @@
         "STONE_EDGE",
         "SKULL_BASH",
         "SUPER_POWER",
-        "BREAKING_SWIPE"
+        "BREAKING_SWIPE",
+        "DRILL_RUN"
       ],
       "animationTime": [
         1.9,
@@ -131713,7 +131744,8 @@
       },
       "quickMoves": [
         "MUD_SLAP_FAST",
-        "SMACK_DOWN_FAST"
+        "SMACK_DOWN_FAST",
+        "LOCK_ON_FAST"
       ],
       "cinematicMoves": [
         "ROCK_SLIDE",
@@ -131816,7 +131848,8 @@
       },
       "quickMoves": [
         "MUD_SLAP_FAST",
-        "SMACK_DOWN_FAST"
+        "SMACK_DOWN_FAST",
+        "LOCK_ON_FAST"
       ],
       "cinematicMoves": [
         "ROCK_SLIDE",
@@ -133360,7 +133393,8 @@
       },
       "quickMoves": [
         "COUNTER_FAST",
-        "POISON_JAB_FAST"
+        "POISON_JAB_FAST",
+        "FORCE_PALM_FAST"
       ],
       "cinematicMoves": [
         "DYNAMIC_PUNCH",
@@ -133461,7 +133495,8 @@
       },
       "quickMoves": [
         "COUNTER_FAST",
-        "POISON_JAB_FAST"
+        "POISON_JAB_FAST",
+        "FORCE_PALM_FAST"
       ],
       "cinematicMoves": [
         "DYNAMIC_PUNCH",
@@ -133946,7 +133981,8 @@
       "cinematicMoves": [
         "MUDDY_WATER",
         "EARTH_POWER",
-        "SLUDGE_BOMB"
+        "SLUDGE_BOMB",
+        "ICY_WIND"
       ],
       "animationTime": [
         1.9,
@@ -134036,7 +134072,8 @@
       "cinematicMoves": [
         "MUDDY_WATER",
         "EARTH_POWER",
-        "SLUDGE_BOMB"
+        "SLUDGE_BOMB",
+        "ICY_WIND"
       ],
       "animationTime": [
         1.9,
@@ -143556,13 +143593,15 @@
       },
       "quickMoves": [
         "WATER_GUN_FAST",
-        "AIR_SLASH_FAST"
+        "AIR_SLASH_FAST",
+        "GUST_FAST"
       ],
       "cinematicMoves": [
         "ICE_BEAM",
         "BUBBLE_BEAM",
         "HURRICANE",
-        "FLY"
+        "FLY",
+        "AQUA_JET"
       ],
       "animationTime": [
         1.9,
@@ -143660,13 +143699,15 @@
       },
       "quickMoves": [
         "WATER_GUN_FAST",
-        "AIR_SLASH_FAST"
+        "AIR_SLASH_FAST",
+        "GUST_FAST"
       ],
       "cinematicMoves": [
         "ICE_BEAM",
         "BUBBLE_BEAM",
         "HURRICANE",
-        "FLY"
+        "FLY",
+        "AQUA_JET"
       ],
       "animationTime": [
         1.9,
@@ -171802,7 +171843,8 @@
       },
       "quickMoves": [
         "CHARM_FAST",
-        "CHARGE_BEAM_FAST"
+        "CHARGE_BEAM_FAST",
+        "FAIRY_WIND_FAST"
       ],
       "cinematicMoves": [
         "MOONBLAST",
@@ -171884,7 +171926,8 @@
       },
       "quickMoves": [
         "CHARM_FAST",
-        "CHARGE_BEAM_FAST"
+        "CHARGE_BEAM_FAST",
+        "FAIRY_WIND_FAST"
       ],
       "cinematicMoves": [
         "MOONBLAST",
@@ -174895,12 +174938,14 @@
       },
       "quickMoves": [
         "CHARM_FAST",
-        "QUICK_ATTACK_FAST"
+        "QUICK_ATTACK_FAST",
+        "FAIRY_WIND_FAST"
       ],
       "cinematicMoves": [
         "MOONBLAST",
         "DAZZLING_GLEAM",
-        "DRAINING_KISS"
+        "DRAINING_KISS",
+        "SHADOW_BALL"
       ],
       "animationTime": [
         1.9,
@@ -174984,12 +175029,14 @@
       },
       "quickMoves": [
         "CHARM_FAST",
-        "QUICK_ATTACK_FAST"
+        "QUICK_ATTACK_FAST",
+        "FAIRY_WIND_FAST"
       ],
       "cinematicMoves": [
         "MOONBLAST",
         "DAZZLING_GLEAM",
-        "DRAINING_KISS"
+        "DRAINING_KISS",
+        "SHADOW_BALL"
       ],
       "animationTime": [
         1.9,
@@ -175703,13 +175750,15 @@
       },
       "quickMoves": [
         "WATER_GUN_FAST",
-        "TACKLE_FAST"
+        "TACKLE_FAST",
+        "DRAGON_BREATH_FAST"
       ],
       "cinematicMoves": [
         "DRAGON_PULSE",
         "SLUDGE_WAVE",
         "MUDDY_WATER",
-        "WATER_PULSE"
+        "WATER_PULSE",
+        "BODY_SLAM"
       ],
       "animationTime": [
         1.9,
@@ -175796,13 +175845,15 @@
       },
       "quickMoves": [
         "WATER_GUN_FAST",
-        "TACKLE_FAST"
+        "TACKLE_FAST",
+        "DRAGON_BREATH_FAST"
       ],
       "cinematicMoves": [
         "DRAGON_PULSE",
         "SLUDGE_WAVE",
         "MUDDY_WATER",
-        "WATER_PULSE"
+        "WATER_PULSE",
+        "BODY_SLAM"
       ],
       "animationTime": [
         1.9,
@@ -197465,7 +197516,8 @@
         "THUNDERBOLT",
         "HYPER_BEAM",
         "ROCK_SLIDE",
-        "SUPER_POWER"
+        "SUPER_POWER",
+        "DYNAMIC_PUNCH"
       ],
       "animationTime": [
         1.9,
@@ -197575,7 +197627,8 @@
         "THUNDERBOLT",
         "HYPER_BEAM",
         "ROCK_SLIDE",
-        "SUPER_POWER"
+        "SUPER_POWER",
+        "DYNAMIC_PUNCH"
       ],
       "animationTime": [
         1.9,
@@ -215493,7 +215546,8 @@
       },
       "quickMoves": [
         "WATER_GUN_FAST",
-        "WING_ATTACK_FAST"
+        "WING_ATTACK_FAST",
+        "LOW_KICK_FAST"
       ],
       "cinematicMoves": [
         "AQUA_JET",
@@ -215567,7 +215621,8 @@
       },
       "quickMoves": [
         "WATER_GUN_FAST",
-        "WING_ATTACK_FAST"
+        "WING_ATTACK_FAST",
+        "LOW_KICK_FAST"
       ],
       "cinematicMoves": [
         "AQUA_JET",

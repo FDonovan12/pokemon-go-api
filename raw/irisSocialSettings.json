@@ -4,7 +4,7 @@
     "data": {
       "maxNumPokemonPerPlayer": 3,
       "maxNumPokemonPerScene": 7,
-      "pokemonExpireAfterMs": "172800000",
+      "pokemonExpireAfterMs": "7200000",
       "bannedPokedexIds": [
         "WAILORD",
         "KYOGRE",
@@ -32,7 +32,6 @@
       "maxBoundaryAreaSqMeters": 400,
       "pushGatewayEnabled": true,
       "useBoundaryVerticesFromDataFlow": true,
-      "irisSocialEnabled": true,
       "maxTimeBgModeBeforeExpulsionMs": "15000",
       "maxDistanceAllowLocalizationMeters": "8111222333",
       "maxTimeNoActivityPlayerInactiveMs": "60000",
@@ -205,6 +204,7 @@
       "guidancePathNearbyFinishDistanceMeters": 1,
       "guidanceInCarThreshold": 0.8,
       "locationManagerJpegCompressionQuality": 50,
+      "minVpsScore": 0.4,
       "gameplayReportsActive": true,
       "enableSqcGuidance": true
     }
