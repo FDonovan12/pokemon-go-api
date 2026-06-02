@@ -15,7 +15,7 @@
       "creationLimitPerWindow": 15,
       "maxDistanceFromAnchorPotsM": 100,
       "maxDistanceWarningDistanceMeters": 500,
-      "maxRecordingSpeedMetersPerSecond": 1000,
+      "maxRecordingSpeedMetersPerSecond": 20,
       "moderationEnabled": true,
       "clientBreadcrumbSettings": {
         "sessionDurationM": 120,

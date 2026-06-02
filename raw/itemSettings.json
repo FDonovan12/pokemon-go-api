@@ -254,7 +254,9 @@
         "eventPassId": "EVENT_PASS_BLANCHE2026_EVENT"
       },
       "timePeriodCounters": {
-        "playerActivity": {}
+        "playerActivity": {
+          "limit": 500
+        }
       },
       "hideItemInInventory": true
     }
@@ -421,7 +423,9 @@
         "eventPassId": "EVENT_PASS_MAY2026_SEASON"
       },
       "timePeriodCounters": {
-        "playerActivity": {}
+        "playerActivity": {
+          "limit": 250
+        }
       },
       "hideItemInInventory": true
     }
@@ -1449,8 +1453,7 @@
       "category": "ITEM_CATEGORY_INCENSE",
       "dropTrainerLevel": 1,
       "incense": {
-        "incenseLifetimeSeconds": 3600,
-        "spawnTableProbability": 0.6
+        "incenseLifetimeSeconds": 3600
       }
     }
   },

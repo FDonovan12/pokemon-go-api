@@ -4155,6 +4155,102 @@
     }
   },
   {
+    "templateId": "STICKER_PGO_FEST_2026.3",
+    "data": {
+      "sku": "STICKER_PGO_FEST_2026.3",
+      "category": "IAP_CATEGORY_STICKER",
+      "sortOrder": 12
+    }
+  },
+  {
+    "templateId": "STICKER_PGO_FEST_2026.5",
+    "data": {
+      "sku": "STICKER_PGO_FEST_2026.5",
+      "category": "IAP_CATEGORY_STICKER",
+      "sortOrder": 11
+    }
+  },
+  {
+    "templateId": "STICKER_PGO_FEST_2026_1.3",
+    "data": {
+      "sku": "STICKER_PGO_FEST_2026_1.3",
+      "category": "IAP_CATEGORY_STICKER",
+      "sortOrder": 10
+    }
+  },
+  {
+    "templateId": "STICKER_PGO_FEST_2026_1.5",
+    "data": {
+      "sku": "STICKER_PGO_FEST_2026_1.5",
+      "category": "IAP_CATEGORY_STICKER",
+      "sortOrder": 9
+    }
+  },
+  {
+    "templateId": "STICKER_PGO_FEST_2026_2.3",
+    "data": {
+      "sku": "STICKER_PGO_FEST_2026_2.3",
+      "category": "IAP_CATEGORY_STICKER",
+      "sortOrder": 8
+    }
+  },
+  {
+    "templateId": "STICKER_PGO_FEST_2026_2.5",
+    "data": {
+      "sku": "STICKER_PGO_FEST_2026_2.5",
+      "category": "IAP_CATEGORY_STICKER",
+      "sortOrder": 7
+    }
+  },
+  {
+    "templateId": "STICKER_PGO_FEST_2026_3.3",
+    "data": {
+      "sku": "STICKER_PGO_FEST_2026_3.3",
+      "category": "IAP_CATEGORY_STICKER",
+      "sortOrder": 6
+    }
+  },
+  {
+    "templateId": "STICKER_PGO_FEST_2026_3.5",
+    "data": {
+      "sku": "STICKER_PGO_FEST_2026_3.5",
+      "category": "IAP_CATEGORY_STICKER",
+      "sortOrder": 5
+    }
+  },
+  {
+    "templateId": "STICKER_PGO_FEST_2026_4.3",
+    "data": {
+      "sku": "STICKER_PGO_FEST_2026_4.3",
+      "category": "IAP_CATEGORY_STICKER",
+      "sortOrder": 4
+    }
+  },
+  {
+    "templateId": "STICKER_PGO_FEST_2026_4.5",
+    "data": {
+      "sku": "STICKER_PGO_FEST_2026_4.5",
+      "category": "IAP_CATEGORY_STICKER",
+      "sortOrder": 3
+    }
+  },
+  {
+    "templateId": "STICKER_PGO_FEST_2026_LOGO.3",
+    "data": {
+      "sku": "STICKER_PGO_FEST_2026_LOGO.3",
+      "category": "IAP_CATEGORY_STICKER",
+      "sortOrder": 2
+    }
+  },
+  {
+    "templateId": "STICKER_PGO_FEST_2026_LOGO.5",
+    "data": {
+      "sku": "STICKER_PGO_FEST_2026_LOGO.5",
+      "category": "IAP_CATEGORY_STICKER",
+      "sortOrder": 1
+    }
+  },
+  {
     "templateId": "STICKER_PGO_FEST_VICTINI_05.3",
     "data": {
       "sku": "STICKER_PGO_FEST_VICTINI_05.3",
@@ -5111,7 +5207,7 @@
     "data": {
       "sku": "STICKER_SPRING_2026_1.3",
       "category": "IAP_CATEGORY_STICKER",
-      "sortOrder": 492
+      "sortOrder": 500
     }
   },
   {
@@ -5119,7 +5215,7 @@
     "data": {
       "sku": "STICKER_SPRING_2026_1.5",
       "category": "IAP_CATEGORY_STICKER",
-      "sortOrder": 491
+      "sortOrder": 499
     }
   },
   {
@@ -5127,7 +5223,7 @@
     "data": {
       "sku": "STICKER_SPRING_2026_2.3",
       "category": "IAP_CATEGORY_STICKER",
-      "sortOrder": 490
+      "sortOrder": 498
     }
   },
   {
@@ -5135,7 +5231,7 @@
     "data": {
       "sku": "STICKER_SPRING_2026_2.5",
       "category": "IAP_CATEGORY_STICKER",
-      "sortOrder": 489
+      "sortOrder": 497
     }
   },
   {
@@ -5143,7 +5239,7 @@
     "data": {
       "sku": "STICKER_SPRING_2026_3.3",
       "category": "IAP_CATEGORY_STICKER",
-      "sortOrder": 488
+      "sortOrder": 496
     }
   },
   {
@@ -5151,7 +5247,7 @@
     "data": {
       "sku": "STICKER_SPRING_2026_3.5",
       "category": "IAP_CATEGORY_STICKER",
-      "sortOrder": 487
+      "sortOrder": 495
     }
   },
   {
@@ -5159,7 +5255,7 @@
     "data": {
       "sku": "STICKER_SPRING_2026_4.3",
       "category": "IAP_CATEGORY_STICKER",
-      "sortOrder": 486
+      "sortOrder": 494
     }
   },
   {
@@ -5167,7 +5263,7 @@
     "data": {
       "sku": "STICKER_SPRING_2026_4.5",
       "category": "IAP_CATEGORY_STICKER",
-      "sortOrder": 485
+      "sortOrder": 493
     }
   },
   {
@@ -5656,6 +5752,70 @@
       "sku": "STICKER_SUMMER_2025_4.5",
       "category": "IAP_CATEGORY_STICKER",
       "sortOrder": 493
+    }
+  },
+  {
+    "templateId": "STICKER_SUMMER_2026_1.3",
+    "data": {
+      "sku": "STICKER_SUMMER_2026_1.3",
+      "category": "IAP_CATEGORY_STICKER",
+      "sortOrder": 480
+    }
+  },
+  {
+    "templateId": "STICKER_SUMMER_2026_1.5",
+    "data": {
+      "sku": "STICKER_SUMMER_2026_1.5",
+      "category": "IAP_CATEGORY_STICKER",
+      "sortOrder": 479
+    }
+  },
+  {
+    "templateId": "STICKER_SUMMER_2026_2.3",
+    "data": {
+      "sku": "STICKER_SUMMER_2026_2.3",
+      "category": "IAP_CATEGORY_STICKER",
+      "sortOrder": 478
+    }
+  },
+  {
+    "templateId": "STICKER_SUMMER_2026_2.5",
+    "data": {
+      "sku": "STICKER_SUMMER_2026_2.5",
+      "category": "IAP_CATEGORY_STICKER",
+      "sortOrder": 477
+    }
+  },
+  {
+    "templateId": "STICKER_SUMMER_2026_3.3",
+    "data": {
+      "sku": "STICKER_SUMMER_2026_3.3",
+      "category": "IAP_CATEGORY_STICKER",
+      "sortOrder": 476
+    }
+  },
+  {
+    "templateId": "STICKER_SUMMER_2026_3.5",
+    "data": {
+      "sku": "STICKER_SUMMER_2026_3.5",
+      "category": "IAP_CATEGORY_STICKER",
+      "sortOrder": 475
+    }
+  },
+  {
+    "templateId": "STICKER_SUMMER_2026_4.3",
+    "data": {
+      "sku": "STICKER_SUMMER_2026_4.3",
+      "category": "IAP_CATEGORY_STICKER",
+      "sortOrder": 474
+    }
+  },
+  {
+    "templateId": "STICKER_SUMMER_2026_4.5",
+    "data": {
+      "sku": "STICKER_SUMMER_2026_4.5",
+      "category": "IAP_CATEGORY_STICKER",
+      "sortOrder": 473
     }
   },
   {

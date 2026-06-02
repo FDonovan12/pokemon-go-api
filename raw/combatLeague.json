@@ -24825,7 +24825,7 @@
           "type": "WITH_UNIQUE_POKEMON"
         }
       ],
-      "iconUrl": "https://storage.googleapis.com/prod-public-images/pogo_great_league.png",
+      "iconUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2F58ea0c64_pogo_mega_great_league.png",
       "pokemonCount": 3,
       "bannedPokemon": [
         "DITTO",
@@ -30616,7 +30616,7 @@
           "type": "WITH_UNIQUE_POKEMON"
         }
       ],
-      "iconUrl": "https://storage.googleapis.com/prod-public-images/pogo_master_league.png",
+      "iconUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fe00ac85c_GblMasterLeague_icon.png",
       "pokemonCount": 3,
       "bannedPokemon": [
         "DITTO",
@@ -31353,7 +31353,7 @@
           "type": "WITH_UNIQUE_POKEMON"
         }
       ],
-      "iconUrl": "https://storage.googleapis.com/prod-public-images/pogo_ultra_league.png",
+      "iconUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2F34c7dd20_pogo_mega_ultra_league.png",
       "pokemonCount": 3,
       "bannedPokemon": [
         "DITTO",
