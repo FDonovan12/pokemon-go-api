@@ -1,5 +1,73 @@
 [
   {
+    "templateId": "EVENT_PASS_AMER2026_EVENT",
+    "data": {
+      "prefix": "EVENT_PASS_AMER2026_EVENT",
+      "pointsItemId": "ITEM_EVENT_PASS_POINT_LIVE_OPS_03",
+      "trackConditions": [
+        {
+          "track": "FREE",
+          "trackTitleKey": "season_pass_base_track_title_amer_2026"
+        },
+        {
+          "track": "PREMIUM",
+          "badge": "BADGE_EVENT_0197",
+          "trackTitleKey": "season_pass_premium_track_title_amer_2026"
+        }
+      ],
+      "expirationTime": "2026-06-08T20:00:00",
+      "maxTierLevel": 60,
+      "additionalBonusTiersLevel": 31,
+      "eventPassDisplaySettings": {
+        "bonusBoxes": [
+          {
+            "text": "quest_catch_pokemon_singular",
+            "iconType": "SPAWN_UNKNOWN",
+            "quantity": 5
+          },
+          {
+            "text": "quest_hatch_egg_singular",
+            "iconType": "EGG",
+            "quantity": 40
+          },
+          {
+            "text": "quest_win_raid_singular",
+            "iconType": "RAID",
+            "quantity": 100
+          }
+        ],
+        "eventPassTrackUpgradeDescriptions": [
+          {
+            "passTrackUpgradeHeaderDescription": "season_pass_amer_2026_track_upgrade_header_description",
+            "eventPassTrackToUpgradeTo": "PREMIUM",
+            "trackUnlockSkuId": "pgorelease.june1_2026_deluxe_event_pass_track_unlock",
+            "trackUnlockPlusPointsSkuId": "pgorelease.june1_2026_deluxe_event_pass_track_unlock_plus_points",
+            "eventDurationKey": "season_pass_amer_2026_event_duration",
+            "upgradeDescriptionKey": "season_pass_amer_2026_upgrade_description",
+            "ranksToHighlightRewards": [
+              7,
+              25,
+              30
+            ],
+            "detailsLinkKey": "season_pass_details_link_amer_2026",
+            "trackUnlockImageUrl": "https://storage.googleapis.com/prod-public-images/ic_eventpass_deluxe.png",
+            "trackUnlockPlusPointsImageUrl": "https://storage.googleapis.com/prod-public-images/ic_eventpass_deluxe_plus.png"
+          }
+        ],
+        "eventPassTitleKey": "season_pass_base_track_title_amer_2026",
+        "headerIconUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fd99f7e15_Logo_256x256.png",
+        "premiumRewardBannerTop": "event_pass_premium_reward_banner_top_text",
+        "premiumRewardBannerMiddle": "item_amer2026_milestone_name",
+        "premiumRewardBannerBottom": "event_pass_premium_reward_banner_bottom_text_bugoutbuddies2026",
+        "premiumRewardBannerImageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FS22_MemoriesInMotion_Logo.png",
+        "premiumRewardsDescription": "season_pass_premium_rewards_desc_monthly_no_disclaimer",
+        "todayViewSection": "SEASONAL_EVENT_PASS_SECTION",
+        "sectionDisplayPriority": 51
+      },
+      "gracePeriodEndTime": "2026-06-10T20:00:00"
+    }
+  },
+  {
     "templateId": "EVENT_PASS_BLANCHE2026_EVENT",
     "data": {
       "prefix": "EVENT_PASS_BLANCHE2026_EVENT",
@@ -61,6 +129,74 @@
         "sectionDisplayPriority": 50
       },
       "gracePeriodEndTime": "2026-06-03T20:00:00"
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_JUNE2026_SEASON",
+    "data": {
+      "prefix": "EVENT_PASS_JUNE2026_SEASON",
+      "pointsItemId": "ITEM_EVENT_PASS_POINT_MONTHLY_01",
+      "trackConditions": [
+        {
+          "track": "FREE",
+          "trackTitleKey": "season_pass_base_track_title_june"
+        },
+        {
+          "track": "PREMIUM",
+          "badge": "BADGE_EVENT_0190",
+          "trackTitleKey": "season_pass_premium_track_title_june"
+        }
+      ],
+      "expirationTime": "2026-07-07T10:00:00",
+      "maxTierLevel": 200,
+      "additionalBonusTiersLevel": 101,
+      "eventPassDisplaySettings": {
+        "bonusBoxes": [
+          {
+            "text": "quest_catch_pokemon_singular",
+            "iconType": "SPAWN_UNKNOWN",
+            "quantity": 5
+          },
+          {
+            "text": "quest_hatch_egg_singular",
+            "iconType": "EGG",
+            "quantity": 40
+          },
+          {
+            "text": "quest_win_raid_singular",
+            "iconType": "RAID",
+            "quantity": 100
+          }
+        ],
+        "eventPassTrackUpgradeDescriptions": [
+          {
+            "passTrackUpgradeHeaderDescription": "season_pass_june2026_track_upgrade_header_description",
+            "eventPassTrackToUpgradeTo": "PREMIUM",
+            "trackUnlockSkuId": "pgorelease.month1_deluxe_event_pass_track_unlock",
+            "trackUnlockPlusPointsSkuId": "pgorelease.month1_deluxe_event_pass_track_unlock_plus_points",
+            "eventDurationKey": "season_pass_june2026_event_duration",
+            "upgradeDescriptionKey": "season_pass_june2026_upgrade_description",
+            "ranksToHighlightRewards": [
+              20,
+              82,
+              99
+            ],
+            "detailsLinkKey": "season_pass_details_link_june2026",
+            "trackUnlockImageUrl": "https://storage.googleapis.com/prod-public-images/ic_eventpass_deluxe.png",
+            "trackUnlockPlusPointsImageUrl": "https://storage.googleapis.com/prod-public-images/ic_eventpass_deluxe_plus.png"
+          }
+        ],
+        "eventPassTitleKey": "season_pass_base_track_title_june",
+        "headerIconUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fd99f7e15_Logo_256x256.png",
+        "premiumRewardBannerTop": "event_pass_premium_reward_banner_top_text",
+        "premiumRewardBannerMiddle": "item_incubator_timed_name",
+        "premiumRewardBannerBottom": "event_pass_premium_reward_banner_bottom_text_timed_incubator",
+        "premiumRewardBannerImageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets/Incubator_green128x128.png",
+        "premiumRewardsDescription": "season_pass_premium_rewards_desc_monthly_no_disclaimer",
+        "todayViewSection": "SEASONAL_EVENT_PASS_SECTION",
+        "sectionDisplayPriority": 12
+      },
+      "gracePeriodEndTime": "2026-07-09T10:00:00"
     }
   },
   {
