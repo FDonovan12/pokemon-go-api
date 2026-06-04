@@ -14584,6 +14584,56 @@
     }
   },
   {
+    "templateId": "COMBAT_LEAGUE_VS_SEEKER_GREAT_CHAMPIONSHIPS_LEGACY",
+    "data": {
+      "title": "combat_great_league_championships_legacy",
+      "enabled": true,
+      "unlockCondition": [
+        {
+          "type": "WITH_UNIQUE_POKEMON",
+          "minPokemonCount": 3
+        }
+      ],
+      "pokemonCondition": [
+        {
+          "type": "WITH_POKEMON_CP_LIMIT",
+          "withPokemonCpLimit": {
+            "maxCp": 1500
+          }
+        },
+        {
+          "type": "WITH_UNIQUE_POKEMON"
+        }
+      ],
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/pogo_great_league.png",
+      "pokemonCount": 3,
+      "bannedPokemon": [
+        "DITTO",
+        "SHEDINJA",
+        "XERNEAS",
+        "YVELTAL",
+        "COBALION",
+        "TERRAKION",
+        "VIRIZION",
+        "RESHIRAM",
+        "ZEKROM",
+        "KYUREM",
+        "TAPU_KOKO",
+        "TAPU_LELE",
+        "TAPU_BULU",
+        "SOLGALEO",
+        "LUNALA",
+        "ZACIAN",
+        "ZAMAZENTA",
+        "ENAMORUS",
+        "MIMIKYU"
+      ],
+      "badgeType": "BADGE_GREAT_LEAGUE",
+      "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
+      "leagueType": "STANDARD"
+    }
+  },
+  {
     "templateId": "COMBAT_LEAGUE_VS_SEEKER_GREAT_CHAMPIONSHIP_NAIC",
     "data": {
       "title": "great_league_championship_series_2026",

@@ -9,8 +9,7 @@
               "pokemonId": "PIKACHU",
               "pokemonDisplay": {
                 "form": "PIKACHU_VS_2019"
-              },
-              "shinyProbability": 0.05
+              }
             },
             "identifier": "seasonalLibre",
             "perCompetitiveCombatSeasonMaxCount": 1
@@ -38,12 +37,12 @@
         {
           "guaranteedLimitedPokemonReward": {
             "pokemon": {
-              "pokemonId": "PIDGEOT",
+              "pokemonId": "GABITE",
               "pokemonDisplay": {
-                "form": "PIDGEOT_NORMAL"
+                "form": "GABITE_NORMAL"
               }
             },
-            "identifier": "season29_pidgeot",
+            "identifier": "season30_gabite",
             "lifetimeMaxCount": 1
           },
           "unlockedAtRank": 1,
@@ -67,17 +66,13 @@
           }
         },
         {
-          "guaranteedLimitedPokemonReward": {
-            "pokemon": {
-              "pokemonId": "PANCHAM",
-              "pokemonDisplay": {
-                "form": "PANCHAM_NORMAL"
-              }
-            },
-            "identifier": "season29_pancham",
-            "lifetimeMaxCount": 1
+          "pokemon": {
+            "pokemonId": "DRATINI",
+            "pokemonDisplay": {
+              "form": "DRATINI_NORMAL"
+            }
           },
-          "unlockedAtRank": 6,
+          "unlockedAtRank": 21,
           "attackIvOverride": {
             "range": {
               "min": 10,
@@ -100,12 +95,12 @@
         {
           "guaranteedLimitedPokemonReward": {
             "pokemon": {
-              "pokemonId": "TOGETIC",
+              "pokemonId": "LUCARIO",
               "pokemonDisplay": {
-                "form": "TOGETIC_NORMAL"
+                "form": "LUCARIO_NORMAL"
               }
             },
-            "identifier": "season29_togetic",
+            "identifier": "season30_lucario",
             "lifetimeMaxCount": 1
           },
           "unlockedAtRank": 21,
@@ -136,7 +131,7 @@
                 "form": "HONEDGE_NORMAL"
               }
             },
-            "identifier": "season29_honedge",
+            "identifier": "season30_honedge",
             "lifetimeMaxCount": 1
           },
           "unlockedAtRank": 22,
@@ -167,7 +162,7 @@
                 "form": "DREEPY_NORMAL"
               }
             },
-            "identifier": "season29_dreepy",
+            "identifier": "season30_dreepy",
             "lifetimeMaxCount": 1
           },
           "unlockedAtRank": 23,
@@ -192,9 +187,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "PINECO",
+            "pokemonId": "SWABLU",
             "pokemonDisplay": {
-              "form": "PINECO_NORMAL"
+              "form": "SWABLU_NORMAL"
             }
           },
           "unlockedAtRank": 1,
@@ -246,9 +241,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "TOTODILE",
+            "pokemonId": "MANKEY",
             "pokemonDisplay": {
-              "form": "TOTODILE_NORMAL"
+              "form": "MANKEY_NORMAL"
             }
           },
           "unlockedAtRank": 1,
@@ -273,9 +268,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "DUSKULL",
+            "pokemonId": "INKAY",
             "pokemonDisplay": {
-              "form": "DUSKULL_NORMAL"
+              "form": "INKAY_NORMAL"
             }
           },
           "unlockedAtRank": 1,
@@ -300,9 +295,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "ROOKIDEE",
+            "pokemonId": "LICKITUNG",
             "pokemonDisplay": {
-              "form": "ROOKIDEE_NORMAL"
+              "form": "LICKITUNG_NORMAL"
             }
           },
           "unlockedAtRank": 1,
@@ -354,9 +349,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "FURRET",
+            "pokemonId": "VULPIX",
             "pokemonDisplay": {
-              "form": "FURRET_NORMAL"
+              "form": "VULPIX_ALOLA"
             }
           },
           "unlockedAtRank": 6,
@@ -381,9 +376,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "MORPEKO",
+            "pokemonId": "FRILLISH",
             "pokemonDisplay": {
-              "form": "MORPEKO_FULL_BELLY"
+              "form": "FRILLISH_NORMAL"
             }
           },
           "unlockedAtRank": 11,
@@ -435,9 +430,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "LAPRAS",
+            "pokemonId": "GIBLE",
             "pokemonDisplay": {
-              "form": "LAPRAS_NORMAL"
+              "form": "GIBLE_NORMAL"
             }
           },
           "unlockedAtRank": 11,
@@ -462,9 +457,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "BELDUM",
+            "pokemonId": "STUNFISK",
             "pokemonDisplay": {
-              "form": "BELDUM_NORMAL"
+              "form": "STUNFISK_GALARIAN"
             }
           },
           "unlockedAtRank": 11,
@@ -570,12 +565,39 @@
         },
         {
           "pokemon": {
-            "pokemonId": "JANGMO_O",
+            "pokemonId": "MORPEKO",
             "pokemonDisplay": {
-              "form": "JANGMO_O_NORMAL"
+              "form": "MORPEKO_FULL_BELLY"
             }
           },
-          "unlockedAtRank": 21,
+          "unlockedAtRank": 16,
+          "attackIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          },
+          "defenseIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          },
+          "staminaIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          }
+        },
+        {
+          "pokemon": {
+            "pokemonId": "GOOMY",
+            "pokemonDisplay": {
+              "form": "GOOMY_NORMAL"
+            }
+          },
+          "unlockedAtRank": 22,
           "attackIvOverride": {
             "range": {
               "min": 10,
@@ -602,33 +624,6 @@
               "form": "FRIGIBAX_NORMAL"
             }
           },
-          "unlockedAtRank": 22,
-          "attackIvOverride": {
-            "range": {
-              "min": 10,
-              "max": 15
-            }
-          },
-          "defenseIvOverride": {
-            "range": {
-              "min": 10,
-              "max": 15
-            }
-          },
-          "staminaIvOverride": {
-            "range": {
-              "min": 10,
-              "max": 15
-            }
-          }
-        },
-        {
-          "pokemon": {
-            "pokemonId": "DREEPY",
-            "pokemonDisplay": {
-              "form": "DREEPY_NORMAL"
-            }
-          },
           "unlockedAtRank": 23,
           "attackIvOverride": {
             "range": {
@@ -651,9 +646,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "TAPU_FINI",
+            "pokemonId": "RESHIRAM",
             "pokemonDisplay": {
-              "form": "TAPU_FINI_NORMAL"
+              "form": "RESHIRAM_NORMAL"
             }
           },
           "unlockedAtRank": 20,
@@ -689,8 +684,7 @@
               "pokemonId": "PIKACHU",
               "pokemonDisplay": {
                 "form": "PIKACHU_VS_2019"
-              },
-              "shinyProbability": 0.05
+              }
             },
             "identifier": "seasonalLibre",
             "perCompetitiveCombatSeasonMaxCount": 1
@@ -718,12 +712,12 @@
         {
           "guaranteedLimitedPokemonReward": {
             "pokemon": {
-              "pokemonId": "PIDGEOT",
+              "pokemonId": "GABITE",
               "pokemonDisplay": {
-                "form": "PIDGEOT_NORMAL"
+                "form": "GABITE_NORMAL"
               }
             },
-            "identifier": "season29_pidgeot",
+            "identifier": "season30_gabite",
             "lifetimeMaxCount": 1
           },
           "unlockedAtRank": 1,
@@ -747,17 +741,13 @@
           }
         },
         {
-          "guaranteedLimitedPokemonReward": {
-            "pokemon": {
-              "pokemonId": "PANCHAM",
-              "pokemonDisplay": {
-                "form": "PANCHAM_NORMAL"
-              }
-            },
-            "identifier": "season29_pancham",
-            "lifetimeMaxCount": 1
+          "pokemon": {
+            "pokemonId": "DRATINI",
+            "pokemonDisplay": {
+              "form": "DRATINI_NORMAL"
+            }
           },
-          "unlockedAtRank": 6,
+          "unlockedAtRank": 21,
           "attackIvOverride": {
             "range": {
               "min": 10,
@@ -780,12 +770,12 @@
         {
           "guaranteedLimitedPokemonReward": {
             "pokemon": {
-              "pokemonId": "TOGETIC",
+              "pokemonId": "LUCARIO",
               "pokemonDisplay": {
-                "form": "TOGETIC_NORMAL"
+                "form": "LUCARIO_NORMAL"
               }
             },
-            "identifier": "season29_togetic",
+            "identifier": "season30_lucario",
             "lifetimeMaxCount": 1
           },
           "unlockedAtRank": 21,
@@ -816,7 +806,7 @@
                 "form": "HONEDGE_NORMAL"
               }
             },
-            "identifier": "season29_honedge",
+            "identifier": "season30_honedge",
             "lifetimeMaxCount": 1
           },
           "unlockedAtRank": 22,
@@ -847,7 +837,7 @@
                 "form": "DREEPY_NORMAL"
               }
             },
-            "identifier": "season29_dreepy",
+            "identifier": "season30_dreepy",
             "lifetimeMaxCount": 1
           },
           "unlockedAtRank": 23,
@@ -872,9 +862,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "PINECO",
+            "pokemonId": "SWABLU",
             "pokemonDisplay": {
-              "form": "PINECO_NORMAL"
+              "form": "SWABLU_NORMAL"
             }
           },
           "unlockedAtRank": 1,
@@ -926,9 +916,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "TOTODILE",
+            "pokemonId": "MANKEY",
             "pokemonDisplay": {
-              "form": "TOTODILE_NORMAL"
+              "form": "MANKEY_NORMAL"
             }
           },
           "unlockedAtRank": 1,
@@ -953,9 +943,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "DUSKULL",
+            "pokemonId": "INKAY",
             "pokemonDisplay": {
-              "form": "DUSKULL_NORMAL"
+              "form": "INKAY_NORMAL"
             }
           },
           "unlockedAtRank": 1,
@@ -980,9 +970,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "ROOKIDEE",
+            "pokemonId": "LICKITUNG",
             "pokemonDisplay": {
-              "form": "ROOKIDEE_NORMAL"
+              "form": "LICKITUNG_NORMAL"
             }
           },
           "unlockedAtRank": 1,
@@ -1034,9 +1024,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "FURRET",
+            "pokemonId": "VULPIX",
             "pokemonDisplay": {
-              "form": "FURRET_NORMAL"
+              "form": "VULPIX_ALOLA"
             }
           },
           "unlockedAtRank": 6,
@@ -1061,9 +1051,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "MORPEKO",
+            "pokemonId": "FRILLISH",
             "pokemonDisplay": {
-              "form": "MORPEKO_FULL_BELLY"
+              "form": "FRILLISH_NORMAL"
             }
           },
           "unlockedAtRank": 11,
@@ -1115,9 +1105,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "LAPRAS",
+            "pokemonId": "GIBLE",
             "pokemonDisplay": {
-              "form": "LAPRAS_NORMAL"
+              "form": "GIBLE_NORMAL"
             }
           },
           "unlockedAtRank": 11,
@@ -1142,9 +1132,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "BELDUM",
+            "pokemonId": "STUNFISK",
             "pokemonDisplay": {
-              "form": "BELDUM_NORMAL"
+              "form": "STUNFISK_GALARIAN"
             }
           },
           "unlockedAtRank": 11,
@@ -1250,12 +1240,39 @@
         },
         {
           "pokemon": {
-            "pokemonId": "JANGMO_O",
+            "pokemonId": "MORPEKO",
             "pokemonDisplay": {
-              "form": "JANGMO_O_NORMAL"
+              "form": "MORPEKO_FULL_BELLY"
             }
           },
-          "unlockedAtRank": 21,
+          "unlockedAtRank": 16,
+          "attackIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          },
+          "defenseIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          },
+          "staminaIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          }
+        },
+        {
+          "pokemon": {
+            "pokemonId": "GOOMY",
+            "pokemonDisplay": {
+              "form": "GOOMY_NORMAL"
+            }
+          },
+          "unlockedAtRank": 22,
           "attackIvOverride": {
             "range": {
               "min": 10,
@@ -1282,33 +1299,6 @@
               "form": "FRIGIBAX_NORMAL"
             }
           },
-          "unlockedAtRank": 22,
-          "attackIvOverride": {
-            "range": {
-              "min": 10,
-              "max": 15
-            }
-          },
-          "defenseIvOverride": {
-            "range": {
-              "min": 10,
-              "max": 15
-            }
-          },
-          "staminaIvOverride": {
-            "range": {
-              "min": 10,
-              "max": 15
-            }
-          }
-        },
-        {
-          "pokemon": {
-            "pokemonId": "DREEPY",
-            "pokemonDisplay": {
-              "form": "DREEPY_NORMAL"
-            }
-          },
           "unlockedAtRank": 23,
           "attackIvOverride": {
             "range": {
@@ -1331,9 +1321,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "TAPU_FINI",
+            "pokemonId": "RESHIRAM",
             "pokemonDisplay": {
-              "form": "TAPU_FINI_NORMAL"
+              "form": "RESHIRAM_NORMAL"
             }
           },
           "unlockedAtRank": 20,

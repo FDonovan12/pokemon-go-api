@@ -1,4 +1,13 @@
 {
+  "590": {
+    "id": "V0590_MOVE_GLAIVE_RUSH",
+    "movementId": 590,
+    "pokemonType": "POKEMON_TYPE_DRAGON",
+    "power": 105,
+    "durationMs": 2000,
+    "energyDelta": -50,
+    "vfxName": "glaive_rush"
+  },
   "WRAP": {
     "id": "V0013_MOVE_WRAP",
     "movementId": "WRAP",

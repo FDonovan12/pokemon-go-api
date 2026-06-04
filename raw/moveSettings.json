@@ -5917,6 +5917,24 @@
     }
   },
   {
+    "templateId": "V0590_MOVE_GLAIVE_RUSH",
+    "data": {
+      "movementId": 590,
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_DRAGON",
+      "power": 105,
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "glaive_rush",
+      "durationMs": 2000,
+      "damageWindowStartMs": 1700,
+      "damageWindowEndMs": 1900,
+      "energyDelta": -50
+    }
+  },
+  {
     "templateId": "VN_BM_001",
     "data": {
       "movementId": "VN_BM_001",

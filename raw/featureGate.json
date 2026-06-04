@@ -124,6 +124,13 @@
     }
   },
   {
+    "templateId": "SEAF_GET_MAP_OBJECTS_RATE_LIMITER_FEATURE_GATE",
+    "data": {
+      "status": 1,
+      "rolloutPercentage": 100
+    }
+  },
+  {
     "templateId": "STORE_REFRESH_FEATURE_GATE",
     "data": {
       "status": 87970808,

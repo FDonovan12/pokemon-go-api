@@ -1602,6 +1602,20 @@
     }
   },
   {
+    "templateId": "sequence_glaive_rush",
+    "data": {
+      "sequence": [
+        "anim attacker atk-move",
+        "wait 0.5",
+        "vfx glaive_rush",
+        "sfx attacker 413-0_brave_bird",
+        "wait 1.0",
+        "sys ui-sync",
+        "sys complete"
+      ]
+    }
+  },
+  {
     "templateId": "sequence_grass_knot",
     "data": {
       "sequence": [

@@ -3629,5 +3629,19 @@
       "vfxName": "plasma_fists",
       "energyDelta": -35
     }
+  },
+  {
+    "templateId": "COMBAT_V0590_MOVE_GLAIVE_RUSH",
+    "data": {
+      "uniqueId": 590,
+      "type": "POKEMON_TYPE_DRAGON",
+      "power": 90,
+      "vfxName": "glaive_rush",
+      "energyDelta": -40,
+      "buffs": {
+        "attackerDefenseStatStageChange": -1,
+        "buffActivationChance": 1
+      }
+    }
   }
 ]
