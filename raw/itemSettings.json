@@ -273,9 +273,7 @@
         "eventPassId": "EVENT_PASS_AMER2026_EVENT"
       },
       "timePeriodCounters": {
-        "playerActivity": {
-          "limit": 500
-        }
+        "playerActivity": {}
       },
       "hideItemInInventory": true
     }
@@ -1129,6 +1127,76 @@
       },
       "ignoreInventorySpace": true,
       "descriptionOverride": "item_event_ticket_evergreen_desc_PawPrint_20250620"
+    }
+  },
+  {
+    "templateId": "ITEM_EVENT_TICKET_S23_2026_01",
+    "data": {
+      "itemId": 2205,
+      "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
+      "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
+      "globalEventTicket": {
+        "eventStartTime": "2026-06-20T14:00:00",
+        "eventEndTime": "2026-06-20T17:00:00",
+        "itemBagDescriptionKey": "item_event_ticket_pink_desc_CD_Frigibax26",
+        "giftable": true,
+        "giftItem": 2237,
+        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO_MCS_CD_KeyArt_Frigibax_v1-1024x576-nologo.jpg",
+        "displayV2Enabled": true,
+        "backgroundImageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO_MCS_CD_KeyArt_Frigibax_v1-1024x576-nologo.jpg",
+        "eventDatetimeRangeKey": "event_datetime_range_key_CD_Frigibax26",
+        "textRewardsKey": "text_rewards_key_CD_Frigibax26",
+        "iconRewards": [
+          {
+            "type": "POKEMON_ENCOUNTER",
+            "pokemonEncounter": {
+              "pokemonId": "BAXCALIBUR",
+              "pokemonDisplay": {
+                "form": "BAXCALIBUR_NORMAL"
+              }
+            }
+          },
+          {
+            "type": "ITEM",
+            "item": {
+              "item": "ITEM_STAR_PIECE",
+              "amount": 1
+            }
+          },
+          {
+            "type": "ITEM",
+            "item": {
+              "item": "ITEM_XL_RARE_CANDY",
+              "amount": 1
+            }
+          }
+        ],
+        "detailsLinkKey": "details_link_key",
+        "clientEventStartTimeUtcMs": "1781964000000",
+        "clientEventEndTimeUtcMs": "1781974800000"
+      },
+      "nameOverride": "general1.ticket_CD_Frigibax26_title",
+      "descriptionOverride": "item_event_ticket_pink_details_CD_Frigibax26"
+    }
+  },
+  {
+    "templateId": "ITEM_EVENT_TICKET_S23_2026_01_TO_GIFT",
+    "data": {
+      "itemId": 2237,
+      "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
+      "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
+      "globalEventTicket": {
+        "eventStartTime": "2026-06-20T14:00:00",
+        "eventEndTime": "2026-06-20T17:00:00",
+        "itemBagDescriptionKey": "item_event_ticket_pink_desc_CD_Frigibax26",
+        "ticketItem": 2205,
+        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO_MCS_CD_KeyArt_Frigibax_v1-1024x576-nologo.jpg",
+        "clientEventStartTimeUtcMs": "1781964000000",
+        "clientEventEndTimeUtcMs": "1781974800000"
+      },
+      "ignoreInventorySpace": true,
+      "nameOverride": "general1.ticket_CD_Frigibax26_title",
+      "descriptionOverride": "item_event_ticket_pink_details_CD_Frigibax26"
     }
   },
   {

@@ -11781,6 +11781,23 @@
     }
   },
   {
+    "templateId": "general2.ticket.3",
+    "data": {
+      "sku": "pgorelease.general2.ticket.3",
+      "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
+      "sortOrder": 2,
+      "hidden": true,
+      "spriteId": "general1.ticket.2",
+      "title": "general1.ticket_CD_Frigibax26_title",
+      "skuEnableTime": "2019-03-14T08:00:00",
+      "skuDisableTime": "2026-06-20T17:00:00",
+      "skuEnableTimeUtcMs": "1552550400000",
+      "skuDisableTimeUtcMs": "1781974800000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO_MCS_CD_KeyArt_Frigibax_v1-1024x576-nologo.jpg",
+      "useEnvironmentPrefix": true
+    }
+  },
+  {
     "templateId": "general2.ticket.4",
     "data": {
       "sku": "general2.ticket.4",
