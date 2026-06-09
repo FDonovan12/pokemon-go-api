@@ -230,14 +230,14 @@
     "templateId": "EVENT_PASS_JUNE2_EVENT_STORE_REDIRECT",
     "data": {
       "sku": "pgorelease.june2_2026_deluxe_event_pass_track_redirect",
+      "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 1,
-      "hidden": true,
       "title": "season_pass_premium_track_title_emea_2026",
       "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
       "skuEnableTime": "2025-06-09T10:00:00",
-      "skuDisableTime": "2025-06-17T20:00:00",
+      "skuDisableTime": "2026-06-17T20:00:00",
       "skuEnableTimeUtcMs": "1749463200000",
-      "skuDisableTimeUtcMs": "1750190400000",
+      "skuDisableTimeUtcMs": "1781726400000",
       "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2F1e924512_PGO-MCS_GO_Fest_2026_EMEA_Global_LiveOp_v3-1024x576.jpg"
     }
   },
@@ -639,13 +639,12 @@
     "data": {
       "sku": "pgorelease.june2_2026_deluxe_event_pass_track_unlock",
       "sortOrder": 1,
-      "hidden": true,
       "title": "season_pass_premium_track_title_emea_2026",
       "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
       "skuEnableTime": "2025-06-09T10:00:00",
-      "skuDisableTime": "2025-06-17T20:00:00",
+      "skuDisableTime": "2026-06-17T20:00:00",
       "skuEnableTimeUtcMs": "1749463200000",
-      "skuDisableTimeUtcMs": "1750190400000",
+      "skuDisableTimeUtcMs": "1781726400000",
       "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2F1e924512_PGO-MCS_GO_Fest_2026_EMEA_Global_LiveOp_v3-1024x576.jpg"
     }
   },
@@ -654,13 +653,12 @@
     "data": {
       "sku": "pgorelease.june2_2026_deluxe_event_pass_track_unlock_plus_points",
       "sortOrder": 1,
-      "hidden": true,
       "title": "season_pass_premium_track_plus_six_ranks_title_emea_2026",
       "description": "event_pass_plus_points_6_ranks_description",
       "skuEnableTime": "2025-06-09T10:00:00",
-      "skuDisableTime": "2025-06-17T10:00:00",
+      "skuDisableTime": "2026-06-17T20:00:00",
       "skuEnableTimeUtcMs": "1749463200000",
-      "skuDisableTimeUtcMs": "1750154400000",
+      "skuDisableTimeUtcMs": "1781726400000",
       "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2F1e924512_PGO-MCS_GO_Fest_2026_EMEA_Global_LiveOp_v3-1024x576.jpg"
     }
   },
@@ -13352,6 +13350,34 @@
       "skuEnableTimeUtcMs": "1748858400000",
       "skuDisableTimeUtcMs": "1781121600000",
       "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fe3025fe6_PGO-MCS_GO_Fest_2026_AMER_Global_LiveOp_v2-1024x576.jpg"
+    }
+  },
+  {
+    "templateId": "pgorelease.june2_2026_deluxe_event_pass_track_unlock",
+    "data": {
+      "sku": "pgorelease.june2_2026_deluxe_event_pass_track_unlock",
+      "sortOrder": 1,
+      "title": "season_pass_premium_track_title_emea_2026",
+      "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
+      "skuEnableTime": "2025-06-09T10:00:00",
+      "skuDisableTime": "2026-06-17T20:00:00",
+      "skuEnableTimeUtcMs": "1749463200000",
+      "skuDisableTimeUtcMs": "1781726400000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2F1e924512_PGO-MCS_GO_Fest_2026_EMEA_Global_LiveOp_v3-1024x576.jpg"
+    }
+  },
+  {
+    "templateId": "pgorelease.june2_2026_deluxe_event_pass_track_unlock_plus_points",
+    "data": {
+      "sku": "pgorelease.june2_2026_deluxe_event_pass_track_unlock_plus_points",
+      "sortOrder": 1,
+      "title": "season_pass_premium_track_plus_six_ranks_title_emea_2026",
+      "description": "event_pass_plus_points_6_ranks_description",
+      "skuEnableTime": "2025-06-09T10:00:00",
+      "skuDisableTime": "2026-06-17T20:00:00",
+      "skuEnableTimeUtcMs": "1749463200000",
+      "skuDisableTimeUtcMs": "1781726400000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2F1e924512_PGO-MCS_GO_Fest_2026_EMEA_Global_LiveOp_v3-1024x576.jpg"
     }
   },
   {

@@ -3,7 +3,7 @@
     "templateId": "CONTEST_SETTINGS",
     "data": {
       "isFeatureEnabled": true,
-      "playerContestMaxEntries": 3,
+      "playerContestMaxEntries": 5,
       "contestLimits": [
         {
           "contestMetric": {
@@ -62,10 +62,8 @@
       "isFriendsDisplayEnabled": true,
       "isV2FeatureEnabled": true,
       "isAnticheatRemovalEnabled": true,
-      "isNormalizedScoreToSpecies": true,
       "isV2FocusesEnabled": true,
-      "isContestInNearbyMenu": true,
-      "isPokemonScalarEnabled": true
+      "isContestInNearbyMenu": true
     }
   }
 ]

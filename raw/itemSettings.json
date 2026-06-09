@@ -273,7 +273,9 @@
         "eventPassId": "EVENT_PASS_AMER2026_EVENT"
       },
       "timePeriodCounters": {
-        "playerActivity": {}
+        "playerActivity": {
+          "limit": 500
+        }
       },
       "hideItemInInventory": true
     }
@@ -310,7 +312,7 @@
       },
       "timePeriodCounters": {
         "playerActivity": {
-          "limit": 300
+          "limit": 500
         }
       },
       "hideItemInInventory": true
@@ -1548,7 +1550,7 @@
       "eggIncubator": {
         "incubatorType": "INCUBATOR_DISTANCE",
         "uses": 3,
-        "distanceMultiplier": 0.5
+        "distanceMultiplier": 1
       }
     }
   },
@@ -1561,7 +1563,7 @@
       "dropTrainerLevel": 100,
       "eggIncubator": {
         "incubatorType": "INCUBATOR_DISTANCE",
-        "distanceMultiplier": 0.5
+        "distanceMultiplier": 1
       }
     }
   },
@@ -1590,7 +1592,7 @@
       "eggIncubator": {
         "incubatorType": "INCUBATOR_DISTANCE",
         "uses": 3,
-        "distanceMultiplier": 0.33333334
+        "distanceMultiplier": 0.6666667
       }
     }
   },
@@ -1603,7 +1605,7 @@
       "dropTrainerLevel": 100,
       "eggIncubator": {
         "incubatorType": "INCUBATOR_DISTANCE",
-        "distanceMultiplier": 0.5,
+        "distanceMultiplier": 1,
         "expiredIncubatorReplacement": {
           "incubatorReplacement": "ITEM_INCUBATOR_BASIC",
           "usesCountOverride": 1

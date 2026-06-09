@@ -104,7 +104,8 @@
       "buddyWalkedMegaEnergyAward": 15,
       "raidBossDistanceOffset": 3.15,
       "allowNoevolveEvolution": [
-        "JAN_2020_NOEVOLVE"
+        "JAN_2020_NOEVOLVE",
+        "SPRING_2020_NOEVOLVE"
       ],
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -313,7 +314,8 @@
       "buddyWalkedMegaEnergyAward": 15,
       "raidBossDistanceOffset": 3.15,
       "allowNoevolveEvolution": [
-        "JAN_2020_NOEVOLVE"
+        "JAN_2020_NOEVOLVE",
+        "SPRING_2020_NOEVOLVE"
       ],
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -428,7 +430,8 @@
       "buddyGroupNumber": 3,
       "buddyWalkedMegaEnergyAward": 15,
       "allowNoevolveEvolution": [
-        "JAN_2020_NOEVOLVE"
+        "JAN_2020_NOEVOLVE",
+        "SPRING_2020_NOEVOLVE"
       ],
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -544,7 +547,8 @@
       "buddyGroupNumber": 3,
       "buddyWalkedMegaEnergyAward": 15,
       "allowNoevolveEvolution": [
-        "JAN_2020_NOEVOLVE"
+        "JAN_2020_NOEVOLVE",
+        "SPRING_2020_NOEVOLVE"
       ],
       "ibfc": {},
       "breadTierGroup": "GROUP_1"

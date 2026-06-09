@@ -68,6 +68,70 @@
     }
   },
   {
+    "templateId": "EVENT_PASS_EMEA2026_EVENT",
+    "data": {
+      "prefix": "EVENT_PASS_EMEA2026_EVENT",
+      "pointsItemId": "ITEM_EVENT_PASS_POINT_LIVE_OPS_05",
+      "trackConditions": [
+        {
+          "track": "FREE",
+          "trackTitleKey": "season_pass_base_track_title_emea_2026"
+        },
+        {
+          "track": "PREMIUM",
+          "badge": "BADGE_EVENT_0199",
+          "trackTitleKey": "season_pass_premium_track_title_emea_2026"
+        }
+      ],
+      "expirationTime": "2026-06-15T20:00:00",
+      "maxTierLevel": 60,
+      "additionalBonusTiersLevel": 31,
+      "eventPassDisplaySettings": {
+        "bonusBoxes": [
+          {
+            "text": "quest_catch_pokemon_singular",
+            "iconType": "SPAWN_UNKNOWN",
+            "quantity": 5
+          },
+          {
+            "text": "quest_hatch_egg_singular",
+            "iconType": "EGG",
+            "quantity": 40
+          },
+          {
+            "text": "quest_win_raid_singular",
+            "iconType": "RAID",
+            "quantity": 100
+          }
+        ],
+        "eventPassTrackUpgradeDescriptions": [
+          {
+            "passTrackUpgradeHeaderDescription": "season_pass_candela2026_track_upgrade_header_description",
+            "eventPassTrackToUpgradeTo": "PREMIUM",
+            "trackUnlockSkuId": "pgorelease.june2_2026_deluxe_event_pass_track_unlock",
+            "trackUnlockPlusPointsSkuId": "pgorelease.june2_2026_deluxe_event_pass_track_unlock_plus_points",
+            "eventDurationKey": "season_pass_candela2026_event_duration",
+            "upgradeDescriptionKey": "season_pass_candela2026_upgrade_description",
+            "ranksToHighlightRewards": [
+              8,
+              25,
+              30
+            ],
+            "detailsLinkKey": "season_pass_details_link_candela2026",
+            "trackUnlockImageUrl": "https://storage.googleapis.com/prod-public-images/ic_eventpass_deluxe.png",
+            "trackUnlockPlusPointsImageUrl": "https://storage.googleapis.com/prod-public-images/ic_eventpass_deluxe_plus.png"
+          }
+        ],
+        "eventPassTitleKey": "season_pass_base_track_title_emea_2026",
+        "headerIconUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fd99f7e15_Logo_256x256.png",
+        "premiumRewardsDescription": "season_pass_premium_rewards_desc_monthly_no_disclaimer",
+        "todayViewSection": "SEASONAL_EVENT_PASS_SECTION",
+        "sectionDisplayPriority": 52
+      },
+      "gracePeriodEndTime": "2026-06-17T20:00:00"
+    }
+  },
+  {
     "templateId": "EVENT_PASS_JUNE2026_SEASON",
     "data": {
       "prefix": "EVENT_PASS_JUNE2026_SEASON",
