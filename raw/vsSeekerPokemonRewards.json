@@ -646,9 +646,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "RESHIRAM",
+            "pokemonId": "ZEKROM",
             "pokemonDisplay": {
-              "form": "RESHIRAM_NORMAL"
+              "form": "ZEKROM_NORMAL"
             }
           },
           "unlockedAtRank": 20,
@@ -1321,9 +1321,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "RESHIRAM",
+            "pokemonId": "ZEKROM",
             "pokemonDisplay": {
-              "form": "RESHIRAM_NORMAL"
+              "form": "ZEKROM_NORMAL"
             }
           },
           "unlockedAtRank": 20,
