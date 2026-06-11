@@ -251,8 +251,6 @@
       "maxEggPlayerLevel": 20,
       "maxEncounterPlayerLevel": 30,
       "maxQuestEncounterPlayerLevel": 15,
-      "extendedPlayerLevelThreshold": 70,
-      "levelUpScreenV3Enabled": true,
       "milestoneLevels": [
         10,
         20,
@@ -263,13 +261,11 @@
         70,
         80
       ],
-      "levelRequirementsV2Enabled": true,
-      "xpRewardV2Enabled": true,
       "xpRewardV2Thresholds": {
         "source": "EVENT_PASS",
         "threshold": 1000000
       },
-      "smoreFtueImageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Smores_Launch_KeyArt_v8_1024x512_ingame.jpg"
+      "smoreFtueImageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Smores_Launch_KeyArt_v8_1024x512_ingame.jpg"
     }
   }
 ]

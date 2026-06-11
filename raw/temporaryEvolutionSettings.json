@@ -236,6 +236,18 @@
     }
   },
   {
+    "templateId": "TEMPORARY_EVOLUTION_V0227_POKEMON_SKARMORY",
+    "data": {
+      "pokemonId": "SKARMORY",
+      "temporaryEvolutions": [
+        {
+          "temporaryEvolutionId": "TEMP_EVOLUTION_MEGA",
+          "assetBundleValue": 51
+        }
+      ]
+    }
+  },
+  {
     "templateId": "TEMPORARY_EVOLUTION_V0229_POKEMON_HOUNDOOM",
     "data": {
       "pokemonId": "HOUNDOOM",

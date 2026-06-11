@@ -63788,6 +63788,13 @@
       "kmBuddyDistance": 5,
       "buddySize": "BUDDY_FLYING",
       "modelHeight": 1.84,
+      "evolutionBranch": [
+        {
+          "temporaryEvolution": "TEMP_EVOLUTION_MEGA",
+          "temporaryEvolutionEnergyCost": 300,
+          "temporaryEvolutionEnergyCostSubsequent": 60
+        }
+      ],
       "modelScaleV2": 1,
       "buddyOffsetMale": [
         15,
@@ -63814,6 +63821,28 @@
         "shadowChargeMove": "FRUSTRATION"
       },
       "buddyGroupNumber": 5,
+      "tempEvoOverrides": [
+        {
+          "tempEvoId": "TEMP_EVOLUTION_MEGA",
+          "stats": {
+            "baseStamina": 163,
+            "baseAttack": 273,
+            "baseDefense": 228
+          },
+          "averageHeightM": 1.7,
+          "averageWeightKg": 50.5,
+          "typeOverride1": "POKEMON_TYPE_STEEL",
+          "typeOverride2": "POKEMON_TYPE_FLYING",
+          "camera": {
+            "cylinderRadiusM": 1,
+            "cylinderHeightM": 0.01,
+            "cylinderGroundM": 2.1
+          },
+          "modelScaleV2": 1,
+          "modelHeight": 1.1
+        }
+      ],
+      "buddyWalkedMegaEnergyAward": 15,
       "useIrisFlyingPlacement": true,
       "irisPhotoEmote1": "PhysicalAttack",
       "ibfc": {},
@@ -63886,6 +63915,13 @@
       "kmBuddyDistance": 5,
       "buddySize": "BUDDY_FLYING",
       "modelHeight": 1.84,
+      "evolutionBranch": [
+        {
+          "temporaryEvolution": "TEMP_EVOLUTION_MEGA",
+          "temporaryEvolutionEnergyCost": 300,
+          "temporaryEvolutionEnergyCostSubsequent": 60
+        }
+      ],
       "modelScaleV2": 1,
       "form": "SKARMORY_NORMAL",
       "buddyOffsetMale": [
@@ -63913,6 +63949,28 @@
         "shadowChargeMove": "FRUSTRATION"
       },
       "buddyGroupNumber": 5,
+      "tempEvoOverrides": [
+        {
+          "tempEvoId": "TEMP_EVOLUTION_MEGA",
+          "stats": {
+            "baseStamina": 163,
+            "baseAttack": 273,
+            "baseDefense": 228
+          },
+          "averageHeightM": 1.7,
+          "averageWeightKg": 50.5,
+          "typeOverride1": "POKEMON_TYPE_STEEL",
+          "typeOverride2": "POKEMON_TYPE_FLYING",
+          "camera": {
+            "cylinderRadiusM": 1,
+            "cylinderHeightM": 0.01,
+            "cylinderGroundM": 2.1
+          },
+          "modelScaleV2": 1,
+          "modelHeight": 1.1
+        }
+      ],
+      "buddyWalkedMegaEnergyAward": 15,
       "useIrisFlyingPlacement": true,
       "irisPhotoEmote1": "PhysicalAttack",
       "ibfc": {},
@@ -123051,7 +123109,6 @@
       "pokemonClass": "POKEMON_CLASS_MYTHIC",
       "pokedexHeightM": 0.3,
       "pokedexWeightKg": 1.4,
-      "parentPokemonId": "PHIONE",
       "heightStdDev": 0.0375,
       "weightStdDev": 0.175,
       "familyId": "FAMILY_MANAPHY",
@@ -123136,7 +123193,6 @@
       "pokemonClass": "POKEMON_CLASS_MYTHIC",
       "pokedexHeightM": 0.3,
       "pokedexWeightKg": 1.4,
-      "parentPokemonId": "PHIONE",
       "heightStdDev": 0.0375,
       "weightStdDev": 0.175,
       "familyId": "FAMILY_MANAPHY",

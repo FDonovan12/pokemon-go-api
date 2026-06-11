@@ -53,7 +53,7 @@
         "eventStartTime": "2026-06-02T13:00:00",
         "eventEndTime": "2026-06-16T10:00:00",
         "itemBagDescriptionKey": "item_battle_pass_ticket_desc",
-        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-s22-gbl-nologo-2026.jpg",
+        "eventBannerUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-s22-gbl-nologo-2026.jpg",
         "clientEventStartTimeUtcMs": "1780405200000",
         "clientEventEndTimeUtcMs": "1781604000000"
       }
@@ -274,7 +274,7 @@
       },
       "timePeriodCounters": {
         "playerActivity": {
-          "limit": 500
+          "limit": 300
         }
       },
       "hideItemInInventory": true
@@ -327,7 +327,7 @@
       "ignoreInventorySpace": true,
       "itemCap": 999999,
       "eventPassPoint": {
-        "eventPassId": "EVENT_PASS_SHOCKINGLYGOOD2026_EVENT"
+        "eventPassId": "EVENT_PASS_FLYINGTAXI2026_EVENT"
       },
       "timePeriodCounters": {
         "playerActivity": {
@@ -442,9 +442,9 @@
         "itemBagDescriptionKey": "item_event_ticket_02_desc_CATCH_MASTERY_ORICORIO",
         "giftable": true,
         "giftItem": "ITEM_EVENT_TICKET_02_TO_GIFT",
-        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2F20260113_pgo_s22_oricorio_1024x576_nologo.jpg",
+        "eventBannerUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F20260113_pgo_s22_oricorio_1024x576_nologo.jpg",
         "displayV2Enabled": true,
-        "backgroundImageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2F20260113_pgo_s22_oricorio_1024x576_nologo.jpg",
+        "backgroundImageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F20260113_pgo_s22_oricorio_1024x576_nologo.jpg",
         "eventDatetimeRangeKey": "event_datetime_range_key_CATCH_MASTERY_ORICORIO",
         "textRewardsKey": "text_rewards_key_CATCH_MASTERY_ORICORIO",
         "iconRewards": [
@@ -476,7 +476,7 @@
         "eventEndTime": "2026-02-07T20:00:00",
         "itemBagDescriptionKey": "item_event_ticket_02_desc_CATCH_MASTERY_ORICORIO",
         "ticketItem": "ITEM_EVENT_TICKET_02",
-        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2F20260113_pgo_s22_oricorio_1024x576_nologo.jpg",
+        "eventBannerUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F20260113_pgo_s22_oricorio_1024x576_nologo.jpg",
         "clientEventStartTimeUtcMs": "1770458400000",
         "clientEventEndTimeUtcMs": "1770494400000"
       },
@@ -497,9 +497,9 @@
         "itemBagDescriptionKey": "item_event_ticket_pink_desc_CDC_Deino26",
         "giftable": true,
         "giftItem": "ITEM_EVENT_TICKET_03_TO_GIFT",
-        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-deino-community-day-classic-2026-nologo.jpg",
+        "eventBannerUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-deino-community-day-classic-2026-nologo.jpg",
         "displayV2Enabled": true,
-        "backgroundImageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-deino-community-day-classic-2026-nologo.jpg",
+        "backgroundImageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-deino-community-day-classic-2026-nologo.jpg",
         "eventDatetimeRangeKey": "event_datetime_range_key_CDC_Deino26",
         "textRewardsKey": "text_rewards_key_CDC_Deino26",
         "iconRewards": [
@@ -546,7 +546,7 @@
         "eventEndTime": "2026-05-16T17:00:00",
         "itemBagDescriptionKey": "item_event_ticket_pink_desc_CDC_Deino26",
         "ticketItem": "ITEM_EVENT_TICKET_03",
-        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-deino-community-day-classic-2026-nologo.jpg",
+        "eventBannerUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-deino-community-day-classic-2026-nologo.jpg",
         "clientEventStartTimeUtcMs": "1778940000000",
         "clientEventEndTimeUtcMs": "1778950800000"
       },
@@ -567,9 +567,9 @@
         "itemBagDescriptionKey": "item_event_ticket_pink_desc_WaterRRD26",
         "giftable": true,
         "giftItem": "ITEM_EVENT_TICKET_04_TO_GIFT",
-        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-replay-water-research-day-2026-nologo.jpg",
+        "eventBannerUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-replay-water-research-day-2026-nologo.jpg",
         "displayV2Enabled": true,
-        "backgroundImageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-replay-water-research-day-2026-nologo.jpg",
+        "backgroundImageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-replay-water-research-day-2026-nologo.jpg",
         "eventDatetimeRangeKey": "event_datetime_range_key_WaterRRD26",
         "textRewardsKey": "text_rewards_key_WaterRRD26",
         "iconRewards": [
@@ -620,7 +620,7 @@
         "eventEndTime": "2026-03-21T17:00:00",
         "itemBagDescriptionKey": "item_event_ticket_pink_desc_WaterRRD26",
         "ticketItem": "ITEM_EVENT_TICKET_04",
-        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-replay-water-research-day-2026-nologo.jpg",
+        "eventBannerUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-replay-water-research-day-2026-nologo.jpg",
         "clientEventStartTimeUtcMs": "1774101600000",
         "clientEventEndTimeUtcMs": "1774112400000"
       },
@@ -640,9 +640,9 @@
         "itemBagDescriptionKey": "item_event_ticket_gray_desc_MegaFalinksRaidDay",
         "giftable": true,
         "giftItem": "ITEM_EVENT_TICKET_05_TO_GIFT",
-        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Mega_Falinks_Raid_Day_v3-1024x576-nologo.jpg",
+        "eventBannerUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Mega_Falinks_Raid_Day_v3-1024x576-nologo.jpg",
         "displayV2Enabled": true,
-        "backgroundImageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Mega_Falinks_Raid_Day_v3-1024x576-nologo.jpg",
+        "backgroundImageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Mega_Falinks_Raid_Day_v3-1024x576-nologo.jpg",
         "eventDatetimeRangeKey": "event_datetime_range_key_MegaFalinksRaidDay",
         "textRewardsKey": "text_rewards_key_MegaFalinksRaidDay",
         "iconRewards": [
@@ -679,8 +679,8 @@
         "eventEndTime": "2026-05-23T17:00:00",
         "itemBagDescriptionKey": "item_event_ticket_gray_desc_MegaFalinksRaidDay",
         "ticketItem": "ITEM_EVENT_TICKET_05",
-        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Mega_Falinks_Raid_Day_v3-1024x576-nologo.jpg",
-        "backgroundImageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Mega_Falinks_Raid_Day_v3-1024x576-nologo.jpg",
+        "eventBannerUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Mega_Falinks_Raid_Day_v3-1024x576-nologo.jpg",
+        "backgroundImageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Mega_Falinks_Raid_Day_v3-1024x576-nologo.jpg",
         "clientEventStartTimeUtcMs": "1779544800000",
         "clientEventEndTimeUtcMs": "1779555600000"
       },
@@ -701,9 +701,9 @@
         "itemBagDescriptionKey": "item_event_ticket_06_details_REPLAY_GO_BIGGER",
         "giftable": true,
         "giftItem": "ITEM_EVENT_TICKET_06_TO_GIFT",
-        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-gmax-kanto-max-battle-day-2026-nologo.jpg",
+        "eventBannerUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-gmax-kanto-max-battle-day-2026-nologo.jpg",
         "displayV2Enabled": true,
-        "backgroundImageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-gmax-kanto-max-battle-day-2026-nologo.jpg",
+        "backgroundImageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-gmax-kanto-max-battle-day-2026-nologo.jpg",
         "eventDatetimeRangeKey": "event_datetime_range_key_REPLAY_GO_BIGGER",
         "textRewardsKey": "text_rewards_key_REPLAY_GO_BIGGER",
         "iconRewards": [
@@ -738,7 +738,7 @@
         "eventEndTime": "2026-04-25T17:00:00",
         "itemBagDescriptionKey": "item_event_ticket_06_details_REPLAY_GO_BIGGER",
         "ticketItem": "ITEM_EVENT_TICKET_06",
-        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-gmax-kanto-max-battle-day-2026-nologo.jpg",
+        "eventBannerUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-gmax-kanto-max-battle-day-2026-nologo.jpg",
         "clientEventStartTimeUtcMs": "1777125600000",
         "clientEventEndTimeUtcMs": "1777136400000"
       },
@@ -759,7 +759,7 @@
         "itemBagDescriptionKey": "item_event_ticket_07_desc_masterball25",
         "giftable": true,
         "giftItem": "ITEM_EVENT_TICKET_07_TO_GIFT",
-        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO_MCS_MasterBall_KeyArt_TK_GP_V2_S14_1024x512_nologo.jpg",
+        "eventBannerUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FPGO_MCS_MasterBall_KeyArt_TK_GP_V2_S14_1024x512_nologo.jpg",
         "displayV2Enabled": true,
         "backgroundImageUrl": "https://storage.googleapis.com/prod-public-images/masterball-keyart.png",
         "textRewardsKey": "text_rewards_key_masterball25",
@@ -791,7 +791,7 @@
         "eventEndTime": "2026-02-22T20:00:00",
         "itemBagDescriptionKey": "item_event_ticket_07_details_masterball25",
         "ticketItem": "ITEM_EVENT_TICKET_07",
-        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO_MCS_MasterBall_KeyArt_TK_GP_V2_S14_1024x512_nologo.jpg",
+        "eventBannerUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FPGO_MCS_MasterBall_KeyArt_TK_GP_V2_S14_1024x512_nologo.jpg",
         "clientEventStartTimeUtcMs": "1764669600000",
         "clientEventEndTimeUtcMs": "1771790400000"
       },
@@ -811,9 +811,9 @@
         "itemBagDescriptionKey": "item_event_ticket_gray_desc_FinalJustice2025",
         "giftable": true,
         "giftItem": "ITEM_EVENT_TICKET_08_TO_GIFT",
-        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Shiny_Keldeo_KeyArt_v1-1024x576-nologo.jpg",
+        "eventBannerUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Shiny_Keldeo_KeyArt_v1-1024x576-nologo.jpg",
         "displayV2Enabled": true,
-        "backgroundImageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Shiny_Keldeo_KeyArt_v1-1024x576-nologo.jpg",
+        "backgroundImageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Shiny_Keldeo_KeyArt_v1-1024x576-nologo.jpg",
         "eventDatetimeRangeKey": "event_datetime_range_key_FinalJustice2025",
         "textRewardsKey": "text_rewards_key_FinalJustice2025",
         "iconRewards": [
@@ -859,7 +859,7 @@
         "eventEndTime": "2025-11-30T20:00:00",
         "itemBagDescriptionKey": "item_event_ticket_gray_desc_FinalJustice2025",
         "ticketItem": "ITEM_EVENT_TICKET_08",
-        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Shiny_Keldeo_KeyArt_v1-1024x576-nologo.jpg",
+        "eventBannerUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Shiny_Keldeo_KeyArt_v1-1024x576-nologo.jpg",
         "clientEventStartTimeUtcMs": "1764064800000",
         "clientEventEndTimeUtcMs": "1764532800000"
       },
@@ -879,9 +879,9 @@
         "itemBagDescriptionKey": "ITEM_EVENT_TICKET_09_desc_fashionRaidDay26",
         "giftable": true,
         "giftItem": "ITEM_EVENT_TICKET_09_TO_GIFT",
-        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-fashion-raid-day-2026-nologo.jpg",
+        "eventBannerUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-fashion-raid-day-2026-nologo.jpg",
         "displayV2Enabled": true,
-        "backgroundImageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-fashion-raid-day-2026-nologo.jpg",
+        "backgroundImageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-fashion-raid-day-2026-nologo.jpg",
         "eventDatetimeRangeKey": "event_datetime_range_key_fashionRaidDay_s22",
         "textRewardsKey": "text_rewards_key_fashionRaidDay26",
         "iconRewards": [
@@ -918,7 +918,7 @@
         "eventEndTime": "2026-04-04T17:00:00",
         "itemBagDescriptionKey": "ITEM_EVENT_TICKET_09_details_fashionRaidDay26",
         "ticketItem": "ITEM_EVENT_TICKET_09",
-        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-fashion-raid-day-2026-nologo.jpg",
+        "eventBannerUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-fashion-raid-day-2026-nologo.jpg",
         "clientEventStartTimeUtcMs": "1775311200000",
         "clientEventEndTimeUtcMs": "1775322000000"
       },
@@ -941,9 +941,9 @@
         "itemBagDescriptionKey": "item_global_event_ticket_details_GOTour2026",
         "giftable": true,
         "giftItem": "ITEM_EVENT_TICKET_10_TO_GIFT",
-        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fgo_tour_kalos_1024x512.jpg",
+        "eventBannerUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fgo_tour_kalos_1024x512.jpg",
         "displayV2Enabled": true,
-        "backgroundImageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fgo_tour_kalos_1024x512_logoless.jpg",
+        "backgroundImageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fgo_tour_kalos_1024x512_logoless.jpg",
         "titleImageUrl": "https://storage.googleapis.com/prod-public-images/gotourlogo_1914247967.png",
         "eventDatetimeRangeKey": "event_datetime_range_key_GOTour2026",
         "textRewardsKey": "text_rewards_key_GOTour2026",
@@ -996,7 +996,7 @@
         "eventEndTime": "2026-03-01T23:59:59",
         "itemBagDescriptionKey": "item_global_event_ticket_details_GOTour2026",
         "ticketItem": "ITEM_EVENT_TICKET_10",
-        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fgo_tour_kalos_1024x512.jpg",
+        "eventBannerUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fgo_tour_kalos_1024x512.jpg",
         "clientEventStartTimeUtcMs": "1772236800000",
         "clientEventEndTimeUtcMs": "1772409599000"
       },
@@ -1017,7 +1017,7 @@
         "itemBagDescriptionKey": "item_event_ticket_gray_details_ENTEI_SHADOW_RAID_DAY",
         "giftable": true,
         "giftItem": "ITEM_EVENT_TICKET_GRAY_TO_GIFT",
-        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-entei-shadow-raid-day-2026-nologo.jpg",
+        "eventBannerUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-entei-shadow-raid-day-2026-nologo.jpg",
         "displayV2Enabled": true,
         "backgroundImageUrl": "https://storage.googleapis.com/prod-public-images/1054x512.jpg",
         "eventDatetimeRangeKey": "event_datetime_range_key_ENTEI_SHADOW_RAID_DAY",
@@ -1054,7 +1054,7 @@
         "eventEndTime": "2026-05-02T17:00:00",
         "itemBagDescriptionKey": "item_event_ticket_gray_details_ENTEI_SHADOW_RAID_DAY",
         "ticketItem": "ITEM_EVENT_TICKET_GRAY",
-        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-entei-shadow-raid-day-2026-nologo.jpg",
+        "eventBannerUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-entei-shadow-raid-day-2026-nologo.jpg",
         "backgroundImageUrl": "https://storage.googleapis.com/prod-public-images/1054x512.jpg",
         "clientEventStartTimeUtcMs": "1777730400000",
         "clientEventEndTimeUtcMs": "1777741200000"
@@ -1076,9 +1076,9 @@
         "itemBagDescriptionKey": "item_event_ticket_evergreen_details_PawPrint_20250620",
         "giftable": true,
         "giftItem": "ITEM_EVENT_TICKET_PINK_TO_GIFT",
-        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-yampers-paw-prints-ticket-nologo-2025.jpg",
+        "eventBannerUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-yampers-paw-prints-ticket-nologo-2025.jpg",
         "displayV2Enabled": true,
-        "backgroundImageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-yampers-paw-prints-ticket-nologo-2025.jpg",
+        "backgroundImageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-yampers-paw-prints-ticket-nologo-2025.jpg",
         "eventDatetimeRangeKey": "event_datetime_range_key_PawPrint_20250620",
         "textRewardsKey": "text_rewards_key_PawPrint_20250620",
         "iconRewards": [
@@ -1123,7 +1123,7 @@
         "eventEndTime": "2025-06-22T23:59:59",
         "itemBagDescriptionKey": "item_event_ticket_evergreen_details_PawPrint_20250620",
         "ticketItem": "ITEM_EVENT_TICKET_PINK",
-        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-yampers-paw-prints-ticket-nologo-2025.jpg",
+        "eventBannerUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-yampers-paw-prints-ticket-nologo-2025.jpg",
         "clientEventStartTimeUtcMs": "1750377600000",
         "clientEventEndTimeUtcMs": "1750636799000"
       },
@@ -1143,9 +1143,9 @@
         "itemBagDescriptionKey": "item_event_ticket_pink_desc_CD_Frigibax26",
         "giftable": true,
         "giftItem": 2237,
-        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO_MCS_CD_KeyArt_Frigibax_v1-1024x576-nologo.jpg",
+        "eventBannerUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FPGO_MCS_CD_KeyArt_Frigibax_v1-1024x576-nologo.jpg",
         "displayV2Enabled": true,
-        "backgroundImageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO_MCS_CD_KeyArt_Frigibax_v1-1024x576-nologo.jpg",
+        "backgroundImageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FPGO_MCS_CD_KeyArt_Frigibax_v1-1024x576-nologo.jpg",
         "eventDatetimeRangeKey": "event_datetime_range_key_CD_Frigibax26",
         "textRewardsKey": "text_rewards_key_CD_Frigibax26",
         "iconRewards": [
@@ -1192,7 +1192,7 @@
         "eventEndTime": "2026-06-20T17:00:00",
         "itemBagDescriptionKey": "item_event_ticket_pink_desc_CD_Frigibax26",
         "ticketItem": 2205,
-        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO_MCS_CD_KeyArt_Frigibax_v1-1024x576-nologo.jpg",
+        "eventBannerUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FPGO_MCS_CD_KeyArt_Frigibax_v1-1024x576-nologo.jpg",
         "clientEventStartTimeUtcMs": "1781964000000",
         "clientEventEndTimeUtcMs": "1781974800000"
       },
@@ -1213,9 +1213,9 @@
         "itemBagDescriptionKey": "item_event_ticket_evergreen_desc_IntoTDepths26",
         "giftable": true,
         "giftItem": "ITEM_EVERGREEN_TICKET_TO_GIFT",
-        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Into_The_Depths_LiveOp_2026_v3-1024x576-nologo.jpg",
+        "eventBannerUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Into_The_Depths_LiveOp_2026_v3-1024x576-nologo.jpg",
         "displayV2Enabled": true,
-        "backgroundImageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Into_The_Depths_LiveOp_2026_v3-1024x576-nologo.jpg",
+        "backgroundImageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Into_The_Depths_LiveOp_2026_v3-1024x576-nologo.jpg",
         "eventDatetimeRangeKey": "event_datetime_range_key_IntoTDepths26",
         "textRewardsKey": "text_rewards_key_IntoTDepths26",
         "iconRewards": [
@@ -1266,7 +1266,7 @@
         "eventEndTime": "2026-02-01T20:00:00",
         "itemBagDescriptionKey": "item_event_ticket_evergreen_details_IntoTDepths26",
         "ticketItem": "ITEM_EVERGREEN_TICKET",
-        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Into_The_Depths_LiveOp_2026_v3-1024x576-nologo.jpg",
+        "eventBannerUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Into_The_Depths_LiveOp_2026_v3-1024x576-nologo.jpg",
         "clientEventStartTimeUtcMs": "1769508000000",
         "clientEventEndTimeUtcMs": "1769976000000"
       },
@@ -1334,9 +1334,9 @@
         "itemBagDescriptionKey": "item_event_ticket_evergreen_desc_Riolu0426",
         "giftable": true,
         "giftItem": "ITEM_GLOBAL_EVENT_TICKET_TO_GIFT",
-        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-riolu-hatch-day-2026-nologo.jpg",
+        "eventBannerUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-riolu-hatch-day-2026-nologo.jpg",
         "displayV2Enabled": true,
-        "backgroundImageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-riolu-hatch-day-2026-nologo.jpg",
+        "backgroundImageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-riolu-hatch-day-2026-nologo.jpg",
         "eventDatetimeRangeKey": "event_datetime_range_key_Riolu0426",
         "textRewardsKey": "text_rewards_key_Riolu0426",
         "iconRewards": [
@@ -1378,7 +1378,7 @@
         "eventEndTime": "2026-04-18T17:00:00",
         "itemBagDescriptionKey": "item_event_ticket_evergreen_details_Riolu0426",
         "ticketItem": "ITEM_GLOBAL_EVENT_TICKET",
-        "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-riolu-hatch-day-2026-nologo.jpg",
+        "eventBannerUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-riolu-hatch-day-2026-nologo.jpg",
         "clientEventStartTimeUtcMs": "1776510000000",
         "clientEventEndTimeUtcMs": "1776531600000"
       },

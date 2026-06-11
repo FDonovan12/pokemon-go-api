@@ -831,7 +831,8 @@
     "templateId": "V0227_FAMILY_SKARMORY",
     "data": {
       "familyId": "FAMILY_SKARMORY",
-      "candyPerXlCandy": 100
+      "candyPerXlCandy": 100,
+      "megaEvolvablePokemonId": "SKARMORY"
     }
   },
   {

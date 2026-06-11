@@ -11,7 +11,7 @@
       "skuDisableTime": "2025-04-08T20:00:00",
       "skuEnableTimeUtcMs": "1743415200000",
       "skuDisableTimeUtcMs": "1744142400000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-paid-shockingly-good-time-2026-nologo.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-paid-shockingly-good-time-2026-nologo.jpg"
     }
   },
   {
@@ -26,7 +26,7 @@
       "skuDisableTime": "2025-04-08T20:00:00",
       "skuEnableTimeUtcMs": "1743415200000",
       "skuDisableTimeUtcMs": "1744142400000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-paid-shockingly-good-time-2026-nologo.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-paid-shockingly-good-time-2026-nologo.jpg"
     }
   },
   {
@@ -41,7 +41,7 @@
       "skuDisableTime": "2025-04-22T20:00:00",
       "skuEnableTimeUtcMs": "1744624800000",
       "skuDisableTimeUtcMs": "1745352000000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-paid-sustainability-week-2026-nologo.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-paid-sustainability-week-2026-nologo.jpg"
     }
   },
   {
@@ -56,7 +56,7 @@
       "skuDisableTime": "2025-04-22T20:00:00",
       "skuEnableTimeUtcMs": "1744624800000",
       "skuDisableTimeUtcMs": "1745352000000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-paid-sustainability-week-2026-nologo.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-paid-sustainability-week-2026-nologo.jpg"
     }
   },
   {
@@ -71,7 +71,7 @@
       "skuDisableTime": "2025-05-06T20:00:00",
       "skuEnableTimeUtcMs": "1745834400000",
       "skuDisableTimeUtcMs": "1746561600000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Memory_Lane_Meltan_Celebration_SRR_v1-1024x576.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Memory_Lane_Meltan_Celebration_SRR_v1-1024x576.jpg"
     }
   },
   {
@@ -86,7 +86,7 @@
       "skuDisableTime": "2025-05-06T20:00:00",
       "skuEnableTimeUtcMs": "1745834400000",
       "skuDisableTimeUtcMs": "1746561600000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Memory_Lane_Meltan_Celebration_SRR_v1-1024x576.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Memory_Lane_Meltan_Celebration_SRR_v1-1024x576.jpg"
     }
   },
   {
@@ -110,15 +110,15 @@
     "templateId": "EVENT_PASS_AMER2026_STORE_REDIRECT",
     "data": {
       "sku": "pgorelease.june1_2026_deluxe_event_pass_track_redirect",
-      "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 1,
+      "hidden": true,
       "title": "season_pass_premium_track_title_amer_2026",
       "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
       "skuEnableTime": "2025-06-02T10:00:00",
-      "skuDisableTime": "2026-06-10T20:00:00",
+      "skuDisableTime": "2025-06-10T10:00:00",
       "skuEnableTimeUtcMs": "1748858400000",
-      "skuDisableTimeUtcMs": "1781121600000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fe3025fe6_PGO-MCS_GO_Fest_2026_AMER_Global_LiveOp_v2-1024x576.jpg"
+      "skuDisableTimeUtcMs": "1749549600000",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fe3025fe6_PGO-MCS_GO_Fest_2026_AMER_Global_LiveOp_v2-1024x576.jpg"
     }
   },
   {
@@ -133,7 +133,7 @@
       "skuDisableTime": "2025-04-08T20:00:00",
       "skuEnableTimeUtcMs": "1743415200000",
       "skuDisableTimeUtcMs": "1744142400000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-paid-shockingly-good-time-2026-nologo.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-paid-shockingly-good-time-2026-nologo.jpg"
     }
   },
   {
@@ -148,7 +148,7 @@
       "skuDisableTime": "2025-05-06T20:00:00",
       "skuEnableTimeUtcMs": "1745834400000",
       "skuDisableTimeUtcMs": "1746561600000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Memory_Lane_Meltan_Celebration_SRR_v1-1024x576.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Memory_Lane_Meltan_Celebration_SRR_v1-1024x576.jpg"
     }
   },
   {
@@ -163,7 +163,7 @@
       "skuDisableTime": "2025-08-26T21:00:00",
       "skuEnableTimeUtcMs": "1723975200000",
       "skuDisableTimeUtcMs": "1756242000000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Eternatus_Adventure_Effect_v2-1024x576.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Eternatus_Adventure_Effect_v2-1024x576.jpg"
     }
   },
   {
@@ -178,7 +178,7 @@
       "skuDisableTime": "2025-06-29T23:59:59",
       "skuEnableTimeUtcMs": "1739354400000",
       "skuDisableTimeUtcMs": "1751241599000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FEvent%20Pass%20Placeholder.png"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FEvent%20Pass%20Placeholder.png"
     }
   },
   {
@@ -193,7 +193,7 @@
       "skuDisableTime": "2025-01-02T00:00:00",
       "skuEnableTimeUtcMs": "1735689600000",
       "skuDisableTimeUtcMs": "1735776000000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FTourPass2026.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FTourPass2026.jpg"
     }
   },
   {
@@ -208,7 +208,7 @@
       "skuDisableTime": "2025-11-16T18:00:00",
       "skuEnableTimeUtcMs": "1731232800000",
       "skuDisableTimeUtcMs": "1763316000000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FGOWA_GO_Pass_Ticket_1024x512.png"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FGOWA_GO_Pass_Ticket_1024x512.png"
     }
   },
   {
@@ -223,7 +223,7 @@
       "skuDisableTime": "2024-11-04T10:00:00",
       "skuEnableTimeUtcMs": "1729504800000",
       "skuDisableTimeUtcMs": "1730714400000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_GOPass_Halloween_v5_pose_1024x576_nologo.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FPGO-MCS_GOPass_Halloween_v5_pose_1024x576_nologo.jpg"
     }
   },
   {
@@ -238,7 +238,7 @@
       "skuDisableTime": "2026-06-17T20:00:00",
       "skuEnableTimeUtcMs": "1749463200000",
       "skuDisableTimeUtcMs": "1781726400000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2F1e924512_PGO-MCS_GO_Fest_2026_EMEA_Global_LiveOp_v3-1024x576.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F1e924512_PGO-MCS_GO_Fest_2026_EMEA_Global_LiveOp_v3-1024x576.jpg"
     }
   },
   {
@@ -253,7 +253,7 @@
       "skuDisableTime": "2026-03-15T20:00:00",
       "skuEnableTimeUtcMs": "1740996000000",
       "skuDisableTimeUtcMs": "1773604800000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-legendary-birds-nologo-2026.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-legendary-birds-nologo-2026.jpg"
     }
   },
   {
@@ -268,7 +268,7 @@
       "skuDisableTime": "2025-03-24T00:00:00",
       "skuEnableTimeUtcMs": "1742205600000",
       "skuDisableTimeUtcMs": "1742774400000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-bug-out-2026-nologo.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-bug-out-2026-nologo.jpg"
     }
   },
   {
@@ -283,7 +283,7 @@
       "skuDisableTime": "2025-06-03T20:00:00",
       "skuEnableTimeUtcMs": "1748253600000",
       "skuDisableTimeUtcMs": "1748980800000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Ff6da0ab4_PGO-MCS_GO_Fest_2026_APAC_Global_LiveOp_v2-1024x576.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Ff6da0ab4_PGO-MCS_GO_Fest_2026_APAC_Global_LiveOp_v2-1024x576.jpg"
     }
   },
   {
@@ -298,7 +298,7 @@
       "skuDisableTime": "2026-07-09T10:00:00",
       "skuEnableTimeUtcMs": "1748253600000",
       "skuDisableTimeUtcMs": "1783591200000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2F73951fa4_20260428_pgo_s23_gopass_june_ticket_1024x576_nologo%20(1).jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F73951fa4_20260428_pgo_s23_gopass_june_ticket_1024x576_nologo%20(1).jpg"
     }
   },
   {
@@ -313,7 +313,7 @@
       "skuDisableTime": "2025-05-07T10:00:00",
       "skuEnableTimeUtcMs": "1744020000000",
       "skuDisableTimeUtcMs": "1746612000000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-deluxe-gopass-april-nologo.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-deluxe-gopass-april-nologo.jpg"
     }
   },
   {
@@ -328,7 +328,7 @@
       "skuDisableTime": "2025-06-04T10:00:00",
       "skuEnableTimeUtcMs": "1746439200000",
       "skuDisableTimeUtcMs": "1749031200000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_GO_Pass_May_2026_TICKET_v1-1204x576.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FPGO-MCS_GO_Pass_May_2026_TICKET_v1-1204x576.jpg"
     }
   },
   {
@@ -343,7 +343,7 @@
       "skuDisableTime": "2025-12-29T23:59:00",
       "skuEnableTimeUtcMs": "1734516000000",
       "skuDisableTimeUtcMs": "1767052740000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Winter_Holiday_2025_EventPass_v2-1024x576-nologo%20(1).jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Winter_Holiday_2025_EventPass_v2-1024x576-nologo%20(1).jpg"
     }
   },
   {
@@ -369,7 +369,7 @@
       "skuDisableTime": "2025-08-26T21:00:00",
       "skuEnableTimeUtcMs": "1723975200000",
       "skuDisableTimeUtcMs": "1756242000000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Eternatus_Adventure_Effect_v2-1024x576.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Eternatus_Adventure_Effect_v2-1024x576.jpg"
     }
   },
   {
@@ -384,7 +384,7 @@
       "skuDisableTime": "2025-08-26T21:00:00",
       "skuEnableTimeUtcMs": "1723975200000",
       "skuDisableTimeUtcMs": "1756242000000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Eternatus_Adventure_Effect_v2-1024x576.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Eternatus_Adventure_Effect_v2-1024x576.jpg"
     }
   },
   {
@@ -399,7 +399,7 @@
       "skuDisableTime": "2025-06-29T23:59:59",
       "skuEnableTimeUtcMs": "1739354400000",
       "skuDisableTimeUtcMs": "1751241599000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FEvent%20Pass%20Placeholder.png"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FEvent%20Pass%20Placeholder.png"
     }
   },
   {
@@ -414,7 +414,7 @@
       "skuDisableTime": "2025-06-29T23:59:59",
       "skuEnableTimeUtcMs": "1739354400000",
       "skuDisableTimeUtcMs": "1751241599000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FEvent%20Pass%20Placeholder.png"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FEvent%20Pass%20Placeholder.png"
     }
   },
   {
@@ -429,7 +429,7 @@
       "skuDisableTime": "2026-07-14T23:59:59",
       "skuEnableTimeUtcMs": "1783296000000",
       "skuDisableTimeUtcMs": "1784073599000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FEvent%20Pass%20Placeholder.png"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FEvent%20Pass%20Placeholder.png"
     }
   },
   {
@@ -444,7 +444,7 @@
       "skuDisableTime": "2026-07-14T23:59:59",
       "skuEnableTimeUtcMs": "1783296000000",
       "skuDisableTimeUtcMs": "1784073599000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FEvent%20Pass%20Placeholder.png"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FEvent%20Pass%20Placeholder.png"
     }
   },
   {
@@ -459,7 +459,7 @@
       "skuDisableTime": "2025-01-02T00:00:00",
       "skuEnableTimeUtcMs": "1735689600000",
       "skuDisableTimeUtcMs": "1735776000000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FTourPass2026.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FTourPass2026.jpg"
     }
   },
   {
@@ -474,7 +474,7 @@
       "skuDisableTime": "2025-01-02T00:00:00",
       "skuEnableTimeUtcMs": "1735689600000",
       "skuDisableTimeUtcMs": "1735776000000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FTourPass2026.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FTourPass2026.jpg"
     }
   },
   {
@@ -489,7 +489,7 @@
       "skuDisableTime": "2025-11-16T18:00:00",
       "skuEnableTimeUtcMs": "1731232800000",
       "skuDisableTimeUtcMs": "1763316000000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FGOWA_GO_Pass_Ticket_1024x512.png"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FGOWA_GO_Pass_Ticket_1024x512.png"
     }
   },
   {
@@ -504,7 +504,7 @@
       "skuDisableTime": "2025-11-16T18:00:00",
       "skuEnableTimeUtcMs": "1731232800000",
       "skuDisableTimeUtcMs": "1763316000000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FGOWA_GO_Pass_Ticket_1024x512.png"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FGOWA_GO_Pass_Ticket_1024x512.png"
     }
   },
   {
@@ -567,7 +567,7 @@
       "skuDisableTime": "2024-11-04T10:00:00",
       "skuEnableTimeUtcMs": "1729504800000",
       "skuDisableTimeUtcMs": "1730714400000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_GOPass_Halloween_v5_pose_1024x576_nologo.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FPGO-MCS_GOPass_Halloween_v5_pose_1024x576_nologo.jpg"
     }
   },
   {
@@ -582,7 +582,7 @@
       "skuDisableTime": "2024-11-04T10:00:00",
       "skuEnableTimeUtcMs": "1729504800000",
       "skuDisableTimeUtcMs": "1730714400000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_GOPass_Halloween_v5_pose_1024x576_nologo.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FPGO-MCS_GOPass_Halloween_v5_pose_1024x576_nologo.jpg"
     }
   },
   {
@@ -611,13 +611,14 @@
     "data": {
       "sku": "pgorelease.june1_2026_deluxe_event_pass_track_unlock",
       "sortOrder": 1,
+      "hidden": true,
       "title": "season_pass_premium_track_title_amer_2026",
       "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
       "skuEnableTime": "2025-06-02T10:00:00",
-      "skuDisableTime": "2026-06-10T20:00:00",
+      "skuDisableTime": "2025-06-10T10:00:00",
       "skuEnableTimeUtcMs": "1748858400000",
-      "skuDisableTimeUtcMs": "1781121600000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fe3025fe6_PGO-MCS_GO_Fest_2026_AMER_Global_LiveOp_v2-1024x576.jpg"
+      "skuDisableTimeUtcMs": "1749549600000",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fe3025fe6_PGO-MCS_GO_Fest_2026_AMER_Global_LiveOp_v2-1024x576.jpg"
     }
   },
   {
@@ -625,13 +626,14 @@
     "data": {
       "sku": "pgorelease.june1_2026_deluxe_event_pass_track_unlock_plus_points",
       "sortOrder": 1,
+      "hidden": true,
       "title": "season_pass_premium_track_plus_six_ranks_title_amer_2026",
-      "description": "event_pass_plus_points_6_ranks_description",
+      "description": "gotour_2025_deluxe_event_pass_track_unlock_plus_points_description",
       "skuEnableTime": "2025-06-02T10:00:00",
-      "skuDisableTime": "2026-06-10T20:00:00",
+      "skuDisableTime": "2025-06-10T10:00:00",
       "skuEnableTimeUtcMs": "1748858400000",
-      "skuDisableTimeUtcMs": "1781121600000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fe3025fe6_PGO-MCS_GO_Fest_2026_AMER_Global_LiveOp_v2-1024x576.jpg"
+      "skuDisableTimeUtcMs": "1749549600000",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fe3025fe6_PGO-MCS_GO_Fest_2026_AMER_Global_LiveOp_v2-1024x576.jpg"
     }
   },
   {
@@ -645,7 +647,7 @@
       "skuDisableTime": "2026-06-17T20:00:00",
       "skuEnableTimeUtcMs": "1749463200000",
       "skuDisableTimeUtcMs": "1781726400000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2F1e924512_PGO-MCS_GO_Fest_2026_EMEA_Global_LiveOp_v3-1024x576.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F1e924512_PGO-MCS_GO_Fest_2026_EMEA_Global_LiveOp_v3-1024x576.jpg"
     }
   },
   {
@@ -659,7 +661,7 @@
       "skuDisableTime": "2026-06-17T20:00:00",
       "skuEnableTimeUtcMs": "1749463200000",
       "skuDisableTimeUtcMs": "1781726400000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2F1e924512_PGO-MCS_GO_Fest_2026_EMEA_Global_LiveOp_v3-1024x576.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F1e924512_PGO-MCS_GO_Fest_2026_EMEA_Global_LiveOp_v3-1024x576.jpg"
     }
   },
   {
@@ -674,7 +676,7 @@
       "skuDisableTime": "2026-03-15T20:00:00",
       "skuEnableTimeUtcMs": "1740996000000",
       "skuDisableTimeUtcMs": "1773604800000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-legendary-birds-nologo-2026.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-legendary-birds-nologo-2026.jpg"
     }
   },
   {
@@ -689,7 +691,7 @@
       "skuDisableTime": "2026-03-15T20:00:00",
       "skuEnableTimeUtcMs": "1740996000000",
       "skuDisableTimeUtcMs": "1773604800000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-legendary-birds-nologo-2026.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-legendary-birds-nologo-2026.jpg"
     }
   },
   {
@@ -704,7 +706,7 @@
       "skuDisableTime": "2025-03-24T00:00:00",
       "skuEnableTimeUtcMs": "1742205600000",
       "skuDisableTimeUtcMs": "1742774400000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-bug-out-2026-nologo.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-bug-out-2026-nologo.jpg"
     }
   },
   {
@@ -719,7 +721,7 @@
       "skuDisableTime": "2025-03-24T00:00:00",
       "skuEnableTimeUtcMs": "1742205600000",
       "skuDisableTimeUtcMs": "1742774400000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-bug-out-2026-nologo.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-bug-out-2026-nologo.jpg"
     }
   },
   {
@@ -734,7 +736,7 @@
       "skuDisableTime": "2025-05-20T20:00:00",
       "skuEnableTimeUtcMs": "1747044000000",
       "skuDisableTimeUtcMs": "1747771200000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Spring_Marathon_2026_Event_Pass_v2-1024x576.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Spring_Marathon_2026_Event_Pass_v2-1024x576.jpg"
     }
   },
   {
@@ -749,7 +751,7 @@
       "skuDisableTime": "2025-05-20T20:00:00",
       "skuEnableTimeUtcMs": "1747044000000",
       "skuDisableTimeUtcMs": "1747771200000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Spring_Marathon_2026_Event_Pass_v2-1024x576.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Spring_Marathon_2026_Event_Pass_v2-1024x576.jpg"
     }
   },
   {
@@ -764,7 +766,7 @@
       "skuDisableTime": "2025-06-03T20:00:00",
       "skuEnableTimeUtcMs": "1748253600000",
       "skuDisableTimeUtcMs": "1748980800000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Ff6da0ab4_PGO-MCS_GO_Fest_2026_APAC_Global_LiveOp_v2-1024x576.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Ff6da0ab4_PGO-MCS_GO_Fest_2026_APAC_Global_LiveOp_v2-1024x576.jpg"
     }
   },
   {
@@ -779,7 +781,7 @@
       "skuDisableTime": "2025-06-03T20:00:00",
       "skuEnableTimeUtcMs": "1748253600000",
       "skuDisableTimeUtcMs": "1748980800000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Ff6da0ab4_PGO-MCS_GO_Fest_2026_APAC_Global_LiveOp_v2-1024x576.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Ff6da0ab4_PGO-MCS_GO_Fest_2026_APAC_Global_LiveOp_v2-1024x576.jpg"
     }
   },
   {
@@ -793,7 +795,7 @@
       "skuDisableTime": "2026-07-09T10:00:00",
       "skuEnableTimeUtcMs": "1748253600000",
       "skuDisableTimeUtcMs": "1783591200000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2F73951fa4_20260428_pgo_s23_gopass_june_ticket_1024x576_nologo%20(1).jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F73951fa4_20260428_pgo_s23_gopass_june_ticket_1024x576_nologo%20(1).jpg"
     }
   },
   {
@@ -807,7 +809,7 @@
       "skuDisableTime": "2026-07-09T10:00:00",
       "skuEnableTimeUtcMs": "1748253600000",
       "skuDisableTimeUtcMs": "1783591200000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2F73951fa4_20260428_pgo_s23_gopass_june_ticket_1024x576_nologo%20(1).jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F73951fa4_20260428_pgo_s23_gopass_june_ticket_1024x576_nologo%20(1).jpg"
     }
   },
   {
@@ -822,7 +824,7 @@
       "skuDisableTime": "2025-05-07T10:00:00",
       "skuEnableTimeUtcMs": "1744020000000",
       "skuDisableTimeUtcMs": "1746612000000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-deluxe-gopass-april-nologo.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-deluxe-gopass-april-nologo.jpg"
     }
   },
   {
@@ -837,7 +839,7 @@
       "skuDisableTime": "2025-05-07T10:00:00",
       "skuEnableTimeUtcMs": "1744020000000",
       "skuDisableTimeUtcMs": "1746612000000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-deluxe-gopass-april-nologo.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-deluxe-gopass-april-nologo.jpg"
     }
   },
   {
@@ -852,7 +854,7 @@
       "skuDisableTime": "2025-06-04T10:00:00",
       "skuEnableTimeUtcMs": "1746439200000",
       "skuDisableTimeUtcMs": "1749031200000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_GO_Pass_May_2026_TICKET_v1-1204x576.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FPGO-MCS_GO_Pass_May_2026_TICKET_v1-1204x576.jpg"
     }
   },
   {
@@ -867,7 +869,7 @@
       "skuDisableTime": "2025-06-04T10:00:00",
       "skuEnableTimeUtcMs": "1746439200000",
       "skuDisableTimeUtcMs": "1749031200000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_GO_Pass_May_2026_TICKET_v1-1204x576.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FPGO-MCS_GO_Pass_May_2026_TICKET_v1-1204x576.jpg"
     }
   },
   {
@@ -6692,7 +6694,7 @@
       "skuDisableTime": "2025-12-29T23:59:00",
       "skuEnableTimeUtcMs": "1734516000000",
       "skuDisableTimeUtcMs": "1767052740000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Winter_Holiday_2025_EventPass_v2-1024x576-nologo%20(1).jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Winter_Holiday_2025_EventPass_v2-1024x576-nologo%20(1).jpg"
     }
   },
   {
@@ -6707,7 +6709,7 @@
       "skuDisableTime": "2025-12-29T23:59:00",
       "skuEnableTimeUtcMs": "1734516000000",
       "skuDisableTimeUtcMs": "1767052740000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Winter_Holiday_2025_EventPass_v2-1024x576-nologo%20(1).jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Winter_Holiday_2025_EventPass_v2-1024x576-nologo%20(1).jpg"
     }
   },
   {
@@ -8697,7 +8699,7 @@
       "skuDisableTime": "2026-06-16T13:00:00",
       "skuEnableTimeUtcMs": "1677528000000",
       "skuDisableTimeUtcMs": "1781614800000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-s22-gbl-nologo-2026.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-s22-gbl-nologo-2026.jpg"
     }
   },
   {
@@ -11506,7 +11508,7 @@
       "skuDisableTime": "2026-02-01T20:00:00",
       "skuEnableTimeUtcMs": "1552550400000",
       "skuDisableTimeUtcMs": "1769976000000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Into_The_Depths_LiveOp_2026_v3-1024x576-nologo.jpg",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Into_The_Depths_LiveOp_2026_v3-1024x576-nologo.jpg",
       "webstoreSkuId": "web-encounter-jan-26-ticket-box",
       "webstoreSkuPriceE6": 1990000
     }
@@ -11523,7 +11525,7 @@
       "skuDisableTime": "2026-02-01T20:00:00",
       "skuEnableTimeUtcMs": "1552550400000",
       "skuDisableTimeUtcMs": "1769976000000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Into_The_Depths_LiveOp_2026_v3-1024x576-nologo.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Into_The_Depths_LiveOp_2026_v3-1024x576-nologo.jpg"
     }
   },
   {
@@ -11539,7 +11541,7 @@
       "skuDisableTime": "2025-07-06T20:00:00",
       "skuEnableTimeUtcMs": "1552550400000",
       "skuDisableTimeUtcMs": "1751832000000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-shiny-jirachi-masterwork-ticket-nologo-2025.jpg",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-shiny-jirachi-masterwork-ticket-nologo-2025.jpg",
       "webstoreSkuId": "web-2025-anniversary-ticket-box",
       "webstoreSkuPriceE6": 4990000
     }
@@ -11557,7 +11559,7 @@
       "skuDisableTime": "2025-07-06T20:00:00",
       "skuEnableTimeUtcMs": "1552550400000",
       "skuDisableTimeUtcMs": "1751832000000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-shiny-jirachi-masterwork-ticket-nologo-2025.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-shiny-jirachi-masterwork-ticket-nologo-2025.jpg"
     }
   },
   {
@@ -11573,7 +11575,7 @@
       "skuDisableTime": "2025-06-22T23:59:59",
       "skuEnableTimeUtcMs": "1748822400000",
       "skuDisableTimeUtcMs": "1750636799000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-yampers-paw-prints-ticket-nologo-2025.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-yampers-paw-prints-ticket-nologo-2025.jpg"
     }
   },
   {
@@ -11589,7 +11591,7 @@
       "skuDisableTime": "2025-06-22T23:59:59",
       "skuEnableTimeUtcMs": "1748822400000",
       "skuDisableTimeUtcMs": "1750636799000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-yampers-paw-prints-ticket-nologo-2025.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-yampers-paw-prints-ticket-nologo-2025.jpg"
     }
   },
   {
@@ -11619,7 +11621,7 @@
       "skuDisableTime": "2026-04-18T17:00:00",
       "skuEnableTimeUtcMs": "1672570801000",
       "skuDisableTimeUtcMs": "1776531600000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-riolu-hatch-day-2026-nologo.jpg",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-riolu-hatch-day-2026-nologo.jpg",
       "webstoreSkuId": "web-riolu-hatch-day-ultra",
       "webstoreSkuPriceE6": 1990000
     }
@@ -11637,7 +11639,7 @@
       "skuDisableTime": "2026-04-18T17:00:00",
       "skuEnableTimeUtcMs": "1672570801000",
       "skuDisableTimeUtcMs": "1776531600000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-riolu-hatch-day-2026-nologo.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-riolu-hatch-day-2026-nologo.jpg"
     }
   },
   {
@@ -11653,7 +11655,7 @@
       "skuDisableTime": "2026-05-02T17:00:00",
       "skuEnableTimeUtcMs": "1552550400000",
       "skuDisableTimeUtcMs": "1777741200000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-entei-shadow-raid-day-2026-nologo.jpg",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-entei-shadow-raid-day-2026-nologo.jpg",
       "webstoreSkuId": "web-shadow-entei-raid-box-ultra",
       "webstoreSkuPriceE6": 4990000,
       "useEnvironmentPrefix": true
@@ -11689,7 +11691,7 @@
       "skuDisableTime": "2025-11-16T18:00:00",
       "skuEnableTimeUtcMs": "1704067200000",
       "skuDisableTimeUtcMs": "1763316000000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FGO_Wild_Area_2025_Global_1024x512_logo.png",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FGO_Wild_Area_2025_Global_1024x512_logo.png",
       "webstoreSkuId": "web-2025-gowa-ticket-box",
       "webstoreSkuPriceE6": 11990000
     }
@@ -11707,7 +11709,7 @@
       "skuDisableTime": "2025-11-16T18:00:00",
       "skuEnableTimeUtcMs": "1704067200000",
       "skuDisableTimeUtcMs": "1763316000000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FGO_Wild_Area_2025_Global_1024x512_logo.png"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FGO_Wild_Area_2025_Global_1024x512_logo.png"
     }
   },
   {
@@ -11723,7 +11725,7 @@
       "skuDisableTime": "2026-03-01T18:00:00",
       "skuEnableTimeUtcMs": "1577836800000",
       "skuDisableTimeUtcMs": "1772388000000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fgo_tour_kalos_1024x512.jpg",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fgo_tour_kalos_1024x512.jpg",
       "webstoreSkuId": "web-gotour-26-ticket-box",
       "webstoreSkuPriceE6": 9990000
     }
@@ -11741,7 +11743,7 @@
       "skuDisableTime": "2026-03-01T18:00:00",
       "skuEnableTimeUtcMs": "1577836800000",
       "skuDisableTimeUtcMs": "1772388000000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fgo_tour_kalos_1024x512.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fgo_tour_kalos_1024x512.jpg"
     }
   },
   {
@@ -11757,7 +11759,7 @@
       "skuDisableTime": "2026-02-07T20:00:00",
       "skuEnableTimeUtcMs": "1672570803000",
       "skuDisableTimeUtcMs": "1770494400000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2F20260113_pgo_s22_oricorio_1024x576_nologo.jpg",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F20260113_pgo_s22_oricorio_1024x576_nologo.jpg",
       "webstoreSkuId": "web-catch-mastery-feb-26-ticket-box",
       "webstoreSkuPriceE6": 1990000
     }
@@ -11775,7 +11777,7 @@
       "skuDisableTime": "2026-02-07T20:00:00",
       "skuEnableTimeUtcMs": "1672570803000",
       "skuDisableTimeUtcMs": "1770494400000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2F20260113_pgo_s22_oricorio_1024x576_nologo.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F20260113_pgo_s22_oricorio_1024x576_nologo.jpg"
     }
   },
   {
@@ -11791,7 +11793,7 @@
       "skuDisableTime": "2026-06-20T17:00:00",
       "skuEnableTimeUtcMs": "1552550400000",
       "skuDisableTimeUtcMs": "1781974800000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO_MCS_CD_KeyArt_Frigibax_v1-1024x576-nologo.jpg",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FPGO_MCS_CD_KeyArt_Frigibax_v1-1024x576-nologo.jpg",
       "useEnvironmentPrefix": true
     }
   },
@@ -11808,7 +11810,7 @@
       "skuDisableTime": "2026-03-21T17:00:00",
       "skuEnableTimeUtcMs": "1672570801000",
       "skuDisableTimeUtcMs": "1774112400000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-replay-water-research-day-2026-nologo.jpg",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-replay-water-research-day-2026-nologo.jpg",
       "webstoreSkuId": "web-water-research-day-ticket-box",
       "webstoreSkuPriceE6": 1990000
     }
@@ -11826,7 +11828,7 @@
       "skuDisableTime": "2026-03-21T17:00:00",
       "skuEnableTimeUtcMs": "1672570801000",
       "skuDisableTimeUtcMs": "1774112400000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-replay-water-research-day-2026-nologo.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-replay-water-research-day-2026-nologo.jpg"
     }
   },
   {
@@ -11842,7 +11844,7 @@
       "skuDisableTime": "2026-04-25T17:00:00",
       "skuEnableTimeUtcMs": "1672570804000",
       "skuDisableTimeUtcMs": "1777136400000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-gmax-kanto-max-battle-day-2026-nologo.jpg",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-gmax-kanto-max-battle-day-2026-nologo.jpg",
       "webstoreSkuId": "web-gmax-kanto-box-ultra",
       "webstoreSkuPriceE6": 4990000,
       "useEnvironmentPrefix": true
@@ -11861,7 +11863,7 @@
       "skuDisableTime": "2025-12-31T20:00:00",
       "skuEnableTimeUtcMs": "1552550400000",
       "skuDisableTimeUtcMs": "1767211200000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO_MCS_MasterBall_KeyArt_TK_GP_V2_S14_1024x512_nologo.jpg",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FPGO_MCS_MasterBall_KeyArt_TK_GP_V2_S14_1024x512_nologo.jpg",
       "webstoreSkuId": "web-masterball-25-ticket-box",
       "webstoreSkuPriceE6": 7990000
     }
@@ -11879,7 +11881,7 @@
       "skuDisableTime": "2025-12-31T20:00:00",
       "skuEnableTimeUtcMs": "1552550400000",
       "skuDisableTimeUtcMs": "1767211200000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO_MCS_MasterBall_KeyArt_TK_GP_V2_S14_1024x512_nologo.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FPGO_MCS_MasterBall_KeyArt_TK_GP_V2_S14_1024x512_nologo.jpg"
     }
   },
   {
@@ -11896,7 +11898,7 @@
       "skuDisableTime": "2025-11-30T20:00:00",
       "skuEnableTimeUtcMs": "1680775200000",
       "skuDisableTimeUtcMs": "1764532800000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Shiny_Keldeo_KeyArt_v1-1024x576-nologo.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Shiny_Keldeo_KeyArt_v1-1024x576-nologo.jpg"
     }
   },
   {
@@ -11913,7 +11915,7 @@
       "skuDisableTime": "2025-11-30T20:00:00",
       "skuEnableTimeUtcMs": "1680775200000",
       "skuDisableTimeUtcMs": "1764532800000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Shiny_Keldeo_KeyArt_v1-1024x576-nologo.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Shiny_Keldeo_KeyArt_v1-1024x576-nologo.jpg"
     }
   },
   {
@@ -11929,7 +11931,7 @@
       "skuDisableTime": "2026-04-04T17:00:00",
       "skuEnableTimeUtcMs": "1552550400000",
       "skuDisableTimeUtcMs": "1775322000000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-fashion-raid-day-2026-nologo.jpg",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-fashion-raid-day-2026-nologo.jpg",
       "webstoreSkuId": "web-fashion-raid-2026-ticket-box",
       "webstoreSkuPriceE6": 4990000
     }
@@ -11947,7 +11949,7 @@
       "skuDisableTime": "2026-04-04T17:00:00",
       "skuEnableTimeUtcMs": "1552550400000",
       "skuDisableTimeUtcMs": "1775322000000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-fashion-raid-day-2026-nologo.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-fashion-raid-day-2026-nologo.jpg"
     }
   },
   {
@@ -12200,7 +12202,7 @@
       "skuDisableTime": "2025-04-22T20:00:00",
       "skuEnableTimeUtcMs": "1744624800000",
       "skuDisableTimeUtcMs": "1745352000000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-paid-sustainability-week-2026-nologo.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-paid-sustainability-week-2026-nologo.jpg"
     }
   },
   {
@@ -12950,7 +12952,7 @@
       "skuDisableTime": "2026-02-01T20:00:00",
       "skuEnableTimeUtcMs": "1552550400000",
       "skuDisableTimeUtcMs": "1769976000000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Into_The_Depths_LiveOp_2026_v3-1024x576-nologo.jpg",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Into_The_Depths_LiveOp_2026_v3-1024x576-nologo.jpg",
       "webstoreSkuId": "web-encounter-jan-26-ticket-box",
       "webstoreSkuPriceE6": 1990000
     }
@@ -12967,7 +12969,7 @@
       "skuDisableTime": "2026-02-01T20:00:00",
       "skuEnableTimeUtcMs": "1552550400000",
       "skuDisableTimeUtcMs": "1769976000000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Into_The_Depths_LiveOp_2026_v3-1024x576-nologo.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Into_The_Depths_LiveOp_2026_v3-1024x576-nologo.jpg"
     }
   },
   {
@@ -12983,7 +12985,7 @@
       "skuDisableTime": "2025-07-06T20:00:00",
       "skuEnableTimeUtcMs": "1552550400000",
       "skuDisableTimeUtcMs": "1751832000000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-shiny-jirachi-masterwork-ticket-nologo-2025.jpg",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-shiny-jirachi-masterwork-ticket-nologo-2025.jpg",
       "webstoreSkuId": "web-2025-anniversary-ticket-box",
       "webstoreSkuPriceE6": 4990000
     }
@@ -13001,7 +13003,7 @@
       "skuDisableTime": "2025-07-06T20:00:00",
       "skuEnableTimeUtcMs": "1552550400000",
       "skuDisableTimeUtcMs": "1751832000000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-shiny-jirachi-masterwork-ticket-nologo-2025.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-shiny-jirachi-masterwork-ticket-nologo-2025.jpg"
     }
   },
   {
@@ -13017,7 +13019,7 @@
       "skuDisableTime": "2025-06-22T23:59:59",
       "skuEnableTimeUtcMs": "1748822400000",
       "skuDisableTimeUtcMs": "1750636799000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-yampers-paw-prints-ticket-nologo-2025.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-yampers-paw-prints-ticket-nologo-2025.jpg"
     }
   },
   {
@@ -13033,7 +13035,7 @@
       "skuDisableTime": "2025-06-22T23:59:59",
       "skuEnableTimeUtcMs": "1748822400000",
       "skuDisableTimeUtcMs": "1750636799000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-yampers-paw-prints-ticket-nologo-2025.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-yampers-paw-prints-ticket-nologo-2025.jpg"
     }
   },
   {
@@ -13049,7 +13051,7 @@
       "skuDisableTime": "2026-04-18T17:00:00",
       "skuEnableTimeUtcMs": "1672570803000",
       "skuDisableTimeUtcMs": "1776531600000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-riolu-hatch-day-2026-nologo.jpg",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-riolu-hatch-day-2026-nologo.jpg",
       "webstoreSkuId": "web-riolu-hatch-day-ultra",
       "webstoreSkuPriceE6": 1990000
     }
@@ -13067,7 +13069,7 @@
       "skuDisableTime": "2026-04-18T17:00:00",
       "skuEnableTimeUtcMs": "1672570803000",
       "skuDisableTimeUtcMs": "1776531600000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-riolu-hatch-day-2026-nologo.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-riolu-hatch-day-2026-nologo.jpg"
     }
   },
   {
@@ -13084,7 +13086,7 @@
       "skuDisableTime": "2025-11-16T18:00:00",
       "skuEnableTimeUtcMs": "1704067200000",
       "skuDisableTimeUtcMs": "1763316000000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FGO_Wild_Area_2025_Global_1024x512_logo.png",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FGO_Wild_Area_2025_Global_1024x512_logo.png",
       "webstoreSkuId": "web-2025-gowa-ticket-box",
       "webstoreSkuPriceE6": 11990000
     }
@@ -13102,7 +13104,7 @@
       "skuDisableTime": "2025-11-16T18:00:00",
       "skuEnableTimeUtcMs": "1704067200000",
       "skuDisableTimeUtcMs": "1763316000000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FGO_Wild_Area_2025_Global_1024x512_logo.png"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FGO_Wild_Area_2025_Global_1024x512_logo.png"
     }
   },
   {
@@ -13118,7 +13120,7 @@
       "skuDisableTime": "2026-03-01T18:00:00",
       "skuEnableTimeUtcMs": "1577836800000",
       "skuDisableTimeUtcMs": "1772388000000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fgo_tour_kalos_1024x512.jpg",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fgo_tour_kalos_1024x512.jpg",
       "webstoreSkuId": "web-gotour-26-ticket-box",
       "webstoreSkuPriceE6": 9990000
     }
@@ -13136,7 +13138,7 @@
       "skuDisableTime": "2026-03-01T18:00:00",
       "skuEnableTimeUtcMs": "1577836800000",
       "skuDisableTimeUtcMs": "1772388000000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fgo_tour_kalos_1024x512.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fgo_tour_kalos_1024x512.jpg"
     }
   },
   {
@@ -13152,7 +13154,7 @@
       "skuDisableTime": "2026-02-07T20:00:00",
       "skuEnableTimeUtcMs": "1672570801000",
       "skuDisableTimeUtcMs": "1770494400000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2F20260113_pgo_s22_oricorio_1024x576_nologo.jpg",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F20260113_pgo_s22_oricorio_1024x576_nologo.jpg",
       "webstoreSkuId": "web-catch-mastery-feb-26-ticket-box",
       "webstoreSkuPriceE6": 1990000
     }
@@ -13170,7 +13172,7 @@
       "skuDisableTime": "2026-02-07T20:00:00",
       "skuEnableTimeUtcMs": "1672570801000",
       "skuDisableTimeUtcMs": "1770494400000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2F20260113_pgo_s22_oricorio_1024x576_nologo.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F20260113_pgo_s22_oricorio_1024x576_nologo.jpg"
     }
   },
   {
@@ -13186,7 +13188,7 @@
       "skuDisableTime": "2026-03-21T17:00:00",
       "skuEnableTimeUtcMs": "1672570801000",
       "skuDisableTimeUtcMs": "1774112400000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-replay-water-research-day-2026-nologo.jpg",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-replay-water-research-day-2026-nologo.jpg",
       "webstoreSkuId": "web-water-research-day-ticket-box",
       "webstoreSkuPriceE6": 1990000
     }
@@ -13204,7 +13206,7 @@
       "skuDisableTime": "2026-03-21T17:00:00",
       "skuEnableTimeUtcMs": "1672570801000",
       "skuDisableTimeUtcMs": "1774112400000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-replay-water-research-day-2026-nologo.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-replay-water-research-day-2026-nologo.jpg"
     }
   },
   {
@@ -13220,7 +13222,7 @@
       "skuDisableTime": "2025-12-31T20:00:00",
       "skuEnableTimeUtcMs": "1552550400000",
       "skuDisableTimeUtcMs": "1767211200000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO_MCS_MasterBall_KeyArt_TK_GP_V2_S14_1024x512_nologo.jpg",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FPGO_MCS_MasterBall_KeyArt_TK_GP_V2_S14_1024x512_nologo.jpg",
       "webstoreSkuId": "web-masterball-25-ticket-box",
       "webstoreSkuPriceE6": 7990000
     }
@@ -13238,7 +13240,7 @@
       "skuDisableTime": "2025-12-31T20:00:00",
       "skuEnableTimeUtcMs": "1552550400000",
       "skuDisableTimeUtcMs": "1767211200000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO_MCS_MasterBall_KeyArt_TK_GP_V2_S14_1024x512_nologo.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FPGO_MCS_MasterBall_KeyArt_TK_GP_V2_S14_1024x512_nologo.jpg"
     }
   },
   {
@@ -13255,7 +13257,7 @@
       "skuDisableTime": "2025-11-30T20:00:00",
       "skuEnableTimeUtcMs": "1680775200000",
       "skuDisableTimeUtcMs": "1764532800000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Shiny_Keldeo_KeyArt_v1-1024x576-nologo.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Shiny_Keldeo_KeyArt_v1-1024x576-nologo.jpg"
     }
   },
   {
@@ -13272,7 +13274,7 @@
       "skuDisableTime": "2025-11-30T20:00:00",
       "skuEnableTimeUtcMs": "1680775200000",
       "skuDisableTimeUtcMs": "1764532800000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Shiny_Keldeo_KeyArt_v1-1024x576-nologo.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Shiny_Keldeo_KeyArt_v1-1024x576-nologo.jpg"
     }
   },
   {
@@ -13288,7 +13290,7 @@
       "skuDisableTime": "2026-04-04T17:00:00",
       "skuEnableTimeUtcMs": "1552550400000",
       "skuDisableTimeUtcMs": "1775322000000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-fashion-raid-day-2026-nologo.jpg",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-fashion-raid-day-2026-nologo.jpg",
       "webstoreSkuId": "web-fashion-raid-2026-ticket-box",
       "webstoreSkuPriceE6": 4990000
     }
@@ -13306,7 +13308,7 @@
       "skuDisableTime": "2026-04-04T17:00:00",
       "skuEnableTimeUtcMs": "1552550400000",
       "skuDisableTimeUtcMs": "1775322000000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fpgo-fashion-raid-day-2026-nologo.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-fashion-raid-day-2026-nologo.jpg"
     }
   },
   {
@@ -13321,35 +13323,7 @@
       "skuDisableTime": "2026-07-14T23:59:59",
       "skuEnableTimeUtcMs": "1783296000000",
       "skuDisableTimeUtcMs": "1784073599000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FEvent%20Pass%20Placeholder.png"
-    }
-  },
-  {
-    "templateId": "pgorelease.june1_2026_deluxe_event_pass_track_unlock",
-    "data": {
-      "sku": "pgorelease.june1_2026_deluxe_event_pass_track_unlock",
-      "sortOrder": 1,
-      "title": "season_pass_premium_track_title_amer_2026",
-      "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
-      "skuEnableTime": "2025-06-02T10:00:00",
-      "skuDisableTime": "2026-06-10T20:00:00",
-      "skuEnableTimeUtcMs": "1748858400000",
-      "skuDisableTimeUtcMs": "1781121600000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fe3025fe6_PGO-MCS_GO_Fest_2026_AMER_Global_LiveOp_v2-1024x576.jpg"
-    }
-  },
-  {
-    "templateId": "pgorelease.june1_2026_deluxe_event_pass_track_unlock_plus_points",
-    "data": {
-      "sku": "pgorelease.june1_2026_deluxe_event_pass_track_unlock_plus_points",
-      "sortOrder": 1,
-      "title": "season_pass_premium_track_plus_six_ranks_title_amer_2026",
-      "description": "event_pass_plus_points_6_ranks_description",
-      "skuEnableTime": "2025-06-02T10:00:00",
-      "skuDisableTime": "2026-06-10T20:00:00",
-      "skuEnableTimeUtcMs": "1748858400000",
-      "skuDisableTimeUtcMs": "1781121600000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fe3025fe6_PGO-MCS_GO_Fest_2026_AMER_Global_LiveOp_v2-1024x576.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FEvent%20Pass%20Placeholder.png"
     }
   },
   {
@@ -13363,7 +13337,7 @@
       "skuDisableTime": "2026-06-17T20:00:00",
       "skuEnableTimeUtcMs": "1749463200000",
       "skuDisableTimeUtcMs": "1781726400000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2F1e924512_PGO-MCS_GO_Fest_2026_EMEA_Global_LiveOp_v3-1024x576.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F1e924512_PGO-MCS_GO_Fest_2026_EMEA_Global_LiveOp_v3-1024x576.jpg"
     }
   },
   {
@@ -13377,7 +13351,7 @@
       "skuDisableTime": "2026-06-17T20:00:00",
       "skuEnableTimeUtcMs": "1749463200000",
       "skuDisableTimeUtcMs": "1781726400000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2F1e924512_PGO-MCS_GO_Fest_2026_EMEA_Global_LiveOp_v3-1024x576.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F1e924512_PGO-MCS_GO_Fest_2026_EMEA_Global_LiveOp_v3-1024x576.jpg"
     }
   },
   {
@@ -13392,7 +13366,7 @@
       "skuDisableTime": "2025-05-20T20:00:00",
       "skuEnableTimeUtcMs": "1747044000000",
       "skuDisableTimeUtcMs": "1747771200000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Spring_Marathon_2026_Event_Pass_v2-1024x576.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Spring_Marathon_2026_Event_Pass_v2-1024x576.jpg"
     }
   },
   {
@@ -13407,7 +13381,7 @@
       "skuDisableTime": "2025-05-20T20:00:00",
       "skuEnableTimeUtcMs": "1747044000000",
       "skuDisableTimeUtcMs": "1747771200000",
-      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Spring_Marathon_2026_Event_Pass_v2-1024x576.jpg"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Spring_Marathon_2026_Event_Pass_v2-1024x576.jpg"
     }
   },
   {
