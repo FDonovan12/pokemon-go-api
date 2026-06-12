@@ -27976,107 +27976,10 @@
         "dodgeDistance": 1,
         "cameraDistance": 3.75,
         "minPokemonActionFrequencyS": 0.2,
-        "maxPokemonActionFrequencyS": 1.6
-      },
-      "stats": {
-        "baseStamina": 163,
-        "baseAttack": 85,
-        "baseDefense": 121
-      },
-      "quickMoves": [
-        "ICE_SHARD_FAST",
-        "LICK_FAST"
-      ],
-      "cinematicMoves": [
-        "AURORA_BEAM",
-        "ICY_WIND",
-        "AQUA_TAIL"
-      ],
-      "animationTime": [
-        2.6667,
-        0.6667,
-        1.8333,
-        1.6667,
-        0,
-        2,
-        2,
-        0
-      ],
-      "evolutionIds": [
-        "DEWGONG"
-      ],
-      "evolutionPips": 1,
-      "pokedexHeightM": 1.1,
-      "pokedexWeightKg": 90,
-      "heightStdDev": 0.1375,
-      "weightStdDev": 11.25,
-      "familyId": "FAMILY_SEEL",
-      "candyToEvolve": 50,
-      "kmBuddyDistance": 3,
-      "modelHeight": 0.8,
-      "evolutionBranch": [
-        {
-          "evolution": "DEWGONG",
-          "candyCost": 50
-        }
-      ],
-      "modelScaleV2": 1,
-      "buddyOffsetMale": [
-        0,
-        0,
-        0
-      ],
-      "buddyOffsetFemale": [
-        0,
-        0,
-        0
-      ],
-      "buddyScale": 19,
-      "thirdMove": {
-        "stardustToUnlock": 50000,
-        "candyToUnlock": 50
-      },
-      "isTransferable": true,
-      "isDeployable": true,
-      "isTradable": true,
-      "buddyGroupNumber": 2,
-      "eliteQuickMove": [
-        "WATER_GUN_FAST"
-      ],
-      "eliteCinematicMove": [
-        "AQUA_JET"
-      ],
-      "ibfc": {},
-      "breadTierGroup": "GROUP_2"
-    }
-  },
-  {
-    "templateId": "V0086_POKEMON_SEEL_NORMAL",
-    "data": {
-      "pokemonId": "SEEL",
-      "modelScale": 1.1,
-      "type": "POKEMON_TYPE_WATER",
-      "camera": {
-        "diskRadiusM": 0.4125,
-        "cylinderRadiusM": 0.5,
-        "cylinderHeightM": 0.55,
-        "shoulderModeScale": 0.5
-      },
-      "encounter": {
-        "collisionRadiusM": 0.275,
-        "collisionHeightM": 0.4125,
-        "collisionHeadRadiusM": 0.22,
-        "movementType": "MOVEMENT_JUMP",
-        "movementTimerS": 10,
-        "jumpTimeS": 0.9,
-        "attackTimerS": 29,
-        "attackProbability": 0.1,
-        "dodgeProbability": 0.15,
-        "dodgeDurationS": 1,
-        "dodgeDistance": 1,
-        "cameraDistance": 3.75,
-        "minPokemonActionFrequencyS": 0.2,
-        "maxPokemonActionFrequencyS": 1.6
+        "maxPokemonActionFrequencyS": 1.6,
+        "shadowBaseCaptureRate": 0.5,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
       },
       "stats": {
         "baseStamina": 163,
@@ -28118,7 +28021,118 @@
         {
           "evolution": "DEWGONG",
           "candyCost": 50,
-          "form": "DEWGONG_NORMAL"
+          "candyCostPurified": 45
+        }
+      ],
+      "modelScaleV2": 1,
+      "buddyOffsetMale": [
+        0,
+        0,
+        0
+      ],
+      "buddyOffsetFemale": [
+        0,
+        0,
+        0
+      ],
+      "buddyScale": 19,
+      "thirdMove": {
+        "stardustToUnlock": 50000,
+        "candyToUnlock": 50
+      },
+      "isTransferable": true,
+      "isDeployable": true,
+      "isTradable": true,
+      "shadow": {
+        "purificationStardustNeeded": 3000,
+        "purificationCandyNeeded": 3,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
+      "buddyGroupNumber": 2,
+      "eliteQuickMove": [
+        "WATER_GUN_FAST"
+      ],
+      "eliteCinematicMove": [
+        "AQUA_JET"
+      ],
+      "ibfc": {},
+      "breadTierGroup": "GROUP_2"
+    }
+  },
+  {
+    "templateId": "V0086_POKEMON_SEEL_NORMAL",
+    "data": {
+      "pokemonId": "SEEL",
+      "modelScale": 1.1,
+      "type": "POKEMON_TYPE_WATER",
+      "camera": {
+        "diskRadiusM": 0.4125,
+        "cylinderRadiusM": 0.5,
+        "cylinderHeightM": 0.55,
+        "shoulderModeScale": 0.5
+      },
+      "encounter": {
+        "collisionRadiusM": 0.275,
+        "collisionHeightM": 0.4125,
+        "collisionHeadRadiusM": 0.22,
+        "movementType": "MOVEMENT_JUMP",
+        "movementTimerS": 10,
+        "jumpTimeS": 0.9,
+        "attackTimerS": 29,
+        "attackProbability": 0.1,
+        "dodgeProbability": 0.15,
+        "dodgeDurationS": 1,
+        "dodgeDistance": 1,
+        "cameraDistance": 3.75,
+        "minPokemonActionFrequencyS": 0.2,
+        "maxPokemonActionFrequencyS": 1.6,
+        "shadowBaseCaptureRate": 0.5,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
+      },
+      "stats": {
+        "baseStamina": 163,
+        "baseAttack": 85,
+        "baseDefense": 121
+      },
+      "quickMoves": [
+        "ICE_SHARD_FAST",
+        "LICK_FAST"
+      ],
+      "cinematicMoves": [
+        "AURORA_BEAM",
+        "ICY_WIND",
+        "AQUA_TAIL"
+      ],
+      "animationTime": [
+        2.6667,
+        0.6667,
+        1.8333,
+        1.6667,
+        0,
+        2,
+        2,
+        0
+      ],
+      "evolutionIds": [
+        "DEWGONG"
+      ],
+      "evolutionPips": 1,
+      "pokedexHeightM": 1.1,
+      "pokedexWeightKg": 90,
+      "heightStdDev": 0.1375,
+      "weightStdDev": 11.25,
+      "familyId": "FAMILY_SEEL",
+      "candyToEvolve": 50,
+      "kmBuddyDistance": 3,
+      "modelHeight": 0.8,
+      "evolutionBranch": [
+        {
+          "evolution": "DEWGONG",
+          "candyCost": 50,
+          "form": "DEWGONG_NORMAL",
+          "candyCostPurified": 45
         }
       ],
       "modelScaleV2": 1,
@@ -28141,6 +28155,12 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "shadow": {
+        "purificationStardustNeeded": 3000,
+        "purificationCandyNeeded": 3,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
       "buddyGroupNumber": 2,
       "eliteQuickMove": [
         "WATER_GUN_FAST"
@@ -28183,7 +28203,10 @@
         "cameraDistance": 3.9375,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6,
-        "bonusXlCandyCaptureReward": 1
+        "bonusXlCandyCaptureReward": 1,
+        "shadowBaseCaptureRate": 0.2,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
       },
       "stats": {
         "baseStamina": 207,
@@ -28239,6 +28262,12 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "shadow": {
+        "purificationStardustNeeded": 3000,
+        "purificationCandyNeeded": 3,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
       "buddyGroupNumber": 2,
       "eliteQuickMove": [
         "ICE_SHARD_FAST"
@@ -28282,7 +28311,10 @@
         "cameraDistance": 3.9375,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6,
-        "bonusXlCandyCaptureReward": 1
+        "bonusXlCandyCaptureReward": 1,
+        "shadowBaseCaptureRate": 0.2,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
       },
       "stats": {
         "baseStamina": 207,
@@ -28339,6 +28371,12 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "shadow": {
+        "purificationStardustNeeded": 3000,
+        "purificationCandyNeeded": 3,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
       "buddyGroupNumber": 2,
       "eliteQuickMove": [
         "ICE_SHARD_FAST"
@@ -47285,105 +47323,10 @@
         "dodgeDistance": 1,
         "cameraDistance": 4.125,
         "minPokemonActionFrequencyS": 0.2,
-        "maxPokemonActionFrequencyS": 1.6
-      },
-      "stats": {
-        "baseStamina": 155,
-        "baseAttack": 67,
-        "baseDefense": 88
-      },
-      "quickMoves": [
-        "FEINT_ATTACK_FAST",
-        "PECK_FAST"
-      ],
-      "cinematicMoves": [
-        "AERIAL_ACE",
-        "SKY_ATTACK",
-        "NIGHT_SHADE"
-      ],
-      "animationTime": [
-        1.3333,
-        0.6667,
-        1.6667,
-        2,
-        0,
-        2,
-        3,
-        3
-      ],
-      "evolutionIds": [
-        "NOCTOWL"
-      ],
-      "evolutionPips": 1,
-      "pokedexHeightM": 0.71,
-      "pokedexWeightKg": 21.2,
-      "heightStdDev": 0.08875,
-      "weightStdDev": 2.65,
-      "familyId": "FAMILY_HOOTHOOT",
-      "candyToEvolve": 50,
-      "kmBuddyDistance": 1,
-      "modelHeight": 0.7,
-      "evolutionBranch": [
-        {
-          "evolution": "NOCTOWL",
-          "candyCost": 50
-        }
-      ],
-      "modelScaleV2": 1,
-      "buddyOffsetMale": [
-        0,
-        0,
-        6.89
-      ],
-      "buddyOffsetFemale": [
-        0,
-        0,
-        6.89
-      ],
-      "buddyScale": 19,
-      "thirdMove": {
-        "stardustToUnlock": 10000,
-        "candyToUnlock": 25
-      },
-      "isTransferable": true,
-      "isDeployable": true,
-      "isTradable": true,
-      "buddyGroupNumber": 5,
-      "allowNoevolveEvolution": [
-        "JAN_2022_NOEVOLVE"
-      ],
-      "ibfc": {},
-      "breadTierGroup": "GROUP_1"
-    }
-  },
-  {
-    "templateId": "V0163_POKEMON_HOOTHOOT_NORMAL",
-    "data": {
-      "pokemonId": "HOOTHOOT",
-      "modelScale": 1.17,
-      "type": "POKEMON_TYPE_NORMAL",
-      "type2": "POKEMON_TYPE_FLYING",
-      "camera": {
-        "diskRadiusM": 0.555,
-        "cylinderRadiusM": 0.5,
-        "cylinderHeightM": 0.861,
-        "shoulderModeScale": 0.5
-      },
-      "encounter": {
-        "collisionRadiusM": 0.3,
-        "collisionHeightM": 0.3,
-        "collisionHeadRadiusM": 0.3,
-        "movementType": "MOVEMENT_JUMP",
-        "movementTimerS": 11,
-        "jumpTimeS": 1.5,
-        "attackTimerS": 20,
-        "attackProbability": 0.1,
-        "dodgeProbability": 0.15,
-        "dodgeDurationS": 1,
-        "dodgeDistance": 1,
-        "cameraDistance": 4.125,
-        "minPokemonActionFrequencyS": 0.2,
-        "maxPokemonActionFrequencyS": 1.6
+        "maxPokemonActionFrequencyS": 1.6,
+        "shadowBaseCaptureRate": 0.5,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
       },
       "stats": {
         "baseStamina": 155,
@@ -47425,7 +47368,116 @@
         {
           "evolution": "NOCTOWL",
           "candyCost": 50,
-          "form": "NOCTOWL_NORMAL"
+          "candyCostPurified": 45
+        }
+      ],
+      "modelScaleV2": 1,
+      "buddyOffsetMale": [
+        0,
+        0,
+        6.89
+      ],
+      "buddyOffsetFemale": [
+        0,
+        0,
+        6.89
+      ],
+      "buddyScale": 19,
+      "thirdMove": {
+        "stardustToUnlock": 10000,
+        "candyToUnlock": 25
+      },
+      "isTransferable": true,
+      "isDeployable": true,
+      "isTradable": true,
+      "shadow": {
+        "purificationStardustNeeded": 1000,
+        "purificationCandyNeeded": 1,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
+      "buddyGroupNumber": 5,
+      "allowNoevolveEvolution": [
+        "JAN_2022_NOEVOLVE"
+      ],
+      "ibfc": {},
+      "breadTierGroup": "GROUP_1"
+    }
+  },
+  {
+    "templateId": "V0163_POKEMON_HOOTHOOT_NORMAL",
+    "data": {
+      "pokemonId": "HOOTHOOT",
+      "modelScale": 1.17,
+      "type": "POKEMON_TYPE_NORMAL",
+      "type2": "POKEMON_TYPE_FLYING",
+      "camera": {
+        "diskRadiusM": 0.555,
+        "cylinderRadiusM": 0.5,
+        "cylinderHeightM": 0.861,
+        "shoulderModeScale": 0.5
+      },
+      "encounter": {
+        "collisionRadiusM": 0.3,
+        "collisionHeightM": 0.3,
+        "collisionHeadRadiusM": 0.3,
+        "movementType": "MOVEMENT_JUMP",
+        "movementTimerS": 11,
+        "jumpTimeS": 1.5,
+        "attackTimerS": 20,
+        "attackProbability": 0.1,
+        "dodgeProbability": 0.15,
+        "dodgeDurationS": 1,
+        "dodgeDistance": 1,
+        "cameraDistance": 4.125,
+        "minPokemonActionFrequencyS": 0.2,
+        "maxPokemonActionFrequencyS": 1.6,
+        "shadowBaseCaptureRate": 0.5,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
+      },
+      "stats": {
+        "baseStamina": 155,
+        "baseAttack": 67,
+        "baseDefense": 88
+      },
+      "quickMoves": [
+        "FEINT_ATTACK_FAST",
+        "PECK_FAST"
+      ],
+      "cinematicMoves": [
+        "AERIAL_ACE",
+        "SKY_ATTACK",
+        "NIGHT_SHADE"
+      ],
+      "animationTime": [
+        1.3333,
+        0.6667,
+        1.6667,
+        2,
+        0,
+        2,
+        3,
+        3
+      ],
+      "evolutionIds": [
+        "NOCTOWL"
+      ],
+      "evolutionPips": 1,
+      "pokedexHeightM": 0.71,
+      "pokedexWeightKg": 21.2,
+      "heightStdDev": 0.08875,
+      "weightStdDev": 2.65,
+      "familyId": "FAMILY_HOOTHOOT",
+      "candyToEvolve": 50,
+      "kmBuddyDistance": 1,
+      "modelHeight": 0.7,
+      "evolutionBranch": [
+        {
+          "evolution": "NOCTOWL",
+          "candyCost": 50,
+          "form": "NOCTOWL_NORMAL",
+          "candyCostPurified": 45
         }
       ],
       "modelScaleV2": 1,
@@ -47448,6 +47500,12 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "shadow": {
+        "purificationStardustNeeded": 1000,
+        "purificationCandyNeeded": 1,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
       "buddyGroupNumber": 5,
       "allowNoevolveEvolution": [
         "JAN_2022_NOEVOLVE"
@@ -47487,7 +47545,10 @@
         "cameraDistance": 4,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6,
-        "bonusXlCandyCaptureReward": 1
+        "bonusXlCandyCaptureReward": 1,
+        "shadowBaseCaptureRate": 0.15,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
       },
       "stats": {
         "baseStamina": 225,
@@ -47543,6 +47604,12 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "shadow": {
+        "purificationStardustNeeded": 1000,
+        "purificationCandyNeeded": 1,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
       "buddyGroupNumber": 5,
       "useIrisFlyingPlacement": true,
       "irisPhotoEmote1": "PhysicalAttack",
@@ -47581,7 +47648,10 @@
         "cameraDistance": 4,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6,
-        "bonusXlCandyCaptureReward": 1
+        "bonusXlCandyCaptureReward": 1,
+        "shadowBaseCaptureRate": 0.15,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
       },
       "stats": {
         "baseStamina": 225,
@@ -47638,6 +47708,12 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "shadow": {
+        "purificationStardustNeeded": 1000,
+        "purificationCandyNeeded": 1,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
       "buddyGroupNumber": 5,
       "useIrisFlyingPlacement": true,
       "irisPhotoEmote1": "PhysicalAttack",
@@ -63830,7 +63906,7 @@
             "baseDefense": 228
           },
           "averageHeightM": 1.7,
-          "averageWeightKg": 50.5,
+          "averageWeightKg": 40.4,
           "typeOverride1": "POKEMON_TYPE_STEEL",
           "typeOverride2": "POKEMON_TYPE_FLYING",
           "camera": {
@@ -63842,7 +63918,7 @@
           "modelHeight": 1.1
         }
       ],
-      "buddyWalkedMegaEnergyAward": 15,
+      "buddyWalkedMegaEnergyAward": 25,
       "useIrisFlyingPlacement": true,
       "irisPhotoEmote1": "PhysicalAttack",
       "ibfc": {},
@@ -63958,7 +64034,7 @@
             "baseDefense": 228
           },
           "averageHeightM": 1.7,
-          "averageWeightKg": 50.5,
+          "averageWeightKg": 40.4,
           "typeOverride1": "POKEMON_TYPE_STEEL",
           "typeOverride2": "POKEMON_TYPE_FLYING",
           "camera": {
@@ -63970,7 +64046,7 @@
           "modelHeight": 1.1
         }
       ],
-      "buddyWalkedMegaEnergyAward": 15,
+      "buddyWalkedMegaEnergyAward": 25,
       "useIrisFlyingPlacement": true,
       "irisPhotoEmote1": "PhysicalAttack",
       "ibfc": {},
@@ -150104,98 +150180,10 @@
         "dodgeDistance": 1,
         "cameraDistance": 3,
         "minPokemonActionFrequencyS": 0.2,
-        "maxPokemonActionFrequencyS": 1.6
-      },
-      "stats": {
-        "baseStamina": 130,
-        "baseAttack": 154,
-        "baseDefense": 101
-      },
-      "quickMoves": [
-        "SCRATCH_FAST",
-        "IRON_TAIL_FAST"
-      ],
-      "cinematicMoves": [
-        "DRAGON_CLAW",
-        "AQUA_TAIL",
-        "DRAGON_PULSE"
-      ],
-      "animationTime": [
-        1.9,
-        0.6667,
-        1.8,
-        1.7667,
-        0,
-        2.4,
-        0.8667,
-        0
-      ],
-      "evolutionPips": 1,
-      "pokedexHeightM": 0.6,
-      "pokedexWeightKg": 18,
-      "heightStdDev": 0.075,
-      "weightStdDev": 2.25,
-      "familyId": "FAMILY_AXEW",
-      "candyToEvolve": 25,
-      "kmBuddyDistance": 5,
-      "modelHeight": 0.6,
-      "evolutionBranch": [
-        {
-          "evolution": "FRAXURE",
-          "candyCost": 25
-        }
-      ],
-      "modelScaleV2": 1,
-      "buddyOffsetMale": [
-        9,
-        0,
-        -26.6
-      ],
-      "buddyOffsetFemale": [
-        9,
-        0,
-        -26.6
-      ],
-      "buddyScale": 19,
-      "thirdMove": {
-        "stardustToUnlock": 75000,
-        "candyToUnlock": 75
-      },
-      "isTransferable": true,
-      "isDeployable": true,
-      "isTradable": true,
-      "buddyGroupNumber": 2,
-      "ibfc": {},
-      "breadTierGroup": "GROUP_3"
-    }
-  },
-  {
-    "templateId": "V0610_POKEMON_AXEW_NORMAL",
-    "data": {
-      "pokemonId": "AXEW",
-      "modelScale": 1.26,
-      "type": "POKEMON_TYPE_DRAGON",
-      "camera": {
-        "diskRadiusM": 0.378,
-        "cylinderRadiusM": 0.34,
-        "cylinderHeightM": 0.6,
-        "shoulderModeScale": 0.5
-      },
-      "encounter": {
-        "collisionRadiusM": 0.12,
-        "collisionHeightM": 0.1,
-        "collisionHeadRadiusM": 0.13,
-        "movementType": "MOVEMENT_JUMP",
-        "movementTimerS": 10,
-        "jumpTimeS": 0.8,
-        "attackTimerS": 29,
-        "attackProbability": 0.1,
-        "dodgeProbability": 0.15,
-        "dodgeDurationS": 1,
-        "dodgeDistance": 1,
-        "cameraDistance": 3,
-        "minPokemonActionFrequencyS": 0.2,
-        "maxPokemonActionFrequencyS": 1.6
+        "maxPokemonActionFrequencyS": 1.6,
+        "shadowBaseCaptureRate": 0.4,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
       },
       "stats": {
         "baseStamina": 130,
@@ -150234,7 +150222,109 @@
         {
           "evolution": "FRAXURE",
           "candyCost": 25,
-          "form": "FRAXURE_NORMAL"
+          "candyCostPurified": 22
+        }
+      ],
+      "modelScaleV2": 1,
+      "buddyOffsetMale": [
+        9,
+        0,
+        -26.6
+      ],
+      "buddyOffsetFemale": [
+        9,
+        0,
+        -26.6
+      ],
+      "buddyScale": 19,
+      "thirdMove": {
+        "stardustToUnlock": 75000,
+        "candyToUnlock": 75
+      },
+      "isTransferable": true,
+      "isDeployable": true,
+      "isTradable": true,
+      "shadow": {
+        "purificationStardustNeeded": 5000,
+        "purificationCandyNeeded": 5,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
+      "buddyGroupNumber": 2,
+      "ibfc": {},
+      "breadTierGroup": "GROUP_3"
+    }
+  },
+  {
+    "templateId": "V0610_POKEMON_AXEW_NORMAL",
+    "data": {
+      "pokemonId": "AXEW",
+      "modelScale": 1.26,
+      "type": "POKEMON_TYPE_DRAGON",
+      "camera": {
+        "diskRadiusM": 0.378,
+        "cylinderRadiusM": 0.34,
+        "cylinderHeightM": 0.6,
+        "shoulderModeScale": 0.5
+      },
+      "encounter": {
+        "collisionRadiusM": 0.12,
+        "collisionHeightM": 0.1,
+        "collisionHeadRadiusM": 0.13,
+        "movementType": "MOVEMENT_JUMP",
+        "movementTimerS": 10,
+        "jumpTimeS": 0.8,
+        "attackTimerS": 29,
+        "attackProbability": 0.1,
+        "dodgeProbability": 0.15,
+        "dodgeDurationS": 1,
+        "dodgeDistance": 1,
+        "cameraDistance": 3,
+        "minPokemonActionFrequencyS": 0.2,
+        "maxPokemonActionFrequencyS": 1.6,
+        "shadowBaseCaptureRate": 0.4,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
+      },
+      "stats": {
+        "baseStamina": 130,
+        "baseAttack": 154,
+        "baseDefense": 101
+      },
+      "quickMoves": [
+        "SCRATCH_FAST",
+        "IRON_TAIL_FAST"
+      ],
+      "cinematicMoves": [
+        "DRAGON_CLAW",
+        "AQUA_TAIL",
+        "DRAGON_PULSE"
+      ],
+      "animationTime": [
+        1.9,
+        0.6667,
+        1.8,
+        1.7667,
+        0,
+        2.4,
+        0.8667,
+        0
+      ],
+      "evolutionPips": 1,
+      "pokedexHeightM": 0.6,
+      "pokedexWeightKg": 18,
+      "heightStdDev": 0.075,
+      "weightStdDev": 2.25,
+      "familyId": "FAMILY_AXEW",
+      "candyToEvolve": 25,
+      "kmBuddyDistance": 5,
+      "modelHeight": 0.6,
+      "evolutionBranch": [
+        {
+          "evolution": "FRAXURE",
+          "candyCost": 25,
+          "form": "FRAXURE_NORMAL",
+          "candyCostPurified": 22
         }
       ],
       "modelScaleV2": 1,
@@ -150257,6 +150347,12 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "shadow": {
+        "purificationStardustNeeded": 5000,
+        "purificationCandyNeeded": 5,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
       "buddyGroupNumber": 2,
       "ibfc": {},
       "breadTierGroup": "GROUP_3"
@@ -150291,102 +150387,10 @@
         "cameraDistance": 4.5,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6,
-        "bonusXlCandyCaptureReward": 1
-      },
-      "stats": {
-        "baseStamina": 165,
-        "baseAttack": 212,
-        "baseDefense": 123
-      },
-      "quickMoves": [
-        "DRAGON_TAIL_FAST",
-        "IRON_TAIL_FAST"
-      ],
-      "cinematicMoves": [
-        "DRAGON_CLAW",
-        "AQUA_TAIL",
-        "NIGHT_SLASH"
-      ],
-      "animationTime": [
-        1.9,
-        0.6667,
-        1.8,
-        1.7667,
-        0,
-        2.4,
-        0.8667,
-        0
-      ],
-      "evolutionPips": 1,
-      "pokedexHeightM": 1,
-      "pokedexWeightKg": 36,
-      "parentPokemonId": "AXEW",
-      "heightStdDev": 0.125,
-      "weightStdDev": 4.5,
-      "familyId": "FAMILY_AXEW",
-      "candyToEvolve": 25,
-      "kmBuddyDistance": 5,
-      "modelHeight": 0.95,
-      "evolutionBranch": [
-        {
-          "evolution": "HAXORUS",
-          "candyCost": 100
-        }
-      ],
-      "modelScaleV2": 1.1,
-      "buddyOffsetMale": [
-        9.4,
-        0,
-        -44.6
-      ],
-      "buddyOffsetFemale": [
-        9.4,
-        0,
-        -44.6
-      ],
-      "buddyScale": 19,
-      "thirdMove": {
-        "stardustToUnlock": 75000,
-        "candyToUnlock": 75
-      },
-      "isTransferable": true,
-      "isDeployable": true,
-      "isTradable": true,
-      "buddyGroupNumber": 2,
-      "ibfc": {},
-      "breadTierGroup": "GROUP_3"
-    }
-  },
-  {
-    "templateId": "V0611_POKEMON_FRAXURE_NORMAL",
-    "data": {
-      "pokemonId": "FRAXURE",
-      "modelScale": 1.26,
-      "type": "POKEMON_TYPE_DRAGON",
-      "camera": {
-        "diskRadiusM": 0.378,
-        "cylinderRadiusM": 0.66,
-        "cylinderHeightM": 0.87,
-        "shoulderModeScale": 0.5
-      },
-      "encounter": {
-        "collisionRadiusM": 0.22,
-        "collisionHeightM": 0.1,
-        "collisionHeadRadiusM": 0.2,
-        "movementType": "MOVEMENT_JUMP",
-        "movementTimerS": 10,
-        "jumpTimeS": 1,
-        "attackTimerS": 29,
-        "bonusCandyCaptureReward": 2,
-        "bonusStardustCaptureReward": 200,
-        "attackProbability": 0.1,
-        "dodgeProbability": 0.15,
-        "dodgeDurationS": 1,
-        "dodgeDistance": 1,
-        "cameraDistance": 4.5,
-        "minPokemonActionFrequencyS": 0.2,
-        "maxPokemonActionFrequencyS": 1.6,
-        "bonusXlCandyCaptureReward": 1
+        "bonusXlCandyCaptureReward": 1,
+        "shadowBaseCaptureRate": 0.1,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
       },
       "stats": {
         "baseStamina": 165,
@@ -150426,7 +150430,113 @@
         {
           "evolution": "HAXORUS",
           "candyCost": 100,
-          "form": "HAXORUS_NORMAL"
+          "candyCostPurified": 90
+        }
+      ],
+      "modelScaleV2": 1.1,
+      "buddyOffsetMale": [
+        9.4,
+        0,
+        -44.6
+      ],
+      "buddyOffsetFemale": [
+        9.4,
+        0,
+        -44.6
+      ],
+      "buddyScale": 19,
+      "thirdMove": {
+        "stardustToUnlock": 75000,
+        "candyToUnlock": 75
+      },
+      "isTransferable": true,
+      "isDeployable": true,
+      "isTradable": true,
+      "shadow": {
+        "purificationStardustNeeded": 5000,
+        "purificationCandyNeeded": 5,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
+      "buddyGroupNumber": 2,
+      "ibfc": {},
+      "breadTierGroup": "GROUP_3"
+    }
+  },
+  {
+    "templateId": "V0611_POKEMON_FRAXURE_NORMAL",
+    "data": {
+      "pokemonId": "FRAXURE",
+      "modelScale": 1.26,
+      "type": "POKEMON_TYPE_DRAGON",
+      "camera": {
+        "diskRadiusM": 0.378,
+        "cylinderRadiusM": 0.66,
+        "cylinderHeightM": 0.87,
+        "shoulderModeScale": 0.5
+      },
+      "encounter": {
+        "collisionRadiusM": 0.22,
+        "collisionHeightM": 0.1,
+        "collisionHeadRadiusM": 0.2,
+        "movementType": "MOVEMENT_JUMP",
+        "movementTimerS": 10,
+        "jumpTimeS": 1,
+        "attackTimerS": 29,
+        "bonusCandyCaptureReward": 2,
+        "bonusStardustCaptureReward": 200,
+        "attackProbability": 0.1,
+        "dodgeProbability": 0.15,
+        "dodgeDurationS": 1,
+        "dodgeDistance": 1,
+        "cameraDistance": 4.5,
+        "minPokemonActionFrequencyS": 0.2,
+        "maxPokemonActionFrequencyS": 1.6,
+        "bonusXlCandyCaptureReward": 1,
+        "shadowBaseCaptureRate": 0.1,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
+      },
+      "stats": {
+        "baseStamina": 165,
+        "baseAttack": 212,
+        "baseDefense": 123
+      },
+      "quickMoves": [
+        "DRAGON_TAIL_FAST",
+        "IRON_TAIL_FAST"
+      ],
+      "cinematicMoves": [
+        "DRAGON_CLAW",
+        "AQUA_TAIL",
+        "NIGHT_SLASH"
+      ],
+      "animationTime": [
+        1.9,
+        0.6667,
+        1.8,
+        1.7667,
+        0,
+        2.4,
+        0.8667,
+        0
+      ],
+      "evolutionPips": 1,
+      "pokedexHeightM": 1,
+      "pokedexWeightKg": 36,
+      "parentPokemonId": "AXEW",
+      "heightStdDev": 0.125,
+      "weightStdDev": 4.5,
+      "familyId": "FAMILY_AXEW",
+      "candyToEvolve": 25,
+      "kmBuddyDistance": 5,
+      "modelHeight": 0.95,
+      "evolutionBranch": [
+        {
+          "evolution": "HAXORUS",
+          "candyCost": 100,
+          "form": "HAXORUS_NORMAL",
+          "candyCostPurified": 90
         }
       ],
       "modelScaleV2": 1.1,
@@ -150449,6 +150559,12 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "shadow": {
+        "purificationStardustNeeded": 5000,
+        "purificationCandyNeeded": 5,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
       "buddyGroupNumber": 2,
       "ibfc": {},
       "breadTierGroup": "GROUP_3"
@@ -150483,7 +150599,10 @@
         "cameraDistance": 6.5,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6,
-        "bonusXlCandyCaptureReward": 2
+        "bonusXlCandyCaptureReward": 2,
+        "shadowBaseCaptureRate": 0.05,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
       },
       "stats": {
         "baseStamina": 183,
@@ -150539,6 +150658,12 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "shadow": {
+        "purificationStardustNeeded": 5000,
+        "purificationCandyNeeded": 5,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
       "buddyGroupNumber": 2,
       "eliteCinematicMove": [
         "BREAKING_SWIPE"
@@ -150576,7 +150701,10 @@
         "cameraDistance": 6.5,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6,
-        "bonusXlCandyCaptureReward": 2
+        "bonusXlCandyCaptureReward": 2,
+        "shadowBaseCaptureRate": 0.05,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
       },
       "stats": {
         "baseStamina": 183,
@@ -150633,6 +150761,12 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "shadow": {
+        "purificationStardustNeeded": 5000,
+        "purificationCandyNeeded": 5,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
       "buddyGroupNumber": 2,
       "eliteCinematicMove": [
         "BREAKING_SWIPE"
@@ -157029,7 +157163,10 @@
         "cameraDistance": 7,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6,
-        "bonusXlCandyCaptureReward": 3
+        "bonusXlCandyCaptureReward": 3,
+        "shadowBaseCaptureRate": 0.02,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
       },
       "stats": {
         "baseStamina": 205,
@@ -157085,6 +157222,12 @@
       },
       "isTransferable": true,
       "isTradable": true,
+      "shadow": {
+        "purificationStardustNeeded": 20000,
+        "purificationCandyNeeded": 20,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
       "buddyGroupNumber": 7,
       "eliteCinematicMove": [
         "FUSION_FLARE"
@@ -157121,7 +157264,10 @@
         "cameraDistance": 7,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6,
-        "bonusXlCandyCaptureReward": 3
+        "bonusXlCandyCaptureReward": 3,
+        "shadowBaseCaptureRate": 0.02,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
       },
       "stats": {
         "baseStamina": 205,
@@ -157178,6 +157324,12 @@
       },
       "isTransferable": true,
       "isTradable": true,
+      "shadow": {
+        "purificationStardustNeeded": 20000,
+        "purificationCandyNeeded": 20,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
       "buddyGroupNumber": 7,
       "eliteCinematicMove": [
         "FUSION_FLARE"
@@ -178198,7 +178350,10 @@
         "dodgeDistance": 0.7,
         "cameraDistance": 3,
         "minPokemonActionFrequencyS": 0.9,
-        "maxPokemonActionFrequencyS": 1.6
+        "maxPokemonActionFrequencyS": 1.6,
+        "shadowBaseCaptureRate": 0.4,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
       },
       "stats": {
         "baseStamina": 120,
@@ -178234,7 +178389,8 @@
       "evolutionBranch": [
         {
           "evolution": "NOIVERN",
-          "candyCost": 400
+          "candyCost": 400,
+          "candyCostPurified": 360
         }
       ],
       "modelScaleV2": 1,
@@ -178281,6 +178437,12 @@
         0,
         0
       ],
+      "shadow": {
+        "purificationStardustNeeded": 5000,
+        "purificationCandyNeeded": 5,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
       "buddyGroupNumber": 4,
       "useIrisFlyingPlacement": true,
       "irisPhotoEmote1": "PhysicalAttack",
@@ -178314,7 +178476,10 @@
         "dodgeDistance": 0.7,
         "cameraDistance": 3,
         "minPokemonActionFrequencyS": 0.9,
-        "maxPokemonActionFrequencyS": 1.6
+        "maxPokemonActionFrequencyS": 1.6,
+        "shadowBaseCaptureRate": 0.4,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
       },
       "stats": {
         "baseStamina": 120,
@@ -178351,7 +178516,8 @@
         {
           "evolution": "NOIVERN",
           "candyCost": 400,
-          "form": "NOIVERN_NORMAL"
+          "form": "NOIVERN_NORMAL",
+          "candyCostPurified": 360
         }
       ],
       "modelScaleV2": 1,
@@ -178399,6 +178565,12 @@
         0,
         0
       ],
+      "shadow": {
+        "purificationStardustNeeded": 5000,
+        "purificationCandyNeeded": 5,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
       "buddyGroupNumber": 4,
       "useIrisFlyingPlacement": true,
       "irisPhotoEmote1": "PhysicalAttack",
@@ -178435,7 +178607,10 @@
         "cameraDistance": 5.5,
         "minPokemonActionFrequencyS": 0.9,
         "maxPokemonActionFrequencyS": 1.6,
-        "bonusXlCandyCaptureReward": 1
+        "bonusXlCandyCaptureReward": 1,
+        "shadowBaseCaptureRate": 0.15,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
       },
       "stats": {
         "baseStamina": 198,
@@ -178489,6 +178664,12 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "shadow": {
+        "purificationStardustNeeded": 5000,
+        "purificationCandyNeeded": 5,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
       "buddyGroupNumber": 6,
       "eliteCinematicMove": [
         "BOOMBURST"
@@ -178528,7 +178709,10 @@
         "cameraDistance": 5.5,
         "minPokemonActionFrequencyS": 0.9,
         "maxPokemonActionFrequencyS": 1.6,
-        "bonusXlCandyCaptureReward": 1
+        "bonusXlCandyCaptureReward": 1,
+        "shadowBaseCaptureRate": 0.15,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
       },
       "stats": {
         "baseStamina": 198,
@@ -178583,6 +178767,12 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "shadow": {
+        "purificationStardustNeeded": 5000,
+        "purificationCandyNeeded": 5,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
       "buddyGroupNumber": 6,
       "eliteCinematicMove": [
         "BOOMBURST"
@@ -199495,86 +199685,10 @@
         "dodgeDistance": 0.5,
         "cameraDistance": 3,
         "minPokemonActionFrequencyS": 0.2,
-        "maxPokemonActionFrequencyS": 1.6
-      },
-      "stats": {
-        "baseStamina": 116,
-        "baseAttack": 88,
-        "baseDefense": 67
-      },
-      "quickMoves": [
-        "PECK_FAST",
-        "AIR_SLASH_FAST",
-        "SAND_ATTACK_FAST"
-      ],
-      "cinematicMoves": [
-        "SKY_ATTACK",
-        "PAYBACK"
-      ],
-      "pokedexHeightM": 0.2,
-      "pokedexWeightKg": 1.8,
-      "heightStdDev": 0.025,
-      "weightStdDev": 0.225,
-      "familyId": "FAMILY_ROOKIDEE",
-      "kmBuddyDistance": 1,
-      "modelHeight": 0.31,
-      "evolutionBranch": [
-        {
-          "evolution": "CORVISQUIRE",
-          "candyCost": 25
-        }
-      ],
-      "modelScaleV2": 1.63,
-      "buddyOffsetMale": [
-        0,
-        0,
-        0
-      ],
-      "buddyOffsetFemale": [
-        0,
-        0,
-        0
-      ],
-      "buddyScale": 19,
-      "buddyPortraitOffset": [
-        0,
-        0,
-        -200
-      ],
-      "thirdMove": {
-        "stardustToUnlock": 10000,
-        "candyToUnlock": 25
-      },
-      "isTransferable": true,
-      "isDeployable": true,
-      "isTradable": true,
-      "buddyGroupNumber": 1,
-      "raidBossDistanceOffset": 3,
-      "ibfc": {},
-      "breadTierGroup": "GROUP_1"
-    }
-  },
-  {
-    "templateId": "V0821_POKEMON_ROOKIDEE_NORMAL",
-    "data": {
-      "pokemonId": "ROOKIDEE",
-      "type": "POKEMON_TYPE_FLYING",
-      "camera": {
-        "cylinderRadiusM": 0.25,
-        "cylinderHeightM": 0.2
-      },
-      "encounter": {
-        "collisionRadiusM": 0.1,
-        "collisionHeightM": 0.1,
-        "collisionHeadRadiusM": 0.1,
-        "jumpTimeS": 1,
-        "attackProbability": 0.1,
-        "dodgeProbability": 0.15,
-        "dodgeDurationS": 1,
-        "dodgeDistance": 0.5,
-        "cameraDistance": 3,
-        "minPokemonActionFrequencyS": 0.2,
-        "maxPokemonActionFrequencyS": 1.6
+        "maxPokemonActionFrequencyS": 1.6,
+        "shadowBaseCaptureRate": 0.5,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
       },
       "stats": {
         "baseStamina": 116,
@@ -199601,7 +199715,97 @@
         {
           "evolution": "CORVISQUIRE",
           "candyCost": 25,
-          "form": "CORVISQUIRE_NORMAL"
+          "candyCostPurified": 22
+        }
+      ],
+      "modelScaleV2": 1.63,
+      "buddyOffsetMale": [
+        0,
+        0,
+        0
+      ],
+      "buddyOffsetFemale": [
+        0,
+        0,
+        0
+      ],
+      "buddyScale": 19,
+      "buddyPortraitOffset": [
+        0,
+        0,
+        -200
+      ],
+      "thirdMove": {
+        "stardustToUnlock": 10000,
+        "candyToUnlock": 25
+      },
+      "isTransferable": true,
+      "isDeployable": true,
+      "isTradable": true,
+      "shadow": {
+        "purificationStardustNeeded": 1000,
+        "purificationCandyNeeded": 1,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
+      "buddyGroupNumber": 1,
+      "raidBossDistanceOffset": 3,
+      "ibfc": {},
+      "breadTierGroup": "GROUP_1"
+    }
+  },
+  {
+    "templateId": "V0821_POKEMON_ROOKIDEE_NORMAL",
+    "data": {
+      "pokemonId": "ROOKIDEE",
+      "type": "POKEMON_TYPE_FLYING",
+      "camera": {
+        "cylinderRadiusM": 0.25,
+        "cylinderHeightM": 0.2
+      },
+      "encounter": {
+        "collisionRadiusM": 0.1,
+        "collisionHeightM": 0.1,
+        "collisionHeadRadiusM": 0.1,
+        "jumpTimeS": 1,
+        "attackProbability": 0.1,
+        "dodgeProbability": 0.15,
+        "dodgeDurationS": 1,
+        "dodgeDistance": 0.5,
+        "cameraDistance": 3,
+        "minPokemonActionFrequencyS": 0.2,
+        "maxPokemonActionFrequencyS": 1.6,
+        "shadowBaseCaptureRate": 0.5,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
+      },
+      "stats": {
+        "baseStamina": 116,
+        "baseAttack": 88,
+        "baseDefense": 67
+      },
+      "quickMoves": [
+        "PECK_FAST",
+        "AIR_SLASH_FAST",
+        "SAND_ATTACK_FAST"
+      ],
+      "cinematicMoves": [
+        "SKY_ATTACK",
+        "PAYBACK"
+      ],
+      "pokedexHeightM": 0.2,
+      "pokedexWeightKg": 1.8,
+      "heightStdDev": 0.025,
+      "weightStdDev": 0.225,
+      "familyId": "FAMILY_ROOKIDEE",
+      "kmBuddyDistance": 1,
+      "modelHeight": 0.31,
+      "evolutionBranch": [
+        {
+          "evolution": "CORVISQUIRE",
+          "candyCost": 25,
+          "form": "CORVISQUIRE_NORMAL",
+          "candyCostPurified": 22
         }
       ],
       "modelScaleV2": 1.63,
@@ -199629,6 +199833,12 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "shadow": {
+        "purificationStardustNeeded": 1000,
+        "purificationCandyNeeded": 1,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
       "buddyGroupNumber": 1,
       "raidBossDistanceOffset": 3,
       "ibfc": {},
@@ -199660,7 +199870,10 @@
         "cameraDistance": 4,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6,
-        "bonusXlCandyCaptureReward": 1
+        "bonusXlCandyCaptureReward": 1,
+        "shadowBaseCaptureRate": 0.2,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
       },
       "stats": {
         "baseStamina": 169,
@@ -199687,7 +199900,8 @@
       "evolutionBranch": [
         {
           "evolution": "CORVIKNIGHT",
-          "candyCost": 100
+          "candyCost": 100,
+          "candyCostPurified": 90
         }
       ],
       "modelScaleV2": 1,
@@ -199714,6 +199928,12 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "shadow": {
+        "purificationStardustNeeded": 1000,
+        "purificationCandyNeeded": 1,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
       "buddyGroupNumber": 2,
       "raidBossDistanceOffset": 3,
       "ibfc": {},
@@ -199745,7 +199965,10 @@
         "cameraDistance": 4,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6,
-        "bonusXlCandyCaptureReward": 1
+        "bonusXlCandyCaptureReward": 1,
+        "shadowBaseCaptureRate": 0.2,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
       },
       "stats": {
         "baseStamina": 169,
@@ -199773,7 +199996,8 @@
         {
           "evolution": "CORVIKNIGHT",
           "candyCost": 100,
-          "form": "CORVIKNIGHT_NORMAL"
+          "form": "CORVIKNIGHT_NORMAL",
+          "candyCostPurified": 90
         }
       ],
       "modelScaleV2": 1,
@@ -199801,6 +200025,12 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "shadow": {
+        "purificationStardustNeeded": 1000,
+        "purificationCandyNeeded": 1,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
       "buddyGroupNumber": 2,
       "raidBossDistanceOffset": 3,
       "ibfc": {},
@@ -199833,7 +200063,10 @@
         "cameraDistance": 6,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6,
-        "bonusXlCandyCaptureReward": 2
+        "bonusXlCandyCaptureReward": 2,
+        "shadowBaseCaptureRate": 0.125,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
       },
       "stats": {
         "baseStamina": 221,
@@ -199882,6 +200115,12 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "shadow": {
+        "purificationStardustNeeded": 1000,
+        "purificationCandyNeeded": 1,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
       "buddyGroupNumber": 3,
       "eliteCinematicMove": [
         "IRON_HEAD",
@@ -199918,7 +200157,10 @@
         "cameraDistance": 6,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6,
-        "bonusXlCandyCaptureReward": 2
+        "bonusXlCandyCaptureReward": 2,
+        "shadowBaseCaptureRate": 0.125,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
       },
       "stats": {
         "baseStamina": 221,
@@ -199968,6 +200210,12 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "shadow": {
+        "purificationStardustNeeded": 1000,
+        "purificationCandyNeeded": 1,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
       "buddyGroupNumber": 3,
       "eliteCinematicMove": [
         "IRON_HEAD",
@@ -218179,13 +218427,21 @@
       "pokemonId": "SQUAWKABILLY",
       "type": "POKEMON_TYPE_NORMAL",
       "type2": "POKEMON_TYPE_FLYING",
-      "camera": {},
+      "camera": {
+        "cylinderRadiusM": 0.56,
+        "cylinderHeightM": 0.79,
+        "cylinderGroundM": 0.5
+      },
       "encounter": {
+        "collisionRadiusM": 0.6,
+        "collisionHeightM": 0.6,
+        "collisionHeadRadiusM": 0.2,
         "movementType": "MOVEMENT_FLYING",
         "jumpTimeS": 1,
         "attackProbability": 0.1,
         "dodgeProbability": 0.15,
         "dodgeDurationS": 1,
+        "cameraDistance": 3.8,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
@@ -218209,6 +218465,14 @@
       "weightStdDev": 0.3,
       "familyId": "FAMILY_SQUAWKABILLY",
       "kmBuddyDistance": 3,
+      "modelHeight": 1,
+      "modelScaleV2": 1.14,
+      "buddyScale": 19,
+      "buddyPortraitOffset": [
+        -10,
+        80,
+        140
+      ],
       "thirdMove": {
         "stardustToUnlock": 75000,
         "candyToUnlock": 75
@@ -218216,6 +218480,11 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "buddyPortraitRotation": [
+        0,
+        -10,
+        0
+      ],
       "ibfc": {},
       "breadTierGroup": "GROUP_3"
     }
@@ -218226,13 +218495,21 @@
       "pokemonId": "SQUAWKABILLY",
       "type": "POKEMON_TYPE_NORMAL",
       "type2": "POKEMON_TYPE_FLYING",
-      "camera": {},
+      "camera": {
+        "cylinderRadiusM": 0.56,
+        "cylinderHeightM": 0.79,
+        "cylinderGroundM": 0.5
+      },
       "encounter": {
+        "collisionRadiusM": 0.6,
+        "collisionHeightM": 0.6,
+        "collisionHeadRadiusM": 0.2,
         "movementType": "MOVEMENT_FLYING",
         "jumpTimeS": 1,
         "attackProbability": 0.1,
         "dodgeProbability": 0.15,
         "dodgeDurationS": 1,
+        "cameraDistance": 3.8,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
@@ -218256,7 +218533,15 @@
       "weightStdDev": 0.3,
       "familyId": "FAMILY_SQUAWKABILLY",
       "kmBuddyDistance": 3,
+      "modelHeight": 1,
+      "modelScaleV2": 1.14,
       "form": "SQUAWKABILLY_BLUE",
+      "buddyScale": 19,
+      "buddyPortraitOffset": [
+        -10,
+        80,
+        140
+      ],
       "thirdMove": {
         "stardustToUnlock": 75000,
         "candyToUnlock": 75
@@ -218264,6 +218549,11 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "buddyPortraitRotation": [
+        0,
+        -10,
+        0
+      ],
       "ibfc": {},
       "breadTierGroup": "GROUP_3"
     }
@@ -218274,13 +218564,21 @@
       "pokemonId": "SQUAWKABILLY",
       "type": "POKEMON_TYPE_NORMAL",
       "type2": "POKEMON_TYPE_FLYING",
-      "camera": {},
+      "camera": {
+        "cylinderRadiusM": 0.56,
+        "cylinderHeightM": 0.79,
+        "cylinderGroundM": 0.5
+      },
       "encounter": {
+        "collisionRadiusM": 0.6,
+        "collisionHeightM": 0.6,
+        "collisionHeadRadiusM": 0.2,
         "movementType": "MOVEMENT_FLYING",
         "jumpTimeS": 1,
         "attackProbability": 0.1,
         "dodgeProbability": 0.15,
         "dodgeDurationS": 1,
+        "cameraDistance": 3.8,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
@@ -218304,7 +218602,15 @@
       "weightStdDev": 0.3,
       "familyId": "FAMILY_SQUAWKABILLY",
       "kmBuddyDistance": 3,
+      "modelHeight": 1,
+      "modelScaleV2": 1.14,
       "form": "SQUAWKABILLY_GREEN",
+      "buddyScale": 19,
+      "buddyPortraitOffset": [
+        -10,
+        80,
+        140
+      ],
       "thirdMove": {
         "stardustToUnlock": 75000,
         "candyToUnlock": 75
@@ -218312,6 +218618,11 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "buddyPortraitRotation": [
+        0,
+        -10,
+        0
+      ],
       "ibfc": {},
       "breadTierGroup": "GROUP_3"
     }
@@ -218322,13 +218633,21 @@
       "pokemonId": "SQUAWKABILLY",
       "type": "POKEMON_TYPE_NORMAL",
       "type2": "POKEMON_TYPE_FLYING",
-      "camera": {},
+      "camera": {
+        "cylinderRadiusM": 0.56,
+        "cylinderHeightM": 0.79,
+        "cylinderGroundM": 0.5
+      },
       "encounter": {
+        "collisionRadiusM": 0.6,
+        "collisionHeightM": 0.6,
+        "collisionHeadRadiusM": 0.2,
         "movementType": "MOVEMENT_FLYING",
         "jumpTimeS": 1,
         "attackProbability": 0.1,
         "dodgeProbability": 0.15,
         "dodgeDurationS": 1,
+        "cameraDistance": 3.8,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
@@ -218352,7 +218671,15 @@
       "weightStdDev": 0.3,
       "familyId": "FAMILY_SQUAWKABILLY",
       "kmBuddyDistance": 3,
+      "modelHeight": 1,
+      "modelScaleV2": 1.14,
       "form": "SQUAWKABILLY_WHITE",
+      "buddyScale": 19,
+      "buddyPortraitOffset": [
+        -10,
+        80,
+        140
+      ],
       "thirdMove": {
         "stardustToUnlock": 75000,
         "candyToUnlock": 75
@@ -218360,6 +218687,11 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "buddyPortraitRotation": [
+        0,
+        -10,
+        0
+      ],
       "ibfc": {},
       "breadTierGroup": "GROUP_3"
     }
@@ -218370,13 +218702,21 @@
       "pokemonId": "SQUAWKABILLY",
       "type": "POKEMON_TYPE_NORMAL",
       "type2": "POKEMON_TYPE_FLYING",
-      "camera": {},
+      "camera": {
+        "cylinderRadiusM": 0.56,
+        "cylinderHeightM": 0.79,
+        "cylinderGroundM": 0.5
+      },
       "encounter": {
+        "collisionRadiusM": 0.6,
+        "collisionHeightM": 0.6,
+        "collisionHeadRadiusM": 0.2,
         "movementType": "MOVEMENT_FLYING",
         "jumpTimeS": 1,
         "attackProbability": 0.1,
         "dodgeProbability": 0.15,
         "dodgeDurationS": 1,
+        "cameraDistance": 3.8,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
@@ -218400,7 +218740,15 @@
       "weightStdDev": 0.3,
       "familyId": "FAMILY_SQUAWKABILLY",
       "kmBuddyDistance": 3,
+      "modelHeight": 1,
+      "modelScaleV2": 1.14,
       "form": "SQUAWKABILLY_YELLOW",
+      "buddyScale": 19,
+      "buddyPortraitOffset": [
+        -10,
+        80,
+        140
+      ],
       "thirdMove": {
         "stardustToUnlock": 75000,
         "candyToUnlock": 75
@@ -218408,6 +218756,11 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "buddyPortraitRotation": [
+        0,
+        -10,
+        0
+      ],
       "ibfc": {},
       "breadTierGroup": "GROUP_3"
     }
