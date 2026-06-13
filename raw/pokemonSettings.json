@@ -218713,11 +218713,11 @@
         "collisionHeadRadiusM": 0.2,
         "movementType": "MOVEMENT_FLYING",
         "jumpTimeS": 1,
-        "attackProbability": 0.1,
-        "dodgeProbability": 0.15,
+        "attackProbability": 0.3,
+        "dodgeProbability": 0.6,
         "dodgeDurationS": 1,
         "cameraDistance": 3.8,
-        "minPokemonActionFrequencyS": 0.2,
+        "minPokemonActionFrequencyS": 0.3,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
