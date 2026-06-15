@@ -42480,7 +42480,7 @@
       },
       "breadOverrides": [
         {
-          "breadMode": 4,
+          "breadMode": "BREAD_SPECIAL_MODE",
           "maxEncounterVisualSettings": {
             "scale": 16,
             "cameraDistance": 51,
