@@ -1080,7 +1080,8 @@
         }
       ],
       "allowNoevolveEvolution": [
-        "JAN_2020_NOEVOLVE"
+        "JAN_2020_NOEVOLVE",
+        "SPRING_2020_NOEVOLVE"
       ],
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -1304,7 +1305,8 @@
         }
       ],
       "allowNoevolveEvolution": [
-        "JAN_2020_NOEVOLVE"
+        "JAN_2020_NOEVOLVE",
+        "SPRING_2020_NOEVOLVE"
       ],
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -1429,7 +1431,8 @@
         }
       ],
       "allowNoevolveEvolution": [
-        "JAN_2020_NOEVOLVE"
+        "JAN_2020_NOEVOLVE",
+        "SPRING_2020_NOEVOLVE"
       ],
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -1555,7 +1558,8 @@
         }
       ],
       "allowNoevolveEvolution": [
-        "JAN_2020_NOEVOLVE"
+        "JAN_2020_NOEVOLVE",
+        "SPRING_2020_NOEVOLVE"
       ],
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
