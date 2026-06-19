@@ -4,9 +4,14 @@ import dotenv from 'dotenv';
 import 'utilitish';
 import { GeneratorRunner } from './generatorRunner.js';
 import { loadGenerators } from './loadGenerator.js';
+import { setSlugifyConfig, SlugifyConfig } from 'utilitish';
 dotenv.config();
 
 async function main() {
+    setSlugifyConfig(
+        SlugifyConfig.builder().withCustomReplacements({ '♂': '_male', '♀': '_male' }).build(),
+    );
+
     const isDev = process.env.DEV === 'true';
     const folder = isDev ? path.resolve('./src/generators') : path.resolve('./dist/src/generators');
 

@@ -97,18 +97,11 @@ export default class PokemonSettingGenerator extends FileGenerator {
         ];
     }
 
-    private extractFormNameFromForm(pokemon: PokemonSettings): string {
-        const form = pokemon.data.form;
-        const pokemonId = pokemon.data.pokemonId;
-        if (!form) return 'base';
-        if (typeof form === 'number') return 'costume-' + form;
-        const index = form.indexOf(pokemonId);
-        const isNidoran = index !== -1;
-        const formName = isNidoran ? form.slice(index + pokemonId.length).slugify() : 'normal';
-        const match = this.getFormNotCostume().some((trigger) => formName.includes(trigger));
-        const result = match ? formName : 'costume-' + formName;
-        return result;
-    }
+    // private extractFormNameFromForm(pokemon: PokemonSettings): string {
+    //     const form = pokemon.data.form;
+    //     const pokemonId = pokemon.data.pokemonId;
+    //     return result;
+    // }
 
     private isSameForm(form: any, otherForm: any) {
         const hasSameStatsStamina = form.stats.baseStamina === otherForm.stats.baseStamina;
@@ -143,7 +136,7 @@ export default class PokemonSettingGenerator extends FileGenerator {
         const rawPokemons = await Promise.all(
             raw.map(async (pokemon) => {
                 const dexNumber = this.extractDexNumber(pokemon.templateId);
-                const formField = pokemon.data.form as string | undefined;
+                const formField = pokemon.data.form?.replace('GALARIAN', 'GALAR');
 
                 const name = await this.fetchFrenchName(dexNumber);
                 const generation = await this.fetchGeneration(dexNumber, formField);
