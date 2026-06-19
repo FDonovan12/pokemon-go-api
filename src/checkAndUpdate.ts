@@ -2,9 +2,9 @@ import path from 'path';
 
 import dotenv from 'dotenv';
 import 'utilitish';
+import { setSlugifyConfig, SlugifyConfig } from 'utilitish';
 import { GeneratorRunner } from './generatorRunner.js';
 import { loadGenerators } from './loadGenerator.js';
-import { setSlugifyConfig, SlugifyConfig } from 'utilitish';
 dotenv.config();
 
 async function main() {
