@@ -136,7 +136,12 @@ export default class PokemonSettingGenerator extends FileGenerator {
         const rawPokemons = await Promise.all(
             raw.map(async (pokemon) => {
                 const dexNumber = this.extractDexNumber(pokemon.templateId);
-                const formField = pokemon.data.form?.replace('GALARIAN', 'GALAR');
+                let formField = pokemon.data.form
+                    ?.replace('GALARIAN', 'GALAR')
+                    .replace('HISUIAN', 'HISUI');
+                if (formField && formField.includes('TAUROS_PALDEA')) {
+                    formField += '_BREED';
+                }
 
                 const name = await this.fetchFrenchName(dexNumber);
                 const generation = await this.fetchGeneration(dexNumber, formField);
@@ -167,7 +172,7 @@ export default class PokemonSettingGenerator extends FileGenerator {
                     isLegendary: pokemon.data.pokemonClass === 'POKEMON_CLASS_LEGENDARY',
                     isMythical: pokemon.data.pokemonClass === 'POKEMON_CLASS_MYTHIC',
                     isUltraBeast: pokemon.data.pokemonClass === 'POKEMON_CLASS_ULTRA_BEAST',
-                    form: pokemon.data.form ?? 'base',
+                    form: formField ?? 'base',
                     // encounter: {
                     //     stardustCaptureReward:
                     //         (pokemon.data.encounter?.bonusStardustCaptureReward ?? 0) + 100,
