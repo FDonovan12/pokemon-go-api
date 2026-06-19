@@ -11,14 +11,34 @@ export default class PokemonSettingGenerator extends FileGenerator {
         return +templateId.split('_')[0].slice(1);
     }
 
-    private async fetchFrenchName(dexNumber: number): Promise<string> {
+    private speciesCache = new Map<number, any>();
+
+    private async fetchPokemonSpecies(dexNumber: number): Promise<any> {
+        if (this.speciesCache.has(dexNumber)) return this.speciesCache.get(dexNumber);
         const res = await fetch(`https://pokeapi.co/api/v2/pokemon-species/${dexNumber}`);
         const data = await res.json();
+        this.speciesCache.set(dexNumber, data);
+        return data;
+    }
+
+    private async fetchFrenchName(dexNumber: number): Promise<string> {
+        const data = await this.fetchPokemonSpecies(dexNumber);
         const raw = data.names.find((n: any) => n.language.name === 'fr')?.name;
         if (!raw) {
             console.log('fetchFrenchName : ', dexNumber);
         }
         return raw ?? '';
+    }
+
+    private async fetchGeneration(dexNumber: number, form?: string): Promise<number> {
+        if (form) {
+            if (form.includes('ALOLA')) return 7;
+            if (form.includes('GALARIAN')) return 8;
+            if (form.includes('HISUIAN')) return 8;
+            if (form.includes('PALDEA')) return 9;
+        }
+        const data = await this.fetchPokemonSpecies(dexNumber);
+        return +data.generation.url.split('/').filter(Boolean).last();
     }
 
     private async fetchFormId(formSlug: string): Promise<number | null> {
@@ -126,6 +146,7 @@ export default class PokemonSettingGenerator extends FileGenerator {
                 const formField = pokemon.data.form as string | undefined;
 
                 const name = await this.fetchFrenchName(dexNumber);
+                const generation = await this.fetchGeneration(dexNumber, formField);
 
                 let imageId: number = dexNumber;
                 if (formField) {
@@ -137,7 +158,8 @@ export default class PokemonSettingGenerator extends FileGenerator {
                     pokemonId: pokemon.data.pokemonId,
                     dexNumber,
                     name,
-                    slug: name.capitalize(),
+                    generation,
+                    slug: name.slugify().capitalize(),
                     imageId,
                     image: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${imageId}.png`,
                     type: [pokemon.data.type, pokemon.data.type2].compact(),
