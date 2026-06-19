@@ -5286,7 +5286,7 @@
         "isLegendary": false,
         "isMythical": false,
         "isUltraBeast": false,
-        "form": "MEOWTH_GALARIAN"
+        "form": "MEOWTH_GALAR"
       }
     ]
   },
@@ -5627,10 +5627,10 @@
         "pokemonId": "GROWLITHE",
         "dexNumber": 58,
         "name": "Caninos",
-        "generation": 8,
+        "generation": 1,
         "slug": "Caninos",
-        "imageId": 58,
-        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/58.png",
+        "imageId": 10229,
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10229.png",
         "type": [
           "POKEMON_TYPE_FIRE",
           "POKEMON_TYPE_ROCK"
@@ -5659,7 +5659,7 @@
         "isLegendary": false,
         "isMythical": false,
         "isUltraBeast": false,
-        "form": "GROWLITHE_HISUIAN"
+        "form": "GROWLITHE_HISUI"
       }
     ]
   },
@@ -5714,10 +5714,10 @@
         "pokemonId": "ARCANINE",
         "dexNumber": 59,
         "name": "Arcanin",
-        "generation": 8,
+        "generation": 1,
         "slug": "Arcanin",
-        "imageId": 59,
-        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/59.png",
+        "imageId": 10230,
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10230.png",
         "type": [
           "POKEMON_TYPE_FIRE",
           "POKEMON_TYPE_ROCK"
@@ -5745,7 +5745,7 @@
         "isLegendary": false,
         "isMythical": false,
         "isUltraBeast": false,
-        "form": "ARCANINE_HISUIAN"
+        "form": "ARCANINE_HISUI"
       }
     ]
   },
@@ -6695,7 +6695,7 @@
         "isLegendary": false,
         "isMythical": false,
         "isUltraBeast": false,
-        "form": "PONYTA_GALARIAN"
+        "form": "PONYTA_GALAR"
       }
     ]
   },
@@ -6783,7 +6783,7 @@
         "isLegendary": false,
         "isMythical": false,
         "isUltraBeast": false,
-        "form": "RAPIDASH_GALARIAN"
+        "form": "RAPIDASH_GALAR"
       }
     ]
   },
@@ -6902,7 +6902,7 @@
         "isLegendary": false,
         "isMythical": false,
         "isUltraBeast": false,
-        "form": "SLOWPOKE_GALARIAN"
+        "form": "SLOWPOKE_GALAR"
       }
     ]
   },
@@ -7029,7 +7029,7 @@
         "isLegendary": false,
         "isMythical": false,
         "isUltraBeast": false,
-        "form": "SLOWBRO_GALARIAN"
+        "form": "SLOWBRO_GALAR"
       }
     ]
   },
@@ -7199,7 +7199,7 @@
         "isLegendary": false,
         "isMythical": false,
         "isUltraBeast": false,
-        "form": "FARFETCHD_GALARIAN"
+        "form": "FARFETCHD_GALAR"
       }
     ]
   },
@@ -8091,10 +8091,10 @@
         "pokemonId": "VOLTORB",
         "dexNumber": 100,
         "name": "Voltorbe",
-        "generation": 8,
+        "generation": 1,
         "slug": "Voltorbe",
-        "imageId": 100,
-        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/100.png",
+        "imageId": 10231,
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10231.png",
         "type": [
           "POKEMON_TYPE_ELECTRIC",
           "POKEMON_TYPE_GRASS"
@@ -8123,7 +8123,7 @@
         "isLegendary": false,
         "isMythical": false,
         "isUltraBeast": false,
-        "form": "VOLTORB_HISUIAN"
+        "form": "VOLTORB_HISUI"
       }
     ]
   },
@@ -8173,10 +8173,10 @@
         "pokemonId": "ELECTRODE",
         "dexNumber": 101,
         "name": "Électrode",
-        "generation": 8,
+        "generation": 1,
         "slug": "Electrode",
-        "imageId": 101,
-        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/101.png",
+        "imageId": 10232,
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10232.png",
         "type": [
           "POKEMON_TYPE_ELECTRIC",
           "POKEMON_TYPE_GRASS"
@@ -8202,7 +8202,7 @@
         "isLegendary": false,
         "isMythical": false,
         "isUltraBeast": false,
-        "form": "ELECTRODE_HISUIAN"
+        "form": "ELECTRODE_HISUI"
       }
     ]
   },
@@ -8703,7 +8703,7 @@
         "isLegendary": false,
         "isMythical": false,
         "isUltraBeast": false,
-        "form": "WEEZING_GALARIAN"
+        "form": "WEEZING_GALAR"
       }
     ]
   },
@@ -9254,7 +9254,7 @@
         "isLegendary": false,
         "isMythical": false,
         "isUltraBeast": false,
-        "form": "MR_MIME_GALARIAN"
+        "form": "MR_MIME_GALAR"
       }
     ]
   },
@@ -9516,8 +9516,8 @@
         "name": "Tauros",
         "generation": 9,
         "slug": "Tauros",
-        "imageId": 128,
-        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/128.png",
+        "imageId": 10252,
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10252.png",
         "type": [
           "POKEMON_TYPE_FIGHTING",
           "POKEMON_TYPE_WATER"
@@ -9545,7 +9545,7 @@
         "isLegendary": false,
         "isMythical": false,
         "isUltraBeast": false,
-        "form": "TAUROS_PALDEA_AQUA"
+        "form": "TAUROS_PALDEA_AQUA_BREED"
       },
       {
         "id": "V0128_POKEMON_TAUROS_PALDEA_BLAZE",
@@ -9554,8 +9554,8 @@
         "name": "Tauros",
         "generation": 9,
         "slug": "Tauros",
-        "imageId": 128,
-        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/128.png",
+        "imageId": 10251,
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10251.png",
         "type": [
           "POKEMON_TYPE_FIGHTING",
           "POKEMON_TYPE_FIRE"
@@ -9583,7 +9583,7 @@
         "isLegendary": false,
         "isMythical": false,
         "isUltraBeast": false,
-        "form": "TAUROS_PALDEA_BLAZE"
+        "form": "TAUROS_PALDEA_BLAZE_BREED"
       },
       {
         "id": "V0128_POKEMON_TAUROS_PALDEA_COMBAT",
@@ -9592,8 +9592,8 @@
         "name": "Tauros",
         "generation": 9,
         "slug": "Tauros",
-        "imageId": 128,
-        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/128.png",
+        "imageId": 10250,
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10250.png",
         "type": [
           "POKEMON_TYPE_FIGHTING"
         ],
@@ -9620,7 +9620,7 @@
         "isLegendary": false,
         "isMythical": false,
         "isUltraBeast": false,
-        "form": "TAUROS_PALDEA_COMBAT"
+        "form": "TAUROS_PALDEA_COMBAT_BREED"
       }
     ]
   },
@@ -10626,7 +10626,7 @@
         "isLegendary": true,
         "isMythical": false,
         "isUltraBeast": false,
-        "form": "ARTICUNO_GALARIAN"
+        "form": "ARTICUNO_GALAR"
       }
     ]
   },
@@ -10708,7 +10708,7 @@
         "isLegendary": true,
         "isMythical": false,
         "isUltraBeast": false,
-        "form": "ZAPDOS_GALARIAN"
+        "form": "ZAPDOS_GALAR"
       }
     ]
   },
@@ -10790,7 +10790,7 @@
         "isLegendary": true,
         "isMythical": false,
         "isUltraBeast": false,
-        "form": "MOLTRES_GALARIAN"
+        "form": "MOLTRES_GALAR"
       }
     ]
   },
@@ -11342,10 +11342,10 @@
         "pokemonId": "TYPHLOSION",
         "dexNumber": 157,
         "name": "Typhlosion",
-        "generation": 8,
+        "generation": 2,
         "slug": "Typhlosion",
-        "imageId": 157,
-        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/157.png",
+        "imageId": 10233,
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10233.png",
         "type": [
           "POKEMON_TYPE_FIRE",
           "POKEMON_TYPE_GHOST"
@@ -11373,7 +11373,7 @@
         "isLegendary": false,
         "isMythical": false,
         "isUltraBeast": false,
-        "form": "TYPHLOSION_HISUIAN"
+        "form": "TYPHLOSION_HISUI"
       }
     ]
   },
@@ -13404,7 +13404,7 @@
         "isLegendary": false,
         "isMythical": false,
         "isUltraBeast": false,
-        "form": "SLOWKING_GALARIAN"
+        "form": "SLOWKING_GALAR"
       }
     ]
   },
@@ -14800,10 +14800,10 @@
         "pokemonId": "QWILFISH",
         "dexNumber": 211,
         "name": "Qwilfish",
-        "generation": 8,
+        "generation": 2,
         "slug": "Qwilfish",
-        "imageId": 211,
-        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/211.png",
+        "imageId": 10234,
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10234.png",
         "type": [
           "POKEMON_TYPE_DARK",
           "POKEMON_TYPE_POISON"
@@ -14831,7 +14831,7 @@
         "isLegendary": false,
         "isMythical": false,
         "isUltraBeast": false,
-        "form": "QWILFISH_HISUIAN"
+        "form": "QWILFISH_HISUI"
       }
     ]
   },
@@ -15005,10 +15005,10 @@
         "pokemonId": "SNEASEL",
         "dexNumber": 215,
         "name": "Farfuret",
-        "generation": 8,
+        "generation": 2,
         "slug": "Farfuret",
-        "imageId": 215,
-        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/215.png",
+        "imageId": 10235,
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10235.png",
         "type": [
           "POKEMON_TYPE_FIGHTING",
           "POKEMON_TYPE_POISON"
@@ -15034,7 +15034,7 @@
         "isLegendary": false,
         "isMythical": false,
         "isUltraBeast": false,
-        "form": "SNEASEL_HISUIAN"
+        "form": "SNEASEL_HISUI"
       }
     ]
   },
@@ -15365,7 +15365,7 @@
         "isLegendary": false,
         "isMythical": false,
         "isUltraBeast": false,
-        "form": "CORSOLA_GALARIAN"
+        "form": "CORSOLA_GALAR"
       },
       {
         "id": "V0222_POKEMON_CORSOLA_SPRING_2026",
@@ -17392,7 +17392,7 @@
         "isLegendary": false,
         "isMythical": false,
         "isUltraBeast": false,
-        "form": "ZIGZAGOON_GALARIAN"
+        "form": "ZIGZAGOON_GALAR"
       }
     ]
   },
@@ -17470,7 +17470,7 @@
         "isLegendary": false,
         "isMythical": false,
         "isUltraBeast": false,
-        "form": "LINOONE_GALARIAN"
+        "form": "LINOONE_GALAR"
       }
     ]
   },
@@ -29710,10 +29710,10 @@
         "pokemonId": "SAMUROTT",
         "dexNumber": 503,
         "name": "Clamiral",
-        "generation": 8,
+        "generation": 5,
         "slug": "Clamiral",
-        "imageId": 503,
-        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/503.png",
+        "imageId": 10236,
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10236.png",
         "type": [
           "POKEMON_TYPE_WATER",
           "POKEMON_TYPE_DARK"
@@ -29742,7 +29742,7 @@
         "isLegendary": false,
         "isMythical": false,
         "isUltraBeast": false,
-        "form": "SAMUROTT_HISUIAN"
+        "form": "SAMUROTT_HISUI"
       }
     ]
   },
@@ -31589,10 +31589,10 @@
         "pokemonId": "LILLIGANT",
         "dexNumber": 549,
         "name": "Fragilady",
-        "generation": 8,
+        "generation": 5,
         "slug": "Fragilady",
-        "imageId": 549,
-        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/549.png",
+        "imageId": 10237,
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10237.png",
         "type": [
           "POKEMON_TYPE_GRASS",
           "POKEMON_TYPE_FIGHTING"
@@ -31619,7 +31619,7 @@
         "isLegendary": false,
         "isMythical": false,
         "isUltraBeast": false,
-        "form": "LILLIGANT_HISUIAN"
+        "form": "LILLIGANT_HISUI"
       }
     ]
   },
@@ -31959,7 +31959,7 @@
         "isLegendary": false,
         "isMythical": false,
         "isUltraBeast": false,
-        "form": "DARUMAKA_GALARIAN"
+        "form": "DARUMAKA_GALAR"
       }
     ]
   },
@@ -32075,7 +32075,7 @@
         "isLegendary": false,
         "isMythical": false,
         "isUltraBeast": false,
-        "form": "DARMANITAN_GALARIAN_STANDARD"
+        "form": "DARMANITAN_GALAR_STANDARD"
       },
       {
         "id": "V0555_POKEMON_DARMANITAN_GALARIAN_ZEN",
@@ -32112,7 +32112,7 @@
         "isLegendary": false,
         "isMythical": false,
         "isUltraBeast": false,
-        "form": "DARMANITAN_GALARIAN_ZEN"
+        "form": "DARMANITAN_GALAR_ZEN"
       },
       {
         "id": "V0555_POKEMON_DARMANITAN_ZEN",
@@ -32475,7 +32475,7 @@
         "isLegendary": false,
         "isMythical": false,
         "isUltraBeast": false,
-        "form": "YAMASK_GALARIAN"
+        "form": "YAMASK_GALAR"
       }
     ]
   },
@@ -32802,10 +32802,10 @@
         "pokemonId": "ZORUA",
         "dexNumber": 570,
         "name": "Zorua",
-        "generation": 8,
+        "generation": 5,
         "slug": "Zorua",
-        "imageId": 570,
-        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/570.png",
+        "imageId": 10238,
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10238.png",
         "type": [
           "POKEMON_TYPE_NORMAL",
           "POKEMON_TYPE_GHOST"
@@ -32832,7 +32832,7 @@
         "isLegendary": false,
         "isMythical": false,
         "isUltraBeast": false,
-        "form": "ZORUA_HISUIAN"
+        "form": "ZORUA_HISUI"
       }
     ]
   },
@@ -32880,10 +32880,10 @@
         "pokemonId": "ZOROARK",
         "dexNumber": 571,
         "name": "Zoroark",
-        "generation": 8,
+        "generation": 5,
         "slug": "Zoroark",
-        "imageId": 571,
-        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/571.png",
+        "imageId": 10239,
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10239.png",
         "type": [
           "POKEMON_TYPE_NORMAL",
           "POKEMON_TYPE_GHOST"
@@ -32910,7 +32910,7 @@
         "isLegendary": false,
         "isMythical": false,
         "isUltraBeast": false,
-        "form": "ZOROARK_HISUIAN"
+        "form": "ZOROARK_HISUI"
       }
     ]
   },
@@ -35291,7 +35291,7 @@
         "isLegendary": false,
         "isMythical": false,
         "isUltraBeast": false,
-        "form": "STUNFISK_GALARIAN"
+        "form": "STUNFISK_GALAR"
       }
     ]
   },
@@ -35709,10 +35709,10 @@
         "pokemonId": "BRAVIARY",
         "dexNumber": 628,
         "name": "Gueriaigle",
-        "generation": 8,
+        "generation": 5,
         "slug": "Gueriaigle",
-        "imageId": 628,
-        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/628.png",
+        "imageId": 10240,
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10240.png",
         "type": [
           "POKEMON_TYPE_PSYCHIC",
           "POKEMON_TYPE_FLYING"
@@ -35740,7 +35740,7 @@
         "isLegendary": false,
         "isMythical": false,
         "isUltraBeast": false,
-        "form": "BRAVIARY_HISUIAN"
+        "form": "BRAVIARY_HISUI"
       }
     ]
   },
@@ -43270,10 +43270,10 @@
         "pokemonId": "AVALUGG",
         "dexNumber": 713,
         "name": "Séracrawl",
-        "generation": 8,
+        "generation": 6,
         "slug": "Seracrawl",
-        "imageId": 713,
-        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/713.png",
+        "imageId": 10243,
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10243.png",
         "type": [
           "POKEMON_TYPE_ICE",
           "POKEMON_TYPE_ROCK"
@@ -43301,7 +43301,7 @@
         "isLegendary": false,
         "isMythical": false,
         "isUltraBeast": false,
-        "form": "AVALUGG_HISUIAN"
+        "form": "AVALUGG_HISUI"
       }
     ]
   },
@@ -44054,10 +44054,10 @@
         "pokemonId": "DECIDUEYE",
         "dexNumber": 724,
         "name": "Archéduc",
-        "generation": 8,
+        "generation": 7,
         "slug": "Archeduc",
-        "imageId": 724,
-        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/724.png",
+        "imageId": 10244,
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10244.png",
         "type": [
           "POKEMON_TYPE_GRASS",
           "POKEMON_TYPE_FIGHTING"
@@ -44085,7 +44085,7 @@
         "isLegendary": false,
         "isMythical": false,
         "isUltraBeast": false,
-        "form": "DECIDUEYE_HISUIAN"
+        "form": "DECIDUEYE_HISUI"
       }
     ]
   },
