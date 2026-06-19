@@ -4014,7 +4014,7 @@
       "dexNumber": 29,
       "name": "Nidoran♀",
       "generation": 1,
-      "slug": "Nidoran",
+      "slug": "Nidoran-male",
       "imageId": 29,
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/29.png",
       "type": [
@@ -4143,7 +4143,7 @@
       "dexNumber": 32,
       "name": "Nidoran♂",
       "generation": 1,
-      "slug": "Nidoran",
+      "slug": "Nidoran-male",
       "imageId": 32,
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/32.png",
       "type": [
@@ -5256,10 +5256,10 @@
         "pokemonId": "MEOWTH",
         "dexNumber": 52,
         "name": "Miaouss",
-        "generation": 8,
+        "generation": 1,
         "slug": "Miaouss",
-        "imageId": 52,
-        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/52.png",
+        "imageId": 10161,
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10161.png",
         "type": [
           "POKEMON_TYPE_STEEL"
         ],
@@ -6664,10 +6664,10 @@
         "pokemonId": "PONYTA",
         "dexNumber": 77,
         "name": "Ponyta",
-        "generation": 8,
+        "generation": 1,
         "slug": "Ponyta",
-        "imageId": 77,
-        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/77.png",
+        "imageId": 10162,
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10162.png",
         "type": [
           "POKEMON_TYPE_PSYCHIC"
         ],
@@ -6749,10 +6749,10 @@
         "pokemonId": "RAPIDASH",
         "dexNumber": 78,
         "name": "Galopa",
-        "generation": 8,
+        "generation": 1,
         "slug": "Galopa",
-        "imageId": 78,
-        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/78.png",
+        "imageId": 10163,
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10163.png",
         "type": [
           "POKEMON_TYPE_PSYCHIC",
           "POKEMON_TYPE_FAIRY"
@@ -6874,10 +6874,10 @@
         "pokemonId": "SLOWPOKE",
         "dexNumber": 79,
         "name": "Ramoloss",
-        "generation": 8,
+        "generation": 1,
         "slug": "Ramoloss",
-        "imageId": 79,
-        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/79.png",
+        "imageId": 10164,
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10164.png",
         "type": [
           "POKEMON_TYPE_PSYCHIC"
         ],
@@ -6995,10 +6995,10 @@
         "pokemonId": "SLOWBRO",
         "dexNumber": 80,
         "name": "Flagadoss",
-        "generation": 8,
+        "generation": 1,
         "slug": "Flagadoss",
-        "imageId": 80,
-        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/80.png",
+        "imageId": 10165,
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10165.png",
         "type": [
           "POKEMON_TYPE_POISON",
           "POKEMON_TYPE_PSYCHIC"
@@ -7168,10 +7168,10 @@
         "pokemonId": "FARFETCHD",
         "dexNumber": 83,
         "name": "Canarticho",
-        "generation": 8,
+        "generation": 1,
         "slug": "Canarticho",
-        "imageId": 83,
-        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/83.png",
+        "imageId": 10166,
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10166.png",
         "type": [
           "POKEMON_TYPE_FIGHTING"
         ],
@@ -8672,10 +8672,10 @@
         "pokemonId": "WEEZING",
         "dexNumber": 110,
         "name": "Smogogo",
-        "generation": 8,
+        "generation": 1,
         "slug": "Smogogo",
-        "imageId": 110,
-        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/110.png",
+        "imageId": 10167,
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10167.png",
         "type": [
           "POKEMON_TYPE_POISON",
           "POKEMON_TYPE_FAIRY"
@@ -9221,10 +9221,10 @@
         "pokemonId": "MR_MIME",
         "dexNumber": 122,
         "name": "M. Mime",
-        "generation": 8,
+        "generation": 1,
         "slug": "M-mime",
-        "imageId": 122,
-        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/122.png",
+        "imageId": 10168,
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10168.png",
         "type": [
           "POKEMON_TYPE_ICE",
           "POKEMON_TYPE_PSYCHIC"
@@ -10596,10 +10596,10 @@
         "pokemonId": "ARTICUNO",
         "dexNumber": 144,
         "name": "Artikodin",
-        "generation": 8,
+        "generation": 1,
         "slug": "Artikodin",
-        "imageId": 144,
-        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/144.png",
+        "imageId": 10169,
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10169.png",
         "type": [
           "POKEMON_TYPE_PSYCHIC",
           "POKEMON_TYPE_FLYING"
@@ -10678,10 +10678,10 @@
         "pokemonId": "ZAPDOS",
         "dexNumber": 145,
         "name": "Électhor",
-        "generation": 8,
+        "generation": 1,
         "slug": "Electhor",
-        "imageId": 145,
-        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/145.png",
+        "imageId": 10170,
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10170.png",
         "type": [
           "POKEMON_TYPE_FIGHTING",
           "POKEMON_TYPE_FLYING"
@@ -10760,10 +10760,10 @@
         "pokemonId": "MOLTRES",
         "dexNumber": 146,
         "name": "Sulfura",
-        "generation": 8,
+        "generation": 1,
         "slug": "Sulfura",
-        "imageId": 146,
-        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/146.png",
+        "imageId": 10171,
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10171.png",
         "type": [
           "POKEMON_TYPE_DARK",
           "POKEMON_TYPE_FLYING"
@@ -13370,10 +13370,10 @@
         "pokemonId": "SLOWKING",
         "dexNumber": 199,
         "name": "Roigada",
-        "generation": 8,
+        "generation": 2,
         "slug": "Roigada",
-        "imageId": 199,
-        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/199.png",
+        "imageId": 10172,
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10172.png",
         "type": [
           "POKEMON_TYPE_POISON",
           "POKEMON_TYPE_PSYCHIC"
@@ -15337,10 +15337,10 @@
         "pokemonId": "CORSOLA",
         "dexNumber": 222,
         "name": "Corayon",
-        "generation": 8,
+        "generation": 2,
         "slug": "Corayon",
-        "imageId": 222,
-        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/222.png",
+        "imageId": 10173,
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10173.png",
         "type": [
           "POKEMON_TYPE_GHOST"
         ],
@@ -17363,10 +17363,10 @@
         "pokemonId": "ZIGZAGOON",
         "dexNumber": 263,
         "name": "Zigzaton",
-        "generation": 8,
+        "generation": 3,
         "slug": "Zigzaton",
-        "imageId": 263,
-        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/263.png",
+        "imageId": 10174,
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10174.png",
         "type": [
           "POKEMON_TYPE_DARK",
           "POKEMON_TYPE_NORMAL"
@@ -17441,10 +17441,10 @@
         "pokemonId": "LINOONE",
         "dexNumber": 264,
         "name": "Linéon",
-        "generation": 8,
+        "generation": 3,
         "slug": "Lineon",
-        "imageId": 264,
-        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/264.png",
+        "imageId": 10175,
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10175.png",
         "type": [
           "POKEMON_TYPE_DARK",
           "POKEMON_TYPE_NORMAL"
@@ -31932,10 +31932,10 @@
         "pokemonId": "DARUMAKA",
         "dexNumber": 554,
         "name": "Darumarond",
-        "generation": 8,
+        "generation": 5,
         "slug": "Darumarond",
-        "imageId": 554,
-        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/554.png",
+        "imageId": 10176,
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10176.png",
         "type": [
           "POKEMON_TYPE_ICE"
         ],
@@ -32046,10 +32046,10 @@
         "pokemonId": "DARMANITAN",
         "dexNumber": 555,
         "name": "Darumacho",
-        "generation": 8,
+        "generation": 5,
         "slug": "Darumacho",
-        "imageId": 555,
-        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/555.png",
+        "imageId": 10177,
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10177.png",
         "type": [
           "POKEMON_TYPE_ICE"
         ],
@@ -32082,10 +32082,10 @@
         "pokemonId": "DARMANITAN",
         "dexNumber": 555,
         "name": "Darumacho",
-        "generation": 8,
+        "generation": 5,
         "slug": "Darumacho",
-        "imageId": 555,
-        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/555.png",
+        "imageId": 10178,
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10178.png",
         "type": [
           "POKEMON_TYPE_ICE",
           "POKEMON_TYPE_FIRE"
@@ -32445,10 +32445,10 @@
         "pokemonId": "YAMASK",
         "dexNumber": 562,
         "name": "Tutafeh",
-        "generation": 8,
+        "generation": 5,
         "slug": "Tutafeh",
-        "imageId": 562,
-        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/562.png",
+        "imageId": 10179,
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10179.png",
         "type": [
           "POKEMON_TYPE_GROUND",
           "POKEMON_TYPE_GHOST"
@@ -35261,10 +35261,10 @@
         "pokemonId": "STUNFISK",
         "dexNumber": 618,
         "name": "Limonde",
-        "generation": 8,
+        "generation": 5,
         "slug": "Limonde",
-        "imageId": 618,
-        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/618.png",
+        "imageId": 10180,
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10180.png",
         "type": [
           "POKEMON_TYPE_GROUND",
           "POKEMON_TYPE_STEEL"
