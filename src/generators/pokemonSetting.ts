@@ -127,7 +127,7 @@ export default class PokemonSettingGenerator extends FileGenerator {
 
                 const name = await this.fetchFrenchName(dexNumber);
 
-                let imageId: number = -1;
+                let imageId: number = dexNumber;
                 if (formField) {
                     const slug = formField.slugify();
                     imageId = (await this.fetchFormId(slug)) ?? dexNumber;
