@@ -1,13 +1,14 @@
-import fs from 'fs';
 import path from 'path';
 
+import dotenv from 'dotenv';
 import 'utilitish';
 import { GeneratorRunner } from './generatorRunner.js';
 import { loadGenerators } from './loadGenerator.js';
+dotenv.config();
 
 async function main() {
-    const srcPath = path.resolve('./src/generators');
-    const folder = fs.existsSync(srcPath) ? srcPath : path.resolve('./dist/src/generators');
+    const isDev = process.env.DEV === 'true';
+    const folder = isDev ? path.resolve('./src/generators') : path.resolve('./dist/src/generators');
 
     console.log('folder');
     const generators = await loadGenerators(folder);
