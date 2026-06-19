@@ -1,3 +1,4 @@
+import fs from 'fs';
 import path from 'path';
 
 import 'utilitish';
@@ -5,7 +6,9 @@ import { GeneratorRunner } from './generatorRunner.js';
 import { loadGenerators } from './loadGenerator.js';
 
 async function main() {
-    const folder = path.resolve('./dist/src/generators');
+    const srcPath = path.resolve('./src/generators');
+    const folder = fs.existsSync(srcPath) ? srcPath : path.resolve('./dist/src/generators');
+
     console.log('folder');
     const generators = await loadGenerators(folder);
     console.log('generators');
