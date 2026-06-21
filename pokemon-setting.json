@@ -49,7 +49,7 @@
         "dexNumber": 1,
         "name": "Bulbizarre",
         "generation": 1,
-        "slug": "bulbasaur-fall-2019",
+        "slug": "bulbizarre-fall-2019",
         "imageId": 1,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png",
         "type": [
@@ -181,7 +181,7 @@
         "dexNumber": 3,
         "name": "Florizarre",
         "generation": 1,
-        "slug": "venusaur-copy-2019",
+        "slug": "florizarre-copy-2019",
         "imageId": 3,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png",
         "type": [
@@ -269,7 +269,7 @@
         "dexNumber": 4,
         "name": "Salamèche",
         "generation": 1,
-        "slug": "charmander-fall-2019",
+        "slug": "salameche-fall-2019",
         "imageId": 4,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png",
         "type": [
@@ -406,7 +406,7 @@
         "dexNumber": 6,
         "name": "Dracaufeu",
         "generation": 1,
-        "slug": "charizard-copy-2019",
+        "slug": "dracaufeu-copy-2019",
         "imageId": 6,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
         "type": [
@@ -499,7 +499,7 @@
         "dexNumber": 7,
         "name": "Carapuce",
         "generation": 1,
-        "slug": "squirtle-fall-2019",
+        "slug": "carapuce-fall-2019",
         "imageId": 7,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png",
         "type": [
@@ -629,7 +629,7 @@
         "dexNumber": 9,
         "name": "Tortank",
         "generation": 1,
-        "slug": "blastoise-copy-2019",
+        "slug": "tortank-copy-2019",
         "imageId": 9,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png",
         "type": [
@@ -715,7 +715,7 @@
         "dexNumber": 10,
         "name": "Chenipan",
         "generation": 1,
-        "slug": "caterpie-gofest-2026",
+        "slug": "chenipan-gofest-2026",
         "imageId": 10,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10.png",
         "type": [
@@ -1255,7 +1255,7 @@
           "dexNumber": 20,
           "name": "Rattatac",
           "generation": 7,
-          "slug": "raticate-alola",
+          "slug": "rattatac-alola",
           "imageId": 10092,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10092.png",
           "type": [
@@ -4218,7 +4218,7 @@
           "dexNumber": 27,
           "name": "Sabelette",
           "generation": 7,
-          "slug": "sandshrew-alola",
+          "slug": "sabelette-alola",
           "imageId": 10101,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10101.png",
           "type": [
@@ -4310,7 +4310,7 @@
           "dexNumber": 28,
           "name": "Sablaireau",
           "generation": 7,
-          "slug": "sandslash-alola",
+          "slug": "sablaireau-alola",
           "imageId": 10102,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10102.png",
           "type": [
@@ -4777,7 +4777,7 @@
           "dexNumber": 37,
           "name": "Goupix",
           "generation": 7,
-          "slug": "vulpix-alola",
+          "slug": "goupix-alola",
           "imageId": 10103,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10103.png",
           "type": [
@@ -4874,7 +4874,7 @@
           "dexNumber": 38,
           "name": "Feunard",
           "generation": 7,
-          "slug": "ninetales-alola",
+          "slug": "feunard-alola",
           "imageId": 10104,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10104.png",
           "type": [
@@ -5479,7 +5479,7 @@
           "dexNumber": 50,
           "name": "Taupiqueur",
           "generation": 7,
-          "slug": "diglett-alola",
+          "slug": "taupiqueur-alola",
           "imageId": 10105,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10105.png",
           "type": [
@@ -5569,7 +5569,7 @@
           "dexNumber": 51,
           "name": "Triopikeur",
           "generation": 7,
-          "slug": "dugtrio-alola",
+          "slug": "triopikeur-alola",
           "imageId": 10106,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10106.png",
           "type": [
@@ -5660,7 +5660,7 @@
           "dexNumber": 52,
           "name": "Miaouss",
           "generation": 7,
-          "slug": "meowth-alola",
+          "slug": "miaouss-alola",
           "imageId": 10107,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10107.png",
           "type": [
@@ -5705,7 +5705,7 @@
           "dexNumber": 52,
           "name": "Miaouss",
           "generation": 1,
-          "slug": "meowth-galar",
+          "slug": "miaouss-galar",
           "imageId": 10161,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10161.png",
           "type": [
@@ -5881,7 +5881,7 @@
         "dexNumber": 54,
         "name": "Psykokwak",
         "generation": 1,
-        "slug": "psyduck-swim-2025",
+        "slug": "psykokwak-swim-2025",
         "imageId": 54,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/54.png",
         "type": [
@@ -6109,7 +6109,7 @@
           "dexNumber": 58,
           "name": "Caninos",
           "generation": 1,
-          "slug": "growlithe-hisui",
+          "slug": "caninos-hisui",
           "imageId": 10229,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10229.png",
           "type": [
@@ -6205,7 +6205,7 @@
           "dexNumber": 59,
           "name": "Arcanin",
           "generation": 1,
-          "slug": "arcanine-hisui",
+          "slug": "arcanin-hisui",
           "imageId": 10230,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10230.png",
           "type": [
@@ -6955,7 +6955,7 @@
           "dexNumber": 74,
           "name": "Racaillou",
           "generation": 7,
-          "slug": "geodude-alola",
+          "slug": "racaillou-alola",
           "imageId": 10109,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10109.png",
           "type": [
@@ -7050,7 +7050,7 @@
           "dexNumber": 75,
           "name": "Gravalanch",
           "generation": 7,
-          "slug": "graveler-alola",
+          "slug": "gravalanch-alola",
           "imageId": 10110,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10110.png",
           "type": [
@@ -7141,7 +7141,7 @@
           "dexNumber": 76,
           "name": "Grolem",
           "generation": 7,
-          "slug": "golem-alola",
+          "slug": "grolem-alola",
           "imageId": 10111,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10111.png",
           "type": [
@@ -7327,7 +7327,7 @@
           "dexNumber": 78,
           "name": "Galopa",
           "generation": 1,
-          "slug": "rapidash-galar",
+          "slug": "galopa-galar",
           "imageId": 10163,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10163.png",
           "type": [
@@ -7419,7 +7419,7 @@
         "dexNumber": 79,
         "name": "Ramoloss",
         "generation": 1,
-        "slug": "slowpoke-2020",
+        "slug": "ramoloss-2020",
         "imageId": 79,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/79.png",
         "type": [
@@ -7464,7 +7464,7 @@
           "dexNumber": 79,
           "name": "Ramoloss",
           "generation": 1,
-          "slug": "slowpoke-galar",
+          "slug": "ramoloss-galar",
           "imageId": 10164,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10164.png",
           "type": [
@@ -7551,7 +7551,7 @@
         "dexNumber": 80,
         "name": "Flagadoss",
         "generation": 1,
-        "slug": "slowbro-2021",
+        "slug": "flagadoss-2021",
         "imageId": 80,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/80.png",
         "type": [
@@ -7597,7 +7597,7 @@
           "dexNumber": 80,
           "name": "Flagadoss",
           "generation": 1,
-          "slug": "slowbro-galar",
+          "slug": "flagadoss-galar",
           "imageId": 10165,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10165.png",
           "type": [
@@ -7785,7 +7785,7 @@
           "dexNumber": 83,
           "name": "Canarticho",
           "generation": 1,
-          "slug": "farfetchd-galar",
+          "slug": "canarticho-galar",
           "imageId": 10166,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10166.png",
           "type": [
@@ -8069,7 +8069,7 @@
           "dexNumber": 88,
           "name": "Tadmorv",
           "generation": 7,
-          "slug": "grimer-alola",
+          "slug": "tadmorv-alola",
           "imageId": 10112,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10112.png",
           "type": [
@@ -8161,7 +8161,7 @@
           "dexNumber": 89,
           "name": "Grotadmorv",
           "generation": 7,
-          "slug": "muk-alola",
+          "slug": "grotadmorv-alola",
           "imageId": 10113,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10113.png",
           "type": [
@@ -8450,7 +8450,7 @@
         "dexNumber": 94,
         "name": "Ectoplasma",
         "generation": 1,
-        "slug": "gengar-costume-2020",
+        "slug": "ectoplasma-costume-2020",
         "imageId": 94,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/94.png",
         "type": [
@@ -8780,7 +8780,7 @@
           "dexNumber": 100,
           "name": "Voltorbe",
           "generation": 1,
-          "slug": "voltorb-hisui",
+          "slug": "voltorbe-hisui",
           "imageId": 10231,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10231.png",
           "type": [
@@ -9006,7 +9006,7 @@
           "dexNumber": 103,
           "name": "Noadkoko",
           "generation": 7,
-          "slug": "exeggutor-alola",
+          "slug": "noadkoko-alola",
           "imageId": 10114,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10114.png",
           "type": [
@@ -9139,7 +9139,7 @@
           "dexNumber": 105,
           "name": "Ossatueur",
           "generation": 7,
-          "slug": "marowak-alola",
+          "slug": "ossatueur-alola",
           "imageId": 10115,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10115.png",
           "type": [
@@ -9415,7 +9415,7 @@
           "dexNumber": 110,
           "name": "Smogogo",
           "generation": 1,
-          "slug": "weezing-galar",
+          "slug": "smogogo-galar",
           "imageId": 10167,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10167.png",
           "type": [
@@ -10006,7 +10006,7 @@
           "dexNumber": 122,
           "name": "M. Mime",
           "generation": 1,
-          "slug": "mr-mime-galar",
+          "slug": "m-mime-galar",
           "imageId": 10168,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10168.png",
           "type": [
@@ -10596,7 +10596,7 @@
         "dexNumber": 131,
         "name": "Lokhlass",
         "generation": 1,
-        "slug": "lapras-costume-2020",
+        "slug": "lokhlass-costume-2020",
         "imageId": 131,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/131.png",
         "type": [
@@ -10683,7 +10683,7 @@
         "dexNumber": 132,
         "name": "Métamorph",
         "generation": 1,
-        "slug": "ditto-spring-2026-a",
+        "slug": "metamorph-spring-2026-a",
         "imageId": 132,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/132.png",
         "type": [
@@ -10718,7 +10718,7 @@
         "dexNumber": 132,
         "name": "Métamorph",
         "generation": 1,
-        "slug": "ditto-spring-2026-b",
+        "slug": "metamorph-spring-2026-b",
         "imageId": 132,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/132.png",
         "type": [
@@ -10803,7 +10803,7 @@
         "dexNumber": 133,
         "name": "Évoli",
         "generation": 1,
-        "slug": "eevee-gofest-2024-mtiara",
+        "slug": "evoli-gofest-2024-mtiara",
         "imageId": 133,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png",
         "type": [
@@ -10843,7 +10843,7 @@
         "dexNumber": 133,
         "name": "Évoli",
         "generation": 1,
-        "slug": "eevee-gofest-2024-stiara",
+        "slug": "evoli-gofest-2024-stiara",
         "imageId": 133,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png",
         "type": [
@@ -11305,7 +11305,7 @@
         "dexNumber": 142,
         "name": "Ptéra",
         "generation": 1,
-        "slug": "aerodactyl-summer-2023",
+        "slug": "ptera-summer-2023",
         "imageId": 142,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/142.png",
         "type": [
@@ -11397,7 +11397,7 @@
         "dexNumber": 143,
         "name": "Ronflex",
         "generation": 1,
-        "slug": "snorlax-wildarea-2024",
+        "slug": "ronflex-wildarea-2024",
         "imageId": 143,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/143.png",
         "type": [
@@ -11492,7 +11492,7 @@
           "dexNumber": 144,
           "name": "Artikodin",
           "generation": 1,
-          "slug": "articuno-galar",
+          "slug": "artikodin-galar",
           "imageId": 10169,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10169.png",
           "type": [
@@ -11583,7 +11583,7 @@
           "dexNumber": 145,
           "name": "Électhor",
           "generation": 1,
-          "slug": "zapdos-galar",
+          "slug": "electhor-galar",
           "imageId": 10170,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10170.png",
           "type": [
@@ -11674,7 +11674,7 @@
           "dexNumber": 146,
           "name": "Sulfura",
           "generation": 1,
-          "slug": "moltres-galar",
+          "slug": "sulfura-galar",
           "imageId": 10171,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10171.png",
           "type": [
@@ -13630,7 +13630,7 @@
         "dexNumber": 185,
         "name": "Simularbre",
         "generation": 2,
-        "slug": "sudowoodo-winter-2025",
+        "slug": "simularbre-winter-2025",
         "imageId": 185,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/185.png",
         "type": [
@@ -14079,7 +14079,7 @@
           "dexNumber": 194,
           "name": "Axoloto",
           "generation": 9,
-          "slug": "wooper-paldea",
+          "slug": "axoloto-paldea",
           "imageId": 10253,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10253.png",
           "type": [
@@ -14217,7 +14217,7 @@
         "dexNumber": 196,
         "name": "Mentali",
         "generation": 2,
-        "slug": "espeon-gofest-2024-sscarf",
+        "slug": "mentali-gofest-2024-sscarf",
         "imageId": 196,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/196.png",
         "type": [
@@ -14304,7 +14304,7 @@
         "dexNumber": 197,
         "name": "Noctali",
         "generation": 2,
-        "slug": "umbreon-gofest-2024-mscarf",
+        "slug": "noctali-gofest-2024-mscarf",
         "imageId": 197,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/197.png",
         "type": [
@@ -14434,7 +14434,7 @@
         "dexNumber": 199,
         "name": "Roigada",
         "generation": 2,
-        "slug": "slowking-2022",
+        "slug": "roigada-2022",
         "imageId": 199,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/199.png",
         "type": [
@@ -14479,7 +14479,7 @@
           "dexNumber": 199,
           "name": "Roigada",
           "generation": 2,
-          "slug": "slowking-galar",
+          "slug": "roigada-galar",
           "imageId": 10172,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10172.png",
           "type": [
@@ -14607,7 +14607,7 @@
         "dexNumber": 201,
         "name": "Zarbi",
         "generation": 2,
-        "slug": "unown-a",
+        "slug": "zarbi-a",
         "imageId": 201,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/201.png",
         "type": [
@@ -14642,7 +14642,7 @@
         "dexNumber": 201,
         "name": "Zarbi",
         "generation": 2,
-        "slug": "unown-b",
+        "slug": "zarbi-b",
         "imageId": 201,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/201.png",
         "type": [
@@ -14677,7 +14677,7 @@
         "dexNumber": 201,
         "name": "Zarbi",
         "generation": 2,
-        "slug": "unown-c",
+        "slug": "zarbi-c",
         "imageId": 201,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/201.png",
         "type": [
@@ -14712,7 +14712,7 @@
         "dexNumber": 201,
         "name": "Zarbi",
         "generation": 2,
-        "slug": "unown-d",
+        "slug": "zarbi-d",
         "imageId": 201,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/201.png",
         "type": [
@@ -14747,7 +14747,7 @@
         "dexNumber": 201,
         "name": "Zarbi",
         "generation": 2,
-        "slug": "unown-e",
+        "slug": "zarbi-e",
         "imageId": 201,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/201.png",
         "type": [
@@ -14782,7 +14782,7 @@
         "dexNumber": 201,
         "name": "Zarbi",
         "generation": 2,
-        "slug": "unown-exclamation-point",
+        "slug": "zarbi-exclamation-point",
         "imageId": 201,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/201.png",
         "type": [
@@ -14817,7 +14817,7 @@
         "dexNumber": 201,
         "name": "Zarbi",
         "generation": 2,
-        "slug": "unown-f",
+        "slug": "zarbi-f",
         "imageId": 201,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/201.png",
         "type": [
@@ -14852,7 +14852,7 @@
         "dexNumber": 201,
         "name": "Zarbi",
         "generation": 2,
-        "slug": "unown-g",
+        "slug": "zarbi-g",
         "imageId": 201,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/201.png",
         "type": [
@@ -14887,7 +14887,7 @@
         "dexNumber": 201,
         "name": "Zarbi",
         "generation": 2,
-        "slug": "unown-h",
+        "slug": "zarbi-h",
         "imageId": 201,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/201.png",
         "type": [
@@ -14922,7 +14922,7 @@
         "dexNumber": 201,
         "name": "Zarbi",
         "generation": 2,
-        "slug": "unown-i",
+        "slug": "zarbi-i",
         "imageId": 201,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/201.png",
         "type": [
@@ -14957,7 +14957,7 @@
         "dexNumber": 201,
         "name": "Zarbi",
         "generation": 2,
-        "slug": "unown-j",
+        "slug": "zarbi-j",
         "imageId": 201,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/201.png",
         "type": [
@@ -14992,7 +14992,7 @@
         "dexNumber": 201,
         "name": "Zarbi",
         "generation": 2,
-        "slug": "unown-k",
+        "slug": "zarbi-k",
         "imageId": 201,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/201.png",
         "type": [
@@ -15027,7 +15027,7 @@
         "dexNumber": 201,
         "name": "Zarbi",
         "generation": 2,
-        "slug": "unown-l",
+        "slug": "zarbi-l",
         "imageId": 201,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/201.png",
         "type": [
@@ -15062,7 +15062,7 @@
         "dexNumber": 201,
         "name": "Zarbi",
         "generation": 2,
-        "slug": "unown-m",
+        "slug": "zarbi-m",
         "imageId": 201,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/201.png",
         "type": [
@@ -15097,7 +15097,7 @@
         "dexNumber": 201,
         "name": "Zarbi",
         "generation": 2,
-        "slug": "unown-n",
+        "slug": "zarbi-n",
         "imageId": 201,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/201.png",
         "type": [
@@ -15132,7 +15132,7 @@
         "dexNumber": 201,
         "name": "Zarbi",
         "generation": 2,
-        "slug": "unown-o",
+        "slug": "zarbi-o",
         "imageId": 201,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/201.png",
         "type": [
@@ -15167,7 +15167,7 @@
         "dexNumber": 201,
         "name": "Zarbi",
         "generation": 2,
-        "slug": "unown-p",
+        "slug": "zarbi-p",
         "imageId": 201,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/201.png",
         "type": [
@@ -15202,7 +15202,7 @@
         "dexNumber": 201,
         "name": "Zarbi",
         "generation": 2,
-        "slug": "unown-q",
+        "slug": "zarbi-q",
         "imageId": 201,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/201.png",
         "type": [
@@ -15237,7 +15237,7 @@
         "dexNumber": 201,
         "name": "Zarbi",
         "generation": 2,
-        "slug": "unown-question-mark",
+        "slug": "zarbi-question-mark",
         "imageId": 201,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/201.png",
         "type": [
@@ -15272,7 +15272,7 @@
         "dexNumber": 201,
         "name": "Zarbi",
         "generation": 2,
-        "slug": "unown-r",
+        "slug": "zarbi-r",
         "imageId": 201,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/201.png",
         "type": [
@@ -15307,7 +15307,7 @@
         "dexNumber": 201,
         "name": "Zarbi",
         "generation": 2,
-        "slug": "unown-s",
+        "slug": "zarbi-s",
         "imageId": 201,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/201.png",
         "type": [
@@ -15342,7 +15342,7 @@
         "dexNumber": 201,
         "name": "Zarbi",
         "generation": 2,
-        "slug": "unown-t",
+        "slug": "zarbi-t",
         "imageId": 201,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/201.png",
         "type": [
@@ -15377,7 +15377,7 @@
         "dexNumber": 201,
         "name": "Zarbi",
         "generation": 2,
-        "slug": "unown-u",
+        "slug": "zarbi-u",
         "imageId": 201,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/201.png",
         "type": [
@@ -15412,7 +15412,7 @@
         "dexNumber": 201,
         "name": "Zarbi",
         "generation": 2,
-        "slug": "unown-v",
+        "slug": "zarbi-v",
         "imageId": 201,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/201.png",
         "type": [
@@ -15447,7 +15447,7 @@
         "dexNumber": 201,
         "name": "Zarbi",
         "generation": 2,
-        "slug": "unown-w",
+        "slug": "zarbi-w",
         "imageId": 201,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/201.png",
         "type": [
@@ -15482,7 +15482,7 @@
         "dexNumber": 201,
         "name": "Zarbi",
         "generation": 2,
-        "slug": "unown-x",
+        "slug": "zarbi-x",
         "imageId": 201,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/201.png",
         "type": [
@@ -15517,7 +15517,7 @@
         "dexNumber": 201,
         "name": "Zarbi",
         "generation": 2,
-        "slug": "unown-y",
+        "slug": "zarbi-y",
         "imageId": 201,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/201.png",
         "type": [
@@ -15552,7 +15552,7 @@
         "dexNumber": 201,
         "name": "Zarbi",
         "generation": 2,
-        "slug": "unown-z",
+        "slug": "zarbi-z",
         "imageId": 201,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/201.png",
         "type": [
@@ -16258,7 +16258,7 @@
           "dexNumber": 215,
           "name": "Farfuret",
           "generation": 2,
-          "slug": "sneasel-hisui",
+          "slug": "farfuret-hisui",
           "imageId": 10235,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10235.png",
           "type": [
@@ -16617,7 +16617,7 @@
           "dexNumber": 222,
           "name": "Corayon",
           "generation": 2,
-          "slug": "corsola-galar",
+          "slug": "corayon-galar",
           "imageId": 10173,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10173.png",
           "type": [
@@ -16656,7 +16656,7 @@
             "dexNumber": 222,
             "name": "Corayon",
             "generation": 2,
-            "slug": "corsola-spring-2026",
+            "slug": "corayon-spring-2026",
             "imageId": 222,
             "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/222.png",
             "type": [
@@ -16830,7 +16830,7 @@
         "dexNumber": 225,
         "name": "Cadoizo",
         "generation": 2,
-        "slug": "delibird-winter-2020",
+        "slug": "cadoizo-winter-2020",
         "imageId": 225,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/225.png",
         "type": [
@@ -18794,7 +18794,7 @@
           "dexNumber": 263,
           "name": "Zigzaton",
           "generation": 3,
-          "slug": "zigzagoon-galar",
+          "slug": "zigzaton-galar",
           "imageId": 10174,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10174.png",
           "type": [
@@ -18881,7 +18881,7 @@
           "dexNumber": 264,
           "name": "Linéon",
           "generation": 3,
-          "slug": "linoone-galar",
+          "slug": "lineon-galar",
           "imageId": 10175,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10175.png",
           "type": [
@@ -20568,7 +20568,7 @@
         "dexNumber": 302,
         "name": "Ténéfix",
         "generation": 3,
-        "slug": "sableye-costume-2020",
+        "slug": "tenefix-costume-2020",
         "imageId": 302,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/302.png",
         "type": [
@@ -23531,7 +23531,7 @@
           "dexNumber": 351,
           "name": "Morphéo",
           "generation": 3,
-          "slug": "castform-rainy",
+          "slug": "morpheo-rainy",
           "imageId": 10014,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10014.png",
           "type": [
@@ -23572,7 +23572,7 @@
           "dexNumber": 351,
           "name": "Morphéo",
           "generation": 3,
-          "slug": "castform-snowy",
+          "slug": "morpheo-snowy",
           "imageId": 10015,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10015.png",
           "type": [
@@ -23613,7 +23613,7 @@
           "dexNumber": 351,
           "name": "Morphéo",
           "generation": 3,
-          "slug": "castform-sunny",
+          "slug": "morpheo-sunny",
           "imageId": 10013,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10013.png",
           "type": [
@@ -26533,7 +26533,7 @@
         "dexNumber": 412,
         "name": "Cheniti",
         "generation": 4,
-        "slug": "burmy-plant",
+        "slug": "cheniti-plant",
         "imageId": 412,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/412.png",
         "type": [
@@ -26569,7 +26569,7 @@
         "dexNumber": 412,
         "name": "Cheniti",
         "generation": 4,
-        "slug": "burmy-sandy",
+        "slug": "cheniti-sandy",
         "imageId": 412,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/412.png",
         "type": [
@@ -26605,7 +26605,7 @@
         "dexNumber": 412,
         "name": "Cheniti",
         "generation": 4,
-        "slug": "burmy-trash",
+        "slug": "cheniti-trash",
         "imageId": 412,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/412.png",
         "type": [
@@ -26686,7 +26686,7 @@
           "dexNumber": 413,
           "name": "Cheniselle",
           "generation": 4,
-          "slug": "wormadam-plant",
+          "slug": "cheniselle-plant",
           "imageId": 413,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/413.png",
           "type": [
@@ -26729,7 +26729,7 @@
           "dexNumber": 413,
           "name": "Cheniselle",
           "generation": 4,
-          "slug": "wormadam-sandy",
+          "slug": "cheniselle-sandy",
           "imageId": 10004,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10004.png",
           "type": [
@@ -26772,7 +26772,7 @@
           "dexNumber": 413,
           "name": "Cheniselle",
           "generation": 4,
-          "slug": "wormadam-trash",
+          "slug": "cheniselle-trash",
           "imageId": 10005,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10005.png",
           "type": [
@@ -27157,7 +27157,7 @@
         "dexNumber": 421,
         "name": "Ceriflor",
         "generation": 4,
-        "slug": "cherrim-overcast",
+        "slug": "ceriflor-overcast",
         "imageId": 421,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/421.png",
         "type": [
@@ -27198,7 +27198,7 @@
           "dexNumber": 421,
           "name": "Ceriflor",
           "generation": 4,
-          "slug": "cherrim-sunny",
+          "slug": "ceriflor-sunny",
           "imageId": 421,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/421.png",
           "type": [
@@ -27281,7 +27281,7 @@
         "dexNumber": 422,
         "name": "Sancoki",
         "generation": 4,
-        "slug": "shellos-east-sea",
+        "slug": "sancoki-east-sea",
         "imageId": 422,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/422.png",
         "type": [
@@ -27319,7 +27319,7 @@
         "dexNumber": 422,
         "name": "Sancoki",
         "generation": 4,
-        "slug": "shellos-west-sea",
+        "slug": "sancoki-west-sea",
         "imageId": 422,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/422.png",
         "type": [
@@ -27402,7 +27402,7 @@
         "dexNumber": 423,
         "name": "Tritosor",
         "generation": 4,
-        "slug": "gastrodon-east-sea",
+        "slug": "tritosor-east-sea",
         "imageId": 423,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/423.png",
         "type": [
@@ -27442,7 +27442,7 @@
         "dexNumber": 423,
         "name": "Tritosor",
         "generation": 4,
-        "slug": "gastrodon-west-sea",
+        "slug": "tritosor-west-sea",
         "imageId": 423,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/423.png",
         "type": [
@@ -29977,7 +29977,7 @@
           "dexNumber": 479,
           "name": "Motisma",
           "generation": 4,
-          "slug": "rotom-fan",
+          "slug": "motisma-fan",
           "imageId": 10011,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10011.png",
           "type": [
@@ -30019,7 +30019,7 @@
           "dexNumber": 479,
           "name": "Motisma",
           "generation": 4,
-          "slug": "rotom-frost",
+          "slug": "motisma-frost",
           "imageId": 10010,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10010.png",
           "type": [
@@ -30061,7 +30061,7 @@
           "dexNumber": 479,
           "name": "Motisma",
           "generation": 4,
-          "slug": "rotom-heat",
+          "slug": "motisma-heat",
           "imageId": 10008,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10008.png",
           "type": [
@@ -30103,7 +30103,7 @@
           "dexNumber": 479,
           "name": "Motisma",
           "generation": 4,
-          "slug": "rotom-mow",
+          "slug": "motisma-mow",
           "imageId": 10012,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10012.png",
           "type": [
@@ -30146,7 +30146,7 @@
           "dexNumber": 479,
           "name": "Motisma",
           "generation": 4,
-          "slug": "rotom-wash",
+          "slug": "motisma-wash",
           "imageId": 10009,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10009.png",
           "type": [
@@ -32192,7 +32192,7 @@
           "dexNumber": 503,
           "name": "Clamiral",
           "generation": 5,
-          "slug": "samurott-hisui",
+          "slug": "clamiral-hisui",
           "imageId": 10236,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10236.png",
           "type": [
@@ -34215,7 +34215,7 @@
           "dexNumber": 549,
           "name": "Fragilady",
           "generation": 5,
-          "slug": "lilligant-hisui",
+          "slug": "fragilady-hisui",
           "imageId": 10237,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10237.png",
           "type": [
@@ -34299,7 +34299,7 @@
         "dexNumber": 550,
         "name": "Bargantua",
         "generation": 5,
-        "slug": "basculin-blue-striped",
+        "slug": "bargantua-blue-striped",
         "imageId": 10016,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10016.png",
         "type": [
@@ -34337,7 +34337,7 @@
         "dexNumber": 550,
         "name": "Bargantua",
         "generation": 5,
-        "slug": "basculin-red-striped",
+        "slug": "bargantua-red-striped",
         "imageId": 550,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/550.png",
         "type": [
@@ -34375,7 +34375,7 @@
         "dexNumber": 550,
         "name": "Bargantua",
         "generation": 5,
-        "slug": "basculin-white-striped",
+        "slug": "bargantua-white-striped",
         "imageId": 10247,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10247.png",
         "type": [
@@ -34588,7 +34588,7 @@
           "dexNumber": 554,
           "name": "Darumarond",
           "generation": 5,
-          "slug": "darumaka-galar",
+          "slug": "darumarond-galar",
           "imageId": 10176,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10176.png",
           "type": [
@@ -34671,7 +34671,7 @@
         "dexNumber": 555,
         "name": "Darumacho",
         "generation": 5,
-        "slug": "darmanitan-standard",
+        "slug": "darumacho-standard",
         "imageId": 555,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/555.png",
         "type": [
@@ -34714,7 +34714,7 @@
           "dexNumber": 555,
           "name": "Darumacho",
           "generation": 5,
-          "slug": "darmanitan-galar-standard",
+          "slug": "darumacho-galar-standard",
           "imageId": 10177,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10177.png",
           "type": [
@@ -34756,7 +34756,7 @@
           "dexNumber": 555,
           "name": "Darumacho",
           "generation": 5,
-          "slug": "darmanitan-galar-zen",
+          "slug": "darumacho-galar-zen",
           "imageId": 10178,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10178.png",
           "type": [
@@ -34799,7 +34799,7 @@
           "dexNumber": 555,
           "name": "Darumacho",
           "generation": 5,
-          "slug": "darmanitan-zen",
+          "slug": "darumacho-zen",
           "imageId": 10017,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10017.png",
           "type": [
@@ -35152,7 +35152,7 @@
           "dexNumber": 562,
           "name": "Tutafeh",
           "generation": 5,
-          "slug": "yamask-galar",
+          "slug": "tutafeh-galar",
           "imageId": 10179,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10179.png",
           "type": [
@@ -36268,7 +36268,7 @@
         "dexNumber": 585,
         "name": "Vivaldaim",
         "generation": 5,
-        "slug": "deerling-autumn",
+        "slug": "vivaldaim-autumn",
         "imageId": 585,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/585.png",
         "type": [
@@ -36308,7 +36308,7 @@
         "dexNumber": 585,
         "name": "Vivaldaim",
         "generation": 5,
-        "slug": "deerling-spring",
+        "slug": "vivaldaim-spring",
         "imageId": 585,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/585.png",
         "type": [
@@ -36348,7 +36348,7 @@
         "dexNumber": 585,
         "name": "Vivaldaim",
         "generation": 5,
-        "slug": "deerling-summer",
+        "slug": "vivaldaim-summer",
         "imageId": 585,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/585.png",
         "type": [
@@ -36388,7 +36388,7 @@
         "dexNumber": 585,
         "name": "Vivaldaim",
         "generation": 5,
-        "slug": "deerling-winter",
+        "slug": "vivaldaim-winter",
         "imageId": 585,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/585.png",
         "type": [
@@ -36474,7 +36474,7 @@
         "dexNumber": 586,
         "name": "Haydaim",
         "generation": 5,
-        "slug": "sawsbuck-autumn",
+        "slug": "haydaim-autumn",
         "imageId": 586,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/586.png",
         "type": [
@@ -36515,7 +36515,7 @@
         "dexNumber": 586,
         "name": "Haydaim",
         "generation": 5,
-        "slug": "sawsbuck-spring",
+        "slug": "haydaim-spring",
         "imageId": 586,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/586.png",
         "type": [
@@ -36556,7 +36556,7 @@
         "dexNumber": 586,
         "name": "Haydaim",
         "generation": 5,
-        "slug": "sawsbuck-summer",
+        "slug": "haydaim-summer",
         "imageId": 586,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/586.png",
         "type": [
@@ -36597,7 +36597,7 @@
         "dexNumber": 586,
         "name": "Haydaim",
         "generation": 5,
-        "slug": "sawsbuck-winter",
+        "slug": "haydaim-winter",
         "imageId": 586,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/586.png",
         "type": [
@@ -36901,7 +36901,7 @@
         "dexNumber": 592,
         "name": "Viskuse",
         "generation": 5,
-        "slug": "frillish-female",
+        "slug": "viskuse-female",
         "imageId": 592,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/592.png",
         "type": [
@@ -36985,7 +36985,7 @@
         "dexNumber": 593,
         "name": "Moyade",
         "generation": 5,
-        "slug": "jellicent-female",
+        "slug": "moyade-female",
         "imageId": 593,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/593.png",
         "type": [
@@ -37891,7 +37891,7 @@
         "dexNumber": 613,
         "name": "Polarhume",
         "generation": 5,
-        "slug": "cubchoo-winter-2020",
+        "slug": "polarhume-winter-2020",
         "imageId": 613,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/613.png",
         "type": [
@@ -37973,7 +37973,7 @@
         "dexNumber": 614,
         "name": "Polagriffe",
         "generation": 5,
-        "slug": "beartic-winter-2020",
+        "slug": "polagriffe-winter-2020",
         "imageId": 614,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/614.png",
         "type": [
@@ -38190,7 +38190,7 @@
           "dexNumber": 618,
           "name": "Limonde",
           "generation": 5,
-          "slug": "stunfisk-galar",
+          "slug": "limonde-galar",
           "imageId": 10180,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10180.png",
           "type": [
@@ -38674,7 +38674,7 @@
           "dexNumber": 628,
           "name": "Gueriaigle",
           "generation": 5,
-          "slug": "braviary-hisui",
+          "slug": "gueriaigle-hisui",
           "imageId": 10240,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10240.png",
           "type": [
@@ -39289,7 +39289,7 @@
         "dexNumber": 641,
         "name": "Boréas",
         "generation": 5,
-        "slug": "tornadus-incarnate",
+        "slug": "boreas-incarnate",
         "imageId": 641,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/641.png",
         "type": [
@@ -39331,7 +39331,7 @@
           "dexNumber": 641,
           "name": "Boréas",
           "generation": 5,
-          "slug": "tornadus-therian",
+          "slug": "boreas-therian",
           "imageId": 10019,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10019.png",
           "type": [
@@ -39418,7 +39418,7 @@
         "dexNumber": 642,
         "name": "Fulguris",
         "generation": 5,
-        "slug": "thundurus-incarnate",
+        "slug": "fulguris-incarnate",
         "imageId": 642,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/642.png",
         "type": [
@@ -39461,7 +39461,7 @@
           "dexNumber": 642,
           "name": "Fulguris",
           "generation": 5,
-          "slug": "thundurus-therian",
+          "slug": "fulguris-therian",
           "imageId": 10020,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10020.png",
           "type": [
@@ -39641,7 +39641,7 @@
         "dexNumber": 645,
         "name": "Démétéros",
         "generation": 5,
-        "slug": "landorus-incarnate",
+        "slug": "demeteros-incarnate",
         "imageId": 645,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/645.png",
         "type": [
@@ -39684,7 +39684,7 @@
           "dexNumber": 645,
           "name": "Démétéros",
           "generation": 5,
-          "slug": "landorus-therian",
+          "slug": "demeteros-therian",
           "imageId": 10021,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10021.png",
           "type": [
@@ -40965,7 +40965,7 @@
         "dexNumber": 664,
         "name": "Lépidonille",
         "generation": 6,
-        "slug": "scatterbug-archipelago",
+        "slug": "lepidonille-archipelago",
         "imageId": 664,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/664.png",
         "type": [
@@ -41001,7 +41001,7 @@
         "dexNumber": 664,
         "name": "Lépidonille",
         "generation": 6,
-        "slug": "scatterbug-continental",
+        "slug": "lepidonille-continental",
         "imageId": 664,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/664.png",
         "type": [
@@ -41037,7 +41037,7 @@
         "dexNumber": 664,
         "name": "Lépidonille",
         "generation": 6,
-        "slug": "scatterbug-elegant",
+        "slug": "lepidonille-elegant",
         "imageId": 664,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/664.png",
         "type": [
@@ -41073,7 +41073,7 @@
         "dexNumber": 664,
         "name": "Lépidonille",
         "generation": 6,
-        "slug": "scatterbug-fancy",
+        "slug": "lepidonille-fancy",
         "imageId": 664,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/664.png",
         "type": [
@@ -41109,7 +41109,7 @@
         "dexNumber": 664,
         "name": "Lépidonille",
         "generation": 6,
-        "slug": "scatterbug-garden",
+        "slug": "lepidonille-garden",
         "imageId": 664,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/664.png",
         "type": [
@@ -41145,7 +41145,7 @@
         "dexNumber": 664,
         "name": "Lépidonille",
         "generation": 6,
-        "slug": "scatterbug-high-plains",
+        "slug": "lepidonille-high-plains",
         "imageId": 664,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/664.png",
         "type": [
@@ -41181,7 +41181,7 @@
         "dexNumber": 664,
         "name": "Lépidonille",
         "generation": 6,
-        "slug": "scatterbug-icy-snow",
+        "slug": "lepidonille-icy-snow",
         "imageId": 664,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/664.png",
         "type": [
@@ -41217,7 +41217,7 @@
         "dexNumber": 664,
         "name": "Lépidonille",
         "generation": 6,
-        "slug": "scatterbug-jungle",
+        "slug": "lepidonille-jungle",
         "imageId": 664,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/664.png",
         "type": [
@@ -41253,7 +41253,7 @@
         "dexNumber": 664,
         "name": "Lépidonille",
         "generation": 6,
-        "slug": "scatterbug-marine",
+        "slug": "lepidonille-marine",
         "imageId": 664,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/664.png",
         "type": [
@@ -41289,7 +41289,7 @@
         "dexNumber": 664,
         "name": "Lépidonille",
         "generation": 6,
-        "slug": "scatterbug-meadow",
+        "slug": "lepidonille-meadow",
         "imageId": 664,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/664.png",
         "type": [
@@ -41325,7 +41325,7 @@
         "dexNumber": 664,
         "name": "Lépidonille",
         "generation": 6,
-        "slug": "scatterbug-modern",
+        "slug": "lepidonille-modern",
         "imageId": 664,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/664.png",
         "type": [
@@ -41361,7 +41361,7 @@
         "dexNumber": 664,
         "name": "Lépidonille",
         "generation": 6,
-        "slug": "scatterbug-monsoon",
+        "slug": "lepidonille-monsoon",
         "imageId": 664,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/664.png",
         "type": [
@@ -41397,7 +41397,7 @@
         "dexNumber": 664,
         "name": "Lépidonille",
         "generation": 6,
-        "slug": "scatterbug-ocean",
+        "slug": "lepidonille-ocean",
         "imageId": 664,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/664.png",
         "type": [
@@ -41433,7 +41433,7 @@
         "dexNumber": 664,
         "name": "Lépidonille",
         "generation": 6,
-        "slug": "scatterbug-pokeball",
+        "slug": "lepidonille-pokeball",
         "imageId": 664,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/664.png",
         "type": [
@@ -41469,7 +41469,7 @@
         "dexNumber": 664,
         "name": "Lépidonille",
         "generation": 6,
-        "slug": "scatterbug-polar",
+        "slug": "lepidonille-polar",
         "imageId": 664,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/664.png",
         "type": [
@@ -41505,7 +41505,7 @@
         "dexNumber": 664,
         "name": "Lépidonille",
         "generation": 6,
-        "slug": "scatterbug-river",
+        "slug": "lepidonille-river",
         "imageId": 664,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/664.png",
         "type": [
@@ -41541,7 +41541,7 @@
         "dexNumber": 664,
         "name": "Lépidonille",
         "generation": 6,
-        "slug": "scatterbug-sandstorm",
+        "slug": "lepidonille-sandstorm",
         "imageId": 664,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/664.png",
         "type": [
@@ -41577,7 +41577,7 @@
         "dexNumber": 664,
         "name": "Lépidonille",
         "generation": 6,
-        "slug": "scatterbug-savanna",
+        "slug": "lepidonille-savanna",
         "imageId": 664,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/664.png",
         "type": [
@@ -41613,7 +41613,7 @@
         "dexNumber": 664,
         "name": "Lépidonille",
         "generation": 6,
-        "slug": "scatterbug-sun",
+        "slug": "lepidonille-sun",
         "imageId": 664,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/664.png",
         "type": [
@@ -41649,7 +41649,7 @@
         "dexNumber": 664,
         "name": "Lépidonille",
         "generation": 6,
-        "slug": "scatterbug-tundra",
+        "slug": "lepidonille-tundra",
         "imageId": 664,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/664.png",
         "type": [
@@ -41725,7 +41725,7 @@
         "dexNumber": 665,
         "name": "Pérégrain",
         "generation": 6,
-        "slug": "spewpa-archipelago",
+        "slug": "peregrain-archipelago",
         "imageId": 665,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/665.png",
         "type": [
@@ -41760,7 +41760,7 @@
         "dexNumber": 665,
         "name": "Pérégrain",
         "generation": 6,
-        "slug": "spewpa-continental",
+        "slug": "peregrain-continental",
         "imageId": 665,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/665.png",
         "type": [
@@ -41795,7 +41795,7 @@
         "dexNumber": 665,
         "name": "Pérégrain",
         "generation": 6,
-        "slug": "spewpa-elegant",
+        "slug": "peregrain-elegant",
         "imageId": 665,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/665.png",
         "type": [
@@ -41830,7 +41830,7 @@
         "dexNumber": 665,
         "name": "Pérégrain",
         "generation": 6,
-        "slug": "spewpa-fancy",
+        "slug": "peregrain-fancy",
         "imageId": 665,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/665.png",
         "type": [
@@ -41865,7 +41865,7 @@
         "dexNumber": 665,
         "name": "Pérégrain",
         "generation": 6,
-        "slug": "spewpa-garden",
+        "slug": "peregrain-garden",
         "imageId": 665,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/665.png",
         "type": [
@@ -41900,7 +41900,7 @@
         "dexNumber": 665,
         "name": "Pérégrain",
         "generation": 6,
-        "slug": "spewpa-high-plains",
+        "slug": "peregrain-high-plains",
         "imageId": 665,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/665.png",
         "type": [
@@ -41935,7 +41935,7 @@
         "dexNumber": 665,
         "name": "Pérégrain",
         "generation": 6,
-        "slug": "spewpa-icy-snow",
+        "slug": "peregrain-icy-snow",
         "imageId": 665,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/665.png",
         "type": [
@@ -41970,7 +41970,7 @@
         "dexNumber": 665,
         "name": "Pérégrain",
         "generation": 6,
-        "slug": "spewpa-jungle",
+        "slug": "peregrain-jungle",
         "imageId": 665,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/665.png",
         "type": [
@@ -42005,7 +42005,7 @@
         "dexNumber": 665,
         "name": "Pérégrain",
         "generation": 6,
-        "slug": "spewpa-marine",
+        "slug": "peregrain-marine",
         "imageId": 665,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/665.png",
         "type": [
@@ -42040,7 +42040,7 @@
         "dexNumber": 665,
         "name": "Pérégrain",
         "generation": 6,
-        "slug": "spewpa-meadow",
+        "slug": "peregrain-meadow",
         "imageId": 665,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/665.png",
         "type": [
@@ -42075,7 +42075,7 @@
         "dexNumber": 665,
         "name": "Pérégrain",
         "generation": 6,
-        "slug": "spewpa-modern",
+        "slug": "peregrain-modern",
         "imageId": 665,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/665.png",
         "type": [
@@ -42110,7 +42110,7 @@
         "dexNumber": 665,
         "name": "Pérégrain",
         "generation": 6,
-        "slug": "spewpa-monsoon",
+        "slug": "peregrain-monsoon",
         "imageId": 665,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/665.png",
         "type": [
@@ -42145,7 +42145,7 @@
         "dexNumber": 665,
         "name": "Pérégrain",
         "generation": 6,
-        "slug": "spewpa-ocean",
+        "slug": "peregrain-ocean",
         "imageId": 665,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/665.png",
         "type": [
@@ -42180,7 +42180,7 @@
         "dexNumber": 665,
         "name": "Pérégrain",
         "generation": 6,
-        "slug": "spewpa-pokeball",
+        "slug": "peregrain-pokeball",
         "imageId": 665,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/665.png",
         "type": [
@@ -42215,7 +42215,7 @@
         "dexNumber": 665,
         "name": "Pérégrain",
         "generation": 6,
-        "slug": "spewpa-polar",
+        "slug": "peregrain-polar",
         "imageId": 665,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/665.png",
         "type": [
@@ -42250,7 +42250,7 @@
         "dexNumber": 665,
         "name": "Pérégrain",
         "generation": 6,
-        "slug": "spewpa-river",
+        "slug": "peregrain-river",
         "imageId": 665,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/665.png",
         "type": [
@@ -42285,7 +42285,7 @@
         "dexNumber": 665,
         "name": "Pérégrain",
         "generation": 6,
-        "slug": "spewpa-sandstorm",
+        "slug": "peregrain-sandstorm",
         "imageId": 665,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/665.png",
         "type": [
@@ -42320,7 +42320,7 @@
         "dexNumber": 665,
         "name": "Pérégrain",
         "generation": 6,
-        "slug": "spewpa-savanna",
+        "slug": "peregrain-savanna",
         "imageId": 665,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/665.png",
         "type": [
@@ -42355,7 +42355,7 @@
         "dexNumber": 665,
         "name": "Pérégrain",
         "generation": 6,
-        "slug": "spewpa-sun",
+        "slug": "peregrain-sun",
         "imageId": 665,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/665.png",
         "type": [
@@ -42390,7 +42390,7 @@
         "dexNumber": 665,
         "name": "Pérégrain",
         "generation": 6,
-        "slug": "spewpa-tundra",
+        "slug": "peregrain-tundra",
         "imageId": 665,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/665.png",
         "type": [
@@ -42470,7 +42470,7 @@
         "dexNumber": 666,
         "name": "Prismillon",
         "generation": 6,
-        "slug": "vivillon-archipelago",
+        "slug": "prismillon-archipelago",
         "imageId": 666,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/666.png",
         "type": [
@@ -42510,7 +42510,7 @@
         "dexNumber": 666,
         "name": "Prismillon",
         "generation": 6,
-        "slug": "vivillon-continental",
+        "slug": "prismillon-continental",
         "imageId": 666,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/666.png",
         "type": [
@@ -42550,7 +42550,7 @@
         "dexNumber": 666,
         "name": "Prismillon",
         "generation": 6,
-        "slug": "vivillon-elegant",
+        "slug": "prismillon-elegant",
         "imageId": 666,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/666.png",
         "type": [
@@ -42590,7 +42590,7 @@
         "dexNumber": 666,
         "name": "Prismillon",
         "generation": 6,
-        "slug": "vivillon-fancy",
+        "slug": "prismillon-fancy",
         "imageId": 666,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/666.png",
         "type": [
@@ -42630,7 +42630,7 @@
         "dexNumber": 666,
         "name": "Prismillon",
         "generation": 6,
-        "slug": "vivillon-garden",
+        "slug": "prismillon-garden",
         "imageId": 666,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/666.png",
         "type": [
@@ -42670,7 +42670,7 @@
         "dexNumber": 666,
         "name": "Prismillon",
         "generation": 6,
-        "slug": "vivillon-high-plains",
+        "slug": "prismillon-high-plains",
         "imageId": 666,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/666.png",
         "type": [
@@ -42710,7 +42710,7 @@
         "dexNumber": 666,
         "name": "Prismillon",
         "generation": 6,
-        "slug": "vivillon-icy-snow",
+        "slug": "prismillon-icy-snow",
         "imageId": 666,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/666.png",
         "type": [
@@ -42750,7 +42750,7 @@
         "dexNumber": 666,
         "name": "Prismillon",
         "generation": 6,
-        "slug": "vivillon-jungle",
+        "slug": "prismillon-jungle",
         "imageId": 666,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/666.png",
         "type": [
@@ -42790,7 +42790,7 @@
         "dexNumber": 666,
         "name": "Prismillon",
         "generation": 6,
-        "slug": "vivillon-marine",
+        "slug": "prismillon-marine",
         "imageId": 666,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/666.png",
         "type": [
@@ -42830,7 +42830,7 @@
         "dexNumber": 666,
         "name": "Prismillon",
         "generation": 6,
-        "slug": "vivillon-meadow",
+        "slug": "prismillon-meadow",
         "imageId": 666,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/666.png",
         "type": [
@@ -42870,7 +42870,7 @@
         "dexNumber": 666,
         "name": "Prismillon",
         "generation": 6,
-        "slug": "vivillon-modern",
+        "slug": "prismillon-modern",
         "imageId": 666,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/666.png",
         "type": [
@@ -42910,7 +42910,7 @@
         "dexNumber": 666,
         "name": "Prismillon",
         "generation": 6,
-        "slug": "vivillon-monsoon",
+        "slug": "prismillon-monsoon",
         "imageId": 666,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/666.png",
         "type": [
@@ -42950,7 +42950,7 @@
         "dexNumber": 666,
         "name": "Prismillon",
         "generation": 6,
-        "slug": "vivillon-ocean",
+        "slug": "prismillon-ocean",
         "imageId": 666,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/666.png",
         "type": [
@@ -42990,7 +42990,7 @@
         "dexNumber": 666,
         "name": "Prismillon",
         "generation": 6,
-        "slug": "vivillon-pokeball",
+        "slug": "prismillon-pokeball",
         "imageId": 666,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/666.png",
         "type": [
@@ -43030,7 +43030,7 @@
         "dexNumber": 666,
         "name": "Prismillon",
         "generation": 6,
-        "slug": "vivillon-polar",
+        "slug": "prismillon-polar",
         "imageId": 666,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/666.png",
         "type": [
@@ -43070,7 +43070,7 @@
         "dexNumber": 666,
         "name": "Prismillon",
         "generation": 6,
-        "slug": "vivillon-river",
+        "slug": "prismillon-river",
         "imageId": 666,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/666.png",
         "type": [
@@ -43110,7 +43110,7 @@
         "dexNumber": 666,
         "name": "Prismillon",
         "generation": 6,
-        "slug": "vivillon-sandstorm",
+        "slug": "prismillon-sandstorm",
         "imageId": 666,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/666.png",
         "type": [
@@ -43150,7 +43150,7 @@
         "dexNumber": 666,
         "name": "Prismillon",
         "generation": 6,
-        "slug": "vivillon-savanna",
+        "slug": "prismillon-savanna",
         "imageId": 666,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/666.png",
         "type": [
@@ -43190,7 +43190,7 @@
         "dexNumber": 666,
         "name": "Prismillon",
         "generation": 6,
-        "slug": "vivillon-sun",
+        "slug": "prismillon-sun",
         "imageId": 666,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/666.png",
         "type": [
@@ -43230,7 +43230,7 @@
         "dexNumber": 666,
         "name": "Prismillon",
         "generation": 6,
-        "slug": "vivillon-tundra",
+        "slug": "prismillon-tundra",
         "imageId": 666,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/666.png",
         "type": [
@@ -43362,7 +43362,7 @@
         "dexNumber": 668,
         "name": "Némélios",
         "generation": 6,
-        "slug": "pyroar-female",
+        "slug": "nemelios-female",
         "imageId": 668,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/668.png",
         "type": [
@@ -44357,7 +44357,7 @@
         "dexNumber": 676,
         "name": "Couafarel",
         "generation": 6,
-        "slug": "furfrou-dandy",
+        "slug": "couafarel-dandy",
         "imageId": 676,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/676.png",
         "type": [
@@ -44397,7 +44397,7 @@
         "dexNumber": 676,
         "name": "Couafarel",
         "generation": 6,
-        "slug": "furfrou-debutante",
+        "slug": "couafarel-debutante",
         "imageId": 676,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/676.png",
         "type": [
@@ -44437,7 +44437,7 @@
         "dexNumber": 676,
         "name": "Couafarel",
         "generation": 6,
-        "slug": "furfrou-diamond",
+        "slug": "couafarel-diamond",
         "imageId": 676,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/676.png",
         "type": [
@@ -44477,7 +44477,7 @@
         "dexNumber": 676,
         "name": "Couafarel",
         "generation": 6,
-        "slug": "furfrou-heart",
+        "slug": "couafarel-heart",
         "imageId": 676,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/676.png",
         "type": [
@@ -44517,7 +44517,7 @@
         "dexNumber": 676,
         "name": "Couafarel",
         "generation": 6,
-        "slug": "furfrou-kabuki",
+        "slug": "couafarel-kabuki",
         "imageId": 676,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/676.png",
         "type": [
@@ -44557,7 +44557,7 @@
         "dexNumber": 676,
         "name": "Couafarel",
         "generation": 6,
-        "slug": "furfrou-la-reine",
+        "slug": "couafarel-la-reine",
         "imageId": 676,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/676.png",
         "type": [
@@ -44597,7 +44597,7 @@
         "dexNumber": 676,
         "name": "Couafarel",
         "generation": 6,
-        "slug": "furfrou-matron",
+        "slug": "couafarel-matron",
         "imageId": 676,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/676.png",
         "type": [
@@ -44637,7 +44637,7 @@
         "dexNumber": 676,
         "name": "Couafarel",
         "generation": 6,
-        "slug": "furfrou-natural",
+        "slug": "couafarel-natural",
         "imageId": 676,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/676.png",
         "type": [
@@ -44677,7 +44677,7 @@
         "dexNumber": 676,
         "name": "Couafarel",
         "generation": 6,
-        "slug": "furfrou-pharaoh",
+        "slug": "couafarel-pharaoh",
         "imageId": 676,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/676.png",
         "type": [
@@ -44717,7 +44717,7 @@
         "dexNumber": 676,
         "name": "Couafarel",
         "generation": 6,
-        "slug": "furfrou-star",
+        "slug": "couafarel-star",
         "imageId": 676,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/676.png",
         "type": [
@@ -44844,7 +44844,7 @@
           "dexNumber": 678,
           "name": "Mistigrix",
           "generation": 6,
-          "slug": "meowstic-female",
+          "slug": "mistigrix-female",
           "imageId": 10025,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10025.png",
           "type": [
@@ -45014,7 +45014,7 @@
         "dexNumber": 681,
         "name": "Exagide",
         "generation": 6,
-        "slug": "aegislash-shield",
+        "slug": "exagide-shield",
         "imageId": 681,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/681.png",
         "type": [
@@ -45056,7 +45056,7 @@
           "dexNumber": 681,
           "name": "Exagide",
           "generation": 6,
-          "slug": "aegislash-blade",
+          "slug": "exagide-blade",
           "imageId": 10026,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10026.png",
           "type": [
@@ -46374,7 +46374,7 @@
         "dexNumber": 710,
         "name": "Pitrouille",
         "generation": 6,
-        "slug": "pumpkaboo-small",
+        "slug": "pitrouille-small",
         "imageId": 10027,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10027.png",
         "type": [
@@ -46416,7 +46416,7 @@
           "dexNumber": 710,
           "name": "Pitrouille",
           "generation": 6,
-          "slug": "pumpkaboo-average",
+          "slug": "pitrouille-average",
           "imageId": 710,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/710.png",
           "type": [
@@ -46458,7 +46458,7 @@
           "dexNumber": 710,
           "name": "Pitrouille",
           "generation": 6,
-          "slug": "pumpkaboo-large",
+          "slug": "pitrouille-large",
           "imageId": 10028,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10028.png",
           "type": [
@@ -46500,7 +46500,7 @@
           "dexNumber": 710,
           "name": "Pitrouille",
           "generation": 6,
-          "slug": "pumpkaboo-super",
+          "slug": "pitrouille-super",
           "imageId": 10029,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10029.png",
           "type": [
@@ -46587,7 +46587,7 @@
         "dexNumber": 711,
         "name": "Banshitrouye",
         "generation": 6,
-        "slug": "gourgeist-small",
+        "slug": "banshitrouye-small",
         "imageId": 10030,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10030.png",
         "type": [
@@ -46632,7 +46632,7 @@
           "dexNumber": 711,
           "name": "Banshitrouye",
           "generation": 6,
-          "slug": "gourgeist-average",
+          "slug": "banshitrouye-average",
           "imageId": 711,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/711.png",
           "type": [
@@ -46677,7 +46677,7 @@
           "dexNumber": 711,
           "name": "Banshitrouye",
           "generation": 6,
-          "slug": "gourgeist-large",
+          "slug": "banshitrouye-large",
           "imageId": 10031,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10031.png",
           "type": [
@@ -46722,7 +46722,7 @@
           "dexNumber": 711,
           "name": "Banshitrouye",
           "generation": 6,
-          "slug": "gourgeist-super",
+          "slug": "banshitrouye-super",
           "imageId": 10032,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10032.png",
           "type": [
@@ -46855,7 +46855,7 @@
           "dexNumber": 713,
           "name": "Séracrawl",
           "generation": 6,
-          "slug": "avalugg-hisui",
+          "slug": "seracrawl-hisui",
           "imageId": 10243,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10243.png",
           "type": [
@@ -47709,7 +47709,7 @@
           "dexNumber": 724,
           "name": "Archéduc",
           "generation": 7,
-          "slug": "decidueye-hisui",
+          "slug": "archeduc-hisui",
           "imageId": 10244,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10244.png",
           "type": [
@@ -48320,7 +48320,7 @@
         "dexNumber": 737,
         "name": "Chrysapile",
         "generation": 7,
-        "slug": "charjabug-winter-2025",
+        "slug": "chrysapile-winter-2025",
         "imageId": 737,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/737.png",
         "type": [
@@ -48409,7 +48409,7 @@
         "dexNumber": 738,
         "name": "Lucanon",
         "generation": 7,
-        "slug": "vikavolt-winter-2025",
+        "slug": "lucanon-winter-2025",
         "imageId": 738,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/738.png",
         "type": [
@@ -48584,7 +48584,7 @@
         "dexNumber": 741,
         "name": "Plumeline",
         "generation": 7,
-        "slug": "oricorio-baile",
+        "slug": "plumeline-baile",
         "imageId": 741,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/741.png",
         "type": [
@@ -48626,7 +48626,7 @@
           "dexNumber": 741,
           "name": "Plumeline",
           "generation": 7,
-          "slug": "oricorio-pau",
+          "slug": "plumeline-pau",
           "imageId": 10124,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10124.png",
           "type": [
@@ -48668,7 +48668,7 @@
           "dexNumber": 741,
           "name": "Plumeline",
           "generation": 7,
-          "slug": "oricorio-pompom",
+          "slug": "plumeline-pompom",
           "imageId": 741,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/741.png",
           "type": [
@@ -48710,7 +48710,7 @@
           "dexNumber": 741,
           "name": "Plumeline",
           "generation": 7,
-          "slug": "oricorio-sensu",
+          "slug": "plumeline-sensu",
           "imageId": 10125,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10125.png",
           "type": [
@@ -48880,7 +48880,7 @@
         "dexNumber": 744,
         "name": "Rocabot",
         "generation": 7,
-        "slug": "rockruff-dusk",
+        "slug": "rocabot-dusk",
         "imageId": 744,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/744.png",
         "type": [
@@ -48963,7 +48963,7 @@
         "dexNumber": 745,
         "name": "Lougaroc",
         "generation": 7,
-        "slug": "lycanroc-midday",
+        "slug": "lougaroc-midday",
         "imageId": 745,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/745.png",
         "type": [
@@ -49005,7 +49005,7 @@
           "dexNumber": 745,
           "name": "Lougaroc",
           "generation": 7,
-          "slug": "lycanroc-dusk",
+          "slug": "lougaroc-dusk",
           "imageId": 10152,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10152.png",
           "type": [
@@ -49048,7 +49048,7 @@
           "dexNumber": 745,
           "name": "Lougaroc",
           "generation": 7,
-          "slug": "lycanroc-midnight",
+          "slug": "lougaroc-midnight",
           "imageId": 10126,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10126.png",
           "type": [
@@ -49132,7 +49132,7 @@
         "dexNumber": 746,
         "name": "Froussardine",
         "generation": 7,
-        "slug": "wishiwashi-solo",
+        "slug": "froussardine-solo",
         "imageId": 746,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/746.png",
         "type": [
@@ -49174,7 +49174,7 @@
           "dexNumber": 746,
           "name": "Froussardine",
           "generation": 7,
-          "slug": "wishiwashi-school",
+          "slug": "froussardine-school",
           "imageId": 10127,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10127.png",
           "type": [
@@ -49821,7 +49821,7 @@
         "dexNumber": 760,
         "name": "Chelours",
         "generation": 7,
-        "slug": "bewear-wildarea-2025",
+        "slug": "chelours-wildarea-2025",
         "imageId": 760,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/760.png",
         "type": [
@@ -50432,7 +50432,7 @@
           "dexNumber": 773,
           "name": "Silvallié",
           "generation": 7,
-          "slug": "silvally-bug",
+          "slug": "silvallie-bug",
           "imageId": 773,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/773.png",
           "type": [
@@ -50475,7 +50475,7 @@
           "dexNumber": 773,
           "name": "Silvallié",
           "generation": 7,
-          "slug": "silvally-dark",
+          "slug": "silvallie-dark",
           "imageId": 773,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/773.png",
           "type": [
@@ -50518,7 +50518,7 @@
           "dexNumber": 773,
           "name": "Silvallié",
           "generation": 7,
-          "slug": "silvally-dragon",
+          "slug": "silvallie-dragon",
           "imageId": 773,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/773.png",
           "type": [
@@ -50561,7 +50561,7 @@
           "dexNumber": 773,
           "name": "Silvallié",
           "generation": 7,
-          "slug": "silvally-electric",
+          "slug": "silvallie-electric",
           "imageId": 773,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/773.png",
           "type": [
@@ -50604,7 +50604,7 @@
           "dexNumber": 773,
           "name": "Silvallié",
           "generation": 7,
-          "slug": "silvally-fairy",
+          "slug": "silvallie-fairy",
           "imageId": 773,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/773.png",
           "type": [
@@ -50647,7 +50647,7 @@
           "dexNumber": 773,
           "name": "Silvallié",
           "generation": 7,
-          "slug": "silvally-fighting",
+          "slug": "silvallie-fighting",
           "imageId": 773,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/773.png",
           "type": [
@@ -50690,7 +50690,7 @@
           "dexNumber": 773,
           "name": "Silvallié",
           "generation": 7,
-          "slug": "silvally-fire",
+          "slug": "silvallie-fire",
           "imageId": 773,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/773.png",
           "type": [
@@ -50733,7 +50733,7 @@
           "dexNumber": 773,
           "name": "Silvallié",
           "generation": 7,
-          "slug": "silvally-flying",
+          "slug": "silvallie-flying",
           "imageId": 773,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/773.png",
           "type": [
@@ -50776,7 +50776,7 @@
           "dexNumber": 773,
           "name": "Silvallié",
           "generation": 7,
-          "slug": "silvally-ghost",
+          "slug": "silvallie-ghost",
           "imageId": 773,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/773.png",
           "type": [
@@ -50819,7 +50819,7 @@
           "dexNumber": 773,
           "name": "Silvallié",
           "generation": 7,
-          "slug": "silvally-grass",
+          "slug": "silvallie-grass",
           "imageId": 773,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/773.png",
           "type": [
@@ -50862,7 +50862,7 @@
           "dexNumber": 773,
           "name": "Silvallié",
           "generation": 7,
-          "slug": "silvally-ground",
+          "slug": "silvallie-ground",
           "imageId": 773,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/773.png",
           "type": [
@@ -50905,7 +50905,7 @@
           "dexNumber": 773,
           "name": "Silvallié",
           "generation": 7,
-          "slug": "silvally-ice",
+          "slug": "silvallie-ice",
           "imageId": 773,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/773.png",
           "type": [
@@ -50948,7 +50948,7 @@
           "dexNumber": 773,
           "name": "Silvallié",
           "generation": 7,
-          "slug": "silvally-poison",
+          "slug": "silvallie-poison",
           "imageId": 773,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/773.png",
           "type": [
@@ -50991,7 +50991,7 @@
           "dexNumber": 773,
           "name": "Silvallié",
           "generation": 7,
-          "slug": "silvally-psychic",
+          "slug": "silvallie-psychic",
           "imageId": 773,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/773.png",
           "type": [
@@ -51034,7 +51034,7 @@
           "dexNumber": 773,
           "name": "Silvallié",
           "generation": 7,
-          "slug": "silvally-rock",
+          "slug": "silvallie-rock",
           "imageId": 773,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/773.png",
           "type": [
@@ -51077,7 +51077,7 @@
           "dexNumber": 773,
           "name": "Silvallié",
           "generation": 7,
-          "slug": "silvally-steel",
+          "slug": "silvallie-steel",
           "imageId": 773,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/773.png",
           "type": [
@@ -51120,7 +51120,7 @@
           "dexNumber": 773,
           "name": "Silvallié",
           "generation": 7,
-          "slug": "silvally-water",
+          "slug": "silvallie-water",
           "imageId": 773,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/773.png",
           "type": [
@@ -51207,7 +51207,7 @@
           "dexNumber": 774,
           "name": "Météno",
           "generation": 7,
-          "slug": "minior-blue",
+          "slug": "meteno-blue",
           "imageId": 10140,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10140.png",
           "type": [
@@ -51247,7 +51247,7 @@
             "dexNumber": 774,
             "name": "Météno",
             "generation": 7,
-            "slug": "minior-green",
+            "slug": "meteno-green",
             "imageId": 10139,
             "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10139.png",
             "type": [
@@ -51286,7 +51286,7 @@
             "dexNumber": 774,
             "name": "Météno",
             "generation": 7,
-            "slug": "minior-indigo",
+            "slug": "meteno-indigo",
             "imageId": 10141,
             "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10141.png",
             "type": [
@@ -51325,7 +51325,7 @@
             "dexNumber": 774,
             "name": "Météno",
             "generation": 7,
-            "slug": "minior-orange",
+            "slug": "meteno-orange",
             "imageId": 10137,
             "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10137.png",
             "type": [
@@ -51364,7 +51364,7 @@
             "dexNumber": 774,
             "name": "Météno",
             "generation": 7,
-            "slug": "minior-red",
+            "slug": "meteno-red",
             "imageId": 10136,
             "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10136.png",
             "type": [
@@ -51403,7 +51403,7 @@
             "dexNumber": 774,
             "name": "Météno",
             "generation": 7,
-            "slug": "minior-violet",
+            "slug": "meteno-violet",
             "imageId": 10142,
             "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10142.png",
             "type": [
@@ -51442,7 +51442,7 @@
             "dexNumber": 774,
             "name": "Météno",
             "generation": 7,
-            "slug": "minior-yellow",
+            "slug": "meteno-yellow",
             "imageId": 10138,
             "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10138.png",
             "type": [
@@ -51658,7 +51658,7 @@
         "dexNumber": 778,
         "name": "Mimiqui",
         "generation": 7,
-        "slug": "mimikyu-busted",
+        "slug": "mimiqui-busted",
         "imageId": 10143,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10143.png",
         "type": [
@@ -51697,7 +51697,7 @@
         "dexNumber": 778,
         "name": "Mimiqui",
         "generation": 7,
-        "slug": "mimikyu-disguised",
+        "slug": "mimiqui-disguised",
         "imageId": 778,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/778.png",
         "type": [
@@ -54962,7 +54962,7 @@
         "dexNumber": 849,
         "name": "Salarsen",
         "generation": 8,
-        "slug": "toxtricity-amped",
+        "slug": "salarsen-amped",
         "imageId": 849,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/849.png",
         "type": [
@@ -55003,7 +55003,7 @@
         "dexNumber": 849,
         "name": "Salarsen",
         "generation": 8,
-        "slug": "toxtricity-low-key",
+        "slug": "salarsen-low-key",
         "imageId": 10184,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10184.png",
         "type": [
@@ -55258,7 +55258,7 @@
         "dexNumber": 854,
         "name": "Théffroi",
         "generation": 8,
-        "slug": "sinistea-antique",
+        "slug": "theffroi-antique",
         "imageId": 854,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/854.png",
         "type": [
@@ -55296,7 +55296,7 @@
         "dexNumber": 854,
         "name": "Théffroi",
         "generation": 8,
-        "slug": "sinistea-phony",
+        "slug": "theffroi-phony",
         "imageId": 854,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/854.png",
         "type": [
@@ -55378,7 +55378,7 @@
         "dexNumber": 855,
         "name": "Polthégeist",
         "generation": 8,
-        "slug": "polteageist-antique",
+        "slug": "polthegeist-antique",
         "imageId": 855,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/855.png",
         "type": [
@@ -55417,7 +55417,7 @@
         "dexNumber": 855,
         "name": "Polthégeist",
         "generation": 8,
-        "slug": "polteageist-phony",
+        "slug": "polthegeist-phony",
         "imageId": 855,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/855.png",
         "type": [
@@ -56107,7 +56107,7 @@
         "dexNumber": 870,
         "name": "Hexadron",
         "generation": 8,
-        "slug": "falinks-gofest-2025-train-conductor",
+        "slug": "hexadron-gofest-2025-train-conductor",
         "imageId": 870,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/870.png",
         "type": [
@@ -56357,7 +56357,7 @@
         "dexNumber": 875,
         "name": "Bekaglaçon",
         "generation": 8,
-        "slug": "eiscue-ice",
+        "slug": "bekaglacon-ice",
         "imageId": 875,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/875.png",
         "type": [
@@ -56397,7 +56397,7 @@
           "dexNumber": 875,
           "name": "Bekaglaçon",
           "generation": 8,
-          "slug": "eiscue-noice",
+          "slug": "bekaglacon-noice",
           "imageId": 10185,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10185.png",
           "type": [
@@ -56478,7 +56478,7 @@
         "dexNumber": 876,
         "name": "Wimessir",
         "generation": 8,
-        "slug": "indeedee-male",
+        "slug": "wimessir-male",
         "imageId": 876,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/876.png",
         "type": [
@@ -56519,7 +56519,7 @@
           "dexNumber": 876,
           "name": "Wimessir",
           "generation": 8,
-          "slug": "indeedee-female",
+          "slug": "wimessir-female",
           "imageId": 10186,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10186.png",
           "type": [
@@ -57342,7 +57342,7 @@
           "dexNumber": 890,
           "name": "Éthernatos",
           "generation": 8,
-          "slug": "eternatus-eternamax",
+          "slug": "ethernatos-eternamax",
           "imageId": 10190,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10190.png",
           "type": [
@@ -57471,7 +57471,7 @@
           "dexNumber": 892,
           "name": "Shifours",
           "generation": 8,
-          "slug": "urshifu-rapid-strike",
+          "slug": "shifours-rapid-strike",
           "imageId": 10191,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10191.png",
           "type": [
@@ -57515,7 +57515,7 @@
           "dexNumber": 892,
           "name": "Shifours",
           "generation": 8,
-          "slug": "urshifu-single-strike",
+          "slug": "shifours-single-strike",
           "imageId": 892,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/892.png",
           "type": [
@@ -57822,7 +57822,7 @@
           "dexNumber": 898,
           "name": "Sylveroy",
           "generation": 8,
-          "slug": "calyrex-ice",
+          "slug": "sylveroy-ice",
           "imageId": 10193,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10193.png",
           "type": [
@@ -57865,7 +57865,7 @@
           "dexNumber": 898,
           "name": "Sylveroy",
           "generation": 8,
-          "slug": "calyrex-shadow",
+          "slug": "sylveroy-shadow",
           "imageId": 10194,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10194.png",
           "type": [
@@ -58180,7 +58180,7 @@
         "dexNumber": 905,
         "name": "Amovénus",
         "generation": 8,
-        "slug": "enamorus-incarnate",
+        "slug": "amovenus-incarnate",
         "imageId": 905,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/905.png",
         "type": [
@@ -58223,7 +58223,7 @@
           "dexNumber": 905,
           "name": "Amovénus",
           "generation": 8,
-          "slug": "enamorus-therian",
+          "slug": "amovenus-therian",
           "imageId": 10249,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10249.png",
           "type": [
@@ -58749,7 +58749,7 @@
           "dexNumber": 916,
           "name": "Fragroin",
           "generation": 9,
-          "slug": "oinkologne-female",
+          "slug": "fragroin-female",
           "imageId": 10254,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10254.png",
           "type": [
@@ -59187,7 +59187,7 @@
         "dexNumber": 925,
         "name": "Famignol",
         "generation": 9,
-        "slug": "maushold-family-of-four",
+        "slug": "famignol-family-of-four",
         "imageId": 925,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/925.png",
         "type": [
@@ -59226,7 +59226,7 @@
         "dexNumber": 925,
         "name": "Famignol",
         "generation": 9,
-        "slug": "maushold-family-of-three",
+        "slug": "famignol-family-of-three",
         "imageId": 10257,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10257.png",
         "type": [
@@ -59528,7 +59528,7 @@
         "dexNumber": 931,
         "name": "Tapatoès",
         "generation": 9,
-        "slug": "squawkabilly-blue",
+        "slug": "tapatoes-blue",
         "imageId": 931,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/931.png",
         "type": [
@@ -59567,7 +59567,7 @@
         "dexNumber": 931,
         "name": "Tapatoès",
         "generation": 9,
-        "slug": "squawkabilly-green",
+        "slug": "tapatoes-green",
         "imageId": 931,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/931.png",
         "type": [
@@ -59606,7 +59606,7 @@
         "dexNumber": 931,
         "name": "Tapatoès",
         "generation": 9,
-        "slug": "squawkabilly-white",
+        "slug": "tapatoes-white",
         "imageId": 931,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/931.png",
         "type": [
@@ -59645,7 +59645,7 @@
         "dexNumber": 931,
         "name": "Tapatoès",
         "generation": 9,
-        "slug": "squawkabilly-yellow",
+        "slug": "tapatoes-yellow",
         "imageId": 931,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/931.png",
         "type": [
@@ -61100,7 +61100,7 @@
         "dexNumber": 964,
         "name": "Superdofin",
         "generation": 9,
-        "slug": "palafin-zero",
+        "slug": "superdofin-zero",
         "imageId": 964,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/964.png",
         "type": [
@@ -61144,7 +61144,7 @@
           "dexNumber": 964,
           "name": "Superdofin",
           "generation": 9,
-          "slug": "palafin-hero",
+          "slug": "superdofin-hero",
           "imageId": 10256,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10256.png",
           "type": [
@@ -61795,7 +61795,7 @@
         "dexNumber": 978,
         "name": "Nigirigon",
         "generation": 9,
-        "slug": "tatsugiri-curly",
+        "slug": "nigirigon-curly",
         "imageId": 978,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/978.png",
         "type": [
@@ -61835,7 +61835,7 @@
         "dexNumber": 978,
         "name": "Nigirigon",
         "generation": 9,
-        "slug": "tatsugiri-droopy",
+        "slug": "nigirigon-droopy",
         "imageId": 10258,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10258.png",
         "type": [
@@ -61875,7 +61875,7 @@
         "dexNumber": 978,
         "name": "Nigirigon",
         "generation": 9,
-        "slug": "tatsugiri-stretchy",
+        "slug": "nigirigon-stretchy",
         "imageId": 10259,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10259.png",
         "type": [
@@ -62100,7 +62100,7 @@
         "dexNumber": 982,
         "name": "Deusolourdo",
         "generation": 9,
-        "slug": "dudunsparce-three",
+        "slug": "deusolourdo-three",
         "imageId": 982,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/982.png",
         "type": [
@@ -62141,7 +62141,7 @@
         "dexNumber": 982,
         "name": "Deusolourdo",
         "generation": 9,
-        "slug": "dudunsparce-two",
+        "slug": "deusolourdo-two",
         "imageId": 982,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/982.png",
         "type": [
@@ -62884,7 +62884,7 @@
         "dexNumber": 999,
         "name": "Mordudor",
         "generation": 9,
-        "slug": "gimmighoul-coin-a1",
+        "slug": "mordudor-coin-a1",
         "imageId": 999,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/999.png",
         "type": [
@@ -63716,7 +63716,7 @@
         "dexNumber": 1013,
         "name": "Théffroyable",
         "generation": 9,
-        "slug": "sinistcha-masterpiece",
+        "slug": "theffroyable-masterpiece",
         "imageId": 1013,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1013.png",
         "type": [
@@ -63755,7 +63755,7 @@
         "dexNumber": 1013,
         "name": "Théffroyable",
         "generation": 9,
-        "slug": "sinistcha-unremarkable",
+        "slug": "theffroyable-unremarkable",
         "imageId": 1013,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1013.png",
         "type": [
