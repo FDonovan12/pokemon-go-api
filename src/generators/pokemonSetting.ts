@@ -284,6 +284,7 @@ export default class PokemonSettingGenerator extends FileGenerator {
                     ******* necrosma fusion
                     ******* calirex fusion
                     remove morpeko angry, superdofin?
+                    Pikachu
 
                 */
         const templateId = pokemon.templateId;
@@ -344,6 +345,9 @@ export default class PokemonSettingGenerator extends FileGenerator {
 
             // Correction du bug d'assignation (50_PERCENT -> 50)
             formField = formField.replace('TEN_PERCENT', '10').replace('FIFTY_PERCENT', '50');
+        }
+        if (templateId.includes('PIKACHU')) {
+            formField = formField.replace('DOCTOR', 'PHD');
         }
 
         // 3. Application de la forme finale nettoyée sur l'objet d'origine
