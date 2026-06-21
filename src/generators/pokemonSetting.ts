@@ -156,13 +156,18 @@ export default class PokemonSettingGenerator extends FileGenerator {
                     const slug = formField.slugify();
                     imageId = (await this.fetchFormId(slug)) ?? dexNumber;
                 }
+
+                const slug =
+                    formField === 'base'
+                        ? name.slugify()
+                        : formField.replace(pokemon.data.pokemonId, name).slugify();
                 return {
                     id: pokemon.templateId,
                     pokemonId: pokemon.data.pokemonId,
                     dexNumber,
                     name,
                     generation,
-                    slug: formField === 'base' ? name.slugify() : formField.slugify(),
+                    slug: slug,
                     imageId,
                     image: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${imageId}.png`,
                     type: [pokemon.data.type, pokemon.data.type2].compact(),
