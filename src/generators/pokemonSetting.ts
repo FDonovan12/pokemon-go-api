@@ -145,57 +145,42 @@ export default class PokemonSettingGenerator extends FileGenerator {
         const rawPokemons = await Promise.all(
             raw.map(async (pokemon) => {
                 const dexNumber = this.extractDexNumber(pokemon.templateId);
-                const realData = this.alterPokemon(pokemon);
-                let formField = realData.data.form ?? 'base';
+                this.alterPokemon(pokemon);
+                let formField = String(pokemon.data.form ?? 'base');
 
-                /* 
-                    meloetta aria is tru base
-                    keldeao absolute same as base add secret attack
-                    add dialga and palka attack origin
-                    find genesect image
-                    arceus, silvalié
-                    zygard 10%
-                    *******zacian and zamazenta
-                    *******fix meteno with remove same in different array
-                    necrosma fusion
-                    calirex fusion
-                    remove morpeko angry, superdofin?
-
-                */
-
-                const name = realData.templateId; //await this.fetchFrenchName(dexNumber);
-                const generation = 1; //await this.fetchGeneration(dexNumber, formField);
+                const name = await this.fetchFrenchName(dexNumber);
+                const generation = await this.fetchGeneration(dexNumber, formField);
 
                 let imageId: number = dexNumber;
                 if (formField) {
                     const slug = formField.slugify();
-                    // imageId = (await this.fetchFormId(slug)) ?? dexNumber;
+                    imageId = (await this.fetchFormId(slug)) ?? dexNumber;
                 }
                 return {
-                    id: realData.templateId,
-                    pokemonId: realData.data.pokemonId,
+                    id: pokemon.templateId,
+                    pokemonId: pokemon.data.pokemonId,
                     dexNumber,
                     name,
                     generation,
                     slug: name.slugify().capitalize(),
                     imageId,
                     image: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${imageId}.png`,
-                    type: [realData.data.type, realData.data.type2].compact(),
-                    stats: realData.data.stats,
-                    quickMoves: realData.data.quickMoves ?? [],
-                    cinematicMoves: realData.data.cinematicMoves ?? [],
-                    eliteQuickMove: realData.data.eliteQuickMove ?? [],
-                    eliteCinematicMove: realData.data.eliteCinematicMove ?? [],
-                    nonTmCinematicMoves: realData.data.nonTmCinematicMoves ?? [],
-                    evolutionIds: realData.data.evolutionIds,
-                    family: realData.data.familyId,
-                    isLegendary: realData.data.pokemonClass === 'POKEMON_CLASS_LEGENDARY',
-                    isMythical: realData.data.pokemonClass === 'POKEMON_CLASS_MYTHIC',
-                    isUltraBeast: realData.data.pokemonClass === 'POKEMON_CLASS_ULTRA_BEAST',
+                    type: [pokemon.data.type, pokemon.data.type2].compact(),
+                    stats: pokemon.data.stats,
+                    quickMoves: pokemon.data.quickMoves ?? [],
+                    cinematicMoves: pokemon.data.cinematicMoves ?? [],
+                    eliteQuickMove: pokemon.data.eliteQuickMove ?? [],
+                    eliteCinematicMove: pokemon.data.eliteCinematicMove ?? [],
+                    nonTmCinematicMoves: pokemon.data.nonTmCinematicMoves ?? [],
+                    evolutionIds: pokemon.data.evolutionIds,
+                    family: pokemon.data.familyId,
+                    isLegendary: pokemon.data.pokemonClass === 'POKEMON_CLASS_LEGENDARY',
+                    isMythical: pokemon.data.pokemonClass === 'POKEMON_CLASS_MYTHIC',
+                    isUltraBeast: pokemon.data.pokemonClass === 'POKEMON_CLASS_ULTRA_BEAST',
                     form: formField ?? 'base',
                     encounter: {
                         stardustCaptureReward:
-                            (realData.data.encounter?.bonusStardustCaptureReward ?? 0) + 100,
+                            (pokemon.data.encounter?.bonusStardustCaptureReward ?? 0) + 100,
                     },
                 };
             }),
@@ -298,62 +283,67 @@ export default class PokemonSettingGenerator extends FileGenerator {
                     remove morpeko angry, superdofin?
 
                 */
-        const result = pokemon;
-        result.data.form = result.data.form ?? 'base';
-        result.data.form = result.data.form.replace('GALARIAN', 'GALAR');
-        result.data.form = result.data.form.replace('HISUIAN', 'HISUI');
-        if (result.data.form.includes('TAUROS_PALDEA')) {
-            result.data.form += '_BREED';
+        const templateId = pokemon.templateId;
+        let formField = String(pokemon.data.form ?? 'base');
+
+        // 1. Nettoyage global initial
+        formField = formField.replace('GALARIAN', 'GALAR').replace('HISUIAN', 'HISUI');
+
+        // 2. Traitement des cas spécifiques
+        if (formField.includes('TAUROS_PALDEA')) {
+            formField += '_BREED';
         }
-        if (result.data.form.includes('NECROZMA')) {
-            result.data.form = result.data.form.replace('_MANE', '').replace('_WINGS', '');
+
+        if (formField.includes('NECROZMA')) {
+            formField = formField.replace('_MANE', '').replace('_WINGS', '');
         }
-        if (pokemon.templateId.includes('ZACIAN') || pokemon.templateId.includes('ZAMAZENTA')) {
-            if (result.data.form.includes('HERO')) {
-                result.data.form = 'base';
-            } else if (result.data.form === 'base') {
-                result.templateId = result.templateId + '_NORMAL';
+
+        if (formField.includes('CALYREX')) {
+            formField = formField.replace('_RIDER', '');
+        }
+
+        if (templateId.includes('ZACIAN') || templateId.includes('ZAMAZENTA')) {
+            if (formField.includes('HERO')) {
+                formField = 'base';
+            } else if (formField === 'base') {
+                pokemon.templateId = `${templateId}_NORMAL`; // Mutation directe du templateId
             } else {
-                result.data.form = result.data.form.replace('_SWORD', '').replace('_SHIELD', '');
+                formField = formField.replace('_SWORD', '').replace('_SHIELD', '');
             }
         }
-        if (pokemon.templateId.includes('MELOETTA')) {
-            if (result.data.form.includes('ARIA')) {
-                result.data.form = 'base';
-            } else if (result.data.form === 'base') {
-                result.templateId = result.templateId + '_NORMAL';
+
+        if (templateId.includes('MELOETTA')) {
+            if (formField.includes('ARIA')) {
+                formField = 'base';
+            } else if (formField === 'base') {
+                pokemon.templateId = `${templateId}_NORMAL`;
             }
         }
-        if (result.data.form.includes('CALYREX')) {
-            result.data.form = result.data.form.replace('_RIDER', '');
+
+        if (formField.includes('KELDEO_RESOLUTE')) {
+            pokemon.data.nonTmCinematicMoves = ['SECRET_SWORD'];
         }
-        if (result.data.form.includes('KELDEO_RESOLUTE')) {
-            result.data.nonTmCinematicMoves = ['SECRET_SWORD'];
+
+        if (formField.includes('ORIGIN')) {
+            if (templateId.includes('DIALGA')) pokemon.data.nonTmCinematicMoves = ['ROAR_OF_TIME'];
+            if (templateId.includes('PALKIA')) pokemon.data.nonTmCinematicMoves = ['SPACIAL_REND'];
         }
-        if (result.data.form.includes('ORIGIN')) {
-            if (pokemon.templateId.includes('DIALGA')) {
-                result.data.nonTmCinematicMoves = ['ROAR_OF_TIME'];
-            }
-            if (pokemon.templateId.includes('PALKIA')) {
-                result.data.nonTmCinematicMoves = ['SPACIAL_REND'];
-            }
-        }
-        if (result.templateId.includes('ZYGARDE') || pokemon.templateId.includes('ZYGARDE')) {
-            const is100Percent = result.data.form.endsWith('COMPLETE');
-            const isPowerConstruct = result.data.form.includes('COMPLETE') && !is100Percent;
+
+        if (templateId.includes('ZYGARDE')) {
+            const is100Percent = formField.endsWith('COMPLETE');
+            const isPowerConstruct = formField.includes('COMPLETE') && !is100Percent;
+
             if (isPowerConstruct) {
-                result.data.form = result.data.form.replace(
-                    'COMPLETE_TEN_PERCENT',
-                    '10_POWER_CONSTRUCT',
-                );
-                result.data.form = result.data.form.replace(
-                    'COMPLETE_FIFTY_PERCENT',
-                    '50_POWER_CONSTRUCT',
-                );
+                formField = formField
+                    .replace('COMPLETE_TEN_PERCENT', '10_POWER_CONSTRUCT')
+                    .replace('COMPLETE_FIFTY_PERCENT', '50_POWER_CONSTRUCT');
             }
-            result.data.form = result.data.form.replace('TEN_PERCENT', '10');
-            result.data.form = result.data.form.replace('FIFTY_PERCENT', '10');
+
+            // Correction du bug d'assignation (50_PERCENT -> 50)
+            formField = formField.replace('TEN_PERCENT', '10').replace('FIFTY_PERCENT', '50');
         }
-        return result;
+
+        // 3. Application de la forme finale nettoyée sur l'objet d'origine
+        pokemon.data.form = formField;
     }
 }
