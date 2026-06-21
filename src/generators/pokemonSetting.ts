@@ -190,7 +190,16 @@ export default class PokemonSettingGenerator extends FileGenerator {
                 };
             }),
         );
-        const pokemons = rawPokemons.groupBy('pokemonId').toList('values');
+        const familyToFrenchName = new Map<string, string>(
+            rawPokemons
+                .filter((pokemon) => pokemon.pokemonId === pokemon.family.replace('FAMILY_', ''))
+                .map((pokemon) => [pokemon.family, pokemon.name]),
+        );
+
+        const pokemons = rawPokemons
+            .map((pokemon) => ({ ...pokemon, family: familyToFrenchName.get(pokemon.family)! }))
+            .groupBy('pokemonId')
+            .toList('values');
 
         const finalPokemons = pokemons.map((pokemonForms) => {
             const filteredForms = pokemonForms.filter((form) => !form.id.includes('NORMAL'));
