@@ -62824,7 +62824,9 @@
         "ICY_WIND"
       ],
       "eliteQuickMove": [],
-      "eliteCinematicMove": [],
+      "eliteCinematicMove": [
+        590
+      ],
       "nonTmCinematicMoves": [],
       "family": "FAMILY_FRIGIBAX",
       "isLegendary": false,

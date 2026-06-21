@@ -227527,6 +227527,9 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 3,
+      "eliteCinematicMove": [
+        590
+      ],
       "raidBossDistanceOffset": 2,
       "ibfc": {},
       "breadTierGroup": "GROUP_3"
@@ -227600,6 +227603,9 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 3,
+      "eliteCinematicMove": [
+        590
+      ],
       "raidBossDistanceOffset": 2,
       "ibfc": {},
       "breadTierGroup": "GROUP_3"

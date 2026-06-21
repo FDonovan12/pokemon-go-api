@@ -11823,6 +11823,7 @@
       "sku": "pgorelease.general2.ticket.3",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 2,
+      "hidden": true,
       "spriteId": "general1.ticket.2",
       "title": "general1.ticket_CD_Frigibax26_title",
       "skuEnableTime": "2019-03-14T08:00:00",
