@@ -162,10 +162,7 @@ export default class PokemonSettingGenerator extends FileGenerator {
                     dexNumber,
                     name,
                     generation,
-                    slug:
-                        formField === 'base'
-                            ? name.slugify().capitalize()
-                            : formField.slugify().capitalize(),
+                    slug: formField === 'base' ? name.slugify() : formField.slugify(),
                     imageId,
                     image: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${imageId}.png`,
                     type: [pokemon.data.type, pokemon.data.type2].compact(),
