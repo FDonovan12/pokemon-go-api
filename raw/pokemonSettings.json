@@ -227793,6 +227793,97 @@
     }
   },
   {
+    "templateId": "V0999_POKEMON_GIMMIGHOUL_COIN_A2_2026",
+    "data": {
+      "pokemonId": "GIMMIGHOUL",
+      "modelScale": 1.09,
+      "type": "POKEMON_TYPE_GHOST",
+      "camera": {
+        "diskRadiusM": 0.5723,
+        "cylinderRadiusM": 0.3,
+        "cylinderHeightM": 0.2,
+        "shoulderModeScale": 0.5
+      },
+      "encounter": {
+        "collisionRadiusM": 0.08,
+        "collisionHeightM": 0.08,
+        "collisionHeadRadiusM": 0.13,
+        "movementType": "MOVEMENT_JUMP",
+        "movementTimerS": 10,
+        "jumpTimeS": 1.15,
+        "attackTimerS": 29,
+        "attackProbability": 0.1,
+        "dodgeProbability": 0.15,
+        "dodgeDurationS": 1,
+        "dodgeDistance": 1,
+        "cameraDistance": 2,
+        "minPokemonActionFrequencyS": 0.2,
+        "maxPokemonActionFrequencyS": 1.6
+      },
+      "stats": {
+        "baseStamina": 128,
+        "baseAttack": 140,
+        "baseDefense": 76
+      },
+      "quickMoves": [
+        "ASTONISH_FAST"
+      ],
+      "cinematicMoves": [
+        "SHADOW_BALL"
+      ],
+      "animationTime": [
+        1.6667,
+        0.6667,
+        1.6667,
+        1.8333,
+        0,
+        2.1667,
+        1.4,
+        1.466667
+      ],
+      "evolutionIds": [
+        "GIMMIGHOUL"
+      ],
+      "evolutionPips": 1,
+      "pokedexHeightM": 0.1,
+      "pokedexWeightKg": 0.1,
+      "heightStdDev": 0.0125,
+      "weightStdDev": 0.0125,
+      "familyId": "FAMILY_GIMMIGHOUL",
+      "kmBuddyDistance": 5,
+      "modelHeight": 0.4,
+      "modelScaleV2": 1,
+      "form": 3351,
+      "buddyOffsetMale": [
+        0,
+        0,
+        0
+      ],
+      "buddyOffsetFemale": [
+        0,
+        0,
+        0
+      ],
+      "buddyScale": 19,
+      "buddyPortraitOffset": [
+        0,
+        -20,
+        -800
+      ],
+      "thirdMove": {
+        "stardustToUnlock": 10000,
+        "candyToUnlock": 25
+      },
+      "isTransferable": true,
+      "isDeployable": true,
+      "isTradable": true,
+      "buddyGroupNumber": 1,
+      "disableTransferToPokemonHome": true,
+      "ibfc": {},
+      "breadTierGroup": "GROUP_1"
+    }
+  },
+  {
     "templateId": "V0999_POKEMON_GIMMIGHOUL_NORMAL",
     "data": {
       "pokemonId": "GIMMIGHOUL",

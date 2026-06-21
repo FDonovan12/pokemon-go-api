@@ -12576,6 +12576,10 @@
         {
           "form": "GIMMIGHOUL_COIN_A1",
           "isCostume": true
+        },
+        {
+          "form": 3351,
+          "isCostume": true
         }
       ]
     }

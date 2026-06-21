@@ -23642,6 +23642,16 @@
     }
   },
   {
+    "templateId": "SPAWN_V0999_POKEMON_GIMMIGHOUL_COIN_A2_2026",
+    "data": {
+      "pokemon": "GIMMIGHOUL",
+      "gender": {
+        "genderlessPercent": 1
+      },
+      "form": 3351
+    }
+  },
+  {
     "templateId": "SPAWN_V0999_POKEMON_GIMMIGHOUL_NORMAL",
     "data": {
       "pokemon": "GIMMIGHOUL",

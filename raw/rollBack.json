@@ -12,12 +12,6 @@
     }
   },
   {
-    "templateId": "NPC_LEAGUE_SUFFIX_ROLL_BACK",
-    "data": {
-      "rollbackPercentage": 100
-    }
-  },
-  {
     "templateId": "REALTIME_POKEMON_SHADOW_NULL_ROOT_BONE_CRASH_FIX_ROLL_BACK",
     "data": {
       "rollbackPercentage": 100

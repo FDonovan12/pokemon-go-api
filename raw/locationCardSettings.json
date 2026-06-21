@@ -1194,6 +1194,15 @@
     }
   },
   {
+    "templateId": "LC_SPECIALBACKGROUND_2026_ARRAIA",
+    "data": {
+      "locationCard": "LC_SPECIALBACKGROUND_2026_ARRAIA",
+      "imageUrl": "sb_arraia_2026",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_arraia_2026"
+    }
+  },
+  {
     "templateId": "LC_SPECIALBACKGROUND_2026_COMMUNITYDAY",
     "data": {
       "locationCard": "LC_SPECIALBACKGROUND_2026_COMMUNITYDAY",

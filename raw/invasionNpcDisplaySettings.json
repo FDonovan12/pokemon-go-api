@@ -1,5 +1,34 @@
 [
   {
+    "templateId": "CHARACTER_BALLOON_GRUNT_FEMALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "{grunt_dynamic_quote}",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "f_combat_grunt",
+      "tutorialOnLossString": "{grunt_dynamic_tutorial}"
+    }
+  },
+  {
+    "templateId": "CHARACTER_BALLOON_GRUNT_MALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "{grunt_dynamic_quote}",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "m_combat_grunt",
+      "tutorialOnLossString": "{grunt_dynamic_tutorial}",
+      "isMale": true
+    }
+  },
+  {
     "templateId": "CHARACTER_BLANCHE",
     "data": {
       "trainerName": "combat_blanche",
@@ -11,6 +40,37 @@
       "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
       "backdropImageBundle": "combat_blanche_backdrop",
       "modelName": "combat_blanche"
+    }
+  },
+  {
+    "templateId": "CHARACTER_BUG_BALLOON_GRUNT_FEMALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_bug",
+      "iconUrl": "https://prodholoholo-public-images.nianticlabs.com/Icon_Blanche.png",
+      "modelName": "f_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_bug",
+      "tipsType": "POKEMON_TYPE_BUG"
+    }
+  },
+  {
+    "templateId": "CHARACTER_BUG_BALLOON_GRUNT_MALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_bug",
+      "iconUrl": "https://prodholoholo-public-images.nianticlabs.com/Icon_Blanche.png",
+      "modelName": "m_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_bug",
+      "isMale": true,
+      "tipsType": "POKEMON_TYPE_BUG"
     }
   },
   {
@@ -56,6 +116,37 @@
       "iconUrl": "https://prodholoholo-public-images.nianticlabs.com/Icon_Candela.png",
       "backdropImageBundle": "combat_candela_backdrop",
       "modelName": "combat_candela"
+    }
+  },
+  {
+    "templateId": "CHARACTER_DARK_BALLOON_GRUNT_FEMALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_dark",
+      "iconUrl": "https://prodholoholo-public-images.nianticlabs.com/Icon_Blanche.png",
+      "modelName": "f_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_dark",
+      "tipsType": "POKEMON_TYPE_DARK"
+    }
+  },
+  {
+    "templateId": "CHARACTER_DARK_BALLOON_GRUNT_MALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_dark",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "m_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_dark",
+      "isMale": true,
+      "tipsType": "POKEMON_TYPE_DARK"
     }
   },
   {
@@ -119,6 +210,37 @@
     }
   },
   {
+    "templateId": "CHARACTER_DRAGON_BALLOON_GRUNT_FEMALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_dragon",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "f_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_dragon",
+      "tipsType": "POKEMON_TYPE_DRAGON"
+    }
+  },
+  {
+    "templateId": "CHARACTER_DRAGON_BALLOON_GRUNT_MALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_dragon",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "m_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_dragon",
+      "isMale": true,
+      "tipsType": "POKEMON_TYPE_DRAGON"
+    }
+  },
+  {
     "templateId": "CHARACTER_DRAGON_GRUNT_FEMALE",
     "data": {
       "trainerName": "combat_grunt_name",
@@ -147,6 +269,37 @@
       "tutorialOnLossString": "type_tutorial_dragon",
       "isMale": true,
       "tipsType": "POKEMON_TYPE_DRAGON"
+    }
+  },
+  {
+    "templateId": "CHARACTER_ELECTRIC_BALLOON_GRUNT_FEMALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_electric",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "f_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_electric",
+      "tipsType": "POKEMON_TYPE_ELECTRIC"
+    }
+  },
+  {
+    "templateId": "CHARACTER_ELECTRIC_BALLOON_GRUNT_MALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_electric",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "m_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_electric",
+      "isMale": true,
+      "tipsType": "POKEMON_TYPE_ELECTRIC"
     }
   },
   {
@@ -640,6 +793,37 @@
     }
   },
   {
+    "templateId": "CHARACTER_FAIRY_BALLOON_GRUNT_FEMALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_fairy",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "f_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_fairy",
+      "tipsType": "POKEMON_TYPE_FAIRY"
+    }
+  },
+  {
+    "templateId": "CHARACTER_FAIRY_BALLOON_GRUNT_MALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_fairy",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "m_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_fairy",
+      "isMale": true,
+      "tipsType": "POKEMON_TYPE_FAIRY"
+    }
+  },
+  {
     "templateId": "CHARACTER_FAIRY_GRUNT_FEMALE",
     "data": {
       "trainerName": "combat_grunt_name",
@@ -668,6 +852,37 @@
       "tutorialOnLossString": "type_tutorial_fairy",
       "isMale": true,
       "tipsType": "POKEMON_TYPE_FAIRY"
+    }
+  },
+  {
+    "templateId": "CHARACTER_FIGHTING_BALLOON_GRUNT_FEMALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_fighting",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "f_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_fighting",
+      "tipsType": "POKEMON_TYPE_FIGHTING"
+    }
+  },
+  {
+    "templateId": "CHARACTER_FIGHTING_BALLOON_GRUNT_MALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_fighting",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "m_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_fighting",
+      "isMale": true,
+      "tipsType": "POKEMON_TYPE_FIGHTING"
     }
   },
   {
@@ -702,6 +917,37 @@
     }
   },
   {
+    "templateId": "CHARACTER_FIRE_BALLOON_GRUNT_FEMALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_fire",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "f_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_fire",
+      "tipsType": "POKEMON_TYPE_FIRE"
+    }
+  },
+  {
+    "templateId": "CHARACTER_FIRE_BALLOON_GRUNT_MALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_fire",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "m_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_fire",
+      "isMale": true,
+      "tipsType": "POKEMON_TYPE_FIRE"
+    }
+  },
+  {
     "templateId": "CHARACTER_FIRE_GRUNT_FEMALE",
     "data": {
       "trainerName": "combat_grunt_name",
@@ -733,6 +979,37 @@
     }
   },
   {
+    "templateId": "CHARACTER_FLYING_BALLOON_GRUNT_FEMALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_flying",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "f_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_flying",
+      "tipsType": "POKEMON_TYPE_FLYING"
+    }
+  },
+  {
+    "templateId": "CHARACTER_FLYING_BALLOON_GRUNT_MALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_flying",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "m_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_flying",
+      "isMale": true,
+      "tipsType": "POKEMON_TYPE_FLYING"
+    }
+  },
+  {
     "templateId": "CHARACTER_FLYING_GRUNT_FEMALE",
     "data": {
       "trainerName": "combat_grunt_name",
@@ -761,6 +1038,37 @@
       "tutorialOnLossString": "type_tutorial_flying",
       "isMale": true,
       "tipsType": "POKEMON_TYPE_FLYING"
+    }
+  },
+  {
+    "templateId": "CHARACTER_GHOST_BALLOON_GRUNT_FEMALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_ghost",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "f_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_ghost",
+      "tipsType": "POKEMON_TYPE_GHOST"
+    }
+  },
+  {
+    "templateId": "CHARACTER_GHOST_BALLOON_GRUNT_MALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_ghost",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "m_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_ghost",
+      "isMale": true,
+      "tipsType": "POKEMON_TYPE_GHOST"
     }
   },
   {
@@ -810,6 +1118,37 @@
     }
   },
   {
+    "templateId": "CHARACTER_GRASS_BALLOON_GRUNT_FEMALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_grass",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "f_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_grass",
+      "tipsType": "POKEMON_TYPE_GRASS"
+    }
+  },
+  {
+    "templateId": "CHARACTER_GRASS_BALLOON_GRUNT_MALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_grass",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "m_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_grass",
+      "isMale": true,
+      "tipsType": "POKEMON_TYPE_GRASS"
+    }
+  },
+  {
     "templateId": "CHARACTER_GRASS_GRUNT_FEMALE",
     "data": {
       "trainerName": "combat_grunt_name",
@@ -838,6 +1177,37 @@
       "tutorialOnLossString": "type_tutorial_grass",
       "isMale": true,
       "tipsType": "POKEMON_TYPE_GRASS"
+    }
+  },
+  {
+    "templateId": "CHARACTER_GROUND_BALLOON_GRUNT_FEMALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_ground",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "f_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_ground",
+      "tipsType": "POKEMON_TYPE_GROUND"
+    }
+  },
+  {
+    "templateId": "CHARACTER_GROUND_BALLOON_GRUNT_MALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_ground",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "m_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_ground",
+      "isMale": true,
+      "tipsType": "POKEMON_TYPE_GROUND"
     }
   },
   {
@@ -930,6 +1300,37 @@
     }
   },
   {
+    "templateId": "CHARACTER_ICE_BALLOON_GRUNT_FEMALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_ice",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "f_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_ice",
+      "tipsType": "POKEMON_TYPE_ICE"
+    }
+  },
+  {
+    "templateId": "CHARACTER_ICE_BALLOON_GRUNT_MALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_ice",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "m_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_ice",
+      "isMale": true,
+      "tipsType": "POKEMON_TYPE_ICE"
+    }
+  },
+  {
     "templateId": "CHARACTER_ICE_GRUNT_FEMALE",
     "data": {
       "trainerName": "combat_grunt_name",
@@ -958,6 +1359,37 @@
       "tutorialOnLossString": "type_tutorial_ice",
       "isMale": true,
       "tipsType": "POKEMON_TYPE_ICE"
+    }
+  },
+  {
+    "templateId": "CHARACTER_METAL_BALLOON_GRUNT_FEMALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_steel",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "f_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_steel",
+      "tipsType": "POKEMON_TYPE_STEEL"
+    }
+  },
+  {
+    "templateId": "CHARACTER_METAL_BALLOON_GRUNT_MALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_steel",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "m_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_steel",
+      "isMale": true,
+      "tipsType": "POKEMON_TYPE_STEEL"
     }
   },
   {
@@ -992,6 +1424,37 @@
     }
   },
   {
+    "templateId": "CHARACTER_NORMAL_BALLOON_GRUNT_FEMALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_normal",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "f_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_normal",
+      "tipsType": "POKEMON_TYPE_NORMAL"
+    }
+  },
+  {
+    "templateId": "CHARACTER_NORMAL_BALLOON_GRUNT_MALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_normal",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "m_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_normal",
+      "isMale": true,
+      "tipsType": "POKEMON_TYPE_NORMAL"
+    }
+  },
+  {
     "templateId": "CHARACTER_NORMAL_GRUNT_FEMALE",
     "data": {
       "trainerName": "combat_grunt_name",
@@ -1020,6 +1483,37 @@
       "tutorialOnLossString": "type_tutorial_normal",
       "isMale": true,
       "tipsType": "POKEMON_TYPE_NORMAL"
+    }
+  },
+  {
+    "templateId": "CHARACTER_POISON_BALLOON_GRUNT_FEMALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_poison",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "f_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_poison",
+      "tipsType": "POKEMON_TYPE_POISON"
+    }
+  },
+  {
+    "templateId": "CHARACTER_POISON_BALLOON_GRUNT_MALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_poison",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "m_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_poison",
+      "isMale": true,
+      "tipsType": "POKEMON_TYPE_POISON"
     }
   },
   {
@@ -1054,6 +1548,37 @@
     }
   },
   {
+    "templateId": "CHARACTER_PSYCHIC_BALLOON_GRUNT_FEMALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_psychic",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "f_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_psychic",
+      "tipsType": "POKEMON_TYPE_PSYCHIC"
+    }
+  },
+  {
+    "templateId": "CHARACTER_PSYCHIC_BALLOON_GRUNT_MALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_psychic",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "m_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_psychic",
+      "isMale": true,
+      "tipsType": "POKEMON_TYPE_PSYCHIC"
+    }
+  },
+  {
     "templateId": "CHARACTER_PSYCHIC_GRUNT_FEMALE",
     "data": {
       "trainerName": "combat_grunt_name",
@@ -1082,6 +1607,37 @@
       "tutorialOnLossString": "type_tutorial_psychic",
       "isMale": true,
       "tipsType": "POKEMON_TYPE_PSYCHIC"
+    }
+  },
+  {
+    "templateId": "CHARACTER_ROCK_BALLOON_GRUNT_FEMALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_rock",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "f_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_rock",
+      "tipsType": "POKEMON_TYPE_ROCK"
+    }
+  },
+  {
+    "templateId": "CHARACTER_ROCK_BALLOON_GRUNT_MALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_rock",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "m_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_rock",
+      "isMale": true,
+      "tipsType": "POKEMON_TYPE_ROCK"
     }
   },
   {
@@ -1128,6 +1684,37 @@
       "backdropImageBundle": "combat_spark_backdrop",
       "modelName": "combat_spark",
       "isMale": true
+    }
+  },
+  {
+    "templateId": "CHARACTER_WATER_BALLOON_GRUNT_FEMALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_water",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "f_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_water",
+      "tipsType": "POKEMON_TYPE_WATER"
+    }
+  },
+  {
+    "templateId": "CHARACTER_WATER_BALLOON_GRUNT_MALE",
+    "data": {
+      "trainerName": "combat_grunt_name",
+      "avatar": {
+        "avatar": 2
+      },
+      "trainerTitle": "combat_grunt_title",
+      "trainerQuote": "combat_grunt_quote_water",
+      "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+      "modelName": "m_combat_grunt",
+      "tutorialOnLossString": "type_tutorial_water",
+      "isMale": true,
+      "tipsType": "POKEMON_TYPE_WATER"
     }
   },
   {

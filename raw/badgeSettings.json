@@ -1928,6 +1928,20 @@
     }
   },
   {
+    "templateId": "BADGE_EVENT_0206",
+    "data": {
+      "badgeType": "BADGE_EVENT_0206",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true,
+      "eventBadgeSettings": {
+        "obEventBadgeSettingsNumber6": 1
+      }
+    }
+  },
+  {
     "templateId": "BADGE_EVENT_0211",
     "data": {
       "badgeType": "BADGE_EVENT_0211",
