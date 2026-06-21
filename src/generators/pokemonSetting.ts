@@ -146,7 +146,7 @@ export default class PokemonSettingGenerator extends FileGenerator {
             raw.map(async (pokemon) => {
                 const dexNumber = this.extractDexNumber(pokemon.templateId);
                 this.alterPokemon(pokemon);
-                let formField = String(pokemon.data.form ?? 'base');
+                let formField = String(pokemon.data.form ?? 'base'); // have to convert number to string even most of the time never number here
 
                 const name = await this.fetchFrenchName(dexNumber);
                 const generation = await this.fetchGeneration(dexNumber, formField);
@@ -162,7 +162,10 @@ export default class PokemonSettingGenerator extends FileGenerator {
                     dexNumber,
                     name,
                     generation,
-                    slug: name.slugify().capitalize(),
+                    slug:
+                        formField === 'base'
+                            ? name.slugify().capitalize()
+                            : formField.slugify().capitalize(),
                     imageId,
                     image: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${imageId}.png`,
                     type: [pokemon.data.type, pokemon.data.type2].compact(),
@@ -284,7 +287,7 @@ export default class PokemonSettingGenerator extends FileGenerator {
 
                 */
         const templateId = pokemon.templateId;
-        let formField = String(pokemon.data.form ?? 'base');
+        let formField = String(pokemon.data.form ?? 'base'); // have to convert number to string even most of the time never number here
 
         // 1. Nettoyage global initial
         formField = formField.replace('GALARIAN', 'GALAR').replace('HISUIAN', 'HISUI');
