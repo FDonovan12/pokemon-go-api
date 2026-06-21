@@ -3655,9 +3655,9 @@
           "dexNumber": 25,
           "name": "Pikachu",
           "generation": 1,
-          "slug": "Pikachu-doctor",
-          "imageId": 25,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
+          "slug": "Pikachu-phd",
+          "imageId": 10083,
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10083.png",
           "type": [
             "POKEMON_TYPE_ELECTRIC"
           ],
@@ -3683,7 +3683,7 @@
           "isLegendary": false,
           "isMythical": false,
           "isUltraBeast": false,
-          "form": "PIKACHU_DOCTOR",
+          "form": "PIKACHU_PHD",
           "encounter": {
             "stardustCaptureReward": 100
           }
