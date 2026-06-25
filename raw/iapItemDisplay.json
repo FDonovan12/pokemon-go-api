@@ -245,14 +245,14 @@
     "templateId": "EVENT_PASS_JUNE4_EVENT_STORE_REDIRECT",
     "data": {
       "sku": "pgorelease.june4_2026_deluxe_event_pass_track_redirect",
+      "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 1,
-      "hidden": true,
       "title": "season_pass_premium_track_title_flying_taxi_2026",
       "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
       "skuEnableTime": "2025-06-23T10:00:00",
-      "skuDisableTime": "2025-07-01T20:00:00",
+      "skuDisableTime": "2026-07-01T20:00:00",
       "skuEnableTimeUtcMs": "1750672800000",
-      "skuDisableTimeUtcMs": "1751400000000",
+      "skuDisableTimeUtcMs": "1782936000000",
       "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F53190080_PGO-MCS_Flying_Taxi_TICKET_v1-1024x576.jpg"
     }
   },
@@ -444,7 +444,7 @@
       "skuDisableTime": "2026-07-14T23:59:59",
       "skuEnableTimeUtcMs": "1783296000000",
       "skuDisableTimeUtcMs": "1784073599000",
-      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FEvent%20Pass%20Placeholder.png"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fd07cba0c_PGO-MCS_GOFest_2026_GOPass_v3-16x9.jpg"
     }
   },
   {
@@ -459,7 +459,7 @@
       "skuDisableTime": "2026-07-14T23:59:59",
       "skuEnableTimeUtcMs": "1783296000000",
       "skuDisableTimeUtcMs": "1784073599000",
-      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FEvent%20Pass%20Placeholder.png"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fd07cba0c_PGO-MCS_GOFest_2026_GOPass_v3-16x9.jpg"
     }
   },
   {
@@ -686,13 +686,12 @@
     "data": {
       "sku": "pgorelease.june4_2026_deluxe_event_pass_track_unlock",
       "sortOrder": 1,
-      "hidden": true,
       "title": "season_pass_premium_track_title_flying_taxi_2026",
       "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
       "skuEnableTime": "2025-06-23T10:00:00",
-      "skuDisableTime": "2025-07-01T20:00:00",
+      "skuDisableTime": "2026-07-01T20:00:00",
       "skuEnableTimeUtcMs": "1750672800000",
-      "skuDisableTimeUtcMs": "1751400000000",
+      "skuDisableTimeUtcMs": "1782936000000",
       "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F53190080_PGO-MCS_Flying_Taxi_TICKET_v1-1024x576.jpg"
     }
   },
@@ -701,13 +700,12 @@
     "data": {
       "sku": "pgorelease.june4_2026_deluxe_event_pass_track_unlock_plus_points",
       "sortOrder": 1,
-      "hidden": true,
       "title": "season_pass_premium_track_plus_six_ranks_title_flying_taxi_2026",
       "description": "event_pass_plus_points_6_ranks_description",
       "skuEnableTime": "2025-06-23T10:00:00",
-      "skuDisableTime": "2025-07-01T20:00:00",
+      "skuDisableTime": "2026-07-01T20:00:00",
       "skuEnableTimeUtcMs": "1750672800000",
-      "skuDisableTimeUtcMs": "1751400000000",
+      "skuDisableTimeUtcMs": "1782936000000",
       "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F53190080_PGO-MCS_Flying_Taxi_TICKET_v1-1024x576.jpg"
     }
   },
@@ -917,6 +915,38 @@
       "skuEnableTimeUtcMs": "1746439200000",
       "skuDisableTimeUtcMs": "1749031200000",
       "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FPGO-MCS_GO_Pass_May_2026_TICKET_v1-1204x576.jpg"
+    }
+  },
+  {
+    "templateId": "STICKER_10ANNIV_1.3",
+    "data": {
+      "sku": "STICKER_10ANNIV_1.3",
+      "category": "IAP_CATEGORY_STICKER",
+      "sortOrder": 2
+    }
+  },
+  {
+    "templateId": "STICKER_10ANNIV_1.5",
+    "data": {
+      "sku": "STICKER_10ANNIV_1.5",
+      "category": "IAP_CATEGORY_STICKER",
+      "sortOrder": 1
+    }
+  },
+  {
+    "templateId": "STICKER_10ANNIV_2.3",
+    "data": {
+      "sku": "STICKER_10ANNIV_2.3",
+      "category": "IAP_CATEGORY_STICKER",
+      "sortOrder": 4
+    }
+  },
+  {
+    "templateId": "STICKER_10ANNIV_2.5",
+    "data": {
+      "sku": "STICKER_10ANNIV_2.5",
+      "category": "IAP_CATEGORY_STICKER",
+      "sortOrder": 3
     }
   },
   {
@@ -4206,7 +4236,7 @@
     "data": {
       "sku": "STICKER_PGO_FEST_2026.3",
       "category": "IAP_CATEGORY_STICKER",
-      "sortOrder": 12
+      "sortOrder": 16
     }
   },
   {
@@ -4214,7 +4244,7 @@
     "data": {
       "sku": "STICKER_PGO_FEST_2026.5",
       "category": "IAP_CATEGORY_STICKER",
-      "sortOrder": 11
+      "sortOrder": 15
     }
   },
   {
@@ -4222,7 +4252,7 @@
     "data": {
       "sku": "STICKER_PGO_FEST_2026_1.3",
       "category": "IAP_CATEGORY_STICKER",
-      "sortOrder": 10
+      "sortOrder": 14
     }
   },
   {
@@ -4230,7 +4260,7 @@
     "data": {
       "sku": "STICKER_PGO_FEST_2026_1.5",
       "category": "IAP_CATEGORY_STICKER",
-      "sortOrder": 9
+      "sortOrder": 13
     }
   },
   {
@@ -4238,7 +4268,7 @@
     "data": {
       "sku": "STICKER_PGO_FEST_2026_2.3",
       "category": "IAP_CATEGORY_STICKER",
-      "sortOrder": 8
+      "sortOrder": 12
     }
   },
   {
@@ -4246,7 +4276,7 @@
     "data": {
       "sku": "STICKER_PGO_FEST_2026_2.5",
       "category": "IAP_CATEGORY_STICKER",
-      "sortOrder": 7
+      "sortOrder": 11
     }
   },
   {
@@ -4254,7 +4284,7 @@
     "data": {
       "sku": "STICKER_PGO_FEST_2026_3.3",
       "category": "IAP_CATEGORY_STICKER",
-      "sortOrder": 6
+      "sortOrder": 10
     }
   },
   {
@@ -4262,7 +4292,7 @@
     "data": {
       "sku": "STICKER_PGO_FEST_2026_3.5",
       "category": "IAP_CATEGORY_STICKER",
-      "sortOrder": 5
+      "sortOrder": 9
     }
   },
   {
@@ -4270,7 +4300,7 @@
     "data": {
       "sku": "STICKER_PGO_FEST_2026_4.3",
       "category": "IAP_CATEGORY_STICKER",
-      "sortOrder": 4
+      "sortOrder": 8
     }
   },
   {
@@ -4278,7 +4308,7 @@
     "data": {
       "sku": "STICKER_PGO_FEST_2026_4.5",
       "category": "IAP_CATEGORY_STICKER",
-      "sortOrder": 3
+      "sortOrder": 7
     }
   },
   {
@@ -4286,7 +4316,7 @@
     "data": {
       "sku": "STICKER_PGO_FEST_2026_LOGO.3",
       "category": "IAP_CATEGORY_STICKER",
-      "sortOrder": 2
+      "sortOrder": 6
     }
   },
   {
@@ -4294,7 +4324,7 @@
     "data": {
       "sku": "STICKER_PGO_FEST_2026_LOGO.5",
       "category": "IAP_CATEGORY_STICKER",
-      "sortOrder": 1
+      "sortOrder": 5
     }
   },
   {
@@ -9087,13 +9117,10 @@
       "sku": "bundle.cd2022.1",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 1,
+      "hidden": true,
       "sale": true,
-      "spriteId": "bundle.general4.small.1",
-      "title": "bundle.general4.small.1_title",
-      "skuEnableTime": "2022-10-13T12:00:00",
-      "skuDisableTime": "2026-06-21T23:59:59",
-      "skuEnableTimeUtcMs": "1665662400000",
-      "skuDisableTimeUtcMs": "1782086399000"
+      "spriteId": "bundle.halloween.small.1",
+      "title": "bundle.halloween.small.1_title"
     }
   },
   {
@@ -9102,13 +9129,10 @@
       "sku": "bundle.cd2022.2",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 2,
+      "hidden": true,
       "sale": true,
-      "spriteId": "bundle.general1.medium.1",
-      "title": "bundle.general1.medium.1_title",
-      "skuEnableTime": "2022-10-13T12:00:00",
-      "skuDisableTime": "2026-06-21T23:59:59",
-      "skuEnableTimeUtcMs": "1665662400000",
-      "skuDisableTimeUtcMs": "1782086399000"
+      "spriteId": "bundle.halloween.adventure.1",
+      "title": "bundle.halloween.adventure.1_title"
     }
   },
   {
@@ -11961,12 +11985,11 @@
       "sku": "pgorelease.general2.ticket.9",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 2,
-      "hidden": true,
       "spriteId": "general2.ticket.9",
       "title": "general2.ticket.5_MegaSkarmoryRaidDay",
-      "skuEnableTime": "2026-03-03T13:00:00",
+      "skuEnableTime": "2023-03-03T13:00:00",
       "skuDisableTime": "2026-06-27T17:00:00",
-      "skuEnableTimeUtcMs": "1772542800000",
+      "skuEnableTimeUtcMs": "1677848400000",
       "skuDisableTimeUtcMs": "1782579600000",
       "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2F9398cb22_PGO-MCS_Skarmory_Super_Mega_Raid_Day_v4-1024x576.jpg",
       "useEnvironmentPrefix": true
@@ -13271,7 +13294,35 @@
       "skuDisableTime": "2026-07-14T23:59:59",
       "skuEnableTimeUtcMs": "1783296000000",
       "skuDisableTimeUtcMs": "1784073599000",
-      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FEvent%20Pass%20Placeholder.png"
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fd07cba0c_PGO-MCS_GOFest_2026_GOPass_v3-16x9.jpg"
+    }
+  },
+  {
+    "templateId": "pgorelease.june4_2026_deluxe_event_pass_track_unlock",
+    "data": {
+      "sku": "pgorelease.june4_2026_deluxe_event_pass_track_unlock",
+      "sortOrder": 1,
+      "title": "season_pass_premium_track_title_flying_taxi_2026",
+      "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
+      "skuEnableTime": "2025-06-23T10:00:00",
+      "skuDisableTime": "2026-07-01T20:00:00",
+      "skuEnableTimeUtcMs": "1750672800000",
+      "skuDisableTimeUtcMs": "1782936000000",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F53190080_PGO-MCS_Flying_Taxi_TICKET_v1-1024x576.jpg"
+    }
+  },
+  {
+    "templateId": "pgorelease.june4_2026_deluxe_event_pass_track_unlock_plus_points",
+    "data": {
+      "sku": "pgorelease.june4_2026_deluxe_event_pass_track_unlock_plus_points",
+      "sortOrder": 1,
+      "title": "season_pass_premium_track_plus_six_ranks_title_flying_taxi_2026",
+      "description": "event_pass_plus_points_6_ranks_description",
+      "skuEnableTime": "2025-06-23T10:00:00",
+      "skuDisableTime": "2026-07-01T20:00:00",
+      "skuEnableTimeUtcMs": "1750672800000",
+      "skuDisableTimeUtcMs": "1782936000000",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F53190080_PGO-MCS_Flying_Taxi_TICKET_v1-1024x576.jpg"
     }
   },
   {

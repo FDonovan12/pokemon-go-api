@@ -35,6 +35,20 @@
     }
   },
   {
+    "templateId": "ENHANCED_CURRENCY_OVERFLOW_STARDUST_FEATURE_GATE",
+    "data": {
+      "status": 1,
+      "rolloutPercentage": 100
+    }
+  },
+  {
+    "templateId": "EVENT_LIST_FEATURE_GATE",
+    "data": {
+      "status": 1,
+      "rolloutPercentage": 100
+    }
+  },
+  {
     "templateId": "EVENT_PASS_BONUS_RANKS_FEATURE_GATE",
     "data": {
       "status": 1,
@@ -74,6 +88,30 @@
     "data": {
       "status": 1,
       "rolloutPercentage": 50
+    }
+  },
+  {
+    "templateId": "GAMESITE_WEBVIEW_NEARBY_BUTTONS_FEATURE_GATE",
+    "data": {
+      "status": 1,
+      "rolloutPercentage": 100,
+      "subFeatureGateList": [
+        {
+          "name": "RAIDS",
+          "status": 1,
+          "rolloutPercentage": 100
+        },
+        {
+          "name": "STATIONS",
+          "status": 1,
+          "rolloutPercentage": 100
+        },
+        {
+          "name": "ROUTES",
+          "status": 1,
+          "rolloutPercentage": 100
+        }
+      ]
     }
   },
   {
@@ -134,6 +172,13 @@
     "templateId": "SEAF_GET_MAP_OBJECTS_RATE_LIMITER_FEATURE_GATE",
     "data": {
       "status": 1,
+      "rolloutPercentage": 100
+    }
+  },
+  {
+    "templateId": "UPDATE_TICKETS_STRING_FEATURE_GATE",
+    "data": {
+      "status": 29825861,
       "rolloutPercentage": 100
     }
   },

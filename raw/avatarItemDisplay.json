@@ -6674,6 +6674,13 @@
     }
   },
   {
+    "templateId": "N_DISPLAY_n_shirt_latamfootballshirt",
+    "data": {
+      "iconAddress": "n_shirt_latamfootballshirt_icon",
+      "displayStringId": "avatar_shirt_soccerjersey_10"
+    }
+  },
+  {
     "templateId": "N_DISPLAY_n_shirt_latias-latios_0",
     "data": {
       "iconAddress": "n_shirt_latiaslatios_0_icon",

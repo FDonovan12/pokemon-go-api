@@ -1,6 +1,6 @@
 [
   {
-    "templateId": "ANDROID_SENSORS_ROLL_BACK",
+    "templateId": "COMBAT_VNEXT_USE_MATCHING_START_TURN_FOR_FAST_ATTACK_ENABLE_ROLL_BACK",
     "data": {
       "rollbackPercentage": 100
     }

@@ -646,9 +646,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "NECROZMA",
+            "pokemonId": "KARTANA",
             "pokemonDisplay": {
-              "form": "NECROZMA_NORMAL"
+              "form": "KARTANA_NORMAL"
             }
           },
           "unlockedAtRank": 20,
@@ -1321,9 +1321,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "NECROZMA",
+            "pokemonId": "KARTANA",
             "pokemonDisplay": {
-              "form": "NECROZMA_NORMAL"
+              "form": "KARTANA_NORMAL"
             }
           },
           "unlockedAtRank": 20,

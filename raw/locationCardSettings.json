@@ -678,6 +678,132 @@
     }
   },
   {
+    "templateId": "LC_JAPAN_STAMP_RALLY_1",
+    "data": {
+      "locationCard": 312,
+      "imageUrl": "lc_pokecenter_sapporo"
+    }
+  },
+  {
+    "templateId": "LC_JAPAN_STAMP_RALLY_10",
+    "data": {
+      "locationCard": 321,
+      "imageUrl": "lc_pokecenter_kanazawa"
+    }
+  },
+  {
+    "templateId": "LC_JAPAN_STAMP_RALLY_11",
+    "data": {
+      "locationCard": 322,
+      "imageUrl": "lc_pokecenter_kyoto"
+    }
+  },
+  {
+    "templateId": "LC_JAPAN_STAMP_RALLY_12",
+    "data": {
+      "locationCard": 323,
+      "imageUrl": "lc_pokecenter_osakaDX"
+    }
+  },
+  {
+    "templateId": "LC_JAPAN_STAMP_RALLY_13",
+    "data": {
+      "locationCard": 324,
+      "imageUrl": "lc_pokecenter_osaka"
+    }
+  },
+  {
+    "templateId": "LC_JAPAN_STAMP_RALLY_14",
+    "data": {
+      "locationCard": 325,
+      "imageUrl": "lc_pokecenter_hiroshima"
+    }
+  },
+  {
+    "templateId": "LC_JAPAN_STAMP_RALLY_15",
+    "data": {
+      "locationCard": 326,
+      "imageUrl": "lc_pokecenter_kagawa"
+    }
+  },
+  {
+    "templateId": "LC_JAPAN_STAMP_RALLY_16",
+    "data": {
+      "locationCard": 327,
+      "imageUrl": "lc_pokecenter_fukuoka"
+    }
+  },
+  {
+    "templateId": "LC_JAPAN_STAMP_RALLY_17",
+    "data": {
+      "locationCard": 328,
+      "imageUrl": "lc_pokecenter_okinawa"
+    }
+  },
+  {
+    "templateId": "LC_JAPAN_STAMP_RALLY_18",
+    "data": {
+      "locationCard": 329,
+      "imageUrl": "lc_pokecenter_GOLab"
+    }
+  },
+  {
+    "templateId": "LC_JAPAN_STAMP_RALLY_2",
+    "data": {
+      "locationCard": 313,
+      "imageUrl": "lc_pokecenter_tohoku"
+    }
+  },
+  {
+    "templateId": "LC_JAPAN_STAMP_RALLY_3",
+    "data": {
+      "locationCard": 314,
+      "imageUrl": "lc_pokecenter_tokyoDX"
+    }
+  },
+  {
+    "templateId": "LC_JAPAN_STAMP_RALLY_4",
+    "data": {
+      "locationCard": 315,
+      "imageUrl": "lc_pokecenter_megaTokyo"
+    }
+  },
+  {
+    "templateId": "LC_JAPAN_STAMP_RALLY_5",
+    "data": {
+      "locationCard": 316,
+      "imageUrl": "lc_pokecenter_shibuya"
+    }
+  },
+  {
+    "templateId": "LC_JAPAN_STAMP_RALLY_6",
+    "data": {
+      "locationCard": 317,
+      "imageUrl": "lc_pokecenter_skytreeTown"
+    }
+  },
+  {
+    "templateId": "LC_JAPAN_STAMP_RALLY_7",
+    "data": {
+      "locationCard": 318,
+      "imageUrl": "lc_pokecenter_tokyoBay"
+    }
+  },
+  {
+    "templateId": "LC_JAPAN_STAMP_RALLY_8",
+    "data": {
+      "locationCard": 319,
+      "imageUrl": "lc_pokecenter_yokohama"
+    }
+  },
+  {
+    "templateId": "LC_JAPAN_STAMP_RALLY_9",
+    "data": {
+      "locationCard": 320,
+      "imageUrl": "lc_pokecenter_nagoya"
+    }
+  },
+  {
     "templateId": "LC_JEJU_STAMP_RALLY",
     "data": {
       "locationCard": "LC_JEJU_STAMP_RALLY",
@@ -1341,6 +1467,15 @@
     "data": {
       "locationCard": "LC_SPECIALBACKGROUND_EXTRA_2025_02",
       "imageUrl": "lc_taipeiFlowerFestival_2026"
+    }
+  },
+  {
+    "templateId": "LC_SPECIALBACKGROUND_GG2026",
+    "data": {
+      "locationCard": 333,
+      "imageUrl": "sb_9thAnniversary",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_10thAnni"
     }
   },
   {

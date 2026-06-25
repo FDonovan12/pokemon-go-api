@@ -1,5 +1,31 @@
 [
   {
+    "templateId": "STICKER_10ANNIV_1",
+    "data": {
+      "stickerId": "STICKER_10ANNIV_1",
+      "maxCount": 25,
+      "pokemonId": "GIMMIGHOUL",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20260703,
+      "regionId": 1001
+    }
+  },
+  {
+    "templateId": "STICKER_10ANNIV_2",
+    "data": {
+      "stickerId": "STICKER_10ANNIV_2",
+      "maxCount": 25,
+      "pokemonId": "GHOLDENGO",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20260703,
+      "regionId": 1001
+    }
+  },
+  {
     "templateId": "STICKER_2023COLLAB_1",
     "data": {
       "stickerId": "STICKER_2023COLLAB_1",

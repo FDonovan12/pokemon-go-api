@@ -22,7 +22,6 @@
         "COBALION",
         "TERRAKION",
         "VIRIZION",
-        "RESHIRAM",
         "ZEKROM",
         "KYUREM",
         "TAPU_KOKO",
@@ -32,8 +31,7 @@
         "LUNALA",
         "ZACIAN",
         "ZAMAZENTA",
-        "ENAMORUS",
-        "MIMIKYU"
+        "ENAMORUS"
       ],
       "badgeType": "BADGE_GREAT_LEAGUE",
       "leagueType": "STANDARD",
@@ -67,8 +65,7 @@
       "pokemonCount": 3,
       "bannedPokemon": [
         "DITTO",
-        "SHEDINJA",
-        "MIMIKYU"
+        "SHEDINJA"
       ],
       "badgeType": "BADGE_MASTER_LEAGUE",
       "leagueType": "STANDARD",
@@ -132,8 +129,7 @@
       "pokemonCount": 3,
       "bannedPokemon": [
         "DITTO",
-        "SHEDINJA",
-        "MIMIKYU"
+        "SHEDINJA"
       ],
       "badgeType": "BADGE_ULTRA_LEAGUE",
       "leagueType": "STANDARD",
@@ -7981,8 +7977,7 @@
         "ZAMAZENTA",
         "ENAMORUS",
         "XERNEAS",
-        "YVELTAL",
-        "MIMIKYU"
+        "YVELTAL"
       ],
       "badgeType": "BADGE_GREAT_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
@@ -8561,8 +8556,7 @@
         "ZAMAZENTA",
         "ENAMORUS",
         "XERNEAS",
-        "YVELTAL",
-        "MIMIKYU"
+        "YVELTAL"
       ],
       "badgeType": "BADGE_GREAT_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
@@ -9226,8 +9220,7 @@
         "ZAMAZENTA",
         "ENAMORUS",
         "XERNEAS",
-        "YVELTAL",
-        "MIMIKYU"
+        "YVELTAL"
       ],
       "badgeType": "BADGE_GREAT_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
@@ -11517,8 +11510,7 @@
         "ZAMAZENTA",
         "ENAMORUS",
         "XERNEAS",
-        "YVELTAL",
-        "MIMIKYU"
+        "YVELTAL"
       ],
       "badgeType": "BADGE_GREAT_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
@@ -13853,8 +13845,7 @@
         "FEZANDIPITI",
         "OGERPON",
         "TERAPAGOS",
-        "PECHARUNT",
-        "MIMIKYU"
+        "PECHARUNT"
       ],
       "badgeType": "BADGE_GREAT_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
@@ -13893,7 +13884,6 @@
         "COBALION",
         "TERRAKION",
         "VIRIZION",
-        "RESHIRAM",
         "ZEKROM",
         "KYUREM",
         "TAPU_KOKO",
@@ -13903,8 +13893,7 @@
         "LUNALA",
         "ZACIAN",
         "ZAMAZENTA",
-        "ENAMORUS",
-        "MIMIKYU"
+        "ENAMORUS"
       ],
       "badgeType": "BADGE_GREAT_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
@@ -14002,8 +13991,7 @@
         "ZAMAZENTA",
         "ENAMORUS",
         "XERNEAS",
-        "YVELTAL",
-        "MIMIKYU"
+        "YVELTAL"
       ],
       "badgeType": "BADGE_GREAT_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
@@ -14456,7 +14444,6 @@
         "KELDEO",
         "VOLCANION",
         "MARSHADOW",
-        "MIMIKYU",
         "XERNEAS",
         "YVELTAL",
         "COBALION",
@@ -14615,7 +14602,6 @@
         "COBALION",
         "TERRAKION",
         "VIRIZION",
-        "RESHIRAM",
         "ZEKROM",
         "KYUREM",
         "TAPU_KOKO",
@@ -16775,8 +16761,7 @@
         "ZAMAZENTA",
         "ENAMORUS",
         "XERNEAS",
-        "YVELTAL",
-        "MIMIKYU"
+        "YVELTAL"
       ],
       "badgeType": "BADGE_GREAT_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
@@ -17509,8 +17494,7 @@
         "ZAMAZENTA",
         "ENAMORUS",
         "XERNEAS",
-        "YVELTAL",
-        "MIMIKYU"
+        "YVELTAL"
       ],
       "badgeType": "BADGE_GREAT_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
@@ -17569,8 +17553,7 @@
         "ZAMAZENTA",
         "ENAMORUS",
         "XERNEAS",
-        "YVELTAL",
-        "MIMIKYU"
+        "YVELTAL"
       ],
       "badgeType": "BADGE_GREAT_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
@@ -17630,8 +17613,7 @@
         "ZAMAZENTA",
         "ENAMORUS",
         "XERNEAS",
-        "YVELTAL",
-        "MIMIKYU"
+        "YVELTAL"
       ],
       "badgeType": "BADGE_GREAT_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
@@ -17695,8 +17677,7 @@
         "ZAMAZENTA",
         "ENAMORUS",
         "XERNEAS",
-        "YVELTAL",
-        "MIMIKYU"
+        "YVELTAL"
       ],
       "badgeType": "BADGE_GREAT_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
@@ -17759,8 +17740,7 @@
         "ZAMAZENTA",
         "ENAMORUS",
         "XERNEAS",
-        "YVELTAL",
-        "MIMIKYU"
+        "YVELTAL"
       ],
       "badgeType": "BADGE_GREAT_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
@@ -17819,8 +17799,7 @@
         "ZAMAZENTA",
         "ENAMORUS",
         "XERNEAS",
-        "YVELTAL",
-        "MIMIKYU"
+        "YVELTAL"
       ],
       "badgeType": "BADGE_GREAT_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
@@ -17881,8 +17860,7 @@
         "ZAMAZENTA",
         "ENAMORUS",
         "XERNEAS",
-        "YVELTAL",
-        "MIMIKYU"
+        "YVELTAL"
       ],
       "badgeType": "BADGE_GREAT_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
@@ -18033,8 +18011,7 @@
         "FEZANDIPITI",
         "OGERPON",
         "TERAPAGOS",
-        "PECHARUNT",
-        "MIMIKYU"
+        "PECHARUNT"
       ],
       "badgeType": "BADGE_GREAT_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
@@ -18744,8 +18721,7 @@
         "ZAMAZENTA",
         "ENAMORUS",
         "XERNEAS",
-        "YVELTAL",
-        "MIMIKYU"
+        "YVELTAL"
       ],
       "badgeType": "BADGE_GREAT_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
@@ -19512,8 +19488,7 @@
         "ZAMAZENTA",
         "ENAMORUS",
         "XERNEAS",
-        "YVELTAL",
-        "MIMIKYU"
+        "YVELTAL"
       ],
       "badgeType": "BADGE_GREAT_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
@@ -19576,8 +19551,7 @@
         "ZAMAZENTA",
         "ENAMORUS",
         "XERNEAS",
-        "YVELTAL",
-        "MIMIKYU"
+        "YVELTAL"
       ],
       "badgeType": "BADGE_GREAT_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
@@ -20099,8 +20073,7 @@
         "ZAMAZENTA",
         "ENAMORUS",
         "XERNEAS",
-        "YVELTAL",
-        "MIMIKYU"
+        "YVELTAL"
       ],
       "badgeType": "BADGE_GREAT_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
@@ -20164,8 +20137,7 @@
         "ZAMAZENTA",
         "ENAMORUS",
         "XERNEAS",
-        "YVELTAL",
-        "MIMIKYU"
+        "YVELTAL"
       ],
       "badgeType": "BADGE_GREAT_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
@@ -20880,8 +20852,7 @@
         "ZAMAZENTA",
         "ENAMORUS",
         "XERNEAS",
-        "YVELTAL",
-        "MIMIKYU"
+        "YVELTAL"
       ],
       "badgeType": "BADGE_GREAT_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
@@ -22436,8 +22407,7 @@
         "FEZANDIPITI",
         "OGERPON",
         "TERAPAGOS",
-        "PECHARUNT",
-        "MIMIKYU"
+        "PECHARUNT"
       ],
       "badgeType": "BADGE_GREAT_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
@@ -23953,8 +23923,7 @@
         "FEZANDIPITI",
         "OGERPON",
         "TERAPAGOS",
-        "PECHARUNT",
-        "MIMIKYU"
+        "PECHARUNT"
       ],
       "badgeType": "BADGE_GREAT_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
@@ -24845,8 +24814,7 @@
         "ZAMAZENTA",
         "ENAMORUS",
         "XERNEAS",
-        "YVELTAL",
-        "MIMIKYU"
+        "YVELTAL"
       ],
       "badgeType": "BADGE_GREAT_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
@@ -24879,8 +24847,7 @@
       "pokemonCount": 3,
       "bannedPokemon": [
         "DITTO",
-        "SHEDINJA",
-        "MIMIKYU"
+        "SHEDINJA"
       ],
       "badgeType": "BADGE_GREAT_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
@@ -24930,8 +24897,7 @@
         "LUNALA",
         "ZACIAN",
         "ZAMAZENTA",
-        "ENAMORUS",
-        "MIMIKYU"
+        "ENAMORUS"
       ],
       "badgeType": "BADGE_GREAT_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
@@ -25106,8 +25072,7 @@
         "ZAMAZENTA",
         "ENAMORUS",
         "XERNEAS",
-        "YVELTAL",
-        "MIMIKYU"
+        "YVELTAL"
       ],
       "badgeType": "BADGE_GREAT_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
@@ -26379,8 +26344,7 @@
         "ZAMAZENTA",
         "ENAMORUS",
         "XERNEAS",
-        "YVELTAL",
-        "MIMIKYU"
+        "YVELTAL"
       ],
       "badgeType": "BADGE_GREAT_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
@@ -26440,8 +26404,7 @@
         "ZAMAZENTA",
         "ENAMORUS",
         "XERNEAS",
-        "YVELTAL",
-        "MIMIKYU"
+        "YVELTAL"
       ],
       "badgeType": "BADGE_GREAT_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
@@ -29028,8 +28991,7 @@
         "ZAMAZENTA",
         "ENAMORUS",
         "XERNEAS",
-        "YVELTAL",
-        "MIMIKYU"
+        "YVELTAL"
       ],
       "badgeType": "BADGE_GREAT_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
@@ -29620,8 +29582,7 @@
         "ZAMAZENTA",
         "ENAMORUS",
         "XERNEAS",
-        "YVELTAL",
-        "MIMIKYU"
+        "YVELTAL"
       ],
       "badgeType": "BADGE_GREAT_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
@@ -29683,8 +29644,7 @@
         "ZAMAZENTA",
         "ENAMORUS",
         "XERNEAS",
-        "YVELTAL",
-        "MIMIKYU"
+        "YVELTAL"
       ],
       "badgeType": "BADGE_GREAT_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
@@ -29744,8 +29704,7 @@
         "ZAMAZENTA",
         "ENAMORUS",
         "XERNEAS",
-        "YVELTAL",
-        "MIMIKYU"
+        "YVELTAL"
       ],
       "badgeType": "BADGE_GREAT_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
@@ -29790,8 +29749,7 @@
       "pokemonCount": 3,
       "bannedPokemon": [
         "DITTO",
-        "SHEDINJA",
-        "MIMIKYU"
+        "SHEDINJA"
       ],
       "badgeType": "BADGE_ULTRA_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_ULTRA",
@@ -29937,8 +29895,7 @@
         "FEZANDIPITI",
         "OGERPON",
         "TERAPAGOS",
-        "PECHARUNT",
-        "MIMIKYU"
+        "PECHARUNT"
       ],
       "badgeType": "BADGE_GREAT_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
@@ -30199,8 +30156,7 @@
         "FEZANDIPITI",
         "OGERPON",
         "TERAPAGOS",
-        "PECHARUNT",
-        "MIMIKYU"
+        "PECHARUNT"
       ],
       "badgeType": "BADGE_GREAT_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
@@ -30402,8 +30358,7 @@
         "FEZANDIPITI",
         "OGERPON",
         "TERAPAGOS",
-        "PECHARUNT",
-        "MIMIKYU"
+        "PECHARUNT"
       ],
       "badgeType": "BADGE_GREAT_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
@@ -30562,8 +30517,7 @@
         "FEZANDIPITI",
         "OGERPON",
         "TERAPAGOS",
-        "PECHARUNT",
-        "MIMIKYU"
+        "PECHARUNT"
       ],
       "badgeType": "BADGE_GREAT_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
@@ -30596,8 +30550,7 @@
       "pokemonCount": 3,
       "bannedPokemon": [
         "DITTO",
-        "SHEDINJA",
-        "MIMIKYU"
+        "SHEDINJA"
       ],
       "badgeType": "BADGE_MASTER_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_MASTER",
@@ -30636,8 +30589,7 @@
       "pokemonCount": 3,
       "bannedPokemon": [
         "DITTO",
-        "SHEDINJA",
-        "MIMIKYU"
+        "SHEDINJA"
       ],
       "badgeType": "BADGE_MASTER_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_MASTER",
@@ -30670,8 +30622,7 @@
       "pokemonCount": 3,
       "bannedPokemon": [
         "DITTO",
-        "SHEDINJA",
-        "MIMIKYU"
+        "SHEDINJA"
       ],
       "badgeType": "BADGE_MASTER_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_MASTER",
@@ -30762,8 +30713,7 @@
         "MELTAN",
         "MELMETAL",
         "ZACIAN",
-        "ZAMAZENTA",
-        "MIMIKYU"
+        "ZAMAZENTA"
       ],
       "badgeType": "BADGE_MASTER_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_MASTER",
@@ -30901,8 +30851,7 @@
         "FEZANDIPITI",
         "OGERPON",
         "TERAPAGOS",
-        "PECHARUNT",
-        "MIMIKYU"
+        "PECHARUNT"
       ],
       "badgeType": "BADGE_MASTER_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_MASTER",
@@ -31046,8 +30995,7 @@
         "FEZANDIPITI",
         "OGERPON",
         "TERAPAGOS",
-        "PECHARUNT",
-        "MIMIKYU"
+        "PECHARUNT"
       ],
       "badgeType": "BADGE_MASTER_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_MASTER",
@@ -31108,8 +31056,7 @@
         "ZAMAZENTA",
         "ENAMORUS",
         "XERNEAS",
-        "YVELTAL",
-        "MIMIKYU"
+        "YVELTAL"
       ],
       "badgeType": "BADGE_GREAT_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
@@ -31167,8 +31114,7 @@
         "ZAMAZENTA",
         "ENAMORUS",
         "XERNEAS",
-        "YVELTAL",
-        "MIMIKYU"
+        "YVELTAL"
       ],
       "badgeType": "BADGE_GREAT_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
@@ -31230,8 +31176,7 @@
         "ZAMAZENTA",
         "ENAMORUS",
         "XERNEAS",
-        "YVELTAL",
-        "MIMIKYU"
+        "YVELTAL"
       ],
       "badgeType": "BADGE_GREAT_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
@@ -31292,8 +31237,7 @@
         "ZAMAZENTA",
         "ENAMORUS",
         "XERNEAS",
-        "YVELTAL",
-        "MIMIKYU"
+        "YVELTAL"
       ],
       "badgeType": "BADGE_GREAT_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
@@ -31326,8 +31270,7 @@
       "pokemonCount": 3,
       "bannedPokemon": [
         "DITTO",
-        "SHEDINJA",
-        "MIMIKYU"
+        "SHEDINJA"
       ],
       "badgeType": "BADGE_ULTRA_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_ULTRA",
@@ -31373,8 +31316,7 @@
       "pokemonCount": 3,
       "bannedPokemon": [
         "DITTO",
-        "SHEDINJA",
-        "MIMIKYU"
+        "SHEDINJA"
       ],
       "badgeType": "BADGE_ULTRA_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_ULTRA",
@@ -31407,8 +31349,7 @@
       "pokemonCount": 3,
       "bannedPokemon": [
         "DITTO",
-        "SHEDINJA",
-        "MIMIKYU"
+        "SHEDINJA"
       ],
       "badgeType": "BADGE_ULTRA_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_ULTRA",
@@ -31499,8 +31440,7 @@
         "MELTAN",
         "MELMETAL",
         "ZACIAN",
-        "ZAMAZENTA",
-        "MIMIKYU"
+        "ZAMAZENTA"
       ],
       "badgeType": "BADGE_ULTRA_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_ULTRA",
@@ -31638,8 +31578,7 @@
         "FEZANDIPITI",
         "OGERPON",
         "TERAPAGOS",
-        "PECHARUNT",
-        "MIMIKYU"
+        "PECHARUNT"
       ],
       "badgeType": "BADGE_ULTRA_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_ULTRA",
@@ -31783,8 +31722,7 @@
         "FEZANDIPITI",
         "OGERPON",
         "TERAPAGOS",
-        "PECHARUNT",
-        "MIMIKYU"
+        "PECHARUNT"
       ],
       "badgeType": "BADGE_ULTRA_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_ULTRA",
@@ -31874,9 +31812,6 @@
       ],
       "iconUrl": "https://storage.googleapis.com/prod-public-images/LeagueIcons/league_icon_ultra_pokemon_limit.png",
       "pokemonCount": 3,
-      "bannedPokemon": [
-        "MIMIKYU"
-      ],
       "badgeType": "BADGE_ULTRA_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_ULTRA",
       "leagueType": "PREMIER"
@@ -31921,8 +31856,7 @@
       "pokemonCount": 3,
       "bannedPokemon": [
         "DITTO",
-        "SHEDINJA",
-        "MIMIKYU"
+        "SHEDINJA"
       ],
       "badgeType": "BADGE_ULTRA_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_ULTRA",
@@ -31966,8 +31900,7 @@
       "pokemonCount": 3,
       "bannedPokemon": [
         "DITTO",
-        "SHEDINJA",
-        "MIMIKYU"
+        "SHEDINJA"
       ],
       "badgeType": "BADGE_ULTRA_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_ULTRA",
@@ -32029,8 +31962,7 @@
         "ZAMAZENTA",
         "ENAMORUS",
         "XERNEAS",
-        "YVELTAL",
-        "MIMIKYU"
+        "YVELTAL"
       ],
       "badgeType": "BADGE_GREAT_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
