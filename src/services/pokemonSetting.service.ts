@@ -133,7 +133,9 @@ class PokemonSettingGeneratorService {
                     eliteQuickMove: pokemon.data.eliteQuickMove ?? [],
                     eliteCinematicMove: pokemon.data.eliteCinematicMove ?? [],
                     nonTmCinematicMoves: pokemon.data.nonTmCinematicMoves ?? [],
-                    evolutionIds: pokemon.data.evolutionIds,
+                    evolutionIds: (pokemon.data.evolutionBranch ?? []).map(
+                        (branch) => branch.evolution,
+                    ),
                     family: pokemon.data.familyId,
                     isLegendary: pokemon.data.pokemonClass === 'POKEMON_CLASS_LEGENDARY',
                     isMythical: pokemon.data.pokemonClass === 'POKEMON_CLASS_MYTHIC',
