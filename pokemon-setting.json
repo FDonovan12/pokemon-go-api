@@ -48787,9 +48787,7 @@
       "eliteQuickMove": [],
       "eliteCinematicMove": [],
       "nonTmCinematicMoves": [],
-      "evolutionIds": [
-        "ZYGARDE"
-      ],
+      "evolutionIds": [],
       "family": "Zygarde",
       "isLegendary": true,
       "isMythical": false,
@@ -48876,9 +48874,7 @@
         "eliteQuickMove": [],
         "eliteCinematicMove": [],
         "nonTmCinematicMoves": [],
-        "evolutionIds": [
-          "ZYGARDE"
-        ],
+        "evolutionIds": [],
         "family": "Zygarde",
         "isLegendary": true,
         "isMythical": false,
@@ -49014,9 +49010,7 @@
             "eliteQuickMove": [],
             "eliteCinematicMove": [],
             "nonTmCinematicMoves": [],
-            "evolutionIds": [
-              "ZYGARDE"
-            ],
+            "evolutionIds": [],
             "family": "Zygarde",
             "isLegendary": true,
             "isMythical": false,
