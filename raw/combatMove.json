@@ -3643,5 +3643,19 @@
         "buffActivationChance": 1
       }
     }
+  },
+  {
+    "templateId": "COMBAT_V0592_MOVE_SNIPE_SHOT",
+    "data": {
+      "uniqueId": 592,
+      "type": "POKEMON_TYPE_WATER",
+      "power": 65,
+      "vfxName": "snipe_shot",
+      "energyDelta": -35,
+      "buffs": {
+        "attackerAttackStatStageChange": 2,
+        "buffActivationChance": 0.125
+      }
+    }
   }
 ]

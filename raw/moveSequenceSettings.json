@@ -3828,6 +3828,20 @@
     }
   },
   {
+    "templateId": "sequence_snipe_shot",
+    "data": {
+      "sequence": [
+        "anim attacker atk-move",
+        "wait 0.5",
+        "vfx snipe_shot",
+        "sfx attacker 745-0_snipe_shot",
+        "wait 1.0",
+        "sys ui-sync",
+        "sys complete"
+      ]
+    }
+  },
+  {
     "templateId": "sequence_solar_beam",
     "data": {
       "sequence": [

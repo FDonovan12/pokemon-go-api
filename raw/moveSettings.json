@@ -5934,6 +5934,24 @@
     }
   },
   {
+    "templateId": "V0592_MOVE_SNIPE_SHOT",
+    "data": {
+      "movementId": 592,
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_WATER",
+      "power": 100,
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "snipe_shot",
+      "durationMs": 3500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 2900,
+      "energyDelta": -33
+    }
+  },
+  {
     "templateId": "VN_BM_001",
     "data": {
       "movementId": "VN_BM_001",
