@@ -330,9 +330,7 @@
         "eventPassId": "EVENT_PASS_FLYINGTAXI2026_EVENT"
       },
       "timePeriodCounters": {
-        "playerActivity": {
-          "limit": 500
-        }
+        "playerActivity": {}
       },
       "hideItemInInventory": true
     }
