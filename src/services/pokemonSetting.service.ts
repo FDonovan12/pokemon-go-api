@@ -126,7 +126,10 @@ class PokemonSettingGeneratorService {
                     slug: slug,
                     imageId,
                     image: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${imageId}.png`,
-                    type: [pokemon.data.type, pokemon.data.type2].compact(),
+                    type: [
+                        pokemonTypeToFrench(pokemon.data.type),
+                        pokemonTypeToFrench(pokemon.data.type2 ?? ''),
+                    ].compact(),
                     stats: pokemon.data.stats,
                     quickMoves: pokemon.data.quickMoves ?? [],
                     cinematicMoves: pokemon.data.cinematicMoves ?? [],
@@ -277,4 +280,28 @@ class PokemonSettingGeneratorService {
         // 3. Application de la forme finale nettoyée sur l'objet d'origine
         pokemon.data.form = formField;
     }
+}
+const POKEMON_TYPE_TO_FRENCH: Record<string, string | undefined> = {
+    POKEMON_TYPE_BUG: 'Insecte',
+    POKEMON_TYPE_DARK: 'Ténèbres',
+    POKEMON_TYPE_DRAGON: 'Dragon',
+    POKEMON_TYPE_ELECTRIC: 'Électrik',
+    POKEMON_TYPE_FAIRY: 'Fée',
+    POKEMON_TYPE_FIGHTING: 'Combat',
+    POKEMON_TYPE_FIRE: 'Feu',
+    POKEMON_TYPE_FLYING: 'Vol',
+    POKEMON_TYPE_GHOST: 'Spectre',
+    POKEMON_TYPE_GRASS: 'Plante',
+    POKEMON_TYPE_GROUND: 'Sol',
+    POKEMON_TYPE_ICE: 'Glace',
+    POKEMON_TYPE_NORMAL: 'Normal',
+    POKEMON_TYPE_POISON: 'Poison',
+    POKEMON_TYPE_PSYCHIC: 'Psy',
+    POKEMON_TYPE_ROCK: 'Roche',
+    POKEMON_TYPE_STEEL: 'Acier',
+    POKEMON_TYPE_WATER: 'Eau',
+};
+
+function pokemonTypeToFrench(type: string): string | undefined {
+    return POKEMON_TYPE_TO_FRENCH[type];
 }
