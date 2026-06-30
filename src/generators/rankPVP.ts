@@ -1,15 +1,31 @@
+import fs from 'fs';
+import path from 'path';
 import { getCpMultipliers } from '../services/cpMultiplier.service.js';
 import { getPokemonSetting } from '../services/pokemonSetting.service.js';
 import { FileGenerator } from '../type/fileGenerator.js';
 
 const CP_CAP = { great: 1500, ultra: 2500 };
 
+type RankEntry = {
+    atk: number;
+    def: number;
+    sta: number;
+    level: number;
+    statProduct: number;
+};
+
 export default class PokemonSettingGenerator extends FileGenerator {
     getFileName(): string {
-        return 'rank-1-pvp.json';
+        // plus vraiment utilisé directement, mais requis par la classe abstraite
+        return 'rank-pvp';
     }
 
     async getFileContent(): Promise<string> {
+        // non utilisé : on override generate() ci-dessous
+        return '';
+    }
+
+    async generate(): Promise<void> {
         const rawPokemon = await getPokemonSetting();
         const rawCpMultiplier = await getCpMultipliers();
 
@@ -17,17 +33,21 @@ export default class PokemonSettingGenerator extends FileGenerator {
             .map((form: any) => [form.base, ...form.different.map((d: any) => d.base)])
             .flat();
 
-        const result: Record<string, { great: any; ultra: any }> = {};
+        const dir = 'generated/data/rank-pvp';
+        fs.mkdirSync(path.dirname(dir + '/x'), { recursive: true });
 
         for (const pokemon of finalPokemon) {
-            console.log('rank 1 : ', pokemon.slug);
-            result[pokemon.slug] = {
-                great: getRank1(pokemon, rawCpMultiplier, CP_CAP.great),
-                ultra: getRank1(pokemon, rawCpMultiplier, CP_CAP.ultra),
+            const content = {
+                great: getAllRanks(pokemon, rawCpMultiplier, CP_CAP.great),
+                ultra: getAllRanks(pokemon, rawCpMultiplier, CP_CAP.ultra),
             };
+
+            const filePath = path.join(dir, `${pokemon.slug}.json`);
+            fs.writeFileSync(filePath, JSON.stringify(content, null, 2));
+            console.log(`Fichiers générés : ${filePath}`);
         }
 
-        return JSON.stringify(result, null, 2);
+        console.log(`Fichiers générés : ${finalPokemon.length} dans ${dir}`);
     }
 }
 
@@ -96,13 +116,9 @@ function calcStatProduct(
     return atk * def * hp;
 }
 
-function getRank1(
-    pokemon: any,
-    cpms: Record<string, number>,
-    cap: number,
-): { atk: number; def: number; sta: number; level: number } {
+function getAllRanks(pokemon: any, cpms: Record<string, number>, cap: number): RankEntry[] {
     const { baseAttack, baseDefense, baseStamina } = pokemon.stats;
-    let best = { atk: 0, def: 0, sta: 0, statProduct: -1, level: -1 };
+    const entries: Omit<RankEntry, 'rank'>[] = [];
 
     for (let ivAtk = 0; ivAtk <= 15; ivAtk++) {
         for (let ivDef = 0; ivDef <= 15; ivDef++) {
@@ -117,7 +133,7 @@ function getRank1(
                     cpms,
                     cap,
                 );
-                if (!level) continue;
+                if (level === null) continue;
 
                 const cpm = cpms[level];
                 const statProduct = calcStatProduct(
@@ -129,13 +145,19 @@ function getRank1(
                     ivSta,
                     cpm,
                 );
+                const cp = calcCP(baseAttack, baseDefense, baseStamina, ivAtk, ivDef, ivSta, cpm);
 
-                if (statProduct > best.statProduct) {
-                    best = { atk: ivAtk, def: ivDef, sta: ivSta, statProduct, level: +level };
-                }
+                entries.push({ atk: ivAtk, def: ivDef, sta: ivSta, level, statProduct });
             }
         }
     }
 
-    return { atk: best.atk, def: best.def, sta: best.sta, level: +best.level };
+    entries.sort((a, b) => b.statProduct - a.statProduct);
+
+    const best = entries[0]?.statProduct ?? 0;
+
+    return entries.map((entry) => ({
+        ...entry,
+        statProduct: best > 0 ? Math.round((entry.statProduct / best) * 10000) / 100 : 0,
+    }));
 }
