@@ -64,6 +64,22 @@
     }
   },
   {
+    "templateId": "TEMPORARY_EVOLUTION_V0026_POKEMON_RAICHU",
+    "data": {
+      "pokemonId": "RAICHU",
+      "temporaryEvolutions": [
+        {
+          "temporaryEvolutionId": "TEMP_EVOLUTION_MEGA_X",
+          "assetBundleValue": 51
+        },
+        {
+          "temporaryEvolutionId": "TEMP_EVOLUTION_MEGA_Y",
+          "assetBundleValue": 51
+        }
+      ]
+    }
+  },
+  {
     "templateId": "TEMPORARY_EVOLUTION_V0065_POKEMON_ALAKAZAM",
     "data": {
       "pokemonId": "ALAKAZAM",

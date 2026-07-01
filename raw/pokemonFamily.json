@@ -73,7 +73,10 @@
     "templateId": "V0025_FAMILY_PIKACHU",
     "data": {
       "familyId": "FAMILY_PIKACHU",
-      "candyPerXlCandy": 100
+      "candyPerXlCandy": 100,
+      "megaEvolvablePokemonIds": [
+        "RAICHU"
+      ]
     }
   },
   {

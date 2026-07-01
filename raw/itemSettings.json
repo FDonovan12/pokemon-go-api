@@ -330,7 +330,9 @@
         "eventPassId": "EVENT_PASS_FLYINGTAXI2026_EVENT"
       },
       "timePeriodCounters": {
-        "playerActivity": {}
+        "playerActivity": {
+          "limit": 300
+        }
       },
       "hideItemInInventory": true
     }
@@ -344,13 +346,14 @@
       "ignoreInventorySpace": true,
       "itemCap": 999999,
       "eventPassPoint": {
-        "eventPassId": "EVENT_PASS_SUSTAINABILITY2026_EVENT"
+        "eventPassId": "EVENT_PASS_PIKACHU_CELEBRATION_2026_EVENT"
       },
       "timePeriodCounters": {
         "playerActivity": {
           "limit": 300
         }
-      }
+      },
+      "hideItemInInventory": true
     }
   },
   {
@@ -1709,7 +1712,7 @@
       "eggIncubator": {
         "incubatorType": "INCUBATOR_DISTANCE",
         "uses": 3,
-        "distanceMultiplier": 1
+        "distanceMultiplier": 0.5
       }
     }
   },
@@ -1722,7 +1725,7 @@
       "dropTrainerLevel": 100,
       "eggIncubator": {
         "incubatorType": "INCUBATOR_DISTANCE",
-        "distanceMultiplier": 1
+        "distanceMultiplier": 0.5
       }
     }
   },
@@ -1751,7 +1754,7 @@
       "eggIncubator": {
         "incubatorType": "INCUBATOR_DISTANCE",
         "uses": 3,
-        "distanceMultiplier": 0.6666667
+        "distanceMultiplier": 0.33333334
       }
     }
   },
@@ -1764,7 +1767,7 @@
       "dropTrainerLevel": 100,
       "eggIncubator": {
         "incubatorType": "INCUBATOR_DISTANCE",
-        "distanceMultiplier": 1,
+        "distanceMultiplier": 0.5,
         "expiredIncubatorReplacement": {
           "incubatorReplacement": "ITEM_INCUBATOR_BASIC",
           "usesCountOverride": 1

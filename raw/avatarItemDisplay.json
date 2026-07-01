@@ -1977,6 +1977,13 @@
     }
   },
   {
+    "templateId": "N_DISPLAY_n_hat_acorn",
+    "data": {
+      "iconAddress": "n_hat_acorn_icon",
+      "displayStringId": "avatar_shirt_lego_hat_2026"
+    }
+  },
+  {
     "templateId": "N_DISPLAY_n_hat_adventure_0",
     "data": {
       "iconAddress": "n_hat_adventure_0_icon",
@@ -5372,6 +5379,13 @@
     }
   },
   {
+    "templateId": "N_DISPLAY_n_shirt_acorn",
+    "data": {
+      "iconAddress": "n_shirt_acorn_icon",
+      "displayStringId": "avatar_shirt_lego_jacket_2026"
+    }
+  },
+  {
     "templateId": "N_DISPLAY_n_shirt_allister_0",
     "data": {
       "iconAddress": "n_shirt_allister_0_icon",
@@ -6888,6 +6902,13 @@
     "data": {
       "iconAddress": "n_shirt_misty_0_icon",
       "displayStringId": "n_shirt_misty_0_display_name"
+    }
+  },
+  {
+    "templateId": "N_DISPLAY_n_shirt_mlb",
+    "data": {
+      "iconAddress": "n_shirt_mlb_icon",
+      "displayStringId": "avatar_shirt_MLB2026"
     }
   },
   {

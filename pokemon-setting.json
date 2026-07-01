@@ -4157,7 +4157,10 @@
         "THUNDER"
       ],
       "nonTmCinematicMoves": [],
-      "evolutionIds": [],
+      "evolutionIds": [
+        null,
+        null
+      ],
       "family": "Pikachu",
       "isLegendary": false,
       "isMythical": false,

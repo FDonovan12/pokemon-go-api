@@ -646,9 +646,63 @@
         },
         {
           "pokemon": {
-            "pokemonId": "KARTANA",
+            "pokemonId": "ARTICUNO",
             "pokemonDisplay": {
-              "form": "KARTANA_NORMAL"
+              "form": "ARTICUNO_NORMAL"
+            }
+          },
+          "unlockedAtRank": 20,
+          "attackIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          },
+          "defenseIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          },
+          "staminaIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          }
+        },
+        {
+          "pokemon": {
+            "pokemonId": "ZAPDOS",
+            "pokemonDisplay": {
+              "form": "ZAPDOS_NORMAL"
+            }
+          },
+          "unlockedAtRank": 20,
+          "attackIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          },
+          "defenseIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          },
+          "staminaIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          }
+        },
+        {
+          "pokemon": {
+            "pokemonId": "MOLTRES",
+            "pokemonDisplay": {
+              "form": "MOLTRES_NORMAL"
             }
           },
           "unlockedAtRank": 20,
@@ -1321,9 +1375,63 @@
         },
         {
           "pokemon": {
-            "pokemonId": "KARTANA",
+            "pokemonId": "ARTICUNO",
             "pokemonDisplay": {
-              "form": "KARTANA_NORMAL"
+              "form": "ARTICUNO_NORMAL"
+            }
+          },
+          "unlockedAtRank": 20,
+          "attackIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          },
+          "defenseIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          },
+          "staminaIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          }
+        },
+        {
+          "pokemon": {
+            "pokemonId": "ZAPDOS",
+            "pokemonDisplay": {
+              "form": "ZAPDOS_NORMAL"
+            }
+          },
+          "unlockedAtRank": 20,
+          "attackIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          },
+          "defenseIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          },
+          "staminaIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          }
+        },
+        {
+          "pokemon": {
+            "pokemonId": "MOLTRES",
+            "pokemonDisplay": {
+              "form": "MOLTRES_NORMAL"
             }
           },
           "unlockedAtRank": 20,

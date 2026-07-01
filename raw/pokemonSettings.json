@@ -6692,6 +6692,16 @@
         "SURF",
         "THUNDER"
       ],
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
+      ],
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
     }
@@ -6787,6 +6797,16 @@
         "SURF",
         "THUNDER"
       ],
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
+      ],
       "disableTransferToPokemonHome": true,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -6875,6 +6895,16 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 1,
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
+      ],
       "disableTransferToPokemonHome": true,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -6970,6 +7000,16 @@
         "SURF",
         "THUNDER"
       ],
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
+      ],
       "disableTransferToPokemonHome": true,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -7060,6 +7100,16 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 1,
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
+      ],
       "disableTransferToPokemonHome": true,
       "useIrisFlyingPlacement": true,
       "ibfc": {},
@@ -7157,6 +7207,16 @@
         "SURF",
         "THUNDER"
       ],
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
+      ],
       "disableTransferToPokemonHome": true,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -7246,6 +7306,16 @@
       "buddyGroupNumber": 1,
       "eliteQuickMove": [
         "PRESENT_FAST"
+      ],
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
       ],
       "disableTransferToPokemonHome": true,
       "ibfc": {},
@@ -7342,6 +7412,16 @@
         "SURF",
         "THUNDER"
       ],
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
+      ],
       "disableTransferToPokemonHome": true,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -7433,6 +7513,16 @@
       "buddyGroupNumber": 1,
       "eliteQuickMove": [
         "PRESENT_FAST"
+      ],
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
       ],
       "disableTransferToPokemonHome": true,
       "useIrisFlyingPlacement": true,
@@ -7527,6 +7617,16 @@
       "eliteQuickMove": [
         "PRESENT_FAST"
       ],
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
+      ],
       "disableTransferToPokemonHome": true,
       "useIrisFlyingPlacement": true,
       "ibfc": {},
@@ -7619,6 +7719,16 @@
       "buddyGroupNumber": 1,
       "eliteQuickMove": [
         "PRESENT_FAST"
+      ],
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
       ],
       "disableTransferToPokemonHome": true,
       "useIrisFlyingPlacement": true,
@@ -7713,6 +7823,16 @@
       "eliteQuickMove": [
         "PRESENT_FAST"
       ],
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
+      ],
       "disableTransferToPokemonHome": true,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -7805,6 +7925,16 @@
       "eliteQuickMove": [
         "PRESENT_FAST"
       ],
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
+      ],
       "disableTransferToPokemonHome": true,
       "useIrisFlyingPlacement": true,
       "ibfc": {},
@@ -7896,6 +8026,16 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 1,
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
+      ],
       "disableTransferToPokemonHome": true,
       "useIrisFlyingPlacement": true,
       "ibfc": {},
@@ -7996,6 +8136,16 @@
         "SURF",
         "THUNDER"
       ],
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
+      ],
       "disableTransferToPokemonHome": true,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -8091,6 +8241,16 @@
         "SURF",
         "THUNDER"
       ],
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
+      ],
       "disableTransferToPokemonHome": true,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -8179,6 +8339,16 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 1,
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
+      ],
       "disableTransferToPokemonHome": true,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -8267,6 +8437,16 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 1,
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
+      ],
       "disableTransferToPokemonHome": true,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -8365,6 +8545,16 @@
       "eliteCinematicMove": [
         "SURF",
         "THUNDER"
+      ],
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
       ],
       "disableTransferToPokemonHome": true,
       "ibfc": {},
@@ -8465,6 +8655,16 @@
         "SURF",
         "THUNDER"
       ],
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
+      ],
       "disableTransferToPokemonHome": true,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -8563,6 +8763,16 @@
       "eliteCinematicMove": [
         "SURF",
         "THUNDER"
+      ],
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
       ],
       "disableTransferToPokemonHome": true,
       "ibfc": {},
@@ -8663,6 +8873,16 @@
         "SURF",
         "THUNDER"
       ],
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
+      ],
       "disableTransferToPokemonHome": true,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -8761,6 +8981,16 @@
       "eliteCinematicMove": [
         "SURF",
         "THUNDER"
+      ],
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
       ],
       "disableTransferToPokemonHome": true,
       "ibfc": {},
@@ -8861,6 +9091,16 @@
         "SURF",
         "THUNDER"
       ],
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
+      ],
       "disableTransferToPokemonHome": true,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -8956,6 +9196,16 @@
       "eliteCinematicMove": [
         "SURF",
         "THUNDER"
+      ],
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
       ],
       "disableTransferToPokemonHome": true,
       "ibfc": {},
@@ -9053,6 +9303,16 @@
         "SURF",
         "THUNDER"
       ],
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
+      ],
       "disableTransferToPokemonHome": true,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -9149,6 +9409,16 @@
         "SURF",
         "THUNDER"
       ],
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
+      ],
       "disableTransferToPokemonHome": true,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -9237,6 +9507,16 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 1,
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
+      ],
       "disableTransferToPokemonHome": true,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -9325,6 +9605,16 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 1,
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
+      ],
       "disableTransferToPokemonHome": true,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -9413,6 +9703,16 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 1,
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
+      ],
       "disableTransferToPokemonHome": true,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -9501,6 +9801,16 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 1,
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
+      ],
       "disableTransferToPokemonHome": true,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -9589,6 +9899,16 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 1,
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
+      ],
       "disableTransferToPokemonHome": true,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -9677,6 +9997,16 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 1,
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
+      ],
       "disableTransferToPokemonHome": true,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -9765,6 +10095,16 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 1,
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
+      ],
       "disableTransferToPokemonHome": true,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -9853,6 +10193,16 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 1,
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
+      ],
       "disableTransferToPokemonHome": true,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -9941,6 +10291,16 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 1,
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
+      ],
       "disableTransferToPokemonHome": true,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -10029,6 +10389,16 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 1,
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
+      ],
       "disableTransferToPokemonHome": true,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -10117,6 +10487,16 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 1,
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
+      ],
       "disableTransferToPokemonHome": true,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -10205,6 +10585,16 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 1,
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
+      ],
       "disableTransferToPokemonHome": true,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -10293,6 +10683,16 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 1,
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
+      ],
       "disableTransferToPokemonHome": true,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -10381,6 +10781,16 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 1,
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
+      ],
       "disableTransferToPokemonHome": true,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -10472,6 +10882,16 @@
       "eliteCinematicMove": [
         "VOLT_TACKLE"
       ],
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
+      ],
       "disableTransferToPokemonHome": true,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -10560,6 +10980,16 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 1,
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
+      ],
       "disableTransferToPokemonHome": true,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -10648,6 +11078,16 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 1,
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
+      ],
       "disableTransferToPokemonHome": true,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -10743,6 +11183,16 @@
       "eliteCinematicMove": [
         "SURF",
         "THUNDER"
+      ],
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
       ],
       "disableTransferToPokemonHome": true,
       "ibfc": {},
@@ -10849,6 +11299,16 @@
         "SURF",
         "THUNDER"
       ],
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
+      ],
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
     }
@@ -10936,6 +11396,16 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 1,
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
+      ],
       "disableTransferToPokemonHome": true,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -11024,6 +11494,16 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 1,
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
+      ],
       "disableTransferToPokemonHome": true,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -11118,6 +11598,16 @@
         "SURF",
         "THUNDER"
       ],
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
+      ],
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
     }
@@ -11210,6 +11700,16 @@
       "eliteCinematicMove": [
         "SURF",
         "THUNDER"
+      ],
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
       ],
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -11304,6 +11804,16 @@
         "SURF",
         "THUNDER"
       ],
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
+      ],
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
     }
@@ -11396,6 +11906,16 @@
       "eliteCinematicMove": [
         "SURF",
         "THUNDER"
+      ],
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
       ],
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -11490,6 +12010,16 @@
         "SURF",
         "THUNDER"
       ],
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
+      ],
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
     }
@@ -11577,6 +12107,16 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 1,
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
+      ],
       "disableTransferToPokemonHome": true,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -11665,6 +12205,16 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 1,
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
+      ],
       "disableTransferToPokemonHome": true,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -11753,6 +12303,16 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 1,
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
+      ],
       "disableTransferToPokemonHome": true,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -11852,6 +12412,16 @@
         "SURF",
         "THUNDER"
       ],
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
+      ],
       "disableTransferToPokemonHome": true,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -11940,6 +12510,16 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 1,
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
+      ],
       "disableTransferToPokemonHome": true,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -12038,6 +12618,16 @@
       "eliteCinematicMove": [
         "SURF",
         "THUNDER"
+      ],
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
       ],
       "disableTransferToPokemonHome": true,
       "ibfc": {},
@@ -12138,6 +12728,16 @@
         "SURF",
         "THUNDER"
       ],
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
+      ],
       "disableTransferToPokemonHome": true,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -12237,6 +12837,16 @@
         "SURF",
         "THUNDER"
       ],
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
+      ],
       "disableTransferToPokemonHome": true,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -12335,6 +12945,16 @@
         "SURF",
         "THUNDER"
       ],
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
+      ],
       "disableTransferToPokemonHome": true,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -12431,6 +13051,16 @@
         "SURF",
         "THUNDER"
       ],
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
+      ],
       "disableTransferToPokemonHome": true,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -12505,6 +13135,18 @@
       "familyId": "FAMILY_PIKACHU",
       "kmBuddyDistance": 1,
       "modelHeight": 0.83,
+      "evolutionBranch": [
+        {
+          "temporaryEvolution": "TEMP_EVOLUTION_MEGA_X",
+          "temporaryEvolutionEnergyCost": 300,
+          "temporaryEvolutionEnergyCostSubsequent": 60
+        },
+        {
+          "temporaryEvolution": "TEMP_EVOLUTION_MEGA_Y",
+          "temporaryEvolutionEnergyCost": 300,
+          "temporaryEvolutionEnergyCostSubsequent": 60
+        }
+      ],
       "modelScaleV2": 1,
       "buddyOffsetMale": [
         6.9,
@@ -12527,6 +13169,49 @@
       "buddyGroupNumber": 2,
       "eliteCinematicMove": [
         "THUNDER"
+      ],
+      "tempEvoOverrides": [
+        {
+          "tempEvoId": "TEMP_EVOLUTION_MEGA_X",
+          "stats": {
+            "baseStamina": 155,
+            "baseAttack": 277,
+            "baseDefense": 203
+          },
+          "averageHeightM": 1.2,
+          "averageWeightKg": 38,
+          "typeOverride1": "POKEMON_TYPE_ELECTRIC",
+          "camera": {
+            "cylinderRadiusM": 1,
+            "cylinderHeightM": 1
+          },
+          "buddyPortraitOffset": [
+            0,
+            0,
+            -1100
+          ]
+        },
+        {
+          "tempEvoId": "TEMP_EVOLUTION_MEGA_Y",
+          "stats": {
+            "baseStamina": 155,
+            "baseAttack": 339,
+            "baseDefense": 157
+          },
+          "averageHeightM": 1,
+          "averageWeightKg": 26,
+          "typeOverride1": "POKEMON_TYPE_ELECTRIC"
+        }
+      ],
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
       ],
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -12696,6 +13381,18 @@
       "familyId": "FAMILY_PIKACHU",
       "kmBuddyDistance": 1,
       "modelHeight": 0.83,
+      "evolutionBranch": [
+        {
+          "temporaryEvolution": "TEMP_EVOLUTION_MEGA_X",
+          "temporaryEvolutionEnergyCost": 300,
+          "temporaryEvolutionEnergyCostSubsequent": 60
+        },
+        {
+          "temporaryEvolution": "TEMP_EVOLUTION_MEGA_Y",
+          "temporaryEvolutionEnergyCost": 300,
+          "temporaryEvolutionEnergyCostSubsequent": 60
+        }
+      ],
       "modelScaleV2": 1,
       "form": "RAICHU_NORMAL",
       "buddyOffsetMale": [
@@ -12719,6 +13416,49 @@
       "buddyGroupNumber": 2,
       "eliteCinematicMove": [
         "THUNDER"
+      ],
+      "tempEvoOverrides": [
+        {
+          "tempEvoId": "TEMP_EVOLUTION_MEGA_X",
+          "stats": {
+            "baseStamina": 155,
+            "baseAttack": 277,
+            "baseDefense": 203
+          },
+          "averageHeightM": 1.2,
+          "averageWeightKg": 38,
+          "typeOverride1": "POKEMON_TYPE_ELECTRIC",
+          "camera": {
+            "cylinderRadiusM": 1,
+            "cylinderHeightM": 1
+          },
+          "buddyPortraitOffset": [
+            0,
+            0,
+            -1100
+          ]
+        },
+        {
+          "tempEvoId": "TEMP_EVOLUTION_MEGA_Y",
+          "stats": {
+            "baseStamina": 155,
+            "baseAttack": 339,
+            "baseDefense": 157
+          },
+          "averageHeightM": 1,
+          "averageWeightKg": 26,
+          "typeOverride1": "POKEMON_TYPE_ELECTRIC"
+        }
+      ],
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
       ],
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -49207,6 +49947,16 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 1,
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
+      ],
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
     }
@@ -49303,6 +50053,16 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 1,
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
+      ],
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
     }

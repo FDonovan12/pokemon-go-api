@@ -671,6 +671,14 @@
     }
   },
   {
+    "templateId": "LC_CR_2026_001",
+    "data": {
+      "locationCard": "LC_CR_2026_001",
+      "imageUrl": "lc_GoTour2026_losAngeles",
+      "cardType": "LOCATION_CARD"
+    }
+  },
+  {
     "templateId": "LC_ID_CAR_FREE_DAY",
     "data": {
       "locationCard": "LC_ID_CAR_FREE_DAY",
