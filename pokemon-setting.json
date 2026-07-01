@@ -65089,7 +65089,7 @@
       ],
       "eliteQuickMove": [],
       "eliteCinematicMove": [
-        590
+        "GLAIVE_RUSH"
       ],
       "nonTmCinematicMoves": [],
       "evolutionIds": [],
@@ -65187,7 +65187,7 @@
         "dexNumber": 999,
         "name": "Mordudor",
         "generation": 9,
-        "slug": "3351",
+        "slug": "mordudor-coin-a2-2026",
         "imageId": 999,
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/999.png",
         "type": [
@@ -65212,7 +65212,7 @@
         "isLegendary": false,
         "isMythical": false,
         "isUltraBeast": false,
-        "form": "3351",
+        "form": "GIMMIGHOUL_COIN_A2_2026",
         "encounter": {
           "stardustCaptureReward": 100
         }

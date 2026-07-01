@@ -1133,7 +1133,7 @@
   {
     "templateId": "ITEM_EVENT_TICKET_S23_2026_01",
     "data": {
-      "itemId": 2205,
+      "itemId": "ITEM_EVENT_TICKET_S23_2026_01",
       "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
       "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
       "globalEventTicket": {
@@ -1141,7 +1141,7 @@
         "eventEndTime": "2026-06-20T17:00:00",
         "itemBagDescriptionKey": "item_event_ticket_pink_desc_CD_Frigibax26",
         "giftable": true,
-        "giftItem": 2237,
+        "giftItem": "ITEM_EVENT_TICKET_S23_2026_01_TO_GIFT",
         "eventBannerUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FPGO_MCS_CD_KeyArt_Frigibax_v1-1024x576-nologo.jpg",
         "displayV2Enabled": true,
         "backgroundImageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FPGO_MCS_CD_KeyArt_Frigibax_v1-1024x576-nologo.jpg",
@@ -1183,14 +1183,14 @@
   {
     "templateId": "ITEM_EVENT_TICKET_S23_2026_01_TO_GIFT",
     "data": {
-      "itemId": 2237,
+      "itemId": "ITEM_EVENT_TICKET_S23_2026_01_TO_GIFT",
       "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
       "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
       "globalEventTicket": {
         "eventStartTime": "2026-06-20T14:00:00",
         "eventEndTime": "2026-06-20T17:00:00",
         "itemBagDescriptionKey": "item_event_ticket_pink_desc_CD_Frigibax26",
-        "ticketItem": 2205,
+        "ticketItem": "ITEM_EVENT_TICKET_S23_2026_01",
         "eventBannerUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FPGO_MCS_CD_KeyArt_Frigibax_v1-1024x576-nologo.jpg",
         "clientEventStartTimeUtcMs": "1781964000000",
         "clientEventEndTimeUtcMs": "1781974800000"
@@ -1203,7 +1203,7 @@
   {
     "templateId": "ITEM_EVENT_TICKET_S23_2026_02",
     "data": {
-      "itemId": 2206,
+      "itemId": "ITEM_EVENT_TICKET_S23_2026_02",
       "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
       "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
       "globalEventTicket": {
@@ -1211,7 +1211,7 @@
         "eventEndTime": "2026-07-04T17:00:00",
         "itemBagDescriptionKey": "item_event_ticket_pink_desc_CD_Sobble26",
         "giftable": true,
-        "giftItem": 2238,
+        "giftItem": "ITEM_EVENT_TICKET_S23_2026_02_TO_GIFT",
         "eventBannerUrl": "https://storage.googleapis.com/prod-public-images/1024x512.jpg",
         "displayV2Enabled": true,
         "backgroundImageUrl": "https://storage.googleapis.com/prod-public-images/pink-ticket-generic1024x512.jpg",
@@ -1253,14 +1253,14 @@
   {
     "templateId": "ITEM_EVENT_TICKET_S23_2026_02_TO_GIFT",
     "data": {
-      "itemId": 2238,
+      "itemId": "ITEM_EVENT_TICKET_S23_2026_02_TO_GIFT",
       "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
       "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
       "globalEventTicket": {
         "eventStartTime": "2026-07-04T14:00:00",
         "eventEndTime": "2026-07-04T17:00:00",
         "itemBagDescriptionKey": "item_event_ticket_pink_desc_CD_Sobble26",
-        "ticketItem": 2206,
+        "ticketItem": "ITEM_EVENT_TICKET_S23_2026_02",
         "eventBannerUrl": "https://storage.googleapis.com/prod-public-images/1024x512.jpg",
         "clientEventStartTimeUtcMs": "1783173600000",
         "clientEventEndTimeUtcMs": "1783184400000"
@@ -1273,7 +1273,7 @@
   {
     "templateId": "ITEM_EVENT_TICKET_S23_2026_03",
     "data": {
-      "itemId": 2207,
+      "itemId": "ITEM_EVENT_TICKET_S23_2026_03",
       "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
       "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
       "globalEventTicket": {
@@ -1313,7 +1313,7 @@
   {
     "templateId": "ITEM_EVENT_TICKET_S23_2026_09",
     "data": {
-      "itemId": 2213,
+      "itemId": "ITEM_EVENT_TICKET_S23_2026_09",
       "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
       "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
       "globalEventTicket": {
@@ -1333,7 +1333,7 @@
             "pokemonEncounter": {
               "pokemonId": "GIMMIGHOUL",
               "pokemonDisplay": {
-                "form": 3351
+                "form": "GIMMIGHOUL_COIN_A2_2026"
               }
             }
           },

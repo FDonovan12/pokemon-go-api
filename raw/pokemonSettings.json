@@ -227524,7 +227524,7 @@
       "isTradable": true,
       "buddyGroupNumber": 3,
       "eliteCinematicMove": [
-        590
+        "GLAIVE_RUSH"
       ],
       "raidBossDistanceOffset": 2,
       "ibfc": {},
@@ -227600,7 +227600,7 @@
       "isTradable": true,
       "buddyGroupNumber": 3,
       "eliteCinematicMove": [
-        590
+        "GLAIVE_RUSH"
       ],
       "raidBossDistanceOffset": 2,
       "ibfc": {},
@@ -227855,7 +227855,7 @@
       "kmBuddyDistance": 5,
       "modelHeight": 0.4,
       "modelScaleV2": 1,
-      "form": 3351,
+      "form": "GIMMIGHOUL_COIN_A2_2026",
       "buddyOffsetMale": [
         0,
         0,

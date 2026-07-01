@@ -680,126 +680,126 @@
   {
     "templateId": "LC_JAPAN_STAMP_RALLY_1",
     "data": {
-      "locationCard": 312,
+      "locationCard": "LC_JAPAN_STAMP_RALLY_1",
       "imageUrl": "lc_pokecenter_sapporo"
     }
   },
   {
     "templateId": "LC_JAPAN_STAMP_RALLY_10",
     "data": {
-      "locationCard": 321,
+      "locationCard": "LC_JAPAN_STAMP_RALLY_10",
       "imageUrl": "lc_pokecenter_kanazawa"
     }
   },
   {
     "templateId": "LC_JAPAN_STAMP_RALLY_11",
     "data": {
-      "locationCard": 322,
+      "locationCard": "LC_JAPAN_STAMP_RALLY_11",
       "imageUrl": "lc_pokecenter_kyoto"
     }
   },
   {
     "templateId": "LC_JAPAN_STAMP_RALLY_12",
     "data": {
-      "locationCard": 323,
+      "locationCard": "LC_JAPAN_STAMP_RALLY_12",
       "imageUrl": "lc_pokecenter_osakaDX"
     }
   },
   {
     "templateId": "LC_JAPAN_STAMP_RALLY_13",
     "data": {
-      "locationCard": 324,
+      "locationCard": "LC_JAPAN_STAMP_RALLY_13",
       "imageUrl": "lc_pokecenter_osaka"
     }
   },
   {
     "templateId": "LC_JAPAN_STAMP_RALLY_14",
     "data": {
-      "locationCard": 325,
+      "locationCard": "LC_JAPAN_STAMP_RALLY_14",
       "imageUrl": "lc_pokecenter_hiroshima"
     }
   },
   {
     "templateId": "LC_JAPAN_STAMP_RALLY_15",
     "data": {
-      "locationCard": 326,
+      "locationCard": "LC_JAPAN_STAMP_RALLY_15",
       "imageUrl": "lc_pokecenter_kagawa"
     }
   },
   {
     "templateId": "LC_JAPAN_STAMP_RALLY_16",
     "data": {
-      "locationCard": 327,
+      "locationCard": "LC_JAPAN_STAMP_RALLY_16",
       "imageUrl": "lc_pokecenter_fukuoka"
     }
   },
   {
     "templateId": "LC_JAPAN_STAMP_RALLY_17",
     "data": {
-      "locationCard": 328,
+      "locationCard": "LC_JAPAN_STAMP_RALLY_17",
       "imageUrl": "lc_pokecenter_okinawa"
     }
   },
   {
     "templateId": "LC_JAPAN_STAMP_RALLY_18",
     "data": {
-      "locationCard": 329,
+      "locationCard": "LC_JAPAN_STAMP_RALLY_18",
       "imageUrl": "lc_pokecenter_GOLab"
     }
   },
   {
     "templateId": "LC_JAPAN_STAMP_RALLY_2",
     "data": {
-      "locationCard": 313,
+      "locationCard": "LC_JAPAN_STAMP_RALLY_2",
       "imageUrl": "lc_pokecenter_tohoku"
     }
   },
   {
     "templateId": "LC_JAPAN_STAMP_RALLY_3",
     "data": {
-      "locationCard": 314,
+      "locationCard": "LC_JAPAN_STAMP_RALLY_3",
       "imageUrl": "lc_pokecenter_tokyoDX"
     }
   },
   {
     "templateId": "LC_JAPAN_STAMP_RALLY_4",
     "data": {
-      "locationCard": 315,
+      "locationCard": "LC_JAPAN_STAMP_RALLY_4",
       "imageUrl": "lc_pokecenter_megaTokyo"
     }
   },
   {
     "templateId": "LC_JAPAN_STAMP_RALLY_5",
     "data": {
-      "locationCard": 316,
+      "locationCard": "LC_JAPAN_STAMP_RALLY_5",
       "imageUrl": "lc_pokecenter_shibuya"
     }
   },
   {
     "templateId": "LC_JAPAN_STAMP_RALLY_6",
     "data": {
-      "locationCard": 317,
+      "locationCard": "LC_JAPAN_STAMP_RALLY_6",
       "imageUrl": "lc_pokecenter_skytreeTown"
     }
   },
   {
     "templateId": "LC_JAPAN_STAMP_RALLY_7",
     "data": {
-      "locationCard": 318,
+      "locationCard": "LC_JAPAN_STAMP_RALLY_7",
       "imageUrl": "lc_pokecenter_tokyoBay"
     }
   },
   {
     "templateId": "LC_JAPAN_STAMP_RALLY_8",
     "data": {
-      "locationCard": 319,
+      "locationCard": "LC_JAPAN_STAMP_RALLY_8",
       "imageUrl": "lc_pokecenter_yokohama"
     }
   },
   {
     "templateId": "LC_JAPAN_STAMP_RALLY_9",
     "data": {
-      "locationCard": 320,
+      "locationCard": "LC_JAPAN_STAMP_RALLY_9",
       "imageUrl": "lc_pokecenter_nagoya"
     }
   },
@@ -1472,7 +1472,7 @@
   {
     "templateId": "LC_SPECIALBACKGROUND_GG2026",
     "data": {
-      "locationCard": 333,
+      "locationCard": "LC_SPECIALBACKGROUND_GG2026",
       "imageUrl": "sb_9thAnniversary",
       "cardType": "SPECIAL_BACKGROUND",
       "vfxAddress": "bgfx_10thAnni"
@@ -1488,7 +1488,7 @@
   {
     "templateId": "LC_SPECIALBACKGROUND_LEGO_2026_01",
     "data": {
-      "locationCard": 281,
+      "locationCard": "LC_SPECIALBACKGROUND_LEGO_2026_01",
       "imageUrl": "sb_lego_2026",
       "cardType": "SPECIAL_BACKGROUND"
     }

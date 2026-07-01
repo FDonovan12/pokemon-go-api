@@ -46010,7 +46010,7 @@
     "templateId": "EXTENDED_V0999_POKEMON_GIMMIGHOUL_COIN_A2_2026",
     "data": {
       "uniqueId": "GIMMIGHOUL",
-      "form": 3351,
+      "form": "GIMMIGHOUL_COIN_A2_2026",
       "sizeSettings": {
         "xxsLowerBound": 0.049,
         "xsLowerBound": 0.05,

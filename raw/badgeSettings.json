@@ -8610,7 +8610,7 @@
   {
     "templateId": "BADGE_REDUCED_ENTRY_FLOW_CONTROL",
     "data": {
-      "badgeType": 6217,
+      "badgeType": "BADGE_REDUCED_ENTRY_FLOW_CONTROL",
       "badgeRank": 2,
       "targets": [
         100
@@ -8624,7 +8624,7 @@
   {
     "templateId": "BADGE_REDUCED_ENTRY_FLOW_ROLLOUT",
     "data": {
-      "badgeType": 6216,
+      "badgeType": "BADGE_REDUCED_ENTRY_FLOW_ROLLOUT",
       "badgeRank": 2,
       "targets": [
         100

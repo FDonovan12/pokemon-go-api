@@ -5918,7 +5918,7 @@
   {
     "templateId": "V0590_MOVE_GLAIVE_RUSH",
     "data": {
-      "movementId": 590,
+      "movementId": "GLAIVE_RUSH",
       "animationId": 5,
       "pokemonType": "POKEMON_TYPE_DRAGON",
       "power": 105,
@@ -5936,7 +5936,7 @@
   {
     "templateId": "V0592_MOVE_SNIPE_SHOT",
     "data": {
-      "movementId": 592,
+      "movementId": "SNIPE_SHOT",
       "animationId": 5,
       "pokemonType": "POKEMON_TYPE_WATER",
       "power": 100,

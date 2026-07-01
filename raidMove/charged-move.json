@@ -1,22 +1,4 @@
 {
-  "590": {
-    "id": "V0590_MOVE_GLAIVE_RUSH",
-    "movementId": 590,
-    "pokemonType": "POKEMON_TYPE_DRAGON",
-    "power": 105,
-    "durationMs": 2000,
-    "energyDelta": -50,
-    "vfxName": "glaive_rush"
-  },
-  "592": {
-    "id": "V0592_MOVE_SNIPE_SHOT",
-    "movementId": 592,
-    "pokemonType": "POKEMON_TYPE_WATER",
-    "power": 100,
-    "durationMs": 3500,
-    "energyDelta": -33,
-    "vfxName": "snipe_shot"
-  },
   "WRAP": {
     "id": "V0013_MOVE_WRAP",
     "movementId": "WRAP",
@@ -2189,5 +2171,23 @@
     "durationMs": 3500,
     "energyDelta": -50,
     "vfxName": "plasma_fists"
+  },
+  "GLAIVE_RUSH": {
+    "id": "V0590_MOVE_GLAIVE_RUSH",
+    "movementId": "GLAIVE_RUSH",
+    "pokemonType": "POKEMON_TYPE_DRAGON",
+    "power": 105,
+    "durationMs": 2000,
+    "energyDelta": -50,
+    "vfxName": "glaive_rush"
+  },
+  "SNIPE_SHOT": {
+    "id": "V0592_MOVE_SNIPE_SHOT",
+    "movementId": "SNIPE_SHOT",
+    "pokemonType": "POKEMON_TYPE_WATER",
+    "power": 100,
+    "durationMs": 3500,
+    "energyDelta": -33,
+    "vfxName": "snipe_shot"
   }
 }
