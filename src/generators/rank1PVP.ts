@@ -2,7 +2,7 @@ import { getCpMultipliers } from '../services/cpMultiplier.service.js';
 import { getPokemonSetting } from '../services/pokemonSetting.service.js';
 import { FileGenerator } from '../type/fileGenerator.js';
 
-const CP_CAP = { great: 1500, ultra: 2500 };
+const CP_CAP = { super: 1500, hyper: 2500 };
 
 export default class PokemonSettingGenerator extends FileGenerator {
     getFileName(): string {
@@ -17,13 +17,13 @@ export default class PokemonSettingGenerator extends FileGenerator {
             .map((form: any) => [form.base, ...form.different.map((d: any) => d.base)])
             .flat();
 
-        const result: Record<string, { great: any; ultra: any }> = {};
+        const result: Record<string, { super: any; hyper: any }> = {};
 
         for (const pokemon of finalPokemon) {
             console.log('rank 1 : ', pokemon.slug);
             result[pokemon.slug] = {
-                great: getRank1(pokemon, rawCpMultiplier, CP_CAP.great),
-                ultra: getRank1(pokemon, rawCpMultiplier, CP_CAP.ultra),
+                super: getRank1(pokemon, rawCpMultiplier, CP_CAP.super),
+                hyper: getRank1(pokemon, rawCpMultiplier, CP_CAP.hyper),
             };
         }
 
