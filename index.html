@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Pokémon Sprites</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background: #1a1a2e;
+        color: #eee;
+        font-family: sans-serif;
+        padding: 16px;
+      }
+      header {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        margin-bottom: 16px;
+        flex-wrap: wrap;
+      }
+      h1 {
+        font-size: 1.2rem;
+      }
+      #progress {
+        font-size: 0.85rem;
+        color: #aaa;
+      }
+      #grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(96px, 1fr));
+        gap: 8px;
+      }
+      .card {
+        background: #16213e;
+        border-radius: 8px;
+        padding: 6px;
+        text-align: center;
+        font-size: 0.7rem;
+        color: #aaa;
+      }
+      .card img {
+        width: 80px;
+        height: 80px;
+        object-fit: contain;
+        display: block;
+        margin: 0 auto 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>🎮 Pokémon Official Artwork</h1>
+      <span id="progress">Chargement...</span>
+    </header>
+    <div id="grid"></div>
+
+    <script>
+      const BASE_URL =
+        'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/';
+      const START_ID = 10000;
+      const MAX_ID = 10500;
+      const BATCH_SIZE = 50;
+
+      const grid = document.getElementById('grid');
+      const progress = document.getElementById('progress');
+
+      let found = 0;
+      let checked = 0;
+
+      function updateProgress() {
+        progress.textContent = `Vérifiés : ${checked} / ${MAX_ID - START_ID + 1} — Trouvés : ${found}`;
+      }
+
+      function addCard(id) {
+        const card = document.createElement('div');
+        card.className = 'card';
+        card.innerHTML = `
+                <img src="${BASE_URL}${id}.png" alt="#${id}">
+                <span>#${id}</span>
+            `;
+        grid.appendChild(card);
+        found++;
+      }
+
+      async function checkBatch(ids) {
+        const results = await Promise.all(
+          ids.map(
+            (id) =>
+              new Promise((resolve) => {
+                const img = new Image();
+                img.onload = () => {
+                  checked++;
+                  updateProgress();
+                  resolve(id);
+                };
+                img.onerror = () => {
+                  checked++;
+                  updateProgress();
+                  resolve(null);
+                };
+                img.src = `${BASE_URL}${id}.png`;
+              }),
+          ),
+        );
+
+        // on affiche dans l'ordre du batch, en ignorant les nulls (404)
+        results.filter((id) => id !== null).forEach(addCard);
+      }
+
+      async function run() {
+        for (let start = START_ID; start <= MAX_ID; start += BATCH_SIZE) {
+          const ids = Array.from({ length: BATCH_SIZE }, (_, i) => start + i).filter(
+            (id) => id <= MAX_ID,
+          );
+          await checkBatch(ids);
+        }
+        progress.textContent = `Terminé — ${found} Pokémon trouvés sur ${MAX_ID - START_ID + 1} IDs vérifiés`;
+      }
+
+      run();
+    </script>
+  </body>
+</html>

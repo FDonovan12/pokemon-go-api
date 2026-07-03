@@ -4,7 +4,7 @@ import { getCpMultipliers } from '../services/cpMultiplier.service.js';
 import { getPokemonSetting } from '../services/pokemonSetting.service.js';
 import { FileGenerator } from '../type/fileGenerator.js';
 
-const CP_CAP = { great: 1500, ultra: 2500 };
+const CP_CAP = { super: 1500, hyper: 2500 };
 
 type RankEntry = {
     atk: number;
@@ -38,8 +38,8 @@ export default class PokemonSettingGenerator extends FileGenerator {
 
         for (const pokemon of finalPokemon) {
             const content = {
-                great: getAllRanks(pokemon, rawCpMultiplier, CP_CAP.great),
-                ultra: getAllRanks(pokemon, rawCpMultiplier, CP_CAP.ultra),
+                super: getAllRanks(pokemon, rawCpMultiplier, CP_CAP.super),
+                hyper: getAllRanks(pokemon, rawCpMultiplier, CP_CAP.hyper),
             };
 
             const filePath = path.join(dir, `${pokemon.slug}.json`);
