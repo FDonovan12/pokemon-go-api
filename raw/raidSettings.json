@@ -56,11 +56,10 @@
       "friendRequestsEnabled": true,
       "remoteRaidDistanceValidation": true,
       "popupTimeMs": 30000,
-      "failedFriendInviteInfoEnabled": true,
       "minPlayersToBoot": 2,
       "bootCutoffMs": 15000,
       "bootSoloMs": 30000,
-      "obRaidClientSettingsNumber1": 1,
+      "obRaidClientSettingsNumber1": 2,
       "obRaidClientSettingsNumber29": 1,
       "pokemonMusicOverrides": [
         {

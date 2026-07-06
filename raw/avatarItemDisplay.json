@@ -6107,6 +6107,13 @@
     }
   },
   {
+    "templateId": "N_DISPLAY_n_shirt_gholdengoitem",
+    "data": {
+      "iconAddress": "n_shirt_gholdengoitem_icon",
+      "displayStringId": "avatar_shirt_gholdengo_jumpsuit"
+    }
+  },
+  {
     "templateId": "N_DISPLAY_n_shirt_giovanni_a_0",
     "data": {
       "iconAddress": "n_shirt_giovanni_a_0_icon",

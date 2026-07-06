@@ -31320,7 +31320,9 @@
             "THUNDER"
           ],
           "eliteQuickMove": [],
-          "eliteCinematicMove": [],
+          "eliteCinematicMove": [
+            "ROAR_OF_TIME"
+          ],
           "nonTmCinematicMoves": [
             "ROAR_OF_TIME"
           ],
@@ -31412,7 +31414,9 @@
             "AQUA_TAIL"
           ],
           "eliteQuickMove": [],
-          "eliteCinematicMove": [],
+          "eliteCinematicMove": [
+            "SPACIAL_REND"
+          ],
           "nonTmCinematicMoves": [
             "SPACIAL_REND"
           ],
@@ -55531,10 +55535,13 @@
       "cinematicMoves": [
         "WATER_PULSE",
         "SURF",
-        "SHADOW_BALL"
+        "SHADOW_BALL",
+        "SNIPE_SHOT"
       ],
       "eliteQuickMove": [],
-      "eliteCinematicMove": [],
+      "eliteCinematicMove": [
+        "HYDRO_CANNON"
+      ],
       "nonTmCinematicMoves": [],
       "evolutionIds": [],
       "family": "Larméléon",

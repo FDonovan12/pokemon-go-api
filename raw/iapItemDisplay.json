@@ -437,12 +437,11 @@
     "data": {
       "sku": "pgorelease.gofest_deluxe_event_pass_track_unlock",
       "sortOrder": 1,
-      "hidden": true,
       "title": "event_pass_gofest2026_premium_track_title",
       "description": "deluxe_event_pass_track_unlock_description",
-      "skuEnableTime": "2026-07-06T00:00:00",
+      "skuEnableTime": "2025-07-06T00:00:00",
       "skuDisableTime": "2026-07-14T23:59:59",
-      "skuEnableTimeUtcMs": "1783296000000",
+      "skuEnableTimeUtcMs": "1751760000000",
       "skuDisableTimeUtcMs": "1784073599000",
       "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fd07cba0c_PGO-MCS_GOFest_2026_GOPass_v3-16x9.jpg"
     }
@@ -452,12 +451,11 @@
     "data": {
       "sku": "pgorelease.gofest_deluxe_event_pass_track_unlock_plus_points",
       "sortOrder": 1,
-      "hidden": true,
       "title": "event_pass_gofest2026_premium_track_plus_points_title",
       "description": "deluxe_event_pass_track_unlock_plus_points_description",
-      "skuEnableTime": "2026-07-06T00:00:00",
+      "skuEnableTime": "2025-07-06T00:00:00",
       "skuDisableTime": "2026-07-14T23:59:59",
-      "skuEnableTimeUtcMs": "1783296000000",
+      "skuEnableTimeUtcMs": "1751760000000",
       "skuDisableTimeUtcMs": "1784073599000",
       "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fd07cba0c_PGO-MCS_GOFest_2026_GOPass_v3-16x9.jpg"
     }
@@ -619,6 +617,36 @@
       "showDiscountTag": true,
       "showStrikethroughPrice": true,
       "totalValue": 300
+    }
+  },
+  {
+    "templateId": "JULY1_DELUXE_EVENT_PASS_TRACK_UNLOCK",
+    "data": {
+      "sku": "pgorelease.july1_deluxe_event_pass_track_unlock",
+      "sortOrder": 1,
+      "hidden": true,
+      "title": "season_pass_premium_track_title_pikachu_celebration_2026",
+      "description": "pikachu_celebration_2026_deluxe_event_pass_track_unlock_description",
+      "skuEnableTime": "2025-07-13T10:00:00",
+      "skuDisableTime": "2025-07-22T20:00:00",
+      "skuEnableTimeUtcMs": "1752400800000",
+      "skuDisableTimeUtcMs": "1753214400000",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F68bf81f3_PGO-MCS_GO_Pass_Special_Anniversary_Pikachu_Celebration_v1-1024x576.jpg"
+    }
+  },
+  {
+    "templateId": "JULY1_DELUXE_EVENT_PASS_TRACK_UNLOCK_PLUS_POINTS",
+    "data": {
+      "sku": "pgorelease.july1_deluxe_event_pass_track_unlock_plus_points",
+      "sortOrder": 1,
+      "hidden": true,
+      "title": "season_pass_premium_track_plus_six_ranks_title_pikachu_celebration_2026",
+      "description": "event_pass_plus_points_6_ranks_description",
+      "skuEnableTime": "2025-07-13T10:00:00",
+      "skuDisableTime": "2025-07-22T20:00:00",
+      "skuEnableTimeUtcMs": "1752400800000",
+      "skuDisableTimeUtcMs": "1753214400000",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F68bf81f3_PGO-MCS_GO_Pass_Special_Anniversary_Pikachu_Celebration_v1-1024x576.jpg"
     }
   },
   {
@@ -8843,6 +8871,83 @@
     }
   },
   {
+    "templateId": "bundle.GOFest2026.1",
+    "data": {
+      "sku": "bundle.GOFest2026.1",
+      "category": "IAP_CATEGORY_BUNDLE",
+      "sortOrder": 4,
+      "hidden": true,
+      "spriteId": "bundle.general5.small.1",
+      "title": "great_storage_box"
+    }
+  },
+  {
+    "templateId": "bundle.GOFest2026.2",
+    "data": {
+      "sku": "bundle.GOFest2026.2",
+      "category": "IAP_CATEGORY_BUNDLE",
+      "sortOrder": 5,
+      "hidden": true,
+      "spriteId": "bundle.general2.large.2",
+      "title": "voyager_box_title"
+    }
+  },
+  {
+    "templateId": "bundle.GOFest2026.3",
+    "data": {
+      "sku": "bundle.GOFest2026.3",
+      "category": "IAP_CATEGORY_BUNDLE",
+      "sortOrder": 6,
+      "hidden": true,
+      "spriteId": "bundle.general.premiumbox.large.1",
+      "title": "great_raid_box_title"
+    }
+  },
+  {
+    "templateId": "bundle.GOFest2026.4",
+    "data": {
+      "sku": "bundle.GOFest2026.4",
+      "category": "IAP_CATEGORY_BUNDLE",
+      "sortOrder": 7,
+      "hidden": true,
+      "spriteId": "bundle.xmas.large.1",
+      "title": "bundle.general1.tiny.2_title"
+    }
+  },
+  {
+    "templateId": "bundle.GOFest2026.5",
+    "data": {
+      "sku": "bundle.GOFest2026.5",
+      "category": "IAP_CATEGORY_BUNDLE",
+      "sortOrder": 7,
+      "hidden": true,
+      "spriteId": "bundle.general.adventure.1",
+      "title": "bundle.general3.medium.1_title"
+    }
+  },
+  {
+    "templateId": "bundle.GOFest2026.6",
+    "data": {
+      "sku": "bundle.GOFest2026.6",
+      "category": "IAP_CATEGORY_BUNDLE",
+      "sortOrder": 7,
+      "hidden": true,
+      "spriteId": "bundle.general.premiumbox.large.1",
+      "title": "master_raid_box_title"
+    }
+  },
+  {
+    "templateId": "bundle.GOFest2026.7",
+    "data": {
+      "sku": "bundle.GOFest2026.7",
+      "category": "IAP_CATEGORY_BUNDLE",
+      "sortOrder": 7,
+      "hidden": true,
+      "spriteId": "bundle.xmas.medium.1",
+      "title": "sticker_box"
+    }
+  },
+  {
     "templateId": "bundle.GOTour2024.1",
     "data": {
       "sku": "bundle.GOTour2024.1",
@@ -8993,6 +9098,7 @@
       "sku": "bundle.atlanticav2box.1",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 1,
+      "hidden": true,
       "sale": true,
       "spriteId": "bundle.general2.free.1",
       "title": "boost_box_title"
@@ -11060,10 +11166,9 @@
       "sku": "bundle.season16evergreen2024.1",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 4,
+      "hidden": true,
       "spriteId": "bundle.general1.small.2",
       "title": "boost_box_title",
-      "showDiscountTag": true,
-      "showStrikethroughPrice": true,
       "totalValue": 140
     }
   },
@@ -11073,10 +11178,9 @@
       "sku": "bundle.season16evergreen2024.2",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 5,
+      "hidden": true,
       "spriteId": "bundle.general.remotebox.medium.1",
       "title": "great_raid_box_title",
-      "showDiscountTag": true,
-      "showStrikethroughPrice": true,
       "totalValue": 295
     }
   },
@@ -11086,10 +11190,9 @@
       "sku": "bundle.season16evergreen2024.3",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 6,
+      "hidden": true,
       "spriteId": "bundle.general2.large.2",
       "title": "voyager_box_title",
-      "showDiscountTag": true,
-      "showStrikethroughPrice": true,
       "totalValue": 1750
     }
   },
@@ -11694,7 +11797,6 @@
       "sku": "pgorelease.general1.ticket.4",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 1,
-      "hidden": true,
       "spriteId": "general1.ticket.4",
       "title": "general1.ticket.1_10THPARTY0726_title",
       "skuEnableTime": "2023-01-01T11:00:01",
@@ -13289,15 +13391,56 @@
     "templateId": "pgorelease.gofest_2025_deluxe_event_pass_track_redirect",
     "data": {
       "sku": "pgorelease.gofest_2025_deluxe_event_pass_track_redirect",
+      "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 1,
-      "hidden": true,
       "title": "event_pass_gofest2026_premium_track_title",
       "description": "deluxe_event_pass_track_unlock_description",
-      "skuEnableTime": "2026-07-06T00:00:00",
+      "skuEnableTime": "2025-07-06T00:00:00",
       "skuDisableTime": "2026-07-14T23:59:59",
-      "skuEnableTimeUtcMs": "1783296000000",
+      "skuEnableTimeUtcMs": "1751760000000",
       "skuDisableTimeUtcMs": "1784073599000",
       "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fd07cba0c_PGO-MCS_GOFest_2026_GOPass_v3-16x9.jpg"
+    }
+  },
+  {
+    "templateId": "pgorelease.gofest_deluxe_event_pass_track_unlock",
+    "data": {
+      "sku": "pgorelease.gofest_deluxe_event_pass_track_unlock",
+      "sortOrder": 1,
+      "title": "event_pass_gofest2026_premium_track_title",
+      "description": "deluxe_event_pass_track_unlock_description",
+      "skuEnableTime": "2025-07-06T00:00:00",
+      "skuDisableTime": "2026-07-14T23:59:59",
+      "skuEnableTimeUtcMs": "1751760000000",
+      "skuDisableTimeUtcMs": "1784073599000"
+    }
+  },
+  {
+    "templateId": "pgorelease.gofest_deluxe_event_pass_track_unlock_plus_points",
+    "data": {
+      "sku": "pgorelease.gofest_deluxe_event_pass_track_unlock_plus_points",
+      "sortOrder": 1,
+      "title": "event_pass_gofest2026_premium_track_plus_points_title",
+      "description": "deluxe_event_pass_track_unlock_plus_points_description",
+      "skuEnableTime": "2025-07-06T00:00:00",
+      "skuDisableTime": "2026-07-14T23:59:59",
+      "skuEnableTimeUtcMs": "1751760000000",
+      "skuDisableTimeUtcMs": "1784073599000"
+    }
+  },
+  {
+    "templateId": "pgorelease.july1_deluxe_event_pass_track_redirect",
+    "data": {
+      "sku": "pgorelease.july1_deluxe_event_pass_track_redirect",
+      "sortOrder": 1,
+      "hidden": true,
+      "title": "season_pass_premium_track_title_pikachu_celebration_2026",
+      "description": "pikachu_celebration_2026_deluxe_event_pass_track_unlock_description",
+      "skuEnableTime": "2025-07-13T10:00:00",
+      "skuDisableTime": "2025-07-22T20:00:00",
+      "skuEnableTimeUtcMs": "1752400800000",
+      "skuDisableTimeUtcMs": "1753214400000",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F68bf81f3_PGO-MCS_GO_Pass_Special_Anniversary_Pikachu_Celebration_v1-1024x576.jpg"
     }
   },
   {

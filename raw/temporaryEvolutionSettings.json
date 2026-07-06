@@ -74,7 +74,7 @@
         },
         {
           "temporaryEvolutionId": "TEMP_EVOLUTION_MEGA_Y",
-          "assetBundleValue": 51
+          "assetBundleValue": 52
         }
       ]
     }
@@ -567,6 +567,18 @@
     "templateId": "TEMPORARY_EVOLUTION_V0428_POKEMON_LOPUNNY",
     "data": {
       "pokemonId": "LOPUNNY",
+      "temporaryEvolutions": [
+        {
+          "temporaryEvolutionId": "TEMP_EVOLUTION_MEGA",
+          "assetBundleValue": 51
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "TEMPORARY_EVOLUTION_V0445_POKEMON_GARCHOMP",
+    "data": {
+      "pokemonId": "GARCHOMP",
       "temporaryEvolutions": [
         {
           "temporaryEvolutionId": "TEMP_EVOLUTION_MEGA",

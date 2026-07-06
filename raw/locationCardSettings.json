@@ -546,7 +546,7 @@
     "templateId": "LC_2026_NPB_003",
     "data": {
       "locationCard": "LC_2026_NPB_003",
-      "imageUrl": "lc_2026_ppk_001"
+      "imageUrl": "lc_2026_NPB_tokyoSwallows"
     }
   },
   {
@@ -574,7 +574,7 @@
     "templateId": "LC_2026_NPB_007",
     "data": {
       "locationCard": "LC_2026_NPB_007",
-      "imageUrl": "lc_2026_ppk_001"
+      "imageUrl": "lc_2026_NPB_toyamaAllstars"
     }
   },
   {
@@ -609,14 +609,14 @@
     "templateId": "LC_2026_NPB_012",
     "data": {
       "locationCard": "LC_2026_NPB_012",
-      "imageUrl": "lc_2026_ppk_001"
+      "imageUrl": "lc_2026_NPB_chunichiDragons"
     }
   },
   {
     "templateId": "LC_2026_NPB_013",
     "data": {
       "locationCard": "LC_2026_NPB_013",
-      "imageUrl": "lc_2026_ppk_001"
+      "imageUrl": "lc_2026_NPB_hokkaidoFighters"
     }
   },
   {
@@ -1103,6 +1103,15 @@
     "data": {
       "locationCard": "LC_POKELID_YAMAGUCHI",
       "imageUrl": "lc_pokelid_yamaguchi"
+    }
+  },
+  {
+    "templateId": "LC_SPECIALBACKGROUND_10ANI2026",
+    "data": {
+      "locationCard": "LC_SPECIALBACKGROUND_10ANI2026",
+      "imageUrl": "sb_GoFest2024_wormhole_moon",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_UltraWormhole"
     }
   },
   {

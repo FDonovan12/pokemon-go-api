@@ -87,8 +87,8 @@
     "templateId": "ITEM_EXPIRATION_ITEM_EVENT_PASS_POINT_LIVE_OPS_07",
     "data": {
       "item": "ITEM_EVENT_PASS_POINT_LIVE_OPS_07",
-      "expirationTime": "2026-04-24T20:00:00",
-      "emergencyExpirationTime": "2026-04-25T10:00:00"
+      "expirationTime": "2026-07-24T20:00:00",
+      "emergencyExpirationTime": "2026-07-25T10:00:00"
     }
   },
   {

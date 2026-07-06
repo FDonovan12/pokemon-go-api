@@ -2161,7 +2161,8 @@
       "buddyGroupNumber": 2,
       "buddyWalkedMegaEnergyAward": 15,
       "allowNoevolveEvolution": [
-        "JAN_2020_NOEVOLVE"
+        "JAN_2020_NOEVOLVE",
+        "SPRING_2020_NOEVOLVE"
       ],
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -2367,7 +2368,8 @@
       "buddyGroupNumber": 2,
       "buddyWalkedMegaEnergyAward": 15,
       "allowNoevolveEvolution": [
-        "JAN_2020_NOEVOLVE"
+        "JAN_2020_NOEVOLVE",
+        "SPRING_2020_NOEVOLVE"
       ],
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -2480,7 +2482,8 @@
       "buddyGroupNumber": 2,
       "buddyWalkedMegaEnergyAward": 15,
       "allowNoevolveEvolution": [
-        "JAN_2020_NOEVOLVE"
+        "JAN_2020_NOEVOLVE",
+        "SPRING_2020_NOEVOLVE"
       ],
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -2594,7 +2597,8 @@
       "buddyGroupNumber": 2,
       "buddyWalkedMegaEnergyAward": 15,
       "allowNoevolveEvolution": [
-        "JAN_2020_NOEVOLVE"
+        "JAN_2020_NOEVOLVE",
+        "SPRING_2020_NOEVOLVE"
       ],
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -13308,6 +13312,16 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 2,
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5
+        }
+      ],
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
     }
@@ -122469,6 +122483,9 @@
         "shadowChargeMove": "FRUSTRATION"
       },
       "buddyGroupNumber": 3,
+      "eliteCinematicMove": [
+        "ROAR_OF_TIME"
+      ],
       "disableTransferToPokemonHome": true,
       "raidBossDistanceOffset": 3.5,
       "ibfc": {},
@@ -122772,6 +122789,9 @@
         "shadowChargeMove": "FRUSTRATION"
       },
       "buddyGroupNumber": 3,
+      "eliteCinematicMove": [
+        "SPACIAL_REND"
+      ],
       "disableTransferToPokemonHome": true,
       "raidBossDistanceOffset": 4,
       "ibfc": {},
@@ -170503,6 +170523,11 @@
         }
       ],
       "modelScaleV2": 1,
+      "buddyPortraitOffset": [
+        0,
+        -110,
+        320
+      ],
       "thirdMove": {
         "stardustToUnlock": 50000,
         "candyToUnlock": 50
@@ -170582,6 +170607,11 @@
       ],
       "modelScaleV2": 1,
       "form": "PANCHAM_NORMAL",
+      "buddyPortraitOffset": [
+        0,
+        -110,
+        320
+      ],
       "thirdMove": {
         "stardustToUnlock": 50000,
         "candyToUnlock": 50
@@ -199986,7 +200016,8 @@
       "cinematicMoves": [
         "WATER_PULSE",
         "SURF",
-        "SHADOW_BALL"
+        "SHADOW_BALL",
+        "SNIPE_SHOT"
       ],
       "pokedexHeightM": 1.9,
       "pokedexWeightKg": 45.2,
@@ -200022,6 +200053,9 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 2,
+      "eliteCinematicMove": [
+        "HYDRO_CANNON"
+      ],
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
     }
@@ -200063,7 +200097,8 @@
       "cinematicMoves": [
         "WATER_PULSE",
         "SURF",
-        "SHADOW_BALL"
+        "SHADOW_BALL",
+        "SNIPE_SHOT"
       ],
       "pokedexHeightM": 1.9,
       "pokedexWeightKg": 45.2,
@@ -200100,6 +200135,9 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 2,
+      "eliteCinematicMove": [
+        "HYDRO_CANNON"
+      ],
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
     }
@@ -213495,8 +213533,8 @@
       "weightStdDev": 25,
       "familyId": "FAMILY_REGIDRAGO",
       "kmBuddyDistance": 20,
-      "modelHeight": 2.1,
-      "modelScaleV2": 1.4,
+      "modelHeight": 2.4,
+      "modelScaleV2": 1.2,
       "buddyOffsetMale": [
         0,
         0,
@@ -213583,8 +213621,8 @@
       "weightStdDev": 25,
       "familyId": "FAMILY_REGIDRAGO",
       "kmBuddyDistance": 20,
-      "modelHeight": 2.1,
-      "modelScaleV2": 1.4,
+      "modelHeight": 2.4,
+      "modelScaleV2": 1.2,
       "form": "REGIDRAGO_NORMAL",
       "buddyOffsetMale": [
         0,
