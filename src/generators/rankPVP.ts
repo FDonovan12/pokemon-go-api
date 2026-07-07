@@ -7,9 +7,9 @@ import { FileGenerator } from '../type/fileGenerator.js';
 const CP_CAP = { super: 1500, hyper: 2500 };
 
 type RankEntry = {
-    atk: number;
-    def: number;
-    sta: number;
+    attack: number;
+    defense: number;
+    stamina: number;
     level: number;
     statProduct: number;
 };
@@ -147,7 +147,7 @@ function getAllRanks(pokemon: any, cpms: Record<string, number>, cap: number): R
                 );
                 const cp = calcCP(baseAttack, baseDefense, baseStamina, ivAtk, ivDef, ivSta, cpm);
 
-                entries.push({ atk: ivAtk, def: ivDef, sta: ivSta, level, statProduct });
+                entries.push({ attack: ivAtk, defense: ivDef, stamina: ivSta, level, statProduct });
             }
         }
     }
