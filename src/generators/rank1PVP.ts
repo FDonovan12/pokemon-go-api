@@ -100,9 +100,9 @@ function getRank1(
     pokemon: any,
     cpms: Record<string, number>,
     cap: number,
-): { atk: number; def: number; sta: number; level: number } {
+): { attack: number; defense: number; stamina: number; level: number } {
     const { baseAttack, baseDefense, baseStamina } = pokemon.stats;
-    let best = { atk: 0, def: 0, sta: 0, statProduct: -1, level: -1 };
+    let best = { attack: 0, defense: 0, stamina: 0, statProduct: -1, level: -1 };
 
     for (let ivAtk = 0; ivAtk <= 15; ivAtk++) {
         for (let ivDef = 0; ivDef <= 15; ivDef++) {
@@ -131,11 +131,22 @@ function getRank1(
                 );
 
                 if (statProduct > best.statProduct) {
-                    best = { atk: ivAtk, def: ivDef, sta: ivSta, statProduct, level: +level };
+                    best = {
+                        attack: ivAtk,
+                        defense: ivDef,
+                        stamina: ivSta,
+                        statProduct,
+                        level: +level,
+                    };
                 }
             }
         }
     }
 
-    return { atk: best.atk, def: best.def, sta: best.sta, level: +best.level };
+    return {
+        attack: best.attack,
+        defense: best.defense,
+        stamina: best.stamina,
+        level: +best.level,
+    };
 }
