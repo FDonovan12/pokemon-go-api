@@ -496,10 +496,7 @@
       "targets": [
         100
       ],
-      "eventBadge": true,
-      "eventBadgeSettings": {
-        "obEventBadgeSettingsNumber6": 1
-      }
+      "eventBadge": true
     }
   },
   {

@@ -125,7 +125,7 @@
       "category": "ITEM_CATEGORY_ENHANCED_CURRENCY",
       "dropTrainerLevel": 1,
       "ignoreInventorySpace": true,
-      "itemCap": 600
+      "itemCap": 2000
     }
   },
   {
@@ -412,7 +412,7 @@
       },
       "timePeriodCounters": {
         "playerActivity": {
-          "limit": 300
+          "limit": 250
         }
       },
       "hideItemInInventory": true
@@ -1329,6 +1329,7 @@
         "eventEndTime": "2026-07-18T17:00:00",
         "itemBagDescriptionKey": "item_event_ticket_gray_details_MegaRaichuRaidDay",
         "giftable": true,
+        "giftItem": 2240,
         "eventBannerUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F97c2eaee_PGO-MCS_Raichu_Super_Mega_Raid_Day_v3-1024x576-nologo.jpg",
         "displayV2Enabled": true,
         "backgroundImageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F97c2eaee_PGO-MCS_Raichu_Super_Mega_Raid_Day_v3-1024x576-nologo.jpg",
@@ -1353,6 +1354,27 @@
         "clientEventStartTimeUtcMs": "1784383200000",
         "clientEventEndTimeUtcMs": "1784394000000"
       },
+      "nameOverride": "general2.ticket.5_MegaRaichuRaidDay",
+      "descriptionOverride": "item_event_ticket_gray_desc_MegaRaichuRaidDay"
+    }
+  },
+  {
+    "templateId": "ITEM_EVENT_TICKET_S23_2026_04_TO_GIFT",
+    "data": {
+      "itemId": 2240,
+      "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
+      "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
+      "globalEventTicket": {
+        "eventStartTime": "2026-07-18T14:00:00",
+        "eventEndTime": "2026-07-18T17:00:00",
+        "itemBagDescriptionKey": "item_event_ticket_gray_desc_MegaRaichuRaidDay",
+        "ticketItem": 2208,
+        "eventBannerUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F97c2eaee_PGO-MCS_Raichu_Super_Mega_Raid_Day_v3-1024x576-nologo.jpg",
+        "backgroundImageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F97c2eaee_PGO-MCS_Raichu_Super_Mega_Raid_Day_v3-1024x576-nologo.jpg",
+        "clientEventStartTimeUtcMs": "1784383200000",
+        "clientEventEndTimeUtcMs": "1784394000000"
+      },
+      "ignoreInventorySpace": true,
       "nameOverride": "general2.ticket.5_MegaRaichuRaidDay",
       "descriptionOverride": "item_event_ticket_gray_desc_MegaRaichuRaidDay"
     }
@@ -1687,7 +1709,7 @@
       "category": "ITEM_CATEGORY_INCENSE",
       "dropTrainerLevel": 6,
       "incense": {
-        "incenseLifetimeSeconds": 1800,
+        "incenseLifetimeSeconds": 900,
         "spawnTableProbability": 0.25
       },
       "ignoreInventorySpace": true

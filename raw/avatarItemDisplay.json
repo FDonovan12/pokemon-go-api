@@ -8438,6 +8438,13 @@
     }
   },
   {
+    "templateId": "N_DISPLAY_n_shirt_zeraoraonesie",
+    "data": {
+      "iconAddress": "n_shirt_zeraoraonesie_icon",
+      "displayStringId": "avatar_shirt_gofest2026zeraora"
+    }
+  },
+  {
     "templateId": "N_DISPLAY_n_shirt_zeraoratshirt",
     "data": {
       "iconAddress": "n_shirt_zeraoratshirt_icon",

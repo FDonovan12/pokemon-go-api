@@ -320,14 +320,14 @@
     "templateId": "EVENT_PASS_MONTH2_SEASON_STORE_REDIRECT",
     "data": {
       "sku": "pgorelease.month2_deluxe_event_pass_track_redirect",
+      "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 1,
-      "hidden": true,
       "title": "season_pass_premium_track_title_july",
       "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
-      "skuEnableTime": "2025-07-07T10:00:00",
-      "skuDisableTime": "2025-08-06T10:00:00",
-      "skuEnableTimeUtcMs": "1751882400000",
-      "skuDisableTimeUtcMs": "1754474400000",
+      "skuEnableTime": "2025-05-26T10:00:00",
+      "skuDisableTime": "2026-08-06T10:00:00",
+      "skuEnableTimeUtcMs": "1748253600000",
+      "skuDisableTimeUtcMs": "1786010400000",
       "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Ff2c7f843_PGO-MCS_GO_Pass_July_2026_ticket_v1-1024x576_nologo.jpg"
     }
   },
@@ -892,13 +892,12 @@
     "data": {
       "sku": "pgorelease.month2_deluxe_event_pass_track_unlock",
       "sortOrder": 1,
-      "hidden": true,
       "title": "season_pass_premium_track_title_july",
       "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
-      "skuEnableTime": "2025-07-07T10:00:00",
-      "skuDisableTime": "2025-08-06T10:00:00",
-      "skuEnableTimeUtcMs": "1751882400000",
-      "skuDisableTimeUtcMs": "1754474400000",
+      "skuEnableTime": "2025-05-26T10:00:00",
+      "skuDisableTime": "2026-08-06T10:00:00",
+      "skuEnableTimeUtcMs": "1748253600000",
+      "skuDisableTimeUtcMs": "1786010400000",
       "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Ff2c7f843_PGO-MCS_GO_Pass_July_2026_ticket_v1-1024x576_nologo.jpg"
     }
   },
@@ -907,13 +906,12 @@
     "data": {
       "sku": "pgorelease.month2_deluxe_event_pass_track_unlock_plus_points",
       "sortOrder": 1,
-      "hidden": true,
       "title": "season_pass_premium_track_plus_ten_ranks_title_july",
       "description": "gotour_2025_deluxe_event_pass_track_unlock_plus_points_description",
-      "skuEnableTime": "2025-07-07T10:00:00",
-      "skuDisableTime": "2025-08-06T10:00:00",
-      "skuEnableTimeUtcMs": "1751882400000",
-      "skuDisableTimeUtcMs": "1754474400000",
+      "skuEnableTime": "2025-05-26T10:00:00",
+      "skuDisableTime": "2026-08-06T10:00:00",
+      "skuEnableTimeUtcMs": "1748253600000",
+      "skuDisableTimeUtcMs": "1786010400000",
       "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Ff2c7f843_PGO-MCS_GO_Pass_July_2026_ticket_v1-1024x576_nologo.jpg"
     }
   },
@@ -8876,9 +8874,14 @@
       "sku": "bundle.GOFest2026.1",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 4,
-      "hidden": true,
       "spriteId": "bundle.general5.small.1",
-      "title": "great_storage_box"
+      "title": "great_storage_box",
+      "skuEnableTime": "2023-10-10T11:00:00",
+      "skuDisableTime": "2026-07-12T22:00:00",
+      "skuEnableTimeUtcMs": "1696935600000",
+      "skuDisableTimeUtcMs": "1783893600000",
+      "showDiscountTag": true,
+      "showStrikethroughPrice": true
     }
   },
   {
@@ -8887,9 +8890,14 @@
       "sku": "bundle.GOFest2026.2",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 5,
-      "hidden": true,
       "spriteId": "bundle.general2.large.2",
-      "title": "voyager_box_title"
+      "title": "voyager_box_title",
+      "skuEnableTime": "2023-10-10T11:00:00",
+      "skuDisableTime": "2026-07-12T22:00:00",
+      "skuEnableTimeUtcMs": "1696935600000",
+      "skuDisableTimeUtcMs": "1783893600000",
+      "showDiscountTag": true,
+      "showStrikethroughPrice": true
     }
   },
   {
@@ -8898,9 +8906,14 @@
       "sku": "bundle.GOFest2026.3",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 6,
-      "hidden": true,
       "spriteId": "bundle.general.premiumbox.large.1",
-      "title": "great_raid_box_title"
+      "title": "great_raid_box_title",
+      "skuEnableTime": "2023-10-10T11:00:00",
+      "skuDisableTime": "2026-07-12T22:00:00",
+      "skuEnableTimeUtcMs": "1696935600000",
+      "skuDisableTimeUtcMs": "1783893600000",
+      "showDiscountTag": true,
+      "showStrikethroughPrice": true
     }
   },
   {
@@ -8909,9 +8922,14 @@
       "sku": "bundle.GOFest2026.4",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 7,
-      "hidden": true,
       "spriteId": "bundle.xmas.large.1",
-      "title": "bundle.general1.tiny.2_title"
+      "title": "bundle.general1.tiny.2_title",
+      "skuEnableTime": "2023-10-10T11:00:00",
+      "skuDisableTime": "2026-07-12T22:00:00",
+      "skuEnableTimeUtcMs": "1696935600000",
+      "skuDisableTimeUtcMs": "1783893600000",
+      "showDiscountTag": true,
+      "showStrikethroughPrice": true
     }
   },
   {
@@ -8920,9 +8938,14 @@
       "sku": "bundle.GOFest2026.5",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 7,
-      "hidden": true,
       "spriteId": "bundle.general.adventure.1",
-      "title": "bundle.general3.medium.1_title"
+      "title": "bundle.general3.medium.1_title",
+      "skuEnableTime": "2023-10-10T11:00:00",
+      "skuDisableTime": "2026-07-12T22:00:00",
+      "skuEnableTimeUtcMs": "1696935600000",
+      "skuDisableTimeUtcMs": "1783893600000",
+      "showDiscountTag": true,
+      "showStrikethroughPrice": true
     }
   },
   {
@@ -8931,9 +8954,12 @@
       "sku": "bundle.GOFest2026.6",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 7,
-      "hidden": true,
       "spriteId": "bundle.general.premiumbox.large.1",
-      "title": "master_raid_box_title"
+      "title": "master_raid_box_title",
+      "skuEnableTime": "2023-10-10T11:00:00",
+      "skuDisableTime": "2026-07-12T22:00:00",
+      "skuEnableTimeUtcMs": "1696935600000",
+      "skuDisableTimeUtcMs": "1783893600000"
     }
   },
   {
@@ -8942,9 +8968,12 @@
       "sku": "bundle.GOFest2026.7",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 7,
-      "hidden": true,
       "spriteId": "bundle.xmas.medium.1",
-      "title": "sticker_box"
+      "title": "sticker_box",
+      "skuEnableTime": "2023-10-10T11:00:00",
+      "skuDisableTime": "2026-07-12T22:00:00",
+      "skuEnableTimeUtcMs": "1696935600000",
+      "skuDisableTimeUtcMs": "1783893600000"
     }
   },
   {
@@ -11797,6 +11826,7 @@
       "sku": "pgorelease.general1.ticket.4",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 1,
+      "hidden": true,
       "spriteId": "general1.ticket.4",
       "title": "general1.ticket.1_10THPARTY0726_title",
       "skuEnableTime": "2023-01-01T11:00:01",
@@ -13497,6 +13527,32 @@
       "skuDisableTime": "2026-07-09T10:00:00",
       "skuEnableTimeUtcMs": "1748253600000",
       "skuDisableTimeUtcMs": "1783591200000"
+    }
+  },
+  {
+    "templateId": "pgorelease.month2_deluxe_event_pass_track_unlock",
+    "data": {
+      "sku": "pgorelease.month2_deluxe_event_pass_track_unlock",
+      "sortOrder": 1,
+      "title": "season_pass_premium_track_title_july",
+      "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
+      "skuEnableTime": "2025-05-26T10:00:00",
+      "skuDisableTime": "2026-08-06T10:00:00",
+      "skuEnableTimeUtcMs": "1748253600000",
+      "skuDisableTimeUtcMs": "1786010400000"
+    }
+  },
+  {
+    "templateId": "pgorelease.month2_deluxe_event_pass_track_unlock_plus_points",
+    "data": {
+      "sku": "pgorelease.month2_deluxe_event_pass_track_unlock_plus_points",
+      "sortOrder": 1,
+      "title": "season_pass_premium_track_plus_ten_ranks_title_july",
+      "description": "gotour_2025_deluxe_event_pass_track_unlock_plus_points_description",
+      "skuEnableTime": "2025-05-26T10:00:00",
+      "skuDisableTime": "2026-08-06T10:00:00",
+      "skuEnableTimeUtcMs": "1748253600000",
+      "skuDisableTimeUtcMs": "1786010400000"
     }
   },
   {

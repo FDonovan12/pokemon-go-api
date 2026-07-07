@@ -2,8 +2,7 @@
   {
     "templateId": "MAP_DISPLAY_SETTINGS",
     "data": {
-      "showEnhancedSky": true,
-      "mapEffectName": "fx_map_fireworks"
+      "showEnhancedSky": true
     }
   }
 ]
