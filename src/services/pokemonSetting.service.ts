@@ -125,7 +125,9 @@ class PokemonSettingGeneratorService {
                     generation,
                     slug: slug,
                     imageId,
-                    image: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${imageId}.png`,
+                    // https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/${imageId}.png
+                    // image: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${imageId}.png`,
+                    image: `https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/${imageId}.png`,
                     type: [
                         pokemonTypeToFrench(pokemon.data.type),
                         pokemonTypeToFrench(pokemon.data.type2 ?? ''),
