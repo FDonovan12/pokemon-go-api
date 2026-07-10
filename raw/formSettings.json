@@ -566,6 +566,10 @@
         {
           "form": "PIKACHU_FOSSIL_2026",
           "isCostume": true
+        },
+        {
+          "form": "PIKACHU_ANNIVERSARY_2026",
+          "isCostume": true
         }
       ]
     }

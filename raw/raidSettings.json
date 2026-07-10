@@ -59,7 +59,7 @@
       "minPlayersToBoot": 2,
       "bootCutoffMs": 15000,
       "bootSoloMs": 30000,
-      "obRaidClientSettingsNumber1": 2,
+      "obRaidClientSettingsNumber1": 1,
       "obRaidClientSettingsNumber29": 1,
       "pokemonMusicOverrides": [
         {

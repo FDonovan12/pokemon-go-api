@@ -1635,6 +1635,51 @@
         }
       },
       {
+        "id": "V0025_POKEMON_PIKACHU_ANNIVERSARY_2026",
+        "pokemonId": "PIKACHU",
+        "dexNumber": 25,
+        "name": "Pikachu",
+        "generation": 1,
+        "slug": "pikachu-anniversary-2026",
+        "imageId": 25,
+        "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/25.png",
+        "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/25.png",
+        "type": [
+          "Électrik"
+        ],
+        "stats": {
+          "baseStamina": 111,
+          "baseAttack": 112,
+          "baseDefense": 96
+        },
+        "quickMoves": [
+          "THUNDER_SHOCK_FAST",
+          "QUICK_ATTACK_FAST"
+        ],
+        "cinematicMoves": [
+          "DISCHARGE",
+          "THUNDERBOLT",
+          "WILD_CHARGE"
+        ],
+        "eliteQuickMove": [
+          "PRESENT_FAST"
+        ],
+        "eliteCinematicMove": [
+          "SURF",
+          "THUNDER"
+        ],
+        "nonTmCinematicMoves": [],
+        "evolutionIds": [],
+        "family": "Pikachu",
+        "isLegendary": false,
+        "isMythical": false,
+        "isUltraBeast": false,
+        "form": "PIKACHU_ANNIVERSARY_2026",
+        "encounter": {
+          "stardustCaptureReward": 100
+        }
+      },
+      {
         "id": "V0025_POKEMON_PIKACHU_COPY_2019",
         "pokemonId": "PIKACHU",
         "dexNumber": 25,
