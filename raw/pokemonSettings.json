@@ -122589,9 +122589,6 @@
         "shadowChargeMove": "FRUSTRATION"
       },
       "buddyGroupNumber": 3,
-      "eliteCinematicMove": [
-        "ROAR_OF_TIME"
-      ],
       "disableTransferToPokemonHome": true,
       "raidBossDistanceOffset": 3.5,
       "ibfc": {},
@@ -122895,9 +122892,6 @@
         "shadowChargeMove": "FRUSTRATION"
       },
       "buddyGroupNumber": 3,
-      "eliteCinematicMove": [
-        "SPACIAL_REND"
-      ],
       "disableTransferToPokemonHome": true,
       "raidBossDistanceOffset": 4,
       "ibfc": {},

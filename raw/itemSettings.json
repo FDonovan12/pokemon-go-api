@@ -125,7 +125,7 @@
       "category": "ITEM_CATEGORY_ENHANCED_CURRENCY",
       "dropTrainerLevel": 1,
       "ignoreInventorySpace": true,
-      "itemCap": 2000
+      "itemCap": 600
     }
   },
   {
@@ -1778,7 +1778,7 @@
       "eggIncubator": {
         "incubatorType": "INCUBATOR_DISTANCE",
         "uses": 3,
-        "distanceMultiplier": 0.5
+        "distanceMultiplier": 1
       }
     }
   },
@@ -1791,7 +1791,7 @@
       "dropTrainerLevel": 100,
       "eggIncubator": {
         "incubatorType": "INCUBATOR_DISTANCE",
-        "distanceMultiplier": 0.5
+        "distanceMultiplier": 1
       }
     }
   },
@@ -1820,7 +1820,7 @@
       "eggIncubator": {
         "incubatorType": "INCUBATOR_DISTANCE",
         "uses": 3,
-        "distanceMultiplier": 0.33333334
+        "distanceMultiplier": 0.6666667
       }
     }
   },
@@ -1833,7 +1833,7 @@
       "dropTrainerLevel": 100,
       "eggIncubator": {
         "incubatorType": "INCUBATOR_DISTANCE",
-        "distanceMultiplier": 0.5,
+        "distanceMultiplier": 1,
         "expiredIncubatorReplacement": {
           "incubatorReplacement": "ITEM_INCUBATOR_BASIC",
           "usesCountOverride": 1

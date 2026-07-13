@@ -8876,14 +8876,9 @@
       "sku": "bundle.GOFest2026.1",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 4,
+      "hidden": true,
       "spriteId": "bundle.general5.small.1",
-      "title": "great_storage_box",
-      "skuEnableTime": "2023-10-10T11:00:00",
-      "skuDisableTime": "2026-07-12T22:00:00",
-      "skuEnableTimeUtcMs": "1696935600000",
-      "skuDisableTimeUtcMs": "1783893600000",
-      "showDiscountTag": true,
-      "showStrikethroughPrice": true
+      "title": "great_storage_box"
     }
   },
   {
@@ -8892,14 +8887,9 @@
       "sku": "bundle.GOFest2026.2",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 5,
+      "hidden": true,
       "spriteId": "bundle.general2.large.2",
-      "title": "voyager_box_title",
-      "skuEnableTime": "2023-10-10T11:00:00",
-      "skuDisableTime": "2026-07-12T22:00:00",
-      "skuEnableTimeUtcMs": "1696935600000",
-      "skuDisableTimeUtcMs": "1783893600000",
-      "showDiscountTag": true,
-      "showStrikethroughPrice": true
+      "title": "voyager_box_title"
     }
   },
   {
@@ -8908,14 +8898,9 @@
       "sku": "bundle.GOFest2026.3",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 6,
+      "hidden": true,
       "spriteId": "bundle.general.premiumbox.large.1",
-      "title": "great_raid_box_title",
-      "skuEnableTime": "2023-10-10T11:00:00",
-      "skuDisableTime": "2026-07-12T22:00:00",
-      "skuEnableTimeUtcMs": "1696935600000",
-      "skuDisableTimeUtcMs": "1783893600000",
-      "showDiscountTag": true,
-      "showStrikethroughPrice": true
+      "title": "great_raid_box_title"
     }
   },
   {
@@ -8924,14 +8909,9 @@
       "sku": "bundle.GOFest2026.4",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 7,
+      "hidden": true,
       "spriteId": "bundle.xmas.large.1",
-      "title": "bundle.general1.tiny.2_title",
-      "skuEnableTime": "2023-10-10T11:00:00",
-      "skuDisableTime": "2026-07-12T22:00:00",
-      "skuEnableTimeUtcMs": "1696935600000",
-      "skuDisableTimeUtcMs": "1783893600000",
-      "showDiscountTag": true,
-      "showStrikethroughPrice": true
+      "title": "bundle.general1.tiny.2_title"
     }
   },
   {
@@ -8940,14 +8920,9 @@
       "sku": "bundle.GOFest2026.5",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 7,
+      "hidden": true,
       "spriteId": "bundle.general.adventure.1",
-      "title": "bundle.general3.medium.1_title",
-      "skuEnableTime": "2023-10-10T11:00:00",
-      "skuDisableTime": "2026-07-12T22:00:00",
-      "skuEnableTimeUtcMs": "1696935600000",
-      "skuDisableTimeUtcMs": "1783893600000",
-      "showDiscountTag": true,
-      "showStrikethroughPrice": true
+      "title": "bundle.general3.medium.1_title"
     }
   },
   {
@@ -8956,12 +8931,9 @@
       "sku": "bundle.GOFest2026.6",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 7,
+      "hidden": true,
       "spriteId": "bundle.general.premiumbox.large.1",
-      "title": "master_raid_box_title",
-      "skuEnableTime": "2023-10-10T11:00:00",
-      "skuDisableTime": "2026-07-12T22:00:00",
-      "skuEnableTimeUtcMs": "1696935600000",
-      "skuDisableTimeUtcMs": "1783893600000"
+      "title": "master_raid_box_title"
     }
   },
   {
@@ -8970,12 +8942,9 @@
       "sku": "bundle.GOFest2026.7",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 7,
+      "hidden": true,
       "spriteId": "bundle.xmas.medium.1",
-      "title": "sticker_box",
-      "skuEnableTime": "2023-10-10T11:00:00",
-      "skuDisableTime": "2026-07-12T22:00:00",
-      "skuEnableTimeUtcMs": "1696935600000",
-      "skuDisableTimeUtcMs": "1783893600000"
+      "title": "sticker_box"
     }
   },
   {
@@ -9129,7 +9098,6 @@
       "sku": "bundle.atlanticav2box.1",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 1,
-      "hidden": true,
       "sale": true,
       "spriteId": "bundle.general2.free.1",
       "title": "boost_box_title"
@@ -11197,9 +11165,10 @@
       "sku": "bundle.season16evergreen2024.1",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 4,
-      "hidden": true,
       "spriteId": "bundle.general1.small.2",
       "title": "boost_box_title",
+      "showDiscountTag": true,
+      "showStrikethroughPrice": true,
       "totalValue": 140
     }
   },
@@ -11209,9 +11178,10 @@
       "sku": "bundle.season16evergreen2024.2",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 5,
-      "hidden": true,
       "spriteId": "bundle.general.remotebox.medium.1",
       "title": "great_raid_box_title",
+      "showDiscountTag": true,
+      "showStrikethroughPrice": true,
       "totalValue": 295
     }
   },
@@ -11221,9 +11191,10 @@
       "sku": "bundle.season16evergreen2024.3",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 6,
-      "hidden": true,
       "spriteId": "bundle.general2.large.2",
       "title": "voyager_box_title",
+      "showDiscountTag": true,
+      "showStrikethroughPrice": true,
       "totalValue": 1750
     }
   },

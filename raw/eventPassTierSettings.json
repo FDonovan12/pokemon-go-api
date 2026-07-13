@@ -6152,10 +6152,6 @@
           {
             "text": "bonus_link_charge_cap_2000",
             "iconType": 43
-          },
-          {
-            "text": "incubator_distance_half",
-            "iconType": "EGG_INCUBATOR"
           }
         ]
       }
@@ -13210,10 +13206,6 @@
           {
             "text": "bonus_raid_1_xl_candy",
             "iconType": "CANDY_XL"
-          },
-          {
-            "text": "incubator_distance_half",
-            "iconType": "EGG_INCUBATOR"
           }
         ]
       }
