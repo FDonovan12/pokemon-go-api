@@ -227,6 +227,21 @@
     }
   },
   {
+    "templateId": "EVENT_PASS_JULY2_EVENT_STORE_REDIRECT",
+    "data": {
+      "sku": "pgorelease.july2_deluxe_event_pass_track_redirect",
+      "sortOrder": 1,
+      "hidden": true,
+      "title": "season_pass_premium_track_title_10th_anniversary_2026",
+      "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
+      "skuEnableTime": "2025-07-21T10:00:00",
+      "skuDisableTime": "2025-07-29T20:00:00",
+      "skuEnableTimeUtcMs": "1753092000000",
+      "skuDisableTimeUtcMs": "1753819200000",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F07b0cffa_PGO-MCS_2026_Ultra_Unlock_01_v6-1024x576.jpg"
+    }
+  },
+  {
     "templateId": "EVENT_PASS_JUNE2_EVENT_STORE_REDIRECT",
     "data": {
       "sku": "pgorelease.june2_2026_deluxe_event_pass_track_redirect",
@@ -624,13 +639,12 @@
     "data": {
       "sku": "pgorelease.july1_deluxe_event_pass_track_unlock",
       "sortOrder": 1,
-      "hidden": true,
       "title": "season_pass_premium_track_title_pikachu_celebration_2026",
       "description": "pikachu_celebration_2026_deluxe_event_pass_track_unlock_description",
       "skuEnableTime": "2025-07-13T10:00:00",
-      "skuDisableTime": "2025-07-22T20:00:00",
+      "skuDisableTime": "2026-07-22T20:00:00",
       "skuEnableTimeUtcMs": "1752400800000",
-      "skuDisableTimeUtcMs": "1753214400000",
+      "skuDisableTimeUtcMs": "1784750400000",
       "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F68bf81f3_PGO-MCS_GO_Pass_Special_Anniversary_Pikachu_Celebration_v1-1024x576.jpg"
     }
   },
@@ -639,14 +653,43 @@
     "data": {
       "sku": "pgorelease.july1_deluxe_event_pass_track_unlock_plus_points",
       "sortOrder": 1,
-      "hidden": true,
       "title": "season_pass_premium_track_plus_six_ranks_title_pikachu_celebration_2026",
       "description": "event_pass_plus_points_6_ranks_description",
       "skuEnableTime": "2025-07-13T10:00:00",
-      "skuDisableTime": "2025-07-22T20:00:00",
+      "skuDisableTime": "2026-07-22T20:00:00",
       "skuEnableTimeUtcMs": "1752400800000",
-      "skuDisableTimeUtcMs": "1753214400000",
+      "skuDisableTimeUtcMs": "1784750400000",
       "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F68bf81f3_PGO-MCS_GO_Pass_Special_Anniversary_Pikachu_Celebration_v1-1024x576.jpg"
+    }
+  },
+  {
+    "templateId": "JULY2_DELUXE_EVENT_PASS_TRACK_UNLOCK",
+    "data": {
+      "sku": "pgorelease.july2_deluxe_event_pass_track_unlock",
+      "sortOrder": 1,
+      "hidden": true,
+      "title": "season_pass_premium_track_title_10th_anniversary_2026",
+      "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
+      "skuEnableTime": "2025-07-21T10:00:00",
+      "skuDisableTime": "2025-07-29T20:00:00",
+      "skuEnableTimeUtcMs": "1753092000000",
+      "skuDisableTimeUtcMs": "1753819200000",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F07b0cffa_PGO-MCS_2026_Ultra_Unlock_01_v6-1024x576.jpg"
+    }
+  },
+  {
+    "templateId": "JULY2_DELUXE_EVENT_PASS_TRACK_UNLOCK_PLUS_POINTS",
+    "data": {
+      "sku": "pgorelease.july2_deluxe_event_pass_track_unlock_plus_points",
+      "sortOrder": 1,
+      "hidden": true,
+      "title": "season_pass_premium_track_plus_six_ranks_title_10th_anniversary_2026",
+      "description": "event_pass_plus_points_6_ranks_description",
+      "skuEnableTime": "2025-07-21T10:00:00",
+      "skuDisableTime": "2025-07-29T20:00:00",
+      "skuEnableTimeUtcMs": "1753092000000",
+      "skuDisableTimeUtcMs": "1753819200000",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F07b0cffa_PGO-MCS_2026_Ultra_Unlock_01_v6-1024x576.jpg"
     }
   },
   {
@@ -12007,14 +12050,12 @@
       "sortOrder": 1,
       "hidden": true,
       "spriteId": "general2.ticket.6",
-      "title": "general2.ticket.6.REPLAY_GO_BIGGER",
-      "skuEnableTime": "2023-01-01T11:00:04",
-      "skuDisableTime": "2026-04-25T17:00:00",
-      "skuEnableTimeUtcMs": "1672570804000",
-      "skuDisableTimeUtcMs": "1777136400000",
-      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-gmax-kanto-max-battle-day-2026-nologo.jpg",
-      "webstoreSkuId": "web-gmax-kanto-box-ultra",
-      "webstoreSkuPriceE6": 4990000,
+      "title": "general2.ticket.5_shayminmasterworkrerun",
+      "skuEnableTime": "2025-06-21T10:00:00",
+      "skuDisableTime": "2026-07-27T20:00:00",
+      "skuEnableTimeUtcMs": "1750500000000",
+      "skuDisableTimeUtcMs": "1785182400000",
+      "imageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fe2400534_20260511_pgo_s23_ShinyShaymin_1024x576_nologo.jpg",
       "useEnvironmentPrefix": true
     }
   },
@@ -13435,14 +13476,42 @@
     "templateId": "pgorelease.july1_deluxe_event_pass_track_redirect",
     "data": {
       "sku": "pgorelease.july1_deluxe_event_pass_track_redirect",
+      "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 1,
-      "hidden": true,
       "title": "season_pass_premium_track_title_pikachu_celebration_2026",
       "description": "pikachu_celebration_2026_deluxe_event_pass_track_unlock_description",
       "skuEnableTime": "2025-07-13T10:00:00",
-      "skuDisableTime": "2025-07-22T20:00:00",
+      "skuDisableTime": "2026-07-22T20:00:00",
       "skuEnableTimeUtcMs": "1752400800000",
-      "skuDisableTimeUtcMs": "1753214400000",
+      "skuDisableTimeUtcMs": "1784750400000",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F68bf81f3_PGO-MCS_GO_Pass_Special_Anniversary_Pikachu_Celebration_v1-1024x576.jpg"
+    }
+  },
+  {
+    "templateId": "pgorelease.july1_deluxe_event_pass_track_unlock",
+    "data": {
+      "sku": "pgorelease.july1_deluxe_event_pass_track_unlock",
+      "sortOrder": 1,
+      "title": "season_pass_premium_track_title_pikachu_celebration_2026",
+      "description": "pikachu_celebration_2026_deluxe_event_pass_track_unlock_description",
+      "skuEnableTime": "2025-07-13T10:00:00",
+      "skuDisableTime": "2026-07-22T20:00:00",
+      "skuEnableTimeUtcMs": "1752400800000",
+      "skuDisableTimeUtcMs": "1784750400000",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F68bf81f3_PGO-MCS_GO_Pass_Special_Anniversary_Pikachu_Celebration_v1-1024x576.jpg"
+    }
+  },
+  {
+    "templateId": "pgorelease.july1_deluxe_event_pass_track_unlock_plus_points",
+    "data": {
+      "sku": "pgorelease.july1_deluxe_event_pass_track_unlock_plus_points",
+      "sortOrder": 1,
+      "title": "season_pass_premium_track_plus_six_ranks_title_pikachu_celebration_2026",
+      "description": "event_pass_plus_points_6_ranks_description",
+      "skuEnableTime": "2025-07-13T10:00:00",
+      "skuDisableTime": "2026-07-22T20:00:00",
+      "skuEnableTimeUtcMs": "1752400800000",
+      "skuDisableTimeUtcMs": "1784750400000",
       "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F68bf81f3_PGO-MCS_GO_Pass_Special_Anniversary_Pikachu_Celebration_v1-1024x576.jpg"
     }
   },
