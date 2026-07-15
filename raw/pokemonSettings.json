@@ -170938,9 +170938,11 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "raidBossDistanceOffset": 3,
       "formChange": [
         {
           "availableForm": [
+            "FURFROU_DIAMOND",
             "FURFROU_MATRON",
             "FURFROU_DANDY"
           ],
@@ -170948,8 +170950,7 @@
           "stardustCost": 10000
         }
       ],
-      "ibfc": {},
-      "breadTierGroup": "GROUP_3"
+      "ibfc": {}
     }
   },
   {
@@ -171022,14 +171023,14 @@
         {
           "availableForm": [
             "FURFROU_NATURAL",
+            "FURFROU_DIAMOND",
             "FURFROU_MATRON"
           ],
           "candyCost": 25,
           "stardustCost": 10000
         }
       ],
-      "ibfc": {},
-      "breadTierGroup": "GROUP_3"
+      "ibfc": {}
     }
   },
   {
@@ -171102,6 +171103,7 @@
         {
           "availableForm": [
             "FURFROU_NATURAL",
+            "FURFROU_DIAMOND",
             "FURFROU_MATRON",
             "FURFROU_DANDY"
           ],
@@ -171109,8 +171111,7 @@
           "stardustCost": 10000
         }
       ],
-      "ibfc": {},
-      "breadTierGroup": "GROUP_3"
+      "ibfc": {}
     }
   },
   {
@@ -171190,8 +171191,7 @@
           "stardustCost": 10000
         }
       ],
-      "ibfc": {},
-      "breadTierGroup": "GROUP_3"
+      "ibfc": {}
     }
   },
   {
@@ -171264,6 +171264,7 @@
         {
           "availableForm": [
             "FURFROU_NATURAL",
+            "FURFROU_DIAMOND",
             "FURFROU_MATRON",
             "FURFROU_DANDY"
           ],
@@ -171271,8 +171272,7 @@
           "stardustCost": 10000
         }
       ],
-      "ibfc": {},
-      "breadTierGroup": "GROUP_3"
+      "ibfc": {}
     }
   },
   {
@@ -171345,6 +171345,7 @@
         {
           "availableForm": [
             "FURFROU_NATURAL",
+            "FURFROU_DIAMOND",
             "FURFROU_MATRON",
             "FURFROU_DANDY"
           ],
@@ -171352,8 +171353,7 @@
           "stardustCost": 10000
         }
       ],
-      "ibfc": {},
-      "breadTierGroup": "GROUP_3"
+      "ibfc": {}
     }
   },
   {
@@ -171426,6 +171426,7 @@
         {
           "availableForm": [
             "FURFROU_NATURAL",
+            "FURFROU_DIAMOND",
             "FURFROU_MATRON",
             "FURFROU_DANDY"
           ],
@@ -171433,8 +171434,7 @@
           "stardustCost": 10000
         }
       ],
-      "ibfc": {},
-      "breadTierGroup": "GROUP_3"
+      "ibfc": {}
     }
   },
   {
@@ -171507,14 +171507,14 @@
         {
           "availableForm": [
             "FURFROU_NATURAL",
+            "FURFROU_DIAMOND",
             "FURFROU_DANDY"
           ],
           "candyCost": 25,
           "stardustCost": 10000
         }
       ],
-      "ibfc": {},
-      "breadTierGroup": "GROUP_3"
+      "ibfc": {}
     }
   },
   {
@@ -171586,6 +171586,7 @@
       "formChange": [
         {
           "availableForm": [
+            "FURFROU_DIAMOND",
             "FURFROU_MATRON",
             "FURFROU_DANDY"
           ],
@@ -171593,8 +171594,7 @@
           "stardustCost": 10000
         }
       ],
-      "ibfc": {},
-      "breadTierGroup": "GROUP_3"
+      "ibfc": {}
     }
   },
   {
@@ -171667,6 +171667,7 @@
         {
           "availableForm": [
             "FURFROU_NATURAL",
+            "FURFROU_DIAMOND",
             "FURFROU_MATRON",
             "FURFROU_DANDY"
           ],
@@ -171674,8 +171675,7 @@
           "stardustCost": 10000
         }
       ],
-      "ibfc": {},
-      "breadTierGroup": "GROUP_3"
+      "ibfc": {}
     }
   },
   {
@@ -171748,6 +171748,7 @@
         {
           "availableForm": [
             "FURFROU_NATURAL",
+            "FURFROU_DIAMOND",
             "FURFROU_MATRON",
             "FURFROU_DANDY"
           ],
@@ -171755,8 +171756,7 @@
           "stardustCost": 10000
         }
       ],
-      "ibfc": {},
-      "breadTierGroup": "GROUP_3"
+      "ibfc": {}
     }
   },
   {
@@ -204573,8 +204573,13 @@
       "pokemonId": "CRAMORANT",
       "type": "POKEMON_TYPE_FLYING",
       "type2": "POKEMON_TYPE_WATER",
-      "camera": {},
+      "camera": {
+        "cylinderRadiusM": 0.5,
+        "cylinderHeightM": 1
+      },
       "encounter": {
+        "collisionRadiusM": 0.5,
+        "collisionHeadRadiusM": 0.2,
         "attackProbability": 0.2,
         "dodgeProbability": 0.1,
         "dodgeDurationS": 1,
@@ -204593,9 +204598,10 @@
         "WATER_GUN_FAST"
       ],
       "cinematicMoves": [
-        "DRILL_PECK",
+        593,
         "FLY",
-        "HYDRO_PUMP"
+        "HYDRO_PUMP",
+        "SURF"
       ],
       "pokedexHeightM": 0.8,
       "pokedexWeightKg": 18,
@@ -204603,8 +204609,8 @@
       "weightStdDev": 2.25,
       "familyId": "FAMILY_CRAMORANT",
       "kmBuddyDistance": 3,
-      "modelHeight": 1,
-      "modelScaleV2": 1,
+      "modelHeight": 0.9,
+      "modelScaleV2": 1.05,
       "buddyOffsetMale": [
         0,
         0,
@@ -204616,6 +204622,111 @@
         0
       ],
       "buddyScale": 19,
+      "buddyPortraitOffset": [
+        0,
+        0,
+        0
+      ],
+      "thirdMove": {
+        "stardustToUnlock": 50000,
+        "candyToUnlock": 50
+      },
+      "isTransferable": true,
+      "isDeployable": true,
+      "combatShoulderCameraAngle": [
+        0,
+        0,
+        0
+      ],
+      "isTradable": true,
+      "combatDefaultCameraAngle": [
+        0,
+        0,
+        0
+      ],
+      "combatOpponentFocusCameraAngle": [
+        0,
+        0,
+        0
+      ],
+      "combatPlayerFocusCameraAngle": [
+        0,
+        0,
+        0
+      ],
+      "combatPlayerPokemonPositionOffset": [
+        0,
+        0,
+        0
+      ],
+      "buddyGroupNumber": 2,
+      "buddyPortraitRotation": [
+        0,
+        0,
+        0
+      ],
+      "ibfc": {
+        "combatEnable": true,
+        "defaultForm": "CRAMORANT_NORMAL"
+      },
+      "breadTierGroup": "GROUP_2"
+    }
+  },
+  {
+    "templateId": "V0845_POKEMON_CRAMORANT_GORGING",
+    "data": {
+      "pokemonId": "CRAMORANT",
+      "type": "POKEMON_TYPE_FLYING",
+      "type2": "POKEMON_TYPE_WATER",
+      "camera": {
+        "cylinderRadiusM": 0.5,
+        "cylinderHeightM": 1
+      },
+      "encounter": {
+        "collisionRadiusM": 0.5,
+        "collisionHeadRadiusM": 0.2,
+        "cameraDistance": 4
+      },
+      "stats": {
+        "baseStamina": 172,
+        "baseAttack": 173,
+        "baseDefense": 163
+      },
+      "quickMoves": [
+        "PECK_FAST",
+        "WATER_GUN_FAST"
+      ],
+      "cinematicMoves": [
+        593,
+        "FLY",
+        "HYDRO_PUMP",
+        "SURF"
+      ],
+      "pokedexHeightM": 0.8,
+      "pokedexWeightKg": 18,
+      "heightStdDev": 0.1,
+      "weightStdDev": 2.25,
+      "familyId": "FAMILY_CRAMORANT",
+      "kmBuddyDistance": 3,
+      "modelHeight": 0.9,
+      "modelScaleV2": 1.05,
+      "form": 3350,
+      "buddyOffsetMale": [
+        0,
+        0,
+        0
+      ],
+      "buddyOffsetFemale": [
+        0,
+        0,
+        0
+      ],
+      "buddyScale": 19,
+      "buddyPortraitOffset": [
+        0,
+        0,
+        0
+      ],
       "thirdMove": {
         "stardustToUnlock": 50000,
         "candyToUnlock": 50
@@ -204624,6 +204735,83 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 2,
+      "buddyPortraitRotation": [
+        0,
+        0,
+        0
+      ],
+      "ibfc": {},
+      "breadTierGroup": "GROUP_2"
+    }
+  },
+  {
+    "templateId": "V0845_POKEMON_CRAMORANT_GULPING",
+    "data": {
+      "pokemonId": "CRAMORANT",
+      "type": "POKEMON_TYPE_FLYING",
+      "type2": "POKEMON_TYPE_WATER",
+      "camera": {
+        "cylinderRadiusM": 0.5,
+        "cylinderHeightM": 1
+      },
+      "encounter": {
+        "collisionRadiusM": 0.5,
+        "collisionHeadRadiusM": 0.2,
+        "cameraDistance": 4
+      },
+      "stats": {
+        "baseStamina": 172,
+        "baseAttack": 173,
+        "baseDefense": 163
+      },
+      "quickMoves": [
+        "PECK_FAST",
+        "WATER_GUN_FAST"
+      ],
+      "cinematicMoves": [
+        593,
+        "FLY",
+        "HYDRO_PUMP",
+        "SURF"
+      ],
+      "pokedexHeightM": 0.8,
+      "pokedexWeightKg": 18,
+      "heightStdDev": 0.1,
+      "weightStdDev": 2.25,
+      "familyId": "FAMILY_CRAMORANT",
+      "kmBuddyDistance": 3,
+      "modelHeight": 0.9,
+      "modelScaleV2": 1.05,
+      "form": 3349,
+      "buddyOffsetMale": [
+        0,
+        0,
+        0
+      ],
+      "buddyOffsetFemale": [
+        0,
+        0,
+        0
+      ],
+      "buddyScale": 19,
+      "buddyPortraitOffset": [
+        0,
+        0,
+        0
+      ],
+      "thirdMove": {
+        "stardustToUnlock": 50000,
+        "candyToUnlock": 50
+      },
+      "isTransferable": true,
+      "isDeployable": true,
+      "isTradable": true,
+      "buddyGroupNumber": 2,
+      "buddyPortraitRotation": [
+        0,
+        0,
+        0
+      ],
       "ibfc": {},
       "breadTierGroup": "GROUP_2"
     }
@@ -204634,8 +204822,13 @@
       "pokemonId": "CRAMORANT",
       "type": "POKEMON_TYPE_FLYING",
       "type2": "POKEMON_TYPE_WATER",
-      "camera": {},
+      "camera": {
+        "cylinderRadiusM": 0.5,
+        "cylinderHeightM": 1
+      },
       "encounter": {
+        "collisionRadiusM": 0.5,
+        "collisionHeadRadiusM": 0.2,
         "attackProbability": 0.2,
         "dodgeProbability": 0.1,
         "dodgeDurationS": 1,
@@ -204654,9 +204847,10 @@
         "WATER_GUN_FAST"
       ],
       "cinematicMoves": [
-        "DRILL_PECK",
+        593,
         "FLY",
-        "HYDRO_PUMP"
+        "HYDRO_PUMP",
+        "SURF"
       ],
       "pokedexHeightM": 0.8,
       "pokedexWeightKg": 18,
@@ -204664,8 +204858,8 @@
       "weightStdDev": 2.25,
       "familyId": "FAMILY_CRAMORANT",
       "kmBuddyDistance": 3,
-      "modelHeight": 1,
-      "modelScaleV2": 1,
+      "modelHeight": 0.9,
+      "modelScaleV2": 1.05,
       "form": "CRAMORANT_NORMAL",
       "buddyOffsetMale": [
         0,
@@ -204678,14 +204872,49 @@
         0
       ],
       "buddyScale": 19,
+      "buddyPortraitOffset": [
+        0,
+        0,
+        0
+      ],
       "thirdMove": {
         "stardustToUnlock": 50000,
         "candyToUnlock": 50
       },
       "isTransferable": true,
       "isDeployable": true,
+      "combatShoulderCameraAngle": [
+        0,
+        0,
+        0
+      ],
       "isTradable": true,
+      "combatDefaultCameraAngle": [
+        0,
+        0,
+        0
+      ],
+      "combatOpponentFocusCameraAngle": [
+        0,
+        0,
+        0
+      ],
+      "combatPlayerFocusCameraAngle": [
+        0,
+        0,
+        0
+      ],
+      "combatPlayerPokemonPositionOffset": [
+        0,
+        0,
+        0
+      ],
       "buddyGroupNumber": 2,
+      "buddyPortraitRotation": [
+        0,
+        0,
+        0
+      ],
       "ibfc": {},
       "breadTierGroup": "GROUP_2"
     }

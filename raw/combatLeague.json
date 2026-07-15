@@ -30517,7 +30517,8 @@
       "pokemonCount": 3,
       "bannedPokemon": [
         "DITTO",
-        "SHEDINJA"
+        "SHEDINJA",
+        "KYUREM"
       ],
       "badgeType": "BADGE_MASTER_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_MASTER",
@@ -30589,7 +30590,8 @@
       "pokemonCount": 3,
       "bannedPokemon": [
         "DITTO",
-        "SHEDINJA"
+        "SHEDINJA",
+        "KYUREM"
       ],
       "badgeType": "BADGE_MASTER_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_MASTER",
@@ -31234,7 +31236,8 @@
       "pokemonCount": 3,
       "bannedPokemon": [
         "DITTO",
-        "SHEDINJA"
+        "SHEDINJA",
+        "KYUREM"
       ],
       "badgeType": "BADGE_ULTRA_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_ULTRA",
@@ -31313,7 +31316,8 @@
       "pokemonCount": 3,
       "bannedPokemon": [
         "DITTO",
-        "SHEDINJA"
+        "SHEDINJA",
+        "KYUREM"
       ],
       "badgeType": "BADGE_ULTRA_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_ULTRA",

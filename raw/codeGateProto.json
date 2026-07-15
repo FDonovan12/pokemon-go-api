@@ -60,12 +60,6 @@
     }
   },
   {
-    "templateId": "PREDICT_CHARGE_MOVE_ON_SUBMIT_ROLL_BACK_CODE_GATE",
-    "data": {
-      "isEnabled": true
-    }
-  },
-  {
     "templateId": "STAMP_COLLECTION_SNAPSHOT_ENABLED_CODE_GATE",
     "data": {
       "isEnabled": true

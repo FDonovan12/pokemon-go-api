@@ -5953,6 +5953,41 @@
     }
   },
   {
+    "templateId": "V0593_MOVE_DIVE",
+    "data": {
+      "movementId": 593,
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_WATER",
+      "power": 70,
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMax": 100,
+      "vfxName": "dive",
+      "durationMs": 3300,
+      "energyDelta": -33
+    }
+  },
+  {
+    "templateId": "V0594_MOVE_GULP_MISSILE_GULPING",
+    "data": {
+      "movementId": 594,
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_NORMAL",
+      "vfxName": "gulp_missile_gulping",
+      "durationMs": 2500
+    }
+  },
+  {
+    "templateId": "V0595_MOVE_GULP_MISSILE_GORGING",
+    "data": {
+      "movementId": 595,
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_NORMAL",
+      "vfxName": "gulp_missile_gorging",
+      "durationMs": 2500
+    }
+  },
+  {
     "templateId": "VN_BM_001",
     "data": {
       "movementId": "VN_BM_001",

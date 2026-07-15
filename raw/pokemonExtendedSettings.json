@@ -40670,6 +40670,36 @@
     }
   },
   {
+    "templateId": "EXTENDED_V0845_POKEMON_CRAMORANT_GORGING",
+    "data": {
+      "uniqueId": "CRAMORANT",
+      "form": 3350,
+      "sizeSettings": {
+        "xxsLowerBound": 0.392,
+        "xsLowerBound": 0.4,
+        "mLowerBound": 0.6,
+        "mUpperBound": 1,
+        "xlUpperBound": 1.2,
+        "xxlUpperBound": 1.4
+      }
+    }
+  },
+  {
+    "templateId": "EXTENDED_V0845_POKEMON_CRAMORANT_GULPING",
+    "data": {
+      "uniqueId": "CRAMORANT",
+      "form": 3349,
+      "sizeSettings": {
+        "xxsLowerBound": 0.392,
+        "xsLowerBound": 0.4,
+        "mLowerBound": 0.6,
+        "mUpperBound": 1,
+        "xlUpperBound": 1.2,
+        "xxlUpperBound": 1.4
+      }
+    }
+  },
+  {
     "templateId": "EXTENDED_V0845_POKEMON_CRAMORANT_NORMAL",
     "data": {
       "uniqueId": "CRAMORANT",

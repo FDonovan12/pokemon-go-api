@@ -843,6 +843,20 @@
     }
   },
   {
+    "templateId": "sequence_dive",
+    "data": {
+      "sequence": [
+        "anim attacker atk-move",
+        "wait 0.5",
+        "vfx dive",
+        "sfx attacker 291-0_dive",
+        "wait 0.5",
+        "sys ui-sync",
+        "sys complete"
+      ]
+    }
+  },
+  {
     "templateId": "sequence_doom_desire",
     "data": {
       "sequence": [
@@ -1625,6 +1639,34 @@
         "wait 0.25",
         "sfx attacker 447-0_grass_knot",
         "wait 1.5",
+        "sys ui-sync",
+        "sys complete"
+      ]
+    }
+  },
+  {
+    "templateId": "sequence_gulp_missile_gorging",
+    "data": {
+      "sequence": [
+        "anim attacker atk-move",
+        "wait 1.5",
+        "vfx gulp_missile_gorging",
+        "sfx attacker 269-0_gulp_missile_gorging",
+        "wait 1.0",
+        "sys ui-sync",
+        "sys complete"
+      ]
+    }
+  },
+  {
+    "templateId": "sequence_gulp_missile_gulping",
+    "data": {
+      "sequence": [
+        "anim attacker atk-move",
+        "wait 1.5",
+        "vfx gulp_missile_gulping",
+        "sfx attacker 269-0_gulp_missile_gulping",
+        "wait 1.0",
         "sys ui-sync",
         "sys complete"
       ]

@@ -58046,9 +58046,10 @@
         "WATER_GUN_FAST"
       ],
       "cinematicMoves": [
-        "DRILL_PECK",
+        593,
         "FLY",
-        "HYDRO_PUMP"
+        "HYDRO_PUMP",
+        "SURF"
       ],
       "eliteQuickMove": [],
       "eliteCinematicMove": [],
@@ -58063,7 +58064,92 @@
         "stardustCaptureReward": 100
       }
     },
-    "same": [],
+    "same": [
+      {
+        "id": "V0845_POKEMON_CRAMORANT_GORGING",
+        "pokemonId": "CRAMORANT",
+        "dexNumber": 845,
+        "name": "Nigosier",
+        "generation": 8,
+        "slug": "3350",
+        "imageId": 845,
+        "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/845.png",
+        "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/845.png",
+        "type": [
+          "Vol",
+          "Eau"
+        ],
+        "stats": {
+          "baseStamina": 172,
+          "baseAttack": 173,
+          "baseDefense": 163
+        },
+        "quickMoves": [
+          "PECK_FAST",
+          "WATER_GUN_FAST"
+        ],
+        "cinematicMoves": [
+          593,
+          "FLY",
+          "HYDRO_PUMP",
+          "SURF"
+        ],
+        "eliteQuickMove": [],
+        "eliteCinematicMove": [],
+        "nonTmCinematicMoves": [],
+        "evolutionIds": [],
+        "family": "Nigosier",
+        "isLegendary": false,
+        "isMythical": false,
+        "isUltraBeast": false,
+        "form": "3350",
+        "encounter": {
+          "stardustCaptureReward": 100
+        }
+      },
+      {
+        "id": "V0845_POKEMON_CRAMORANT_GULPING",
+        "pokemonId": "CRAMORANT",
+        "dexNumber": 845,
+        "name": "Nigosier",
+        "generation": 8,
+        "slug": "3349",
+        "imageId": 845,
+        "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/845.png",
+        "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/845.png",
+        "type": [
+          "Vol",
+          "Eau"
+        ],
+        "stats": {
+          "baseStamina": 172,
+          "baseAttack": 173,
+          "baseDefense": 163
+        },
+        "quickMoves": [
+          "PECK_FAST",
+          "WATER_GUN_FAST"
+        ],
+        "cinematicMoves": [
+          593,
+          "FLY",
+          "HYDRO_PUMP",
+          "SURF"
+        ],
+        "eliteQuickMove": [],
+        "eliteCinematicMove": [],
+        "nonTmCinematicMoves": [],
+        "evolutionIds": [],
+        "family": "Nigosier",
+        "isLegendary": false,
+        "isMythical": false,
+        "isUltraBeast": false,
+        "form": "3349",
+        "encounter": {
+          "stardustCaptureReward": 100
+        }
+      }
+    ],
     "different": []
   },
   {

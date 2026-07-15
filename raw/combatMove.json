@@ -3657,5 +3657,39 @@
         "buffActivationChance": 0.125
       }
     }
+  },
+  {
+    "templateId": "COMBAT_V0593_MOVE_DIVE",
+    "data": {
+      "uniqueId": 593,
+      "type": "POKEMON_TYPE_WATER",
+      "power": 50,
+      "vfxName": "dive",
+      "energyDelta": -40
+    }
+  },
+  {
+    "templateId": "COMBAT_V0594_MOVE_GULP_MISSILE_GULPING",
+    "data": {
+      "uniqueId": 594,
+      "type": "POKEMON_TYPE_NORMAL",
+      "vfxName": "gulp_missile_gulping",
+      "buffs": {
+        "targetDefenseStatStageChange": -1,
+        "buffActivationChance": 1
+      }
+    }
+  },
+  {
+    "templateId": "COMBAT_V0595_MOVE_GULP_MISSILE_GORGING",
+    "data": {
+      "uniqueId": 595,
+      "type": "POKEMON_TYPE_NORMAL",
+      "vfxName": "gulp_missile_gorging",
+      "buffs": {
+        "targetAttackStatStageChange": -2,
+        "buffActivationChance": 1
+      }
+    }
   }
 ]

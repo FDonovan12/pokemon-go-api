@@ -560,6 +560,13 @@
     }
   },
   {
+    "templateId": "N_DISPLAY_n_backpack_willow",
+    "data": {
+      "iconAddress": "n_backpack_willow_icon",
+      "displayStringId": "avatar_backpack_default_willow_backpack"
+    }
+  },
+  {
     "templateId": "N_DISPLAY_n_backpack_zubatbp_0",
     "data": {
       "iconAddress": "n_backpack_zubatbp_0_icon",
@@ -1453,6 +1460,13 @@
     "data": {
       "iconAddress": "n_gloves_empty_0_icon",
       "displayStringId": "n_gloves_unequip_0_display_name"
+    }
+  },
+  {
+    "templateId": "N_DISPLAY_n_gloves_willow",
+    "data": {
+      "iconAddress": "n_gloves_willow_icon",
+      "displayStringId": "avatar_shirt_default_willow_gloves"
     }
   },
   {
@@ -4630,6 +4644,13 @@
     }
   },
   {
+    "templateId": "N_DISPLAY_n_pants_willow",
+    "data": {
+      "iconAddress": "n_pants_willow_icon",
+      "displayStringId": "avatar_pants_default_willow_pants"
+    }
+  },
+  {
     "templateId": "N_DISPLAY_n_pose_001",
     "data": {
       "iconAddress": "pose_01",
@@ -6618,6 +6639,13 @@
     }
   },
   {
+    "templateId": "N_DISPLAY_n_shirt_jleague",
+    "data": {
+      "iconAddress": "n_shirt_jleague_icon",
+      "displayStringId": "avatar_shirt_ JLeague_2026"
+    }
+  },
+  {
     "templateId": "N_DISPLAY_n_shirt_jogger_0",
     "data": {
       "iconAddress": "n_shirt_jogger_0_icon",
@@ -8410,6 +8438,13 @@
     }
   },
   {
+    "templateId": "N_DISPLAY_n_shirt_willow",
+    "data": {
+      "iconAddress": "n_shirt_willow_icon",
+      "displayStringId": "avatar_shirt_default_willow_coat"
+    }
+  },
+  {
     "templateId": "N_DISPLAY_n_shirt_wintersweater2023_0",
     "data": {
       "iconAddress": "n_shirt_wintersweater2023_0_icon",
@@ -9520,6 +9555,13 @@
     "data": {
       "iconAddress": "n_shoes_wcs2024winnersitems_0_icon",
       "displayStringId": "avatar_shoes_wcs2024champion"
+    }
+  },
+  {
+    "templateId": "N_DISPLAY_n_shoes_willow",
+    "data": {
+      "iconAddress": "n_shoes_willow_icon",
+      "displayStringId": "avatar_shirt_default_willow_shoes"
     }
   },
   {
@@ -11279,6 +11321,12 @@
     "templateId": "N_DISPLAY_set_wcs2025winnersitems_0",
     "data": {
       "iconAddress": "set_wcs2025winnersitems_0"
+    }
+  },
+  {
+    "templateId": "N_DISPLAY_set_willow",
+    "data": {
+      "iconAddress": "set_willow"
     }
   },
   {

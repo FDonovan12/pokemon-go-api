@@ -646,63 +646,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "ARTICUNO",
+            "pokemonId": "KYOGRE",
             "pokemonDisplay": {
-              "form": "ARTICUNO_NORMAL"
-            }
-          },
-          "unlockedAtRank": 20,
-          "attackIvOverride": {
-            "range": {
-              "min": 10,
-              "max": 15
-            }
-          },
-          "defenseIvOverride": {
-            "range": {
-              "min": 10,
-              "max": 15
-            }
-          },
-          "staminaIvOverride": {
-            "range": {
-              "min": 10,
-              "max": 15
-            }
-          }
-        },
-        {
-          "pokemon": {
-            "pokemonId": "ZAPDOS",
-            "pokemonDisplay": {
-              "form": "ZAPDOS_NORMAL"
-            }
-          },
-          "unlockedAtRank": 20,
-          "attackIvOverride": {
-            "range": {
-              "min": 10,
-              "max": 15
-            }
-          },
-          "defenseIvOverride": {
-            "range": {
-              "min": 10,
-              "max": 15
-            }
-          },
-          "staminaIvOverride": {
-            "range": {
-              "min": 10,
-              "max": 15
-            }
-          }
-        },
-        {
-          "pokemon": {
-            "pokemonId": "MOLTRES",
-            "pokemonDisplay": {
-              "form": "MOLTRES_NORMAL"
+              "form": "KYOGRE_NORMAL"
             }
           },
           "unlockedAtRank": 20,
@@ -1375,63 +1321,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "ARTICUNO",
+            "pokemonId": "KYOGRE",
             "pokemonDisplay": {
-              "form": "ARTICUNO_NORMAL"
-            }
-          },
-          "unlockedAtRank": 20,
-          "attackIvOverride": {
-            "range": {
-              "min": 10,
-              "max": 15
-            }
-          },
-          "defenseIvOverride": {
-            "range": {
-              "min": 10,
-              "max": 15
-            }
-          },
-          "staminaIvOverride": {
-            "range": {
-              "min": 10,
-              "max": 15
-            }
-          }
-        },
-        {
-          "pokemon": {
-            "pokemonId": "ZAPDOS",
-            "pokemonDisplay": {
-              "form": "ZAPDOS_NORMAL"
-            }
-          },
-          "unlockedAtRank": 20,
-          "attackIvOverride": {
-            "range": {
-              "min": 10,
-              "max": 15
-            }
-          },
-          "defenseIvOverride": {
-            "range": {
-              "min": 10,
-              "max": 15
-            }
-          },
-          "staminaIvOverride": {
-            "range": {
-              "min": 10,
-              "max": 15
-            }
-          }
-        },
-        {
-          "pokemon": {
-            "pokemonId": "MOLTRES",
-            "pokemonDisplay": {
-              "form": "MOLTRES_NORMAL"
+              "form": "KYOGRE_NORMAL"
             }
           },
           "unlockedAtRank": 20,
