@@ -1783,7 +1783,7 @@
       "category": "ITEM_CATEGORY_INCENSE",
       "dropTrainerLevel": 6,
       "incense": {
-        "incenseLifetimeSeconds": 900,
+        "incenseLifetimeSeconds": 1800,
         "spawnTableProbability": 0.25
       },
       "ignoreInventorySpace": true
