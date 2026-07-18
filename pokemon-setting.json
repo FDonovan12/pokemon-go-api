@@ -12411,7 +12411,9 @@
         "FOCUS_BLAST",
         "FLAMETHROWER"
       ],
-      "eliteQuickMove": [],
+      "eliteQuickMove": [
+        "COUNTER_FAST"
+      ],
       "eliteCinematicMove": [
         "PSYSTRIKE",
         "SHADOW_BALL",

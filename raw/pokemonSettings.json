@@ -45201,6 +45201,9 @@
         "shadowChargeMove": "FRUSTRATION"
       },
       "buddyGroupNumber": 3,
+      "eliteQuickMove": [
+        "COUNTER_FAST"
+      ],
       "eliteCinematicMove": [
         "PSYSTRIKE",
         "SHADOW_BALL",
@@ -45474,6 +45477,9 @@
         "shadowChargeMove": "FRUSTRATION"
       },
       "buddyGroupNumber": 3,
+      "eliteQuickMove": [
+        "COUNTER_FAST"
+      ],
       "eliteCinematicMove": [
         "PSYSTRIKE",
         "SHADOW_BALL",
