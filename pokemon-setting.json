@@ -58048,7 +58048,7 @@
         "WATER_GUN_FAST"
       ],
       "cinematicMoves": [
-        593,
+        "DIVE",
         "FLY",
         "HYDRO_PUMP",
         "SURF"
@@ -58073,10 +58073,10 @@
         "dexNumber": 845,
         "name": "Nigosier",
         "generation": 8,
-        "slug": "3350",
-        "imageId": 845,
-        "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/845.png",
-        "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/845.png",
+        "slug": "nigosier-gorging",
+        "imageId": 10183,
+        "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/10183.png",
+        "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/10183.png",
         "type": [
           "Vol",
           "Eau"
@@ -58091,7 +58091,7 @@
           "WATER_GUN_FAST"
         ],
         "cinematicMoves": [
-          593,
+          "DIVE",
           "FLY",
           "HYDRO_PUMP",
           "SURF"
@@ -58104,7 +58104,7 @@
         "isLegendary": false,
         "isMythical": false,
         "isUltraBeast": false,
-        "form": "3350",
+        "form": "CRAMORANT_GORGING",
         "encounter": {
           "stardustCaptureReward": 100
         }
@@ -58115,10 +58115,10 @@
         "dexNumber": 845,
         "name": "Nigosier",
         "generation": 8,
-        "slug": "3349",
-        "imageId": 845,
-        "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/845.png",
-        "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/845.png",
+        "slug": "nigosier-gulping",
+        "imageId": 10182,
+        "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/10182.png",
+        "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/10182.png",
         "type": [
           "Vol",
           "Eau"
@@ -58133,7 +58133,7 @@
           "WATER_GUN_FAST"
         ],
         "cinematicMoves": [
-          593,
+          "DIVE",
           "FLY",
           "HYDRO_PUMP",
           "SURF"
@@ -58146,7 +58146,7 @@
         "isLegendary": false,
         "isMythical": false,
         "isUltraBeast": false,
-        "form": "3349",
+        "form": "CRAMORANT_GULPING",
         "encounter": {
           "stardustCaptureReward": 100
         }

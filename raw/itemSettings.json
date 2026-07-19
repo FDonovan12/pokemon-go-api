@@ -1282,7 +1282,7 @@
         "eventEndTime": "2026-06-27T17:00:00",
         "itemBagDescriptionKey": "item_event_ticket_gray_details_MegaSkarmoryRaidDay",
         "giftable": true,
-        "giftItem": 2239,
+        "giftItem": "ITEM_EVENT_TICKET_S23_2026_03_TO_GIFT",
         "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2F9398cb22_PGO-MCS_Skarmory_Super_Mega_Raid_Day_v4-1024x576.jpg",
         "displayV2Enabled": true,
         "backgroundImageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2F9398cb22_PGO-MCS_Skarmory_Super_Mega_Raid_Day_v4-1024x576.jpg",
@@ -1314,7 +1314,7 @@
   {
     "templateId": "ITEM_EVENT_TICKET_S23_2026_04",
     "data": {
-      "itemId": 2208,
+      "itemId": "ITEM_EVENT_TICKET_S23_2026_04",
       "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
       "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
       "globalEventTicket": {
@@ -1322,7 +1322,7 @@
         "eventEndTime": "2026-07-18T17:00:00",
         "itemBagDescriptionKey": "item_event_ticket_gray_details_MegaRaichuRaidDay",
         "giftable": true,
-        "giftItem": 2240,
+        "giftItem": "ITEM_EVENT_TICKET_S23_2026_04_TO_GIFT",
         "eventBannerUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F97c2eaee_PGO-MCS_Raichu_Super_Mega_Raid_Day_v3-1024x576-nologo.jpg",
         "displayV2Enabled": true,
         "backgroundImageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F97c2eaee_PGO-MCS_Raichu_Super_Mega_Raid_Day_v3-1024x576-nologo.jpg",
@@ -1354,14 +1354,14 @@
   {
     "templateId": "ITEM_EVENT_TICKET_S23_2026_04_TO_GIFT",
     "data": {
-      "itemId": 2240,
+      "itemId": "ITEM_EVENT_TICKET_S23_2026_04_TO_GIFT",
       "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
       "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
       "globalEventTicket": {
         "eventStartTime": "2026-07-18T14:00:00",
         "eventEndTime": "2026-07-18T17:00:00",
         "itemBagDescriptionKey": "item_event_ticket_gray_desc_MegaRaichuRaidDay",
-        "ticketItem": 2208,
+        "ticketItem": "ITEM_EVENT_TICKET_S23_2026_04",
         "eventBannerUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F97c2eaee_PGO-MCS_Raichu_Super_Mega_Raid_Day_v3-1024x576-nologo.jpg",
         "backgroundImageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F97c2eaee_PGO-MCS_Raichu_Super_Mega_Raid_Day_v3-1024x576-nologo.jpg",
         "clientEventStartTimeUtcMs": "1784383200000",
@@ -1375,7 +1375,7 @@
   {
     "templateId": "ITEM_EVENT_TICKET_S23_2026_06",
     "data": {
-      "itemId": 2210,
+      "itemId": "ITEM_EVENT_TICKET_S23_2026_06",
       "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
       "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
       "globalEventTicket": {
@@ -1383,7 +1383,7 @@
         "eventEndTime": "2026-07-27T20:00:00",
         "itemBagDescriptionKey": "item_event_ticket_gray_details_shayminmasterworkrerun",
         "giftable": true,
-        "giftItem": 2242,
+        "giftItem": "ITEM_EVENT_TICKET_S23_2026_06_TO_GIFT",
         "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fe2400534_20260511_pgo_s23_ShinyShaymin_1024x576_nologo.jpg",
         "conflictStoryQuestIds": [
           "RERUN_MASTERWORK_SHINY_SHAYMIN_SET_0_HEADER",
@@ -1430,7 +1430,7 @@
   {
     "templateId": "ITEM_EVENT_TICKET_S23_2026_07",
     "data": {
-      "itemId": 2211,
+      "itemId": "ITEM_EVENT_TICKET_S23_2026_07",
       "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
       "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
       "globalEventTicket": {
@@ -1438,7 +1438,7 @@
         "eventEndTime": "2026-07-26T20:00:00",
         "itemBagDescriptionKey": "item_event_ticket_pink_desc_MegaRayquaza26",
         "giftable": true,
-        "giftItem": 2243,
+        "giftItem": "ITEM_EVENT_TICKET_S23_2026_07_TO_GIFT",
         "eventBannerUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F0ba8ff0a_20260508_pgo_s23_megarayquaza_1024x576_nologo.jpg",
         "displayV2Enabled": true,
         "backgroundImageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F0ba8ff0a_20260508_pgo_s23_megarayquaza_1024x576_nologo.jpg",
@@ -1473,14 +1473,14 @@
   {
     "templateId": "ITEM_EVENT_TICKET_S23_2026_07_TO_GIFT",
     "data": {
-      "itemId": 2243,
+      "itemId": "ITEM_EVENT_TICKET_S23_2026_07_TO_GIFT",
       "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
       "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
       "globalEventTicket": {
         "eventStartTime": "2026-07-25T10:00:00",
         "eventEndTime": "2026-07-26T20:00:00",
         "itemBagDescriptionKey": "item_event_ticket_pink_details_MegaRayquaza26",
-        "ticketItem": 2211,
+        "ticketItem": "ITEM_EVENT_TICKET_S23_2026_07",
         "eventBannerUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F0ba8ff0a_20260508_pgo_s23_megarayquaza_1024x576_nologo.jpg",
         "backgroundImageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F0ba8ff0a_20260508_pgo_s23_megarayquaza_1024x576_nologo.jpg",
         "clientEventStartTimeUtcMs": "1784973600000",
@@ -1494,7 +1494,7 @@
   {
     "templateId": "ITEM_EVENT_TICKET_S23_2026_08",
     "data": {
-      "itemId": 2212,
+      "itemId": "ITEM_EVENT_TICKET_S23_2026_08",
       "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
       "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
       "globalEventTicket": {
@@ -1502,7 +1502,7 @@
         "eventEndTime": "2026-08-01T17:00:00",
         "itemBagDescriptionKey": "ITEM_EVENT_TICKET_S23_2026_08_desc_gmaxRillaboom26",
         "giftable": true,
-        "giftItem": 2244,
+        "giftItem": "ITEM_EVENT_TICKET_S23_2026_08_TO_GIFT",
         "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2F871eef71_PGO-MCS_GMAX_Rillaboom_Max_Battle_Day_v1-1024x576-nologo.jpg",
         "displayV2Enabled": true,
         "backgroundImageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2F871eef71_PGO-MCS_GMAX_Rillaboom_Max_Battle_Day_v1-1024x576-nologo.jpg",
@@ -1539,14 +1539,14 @@
   {
     "templateId": "ITEM_EVENT_TICKET_S23_2026_08_TO_GIFT",
     "data": {
-      "itemId": 2244,
+      "itemId": "ITEM_EVENT_TICKET_S23_2026_08_TO_GIFT",
       "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
       "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
       "globalEventTicket": {
         "eventStartTime": "2026-08-01T14:00:00",
         "eventEndTime": "2026-08-01T17:00:00",
         "itemBagDescriptionKey": "ITEM_EVENT_TICKET_S23_2026_08_details_gmaxRillaboom26",
-        "ticketItem": 2212,
+        "ticketItem": "ITEM_EVENT_TICKET_S23_2026_08",
         "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2F871eef71_PGO-MCS_GMAX_Rillaboom_Max_Battle_Day_v1-1024x576-nologo.jpg",
         "clientEventStartTimeUtcMs": "1785592800000",
         "clientEventEndTimeUtcMs": "1785603600000"
@@ -1566,7 +1566,7 @@
         "eventEndTime": "2026-07-06T20:00:00",
         "itemBagDescriptionKey": "item_event_ticket_evergreen_desc_10THPARTY0726",
         "giftable": true,
-        "giftItem": 2245,
+        "giftItem": "ITEM_EVENT_TICKET_S23_2026_09_TO_GIFT",
         "eventBannerUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2F3b085206_PGO-MCS_10th_Anniversary_Celebration_TICKET_v2-1024x576.jpg",
         "displayV2Enabled": true,
         "backgroundImageUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2F3b085206_PGO-MCS_10th_Anniversary_Celebration_TICKET_v2-1024x576.jpg",

@@ -1,0 +1,141 @@
+[
+  {
+    "templateId": "RAID_ENTRY_COST_SETTINGS",
+    "data": {
+      "raidLevelEntryCost": [
+        {
+          "raidLevel": "RAID_LEVEL_4_MEGA_ENHANCED",
+          "raidEntryCost": [
+            {
+              "raidType": "RAID_LOCATION_REQUERIMENT_IN_PERSON",
+              "itemRequirement": {
+                "item": "ITEM_PAID_RAID_TICKET",
+                "count": 1
+              }
+            },
+            {
+              "raidType": "RAID_LOCATION_REQUERIMENT_REMOTE",
+              "itemRequirement": {
+                "item": "ITEM_ENHANCED_CURRENCY",
+                "count": 200
+              }
+            },
+            {
+              "raidType": "RAID_LOCATION_REQUERIMENT_IN_PERSON",
+              "itemRequirement": {
+                "item": "ITEM_FREE_RAID_TICKET",
+                "count": 1
+              }
+            },
+            {
+              "raidType": "RAID_LOCATION_REQUERIMENT_IN_PERSON",
+              "itemRequirement": {
+                "item": "ITEM_ENHANCED_CURRENCY",
+                "count": 200
+              }
+            }
+          ]
+        },
+        {
+          "raidLevel": "RAID_LEVEL_5_MEGA_ENHANCED",
+          "raidEntryCost": [
+            {
+              "raidType": "RAID_LOCATION_REQUERIMENT_IN_PERSON",
+              "itemRequirement": {
+                "item": "ITEM_PAID_RAID_TICKET",
+                "count": 1
+              }
+            },
+            {
+              "raidType": "RAID_LOCATION_REQUERIMENT_REMOTE",
+              "itemRequirement": {
+                "item": "ITEM_ENHANCED_CURRENCY",
+                "count": 200
+              }
+            },
+            {
+              "raidType": "RAID_LOCATION_REQUERIMENT_IN_PERSON",
+              "itemRequirement": {
+                "item": "ITEM_FREE_RAID_TICKET",
+                "count": 1
+              }
+            },
+            {
+              "raidType": "RAID_LOCATION_REQUERIMENT_IN_PERSON",
+              "itemRequirement": {
+                "item": "ITEM_ENHANCED_CURRENCY",
+                "count": 200
+              }
+            }
+          ]
+        },
+        {
+          "raidLevel": "RAID_LEVEL_MEGA",
+          "raidEntryCost": [
+            {
+              "raidType": "RAID_LOCATION_REQUERIMENT_IN_PERSON",
+              "itemRequirement": {
+                "item": "ITEM_PAID_RAID_TICKET",
+                "count": 1
+              }
+            },
+            {
+              "raidType": "RAID_LOCATION_REQUERIMENT_REMOTE",
+              "itemRequirement": {
+                "item": "ITEM_REMOTE_RAID_TICKET",
+                "count": 1
+              }
+            },
+            {
+              "raidType": "RAID_LOCATION_REQUERIMENT_IN_PERSON",
+              "itemRequirement": {
+                "item": "ITEM_FREE_RAID_TICKET",
+                "count": 1
+              }
+            },
+            {
+              "raidType": "RAID_LOCATION_REQUERIMENT_IN_PERSON",
+              "itemRequirement": {
+                "item": "ITEM_ENHANCED_CURRENCY",
+                "count": 150
+              }
+            }
+          ]
+        },
+        {
+          "raidLevel": "RAID_LEVEL_MEGA_5",
+          "raidEntryCost": [
+            {
+              "raidType": "RAID_LOCATION_REQUERIMENT_IN_PERSON",
+              "itemRequirement": {
+                "item": "ITEM_PAID_RAID_TICKET",
+                "count": 1
+              }
+            },
+            {
+              "raidType": "RAID_LOCATION_REQUERIMENT_REMOTE",
+              "itemRequirement": {
+                "item": "ITEM_REMOTE_RAID_TICKET",
+                "count": 1
+              }
+            },
+            {
+              "raidType": "RAID_LOCATION_REQUERIMENT_IN_PERSON",
+              "itemRequirement": {
+                "item": "ITEM_FREE_RAID_TICKET",
+                "count": 1
+              }
+            },
+            {
+              "raidType": "RAID_LOCATION_REQUERIMENT_IN_PERSON",
+              "itemRequirement": {
+                "item": "ITEM_ENHANCED_CURRENCY",
+                "count": 150
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

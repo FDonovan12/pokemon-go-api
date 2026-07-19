@@ -1,0 +1,110 @@
+[
+  {
+    "templateId": "AMUSE_BOUCHE_WELCOME_BACK_REWARDS",
+    "data": {
+      "enableMultiDayRewards": true,
+      "carouselDisplaySettings": {
+        "questIconCarousels": [
+          {
+            "questTemplateId": "AMUSE_BOUCHE_WB_REWARDS_MULTIPLE_SHORT_0",
+            "rewardData": [
+              {
+                "type": "ITEM",
+                "item": {
+                  "item": "ITEM_POKE_BALL",
+                  "amount": 5
+                }
+              }
+            ]
+          },
+          {
+            "questTemplateId": "AMUSE_BOUCHE_WB_REWARDS_MULTIPLE_SHORT_1",
+            "rewardData": [
+              {
+                "type": "ITEM",
+                "item": {
+                  "item": "ITEM_LUCKY_EGG",
+                  "amount": 1
+                }
+              }
+            ]
+          },
+          {
+            "questTemplateId": "AMUSE_BOUCHE_WB_REWARDS_MULTIPLE_SHORT_2",
+            "rewardData": [
+              {
+                "type": "ITEM",
+                "item": {
+                  "item": "ITEM_GREAT_BALL",
+                  "amount": 5
+                }
+              }
+            ]
+          },
+          {
+            "questTemplateId": "AMUSE_BOUCHE_WB_REWARDS_MULTIPLE_SHORT_3",
+            "rewardData": [
+              {
+                "type": "ITEM",
+                "item": {
+                  "item": "ITEM_TROY_DISK",
+                  "amount": 1
+                }
+              }
+            ]
+          },
+          {
+            "questTemplateId": "AMUSE_BOUCHE_WB_REWARDS_MULTIPLE_SHORT_4",
+            "rewardData": [
+              {
+                "type": "ITEM",
+                "item": {
+                  "item": "ITEM_ULTRA_BALL",
+                  "amount": 5
+                }
+              }
+            ]
+          },
+          {
+            "questTemplateId": "AMUSE_BOUCHE_WB_REWARDS_MULTIPLE_SHORT_5",
+            "rewardData": [
+              {
+                "type": "ITEM",
+                "item": {
+                  "item": "ITEM_INCUBATOR_BASIC",
+                  "amount": 1
+                }
+              }
+            ]
+          },
+          {
+            "questTemplateId": "AMUSE_BOUCHE_WB_REWARDS_MULTIPLE_SHORT_6",
+            "rewardData": [
+              {
+                "type": "ITEM",
+                "item": {
+                  "item": "ITEM_PAID_RAID_TICKET",
+                  "amount": 1
+                }
+              },
+              {
+                "type": "ITEM",
+                "item": {
+                  "item": "ITEM_POFFIN",
+                  "amount": 1
+                }
+              },
+              {
+                "type": "ITEM",
+                "item": {
+                  "item": "ITEM_GEN4_EVOLUTION_STONE",
+                  "amount": 1
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+]

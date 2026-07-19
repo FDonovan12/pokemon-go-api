@@ -1,0 +1,42 @@
+[
+  {
+    "templateId": "QUEST_DIALOGUE_INBOX_SETTINGS",
+    "data": {
+      "cooldownDurationMs": "300000",
+      "QuestDialogueTriggers": [
+        {
+          "trigger": "CATCH_POKEMON",
+          "numberOfInteractions": 1
+        },
+        {
+          "trigger": "PLAYER_PROFILE",
+          "numberOfInteractions": 1
+        },
+        {
+          "trigger": "INCENSE",
+          "numberOfInteractions": 1
+        },
+        {
+          "trigger": "ROUTE",
+          "numberOfInteractions": 1
+        },
+        {
+          "trigger": "TGR",
+          "numberOfInteractions": 1
+        },
+        {
+          "trigger": "PARTY_PLAY",
+          "numberOfInteractions": 1
+        },
+        {
+          "trigger": "MEGA_ENERGY",
+          "numberOfInteractions": 1
+        },
+        {
+          "trigger": "POWER_SPOT",
+          "numberOfInteractions": 1
+        }
+      ]
+    }
+  }
+]

@@ -2,7 +2,11 @@
   {
     "templateId": "SHARED_FUSION_SETTINGS",
     "data": {
-      "fusionEnabled": true
+      "fusionEnabled": true,
+      "fusionAlignmentSettings": {
+        "disableShadowPokemonAsComponent": true,
+        "disablePurifiedPokemonAsComponent": true
+      }
     }
   }
 ]

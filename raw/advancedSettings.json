@@ -2,7 +2,9 @@
   {
     "templateId": "ADVANCED_SETTINGS",
     "data": {
-      "downloadAllAssetsEnabled": true
+      "downloadAllAssetsEnabled": true,
+      "maxDeviceMemoryForHighQualityModeMb": 6144,
+      "maxDeviceMemoryForStandardQualityModeMb": 6100
     }
   }
 ]

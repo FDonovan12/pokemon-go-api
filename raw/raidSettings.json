@@ -17,14 +17,14 @@
       "unsupportedRaidLevelsForFriendInvites": [
         "RAID_LEVEL_EXTENDED_EGG",
         "RAID_LEVEL_4",
-        18,
-        19
+        "RAID_LEVEL_COORDINATED_1",
+        "RAID_LEVEL_COORDINATED_2"
       ],
       "unsupportedRemoteRaidLevels": [
         "RAID_LEVEL_EXTENDED_EGG",
         "RAID_LEVEL_4",
-        18,
-        19
+        "RAID_LEVEL_COORDINATED_1",
+        "RAID_LEVEL_COORDINATED_2"
       ],
       "ablcemdnbkc": true,
       "raidLevelMusicOverrides": [
@@ -147,7 +147,19 @@
           "battleMusicKey": "RaidMegaMewtwoBattleMusic"
         }
       ],
-      "fetchProfileFromSocialEnabled": true
+      "fetchProfileFromSocialEnabled": true,
+      "raidLevelEncounterTimings": [
+        {
+          "showCatchLootOnPokemonPage": true,
+          "autoThrowCountdownStartSeconds": 5,
+          "autoThrowSeconds": 20
+        },
+        {
+          "showCatchLootOnPokemonPage": true,
+          "autoThrowCountdownStartSeconds": 20,
+          "autoThrowSeconds": 20
+        }
+      ]
     }
   }
 ]

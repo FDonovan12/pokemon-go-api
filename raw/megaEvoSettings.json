@@ -12,7 +12,33 @@
       "enableMegaEvolveInLobby": true,
       "numMegaLevels": 4,
       "clientMegaCooldownBufferMs": 2000,
-      "enableMegaLevelLegacyAward": true
+      "enableMegaLevelLegacyAward": true,
+      "separatedTempEvoBranches": [
+        {
+          "pokedexId": "CHARIZARD",
+          "tempEvoId": "TEMP_EVOLUTION_MEGA_X"
+        },
+        {
+          "pokedexId": "CHARIZARD",
+          "tempEvoId": "TEMP_EVOLUTION_MEGA_Y"
+        },
+        {
+          "pokedexId": "MEWTWO",
+          "tempEvoId": "TEMP_EVOLUTION_MEGA_X"
+        },
+        {
+          "pokedexId": "MEWTWO",
+          "tempEvoId": "TEMP_EVOLUTION_MEGA_Y"
+        },
+        {
+          "pokedexId": "RAICHU",
+          "tempEvoId": "TEMP_EVOLUTION_MEGA_X"
+        },
+        {
+          "pokedexId": "RAICHU",
+          "tempEvoId": "TEMP_EVOLUTION_MEGA_Y"
+        }
+      ]
     }
   }
 ]

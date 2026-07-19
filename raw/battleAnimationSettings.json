@@ -21,6 +21,10 @@
           "transitionInDurationSeconds": 0.06,
           "transitionInterimDelaySeconds": 0.001,
           "transitionOutDurationSeconds": 0.15
+        },
+        "missedFastAttackRecoverySettings": {
+          "enabled": true,
+          "maxCatchUpAttacks": 3
         }
       }
     }

@@ -5955,7 +5955,7 @@
   {
     "templateId": "V0593_MOVE_DIVE",
     "data": {
-      "movementId": 593,
+      "movementId": "DIVE",
       "animationId": 5,
       "pokemonType": "POKEMON_TYPE_WATER",
       "power": 70,
@@ -5970,7 +5970,7 @@
   {
     "templateId": "V0594_MOVE_GULP_MISSILE_GULPING",
     "data": {
-      "movementId": 594,
+      "movementId": "GULP_MISSILE_GULPING",
       "animationId": 5,
       "pokemonType": "POKEMON_TYPE_NORMAL",
       "vfxName": "gulp_missile_gulping",
@@ -5980,7 +5980,7 @@
   {
     "templateId": "V0595_MOVE_GULP_MISSILE_GORGING",
     "data": {
-      "movementId": 595,
+      "movementId": "GULP_MISSILE_GORGING",
       "animationId": 5,
       "pokemonType": "POKEMON_TYPE_NORMAL",
       "vfxName": "gulp_missile_gorging",

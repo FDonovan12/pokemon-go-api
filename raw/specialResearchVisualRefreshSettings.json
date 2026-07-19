@@ -1,0 +1,13 @@
+[
+  {
+    "templateId": "SPECIAL_RESEARCH_VISUAL_REFRESH_SETTINGS",
+    "data": {
+      "newQuestIndicatorsEnabled": true,
+      "specialResearchCategoriesEnabled": true,
+      "specialResearchCategoryColorsEnabled": true,
+      "updatedSortingEnabled": true,
+      "multipleFavoritesEnabled": true,
+      "tagNewQuestFromLapsedState": true
+    }
+  }
+]
