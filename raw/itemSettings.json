@@ -349,9 +349,7 @@
         "eventPassId": "EVENT_PASS_PIKACHU_CELEBRATION_2026_EVENT"
       },
       "timePeriodCounters": {
-        "playerActivity": {
-          "limit": 500
-        }
+        "playerActivity": {}
       },
       "hideItemInInventory": true
     }
