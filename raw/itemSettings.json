@@ -349,7 +349,9 @@
         "eventPassId": "EVENT_PASS_PIKACHU_CELEBRATION_2026_EVENT"
       },
       "timePeriodCounters": {
-        "playerActivity": {}
+        "playerActivity": {
+          "limit": 500
+        }
       },
       "hideItemInInventory": true
     }
@@ -367,7 +369,7 @@
       },
       "timePeriodCounters": {
         "playerActivity": {
-          "limit": 300
+          "limit": 500
         }
       },
       "hideItemInInventory": true
@@ -2711,7 +2713,7 @@
       "itemType": "ITEM_TYPE_DISK",
       "category": "ITEM_CATEGORY_DISK",
       "dropTrainerLevel": 1,
-      "itemCap": 1
+      "itemCap": 5
     }
   },
   {
