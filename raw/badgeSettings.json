@@ -1813,6 +1813,20 @@
     }
   },
   {
+    "templateId": "BADGE_EVENT_0192",
+    "data": {
+      "badgeType": "BADGE_EVENT_0192",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true,
+      "eventBadgeSettings": {
+        "obEventBadgeSettingsNumber6": 1
+      }
+    }
+  },
+  {
     "templateId": "BADGE_EVENT_0193",
     "data": {
       "badgeType": "BADGE_EVENT_0193",
@@ -2208,6 +2222,20 @@
     "templateId": "BADGE_EVENT_0225",
     "data": {
       "badgeType": "BADGE_EVENT_0225",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true,
+      "eventBadgeSettings": {
+        "obEventBadgeSettingsNumber6": 1
+      }
+    }
+  },
+  {
+    "templateId": "BADGE_EVENT_0227",
+    "data": {
+      "badgeType": "BADGE_EVENT_0227",
       "badgeRank": 2,
       "targets": [
         100

@@ -521,6 +521,13 @@
     }
   },
   {
+    "templateId": "LC_2026_JP_RED",
+    "data": {
+      "locationCard": "LC_2026_JP_RED",
+      "imageUrl": "lc_2026_jp_red"
+    }
+  },
+  {
     "templateId": "LC_2026_LOSANGELES_GOTOUR_001",
     "data": {
       "locationCard": "LC_2026_LOSANGELES_GOTOUR_001",

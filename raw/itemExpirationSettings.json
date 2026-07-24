@@ -100,6 +100,14 @@
     }
   },
   {
+    "templateId": "ITEM_EXPIRATION_ITEM_EVENT_PASS_POINT_LIVE_OPS_09",
+    "data": {
+      "item": "ITEM_EVENT_PASS_POINT_LIVE_OPS_09",
+      "expirationTime": "2026-08-14T20:00:00",
+      "emergencyExpirationTime": "2026-08-15T10:00:00"
+    }
+  },
+  {
     "templateId": "ITEM_EXPIRATION_ITEM_EVENT_PASS_POINT_MONTHLY_01",
     "data": {
       "item": "ITEM_EVENT_PASS_POINT_MONTHLY_01",
@@ -119,8 +127,8 @@
     "templateId": "ITEM_EXPIRATION_ITEM_EVENT_PASS_POINT_MONTHLY_03",
     "data": {
       "item": "ITEM_EVENT_PASS_POINT_MONTHLY_03",
-      "expirationTime": "2026-06-04T10:00:00",
-      "emergencyExpirationTime": "2026-06-06T10:00:00"
+      "expirationTime": "2026-09-10T10:00:00",
+      "emergencyExpirationTime": "2026-09-12T10:00:00"
     }
   },
   {

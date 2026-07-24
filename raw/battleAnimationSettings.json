@@ -16,7 +16,7 @@
       },
       "combatAnimationConfiguration": {
         "fastAttackSettings": {},
-        "projectedHealthAnimationDurationSeconds": 0.09,
+        "projectedHealthAnimationDurationSeconds": 0.5,
         "uiCameraAnimationSettings": {
           "transitionInDurationSeconds": 0.06,
           "transitionInterimDelaySeconds": 0.001,

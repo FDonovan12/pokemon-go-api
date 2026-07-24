@@ -646,9 +646,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "KYOGRE",
+            "pokemonId": "SOLGALEO",
             "pokemonDisplay": {
-              "form": "KYOGRE_NORMAL"
+              "form": "SOLGALEO_NORMAL"
             }
           },
           "unlockedAtRank": 20,
@@ -1321,9 +1321,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "KYOGRE",
+            "pokemonId": "SOLGALEO",
             "pokemonDisplay": {
-              "form": "KYOGRE_NORMAL"
+              "form": "SOLGALEO_NORMAL"
             }
           },
           "unlockedAtRank": 20,
