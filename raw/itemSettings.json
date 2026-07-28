@@ -125,7 +125,7 @@
       "category": "ITEM_CATEGORY_ENHANCED_CURRENCY",
       "dropTrainerLevel": 1,
       "ignoreInventorySpace": true,
-      "itemCap": 2000
+      "itemCap": 600
     }
   },
   {
@@ -368,7 +368,9 @@
         "eventPassId": "EVENT_PASS_AFTERPARTY2026_EVENT"
       },
       "timePeriodCounters": {
-        "playerActivity": {}
+        "playerActivity": {
+          "limit": 500
+        }
       },
       "hideItemInInventory": true
     }

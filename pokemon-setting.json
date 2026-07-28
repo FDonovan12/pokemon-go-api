@@ -32060,9 +32060,7 @@
             "THUNDER"
           ],
           "eliteQuickMove": [],
-          "eliteCinematicMove": [
-            "ROAR_OF_TIME"
-          ],
+          "eliteCinematicMove": [],
           "nonTmCinematicMoves": [
             "ROAR_OF_TIME"
           ],
@@ -32156,9 +32154,7 @@
             "AQUA_TAIL"
           ],
           "eliteQuickMove": [],
-          "eliteCinematicMove": [
-            "SPACIAL_REND"
-          ],
+          "eliteCinematicMove": [],
           "nonTmCinematicMoves": [
             "SPACIAL_REND"
           ],

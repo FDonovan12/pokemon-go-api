@@ -6447,6 +6447,19 @@
     "data": {
       "stickerId": "STICKER_SPRING_2026_2",
       "maxCount": 25,
+      "pokemonId": "FEEBAS",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20260303,
+      "regionId": 2
+    }
+  },
+  {
+    "templateId": "STICKER_SPRING_2026_3",
+    "data": {
+      "stickerId": "STICKER_SPRING_2026_3",
+      "maxCount": 25,
       "pokemonId": "LEAFEON",
       "category": [
         "Pokemon"
@@ -6456,9 +6469,9 @@
     }
   },
   {
-    "templateId": "STICKER_SPRING_2026_3",
+    "templateId": "STICKER_SPRING_2026_4",
     "data": {
-      "stickerId": "STICKER_SPRING_2026_3",
+      "stickerId": "STICKER_SPRING_2026_4",
       "maxCount": 25,
       "pokemonId": "ESPURR",
       "category": [
@@ -6466,19 +6479,6 @@
       ],
       "releaseDate": 20260303,
       "regionId": 5
-    }
-  },
-  {
-    "templateId": "STICKER_SPRING_2026_4",
-    "data": {
-      "stickerId": "STICKER_SPRING_2026_4",
-      "maxCount": 25,
-      "pokemonId": "FEEBAS",
-      "category": [
-        "Pokemon"
-      ],
-      "releaseDate": 20260303,
-      "regionId": 2
     }
   },
   {

@@ -8,8 +8,8 @@
       "complianceZonesEnabled": true,
       "enablePartyRaidInformation": true,
       "friendRequestsEnabled": true,
-      "partyExpiryDurationMs": "32400000",
-      "partyExpiryWarningMinutes": 30,
+      "partyExpiryDurationMs": "10800000",
+      "partyExpiryWarningMinutes": 10,
       "enabledFriendStatusIncrease": true,
       "restartPartyRejoinPromptEnabled": true,
       "partyIapBoostsEnabled": true,
@@ -18,10 +18,7 @@
       "partyCatchTagsEnabled": true,
       "partyQuestEncounterRewardEnabled": true,
       "maxStackedEncounterReward": 1,
-      "fallbackPartyQuestEnabled": true,
-      "partySchedulingSettings": {
-        "partyExpiryDurationMs": "32400000"
-      }
+      "fallbackPartyQuestEnabled": true
     }
   },
   {

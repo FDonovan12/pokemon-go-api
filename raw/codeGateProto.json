@@ -6,16 +6,6 @@
     }
   },
   {
-    "templateId": "BATTLE_ACCESSIBILITY_CODE_GATE",
-    "data": {
-      "isEnabled": true,
-      "subCodeGateList": {
-        "name": "show_move_effectiveness",
-        "isEnabled": true
-      }
-    }
-  },
-  {
     "templateId": "COMBAT_VNEXT_CODE_GATE",
     "data": {
       "isEnabled": true,
