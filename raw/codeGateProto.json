@@ -16,12 +16,6 @@
     }
   },
   {
-    "templateId": "EVENT_POI_REFRESH_CODE_GATE",
-    "data": {
-      "isEnabled": true
-    }
-  },
-  {
     "templateId": "INPUT_TRACKER_CODE_GATE",
     "data": {
       "isEnabled": true,

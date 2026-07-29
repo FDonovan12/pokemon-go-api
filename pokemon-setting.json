@@ -10370,7 +10370,9 @@
       ],
       "eliteCinematicMove": [],
       "nonTmCinematicMoves": [],
-      "evolutionIds": [],
+      "evolutionIds": [
+        null
+      ],
       "family": "Stari",
       "isLegendary": false,
       "isMythical": false,

@@ -397,7 +397,8 @@
     "templateId": "V0120_FAMILY_STARYU",
     "data": {
       "familyId": "FAMILY_STARYU",
-      "candyPerXlCandy": 100
+      "candyPerXlCandy": 100,
+      "megaEvolvablePokemonId": "STARMIE"
     }
   },
   {

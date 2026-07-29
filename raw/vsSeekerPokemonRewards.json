@@ -646,9 +646,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "SOLGALEO",
+            "pokemonId": "KYUREM",
             "pokemonDisplay": {
-              "form": "SOLGALEO_NORMAL"
+              "form": "KYUREM_NORMAL"
             }
           },
           "unlockedAtRank": 20,
@@ -1321,9 +1321,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "SOLGALEO",
+            "pokemonId": "KYUREM",
             "pokemonDisplay": {
-              "form": "SOLGALEO_NORMAL"
+              "form": "KYUREM_NORMAL"
             }
           },
           "unlockedAtRank": 20,

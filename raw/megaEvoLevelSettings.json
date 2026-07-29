@@ -119,6 +119,26 @@
     }
   },
   {
+    "templateId": "MEGA_EVOLUTION_LEVEL_0_V0121_POKEMON_STARMIE",
+    "data": {
+      "pokemonId": "STARMIE",
+      "progression": {
+        "pointsLimitPerPeriod": 1,
+        "pointsPerMegaEvoAction": 1
+      },
+      "cooldown": {
+        "durationMs": "1209600000",
+        "bypassCostInitial": 300,
+        "bypassCostRoundingValue": 1
+      },
+      "effects": {
+        "differentTypeAttackBoost": 1.1,
+        "sameTypeAttackBoost": 1.3,
+        "sameTypeExtraCatchCandy": 1
+      }
+    }
+  },
+  {
     "templateId": "MEGA_EVOLUTION_LEVEL_0_V0130_POKEMON_GYARADOS",
     "data": {
       "pokemonId": "GYARADOS",
@@ -680,6 +700,28 @@
       "cooldown": {
         "durationMs": "604800000",
         "bypassCostInitial": 20,
+        "bypassCostRoundingValue": 1
+      },
+      "effects": {
+        "differentTypeAttackBoost": 1.1,
+        "sameTypeAttackBoost": 1.3,
+        "sameTypeExtraCatchCandy": 1
+      }
+    }
+  },
+  {
+    "templateId": "MEGA_EVOLUTION_LEVEL_1_V0121_POKEMON_STARMIE",
+    "data": {
+      "level": 1,
+      "pokemonId": "STARMIE",
+      "progression": {
+        "pointsRequired": 1,
+        "pointsLimitPerPeriod": 1,
+        "pointsPerMegaEvoAction": 1
+      },
+      "cooldown": {
+        "durationMs": "604800000",
+        "bypassCostInitial": 60,
         "bypassCostRoundingValue": 1
       },
       "effects": {
@@ -1320,6 +1362,31 @@
         "sameTypeExtraCatchCandyXlChance": 0.1
       },
       "megaEnergyCostPerPoint": 80
+    }
+  },
+  {
+    "templateId": "MEGA_EVOLUTION_LEVEL_2_V0121_POKEMON_STARMIE",
+    "data": {
+      "level": 2,
+      "pokemonId": "STARMIE",
+      "progression": {
+        "pointsRequired": 7,
+        "pointsLimitPerPeriod": 1,
+        "pointsPerMegaEvoAction": 1
+      },
+      "cooldown": {
+        "durationMs": "432000000",
+        "bypassCostInitial": 30,
+        "bypassCostRoundingValue": 1
+      },
+      "effects": {
+        "differentTypeAttackBoost": 1.1,
+        "sameTypeAttackBoost": 1.3,
+        "sameTypeExtraCatchCandy": 1,
+        "sameTypeExtraCatchXp": 50,
+        "sameTypeExtraCatchCandyXlChance": 0.1
+      },
+      "megaEnergyCostPerPoint": 160
     }
   },
   {
@@ -2022,6 +2089,31 @@
     }
   },
   {
+    "templateId": "MEGA_EVOLUTION_LEVEL_3_V0121_POKEMON_STARMIE",
+    "data": {
+      "level": 3,
+      "pokemonId": "STARMIE",
+      "progression": {
+        "pointsRequired": 30,
+        "pointsLimitPerPeriod": 1,
+        "pointsPerMegaEvoAction": 1
+      },
+      "cooldown": {
+        "durationMs": "259200000",
+        "bypassCostInitial": 15,
+        "bypassCostRoundingValue": 1
+      },
+      "effects": {
+        "differentTypeAttackBoost": 1.1,
+        "sameTypeAttackBoost": 1.3,
+        "sameTypeExtraCatchCandy": 2,
+        "sameTypeExtraCatchXp": 100,
+        "sameTypeExtraCatchCandyXlChance": 0.25
+      },
+      "megaEnergyCostPerPoint": 80
+    }
+  },
+  {
     "templateId": "MEGA_EVOLUTION_LEVEL_3_V0130_POKEMON_GYARADOS",
     "data": {
       "level": 3,
@@ -2603,6 +2695,33 @@
     "data": {
       "level": 4,
       "pokemonId": "VICTREEBEL",
+      "progression": {
+        "pointsRequired": 30,
+        "pointsLimitPerPeriod": 1,
+        "pointsPerMegaEvoAction": 1
+      },
+      "cooldown": {
+        "durationMs": "86400000",
+        "bypassCostInitial": 5,
+        "bypassCostRoundingValue": 1
+      },
+      "effects": {
+        "differentTypeAttackBoost": 1.1,
+        "sameTypeAttackBoost": 1.3,
+        "sameTypeExtraCatchCandy": 3,
+        "sameTypeExtraCatchXp": 200,
+        "sameTypeExtraCatchCandyXlChance": 0.3,
+        "selfCpBoostAdditionalLevel": 2
+      },
+      "megaEnergyCostToUnlock": 5000,
+      "ftueExpirationTimestamp": "1775001600000"
+    }
+  },
+  {
+    "templateId": "MEGA_EVOLUTION_LEVEL_4_V0121_POKEMON_STARMIE",
+    "data": {
+      "level": 4,
+      "pokemonId": "STARMIE",
       "progression": {
         "pointsRequired": 30,
         "pointsLimitPerPeriod": 1,

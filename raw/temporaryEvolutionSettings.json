@@ -140,6 +140,18 @@
     }
   },
   {
+    "templateId": "TEMPORARY_EVOLUTION_V0121_POKEMON_STARMIE",
+    "data": {
+      "pokemonId": "STARMIE",
+      "temporaryEvolutions": [
+        {
+          "temporaryEvolutionId": "TEMP_EVOLUTION_MEGA",
+          "assetBundleValue": 51
+        }
+      ]
+    }
+  },
+  {
     "templateId": "TEMPORARY_EVOLUTION_V0127_POKEMON_PINSIR",
     "data": {
       "pokemonId": "PINSIR",

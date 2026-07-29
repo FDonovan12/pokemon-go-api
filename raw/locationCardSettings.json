@@ -1587,6 +1587,15 @@
     }
   },
   {
+    "templateId": "LC_SPECIALBACKGROUND_2026_GLOBAL_MEGA_002",
+    "data": {
+      "locationCard": "LC_SPECIALBACKGROUND_2026_GLOBAL_MEGA_002",
+      "imageUrl": "sb_GoTour2026_mega",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_MegaPlus"
+    }
+  },
+  {
     "templateId": "LC_SPECIALBACKGROUND_2026_GLOBAL_PEARL_001",
     "data": {
       "locationCard": "LC_SPECIALBACKGROUND_2026_GLOBAL_PEARL_001",

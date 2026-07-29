@@ -4,8 +4,7 @@
     "data": {
       "allowedVsSeekerLeagueTemplateId": [
         "COMBAT_LEAGUE_VS_SEEKER_GREAT",
-        "COMBAT_LEAGUE_VS_SEEKER_ULTRA",
-        "COMBAT_LEAGUE_VS_SEEKER_MASTER",
+        "COMBAT_LEAGUE_VS_SEEKER_MASTER_PREMIER",
         "COMBAT_LEAGUE_VS_SEEKER_GREAT_CHAMPIONSHIPS_LEGACY"
       ]
     }

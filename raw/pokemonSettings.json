@@ -37381,6 +37381,7 @@
         "shadowChargeMove": "FRUSTRATION"
       },
       "buddyGroupNumber": 3,
+      "buddyWalkedMegaEnergyAward": 15,
       "ibfc": {},
       "breadTierGroup": "GROUP_2"
     }
@@ -37489,6 +37490,7 @@
         "shadowChargeMove": "FRUSTRATION"
       },
       "buddyGroupNumber": 3,
+      "buddyWalkedMegaEnergyAward": 15,
       "ibfc": {},
       "breadTierGroup": "GROUP_2"
     }
@@ -37568,6 +37570,13 @@
       "kmBuddyDistance": 3,
       "buddySize": "BUDDY_BIG",
       "modelHeight": 1.08,
+      "evolutionBranch": [
+        {
+          "temporaryEvolution": "TEMP_EVOLUTION_MEGA",
+          "temporaryEvolutionEnergyCost": 300,
+          "temporaryEvolutionEnergyCostSubsequent": 60
+        }
+      ],
       "modelScaleV2": 1,
       "buddyOffsetMale": [
         30,
@@ -37597,6 +37606,32 @@
       "eliteQuickMove": [
         "TACKLE_FAST"
       ],
+      "tempEvoOverrides": [
+        {
+          "tempEvoId": "TEMP_EVOLUTION_MEGA",
+          "stats": {
+            "baseStamina": 155,
+            "baseAttack": 276,
+            "baseDefense": 229
+          },
+          "averageHeightM": 2.3,
+          "averageWeightKg": 80,
+          "typeOverride1": "POKEMON_TYPE_WATER",
+          "typeOverride2": "POKEMON_TYPE_PSYCHIC",
+          "camera": {
+            "cylinderRadiusM": 0.96,
+            "cylinderHeightM": 2.22
+          },
+          "modelScaleV2": 1.08,
+          "modelHeight": 1,
+          "buddyPortraitOffset": [
+            0,
+            220,
+            0
+          ]
+        }
+      ],
+      "buddyWalkedMegaEnergyAward": 15,
       "ibfc": {},
       "breadTierGroup": "GROUP_2"
     }
@@ -37676,6 +37711,13 @@
       "kmBuddyDistance": 3,
       "buddySize": "BUDDY_BIG",
       "modelHeight": 1.08,
+      "evolutionBranch": [
+        {
+          "temporaryEvolution": "TEMP_EVOLUTION_MEGA",
+          "temporaryEvolutionEnergyCost": 300,
+          "temporaryEvolutionEnergyCostSubsequent": 60
+        }
+      ],
       "modelScaleV2": 1,
       "form": "STARMIE_NORMAL",
       "buddyOffsetMale": [
@@ -37706,6 +37748,32 @@
       "eliteQuickMove": [
         "TACKLE_FAST"
       ],
+      "tempEvoOverrides": [
+        {
+          "tempEvoId": "TEMP_EVOLUTION_MEGA",
+          "stats": {
+            "baseStamina": 155,
+            "baseAttack": 276,
+            "baseDefense": 229
+          },
+          "averageHeightM": 2.3,
+          "averageWeightKg": 80,
+          "typeOverride1": "POKEMON_TYPE_WATER",
+          "typeOverride2": "POKEMON_TYPE_PSYCHIC",
+          "camera": {
+            "cylinderRadiusM": 0.96,
+            "cylinderHeightM": 2.22
+          },
+          "modelScaleV2": 1.08,
+          "modelHeight": 1,
+          "buddyPortraitOffset": [
+            0,
+            220,
+            0
+          ]
+        }
+      ],
+      "buddyWalkedMegaEnergyAward": 15,
       "ibfc": {},
       "breadTierGroup": "GROUP_2"
     }

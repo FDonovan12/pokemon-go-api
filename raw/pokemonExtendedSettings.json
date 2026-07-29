@@ -9809,6 +9809,19 @@
     "templateId": "EXTENDED_V0121_POKEMON_STARMIE",
     "data": {
       "uniqueId": "STARMIE",
+      "tempEvoOverrides": [
+        {
+          "tempEvoId": "TEMP_EVOLUTION_MEGA",
+          "sizeSettings": {
+            "xxsLowerBound": 1.176,
+            "xsLowerBound": 1.2,
+            "mLowerBound": 1.8,
+            "mUpperBound": 3,
+            "xlUpperBound": 3.6,
+            "xxlUpperBound": 4.2
+          }
+        }
+      ],
       "sizeSettings": {
         "xxsLowerBound": 0.539,
         "xsLowerBound": 0.55,
@@ -9816,7 +9829,15 @@
         "mUpperBound": 1.375,
         "xlUpperBound": 1.65,
         "xxlUpperBound": 1.925
-      }
+      },
+      "breadOverrides": [
+        {
+          "breadMode": "BREAD_MODE",
+          "maxBattleVisualSettings": {
+            "scale": 39
+          }
+        }
+      ]
     }
   },
   {
@@ -9824,6 +9845,19 @@
     "data": {
       "uniqueId": "STARMIE",
       "form": "STARMIE_NORMAL",
+      "tempEvoOverrides": [
+        {
+          "tempEvoId": "TEMP_EVOLUTION_MEGA",
+          "sizeSettings": {
+            "xxsLowerBound": 1.176,
+            "xsLowerBound": 1.2,
+            "mLowerBound": 1.8,
+            "mUpperBound": 3,
+            "xlUpperBound": 3.6,
+            "xxlUpperBound": 4.2
+          }
+        }
+      ],
       "sizeSettings": {
         "xxsLowerBound": 0.539,
         "xsLowerBound": 0.55,
@@ -9831,7 +9865,15 @@
         "mUpperBound": 1.375,
         "xlUpperBound": 1.65,
         "xxlUpperBound": 1.925
-      }
+      },
+      "breadOverrides": [
+        {
+          "breadMode": "BREAD_MODE",
+          "maxBattleVisualSettings": {
+            "scale": 39
+          }
+        }
+      ]
     }
   },
   {
