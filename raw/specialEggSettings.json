@@ -4,7 +4,6 @@
     "data": {
       "enabled": true,
       "minLevel": 15,
-      "mapIconEnabled": true,
       "xpReward": 10000
     }
   }

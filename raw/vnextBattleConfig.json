@@ -18,7 +18,7 @@
         "battleEndTimeoutThresholdMs": "2000",
         "badNetworkWarningThresholdTurns": "12",
         "deadNetworkDisconnectThresholdTurns": "120",
-        "noOpponentConnectionDisconnectThresholdTurns": "12",
+        "noOpponentConnectionDisconnectThresholdTurns": "21",
         "submitTurnNumberWithPlayerAction": true,
         "preResponseInputBlockDurationMs": "500"
       }

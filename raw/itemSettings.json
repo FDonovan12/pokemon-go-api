@@ -425,9 +425,7 @@
         "eventPassId": "EVENT_PASS_JULY2026_SEASON"
       },
       "timePeriodCounters": {
-        "playerActivity": {
-          "limit": 250
-        }
+        "playerActivity": {}
       },
       "hideItemInInventory": true
     }
@@ -1627,6 +1625,76 @@
     }
   },
   {
+    "templateId": "ITEM_EVENT_TICKET_S23_2026_10",
+    "data": {
+      "itemId": "ITEM_EVENT_TICKET_S23_2026_10",
+      "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
+      "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
+      "globalEventTicket": {
+        "eventStartTime": "2026-08-16T14:00:00",
+        "eventEndTime": "2026-08-16T17:00:00",
+        "itemBagDescriptionKey": "item_event_ticket_pink_desc_CD_Nickit26",
+        "giftable": true,
+        "giftItem": "ITEM_EVENT_TICKET_S23_2026_10_TO_GIFT",
+        "eventBannerUrl": "https://storage.googleapis.com/prod-public-images/1024x512.jpg",
+        "displayV2Enabled": true,
+        "backgroundImageUrl": "https://storage.googleapis.com/prod-public-images/pink-ticket-generic1024x512.jpg",
+        "eventDatetimeRangeKey": "event_datetime_range_key_CD_Nickit26",
+        "textRewardsKey": "text_rewards_key_CD_Nickit26",
+        "iconRewards": [
+          {
+            "type": "POKEMON_ENCOUNTER",
+            "pokemonEncounter": {
+              "pokemonId": "THIEVUL",
+              "pokemonDisplay": {
+                "form": "THIEVUL_NORMAL"
+              }
+            }
+          },
+          {
+            "type": "ITEM",
+            "item": {
+              "item": "ITEM_STAR_PIECE",
+              "amount": 1
+            }
+          },
+          {
+            "type": "ITEM",
+            "item": {
+              "item": "ITEM_XL_RARE_CANDY",
+              "amount": 1
+            }
+          }
+        ],
+        "detailsLinkKey": "details_link_key",
+        "clientEventStartTimeUtcMs": "1786888800000",
+        "clientEventEndTimeUtcMs": "1786899600000"
+      },
+      "nameOverride": "general1.ticket_CD_Nickit26_title",
+      "descriptionOverride": "item_event_ticket_pink_details_CD_Nickit26"
+    }
+  },
+  {
+    "templateId": "ITEM_EVENT_TICKET_S23_2026_10_TO_GIFT",
+    "data": {
+      "itemId": "ITEM_EVENT_TICKET_S23_2026_10_TO_GIFT",
+      "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
+      "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
+      "globalEventTicket": {
+        "eventStartTime": "2026-08-16T14:00:00",
+        "eventEndTime": "2026-08-16T17:00:00",
+        "itemBagDescriptionKey": "item_event_ticket_pink_desc_CD_Nickit26",
+        "ticketItem": "ITEM_EVENT_TICKET_S23_2026_10",
+        "eventBannerUrl": "https://storage.googleapis.com/prod-public-images/1024x512.jpg",
+        "clientEventStartTimeUtcMs": "1786888800000",
+        "clientEventEndTimeUtcMs": "1786899600000"
+      },
+      "ignoreInventorySpace": true,
+      "nameOverride": "general1.ticket_CD_Nickit26_title",
+      "descriptionOverride": "item_event_ticket_pink_details_CD_Nickit26"
+    }
+  },
+  {
     "templateId": "ITEM_EVERGREEN_TICKET",
     "data": {
       "itemId": "ITEM_EVERGREEN_TICKET",
@@ -1975,7 +2043,7 @@
       "eggIncubator": {
         "incubatorType": "INCUBATOR_DISTANCE",
         "uses": 3,
-        "distanceMultiplier": 1
+        "distanceMultiplier": 0.5
       }
     }
   },
@@ -1988,7 +2056,7 @@
       "dropTrainerLevel": 100,
       "eggIncubator": {
         "incubatorType": "INCUBATOR_DISTANCE",
-        "distanceMultiplier": 1
+        "distanceMultiplier": 0.5
       }
     }
   },
@@ -2017,7 +2085,7 @@
       "eggIncubator": {
         "incubatorType": "INCUBATOR_DISTANCE",
         "uses": 3,
-        "distanceMultiplier": 0.6666667
+        "distanceMultiplier": 0.33333334
       }
     }
   },
@@ -2030,7 +2098,7 @@
       "dropTrainerLevel": 100,
       "eggIncubator": {
         "incubatorType": "INCUBATOR_DISTANCE",
-        "distanceMultiplier": 1,
+        "distanceMultiplier": 0.5,
         "expiredIncubatorReplacement": {
           "incubatorReplacement": "ITEM_INCUBATOR_BASIC",
           "usesCountOverride": 1

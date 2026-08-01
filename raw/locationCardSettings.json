@@ -536,6 +536,13 @@
     }
   },
   {
+    "templateId": "LC_2026_MLB_TBRAYS",
+    "data": {
+      "locationCard": "LC_2026_MLB_TBRAYS",
+      "imageUrl": "lc_MLB_tampaBayRays2"
+    }
+  },
+  {
     "templateId": "LC_2026_NPB_001",
     "data": {
       "locationCard": "LC_2026_NPB_001",

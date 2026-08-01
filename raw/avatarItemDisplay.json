@@ -6247,6 +6247,27 @@
     }
   },
   {
+    "templateId": "N_DISPLAY_n_shirt_gofest2026finblue",
+    "data": {
+      "iconAddress": "n_shirt_gofest2026finblue_icon",
+      "displayStringId": "avatar_shirt_gofest_finale_greninja"
+    }
+  },
+  {
+    "templateId": "N_DISPLAY_n_shirt_gofest2026fingreen",
+    "data": {
+      "iconAddress": "n_shirt_gofest2026fingreen_icon",
+      "displayStringId": "avatar_shirt_gofest_finale_chesnaught"
+    }
+  },
+  {
+    "templateId": "N_DISPLAY_n_shirt_gofest2026finred",
+    "data": {
+      "iconAddress": "n_shirt_gofest2026finred_icon",
+      "displayStringId": "avatar_shirt_gofest_finale_delphox"
+    }
+  },
+  {
     "templateId": "N_DISPLAY_n_shirt_gofestglobal2023_0",
     "data": {
       "iconAddress": "n_shirt_gofestglobal2023_0_icon",
