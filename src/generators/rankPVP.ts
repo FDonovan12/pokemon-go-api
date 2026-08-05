@@ -20,7 +20,7 @@ export default class PokemonSettingGenerator extends FileGenerator {
         return 'rank-pvp';
     }
 
-    async getFileContent(): Promise<string> {
+    async getFileContent(): Promise<any> {
         // non utilisé : on override generate() ci-dessous
         return '';
     }

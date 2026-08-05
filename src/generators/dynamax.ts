@@ -14,7 +14,7 @@ export default class PokemonSettingGenerator extends FileGenerator {
         return 'dynamax.json';
     }
 
-    async getFileContent(): Promise<string> {
+    async getFileContent(): Promise<any> {
         const rawMappingGigamax: SourdoughMoveMappingSettings[] =
             await RawGameMaster.getSourdoughMoveMappingSettings(); // mapping gigamax
         const rawDynamax2: BreadPokemonScalingSettings[] =
@@ -24,6 +24,8 @@ export default class PokemonSettingGenerator extends FileGenerator {
         const rawPokemonSetting: PokemonSettings[] = await RawGameMaster.getPokemonSettings();
         const intermediatePokemonSetting: PokemonSetting[] =
             await IntermediateData.getPokemonSetting();
+
+        const raidMove = await IntermediateData.getRaidMove();
 
         const dynamax = rawDynamax2[0].data.visualSettings
             .filter((visual) =>
@@ -73,11 +75,13 @@ export default class PokemonSettingGenerator extends FileGenerator {
                 name: pokemon?.base.name,
                 slug: pokemon?.base.slug,
                 stats: pokemon?.base.stats,
-                quickMoves: pokemon?.base.quickMoves,
+                quickMoves: pokemon?.base.quickMoves
+                    .map((move) => raidMove.fastMove[move])
+                    .toObject((move) => move.movementId),
                 familyId: pokemon?.base.family,
                 evolutionIds: pokemon?.base.evolutionIds,
             }));
         const final = [dynamax2, gigamax2];
-        return JSON.stringify(dynamaxFinal2, null, 2);
+        return dynamaxFinal2;
     }
 }

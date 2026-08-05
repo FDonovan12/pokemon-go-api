@@ -9,7 +9,7 @@ export enum GeneratorSpeed {
 }
 export abstract class FileGenerator {
     abstract getFileName(): string;
-    abstract getFileContent(): Promise<string>;
+    abstract getFileContent(): Promise<any>;
 
     // par défaut FAST, chaque générateur override si besoin
     getSpeed(): GeneratorSpeed {
@@ -20,7 +20,7 @@ export abstract class FileGenerator {
         const fileName = 'generated/data/' + this.getFileName();
         const start = performance.now();
 
-        const content = await this.getFileContent();
+        const content = JSON.stringify(await this.getFileContent(), null, 2);
 
         const dir = path.dirname(fileName);
         fs.mkdirSync(dir, { recursive: true });

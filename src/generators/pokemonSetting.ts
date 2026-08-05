@@ -9,8 +9,8 @@ export default class PokemonSettingGenerator extends FileGenerator {
         return GeneratorSpeed.MEDIUM;
     }
 
-    async getFileContent(): Promise<string> {
+    async getFileContent(): Promise<any> {
         const content = await IntermediateData.getPokemonSetting();
-        return JSON.stringify(content, null, 2);
+        return content;
     }
 }

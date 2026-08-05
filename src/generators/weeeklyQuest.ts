@@ -7,7 +7,7 @@ export default class PokemonSettingGenerator extends FileGenerator {
         return 'weekly-quest.json';
     }
 
-    async getFileContent(): Promise<string> {
+    async getFileContent(): Promise<any> {
         const raw: ClientQuestTemplate[] = await RawGameMaster.getClientQuestTemplate();
         const quests = raw
             .filter((quest) => quest.templateId.startsWith('WEEKLY_CHALLENGE'))
@@ -16,6 +16,6 @@ export default class PokemonSettingGenerator extends FileGenerator {
                 achievement: { type: quest.data.quest.questType, goal: quest.data.quest.goal },
                 reward: quest.data.quest.questRewards,
             }));
-        return JSON.stringify(quests, null, 2);
+        return quests;
     }
 }
