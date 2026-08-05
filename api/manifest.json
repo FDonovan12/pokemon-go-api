@@ -1,0 +1,38 @@
+[
+  {
+    "file": "raidMove/charged-move.json",
+    "typeName": "RaidMoveChargedMove"
+  },
+  {
+    "file": "pokemon/cp-multiplier.json",
+    "typeName": "PokemonCpMultiplier"
+  },
+  {
+    "file": "dynamax.json",
+    "typeName": "Dynamax"
+  },
+  {
+    "file": "raidMove/dynamax-move.json",
+    "typeName": "RaidMoveDynamaxMove"
+  },
+  {
+    "file": "pokemon-setting.json",
+    "typeName": "PokemonSetting"
+  },
+  {
+    "file": "raidMove/fast-move.json",
+    "typeName": "RaidMoveFastMove"
+  },
+  {
+    "file": "rank-1-pvp.json",
+    "typeName": "Rank1Pvp"
+  },
+  {
+    "file": "rank-pvp",
+    "typeName": "RankPvp"
+  },
+  {
+    "file": "weekly-quest.json",
+    "typeName": "WeeklyQuest"
+  }
+]
