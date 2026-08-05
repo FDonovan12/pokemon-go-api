@@ -12,11 +12,11 @@
         "forceConsistentCasingInFileNames": true,
         "skipLibCheck": true,
 
-        "types": ["node"],
+        "types": ["node"]
 
-        "paths": {
-            "@generated/*": ["./generated/*"]
-        }
+        // "paths": {
+        //     "@generated/*": ["./generated/*"]
+        // }
     },
     "include": ["src", "generated"]
 }

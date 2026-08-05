@@ -1,4 +1,4 @@
-import { IntermediateData } from '@generated/intermediate.index.js';
+import { IntermediateData } from '#generated/intermediate.index.js';
 import { getCpMultipliers } from '../services/cpMultiplier.service.js';
 import { FileGenerator, GeneratorSpeed } from '../type/fileGenerator.js';
 

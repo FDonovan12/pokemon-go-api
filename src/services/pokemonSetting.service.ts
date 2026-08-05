@@ -1,5 +1,5 @@
-import { PokemonSettings } from '@generated/data/api/raw.type.js';
-import { RawGameMaster } from '@generated/raw.index.js';
+import { PokemonSettings } from '#generated/data/api/raw.type.js';
+import { RawGameMaster } from '#generated/raw.index.js';
 
 let cachedResult: Promise<any> | null = null;
 

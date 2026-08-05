@@ -1,4 +1,4 @@
-import { RawGameMaster } from '@generated/raw.index.js';
+import { RawGameMaster } from '#generated/raw.index.js';
 
 export async function getCpMultipliers(): Promise<Record<string, number>> {
     const raw = await RawGameMaster.getPlayerLevel();

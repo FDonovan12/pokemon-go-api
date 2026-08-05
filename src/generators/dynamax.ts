@@ -1,12 +1,12 @@
-import { PokemonSetting } from '@generated/data/api/intermediate.type.js';
+import { PokemonSetting } from '#generated/data/api/intermediate.type.js';
 import {
+    SourdoughMoveMappingSettings,
     BreadPokemonScalingSettings,
     PokemonExtendedSettings,
     PokemonSettings,
-    SourdoughMoveMappingSettings,
-} from '@generated/data/api/raw.type.js';
-import { IntermediateData } from '@generated/intermediate.index.js';
-import { RawGameMaster } from '@generated/raw.index.js';
+} from '#generated/data/api/raw.type.js';
+import { IntermediateData } from '#generated/intermediate.index.js';
+import { RawGameMaster } from '#generated/raw.index.js';
 import { FileGenerator } from '../type/fileGenerator.js';
 
 export default class PokemonSettingGenerator extends FileGenerator {

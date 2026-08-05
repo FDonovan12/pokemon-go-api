@@ -1,3 +1,4 @@
+import { IntermediateData } from '#generated/intermediate.index.js';
 import { FileGenerator } from '../type/fileGenerator.js';
 
 export default class ChargedMoveSettingGenerator extends FileGenerator {
@@ -5,7 +6,7 @@ export default class ChargedMoveSettingGenerator extends FileGenerator {
         return 'raidMove/charged-move.json';
     }
     async getFileContent(): Promise<any> {
-        // const raw = await IntermediateData.getRaidMove();
-        return 'raw.chargedMove';
+        const raw = await IntermediateData.getRaidMove();
+        return raw.chargedMove;
     }
 }
