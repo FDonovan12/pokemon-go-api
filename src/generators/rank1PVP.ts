@@ -13,7 +13,7 @@ export default class PokemonSettingGenerator extends FileGenerator {
         return GeneratorSpeed.MEDIUM;
     }
 
-    async getFileContent(): Promise<string> {
+    async getFileContent(): Promise<any> {
         const rawPokemon = await IntermediateData.getPokemonSetting();
         const rawCpMultiplier = await getCpMultipliers();
 
@@ -31,7 +31,7 @@ export default class PokemonSettingGenerator extends FileGenerator {
         //     };
         // }
 
-        return JSON.stringify(result, null, 2);
+        return result;
     }
 }
 

@@ -6,7 +6,7 @@ export default class CpMultiplierGenerator extends FileGenerator {
         return 'pokemon/cp-multiplier.json';
     }
 
-    async getFileContent(): Promise<string> {
-        return JSON.stringify(await getCpMultipliers(), null, 2);
+    async getFileContent(): Promise<any> {
+        return await getCpMultipliers();
     }
 }
