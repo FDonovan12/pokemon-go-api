@@ -87,6 +87,7 @@ jobs:
               run: |
                   npm ci
                   npm run generate
+                  npm run intermediate
                   npm run update
 
             # 4. DEPLOY OUTPUT
