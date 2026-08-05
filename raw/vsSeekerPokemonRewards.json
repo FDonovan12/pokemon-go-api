@@ -646,9 +646,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "KYUREM",
+            "pokemonId": "MESPRIT",
             "pokemonDisplay": {
-              "form": "KYUREM_NORMAL"
+              "form": "MESPRIT_NORMAL"
             }
           },
           "unlockedAtRank": 20,
@@ -1321,9 +1321,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "KYUREM",
+            "pokemonId": "MESPRIT",
             "pokemonDisplay": {
-              "form": "KYUREM_NORMAL"
+              "form": "MESPRIT_NORMAL"
             }
           },
           "unlockedAtRank": 20,

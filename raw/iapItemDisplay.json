@@ -94,13 +94,12 @@
     "data": {
       "sku": "pgorelease.august1_deluxe_event_pass_track_unlock",
       "sortOrder": 1,
-      "hidden": true,
       "title": "season_pass_premium_track_title_summermarathon2026",
       "description": "deluxe_event_pass_track_unlock_description",
       "skuEnableTime": "2025-08-04T10:00:00",
-      "skuDisableTime": "2025-08-12T20:00:00",
+      "skuDisableTime": "2026-08-12T20:00:00",
       "skuEnableTimeUtcMs": "1754301600000",
-      "skuDisableTimeUtcMs": "1755028800000",
+      "skuDisableTimeUtcMs": "1786564800000",
       "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Faab1ed22_PGO-MCS_Summer_Marathon_Fire_Ice_v3b-1024x576.jpg"
     }
   },
@@ -109,13 +108,12 @@
     "data": {
       "sku": "pgorelease.august1_deluxe_event_pass_track_unlock_plus_points",
       "sortOrder": 1,
-      "hidden": true,
       "title": "season_pass_premium_track_plus_six_ranks_title_summermarathon2026",
       "description": "event_pass_plus_points_6_ranks_description",
       "skuEnableTime": "2025-08-04T10:00:00",
-      "skuDisableTime": "2025-08-12T20:00:00",
+      "skuDisableTime": "2026-08-12T20:00:00",
       "skuEnableTimeUtcMs": "1754301600000",
-      "skuDisableTimeUtcMs": "1755028800000",
+      "skuDisableTimeUtcMs": "1786564800000",
       "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Faab1ed22_PGO-MCS_Summer_Marathon_Fire_Ice_v3b-1024x576.jpg"
     }
   },
@@ -380,14 +378,14 @@
     "templateId": "EVENT_PASS_MONTH3_SEASON_STORE_REDIRECT",
     "data": {
       "sku": "pgorelease.month3_deluxe_event_pass_track_redirect",
+      "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 1,
-      "hidden": true,
       "title": "season_pass_premium_track_title_aug",
       "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
       "skuEnableTime": "2025-08-04T10:00:00",
-      "skuDisableTime": "2025-09-10T10:00:00",
+      "skuDisableTime": "2026-09-10T10:00:00",
       "skuEnableTimeUtcMs": "1754301600000",
-      "skuDisableTimeUtcMs": "1757498400000",
+      "skuDisableTimeUtcMs": "1789034400000",
       "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F84f00147_PGO-MCS_GO_Pass_August_2026_TICKET_v1-1024x576.jpg"
     }
   },
@@ -395,14 +393,14 @@
     "templateId": "EVENT_PASS_REDIRECT_SUMMER_MARATHON_2026",
     "data": {
       "sku": "pgorelease.august1_deluxe_event_pass_track_unlock_redirect",
+      "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 1,
-      "hidden": true,
       "title": "season_pass_premium_track_title_summermarathon2026",
       "description": "deluxe_event_pass_track_unlock_description",
       "skuEnableTime": "2025-08-04T10:00:00",
-      "skuDisableTime": "2025-08-12T20:00:00",
+      "skuDisableTime": "2026-08-12T20:00:00",
       "skuEnableTimeUtcMs": "1754301600000",
-      "skuDisableTimeUtcMs": "1755028800000",
+      "skuDisableTimeUtcMs": "1786564800000",
       "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Faab1ed22_PGO-MCS_Summer_Marathon_Fire_Ice_v3b-1024x576.jpg"
     }
   },
@@ -1014,13 +1012,12 @@
     "data": {
       "sku": "pgorelease.month3_deluxe_event_pass_track_unlock",
       "sortOrder": 1,
-      "hidden": true,
       "title": "season_pass_premium_track_title_aug",
       "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
       "skuEnableTime": "2025-08-04T10:00:00",
-      "skuDisableTime": "2025-09-10T10:00:00",
+      "skuDisableTime": "2026-09-10T10:00:00",
       "skuEnableTimeUtcMs": "1754301600000",
-      "skuDisableTimeUtcMs": "1757498400000",
+      "skuDisableTimeUtcMs": "1789034400000",
       "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F84f00147_PGO-MCS_GO_Pass_August_2026_TICKET_v1-1024x576.jpg"
     }
   },
@@ -1029,13 +1026,12 @@
     "data": {
       "sku": "pgorelease.month3_deluxe_event_pass_track_unlock_plus_points",
       "sortOrder": 1,
-      "hidden": true,
       "title": "season_pass_premium_track_plus_ten_ranks_title_aug",
       "description": "gotour_2025_deluxe_event_pass_track_unlock_plus_points_description",
       "skuEnableTime": "2025-08-04T10:00:00",
-      "skuDisableTime": "2025-09-10T10:00:00",
+      "skuDisableTime": "2026-09-10T10:00:00",
       "skuEnableTimeUtcMs": "1754301600000",
-      "skuDisableTimeUtcMs": "1757498400000",
+      "skuDisableTimeUtcMs": "1789034400000",
       "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F84f00147_PGO-MCS_GO_Pass_August_2026_TICKET_v1-1024x576.jpg"
     }
   },
@@ -8417,9 +8413,15 @@
       "sku": "bundle.hatchbox2024.1",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 1,
-      "hidden": true,
       "spriteId": "bundle.general.adventure.1",
-      "title": "bundle.xmas.large.1_title"
+      "title": "bundle.xmas.large.1_title",
+      "skuEnableTime": "2022-10-13T12:00:00",
+      "skuDisableTime": "2026-08-10T20:00:00",
+      "skuEnableTimeUtcMs": "1665662400000",
+      "skuDisableTimeUtcMs": "1786392000000",
+      "showDiscountTag": true,
+      "showStrikethroughPrice": true,
+      "totalValue": 1910
     }
   },
   {
@@ -10469,6 +10471,34 @@
     }
   },
   {
+    "templateId": "pgorelease.august1_deluxe_event_pass_track_unlock",
+    "data": {
+      "sku": "pgorelease.august1_deluxe_event_pass_track_unlock",
+      "sortOrder": 1,
+      "title": "season_pass_premium_track_title_summermarathon2026",
+      "description": "deluxe_event_pass_track_unlock_description",
+      "skuEnableTime": "2025-08-04T10:00:00",
+      "skuDisableTime": "2026-08-12T20:00:00",
+      "skuEnableTimeUtcMs": "1754301600000",
+      "skuDisableTimeUtcMs": "1786564800000",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Faab1ed22_PGO-MCS_Summer_Marathon_Fire_Ice_v3b-1024x576.jpg"
+    }
+  },
+  {
+    "templateId": "pgorelease.august1_deluxe_event_pass_track_unlock_plus_points",
+    "data": {
+      "sku": "pgorelease.august1_deluxe_event_pass_track_unlock_plus_points",
+      "sortOrder": 1,
+      "title": "season_pass_premium_track_plus_six_ranks_title_summermarathon2026",
+      "description": "event_pass_plus_points_6_ranks_description",
+      "skuEnableTime": "2025-08-04T10:00:00",
+      "skuDisableTime": "2026-08-12T20:00:00",
+      "skuEnableTimeUtcMs": "1754301600000",
+      "skuDisableTimeUtcMs": "1786564800000",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Faab1ed22_PGO-MCS_Summer_Marathon_Fire_Ice_v3b-1024x576.jpg"
+    }
+  },
+  {
     "templateId": "pgorelease.bundle.1",
     "data": {
       "sku": "pgorelease.bundle.1",
@@ -11590,6 +11620,32 @@
       "skuDisableTime": "2026-08-06T10:00:00",
       "skuEnableTimeUtcMs": "1748253600000",
       "skuDisableTimeUtcMs": "1786010400000"
+    }
+  },
+  {
+    "templateId": "pgorelease.month3_deluxe_event_pass_track_unlock",
+    "data": {
+      "sku": "pgorelease.month3_deluxe_event_pass_track_unlock",
+      "sortOrder": 1,
+      "title": "season_pass_premium_track_title_aug",
+      "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
+      "skuEnableTime": "2025-07-28T10:00:00",
+      "skuDisableTime": "2026-09-10T10:00:00",
+      "skuEnableTimeUtcMs": "1753696800000",
+      "skuDisableTimeUtcMs": "1789034400000"
+    }
+  },
+  {
+    "templateId": "pgorelease.month3_deluxe_event_pass_track_unlock_plus_points",
+    "data": {
+      "sku": "pgorelease.month3_deluxe_event_pass_track_unlock_plus_points",
+      "sortOrder": 1,
+      "title": "season_pass_premium_track_plus_ten_ranks_title_aug",
+      "description": "gotour_2025_deluxe_event_pass_track_unlock_plus_points_description",
+      "skuEnableTime": "2025-07-28T10:00:00",
+      "skuDisableTime": "2026-09-10T10:00:00",
+      "skuEnableTimeUtcMs": "1753696800000",
+      "skuDisableTimeUtcMs": "1789034400000"
     }
   },
   {

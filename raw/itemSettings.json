@@ -383,12 +383,13 @@
       "category": "ITEM_CATEGORY_EVENT_PASS_POINT",
       "ignoreInventorySpace": true,
       "itemCap": 999999,
+      "nameOverride": "ITEM_EVENT_PASS_POINT_GO_TOUR_01_name",
       "eventPassPoint": {
         "eventPassId": "EVENT_PASS_SUMMER_MARATHON_2026_EVENT"
       },
       "timePeriodCounters": {
         "playerActivity": {
-          "limit": 300
+          "limit": 500
         }
       },
       "hideItemInInventory": true
@@ -425,7 +426,9 @@
         "eventPassId": "EVENT_PASS_JULY2026_SEASON"
       },
       "timePeriodCounters": {
-        "playerActivity": {}
+        "playerActivity": {
+          "limit": 250
+        }
       },
       "hideItemInInventory": true
     }
@@ -443,7 +446,7 @@
       },
       "timePeriodCounters": {
         "playerActivity": {
-          "limit": 300
+          "limit": 250
         }
       },
       "hideItemInInventory": true
@@ -1974,7 +1977,7 @@
       "category": "ITEM_CATEGORY_INCENSE",
       "dropTrainerLevel": 6,
       "incense": {
-        "incenseLifetimeSeconds": 1800,
+        "incenseLifetimeSeconds": 900,
         "spawnTableProbability": 0.25
       },
       "ignoreInventorySpace": true
@@ -2043,7 +2046,7 @@
       "eggIncubator": {
         "incubatorType": "INCUBATOR_DISTANCE",
         "uses": 3,
-        "distanceMultiplier": 0.5
+        "distanceMultiplier": 1
       }
     }
   },
@@ -2056,7 +2059,7 @@
       "dropTrainerLevel": 100,
       "eggIncubator": {
         "incubatorType": "INCUBATOR_DISTANCE",
-        "distanceMultiplier": 0.5
+        "distanceMultiplier": 1
       }
     }
   },
@@ -2085,7 +2088,7 @@
       "eggIncubator": {
         "incubatorType": "INCUBATOR_DISTANCE",
         "uses": 3,
-        "distanceMultiplier": 0.33333334
+        "distanceMultiplier": 0.6666667
       }
     }
   },
@@ -2098,7 +2101,7 @@
       "dropTrainerLevel": 100,
       "eggIncubator": {
         "incubatorType": "INCUBATOR_DISTANCE",
-        "distanceMultiplier": 0.5,
+        "distanceMultiplier": 1,
         "expiredIncubatorReplacement": {
           "incubatorReplacement": "ITEM_INCUBATOR_BASIC",
           "usesCountOverride": 1

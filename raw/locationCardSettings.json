@@ -1540,6 +1540,15 @@
     }
   },
   {
+    "templateId": "LC_SPECIALBACKGROUND_2026_10TH_ANNIVERSARY_001",
+    "data": {
+      "locationCard": 407,
+      "imageUrl": "sb_GoTour2025_black",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_10thAnniGlobe"
+    }
+  },
+  {
     "templateId": "LC_SPECIALBACKGROUND_2026_ARRAIA",
     "data": {
       "locationCard": "LC_SPECIALBACKGROUND_2026_ARRAIA",

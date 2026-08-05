@@ -205174,14 +205174,21 @@
     "data": {
       "pokemonId": "ARROKUDA",
       "type": "POKEMON_TYPE_WATER",
-      "camera": {},
+      "camera": {
+        "cylinderRadiusM": 0.32,
+        "cylinderHeightM": 0.4,
+        "cylinderGroundM": 0.15
+      },
       "encounter": {
+        "collisionRadiusM": 0.25,
+        "collisionHeightM": 0.2,
+        "collisionHeadRadiusM": 0.2,
         "movementType": "MOVEMENT_HOVERING",
         "attackProbability": 0.2,
         "dodgeProbability": 0.1,
         "dodgeDurationS": 1,
         "dodgeDistance": 0.5,
-        "cameraDistance": 4,
+        "cameraDistance": 2.5,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
@@ -205206,7 +205213,7 @@
       "weightStdDev": 0.125,
       "familyId": "FAMILY_ARROKUDA",
       "kmBuddyDistance": 3,
-      "modelHeight": 1,
+      "modelHeight": 0.5,
       "evolutionBranch": [
         {
           "evolution": "BARRASKEWDA",
@@ -205225,6 +205232,11 @@
         0
       ],
       "buddyScale": 19,
+      "buddyPortraitOffset": [
+        -100,
+        0,
+        -700
+      ],
       "thirdMove": {
         "stardustToUnlock": 50000,
         "candyToUnlock": 50
@@ -205232,7 +205244,7 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
-      "buddyGroupNumber": 2,
+      "buddyGroupNumber": 1,
       "ibfc": {},
       "breadTierGroup": "GROUP_2"
     }
@@ -205242,14 +205254,21 @@
     "data": {
       "pokemonId": "ARROKUDA",
       "type": "POKEMON_TYPE_WATER",
-      "camera": {},
+      "camera": {
+        "cylinderRadiusM": 0.32,
+        "cylinderHeightM": 0.4,
+        "cylinderGroundM": 0.15
+      },
       "encounter": {
+        "collisionRadiusM": 0.25,
+        "collisionHeightM": 0.2,
+        "collisionHeadRadiusM": 0.2,
         "movementType": "MOVEMENT_HOVERING",
         "attackProbability": 0.2,
         "dodgeProbability": 0.1,
         "dodgeDurationS": 1,
         "dodgeDistance": 0.5,
-        "cameraDistance": 4,
+        "cameraDistance": 2.5,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
@@ -205274,7 +205293,7 @@
       "weightStdDev": 0.125,
       "familyId": "FAMILY_ARROKUDA",
       "kmBuddyDistance": 3,
-      "modelHeight": 1,
+      "modelHeight": 0.5,
       "evolutionBranch": [
         {
           "evolution": "BARRASKEWDA",
@@ -205295,6 +205314,11 @@
         0
       ],
       "buddyScale": 19,
+      "buddyPortraitOffset": [
+        -100,
+        0,
+        -700
+      ],
       "thirdMove": {
         "stardustToUnlock": 50000,
         "candyToUnlock": 50
@@ -205302,7 +205326,7 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
-      "buddyGroupNumber": 2,
+      "buddyGroupNumber": 1,
       "ibfc": {},
       "breadTierGroup": "GROUP_2"
     }
@@ -205312,8 +205336,15 @@
     "data": {
       "pokemonId": "BARRASKEWDA",
       "type": "POKEMON_TYPE_WATER",
-      "camera": {},
+      "camera": {
+        "cylinderRadiusM": 0.7,
+        "cylinderHeightM": 1,
+        "cylinderGroundM": 0.1
+      },
       "encounter": {
+        "collisionRadiusM": 1,
+        "collisionHeightM": 0.5,
+        "collisionHeadRadiusM": 0.2,
         "movementType": "MOVEMENT_HOVERING",
         "bonusCandyCaptureReward": 2,
         "bonusStardustCaptureReward": 200,
@@ -205348,7 +205379,7 @@
       "weightStdDev": 3.75,
       "familyId": "FAMILY_ARROKUDA",
       "kmBuddyDistance": 3,
-      "modelHeight": 1,
+      "modelHeight": 1.3,
       "modelScaleV2": 1,
       "buddyOffsetMale": [
         0,
@@ -205361,6 +205392,11 @@
         0
       ],
       "buddyScale": 19,
+      "buddyPortraitOffset": [
+        -50,
+        50,
+        -550
+      ],
       "thirdMove": {
         "stardustToUnlock": 50000,
         "candyToUnlock": 50
@@ -205378,8 +205414,15 @@
     "data": {
       "pokemonId": "BARRASKEWDA",
       "type": "POKEMON_TYPE_WATER",
-      "camera": {},
+      "camera": {
+        "cylinderRadiusM": 0.7,
+        "cylinderHeightM": 1,
+        "cylinderGroundM": 0.1
+      },
       "encounter": {
+        "collisionRadiusM": 1,
+        "collisionHeightM": 0.5,
+        "collisionHeadRadiusM": 0.2,
         "movementType": "MOVEMENT_HOVERING",
         "bonusCandyCaptureReward": 2,
         "bonusStardustCaptureReward": 200,
@@ -205414,7 +205457,7 @@
       "weightStdDev": 3.75,
       "familyId": "FAMILY_ARROKUDA",
       "kmBuddyDistance": 3,
-      "modelHeight": 1,
+      "modelHeight": 1.3,
       "modelScaleV2": 1,
       "form": "BARRASKEWDA_NORMAL",
       "buddyOffsetMale": [
@@ -205428,6 +205471,11 @@
         0
       ],
       "buddyScale": 19,
+      "buddyPortraitOffset": [
+        -50,
+        50,
+        -550
+      ],
       "thirdMove": {
         "stardustToUnlock": 50000,
         "candyToUnlock": 50
