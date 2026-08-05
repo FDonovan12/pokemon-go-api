@@ -1,4 +1,4 @@
-import { RawGameMaster } from '@generated/raw.index.js';
+import { RawGameMaster } from '#generated/raw.index.js';
 import { ClientQuestTemplate } from '../data/api/raw.type.js';
 import { FileGenerator } from '../type/fileGenerator.js';
 

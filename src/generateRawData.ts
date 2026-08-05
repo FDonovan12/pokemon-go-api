@@ -41,7 +41,7 @@ async function saveRawAndGenerateTypes(groupedData: GameMasterByKey) {
 }
 
 function generateInternalIndex(keys: string[]): string {
-    let content = `import * as Types from '@generated/data/api/raw.type.js';\n\n`;
+    let content = `import * as Types from #generated/data/api/raw.type.js';\n\n`;
     content += `export const RawGameMaster = {\n`;
 
     keys.forEach((key) => {

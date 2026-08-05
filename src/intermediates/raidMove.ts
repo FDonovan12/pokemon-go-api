@@ -1,5 +1,5 @@
 // src/intermediates/pokemonSetting.intermediate.ts
-import { RawGameMaster } from '@generated/raw.index.js';
+import { RawGameMaster } from '#generated/raw.index.js';
 import { IntermediateGenerator } from '../type/intermediateGenerator.js';
 
 export default class PokemonSettingIntermediate extends IntermediateGenerator {

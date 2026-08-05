@@ -1,4 +1,4 @@
-import { IntermediateData } from '@generated/intermediate.index.js';
+import { IntermediateData } from '#generated/intermediate.index.js';
 import { FileGenerator, GeneratorSpeed } from '../type/fileGenerator.js';
 export default class PokemonSettingGenerator extends FileGenerator {
     getFileName(): string {

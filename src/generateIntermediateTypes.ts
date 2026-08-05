@@ -23,7 +23,7 @@ export async function generateIntermediateTypes(results: { name: string; content
 }
 
 function generateIntermediateIndex(names: string[], isArrayByName: Map<string, boolean>): string {
-    let content = `import * as Types from '@generated/data/api/intermediate.type.js';\n\n`;
+    let content = `import * as Types from '#generated/data/api/intermediate.type.js';\n\n`;
     content += `export const IntermediateData = {\n`;
 
     names.forEach((name) => {
