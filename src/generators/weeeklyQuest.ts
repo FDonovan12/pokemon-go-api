@@ -1,6 +1,6 @@
-import { RawGameMaster } from '../../generated/index.js';
+import { RawGameMaster } from '@generated/raw.index.js';
+import { ClientQuestTemplate } from '../data/api/raw.type.js';
 import { FileGenerator } from '../type/fileGenerator.js';
-import { ClientQuestTemplate } from '../types.js';
 
 export default class PokemonSettingGenerator extends FileGenerator {
     getFileName(): string {

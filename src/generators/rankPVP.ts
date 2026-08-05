@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { getCpMultipliers } from '../services/cpMultiplier.service.js';
 import { getPokemonSetting } from '../services/pokemonSetting.service.js';
-import { FileGenerator } from '../type/fileGenerator.js';
+import { FileGenerator, GeneratorSpeed } from '../type/fileGenerator.js';
 
 const CP_CAP = { super: 1500, hyper: 2500 };
 
@@ -24,8 +24,12 @@ export default class PokemonSettingGenerator extends FileGenerator {
         // non utilisé : on override generate() ci-dessous
         return '';
     }
+    getSpeed(): GeneratorSpeed {
+        return GeneratorSpeed.VERY_SLOW;
+    }
 
-    async generate(): Promise<void> {
+    async generate(): Promise<string> {
+        const start = performance.now();
         const rawPokemon = await getPokemonSetting();
         const rawCpMultiplier = await getCpMultipliers();
 
@@ -36,18 +40,24 @@ export default class PokemonSettingGenerator extends FileGenerator {
         const dir = 'generated/data/rank-pvp';
         fs.mkdirSync(path.dirname(dir + '/x'), { recursive: true });
 
+        let sample = '{}';
         for (const pokemon of finalPokemon) {
             const content = {
                 super: getAllRanks(pokemon, rawCpMultiplier, CP_CAP.super),
                 hyper: getAllRanks(pokemon, rawCpMultiplier, CP_CAP.hyper),
             };
+            const stringified = JSON.stringify(content, null, 2);
 
             const filePath = path.join(dir, `${pokemon.slug}.json`);
-            fs.writeFileSync(filePath, JSON.stringify(content, null, 2));
-            console.log(`Fichiers générés : ${filePath}`);
+            fs.writeFileSync(filePath, stringified);
+            console.log(`Fichier généré : ${filePath}`);
+
+            if (!sample) sample = stringified;
         }
 
-        console.log(`Fichiers générés : ${finalPokemon.length} dans ${dir}`);
+        const elapsedMs = Math.round(performance.now() - start);
+        console.log(`Fichiers générés : ${finalPokemon.length} dans ${dir} (${elapsedMs}ms)`);
+        return sample;
     }
 }
 
