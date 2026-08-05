@@ -4,18 +4,16 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && tsc-alias",
     "generate": "tsx src/generateRawData.ts",
     "intermediate": "tsx src/generateIntermediateData.ts",
     "update": "npm run build && node dist/src/checkAndUpdate.js",
     "dev": "npm run generate && npm run intermediate && tsx watch src/checkAndUpdate.ts",
     "prepare": "npm run generate && npm run intermediate"
   },
-  "imports": {
-    "#generated/*": "./dist/generated/*"
-  },
   "devDependencies": {
     "@types/node": "^25.0.3",
+    "tsc-alias": "^1.9.1",
     "typescript": "^5.3.3"
   },
   "dependencies": {
