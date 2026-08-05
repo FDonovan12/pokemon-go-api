@@ -120,63 +120,66 @@ class PokemonSettingGeneratorService {
 
     async getFileContent(): Promise<any> {
         const raw: PokemonSettings[] = await RawGameMaster.getPokemonSettings();
+        const rawPokemons: any[] = [];
+        for (let i = 0; i < raw.length; i += 20) {
+            const batch = raw.slice(i, i + 20);
+            await Promise.all(
+                batch.map(async (pokemon) => {
+                    const dexNumber = this.extractDexNumber(pokemon.templateId);
+                    this.alterPokemon(pokemon);
+                    let formField = String(pokemon.data.form ?? 'base'); // have to convert number to string even most of the time never number here
 
-        const rawPokemons = await Promise.all(
-            raw.map(async (pokemon) => {
-                const dexNumber = this.extractDexNumber(pokemon.templateId);
-                this.alterPokemon(pokemon);
-                let formField = String(pokemon.data.form ?? 'base'); // have to convert number to string even most of the time never number here
+                    const name = await this.fetchFrenchName(dexNumber);
+                    const generation = await this.fetchGeneration(dexNumber, formField);
 
-                const name = await this.fetchFrenchName(dexNumber);
-                const generation = await this.fetchGeneration(dexNumber, formField);
+                    let imageId: number = dexNumber;
+                    if (formField) {
+                        const slug = formField.slugify();
+                        imageId = (await this.fetchFormId(slug)) ?? dexNumber;
+                    }
 
-                let imageId: number = dexNumber;
-                if (formField) {
-                    const slug = formField.slugify();
-                    imageId = (await this.fetchFormId(slug)) ?? dexNumber;
-                }
-
-                const slug =
-                    formField === 'base'
-                        ? name.slugify()
-                        : formField.replace(pokemon.data.pokemonId, name).slugify();
-                return {
-                    id: pokemon.templateId,
-                    pokemonId: pokemon.data.pokemonId,
-                    dexNumber,
-                    name,
-                    generation,
-                    slug: slug,
-                    imageId,
-                    // https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/${imageId}.png
-                    // image: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${imageId}.png`,
-                    image: `https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/${imageId}.png`,
-                    imageShiny: `https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/${imageId}.png`,
-                    type: [
-                        pokemonTypeToFrench(pokemon.data.type),
-                        pokemonTypeToFrench(pokemon.data.type2 ?? ''),
-                    ].compact(),
-                    stats: pokemon.data.stats,
-                    quickMoves: pokemon.data.quickMoves ?? [],
-                    cinematicMoves: pokemon.data.cinematicMoves ?? [],
-                    eliteQuickMove: pokemon.data.eliteQuickMove ?? [],
-                    eliteCinematicMove: pokemon.data.eliteCinematicMove ?? [],
-                    nonTmCinematicMoves: pokemon.data.nonTmCinematicMoves ?? [],
-                    evolutionIds: (pokemon.data.evolutionBranch ?? [])
-                        .map((branch) => branch.evolution)
-                        .filter((pokemon) => pokemon !== 'ZYGARDE'),
-                    family: pokemon.data.familyId,
-                    isLegendary: pokemon.data.pokemonClass === 'POKEMON_CLASS_LEGENDARY',
-                    isMythical: pokemon.data.pokemonClass === 'POKEMON_CLASS_MYTHIC',
-                    isUltraBeast: pokemon.data.pokemonClass === 'POKEMON_CLASS_ULTRA_BEAST',
-                    form: formField ?? 'base',
-                    encounter: {
-                        stardustCaptureReward:
-                            (pokemon.data.encounter?.bonusStardustCaptureReward ?? 0) + 100,
-                    },
-                };
-            }),
-        );
+                    const slug =
+                        formField === 'base'
+                            ? name.slugify()
+                            : formField.replace(pokemon.data.pokemonId, name).slugify();
+                    rawPokemons.push({
+                        id: pokemon.templateId,
+                        pokemonId: pokemon.data.pokemonId,
+                        dexNumber,
+                        name,
+                        generation,
+                        slug: slug,
+                        imageId,
+                        // https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/${imageId}.png
+                        // image: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${imageId}.png`,
+                        image: `https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/${imageId}.png`,
+                        imageShiny: `https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/${imageId}.png`,
+                        type: [
+                            pokemonTypeToFrench(pokemon.data.type),
+                            pokemonTypeToFrench(pokemon.data.type2 ?? ''),
+                        ].compact(),
+                        stats: pokemon.data.stats,
+                        quickMoves: pokemon.data.quickMoves ?? [],
+                        cinematicMoves: pokemon.data.cinematicMoves ?? [],
+                        eliteQuickMove: pokemon.data.eliteQuickMove ?? [],
+                        eliteCinematicMove: pokemon.data.eliteCinematicMove ?? [],
+                        nonTmCinematicMoves: pokemon.data.nonTmCinematicMoves ?? [],
+                        evolutionIds: (pokemon.data.evolutionBranch ?? [])
+                            .map((branch) => branch.evolution)
+                            .filter((pokemon) => pokemon !== 'ZYGARDE'),
+                        family: pokemon.data.familyId,
+                        isLegendary: pokemon.data.pokemonClass === 'POKEMON_CLASS_LEGENDARY',
+                        isMythical: pokemon.data.pokemonClass === 'POKEMON_CLASS_MYTHIC',
+                        isUltraBeast: pokemon.data.pokemonClass === 'POKEMON_CLASS_ULTRA_BEAST',
+                        form: formField ?? 'base',
+                        encounter: {
+                            stardustCaptureReward:
+                                (pokemon.data.encounter?.bonusStardustCaptureReward ?? 0) + 100,
+                        },
+                    });
+                }),
+            );
+        }
         const familyToFrenchName = new Map<string, string>(
             rawPokemons
                 .filter((pokemon) => pokemon.pokemonId === pokemon.family.replace('FAMILY_', ''))
