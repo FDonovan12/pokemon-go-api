@@ -13,7 +13,8 @@ runIntermediates().catch((err) => {
 async function runIntermediates() {
     const intermediatesFolder = isDev
         ? path.resolve('./src/intermediates')
-        : path.resolve('./dist/src/intermediates');
+        : path.resolve('./dis/intermediates');
+    // : path.resolve('./dist/src/intermediates');
     const folder = path.resolve(intermediatesFolder);
     const intermediates = await loadIntermediates(folder);
     const runner = new IntermediateRunner(intermediates);
