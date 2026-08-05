@@ -1,5 +1,9 @@
+import dotenv from 'dotenv';
 import fs from 'fs';
 
+dotenv.config();
+
+export const isDev = process.env.DEV === 'true';
 export interface SourceConfig {
     game_master_url: string;
 }

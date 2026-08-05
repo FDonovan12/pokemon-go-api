@@ -1,10 +1,10 @@
 import fs from 'fs';
 import path from 'path';
-import { InputData, jsonInputForTargetLanguage, quicktype } from 'quicktype-core';
 import { fetchGameMaster } from './fetchGameMaster.js';
 import { GameMaster, GameMasterByKey, groupGameMaster } from './type/gameMasterType.js';
 
 import 'utilitish';
+import { generateTypesFile, TypeSource } from './quicktypeGenerator.js';
 
 mainRawGenerated().catch((err) => {
     console.error('❌ Erreur:', err);
@@ -22,7 +22,7 @@ async function saveRawAndGenerateTypes(groupedData: GameMasterByKey) {
     const outputDir: string = 'generated/data/raw';
     if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
 
-    const inputData = new InputData();
+    const sources: TypeSource[] = [];
     const filesMapping: string[] = [];
 
     for (const [key, items] of Object.entries(groupedData)) {
@@ -30,39 +30,18 @@ async function saveRawAndGenerateTypes(groupedData: GameMasterByKey) {
         fs.writeFileSync(path.join(outputDir, fileName), JSON.stringify(items, null, 2));
 
         const typeName = key.camelCase().capitalize();
-
-        await inputData.addSource(
-            'json',
-            {
-                name: typeName,
-                samples: [JSON.stringify(items)],
-            },
-            () => jsonInputForTargetLanguage('typescript'),
-        );
-
+        sources.push({ typeName, sample: JSON.stringify(items) });
         filesMapping.push(key);
     }
 
-    const { lines } = await quicktype({
-        inputData,
-        lang: 'typescript',
-        rendererOptions: {
-            'just-types': 'true',
-            'explicit-unions': 'true',
-            'no-date-times': 'true',
-            'acronym-style': 'camel',
-        },
-        fixedTopLevels: true,
-    });
-
-    fs.writeFileSync(path.join('generated', 'types.ts'), lines.join('\n'));
+    await generateTypesFile(sources, 'generated/data/api/raw.type.ts');
 
     const indexContent = generateInternalIndex(filesMapping);
-    fs.writeFileSync(path.join('generated', 'index.ts'), indexContent);
+    fs.writeFileSync(path.join('generated', 'raw.index.ts'), indexContent);
 }
 
 function generateInternalIndex(keys: string[]): string {
-    let content = `import * as Types from './types.js';\n\n`;
+    let content = `import * as Types from '@generated/data/api/raw.type.js';\n\n`;
     content += `export const RawGameMaster = {\n`;
 
     keys.forEach((key) => {

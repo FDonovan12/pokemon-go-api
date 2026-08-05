@@ -1,6 +1,6 @@
+import { IntermediateData } from '@generated/intermediate.index.js';
 import { getCpMultipliers } from '../services/cpMultiplier.service.js';
-import { getPokemonSetting } from '../services/pokemonSetting.service.js';
-import { FileGenerator } from '../type/fileGenerator.js';
+import { FileGenerator, GeneratorSpeed } from '../type/fileGenerator.js';
 
 const CP_CAP = { super: 1500, hyper: 2500 };
 
@@ -9,8 +9,12 @@ export default class PokemonSettingGenerator extends FileGenerator {
         return 'rank-1-pvp.json';
     }
 
+    getSpeed(): GeneratorSpeed {
+        return GeneratorSpeed.MEDIUM;
+    }
+
     async getFileContent(): Promise<string> {
-        const rawPokemon = await getPokemonSetting();
+        const rawPokemon = await IntermediateData.getPokemonSetting();
         const rawCpMultiplier = await getCpMultipliers();
 
         const finalPokemon = rawPokemon
@@ -19,13 +23,13 @@ export default class PokemonSettingGenerator extends FileGenerator {
 
         const result: Record<string, { super: any; hyper: any }> = {};
 
-        for (const pokemon of finalPokemon) {
-            console.log('rank 1 : ', pokemon.slug);
-            result[pokemon.slug] = {
-                super: getRank1(pokemon, rawCpMultiplier, CP_CAP.super),
-                hyper: getRank1(pokemon, rawCpMultiplier, CP_CAP.hyper),
-            };
-        }
+        // for (const pokemon of finalPokemon) {
+        //     console.log('rank 1 : ', pokemon.slug);
+        //     result[pokemon.slug] = {
+        //         super: getRank1(pokemon, rawCpMultiplier, CP_CAP.super),
+        //         hyper: getRank1(pokemon, rawCpMultiplier, CP_CAP.hyper),
+        //     };
+        // }
 
         return JSON.stringify(result, null, 2);
     }

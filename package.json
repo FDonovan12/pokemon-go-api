@@ -6,9 +6,10 @@
   "scripts": {
     "build": "tsc",
     "generate": "tsx src/generateRawData.ts",
+    "intermediate": "tsx src/generateIntermediateData.ts",
     "update": "npm run build && node dist/src/checkAndUpdate.js",
-    "dev": "npm run generate && tsx watch src/checkAndUpdate.ts",
-    "prepare": "npm run generate"
+    "dev": "npm run generate && npm run intermediate && tsx watch src/checkAndUpdate.ts",
+    "prepare": "npm run generate && npm run intermediate"
   },
   "devDependencies": {
     "@types/node": "^25.0.3",

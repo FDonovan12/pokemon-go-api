@@ -1,5 +1,5 @@
-import { RawGameMaster } from '../../generated/index.js';
-import { PokemonSettings } from '../types.js';
+import { PokemonSettings } from '@generated/data/api/raw.type.js';
+import { RawGameMaster } from '@generated/raw.index.js';
 
 let cachedResult: Promise<any> | null = null;
 
@@ -20,17 +20,43 @@ class PokemonSettingGeneratorService {
 
     private async fetchPokemonSpecies(dexNumber: number): Promise<any> {
         if (this.speciesCache.has(dexNumber)) return this.speciesCache.get(dexNumber);
-        const res = await fetch(`https://pokeapi.co/api/v2/pokemon-species/${dexNumber}`);
-        const data = await res.json();
+
+        const data = await this.fetchJsonWithRetry(
+            `https://pokeapi.co/api/v2/pokemon-species/${dexNumber}`,
+        );
         this.speciesCache.set(dexNumber, data);
         return data;
+    }
+
+    private async fetchJsonWithRetry(url: string, retries = 3, delayMs = 500): Promise<any> {
+        for (let attempt = 0; attempt <= retries; attempt++) {
+            const res = await fetch(url);
+
+            if (res.ok) {
+                return res.json();
+            }
+
+            // 429 = rate limit, 5xx = erreur serveur temporaire -> on retry
+            if ((res.status === 429 || res.status >= 500) && attempt < retries) {
+                const wait = delayMs * 2 ** attempt; // backoff exponentiel
+                console.log(
+                    `⚠️  ${res.status} sur ${url}, retry dans ${wait}ms (tentative ${attempt + 1}/${retries})`,
+                );
+                await new Promise((resolve) => setTimeout(resolve, wait));
+                continue;
+            }
+
+            throw new Error(`Échec fetch ${url} : ${res.status} ${res.statusText}`);
+        }
+
+        throw new Error(`Échec fetch ${url} après ${retries} tentatives`);
     }
 
     private async fetchFrenchName(dexNumber: number): Promise<string> {
         const data = await this.fetchPokemonSpecies(dexNumber);
         const raw = data.names.find((n: any) => n.language.name === 'fr')?.name;
         if (!raw) {
-            console.log('fetchFrenchName : ', dexNumber);
+            // console.log('fetchFrenchName : ', dexNumber);
         }
         return raw ?? '';
     }
@@ -50,7 +76,7 @@ class PokemonSettingGeneratorService {
         try {
             const res = await fetch(`https://pokeapi.co/api/v2/pokemon/${formSlug}`);
             if (!res.ok) {
-                console.log('fetchFormId : ', formSlug);
+                // console.log('fetchFormId : ', formSlug);
                 return null;
             }
             const data = await res.json();
@@ -61,8 +87,6 @@ class PokemonSettingGeneratorService {
     }
 
     private isSameForm(form: any, otherForm: any) {
-        console.log('isSameForm', form.stats);
-        console.log('otherForm', otherForm.stats);
         const hasSameStatsStamina = form.stats.baseStamina === otherForm.stats.baseStamina;
         const hasSameStatsAttack = form.stats.baseAttack === otherForm.stats.baseAttack;
         const hasSameStatsDefense = form.stats.baseDefense === otherForm.stats.baseDefense;
@@ -87,7 +111,6 @@ class PokemonSettingGeneratorService {
 
     private extractBaseSameDifferentForm(lists: any[], baseFormIndex: number) {
         const baseForm = lists[baseFormIndex];
-        console.log('baseFormIndex', baseFormIndex, lists[0].form);
         const otherFormSameAsBase = lists.filter(
             (form, id) => this.isSameForm(form, baseForm) && id !== baseFormIndex,
         );

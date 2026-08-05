@@ -1,4 +1,4 @@
-import { RawGameMaster } from '../../generated/index.js';
+import { RawGameMaster } from '@generated/raw.index.js';
 import { FileGenerator } from '../type/fileGenerator.js';
 
 export default class ChargedMoveSettingGenerator extends FileGenerator {
