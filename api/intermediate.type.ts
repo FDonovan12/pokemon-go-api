@@ -1,10 +1,10 @@
 export interface PokemonSetting {
-    base:      PokemonSettingBase;
-    same:      PokemonSettingBase[];
+    base:      Base;
+    same:      Base[];
     different: Different[];
 }
 
-export interface PokemonSettingBase {
+export interface Base {
     id:                  string;
     pokemonId:           string;
     dexNumber:           number;
@@ -21,7 +21,8 @@ export interface PokemonSettingBase {
     eliteQuickMove:      string[];
     eliteCinematicMove:  string[];
     nonTmCinematicMoves: string[];
-    evolutionIds:        (null | string)[];
+    hasMega:             boolean;
+    evolutionIds:        string[];
     family:              string;
     isLegendary:         boolean;
     isMythical:          boolean;
@@ -62,34 +63,8 @@ export enum Type {
 }
 
 export interface Different {
-    base: DifferentBase;
-    same: DifferentBase[];
-}
-
-export interface DifferentBase {
-    id:                  string;
-    pokemonId:           string;
-    dexNumber:           number;
-    name:                string;
-    generation:          number;
-    slug:                string;
-    imageId:             number;
-    image:               string;
-    imageShiny:          string;
-    type:                Type[];
-    stats:               Stats;
-    quickMoves:          string[];
-    cinematicMoves:      string[];
-    eliteQuickMove:      string[];
-    eliteCinematicMove:  string[];
-    nonTmCinematicMoves: string[];
-    evolutionIds:        string[];
-    family:              string;
-    isLegendary:         boolean;
-    isMythical:          boolean;
-    isUltraBeast:        boolean;
-    form:                string;
-    encounter:           Encounter;
+    base: Base;
+    same: Base[];
 }
 
 export interface RaidMove {
