@@ -86,7 +86,7 @@ export interface QuestIconCarousel {
 }
 
 export interface RewardDatum {
-    type: DailyDefenderBonusCurrency;
+    type: TypeElement;
     item: RewardDatumItem;
 }
 
@@ -95,13 +95,12 @@ export interface RewardDatumItem {
     amount?: number;
 }
 
-export enum DailyDefenderBonusCurrency {
+export enum TypeElement {
     AvatarClothing = "AVATAR_CLOTHING",
     Candy = "CANDY",
     Experience = "EXPERIENCE",
     Item = "ITEM",
     PlayerAttribute = "PLAYER_ATTRIBUTE",
-    Pokecoin = "POKECOIN",
     PokemonEncounter = "POKEMON_ENCOUNTER",
     Stardust = "STARDUST",
     XlCandy = "XL_CANDY",
@@ -463,7 +462,7 @@ export interface BadgeSettingData {
 }
 
 export interface CaptureReward {
-    rewardTypes?: DailyDefenderBonusCurrency[];
+    rewardTypes?: TypeElement[];
 }
 
 export interface EventBadgeSettings {
@@ -1139,7 +1138,7 @@ export interface CombatSettingData {
     shadowPokemonAttackBonusMultiplier:      number;
     shadowPokemonDefenseBonusMultiplier:     number;
     purifiedPokemonAttackMultiplierVsShadow: number;
-    combatExperiment:                        LocationCardElement[];
+    combatExperiment:                        LocationCard[];
     showQuickSwapButtonsDuringCountdown:     boolean;
     obCombatSettingsNotPushedBool2:          boolean;
     clockSyncSettings:                       ClockSyncSettings;
@@ -1152,7 +1151,7 @@ export interface ClockSyncSettings {
     enabled:          boolean;
 }
 
-export type LocationCardElement = number | string;
+export type LocationCard = number | string;
 
 export interface CombatFeatureFlags {
     realDeviceTimeEnabled: boolean;
@@ -1309,8 +1308,8 @@ export interface DeepLinkingSettings {
 export interface DeepLinkingSettingData {
     minPlayerLevelForExternalLink:     number;
     minPlayerLevelForNotificationLink: number;
-    actionsThatIgnoreMinLevel:         LocationCardElement[];
-    actionsThatExecuteBeforeMapLoads:  LocationCardElement[];
+    actionsThatIgnoreMinLevel:         LocationCard[];
+    actionsThatExecuteBeforeMapLoads:  LocationCard[];
     iosActionButtonEnabled:            boolean;
 }
 
@@ -1464,7 +1463,7 @@ export interface EventPassTierSettingData {
 }
 
 export interface Settings {
-    eventName?: EventName;
+    eventName?: string;
     bonusBoxes: ActiveBonusDisplaySettingsBonusBox[];
 }
 
@@ -1481,16 +1480,8 @@ export enum IconType {
     Trade = "TRADE",
 }
 
-export enum EventName {
-    GoPassCumulativeBonusesHeader = "go_pass_cumulative_bonuses_header",
-    SeasonPassMilestoneBonusTitle01 = "season_pass_milestone_bonus_title_01",
-    SeasonPassMilestoneBonusTitle02 = "season_pass_milestone_bonus_title_02",
-    SeasonPassMilestoneBonusTitle03 = "season_pass_milestone_bonus_title_03",
-    SeasonPassMilestoneBonusTitle04 = "season_pass_milestone_bonus_title_04",
-}
-
 export interface PurpleReward {
-    type:              DailyDefenderBonusCurrency;
+    type:              TypeElement;
     pokemonEncounter?: RewardPokemonEncounter;
     item?:             RewardDatumItem;
     stardust?:         number;
@@ -1498,7 +1489,6 @@ export interface PurpleReward {
     xlCandy?:          Candy;
     exp?:              number;
     playerAttribute?:  PlayerAttribute;
-    pokecoin?:         number;
 }
 
 export interface Candy {
@@ -1521,11 +1511,6 @@ export interface RewardPokemonEncounter {
 export interface PurplePokemonDisplay {
     form:           string;
     breadModeEnum?: BreadMode;
-    locationCard?:  LocationCard;
-}
-
-export interface LocationCard {
-    locationCard: string;
 }
 
 export interface StatsLimitsOverride {
@@ -1876,7 +1861,7 @@ export interface GlobalEventTicket {
 }
 
 export interface IconReward {
-    type:                       DailyDefenderBonusCurrency;
+    type:                       TypeElement;
     exp?:                       number;
     stardust?:                  number;
     pokemonEncounter?:          IconRewardPokemonEncounter;
@@ -2052,7 +2037,7 @@ export interface IapSettings {
 export interface IapSettingData {
     dailyDefenderBonusPerPokemon:     number[];
     dailyDefenderBonusMaxDefenders:   number;
-    dailyDefenderBonusCurrency:       DailyDefenderBonusCurrency[];
+    dailyDefenderBonusCurrency:       string[];
     minTimeBetweenClaimsMs:           string;
     prohibitPurchaseInTestEnvirnment: boolean;
 }
@@ -2190,7 +2175,7 @@ export interface IrisSocialUxFunnelSettingData {
 
 export interface EventStep {
     stepNumber: number;
-    event:      LocationCardElement;
+    event:      LocationCard;
 }
 
 export interface ItemCurrencyValues {
@@ -2283,7 +2268,7 @@ export interface LocationCardSettings {
 }
 
 export interface LocationCardSettingData {
-    locationCard: LocationCardElement;
+    locationCard: LocationCard;
     imageUrl:     string;
     cardType?:    CardType;
     vfxAddress?:  string;
@@ -2555,7 +2540,7 @@ export interface MpSettingData {
 
 export interface BattleMpCostPerTier {
     breadBattleCatchMpCost:       number;
-    battleLevel:                  LocationCardElement;
+    battleLevel:                  LocationCard;
     breadBattleRemoteCatchMpCost: number;
 }
 
@@ -3022,7 +3007,7 @@ export interface PokedexCategoriesSettingData {
 }
 
 export interface PokedexCategorySettingsInOrder {
-    pokedexCategory: LocationCardElement;
+    pokedexCategory: LocationCard;
     milestoneGoal:   number;
     visuallyHidden?: boolean;
 }
@@ -3359,7 +3344,7 @@ export interface ReferralSettingData {
 }
 
 export interface RecentFeature {
-    iconType:    LocationCardElement;
+    iconType:    LocationCard;
     featureName: string;
     description: string;
 }
@@ -3873,7 +3858,7 @@ export interface TutorialSettingData {
 }
 
 export interface TutorialItemReward {
-    tutorial: LocationCardElement;
+    tutorial: LocationCard;
     item?:    ItemElement[];
 }
 
