@@ -164,8 +164,12 @@ class PokemonSettingGeneratorService {
                         eliteQuickMove: pokemon.data.eliteQuickMove ?? [],
                         eliteCinematicMove: pokemon.data.eliteCinematicMove ?? [],
                         nonTmCinematicMoves: pokemon.data.nonTmCinematicMoves ?? [],
+                        hasMega: (pokemon.data.evolutionBranch ?? []).some(
+                            (branch) => branch.temporaryEvolution === 'TEMP_EVOLUTION_MEGA',
+                        ),
                         evolutionIds: (pokemon.data.evolutionBranch ?? [])
                             .map((branch) => branch.evolution)
+                            .compact()
                             .filter((pokemon) => pokemon !== 'ZYGARDE'),
                         family: pokemon.data.familyId,
                         isLegendary: pokemon.data.pokemonClass === 'POKEMON_CLASS_LEGENDARY',
