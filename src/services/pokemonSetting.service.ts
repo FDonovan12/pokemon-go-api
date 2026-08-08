@@ -229,7 +229,7 @@ class PokemonSettingGeneratorService {
             const formDifferentAsBase = lists.filter((form) => !this.isSameForm(form, baseForm));
             return { base: baseForm, same: otherFormSameAsBase, different: formDifferentAsBase };
         };
-        return finalPokemons;
+        return finalPokemons.sortAsc((pokemon) => pokemon.base.dexNumber);
     }
     private alterPokemon(pokemon: PokemonSettings) {
         /* 
