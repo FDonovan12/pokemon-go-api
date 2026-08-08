@@ -692,6 +692,15 @@ export interface RaidMoveFastMove {
 }
 
 export interface Rank1Pvp {
+    super: Per;
+    hyper: Per;
+}
+
+export interface Per {
+    attack:  number;
+    defense: number;
+    stamina: number;
+    level:   number;
 }
 
 export interface RankPvp {
