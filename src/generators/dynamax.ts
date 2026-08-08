@@ -61,7 +61,8 @@ export default class PokemonSettingGenerator extends FileGenerator {
                     .unique()
                     .map(
                         (type) =>
-                            rawMappingMoveDynamax.find((move) => move.type === type)?.move ?? '',
+                            rawMappingMoveDynamax.find((move) => move.type === (type as string))
+                                ?.move ?? '',
                     )
                     .map((move) => raidMove.dynamaxMove[move]),
                 familyId: pokemon?.base.family,
