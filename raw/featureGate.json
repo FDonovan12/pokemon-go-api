@@ -21,6 +21,13 @@
     }
   },
   {
+    "templateId": "COMBAT_SUPPRESS_FAST_MOVE_PREDICTIONS_ON_SWAP_FEATURE_GATE",
+    "data": {
+      "status": 2,
+      "rolloutPercentage": 100
+    }
+  },
+  {
     "templateId": "ENABLE_PVP_CHALLENGE_SPANNER_FEATURE_GATE",
     "data": {
       "status": 1,

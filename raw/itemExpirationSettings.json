@@ -108,6 +108,13 @@
     }
   },
   {
+    "templateId": "ITEM_EXPIRATION_ITEM_EVENT_PASS_POINT_LIVE_OPS_10",
+    "data": {
+      "item": "ITEM_EVENT_PASS_POINT_LIVE_OPS_10",
+      "expirationTime": "2026-08-31T20:00:00"
+    }
+  },
+  {
     "templateId": "ITEM_EXPIRATION_ITEM_EVENT_PASS_POINT_MONTHLY_01",
     "data": {
       "item": "ITEM_EVENT_PASS_POINT_MONTHLY_01",

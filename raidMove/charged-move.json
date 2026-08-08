@@ -2212,5 +2212,122 @@
     "pokemonType": "POKEMON_TYPE_NORMAL",
     "durationMs": 2500,
     "vfxName": "gulp_missile_gorging"
+  },
+  "TEMP_EVOLUTION_MEGA_V0071_POKEMON_VICTREEBEL": {
+    "id": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0071_POKEMON_VICTREEBEL",
+    "movementId": "TEMP_EVOLUTION_MEGA_V0071_POKEMON_VICTREEBEL",
+    "pokemonType": "POKEMON_TYPE_POISON",
+    "power": 160,
+    "durationMs": 3000,
+    "energyDelta": -100,
+    "vfxName": "acid_spray"
+  },
+  "TEMP_EVOLUTION_MEGA_V0121_POKEMON_STARMIE": {
+    "id": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0121_POKEMON_STARMIE",
+    "movementId": "TEMP_EVOLUTION_MEGA_V0121_POKEMON_STARMIE",
+    "pokemonType": "POKEMON_TYPE_WATER",
+    "power": 180,
+    "durationMs": 3000,
+    "energyDelta": -100,
+    "vfxName": "liquidation"
+  },
+  "TEMP_EVOLUTION_MEGA_V0149_POKEMON_DRAGONITE": {
+    "id": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0149_POKEMON_DRAGONITE",
+    "movementId": "TEMP_EVOLUTION_MEGA_V0149_POKEMON_DRAGONITE",
+    "pokemonType": "POKEMON_TYPE_DRAGON",
+    "power": 185,
+    "durationMs": 4000,
+    "energyDelta": -100,
+    "vfxName": "outrage"
+  },
+  "TEMP_EVOLUTION_MEGA_V0227_POKEMON_SKARMORY": {
+    "id": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0227_POKEMON_SKARMORY",
+    "movementId": "TEMP_EVOLUTION_MEGA_V0227_POKEMON_SKARMORY",
+    "pokemonType": "POKEMON_TYPE_FLYING",
+    "power": 170,
+    "durationMs": 2500,
+    "energyDelta": -100,
+    "vfxName": "drill_peck"
+  },
+  "TEMP_EVOLUTION_MEGA_V0652_POKEMON_CHESNAUGHT": {
+    "id": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0652_POKEMON_CHESNAUGHT",
+    "movementId": "TEMP_EVOLUTION_MEGA_V0652_POKEMON_CHESNAUGHT",
+    "pokemonType": "POKEMON_TYPE_GRASS",
+    "power": 150,
+    "durationMs": 2000,
+    "energyDelta": -100,
+    "vfxName": "seed_bomb"
+  },
+  "TEMP_EVOLUTION_MEGA_V0655_POKEMON_DELPHOX": {
+    "id": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0655_POKEMON_DELPHOX",
+    "movementId": "TEMP_EVOLUTION_MEGA_V0655_POKEMON_DELPHOX",
+    "pokemonType": "POKEMON_TYPE_FIRE",
+    "power": 140,
+    "durationMs": 2000,
+    "energyDelta": -100,
+    "vfxName": "myst_fire"
+  },
+  "TEMP_EVOLUTION_MEGA_V0658_POKEMON_GRENINJA": {
+    "id": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0658_POKEMON_GRENINJA",
+    "movementId": "TEMP_EVOLUTION_MEGA_V0658_POKEMON_GRENINJA",
+    "pokemonType": "POKEMON_TYPE_WATER",
+    "power": 130,
+    "durationMs": 1500,
+    "energyDelta": -100,
+    "vfxName": "surf"
+  },
+  "TEMP_EVOLUTION_MEGA_V0687_POKEMON_MALAMAR": {
+    "id": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0687_POKEMON_MALAMAR",
+    "movementId": "TEMP_EVOLUTION_MEGA_V0687_POKEMON_MALAMAR",
+    "pokemonType": "POKEMON_TYPE_PSYCHIC",
+    "power": 170,
+    "durationMs": 3000,
+    "energyDelta": -100,
+    "vfxName": "psybeam"
+  },
+  "TEMP_EVOLUTION_MEGA_V0870_POKEMON_FALINKS": {
+    "id": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0870_POKEMON_FALINKS",
+    "movementId": "TEMP_EVOLUTION_MEGA_V0870_POKEMON_FALINKS",
+    "pokemonType": "POKEMON_TYPE_FIGHTING",
+    "power": 150,
+    "durationMs": 1500,
+    "energyDelta": -100,
+    "vfxName": "brick_break"
+  },
+  "TEMP_EVOLUTION_MEGA_X_V0026_POKEMON_RAICHU": {
+    "id": "VM_MOVE_TEMP_EVOLUTION_MEGA_X_V0026_POKEMON_RAICHU",
+    "movementId": "TEMP_EVOLUTION_MEGA_X_V0026_POKEMON_RAICHU",
+    "pokemonType": "POKEMON_TYPE_ELECTRIC",
+    "power": 170,
+    "durationMs": 3500,
+    "energyDelta": -100,
+    "vfxName": "volt_tackle"
+  },
+  "TEMP_EVOLUTION_MEGA_X_V0150_POKEMON_MEWTWO": {
+    "id": "VM_MOVE_TEMP_EVOLUTION_MEGA_X_V0150_POKEMON_MEWTWO",
+    "movementId": "TEMP_EVOLUTION_MEGA_X_V0150_POKEMON_MEWTWO",
+    "pokemonType": "POKEMON_TYPE_FIGHTING",
+    "power": 130,
+    "durationMs": 2500,
+    "energyDelta": -100,
+    "vfxName": "dynamic_punch"
+  },
+  "TEMP_EVOLUTION_MEGA_Y_V0026_POKEMON_RAICHU": {
+    "id": "VM_MOVE_TEMP_EVOLUTION_MEGA_Y_V0026_POKEMON_RAICHU",
+    "movementId": "TEMP_EVOLUTION_MEGA_Y_V0026_POKEMON_RAICHU",
+    "pokemonType": "POKEMON_TYPE_ELECTRIC",
+    "power": 160,
+    "durationMs": 3500,
+    "energyDelta": -100,
+    "vfxName": "zap_cannon"
+  },
+  "TEMP_EVOLUTION_MEGA_Y_V0150_POKEMON_MEWTWO": {
+    "id": "VM_MOVE_TEMP_EVOLUTION_MEGA_Y_V0150_POKEMON_MEWTWO",
+    "movementId": "TEMP_EVOLUTION_MEGA_Y_V0150_POKEMON_MEWTWO",
+    "pokemonType": "POKEMON_TYPE_PSYCHIC",
+    "power": 140,
+    "durationMs": 2500,
+    "energyDelta": -100,
+    "vfxName": "futuresight"
   }
 }

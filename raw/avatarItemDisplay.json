@@ -441,6 +441,13 @@
     }
   },
   {
+    "templateId": "N_DISPLAY_n_backpack_starmie",
+    "data": {
+      "iconAddress": "n_backpack_starmie_icon",
+      "displayStringId": "avatar_backpack_starmie"
+    }
+  },
+  {
     "templateId": "N_DISPLAY_n_backpack_svcostumescarletschool_0",
     "data": {
       "iconAddress": "n_backpack_svcostumescarletschool_0_icon",

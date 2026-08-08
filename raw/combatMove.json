@@ -3691,5 +3691,159 @@
         "buffActivationChance": 1
       }
     }
+  },
+  {
+    "templateId": "COMBAT_VM_MOVE_TEMP_EVOLUTION_MEGA_V0071_POKEMON_VICTREEBEL",
+    "data": {
+      "uniqueId": "TEMP_EVOLUTION_MEGA_V0071_POKEMON_VICTREEBEL",
+      "type": "POKEMON_TYPE_POISON",
+      "power": 20,
+      "vfxName": "acid_spray",
+      "energyDelta": -40,
+      "buffs": {
+        "targetDefenseStatStageChange": -2,
+        "buffActivationChance": 1
+      }
+    }
+  },
+  {
+    "templateId": "COMBAT_VM_MOVE_TEMP_EVOLUTION_MEGA_V0121_POKEMON_STARMIE",
+    "data": {
+      "uniqueId": "TEMP_EVOLUTION_MEGA_V0121_POKEMON_STARMIE",
+      "type": "POKEMON_TYPE_WATER",
+      "power": 55,
+      "vfxName": "liquidation",
+      "energyDelta": -40,
+      "buffs": {
+        "targetDefenseStatStageChange": -1,
+        "buffActivationChance": 0.3
+      }
+    }
+  },
+  {
+    "templateId": "COMBAT_VM_MOVE_TEMP_EVOLUTION_MEGA_V0149_POKEMON_DRAGONITE",
+    "data": {
+      "uniqueId": "TEMP_EVOLUTION_MEGA_V0149_POKEMON_DRAGONITE",
+      "type": "POKEMON_TYPE_DRAGON",
+      "power": 80,
+      "vfxName": "outrage",
+      "energyDelta": -50
+    }
+  },
+  {
+    "templateId": "COMBAT_VM_MOVE_TEMP_EVOLUTION_MEGA_V0227_POKEMON_SKARMORY",
+    "data": {
+      "uniqueId": "TEMP_EVOLUTION_MEGA_V0227_POKEMON_SKARMORY",
+      "type": "POKEMON_TYPE_FLYING",
+      "power": 60,
+      "vfxName": "drill_peck",
+      "energyDelta": -35
+    }
+  },
+  {
+    "templateId": "COMBAT_VM_MOVE_TEMP_EVOLUTION_MEGA_V0652_POKEMON_CHESNAUGHT",
+    "data": {
+      "uniqueId": "TEMP_EVOLUTION_MEGA_V0652_POKEMON_CHESNAUGHT",
+      "type": "POKEMON_TYPE_GRASS",
+      "power": 60,
+      "vfxName": "seed_bomb",
+      "energyDelta": -40
+    }
+  },
+  {
+    "templateId": "COMBAT_VM_MOVE_TEMP_EVOLUTION_MEGA_V0655_POKEMON_DELPHOX",
+    "data": {
+      "uniqueId": "TEMP_EVOLUTION_MEGA_V0655_POKEMON_DELPHOX",
+      "type": "POKEMON_TYPE_FIRE",
+      "power": 50,
+      "vfxName": "myst_fire",
+      "energyDelta": -40,
+      "buffs": {
+        "targetAttackStatStageChange": -1,
+        "buffActivationChance": 1
+      }
+    }
+  },
+  {
+    "templateId": "COMBAT_VM_MOVE_TEMP_EVOLUTION_MEGA_V0658_POKEMON_GRENINJA",
+    "data": {
+      "uniqueId": "TEMP_EVOLUTION_MEGA_V0658_POKEMON_GRENINJA",
+      "type": "POKEMON_TYPE_WATER",
+      "power": 55,
+      "vfxName": "surf",
+      "energyDelta": -35
+    }
+  },
+  {
+    "templateId": "COMBAT_VM_MOVE_TEMP_EVOLUTION_MEGA_V0687_POKEMON_MALAMAR",
+    "data": {
+      "uniqueId": "TEMP_EVOLUTION_MEGA_V0687_POKEMON_MALAMAR",
+      "type": "POKEMON_TYPE_PSYCHIC",
+      "power": 60,
+      "vfxName": "psybeam",
+      "energyDelta": -45
+    }
+  },
+  {
+    "templateId": "COMBAT_VM_MOVE_TEMP_EVOLUTION_MEGA_V0870_POKEMON_FALINKS",
+    "data": {
+      "uniqueId": "TEMP_EVOLUTION_MEGA_V0870_POKEMON_FALINKS",
+      "type": "POKEMON_TYPE_FIGHTING",
+      "power": 40,
+      "vfxName": "brick_break",
+      "energyDelta": -35,
+      "buffs": {
+        "targetDefenseStatStageChange": -1,
+        "buffActivationChance": 1
+      }
+    }
+  },
+  {
+    "templateId": "COMBAT_VM_MOVE_TEMP_EVOLUTION_MEGA_X_V0026_POKEMON_RAICHU",
+    "data": {
+      "uniqueId": "TEMP_EVOLUTION_MEGA_X_V0026_POKEMON_RAICHU",
+      "type": "POKEMON_TYPE_ELECTRIC",
+      "power": 65,
+      "vfxName": "volt_tackle",
+      "energyDelta": -35,
+      "buffs": {
+        "attackerDefenseStatStageChange": -1,
+        "buffActivationChance": 1
+      }
+    }
+  },
+  {
+    "templateId": "COMBAT_VM_MOVE_TEMP_EVOLUTION_MEGA_X_V0150_POKEMON_MEWTWO",
+    "data": {
+      "uniqueId": "TEMP_EVOLUTION_MEGA_X_V0150_POKEMON_MEWTWO",
+      "type": "POKEMON_TYPE_FIGHTING",
+      "power": 130,
+      "vfxName": "dynamic_punch",
+      "energyDelta": -80
+    }
+  },
+  {
+    "templateId": "COMBAT_VM_MOVE_TEMP_EVOLUTION_MEGA_Y_V0026_POKEMON_RAICHU",
+    "data": {
+      "uniqueId": "TEMP_EVOLUTION_MEGA_Y_V0026_POKEMON_RAICHU",
+      "type": "POKEMON_TYPE_ELECTRIC",
+      "power": 70,
+      "vfxName": "zap_cannon",
+      "energyDelta": -45,
+      "buffs": {
+        "targetAttackStatStageChange": -1,
+        "buffActivationChance": 1
+      }
+    }
+  },
+  {
+    "templateId": "COMBAT_VM_MOVE_TEMP_EVOLUTION_MEGA_Y_V0150_POKEMON_MEWTWO",
+    "data": {
+      "uniqueId": "TEMP_EVOLUTION_MEGA_Y_V0150_POKEMON_MEWTWO",
+      "type": "POKEMON_TYPE_PSYCHIC",
+      "power": 130,
+      "vfxName": "futuresight",
+      "energyDelta": -80
+    }
   }
 ]

@@ -403,13 +403,12 @@
       "category": "ITEM_CATEGORY_EVENT_PASS_POINT",
       "ignoreInventorySpace": true,
       "itemCap": 999999,
-      "nameOverride": "ITEM_EVENT_PASS_POINT_GO_TOUR_01_name",
       "eventPassPoint": {
         "eventPassId": "EVENT_PASS_UU_WATER_FESTIVAL_2026_EVENT"
       },
       "timePeriodCounters": {
         "playerActivity": {
-          "limit": 300
+          "limit": 500
         }
       },
       "hideItemInInventory": true

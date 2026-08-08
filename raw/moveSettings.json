@@ -5988,6 +5988,261 @@
     }
   },
   {
+    "templateId": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0071_POKEMON_VICTREEBEL",
+    "data": {
+      "movementId": "TEMP_EVOLUTION_MEGA_V0071_POKEMON_VICTREEBEL",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_POISON",
+      "power": 160,
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "acid_spray",
+      "durationMs": 3000,
+      "damageWindowStartMs": 2100,
+      "damageWindowEndMs": 2800,
+      "energyDelta": -100,
+      "isLocked": true
+    }
+  },
+  {
+    "templateId": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0121_POKEMON_STARMIE",
+    "data": {
+      "movementId": "TEMP_EVOLUTION_MEGA_V0121_POKEMON_STARMIE",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_WATER",
+      "power": 180,
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "liquidation",
+      "durationMs": 3000,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 2700,
+      "energyDelta": -100,
+      "isLocked": true
+    }
+  },
+  {
+    "templateId": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0149_POKEMON_DRAGONITE",
+    "data": {
+      "movementId": "TEMP_EVOLUTION_MEGA_V0149_POKEMON_DRAGONITE",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_DRAGON",
+      "power": 185,
+      "accuracyChance": 1,
+      "criticalChance": 0.05,
+      "staminaLossScalar": 0.04,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "outrage",
+      "durationMs": 4000,
+      "damageWindowStartMs": 2600,
+      "damageWindowEndMs": 3800,
+      "energyDelta": -100,
+      "isLocked": true
+    }
+  },
+  {
+    "templateId": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0227_POKEMON_SKARMORY",
+    "data": {
+      "movementId": "TEMP_EVOLUTION_MEGA_V0227_POKEMON_SKARMORY",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_FLYING",
+      "power": 170,
+      "accuracyChance": 1,
+      "criticalChance": 0.05,
+      "staminaLossScalar": 0.08,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "drill_peck",
+      "durationMs": 2500,
+      "damageWindowStartMs": 1900,
+      "damageWindowEndMs": 2300,
+      "energyDelta": -100,
+      "isLocked": true
+    }
+  },
+  {
+    "templateId": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0652_POKEMON_CHESNAUGHT",
+    "data": {
+      "movementId": "TEMP_EVOLUTION_MEGA_V0652_POKEMON_CHESNAUGHT",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_GRASS",
+      "power": 150,
+      "accuracyChance": 1,
+      "criticalChance": 0.05,
+      "staminaLossScalar": 0.08,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "seed_bomb",
+      "durationMs": 2000,
+      "damageWindowStartMs": 1100,
+      "damageWindowEndMs": 1800,
+      "energyDelta": -100,
+      "isLocked": true
+    }
+  },
+  {
+    "templateId": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0655_POKEMON_DELPHOX",
+    "data": {
+      "movementId": "TEMP_EVOLUTION_MEGA_V0655_POKEMON_DELPHOX",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_FIRE",
+      "power": 140,
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "myst_fire",
+      "durationMs": 2000,
+      "damageWindowStartMs": 1300,
+      "damageWindowEndMs": 2000,
+      "energyDelta": -100,
+      "isLocked": true
+    }
+  },
+  {
+    "templateId": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0658_POKEMON_GRENINJA",
+    "data": {
+      "movementId": "TEMP_EVOLUTION_MEGA_V0658_POKEMON_GRENINJA",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_WATER",
+      "power": 130,
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "surf",
+      "durationMs": 1500,
+      "damageWindowStartMs": 1200,
+      "damageWindowEndMs": 1400,
+      "energyDelta": -100,
+      "isLocked": true
+    }
+  },
+  {
+    "templateId": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0687_POKEMON_MALAMAR",
+    "data": {
+      "movementId": "TEMP_EVOLUTION_MEGA_V0687_POKEMON_MALAMAR",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_PSYCHIC",
+      "power": 170,
+      "accuracyChance": 1,
+      "criticalChance": 0.05,
+      "staminaLossScalar": 0.065,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "psybeam",
+      "durationMs": 3000,
+      "damageWindowStartMs": 1100,
+      "damageWindowEndMs": 2500,
+      "energyDelta": -100,
+      "isLocked": true
+    }
+  },
+  {
+    "templateId": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0870_POKEMON_FALINKS",
+    "data": {
+      "movementId": "TEMP_EVOLUTION_MEGA_V0870_POKEMON_FALINKS",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_FIGHTING",
+      "power": 150,
+      "accuracyChance": 1,
+      "criticalChance": 0.25,
+      "staminaLossScalar": 0.075,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "brick_break",
+      "durationMs": 1500,
+      "damageWindowStartMs": 700,
+      "damageWindowEndMs": 1300,
+      "energyDelta": -100,
+      "isLocked": true
+    }
+  },
+  {
+    "templateId": "VM_MOVE_TEMP_EVOLUTION_MEGA_X_V0026_POKEMON_RAICHU",
+    "data": {
+      "movementId": "TEMP_EVOLUTION_MEGA_X_V0026_POKEMON_RAICHU",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_ELECTRIC",
+      "power": 170,
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "volt_tackle",
+      "durationMs": 3500,
+      "damageWindowStartMs": 2100,
+      "damageWindowEndMs": 2600,
+      "energyDelta": -100,
+      "isLocked": true
+    }
+  },
+  {
+    "templateId": "VM_MOVE_TEMP_EVOLUTION_MEGA_X_V0150_POKEMON_MEWTWO",
+    "data": {
+      "movementId": "TEMP_EVOLUTION_MEGA_X_V0150_POKEMON_MEWTWO",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_FIGHTING",
+      "power": 130,
+      "accuracyChance": 1,
+      "criticalChance": 0.05,
+      "staminaLossScalar": 0.04,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "dynamic_punch",
+      "durationMs": 2500,
+      "damageWindowStartMs": 1000,
+      "damageWindowEndMs": 2500,
+      "energyDelta": -100,
+      "isLocked": true
+    }
+  },
+  {
+    "templateId": "VM_MOVE_TEMP_EVOLUTION_MEGA_Y_V0026_POKEMON_RAICHU",
+    "data": {
+      "movementId": "TEMP_EVOLUTION_MEGA_Y_V0026_POKEMON_RAICHU",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_ELECTRIC",
+      "power": 160,
+      "accuracyChance": 1,
+      "criticalChance": 0.05,
+      "staminaLossScalar": 0.04,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "zap_cannon",
+      "durationMs": 3500,
+      "damageWindowStartMs": 2800,
+      "damageWindowEndMs": 3300,
+      "energyDelta": -100,
+      "isLocked": true
+    }
+  },
+  {
+    "templateId": "VM_MOVE_TEMP_EVOLUTION_MEGA_Y_V0150_POKEMON_MEWTWO",
+    "data": {
+      "movementId": "TEMP_EVOLUTION_MEGA_Y_V0150_POKEMON_MEWTWO",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_PSYCHIC",
+      "power": 140,
+      "accuracyChance": 1,
+      "criticalChance": 0.05,
+      "staminaLossScalar": 0.04,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "futuresight",
+      "durationMs": 2500,
+      "damageWindowStartMs": 1200,
+      "damageWindowEndMs": 2500,
+      "energyDelta": -100,
+      "isLocked": true
+    }
+  },
+  {
     "templateId": "VN_BM_001",
     "data": {
       "movementId": "VN_BM_001",
