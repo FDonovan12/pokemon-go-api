@@ -22,7 +22,7 @@ export interface Base {
     eliteCinematicMove:  string[];
     nonTmCinematicMoves: string[];
     hasMega:             boolean;
-    evolutionIds:        string[];
+    evolutionIds:        EvolutionId[];
     family:              string;
     isLegendary:         boolean;
     isMythical:          boolean;
@@ -33,6 +33,11 @@ export interface Base {
 
 export interface Encounter {
     stardustCaptureReward: number;
+}
+
+export interface EvolutionId {
+    pokemonId?: string;
+    form:       string;
 }
 
 export interface Stats {
