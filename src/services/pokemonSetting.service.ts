@@ -165,12 +165,17 @@ class PokemonSettingGeneratorService {
                         eliteCinematicMove: pokemon.data.eliteCinematicMove ?? [],
                         nonTmCinematicMoves: pokemon.data.nonTmCinematicMoves ?? [],
                         hasMega: (pokemon.data.evolutionBranch ?? []).some(
-                            (branch) => branch.temporaryEvolution === 'TEMP_EVOLUTION_MEGA',
+                            (branch) => !!branch.temporaryEvolution,
                         ),
                         evolutionIds: (pokemon.data.evolutionBranch ?? [])
-                            .map((branch) => branch.evolution)
-                            .compact()
-                            .filter((pokemon) => pokemon !== 'ZYGARDE'),
+                            .filter((branch) => branch.evolution !== 'ZYGARDE')
+                            .map((branch) => ({
+                                pokemonId: branch.evolution,
+                                form:
+                                    (branch.form?.endsWith('_NORMAL') ? 'base' : branch.form) ??
+                                    'base',
+                            }))
+                            .compact(),
                         family: pokemon.data.familyId,
                         isLegendary: pokemon.data.pokemonClass === 'POKEMON_CLASS_LEGENDARY',
                         isMythical: pokemon.data.pokemonClass === 'POKEMON_CLASS_MYTHIC',
@@ -229,7 +234,7 @@ class PokemonSettingGeneratorService {
             const formDifferentAsBase = lists.filter((form) => !this.isSameForm(form, baseForm));
             return { base: baseForm, same: otherFormSameAsBase, different: formDifferentAsBase };
         };
-        return finalPokemons;
+        return finalPokemons.sortAsc((pokemon) => pokemon.base.dexNumber);
     }
     private alterPokemon(pokemon: PokemonSettings) {
         /* 
