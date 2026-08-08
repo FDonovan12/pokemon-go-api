@@ -6699,6 +6699,20 @@
     }
   },
   {
+    "templateId": "BADGE_GOFEST_FINALE_2026_EVENT_PASS_DELUXE",
+    "data": {
+      "badgeType": 6261,
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true,
+      "eventBadgeSettings": {
+        "obEventBadgeSettingsNumber6": 1
+      }
+    }
+  },
+  {
     "templateId": "BADGE_GOTOUR_2021_GREEN_GLOBAL",
     "data": {
       "badgeType": "BADGE_GOTOUR_2021_GREEN_GLOBAL",

@@ -453,13 +453,15 @@ export interface BadgeSettings {
 }
 
 export interface BadgeSettingData {
-    badgeType:           string;
+    badgeType:           BadgeTypeElement;
     badgeRank:           number;
     targets:             number[];
     eventBadge?:         boolean;
     eventBadgeSettings?: EventBadgeSettings;
     captureReward?:      CaptureReward[];
 }
+
+export type BadgeTypeElement = number | string;
 
 export interface CaptureReward {
     rewardTypes?: TypeElement[];
@@ -1138,7 +1140,7 @@ export interface CombatSettingData {
     shadowPokemonAttackBonusMultiplier:      number;
     shadowPokemonDefenseBonusMultiplier:     number;
     purifiedPokemonAttackMultiplierVsShadow: number;
-    combatExperiment:                        LocationCard[];
+    combatExperiment:                        BadgeTypeElement[];
     showQuickSwapButtonsDuringCountdown:     boolean;
     obCombatSettingsNotPushedBool2:          boolean;
     clockSyncSettings:                       ClockSyncSettings;
@@ -1150,8 +1152,6 @@ export interface ClockSyncSettings {
     syncAttemptCount: number;
     enabled:          boolean;
 }
-
-export type LocationCard = number | string;
 
 export interface CombatFeatureFlags {
     realDeviceTimeEnabled: boolean;
@@ -1308,8 +1308,8 @@ export interface DeepLinkingSettings {
 export interface DeepLinkingSettingData {
     minPlayerLevelForExternalLink:     number;
     minPlayerLevelForNotificationLink: number;
-    actionsThatIgnoreMinLevel:         LocationCard[];
-    actionsThatExecuteBeforeMapLoads:  LocationCard[];
+    actionsThatIgnoreMinLevel:         BadgeTypeElement[];
+    actionsThatExecuteBeforeMapLoads:  BadgeTypeElement[];
     iosActionButtonEnabled:            boolean;
 }
 
@@ -1927,7 +1927,7 @@ export interface TimePeriodCounters {
 }
 
 export interface PlayerActivity {
-    limit: number;
+    limit?: number;
 }
 
 export interface XpBoost {
@@ -2175,7 +2175,7 @@ export interface IrisSocialUxFunnelSettingData {
 
 export interface EventStep {
     stepNumber: number;
-    event:      LocationCard;
+    event:      BadgeTypeElement;
 }
 
 export interface ItemCurrencyValues {
@@ -2268,7 +2268,7 @@ export interface LocationCardSettings {
 }
 
 export interface LocationCardSettingData {
-    locationCard: LocationCard;
+    locationCard: BadgeTypeElement;
     imageUrl:     string;
     cardType?:    CardType;
     vfxAddress?:  string;
@@ -2540,7 +2540,7 @@ export interface MpSettingData {
 
 export interface BattleMpCostPerTier {
     breadBattleCatchMpCost:       number;
-    battleLevel:                  LocationCard;
+    battleLevel:                  BadgeTypeElement;
     breadBattleRemoteCatchMpCost: number;
 }
 
@@ -3007,7 +3007,7 @@ export interface PokedexCategoriesSettingData {
 }
 
 export interface PokedexCategorySettingsInOrder {
-    pokedexCategory: LocationCard;
+    pokedexCategory: BadgeTypeElement;
     milestoneGoal:   number;
     visuallyHidden?: boolean;
 }
@@ -3344,7 +3344,7 @@ export interface ReferralSettingData {
 }
 
 export interface RecentFeature {
-    iconType:    LocationCard;
+    iconType:    BadgeTypeElement;
     featureName: string;
     description: string;
 }
@@ -3858,7 +3858,7 @@ export interface TutorialSettingData {
 }
 
 export interface TutorialItemReward {
-    tutorial: LocationCard;
+    tutorial: BadgeTypeElement;
     item?:    ItemElement[];
 }
 

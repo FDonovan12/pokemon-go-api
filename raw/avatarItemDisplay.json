@@ -560,6 +560,13 @@
     }
   },
   {
+    "templateId": "N_DISPLAY_n_backpack_wcspxp2026",
+    "data": {
+      "iconAddress": "n_backpack_wcspxp2026_icon",
+      "displayStringId": "avatar_backpack_wcspxp"
+    }
+  },
+  {
     "templateId": "N_DISPLAY_n_backpack_whitekyuremitem_0",
     "data": {
       "iconAddress": "n_backpack_whitekyuremitem_0_icon",
@@ -1467,6 +1474,13 @@
     "data": {
       "iconAddress": "n_gloves_empty_0_icon",
       "displayStringId": "n_gloves_unequip_0_display_name"
+    }
+  },
+  {
+    "templateId": "N_DISPLAY_n_gloves_wcs2026winnersitems",
+    "data": {
+      "iconAddress": "n_gloves_wcs2026winnersitems_icon",
+      "displayStringId": "avatar_gloves_wcs2026champion"
     }
   },
   {
@@ -3440,6 +3454,13 @@
     }
   },
   {
+    "templateId": "N_DISPLAY_n_hat_wcs2026winnersitems",
+    "data": {
+      "iconAddress": "n_hat_wcs2026winnersitems_icon",
+      "displayStringId": "avatar_hat_wcs2026champion"
+    }
+  },
+  {
     "templateId": "N_DISPLAY_n_hat_whimsicottearmuff_0",
     "data": {
       "iconAddress": "n_hat_whimsicottearmuff_0_icon",
@@ -4648,6 +4669,13 @@
     "data": {
       "iconAddress": "n_pants_wcs2025winnersitems_0_icon",
       "displayStringId": "avatar_pants_wcs2025champion"
+    }
+  },
+  {
+    "templateId": "N_DISPLAY_n_pants_wcs2026winnersitems",
+    "data": {
+      "iconAddress": "n_pants_wcs2026winnersitems_icon",
+      "displayStringId": "avatar_pants_wcs2026champion"
     }
   },
   {
@@ -8445,6 +8473,27 @@
     }
   },
   {
+    "templateId": "N_DISPLAY_n_shirt_wcs2026sf-green",
+    "data": {
+      "iconAddress": "n_shirt_wcs2026sf-green_icon",
+      "displayStringId": "avatar_shirt_wcs2026green"
+    }
+  },
+  {
+    "templateId": "N_DISPLAY_n_shirt_wcs2026sf-red",
+    "data": {
+      "iconAddress": "n_shirt_wcs2026sf-red_icon",
+      "displayStringId": "avatar_shirt_wcs2026red"
+    }
+  },
+  {
+    "templateId": "N_DISPLAY_n_shirt_wcs2026winnersitems",
+    "data": {
+      "iconAddress": "n_shirt_wcs2026winnersitems_icon",
+      "displayStringId": "avatar_shirt_wcs2026champion"
+    }
+  },
+  {
     "templateId": "N_DISPLAY_n_shirt_wcs2027",
     "data": {
       "iconAddress": "n_shirt_wcs2027_icon",
@@ -9583,6 +9632,13 @@
     "data": {
       "iconAddress": "n_shoes_wcs2024winnersitems_0_icon",
       "displayStringId": "avatar_shoes_wcs2024champion"
+    }
+  },
+  {
+    "templateId": "N_DISPLAY_n_shoes_wcs2026winnersitems",
+    "data": {
+      "iconAddress": "n_shoes_wcs2026winnersitems_icon",
+      "displayStringId": "avatar_shoes_wcs2026champion"
     }
   },
   {
@@ -11349,6 +11405,12 @@
     "templateId": "N_DISPLAY_set_wcs2025winnersitems_0",
     "data": {
       "iconAddress": "set_wcs2025winnersitems_0"
+    }
+  },
+  {
+    "templateId": "N_DISPLAY_set_wcs2026winnersitems",
+    "data": {
+      "iconAddress": "set_wcs2026winnersitems"
     }
   },
   {
