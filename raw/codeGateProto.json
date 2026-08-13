@@ -32,12 +32,6 @@
     }
   },
   {
-    "templateId": "STAMP_COLLECTION_SNAPSHOT_ENABLED_CODE_GATE",
-    "data": {
-      "isEnabled": true
-    }
-  },
-  {
     "templateId": "TODAY_VIEW_V3_CODE_GATE",
     "data": {
       "isEnabled": true

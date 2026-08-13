@@ -9,7 +9,6 @@
       "catchCardAvailableSeconds": 1800,
       "catchCardShareCampfireEnabled": true,
       "arCatchCardShareCampfireEnabled": true,
-      "meetupQueryTimerMs": "3600000",
       "passwordlessLoginEnabled": true
     }
   }

@@ -11634,6 +11634,116 @@
     }
   },
   {
+    "templateId": "V0025_POKEMON_PIKACHU_PXP_2026",
+    "data": {
+      "pokemonId": "PIKACHU",
+      "modelScale": 1.48,
+      "type": "POKEMON_TYPE_ELECTRIC",
+      "camera": {
+        "diskRadiusM": 0.555,
+        "cylinderRadiusM": 0.37,
+        "cylinderHeightM": 0.5,
+        "shoulderModeScale": 0.5
+      },
+      "encounter": {
+        "collisionRadiusM": 0.16,
+        "collisionHeightM": 0.16,
+        "collisionHeadRadiusM": 0.13,
+        "movementType": "MOVEMENT_JUMP",
+        "movementTimerS": 10,
+        "jumpTimeS": 1,
+        "attackTimerS": 29,
+        "attackProbability": 0.1,
+        "dodgeProbability": 0.15,
+        "dodgeDurationS": 1,
+        "dodgeDistance": 1,
+        "cameraDistance": 2.775,
+        "minPokemonActionFrequencyS": 0.2,
+        "maxPokemonActionFrequencyS": 1.6
+      },
+      "stats": {
+        "baseStamina": 111,
+        "baseAttack": 112,
+        "baseDefense": 96
+      },
+      "quickMoves": [
+        "THUNDER_SHOCK_FAST",
+        "QUICK_ATTACK_FAST"
+      ],
+      "cinematicMoves": [
+        "DISCHARGE",
+        "THUNDERBOLT",
+        "WILD_CHARGE"
+      ],
+      "animationTime": [
+        1.8333,
+        0.6667,
+        1.6,
+        1.5667,
+        0,
+        1.8,
+        1.1333,
+        1.066667
+      ],
+      "evolutionIds": [
+        "RAICHU"
+      ],
+      "evolutionPips": 1,
+      "pokedexHeightM": 0.4,
+      "pokedexWeightKg": 6,
+      "parentPokemonId": "PICHU",
+      "heightStdDev": 0.05,
+      "weightStdDev": 0.75,
+      "familyId": "FAMILY_PIKACHU",
+      "kmBuddyDistance": 1,
+      "buddySize": "BUDDY_SHOULDER",
+      "modelHeight": 0.4,
+      "modelScaleV2": 1.1,
+      "form": "PIKACHU_PXP_2026",
+      "buddyOffsetMale": [
+        0,
+        0,
+        0
+      ],
+      "buddyOffsetFemale": [
+        0,
+        0,
+        0
+      ],
+      "buddyScale": 11,
+      "thirdMove": {
+        "stardustToUnlock": 10000,
+        "candyToUnlock": 25
+      },
+      "isTransferable": true,
+      "isDeployable": true,
+      "isTradable": true,
+      "buddyGroupNumber": 1,
+      "eliteQuickMove": [
+        "PRESENT_FAST"
+      ],
+      "eliteCinematicMove": [
+        "SURF",
+        "THUNDER"
+      ],
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5,
+          "tempEvoId": "TEMP_EVOLUTION_MEGA_X"
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5,
+          "tempEvoId": "TEMP_EVOLUTION_MEGA_Y"
+        }
+      ],
+      "disableTransferToPokemonHome": true,
+      "ibfc": {},
+      "breadTierGroup": "GROUP_1"
+    }
+  },
+  {
     "templateId": "V0025_POKEMON_PIKACHU_ROCK_STAR",
     "data": {
       "pokemonId": "PIKACHU",
@@ -13169,6 +13279,116 @@
       "modelHeight": 0.4,
       "modelScaleV2": 1.1,
       "form": "PIKACHU_WCS_2025",
+      "buddyOffsetMale": [
+        0,
+        0,
+        0
+      ],
+      "buddyOffsetFemale": [
+        0,
+        0,
+        0
+      ],
+      "buddyScale": 11,
+      "thirdMove": {
+        "stardustToUnlock": 10000,
+        "candyToUnlock": 25
+      },
+      "isTransferable": true,
+      "isDeployable": true,
+      "isTradable": true,
+      "buddyGroupNumber": 1,
+      "eliteQuickMove": [
+        "PRESENT_FAST"
+      ],
+      "eliteCinematicMove": [
+        "SURF",
+        "THUNDER"
+      ],
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5,
+          "tempEvoId": "TEMP_EVOLUTION_MEGA_X"
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5,
+          "tempEvoId": "TEMP_EVOLUTION_MEGA_Y"
+        }
+      ],
+      "disableTransferToPokemonHome": true,
+      "ibfc": {},
+      "breadTierGroup": "GROUP_1"
+    }
+  },
+  {
+    "templateId": "V0025_POKEMON_PIKACHU_WCS_2026",
+    "data": {
+      "pokemonId": "PIKACHU",
+      "modelScale": 1.48,
+      "type": "POKEMON_TYPE_ELECTRIC",
+      "camera": {
+        "diskRadiusM": 0.555,
+        "cylinderRadiusM": 0.37,
+        "cylinderHeightM": 0.5,
+        "shoulderModeScale": 0.5
+      },
+      "encounter": {
+        "collisionRadiusM": 0.16,
+        "collisionHeightM": 0.16,
+        "collisionHeadRadiusM": 0.13,
+        "movementType": "MOVEMENT_JUMP",
+        "movementTimerS": 10,
+        "jumpTimeS": 1,
+        "attackTimerS": 29,
+        "attackProbability": 0.1,
+        "dodgeProbability": 0.15,
+        "dodgeDurationS": 1,
+        "dodgeDistance": 1,
+        "cameraDistance": 2.775,
+        "minPokemonActionFrequencyS": 0.2,
+        "maxPokemonActionFrequencyS": 1.6
+      },
+      "stats": {
+        "baseStamina": 111,
+        "baseAttack": 112,
+        "baseDefense": 96
+      },
+      "quickMoves": [
+        "THUNDER_SHOCK_FAST",
+        "QUICK_ATTACK_FAST"
+      ],
+      "cinematicMoves": [
+        "DISCHARGE",
+        "THUNDERBOLT",
+        "WILD_CHARGE"
+      ],
+      "animationTime": [
+        1.8333,
+        0.6667,
+        1.6,
+        1.5667,
+        0,
+        1.8,
+        1.1333,
+        1.066667
+      ],
+      "evolutionIds": [
+        "RAICHU"
+      ],
+      "evolutionPips": 1,
+      "pokedexHeightM": 0.4,
+      "pokedexWeightKg": 6,
+      "parentPokemonId": "PICHU",
+      "heightStdDev": 0.05,
+      "weightStdDev": 0.75,
+      "familyId": "FAMILY_PIKACHU",
+      "kmBuddyDistance": 1,
+      "buddySize": "BUDDY_SHOULDER",
+      "modelHeight": 0.4,
+      "modelScaleV2": 1.1,
+      "form": "PIKACHU_WCS_2026",
       "buddyOffsetMale": [
         0,
         0,
@@ -161046,6 +161266,13 @@
       "kmBuddyDistance": 3,
       "buddySize": "BUDDY_BIG",
       "modelHeight": 1.84,
+      "evolutionBranch": [
+        {
+          "temporaryEvolution": "TEMP_EVOLUTION_MEGA",
+          "temporaryEvolutionEnergyCost": 300,
+          "temporaryEvolutionEnergyCostSubsequent": 80
+        }
+      ],
       "modelScaleV2": 1,
       "buddyOffsetMale": [
         12,
@@ -161075,6 +161302,21 @@
       "eliteCinematicMove": [
         "FRENZY_PLANT"
       ],
+      "tempEvoOverrides": [
+        {
+          "tempEvoId": "TEMP_EVOLUTION_MEGA",
+          "stats": {
+            "baseStamina": 204,
+            "baseAttack": 242,
+            "baseDefense": 282
+          },
+          "averageHeightM": 1.6,
+          "averageWeightKg": 90,
+          "typeOverride1": "POKEMON_TYPE_GRASS",
+          "typeOverride2": "POKEMON_TYPE_FIGHTING"
+        }
+      ],
+      "buddyWalkedMegaEnergyAward": 15,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
     }
@@ -161147,6 +161389,13 @@
       "kmBuddyDistance": 3,
       "buddySize": "BUDDY_BIG",
       "modelHeight": 1.84,
+      "evolutionBranch": [
+        {
+          "temporaryEvolution": "TEMP_EVOLUTION_MEGA",
+          "temporaryEvolutionEnergyCost": 300,
+          "temporaryEvolutionEnergyCostSubsequent": 80
+        }
+      ],
       "modelScaleV2": 1,
       "form": "CHESNAUGHT_NORMAL",
       "buddyOffsetMale": [
@@ -161177,6 +161426,21 @@
       "eliteCinematicMove": [
         "FRENZY_PLANT"
       ],
+      "tempEvoOverrides": [
+        {
+          "tempEvoId": "TEMP_EVOLUTION_MEGA",
+          "stats": {
+            "baseStamina": 204,
+            "baseAttack": 242,
+            "baseDefense": 282
+          },
+          "averageHeightM": 1.6,
+          "averageWeightKg": 90,
+          "typeOverride1": "POKEMON_TYPE_GRASS",
+          "typeOverride2": "POKEMON_TYPE_FIGHTING"
+        }
+      ],
+      "buddyWalkedMegaEnergyAward": 15,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
     }
@@ -161642,6 +161906,13 @@
       "kmBuddyDistance": 3,
       "buddySize": "BUDDY_BIG",
       "modelHeight": 1.77,
+      "evolutionBranch": [
+        {
+          "temporaryEvolution": "TEMP_EVOLUTION_MEGA",
+          "temporaryEvolutionEnergyCost": 300,
+          "temporaryEvolutionEnergyCostSubsequent": 80
+        }
+      ],
       "modelScaleV2": 1,
       "buddyOffsetMale": [
         17.5,
@@ -161671,6 +161942,30 @@
       "eliteCinematicMove": [
         "BLAST_BURN"
       ],
+      "tempEvoOverrides": [
+        {
+          "tempEvoId": "TEMP_EVOLUTION_MEGA",
+          "stats": {
+            "baseStamina": 181,
+            "baseAttack": 331,
+            "baseDefense": 235
+          },
+          "averageHeightM": 1.5,
+          "averageWeightKg": 39,
+          "typeOverride1": "POKEMON_TYPE_FIRE",
+          "typeOverride2": "POKEMON_TYPE_PSYCHIC",
+          "camera": {
+            "cylinderRadiusM": 1.6,
+            "cylinderHeightM": 3
+          },
+          "buddyPortraitOffset": [
+            0,
+            0,
+            -300
+          ]
+        }
+      ],
+      "buddyWalkedMegaEnergyAward": 15,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
     }
@@ -161744,6 +162039,13 @@
       "kmBuddyDistance": 3,
       "buddySize": "BUDDY_BIG",
       "modelHeight": 1.77,
+      "evolutionBranch": [
+        {
+          "temporaryEvolution": "TEMP_EVOLUTION_MEGA",
+          "temporaryEvolutionEnergyCost": 300,
+          "temporaryEvolutionEnergyCostSubsequent": 80
+        }
+      ],
       "modelScaleV2": 1,
       "form": "DELPHOX_NORMAL",
       "buddyOffsetMale": [
@@ -161774,6 +162076,30 @@
       "eliteCinematicMove": [
         "BLAST_BURN"
       ],
+      "tempEvoOverrides": [
+        {
+          "tempEvoId": "TEMP_EVOLUTION_MEGA",
+          "stats": {
+            "baseStamina": 181,
+            "baseAttack": 331,
+            "baseDefense": 235
+          },
+          "averageHeightM": 1.5,
+          "averageWeightKg": 39,
+          "typeOverride1": "POKEMON_TYPE_FIRE",
+          "typeOverride2": "POKEMON_TYPE_PSYCHIC",
+          "camera": {
+            "cylinderRadiusM": 1.6,
+            "cylinderHeightM": 3
+          },
+          "buddyPortraitOffset": [
+            0,
+            0,
+            -300
+          ]
+        }
+      ],
+      "buddyWalkedMegaEnergyAward": 15,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
     }
@@ -162251,6 +162577,13 @@
       "kmBuddyDistance": 3,
       "buddySize": "BUDDY_BIG",
       "modelHeight": 0.98,
+      "evolutionBranch": [
+        {
+          "temporaryEvolution": "TEMP_EVOLUTION_MEGA",
+          "temporaryEvolutionEnergyCost": 300,
+          "temporaryEvolutionEnergyCostSubsequent": 80
+        }
+      ],
       "modelScaleV2": 1,
       "buddyOffsetMale": [
         12.9,
@@ -162280,6 +162613,32 @@
       "eliteCinematicMove": [
         "HYDRO_CANNON"
       ],
+      "tempEvoOverrides": [
+        {
+          "tempEvoId": "TEMP_EVOLUTION_MEGA",
+          "stats": {
+            "baseStamina": 176,
+            "baseAttack": 299,
+            "baseDefense": 180
+          },
+          "averageHeightM": 1.5,
+          "averageWeightKg": 40,
+          "typeOverride1": "POKEMON_TYPE_WATER",
+          "typeOverride2": "POKEMON_TYPE_DARK",
+          "camera": {
+            "cylinderRadiusM": 1.4,
+            "cylinderHeightM": 1.8
+          },
+          "modelScaleV2": 0.7,
+          "modelHeight": 2.8,
+          "buddyPortraitOffset": [
+            0,
+            0,
+            -2000
+          ]
+        }
+      ],
+      "buddyWalkedMegaEnergyAward": 15,
       "raidBossDistanceOffset": 3,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
@@ -162352,6 +162711,13 @@
       "kmBuddyDistance": 3,
       "buddySize": "BUDDY_BIG",
       "modelHeight": 0.98,
+      "evolutionBranch": [
+        {
+          "temporaryEvolution": "TEMP_EVOLUTION_MEGA",
+          "temporaryEvolutionEnergyCost": 300,
+          "temporaryEvolutionEnergyCostSubsequent": 80
+        }
+      ],
       "modelScaleV2": 1,
       "form": "GRENINJA_NORMAL",
       "buddyOffsetMale": [
@@ -162382,6 +162748,32 @@
       "eliteCinematicMove": [
         "HYDRO_CANNON"
       ],
+      "tempEvoOverrides": [
+        {
+          "tempEvoId": "TEMP_EVOLUTION_MEGA",
+          "stats": {
+            "baseStamina": 176,
+            "baseAttack": 299,
+            "baseDefense": 180
+          },
+          "averageHeightM": 1.5,
+          "averageWeightKg": 40,
+          "typeOverride1": "POKEMON_TYPE_WATER",
+          "typeOverride2": "POKEMON_TYPE_DARK",
+          "camera": {
+            "cylinderRadiusM": 1.4,
+            "cylinderHeightM": 1.8
+          },
+          "modelScaleV2": 0.7,
+          "modelHeight": 2.8,
+          "buddyPortraitOffset": [
+            0,
+            0,
+            -2000
+          ]
+        }
+      ],
+      "buddyWalkedMegaEnergyAward": 15,
       "raidBossDistanceOffset": 3,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"

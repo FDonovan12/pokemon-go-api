@@ -4556,6 +4556,67 @@
     }
   },
   {
+    "templateId": "EXTENDED_V0025_POKEMON_PIKACHU_PXP_2026",
+    "data": {
+      "uniqueId": "PIKACHU",
+      "form": "PIKACHU_PXP_2026",
+      "sizeSettings": {
+        "xxsLowerBound": 0.196,
+        "xsLowerBound": 0.2,
+        "mLowerBound": 0.3,
+        "mUpperBound": 0.5,
+        "xlUpperBound": 0.6,
+        "xxlUpperBound": 0.7
+      },
+      "breadOverrides": [
+        {
+          "breadMode": "BREAD_MODE",
+          "maxEncounterVisualSettings": {
+            "scale": 31,
+            "cameraDistance": 27.5,
+            "maxReticleSize": 14
+          },
+          "maxBattleVisualSettings": {
+            "scale": 62
+          },
+          "maxStationVisualSettings": {
+            "scale": 4.22
+          }
+        },
+        {
+          "breadMode": "BREAD_DOUGH_MODE",
+          "averageHeightM": 21,
+          "camera": {
+            "cylinderRadiusM": 1.3,
+            "cylinderHeightM": 1.1
+          },
+          "modelScaleV2": 0.86,
+          "modelHeight": 2.57,
+          "catchOverrideSettings": {
+            "collisionRadiusM": 0.25,
+            "collisionHeadRadiusM": 0.25
+          },
+          "maxEncounterVisualSettings": {
+            "scale": 10.5,
+            "cameraDistance": 32.5,
+            "maxReticleSize": 14
+          },
+          "maxBattleVisualSettings": {
+            "scale": 20,
+            "xOffset": 3
+          },
+          "maxBattleTrainerVisualSettings": {
+            "xOffset": -5,
+            "yOffset": -5
+          },
+          "maxStationVisualSettings": {
+            "scale": 1.25
+          }
+        }
+      ]
+    }
+  },
+  {
     "templateId": "EXTENDED_V0025_POKEMON_PIKACHU_ROCK_STAR",
     "data": {
       "uniqueId": "PIKACHU",
@@ -5414,6 +5475,67 @@
     "data": {
       "uniqueId": "PIKACHU",
       "form": "PIKACHU_WCS_2025",
+      "sizeSettings": {
+        "xxsLowerBound": 0.196,
+        "xsLowerBound": 0.2,
+        "mLowerBound": 0.3,
+        "mUpperBound": 0.5,
+        "xlUpperBound": 0.6,
+        "xxlUpperBound": 0.7
+      },
+      "breadOverrides": [
+        {
+          "breadMode": "BREAD_MODE",
+          "maxEncounterVisualSettings": {
+            "scale": 31,
+            "cameraDistance": 27.5,
+            "maxReticleSize": 14
+          },
+          "maxBattleVisualSettings": {
+            "scale": 62
+          },
+          "maxStationVisualSettings": {
+            "scale": 4.22
+          }
+        },
+        {
+          "breadMode": "BREAD_DOUGH_MODE",
+          "averageHeightM": 21,
+          "camera": {
+            "cylinderRadiusM": 1.3,
+            "cylinderHeightM": 1.1
+          },
+          "modelScaleV2": 0.86,
+          "modelHeight": 2.57,
+          "catchOverrideSettings": {
+            "collisionRadiusM": 0.25,
+            "collisionHeadRadiusM": 0.25
+          },
+          "maxEncounterVisualSettings": {
+            "scale": 10.5,
+            "cameraDistance": 32.5,
+            "maxReticleSize": 14
+          },
+          "maxBattleVisualSettings": {
+            "scale": 20,
+            "xOffset": 3
+          },
+          "maxBattleTrainerVisualSettings": {
+            "xOffset": -5,
+            "yOffset": -5
+          },
+          "maxStationVisualSettings": {
+            "scale": 1.25
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EXTENDED_V0025_POKEMON_PIKACHU_WCS_2026",
+    "data": {
+      "uniqueId": "PIKACHU",
+      "form": "PIKACHU_WCS_2026",
       "sizeSettings": {
         "xxsLowerBound": 0.196,
         "xsLowerBound": 0.2,
@@ -31903,6 +32025,19 @@
     "templateId": "EXTENDED_V0652_POKEMON_CHESNAUGHT",
     "data": {
       "uniqueId": "CHESNAUGHT",
+      "tempEvoOverrides": [
+        {
+          "tempEvoId": "TEMP_EVOLUTION_MEGA",
+          "sizeSettings": {
+            "xxsLowerBound": 0.784,
+            "xsLowerBound": 0.8,
+            "mLowerBound": 1.2,
+            "mUpperBound": 2,
+            "xlUpperBound": 2.4,
+            "xxlUpperBound": 2.48
+          }
+        }
+      ],
       "sizeSettings": {
         "xxsLowerBound": 0.784,
         "xsLowerBound": 0.8,
@@ -31918,6 +32053,19 @@
     "data": {
       "uniqueId": "CHESNAUGHT",
       "form": "CHESNAUGHT_NORMAL",
+      "tempEvoOverrides": [
+        {
+          "tempEvoId": "TEMP_EVOLUTION_MEGA",
+          "sizeSettings": {
+            "xxsLowerBound": 0.784,
+            "xsLowerBound": 0.8,
+            "mLowerBound": 1.2,
+            "mUpperBound": 2,
+            "xlUpperBound": 2.4,
+            "xxlUpperBound": 2.48
+          }
+        }
+      ],
       "sizeSettings": {
         "xxsLowerBound": 0.784,
         "xsLowerBound": 0.8,
@@ -31990,6 +32138,19 @@
     "templateId": "EXTENDED_V0655_POKEMON_DELPHOX",
     "data": {
       "uniqueId": "DELPHOX",
+      "tempEvoOverrides": [
+        {
+          "tempEvoId": "TEMP_EVOLUTION_MEGA",
+          "sizeSettings": {
+            "xxsLowerBound": 0.735,
+            "xsLowerBound": 0.75,
+            "mLowerBound": 1.125,
+            "mUpperBound": 1.875,
+            "xlUpperBound": 2.25,
+            "xxlUpperBound": 2.325
+          }
+        }
+      ],
       "sizeSettings": {
         "xxsLowerBound": 0.735,
         "xsLowerBound": 0.75,
@@ -32005,6 +32166,19 @@
     "data": {
       "uniqueId": "DELPHOX",
       "form": "DELPHOX_NORMAL",
+      "tempEvoOverrides": [
+        {
+          "tempEvoId": "TEMP_EVOLUTION_MEGA",
+          "sizeSettings": {
+            "xxsLowerBound": 0.735,
+            "xsLowerBound": 0.75,
+            "mLowerBound": 1.125,
+            "mUpperBound": 1.875,
+            "xlUpperBound": 2.25,
+            "xxlUpperBound": 2.325
+          }
+        }
+      ],
       "sizeSettings": {
         "xxsLowerBound": 0.735,
         "xsLowerBound": 0.75,
@@ -32077,6 +32251,19 @@
     "templateId": "EXTENDED_V0658_POKEMON_GRENINJA",
     "data": {
       "uniqueId": "GRENINJA",
+      "tempEvoOverrides": [
+        {
+          "tempEvoId": "TEMP_EVOLUTION_MEGA",
+          "sizeSettings": {
+            "xxsLowerBound": 0.735,
+            "xsLowerBound": 0.75,
+            "mLowerBound": 1.125,
+            "mUpperBound": 1.875,
+            "xlUpperBound": 2.25,
+            "xxlUpperBound": 2.325
+          }
+        }
+      ],
       "sizeSettings": {
         "xxsLowerBound": 0.735,
         "xsLowerBound": 0.75,
@@ -32092,6 +32279,19 @@
     "data": {
       "uniqueId": "GRENINJA",
       "form": "GRENINJA_NORMAL",
+      "tempEvoOverrides": [
+        {
+          "tempEvoId": "TEMP_EVOLUTION_MEGA",
+          "sizeSettings": {
+            "xxsLowerBound": 0.735,
+            "xsLowerBound": 0.75,
+            "mLowerBound": 1.125,
+            "mUpperBound": 1.875,
+            "xlUpperBound": 2.25,
+            "xxlUpperBound": 2.325
+          }
+        }
+      ],
       "sizeSettings": {
         "xxsLowerBound": 0.735,
         "xsLowerBound": 0.75,

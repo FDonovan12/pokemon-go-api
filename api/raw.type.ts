@@ -421,13 +421,15 @@ export interface LevelUpRewardData {
     level:                       number;
     items:                       string[];
     itemsCount:                  number[];
-    featuresUnlocked?:           string[];
+    featuresUnlocked?:           BadgeTypeElement[];
     clientOverrideDisplayOrder?: boolean;
     itemsUnlocked?:              string[];
     neutralAvatarItemTemplates?: NeutralAvatarItemTemplates;
     obLevelUpRewardsNumber9?:    number;
     isBackfill?:                 boolean;
 }
+
+export type BadgeTypeElement = number | string;
 
 export interface NeutralAvatarItemTemplates {
     itemTemplateId:    string;
@@ -460,8 +462,6 @@ export interface BadgeSettingData {
     eventBadgeSettings?: EventBadgeSettings;
     captureReward?:      CaptureReward[];
 }
-
-export type BadgeTypeElement = number | string;
 
 export interface CaptureReward {
     rewardTypes?: TypeElement[];
@@ -874,7 +874,6 @@ export interface CampfireSettingData {
     catchCardAvailableSeconds:       number;
     catchCardShareCampfireEnabled:   boolean;
     arCatchCardShareCampfireEnabled: boolean;
-    meetupQueryTimerMs:              string;
     passwordlessLoginEnabled:        boolean;
 }
 
@@ -1409,11 +1408,11 @@ export interface EventPassDisplaySettings {
     eventPassTrackUpgradeDescriptions: EventPassTrackUpgradeDescription[];
     eventPassTitleKey:                 string;
     headerIconUrl:                     string;
-    premiumRewardBannerTop?:           string;
-    premiumRewardBannerMiddle?:        string;
-    premiumRewardBannerBottom?:        string;
-    premiumRewardBannerImageUrl?:      string;
-    premiumRewardsDescription?:        string;
+    premiumRewardBannerTop:            string;
+    premiumRewardBannerMiddle:         string;
+    premiumRewardBannerBottom:         string;
+    premiumRewardBannerImageUrl:       string;
+    premiumRewardsDescription:         string;
     todayViewSection:                  string;
     sectionDisplayPriority:            number;
 }
@@ -1463,7 +1462,7 @@ export interface EventPassTierSettingData {
 }
 
 export interface Settings {
-    eventName?: string;
+    eventName:  string;
     bonusBoxes: ActiveBonusDisplaySettingsBonusBox[];
 }
 
@@ -1476,7 +1475,6 @@ export enum IconType {
     EggIncubator = "EGG_INCUBATOR",
     Gift = "GIFT",
     Incense = "INCENSE",
-    Pokestop = "POKESTOP",
     Trade = "TRADE",
 }
 
@@ -1505,7 +1503,7 @@ export interface RewardPokemonEncounter {
     pokemonId:            string;
     pokemonDisplay?:      PurplePokemonDisplay;
     statsLimitsOverride?: StatsLimitsOverride;
-    isFeaturedPokemon?:   boolean;
+    isFeaturedPokemon:    boolean;
 }
 
 export interface PurplePokemonDisplay {
@@ -1927,7 +1925,7 @@ export interface TimePeriodCounters {
 }
 
 export interface PlayerActivity {
-    limit?: number;
+    limit: number;
 }
 
 export interface XpBoost {

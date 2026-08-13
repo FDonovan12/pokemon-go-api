@@ -269,7 +269,8 @@
         "ITEM_ULTRA_BALL"
       ],
       "featuresUnlocked": [
-        "FEATURE_MAX_BATTLE"
+        "FEATURE_MAX_BATTLE",
+        19
       ],
       "clientOverrideDisplayOrder": true
     }

@@ -2366,21 +2366,24 @@
     "templateId": "V0650_FAMILY_CHESPIN",
     "data": {
       "familyId": "FAMILY_CHESPIN",
-      "candyPerXlCandy": 100
+      "candyPerXlCandy": 100,
+      "megaEvolvablePokemonId": "CHESNAUGHT"
     }
   },
   {
     "templateId": "V0653_FAMILY_FENNEKIN",
     "data": {
       "familyId": "FAMILY_FENNEKIN",
-      "candyPerXlCandy": 100
+      "candyPerXlCandy": 100,
+      "megaEvolvablePokemonId": "DELPHOX"
     }
   },
   {
     "templateId": "V0656_FAMILY_FROAKIE",
     "data": {
       "familyId": "FAMILY_FROAKIE",
-      "candyPerXlCandy": 100
+      "candyPerXlCandy": 100,
+      "megaEvolvablePokemonId": "GRENINJA"
     }
   },
   {

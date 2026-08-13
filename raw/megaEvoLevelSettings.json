@@ -519,6 +519,66 @@
     }
   },
   {
+    "templateId": "MEGA_EVOLUTION_LEVEL_0_V0652_POKEMON_CHESNAUGHT",
+    "data": {
+      "pokemonId": "CHESNAUGHT",
+      "progression": {
+        "pointsLimitPerPeriod": 1,
+        "pointsPerMegaEvoAction": 1
+      },
+      "cooldown": {
+        "durationMs": "1209600000",
+        "bypassCostInitial": 300,
+        "bypassCostRoundingValue": 1
+      },
+      "effects": {
+        "differentTypeAttackBoost": 1.1,
+        "sameTypeAttackBoost": 1.3,
+        "sameTypeExtraCatchCandy": 1
+      }
+    }
+  },
+  {
+    "templateId": "MEGA_EVOLUTION_LEVEL_0_V0655_POKEMON_DELPHOX",
+    "data": {
+      "pokemonId": "DELPHOX",
+      "progression": {
+        "pointsLimitPerPeriod": 1,
+        "pointsPerMegaEvoAction": 1
+      },
+      "cooldown": {
+        "durationMs": "1209600000",
+        "bypassCostInitial": 300,
+        "bypassCostRoundingValue": 1
+      },
+      "effects": {
+        "differentTypeAttackBoost": 1.1,
+        "sameTypeAttackBoost": 1.3,
+        "sameTypeExtraCatchCandy": 1
+      }
+    }
+  },
+  {
+    "templateId": "MEGA_EVOLUTION_LEVEL_0_V0658_POKEMON_GRENINJA",
+    "data": {
+      "pokemonId": "GRENINJA",
+      "progression": {
+        "pointsLimitPerPeriod": 1,
+        "pointsPerMegaEvoAction": 1
+      },
+      "cooldown": {
+        "durationMs": "1209600000",
+        "bypassCostInitial": 300,
+        "bypassCostRoundingValue": 1
+      },
+      "effects": {
+        "differentTypeAttackBoost": 1.1,
+        "sameTypeAttackBoost": 1.3,
+        "sameTypeExtraCatchCandy": 1
+      }
+    }
+  },
+  {
     "templateId": "MEGA_EVOLUTION_LEVEL_0_V0687_POKEMON_MALAMAR",
     "data": {
       "pokemonId": "MALAMAR",
@@ -1140,6 +1200,72 @@
       "cooldown": {
         "durationMs": "604800000",
         "bypassCostInitial": 60,
+        "bypassCostRoundingValue": 1
+      },
+      "effects": {
+        "differentTypeAttackBoost": 1.1,
+        "sameTypeAttackBoost": 1.3,
+        "sameTypeExtraCatchCandy": 1
+      }
+    }
+  },
+  {
+    "templateId": "MEGA_EVOLUTION_LEVEL_1_V0652_POKEMON_CHESNAUGHT",
+    "data": {
+      "level": 1,
+      "pokemonId": "CHESNAUGHT",
+      "progression": {
+        "pointsRequired": 1,
+        "pointsLimitPerPeriod": 1,
+        "pointsPerMegaEvoAction": 1
+      },
+      "cooldown": {
+        "durationMs": "604800000",
+        "bypassCostInitial": 80,
+        "bypassCostRoundingValue": 1
+      },
+      "effects": {
+        "differentTypeAttackBoost": 1.1,
+        "sameTypeAttackBoost": 1.3,
+        "sameTypeExtraCatchCandy": 1
+      }
+    }
+  },
+  {
+    "templateId": "MEGA_EVOLUTION_LEVEL_1_V0655_POKEMON_DELPHOX",
+    "data": {
+      "level": 1,
+      "pokemonId": "DELPHOX",
+      "progression": {
+        "pointsRequired": 1,
+        "pointsLimitPerPeriod": 1,
+        "pointsPerMegaEvoAction": 1
+      },
+      "cooldown": {
+        "durationMs": "604800000",
+        "bypassCostInitial": 80,
+        "bypassCostRoundingValue": 1
+      },
+      "effects": {
+        "differentTypeAttackBoost": 1.1,
+        "sameTypeAttackBoost": 1.3,
+        "sameTypeExtraCatchCandy": 1
+      }
+    }
+  },
+  {
+    "templateId": "MEGA_EVOLUTION_LEVEL_1_V0658_POKEMON_GRENINJA",
+    "data": {
+      "level": 1,
+      "pokemonId": "GRENINJA",
+      "progression": {
+        "pointsRequired": 1,
+        "pointsLimitPerPeriod": 1,
+        "pointsPerMegaEvoAction": 1
+      },
+      "cooldown": {
+        "durationMs": "604800000",
+        "bypassCostInitial": 80,
         "bypassCostRoundingValue": 1
       },
       "effects": {
@@ -1862,6 +1988,78 @@
         "sameTypeExtraCatchCandyXlChance": 0.1
       },
       "megaEnergyCostPerPoint": 160
+    }
+  },
+  {
+    "templateId": "MEGA_EVOLUTION_LEVEL_2_V0652_POKEMON_CHESNAUGHT",
+    "data": {
+      "level": 2,
+      "pokemonId": "CHESNAUGHT",
+      "progression": {
+        "pointsRequired": 7,
+        "pointsLimitPerPeriod": 1,
+        "pointsPerMegaEvoAction": 1
+      },
+      "cooldown": {
+        "durationMs": "432000000",
+        "bypassCostInitial": 40,
+        "bypassCostRoundingValue": 1
+      },
+      "effects": {
+        "differentTypeAttackBoost": 1.1,
+        "sameTypeAttackBoost": 1.3,
+        "sameTypeExtraCatchCandy": 1,
+        "sameTypeExtraCatchXp": 50,
+        "sameTypeExtraCatchCandyXlChance": 0.1
+      }
+    }
+  },
+  {
+    "templateId": "MEGA_EVOLUTION_LEVEL_2_V0655_POKEMON_DELPHOX",
+    "data": {
+      "level": 2,
+      "pokemonId": "DELPHOX",
+      "progression": {
+        "pointsRequired": 7,
+        "pointsLimitPerPeriod": 1,
+        "pointsPerMegaEvoAction": 1
+      },
+      "cooldown": {
+        "durationMs": "432000000",
+        "bypassCostInitial": 40,
+        "bypassCostRoundingValue": 1
+      },
+      "effects": {
+        "differentTypeAttackBoost": 1.1,
+        "sameTypeAttackBoost": 1.3,
+        "sameTypeExtraCatchCandy": 1,
+        "sameTypeExtraCatchXp": 50,
+        "sameTypeExtraCatchCandyXlChance": 0.1
+      }
+    }
+  },
+  {
+    "templateId": "MEGA_EVOLUTION_LEVEL_2_V0658_POKEMON_GRENINJA",
+    "data": {
+      "level": 2,
+      "pokemonId": "GRENINJA",
+      "progression": {
+        "pointsRequired": 7,
+        "pointsLimitPerPeriod": 1,
+        "pointsPerMegaEvoAction": 1
+      },
+      "cooldown": {
+        "durationMs": "432000000",
+        "bypassCostInitial": 40,
+        "bypassCostRoundingValue": 1
+      },
+      "effects": {
+        "differentTypeAttackBoost": 1.1,
+        "sameTypeAttackBoost": 1.3,
+        "sameTypeExtraCatchCandy": 1,
+        "sameTypeExtraCatchXp": 50,
+        "sameTypeExtraCatchCandyXlChance": 0.1
+      }
     }
   },
   {
@@ -2589,6 +2787,78 @@
     }
   },
   {
+    "templateId": "MEGA_EVOLUTION_LEVEL_3_V0652_POKEMON_CHESNAUGHT",
+    "data": {
+      "level": 3,
+      "pokemonId": "CHESNAUGHT",
+      "progression": {
+        "pointsRequired": 30,
+        "pointsLimitPerPeriod": 1,
+        "pointsPerMegaEvoAction": 1
+      },
+      "cooldown": {
+        "durationMs": "259200000",
+        "bypassCostInitial": 20,
+        "bypassCostRoundingValue": 1
+      },
+      "effects": {
+        "differentTypeAttackBoost": 1.1,
+        "sameTypeAttackBoost": 1.3,
+        "sameTypeExtraCatchCandy": 2,
+        "sameTypeExtraCatchXp": 100,
+        "sameTypeExtraCatchCandyXlChance": 0.25
+      }
+    }
+  },
+  {
+    "templateId": "MEGA_EVOLUTION_LEVEL_3_V0655_POKEMON_DELPHOX",
+    "data": {
+      "level": 3,
+      "pokemonId": "DELPHOX",
+      "progression": {
+        "pointsRequired": 30,
+        "pointsLimitPerPeriod": 1,
+        "pointsPerMegaEvoAction": 1
+      },
+      "cooldown": {
+        "durationMs": "259200000",
+        "bypassCostInitial": 20,
+        "bypassCostRoundingValue": 1
+      },
+      "effects": {
+        "differentTypeAttackBoost": 1.1,
+        "sameTypeAttackBoost": 1.3,
+        "sameTypeExtraCatchCandy": 2,
+        "sameTypeExtraCatchXp": 100,
+        "sameTypeExtraCatchCandyXlChance": 0.25
+      }
+    }
+  },
+  {
+    "templateId": "MEGA_EVOLUTION_LEVEL_3_V0658_POKEMON_GRENINJA",
+    "data": {
+      "level": 3,
+      "pokemonId": "GRENINJA",
+      "progression": {
+        "pointsRequired": 30,
+        "pointsLimitPerPeriod": 1,
+        "pointsPerMegaEvoAction": 1
+      },
+      "cooldown": {
+        "durationMs": "259200000",
+        "bypassCostInitial": 20,
+        "bypassCostRoundingValue": 1
+      },
+      "effects": {
+        "differentTypeAttackBoost": 1.1,
+        "sameTypeAttackBoost": 1.3,
+        "sameTypeExtraCatchCandy": 2,
+        "sameTypeExtraCatchXp": 100,
+        "sameTypeExtraCatchCandyXlChance": 0.25
+      }
+    }
+  },
+  {
     "templateId": "MEGA_EVOLUTION_LEVEL_3_V0687_POKEMON_MALAMAR",
     "data": {
       "level": 3,
@@ -2823,6 +3093,87 @@
       },
       "megaEnergyCostToUnlock": 5000,
       "ftueExpirationTimestamp": "1775001600000"
+    }
+  },
+  {
+    "templateId": "MEGA_EVOLUTION_LEVEL_4_V0652_POKEMON_CHESNAUGHT",
+    "data": {
+      "level": 4,
+      "pokemonId": "CHESNAUGHT",
+      "progression": {
+        "pointsRequired": 30,
+        "pointsLimitPerPeriod": 40,
+        "pointsPerMegaEvoAction": 1
+      },
+      "cooldown": {
+        "durationMs": "86400000",
+        "bypassCostInitial": 5,
+        "bypassCostRoundingValue": 1
+      },
+      "effects": {
+        "differentTypeAttackBoost": 1.1,
+        "sameTypeAttackBoost": 1.3,
+        "sameTypeExtraCatchCandy": 3,
+        "sameTypeExtraCatchXp": 200,
+        "sameTypeExtraCatchCandyXlChance": 0.3,
+        "selfCpBoostAdditionalLevel": 4
+      },
+      "megaEnergyCostToUnlock": 5000,
+      "ftueExpirationTimestamp": "1777147462000"
+    }
+  },
+  {
+    "templateId": "MEGA_EVOLUTION_LEVEL_4_V0655_POKEMON_DELPHOX",
+    "data": {
+      "level": 4,
+      "pokemonId": "DELPHOX",
+      "progression": {
+        "pointsRequired": 30,
+        "pointsLimitPerPeriod": 40,
+        "pointsPerMegaEvoAction": 1
+      },
+      "cooldown": {
+        "durationMs": "86400000",
+        "bypassCostInitial": 5,
+        "bypassCostRoundingValue": 1
+      },
+      "effects": {
+        "differentTypeAttackBoost": 1.1,
+        "sameTypeAttackBoost": 1.3,
+        "sameTypeExtraCatchCandy": 3,
+        "sameTypeExtraCatchXp": 200,
+        "sameTypeExtraCatchCandyXlChance": 0.3,
+        "selfCpBoostAdditionalLevel": 4
+      },
+      "megaEnergyCostToUnlock": 5000,
+      "ftueExpirationTimestamp": "1777147462000"
+    }
+  },
+  {
+    "templateId": "MEGA_EVOLUTION_LEVEL_4_V0658_POKEMON_GRENINJA",
+    "data": {
+      "level": 4,
+      "pokemonId": "GRENINJA",
+      "progression": {
+        "pointsRequired": 30,
+        "pointsLimitPerPeriod": 40,
+        "pointsPerMegaEvoAction": 1
+      },
+      "cooldown": {
+        "durationMs": "86400000",
+        "bypassCostInitial": 5,
+        "bypassCostRoundingValue": 1
+      },
+      "effects": {
+        "differentTypeAttackBoost": 1.1,
+        "sameTypeAttackBoost": 1.3,
+        "sameTypeExtraCatchCandy": 3,
+        "sameTypeExtraCatchXp": 200,
+        "sameTypeExtraCatchCandyXlChance": 0.3,
+        "selfCpBoostAdditionalLevel": 4
+      },
+      "megaEnergyCostToUnlock": 5000,
+      "ftueExpirationTimestamp": "1777147462000"
     }
   },
   {

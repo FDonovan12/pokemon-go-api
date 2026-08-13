@@ -176,6 +176,20 @@
     }
   },
   {
+    "templateId": "MEP_EGG_READ_MIGRATION_FEATURE_GATE",
+    "data": {
+      "status": 11,
+      "rolloutPercentage": 100
+    }
+  },
+  {
+    "templateId": "MEP_EGG_WRITE_MIGRATION_FEATURE_GATE",
+    "data": {
+      "status": 11,
+      "rolloutPercentage": 100
+    }
+  },
+  {
     "templateId": "SEAF_GET_MAP_OBJECTS_RATE_LIMITER_FEATURE_GATE",
     "data": {
       "status": 1,

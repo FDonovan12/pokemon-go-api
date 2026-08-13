@@ -646,9 +646,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "MESPRIT",
+            "pokemonId": "GROUDON",
             "pokemonDisplay": {
-              "form": "MESPRIT_NORMAL"
+              "form": "GROUDON_NORMAL"
             }
           },
           "unlockedAtRank": 20,
@@ -1321,9 +1321,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "MESPRIT",
+            "pokemonId": "GROUDON",
             "pokemonDisplay": {
-              "form": "MESPRIT_NORMAL"
+              "form": "GROUDON_NORMAL"
             }
           },
           "unlockedAtRank": 20,

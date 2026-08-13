@@ -648,6 +648,13 @@
     }
   },
   {
+    "templateId": "LC_2026_SANFRANCISCO_WCS_001",
+    "data": {
+      "locationCard": "LC_2026_SANFRANCISCO_WCS_001",
+      "imageUrl": "lc_Wcs2026_sanFrancisco"
+    }
+  },
+  {
     "templateId": "LC_2026_TAINAN_GOTOUR_001",
     "data": {
       "locationCard": "LC_2026_TAINAN_GOTOUR_001",
@@ -1681,6 +1688,15 @@
       "imageUrl": "sb_GoFest2026_mewtwo",
       "cardType": "SPECIAL_BACKGROUND",
       "vfxAddress": "bgfx_goFest_2026_mewtwo_002"
+    }
+  },
+  {
+    "templateId": "LC_SPECIALBACKGROUND_2026_WCS",
+    "data": {
+      "locationCard": "LC_SPECIALBACKGROUND_2026_WCS",
+      "imageUrl": "sb_WorldSpecial_Blue",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_WorldSpecial"
     }
   },
   {

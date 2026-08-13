@@ -3,8 +3,8 @@
     "templateId": "SOFT_SFIDA_SETTINGS",
     "data": {
       "minPlayerLevel": 20,
-      "catchActionDelayMs": 5000,
-      "spinActionDelayMs": 10000,
+      "catchActionDelayMs": 8000,
+      "spinActionDelayMs": 8000,
       "reservedGeofenceCount": 4,
       "geofenceSizeM": 50
     }
