@@ -202436,6 +202436,9 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 2,
+      "eliteCinematicMove": [
+        "ICY_WIND"
+      ],
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
     }
@@ -202514,6 +202517,9 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 2,
+      "eliteCinematicMove": [
+        "ICY_WIND"
+      ],
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
     }

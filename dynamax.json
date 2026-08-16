@@ -2133,6 +2133,129 @@
     "familyId": "Apitrini"
   },
   {
+    "pokemonId": "WEAVILE",
+    "name": "Dimoret",
+    "slug": "dimoret",
+    "stats": {
+      "baseStamina": 172,
+      "baseAttack": 243,
+      "baseDefense": 171
+    },
+    "quickMoves": {
+      "ICE_SHARD_FAST": {
+        "id": "V0217_MOVE_ICE_SHARD_FAST",
+        "movementId": "ICE_SHARD_FAST",
+        "pokemonType": "POKEMON_TYPE_ICE",
+        "power": 10,
+        "durationMs": 1000,
+        "energyDelta": 10,
+        "vfxName": "ice_shard_fast"
+      },
+      "FEINT_ATTACK_FAST": {
+        "id": "V0238_MOVE_FEINT_ATTACK_FAST",
+        "movementId": "FEINT_ATTACK_FAST",
+        "pokemonType": "POKEMON_TYPE_DARK",
+        "power": 11,
+        "durationMs": 1000,
+        "energyDelta": 10,
+        "vfxName": "feint_attack_fast"
+      },
+      "SNARL_FAST": {
+        "id": "V0278_MOVE_SNARL_FAST",
+        "movementId": "SNARL_FAST",
+        "pokemonType": "POKEMON_TYPE_DARK",
+        "power": 11,
+        "durationMs": 1000,
+        "energyDelta": 13,
+        "vfxName": "snarl_fast"
+      }
+    },
+    "dynamaxMove": [
+      {
+        "id": "VN_BM_007",
+        "movementId": "VN_BM_007",
+        "pokemonType": "POKEMON_TYPE_ICE",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_hailstorm"
+      },
+      {
+        "id": "VN_BM_016",
+        "movementId": "VN_BM_016",
+        "pokemonType": "POKEMON_TYPE_DARK",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_darkness"
+      }
+    ],
+    "familyId": "Farfuret"
+  },
+  {
+    "pokemonId": "RHYPERIOR",
+    "name": "Rhinastoc",
+    "slug": "rhinastoc",
+    "stats": {
+      "baseStamina": 251,
+      "baseAttack": 241,
+      "baseDefense": 190
+    },
+    "quickMoves": {
+      "MUD_SLAP_FAST": {
+        "id": "V0233_MOVE_MUD_SLAP_FAST",
+        "movementId": "MUD_SLAP_FAST",
+        "pokemonType": "POKEMON_TYPE_GROUND",
+        "power": 19,
+        "durationMs": 1500,
+        "energyDelta": 13,
+        "vfxName": "mud_slap_fast"
+      },
+      "SMACK_DOWN_FAST": {
+        "id": "V0297_MOVE_SMACK_DOWN_FAST",
+        "movementId": "SMACK_DOWN_FAST",
+        "pokemonType": "POKEMON_TYPE_ROCK",
+        "power": 13,
+        "durationMs": 1000,
+        "energyDelta": 7,
+        "vfxName": "smack_down_fast"
+      }
+    },
+    "dynamaxMove": [
+      {
+        "id": "VN_BM_015",
+        "movementId": "VN_BM_015",
+        "pokemonType": "POKEMON_TYPE_GROUND",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_quake"
+      },
+      {
+        "id": "VN_BM_014",
+        "movementId": "VN_BM_014",
+        "pokemonType": "POKEMON_TYPE_ROCK",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_rockfall"
+      }
+    ],
+    "familyId": "Rhinocorne"
+  },
+  {
     "pokemonId": "ELECTIVIRE",
     "name": "Élekable",
     "slug": "elekable",
