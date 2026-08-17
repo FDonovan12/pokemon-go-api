@@ -1884,7 +1884,7 @@ export interface FluffyPokemonDisplay {
 
 export interface Incense {
     incenseLifetimeSeconds: number;
-    spawnTableProbability:  number;
+    spawnTableProbability?: number;
 }
 
 export interface IncidentTicket {
