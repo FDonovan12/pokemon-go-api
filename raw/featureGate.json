@@ -87,7 +87,7 @@
     "templateId": "FRIENDSHIP_RESYNC_ON_READ_FEATURE_GATE",
     "data": {
       "status": 1,
-      "rolloutPercentage": 70
+      "rolloutPercentage": 100
     }
   },
   {
@@ -178,7 +178,7 @@
   {
     "templateId": "MEP_EGG_READ_MIGRATION_FEATURE_GATE",
     "data": {
-      "status": 11,
+      "status": 13,
       "rolloutPercentage": 100
     }
   },

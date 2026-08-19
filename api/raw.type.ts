@@ -424,14 +424,14 @@ export interface LevelUpRewardData {
     featuresUnlocked?:           BadgeTypeElement[];
     clientOverrideDisplayOrder?: boolean;
     itemsUnlocked?:              string[];
-    neutralAvatarItemTemplates?: NeutralAvatarItemTemplates;
+    neutralAvatarItemTemplates?: NeutralAvatarItemTemplate;
     obLevelUpRewardsNumber9?:    number;
     isBackfill?:                 boolean;
 }
 
 export type BadgeTypeElement = number | string;
 
-export interface NeutralAvatarItemTemplates {
+export interface NeutralAvatarItemTemplate {
     itemTemplateId:    string;
     displayTemplateId: string;
 }
@@ -1462,7 +1462,7 @@ export interface EventPassTierSettingData {
 }
 
 export interface Settings {
-    eventName:  string;
+    eventName?: string;
     bonusBoxes: ActiveBonusDisplaySettingsBonusBox[];
 }
 
@@ -1472,6 +1472,8 @@ export interface ActiveBonusDisplaySettingsBonusBox {
 }
 
 export enum IconType {
+    CandyGeneral = "CANDY_GENERAL",
+    Egg = "EGG",
     EggIncubator = "EGG_INCUBATOR",
     Gift = "GIFT",
     Incense = "INCENSE",
@@ -1479,14 +1481,15 @@ export enum IconType {
 }
 
 export interface PurpleReward {
-    type:              TypeElement;
-    pokemonEncounter?: RewardPokemonEncounter;
-    item?:             RewardDatumItem;
-    stardust?:         number;
-    candy?:            Candy;
-    xlCandy?:          Candy;
-    exp?:              number;
-    playerAttribute?:  PlayerAttribute;
+    type:                       TypeElement;
+    pokemonEncounter?:          RewardPokemonEncounter;
+    item?:                      RewardDatumItem;
+    stardust?:                  number;
+    candy?:                     Candy;
+    xlCandy?:                   Candy;
+    exp?:                       number;
+    playerAttribute?:           PlayerAttribute;
+    neutralAvatarItemTemplate?: NeutralAvatarItemTemplate;
 }
 
 export interface Candy {
@@ -1495,8 +1498,8 @@ export interface Candy {
 }
 
 export interface PlayerAttribute {
-    key:          string;
-    durationMins: number;
+    key:           string;
+    durationMins?: number;
 }
 
 export interface RewardPokemonEncounter {
@@ -1865,10 +1868,10 @@ export interface IconReward {
     pokemonEncounter?:          IconRewardPokemonEncounter;
     item?:                      RewardDatumItem;
     candy?:                     Candy;
-    neutralAvatarItemTemplate?: NeutralAvatarItemTemplate;
+    neutralAvatarItemTemplate?: IconRewardNeutralAvatarItemTemplate;
 }
 
-export interface NeutralAvatarItemTemplate {
+export interface IconRewardNeutralAvatarItemTemplate {
     displayTemplateId: string;
 }
 

@@ -646,12 +646,39 @@
         },
         {
           "pokemon": {
-            "pokemonId": "GROUDON",
+            "pokemonId": "LUNALA",
             "pokemonDisplay": {
-              "form": "GROUDON_NORMAL"
+              "form": "LUNALA_NORMAL"
             }
           },
           "unlockedAtRank": 20,
+          "attackIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          },
+          "defenseIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          },
+          "staminaIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          }
+        },
+        {
+          "pokemon": {
+            "pokemonId": "CRAMORANT",
+            "pokemonDisplay": {
+              "form": "CRAMORANT_NORMAL"
+            }
+          },
+          "unlockedAtRank": 16,
           "attackIvOverride": {
             "range": {
               "min": 10,
@@ -1321,12 +1348,39 @@
         },
         {
           "pokemon": {
-            "pokemonId": "GROUDON",
+            "pokemonId": "LUNALA",
             "pokemonDisplay": {
-              "form": "GROUDON_NORMAL"
+              "form": "LUNALA_NORMAL"
             }
           },
           "unlockedAtRank": 20,
+          "attackIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          },
+          "defenseIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          },
+          "staminaIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          }
+        },
+        {
+          "pokemon": {
+            "pokemonId": "CRAMORANT",
+            "pokemonDisplay": {
+              "form": "CRAMORANT_NORMAL"
+            }
+          },
+          "unlockedAtRank": 16,
           "attackIvOverride": {
             "range": {
               "min": 10,

@@ -2317,6 +2317,34 @@
     }
   },
   {
+    "templateId": "BADGE_EVENT_0259",
+    "data": {
+      "badgeType": "BADGE_EVENT_0259",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true,
+      "eventBadgeSettings": {
+        "obEventBadgeSettingsNumber6": 1
+      }
+    }
+  },
+  {
+    "templateId": "BADGE_EVENT_0260",
+    "data": {
+      "badgeType": "BADGE_EVENT_0260",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true,
+      "eventBadgeSettings": {
+        "obEventBadgeSettingsNumber6": 1
+      }
+    }
+  },
+  {
     "templateId": "BADGE_EVENT_0279",
     "data": {
       "badgeType": "BADGE_EVENT_0279",

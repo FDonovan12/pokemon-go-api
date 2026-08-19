@@ -66,5 +66,73 @@
       },
       "gracePeriodEndTime": "2026-09-10T10:00:00"
     }
+  },
+  {
+    "templateId": "EVENT_PASS_UU_WATER_FESTIVAL_2026_EVENT",
+    "data": {
+      "prefix": "EVENT_PASS_UU_WATER_FESTIVAL_2026_EVENT",
+      "pointsItemId": "ITEM_EVENT_PASS_POINT_LIVE_OPS_10",
+      "trackConditions": [
+        {
+          "track": "FREE",
+          "trackTitleKey": "season_pass_base_track_title_uu_water_festival_2026"
+        },
+        {
+          "track": "PREMIUM",
+          "badge": "BADGE_EVENT_0201",
+          "trackTitleKey": "season_pass_premium_track_title_uu_water_festival_2026"
+        }
+      ],
+      "expirationTime": "2026-08-24T20:00:00",
+      "maxTierLevel": 60,
+      "additionalBonusTiersLevel": 31,
+      "eventPassDisplaySettings": {
+        "bonusBoxes": [
+          {
+            "text": "quest_catch_pokemon_singular",
+            "iconType": "SPAWN_UNKNOWN",
+            "quantity": 5
+          },
+          {
+            "text": "quest_hatch_egg_singular",
+            "iconType": "EGG",
+            "quantity": 40
+          },
+          {
+            "text": "quest_win_raid_singular",
+            "iconType": "RAID",
+            "quantity": 100
+          }
+        ],
+        "eventPassTrackUpgradeDescriptions": [
+          {
+            "passTrackUpgradeHeaderDescription": "season_pass_uu_water_festival_2026_track_upgrade_header_description",
+            "eventPassTrackToUpgradeTo": "PREMIUM",
+            "trackUnlockSkuId": "pgorelease.august2_deluxe_event_pass_track_unlock",
+            "trackUnlockPlusPointsSkuId": "pgorelease.august2_deluxe_event_pass_track_unlock_plus_points",
+            "eventDurationKey": "season_pass_uu_water_festival_2026_event_duration",
+            "upgradeDescriptionKey": "season_pass_uu_water_festival_2026_upgrade_description",
+            "ranksToHighlightRewards": [
+              3,
+              15,
+              30
+            ],
+            "detailsLinkKey": "season_pass_details_link_uu_water_festival_2026",
+            "trackUnlockImageUrl": "https://storage.googleapis.com/prod-public-images/ic_eventpass_deluxe.png",
+            "trackUnlockPlusPointsImageUrl": "https://storage.googleapis.com/prod-public-images/ic_eventpass_deluxe_plus.png"
+          }
+        ],
+        "eventPassTitleKey": "season_pass_base_track_title_uu_water_festival_2026",
+        "headerIconUrl": "https://pgorelease-assets.nianticstatic.com/GameDesignAssets%2Fd99f7e15_Logo_256x256.png",
+        "premiumRewardBannerTop": "event_pass_premium_reward_banner_top_text",
+        "premiumRewardBannerMiddle": "avatar_backpack_starmie",
+        "premiumRewardBannerBottom": "event_pass_premium_reward_banner_bottom_text_rank_15_reward",
+        "premiumRewardBannerImageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F1eec675d_n_backpack_starmie_icon_270px.png",
+        "premiumRewardsDescription": "season_pass_premium_rewards_desc_monthly_no_disclaimer",
+        "todayViewSection": "SEASONAL_EVENT_PASS_SECTION",
+        "sectionDisplayPriority": 12
+      },
+      "gracePeriodEndTime": "2026-08-26T20:00:00"
+    }
   }
 ]

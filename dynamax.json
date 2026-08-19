@@ -3756,6 +3756,63 @@
     "familyId": "Toxizap"
   },
   {
+    "pokemonId": "CENTISKORCH",
+    "name": "Scolocendre",
+    "slug": "scolocendre",
+    "stats": {
+      "baseStamina": 225,
+      "baseAttack": 220,
+      "baseDefense": 158
+    },
+    "quickMoves": {
+      "BUG_BITE_FAST": {
+        "id": "V0201_MOVE_BUG_BITE_FAST",
+        "movementId": "BUG_BITE_FAST",
+        "pokemonType": "POKEMON_TYPE_BUG",
+        "power": 5,
+        "durationMs": 500,
+        "energyDelta": 6,
+        "vfxName": "bug_bite_fast"
+      },
+      "EMBER_FAST": {
+        "id": "V0209_MOVE_EMBER_FAST",
+        "movementId": "EMBER_FAST",
+        "pokemonType": "POKEMON_TYPE_FIRE",
+        "power": 10,
+        "durationMs": 1000,
+        "energyDelta": 10,
+        "vfxName": "ember_fast"
+      }
+    },
+    "dynamaxMove": [
+      {
+        "id": "VN_BM_002",
+        "movementId": "VN_BM_002",
+        "pokemonType": "POKEMON_TYPE_BUG",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_flutterby"
+      },
+      {
+        "id": "VN_BM_001",
+        "movementId": "VN_BM_001",
+        "pokemonType": "POKEMON_TYPE_FIRE",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_flare"
+      }
+    ],
+    "familyId": "Grillepattes"
+  },
+  {
     "pokemonId": "HATTERENE",
     "name": "Sorcilence",
     "slug": "sorcilence",
@@ -3947,72 +4004,6 @@
   {
     "pokemonId": "URSHIFU",
     "name": "Shifours",
-    "slug": "shifours-single-strike",
-    "stats": {
-      "baseStamina": 225,
-      "baseAttack": 254,
-      "baseDefense": 177
-    },
-    "quickMoves": {
-      "ROCK_SMASH_FAST": {
-        "id": "V0241_MOVE_ROCK_SMASH_FAST",
-        "movementId": "ROCK_SMASH_FAST",
-        "pokemonType": "POKEMON_TYPE_FIGHTING",
-        "power": 17,
-        "durationMs": 1500,
-        "energyDelta": 12,
-        "vfxName": "rock_smash_fast"
-      },
-      "COUNTER_FAST": {
-        "id": "V0243_MOVE_COUNTER_FAST",
-        "movementId": "COUNTER_FAST",
-        "pokemonType": "POKEMON_TYPE_FIGHTING",
-        "power": 13,
-        "durationMs": 1000,
-        "energyDelta": 9,
-        "vfxName": "counter_fast"
-      },
-      "SUCKER_PUNCH_FAST": {
-        "id": "V0203_MOVE_SUCKER_PUNCH_FAST",
-        "movementId": "SUCKER_PUNCH_FAST",
-        "pokemonType": "POKEMON_TYPE_DARK",
-        "power": 5,
-        "durationMs": 500,
-        "energyDelta": 6,
-        "vfxName": "sucker_punch_fast"
-      }
-    },
-    "dynamaxMove": [
-      {
-        "id": "VN_BM_005",
-        "movementId": "VN_BM_005",
-        "pokemonType": "POKEMON_TYPE_FIGHTING",
-        "powerLevels": [
-          250,
-          300,
-          350,
-          450
-        ],
-        "vfxName": "max_knuckle"
-      },
-      {
-        "id": "VN_BM_016",
-        "movementId": "VN_BM_016",
-        "pokemonType": "POKEMON_TYPE_DARK",
-        "powerLevels": [
-          250,
-          300,
-          350,
-          450
-        ],
-        "vfxName": "max_darkness"
-      }
-    ],
-    "familyId": "Wushours"
-  },
-  {
-    "pokemonId": "URSHIFU",
-    "name": "Shifours",
     "slug": "shifours-rapid-strike",
     "stats": {
       "baseStamina": 225,
@@ -4072,6 +4063,72 @@
           450
         ],
         "vfxName": "max_geyser"
+      }
+    ],
+    "familyId": "Wushours"
+  },
+  {
+    "pokemonId": "URSHIFU",
+    "name": "Shifours",
+    "slug": "shifours-single-strike",
+    "stats": {
+      "baseStamina": 225,
+      "baseAttack": 254,
+      "baseDefense": 177
+    },
+    "quickMoves": {
+      "ROCK_SMASH_FAST": {
+        "id": "V0241_MOVE_ROCK_SMASH_FAST",
+        "movementId": "ROCK_SMASH_FAST",
+        "pokemonType": "POKEMON_TYPE_FIGHTING",
+        "power": 17,
+        "durationMs": 1500,
+        "energyDelta": 12,
+        "vfxName": "rock_smash_fast"
+      },
+      "COUNTER_FAST": {
+        "id": "V0243_MOVE_COUNTER_FAST",
+        "movementId": "COUNTER_FAST",
+        "pokemonType": "POKEMON_TYPE_FIGHTING",
+        "power": 13,
+        "durationMs": 1000,
+        "energyDelta": 9,
+        "vfxName": "counter_fast"
+      },
+      "SUCKER_PUNCH_FAST": {
+        "id": "V0203_MOVE_SUCKER_PUNCH_FAST",
+        "movementId": "SUCKER_PUNCH_FAST",
+        "pokemonType": "POKEMON_TYPE_DARK",
+        "power": 5,
+        "durationMs": 500,
+        "energyDelta": 6,
+        "vfxName": "sucker_punch_fast"
+      }
+    },
+    "dynamaxMove": [
+      {
+        "id": "VN_BM_005",
+        "movementId": "VN_BM_005",
+        "pokemonType": "POKEMON_TYPE_FIGHTING",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_knuckle"
+      },
+      {
+        "id": "VN_BM_016",
+        "movementId": "VN_BM_016",
+        "pokemonType": "POKEMON_TYPE_DARK",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_darkness"
       }
     ],
     "familyId": "Wushours"
@@ -4601,60 +4658,6 @@
   {
     "pokemonId": "URSHIFU",
     "name": "Shifours",
-    "slug": "shifours-single-strike",
-    "stats": {
-      "baseStamina": 225,
-      "baseAttack": 254,
-      "baseDefense": 177
-    },
-    "quickMoves": {
-      "ROCK_SMASH_FAST": {
-        "id": "V0241_MOVE_ROCK_SMASH_FAST",
-        "movementId": "ROCK_SMASH_FAST",
-        "pokemonType": "POKEMON_TYPE_FIGHTING",
-        "power": 17,
-        "durationMs": 1500,
-        "energyDelta": 12,
-        "vfxName": "rock_smash_fast"
-      },
-      "COUNTER_FAST": {
-        "id": "V0243_MOVE_COUNTER_FAST",
-        "movementId": "COUNTER_FAST",
-        "pokemonType": "POKEMON_TYPE_FIGHTING",
-        "power": 13,
-        "durationMs": 1000,
-        "energyDelta": 9,
-        "vfxName": "counter_fast"
-      },
-      "SUCKER_PUNCH_FAST": {
-        "id": "V0203_MOVE_SUCKER_PUNCH_FAST",
-        "movementId": "SUCKER_PUNCH_FAST",
-        "pokemonType": "POKEMON_TYPE_DARK",
-        "power": 5,
-        "durationMs": 500,
-        "energyDelta": 6,
-        "vfxName": "sucker_punch_fast"
-      }
-    },
-    "dynamaxMove": [
-      {
-        "id": "VN_BM_050",
-        "movementId": "VN_BM_050",
-        "pokemonType": "POKEMON_TYPE_DARK",
-        "powerLevels": [
-          350,
-          400,
-          450,
-          550
-        ],
-        "vfxName": "gmax_oneblow"
-      }
-    ],
-    "familyId": "Wushours"
-  },
-  {
-    "pokemonId": "URSHIFU",
-    "name": "Shifours",
     "slug": "shifours-rapid-strike",
     "stats": {
       "baseStamina": 225,
@@ -4688,6 +4691,60 @@
         "durationMs": 1000,
         "energyDelta": 7,
         "vfxName": "waterfall_fast"
+      }
+    },
+    "dynamaxMove": [
+      {
+        "id": "VN_BM_050",
+        "movementId": "VN_BM_050",
+        "pokemonType": "POKEMON_TYPE_DARK",
+        "powerLevels": [
+          350,
+          400,
+          450,
+          550
+        ],
+        "vfxName": "gmax_oneblow"
+      }
+    ],
+    "familyId": "Wushours"
+  },
+  {
+    "pokemonId": "URSHIFU",
+    "name": "Shifours",
+    "slug": "shifours-single-strike",
+    "stats": {
+      "baseStamina": 225,
+      "baseAttack": 254,
+      "baseDefense": 177
+    },
+    "quickMoves": {
+      "ROCK_SMASH_FAST": {
+        "id": "V0241_MOVE_ROCK_SMASH_FAST",
+        "movementId": "ROCK_SMASH_FAST",
+        "pokemonType": "POKEMON_TYPE_FIGHTING",
+        "power": 17,
+        "durationMs": 1500,
+        "energyDelta": 12,
+        "vfxName": "rock_smash_fast"
+      },
+      "COUNTER_FAST": {
+        "id": "V0243_MOVE_COUNTER_FAST",
+        "movementId": "COUNTER_FAST",
+        "pokemonType": "POKEMON_TYPE_FIGHTING",
+        "power": 13,
+        "durationMs": 1000,
+        "energyDelta": 9,
+        "vfxName": "counter_fast"
+      },
+      "SUCKER_PUNCH_FAST": {
+        "id": "V0203_MOVE_SUCKER_PUNCH_FAST",
+        "movementId": "SUCKER_PUNCH_FAST",
+        "pokemonType": "POKEMON_TYPE_DARK",
+        "power": 5,
+        "durationMs": 500,
+        "energyDelta": 6,
+        "vfxName": "sucker_punch_fast"
       }
     },
     "dynamaxMove": [

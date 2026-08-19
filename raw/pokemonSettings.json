@@ -161270,7 +161270,7 @@
         {
           "temporaryEvolution": "TEMP_EVOLUTION_MEGA",
           "temporaryEvolutionEnergyCost": 300,
-          "temporaryEvolutionEnergyCostSubsequent": 80
+          "temporaryEvolutionEnergyCostSubsequent": 60
         }
       ],
       "modelScaleV2": 1,
@@ -161393,7 +161393,7 @@
         {
           "temporaryEvolution": "TEMP_EVOLUTION_MEGA",
           "temporaryEvolutionEnergyCost": 300,
-          "temporaryEvolutionEnergyCostSubsequent": 80
+          "temporaryEvolutionEnergyCostSubsequent": 60
         }
       ],
       "modelScaleV2": 1,
@@ -161910,7 +161910,7 @@
         {
           "temporaryEvolution": "TEMP_EVOLUTION_MEGA",
           "temporaryEvolutionEnergyCost": 300,
-          "temporaryEvolutionEnergyCostSubsequent": 80
+          "temporaryEvolutionEnergyCostSubsequent": 60
         }
       ],
       "modelScaleV2": 1,
@@ -162043,7 +162043,7 @@
         {
           "temporaryEvolution": "TEMP_EVOLUTION_MEGA",
           "temporaryEvolutionEnergyCost": 300,
-          "temporaryEvolutionEnergyCostSubsequent": 80
+          "temporaryEvolutionEnergyCostSubsequent": 60
         }
       ],
       "modelScaleV2": 1,
@@ -162581,7 +162581,7 @@
         {
           "temporaryEvolution": "TEMP_EVOLUTION_MEGA",
           "temporaryEvolutionEnergyCost": 300,
-          "temporaryEvolutionEnergyCostSubsequent": 80
+          "temporaryEvolutionEnergyCostSubsequent": 60
         }
       ],
       "modelScaleV2": 1,
@@ -162715,7 +162715,7 @@
         {
           "temporaryEvolution": "TEMP_EVOLUTION_MEGA",
           "temporaryEvolutionEnergyCost": 300,
-          "temporaryEvolutionEnergyCostSubsequent": 80
+          "temporaryEvolutionEnergyCostSubsequent": 60
         }
       ],
       "modelScaleV2": 1,
