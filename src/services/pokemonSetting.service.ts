@@ -125,6 +125,7 @@ class PokemonSettingGeneratorService {
             const batch = raw.slice(i, i + 20);
             await Promise.all(
                 batch.map(async (pokemon) => {
+                    console.log(pokemon.templateId);
                     const dexNumber = this.extractDexNumber(pokemon.templateId);
                     this.alterPokemon(pokemon);
                     let formField = String(pokemon.data.form ?? 'base'); // have to convert number to string even most of the time never number here

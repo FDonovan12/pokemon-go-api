@@ -18,7 +18,7 @@
         "types": ["node"]
 
         // "paths": {
-        //     "@generated/*": ["./generated/*"]
+        //     "#generated/*": ["./generated/*"]
         // }
     },
     "include": ["src", "generated"]

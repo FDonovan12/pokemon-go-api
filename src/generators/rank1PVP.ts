@@ -1,3 +1,4 @@
+import { Base, PokemonSetting } from '#generated/data/api/intermediate.type.js';
 import { IntermediateData } from '#generated/intermediate.index.js';
 import { getCpMultipliers } from '../services/cpMultiplier.service.js';
 import { FileGenerator, GeneratorSpeed } from '../type/fileGenerator.js';
@@ -14,17 +15,17 @@ export default class PokemonSettingGenerator extends FileGenerator {
     }
 
     async getFileContent(): Promise<any> {
-        const rawPokemon = await IntermediateData.getPokemonSetting();
+        const rawPokemon: PokemonSetting[] = await IntermediateData.getPokemonSetting();
         const rawCpMultiplier = await getCpMultipliers();
 
-        const finalPokemon = rawPokemon
-            .map((form: any) => [form.base, ...form.different.map((d: any) => d.base)])
+        const finalPokemon: Base[] = rawPokemon
+            .map((form: PokemonSetting) => [form.base, ...form.different.map((d: any) => d.base)])
             .flat();
 
         const result: Record<string, { super: any; hyper: any }> = {};
 
         for (const pokemon of finalPokemon) {
-            console.log('rank 1 : ', pokemon.slug);
+            console.log('rank 1 : ', pokemon.dexNumber, pokemon.slug);
             result[pokemon.slug] = {
                 super: getRank1(pokemon, rawCpMultiplier, CP_CAP.super),
                 hyper: getRank1(pokemon, rawCpMultiplier, CP_CAP.hyper),
@@ -99,14 +100,18 @@ function calcStatProduct(
     const hp = Math.floor((baseSta + ivSta) * cpm); // floor obligatoire
     return atk * def * hp;
 }
+type BestIvEntry = {
+    attack: number;
+    defense: number;
+    stamina: number;
+    level: number;
+};
 
-function getRank1(
-    pokemon: any,
-    cpms: Record<string, number>,
-    cap: number,
-): { attack: number; defense: number; stamina: number; level: number } {
+function getRank1(pokemon: Base, cpms: Record<string, number>, cap: number): BestIvEntry[] {
     const { baseAttack, baseDefense, baseStamina } = pokemon.stats;
-    let best = { attack: 0, defense: 0, stamina: 0, statProduct: -1, level: -1 };
+
+    let bestStatProduct = -1;
+    let bestEntries: BestIvEntry[] = [];
 
     for (let ivAtk = 0; ivAtk <= 15; ivAtk++) {
         for (let ivDef = 0; ivDef <= 15; ivDef++) {
@@ -133,24 +138,21 @@ function getRank1(
                     ivSta,
                     cpm,
                 );
-
-                if (statProduct > best.statProduct) {
-                    best = {
-                        attack: ivAtk,
-                        defense: ivDef,
-                        stamina: ivSta,
-                        statProduct,
-                        level: +level,
-                    };
+                const newStat = {
+                    attack: ivAtk,
+                    defense: ivDef,
+                    stamina: ivSta,
+                    level: +level,
+                };
+                if (statProduct > bestStatProduct) {
+                    bestStatProduct = statProduct;
+                    bestEntries = [newStat];
+                } else if (statProduct === bestStatProduct) {
+                    bestEntries.push(newStat);
                 }
             }
         }
     }
 
-    return {
-        attack: best.attack,
-        defense: best.defense,
-        stamina: best.stamina,
-        level: +best.level,
-    };
+    return bestEntries;
 }
