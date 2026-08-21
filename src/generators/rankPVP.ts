@@ -1,5 +1,4 @@
-import { PokemonSetting } from '#generated/data/api/intermediate.type.js';
-import { Different } from '#generated/data/api/types.js';
+import { Different, PokemonSetting } from '#generated/data/api/intermediate.type.js';
 import { IntermediateData } from '#generated/intermediate.index.js';
 import fs from 'fs';
 import path from 'path';
