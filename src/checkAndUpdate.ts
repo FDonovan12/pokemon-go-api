@@ -1,8 +1,8 @@
 import path from 'path';
 
+import { fileURLToPath } from 'url';
 import 'utilitish';
 import { setSlugifyConfig, SlugifyConfig } from 'utilitish';
-import { isDev } from './config.js';
 import { GeneratorRunner } from './generatorRunner.js';
 import { loadGenerators } from './loadGenerator.js';
 import { GeneratorSpeed } from './type/fileGenerator.js';
@@ -36,7 +36,11 @@ async function main() {
     if (groupName) console.log(`⚠️  Mode filtré (group) : ${groupName} et plus rapide`);
     const isFiltered = !!only || maxSpeed !== undefined;
 
-    const folder = isDev ? path.resolve('./src/generators') : path.resolve('./dist/src/generators');
+    const isRunningFromDist = fileURLToPath(import.meta.url).includes(`${path.sep}dist${path.sep}`);
+    console.log(isRunningFromDist);
+    const folder = isRunningFromDist
+        ? path.resolve('./dist/src/generators')
+        : path.resolve('./src/generators');
     const generators = await loadGenerators(folder, { only, maxSpeed });
 
     const runner = new GeneratorRunner(generators);

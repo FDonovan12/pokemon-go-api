@@ -1,7 +1,9 @@
+import { PokemonSetting } from '#generated/data/api/intermediate.type.js';
+import { Different } from '#generated/data/api/types.js';
+import { IntermediateData } from '#generated/intermediate.index.js';
 import fs from 'fs';
 import path from 'path';
 import { getCpMultipliers } from '../services/cpMultiplier.service.js';
-import { getPokemonSetting } from '../services/pokemonSetting.service.js';
 import { FileGenerator, GeneratorSpeed } from '../type/fileGenerator.js';
 
 const CP_CAP = { super: 1500, hyper: 2500 };
@@ -30,11 +32,14 @@ export default class PokemonSettingGenerator extends FileGenerator {
 
     async generate(): Promise<string> {
         const start = performance.now();
-        const rawPokemon = await getPokemonSetting();
+        const rawPokemon: PokemonSetting[] = await IntermediateData.getPokemonSetting();
         const rawCpMultiplier = await getCpMultipliers();
 
         const finalPokemon = rawPokemon
-            .map((form: any) => [form.base, ...form.different.map((d: any) => d.base)])
+            .map((form: PokemonSetting) => [
+                form.base,
+                ...form.different.map((d: Different) => d.base),
+            ])
             .flat();
 
         const dir = 'generated/data/rank-pvp';
@@ -42,6 +47,8 @@ export default class PokemonSettingGenerator extends FileGenerator {
 
         let sample = '{}';
         for (const pokemon of finalPokemon) {
+            console.log(pokemon.dexNumber, pokemon.name);
+            if (!pokemon.name.slugifyIncludes('forgelina')) continue;
             const content = {
                 super: getAllRanks(pokemon, rawCpMultiplier, CP_CAP.super),
                 hyper: getAllRanks(pokemon, rawCpMultiplier, CP_CAP.hyper),
@@ -162,12 +169,22 @@ function getAllRanks(pokemon: any, cpms: Record<string, number>, cap: number): R
         }
     }
 
-    entries.sort((a, b) => b.statProduct - a.statProduct);
+    const withSort = entries.sortDesc('statProduct');
 
-    const best = entries[0]?.statProduct ?? 0;
+    const best = withSort[0]?.statProduct ?? 0;
 
-    return entries.map((entry) => ({
+    let rank = 1;
+    const withRank = withSort.map((entry, index) => {
+        if (index > 0 && entry.statProduct !== withSort[index - 1].statProduct) {
+            rank = index + 1; // saute directement à la position réelle -> 1,2,2,4
+        }
+        return { ...entry, rank };
+    });
+
+    const withPercentage = withRank.map((entry) => ({
         ...entry,
-        statProduct: best > 0 ? Math.round((entry.statProduct / best) * 10000) / 100 : 0,
+        statProduct: best > 0 ? Math.round((entry.statProduct / best) * 100000) / 1000 : 0,
     }));
+
+    return withPercentage;
 }
