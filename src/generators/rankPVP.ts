@@ -46,8 +46,6 @@ export default class PokemonSettingGenerator extends FileGenerator {
 
         let sample = '{}';
         for (const pokemon of finalPokemon) {
-            console.log(pokemon.dexNumber, pokemon.name);
-            if (!pokemon.name.slugifyIncludes('forgelina')) continue;
             const content = {
                 super: getAllRanks(pokemon, rawCpMultiplier, CP_CAP.super),
                 hyper: getAllRanks(pokemon, rawCpMultiplier, CP_CAP.hyper),
