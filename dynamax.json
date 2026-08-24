@@ -85,6 +85,33 @@
         "durationMs": 1000,
         "energyDelta": 8,
         "vfxName": "air_slash_fast"
+      },
+      "EMBER_FAST": {
+        "id": "V0209_MOVE_EMBER_FAST",
+        "movementId": "EMBER_FAST",
+        "pokemonType": "Feu",
+        "power": 10,
+        "durationMs": 1000,
+        "energyDelta": 10,
+        "vfxName": "ember_fast"
+      },
+      "WING_ATTACK_FAST": {
+        "id": "V0210_MOVE_WING_ATTACK_FAST",
+        "movementId": "WING_ATTACK_FAST",
+        "pokemonType": "Vol",
+        "power": 10,
+        "durationMs": 1000,
+        "energyDelta": 11,
+        "vfxName": "wing_attack_fast"
+      },
+      "DRAGON_BREATH_FAST": {
+        "id": "V0204_MOVE_DRAGON_BREATH_FAST",
+        "movementId": "DRAGON_BREATH_FAST",
+        "pokemonType": "Dragon",
+        "power": 6,
+        "durationMs": 500,
+        "energyDelta": 4,
+        "vfxName": "dragon_breath_fast"
       }
     },
     "dynamaxMove": [
@@ -111,6 +138,18 @@
           450
         ],
         "vfxName": "max_airstream"
+      },
+      {
+        "id": "VN_BM_012",
+        "movementId": "VN_BM_012",
+        "pokemonType": "Dragon",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_wyrmwind"
       }
     ],
     "familyId": "Salamèche"
@@ -233,6 +272,15 @@
         "durationMs": 1500,
         "energyDelta": 14,
         "vfxName": "confusion_fast"
+      },
+      "BUG_BITE_FAST": {
+        "id": "V0201_MOVE_BUG_BITE_FAST",
+        "movementId": "BUG_BITE_FAST",
+        "pokemonType": "Insecte",
+        "power": 5,
+        "durationMs": 500,
+        "energyDelta": 6,
+        "vfxName": "bug_bite_fast"
       }
     },
     "dynamaxMove": [
@@ -386,6 +434,15 @@
         "durationMs": 1000,
         "energyDelta": 13,
         "vfxName": "thunder_fang_fast"
+      },
+      "BITE_FAST": {
+        "id": "V0202_MOVE_BITE_FAST",
+        "movementId": "BITE_FAST",
+        "pokemonType": "Ténèbres",
+        "power": 6,
+        "durationMs": 500,
+        "energyDelta": 4,
+        "vfxName": "bite_fast"
       }
     },
     "dynamaxMove": [
@@ -461,6 +518,15 @@
         "durationMs": 1500,
         "energyDelta": 14,
         "vfxName": "confusion_fast"
+      },
+      "COUNTER_FAST": {
+        "id": "V0243_MOVE_COUNTER_FAST",
+        "movementId": "COUNTER_FAST",
+        "pokemonType": "Combat",
+        "power": 13,
+        "durationMs": 1000,
+        "energyDelta": 9,
+        "vfxName": "counter_fast"
       }
     },
     "dynamaxMove": [
@@ -475,6 +541,18 @@
           450
         ],
         "vfxName": "max_mindstorm"
+      },
+      {
+        "id": "VN_BM_005",
+        "movementId": "VN_BM_005",
+        "pokemonType": "Combat",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_knuckle"
       }
     ],
     "familyId": "Abra"
@@ -512,6 +590,15 @@
         "durationMs": 1000,
         "energyDelta": 9,
         "vfxName": "counter_fast"
+      },
+      "KARATE_CHOP_FAST": {
+        "id": "V0208_MOVE_KARATE_CHOP_FAST",
+        "movementId": "KARATE_CHOP_FAST",
+        "pokemonType": "Combat",
+        "power": 10,
+        "durationMs": 1000,
+        "energyDelta": 13,
+        "vfxName": "karate_chop_fast"
       }
     },
     "dynamaxMove": [
@@ -585,6 +672,15 @@
         "durationMs": 500,
         "energyDelta": 4,
         "vfxName": "shadow_claw_fast"
+      },
+      "LICK_FAST": {
+        "id": "V0212_MOVE_LICK_FAST",
+        "movementId": "LICK_FAST",
+        "pokemonType": "Spectre",
+        "power": 5,
+        "durationMs": 500,
+        "energyDelta": 6,
+        "vfxName": "lick_fast"
       }
     },
     "dynamaxMove": [
@@ -648,6 +744,15 @@
         "durationMs": 500,
         "energyDelta": 5,
         "vfxName": "metal_claw_fast"
+      },
+      "MUD_SHOT_FAST": {
+        "id": "V0216_MOVE_MUD_SHOT_FAST",
+        "movementId": "MUD_SHOT_FAST",
+        "pokemonType": "Sol",
+        "power": 4,
+        "durationMs": 500,
+        "energyDelta": 6,
+        "vfxName": "mud_shot_fast"
       }
     },
     "dynamaxMove": [
@@ -674,6 +779,18 @@
           450
         ],
         "vfxName": "max_steelspike"
+      },
+      {
+        "id": "VN_BM_015",
+        "movementId": "VN_BM_015",
+        "pokemonType": "Sol",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_quake"
       }
     ],
     "familyId": "Krabby"
@@ -771,6 +888,15 @@
         "durationMs": 1000,
         "energyDelta": 9,
         "vfxName": "counter_fast"
+      },
+      "ROCK_SMASH_FAST": {
+        "id": "V0241_MOVE_ROCK_SMASH_FAST",
+        "movementId": "ROCK_SMASH_FAST",
+        "pokemonType": "Combat",
+        "power": 17,
+        "durationMs": 1500,
+        "energyDelta": 12,
+        "vfxName": "rock_smash_fast"
       }
     },
     "dynamaxMove": [
@@ -844,6 +970,15 @@
         "durationMs": 500,
         "energyDelta": 7,
         "vfxName": "psywave"
+      },
+      "TACKLE_FAST": {
+        "id": "V0221_MOVE_TACKLE_FAST",
+        "movementId": "TACKLE_FAST",
+        "pokemonType": "Normal",
+        "power": 5,
+        "durationMs": 500,
+        "energyDelta": 5,
+        "vfxName": "tackle_fast"
       }
     },
     "dynamaxMove": [
@@ -929,6 +1064,15 @@
         "durationMs": 500,
         "energyDelta": 4,
         "vfxName": "dragon_breath_fast"
+      },
+      "DRAGON_TAIL_FAST": {
+        "id": "V0253_MOVE_DRAGON_TAIL_FAST",
+        "movementId": "DRAGON_TAIL_FAST",
+        "pokemonType": "Dragon",
+        "power": 14,
+        "durationMs": 1000,
+        "energyDelta": 8,
+        "vfxName": "dragon_tail_fast"
       }
     },
     "dynamaxMove": [
@@ -1014,6 +1158,15 @@
         "durationMs": 500,
         "energyDelta": 7,
         "vfxName": "psywave"
+      },
+      "ICE_SHARD_FAST": {
+        "id": "V0217_MOVE_ICE_SHARD_FAST",
+        "movementId": "ICE_SHARD_FAST",
+        "pokemonType": "Glace",
+        "power": 10,
+        "durationMs": 1000,
+        "energyDelta": 10,
+        "vfxName": "ice_shard_fast"
       }
     },
     "dynamaxMove": [
@@ -1234,6 +1387,15 @@
         "durationMs": 500,
         "energyDelta": 5,
         "vfxName": "water_gun_fast"
+      },
+      "ROCK_THROW_FAST": {
+        "id": "V0227_MOVE_ROCK_THROW_FAST",
+        "movementId": "ROCK_THROW_FAST",
+        "pokemonType": "Roche",
+        "power": 13,
+        "durationMs": 1000,
+        "energyDelta": 8,
+        "vfxName": "rock_throw_fast"
       }
     },
     "dynamaxMove": [
@@ -1260,6 +1422,18 @@
           450
         ],
         "vfxName": "max_geyser"
+      },
+      {
+        "id": "VN_BM_014",
+        "movementId": "VN_BM_014",
+        "pokemonType": "Roche",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_rockfall"
       }
     ],
     "familyId": "Amonita"
@@ -1307,6 +1481,15 @@
         "durationMs": 1000,
         "energyDelta": 7,
         "vfxName": "waterfall_fast"
+      },
+      "FURY_CUTTER_FAST": {
+        "id": "V0200_MOVE_FURY_CUTTER_FAST",
+        "movementId": "FURY_CUTTER_FAST",
+        "pokemonType": "Insecte",
+        "power": 4,
+        "durationMs": 500,
+        "energyDelta": 8,
+        "vfxName": "fury_cutter_fast"
       }
     },
     "dynamaxMove": [
@@ -1345,6 +1528,18 @@
           450
         ],
         "vfxName": "max_geyser"
+      },
+      {
+        "id": "VN_BM_002",
+        "movementId": "VN_BM_002",
+        "pokemonType": "Insecte",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_flutterby"
       }
     ],
     "familyId": "Kabuto"
@@ -1382,6 +1577,14 @@
         "durationMs": 500,
         "energyDelta": 6,
         "vfxName": "lick_fast"
+      },
+      "YAWN_FAST": {
+        "id": "V0287_MOVE_YAWN_FAST",
+        "movementId": "YAWN_FAST",
+        "pokemonType": "Normal",
+        "durationMs": 1500,
+        "energyDelta": 13,
+        "vfxName": "yawn_fast"
       }
     },
     "dynamaxMove": [
@@ -1408,6 +1611,18 @@
           450
         ],
         "vfxName": "max_phantasm"
+      },
+      {
+        "id": "VN_BM_004",
+        "movementId": "VN_BM_004",
+        "pokemonType": "Normal",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_strike"
       }
     ],
     "familyId": "Ronflex"
@@ -1498,6 +1713,15 @@
         "durationMs": 1000,
         "energyDelta": 14,
         "vfxName": "charge_beam_fast"
+      },
+      "THUNDER_SHOCK_FAST": {
+        "id": "V0205_MOVE_THUNDER_SHOCK_FAST",
+        "movementId": "THUNDER_SHOCK_FAST",
+        "pokemonType": "Électrik",
+        "power": 4,
+        "durationMs": 500,
+        "energyDelta": 7,
+        "vfxName": "thunder_shock_fast"
       }
     },
     "dynamaxMove": [
@@ -2077,6 +2301,15 @@
         "durationMs": 500,
         "energyDelta": 5,
         "vfxName": "water_gun_fast"
+      },
+      "HIDDEN_POWER_FAST": {
+        "id": "V0281_MOVE_HIDDEN_POWER_FAST",
+        "movementId": "HIDDEN_POWER_FAST",
+        "pokemonType": "Normal",
+        "power": 15,
+        "durationMs": 1500,
+        "energyDelta": 15,
+        "vfxName": "hidden_power_fast"
       }
     },
     "dynamaxMove": [
@@ -2127,6 +2360,18 @@
           450
         ],
         "vfxName": "max_geyser"
+      },
+      {
+        "id": "VN_BM_004",
+        "movementId": "VN_BM_004",
+        "pokemonType": "Normal",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_strike"
       }
     ],
     "familyId": "Suicune"
@@ -2725,6 +2970,15 @@
         "durationMs": 1000,
         "energyDelta": 9,
         "vfxName": "frost_breath_fast"
+      },
+      "POWDER_SNOW_FAST": {
+        "id": "V0244_MOVE_POWDER_SNOW_FAST",
+        "movementId": "POWDER_SNOW_FAST",
+        "pokemonType": "Glace",
+        "power": 6,
+        "durationMs": 1000,
+        "energyDelta": 15,
+        "vfxName": "powder_snow_fast"
       }
     },
     "dynamaxMove": [
@@ -2798,6 +3052,15 @@
         "durationMs": 500,
         "energyDelta": 8,
         "vfxName": "fury_cutter_fast"
+      },
+      "SHADOW_CLAW_FAST": {
+        "id": "V0213_MOVE_SHADOW_CLAW_FAST",
+        "movementId": "SHADOW_CLAW_FAST",
+        "pokemonType": "Spectre",
+        "power": 6,
+        "durationMs": 500,
+        "energyDelta": 4,
+        "vfxName": "shadow_claw_fast"
       }
     },
     "dynamaxMove": [
@@ -2836,6 +3099,18 @@
           450
         ],
         "vfxName": "max_flutterby"
+      },
+      {
+        "id": "VN_BM_006",
+        "movementId": "VN_BM_006",
+        "pokemonType": "Spectre",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_phantasm"
       }
     ],
     "familyId": "Terhal"
@@ -3631,6 +3906,15 @@
         "durationMs": 1000,
         "energyDelta": 13,
         "vfxName": "quick_attack_fast"
+      },
+      "BULLET_SEED_FAST": {
+        "id": "V0271_MOVE_BULLET_SEED_FAST",
+        "movementId": "BULLET_SEED_FAST",
+        "pokemonType": "Plante",
+        "power": 7,
+        "durationMs": 1000,
+        "energyDelta": 13,
+        "vfxName": "bullet_seed_fast"
       }
     },
     "dynamaxMove": [
@@ -5849,6 +6133,33 @@
         "durationMs": 1000,
         "energyDelta": 8,
         "vfxName": "air_slash_fast"
+      },
+      "EMBER_FAST": {
+        "id": "V0209_MOVE_EMBER_FAST",
+        "movementId": "EMBER_FAST",
+        "pokemonType": "Feu",
+        "power": 10,
+        "durationMs": 1000,
+        "energyDelta": 10,
+        "vfxName": "ember_fast"
+      },
+      "WING_ATTACK_FAST": {
+        "id": "V0210_MOVE_WING_ATTACK_FAST",
+        "movementId": "WING_ATTACK_FAST",
+        "pokemonType": "Vol",
+        "power": 10,
+        "durationMs": 1000,
+        "energyDelta": 11,
+        "vfxName": "wing_attack_fast"
+      },
+      "DRAGON_BREATH_FAST": {
+        "id": "V0204_MOVE_DRAGON_BREATH_FAST",
+        "movementId": "DRAGON_BREATH_FAST",
+        "pokemonType": "Dragon",
+        "power": 6,
+        "durationMs": 500,
+        "energyDelta": 4,
+        "vfxName": "dragon_breath_fast"
       }
     },
     "dynamaxMove": [
@@ -5963,6 +6274,15 @@
         "durationMs": 1500,
         "energyDelta": 14,
         "vfxName": "confusion_fast"
+      },
+      "BUG_BITE_FAST": {
+        "id": "V0201_MOVE_BUG_BITE_FAST",
+        "movementId": "BUG_BITE_FAST",
+        "pokemonType": "Insecte",
+        "power": 5,
+        "durationMs": 500,
+        "energyDelta": 6,
+        "vfxName": "bug_bite_fast"
       }
     },
     "dynamaxMove": [
@@ -6015,6 +6335,15 @@
         "durationMs": 1000,
         "energyDelta": 13,
         "vfxName": "quick_attack_fast"
+      },
+      "PRESENT_FAST": {
+        "id": "V0291_MOVE_PRESENT_FAST",
+        "movementId": "PRESENT_FAST",
+        "pokemonType": "Normal",
+        "power": 6,
+        "durationMs": 1500,
+        "energyDelta": 23,
+        "vfxName": "present_fast"
       }
     },
     "dynamaxMove": [
@@ -6119,6 +6448,15 @@
         "durationMs": 1000,
         "energyDelta": 9,
         "vfxName": "counter_fast"
+      },
+      "KARATE_CHOP_FAST": {
+        "id": "V0208_MOVE_KARATE_CHOP_FAST",
+        "movementId": "KARATE_CHOP_FAST",
+        "pokemonType": "Combat",
+        "power": 10,
+        "durationMs": 1000,
+        "energyDelta": 13,
+        "vfxName": "karate_chop_fast"
       }
     },
     "dynamaxMove": [
@@ -6181,6 +6519,15 @@
         "durationMs": 500,
         "energyDelta": 4,
         "vfxName": "shadow_claw_fast"
+      },
+      "LICK_FAST": {
+        "id": "V0212_MOVE_LICK_FAST",
+        "movementId": "LICK_FAST",
+        "pokemonType": "Spectre",
+        "power": 5,
+        "durationMs": 500,
+        "energyDelta": 6,
+        "vfxName": "lick_fast"
       }
     },
     "dynamaxMove": [
@@ -6233,6 +6580,15 @@
         "durationMs": 500,
         "energyDelta": 5,
         "vfxName": "metal_claw_fast"
+      },
+      "MUD_SHOT_FAST": {
+        "id": "V0216_MOVE_MUD_SHOT_FAST",
+        "movementId": "MUD_SHOT_FAST",
+        "pokemonType": "Sol",
+        "power": 4,
+        "durationMs": 500,
+        "energyDelta": 6,
+        "vfxName": "mud_shot_fast"
       }
     },
     "dynamaxMove": [
@@ -6295,6 +6651,15 @@
         "durationMs": 500,
         "energyDelta": 7,
         "vfxName": "psywave"
+      },
+      "ICE_SHARD_FAST": {
+        "id": "V0217_MOVE_ICE_SHARD_FAST",
+        "movementId": "ICE_SHARD_FAST",
+        "pokemonType": "Glace",
+        "power": 10,
+        "durationMs": 1000,
+        "energyDelta": 10,
+        "vfxName": "ice_shard_fast"
       }
     },
     "dynamaxMove": [
@@ -6347,6 +6712,14 @@
         "durationMs": 500,
         "energyDelta": 6,
         "vfxName": "lick_fast"
+      },
+      "YAWN_FAST": {
+        "id": "V0287_MOVE_YAWN_FAST",
+        "movementId": "YAWN_FAST",
+        "pokemonType": "Normal",
+        "durationMs": 1500,
+        "energyDelta": 13,
+        "vfxName": "yawn_fast"
       }
     },
     "dynamaxMove": [
@@ -6578,8 +6951,8 @@
     "pokemonId": "TOXTRICITY",
     "name": "Salarsen",
     "dexNumber": 849,
-    "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/10219.png",
-    "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/10219.png",
+    "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/849.png",
+    "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/849.png",
     "slug": "salarsen",
     "type": [
       "Électrik",
@@ -6620,18 +6993,7 @@
       }
     },
     "dynamaxMove": [
-      {
-        "id": "VN_BM_038",
-        "movementId": "VN_BM_038",
-        "pokemonType": "Électrik",
-        "powerLevels": [
-          350,
-          400,
-          450,
-          550
-        ],
-        "vfxName": "gmax_stun_shock"
-      }
+      null
     ],
     "familyId": "Toxizap",
     "isReleased": true
@@ -6735,18 +7097,7 @@
       }
     },
     "dynamaxMove": [
-      {
-        "id": "VN_BM_060",
-        "movementId": "VN_BM_060",
-        "pokemonType": "Acier",
-        "powerLevels": [
-          250,
-          300,
-          350,
-          450
-        ],
-        "vfxName": "max_behemoth_blade"
-      }
+      null
     ],
     "familyId": "Zacian",
     "isReleased": true
@@ -6788,18 +7139,7 @@
       }
     },
     "dynamaxMove": [
-      {
-        "id": "VN_BM_061",
-        "movementId": "VN_BM_061",
-        "pokemonType": "Acier",
-        "powerLevels": [
-          250,
-          300,
-          350,
-          450
-        ],
-        "vfxName": "max_behemoth_bash"
-      }
+      null
     ],
     "familyId": "Zamazenta",
     "isReleased": true
@@ -7564,8 +7904,8 @@
     "pokemonId": "URSHIFU",
     "name": "Shifours",
     "dexNumber": 892,
-    "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/10226.png",
-    "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/10226.png",
+    "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/10227.png",
+    "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/10227.png",
     "slug": "shifours-rapid-strike",
     "type": [
       "Combat",
@@ -7607,16 +7947,16 @@
     },
     "dynamaxMove": [
       {
-        "id": "VN_BM_050",
-        "movementId": "VN_BM_050",
-        "pokemonType": "Ténèbres",
+        "id": "VN_BM_051",
+        "movementId": "VN_BM_051",
+        "pokemonType": "Eau",
         "powerLevels": [
           350,
           400,
           450,
           550
         ],
-        "vfxName": "gmax_oneblow"
+        "vfxName": "gmax_rapidflow"
       }
     ],
     "familyId": "Wushours",
