@@ -1,8 +1,26 @@
 import { PokemonSetting } from '#generated/data/api/intermediate.type.js';
-import { PokemonExtendedSettings } from '#generated/data/api/raw.type.js';
 import { IntermediateData } from '#generated/intermediate.index.js';
 import { RawGameMaster } from '#generated/raw.index.js';
 import { FileGenerator } from '../type/fileGenerator.js';
+
+const DYNAMAX_NOT_RELEASED = ['GYARADOS'];
+const GIGAMAX_NOT_RELEASED = [
+    'MELMETAL',
+    'CORVIKNIGHT',
+    'ORBEETLE',
+    'DREDNAW',
+    'COALOSSAL',
+    'FLAPPLE',
+    'APPLETUN',
+    'SANDACONDA',
+    'CENTISKORCH',
+    'HATTERENE',
+    'ALCREMIE',
+    'COPPERAJAH',
+    'DURALUDON',
+    'URSHIFU',
+];
+const OTHER_FORM_IDS = ['zacian', 'zamazenta', 'eternatus'];
 
 export default class PokemonSettingGenerator extends FileGenerator {
     getFileName(): string {
@@ -10,111 +28,90 @@ export default class PokemonSettingGenerator extends FileGenerator {
     }
 
     async getFileContent(): Promise<any> {
-        const rawMappingGigamax = (await RawGameMaster.getSourdoughMoveMappingSettings())[0].data
-            .mappings;
-        const rawMappingMoveDynamax = (await RawGameMaster.getBreadMoveMappings())[0].data.mappings;
-        const rawDynamax: PokemonExtendedSettings[] =
-            await RawGameMaster.getPokemonExtendedSettings(); // is Dynamax File
-        const intermediatePokemonSetting: PokemonSetting[] =
-            await IntermediateData.getPokemonSetting();
+        const [mappingGigamax, mappingDynamax, rawExtendedSettings, pokemonSettings, raidMove] =
+            await Promise.all([
+                RawGameMaster.getSourdoughMoveMappingSettings().then((r) => r[0].data.mappings),
+                RawGameMaster.getBreadMoveMappings().then((r) => r[0].data.mappings),
+                RawGameMaster.getPokemonExtendedSettings(),
+                IntermediateData.getPokemonSetting(),
+                IntermediateData.getRaidMove(),
+            ]);
 
-        const raidMove = await IntermediateData.getRaidMove();
+        const resolveSettings = (pokemonId: string): PokemonSetting[] => {
+            const setting = pokemonSettings.find((s) => s.base.pokemonId === pokemonId)!;
+            return pokemonId === 'URSHIFU'
+                ? (setting?.different as PokemonSetting[])
+                : setting
+                  ? [setting]
+                  : [];
+        };
 
-        const dynamax = rawDynamax
-            .filter((pokemon) =>
-                pokemon.data.breadOverrides?.some((bread) => bread.breadMode === 'BREAD_MODE'),
-            )
-            .map((data) => data.data.uniqueId)
-            .unique();
-        const gigamax = rawDynamax
-            .filter((pokemon) =>
-                pokemon.data.breadOverrides?.some(
-                    (bread) => bread.breadMode === 'BREAD_DOUGH_MODE',
-                ),
-            )
-            .map((data) => data.data.uniqueId)
-            .unique();
-        const dynamaxFinal2 = dynamax
-            .flatMap((pokemonId) => {
-                if (pokemonId === 'URSHIFU') {
-                    return intermediatePokemonSetting.find(
-                        (setting) => setting.base.pokemonId === pokemonId,
-                    )?.different;
-                }
-                return intermediatePokemonSetting.find(
-                    (setting) => setting.base.pokemonId === pokemonId,
-                );
-            })
-            .compact()
+        const idsWithBreadMode = (mode: string) =>
+            rawExtendedSettings
+                .filter((p) => p.data.breadOverrides?.some((b) => b.breadMode === mode))
+                .map((p) => p.data.uniqueId)
+                .unique();
+
+        const otherForms = OTHER_FORM_IDS.map((id) => {
+            const setting = pokemonSettings.find((p) => p.base.pokemonId.slugifyEquals(id));
+            if (id === 'eternatus') return setting;
+            const crownedForm = `${id.toUpperCase()}_CROWNED`;
+            return setting?.different.find((f) => f.base.form.slugifyEquals(crownedForm));
+        }).compact() as PokemonSetting[];
+
+        const quickMoves = (pokemon: PokemonSetting) =>
+            pokemon.base.quickMoves.map((move) => raidMove.fastMove[move]);
+
+        const dynamaxMoveByType = (pokemon: PokemonSetting) =>
+            quickMoves(pokemon)
+                .map((move) => move.pokemonType)
+                .unique()
+                .map((type) => mappingDynamax.find((m) => m.type === (type as string))?.move ?? '')
+                .map((move) => raidMove.dynamaxMove[move]);
+
+        const dynamaxMoveByMapping = (pokemon: PokemonSetting) => [
+            raidMove.dynamaxMove[
+                mappingGigamax.find(
+                    (m) => m.form === pokemon.base.form || m.pokemonId === pokemon.base.pokemonId,
+                )?.move ?? ''
+            ],
+        ];
+
+        const toOutput = (
+            pokemon: PokemonSetting,
+            dynamaxMove: unknown[],
+            isReleased?: boolean,
+        ) => ({
+            pokemonId: pokemon.base.pokemonId,
+            name: pokemon.base.name,
+            slug: pokemon.base.slug,
+            stats: pokemon.base.stats,
+            quickMoves: quickMoves(pokemon).toObject((move) => move.movementId),
+            dynamaxMove,
+            familyId: pokemon.base.family,
+            ...(isReleased !== undefined && { isReleased }),
+        });
+
+        // Dynamax : formes sans évolution
+        const dynamax = idsWithBreadMode('BREAD_MODE')
+            .flatMap(resolveSettings)
             .filter((pokemon) => pokemon.base.evolutionIds.length === 0)
-            .map((pokemon) => ({
-                pokemonId: pokemon?.base.pokemonId,
-                name: pokemon?.base.name,
-                slug: pokemon?.base.slug,
-                stats: pokemon?.base.stats,
-                quickMoves: pokemon?.base.quickMoves
-                    .map((move) => raidMove.fastMove[move])
-                    .toObject((move) => move.movementId),
-                dynamaxMove: pokemon?.base.quickMoves
-                    .map((move) => raidMove.fastMove[move])
-                    .map((move) => move.pokemonType)
-                    .unique()
-                    .map(
-                        (type) =>
-                            rawMappingMoveDynamax.find((move) => move.type === (type as string))
-                                ?.move ?? '',
-                    )
-                    .map((move) => raidMove.dynamaxMove[move]),
-                familyId: pokemon?.base.family,
-            }));
+            .map((pokemon) => toOutput(pokemon, dynamaxMoveByType(pokemon)));
 
-        const otherPokemons = intermediatePokemonSetting.filter((pokemon) =>
-            pokemon.base.pokemonId.slugifyIn(['zacian', 'zamazenta', 'eternatus']),
-        );
-        const zacian = otherPokemons
-            .find((pokemon) => pokemon.base.pokemonId.slugifyEquals('zacian'))
-            ?.different.find((form) => form.base.form.slugifyEquals('ZACIAN_CROWNED'));
-        const zamazenta = otherPokemons
-            .find((pokemon) => pokemon.base.pokemonId.slugifyEquals('zamazenta'))
-            ?.different.find((form) => form.base.form.slugifyEquals('ZAMAZENTA_CROWNED'));
-        const eternatus = otherPokemons.find((pokemon) =>
-            pokemon.base.pokemonId.slugifyEquals('eternatus'),
-        );
-        const other = [zacian, zamazenta, eternatus].compact();
-        const gigamaxFinal2 = gigamax
-            .flatMap((pokemonId) => {
-                if (pokemonId === 'URSHIFU') {
-                    return intermediatePokemonSetting.find(
-                        (setting) => setting.base.pokemonId === pokemonId,
-                    )?.different;
-                }
-                return intermediatePokemonSetting.find(
-                    (setting) => setting.base.pokemonId === pokemonId,
-                );
-            })
-            .compact()
-            .filter((pokemon) => pokemon.base.evolutionIds.length === 0)
-            .concat(other)
-            .map((pokemon) => ({
-                pokemonId: pokemon?.base.pokemonId,
-                name: pokemon?.base.name,
-                slug: pokemon?.base.slug,
-                stats: pokemon?.base.stats,
-                quickMoves: pokemon?.base.quickMoves
-                    .map((move) => raidMove.fastMove[move])
-                    .toObject((move) => move.movementId),
-                dynamaxMove: [
-                    raidMove.dynamaxMove[
-                        rawMappingGigamax.find(
-                            (mapping) =>
-                                mapping.form === pokemon?.base.form ||
-                                mapping.pokemonId === pokemon.base.pokemonId,
-                        )?.move ?? ''
-                    ],
-                ],
-                familyId: pokemon?.base.family,
-            }));
+        const gigamaxIds = idsWithBreadMode('BREAD_DOUGH_MODE');
 
-        return dynamaxFinal2.concat(gigamaxFinal2);
+        // Gigamax non sortis (liste fixe + formes spéciales)
+        const gigamaxNotReleased = GIGAMAX_NOT_RELEASED.flatMap(resolveSettings).map((pokemon) =>
+            toOutput(pokemon, dynamaxMoveByMapping(pokemon), false),
+        );
+
+        // Gigamax sortis
+        const gigamaxReleased = gigamaxIds
+            .filter((id) => id !== 'URSHIFU') // TODO: retirer quand sorti
+            .flatMap(resolveSettings)
+            .concat(otherForms)
+            .map((pokemon) => toOutput(pokemon, dynamaxMoveByMapping(pokemon), true));
+
+        return dynamax.concat(gigamaxReleased, gigamaxNotReleased);
     }
 }
