@@ -470,6 +470,7 @@ export interface Dynamax {
     image:       string;
     imageShiny:  string;
     slug:        string;
+    type:        Type[];
     stats:       Stats;
     quickMoves:  { [key: string]: AcidSpray };
     dynamaxMove: CrushClaw[];
@@ -481,6 +482,27 @@ export interface Stats {
     baseStamina: number;
     baseAttack:  number;
     baseDefense: number;
+}
+
+export enum Type {
+    Acier = "Acier",
+    Combat = "Combat",
+    Dragon = "Dragon",
+    Eau = "Eau",
+    Feu = "Feu",
+    Fée = "Fée",
+    Glace = "Glace",
+    Insecte = "Insecte",
+    Normal = "Normal",
+    Plante = "Plante",
+    Poison = "Poison",
+    Psy = "Psy",
+    Roche = "Roche",
+    Sol = "Sol",
+    Spectre = "Spectre",
+    Ténèbres = "Ténèbres",
+    Vol = "Vol",
+    Électrik = "Électrik",
 }
 
 export interface RaidMoveDynamaxMove {
@@ -588,27 +610,6 @@ export interface Encounter {
 export interface EvolutionId {
     pokemonId: string;
     form:      string;
-}
-
-export enum Type {
-    Acier = "Acier",
-    Combat = "Combat",
-    Dragon = "Dragon",
-    Eau = "Eau",
-    Feu = "Feu",
-    Fée = "Fée",
-    Glace = "Glace",
-    Insecte = "Insecte",
-    Normal = "Normal",
-    Plante = "Plante",
-    Poison = "Poison",
-    Psy = "Psy",
-    Roche = "Roche",
-    Sol = "Sol",
-    Spectre = "Spectre",
-    Ténèbres = "Ténèbres",
-    Vol = "Vol",
-    Électrik = "Électrik",
 }
 
 export interface Different {
