@@ -6951,8 +6951,8 @@
     "pokemonId": "TOXTRICITY",
     "name": "Salarsen",
     "dexNumber": 849,
-    "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/849.png",
-    "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/849.png",
+    "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/10219.png",
+    "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/10219.png",
     "slug": "salarsen",
     "type": [
       "Électrik",
@@ -6993,7 +6993,18 @@
       }
     },
     "dynamaxMove": [
-      null
+      {
+        "id": "VN_BM_038",
+        "movementId": "VN_BM_038",
+        "pokemonType": "Électrik",
+        "powerLevels": [
+          350,
+          400,
+          450,
+          550
+        ],
+        "vfxName": "gmax_stun_shock"
+      }
     ],
     "familyId": "Toxizap",
     "isReleased": true
