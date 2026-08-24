@@ -47,11 +47,18 @@ export default class PokemonSettingGenerator extends FileGenerator {
                   : [];
         };
 
-        const getIdGigamax = async (dexNumber: number) => {
+        const getIdGigamax = async (pokemon: PokemonSetting) => {
+            const dexNumber: number = pokemon.base.dexNumber;
             const data = await pokeApiClient.fetchPokemonSpecies(dexNumber);
+            const name = pokemon.base.form === 'base' ? pokemon.base.pokemonId : pokemon.base.form;
+            console.log(name);
             return (
                 +data.varieties
-                    .filter((variety: any) => variety.pokemon.name.includes('gmax'))[0]
+                    .filter(
+                        (variety: any) =>
+                            variety.pokemon.name.includes('gmax') &&
+                            variety.pokemon.name.includes(name.kebabCase()),
+                    )[0]
                     ?.pokemon.url.split('/')
                     ?.filter(Boolean)
                     ?.last() || dexNumber
@@ -87,8 +94,10 @@ export default class PokemonSettingGenerator extends FileGenerator {
 
         const dynamaxMoveByMapping = (pokemon: PokemonSetting) => [
             raidMove.dynamaxMove[
-                mappingGigamax.find(
-                    (m) => m.form === pokemon.base.form || m.pokemonId === pokemon.base.pokemonId,
+                mappingGigamax.find((m) =>
+                    m.form === undefined || m.form.includes('NORMAL')
+                        ? m.pokemonId === pokemon.base.pokemonId
+                        : m.form === pokemon.base.form,
                 )?.move ?? ''
             ],
         ];
@@ -102,7 +111,7 @@ export default class PokemonSettingGenerator extends FileGenerator {
             isReleased?: boolean,
         ) => {
             const imageId = isGigamaxMove(dynamaxMove)
-                ? await getIdGigamax(pokemon.base.dexNumber)
+                ? await getIdGigamax(pokemon)
                 : pokemon.base.dexNumber;
             return {
                 pokemonId: pokemon.base.pokemonId,
