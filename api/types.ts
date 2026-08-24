@@ -471,6 +471,7 @@ export interface Dynamax {
     quickMoves:  { [key: string]: AcidSpray };
     dynamaxMove: CrushClaw[];
     familyId:    string;
+    isReleased?: boolean;
 }
 
 export interface Stats {

@@ -4004,72 +4004,6 @@
   {
     "pokemonId": "URSHIFU",
     "name": "Shifours",
-    "slug": "shifours-rapid-strike",
-    "stats": {
-      "baseStamina": 225,
-      "baseAttack": 254,
-      "baseDefense": 177
-    },
-    "quickMoves": {
-      "ROCK_SMASH_FAST": {
-        "id": "V0241_MOVE_ROCK_SMASH_FAST",
-        "movementId": "ROCK_SMASH_FAST",
-        "pokemonType": "POKEMON_TYPE_FIGHTING",
-        "power": 17,
-        "durationMs": 1500,
-        "energyDelta": 12,
-        "vfxName": "rock_smash_fast"
-      },
-      "COUNTER_FAST": {
-        "id": "V0243_MOVE_COUNTER_FAST",
-        "movementId": "COUNTER_FAST",
-        "pokemonType": "POKEMON_TYPE_FIGHTING",
-        "power": 13,
-        "durationMs": 1000,
-        "energyDelta": 9,
-        "vfxName": "counter_fast"
-      },
-      "WATERFALL_FAST": {
-        "id": "V0283_MOVE_WATERFALL_FAST",
-        "movementId": "WATERFALL_FAST",
-        "pokemonType": "POKEMON_TYPE_WATER",
-        "power": 13,
-        "durationMs": 1000,
-        "energyDelta": 7,
-        "vfxName": "waterfall_fast"
-      }
-    },
-    "dynamaxMove": [
-      {
-        "id": "VN_BM_005",
-        "movementId": "VN_BM_005",
-        "pokemonType": "POKEMON_TYPE_FIGHTING",
-        "powerLevels": [
-          250,
-          300,
-          350,
-          450
-        ],
-        "vfxName": "max_knuckle"
-      },
-      {
-        "id": "VN_BM_009",
-        "movementId": "VN_BM_009",
-        "pokemonType": "POKEMON_TYPE_WATER",
-        "powerLevels": [
-          250,
-          300,
-          350,
-          450
-        ],
-        "vfxName": "max_geyser"
-      }
-    ],
-    "familyId": "Wushours"
-  },
-  {
-    "pokemonId": "URSHIFU",
-    "name": "Shifours",
     "slug": "shifours-single-strike",
     "stats": {
       "baseStamina": 225,
@@ -4134,6 +4068,219 @@
     "familyId": "Wushours"
   },
   {
+    "pokemonId": "URSHIFU",
+    "name": "Shifours",
+    "slug": "shifours-rapid-strike",
+    "stats": {
+      "baseStamina": 225,
+      "baseAttack": 254,
+      "baseDefense": 177
+    },
+    "quickMoves": {
+      "ROCK_SMASH_FAST": {
+        "id": "V0241_MOVE_ROCK_SMASH_FAST",
+        "movementId": "ROCK_SMASH_FAST",
+        "pokemonType": "POKEMON_TYPE_FIGHTING",
+        "power": 17,
+        "durationMs": 1500,
+        "energyDelta": 12,
+        "vfxName": "rock_smash_fast"
+      },
+      "COUNTER_FAST": {
+        "id": "V0243_MOVE_COUNTER_FAST",
+        "movementId": "COUNTER_FAST",
+        "pokemonType": "POKEMON_TYPE_FIGHTING",
+        "power": 13,
+        "durationMs": 1000,
+        "energyDelta": 9,
+        "vfxName": "counter_fast"
+      },
+      "WATERFALL_FAST": {
+        "id": "V0283_MOVE_WATERFALL_FAST",
+        "movementId": "WATERFALL_FAST",
+        "pokemonType": "POKEMON_TYPE_WATER",
+        "power": 13,
+        "durationMs": 1000,
+        "energyDelta": 7,
+        "vfxName": "waterfall_fast"
+      }
+    },
+    "dynamaxMove": [
+      {
+        "id": "VN_BM_005",
+        "movementId": "VN_BM_005",
+        "pokemonType": "POKEMON_TYPE_FIGHTING",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_knuckle"
+      },
+      {
+        "id": "VN_BM_009",
+        "movementId": "VN_BM_009",
+        "pokemonType": "POKEMON_TYPE_WATER",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_geyser"
+      }
+    ],
+    "familyId": "Wushours"
+  },
+  {
+    "pokemonId": "VENUSAUR",
+    "name": "Florizarre",
+    "slug": "florizarre",
+    "stats": {
+      "baseStamina": 190,
+      "baseAttack": 198,
+      "baseDefense": 189
+    },
+    "quickMoves": {
+      "RAZOR_LEAF_FAST": {
+        "id": "V0215_MOVE_RAZOR_LEAF_FAST",
+        "movementId": "RAZOR_LEAF_FAST",
+        "pokemonType": "POKEMON_TYPE_GRASS",
+        "power": 13,
+        "durationMs": 1000,
+        "energyDelta": 7,
+        "vfxName": "razor_leaf_fast"
+      },
+      "VINE_WHIP_FAST": {
+        "id": "V0214_MOVE_VINE_WHIP_FAST",
+        "movementId": "VINE_WHIP_FAST",
+        "pokemonType": "POKEMON_TYPE_GRASS",
+        "power": 6,
+        "durationMs": 500,
+        "energyDelta": 5,
+        "vfxName": "vine_whip_fast"
+      }
+    },
+    "dynamaxMove": [
+      {
+        "id": "VN_BM_045",
+        "movementId": "VN_BM_045",
+        "pokemonType": "POKEMON_TYPE_GRASS",
+        "powerLevels": [
+          350,
+          400,
+          450,
+          550
+        ],
+        "vfxName": "gmax_vinelash"
+      }
+    ],
+    "familyId": "Bulbizarre",
+    "isReleased": true
+  },
+  {
+    "pokemonId": "CHARIZARD",
+    "name": "Dracaufeu",
+    "slug": "dracaufeu",
+    "stats": {
+      "baseStamina": 186,
+      "baseAttack": 223,
+      "baseDefense": 173
+    },
+    "quickMoves": {
+      "FIRE_SPIN_FAST": {
+        "id": "V0269_MOVE_FIRE_SPIN_FAST",
+        "movementId": "FIRE_SPIN_FAST",
+        "pokemonType": "POKEMON_TYPE_FIRE",
+        "power": 13,
+        "durationMs": 1000,
+        "energyDelta": 9,
+        "vfxName": "fire_spin_fast"
+      },
+      "AIR_SLASH_FAST": {
+        "id": "V0255_MOVE_AIR_SLASH_FAST",
+        "movementId": "AIR_SLASH_FAST",
+        "pokemonType": "POKEMON_TYPE_FLYING",
+        "power": 12,
+        "durationMs": 1000,
+        "energyDelta": 8,
+        "vfxName": "air_slash_fast"
+      }
+    },
+    "dynamaxMove": [
+      {
+        "id": "VN_BM_019",
+        "movementId": "VN_BM_019",
+        "pokemonType": "POKEMON_TYPE_FIRE",
+        "powerLevels": [
+          350,
+          400,
+          450,
+          550
+        ],
+        "vfxName": "gmax_wildfire"
+      }
+    ],
+    "familyId": "Salamèche",
+    "isReleased": true
+  },
+  {
+    "pokemonId": "BLASTOISE",
+    "name": "Tortank",
+    "slug": "tortank",
+    "stats": {
+      "baseStamina": 188,
+      "baseAttack": 171,
+      "baseDefense": 207
+    },
+    "quickMoves": {
+      "WATER_GUN_FAST": {
+        "id": "V0230_MOVE_WATER_GUN_FAST",
+        "movementId": "WATER_GUN_FAST",
+        "pokemonType": "POKEMON_TYPE_WATER",
+        "power": 5,
+        "durationMs": 500,
+        "energyDelta": 5,
+        "vfxName": "water_gun_fast"
+      },
+      "BITE_FAST": {
+        "id": "V0202_MOVE_BITE_FAST",
+        "movementId": "BITE_FAST",
+        "pokemonType": "POKEMON_TYPE_DARK",
+        "power": 6,
+        "durationMs": 500,
+        "energyDelta": 4,
+        "vfxName": "bite_fast"
+      },
+      "ROLLOUT_FAST": {
+        "id": "V0368_MOVE_ROLLOUT_FAST",
+        "movementId": "ROLLOUT_FAST",
+        "pokemonType": "POKEMON_TYPE_ROCK",
+        "power": 15,
+        "durationMs": 1500,
+        "energyDelta": 19,
+        "vfxName": "rollout_fast"
+      }
+    },
+    "dynamaxMove": [
+      {
+        "id": "VN_BM_046",
+        "movementId": "VN_BM_046",
+        "pokemonType": "POKEMON_TYPE_WATER",
+        "powerLevels": [
+          350,
+          400,
+          450,
+          550
+        ],
+        "vfxName": "gmax_cannonade"
+      }
+    ],
+    "familyId": "Carapuce",
+    "isReleased": true
+  },
+  {
     "pokemonId": "BUTTERFREE",
     "name": "Papilusion",
     "slug": "papilusion",
@@ -4176,7 +4323,100 @@
         "vfxName": "gmax_befuddle"
       }
     ],
-    "familyId": "Chenipan"
+    "familyId": "Chenipan",
+    "isReleased": true
+  },
+  {
+    "pokemonId": "PIKACHU",
+    "name": "Pikachu",
+    "slug": "pikachu",
+    "stats": {
+      "baseStamina": 111,
+      "baseAttack": 112,
+      "baseDefense": 96
+    },
+    "quickMoves": {
+      "THUNDER_SHOCK_FAST": {
+        "id": "V0205_MOVE_THUNDER_SHOCK_FAST",
+        "movementId": "THUNDER_SHOCK_FAST",
+        "pokemonType": "POKEMON_TYPE_ELECTRIC",
+        "power": 4,
+        "durationMs": 500,
+        "energyDelta": 7,
+        "vfxName": "thunder_shock_fast"
+      },
+      "QUICK_ATTACK_FAST": {
+        "id": "V0219_MOVE_QUICK_ATTACK_FAST",
+        "movementId": "QUICK_ATTACK_FAST",
+        "pokemonType": "POKEMON_TYPE_NORMAL",
+        "power": 10,
+        "durationMs": 1000,
+        "energyDelta": 13,
+        "vfxName": "quick_attack_fast"
+      }
+    },
+    "dynamaxMove": [
+      {
+        "id": "VN_BM_021",
+        "movementId": "VN_BM_021",
+        "pokemonType": "POKEMON_TYPE_ELECTRIC",
+        "powerLevels": [
+          350,
+          400,
+          450,
+          550
+        ],
+        "vfxName": "gmax_voltcrash"
+      }
+    ],
+    "familyId": "Pikachu",
+    "isReleased": true
+  },
+  {
+    "pokemonId": "MEOWTH",
+    "name": "Miaouss",
+    "slug": "miaouss",
+    "stats": {
+      "baseStamina": 120,
+      "baseAttack": 92,
+      "baseDefense": 78
+    },
+    "quickMoves": {
+      "SCRATCH_FAST": {
+        "id": "V0220_MOVE_SCRATCH_FAST",
+        "movementId": "SCRATCH_FAST",
+        "pokemonType": "POKEMON_TYPE_NORMAL",
+        "power": 6,
+        "durationMs": 500,
+        "energyDelta": 4,
+        "vfxName": "scratch_fast"
+      },
+      "BITE_FAST": {
+        "id": "V0202_MOVE_BITE_FAST",
+        "movementId": "BITE_FAST",
+        "pokemonType": "POKEMON_TYPE_DARK",
+        "power": 6,
+        "durationMs": 500,
+        "energyDelta": 4,
+        "vfxName": "bite_fast"
+      }
+    },
+    "dynamaxMove": [
+      {
+        "id": "VN_BM_022",
+        "movementId": "VN_BM_022",
+        "pokemonType": "POKEMON_TYPE_NORMAL",
+        "powerLevels": [
+          350,
+          400,
+          450,
+          550
+        ],
+        "vfxName": "gmax_goldrush"
+      }
+    ],
+    "familyId": "Miaouss",
+    "isReleased": true
   },
   {
     "pokemonId": "MACHAMP",
@@ -4221,7 +4461,63 @@
         "vfxName": "gmax_chistrike"
       }
     ],
-    "familyId": "Machoc"
+    "familyId": "Machoc",
+    "isReleased": true
+  },
+  {
+    "pokemonId": "GENGAR",
+    "name": "Ectoplasma",
+    "slug": "ectoplasma",
+    "stats": {
+      "baseStamina": 155,
+      "baseAttack": 261,
+      "baseDefense": 149
+    },
+    "quickMoves": {
+      "SUCKER_PUNCH_FAST": {
+        "id": "V0203_MOVE_SUCKER_PUNCH_FAST",
+        "movementId": "SUCKER_PUNCH_FAST",
+        "pokemonType": "POKEMON_TYPE_DARK",
+        "power": 5,
+        "durationMs": 500,
+        "energyDelta": 6,
+        "vfxName": "sucker_punch_fast"
+      },
+      "HEX_FAST": {
+        "id": "V0264_MOVE_HEX_FAST",
+        "movementId": "HEX_FAST",
+        "pokemonType": "POKEMON_TYPE_GHOST",
+        "power": 8,
+        "durationMs": 1000,
+        "energyDelta": 13,
+        "vfxName": "hex_fast"
+      },
+      "SHADOW_CLAW_FAST": {
+        "id": "V0213_MOVE_SHADOW_CLAW_FAST",
+        "movementId": "SHADOW_CLAW_FAST",
+        "pokemonType": "POKEMON_TYPE_GHOST",
+        "power": 6,
+        "durationMs": 500,
+        "energyDelta": 4,
+        "vfxName": "shadow_claw_fast"
+      }
+    },
+    "dynamaxMove": [
+      {
+        "id": "VN_BM_024",
+        "movementId": "VN_BM_024",
+        "pokemonType": "POKEMON_TYPE_GHOST",
+        "powerLevels": [
+          350,
+          400,
+          450,
+          550
+        ],
+        "vfxName": "gmax_terror"
+      }
+    ],
+    "familyId": "Fantominus",
+    "isReleased": true
   },
   {
     "pokemonId": "KINGLER",
@@ -4266,7 +4562,8 @@
         "vfxName": "gmax_foamburst"
       }
     ],
-    "familyId": "Krabby"
+    "familyId": "Krabby",
+    "isReleased": true
   },
   {
     "pokemonId": "LAPRAS",
@@ -4320,7 +4617,8 @@
         "vfxName": "gmax_resonance"
       }
     ],
-    "familyId": "Lokhlass"
+    "familyId": "Lokhlass",
+    "isReleased": true
   },
   {
     "pokemonId": "SNORLAX",
@@ -4365,7 +4663,8 @@
         "vfxName": "gmax_replenish"
       }
     ],
-    "familyId": "Ronflex"
+    "familyId": "Ronflex",
+    "isReleased": true
   },
   {
     "pokemonId": "GARBODOR",
@@ -4410,7 +4709,8 @@
         "vfxName": "gmax_malodor"
       }
     ],
-    "familyId": "Miamiasme"
+    "familyId": "Miamiasme",
+    "isReleased": true
   },
   {
     "pokemonId": "RILLABOOM",
@@ -4455,7 +4755,8 @@
         "vfxName": "gmax_drumsolo"
       }
     ],
-    "familyId": "Ouistempo"
+    "familyId": "Ouistempo",
+    "isReleased": true
   },
   {
     "pokemonId": "CINDERACE",
@@ -4500,7 +4801,8 @@
         "vfxName": "gmax_fireball"
       }
     ],
-    "familyId": "Flambino"
+    "familyId": "Flambino",
+    "isReleased": true
   },
   {
     "pokemonId": "INTELEON",
@@ -4545,7 +4847,8 @@
         "vfxName": "gmax_hydrosnipe"
       }
     ],
-    "familyId": "Larméléon"
+    "familyId": "Larméléon",
+    "isReleased": true
   },
   {
     "pokemonId": "TOXTRICITY",
@@ -4599,7 +4902,8 @@
         "vfxName": "gmax_stun_shock"
       }
     ],
-    "familyId": "Toxizap"
+    "familyId": "Toxizap",
+    "isReleased": true
   },
   {
     "pokemonId": "GRIMMSNARL",
@@ -4653,36 +4957,304 @@
         "vfxName": "gmax_snooze"
       }
     ],
-    "familyId": "Grimalin"
+    "familyId": "Grimalin",
+    "isReleased": true
   },
   {
-    "pokemonId": "URSHIFU",
-    "name": "Shifours",
-    "slug": "shifours-rapid-strike",
+    "pokemonId": "ZACIAN",
+    "name": "Zacian",
+    "slug": "zacian-crowned",
     "stats": {
-      "baseStamina": 225,
-      "baseAttack": 254,
-      "baseDefense": 177
+      "baseStamina": 192,
+      "baseAttack": 332,
+      "baseDefense": 240
     },
     "quickMoves": {
-      "ROCK_SMASH_FAST": {
-        "id": "V0241_MOVE_ROCK_SMASH_FAST",
-        "movementId": "ROCK_SMASH_FAST",
-        "pokemonType": "POKEMON_TYPE_FIGHTING",
-        "power": 17,
-        "durationMs": 1500,
-        "energyDelta": 12,
-        "vfxName": "rock_smash_fast"
+      "METAL_CLAW_FAST": {
+        "id": "V0228_MOVE_METAL_CLAW_FAST",
+        "movementId": "METAL_CLAW_FAST",
+        "pokemonType": "POKEMON_TYPE_STEEL",
+        "power": 6,
+        "durationMs": 500,
+        "energyDelta": 5,
+        "vfxName": "metal_claw_fast"
       },
-      "COUNTER_FAST": {
-        "id": "V0243_MOVE_COUNTER_FAST",
-        "movementId": "COUNTER_FAST",
-        "pokemonType": "POKEMON_TYPE_FIGHTING",
+      "AIR_SLASH_FAST": {
+        "id": "V0255_MOVE_AIR_SLASH_FAST",
+        "movementId": "AIR_SLASH_FAST",
+        "pokemonType": "POKEMON_TYPE_FLYING",
+        "power": 12,
+        "durationMs": 1000,
+        "energyDelta": 8,
+        "vfxName": "air_slash_fast"
+      }
+    },
+    "dynamaxMove": [
+      {
+        "id": "VN_BM_060",
+        "movementId": "VN_BM_060",
+        "pokemonType": "POKEMON_TYPE_STEEL",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_behemoth_blade"
+      }
+    ],
+    "familyId": "Zacian",
+    "isReleased": true
+  },
+  {
+    "pokemonId": "ZAMAZENTA",
+    "name": "Zamazenta",
+    "slug": "zamazenta-crowned",
+    "stats": {
+      "baseStamina": 192,
+      "baseAttack": 250,
+      "baseDefense": 292
+    },
+    "quickMoves": {
+      "METAL_CLAW_FAST": {
+        "id": "V0228_MOVE_METAL_CLAW_FAST",
+        "movementId": "METAL_CLAW_FAST",
+        "pokemonType": "POKEMON_TYPE_STEEL",
+        "power": 6,
+        "durationMs": 500,
+        "energyDelta": 5,
+        "vfxName": "metal_claw_fast"
+      },
+      "ICE_FANG_FAST": {
+        "id": "V0327_MOVE_ICE_FANG_FAST",
+        "movementId": "ICE_FANG_FAST",
+        "pokemonType": "POKEMON_TYPE_ICE",
+        "power": 12,
+        "durationMs": 1500,
+        "energyDelta": 20,
+        "vfxName": "ice_fang_fast"
+      }
+    },
+    "dynamaxMove": [
+      {
+        "id": "VN_BM_061",
+        "movementId": "VN_BM_061",
+        "pokemonType": "POKEMON_TYPE_STEEL",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_behemoth_bash"
+      }
+    ],
+    "familyId": "Zamazenta",
+    "isReleased": true
+  },
+  {
+    "pokemonId": "ETERNATUS",
+    "name": "Éthernatos",
+    "slug": "ethernatos",
+    "stats": {
+      "baseStamina": 268,
+      "baseAttack": 278,
+      "baseDefense": 192
+    },
+    "quickMoves": {
+      "DRAGON_TAIL_FAST": {
+        "id": "V0253_MOVE_DRAGON_TAIL_FAST",
+        "movementId": "DRAGON_TAIL_FAST",
+        "pokemonType": "POKEMON_TYPE_DRAGON",
+        "power": 14,
+        "durationMs": 1000,
+        "energyDelta": 8,
+        "vfxName": "dragon_tail_fast"
+      },
+      "POISON_JAB_FAST": {
+        "id": "V0224_MOVE_POISON_JAB_FAST",
+        "movementId": "POISON_JAB_FAST",
+        "pokemonType": "POKEMON_TYPE_POISON",
         "power": 13,
         "durationMs": 1000,
         "energyDelta": 9,
-        "vfxName": "counter_fast"
+        "vfxName": "poison_jab_fast"
+      }
+    },
+    "dynamaxMove": [
+      {
+        "id": "VN_BM_062",
+        "movementId": "VN_BM_062",
+        "pokemonType": "POKEMON_TYPE_DRAGON",
+        "powerLevels": [
+          350,
+          400,
+          450,
+          550
+        ],
+        "vfxName": "max_dynamax_cannon"
+      }
+    ],
+    "familyId": "Éthernatos",
+    "isReleased": true
+  },
+  {
+    "pokemonId": "MELMETAL",
+    "name": "Melmetal",
+    "slug": "melmetal",
+    "stats": {
+      "baseStamina": 264,
+      "baseAttack": 226,
+      "baseDefense": 190
+    },
+    "quickMoves": {
+      "THUNDER_SHOCK_FAST": {
+        "id": "V0205_MOVE_THUNDER_SHOCK_FAST",
+        "movementId": "THUNDER_SHOCK_FAST",
+        "pokemonType": "POKEMON_TYPE_ELECTRIC",
+        "power": 4,
+        "durationMs": 500,
+        "energyDelta": 7,
+        "vfxName": "thunder_shock_fast"
+      }
+    },
+    "dynamaxMove": [
+      {
+        "id": "VN_BM_030",
+        "movementId": "VN_BM_030",
+        "pokemonType": "POKEMON_TYPE_STEEL",
+        "powerLevels": [
+          350,
+          400,
+          450,
+          550
+        ],
+        "vfxName": "gmax_meltdown"
+      }
+    ],
+    "familyId": "Meltan",
+    "isReleased": false
+  },
+  {
+    "pokemonId": "CORVIKNIGHT",
+    "name": "Corvaillus",
+    "slug": "corvaillus",
+    "stats": {
+      "baseStamina": 221,
+      "baseAttack": 163,
+      "baseDefense": 192
+    },
+    "quickMoves": {
+      "STEEL_WING_FAST": {
+        "id": "V0239_MOVE_STEEL_WING_FAST",
+        "movementId": "STEEL_WING_FAST",
+        "pokemonType": "POKEMON_TYPE_STEEL",
+        "power": 14,
+        "durationMs": 1000,
+        "energyDelta": 8,
+        "vfxName": "steel_wing_fast"
       },
+      "AIR_SLASH_FAST": {
+        "id": "V0255_MOVE_AIR_SLASH_FAST",
+        "movementId": "AIR_SLASH_FAST",
+        "pokemonType": "POKEMON_TYPE_FLYING",
+        "power": 12,
+        "durationMs": 1000,
+        "energyDelta": 8,
+        "vfxName": "air_slash_fast"
+      },
+      "SAND_ATTACK_FAST": {
+        "id": "V0403_MOVE_SAND_ATTACK_FAST",
+        "movementId": "SAND_ATTACK_FAST",
+        "pokemonType": "POKEMON_TYPE_GROUND",
+        "power": 4,
+        "durationMs": 500,
+        "energyDelta": 7,
+        "vfxName": "sand_attack"
+      }
+    },
+    "dynamaxMove": [
+      {
+        "id": "VN_BM_031",
+        "movementId": "VN_BM_031",
+        "pokemonType": "POKEMON_TYPE_FLYING",
+        "powerLevels": [
+          350,
+          400,
+          450,
+          550
+        ],
+        "vfxName": "gmax_windrage"
+      }
+    ],
+    "familyId": "Minisange",
+    "isReleased": false
+  },
+  {
+    "pokemonId": "ORBEETLE",
+    "name": "Astronelle",
+    "slug": "astronelle",
+    "stats": {
+      "baseStamina": 155,
+      "baseAttack": 156,
+      "baseDefense": 240
+    },
+    "quickMoves": {
+      "STRUGGLE_BUG_FAST": {
+        "id": "V0261_MOVE_STRUGGLE_BUG_FAST",
+        "movementId": "STRUGGLE_BUG_FAST",
+        "pokemonType": "POKEMON_TYPE_BUG",
+        "power": 15,
+        "durationMs": 1500,
+        "energyDelta": 15,
+        "vfxName": "struggle_bug_fast"
+      },
+      "CONFUSION_FAST": {
+        "id": "V0235_MOVE_CONFUSION_FAST",
+        "movementId": "CONFUSION_FAST",
+        "pokemonType": "POKEMON_TYPE_PSYCHIC",
+        "power": 19,
+        "durationMs": 1500,
+        "energyDelta": 14,
+        "vfxName": "confusion_fast"
+      },
+      "PSYCHO_CUT_FAST": {
+        "id": "V0226_MOVE_PSYCHO_CUT_FAST",
+        "movementId": "PSYCHO_CUT_FAST",
+        "pokemonType": "POKEMON_TYPE_PSYCHIC",
+        "power": 4,
+        "durationMs": 500,
+        "energyDelta": 7,
+        "vfxName": "psycho_cut_fast"
+      }
+    },
+    "dynamaxMove": [
+      {
+        "id": "VN_BM_032",
+        "movementId": "VN_BM_032",
+        "pokemonType": "POKEMON_TYPE_PSYCHIC",
+        "powerLevels": [
+          350,
+          400,
+          450,
+          550
+        ],
+        "vfxName": "gmax_gravitas"
+      }
+    ],
+    "familyId": "Larvadar",
+    "isReleased": false
+  },
+  {
+    "pokemonId": "DREDNAW",
+    "name": "Torgamord",
+    "slug": "torgamord",
+    "stats": {
+      "baseStamina": 207,
+      "baseAttack": 213,
+      "baseDefense": 164
+    },
+    "quickMoves": {
       "WATERFALL_FAST": {
         "id": "V0283_MOVE_WATERFALL_FAST",
         "movementId": "WATERFALL_FAST",
@@ -4691,23 +5263,456 @@
         "durationMs": 1000,
         "energyDelta": 7,
         "vfxName": "waterfall_fast"
+      },
+      "BITE_FAST": {
+        "id": "V0202_MOVE_BITE_FAST",
+        "movementId": "BITE_FAST",
+        "pokemonType": "POKEMON_TYPE_DARK",
+        "power": 6,
+        "durationMs": 500,
+        "energyDelta": 4,
+        "vfxName": "bite_fast"
       }
     },
     "dynamaxMove": [
       {
-        "id": "VN_BM_050",
-        "movementId": "VN_BM_050",
-        "pokemonType": "POKEMON_TYPE_DARK",
+        "id": "VN_BM_033",
+        "movementId": "VN_BM_033",
+        "pokemonType": "POKEMON_TYPE_WATER",
         "powerLevels": [
           350,
           400,
           450,
           550
         ],
-        "vfxName": "gmax_oneblow"
+        "vfxName": "gmax_stonesurge"
       }
     ],
-    "familyId": "Wushours"
+    "familyId": "Khélocrok",
+    "isReleased": false
+  },
+  {
+    "pokemonId": "COALOSSAL",
+    "name": "Monthracite",
+    "slug": "monthracite",
+    "stats": {
+      "baseStamina": 242,
+      "baseAttack": 146,
+      "baseDefense": 198
+    },
+    "quickMoves": {
+      "SMACK_DOWN_FAST": {
+        "id": "V0297_MOVE_SMACK_DOWN_FAST",
+        "movementId": "SMACK_DOWN_FAST",
+        "pokemonType": "POKEMON_TYPE_ROCK",
+        "power": 13,
+        "durationMs": 1000,
+        "energyDelta": 7,
+        "vfxName": "smack_down_fast"
+      },
+      "FIRE_SPIN_FAST": {
+        "id": "V0269_MOVE_FIRE_SPIN_FAST",
+        "movementId": "FIRE_SPIN_FAST",
+        "pokemonType": "POKEMON_TYPE_FIRE",
+        "power": 13,
+        "durationMs": 1000,
+        "energyDelta": 9,
+        "vfxName": "fire_spin_fast"
+      }
+    },
+    "dynamaxMove": [
+      {
+        "id": "VN_BM_034",
+        "movementId": "VN_BM_034",
+        "pokemonType": "POKEMON_TYPE_ROCK",
+        "powerLevels": [
+          350,
+          400,
+          450,
+          550
+        ],
+        "vfxName": "gmax_volcalith"
+      }
+    ],
+    "familyId": "Charbi",
+    "isReleased": false
+  },
+  {
+    "pokemonId": "FLAPPLE",
+    "name": "Pomdrapi",
+    "slug": "pomdrapi",
+    "stats": {
+      "baseStamina": 172,
+      "baseAttack": 214,
+      "baseDefense": 144
+    },
+    "quickMoves": {
+      "BULLET_SEED_FAST": {
+        "id": "V0271_MOVE_BULLET_SEED_FAST",
+        "movementId": "BULLET_SEED_FAST",
+        "pokemonType": "POKEMON_TYPE_GRASS",
+        "power": 7,
+        "durationMs": 1000,
+        "energyDelta": 13,
+        "vfxName": "bullet_seed_fast"
+      },
+      "DRAGON_BREATH_FAST": {
+        "id": "V0204_MOVE_DRAGON_BREATH_FAST",
+        "movementId": "DRAGON_BREATH_FAST",
+        "pokemonType": "POKEMON_TYPE_DRAGON",
+        "power": 6,
+        "durationMs": 500,
+        "energyDelta": 4,
+        "vfxName": "dragon_breath_fast"
+      }
+    },
+    "dynamaxMove": [
+      {
+        "id": "VN_BM_035",
+        "movementId": "VN_BM_035",
+        "pokemonType": "POKEMON_TYPE_GRASS",
+        "powerLevels": [
+          350,
+          400,
+          450,
+          550
+        ],
+        "vfxName": "gmax_tartness"
+      }
+    ],
+    "familyId": "Verpom",
+    "isReleased": false
+  },
+  {
+    "pokemonId": "APPLETUN",
+    "name": "Dratatin",
+    "slug": "dratatin",
+    "stats": {
+      "baseStamina": 242,
+      "baseAttack": 178,
+      "baseDefense": 146
+    },
+    "quickMoves": {
+      "BULLET_SEED_FAST": {
+        "id": "V0271_MOVE_BULLET_SEED_FAST",
+        "movementId": "BULLET_SEED_FAST",
+        "pokemonType": "POKEMON_TYPE_GRASS",
+        "power": 7,
+        "durationMs": 1000,
+        "energyDelta": 13,
+        "vfxName": "bullet_seed_fast"
+      },
+      "ASTONISH_FAST": {
+        "id": "V0263_MOVE_ASTONISH_FAST",
+        "movementId": "ASTONISH_FAST",
+        "pokemonType": "POKEMON_TYPE_GHOST",
+        "power": 7,
+        "durationMs": 1000,
+        "energyDelta": 13,
+        "vfxName": "astonish_fast"
+      }
+    },
+    "dynamaxMove": [
+      {
+        "id": "VN_BM_036",
+        "movementId": "VN_BM_036",
+        "pokemonType": "POKEMON_TYPE_GRASS",
+        "powerLevels": [
+          350,
+          400,
+          450,
+          550
+        ],
+        "vfxName": "gmax_sweetness"
+      }
+    ],
+    "familyId": "Verpom",
+    "isReleased": false
+  },
+  {
+    "pokemonId": "SANDACONDA",
+    "name": "Dunaconda",
+    "slug": "dunaconda",
+    "stats": {
+      "baseStamina": 176,
+      "baseAttack": 202,
+      "baseDefense": 207
+    },
+    "quickMoves": {
+      "MUD_SLAP_FAST": {
+        "id": "V0233_MOVE_MUD_SLAP_FAST",
+        "movementId": "MUD_SLAP_FAST",
+        "pokemonType": "POKEMON_TYPE_GROUND",
+        "power": 19,
+        "durationMs": 1500,
+        "energyDelta": 13,
+        "vfxName": "mud_slap_fast"
+      },
+      "MUD_SHOT_FAST": {
+        "id": "V0216_MOVE_MUD_SHOT_FAST",
+        "movementId": "MUD_SHOT_FAST",
+        "pokemonType": "POKEMON_TYPE_GROUND",
+        "power": 4,
+        "durationMs": 500,
+        "energyDelta": 6,
+        "vfxName": "mud_shot_fast"
+      }
+    },
+    "dynamaxMove": [
+      {
+        "id": "VN_BM_037",
+        "movementId": "VN_BM_037",
+        "pokemonType": "POKEMON_TYPE_GROUND",
+        "powerLevels": [
+          350,
+          400,
+          450,
+          550
+        ],
+        "vfxName": "gmax_sandblast"
+      }
+    ],
+    "familyId": "Dunaja",
+    "isReleased": false
+  },
+  {
+    "pokemonId": "CENTISKORCH",
+    "name": "Scolocendre",
+    "slug": "scolocendre",
+    "stats": {
+      "baseStamina": 225,
+      "baseAttack": 220,
+      "baseDefense": 158
+    },
+    "quickMoves": {
+      "BUG_BITE_FAST": {
+        "id": "V0201_MOVE_BUG_BITE_FAST",
+        "movementId": "BUG_BITE_FAST",
+        "pokemonType": "POKEMON_TYPE_BUG",
+        "power": 5,
+        "durationMs": 500,
+        "energyDelta": 6,
+        "vfxName": "bug_bite_fast"
+      },
+      "EMBER_FAST": {
+        "id": "V0209_MOVE_EMBER_FAST",
+        "movementId": "EMBER_FAST",
+        "pokemonType": "POKEMON_TYPE_FIRE",
+        "power": 10,
+        "durationMs": 1000,
+        "energyDelta": 10,
+        "vfxName": "ember_fast"
+      }
+    },
+    "dynamaxMove": [
+      {
+        "id": "VN_BM_039",
+        "movementId": "VN_BM_039",
+        "pokemonType": "POKEMON_TYPE_FIRE",
+        "powerLevels": [
+          350,
+          400,
+          450,
+          550
+        ],
+        "vfxName": "gmax_centiferno"
+      }
+    ],
+    "familyId": "Grillepattes",
+    "isReleased": false
+  },
+  {
+    "pokemonId": "HATTERENE",
+    "name": "Sorcilence",
+    "slug": "sorcilence",
+    "stats": {
+      "baseStamina": 149,
+      "baseAttack": 237,
+      "baseDefense": 182
+    },
+    "quickMoves": {
+      "CONFUSION_FAST": {
+        "id": "V0235_MOVE_CONFUSION_FAST",
+        "movementId": "CONFUSION_FAST",
+        "pokemonType": "POKEMON_TYPE_PSYCHIC",
+        "power": 19,
+        "durationMs": 1500,
+        "energyDelta": 14,
+        "vfxName": "confusion_fast"
+      },
+      "CHARM_FAST": {
+        "id": "V0320_MOVE_CHARM_FAST",
+        "movementId": "CHARM_FAST",
+        "pokemonType": "POKEMON_TYPE_FAIRY",
+        "power": 20,
+        "durationMs": 1500,
+        "energyDelta": 11,
+        "vfxName": "charm_fast"
+      },
+      "PSYCHO_CUT_FAST": {
+        "id": "V0226_MOVE_PSYCHO_CUT_FAST",
+        "movementId": "PSYCHO_CUT_FAST",
+        "pokemonType": "POKEMON_TYPE_PSYCHIC",
+        "power": 4,
+        "durationMs": 500,
+        "energyDelta": 7,
+        "vfxName": "psycho_cut_fast"
+      }
+    },
+    "dynamaxMove": [
+      {
+        "id": "VN_BM_040",
+        "movementId": "VN_BM_040",
+        "pokemonType": "POKEMON_TYPE_FAIRY",
+        "powerLevels": [
+          350,
+          400,
+          450,
+          550
+        ],
+        "vfxName": "gmax_smite"
+      }
+    ],
+    "familyId": "Bibichut",
+    "isReleased": false
+  },
+  {
+    "pokemonId": "ALCREMIE",
+    "name": "Charmilly",
+    "slug": "charmilly",
+    "stats": {
+      "baseStamina": 163,
+      "baseAttack": 203,
+      "baseDefense": 203
+    },
+    "quickMoves": {
+      "TACKLE_FAST": {
+        "id": "V0221_MOVE_TACKLE_FAST",
+        "movementId": "TACKLE_FAST",
+        "pokemonType": "POKEMON_TYPE_NORMAL",
+        "power": 5,
+        "durationMs": 500,
+        "energyDelta": 5,
+        "vfxName": "tackle_fast"
+      },
+      "CHARM_FAST": {
+        "id": "V0320_MOVE_CHARM_FAST",
+        "movementId": "CHARM_FAST",
+        "pokemonType": "POKEMON_TYPE_FAIRY",
+        "power": 20,
+        "durationMs": 1500,
+        "energyDelta": 11,
+        "vfxName": "charm_fast"
+      }
+    },
+    "dynamaxMove": [
+      {
+        "id": "VN_BM_042",
+        "movementId": "VN_BM_042",
+        "pokemonType": "POKEMON_TYPE_FAIRY",
+        "powerLevels": [
+          350,
+          400,
+          450,
+          550
+        ],
+        "vfxName": "gmax_finale"
+      }
+    ],
+    "familyId": "Crèmy",
+    "isReleased": false
+  },
+  {
+    "pokemonId": "COPPERAJAH",
+    "name": "Pachyradjah",
+    "slug": "pachyradjah",
+    "stats": {
+      "baseStamina": 263,
+      "baseAttack": 226,
+      "baseDefense": 126
+    },
+    "quickMoves": {
+      "TACKLE_FAST": {
+        "id": "V0221_MOVE_TACKLE_FAST",
+        "movementId": "TACKLE_FAST",
+        "pokemonType": "POKEMON_TYPE_NORMAL",
+        "power": 5,
+        "durationMs": 500,
+        "energyDelta": 5,
+        "vfxName": "tackle_fast"
+      },
+      "ROCK_SMASH_FAST": {
+        "id": "V0241_MOVE_ROCK_SMASH_FAST",
+        "movementId": "ROCK_SMASH_FAST",
+        "pokemonType": "POKEMON_TYPE_FIGHTING",
+        "power": 17,
+        "durationMs": 1500,
+        "energyDelta": 12,
+        "vfxName": "rock_smash_fast"
+      }
+    },
+    "dynamaxMove": [
+      {
+        "id": "VN_BM_043",
+        "movementId": "VN_BM_043",
+        "pokemonType": "POKEMON_TYPE_STEEL",
+        "powerLevels": [
+          350,
+          400,
+          450,
+          550
+        ],
+        "vfxName": "gmax_steelsurge"
+      }
+    ],
+    "familyId": "Charibari",
+    "isReleased": false
+  },
+  {
+    "pokemonId": "DURALUDON",
+    "name": "Duralugon",
+    "slug": "duralugon",
+    "stats": {
+      "baseStamina": 172,
+      "baseAttack": 239,
+      "baseDefense": 185
+    },
+    "quickMoves": {
+      "DRAGON_TAIL_FAST": {
+        "id": "V0253_MOVE_DRAGON_TAIL_FAST",
+        "movementId": "DRAGON_TAIL_FAST",
+        "pokemonType": "POKEMON_TYPE_DRAGON",
+        "power": 14,
+        "durationMs": 1000,
+        "energyDelta": 8,
+        "vfxName": "dragon_tail_fast"
+      },
+      "METAL_CLAW_FAST": {
+        "id": "V0228_MOVE_METAL_CLAW_FAST",
+        "movementId": "METAL_CLAW_FAST",
+        "pokemonType": "POKEMON_TYPE_STEEL",
+        "power": 6,
+        "durationMs": 500,
+        "energyDelta": 5,
+        "vfxName": "metal_claw_fast"
+      }
+    },
+    "dynamaxMove": [
+      {
+        "id": "VN_BM_044",
+        "movementId": "VN_BM_044",
+        "pokemonType": "POKEMON_TYPE_DRAGON",
+        "powerLevels": [
+          350,
+          400,
+          450,
+          550
+        ],
+        "vfxName": "gmax_depletion"
+      }
+    ],
+    "familyId": "Duralugon",
+    "isReleased": false
   },
   {
     "pokemonId": "URSHIFU",
@@ -4761,141 +5766,62 @@
         "vfxName": "gmax_oneblow"
       }
     ],
-    "familyId": "Wushours"
+    "familyId": "Wushours",
+    "isReleased": false
   },
   {
-    "pokemonId": "ZACIAN",
-    "name": "Zacian",
-    "slug": "zacian-crowned",
+    "pokemonId": "URSHIFU",
+    "name": "Shifours",
+    "slug": "shifours-rapid-strike",
     "stats": {
-      "baseStamina": 192,
-      "baseAttack": 332,
-      "baseDefense": 240
+      "baseStamina": 225,
+      "baseAttack": 254,
+      "baseDefense": 177
     },
     "quickMoves": {
-      "METAL_CLAW_FAST": {
-        "id": "V0228_MOVE_METAL_CLAW_FAST",
-        "movementId": "METAL_CLAW_FAST",
-        "pokemonType": "POKEMON_TYPE_STEEL",
-        "power": 6,
-        "durationMs": 500,
-        "energyDelta": 5,
-        "vfxName": "metal_claw_fast"
-      },
-      "AIR_SLASH_FAST": {
-        "id": "V0255_MOVE_AIR_SLASH_FAST",
-        "movementId": "AIR_SLASH_FAST",
-        "pokemonType": "POKEMON_TYPE_FLYING",
-        "power": 12,
-        "durationMs": 1000,
-        "energyDelta": 8,
-        "vfxName": "air_slash_fast"
-      }
-    },
-    "dynamaxMove": [
-      {
-        "id": "VN_BM_060",
-        "movementId": "VN_BM_060",
-        "pokemonType": "POKEMON_TYPE_STEEL",
-        "powerLevels": [
-          250,
-          300,
-          350,
-          450
-        ],
-        "vfxName": "max_behemoth_blade"
-      }
-    ],
-    "familyId": "Zacian"
-  },
-  {
-    "pokemonId": "ZAMAZENTA",
-    "name": "Zamazenta",
-    "slug": "zamazenta-crowned",
-    "stats": {
-      "baseStamina": 192,
-      "baseAttack": 250,
-      "baseDefense": 292
-    },
-    "quickMoves": {
-      "METAL_CLAW_FAST": {
-        "id": "V0228_MOVE_METAL_CLAW_FAST",
-        "movementId": "METAL_CLAW_FAST",
-        "pokemonType": "POKEMON_TYPE_STEEL",
-        "power": 6,
-        "durationMs": 500,
-        "energyDelta": 5,
-        "vfxName": "metal_claw_fast"
-      },
-      "ICE_FANG_FAST": {
-        "id": "V0327_MOVE_ICE_FANG_FAST",
-        "movementId": "ICE_FANG_FAST",
-        "pokemonType": "POKEMON_TYPE_ICE",
-        "power": 12,
+      "ROCK_SMASH_FAST": {
+        "id": "V0241_MOVE_ROCK_SMASH_FAST",
+        "movementId": "ROCK_SMASH_FAST",
+        "pokemonType": "POKEMON_TYPE_FIGHTING",
+        "power": 17,
         "durationMs": 1500,
-        "energyDelta": 20,
-        "vfxName": "ice_fang_fast"
-      }
-    },
-    "dynamaxMove": [
-      {
-        "id": "VN_BM_061",
-        "movementId": "VN_BM_061",
-        "pokemonType": "POKEMON_TYPE_STEEL",
-        "powerLevels": [
-          250,
-          300,
-          350,
-          450
-        ],
-        "vfxName": "max_behemoth_bash"
-      }
-    ],
-    "familyId": "Zamazenta"
-  },
-  {
-    "pokemonId": "ETERNATUS",
-    "name": "Éthernatos",
-    "slug": "ethernatos",
-    "stats": {
-      "baseStamina": 268,
-      "baseAttack": 278,
-      "baseDefense": 192
-    },
-    "quickMoves": {
-      "DRAGON_TAIL_FAST": {
-        "id": "V0253_MOVE_DRAGON_TAIL_FAST",
-        "movementId": "DRAGON_TAIL_FAST",
-        "pokemonType": "POKEMON_TYPE_DRAGON",
-        "power": 14,
-        "durationMs": 1000,
-        "energyDelta": 8,
-        "vfxName": "dragon_tail_fast"
+        "energyDelta": 12,
+        "vfxName": "rock_smash_fast"
       },
-      "POISON_JAB_FAST": {
-        "id": "V0224_MOVE_POISON_JAB_FAST",
-        "movementId": "POISON_JAB_FAST",
-        "pokemonType": "POKEMON_TYPE_POISON",
+      "COUNTER_FAST": {
+        "id": "V0243_MOVE_COUNTER_FAST",
+        "movementId": "COUNTER_FAST",
+        "pokemonType": "POKEMON_TYPE_FIGHTING",
         "power": 13,
         "durationMs": 1000,
         "energyDelta": 9,
-        "vfxName": "poison_jab_fast"
+        "vfxName": "counter_fast"
+      },
+      "WATERFALL_FAST": {
+        "id": "V0283_MOVE_WATERFALL_FAST",
+        "movementId": "WATERFALL_FAST",
+        "pokemonType": "POKEMON_TYPE_WATER",
+        "power": 13,
+        "durationMs": 1000,
+        "energyDelta": 7,
+        "vfxName": "waterfall_fast"
       }
     },
     "dynamaxMove": [
       {
-        "id": "VN_BM_062",
-        "movementId": "VN_BM_062",
-        "pokemonType": "POKEMON_TYPE_DRAGON",
+        "id": "VN_BM_050",
+        "movementId": "VN_BM_050",
+        "pokemonType": "POKEMON_TYPE_DARK",
         "powerLevels": [
           350,
           400,
           450,
           550
         ],
-        "vfxName": "max_dynamax_cannon"
+        "vfxName": "gmax_oneblow"
       }
     ],
-    "familyId": "Éthernatos"
+    "familyId": "Wushours",
+    "isReleased": false
   }
 ]
