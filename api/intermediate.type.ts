@@ -36,8 +36,8 @@ export interface Encounter {
 }
 
 export interface EvolutionId {
-    pokemonId?: string;
-    form:       string;
+    pokemonId: string;
+    form:      string;
 }
 
 export interface Stats {

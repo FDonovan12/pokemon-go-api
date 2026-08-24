@@ -466,6 +466,9 @@ export interface PokemonCpMultiplier {
 export interface Dynamax {
     pokemonId:   string;
     name:        string;
+    dexNumber:   number;
+    image:       string;
+    imageShiny:  string;
     slug:        string;
     stats:       Stats;
     quickMoves:  { [key: string]: AcidSpray };
@@ -583,8 +586,8 @@ export interface Encounter {
 }
 
 export interface EvolutionId {
-    pokemonId?: string;
-    form:       string;
+    pokemonId: string;
+    form:      string;
 }
 
 export enum Type {
