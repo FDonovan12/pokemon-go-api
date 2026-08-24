@@ -264,17 +264,38 @@ export interface RaidMoveChargedMove {
 export interface AcidSpray {
     id:           string;
     movementId:   string;
-    pokemonType:  string;
+    pokemonType:  Type;
     power?:       number;
     durationMs:   number;
     energyDelta?: number;
     vfxName:      string;
 }
 
+export enum Type {
+    Acier = "Acier",
+    Combat = "Combat",
+    Dragon = "Dragon",
+    Eau = "Eau",
+    Feu = "Feu",
+    Fée = "Fée",
+    Glace = "Glace",
+    Insecte = "Insecte",
+    Normal = "Normal",
+    Plante = "Plante",
+    Poison = "Poison",
+    Psy = "Psy",
+    Roche = "Roche",
+    Sol = "Sol",
+    Spectre = "Spectre",
+    Ténèbres = "Ténèbres",
+    Vol = "Vol",
+    Électrik = "Électrik",
+}
+
 export interface CrushClaw {
     id:           string;
     movementId:   string;
-    pokemonType:  string;
+    pokemonType:  Type;
     durationMs?:  number;
     vfxName:      string;
     powerLevels?: number[];
@@ -452,7 +473,7 @@ export interface Dynamax {
     type:        Type[];
     stats:       Stats;
     quickMoves:  { [key: string]: AcidSpray };
-    dynamaxMove: (CrushClaw | null)[];
+    dynamaxMove: CrushClaw[];
     familyId:    string;
     isReleased?: boolean;
 }
@@ -461,27 +482,6 @@ export interface Stats {
     baseStamina: number;
     baseAttack:  number;
     baseDefense: number;
-}
-
-export enum Type {
-    Acier = "Acier",
-    Combat = "Combat",
-    Dragon = "Dragon",
-    Eau = "Eau",
-    Feu = "Feu",
-    Fée = "Fée",
-    Glace = "Glace",
-    Insecte = "Insecte",
-    Normal = "Normal",
-    Plante = "Plante",
-    Poison = "Poison",
-    Psy = "Psy",
-    Roche = "Roche",
-    Sol = "Sol",
-    Spectre = "Spectre",
-    Ténèbres = "Ténèbres",
-    Vol = "Vol",
-    Électrik = "Électrik",
 }
 
 export interface RaidMoveDynamaxMove {

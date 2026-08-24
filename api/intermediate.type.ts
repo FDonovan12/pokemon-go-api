@@ -344,7 +344,7 @@ export interface ChargedMove {
 export interface AcidSpray {
     id:           string;
     movementId:   string;
-    pokemonType:  string;
+    pokemonType:  Type;
     power?:       number;
     durationMs:   number;
     energyDelta?: number;
@@ -354,7 +354,7 @@ export interface AcidSpray {
 export interface CrushClaw {
     id:           string;
     movementId:   string;
-    pokemonType:  string;
+    pokemonType:  Type;
     durationMs?:  number;
     vfxName:      string;
     powerLevels?: number[];

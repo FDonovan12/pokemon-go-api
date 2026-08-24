@@ -36,7 +36,18 @@
       }
     },
     "dynamaxMove": [
-      null
+      {
+        "id": "VN_BM_017",
+        "movementId": "VN_BM_017",
+        "pokemonType": "Plante",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_overgrowth"
+      }
     ],
     "familyId": "Bulbizarre"
   },
@@ -77,8 +88,30 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null
+      {
+        "id": "VN_BM_001",
+        "movementId": "VN_BM_001",
+        "pokemonType": "Feu",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_flare"
+      },
+      {
+        "id": "VN_BM_010",
+        "movementId": "VN_BM_010",
+        "pokemonType": "Vol",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_airstream"
+      }
     ],
     "familyId": "Salamèche"
   },
@@ -127,9 +160,42 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null,
-      null
+      {
+        "id": "VN_BM_009",
+        "movementId": "VN_BM_009",
+        "pokemonType": "Eau",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_geyser"
+      },
+      {
+        "id": "VN_BM_016",
+        "movementId": "VN_BM_016",
+        "pokemonType": "Ténèbres",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_darkness"
+      },
+      {
+        "id": "VN_BM_014",
+        "movementId": "VN_BM_014",
+        "pokemonType": "Roche",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_rockfall"
+      }
     ],
     "familyId": "Carapuce"
   },
@@ -170,8 +236,30 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null
+      {
+        "id": "VN_BM_002",
+        "movementId": "VN_BM_002",
+        "pokemonType": "Insecte",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_flutterby"
+      },
+      {
+        "id": "VN_BM_013",
+        "movementId": "VN_BM_013",
+        "pokemonType": "Psy",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_mindstorm"
+      }
     ],
     "familyId": "Chenipan"
   },
@@ -229,8 +317,30 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null
+      {
+        "id": "VN_BM_003",
+        "movementId": "VN_BM_003",
+        "pokemonType": "Électrik",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_lightning"
+      },
+      {
+        "id": "VN_BM_011",
+        "movementId": "VN_BM_011",
+        "pokemonType": "Fée",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_starfall"
+      }
     ],
     "familyId": "Pikachu"
   },
@@ -279,9 +389,42 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null,
-      null
+      {
+        "id": "VN_BM_001",
+        "movementId": "VN_BM_001",
+        "pokemonType": "Feu",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_flare"
+      },
+      {
+        "id": "VN_BM_016",
+        "movementId": "VN_BM_016",
+        "pokemonType": "Ténèbres",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_darkness"
+      },
+      {
+        "id": "VN_BM_003",
+        "movementId": "VN_BM_003",
+        "pokemonType": "Électrik",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_lightning"
+      }
     ],
     "familyId": "Caninos"
   },
@@ -321,7 +464,18 @@
       }
     },
     "dynamaxMove": [
-      null
+      {
+        "id": "VN_BM_013",
+        "movementId": "VN_BM_013",
+        "pokemonType": "Psy",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_mindstorm"
+      }
     ],
     "familyId": "Abra"
   },
@@ -361,8 +515,30 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null
+      {
+        "id": "VN_BM_018",
+        "movementId": "VN_BM_018",
+        "pokemonType": "Acier",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_steelspike"
+      },
+      {
+        "id": "VN_BM_005",
+        "movementId": "VN_BM_005",
+        "pokemonType": "Combat",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_knuckle"
+      }
     ],
     "familyId": "Machoc"
   },
@@ -412,8 +588,30 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null
+      {
+        "id": "VN_BM_016",
+        "movementId": "VN_BM_016",
+        "pokemonType": "Ténèbres",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_darkness"
+      },
+      {
+        "id": "VN_BM_006",
+        "movementId": "VN_BM_006",
+        "pokemonType": "Spectre",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_phantasm"
+      }
     ],
     "familyId": "Fantominus"
   },
@@ -453,8 +651,30 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null
+      {
+        "id": "VN_BM_009",
+        "movementId": "VN_BM_009",
+        "pokemonType": "Eau",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_geyser"
+      },
+      {
+        "id": "VN_BM_018",
+        "movementId": "VN_BM_018",
+        "pokemonType": "Acier",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_steelspike"
+      }
     ],
     "familyId": "Krabby"
   },
@@ -503,7 +723,18 @@
       }
     },
     "dynamaxMove": [
-      null
+      {
+        "id": "VN_BM_005",
+        "movementId": "VN_BM_005",
+        "pokemonType": "Combat",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_knuckle"
+      }
     ],
     "familyId": "Debugant"
   },
@@ -543,8 +774,30 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null
+      {
+        "id": "VN_BM_018",
+        "movementId": "VN_BM_018",
+        "pokemonType": "Acier",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_steelspike"
+      },
+      {
+        "id": "VN_BM_005",
+        "movementId": "VN_BM_005",
+        "pokemonType": "Combat",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_knuckle"
+      }
     ],
     "familyId": "Debugant"
   },
@@ -594,9 +847,42 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null,
-      null
+      {
+        "id": "VN_BM_004",
+        "movementId": "VN_BM_004",
+        "pokemonType": "Normal",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_strike"
+      },
+      {
+        "id": "VN_BM_009",
+        "movementId": "VN_BM_009",
+        "pokemonType": "Eau",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_geyser"
+      },
+      {
+        "id": "VN_BM_013",
+        "movementId": "VN_BM_013",
+        "pokemonType": "Psy",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_mindstorm"
+      }
     ],
     "familyId": "Stari"
   },
@@ -646,9 +932,42 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null,
-      null
+      {
+        "id": "VN_BM_016",
+        "movementId": "VN_BM_016",
+        "pokemonType": "Ténèbres",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_darkness"
+      },
+      {
+        "id": "VN_BM_009",
+        "movementId": "VN_BM_009",
+        "pokemonType": "Eau",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_geyser"
+      },
+      {
+        "id": "VN_BM_012",
+        "movementId": "VN_BM_012",
+        "pokemonType": "Dragon",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_wyrmwind"
+      }
     ],
     "familyId": "Magicarpe"
   },
@@ -698,9 +1017,42 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null,
-      null
+      {
+        "id": "VN_BM_007",
+        "movementId": "VN_BM_007",
+        "pokemonType": "Glace",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_hailstorm"
+      },
+      {
+        "id": "VN_BM_009",
+        "movementId": "VN_BM_009",
+        "pokemonType": "Eau",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_geyser"
+      },
+      {
+        "id": "VN_BM_013",
+        "movementId": "VN_BM_013",
+        "pokemonType": "Psy",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_mindstorm"
+      }
     ],
     "familyId": "Lokhlass"
   },
@@ -731,7 +1083,18 @@
       }
     },
     "dynamaxMove": [
-      null
+      {
+        "id": "VN_BM_009",
+        "movementId": "VN_BM_009",
+        "pokemonType": "Eau",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_geyser"
+      }
     ],
     "familyId": "Évoli"
   },
@@ -771,7 +1134,18 @@
       }
     },
     "dynamaxMove": [
-      null
+      {
+        "id": "VN_BM_003",
+        "movementId": "VN_BM_003",
+        "pokemonType": "Électrik",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_lightning"
+      }
     ],
     "familyId": "Évoli"
   },
@@ -811,7 +1185,18 @@
       }
     },
     "dynamaxMove": [
-      null
+      {
+        "id": "VN_BM_001",
+        "movementId": "VN_BM_001",
+        "pokemonType": "Feu",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_flare"
+      }
     ],
     "familyId": "Évoli"
   },
@@ -852,8 +1237,30 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null
+      {
+        "id": "VN_BM_015",
+        "movementId": "VN_BM_015",
+        "pokemonType": "Sol",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_quake"
+      },
+      {
+        "id": "VN_BM_009",
+        "movementId": "VN_BM_009",
+        "pokemonType": "Eau",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_geyser"
+      }
     ],
     "familyId": "Amonita"
   },
@@ -903,9 +1310,42 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null,
-      null
+      {
+        "id": "VN_BM_015",
+        "movementId": "VN_BM_015",
+        "pokemonType": "Sol",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_quake"
+      },
+      {
+        "id": "VN_BM_005",
+        "movementId": "VN_BM_005",
+        "pokemonType": "Combat",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_knuckle"
+      },
+      {
+        "id": "VN_BM_009",
+        "movementId": "VN_BM_009",
+        "pokemonType": "Eau",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_geyser"
+      }
     ],
     "familyId": "Kabuto"
   },
@@ -945,8 +1385,30 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null
+      {
+        "id": "VN_BM_013",
+        "movementId": "VN_BM_013",
+        "pokemonType": "Psy",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_mindstorm"
+      },
+      {
+        "id": "VN_BM_006",
+        "movementId": "VN_BM_006",
+        "pokemonType": "Spectre",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_phantasm"
+      }
     ],
     "familyId": "Ronflex"
   },
@@ -996,7 +1458,18 @@
       }
     },
     "dynamaxMove": [
-      null
+      {
+        "id": "VN_BM_007",
+        "movementId": "VN_BM_007",
+        "pokemonType": "Glace",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_hailstorm"
+      }
     ],
     "familyId": "Artikodin"
   },
@@ -1028,7 +1501,18 @@
       }
     },
     "dynamaxMove": [
-      null
+      {
+        "id": "VN_BM_003",
+        "movementId": "VN_BM_003",
+        "pokemonType": "Électrik",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_lightning"
+      }
     ],
     "familyId": "Électhor"
   },
@@ -1069,8 +1553,30 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null
+      {
+        "id": "VN_BM_001",
+        "movementId": "VN_BM_001",
+        "pokemonType": "Feu",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_flare"
+      },
+      {
+        "id": "VN_BM_010",
+        "movementId": "VN_BM_010",
+        "pokemonType": "Vol",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_airstream"
+      }
     ],
     "familyId": "Sulfura"
   },
@@ -1111,8 +1617,30 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null
+      {
+        "id": "VN_BM_010",
+        "movementId": "VN_BM_010",
+        "pokemonType": "Vol",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_airstream"
+      },
+      {
+        "id": "VN_BM_013",
+        "movementId": "VN_BM_013",
+        "pokemonType": "Psy",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_mindstorm"
+      }
     ],
     "familyId": "Hoothoot"
   },
@@ -1152,7 +1680,18 @@
       }
     },
     "dynamaxMove": [
-      null
+      {
+        "id": "VN_BM_013",
+        "movementId": "VN_BM_013",
+        "pokemonType": "Psy",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_mindstorm"
+      }
     ],
     "familyId": "Évoli"
   },
@@ -1192,7 +1731,18 @@
       }
     },
     "dynamaxMove": [
-      null
+      {
+        "id": "VN_BM_016",
+        "movementId": "VN_BM_016",
+        "pokemonType": "Ténèbres",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_darkness"
+      }
     ],
     "familyId": "Évoli"
   },
@@ -1233,8 +1783,30 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null
+      {
+        "id": "VN_BM_002",
+        "movementId": "VN_BM_002",
+        "pokemonType": "Insecte",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_flutterby"
+      },
+      {
+        "id": "VN_BM_014",
+        "movementId": "VN_BM_014",
+        "pokemonType": "Roche",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_rockfall"
+      }
     ],
     "familyId": "Caratroc"
   },
@@ -1274,7 +1846,18 @@
       }
     },
     "dynamaxMove": [
-      null
+      {
+        "id": "VN_BM_005",
+        "movementId": "VN_BM_005",
+        "pokemonType": "Combat",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_knuckle"
+      }
     ],
     "familyId": "Debugant"
   },
@@ -1314,8 +1897,30 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null
+      {
+        "id": "VN_BM_004",
+        "movementId": "VN_BM_004",
+        "pokemonType": "Normal",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_strike"
+      },
+      {
+        "id": "VN_BM_013",
+        "movementId": "VN_BM_013",
+        "pokemonType": "Psy",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_mindstorm"
+      }
     ],
     "familyId": "Leveinard"
   },
@@ -1355,7 +1960,18 @@
       }
     },
     "dynamaxMove": [
-      null
+      {
+        "id": "VN_BM_003",
+        "movementId": "VN_BM_003",
+        "pokemonType": "Électrik",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_lightning"
+      }
     ],
     "familyId": "Raikou"
   },
@@ -1395,7 +2011,18 @@
       }
     },
     "dynamaxMove": [
-      null
+      {
+        "id": "VN_BM_001",
+        "movementId": "VN_BM_001",
+        "pokemonType": "Feu",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_flare"
+      }
     ],
     "familyId": "Entei"
   },
@@ -1453,10 +2080,54 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null,
-      null,
-      null
+      {
+        "id": "VN_BM_013",
+        "movementId": "VN_BM_013",
+        "pokemonType": "Psy",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_mindstorm"
+      },
+      {
+        "id": "VN_BM_016",
+        "movementId": "VN_BM_016",
+        "pokemonType": "Ténèbres",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_darkness"
+      },
+      {
+        "id": "VN_BM_007",
+        "movementId": "VN_BM_007",
+        "pokemonType": "Glace",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_hailstorm"
+      },
+      {
+        "id": "VN_BM_009",
+        "movementId": "VN_BM_009",
+        "pokemonType": "Eau",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_geyser"
+      }
     ],
     "familyId": "Suicune"
   },
@@ -1497,8 +2168,30 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null
+      {
+        "id": "VN_BM_013",
+        "movementId": "VN_BM_013",
+        "pokemonType": "Psy",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_mindstorm"
+      },
+      {
+        "id": "VN_BM_012",
+        "movementId": "VN_BM_012",
+        "pokemonType": "Dragon",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_wyrmwind"
+      }
     ],
     "familyId": "Lugia"
   },
@@ -1557,10 +2250,54 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null,
-      null,
-      null
+      {
+        "id": "VN_BM_013",
+        "movementId": "VN_BM_013",
+        "pokemonType": "Psy",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_mindstorm"
+      },
+      {
+        "id": "VN_BM_018",
+        "movementId": "VN_BM_018",
+        "pokemonType": "Acier",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_steelspike"
+      },
+      {
+        "id": "VN_BM_004",
+        "movementId": "VN_BM_004",
+        "pokemonType": "Normal",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_strike"
+      },
+      {
+        "id": "VN_BM_001",
+        "movementId": "VN_BM_001",
+        "pokemonType": "Feu",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_flare"
+      }
     ],
     "familyId": "Ho-Oh"
   },
@@ -1619,10 +2356,54 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null,
-      null,
-      null
+      {
+        "id": "VN_BM_013",
+        "movementId": "VN_BM_013",
+        "pokemonType": "Psy",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_mindstorm"
+      },
+      {
+        "id": "VN_BM_003",
+        "movementId": "VN_BM_003",
+        "pokemonType": "Électrik",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_lightning"
+      },
+      {
+        "id": "VN_BM_011",
+        "movementId": "VN_BM_011",
+        "pokemonType": "Fée",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_starfall"
+      },
+      {
+        "id": "VN_BM_017",
+        "movementId": "VN_BM_017",
+        "pokemonType": "Plante",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_overgrowth"
+      }
     ],
     "familyId": "Tarsal"
   },
@@ -1663,8 +2444,30 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null
+      {
+        "id": "VN_BM_006",
+        "movementId": "VN_BM_006",
+        "pokemonType": "Spectre",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_phantasm"
+      },
+      {
+        "id": "VN_BM_016",
+        "movementId": "VN_BM_016",
+        "pokemonType": "Ténèbres",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_darkness"
+      }
     ],
     "familyId": "Ténéfix"
   },
@@ -1713,9 +2516,42 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null,
-      null
+      {
+        "id": "VN_BM_013",
+        "movementId": "VN_BM_013",
+        "pokemonType": "Psy",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_mindstorm"
+      },
+      {
+        "id": "VN_BM_009",
+        "movementId": "VN_BM_009",
+        "pokemonType": "Eau",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_geyser"
+      },
+      {
+        "id": "VN_BM_014",
+        "movementId": "VN_BM_014",
+        "pokemonType": "Roche",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_rockfall"
+      }
     ],
     "familyId": "Wailmer"
   },
@@ -1765,8 +2601,30 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null
+      {
+        "id": "VN_BM_015",
+        "movementId": "VN_BM_015",
+        "pokemonType": "Sol",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_quake"
+      },
+      {
+        "id": "VN_BM_012",
+        "movementId": "VN_BM_012",
+        "pokemonType": "Dragon",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_wyrmwind"
+      }
     ],
     "familyId": "Kraknoix"
   },
@@ -1806,8 +2664,30 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null
+      {
+        "id": "VN_BM_009",
+        "movementId": "VN_BM_009",
+        "pokemonType": "Eau",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_geyser"
+      },
+      {
+        "id": "VN_BM_012",
+        "movementId": "VN_BM_012",
+        "pokemonType": "Dragon",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_wyrmwind"
+      }
     ],
     "familyId": "Barpau"
   },
@@ -1848,8 +2728,30 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null
+      {
+        "id": "VN_BM_009",
+        "movementId": "VN_BM_009",
+        "pokemonType": "Eau",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_geyser"
+      },
+      {
+        "id": "VN_BM_007",
+        "movementId": "VN_BM_007",
+        "pokemonType": "Glace",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_hailstorm"
+      }
     ],
     "familyId": "Obalie"
   },
@@ -1899,9 +2801,42 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null,
-      null
+      {
+        "id": "VN_BM_018",
+        "movementId": "VN_BM_018",
+        "pokemonType": "Acier",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_steelspike"
+      },
+      {
+        "id": "VN_BM_013",
+        "movementId": "VN_BM_013",
+        "pokemonType": "Psy",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_mindstorm"
+      },
+      {
+        "id": "VN_BM_002",
+        "movementId": "VN_BM_002",
+        "pokemonType": "Insecte",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_flutterby"
+      }
     ],
     "familyId": "Terhal"
   },
@@ -1950,9 +2885,42 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null,
-      null
+      {
+        "id": "VN_BM_014",
+        "movementId": "VN_BM_014",
+        "pokemonType": "Roche",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_rockfall"
+      },
+      {
+        "id": "VN_BM_005",
+        "movementId": "VN_BM_005",
+        "pokemonType": "Combat",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_knuckle"
+      },
+      {
+        "id": "VN_BM_004",
+        "movementId": "VN_BM_004",
+        "pokemonType": "Normal",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_strike"
+      }
     ],
     "familyId": "Regirock"
   },
@@ -2001,9 +2969,42 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null,
-      null
+      {
+        "id": "VN_BM_007",
+        "movementId": "VN_BM_007",
+        "pokemonType": "Glace",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_hailstorm"
+      },
+      {
+        "id": "VN_BM_005",
+        "movementId": "VN_BM_005",
+        "pokemonType": "Combat",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_knuckle"
+      },
+      {
+        "id": "VN_BM_004",
+        "movementId": "VN_BM_004",
+        "pokemonType": "Normal",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_strike"
+      }
     ],
     "familyId": "Regice"
   },
@@ -2052,9 +3053,42 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null,
-      null
+      {
+        "id": "VN_BM_018",
+        "movementId": "VN_BM_018",
+        "pokemonType": "Acier",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_steelspike"
+      },
+      {
+        "id": "VN_BM_005",
+        "movementId": "VN_BM_005",
+        "pokemonType": "Combat",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_knuckle"
+      },
+      {
+        "id": "VN_BM_004",
+        "movementId": "VN_BM_004",
+        "pokemonType": "Normal",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_strike"
+      }
     ],
     "familyId": "Registeel"
   },
@@ -2104,9 +3138,42 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null,
-      null
+      {
+        "id": "VN_BM_012",
+        "movementId": "VN_BM_012",
+        "pokemonType": "Dragon",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_wyrmwind"
+      },
+      {
+        "id": "VN_BM_013",
+        "movementId": "VN_BM_013",
+        "pokemonType": "Psy",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_mindstorm"
+      },
+      {
+        "id": "VN_BM_011",
+        "movementId": "VN_BM_011",
+        "pokemonType": "Fée",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_starfall"
+      }
     ],
     "familyId": "Latias"
   },
@@ -2147,8 +3214,30 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null
+      {
+        "id": "VN_BM_012",
+        "movementId": "VN_BM_012",
+        "pokemonType": "Dragon",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_wyrmwind"
+      },
+      {
+        "id": "VN_BM_013",
+        "movementId": "VN_BM_013",
+        "pokemonType": "Psy",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_mindstorm"
+      }
     ],
     "familyId": "Latios"
   },
@@ -2207,9 +3296,42 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null,
-      null
+      {
+        "id": "VN_BM_002",
+        "movementId": "VN_BM_002",
+        "pokemonType": "Insecte",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_flutterby"
+      },
+      {
+        "id": "VN_BM_008",
+        "movementId": "VN_BM_008",
+        "pokemonType": "Poison",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_ooze"
+      },
+      {
+        "id": "VN_BM_010",
+        "movementId": "VN_BM_010",
+        "pokemonType": "Vol",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_airstream"
+      }
     ],
     "familyId": "Apitrini"
   },
@@ -2259,8 +3381,30 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null
+      {
+        "id": "VN_BM_007",
+        "movementId": "VN_BM_007",
+        "pokemonType": "Glace",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_hailstorm"
+      },
+      {
+        "id": "VN_BM_016",
+        "movementId": "VN_BM_016",
+        "pokemonType": "Ténèbres",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_darkness"
+      }
     ],
     "familyId": "Farfuret"
   },
@@ -2301,8 +3445,30 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null
+      {
+        "id": "VN_BM_015",
+        "movementId": "VN_BM_015",
+        "pokemonType": "Sol",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_quake"
+      },
+      {
+        "id": "VN_BM_014",
+        "movementId": "VN_BM_014",
+        "pokemonType": "Roche",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_rockfall"
+      }
     ],
     "familyId": "Rhinocorne"
   },
@@ -2342,8 +3508,30 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null
+      {
+        "id": "VN_BM_003",
+        "movementId": "VN_BM_003",
+        "pokemonType": "Électrik",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_lightning"
+      },
+      {
+        "id": "VN_BM_005",
+        "movementId": "VN_BM_005",
+        "pokemonType": "Combat",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_knuckle"
+      }
     ],
     "familyId": "Élektek"
   },
@@ -2383,8 +3571,30 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null
+      {
+        "id": "VN_BM_001",
+        "movementId": "VN_BM_001",
+        "pokemonType": "Feu",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_flare"
+      },
+      {
+        "id": "VN_BM_005",
+        "movementId": "VN_BM_005",
+        "pokemonType": "Combat",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_knuckle"
+      }
     ],
     "familyId": "Magmar"
   },
@@ -2424,8 +3634,30 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null
+      {
+        "id": "VN_BM_017",
+        "movementId": "VN_BM_017",
+        "pokemonType": "Plante",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_overgrowth"
+      },
+      {
+        "id": "VN_BM_004",
+        "movementId": "VN_BM_004",
+        "pokemonType": "Normal",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_strike"
+      }
     ],
     "familyId": "Évoli"
   },
@@ -2465,7 +3697,18 @@
       }
     },
     "dynamaxMove": [
-      null
+      {
+        "id": "VN_BM_007",
+        "movementId": "VN_BM_007",
+        "pokemonType": "Glace",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_hailstorm"
+      }
     ],
     "familyId": "Évoli"
   },
@@ -2524,9 +3767,42 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null,
-      null
+      {
+        "id": "VN_BM_013",
+        "movementId": "VN_BM_013",
+        "pokemonType": "Psy",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_mindstorm"
+      },
+      {
+        "id": "VN_BM_005",
+        "movementId": "VN_BM_005",
+        "pokemonType": "Combat",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_knuckle"
+      },
+      {
+        "id": "VN_BM_011",
+        "movementId": "VN_BM_011",
+        "pokemonType": "Fée",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_starfall"
+      }
     ],
     "familyId": "Tarsal"
   },
@@ -2567,8 +3843,30 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null
+      {
+        "id": "VN_BM_010",
+        "movementId": "VN_BM_010",
+        "pokemonType": "Vol",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_airstream"
+      },
+      {
+        "id": "VN_BM_018",
+        "movementId": "VN_BM_018",
+        "pokemonType": "Acier",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_steelspike"
+      }
     ],
     "familyId": "Poichigeon"
   },
@@ -2617,9 +3915,42 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null,
-      null
+      {
+        "id": "VN_BM_015",
+        "movementId": "VN_BM_015",
+        "pokemonType": "Sol",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_quake"
+      },
+      {
+        "id": "VN_BM_014",
+        "movementId": "VN_BM_014",
+        "pokemonType": "Roche",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_rockfall"
+      },
+      {
+        "id": "VN_BM_004",
+        "movementId": "VN_BM_004",
+        "pokemonType": "Normal",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_strike"
+      }
     ],
     "familyId": "Nodulithe"
   },
@@ -2660,8 +3991,30 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null
+      {
+        "id": "VN_BM_013",
+        "movementId": "VN_BM_013",
+        "pokemonType": "Psy",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_mindstorm"
+      },
+      {
+        "id": "VN_BM_010",
+        "movementId": "VN_BM_010",
+        "pokemonType": "Vol",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_airstream"
+      }
     ],
     "familyId": "Chovsourir"
   },
@@ -2711,8 +4064,30 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null
+      {
+        "id": "VN_BM_018",
+        "movementId": "VN_BM_018",
+        "pokemonType": "Acier",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_steelspike"
+      },
+      {
+        "id": "VN_BM_015",
+        "movementId": "VN_BM_015",
+        "pokemonType": "Sol",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_quake"
+      }
     ],
     "familyId": "Rototaupe"
   },
@@ -2762,8 +4137,30 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null
+      {
+        "id": "VN_BM_011",
+        "movementId": "VN_BM_011",
+        "pokemonType": "Fée",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_starfall"
+      },
+      {
+        "id": "VN_BM_017",
+        "movementId": "VN_BM_017",
+        "pokemonType": "Plante",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_overgrowth"
+      }
     ],
     "familyId": "Doudouvet"
   },
@@ -2812,8 +4209,30 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null
+      {
+        "id": "VN_BM_004",
+        "movementId": "VN_BM_004",
+        "pokemonType": "Normal",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_strike"
+      },
+      {
+        "id": "VN_BM_001",
+        "movementId": "VN_BM_001",
+        "pokemonType": "Feu",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_flare"
+      }
     ],
     "familyId": "Darumarond"
   },
@@ -2853,8 +4272,30 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null
+      {
+        "id": "VN_BM_002",
+        "movementId": "VN_BM_002",
+        "pokemonType": "Insecte",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_flutterby"
+      },
+      {
+        "id": "VN_BM_004",
+        "movementId": "VN_BM_004",
+        "pokemonType": "Normal",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_strike"
+      }
     ],
     "familyId": "Miamiasme"
   },
@@ -2894,7 +4335,18 @@
       }
     },
     "dynamaxMove": [
-      null
+      {
+        "id": "VN_BM_007",
+        "movementId": "VN_BM_007",
+        "pokemonType": "Glace",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_hailstorm"
+      }
     ],
     "familyId": "Hexagel"
   },
@@ -2935,8 +4387,30 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null
+      {
+        "id": "VN_BM_016",
+        "movementId": "VN_BM_016",
+        "pokemonType": "Ténèbres",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_darkness"
+      },
+      {
+        "id": "VN_BM_012",
+        "movementId": "VN_BM_012",
+        "pokemonType": "Dragon",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_wyrmwind"
+      }
     ],
     "familyId": "Solochi"
   },
@@ -2986,8 +4460,30 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null
+      {
+        "id": "VN_BM_010",
+        "movementId": "VN_BM_010",
+        "pokemonType": "Vol",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_airstream"
+      },
+      {
+        "id": "VN_BM_013",
+        "movementId": "VN_BM_013",
+        "pokemonType": "Psy",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_mindstorm"
+      }
     ],
     "familyId": "Sepiatop"
   },
@@ -3036,8 +4532,30 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null
+      {
+        "id": "VN_BM_011",
+        "movementId": "VN_BM_011",
+        "pokemonType": "Fée",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_starfall"
+      },
+      {
+        "id": "VN_BM_004",
+        "movementId": "VN_BM_004",
+        "pokemonType": "Normal",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_strike"
+      }
     ],
     "familyId": "Évoli"
   },
@@ -3086,8 +4604,30 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null
+      {
+        "id": "VN_BM_017",
+        "movementId": "VN_BM_017",
+        "pokemonType": "Plante",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_overgrowth"
+      },
+      {
+        "id": "VN_BM_011",
+        "movementId": "VN_BM_011",
+        "pokemonType": "Fée",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_starfall"
+      }
     ],
     "familyId": "Croquine"
   },
@@ -3136,8 +4676,30 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null
+      {
+        "id": "VN_BM_005",
+        "movementId": "VN_BM_005",
+        "pokemonType": "Combat",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_knuckle"
+      },
+      {
+        "id": "VN_BM_004",
+        "movementId": "VN_BM_004",
+        "pokemonType": "Normal",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_strike"
+      }
     ],
     "familyId": "Quartermac"
   },
@@ -3178,8 +4740,30 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null
+      {
+        "id": "VN_BM_012",
+        "movementId": "VN_BM_012",
+        "pokemonType": "Dragon",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_wyrmwind"
+      },
+      {
+        "id": "VN_BM_013",
+        "movementId": "VN_BM_013",
+        "pokemonType": "Psy",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_mindstorm"
+      }
     ],
     "familyId": "Draïeul"
   },
@@ -3219,8 +4803,30 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null
+      {
+        "id": "VN_BM_004",
+        "movementId": "VN_BM_004",
+        "pokemonType": "Normal",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_strike"
+      },
+      {
+        "id": "VN_BM_017",
+        "movementId": "VN_BM_017",
+        "pokemonType": "Plante",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_overgrowth"
+      }
     ],
     "familyId": "Ouistempo"
   },
@@ -3260,8 +4866,30 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null
+      {
+        "id": "VN_BM_004",
+        "movementId": "VN_BM_004",
+        "pokemonType": "Normal",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_strike"
+      },
+      {
+        "id": "VN_BM_001",
+        "movementId": "VN_BM_001",
+        "pokemonType": "Feu",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_flare"
+      }
     ],
     "familyId": "Flambino"
   },
@@ -3301,8 +4929,30 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null
+      {
+        "id": "VN_BM_004",
+        "movementId": "VN_BM_004",
+        "pokemonType": "Normal",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_strike"
+      },
+      {
+        "id": "VN_BM_009",
+        "movementId": "VN_BM_009",
+        "pokemonType": "Eau",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_geyser"
+      }
     ],
     "familyId": "Larméléon"
   },
@@ -3360,10 +5010,54 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null,
-      null,
-      null
+      {
+        "id": "VN_BM_004",
+        "movementId": "VN_BM_004",
+        "pokemonType": "Normal",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_strike"
+      },
+      {
+        "id": "VN_BM_016",
+        "movementId": "VN_BM_016",
+        "pokemonType": "Ténèbres",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_darkness"
+      },
+      {
+        "id": "VN_BM_017",
+        "movementId": "VN_BM_017",
+        "pokemonType": "Plante",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_overgrowth"
+      },
+      {
+        "id": "VN_BM_015",
+        "movementId": "VN_BM_015",
+        "pokemonType": "Sol",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_quake"
+      }
     ],
     "familyId": "Rongourmand"
   },
@@ -3413,9 +5107,42 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null,
-      null
+      {
+        "id": "VN_BM_018",
+        "movementId": "VN_BM_018",
+        "pokemonType": "Acier",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_steelspike"
+      },
+      {
+        "id": "VN_BM_010",
+        "movementId": "VN_BM_010",
+        "pokemonType": "Vol",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_airstream"
+      },
+      {
+        "id": "VN_BM_015",
+        "movementId": "VN_BM_015",
+        "pokemonType": "Sol",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_quake"
+      }
     ],
     "familyId": "Minisange"
   },
@@ -3464,8 +5191,30 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null
+      {
+        "id": "VN_BM_004",
+        "movementId": "VN_BM_004",
+        "pokemonType": "Normal",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_strike"
+      },
+      {
+        "id": "VN_BM_005",
+        "movementId": "VN_BM_005",
+        "pokemonType": "Combat",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_knuckle"
+      }
     ],
     "familyId": "Moumouton"
   },
@@ -3515,8 +5264,30 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null
+      {
+        "id": "VN_BM_008",
+        "movementId": "VN_BM_008",
+        "pokemonType": "Poison",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_ooze"
+      },
+      {
+        "id": "VN_BM_003",
+        "movementId": "VN_BM_003",
+        "pokemonType": "Électrik",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_lightning"
+      }
     ],
     "familyId": "Toxizap"
   },
@@ -3557,8 +5328,30 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null
+      {
+        "id": "VN_BM_002",
+        "movementId": "VN_BM_002",
+        "pokemonType": "Insecte",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_flutterby"
+      },
+      {
+        "id": "VN_BM_001",
+        "movementId": "VN_BM_001",
+        "pokemonType": "Feu",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_flare"
+      }
     ],
     "familyId": "Grillepattes"
   },
@@ -3608,8 +5401,30 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null
+      {
+        "id": "VN_BM_013",
+        "movementId": "VN_BM_013",
+        "pokemonType": "Psy",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_mindstorm"
+      },
+      {
+        "id": "VN_BM_011",
+        "movementId": "VN_BM_011",
+        "pokemonType": "Fée",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_starfall"
+      }
     ],
     "familyId": "Bibichut"
   },
@@ -3659,8 +5474,30 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null
+      {
+        "id": "VN_BM_016",
+        "movementId": "VN_BM_016",
+        "pokemonType": "Ténèbres",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_darkness"
+      },
+      {
+        "id": "VN_BM_005",
+        "movementId": "VN_BM_005",
+        "pokemonType": "Combat",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_knuckle"
+      }
     ],
     "familyId": "Grimalin"
   },
@@ -3700,7 +5537,18 @@
       }
     },
     "dynamaxMove": [
-      null
+      {
+        "id": "VN_BM_005",
+        "movementId": "VN_BM_005",
+        "pokemonType": "Combat",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_knuckle"
+      }
     ],
     "familyId": "Hexadron"
   },
@@ -3741,8 +5589,30 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null
+      {
+        "id": "VN_BM_012",
+        "movementId": "VN_BM_012",
+        "pokemonType": "Dragon",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_wyrmwind"
+      },
+      {
+        "id": "VN_BM_018",
+        "movementId": "VN_BM_018",
+        "pokemonType": "Acier",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_steelspike"
+      }
     ],
     "familyId": "Duralugon"
   },
@@ -3792,8 +5662,30 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null
+      {
+        "id": "VN_BM_005",
+        "movementId": "VN_BM_005",
+        "pokemonType": "Combat",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_knuckle"
+      },
+      {
+        "id": "VN_BM_009",
+        "movementId": "VN_BM_009",
+        "pokemonType": "Eau",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_geyser"
+      }
     ],
     "familyId": "Wushours"
   },
@@ -3843,8 +5735,30 @@
       }
     },
     "dynamaxMove": [
-      null,
-      null
+      {
+        "id": "VN_BM_005",
+        "movementId": "VN_BM_005",
+        "pokemonType": "Combat",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_knuckle"
+      },
+      {
+        "id": "VN_BM_016",
+        "movementId": "VN_BM_016",
+        "pokemonType": "Ténèbres",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_darkness"
+      }
     ],
     "familyId": "Wushours"
   },
@@ -3888,7 +5802,7 @@
       {
         "id": "VN_BM_045",
         "movementId": "VN_BM_045",
-        "pokemonType": "POKEMON_TYPE_GRASS",
+        "pokemonType": "Plante",
         "powerLevels": [
           350,
           400,
@@ -3941,7 +5855,7 @@
       {
         "id": "VN_BM_019",
         "movementId": "VN_BM_019",
-        "pokemonType": "POKEMON_TYPE_FIRE",
+        "pokemonType": "Feu",
         "powerLevels": [
           350,
           400,
@@ -4002,7 +5916,7 @@
       {
         "id": "VN_BM_046",
         "movementId": "VN_BM_046",
-        "pokemonType": "POKEMON_TYPE_WATER",
+        "pokemonType": "Eau",
         "powerLevels": [
           350,
           400,
@@ -4055,7 +5969,7 @@
       {
         "id": "VN_BM_020",
         "movementId": "VN_BM_020",
-        "pokemonType": "POKEMON_TYPE_BUG",
+        "pokemonType": "Insecte",
         "powerLevels": [
           350,
           400,
@@ -4107,7 +6021,7 @@
       {
         "id": "VN_BM_021",
         "movementId": "VN_BM_021",
-        "pokemonType": "POKEMON_TYPE_ELECTRIC",
+        "pokemonType": "Électrik",
         "powerLevels": [
           350,
           400,
@@ -4159,7 +6073,7 @@
       {
         "id": "VN_BM_022",
         "movementId": "VN_BM_022",
-        "pokemonType": "POKEMON_TYPE_NORMAL",
+        "pokemonType": "Normal",
         "powerLevels": [
           350,
           400,
@@ -4211,7 +6125,7 @@
       {
         "id": "VN_BM_023",
         "movementId": "VN_BM_023",
-        "pokemonType": "POKEMON_TYPE_FIGHTING",
+        "pokemonType": "Combat",
         "powerLevels": [
           350,
           400,
@@ -4273,7 +6187,7 @@
       {
         "id": "VN_BM_024",
         "movementId": "VN_BM_024",
-        "pokemonType": "POKEMON_TYPE_GHOST",
+        "pokemonType": "Spectre",
         "powerLevels": [
           350,
           400,
@@ -4325,7 +6239,7 @@
       {
         "id": "VN_BM_025",
         "movementId": "VN_BM_025",
-        "pokemonType": "POKEMON_TYPE_WATER",
+        "pokemonType": "Eau",
         "powerLevels": [
           350,
           400,
@@ -4387,7 +6301,7 @@
       {
         "id": "VN_BM_026",
         "movementId": "VN_BM_026",
-        "pokemonType": "POKEMON_TYPE_ICE",
+        "pokemonType": "Glace",
         "powerLevels": [
           350,
           400,
@@ -4439,7 +6353,7 @@
       {
         "id": "VN_BM_028",
         "movementId": "VN_BM_028",
-        "pokemonType": "POKEMON_TYPE_NORMAL",
+        "pokemonType": "Normal",
         "powerLevels": [
           350,
           400,
@@ -4491,7 +6405,7 @@
       {
         "id": "VN_BM_029",
         "movementId": "VN_BM_029",
-        "pokemonType": "POKEMON_TYPE_POISON",
+        "pokemonType": "Poison",
         "powerLevels": [
           350,
           400,
@@ -4543,7 +6457,7 @@
       {
         "id": "VN_BM_047",
         "movementId": "VN_BM_047",
-        "pokemonType": "POKEMON_TYPE_GRASS",
+        "pokemonType": "Plante",
         "powerLevels": [
           350,
           400,
@@ -4595,7 +6509,7 @@
       {
         "id": "VN_BM_048",
         "movementId": "VN_BM_048",
-        "pokemonType": "POKEMON_TYPE_FIRE",
+        "pokemonType": "Feu",
         "powerLevels": [
           350,
           400,
@@ -4647,7 +6561,7 @@
       {
         "id": "VN_BM_049",
         "movementId": "VN_BM_049",
-        "pokemonType": "POKEMON_TYPE_WATER",
+        "pokemonType": "Eau",
         "powerLevels": [
           350,
           400,
@@ -4709,7 +6623,7 @@
       {
         "id": "VN_BM_038",
         "movementId": "VN_BM_038",
-        "pokemonType": "POKEMON_TYPE_ELECTRIC",
+        "pokemonType": "Électrik",
         "powerLevels": [
           350,
           400,
@@ -4771,7 +6685,7 @@
       {
         "id": "VN_BM_041",
         "movementId": "VN_BM_041",
-        "pokemonType": "POKEMON_TYPE_DARK",
+        "pokemonType": "Ténèbres",
         "powerLevels": [
           350,
           400,
@@ -4824,7 +6738,7 @@
       {
         "id": "VN_BM_060",
         "movementId": "VN_BM_060",
-        "pokemonType": "POKEMON_TYPE_STEEL",
+        "pokemonType": "Acier",
         "powerLevels": [
           250,
           300,
@@ -4877,7 +6791,7 @@
       {
         "id": "VN_BM_061",
         "movementId": "VN_BM_061",
-        "pokemonType": "POKEMON_TYPE_STEEL",
+        "pokemonType": "Acier",
         "powerLevels": [
           250,
           300,
@@ -4930,7 +6844,7 @@
       {
         "id": "VN_BM_062",
         "movementId": "VN_BM_062",
-        "pokemonType": "POKEMON_TYPE_DRAGON",
+        "pokemonType": "Dragon",
         "powerLevels": [
           350,
           400,
@@ -4973,7 +6887,7 @@
       {
         "id": "VN_BM_030",
         "movementId": "VN_BM_030",
-        "pokemonType": "POKEMON_TYPE_STEEL",
+        "pokemonType": "Acier",
         "powerLevels": [
           350,
           400,
@@ -5035,7 +6949,7 @@
       {
         "id": "VN_BM_031",
         "movementId": "VN_BM_031",
-        "pokemonType": "POKEMON_TYPE_FLYING",
+        "pokemonType": "Vol",
         "powerLevels": [
           350,
           400,
@@ -5097,7 +7011,7 @@
       {
         "id": "VN_BM_032",
         "movementId": "VN_BM_032",
-        "pokemonType": "POKEMON_TYPE_PSYCHIC",
+        "pokemonType": "Psy",
         "powerLevels": [
           350,
           400,
@@ -5150,7 +7064,7 @@
       {
         "id": "VN_BM_033",
         "movementId": "VN_BM_033",
-        "pokemonType": "POKEMON_TYPE_WATER",
+        "pokemonType": "Eau",
         "powerLevels": [
           350,
           400,
@@ -5203,7 +7117,7 @@
       {
         "id": "VN_BM_034",
         "movementId": "VN_BM_034",
-        "pokemonType": "POKEMON_TYPE_ROCK",
+        "pokemonType": "Roche",
         "powerLevels": [
           350,
           400,
@@ -5256,7 +7170,7 @@
       {
         "id": "VN_BM_035",
         "movementId": "VN_BM_035",
-        "pokemonType": "POKEMON_TYPE_GRASS",
+        "pokemonType": "Plante",
         "powerLevels": [
           350,
           400,
@@ -5309,7 +7223,7 @@
       {
         "id": "VN_BM_036",
         "movementId": "VN_BM_036",
-        "pokemonType": "POKEMON_TYPE_GRASS",
+        "pokemonType": "Plante",
         "powerLevels": [
           350,
           400,
@@ -5361,7 +7275,7 @@
       {
         "id": "VN_BM_037",
         "movementId": "VN_BM_037",
-        "pokemonType": "POKEMON_TYPE_GROUND",
+        "pokemonType": "Sol",
         "powerLevels": [
           350,
           400,
@@ -5414,7 +7328,7 @@
       {
         "id": "VN_BM_039",
         "movementId": "VN_BM_039",
-        "pokemonType": "POKEMON_TYPE_FIRE",
+        "pokemonType": "Feu",
         "powerLevels": [
           350,
           400,
@@ -5476,7 +7390,7 @@
       {
         "id": "VN_BM_040",
         "movementId": "VN_BM_040",
-        "pokemonType": "POKEMON_TYPE_FAIRY",
+        "pokemonType": "Fée",
         "powerLevels": [
           350,
           400,
@@ -5528,7 +7442,7 @@
       {
         "id": "VN_BM_042",
         "movementId": "VN_BM_042",
-        "pokemonType": "POKEMON_TYPE_FAIRY",
+        "pokemonType": "Fée",
         "powerLevels": [
           350,
           400,
@@ -5580,7 +7494,7 @@
       {
         "id": "VN_BM_043",
         "movementId": "VN_BM_043",
-        "pokemonType": "POKEMON_TYPE_STEEL",
+        "pokemonType": "Acier",
         "powerLevels": [
           350,
           400,
@@ -5633,7 +7547,7 @@
       {
         "id": "VN_BM_044",
         "movementId": "VN_BM_044",
-        "pokemonType": "POKEMON_TYPE_DRAGON",
+        "pokemonType": "Dragon",
         "powerLevels": [
           350,
           400,
@@ -5695,7 +7609,7 @@
       {
         "id": "VN_BM_050",
         "movementId": "VN_BM_050",
-        "pokemonType": "POKEMON_TYPE_DARK",
+        "pokemonType": "Ténèbres",
         "powerLevels": [
           350,
           400,
@@ -5757,7 +7671,7 @@
       {
         "id": "VN_BM_050",
         "movementId": "VN_BM_050",
-        "pokemonType": "POKEMON_TYPE_DARK",
+        "pokemonType": "Ténèbres",
         "powerLevels": [
           350,
           400,
