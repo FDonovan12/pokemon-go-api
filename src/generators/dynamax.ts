@@ -3,6 +3,7 @@ import { IntermediateData } from '#generated/intermediate.index.js';
 import { RawGameMaster } from '#generated/raw.index.js';
 import { FileGenerator } from '../type/fileGenerator.js';
 import { pokeApiClient } from '../utils/pokeApiClient.js';
+import { pokemonTypeToFrench } from '../utils/utils.js';
 
 const GIGAMAX_NOT_RELEASED = [
     'MELMETAL',
@@ -77,7 +78,11 @@ export default class PokemonSettingGenerator extends FileGenerator {
             quickMoves(pokemon)
                 .map((move) => move.pokemonType)
                 .unique()
-                .map((type) => mappingDynamax.find((m) => m.type === (type as string))?.move ?? '')
+                .map(
+                    (type) =>
+                        mappingDynamax.find((m) => pokemonTypeToFrench(m.type) === (type as string))
+                            ?.move ?? '',
+                )
                 .map((move) => raidMove.dynamaxMove[move]);
 
         const dynamaxMoveByMapping = (pokemon: PokemonSetting) => [
