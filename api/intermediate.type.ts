@@ -344,38 +344,17 @@ export interface ChargedMove {
 export interface AcidSpray {
     id:           string;
     movementId:   string;
-    pokemonType:  PokemonType;
+    pokemonType:  string;
     power?:       number;
     durationMs:   number;
     energyDelta?: number;
     vfxName:      string;
 }
 
-export enum PokemonType {
-    PokemonTypeBug = "POKEMON_TYPE_BUG",
-    PokemonTypeDark = "POKEMON_TYPE_DARK",
-    PokemonTypeDragon = "POKEMON_TYPE_DRAGON",
-    PokemonTypeElectric = "POKEMON_TYPE_ELECTRIC",
-    PokemonTypeFairy = "POKEMON_TYPE_FAIRY",
-    PokemonTypeFighting = "POKEMON_TYPE_FIGHTING",
-    PokemonTypeFire = "POKEMON_TYPE_FIRE",
-    PokemonTypeFlying = "POKEMON_TYPE_FLYING",
-    PokemonTypeGhost = "POKEMON_TYPE_GHOST",
-    PokemonTypeGrass = "POKEMON_TYPE_GRASS",
-    PokemonTypeGround = "POKEMON_TYPE_GROUND",
-    PokemonTypeIce = "POKEMON_TYPE_ICE",
-    PokemonTypeNormal = "POKEMON_TYPE_NORMAL",
-    PokemonTypePoison = "POKEMON_TYPE_POISON",
-    PokemonTypePsychic = "POKEMON_TYPE_PSYCHIC",
-    PokemonTypeRock = "POKEMON_TYPE_ROCK",
-    PokemonTypeSteel = "POKEMON_TYPE_STEEL",
-    PokemonTypeWater = "POKEMON_TYPE_WATER",
-}
-
 export interface CrushClaw {
     id:           string;
     movementId:   string;
-    pokemonType:  PokemonType;
+    pokemonType:  string;
     durationMs?:  number;
     vfxName:      string;
     powerLevels?: number[];
