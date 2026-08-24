@@ -32,7 +32,7 @@ export default class PokemonSettingIntermediate extends IntermediateGenerator {
             .map((move) => ({
                 id: move.templateId,
                 movementId: move.data.movementId,
-                pokemonType: move.data.pokemonType,
+                pokemonType: pokemonTypeToFrench(move.data.pokemonType),
                 power: move.data.power,
                 durationMs: move.data.durationMs,
                 energyDelta: move.data.energyDelta,
@@ -45,7 +45,7 @@ export default class PokemonSettingIntermediate extends IntermediateGenerator {
             .map((move) => ({
                 id: move.templateId,
                 movementId: move.data.movementId,
-                pokemonType: move.data.pokemonType,
+                pokemonType: pokemonTypeToFrench(move.data.pokemonType),
                 powerLevels: move.data.obMoveSettingsNumber18,
                 vfxName: move.data.vfxName,
             }))
