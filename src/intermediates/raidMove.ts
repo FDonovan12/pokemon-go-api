@@ -1,6 +1,7 @@
 // src/intermediates/pokemonSetting.intermediate.ts
 import { RawGameMaster } from '#generated/raw.index.js';
 import { IntermediateGenerator } from '../type/intermediateGenerator.js';
+import { pokemonTypeToFrench } from '../utils/utils.js';
 
 export default class PokemonSettingIntermediate extends IntermediateGenerator {
     getName(): string {
@@ -15,7 +16,7 @@ export default class PokemonSettingIntermediate extends IntermediateGenerator {
             .map((move) => ({
                 id: move.templateId,
                 movementId: move.data.movementId,
-                pokemonType: move.data.pokemonType,
+                pokemonType: pokemonTypeToFrench(move.data.pokemonType),
                 power: move.data.power,
                 durationMs: move.data.durationMs,
                 energyDelta: move.data.energyDelta,
