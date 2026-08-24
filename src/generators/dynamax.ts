@@ -79,7 +79,9 @@ export default class PokemonSettingGenerator extends FileGenerator {
         }).compact() as PokemonSetting[];
 
         const quickMoves = (pokemon: PokemonSetting) =>
-            pokemon.base.quickMoves.map((move) => raidMove.fastMove[move]);
+            pokemon.base.quickMoves
+                .concat(pokemon.base.eliteQuickMove)
+                .map((move) => raidMove.fastMove[move]);
 
         const dynamaxMoveByType = (pokemon: PokemonSetting) =>
             quickMoves(pokemon)
