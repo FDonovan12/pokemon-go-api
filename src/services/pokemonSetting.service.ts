@@ -169,7 +169,7 @@ class PokemonSettingGeneratorService {
                             (branch) => !!branch.temporaryEvolution,
                         ),
                         evolutionIds: (pokemon.data.evolutionBranch ?? [])
-                            .filter((branch) => branch.evolution !== 'ZYGARDE')
+                            .filter((branch) => branch.evolution && branch.evolution !== 'ZYGARDE')
                             .map((branch) => ({
                                 pokemonId: branch.evolution,
                                 form:
