@@ -106,6 +106,7 @@ export default class PokemonSettingGenerator extends FileGenerator {
                 image: `https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/${imageId}.png`,
                 imageShiny: `https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/${imageId}.png`,
                 slug: pokemon.base.slug,
+                type: pokemon.base.type,
                 stats: pokemon.base.stats,
                 quickMoves: quickMoves(pokemon).toObject((move) => move.movementId),
                 dynamaxMove,
