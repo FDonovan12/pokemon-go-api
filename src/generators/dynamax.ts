@@ -97,11 +97,9 @@ export default class PokemonSettingGenerator extends FileGenerator {
         const dynamaxMoveByMapping = (pokemon: PokemonSetting) => [
             raidMove.dynamaxMove[
                 mappingGigamax.find((m) =>
-                    m.form === undefined ||
-                    m.form.includes('NORMAL') ||
-                    m.form.includes('TOXTRICITY')
-                        ? m.pokemonId === pokemon.base.pokemonId
-                        : m.form === pokemon.base.form,
+                    m?.form?.includes('URSHIFU')
+                        ? m.form === pokemon.base.form
+                        : m.pokemonId === pokemon.base.pokemonId,
                 )?.move ?? ''
             ],
         ];
