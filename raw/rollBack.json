@@ -6,6 +6,12 @@
     }
   },
   {
+    "templateId": "GET_FRIEND_DETAILS_PAGINATED_ROLL_BACK",
+    "data": {
+      "rollbackPercentage": 100
+    }
+  },
+  {
     "templateId": "MAP_RADIUS_ENHANCE_GRAPHICS_ROLL_BACK",
     "data": {
       "rollbackPercentage": 100

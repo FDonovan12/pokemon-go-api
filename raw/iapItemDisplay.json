@@ -480,6 +480,21 @@
     }
   },
   {
+    "templateId": "EVENT_PASS_SEPTEMBER1_EVENT_STORE_REDIRECT",
+    "data": {
+      "sku": "pgorelease.september1_2026_deluxe_event_pass_track_redirect",
+      "sortOrder": 1,
+      "hidden": true,
+      "title": "season_pass_premium_track_title_mega_squads_2026",
+      "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
+      "skuEnableTime": "2025-09-08T10:00:00",
+      "skuDisableTime": "2025-09-16T20:00:00",
+      "skuEnableTimeUtcMs": "1757325600000",
+      "skuDisableTimeUtcMs": "1758052800000",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F13d4dacd_PGO-MCS_Avatar_Maschiff_Top_v2-1024x576%20no%20logo.png"
+    }
+  },
+  {
     "templateId": "EVENT_PASS_WINTERHOLIDAYS2025_SEASON_STORE_REDIRECT",
     "data": {
       "sku": "pgorelease.winterholidays2025_deluxe_event_pass_track_redirect",
@@ -1110,6 +1125,36 @@
       "skuEnableTimeUtcMs": "1754301600000",
       "skuDisableTimeUtcMs": "1789034400000",
       "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F84f00147_PGO-MCS_GO_Pass_August_2026_TICKET_v1-1024x576.jpg"
+    }
+  },
+  {
+    "templateId": "SEPTEMBER1_2026_DELUXE_EVENT_PASS_TRACK_UNLOCK",
+    "data": {
+      "sku": "pgorelease.september1_2026_deluxe_event_pass_track_unlock",
+      "sortOrder": 1,
+      "hidden": true,
+      "title": "season_pass_premium_track_title_mega_squads_2026",
+      "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
+      "skuEnableTime": "2025-09-08T10:00:00",
+      "skuDisableTime": "2025-09-16T20:00:00",
+      "skuEnableTimeUtcMs": "1757325600000",
+      "skuDisableTimeUtcMs": "1758052800000",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F13d4dacd_PGO-MCS_Avatar_Maschiff_Top_v2-1024x576%20no%20logo.png"
+    }
+  },
+  {
+    "templateId": "SEPTEMBER1_2026_DELUXE_EVENT_PASS_TRACK_UNLOCK_PLUS_POINTS",
+    "data": {
+      "sku": "pgorelease.september1_2026_deluxe_event_pass_track_unlock_plus_points",
+      "sortOrder": 1,
+      "hidden": true,
+      "title": "season_pass_premium_track_plus_six_ranks_title_mega_squads_2026",
+      "description": "event_pass_plus_points_6_ranks_description",
+      "skuEnableTime": "2025-09-08T10:00:00",
+      "skuDisableTime": "2025-09-16T20:00:00",
+      "skuEnableTimeUtcMs": "1757325600000",
+      "skuDisableTimeUtcMs": "1758052800000",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F13d4dacd_PGO-MCS_Avatar_Maschiff_Top_v2-1024x576%20no%20logo.png"
     }
   },
   {

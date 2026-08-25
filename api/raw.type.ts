@@ -4254,6 +4254,7 @@ export interface VistaGeneralSettingData {
     isVistaEncounterEnabled: boolean;
     isVistaMapEnabled:       boolean;
     isVistaSpawnsEnabled:    boolean;
+    themeOverride:           string;
 }
 
 export interface BattleAnimationSettings {

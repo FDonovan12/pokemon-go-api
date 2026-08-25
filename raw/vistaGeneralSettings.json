@@ -6,7 +6,8 @@
       "isVistaBattleEnabled": true,
       "isVistaEncounterEnabled": true,
       "isVistaMapEnabled": true,
-      "isVistaSpawnsEnabled": true
+      "isVistaSpawnsEnabled": true,
+      "themeOverride": "WCS"
     }
   }
 ]

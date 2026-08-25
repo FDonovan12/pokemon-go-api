@@ -563,7 +563,7 @@
     "templateId": "N_DISPLAY_n_backpack_wcspxp2026",
     "data": {
       "iconAddress": "n_backpack_wcspxp2026_icon",
-      "displayStringId": "avatar_backpack_wcspxp"
+      "displayStringId": "avatar_generic_name"
     }
   },
   {
@@ -3188,6 +3188,13 @@
     }
   },
   {
+    "templateId": "N_DISPLAY_n_hat_ryme",
+    "data": {
+      "iconAddress": "n_hat_ryme_icon",
+      "displayStringId": "avatar_hat_ryme"
+    }
+  },
+  {
     "templateId": "N_DISPLAY_n_hat_sableyegoggles_0",
     "data": {
       "iconAddress": "n_hat_sableyegoggles_0_icon",
@@ -5330,6 +5337,13 @@
     }
   },
   {
+    "templateId": "N_DISPLAY_n_pose_s24gbl",
+    "data": {
+      "iconAddress": "n_pose_s24gbl_icon",
+      "displayStringId": "avatar_pose_s24Ryme"
+    }
+  },
+  {
     "templateId": "N_DISPLAY_n_pose_sustainability",
     "data": {
       "iconAddress": "n_pose_sustainability_icon",
@@ -7423,6 +7437,13 @@
     }
   },
   {
+    "templateId": "N_DISPLAY_n_shirt_ryme",
+    "data": {
+      "iconAddress": "n_shirt_ryme_icon",
+      "displayStringId": "avatar_shirt_ryme"
+    }
+  },
+  {
     "templateId": "N_DISPLAY_n_shirt_s19gbl_0",
     "data": {
       "iconAddress": "n_shirt_s19gbl_0_icon",
@@ -9313,6 +9334,13 @@
     }
   },
   {
+    "templateId": "N_DISPLAY_n_shoes_ryme",
+    "data": {
+      "iconAddress": "n_shoes_ryme_icon",
+      "displayStringId": "avatar_shoes_ryme"
+    }
+  },
+  {
     "templateId": "N_DISPLAY_n_shoes_s19gbl_0",
     "data": {
       "iconAddress": "n_shoes_s19gbl_0_icon",
@@ -10979,6 +11007,12 @@
     "templateId": "N_DISPLAY_set_ruinmaniac_m",
     "data": {
       "iconAddress": "set_ruinmaniac_b"
+    }
+  },
+  {
+    "templateId": "N_DISPLAY_set_ryme",
+    "data": {
+      "iconAddress": "set_ryme"
     }
   },
   {
