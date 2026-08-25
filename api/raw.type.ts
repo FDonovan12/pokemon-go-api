@@ -1468,16 +1468,7 @@ export interface Settings {
 
 export interface ActiveBonusDisplaySettingsBonusBox {
     text:     string;
-    iconType: IconType;
-}
-
-export enum IconType {
-    CandyGeneral = "CANDY_GENERAL",
-    Egg = "EGG",
-    EggIncubator = "EGG_INCUBATOR",
-    Gift = "GIFT",
-    Incense = "INCENSE",
-    Trade = "TRADE",
+    iconType: string;
 }
 
 export interface PurpleReward {
@@ -1517,6 +1508,12 @@ export interface PurplePokemonDisplay {
 export interface StatsLimitsOverride {
     minPokemonLevel: number;
     maxPokemonLevel: number;
+    minAttack?:      number;
+    maxAttack?:      number;
+    minDefense?:     number;
+    maxDefense?:     number;
+    minHp?:          number;
+    maxHp?:          number;
 }
 
 export interface EventPlannerPopularNotificationSettings {
@@ -4382,8 +4379,8 @@ export interface IvOverride {
 }
 
 export interface Range {
-    min: number;
-    max: number;
+    max:  number;
+    min?: number;
 }
 
 export interface GuaranteedLimitedPokemonReward {

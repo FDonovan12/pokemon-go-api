@@ -17,19 +17,16 @@
           "unlockedAtRank": 24,
           "attackIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "defenseIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "staminaIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           }
@@ -48,19 +45,16 @@
           "unlockedAtRank": 1,
           "attackIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "defenseIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "staminaIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           }
@@ -75,19 +69,16 @@
           "unlockedAtRank": 21,
           "attackIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "defenseIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "staminaIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           }
@@ -106,19 +97,16 @@
           "unlockedAtRank": 21,
           "attackIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "defenseIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "staminaIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           }
@@ -137,19 +125,16 @@
           "unlockedAtRank": 22,
           "attackIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "defenseIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "staminaIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           }
@@ -168,19 +153,16 @@
           "unlockedAtRank": 23,
           "attackIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "defenseIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "staminaIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           }
@@ -195,19 +177,16 @@
           "unlockedAtRank": 1,
           "attackIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "defenseIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "staminaIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           }
@@ -222,19 +201,16 @@
           "unlockedAtRank": 1,
           "attackIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "defenseIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "staminaIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           }
@@ -249,19 +225,16 @@
           "unlockedAtRank": 1,
           "attackIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "defenseIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "staminaIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           }
@@ -276,19 +249,16 @@
           "unlockedAtRank": 1,
           "attackIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "defenseIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "staminaIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           }
@@ -303,19 +273,16 @@
           "unlockedAtRank": 1,
           "attackIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "defenseIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "staminaIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           }
@@ -330,19 +297,16 @@
           "unlockedAtRank": 6,
           "attackIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "defenseIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "staminaIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           }
@@ -357,19 +321,16 @@
           "unlockedAtRank": 6,
           "attackIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "defenseIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "staminaIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           }
@@ -384,19 +345,16 @@
           "unlockedAtRank": 11,
           "attackIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "defenseIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "staminaIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           }
@@ -411,19 +369,16 @@
           "unlockedAtRank": 11,
           "attackIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "defenseIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "staminaIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           }
@@ -438,19 +393,16 @@
           "unlockedAtRank": 11,
           "attackIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "defenseIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "staminaIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           }
@@ -465,19 +417,16 @@
           "unlockedAtRank": 11,
           "attackIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "defenseIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "staminaIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           }
@@ -492,19 +441,16 @@
           "unlockedAtRank": 16,
           "attackIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "defenseIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "staminaIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           }
@@ -519,19 +465,16 @@
           "unlockedAtRank": 16,
           "attackIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "defenseIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "staminaIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           }
@@ -546,19 +489,16 @@
           "unlockedAtRank": 16,
           "attackIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "defenseIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "staminaIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           }
@@ -573,19 +513,16 @@
           "unlockedAtRank": 16,
           "attackIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "defenseIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "staminaIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           }
@@ -600,19 +537,16 @@
           "unlockedAtRank": 22,
           "attackIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "defenseIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "staminaIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           }
@@ -627,19 +561,16 @@
           "unlockedAtRank": 23,
           "attackIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "defenseIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "staminaIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           }
@@ -652,33 +583,6 @@
             }
           },
           "unlockedAtRank": 20,
-          "attackIvOverride": {
-            "range": {
-              "min": 10,
-              "max": 15
-            }
-          },
-          "defenseIvOverride": {
-            "range": {
-              "min": 10,
-              "max": 15
-            }
-          },
-          "staminaIvOverride": {
-            "range": {
-              "min": 10,
-              "max": 15
-            }
-          }
-        },
-        {
-          "pokemon": {
-            "pokemonId": "CRAMORANT",
-            "pokemonDisplay": {
-              "form": "CRAMORANT_NORMAL"
-            }
-          },
-          "unlockedAtRank": 16,
           "attackIvOverride": {
             "range": {
               "min": 10,
@@ -719,19 +623,16 @@
           "unlockedAtRank": 24,
           "attackIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "defenseIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "staminaIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           }
@@ -750,19 +651,16 @@
           "unlockedAtRank": 1,
           "attackIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "defenseIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "staminaIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           }
@@ -777,19 +675,16 @@
           "unlockedAtRank": 21,
           "attackIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "defenseIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "staminaIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           }
@@ -808,19 +703,16 @@
           "unlockedAtRank": 21,
           "attackIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "defenseIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "staminaIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           }
@@ -839,19 +731,16 @@
           "unlockedAtRank": 22,
           "attackIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "defenseIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "staminaIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           }
@@ -870,19 +759,16 @@
           "unlockedAtRank": 23,
           "attackIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "defenseIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "staminaIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           }
@@ -897,19 +783,16 @@
           "unlockedAtRank": 1,
           "attackIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "defenseIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "staminaIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           }
@@ -924,19 +807,16 @@
           "unlockedAtRank": 1,
           "attackIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "defenseIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "staminaIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           }
@@ -951,19 +831,16 @@
           "unlockedAtRank": 1,
           "attackIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "defenseIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "staminaIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           }
@@ -978,19 +855,16 @@
           "unlockedAtRank": 1,
           "attackIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "defenseIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "staminaIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           }
@@ -1005,19 +879,16 @@
           "unlockedAtRank": 1,
           "attackIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "defenseIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "staminaIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           }
@@ -1032,19 +903,16 @@
           "unlockedAtRank": 6,
           "attackIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "defenseIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "staminaIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           }
@@ -1059,19 +927,16 @@
           "unlockedAtRank": 6,
           "attackIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "defenseIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "staminaIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           }
@@ -1086,19 +951,16 @@
           "unlockedAtRank": 11,
           "attackIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "defenseIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "staminaIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           }
@@ -1113,19 +975,16 @@
           "unlockedAtRank": 11,
           "attackIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "defenseIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "staminaIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           }
@@ -1140,19 +999,16 @@
           "unlockedAtRank": 11,
           "attackIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "defenseIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "staminaIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           }
@@ -1167,19 +1023,16 @@
           "unlockedAtRank": 11,
           "attackIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "defenseIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "staminaIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           }
@@ -1194,19 +1047,16 @@
           "unlockedAtRank": 16,
           "attackIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "defenseIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "staminaIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           }
@@ -1221,19 +1071,16 @@
           "unlockedAtRank": 16,
           "attackIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "defenseIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "staminaIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           }
@@ -1248,19 +1095,16 @@
           "unlockedAtRank": 16,
           "attackIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "defenseIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "staminaIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           }
@@ -1275,19 +1119,16 @@
           "unlockedAtRank": 16,
           "attackIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "defenseIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "staminaIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           }
@@ -1302,19 +1143,16 @@
           "unlockedAtRank": 22,
           "attackIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "defenseIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "staminaIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           }
@@ -1329,19 +1167,16 @@
           "unlockedAtRank": 23,
           "attackIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "defenseIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           },
           "staminaIvOverride": {
             "range": {
-              "min": 10,
               "max": 15
             }
           }
@@ -1354,33 +1189,6 @@
             }
           },
           "unlockedAtRank": 20,
-          "attackIvOverride": {
-            "range": {
-              "min": 10,
-              "max": 15
-            }
-          },
-          "defenseIvOverride": {
-            "range": {
-              "min": 10,
-              "max": 15
-            }
-          },
-          "staminaIvOverride": {
-            "range": {
-              "min": 10,
-              "max": 15
-            }
-          }
-        },
-        {
-          "pokemon": {
-            "pokemonId": "CRAMORANT",
-            "pokemonDisplay": {
-              "form": "CRAMORANT_NORMAL"
-            }
-          },
-          "unlockedAtRank": 16,
           "attackIvOverride": {
             "range": {
               "min": 10,
