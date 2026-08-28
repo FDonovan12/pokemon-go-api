@@ -18,12 +18,6 @@
     }
   },
   {
-    "templateId": "OPTIMIZE_RAID_LOBBY_AVATAR_DETAILS_ROLL_BACK",
-    "data": {
-      "rollbackPercentage": 100
-    }
-  },
-  {
     "templateId": "PERIODIC_MAP_UNLOAD_ROLL_BACK",
     "data": {
       "rollbackPercentage": 100

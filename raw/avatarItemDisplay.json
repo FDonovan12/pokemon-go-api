@@ -6926,6 +6926,13 @@
     }
   },
   {
+    "templateId": "N_DISPLAY_n_shirt_maschiff",
+    "data": {
+      "iconAddress": "n_shirt_maschiff_icon",
+      "displayStringId": "avatar_shirt_maschiff"
+    }
+  },
+  {
     "templateId": "N_DISPLAY_n_shirt_megalopunnyitems_0",
     "data": {
       "iconAddress": "n_shirt_megalopunnyitems_0_icon",

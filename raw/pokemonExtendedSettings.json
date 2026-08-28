@@ -1629,6 +1629,250 @@
     }
   },
   {
+    "templateId": "EXTENDED_V0025_PIKACHU_ANNIVERSARY_2026_MALAYSIA_01",
+    "data": {
+      "uniqueId": "PIKACHU",
+      "form": 3358,
+      "sizeSettings": {
+        "xxsLowerBound": 0.196,
+        "xsLowerBound": 0.2,
+        "mLowerBound": 0.3,
+        "mUpperBound": 0.5,
+        "xlUpperBound": 0.6,
+        "xxlUpperBound": 0.7
+      },
+      "breadOverrides": [
+        {
+          "breadMode": "BREAD_MODE",
+          "maxEncounterVisualSettings": {
+            "scale": 31,
+            "cameraDistance": 27.5,
+            "maxReticleSize": 14
+          },
+          "maxBattleVisualSettings": {
+            "scale": 62
+          },
+          "maxStationVisualSettings": {
+            "scale": 4.22
+          }
+        },
+        {
+          "breadMode": "BREAD_DOUGH_MODE",
+          "averageHeightM": 21,
+          "camera": {
+            "cylinderRadiusM": 1.3,
+            "cylinderHeightM": 1.1
+          },
+          "modelScaleV2": 0.86,
+          "modelHeight": 2.57,
+          "catchOverrideSettings": {
+            "collisionRadiusM": 0.25,
+            "collisionHeadRadiusM": 0.25
+          },
+          "maxEncounterVisualSettings": {
+            "scale": 10.5,
+            "cameraDistance": 32.5,
+            "maxReticleSize": 14
+          },
+          "maxBattleVisualSettings": {
+            "scale": 20,
+            "xOffset": 3
+          },
+          "maxBattleTrainerVisualSettings": {
+            "xOffset": -5,
+            "yOffset": -5
+          },
+          "maxStationVisualSettings": {
+            "scale": 1.25
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EXTENDED_V0025_PIKACHU_ANNIVERSARY_2026_PHILIPPINE_01",
+    "data": {
+      "uniqueId": "PIKACHU",
+      "form": 3375,
+      "sizeSettings": {
+        "xxsLowerBound": 0.196,
+        "xsLowerBound": 0.2,
+        "mLowerBound": 0.3,
+        "mUpperBound": 0.5,
+        "xlUpperBound": 0.6,
+        "xxlUpperBound": 0.7
+      },
+      "breadOverrides": [
+        {
+          "breadMode": "BREAD_MODE",
+          "maxEncounterVisualSettings": {
+            "scale": 31,
+            "cameraDistance": 27.5,
+            "maxReticleSize": 14
+          },
+          "maxBattleVisualSettings": {
+            "scale": 62
+          },
+          "maxStationVisualSettings": {
+            "scale": 4.22
+          }
+        },
+        {
+          "breadMode": "BREAD_DOUGH_MODE",
+          "averageHeightM": 21,
+          "camera": {
+            "cylinderRadiusM": 1.3,
+            "cylinderHeightM": 1.1
+          },
+          "modelScaleV2": 0.86,
+          "modelHeight": 2.57,
+          "catchOverrideSettings": {
+            "collisionRadiusM": 0.25,
+            "collisionHeadRadiusM": 0.25
+          },
+          "maxEncounterVisualSettings": {
+            "scale": 10.5,
+            "cameraDistance": 32.5,
+            "maxReticleSize": 14
+          },
+          "maxBattleVisualSettings": {
+            "scale": 20,
+            "xOffset": 3
+          },
+          "maxBattleTrainerVisualSettings": {
+            "xOffset": -5,
+            "yOffset": -5
+          },
+          "maxStationVisualSettings": {
+            "scale": 1.25
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EXTENDED_V0025_PIKACHU_ANNIVERSARY_2026_SINGAPORE_01",
+    "data": {
+      "uniqueId": "PIKACHU",
+      "form": 3359,
+      "sizeSettings": {
+        "xxsLowerBound": 0.196,
+        "xsLowerBound": 0.2,
+        "mLowerBound": 0.3,
+        "mUpperBound": 0.5,
+        "xlUpperBound": 0.6,
+        "xxlUpperBound": 0.7
+      },
+      "breadOverrides": [
+        {
+          "breadMode": "BREAD_MODE",
+          "maxEncounterVisualSettings": {
+            "scale": 31,
+            "cameraDistance": 27.5,
+            "maxReticleSize": 14
+          },
+          "maxBattleVisualSettings": {
+            "scale": 62
+          },
+          "maxStationVisualSettings": {
+            "scale": 4.22
+          }
+        },
+        {
+          "breadMode": "BREAD_DOUGH_MODE",
+          "averageHeightM": 21,
+          "camera": {
+            "cylinderRadiusM": 1.3,
+            "cylinderHeightM": 1.1
+          },
+          "modelScaleV2": 0.86,
+          "modelHeight": 2.57,
+          "catchOverrideSettings": {
+            "collisionRadiusM": 0.25,
+            "collisionHeadRadiusM": 0.25
+          },
+          "maxEncounterVisualSettings": {
+            "scale": 10.5,
+            "cameraDistance": 32.5,
+            "maxReticleSize": 14
+          },
+          "maxBattleVisualSettings": {
+            "scale": 20,
+            "xOffset": 3
+          },
+          "maxBattleTrainerVisualSettings": {
+            "xOffset": -5,
+            "yOffset": -5
+          },
+          "maxStationVisualSettings": {
+            "scale": 1.25
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EXTENDED_V0025_PIKACHU_ANNIVERSARY_2026_TAIWAN_01",
+    "data": {
+      "uniqueId": "PIKACHU",
+      "form": 3360,
+      "sizeSettings": {
+        "xxsLowerBound": 0.196,
+        "xsLowerBound": 0.2,
+        "mLowerBound": 0.3,
+        "mUpperBound": 0.5,
+        "xlUpperBound": 0.6,
+        "xxlUpperBound": 0.7
+      },
+      "breadOverrides": [
+        {
+          "breadMode": "BREAD_MODE",
+          "maxEncounterVisualSettings": {
+            "scale": 31,
+            "cameraDistance": 27.5,
+            "maxReticleSize": 14
+          },
+          "maxBattleVisualSettings": {
+            "scale": 62
+          },
+          "maxStationVisualSettings": {
+            "scale": 4.22
+          }
+        },
+        {
+          "breadMode": "BREAD_DOUGH_MODE",
+          "averageHeightM": 21,
+          "camera": {
+            "cylinderRadiusM": 1.3,
+            "cylinderHeightM": 1.1
+          },
+          "modelScaleV2": 0.86,
+          "modelHeight": 2.57,
+          "catchOverrideSettings": {
+            "collisionRadiusM": 0.25,
+            "collisionHeadRadiusM": 0.25
+          },
+          "maxEncounterVisualSettings": {
+            "scale": 10.5,
+            "cameraDistance": 32.5,
+            "maxReticleSize": 14
+          },
+          "maxBattleVisualSettings": {
+            "scale": 20,
+            "xOffset": 3
+          },
+          "maxBattleTrainerVisualSettings": {
+            "xOffset": -5,
+            "yOffset": -5
+          },
+          "maxStationVisualSettings": {
+            "scale": 1.25
+          }
+        }
+      ]
+    }
+  },
+  {
     "templateId": "EXTENDED_V0025_POKEMON_PIKACHU",
     "data": {
       "uniqueId": "PIKACHU",
@@ -34291,7 +34535,26 @@
         "mUpperBound": 0.375,
         "xlUpperBound": 0.45,
         "xxlUpperBound": 0.525
-      }
+      },
+      "breadOverrides": [
+        {
+          "breadMode": "BREAD_MODE",
+          "maxEncounterVisualSettings": {
+            "scale": 39.2,
+            "cameraDistance": 30,
+            "maxReticleSize": 14
+          },
+          "maxBattleVisualSettings": {
+            "scale": 78.4
+          },
+          "maxBattleTrainerVisualSettings": {
+            "xOffset": -10
+          },
+          "maxStationVisualSettings": {
+            "scale": 5.33
+          }
+        }
+      ]
     }
   },
   {
@@ -34306,7 +34569,26 @@
         "mUpperBound": 0.375,
         "xlUpperBound": 0.45,
         "xxlUpperBound": 0.525
-      }
+      },
+      "breadOverrides": [
+        {
+          "breadMode": "BREAD_MODE",
+          "maxEncounterVisualSettings": {
+            "scale": 39.2,
+            "cameraDistance": 30,
+            "maxReticleSize": 14
+          },
+          "maxBattleVisualSettings": {
+            "scale": 78.4
+          },
+          "maxBattleTrainerVisualSettings": {
+            "xOffset": -10
+          },
+          "maxStationVisualSettings": {
+            "scale": 5.33
+          }
+        }
+      ]
     }
   },
   {
@@ -34320,7 +34602,26 @@
         "mUpperBound": 0.75,
         "xlUpperBound": 0.9,
         "xxlUpperBound": 1.05
-      }
+      },
+      "breadOverrides": [
+        {
+          "breadMode": "BREAD_MODE",
+          "maxEncounterVisualSettings": {
+            "scale": 22.21,
+            "cameraDistance": 30,
+            "maxReticleSize": 14
+          },
+          "maxBattleVisualSettings": {
+            "scale": 44.42
+          },
+          "maxBattleTrainerVisualSettings": {
+            "xOffset": -10
+          },
+          "maxStationVisualSettings": {
+            "scale": 3.02
+          }
+        }
+      ]
     }
   },
   {
@@ -34335,7 +34636,26 @@
         "mUpperBound": 0.75,
         "xlUpperBound": 0.9,
         "xxlUpperBound": 1.05
-      }
+      },
+      "breadOverrides": [
+        {
+          "breadMode": "BREAD_MODE",
+          "maxEncounterVisualSettings": {
+            "scale": 22.21,
+            "cameraDistance": 30,
+            "maxReticleSize": 14
+          },
+          "maxBattleVisualSettings": {
+            "scale": 44.42
+          },
+          "maxBattleTrainerVisualSettings": {
+            "xOffset": -10
+          },
+          "maxStationVisualSettings": {
+            "scale": 3.02
+          }
+        }
+      ]
     }
   },
   {
@@ -34350,7 +34670,26 @@
         "mUpperBound": 0.75,
         "xlUpperBound": 0.9,
         "xxlUpperBound": 1.05
-      }
+      },
+      "breadOverrides": [
+        {
+          "breadMode": "BREAD_MODE",
+          "maxEncounterVisualSettings": {
+            "scale": 22.21,
+            "cameraDistance": 30,
+            "maxReticleSize": 14
+          },
+          "maxBattleVisualSettings": {
+            "scale": 44.42
+          },
+          "maxBattleTrainerVisualSettings": {
+            "xOffset": -10
+          },
+          "maxStationVisualSettings": {
+            "scale": 3.02
+          }
+        }
+      ]
     }
   },
   {

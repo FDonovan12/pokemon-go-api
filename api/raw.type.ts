@@ -1462,13 +1462,23 @@ export interface EventPassTierSettingData {
 }
 
 export interface Settings {
-    eventName?: string;
+    eventName:  string;
     bonusBoxes: ActiveBonusDisplaySettingsBonusBox[];
 }
 
 export interface ActiveBonusDisplaySettingsBonusBox {
     text:     string;
-    iconType: string;
+    iconType: IconType;
+}
+
+export enum IconType {
+    EggIncubator = "EGG_INCUBATOR",
+    Gift = "GIFT",
+    Incense = "INCENSE",
+    RaidPass = "RAID_PASS",
+    Stardust = "STARDUST",
+    Trade = "TRADE",
+    Xp = "XP",
 }
 
 export interface PurpleReward {
@@ -1489,8 +1499,8 @@ export interface Candy {
 }
 
 export interface PlayerAttribute {
-    key:           string;
-    durationMins?: number;
+    key:          string;
+    durationMins: number;
 }
 
 export interface RewardPokemonEncounter {
@@ -1616,7 +1626,7 @@ export interface PokemonExtendedSettingData {
     uniqueId:          string;
     sizeSettings:      DataSizeSettings;
     breadOverrides?:   BreadOverride[];
-    form?:             string;
+    form?:             BadgeTypeElement;
     tempEvoOverrides?: PurpleTempEvoOverride[];
 }
 
@@ -1726,7 +1736,7 @@ export interface FormSettingData {
 }
 
 export interface Form {
-    form:                        string;
+    form:                        BadgeTypeElement;
     assetBundleSuffix?:          string;
     isCostume?:                  boolean;
     assetBundleValue?:           number;
@@ -3919,7 +3929,7 @@ export interface PokemonSettingData {
     allowNoevolveEvolution?:            string[];
     ibfc:                               Ibfc;
     breadTierGroup?:                    BreadTierGroupEnum;
-    form?:                              string;
+    form?:                              BadgeTypeElement;
     disableTransferToPokemonHome?:      boolean;
     parentPokemonId?:                   string;
     buddySize?:                         BuddySize;

@@ -4699,6 +4699,69 @@
     "familyId": "Solochi"
   },
   {
+    "pokemonId": "MEOWSTIC",
+    "name": "Mistigrix",
+    "dexNumber": 678,
+    "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/678.png",
+    "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/678.png",
+    "slug": "mistigrix",
+    "type": [
+      "Psy"
+    ],
+    "stats": {
+      "baseStamina": 179,
+      "baseAttack": 166,
+      "baseDefense": 167
+    },
+    "quickMoves": {
+      "CONFUSION_FAST": {
+        "id": "V0235_MOVE_CONFUSION_FAST",
+        "movementId": "CONFUSION_FAST",
+        "pokemonType": "Psy",
+        "power": 19,
+        "durationMs": 1500,
+        "energyDelta": 14,
+        "vfxName": "confusion_fast"
+      },
+      "SUCKER_PUNCH_FAST": {
+        "id": "V0203_MOVE_SUCKER_PUNCH_FAST",
+        "movementId": "SUCKER_PUNCH_FAST",
+        "pokemonType": "Ténèbres",
+        "power": 5,
+        "durationMs": 500,
+        "energyDelta": 6,
+        "vfxName": "sucker_punch_fast"
+      }
+    },
+    "dynamaxMove": [
+      {
+        "id": "VN_BM_013",
+        "movementId": "VN_BM_013",
+        "pokemonType": "Psy",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_mindstorm"
+      },
+      {
+        "id": "VN_BM_016",
+        "movementId": "VN_BM_016",
+        "pokemonType": "Ténèbres",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_darkness"
+      }
+    ],
+    "familyId": "Psystigri"
+  },
+  {
     "pokemonId": "MALAMAR",
     "name": "Sepiatroce",
     "dexNumber": 687,

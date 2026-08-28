@@ -122,6 +122,20 @@
     }
   },
   {
+    "templateId": "LUCKY_TRADE_NEW_STRINGS_FEATURE_GATE",
+    "data": {
+      "status": 1284637195,
+      "rolloutPercentage": 100
+    }
+  },
+  {
+    "templateId": "MEETUP_REMINDER_NOTIFICATIONS_FEATURE_GATE",
+    "data": {
+      "status": 2084830192,
+      "rolloutPercentage": 100
+    }
+  },
+  {
     "templateId": "MEGA_2026_FEATURE_GATE",
     "data": {
       "status": 216426293,
@@ -186,6 +200,13 @@
     "templateId": "MEP_EGG_WRITE_MIGRATION_FEATURE_GATE",
     "data": {
       "status": 11,
+      "rolloutPercentage": 100
+    }
+  },
+  {
+    "templateId": "REMOTE_TRADE_IMPROVEMENTS_FEATURE_GATE",
+    "data": {
+      "status": 1284637195,
       "rolloutPercentage": 100
     }
   },

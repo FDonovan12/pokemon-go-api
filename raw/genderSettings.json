@@ -604,6 +604,46 @@
     }
   },
   {
+    "templateId": "SPAWN_V0025_POKEMON_PIKACHU_ANNIVERSARY_2026_MALAYSIA_01",
+    "data": {
+      "pokemon": "PIKACHU",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  },
+  {
+    "templateId": "SPAWN_V0025_POKEMON_PIKACHU_ANNIVERSARY_2026_PHILIPPINE_01",
+    "data": {
+      "pokemon": "PIKACHU",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  },
+  {
+    "templateId": "SPAWN_V0025_POKEMON_PIKACHU_ANNIVERSARY_2026_SINGAPORE_01",
+    "data": {
+      "pokemon": "PIKACHU",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  },
+  {
+    "templateId": "SPAWN_V0025_POKEMON_PIKACHU_ANNIVERSARY_2026_TAIWAN_01",
+    "data": {
+      "pokemon": "PIKACHU",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  },
+  {
     "templateId": "SPAWN_V0025_POKEMON_PIKACHU_BB_2026",
     "data": {
       "pokemon": "PIKACHU",

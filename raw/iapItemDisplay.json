@@ -124,11 +124,12 @@
     "data": {
       "sku": "pgorelease.august2_deluxe_event_pass_track_unlock",
       "sortOrder": 1,
+      "hidden": true,
       "title": "season_pass_premium_track_title_uu_water_festival_2026",
       "description": "deluxe_event_pass_track_unlock_description",
-      "skuEnableTime": "2025-08-18T10:00:03",
+      "skuEnableTime": "2025-08-18T10:00:02",
       "skuDisableTime": "2026-08-26T20:00:00",
-      "skuEnableTimeUtcMs": "1755511203000",
+      "skuEnableTimeUtcMs": "1755511202000",
       "skuDisableTimeUtcMs": "1787774400000",
       "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F20ad29e8_PGO-MCS_Water_Festival_2026_TICKET_v3-1024x576.jpg"
     }
@@ -138,11 +139,12 @@
     "data": {
       "sku": "pgorelease.august2_deluxe_event_pass_track_unlock_plus_points",
       "sortOrder": 1,
+      "hidden": true,
       "title": "season_pass_premium_track_plus_six_ranks_title_uu_water_festival_2026",
       "description": "event_pass_plus_points_6_ranks_description",
-      "skuEnableTime": "2025-08-18T10:00:05",
+      "skuEnableTime": "2025-08-18T10:00:04",
       "skuDisableTime": "2026-08-26T20:00:00",
-      "skuEnableTimeUtcMs": "1755511205000",
+      "skuEnableTimeUtcMs": "1755511204000",
       "skuDisableTimeUtcMs": "1787774400000",
       "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F20ad29e8_PGO-MCS_Water_Festival_2026_TICKET_v3-1024x576.jpg"
     }
@@ -241,13 +243,13 @@
     "templateId": "EVENT_PASS_AUGUST2_REDIRECT",
     "data": {
       "sku": "pgorelease.august2_deluxe_event_pass_track_unlock_redirect",
-      "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 1,
+      "hidden": true,
       "title": "season_pass_premium_track_title_uu_water_festival_2026",
       "description": "deluxe_event_pass_track_unlock_description",
-      "skuEnableTime": "2025-08-18T10:00:01",
+      "skuEnableTime": "2025-08-18T10:00:00",
       "skuDisableTime": "2026-08-26T20:00:00",
-      "skuEnableTimeUtcMs": "1755511201000",
+      "skuEnableTimeUtcMs": "1755511200000",
       "skuDisableTimeUtcMs": "1787774400000",
       "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F20ad29e8_PGO-MCS_Water_Festival_2026_TICKET_v3-1024x576.jpg"
     }
@@ -420,14 +422,14 @@
   {
     "templateId": "EVENT_PASS_MONTH1_SEASON_STORE_REDIRECT",
     "data": {
-      "sku": "pgorelease.month1_deluxe_event_pass_track_redirect",
+      "sku": "pgorelease.month1_deluxe_event_pass_track_unlock_redirect",
       "sortOrder": 1,
       "hidden": true,
       "title": "season_pass_premium_track_title_sep",
       "description": "deluxe_event_pass_track_unlock_description",
-      "skuEnableTime": "2026-09-08T10:00:00",
+      "skuEnableTime": "2025-06-02T10:00:00",
       "skuDisableTime": "2026-10-08T10:00:00",
-      "skuEnableTimeUtcMs": "1788861600000",
+      "skuEnableTimeUtcMs": "1748858400000",
       "skuDisableTimeUtcMs": "1791453600000",
       "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fb8786503_PGO-MCS_GO_Pass_September_2026_TICKET_v1-1024x576.jpg"
     }
@@ -1045,9 +1047,9 @@
       "hidden": true,
       "title": "season_pass_premium_track_title_sep",
       "description": "deluxe_event_pass_track_unlock_description",
-      "skuEnableTime": "2026-09-08T10:00:00",
+      "skuEnableTime": "2025-06-02T10:00:00",
       "skuDisableTime": "2026-10-08T10:00:00",
-      "skuEnableTimeUtcMs": "1788861600000",
+      "skuEnableTimeUtcMs": "1748858400000",
       "skuDisableTimeUtcMs": "1791453600000",
       "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fb8786503_PGO-MCS_GO_Pass_September_2026_TICKET_v1-1024x576.jpg"
     }
@@ -1060,9 +1062,9 @@
       "hidden": true,
       "title": "season_pass_premium_track_plus_ten_ranks_title_sep",
       "description": "deluxe_event_pass_track_unlock_plus_points_description",
-      "skuEnableTime": "2026-09-08T10:00:00",
+      "skuEnableTime": "2025-06-02T10:00:00",
       "skuDisableTime": "2026-10-08T10:00:00",
-      "skuEnableTimeUtcMs": "1788861600000",
+      "skuEnableTimeUtcMs": "1748858400000",
       "skuDisableTimeUtcMs": "1791453600000",
       "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fb8786503_PGO-MCS_GO_Pass_September_2026_TICKET_v1-1024x576.jpg"
     }
@@ -10759,34 +10761,6 @@
       "skuEnableTimeUtcMs": "1744624800000",
       "skuDisableTimeUtcMs": "1745352000000",
       "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-paid-sustainability-week-2026-nologo.jpg"
-    }
-  },
-  {
-    "templateId": "pgorelease.august2_deluxe_event_pass_track_unlock",
-    "data": {
-      "sku": "pgorelease.august2_deluxe_event_pass_track_unlock",
-      "sortOrder": 1,
-      "title": "season_pass_premium_track_title_uu_water_festival_2026",
-      "description": "deluxe_event_pass_track_unlock_description",
-      "skuEnableTime": "2025-08-18T10:00:06",
-      "skuDisableTime": "2026-08-26T20:00:00",
-      "skuEnableTimeUtcMs": "1755511206000",
-      "skuDisableTimeUtcMs": "1787774400000",
-      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F20ad29e8_PGO-MCS_Water_Festival_2026_TICKET_v3-1024x576.jpg"
-    }
-  },
-  {
-    "templateId": "pgorelease.august2_deluxe_event_pass_track_unlock_plus_points",
-    "data": {
-      "sku": "pgorelease.august2_deluxe_event_pass_track_unlock_plus_points",
-      "sortOrder": 1,
-      "title": "season_pass_premium_track_plus_six_ranks_title_uu_water_festival_2026",
-      "description": "event_pass_plus_points_6_ranks_description",
-      "skuEnableTime": "2025-08-18T10:00:07",
-      "skuDisableTime": "2026-08-26T20:00:00",
-      "skuEnableTimeUtcMs": "1755511207000",
-      "skuDisableTimeUtcMs": "1787774400000",
-      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F20ad29e8_PGO-MCS_Water_Festival_2026_TICKET_v3-1024x576.jpg"
     }
   },
   {

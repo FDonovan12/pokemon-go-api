@@ -5422,6 +5422,17 @@
     }
   },
   {
+    "templateId": "STICKER_POKEXCITING_TURQOISE",
+    "data": {
+      "stickerId": "STICKER_POKEXCITING_TURQOISE",
+      "maxCount": 25,
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20260902
+    }
+  },
+  {
     "templateId": "STICKER_POKOPIA_BULBASAUR",
     "data": {
       "stickerId": "STICKER_POKOPIA_BULBASAUR",

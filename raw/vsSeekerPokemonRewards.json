@@ -577,9 +577,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "LUNALA",
+            "pokemonId": "REGIROCK",
             "pokemonDisplay": {
-              "form": "LUNALA_NORMAL"
+              "form": "REGIROCK_NORMAL"
             }
           },
           "unlockedAtRank": 20,
@@ -598,6 +598,84 @@
           "staminaIvOverride": {
             "range": {
               "min": 10,
+              "max": 15
+            }
+          }
+        },
+        {
+          "pokemon": {
+            "pokemonId": "REGISTEEL",
+            "pokemonDisplay": {
+              "form": "REGISTEEL_NORMAL"
+            }
+          },
+          "unlockedAtRank": 20,
+          "attackIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          },
+          "defenseIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          },
+          "staminaIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          }
+        },
+        {
+          "pokemon": {
+            "pokemonId": "REGICE",
+            "pokemonDisplay": {
+              "form": "REGICE_NORMAL"
+            }
+          },
+          "unlockedAtRank": 20,
+          "attackIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          },
+          "defenseIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          },
+          "staminaIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          }
+        },
+        {
+          "pokemon": {
+            "pokemonId": "CRAMORANT",
+            "pokemonDisplay": {
+              "form": "CRAMORANT_NORMAL"
+            }
+          },
+          "unlockedAtRank": 16,
+          "attackIvOverride": {
+            "range": {
+              "max": 15
+            }
+          },
+          "defenseIvOverride": {
+            "range": {
+              "max": 15
+            }
+          },
+          "staminaIvOverride": {
+            "range": {
               "max": 15
             }
           }
@@ -1183,9 +1261,9 @@
         },
         {
           "pokemon": {
-            "pokemonId": "LUNALA",
+            "pokemonId": "REGIROCK",
             "pokemonDisplay": {
-              "form": "LUNALA_NORMAL"
+              "form": "REGIROCK_NORMAL"
             }
           },
           "unlockedAtRank": 20,
@@ -1204,6 +1282,84 @@
           "staminaIvOverride": {
             "range": {
               "min": 10,
+              "max": 15
+            }
+          }
+        },
+        {
+          "pokemon": {
+            "pokemonId": "REGISTEEL",
+            "pokemonDisplay": {
+              "form": "REGISTEEL_NORMAL"
+            }
+          },
+          "unlockedAtRank": 20,
+          "attackIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          },
+          "defenseIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          },
+          "staminaIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          }
+        },
+        {
+          "pokemon": {
+            "pokemonId": "REGICE",
+            "pokemonDisplay": {
+              "form": "REGICE_NORMAL"
+            }
+          },
+          "unlockedAtRank": 20,
+          "attackIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          },
+          "defenseIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          },
+          "staminaIvOverride": {
+            "range": {
+              "min": 10,
+              "max": 15
+            }
+          }
+        },
+        {
+          "pokemon": {
+            "pokemonId": "CRAMORANT",
+            "pokemonDisplay": {
+              "form": "CRAMORANT_NORMAL"
+            }
+          },
+          "unlockedAtRank": 16,
+          "attackIvOverride": {
+            "range": {
+              "max": 15
+            }
+          },
+          "defenseIvOverride": {
+            "range": {
+              "max": 15
+            }
+          },
+          "staminaIvOverride": {
+            "range": {
               "max": 15
             }
           }
