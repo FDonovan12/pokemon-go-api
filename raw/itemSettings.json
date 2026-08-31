@@ -349,7 +349,9 @@
         "eventPassId": "EVENT_PASS_WCS2026_EVENT"
       },
       "timePeriodCounters": {
-        "playerActivity": {}
+        "playerActivity": {
+          "limit": 500
+        }
       },
       "hideItemInInventory": true
     }

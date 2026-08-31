@@ -1069,7 +1069,7 @@ export interface CombatLeagueSettings {
 }
 
 export interface CombatLeagueSettingData {
-    combatLeagueTemplateId: string[];
+    combatLeagueTemplateId: CombatLeagueTemplateId[];
 }
 
 export interface CombatType {
@@ -1935,7 +1935,7 @@ export interface TimePeriodCounters {
 }
 
 export interface PlayerActivity {
-    limit?: number;
+    limit: number;
 }
 
 export interface XpBoost {
@@ -2679,7 +2679,7 @@ export interface NonCombatMoveSettingData {
     cost:                Cost;
     bonusEffect:         BonusEffect;
     durationMs:          string;
-    bonusType:           string;
+    bonusType:           BadgeTypeElement;
     enableMultiUse:      boolean;
     extraDurationMs:     string;
     enableNonCombatMove: boolean;
@@ -2731,8 +2731,8 @@ export interface TimeBonus {
 }
 
 export interface Cost {
-    candyCost:    number;
-    stardustCost: number;
+    candyCost:     number;
+    stardustCost?: number;
 }
 
 export interface AvatarItemDisplay {
@@ -4261,7 +4261,6 @@ export interface VistaGeneralSettingData {
     isVistaEncounterEnabled: boolean;
     isVistaMapEnabled:       boolean;
     isVistaSpawnsEnabled:    boolean;
-    themeOverride:           string;
 }
 
 export interface BattleAnimationSettings {
@@ -4389,8 +4388,8 @@ export interface IvOverride {
 }
 
 export interface Range {
-    max:  number;
-    min?: number;
+    min: number;
+    max: number;
 }
 
 export interface GuaranteedLimitedPokemonReward {

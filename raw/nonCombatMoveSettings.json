@@ -223,5 +223,35 @@
       "extraDurationMs": "4000",
       "enableNonCombatMove": true
     }
+  },
+  {
+    "templateId": "NON_COMBAT_VM_MOVE_TEMP_EVOLUTION_MEGA_X_V0150_POKEMON_MEWTWO",
+    "data": {
+      "uniqueId": "TEMP_EVOLUTION_MEGA_X_V0150_POKEMON_MEWTWO",
+      "cost": {
+        "candyCost": 5
+      },
+      "bonusEffect": {},
+      "durationMs": "600000",
+      "bonusType": 10,
+      "enableMultiUse": true,
+      "extraDurationMs": "4000",
+      "enableNonCombatMove": true
+    }
+  },
+  {
+    "templateId": "NON_COMBAT_VM_MOVE_TEMP_EVOLUTION_MEGA_Y_V0150_POKEMON_MEWTWO",
+    "data": {
+      "uniqueId": "TEMP_EVOLUTION_MEGA_Y_V0150_POKEMON_MEWTWO",
+      "cost": {
+        "candyCost": 5
+      },
+      "bonusEffect": {},
+      "durationMs": "720000",
+      "bonusType": 11,
+      "enableMultiUse": true,
+      "extraDurationMs": "4000",
+      "enableNonCombatMove": true
+    }
   }
 ]

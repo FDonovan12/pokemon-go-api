@@ -42,6 +42,13 @@
     }
   },
   {
+    "templateId": "ENHANCED_MEGA_RAID_READY_CHECK_FEATURE_GATE",
+    "data": {
+      "status": 195735672,
+      "rolloutPercentage": 100
+    }
+  },
+  {
     "templateId": "EVENT_LIST_FEATURE_GATE",
     "data": {
       "status": 1,
@@ -177,13 +184,18 @@
           "rolloutPercentage": 100
         },
         {
-          "name": "MEGA_CP_BOOST_ENABLED_SUB_FEATURE_GATE",
-          "status": 368387608,
+          "name": "MEGA_LEVEL_SPEEDUP_SUB_FEATURE_GATE",
+          "status": 344171892,
           "rolloutPercentage": 100
         },
         {
-          "name": "MEGA_LEVEL_SPEEDUP_SUB_FEATURE_GATE",
-          "status": 344171892,
+          "name": "THIRD_CHARGE_MOVE_SUB_FEATURE_GATE",
+          "status": 755488416,
+          "rolloutPercentage": 100
+        },
+        {
+          "name": "MEGA_COMBAT_BUTTONS_SUB_FEATURE_GATE",
+          "status": 276593972,
           "rolloutPercentage": 100
         }
       ]
@@ -204,6 +216,13 @@
     }
   },
   {
+    "templateId": "PRELOADED_MEGA_STATUS_STRING_FEATURE_GATE",
+    "data": {
+      "status": 1,
+      "rolloutPercentage": 100
+    }
+  },
+  {
     "templateId": "REMOTE_TRADE_IMPROVEMENTS_FEATURE_GATE",
     "data": {
       "status": 1284637195,
@@ -212,6 +231,20 @@
   },
   {
     "templateId": "SEAF_GET_MAP_OBJECTS_RATE_LIMITER_FEATURE_GATE",
+    "data": {
+      "status": 1,
+      "rolloutPercentage": 100
+    }
+  },
+  {
+    "templateId": "SHIELD_BREAK_POWER_DISPLAY_FEATURE_GATE",
+    "data": {
+      "status": 1,
+      "rolloutPercentage": 100
+    }
+  },
+  {
+    "templateId": "UPDATED_PRELOADED_MEGA_ANIMATION_FEATURE_GATE",
     "data": {
       "status": 1,
       "rolloutPercentage": 100

@@ -7300,13 +7300,12 @@
       "sku": "bundle.GOFest2026Finale.1",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 1,
-      "hidden": true,
       "spriteId": "bundle.general.remotebox.small.1",
       "title": "box_goraid",
       "skuEnableTime": "2026-01-02T20:00:00",
-      "skuDisableTime": "2026-01-02T22:00:00",
+      "skuDisableTime": "2026-09-06T22:00:00",
       "skuEnableTimeUtcMs": "1767384000000",
-      "skuDisableTimeUtcMs": "1767391200000",
+      "skuDisableTimeUtcMs": "1788732000000",
       "showDiscountTag": true,
       "showStrikethroughPrice": true
     }
@@ -7317,13 +7316,12 @@
       "sku": "bundle.GOFest2026Finale.2",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 2,
-      "hidden": true,
       "spriteId": "bundle.general1.small.2",
       "title": "box_gocatch",
       "skuEnableTime": "2026-01-02T20:00:00",
-      "skuDisableTime": "2026-01-02T22:00:00",
+      "skuDisableTime": "2026-09-06T22:00:00",
       "skuEnableTimeUtcMs": "1767384000000",
-      "skuDisableTimeUtcMs": "1767391200000",
+      "skuDisableTimeUtcMs": "1788732000000",
       "showDiscountTag": true,
       "showStrikethroughPrice": true
     }
@@ -7334,13 +7332,12 @@
       "sku": "bundle.GOFest2026Finale.3",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 3,
-      "hidden": true,
       "spriteId": "bundle.general.premiumbox.large.1",
       "title": "box_gomaster",
       "skuEnableTime": "2026-01-02T20:00:00",
-      "skuDisableTime": "2026-01-02T22:00:00",
+      "skuDisableTime": "2026-09-06T22:00:00",
       "skuEnableTimeUtcMs": "1767384000000",
-      "skuDisableTimeUtcMs": "1767391200000"
+      "skuDisableTimeUtcMs": "1788732000000"
     }
   },
   {
@@ -7349,13 +7346,12 @@
       "sku": "bundle.GOFest2026Finale.4",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 4,
-      "hidden": true,
       "spriteId": "bundle.general.adventure.1",
       "title": "box_gosticker",
       "skuEnableTime": "2026-01-02T20:00:00",
-      "skuDisableTime": "2026-01-02T22:00:00",
+      "skuDisableTime": "2026-09-06T22:00:00",
       "skuEnableTimeUtcMs": "1767384000000",
-      "skuDisableTimeUtcMs": "1767391200000",
+      "skuDisableTimeUtcMs": "1788732000000",
       "showDiscountTag": true,
       "showStrikethroughPrice": true
     }
