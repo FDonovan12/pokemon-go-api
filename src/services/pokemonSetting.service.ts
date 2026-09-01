@@ -1,6 +1,7 @@
 import { PokemonSettings } from '#generated/data/api/raw.type.js';
 import { RawGameMaster } from '#generated/raw.index.js';
-import { pokemonTypeToFrench } from '../utils/utils.js';
+import { pokeApiClient } from '../utils/pokeApiClient.js';
+import { extractDexNumberFromId, getImage, pokemonTypeToFrench } from '../utils/utils.js';
 
 let cachedResult: Promise<any> | null = null;
 
@@ -13,48 +14,8 @@ export function getPokemonSetting() {
 }
 
 class PokemonSettingGeneratorService {
-    private extractDexNumber(templateId: string): number {
-        return +templateId.split('_')[0].slice(1);
-    }
-
-    private speciesCache = new Map<number, any>();
-
-    private async fetchPokemonSpecies(dexNumber: number): Promise<any> {
-        if (this.speciesCache.has(dexNumber)) return this.speciesCache.get(dexNumber);
-
-        const data = await this.fetchJsonWithRetry(
-            `https://pokeapi.co/api/v2/pokemon-species/${dexNumber}`,
-        );
-        this.speciesCache.set(dexNumber, data);
-        return data;
-    }
-
-    private async fetchJsonWithRetry(url: string, retries = 3, delayMs = 500): Promise<any> {
-        for (let attempt = 0; attempt <= retries; attempt++) {
-            const res = await fetch(url);
-
-            if (res.ok) {
-                return res.json();
-            }
-
-            // 429 = rate limit, 5xx = erreur serveur temporaire -> on retry
-            if ((res.status === 429 || res.status >= 500) && attempt < retries) {
-                const wait = delayMs * 2 ** attempt; // backoff exponentiel
-                console.log(
-                    `⚠️  ${res.status} sur ${url}, retry dans ${wait}ms (tentative ${attempt + 1}/${retries})`,
-                );
-                await new Promise((resolve) => setTimeout(resolve, wait));
-                continue;
-            }
-
-            throw new Error(`Échec fetch ${url} : ${res.status} ${res.statusText}`);
-        }
-
-        throw new Error(`Échec fetch ${url} après ${retries} tentatives`);
-    }
-
     private async fetchFrenchName(dexNumber: number): Promise<string> {
-        const data = await this.fetchPokemonSpecies(dexNumber);
+        const data = await pokeApiClient.fetchPokemonSpecies(dexNumber);
         const raw = data.names.find((n: any) => n.language.name === 'fr')?.name;
         if (!raw) {
             // console.log('fetchFrenchName : ', dexNumber);
@@ -69,7 +30,7 @@ class PokemonSettingGeneratorService {
             if (form.includes('HISUIAN')) return 8;
             if (form.includes('PALDEA')) return 9;
         }
-        const data = await this.fetchPokemonSpecies(dexNumber);
+        const data = await pokeApiClient.fetchPokemonSpecies(dexNumber);
         return +data.generation.url.split('/').filter(Boolean).last();
     }
 
@@ -119,6 +80,10 @@ class PokemonSettingGeneratorService {
         return { base: baseForm, same: otherFormSameAsBase, different: formDifferentAsBase };
     }
 
+    private hasMega(pokemon: PokemonSettings): boolean {
+        return (pokemon.data.evolutionBranch ?? []).some((branch) => !!branch.temporaryEvolution);
+    }
+
     async getFileContent(): Promise<any> {
         const raw: PokemonSettings[] = await RawGameMaster.getPokemonSettings();
         const rawPokemons: any[] = [];
@@ -127,7 +92,7 @@ class PokemonSettingGeneratorService {
             await Promise.all(
                 batch.map(async (pokemon) => {
                     console.log(pokemon.templateId);
-                    const dexNumber = this.extractDexNumber(pokemon.templateId);
+                    const dexNumber = extractDexNumberFromId(pokemon.templateId);
                     this.alterPokemon(pokemon);
                     let formField = String(pokemon.data.form ?? 'base'); // have to convert number to string even most of the time never number here
 
@@ -154,8 +119,8 @@ class PokemonSettingGeneratorService {
                         imageId,
                         // https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/${imageId}.png
                         // image: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${imageId}.png`,
-                        image: `https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/${imageId}.png`,
-                        imageShiny: `https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/${imageId}.png`,
+                        image: getImage(imageId),
+                        imageShiny: getImage(imageId, true),
                         type: [
                             pokemonTypeToFrench(pokemon.data.type),
                             pokemonTypeToFrench(pokemon.data.type2 ?? ''),
@@ -166,9 +131,8 @@ class PokemonSettingGeneratorService {
                         eliteQuickMove: pokemon.data.eliteQuickMove ?? [],
                         eliteCinematicMove: pokemon.data.eliteCinematicMove ?? [],
                         nonTmCinematicMoves: pokemon.data.nonTmCinematicMoves ?? [],
-                        hasMega: (pokemon.data.evolutionBranch ?? []).some(
-                            (branch) => !!branch.temporaryEvolution,
-                        ),
+                        hasMega: this.hasMega(pokemon),
+                        tempEvoOverrides: pokemon.data.tempEvoOverrides,
                         evolutionIds: (pokemon.data.evolutionBranch ?? [])
                             .filter((branch) => branch.evolution && branch.evolution !== 'ZYGARDE')
                             .map((branch) => ({
@@ -183,6 +147,7 @@ class PokemonSettingGeneratorService {
                         isMythical: pokemon.data.pokemonClass === 'POKEMON_CLASS_MYTHIC',
                         isUltraBeast: pokemon.data.pokemonClass === 'POKEMON_CLASS_ULTRA_BEAST',
                         form: formField ?? 'base',
+                        parentPokemonId: pokemon.data.parentPokemonId,
                         encounter: {
                             stardustCaptureReward:
                                 (pokemon.data.encounter?.bonusStardustCaptureReward ?? 0) + 100,
@@ -281,6 +246,16 @@ class PokemonSettingGeneratorService {
             } else {
                 formField = formField.replace('_SWORD', '').replace('_SHIELD', '');
             }
+            if (templateId.includes('ZACIAN_CROWNED'))
+                pokemon.data.cinematicMoves = [
+                    ...(pokemon.data.cinematicMoves ?? []),
+                    'BEHEMOTH_BLADE',
+                ];
+            if (templateId.includes('ZAMAZENTA_CROWNED'))
+                pokemon.data.cinematicMoves = [
+                    ...(pokemon.data.cinematicMoves ?? []),
+                    'BEHEMOTH_BASH',
+                ];
         }
 
         if (templateId.includes('MELOETTA')) {

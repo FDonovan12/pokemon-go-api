@@ -22,3 +22,12 @@ export const POKEMON_TYPE_TO_FRENCH: Record<string, string | undefined> = {
     POKEMON_TYPE_STEEL: 'Acier',
     POKEMON_TYPE_WATER: 'Eau',
 };
+
+export function getImage(imageId: number, isShiny: boolean = false): string {
+    if (isShiny)
+        return `https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/${imageId}.png`;
+    return `https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/${imageId}.png`;
+}
+export function extractDexNumberFromId(id: string): number {
+    return +id.split('_')[0].slice(1);
+}
