@@ -1,9 +1,11 @@
-import { Base, PokemonSetting } from '#generated/data/api/intermediate.type.js';
+import { PokemonSetting } from '#generated/data/api/intermediate.type.js';
 import { IntermediateData } from '#generated/intermediate.index.js';
 import { getCpMultipliers } from '../services/cpMultiplier.service.js';
 import { FileGenerator, GeneratorSpeed } from '../type/fileGenerator.js';
 
 const CP_CAP = { super: 1500, hyper: 2500 };
+
+type PokemonBase = PokemonSetting['base'];
 
 export default class PokemonSettingGenerator extends FileGenerator {
     getFileName(): string {
@@ -18,7 +20,7 @@ export default class PokemonSettingGenerator extends FileGenerator {
         const rawPokemon: PokemonSetting[] = await IntermediateData.getPokemonSetting();
         const rawCpMultiplier = await getCpMultipliers();
 
-        const finalPokemon: Base[] = rawPokemon
+        const finalPokemon: PokemonBase[] = rawPokemon
             .map((form: PokemonSetting) => [form.base, ...form.different.map((d: any) => d.base)])
             .flat();
 
@@ -107,7 +109,7 @@ type BestIvEntry = {
     level: number;
 };
 
-function getRank1(pokemon: Base, cpms: Record<string, number>, cap: number): BestIvEntry[] {
+function getRank1(pokemon: PokemonBase, cpms: Record<string, number>, cap: number): BestIvEntry[] {
     const { baseAttack, baseDefense, baseStamina } = pokemon.stats;
 
     let bestStatProduct = -1;
