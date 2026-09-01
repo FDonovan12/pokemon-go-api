@@ -1087,6 +1087,15 @@
     }
   },
   {
+    "templateId": "SPAWN_V0025_POKEMON_PIKACHU_K_2026_A_01",
+    "data": {
+      "pokemon": "PIKACHU",
+      "gender": {
+        "femalePercent": 1
+      }
+    }
+  },
+  {
     "templateId": "SPAWN_V0025_POKEMON_PIKACHU_NORMAL",
     "data": {
       "pokemon": "PIKACHU",

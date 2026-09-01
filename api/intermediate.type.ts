@@ -1,10 +1,10 @@
 export interface PokemonSetting {
-    base:      Base;
-    same:      Base[];
+    base:      BaseElement;
+    same:      BaseElement[];
     different: Different[];
 }
 
-export interface Base {
+export interface BaseElement {
     id:                  string;
     pokemonId:           string;
     dexNumber:           number;
@@ -29,6 +29,8 @@ export interface Base {
     isUltraBeast:        boolean;
     form:                string;
     encounter:           Encounter;
+    parentPokemonId?:    string;
+    tempEvoOverrides?:   SameTempEvoOverride[];
 }
 
 export interface Encounter {
@@ -44,6 +46,36 @@ export interface Stats {
     baseStamina: number;
     baseAttack:  number;
     baseDefense: number;
+}
+
+export interface SameTempEvoOverride {
+    tempEvoId?:              TempEvoId;
+    stats?:                  Stats;
+    averageHeightM?:         number;
+    averageWeightKg?:        number;
+    typeOverride1?:          string;
+    typeOverride2?:          string;
+    camera?:                 Camera;
+    modelScaleV2?:           number;
+    modelHeight?:            number;
+    buddyOffsetMale?:        number[];
+    buddyOffsetFemale?:      number[];
+    buddyPortraitOffset?:    number[];
+    raidBossDistanceOffset?: number;
+    buddyPortraitRotation?:  number[];
+}
+
+export interface Camera {
+    cylinderRadiusM?: number;
+    cylinderHeightM?: number;
+    cylinderGroundM?: number;
+}
+
+export enum TempEvoId {
+    TempEvolutionMega = "TEMP_EVOLUTION_MEGA",
+    TempEvolutionMegaX = "TEMP_EVOLUTION_MEGA_X",
+    TempEvolutionMegaY = "TEMP_EVOLUTION_MEGA_Y",
+    TempEvolutionPrimal = "TEMP_EVOLUTION_PRIMAL",
 }
 
 export enum Type {
@@ -68,8 +100,41 @@ export enum Type {
 }
 
 export interface Different {
-    base: Base;
-    same: Base[];
+    base: PurpleBase;
+    same: BaseElement[];
+}
+
+export interface PurpleBase {
+    id:                  string;
+    pokemonId:           string;
+    dexNumber:           number;
+    name:                string;
+    generation:          number;
+    slug:                string;
+    imageId:             number;
+    image:               string;
+    imageShiny:          string;
+    type:                Type[];
+    stats:               Stats;
+    quickMoves:          string[];
+    cinematicMoves:      string[];
+    eliteQuickMove:      string[];
+    eliteCinematicMove:  string[];
+    nonTmCinematicMoves: string[];
+    hasMega:             boolean;
+    evolutionIds:        EvolutionId[];
+    family:              string;
+    isLegendary:         boolean;
+    isMythical:          boolean;
+    isUltraBeast:        boolean;
+    form:                string;
+    encounter:           Encounter;
+    parentPokemonId?:    string;
+    tempEvoOverrides?:   PurpleTempEvoOverride[];
+}
+
+export interface PurpleTempEvoOverride {
+    raidBossDistanceOffset: number;
 }
 
 export interface RaidMove {

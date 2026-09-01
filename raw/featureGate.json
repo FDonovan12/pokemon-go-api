@@ -270,5 +270,12 @@
         }
       ]
     }
+  },
+  {
+    "templateId": "WAYFARER_SUBMIT_LINKOUT_FEATURE_GATE",
+    "data": {
+      "status": 1,
+      "rolloutPercentage": 100
+    }
   }
 ]

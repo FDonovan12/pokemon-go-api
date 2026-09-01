@@ -4678,6 +4678,67 @@
     }
   },
   {
+    "templateId": "EXTENDED_V0025_POKEMON_PIKACHU_K_2026_A_01",
+    "data": {
+      "uniqueId": "PIKACHU",
+      "form": 3361,
+      "sizeSettings": {
+        "xxsLowerBound": 0.196,
+        "xsLowerBound": 0.2,
+        "mLowerBound": 0.3,
+        "mUpperBound": 0.5,
+        "xlUpperBound": 0.6,
+        "xxlUpperBound": 0.7
+      },
+      "breadOverrides": [
+        {
+          "breadMode": "BREAD_MODE",
+          "maxEncounterVisualSettings": {
+            "scale": 31,
+            "cameraDistance": 27.5,
+            "maxReticleSize": 14
+          },
+          "maxBattleVisualSettings": {
+            "scale": 62
+          },
+          "maxStationVisualSettings": {
+            "scale": 4.22
+          }
+        },
+        {
+          "breadMode": "BREAD_DOUGH_MODE",
+          "averageHeightM": 21,
+          "camera": {
+            "cylinderRadiusM": 1.3,
+            "cylinderHeightM": 1.1
+          },
+          "modelScaleV2": 0.86,
+          "modelHeight": 2.57,
+          "catchOverrideSettings": {
+            "collisionRadiusM": 0.25,
+            "collisionHeadRadiusM": 0.25
+          },
+          "maxEncounterVisualSettings": {
+            "scale": 10.5,
+            "cameraDistance": 32.5,
+            "maxReticleSize": 14
+          },
+          "maxBattleVisualSettings": {
+            "scale": 20,
+            "xOffset": 3
+          },
+          "maxBattleTrainerVisualSettings": {
+            "xOffset": -5,
+            "yOffset": -5
+          },
+          "maxStationVisualSettings": {
+            "scale": 1.25
+          }
+        }
+      ]
+    }
+  },
+  {
     "templateId": "EXTENDED_V0025_POKEMON_PIKACHU_NORMAL",
     "data": {
       "uniqueId": "PIKACHU",

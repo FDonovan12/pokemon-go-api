@@ -86,7 +86,7 @@ export interface QuestIconCarousel {
 }
 
 export interface RewardDatum {
-    type: TypeElement;
+    type: RewardTypeElement;
     item: RewardDatumItem;
 }
 
@@ -95,11 +95,12 @@ export interface RewardDatumItem {
     amount?: number;
 }
 
-export enum TypeElement {
+export enum RewardTypeElement {
     AvatarClothing = "AVATAR_CLOTHING",
     Candy = "CANDY",
     Experience = "EXPERIENCE",
     Item = "ITEM",
+    MegaResource = "MEGA_RESOURCE",
     PlayerAttribute = "PLAYER_ATTRIBUTE",
     PokemonEncounter = "POKEMON_ENCOUNTER",
     Stardust = "STARDUST",
@@ -464,7 +465,7 @@ export interface BadgeSettingData {
 }
 
 export interface CaptureReward {
-    rewardTypes?: TypeElement[];
+    rewardTypes?: RewardTypeElement[];
 }
 
 export interface EventBadgeSettings {
@@ -1408,13 +1409,13 @@ export interface EventPassDisplaySettings {
     eventPassTrackUpgradeDescriptions: EventPassTrackUpgradeDescription[];
     eventPassTitleKey:                 string;
     headerIconUrl:                     string;
-    premiumRewardBannerTop:            string;
-    premiumRewardBannerMiddle:         string;
-    premiumRewardBannerBottom:         string;
-    premiumRewardBannerImageUrl:       string;
-    premiumRewardsDescription:         string;
-    todayViewSection:                  string;
-    sectionDisplayPriority:            number;
+    premiumRewardBannerTop?:           string;
+    premiumRewardBannerMiddle?:        string;
+    premiumRewardBannerBottom?:        string;
+    premiumRewardBannerImageUrl?:      string;
+    premiumRewardsDescription?:        string;
+    todayViewSection:                  BadgeTypeElement;
+    sectionDisplayPriority?:           number;
 }
 
 export interface EventPassDisplaySettingsBonusBox {
@@ -1444,7 +1445,7 @@ export enum Track {
 export interface TrackCondition {
     track:         Track;
     trackTitleKey: string;
-    badge?:        string;
+    badge?:        BadgeTypeElement;
 }
 
 export interface EventPassTierSettings {
@@ -1468,21 +1469,22 @@ export interface Settings {
 
 export interface ActiveBonusDisplaySettingsBonusBox {
     text:     string;
-    iconType: IconType;
+    iconType: IconTypeUnion;
 }
 
-export enum IconType {
+export type IconTypeUnion = IconTypeEnum | number;
+
+export enum IconTypeEnum {
     EggIncubator = "EGG_INCUBATOR",
     Gift = "GIFT",
     Incense = "INCENSE",
-    RaidPass = "RAID_PASS",
-    Stardust = "STARDUST",
+    Raid = "RAID",
+    SpawnUnknown = "SPAWN_UNKNOWN",
     Trade = "TRADE",
-    Xp = "XP",
 }
 
 export interface PurpleReward {
-    type:                       TypeElement;
+    type:                       TypeUnion;
     pokemonEncounter?:          RewardPokemonEncounter;
     item?:                      RewardDatumItem;
     stardust?:                  number;
@@ -1490,6 +1492,7 @@ export interface PurpleReward {
     xlCandy?:                   Candy;
     exp?:                       number;
     playerAttribute?:           PlayerAttribute;
+    megaResource?:              Candy;
     neutralAvatarItemTemplate?: NeutralAvatarItemTemplate;
 }
 
@@ -1513,18 +1516,23 @@ export interface RewardPokemonEncounter {
 export interface PurplePokemonDisplay {
     form:           string;
     breadModeEnum?: BreadMode;
+    locationCard?:  LocationCardClass;
+}
+
+export interface LocationCardClass {
+    locationCard: LocationCardEnum;
+}
+
+export enum LocationCardEnum {
+    LcSpecialbackground2026_GlobalMega001 = "LC_SPECIALBACKGROUND_2026_GLOBAL_MEGA_001",
 }
 
 export interface StatsLimitsOverride {
     minPokemonLevel: number;
     maxPokemonLevel: number;
-    minAttack?:      number;
-    maxAttack?:      number;
-    minDefense?:     number;
-    maxDefense?:     number;
-    minHp?:          number;
-    maxHp?:          number;
 }
+
+export type TypeUnion = RewardTypeElement | number;
 
 export interface EventPlannerPopularNotificationSettings {
     templateId: string;
@@ -1791,7 +1799,7 @@ export interface ItemSettings {
 }
 
 export interface ItemSettingData {
-    itemId:                string;
+    itemId:                BadgeTypeElement;
     itemType:              string;
     category:              string;
     dropTrainerLevel?:     number;
@@ -1854,14 +1862,14 @@ export interface GlobalEventTicket {
     clientEventStartTimeUtcMs:     string;
     clientEventEndTimeUtcMs:       string;
     giftable?:                     boolean;
-    giftItem?:                     string;
+    giftItem?:                     BadgeTypeElement;
     displayV2Enabled?:             boolean;
     backgroundImageUrl?:           string;
     eventDatetimeRangeKey?:        string;
     textRewardsKey?:               string;
     iconRewards?:                  IconReward[];
     detailsLinkKey?:               string;
-    ticketItem?:                   string;
+    ticketItem?:                   BadgeTypeElement;
     eventBadge?:                   string;
     grantBadgeBeforeEventStartMs?: string;
     titleImageUrl?:                string;
@@ -1869,7 +1877,7 @@ export interface GlobalEventTicket {
 }
 
 export interface IconReward {
-    type:                       TypeElement;
+    type:                       RewardTypeElement;
     exp?:                       number;
     stardust?:                  number;
     pokemonEncounter?:          IconRewardPokemonEncounter;
@@ -2513,6 +2521,7 @@ export enum Id {
     Gardevoir = "GARDEVOIR",
     Mewtwo = "MEWTWO",
     Raichu = "RAICHU",
+    Staraptor = "STARAPTOR",
 }
 
 export interface MonodepthSettings {

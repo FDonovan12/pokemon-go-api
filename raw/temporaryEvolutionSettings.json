@@ -564,6 +564,18 @@
     }
   },
   {
+    "templateId": "TEMPORARY_EVOLUTION_V0398_POKEMON_STARAPTOR",
+    "data": {
+      "pokemonId": "STARAPTOR",
+      "temporaryEvolutions": [
+        {
+          "temporaryEvolutionId": "TEMP_EVOLUTION_MEGA",
+          "assetBundleValue": 51
+        }
+      ]
+    }
+  },
+  {
     "templateId": "TEMPORARY_EVOLUTION_V0428_POKEMON_GARCHOMP",
     "data": {
       "pokemonId": "GARCHOMP",

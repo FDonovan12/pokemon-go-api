@@ -68,24 +68,24 @@
     }
   },
   {
-    "templateId": "EVENT_PASS_WCS2026_EVENT",
+    "templateId": "EVENT_PASS_GOFEST2026_FINALE",
     "data": {
-      "prefix": "EVENT_PASS_WCS2026_EVENT",
-      "pointsItemId": "ITEM_EVENT_PASS_POINT_LIVE_OPS_07",
+      "prefix": "EVENT_PASS_GOFEST2026_FINALE",
+      "pointsItemId": "ITEM_EVENT_PASS_POINT_GO_FEST_02",
       "trackConditions": [
         {
           "track": "FREE",
-          "trackTitleKey": "season_pass_base_track_title_WCS_2026"
+          "trackTitleKey": "event_pass_gofest2026_finale_base_track_title"
         },
         {
           "track": "PREMIUM",
-          "badge": "BADGE_EVENT_0231",
-          "trackTitleKey": "season_pass_premium_track_title_WCS_2026"
+          "badge": 6261,
+          "trackTitleKey": "event_pass_gofest2026_finale_premium_track_title"
         }
       ],
-      "expirationTime": "2026-08-30T20:00:00",
-      "maxTierLevel": 60,
-      "additionalBonusTiersLevel": 31,
+      "expirationTime": "2026-09-06T23:59:59",
+      "maxTierLevel": 600,
+      "additionalBonusTiersLevel": 101,
       "eventPassDisplaySettings": {
         "bonusBoxes": [
           {
@@ -94,45 +94,39 @@
             "quantity": 5
           },
           {
-            "text": "quest_hatch_egg_singular",
-            "iconType": "EGG",
-            "quantity": 40
-          },
-          {
             "text": "quest_win_raid_singular",
             "iconType": "RAID",
             "quantity": 100
+          },
+          {
+            "text": "quest_hatch_egg_singular",
+            "iconType": "EGG",
+            "quantity": 250
           }
         ],
         "eventPassTrackUpgradeDescriptions": [
           {
-            "passTrackUpgradeHeaderDescription": "season_pass_WCS_2026_track_upgrade_header_description_backpack",
+            "passTrackUpgradeHeaderDescription": "event_pass_gofest2026_finale_track_upgrade_header_description",
             "eventPassTrackToUpgradeTo": "PREMIUM",
-            "trackUnlockSkuId": "pgorelease.august3_deluxe_event_pass_track_unlock",
-            "trackUnlockPlusPointsSkuId": "pgorelease.august3_deluxe_event_pass_track_unlock_plus_points",
-            "eventDurationKey": "season_pass_WCS_2026_event_duration",
-            "upgradeDescriptionKey": "season_pass_WCS_2026_upgrade_description",
+            "trackUnlockSkuId": "pgorelease.gofest_finale_2025_deluxe_event_pass_track_unlock",
+            "trackUnlockPlusPointsSkuId": "pgorelease.gofest_finale_2025_deluxe_event_pass_track_unlock_plus_points",
+            "eventDurationKey": "event_pass_gofest2026_finale_event_duration",
+            "upgradeDescriptionKey": "event_pass_gofest2026_finale_upgrade_description",
             "ranksToHighlightRewards": [
-              5,
-              15,
-              30
+              20,
+              40,
+              100
             ],
-            "detailsLinkKey": "season_pass_details_link_WCS_2026",
+            "detailsLinkKey": "gofest2026_finale_details_link",
             "trackUnlockImageUrl": "https://storage.googleapis.com/prod-public-images/ic_eventpass_deluxe.png",
-            "trackUnlockPlusPointsImageUrl": "https://storage.googleapis.com/prod-public-images/ic_eventpass_deluxe_plus.png"
+            "trackUnlockPlusPointsImageUrl": "https://storage.googleapis.com/prod-public-images/ic_eventpass_deluxe_plus_points.png"
           }
         ],
-        "eventPassTitleKey": "season_pass_base_track_title_WCS_2026",
-        "headerIconUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fdd421c86_2026-worlds-pokemonxp-backpack-270x270.png",
-        "premiumRewardBannerTop": "event_pass_premium_reward_banner_top_text",
-        "premiumRewardBannerMiddle": "avatar_backpack_wcspxp",
-        "premiumRewardBannerBottom": "event_pass_premium_reward_banner_bottom_text_bugoutbuddies2026",
-        "premiumRewardBannerImageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fdd421c86_2026-worlds-pokemonxp-backpack-270x270.png",
-        "premiumRewardsDescription": "season_pass_premium_rewards_desc_monthly_no_disclaimer",
-        "todayViewSection": "SEASONAL_EVENT_PASS_SECTION",
-        "sectionDisplayPriority": 50
+        "eventPassTitleKey": "event_pass_gofest2026_finale_base_track_title",
+        "headerIconUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fe7045957_PGO_Fest_Finale_Logo_512x512.png",
+        "todayViewSection": 2
       },
-      "gracePeriodEndTime": "2026-09-01T20:00:00"
+      "gracePeriodEndTime": "2026-09-08T23:59:59"
     }
   }
 ]

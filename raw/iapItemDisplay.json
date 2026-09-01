@@ -154,12 +154,13 @@
     "data": {
       "sku": "pgorelease.august3_deluxe_event_pass_track_unlock",
       "sortOrder": 1,
+      "hidden": true,
       "title": "season_pass_premium_track_title_WCS_2026",
       "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
       "skuEnableTime": "2025-08-25T10:00:00",
-      "skuDisableTime": "2026-09-01T20:00:00",
+      "skuDisableTime": "2025-09-01T20:00:00",
       "skuEnableTimeUtcMs": "1756116000000",
-      "skuDisableTimeUtcMs": "1788292800000",
+      "skuDisableTimeUtcMs": "1756756800000",
       "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Ff9eaebcb_PGO-WCS_2026_Backpack_v2-1024x512-nologo.jpg"
     }
   },
@@ -168,12 +169,13 @@
     "data": {
       "sku": "pgorelease.august3_deluxe_event_pass_track_unlock_plus_points",
       "sortOrder": 1,
+      "hidden": true,
       "title": "season_pass_premium_track_plus_six_ranks_title_WCS_2026",
       "description": "event_pass_plus_points_6_ranks_description",
       "skuEnableTime": "2025-08-25T10:00:00",
-      "skuDisableTime": "2026-09-01T20:00:00",
+      "skuDisableTime": "2025-09-01T20:00:00",
       "skuEnableTimeUtcMs": "1756116000000",
-      "skuDisableTimeUtcMs": "1788292800000",
+      "skuDisableTimeUtcMs": "1756756800000",
       "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Ff9eaebcb_PGO-WCS_2026_Backpack_v2-1024x512-nologo.jpg"
     }
   },
@@ -258,15 +260,15 @@
     "templateId": "EVENT_PASS_GOFEST2025_FINALE_STORE_REDIRECT",
     "data": {
       "sku": "pgorelease.gofest_finale_2025_deluxe_event_pass_track_redirect",
+      "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 1,
-      "hidden": true,
-      "title": "gofest_2025_finale_deluxe_event_pass_track_unlock_title",
-      "description": "gofest_2025_finale_deluxe_event_pass_track_unlock_description",
-      "skuEnableTime": "2024-08-18T10:00:00",
-      "skuDisableTime": "2025-08-26T21:00:00",
-      "skuEnableTimeUtcMs": "1723975200000",
-      "skuDisableTimeUtcMs": "1756242000000",
-      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FPGO-MCS_Eternatus_Adventure_Effect_v2-1024x576.jpg"
+      "title": "event_pass_gofest2026_finale_base_track_title",
+      "description": "deluxe_event_pass_track_unlock_description",
+      "skuEnableTime": "2026-08-31T10:00:00",
+      "skuDisableTime": "2026-09-08T23:59:59",
+      "skuEnableTimeUtcMs": "1788170400000",
+      "skuDisableTimeUtcMs": "1788911999000",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Ff26f8d69_PGO-MCS_GO_Pass_Mega_Finale_Deluxe_v2-720x360-nologo.jpg"
     }
   },
   {
@@ -422,7 +424,7 @@
   {
     "templateId": "EVENT_PASS_MONTH1_SEASON_STORE_REDIRECT",
     "data": {
-      "sku": "pgorelease.month1_deluxe_event_pass_track_unlock_redirect",
+      "sku": "pgorelease.month1_deluxe_event_pass_track_redirect",
       "sortOrder": 1,
       "hidden": true,
       "title": "season_pass_premium_track_title_sep",
@@ -10365,12 +10367,12 @@
       "sortOrder": 2,
       "hidden": true,
       "spriteId": "general1.ticket.2",
-      "title": "general1.ticket_CD_Nickit26_title",
+      "title": "general1.ticket_CDC_Gible26_title",
       "skuEnableTime": "2019-03-14T08:00:00",
-      "skuDisableTime": "2026-08-16T17:00:00",
+      "skuDisableTime": "2026-09-12T17:00:00",
       "skuEnableTimeUtcMs": "1552550400000",
-      "skuDisableTimeUtcMs": "1786899600000",
-      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F11274b46_PGO_MCS_CD_KeyArt_Nickit_v1-1024x576-nologo.jpg",
+      "skuDisableTimeUtcMs": "1789232400000",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fdaa6a9dd_PGO_MCS_CD_Classic_KeyArt_Gible_v1-1024x576.jpg",
       "useEnvironmentPrefix": true
     }
   },
@@ -10760,45 +10762,17 @@
     }
   },
   {
-    "templateId": "pgorelease.august3_deluxe_event_pass_track_unlock",
-    "data": {
-      "sku": "pgorelease.august3_deluxe_event_pass_track_unlock",
-      "sortOrder": 1,
-      "title": "season_pass_premium_track_title_WCS_2026",
-      "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
-      "skuEnableTime": "2025-08-25T10:00:00",
-      "skuDisableTime": "2026-09-01T20:00:00",
-      "skuEnableTimeUtcMs": "1756116000000",
-      "skuDisableTimeUtcMs": "1788292800000",
-      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Ff9eaebcb_PGO-WCS_2026_Backpack_v2-1024x512-nologo.jpg"
-    }
-  },
-  {
-    "templateId": "pgorelease.august3_deluxe_event_pass_track_unlock_plus_points",
-    "data": {
-      "sku": "pgorelease.august3_deluxe_event_pass_track_unlock_plus_points",
-      "sortOrder": 1,
-      "title": "season_pass_premium_track_plus_six_ranks_title_WCS_2026",
-      "description": "event_pass_plus_points_6_ranks_description",
-      "skuEnableTime": "2025-08-25T10:00:00",
-      "skuDisableTime": "2026-09-01T20:00:00",
-      "skuEnableTimeUtcMs": "1756116000000",
-      "skuDisableTimeUtcMs": "1788292800000",
-      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Ff9eaebcb_PGO-WCS_2026_Backpack_v2-1024x512-nologo.jpg"
-    }
-  },
-  {
     "templateId": "pgorelease.august3_deluxe_event_pass_track_unlock_redirect",
     "data": {
       "sku": "pgorelease.august3_deluxe_event_pass_track_unlock_redirect",
-      "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 1,
+      "hidden": true,
       "title": "season_pass_premium_track_title_WCS_2026",
       "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
       "skuEnableTime": "2025-08-25T10:00:00",
-      "skuDisableTime": "2026-09-01T20:00:00",
+      "skuDisableTime": "2025-09-01T20:00:00",
       "skuEnableTimeUtcMs": "1756116000000",
-      "skuDisableTimeUtcMs": "1788292800000",
+      "skuDisableTimeUtcMs": "1756756800000",
       "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Ff9eaebcb_PGO-WCS_2026_Backpack_v2-1024x512-nologo.jpg"
     }
   },
@@ -11853,6 +11827,58 @@
       "skuEnableTimeUtcMs": "1783296000000",
       "skuDisableTimeUtcMs": "1784073599000",
       "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fd07cba0c_PGO-MCS_GOFest_2026_GOPass_v3-16x9.jpg"
+    }
+  },
+  {
+    "templateId": "pgorelease.gofest_deluxe_event_pass_track_unlock",
+    "data": {
+      "sku": "pgorelease.gofest_deluxe_event_pass_track_unlock",
+      "sortOrder": 1,
+      "title": "event_pass_gofest2026_finale_base_track_title",
+      "description": "deluxe_event_pass_track_unlock_description",
+      "skuEnableTime": "2026-08-07T10:00:00",
+      "skuDisableTime": "2026-08-15T23:59:59",
+      "skuEnableTimeUtcMs": "1786096800000",
+      "skuDisableTimeUtcMs": "1786838399000"
+    }
+  },
+  {
+    "templateId": "pgorelease.gofest_deluxe_event_pass_track_unlock_plus_points",
+    "data": {
+      "sku": "pgorelease.gofest_deluxe_event_pass_track_unlock_plus_points",
+      "sortOrder": 1,
+      "title": "event_pass_gofest2026_finale_premium_track_title",
+      "description": "deluxe_event_pass_track_unlock_plus_points_description",
+      "skuEnableTime": "2026-08-07T10:00:00",
+      "skuDisableTime": "2026-08-15T23:59:59",
+      "skuEnableTimeUtcMs": "1786096800000",
+      "skuDisableTimeUtcMs": "1786838399000"
+    }
+  },
+  {
+    "templateId": "pgorelease.gofest_finale_2025_deluxe_event_pass_track_unlock",
+    "data": {
+      "sku": "pgorelease.gofest_finale_2025_deluxe_event_pass_track_unlock",
+      "sortOrder": 1,
+      "title": "event_pass_gofest2026_finale_base_track_title",
+      "description": "deluxe_event_pass_track_unlock_description",
+      "skuEnableTime": "2026-08-31T10:00:00",
+      "skuDisableTime": "2026-09-08T23:59:59",
+      "skuEnableTimeUtcMs": "1788170400000",
+      "skuDisableTimeUtcMs": "1788911999000"
+    }
+  },
+  {
+    "templateId": "pgorelease.gofest_finale_2025_deluxe_event_pass_track_unlock_plus_points",
+    "data": {
+      "sku": "pgorelease.gofest_finale_2025_deluxe_event_pass_track_unlock_plus_points",
+      "sortOrder": 1,
+      "title": "event_pass_gofest2026_finale_premium_track_title",
+      "description": "deluxe_event_pass_track_unlock_plus_points_description",
+      "skuEnableTime": "2026-08-31T10:00:00",
+      "skuDisableTime": "2026-09-08T23:59:59",
+      "skuEnableTimeUtcMs": "1788170400000",
+      "skuDisableTimeUtcMs": "1788911999000"
     }
   },
   {

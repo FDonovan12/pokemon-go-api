@@ -11862,6 +11862,114 @@
     }
   },
   {
+    "templateId": "V0025_POKEMON_PIKACHU_K_2026_A_01",
+    "data": {
+      "pokemonId": "PIKACHU",
+      "modelScale": 1.48,
+      "type": "POKEMON_TYPE_ELECTRIC",
+      "camera": {
+        "diskRadiusM": 0.555,
+        "cylinderRadiusM": 0.37,
+        "cylinderHeightM": 0.5,
+        "shoulderModeScale": 0.5
+      },
+      "encounter": {
+        "collisionRadiusM": 0.16,
+        "collisionHeightM": 0.16,
+        "collisionHeadRadiusM": 0.13,
+        "movementType": "MOVEMENT_JUMP",
+        "movementTimerS": 10,
+        "jumpTimeS": 1,
+        "attackTimerS": 29,
+        "attackProbability": 0.1,
+        "dodgeProbability": 0.15,
+        "dodgeDurationS": 1,
+        "dodgeDistance": 1,
+        "cameraDistance": 2.775,
+        "minPokemonActionFrequencyS": 0.2,
+        "maxPokemonActionFrequencyS": 1.6
+      },
+      "stats": {
+        "baseStamina": 111,
+        "baseAttack": 112,
+        "baseDefense": 96
+      },
+      "quickMoves": [
+        "THUNDER_SHOCK_FAST",
+        "QUICK_ATTACK_FAST"
+      ],
+      "cinematicMoves": [
+        "DISCHARGE",
+        "THUNDERBOLT",
+        "WILD_CHARGE"
+      ],
+      "animationTime": [
+        1.8333,
+        0.6667,
+        1.6,
+        1.5667,
+        0,
+        1.8,
+        1.1333,
+        1.066667
+      ],
+      "evolutionPips": 1,
+      "pokedexHeightM": 0.4,
+      "pokedexWeightKg": 6,
+      "parentPokemonId": "PICHU",
+      "heightStdDev": 0.05,
+      "weightStdDev": 0.75,
+      "familyId": "FAMILY_PIKACHU",
+      "candyToEvolve": 50,
+      "kmBuddyDistance": 1,
+      "buddySize": "BUDDY_SHOULDER",
+      "modelHeight": 0.4,
+      "modelScaleV2": 1.1,
+      "form": 3361,
+      "buddyOffsetMale": [
+        0,
+        0,
+        0
+      ],
+      "buddyOffsetFemale": [
+        0,
+        0,
+        0
+      ],
+      "buddyScale": 11,
+      "thirdMove": {
+        "stardustToUnlock": 10000,
+        "candyToUnlock": 25
+      },
+      "isTransferable": true,
+      "isDeployable": true,
+      "isTradable": true,
+      "buddyGroupNumber": 1,
+      "eliteQuickMove": [
+        "PRESENT_FAST"
+      ],
+      "eliteCinematicMove": [
+        "SURF",
+        "THUNDER"
+      ],
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5,
+          "tempEvoId": "TEMP_EVOLUTION_MEGA_X"
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5,
+          "tempEvoId": "TEMP_EVOLUTION_MEGA_Y"
+        }
+      ],
+      "disableTransferToPokemonHome": true,
+      "ibfc": {},
+      "breadTierGroup": "GROUP_1"
+    }
+  },
+  {
     "templateId": "V0025_POKEMON_PIKACHU_NORMAL",
     "data": {
       "pokemonId": "PIKACHU",
@@ -104495,6 +104603,7 @@
         "shadowChargeMove": "FRUSTRATION"
       },
       "buddyGroupNumber": 2,
+      "buddyWalkedMegaEnergyAward": 25,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
     }
@@ -104600,6 +104709,7 @@
         "shadowChargeMove": "FRUSTRATION"
       },
       "buddyGroupNumber": 2,
+      "buddyWalkedMegaEnergyAward": 25,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
     }
@@ -104711,6 +104821,7 @@
         "shadowChargeMove": "FRUSTRATION"
       },
       "buddyGroupNumber": 4,
+      "buddyWalkedMegaEnergyAward": 25,
       "useIrisFlyingPlacement": true,
       "irisPhotoEmote1": "PhysicalAttack",
       "ibfc": {},
@@ -104825,6 +104936,7 @@
         "shadowChargeMove": "FRUSTRATION"
       },
       "buddyGroupNumber": 4,
+      "buddyWalkedMegaEnergyAward": 25,
       "useIrisFlyingPlacement": true,
       "irisPhotoEmote1": "PhysicalAttack",
       "ibfc": {},
@@ -104904,6 +105016,13 @@
       "kmBuddyDistance": 1,
       "buddySize": "BUDDY_FLYING",
       "modelHeight": 2.34,
+      "evolutionBranch": [
+        {
+          "temporaryEvolution": "TEMP_EVOLUTION_MEGA",
+          "temporaryEvolutionEnergyCost": 300,
+          "temporaryEvolutionEnergyCostSubsequent": 60
+        }
+      ],
       "modelScaleV2": 0.95,
       "buddyOffsetMale": [
         4.3,
@@ -104933,6 +105052,21 @@
       "eliteQuickMove": [
         "GUST_FAST"
       ],
+      "tempEvoOverrides": [
+        {
+          "tempEvoId": "TEMP_EVOLUTION_MEGA",
+          "stats": {
+            "baseStamina": 198,
+            "baseAttack": 278,
+            "baseDefense": 207
+          },
+          "averageHeightM": 1.9,
+          "averageWeightKg": 50,
+          "typeOverride1": "POKEMON_TYPE_FIGHTING",
+          "typeOverride2": "POKEMON_TYPE_FLYING"
+        }
+      ],
+      "buddyWalkedMegaEnergyAward": 25,
       "useIrisFlyingPlacement": true,
       "irisPhotoEmote1": "PhysicalAttack",
       "ibfc": {},
@@ -105012,6 +105146,13 @@
       "kmBuddyDistance": 1,
       "buddySize": "BUDDY_FLYING",
       "modelHeight": 2.34,
+      "evolutionBranch": [
+        {
+          "temporaryEvolution": "TEMP_EVOLUTION_MEGA",
+          "temporaryEvolutionEnergyCost": 300,
+          "temporaryEvolutionEnergyCostSubsequent": 60
+        }
+      ],
       "modelScaleV2": 0.95,
       "form": "STARAPTOR_NORMAL",
       "buddyOffsetMale": [
@@ -105042,6 +105183,21 @@
       "eliteQuickMove": [
         "GUST_FAST"
       ],
+      "tempEvoOverrides": [
+        {
+          "tempEvoId": "TEMP_EVOLUTION_MEGA",
+          "stats": {
+            "baseStamina": 198,
+            "baseAttack": 278,
+            "baseDefense": 207
+          },
+          "averageHeightM": 1.9,
+          "averageWeightKg": 50,
+          "typeOverride1": "POKEMON_TYPE_FIGHTING",
+          "typeOverride2": "POKEMON_TYPE_FLYING"
+        }
+      ],
+      "buddyWalkedMegaEnergyAward": 25,
       "useIrisFlyingPlacement": true,
       "irisPhotoEmote1": "PhysicalAttack",
       "ibfc": {},
@@ -222579,13 +222735,20 @@
     "data": {
       "pokemonId": "MASCHIFF",
       "type": "POKEMON_TYPE_DARK",
-      "camera": {},
+      "camera": {
+        "cylinderRadiusM": 0.58,
+        "cylinderHeightM": 0.51
+      },
       "encounter": {
+        "collisionRadiusM": 0.2,
+        "collisionHeightM": 0.2,
+        "collisionHeadRadiusM": 0.25,
         "movementType": "MOVEMENT_JUMP",
         "jumpTimeS": 1,
         "attackProbability": 0.1,
         "dodgeProbability": 0.15,
         "dodgeDurationS": 1,
+        "cameraDistance": 4,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
@@ -222600,7 +222763,7 @@
       ],
       "cinematicMoves": [
         "CRUNCH",
-        "PAYBACK",
+        "PSYCHIC_FANGS",
         "DIG"
       ],
       "pokedexHeightM": 0.5,
@@ -222609,12 +222772,15 @@
       "weightStdDev": 2,
       "familyId": "FAMILY_MASCHIFF",
       "kmBuddyDistance": 3,
+      "modelHeight": 0.62,
       "evolutionBranch": [
         {
           "evolution": "MABOSSTIFF",
           "candyCost": 50
         }
       ],
+      "modelScaleV2": 1,
+      "buddyScale": 19,
       "thirdMove": {
         "stardustToUnlock": 50000,
         "candyToUnlock": 50
@@ -222622,6 +222788,8 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "buddyGroupNumber": 2,
+      "raidBossDistanceOffset": 2,
       "ibfc": {},
       "breadTierGroup": "GROUP_2"
     }
@@ -222631,13 +222799,20 @@
     "data": {
       "pokemonId": "MASCHIFF",
       "type": "POKEMON_TYPE_DARK",
-      "camera": {},
+      "camera": {
+        "cylinderRadiusM": 0.58,
+        "cylinderHeightM": 0.51
+      },
       "encounter": {
+        "collisionRadiusM": 0.2,
+        "collisionHeightM": 0.2,
+        "collisionHeadRadiusM": 0.25,
         "movementType": "MOVEMENT_JUMP",
         "jumpTimeS": 1,
         "attackProbability": 0.1,
         "dodgeProbability": 0.15,
         "dodgeDurationS": 1,
+        "cameraDistance": 4,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
@@ -222652,7 +222827,7 @@
       ],
       "cinematicMoves": [
         "CRUNCH",
-        "PAYBACK",
+        "PSYCHIC_FANGS",
         "DIG"
       ],
       "pokedexHeightM": 0.5,
@@ -222661,6 +222836,7 @@
       "weightStdDev": 2,
       "familyId": "FAMILY_MASCHIFF",
       "kmBuddyDistance": 3,
+      "modelHeight": 0.62,
       "evolutionBranch": [
         {
           "evolution": "MABOSSTIFF",
@@ -222668,7 +222844,9 @@
           "form": "MABOSSTIFF_NORMAL"
         }
       ],
+      "modelScaleV2": 1,
       "form": "MASCHIFF_NORMAL",
+      "buddyScale": 19,
       "thirdMove": {
         "stardustToUnlock": 50000,
         "candyToUnlock": 50
@@ -222676,6 +222854,8 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "buddyGroupNumber": 2,
+      "raidBossDistanceOffset": 2,
       "ibfc": {},
       "breadTierGroup": "GROUP_2"
     }
@@ -222685,8 +222865,14 @@
     "data": {
       "pokemonId": "MABOSSTIFF",
       "type": "POKEMON_TYPE_DARK",
-      "camera": {},
+      "camera": {
+        "cylinderRadiusM": 1.08,
+        "cylinderHeightM": 1.26
+      },
       "encounter": {
+        "collisionRadiusM": 0.2,
+        "collisionHeightM": 0.2,
+        "collisionHeadRadiusM": 0.25,
         "movementType": "MOVEMENT_JUMP",
         "jumpTimeS": 1,
         "bonusCandyCaptureReward": 2,
@@ -222694,6 +222880,7 @@
         "attackProbability": 0.1,
         "dodgeProbability": 0.15,
         "dodgeDurationS": 1,
+        "cameraDistance": 5,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6,
         "bonusXlCandyCaptureReward": 1
@@ -222709,7 +222896,7 @@
       ],
       "cinematicMoves": [
         "CRUNCH",
-        "PAYBACK",
+        "PSYCHIC_FANGS",
         "DIG"
       ],
       "pokedexHeightM": 1.1,
@@ -222719,6 +222906,9 @@
       "weightStdDev": 7.625,
       "familyId": "FAMILY_MASCHIFF",
       "kmBuddyDistance": 3,
+      "modelHeight": 1.38,
+      "modelScaleV2": 1,
+      "buddyScale": 19,
       "thirdMove": {
         "stardustToUnlock": 50000,
         "candyToUnlock": 50
@@ -222726,6 +222916,8 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "buddyGroupNumber": 3,
+      "raidBossDistanceOffset": 6,
       "ibfc": {},
       "breadTierGroup": "GROUP_2"
     }
@@ -222735,8 +222927,14 @@
     "data": {
       "pokemonId": "MABOSSTIFF",
       "type": "POKEMON_TYPE_DARK",
-      "camera": {},
+      "camera": {
+        "cylinderRadiusM": 1.08,
+        "cylinderHeightM": 1.26
+      },
       "encounter": {
+        "collisionRadiusM": 0.2,
+        "collisionHeightM": 0.2,
+        "collisionHeadRadiusM": 0.25,
         "movementType": "MOVEMENT_JUMP",
         "jumpTimeS": 1,
         "bonusCandyCaptureReward": 2,
@@ -222744,6 +222942,7 @@
         "attackProbability": 0.1,
         "dodgeProbability": 0.15,
         "dodgeDurationS": 1,
+        "cameraDistance": 5,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6,
         "bonusXlCandyCaptureReward": 1
@@ -222759,7 +222958,7 @@
       ],
       "cinematicMoves": [
         "CRUNCH",
-        "PAYBACK",
+        "PSYCHIC_FANGS",
         "DIG"
       ],
       "pokedexHeightM": 1.1,
@@ -222769,7 +222968,10 @@
       "weightStdDev": 7.625,
       "familyId": "FAMILY_MASCHIFF",
       "kmBuddyDistance": 3,
+      "modelHeight": 1.38,
+      "modelScaleV2": 1,
       "form": "MABOSSTIFF_NORMAL",
+      "buddyScale": 19,
       "thirdMove": {
         "stardustToUnlock": 50000,
         "candyToUnlock": 50
@@ -222777,6 +222979,8 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "buddyGroupNumber": 3,
+      "raidBossDistanceOffset": 6,
       "ibfc": {},
       "breadTierGroup": "GROUP_2"
     }

@@ -7984,6 +7984,66 @@
     }
   },
   {
+    "templateId": "COMBAT_LEAGUE_VS_SEEKER_COLOR_GREAT_MEGAS",
+    "data": {
+      "title": "mega_color_cup_great_title",
+      "enabled": true,
+      "unlockCondition": [
+        {
+          "type": "WITH_UNIQUE_POKEMON",
+          "minPokemonCount": 3
+        }
+      ],
+      "pokemonCondition": [
+        {
+          "type": "WITH_POKEMON_CP_LIMIT",
+          "withPokemonCpLimit": {
+            "maxCp": 1500
+          }
+        },
+        {
+          "type": "WITH_UNIQUE_POKEMON"
+        },
+        {
+          "type": "WITH_POKEMON_TYPE",
+          "withPokemonType": {
+            "pokemonType": [
+              "POKEMON_TYPE_FIRE",
+              "POKEMON_TYPE_ELECTRIC",
+              "POKEMON_TYPE_WATER",
+              "POKEMON_TYPE_GRASS"
+            ]
+          }
+        }
+      ],
+      "iconUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fe5891216_MegaColorCup_icon.png",
+      "pokemonCount": 3,
+      "bannedPokemon": [
+        "DITTO",
+        "SHEDINJA",
+        "COBALION",
+        "TERRAKION",
+        "VIRIZION",
+        "ZEKROM",
+        "KYUREM",
+        "TAPU_KOKO",
+        "TAPU_LELE",
+        "TAPU_BULU",
+        "SOLGALEO",
+        "LUNALA",
+        "ZACIAN",
+        "ZAMAZENTA",
+        "ENAMORUS",
+        "XERNEAS",
+        "YVELTAL"
+      ],
+      "badgeType": "BADGE_GREAT_LEAGUE",
+      "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
+      "leagueType": "PREMIER",
+      "allowTempEvos": true
+    }
+  },
+  {
     "templateId": "COMBAT_LEAGUE_VS_SEEKER_ELEMENT_REMIX",
     "data": {
       "title": "element_remix_cup_title",
@@ -14461,6 +14521,80 @@
     }
   },
   {
+    "templateId": "COMBAT_LEAGUE_VS_SEEKER_GREAT_CATCH_S24_MEGAS",
+    "data": {
+      "title": "mega_catch_cup_great_title",
+      "enabled": true,
+      "unlockCondition": [
+        {
+          "type": "WITH_UNIQUE_POKEMON",
+          "minPokemonCount": 3
+        }
+      ],
+      "pokemonCondition": [
+        {
+          "type": "WITH_POKEMON_CP_LIMIT",
+          "withPokemonCpLimit": {
+            "maxCp": 1500
+          }
+        },
+        {
+          "type": "WITH_UNIQUE_POKEMON"
+        },
+        {
+          "type": "POKEMON_CAUGHT_TIMESTAMP",
+          "pokemonCaughtTimestamp": {
+            "afterTimestamp": "1788897600000",
+            "beforeTimestamp": "1796158800000"
+          }
+        }
+      ],
+      "iconUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fb5bc1551_MegaCatchCup_icon.png",
+      "pokemonCount": 3,
+      "bannedPokemon": [
+        "DITTO",
+        "SHEDINJA",
+        "MEW",
+        "CELEBI",
+        "JIRACHI",
+        "DEOXYS",
+        "DARKRAI",
+        "VICTINI",
+        "MELOETTA",
+        "GENESECT",
+        "HOOPA",
+        "MELTAN",
+        "MELMETAL",
+        "ZARUDE",
+        "DIANCIE",
+        "SHAYMIN",
+        "KELDEO",
+        "VOLCANION",
+        "MARSHADOW",
+        "XERNEAS",
+        "YVELTAL",
+        "COBALION",
+        "TERRAKION",
+        "VIRIZION",
+        "ZEKROM",
+        "KYUREM",
+        "TAPU_KOKO",
+        "TAPU_LELE",
+        "TAPU_BULU",
+        "SOLGALEO",
+        "LUNALA",
+        "ZACIAN",
+        "ZAMAZENTA",
+        "ENAMORUS",
+        "ZERAORA"
+      ],
+      "badgeType": "BADGE_GREAT_LEAGUE",
+      "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
+      "leagueType": "PREMIER",
+      "allowTempEvos": true
+    }
+  },
+  {
     "templateId": "COMBAT_LEAGUE_VS_SEEKER_GREAT_CATCH_S8",
     "data": {
       "title": "gofest_2022_catch_cup_title",
@@ -18001,6 +18135,67 @@
       "badgeType": "BADGE_GREAT_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
       "leagueType": "PREMIER"
+    }
+  },
+  {
+    "templateId": "COMBAT_LEAGUE_VS_SEEKER_GREAT_HALLOWEEN_MEGAS",
+    "data": {
+      "title": "mega_halloween_cup_great_title",
+      "enabled": true,
+      "unlockCondition": [
+        {
+          "type": "WITH_UNIQUE_POKEMON",
+          "minPokemonCount": 3
+        }
+      ],
+      "pokemonCondition": [
+        {
+          "type": "WITH_POKEMON_CP_LIMIT",
+          "withPokemonCpLimit": {
+            "maxCp": 1500
+          }
+        },
+        {
+          "type": "WITH_UNIQUE_POKEMON"
+        },
+        {
+          "type": "WITH_POKEMON_TYPE",
+          "withPokemonType": {
+            "pokemonType": [
+              "POKEMON_TYPE_BUG",
+              "POKEMON_TYPE_POISON",
+              "POKEMON_TYPE_DARK",
+              "POKEMON_TYPE_FAIRY",
+              "POKEMON_TYPE_GHOST"
+            ]
+          }
+        }
+      ],
+      "iconUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F03c91055_MegaHalloweenCup_icon.png",
+      "pokemonCount": 3,
+      "bannedPokemon": [
+        "DITTO",
+        "SHEDINJA",
+        "COBALION",
+        "TERRAKION",
+        "VIRIZION",
+        "ZEKROM",
+        "KYUREM",
+        "TAPU_KOKO",
+        "TAPU_LELE",
+        "TAPU_BULU",
+        "SOLGALEO",
+        "LUNALA",
+        "ZACIAN",
+        "ZAMAZENTA",
+        "ENAMORUS",
+        "XERNEAS",
+        "YVELTAL"
+      ],
+      "badgeType": "BADGE_GREAT_LEAGUE",
+      "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
+      "leagueType": "PREMIER",
+      "allowTempEvos": true
     }
   },
   {

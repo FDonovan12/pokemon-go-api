@@ -1493,7 +1493,10 @@
     "templateId": "V0396_FAMILY_STARLY",
     "data": {
       "familyId": "FAMILY_STARLY",
-      "candyPerXlCandy": 100
+      "candyPerXlCandy": 100,
+      "megaEvolvablePokemonIds": [
+        "STARAPTOR"
+      ]
     }
   },
   {

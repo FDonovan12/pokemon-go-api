@@ -32,6 +32,12 @@
     }
   },
   {
+    "templateId": "MEMORY_CLEANUP_CODE_GATE",
+    "data": {
+      "isEnabled": true
+    }
+  },
+  {
     "templateId": "TODAY_VIEW_V3_CODE_GATE",
     "data": {
       "isEnabled": true
