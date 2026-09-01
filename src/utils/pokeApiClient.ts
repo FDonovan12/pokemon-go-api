@@ -1,16 +1,22 @@
 import { httpRetryClient } from './httpRetryClient.js';
 
 class PokeApiClient {
-    private readonly speciesCache = new Map<number, any>();
+    private readonly speciesCache = new Map<number, Promise<any>>();
 
-    async fetchPokemonSpecies(dexNumber: number): Promise<any> {
-        if (this.speciesCache.has(dexNumber)) return this.speciesCache.get(dexNumber);
+    fetchPokemonSpecies(dexNumber: number): Promise<any> {
+        const cached = this.speciesCache.get(dexNumber);
 
-        const data = await httpRetryClient.fetchJson(
+        if (cached) {
+            return cached;
+        }
+
+        const request = httpRetryClient.fetchJson(
             `https://pokeapi.co/api/v2/pokemon-species/${dexNumber}`,
         );
-        this.speciesCache.set(dexNumber, data);
-        return data;
+
+        this.speciesCache.set(dexNumber, request);
+
+        return request;
     }
 }
 

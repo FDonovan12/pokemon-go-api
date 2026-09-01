@@ -10,24 +10,45 @@ export class HttpRetryClient {
         delayMs = this.defaultDelayMs,
     ): Promise<T> {
         for (let attempt = 0; attempt <= retries; attempt++) {
-            const res = await fetch(url);
+            try {
+                const res = await fetch(url);
 
-            if (res.ok) return res.json();
+                if (res.ok) {
+                    return (await res.json()) as T;
+                }
 
-            // 429 = rate limit, 5xx = erreur serveur temporaire -> on retry
-            if ((res.status === 429 || res.status >= 500) && attempt < retries) {
-                const wait = delayMs * 2 ** attempt; // backoff exponentiel
+                // 429 = rate limit, 5xx = erreur serveur temporaire
+                if ((res.status === 429 || res.status >= 500) && attempt < retries) {
+                    const wait = delayMs * 2 ** attempt;
+
+                    console.log(
+                        `⚠️ ${res.status} sur ${url}, retry dans ${wait}ms ` +
+                            `(tentative ${attempt + 1}/${retries})`,
+                    );
+
+                    await new Promise((resolve) => setTimeout(resolve, wait));
+                    continue;
+                }
+
+                throw new Error(`Échec fetch ${url} : ${res.status} ${res.statusText}`);
+            } catch (error) {
+                if (attempt >= retries) {
+                    throw error;
+                }
+
+                const wait = delayMs * 2 ** attempt;
+
                 console.log(
-                    `⚠️  ${res.status} sur ${url}, retry dans ${wait}ms (tentative ${attempt + 1}/${retries})`,
+                    `⚠️ Erreur réseau sur ${url}: ${error instanceof Error ? error.message : error}. ` +
+                        `Retry dans ${wait}ms ` +
+                        `(tentative ${attempt + 1}/${retries})`,
                 );
-                await new Promise((resolve) => setTimeout(resolve, wait));
-                continue;
-            }
 
-            throw new Error(`Échec fetch ${url} : ${res.status} ${res.statusText}`);
+                await new Promise((resolve) => setTimeout(resolve, wait));
+            }
         }
 
-        throw new Error(`Échec fetch ${url} après ${retries} tentatives`);
+        throw new Error(`Échec fetch ${url} après ${retries + 1} tentatives`);
     }
 }
 

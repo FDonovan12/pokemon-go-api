@@ -51,11 +51,11 @@ export default class PokemonSettingGenerator extends FileGenerator {
                 const image = getImage(megaId);
                 const types = [mega.typeOverride1, mega.typeOverride2].compact();
                 const hasLevel4 =
-                    (this.evoLevel?.filter(
+                    this.evoLevel?.some(
                         (level) =>
                             level.templateId.includes(pokemon.base.pokemonId) &&
                             level.templateId.includes('MEGA_EVOLUTION_LEVEL_4'),
-                    ).length ?? 0) > 0;
+                    ) ?? false;
                 return { megaAttack, stats, image, types, hasLevel4 };
             }) ?? [],
         );
