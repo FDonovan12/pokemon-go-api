@@ -20,6 +20,10 @@
     "typeName": "PokemonSetting"
   },
   {
+    "file": "pokestop.json",
+    "typeName": "Pokestop"
+  },
+  {
     "file": "raidMove/fast-move.json",
     "typeName": "RaidMoveFastMove"
   },

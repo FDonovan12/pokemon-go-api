@@ -670,6 +670,14 @@ export interface PurpleTempEvoOverride {
     raidBossDistanceOffset: number;
 }
 
+export interface Pokestop {
+    id:   string;
+    name: string;
+    lat:  number;
+    lon:  number;
+    url:  string;
+}
+
 export interface RaidMoveFastMove {
     FURY_CUTTER_FAST:         AcidSpray;
     BUG_BITE_FAST:            AcidSpray;
