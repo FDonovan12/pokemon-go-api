@@ -105063,7 +105063,17 @@
           "averageHeightM": 1.9,
           "averageWeightKg": 50,
           "typeOverride1": "POKEMON_TYPE_FIGHTING",
-          "typeOverride2": "POKEMON_TYPE_FLYING"
+          "typeOverride2": "POKEMON_TYPE_FLYING",
+          "camera": {
+            "cylinderRadiusM": 1,
+            "cylinderHeightM": 3.6,
+            "cylinderGroundM": 0.3
+          },
+          "buddyPortraitOffset": [
+            0,
+            0,
+            300
+          ]
         }
       ],
       "buddyWalkedMegaEnergyAward": 25,
@@ -105194,7 +105204,17 @@
           "averageHeightM": 1.9,
           "averageWeightKg": 50,
           "typeOverride1": "POKEMON_TYPE_FIGHTING",
-          "typeOverride2": "POKEMON_TYPE_FLYING"
+          "typeOverride2": "POKEMON_TYPE_FLYING",
+          "camera": {
+            "cylinderRadiusM": 1,
+            "cylinderHeightM": 3.6,
+            "cylinderGroundM": 0.3
+          },
+          "buddyPortraitOffset": [
+            0,
+            0,
+            300
+          ]
         }
       ],
       "buddyWalkedMegaEnergyAward": 25,
