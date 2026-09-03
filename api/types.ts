@@ -595,6 +595,8 @@ export interface EvolutionId {
 }
 
 export interface Mega {
+    name:        string;
+    slug:        string;
     stats?:      Stats;
     image:       string;
     types:       string[];
