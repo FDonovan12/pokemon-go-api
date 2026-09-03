@@ -31,7 +31,6 @@ export default class PokemonSettingGenerator extends FileGenerator {
                 variety.pokemon.name.slugifyIncludes(evotype) &&
                 variety.pokemon.name.slugifyIncludes(name.kebabCase()),
         );
-        console.log(variety);
         return +variety[0]?.pokemon.url.split('/')?.filter(Boolean)?.last() || dexNumber;
     }
 
@@ -50,13 +49,17 @@ export default class PokemonSettingGenerator extends FileGenerator {
                 const stats = mega.stats;
                 const image = getImage(megaId);
                 const types = [mega.typeOverride1, mega.typeOverride2].compact();
+                const megaType = mega.tempEvoId?.replace('TEMP_EVOLUTION_', '').split('_') ?? [];
+                const name =
+                    `${megaType[0]} ${pokemon.base.name}${megaType[1] ? ' ' + megaType[1] : ''}`?.titleCase();
+                const slug = name?.slugify();
                 const hasLevel4 =
                     this.evoLevel?.some(
                         (level) =>
                             level.templateId.includes(pokemon.base.pokemonId) &&
                             level.templateId.includes('MEGA_EVOLUTION_LEVEL_4'),
                     ) ?? false;
-                return { megaAttack, stats, image, types, hasLevel4 };
+                return { name, slug, megaAttack, stats, image, types, hasLevel4 };
             }) ?? [],
         );
     }

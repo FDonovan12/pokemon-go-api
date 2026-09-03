@@ -18,7 +18,7 @@ export async function loadGenerators(folder: string, options: LoadGeneratorsOpti
         if (!file.endsWith('.ts') && !file.endsWith('.js')) continue;
 
         const baseName = path.basename(file, path.extname(file));
-        if (only && only.length > 0 && !only.slugifyIncludes(baseName)) continue;
+        if (only && only.length > 0 && !only.some((arg) => baseName.slugifyIncludes(arg))) continue;
 
         const filePath = path.join(folder, file);
         const fileUrl = pathToFileURL(filePath).href;
@@ -33,6 +33,7 @@ export async function loadGenerators(folder: string, options: LoadGeneratorsOpti
         if (maxSpeed !== undefined && instance.getSpeed() > maxSpeed) continue;
 
         generators.push(instance);
+        console.log(`${baseName} ajouté au générateurs`);
     }
 
     return generators;
