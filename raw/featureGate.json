@@ -149,48 +149,8 @@
       "rolloutPercentage": 100,
       "subFeatureGateList": [
         {
-          "name": "MEGA_LEVELS_TUTORIAL_SUB_FEATURE_GATE",
-          "status": 817843414,
-          "rolloutPercentage": 100
-        },
-        {
-          "name": "MEGA_EVOLVE_BUTTON_SUB_FEATURE_GATE",
-          "status": 466713653,
-          "rolloutPercentage": 100
-        },
-        {
-          "name": "MEGA_HUD_SUB_FEATURE_GATE",
-          "status": 292744512,
-          "rolloutPercentage": 100
-        },
-        {
-          "name": "MEGA_HUD_TIMER_SUB_FEATURE_GATE",
-          "status": 991283745,
-          "rolloutPercentage": 100
-        },
-        {
-          "name": "MEGA_2026_FTUE_SUB_FEATURE_GATE",
-          "status": 382901475,
-          "rolloutPercentage": 100
-        },
-        {
-          "name": "MEGA_LEVEL_4_ENABLED_SUB_FEATURE_GATE",
-          "status": 311989544,
-          "rolloutPercentage": 100
-        },
-        {
-          "name": "REMOTE_NC_HELP_TEXT_SUB_FEATURE_GATE",
-          "status": 222,
-          "rolloutPercentage": 100
-        },
-        {
           "name": "MEGA_LEVEL_SPEEDUP_SUB_FEATURE_GATE",
           "status": 344171892,
-          "rolloutPercentage": 100
-        },
-        {
-          "name": "THIRD_CHARGE_MOVE_SUB_FEATURE_GATE",
-          "status": 755488416,
           "rolloutPercentage": 100
         },
         {

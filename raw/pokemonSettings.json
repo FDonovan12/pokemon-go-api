@@ -104603,7 +104603,7 @@
         "shadowChargeMove": "FRUSTRATION"
       },
       "buddyGroupNumber": 2,
-      "buddyWalkedMegaEnergyAward": 25,
+      "buddyWalkedMegaEnergyAward": 5,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
     }
@@ -104709,7 +104709,7 @@
         "shadowChargeMove": "FRUSTRATION"
       },
       "buddyGroupNumber": 2,
-      "buddyWalkedMegaEnergyAward": 25,
+      "buddyWalkedMegaEnergyAward": 5,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
     }
@@ -104821,7 +104821,7 @@
         "shadowChargeMove": "FRUSTRATION"
       },
       "buddyGroupNumber": 4,
-      "buddyWalkedMegaEnergyAward": 25,
+      "buddyWalkedMegaEnergyAward": 5,
       "useIrisFlyingPlacement": true,
       "irisPhotoEmote1": "PhysicalAttack",
       "ibfc": {},
@@ -104936,7 +104936,7 @@
         "shadowChargeMove": "FRUSTRATION"
       },
       "buddyGroupNumber": 4,
-      "buddyWalkedMegaEnergyAward": 25,
+      "buddyWalkedMegaEnergyAward": 5,
       "useIrisFlyingPlacement": true,
       "irisPhotoEmote1": "PhysicalAttack",
       "ibfc": {},
@@ -105076,7 +105076,7 @@
           ]
         }
       ],
-      "buddyWalkedMegaEnergyAward": 25,
+      "buddyWalkedMegaEnergyAward": 5,
       "useIrisFlyingPlacement": true,
       "irisPhotoEmote1": "PhysicalAttack",
       "ibfc": {},
@@ -105217,7 +105217,7 @@
           ]
         }
       ],
-      "buddyWalkedMegaEnergyAward": 25,
+      "buddyWalkedMegaEnergyAward": 5,
       "useIrisFlyingPlacement": true,
       "irisPhotoEmote1": "PhysicalAttack",
       "ibfc": {},

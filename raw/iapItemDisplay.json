@@ -484,7 +484,7 @@
   {
     "templateId": "EVENT_PASS_SEPTEMBER1_EVENT_STORE_REDIRECT",
     "data": {
-      "sku": "pgorelease.september1_2026_deluxe_event_pass_track_redirect",
+      "sku": "pgorelease.september1_2026_deluxe_event_pass_track_unlock_redirect",
       "sortOrder": 1,
       "hidden": true,
       "title": "season_pass_premium_track_title_mega_squads_2026",

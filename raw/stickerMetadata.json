@@ -5422,10 +5422,47 @@
     }
   },
   {
+    "templateId": "STICKER_POKEXCITING_BLUE",
+    "data": {
+      "stickerId": "STICKER_POKEXCITING_BLUE",
+      "maxCount": 25,
+      "pokemonId": "PIKACHU",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20260902
+    }
+  },
+  {
+    "templateId": "STICKER_POKEXCITING_PINK",
+    "data": {
+      "stickerId": "STICKER_POKEXCITING_PINK",
+      "maxCount": 25,
+      "pokemonId": "PIKACHU",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20260902
+    }
+  },
+  {
+    "templateId": "STICKER_POKEXCITING_RED",
+    "data": {
+      "stickerId": "STICKER_POKEXCITING_RED",
+      "maxCount": 25,
+      "pokemonId": "PIKACHU",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20260902
+    }
+  },
+  {
     "templateId": "STICKER_POKEXCITING_TURQOISE",
     "data": {
       "stickerId": "STICKER_POKEXCITING_TURQOISE",
       "maxCount": 25,
+      "pokemonId": "PIKACHU",
       "category": [
         "Pokemon"
       ],

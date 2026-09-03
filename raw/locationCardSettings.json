@@ -1748,6 +1748,13 @@
     }
   },
   {
+    "templateId": "LC_SPECIALBACKGROUND_MIDAUTUMN_2026",
+    "data": {
+      "locationCard": 350,
+      "imageUrl": "lc_specialbackground_midautumn_2026"
+    }
+  },
+  {
     "templateId": "LC_SPECIALBACKGROUND_OBSERVATORY_EXHIBITION_TOUR",
     "data": {
       "locationCard": "LC_SPECIALBACKGROUND_OBSERVATORY_EXHIBITION_TOUR",
@@ -1836,6 +1843,34 @@
     "data": {
       "locationCard": "LC_TOKMUN_STAMP_03",
       "imageUrl": "lc_TokMun_minato"
+    }
+  },
+  {
+    "templateId": "LC_TPC30_MY",
+    "data": {
+      "locationCard": "LC_TPC30_MY",
+      "imageUrl": "lc_tpc30_my"
+    }
+  },
+  {
+    "templateId": "LC_TPC30_PH",
+    "data": {
+      "locationCard": "LC_TPC30_PH",
+      "imageUrl": "lc_tpc30_ph"
+    }
+  },
+  {
+    "templateId": "LC_TPC30_SG",
+    "data": {
+      "locationCard": "LC_TPC30_SG",
+      "imageUrl": "lc_tpc30_sg"
+    }
+  },
+  {
+    "templateId": "LC_TPC30_TW",
+    "data": {
+      "locationCard": "LC_TPC30_TW",
+      "imageUrl": "lc_tpc30_tw"
     }
   }
 ]
