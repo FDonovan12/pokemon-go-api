@@ -35,33 +35,37 @@ export default class PokemonSettingGenerator extends FileGenerator {
     }
 
     private async buildMega(pokemon: PokemonSetting) {
-        return Promise.all(
-            pokemon.base.tempEvoOverrides?.map(async (mega) => {
-                const megaAttackKey = Object.keys(this.chargedMove ?? {}).find(
-                    (t) =>
-                        t.slugifyIncludes(pokemon.base.pokemonId) &&
-                        t.slugifyIncludes(mega.tempEvoId ?? 'non-defini'),
-                );
-                const megaAttack = megaAttackKey
-                    ? (this.chargedMove as Record<string, any>)[megaAttackKey]
-                    : undefined;
-                const megaId = await this.getMegaId(pokemon, mega);
-                const stats = mega.stats;
-                const image = getImage(megaId);
-                const types = [mega.typeOverride1, mega.typeOverride2].compact();
-                const megaType = mega.tempEvoId?.replace('TEMP_EVOLUTION_', '').split('_') ?? [];
-                const name =
-                    `${megaType[0]} ${pokemon.base.name}${megaType[1] ? ' ' + megaType[1] : ''}`?.titleCase();
-                const slug = name?.slugify();
-                const hasLevel4 =
-                    this.evoLevel?.some(
-                        (level) =>
-                            level.templateId.includes(pokemon.base.pokemonId) &&
-                            level.templateId.includes('MEGA_EVOLUTION_LEVEL_4'),
-                    ) ?? false;
-                return { name, slug, megaAttack, stats, image, types, hasLevel4 };
-            }) ?? [],
-        );
+        return (
+            await Promise.all(
+                pokemon.base.tempEvoOverrides?.map(async (mega) => {
+                    if (!mega.tempEvoId) return undefined;
+                    const megaAttackKey = Object.keys(this.chargedMove ?? {}).find(
+                        (t) =>
+                            t.slugifyIncludes(pokemon.base.pokemonId) &&
+                            t.slugifyIncludes(mega.tempEvoId ?? 'non-defini'),
+                    );
+                    const megaAttack = megaAttackKey
+                        ? (this.chargedMove as Record<string, any>)[megaAttackKey]
+                        : undefined;
+                    const megaId = await this.getMegaId(pokemon, mega);
+                    const stats = mega.stats;
+                    const image = getImage(megaId);
+                    const types = [mega.typeOverride1, mega.typeOverride2].compact();
+                    const megaType =
+                        mega.tempEvoId?.replace('TEMP_EVOLUTION_', '').split('_') ?? [];
+                    const name =
+                        `${megaType[0]} ${pokemon.base.name}${megaType[1] ? ' ' + megaType[1] : ''}`?.titleCase();
+                    const slug = name?.slugify();
+                    const hasLevel4 =
+                        this.evoLevel?.some(
+                            (level) =>
+                                level.templateId.includes(pokemon.base.pokemonId) &&
+                                level.templateId.includes('MEGA_EVOLUTION_LEVEL_4'),
+                        ) ?? false;
+                    return { name, slug, megaAttack, stats, image, types, hasLevel4 };
+                }) ?? [],
+            )
+        ).compact();
     }
 
     async getFileContent(): Promise<any> {
