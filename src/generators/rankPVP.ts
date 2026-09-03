@@ -54,7 +54,7 @@ export default class PokemonSettingGenerator extends FileGenerator {
 
             const filePath = path.join(dir, `${pokemon.slug}.json`);
             fs.writeFileSync(filePath, stringified);
-            console.log(`Fichier généré : ${filePath}`);
+            // console.log(`Fichier généré : ${filePath}`);
 
             if (!sample) sample = stringified;
         }

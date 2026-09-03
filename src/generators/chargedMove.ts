@@ -7,6 +7,18 @@ export default class ChargedMoveSettingGenerator extends FileGenerator {
     }
     async getFileContent(): Promise<any> {
         const raw = await IntermediateData.getRaidMove();
+        const result = Object.entries(raw.chargedMove)
+            .map(([key, attack]) => [
+                key,
+                {
+                    pokemonType: attack.pokemonType,
+                    power: attack.power,
+                    durationMs: attack.durationMs,
+                    energyDelta: attack.energyDelta,
+                    realName: attack.vfxName,
+                },
+            ])
+            .toObject();
         return raw.chargedMove;
     }
 }

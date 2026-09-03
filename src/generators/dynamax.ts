@@ -51,7 +51,6 @@ export default class PokemonSettingGenerator extends FileGenerator {
             const dexNumber: number = pokemon.base.dexNumber;
             const data = await pokeApiClient.fetchPokemonSpecies(dexNumber);
             const name = pokemon.base.form === 'base' ? pokemon.base.pokemonId : pokemon.base.form;
-            console.log(name);
             return (
                 +data.varieties
                     .filter(

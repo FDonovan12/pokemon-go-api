@@ -27,7 +27,7 @@ export default class PokemonSettingGenerator extends FileGenerator {
         const result: Record<string, { super: any; hyper: any }> = {};
 
         for (const pokemon of finalPokemon) {
-            console.log('rank 1 : ', pokemon.dexNumber, pokemon.slug);
+            // console.log('rank 1 : ', pokemon.dexNumber, pokemon.slug);
             result[pokemon.slug] = {
                 super: getRank1(pokemon, rawCpMultiplier, CP_CAP.super),
                 hyper: getRank1(pokemon, rawCpMultiplier, CP_CAP.hyper),
