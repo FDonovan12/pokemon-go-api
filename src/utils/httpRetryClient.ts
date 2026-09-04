@@ -8,13 +8,17 @@ export class HttpRetryClient {
         url: string,
         retries = this.defaultRetries,
         delayMs = this.defaultDelayMs,
-    ): Promise<T> {
+    ): Promise<T | null> {
         for (let attempt = 0; attempt <= retries; attempt++) {
             try {
                 const res = await fetch(url);
 
                 if (res.ok) {
                     return (await res.json()) as T;
+                }
+                if (res.status === 404) {
+                    // console.log(`ℹ️ 404 sur ${url}, ressource indisponible`);
+                    return null;
                 }
 
                 // 429 = rate limit, 5xx = erreur serveur temporaire

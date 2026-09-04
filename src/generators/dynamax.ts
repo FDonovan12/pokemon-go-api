@@ -42,7 +42,7 @@ export default class PokemonSettingGenerator extends FileGenerator {
         const resolveSettings = (pokemonId: string): PokemonSetting[] => {
             const setting = pokemonSettings.find((s) => s.base.pokemonId === pokemonId);
             return pokemonId === 'URSHIFU'
-                ? ((setting?.different as PokemonSetting[]) ?? [])
+                ? ((setting?.different as any as PokemonSetting[]) ?? [])
                 : setting
                   ? [setting]
                   : [];
