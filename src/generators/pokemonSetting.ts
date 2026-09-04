@@ -1,6 +1,6 @@
 import {
-    ChargedMove,
     PokemonSetting,
+    RaidMove,
     SameTempEvoOverride,
 } from '#generated/data/api/intermediate.type.js';
 import { MegaEvoLevelSettings } from '#generated/data/api/raw.type.js';
@@ -9,6 +9,8 @@ import { RawGameMaster } from '#generated/raw.index.js';
 import { FileGenerator, GeneratorSpeed } from '../type/fileGenerator.js';
 import { pokeApiClient } from '../utils/pokeApiClient.js';
 import { getImage, pokemonTypeToFrench } from '../utils/utils.js';
+
+type ChargedMove = RaidMove['chargedMove'];
 export default class PokemonSettingGenerator extends FileGenerator {
     getFileName(): string {
         return 'pokemon-setting.json';
