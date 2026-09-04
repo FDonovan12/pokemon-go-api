@@ -2442,7 +2442,7 @@
   },
   {
     "pokemonId": "HO_OH",
-    "name": "Ho-Oh",
+    "name": "Ho Oh",
     "dexNumber": 250,
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/250.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/250.png",
@@ -5965,7 +5965,7 @@
   },
   {
     "pokemonId": "URSHIFU",
-    "name": "Shifours",
+    "name": "Shifours Rapid Strike",
     "dexNumber": 892,
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/892.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/892.png",
@@ -6038,7 +6038,7 @@
   },
   {
     "pokemonId": "URSHIFU",
-    "name": "Shifours",
+    "name": "Shifours Single Strike",
     "dexNumber": 892,
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/892.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/892.png",
@@ -7136,7 +7136,7 @@
   },
   {
     "pokemonId": "ZACIAN",
-    "name": "Zacian",
+    "name": "Zacian Crowned",
     "dexNumber": 888,
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/888.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/888.png",
@@ -7189,7 +7189,7 @@
   },
   {
     "pokemonId": "ZAMAZENTA",
-    "name": "Zamazenta",
+    "name": "Zamazenta Crowned",
     "dexNumber": 889,
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/889.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/889.png",
@@ -7998,7 +7998,7 @@
   },
   {
     "pokemonId": "URSHIFU",
-    "name": "Shifours",
+    "name": "Shifours Rapid Strike",
     "dexNumber": 892,
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/10227.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/10227.png",
@@ -8060,7 +8060,7 @@
   },
   {
     "pokemonId": "URSHIFU",
-    "name": "Shifours",
+    "name": "Shifours Single Strike",
     "dexNumber": 892,
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/10226.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/10226.png",
