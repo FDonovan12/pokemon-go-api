@@ -269,6 +269,11 @@ export interface AcidSpray {
     durationMs:  number;
     energyDelta: number;
     vfxName:     string;
+    names:       Names;
+}
+
+export interface Names {
+    fr: string;
 }
 
 export enum Type {
@@ -475,6 +480,7 @@ export interface VnBm001 {
     pokemonType: Type;
     powerLevels: number[];
     vfxName:     string;
+    names:       Names;
 }
 
 export interface Stats {

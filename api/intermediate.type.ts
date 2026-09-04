@@ -151,6 +151,11 @@ export interface Move {
     durationMs:  number;
     energyDelta: number;
     vfxName:     string;
+    names:       Names;
+}
+
+export interface Names {
+    fr: string;
 }
 
 export interface DynamaxMove {
@@ -159,4 +164,5 @@ export interface DynamaxMove {
     pokemonType: Type;
     powerLevels: number[];
     vfxName:     string;
+    names:       Names;
 }

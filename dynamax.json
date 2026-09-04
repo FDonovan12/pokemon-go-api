@@ -23,7 +23,10 @@
         "power": 13,
         "durationMs": 1000,
         "energyDelta": 7,
-        "vfxName": "razor_leaf_fast"
+        "vfxName": "razor_leaf_fast",
+        "names": {
+          "fr": "Tranch’Herbe"
+        }
       },
       "VINE_WHIP_FAST": {
         "id": "V0214_MOVE_VINE_WHIP_FAST",
@@ -32,7 +35,10 @@
         "power": 6,
         "durationMs": 500,
         "energyDelta": 5,
-        "vfxName": "vine_whip_fast"
+        "vfxName": "vine_whip_fast",
+        "names": {
+          "fr": "Fouet Lianes"
+        }
       }
     },
     "dynamaxMove": [
@@ -46,7 +52,10 @@
           350,
           450
         ],
-        "vfxName": "max_overgrowth"
+        "vfxName": "max_overgrowth",
+        "names": {
+          "fr": "Phytomax"
+        }
       }
     ],
     "familyId": "Bulbizarre"
@@ -75,7 +84,10 @@
         "power": 13,
         "durationMs": 1000,
         "energyDelta": 9,
-        "vfxName": "fire_spin_fast"
+        "vfxName": "fire_spin_fast",
+        "names": {
+          "fr": "Danse Flammes"
+        }
       },
       "AIR_SLASH_FAST": {
         "id": "V0255_MOVE_AIR_SLASH_FAST",
@@ -84,7 +96,10 @@
         "power": 12,
         "durationMs": 1000,
         "energyDelta": 8,
-        "vfxName": "air_slash_fast"
+        "vfxName": "air_slash_fast",
+        "names": {
+          "fr": "Lame d’Air"
+        }
       },
       "EMBER_FAST": {
         "id": "V0209_MOVE_EMBER_FAST",
@@ -93,7 +108,10 @@
         "power": 10,
         "durationMs": 1000,
         "energyDelta": 10,
-        "vfxName": "ember_fast"
+        "vfxName": "ember_fast",
+        "names": {
+          "fr": "Flammèche"
+        }
       },
       "WING_ATTACK_FAST": {
         "id": "V0210_MOVE_WING_ATTACK_FAST",
@@ -102,7 +120,10 @@
         "power": 10,
         "durationMs": 1000,
         "energyDelta": 11,
-        "vfxName": "wing_attack_fast"
+        "vfxName": "wing_attack_fast",
+        "names": {
+          "fr": "Cru-Ailes"
+        }
       },
       "DRAGON_BREATH_FAST": {
         "id": "V0204_MOVE_DRAGON_BREATH_FAST",
@@ -111,7 +132,10 @@
         "power": 6,
         "durationMs": 500,
         "energyDelta": 4,
-        "vfxName": "dragon_breath_fast"
+        "vfxName": "dragon_breath_fast",
+        "names": {
+          "fr": "Draco-Souffle"
+        }
       }
     },
     "dynamaxMove": [
@@ -125,7 +149,10 @@
           350,
           450
         ],
-        "vfxName": "max_flare"
+        "vfxName": "max_flare",
+        "names": {
+          "fr": "Pyromax"
+        }
       },
       {
         "id": "VN_BM_010",
@@ -137,7 +164,10 @@
           350,
           450
         ],
-        "vfxName": "max_airstream"
+        "vfxName": "max_airstream",
+        "names": {
+          "fr": "Aéromax"
+        }
       },
       {
         "id": "VN_BM_012",
@@ -149,7 +179,10 @@
           350,
           450
         ],
-        "vfxName": "max_wyrmwind"
+        "vfxName": "max_wyrmwind",
+        "names": {
+          "fr": "Dracomax"
+        }
       }
     ],
     "familyId": "Salamèche"
@@ -177,7 +210,10 @@
         "power": 5,
         "durationMs": 500,
         "energyDelta": 5,
-        "vfxName": "water_gun_fast"
+        "vfxName": "water_gun_fast",
+        "names": {
+          "fr": "Pistolet à O"
+        }
       },
       "BITE_FAST": {
         "id": "V0202_MOVE_BITE_FAST",
@@ -186,7 +222,10 @@
         "power": 6,
         "durationMs": 500,
         "energyDelta": 4,
-        "vfxName": "bite_fast"
+        "vfxName": "bite_fast",
+        "names": {
+          "fr": "Morsure"
+        }
       },
       "ROLLOUT_FAST": {
         "id": "V0368_MOVE_ROLLOUT_FAST",
@@ -195,7 +234,10 @@
         "power": 15,
         "durationMs": 1500,
         "energyDelta": 19,
-        "vfxName": "rollout_fast"
+        "vfxName": "rollout_fast",
+        "names": {
+          "fr": "Roulade"
+        }
       }
     },
     "dynamaxMove": [
@@ -209,7 +251,10 @@
           350,
           450
         ],
-        "vfxName": "max_geyser"
+        "vfxName": "max_geyser",
+        "names": {
+          "fr": "Hydromax"
+        }
       },
       {
         "id": "VN_BM_016",
@@ -221,7 +266,10 @@
           350,
           450
         ],
-        "vfxName": "max_darkness"
+        "vfxName": "max_darkness",
+        "names": {
+          "fr": "Sinistromax"
+        }
       },
       {
         "id": "VN_BM_014",
@@ -233,7 +281,10 @@
           350,
           450
         ],
-        "vfxName": "max_rockfall"
+        "vfxName": "max_rockfall",
+        "names": {
+          "fr": "Lithomax"
+        }
       }
     ],
     "familyId": "Carapuce"
@@ -262,7 +313,10 @@
         "power": 15,
         "durationMs": 1500,
         "energyDelta": 15,
-        "vfxName": "struggle_bug_fast"
+        "vfxName": "struggle_bug_fast",
+        "names": {
+          "fr": "Survinsecte"
+        }
       },
       "CONFUSION_FAST": {
         "id": "V0235_MOVE_CONFUSION_FAST",
@@ -271,7 +325,10 @@
         "power": 19,
         "durationMs": 1500,
         "energyDelta": 14,
-        "vfxName": "confusion_fast"
+        "vfxName": "confusion_fast",
+        "names": {
+          "fr": "Choc Mental"
+        }
       },
       "BUG_BITE_FAST": {
         "id": "V0201_MOVE_BUG_BITE_FAST",
@@ -280,7 +337,10 @@
         "power": 5,
         "durationMs": 500,
         "energyDelta": 6,
-        "vfxName": "bug_bite_fast"
+        "vfxName": "bug_bite_fast",
+        "names": {
+          "fr": "Piqûre"
+        }
       }
     },
     "dynamaxMove": [
@@ -294,7 +354,10 @@
           350,
           450
         ],
-        "vfxName": "max_flutterby"
+        "vfxName": "max_flutterby",
+        "names": {
+          "fr": "Insectomax"
+        }
       },
       {
         "id": "VN_BM_013",
@@ -306,7 +369,10 @@
           350,
           450
         ],
-        "vfxName": "max_mindstorm"
+        "vfxName": "max_mindstorm",
+        "names": {
+          "fr": "Psychomax"
+        }
       }
     ],
     "familyId": "Chenipan"
@@ -334,7 +400,10 @@
         "power": 13,
         "durationMs": 1500,
         "energyDelta": 20,
-        "vfxName": "volt_switch_fast"
+        "vfxName": "volt_switch_fast",
+        "names": {
+          "fr": "Change Éclair"
+        }
       },
       "SPARK_FAST": {
         "id": "V0206_MOVE_SPARK_FAST",
@@ -343,7 +412,10 @@
         "power": 4,
         "durationMs": 500,
         "energyDelta": 6,
-        "vfxName": "spark_fast"
+        "vfxName": "spark_fast",
+        "names": {
+          "fr": "Étincelle"
+        }
       },
       "CHARM_FAST": {
         "id": "V0320_MOVE_CHARM_FAST",
@@ -352,7 +424,10 @@
         "power": 20,
         "durationMs": 1500,
         "energyDelta": 11,
-        "vfxName": "charm_fast"
+        "vfxName": "charm_fast",
+        "names": {
+          "fr": "Charme"
+        }
       },
       "THUNDER_SHOCK_FAST": {
         "id": "V0205_MOVE_THUNDER_SHOCK_FAST",
@@ -361,7 +436,10 @@
         "power": 4,
         "durationMs": 500,
         "energyDelta": 7,
-        "vfxName": "thunder_shock_fast"
+        "vfxName": "thunder_shock_fast",
+        "names": {
+          "fr": "Éclair"
+        }
       }
     },
     "dynamaxMove": [
@@ -375,7 +453,10 @@
           350,
           450
         ],
-        "vfxName": "max_lightning"
+        "vfxName": "max_lightning",
+        "names": {
+          "fr": "Fulguromax"
+        }
       },
       {
         "id": "VN_BM_011",
@@ -387,7 +468,10 @@
           350,
           450
         ],
-        "vfxName": "max_starfall"
+        "vfxName": "max_starfall",
+        "names": {
+          "fr": "Enchantomax"
+        }
       }
     ],
     "familyId": "Pikachu"
@@ -415,7 +499,10 @@
         "power": 13,
         "durationMs": 1000,
         "energyDelta": 9,
-        "vfxName": "fire_fang_fast"
+        "vfxName": "fire_fang_fast",
+        "names": {
+          "fr": "Crocs Feu"
+        }
       },
       "SNARL_FAST": {
         "id": "V0278_MOVE_SNARL_FAST",
@@ -424,7 +511,10 @@
         "power": 11,
         "durationMs": 1000,
         "energyDelta": 13,
-        "vfxName": "snarl_fast"
+        "vfxName": "snarl_fast",
+        "names": {
+          "fr": "Aboiement"
+        }
       },
       "THUNDER_FANG_FAST": {
         "id": "V0326_MOVE_THUNDER_FANG_FAST",
@@ -433,7 +523,10 @@
         "power": 10,
         "durationMs": 1000,
         "energyDelta": 13,
-        "vfxName": "thunder_fang_fast"
+        "vfxName": "thunder_fang_fast",
+        "names": {
+          "fr": "Crocs Éclair"
+        }
       },
       "BITE_FAST": {
         "id": "V0202_MOVE_BITE_FAST",
@@ -442,7 +535,10 @@
         "power": 6,
         "durationMs": 500,
         "energyDelta": 4,
-        "vfxName": "bite_fast"
+        "vfxName": "bite_fast",
+        "names": {
+          "fr": "Morsure"
+        }
       }
     },
     "dynamaxMove": [
@@ -456,7 +552,10 @@
           350,
           450
         ],
-        "vfxName": "max_flare"
+        "vfxName": "max_flare",
+        "names": {
+          "fr": "Pyromax"
+        }
       },
       {
         "id": "VN_BM_016",
@@ -468,7 +567,10 @@
           350,
           450
         ],
-        "vfxName": "max_darkness"
+        "vfxName": "max_darkness",
+        "names": {
+          "fr": "Sinistromax"
+        }
       },
       {
         "id": "VN_BM_003",
@@ -480,7 +582,10 @@
           350,
           450
         ],
-        "vfxName": "max_lightning"
+        "vfxName": "max_lightning",
+        "names": {
+          "fr": "Fulguromax"
+        }
       }
     ],
     "familyId": "Caninos"
@@ -508,7 +613,10 @@
         "power": 4,
         "durationMs": 500,
         "energyDelta": 7,
-        "vfxName": "psycho_cut_fast"
+        "vfxName": "psycho_cut_fast",
+        "names": {
+          "fr": "Coupe Psycho"
+        }
       },
       "CONFUSION_FAST": {
         "id": "V0235_MOVE_CONFUSION_FAST",
@@ -517,7 +625,10 @@
         "power": 19,
         "durationMs": 1500,
         "energyDelta": 14,
-        "vfxName": "confusion_fast"
+        "vfxName": "confusion_fast",
+        "names": {
+          "fr": "Choc Mental"
+        }
       },
       "COUNTER_FAST": {
         "id": "V0243_MOVE_COUNTER_FAST",
@@ -526,7 +637,10 @@
         "power": 13,
         "durationMs": 1000,
         "energyDelta": 9,
-        "vfxName": "counter_fast"
+        "vfxName": "counter_fast",
+        "names": {
+          "fr": "Riposte"
+        }
       }
     },
     "dynamaxMove": [
@@ -540,7 +654,10 @@
           350,
           450
         ],
-        "vfxName": "max_mindstorm"
+        "vfxName": "max_mindstorm",
+        "names": {
+          "fr": "Psychomax"
+        }
       },
       {
         "id": "VN_BM_005",
@@ -552,7 +669,10 @@
           350,
           450
         ],
-        "vfxName": "max_knuckle"
+        "vfxName": "max_knuckle",
+        "names": {
+          "fr": "Pugilomax"
+        }
       }
     ],
     "familyId": "Abra"
@@ -580,7 +700,10 @@
         "power": 10,
         "durationMs": 1000,
         "energyDelta": 11,
-        "vfxName": "bullet_punch_fast"
+        "vfxName": "bullet_punch_fast",
+        "names": {
+          "fr": "Pisto-Poing"
+        }
       },
       "COUNTER_FAST": {
         "id": "V0243_MOVE_COUNTER_FAST",
@@ -589,7 +712,10 @@
         "power": 13,
         "durationMs": 1000,
         "energyDelta": 9,
-        "vfxName": "counter_fast"
+        "vfxName": "counter_fast",
+        "names": {
+          "fr": "Riposte"
+        }
       },
       "KARATE_CHOP_FAST": {
         "id": "V0208_MOVE_KARATE_CHOP_FAST",
@@ -598,7 +724,10 @@
         "power": 10,
         "durationMs": 1000,
         "energyDelta": 13,
-        "vfxName": "karate_chop_fast"
+        "vfxName": "karate_chop_fast",
+        "names": {
+          "fr": "Poing Karaté"
+        }
       }
     },
     "dynamaxMove": [
@@ -612,7 +741,10 @@
           350,
           450
         ],
-        "vfxName": "max_steelspike"
+        "vfxName": "max_steelspike",
+        "names": {
+          "fr": "Métallomax"
+        }
       },
       {
         "id": "VN_BM_005",
@@ -624,7 +756,10 @@
           350,
           450
         ],
-        "vfxName": "max_knuckle"
+        "vfxName": "max_knuckle",
+        "names": {
+          "fr": "Pugilomax"
+        }
       }
     ],
     "familyId": "Machoc"
@@ -653,7 +788,10 @@
         "power": 5,
         "durationMs": 500,
         "energyDelta": 6,
-        "vfxName": "sucker_punch_fast"
+        "vfxName": "sucker_punch_fast",
+        "names": {
+          "fr": "Coup Bas"
+        }
       },
       "HEX_FAST": {
         "id": "V0264_MOVE_HEX_FAST",
@@ -662,7 +800,10 @@
         "power": 8,
         "durationMs": 1000,
         "energyDelta": 13,
-        "vfxName": "hex_fast"
+        "vfxName": "hex_fast",
+        "names": {
+          "fr": "Châtiment"
+        }
       },
       "SHADOW_CLAW_FAST": {
         "id": "V0213_MOVE_SHADOW_CLAW_FAST",
@@ -671,7 +812,10 @@
         "power": 6,
         "durationMs": 500,
         "energyDelta": 4,
-        "vfxName": "shadow_claw_fast"
+        "vfxName": "shadow_claw_fast",
+        "names": {
+          "fr": "Griffe Ombre"
+        }
       },
       "LICK_FAST": {
         "id": "V0212_MOVE_LICK_FAST",
@@ -680,7 +824,10 @@
         "power": 5,
         "durationMs": 500,
         "energyDelta": 6,
-        "vfxName": "lick_fast"
+        "vfxName": "lick_fast",
+        "names": {
+          "fr": "Léchouille"
+        }
       }
     },
     "dynamaxMove": [
@@ -694,7 +841,10 @@
           350,
           450
         ],
-        "vfxName": "max_darkness"
+        "vfxName": "max_darkness",
+        "names": {
+          "fr": "Sinistromax"
+        }
       },
       {
         "id": "VN_BM_006",
@@ -706,7 +856,10 @@
           350,
           450
         ],
-        "vfxName": "max_phantasm"
+        "vfxName": "max_phantasm",
+        "names": {
+          "fr": "Spectromax"
+        }
       }
     ],
     "familyId": "Fantominus"
@@ -734,7 +887,10 @@
         "power": 10,
         "durationMs": 1000,
         "energyDelta": 12,
-        "vfxName": "bubble_fast"
+        "vfxName": "bubble_fast",
+        "names": {
+          "fr": "Écume"
+        }
       },
       "METAL_CLAW_FAST": {
         "id": "V0228_MOVE_METAL_CLAW_FAST",
@@ -743,7 +899,10 @@
         "power": 6,
         "durationMs": 500,
         "energyDelta": 5,
-        "vfxName": "metal_claw_fast"
+        "vfxName": "metal_claw_fast",
+        "names": {
+          "fr": "Griffe Acier"
+        }
       },
       "MUD_SHOT_FAST": {
         "id": "V0216_MOVE_MUD_SHOT_FAST",
@@ -752,7 +911,10 @@
         "power": 4,
         "durationMs": 500,
         "energyDelta": 6,
-        "vfxName": "mud_shot_fast"
+        "vfxName": "mud_shot_fast",
+        "names": {
+          "fr": "Tir de Boue"
+        }
       }
     },
     "dynamaxMove": [
@@ -766,7 +928,10 @@
           350,
           450
         ],
-        "vfxName": "max_geyser"
+        "vfxName": "max_geyser",
+        "names": {
+          "fr": "Hydromax"
+        }
       },
       {
         "id": "VN_BM_018",
@@ -778,7 +943,10 @@
           350,
           450
         ],
-        "vfxName": "max_steelspike"
+        "vfxName": "max_steelspike",
+        "names": {
+          "fr": "Métallomax"
+        }
       },
       {
         "id": "VN_BM_015",
@@ -790,7 +958,10 @@
           350,
           450
         ],
-        "vfxName": "max_quake"
+        "vfxName": "max_quake",
+        "names": {
+          "fr": "Sismomax"
+        }
       }
     ],
     "familyId": "Krabby"
@@ -818,7 +989,10 @@
         "power": 5,
         "durationMs": 500,
         "energyDelta": 5,
-        "vfxName": "low_kick_fast"
+        "vfxName": "low_kick_fast",
+        "names": {
+          "fr": "Balayage"
+        }
       },
       "ROCK_SMASH_FAST": {
         "id": "V0241_MOVE_ROCK_SMASH_FAST",
@@ -827,7 +1001,10 @@
         "power": 17,
         "durationMs": 1500,
         "energyDelta": 12,
-        "vfxName": "rock_smash_fast"
+        "vfxName": "rock_smash_fast",
+        "names": {
+          "fr": "Éclate-Roc"
+        }
       },
       "DOUBLE_KICK_FAST": {
         "id": "V0356_MOVE_DOUBLE_KICK_FAST",
@@ -836,7 +1013,10 @@
         "power": 10,
         "durationMs": 1000,
         "energyDelta": 13,
-        "vfxName": "double_kick_fast"
+        "vfxName": "double_kick_fast",
+        "names": {
+          "fr": "Double Pied"
+        }
       }
     },
     "dynamaxMove": [
@@ -850,7 +1030,10 @@
           350,
           450
         ],
-        "vfxName": "max_knuckle"
+        "vfxName": "max_knuckle",
+        "names": {
+          "fr": "Pugilomax"
+        }
       }
     ],
     "familyId": "Debugant"
@@ -878,7 +1061,10 @@
         "power": 10,
         "durationMs": 1000,
         "energyDelta": 11,
-        "vfxName": "bullet_punch_fast"
+        "vfxName": "bullet_punch_fast",
+        "names": {
+          "fr": "Pisto-Poing"
+        }
       },
       "COUNTER_FAST": {
         "id": "V0243_MOVE_COUNTER_FAST",
@@ -887,7 +1073,10 @@
         "power": 13,
         "durationMs": 1000,
         "energyDelta": 9,
-        "vfxName": "counter_fast"
+        "vfxName": "counter_fast",
+        "names": {
+          "fr": "Riposte"
+        }
       },
       "ROCK_SMASH_FAST": {
         "id": "V0241_MOVE_ROCK_SMASH_FAST",
@@ -896,7 +1085,10 @@
         "power": 17,
         "durationMs": 1500,
         "energyDelta": 12,
-        "vfxName": "rock_smash_fast"
+        "vfxName": "rock_smash_fast",
+        "names": {
+          "fr": "Éclate-Roc"
+        }
       }
     },
     "dynamaxMove": [
@@ -910,7 +1102,10 @@
           350,
           450
         ],
-        "vfxName": "max_steelspike"
+        "vfxName": "max_steelspike",
+        "names": {
+          "fr": "Métallomax"
+        }
       },
       {
         "id": "VN_BM_005",
@@ -922,7 +1117,10 @@
           350,
           450
         ],
-        "vfxName": "max_knuckle"
+        "vfxName": "max_knuckle",
+        "names": {
+          "fr": "Pugilomax"
+        }
       }
     ],
     "familyId": "Debugant"
@@ -951,7 +1149,10 @@
         "power": 15,
         "durationMs": 1500,
         "energyDelta": 15,
-        "vfxName": "hidden_power_fast"
+        "vfxName": "hidden_power_fast",
+        "names": {
+          "fr": "Puissance Cachée"
+        }
       },
       "WATER_GUN_FAST": {
         "id": "V0230_MOVE_WATER_GUN_FAST",
@@ -960,7 +1161,10 @@
         "power": 5,
         "durationMs": 500,
         "energyDelta": 5,
-        "vfxName": "water_gun_fast"
+        "vfxName": "water_gun_fast",
+        "names": {
+          "fr": "Pistolet à O"
+        }
       },
       "PSYWAVE_FAST": {
         "id": "V0401_MOVE_PSYWAVE_FAST",
@@ -969,7 +1173,10 @@
         "power": 4,
         "durationMs": 500,
         "energyDelta": 7,
-        "vfxName": "psywave"
+        "vfxName": "psywave",
+        "names": {
+          "fr": "Vague Psy"
+        }
       },
       "TACKLE_FAST": {
         "id": "V0221_MOVE_TACKLE_FAST",
@@ -978,7 +1185,10 @@
         "power": 5,
         "durationMs": 500,
         "energyDelta": 5,
-        "vfxName": "tackle_fast"
+        "vfxName": "tackle_fast",
+        "names": {
+          "fr": "Charge"
+        }
       }
     },
     "dynamaxMove": [
@@ -992,7 +1202,10 @@
           350,
           450
         ],
-        "vfxName": "max_strike"
+        "vfxName": "max_strike",
+        "names": {
+          "fr": "Normalomax"
+        }
       },
       {
         "id": "VN_BM_009",
@@ -1004,7 +1217,10 @@
           350,
           450
         ],
-        "vfxName": "max_geyser"
+        "vfxName": "max_geyser",
+        "names": {
+          "fr": "Hydromax"
+        }
       },
       {
         "id": "VN_BM_013",
@@ -1016,7 +1232,10 @@
           350,
           450
         ],
-        "vfxName": "max_mindstorm"
+        "vfxName": "max_mindstorm",
+        "names": {
+          "fr": "Psychomax"
+        }
       }
     ],
     "familyId": "Stari"
@@ -1045,7 +1264,10 @@
         "power": 6,
         "durationMs": 500,
         "energyDelta": 4,
-        "vfxName": "bite_fast"
+        "vfxName": "bite_fast",
+        "names": {
+          "fr": "Morsure"
+        }
       },
       "WATERFALL_FAST": {
         "id": "V0283_MOVE_WATERFALL_FAST",
@@ -1054,7 +1276,10 @@
         "power": 13,
         "durationMs": 1000,
         "energyDelta": 7,
-        "vfxName": "waterfall_fast"
+        "vfxName": "waterfall_fast",
+        "names": {
+          "fr": "Cascade"
+        }
       },
       "DRAGON_BREATH_FAST": {
         "id": "V0204_MOVE_DRAGON_BREATH_FAST",
@@ -1063,7 +1288,10 @@
         "power": 6,
         "durationMs": 500,
         "energyDelta": 4,
-        "vfxName": "dragon_breath_fast"
+        "vfxName": "dragon_breath_fast",
+        "names": {
+          "fr": "Draco-Souffle"
+        }
       },
       "DRAGON_TAIL_FAST": {
         "id": "V0253_MOVE_DRAGON_TAIL_FAST",
@@ -1072,7 +1300,10 @@
         "power": 14,
         "durationMs": 1000,
         "energyDelta": 8,
-        "vfxName": "dragon_tail_fast"
+        "vfxName": "dragon_tail_fast",
+        "names": {
+          "fr": "Draco-Queue"
+        }
       }
     },
     "dynamaxMove": [
@@ -1086,7 +1317,10 @@
           350,
           450
         ],
-        "vfxName": "max_darkness"
+        "vfxName": "max_darkness",
+        "names": {
+          "fr": "Sinistromax"
+        }
       },
       {
         "id": "VN_BM_009",
@@ -1098,7 +1332,10 @@
           350,
           450
         ],
-        "vfxName": "max_geyser"
+        "vfxName": "max_geyser",
+        "names": {
+          "fr": "Hydromax"
+        }
       },
       {
         "id": "VN_BM_012",
@@ -1110,7 +1347,10 @@
           350,
           450
         ],
-        "vfxName": "max_wyrmwind"
+        "vfxName": "max_wyrmwind",
+        "names": {
+          "fr": "Dracomax"
+        }
       }
     ],
     "familyId": "Magicarpe"
@@ -1139,7 +1379,10 @@
         "power": 11,
         "durationMs": 1000,
         "energyDelta": 9,
-        "vfxName": "frost_breath_fast"
+        "vfxName": "frost_breath_fast",
+        "names": {
+          "fr": "Souffle Glacé"
+        }
       },
       "WATER_GUN_FAST": {
         "id": "V0230_MOVE_WATER_GUN_FAST",
@@ -1148,7 +1391,10 @@
         "power": 5,
         "durationMs": 500,
         "energyDelta": 5,
-        "vfxName": "water_gun_fast"
+        "vfxName": "water_gun_fast",
+        "names": {
+          "fr": "Pistolet à O"
+        }
       },
       "PSYWAVE_FAST": {
         "id": "V0401_MOVE_PSYWAVE_FAST",
@@ -1157,7 +1403,10 @@
         "power": 4,
         "durationMs": 500,
         "energyDelta": 7,
-        "vfxName": "psywave"
+        "vfxName": "psywave",
+        "names": {
+          "fr": "Vague Psy"
+        }
       },
       "ICE_SHARD_FAST": {
         "id": "V0217_MOVE_ICE_SHARD_FAST",
@@ -1166,7 +1415,10 @@
         "power": 10,
         "durationMs": 1000,
         "energyDelta": 10,
-        "vfxName": "ice_shard_fast"
+        "vfxName": "ice_shard_fast",
+        "names": {
+          "fr": "Éclats Glace"
+        }
       }
     },
     "dynamaxMove": [
@@ -1180,7 +1432,10 @@
           350,
           450
         ],
-        "vfxName": "max_hailstorm"
+        "vfxName": "max_hailstorm",
+        "names": {
+          "fr": "Cryomax"
+        }
       },
       {
         "id": "VN_BM_009",
@@ -1192,7 +1447,10 @@
           350,
           450
         ],
-        "vfxName": "max_geyser"
+        "vfxName": "max_geyser",
+        "names": {
+          "fr": "Hydromax"
+        }
       },
       {
         "id": "VN_BM_013",
@@ -1204,7 +1462,10 @@
           350,
           450
         ],
-        "vfxName": "max_mindstorm"
+        "vfxName": "max_mindstorm",
+        "names": {
+          "fr": "Psychomax"
+        }
       }
     ],
     "familyId": "Lokhlass"
@@ -1232,7 +1493,10 @@
         "power": 5,
         "durationMs": 500,
         "energyDelta": 5,
-        "vfxName": "water_gun_fast"
+        "vfxName": "water_gun_fast",
+        "names": {
+          "fr": "Pistolet à O"
+        }
       }
     },
     "dynamaxMove": [
@@ -1246,7 +1510,10 @@
           350,
           450
         ],
-        "vfxName": "max_geyser"
+        "vfxName": "max_geyser",
+        "names": {
+          "fr": "Hydromax"
+        }
       }
     ],
     "familyId": "Évoli"
@@ -1274,7 +1541,10 @@
         "power": 4,
         "durationMs": 500,
         "energyDelta": 7,
-        "vfxName": "thunder_shock_fast"
+        "vfxName": "thunder_shock_fast",
+        "names": {
+          "fr": "Éclair"
+        }
       },
       "VOLT_SWITCH_FAST": {
         "id": "V0250_MOVE_VOLT_SWITCH_FAST",
@@ -1283,7 +1553,10 @@
         "power": 13,
         "durationMs": 1500,
         "energyDelta": 20,
-        "vfxName": "volt_switch_fast"
+        "vfxName": "volt_switch_fast",
+        "names": {
+          "fr": "Change Éclair"
+        }
       }
     },
     "dynamaxMove": [
@@ -1297,7 +1570,10 @@
           350,
           450
         ],
-        "vfxName": "max_lightning"
+        "vfxName": "max_lightning",
+        "names": {
+          "fr": "Fulguromax"
+        }
       }
     ],
     "familyId": "Évoli"
@@ -1325,7 +1601,10 @@
         "power": 10,
         "durationMs": 1000,
         "energyDelta": 10,
-        "vfxName": "ember_fast"
+        "vfxName": "ember_fast",
+        "names": {
+          "fr": "Flammèche"
+        }
       },
       "FIRE_SPIN_FAST": {
         "id": "V0269_MOVE_FIRE_SPIN_FAST",
@@ -1334,7 +1613,10 @@
         "power": 13,
         "durationMs": 1000,
         "energyDelta": 9,
-        "vfxName": "fire_spin_fast"
+        "vfxName": "fire_spin_fast",
+        "names": {
+          "fr": "Danse Flammes"
+        }
       }
     },
     "dynamaxMove": [
@@ -1348,7 +1630,10 @@
           350,
           450
         ],
-        "vfxName": "max_flare"
+        "vfxName": "max_flare",
+        "names": {
+          "fr": "Pyromax"
+        }
       }
     ],
     "familyId": "Évoli"
@@ -1377,7 +1662,10 @@
         "power": 4,
         "durationMs": 500,
         "energyDelta": 6,
-        "vfxName": "mud_shot_fast"
+        "vfxName": "mud_shot_fast",
+        "names": {
+          "fr": "Tir de Boue"
+        }
       },
       "WATER_GUN_FAST": {
         "id": "V0230_MOVE_WATER_GUN_FAST",
@@ -1386,7 +1674,10 @@
         "power": 5,
         "durationMs": 500,
         "energyDelta": 5,
-        "vfxName": "water_gun_fast"
+        "vfxName": "water_gun_fast",
+        "names": {
+          "fr": "Pistolet à O"
+        }
       },
       "ROCK_THROW_FAST": {
         "id": "V0227_MOVE_ROCK_THROW_FAST",
@@ -1395,7 +1686,10 @@
         "power": 13,
         "durationMs": 1000,
         "energyDelta": 8,
-        "vfxName": "rock_throw_fast"
+        "vfxName": "rock_throw_fast",
+        "names": {
+          "fr": "Jet-Pierres"
+        }
       }
     },
     "dynamaxMove": [
@@ -1409,7 +1703,10 @@
           350,
           450
         ],
-        "vfxName": "max_quake"
+        "vfxName": "max_quake",
+        "names": {
+          "fr": "Sismomax"
+        }
       },
       {
         "id": "VN_BM_009",
@@ -1421,7 +1718,10 @@
           350,
           450
         ],
-        "vfxName": "max_geyser"
+        "vfxName": "max_geyser",
+        "names": {
+          "fr": "Hydromax"
+        }
       },
       {
         "id": "VN_BM_014",
@@ -1433,7 +1733,10 @@
           350,
           450
         ],
-        "vfxName": "max_rockfall"
+        "vfxName": "max_rockfall",
+        "names": {
+          "fr": "Lithomax"
+        }
       }
     ],
     "familyId": "Amonita"
@@ -1462,7 +1765,10 @@
         "power": 4,
         "durationMs": 500,
         "energyDelta": 6,
-        "vfxName": "mud_shot_fast"
+        "vfxName": "mud_shot_fast",
+        "names": {
+          "fr": "Tir de Boue"
+        }
       },
       "ROCK_SMASH_FAST": {
         "id": "V0241_MOVE_ROCK_SMASH_FAST",
@@ -1471,7 +1777,10 @@
         "power": 17,
         "durationMs": 1500,
         "energyDelta": 12,
-        "vfxName": "rock_smash_fast"
+        "vfxName": "rock_smash_fast",
+        "names": {
+          "fr": "Éclate-Roc"
+        }
       },
       "WATERFALL_FAST": {
         "id": "V0283_MOVE_WATERFALL_FAST",
@@ -1480,7 +1789,10 @@
         "power": 13,
         "durationMs": 1000,
         "energyDelta": 7,
-        "vfxName": "waterfall_fast"
+        "vfxName": "waterfall_fast",
+        "names": {
+          "fr": "Cascade"
+        }
       },
       "FURY_CUTTER_FAST": {
         "id": "V0200_MOVE_FURY_CUTTER_FAST",
@@ -1489,7 +1801,10 @@
         "power": 4,
         "durationMs": 500,
         "energyDelta": 8,
-        "vfxName": "fury_cutter_fast"
+        "vfxName": "fury_cutter_fast",
+        "names": {
+          "fr": "Taillade"
+        }
       }
     },
     "dynamaxMove": [
@@ -1503,7 +1818,10 @@
           350,
           450
         ],
-        "vfxName": "max_quake"
+        "vfxName": "max_quake",
+        "names": {
+          "fr": "Sismomax"
+        }
       },
       {
         "id": "VN_BM_005",
@@ -1515,7 +1833,10 @@
           350,
           450
         ],
-        "vfxName": "max_knuckle"
+        "vfxName": "max_knuckle",
+        "names": {
+          "fr": "Pugilomax"
+        }
       },
       {
         "id": "VN_BM_009",
@@ -1527,7 +1848,10 @@
           350,
           450
         ],
-        "vfxName": "max_geyser"
+        "vfxName": "max_geyser",
+        "names": {
+          "fr": "Hydromax"
+        }
       },
       {
         "id": "VN_BM_002",
@@ -1539,7 +1863,10 @@
           350,
           450
         ],
-        "vfxName": "max_flutterby"
+        "vfxName": "max_flutterby",
+        "names": {
+          "fr": "Insectomax"
+        }
       }
     ],
     "familyId": "Kabuto"
@@ -1567,7 +1894,10 @@
         "power": 11,
         "durationMs": 1000,
         "energyDelta": 9,
-        "vfxName": "zen_headbutt_fast"
+        "vfxName": "zen_headbutt_fast",
+        "names": {
+          "fr": "Psykoud’Boul"
+        }
       },
       "LICK_FAST": {
         "id": "V0212_MOVE_LICK_FAST",
@@ -1576,7 +1906,10 @@
         "power": 5,
         "durationMs": 500,
         "energyDelta": 6,
-        "vfxName": "lick_fast"
+        "vfxName": "lick_fast",
+        "names": {
+          "fr": "Léchouille"
+        }
       },
       "YAWN_FAST": {
         "id": "V0287_MOVE_YAWN_FAST",
@@ -1585,7 +1918,10 @@
         "power": 0,
         "durationMs": 1500,
         "energyDelta": 13,
-        "vfxName": "yawn_fast"
+        "vfxName": "yawn_fast",
+        "names": {
+          "fr": "Bâillement"
+        }
       }
     },
     "dynamaxMove": [
@@ -1599,7 +1935,10 @@
           350,
           450
         ],
-        "vfxName": "max_mindstorm"
+        "vfxName": "max_mindstorm",
+        "names": {
+          "fr": "Psychomax"
+        }
       },
       {
         "id": "VN_BM_006",
@@ -1611,7 +1950,10 @@
           350,
           450
         ],
-        "vfxName": "max_phantasm"
+        "vfxName": "max_phantasm",
+        "names": {
+          "fr": "Spectromax"
+        }
       },
       {
         "id": "VN_BM_004",
@@ -1623,7 +1965,10 @@
           350,
           450
         ],
-        "vfxName": "max_strike"
+        "vfxName": "max_strike",
+        "names": {
+          "fr": "Normalomax"
+        }
       }
     ],
     "familyId": "Ronflex"
@@ -1652,7 +1997,10 @@
         "power": 11,
         "durationMs": 1000,
         "energyDelta": 9,
-        "vfxName": "frost_breath_fast"
+        "vfxName": "frost_breath_fast",
+        "names": {
+          "fr": "Souffle Glacé"
+        }
       },
       "ICE_SHARD_FAST": {
         "id": "V0217_MOVE_ICE_SHARD_FAST",
@@ -1661,7 +2009,10 @@
         "power": 10,
         "durationMs": 1000,
         "energyDelta": 10,
-        "vfxName": "ice_shard_fast"
+        "vfxName": "ice_shard_fast",
+        "names": {
+          "fr": "Éclats Glace"
+        }
       },
       "POWDER_SNOW_FAST": {
         "id": "V0244_MOVE_POWDER_SNOW_FAST",
@@ -1670,7 +2021,10 @@
         "power": 6,
         "durationMs": 1000,
         "energyDelta": 15,
-        "vfxName": "powder_snow_fast"
+        "vfxName": "powder_snow_fast",
+        "names": {
+          "fr": "Poudreuse"
+        }
       }
     },
     "dynamaxMove": [
@@ -1684,7 +2038,10 @@
           350,
           450
         ],
-        "vfxName": "max_hailstorm"
+        "vfxName": "max_hailstorm",
+        "names": {
+          "fr": "Cryomax"
+        }
       }
     ],
     "familyId": "Artikodin"
@@ -1713,7 +2070,10 @@
         "power": 7,
         "durationMs": 1000,
         "energyDelta": 14,
-        "vfxName": "charge_beam_fast"
+        "vfxName": "charge_beam_fast",
+        "names": {
+          "fr": "Rayon Chargé"
+        }
       },
       "THUNDER_SHOCK_FAST": {
         "id": "V0205_MOVE_THUNDER_SHOCK_FAST",
@@ -1722,7 +2082,10 @@
         "power": 4,
         "durationMs": 500,
         "energyDelta": 7,
-        "vfxName": "thunder_shock_fast"
+        "vfxName": "thunder_shock_fast",
+        "names": {
+          "fr": "Éclair"
+        }
       }
     },
     "dynamaxMove": [
@@ -1736,7 +2099,10 @@
           350,
           450
         ],
-        "vfxName": "max_lightning"
+        "vfxName": "max_lightning",
+        "names": {
+          "fr": "Fulguromax"
+        }
       }
     ],
     "familyId": "Électhor"
@@ -1765,7 +2131,10 @@
         "power": 13,
         "durationMs": 1000,
         "energyDelta": 9,
-        "vfxName": "fire_spin_fast"
+        "vfxName": "fire_spin_fast",
+        "names": {
+          "fr": "Danse Flammes"
+        }
       },
       "WING_ATTACK_FAST": {
         "id": "V0210_MOVE_WING_ATTACK_FAST",
@@ -1774,7 +2143,10 @@
         "power": 10,
         "durationMs": 1000,
         "energyDelta": 11,
-        "vfxName": "wing_attack_fast"
+        "vfxName": "wing_attack_fast",
+        "names": {
+          "fr": "Cru-Ailes"
+        }
       }
     },
     "dynamaxMove": [
@@ -1788,7 +2160,10 @@
           350,
           450
         ],
-        "vfxName": "max_flare"
+        "vfxName": "max_flare",
+        "names": {
+          "fr": "Pyromax"
+        }
       },
       {
         "id": "VN_BM_010",
@@ -1800,7 +2175,10 @@
           350,
           450
         ],
-        "vfxName": "max_airstream"
+        "vfxName": "max_airstream",
+        "names": {
+          "fr": "Aéromax"
+        }
       }
     ],
     "familyId": "Sulfura"
@@ -1829,7 +2207,10 @@
         "power": 10,
         "durationMs": 1000,
         "energyDelta": 11,
-        "vfxName": "wing_attack_fast"
+        "vfxName": "wing_attack_fast",
+        "names": {
+          "fr": "Cru-Ailes"
+        }
       },
       "EXTRASENSORY_FAST": {
         "id": "V0274_MOVE_EXTRASENSORY_FAST",
@@ -1838,7 +2219,10 @@
         "power": 11,
         "durationMs": 1000,
         "energyDelta": 11,
-        "vfxName": "extrasensory_fast"
+        "vfxName": "extrasensory_fast",
+        "names": {
+          "fr": "Extrasenseur"
+        }
       }
     },
     "dynamaxMove": [
@@ -1852,7 +2236,10 @@
           350,
           450
         ],
-        "vfxName": "max_airstream"
+        "vfxName": "max_airstream",
+        "names": {
+          "fr": "Aéromax"
+        }
       },
       {
         "id": "VN_BM_013",
@@ -1864,7 +2251,10 @@
           350,
           450
         ],
-        "vfxName": "max_mindstorm"
+        "vfxName": "max_mindstorm",
+        "names": {
+          "fr": "Psychomax"
+        }
       }
     ],
     "familyId": "Hoothoot"
@@ -1892,7 +2282,10 @@
         "power": 19,
         "durationMs": 1500,
         "energyDelta": 14,
-        "vfxName": "confusion_fast"
+        "vfxName": "confusion_fast",
+        "names": {
+          "fr": "Choc Mental"
+        }
       },
       "ZEN_HEADBUTT_FAST": {
         "id": "V0234_MOVE_ZEN_HEADBUTT_FAST",
@@ -1901,7 +2294,10 @@
         "power": 11,
         "durationMs": 1000,
         "energyDelta": 9,
-        "vfxName": "zen_headbutt_fast"
+        "vfxName": "zen_headbutt_fast",
+        "names": {
+          "fr": "Psykoud’Boul"
+        }
       }
     },
     "dynamaxMove": [
@@ -1915,7 +2311,10 @@
           350,
           450
         ],
-        "vfxName": "max_mindstorm"
+        "vfxName": "max_mindstorm",
+        "names": {
+          "fr": "Psychomax"
+        }
       }
     ],
     "familyId": "Évoli"
@@ -1943,7 +2342,10 @@
         "power": 11,
         "durationMs": 1000,
         "energyDelta": 10,
-        "vfxName": "feint_attack_fast"
+        "vfxName": "feint_attack_fast",
+        "names": {
+          "fr": "Feinte"
+        }
       },
       "SNARL_FAST": {
         "id": "V0278_MOVE_SNARL_FAST",
@@ -1952,7 +2354,10 @@
         "power": 11,
         "durationMs": 1000,
         "energyDelta": 13,
-        "vfxName": "snarl_fast"
+        "vfxName": "snarl_fast",
+        "names": {
+          "fr": "Aboiement"
+        }
       }
     },
     "dynamaxMove": [
@@ -1966,7 +2371,10 @@
           350,
           450
         ],
-        "vfxName": "max_darkness"
+        "vfxName": "max_darkness",
+        "names": {
+          "fr": "Sinistromax"
+        }
       }
     ],
     "familyId": "Évoli"
@@ -1995,7 +2403,10 @@
         "power": 15,
         "durationMs": 1500,
         "energyDelta": 15,
-        "vfxName": "struggle_bug_fast"
+        "vfxName": "struggle_bug_fast",
+        "names": {
+          "fr": "Survinsecte"
+        }
       },
       "ROCK_THROW_FAST": {
         "id": "V0227_MOVE_ROCK_THROW_FAST",
@@ -2004,7 +2415,10 @@
         "power": 13,
         "durationMs": 1000,
         "energyDelta": 8,
-        "vfxName": "rock_throw_fast"
+        "vfxName": "rock_throw_fast",
+        "names": {
+          "fr": "Jet-Pierres"
+        }
       }
     },
     "dynamaxMove": [
@@ -2018,7 +2432,10 @@
           350,
           450
         ],
-        "vfxName": "max_flutterby"
+        "vfxName": "max_flutterby",
+        "names": {
+          "fr": "Insectomax"
+        }
       },
       {
         "id": "VN_BM_014",
@@ -2030,7 +2447,10 @@
           350,
           450
         ],
-        "vfxName": "max_rockfall"
+        "vfxName": "max_rockfall",
+        "names": {
+          "fr": "Lithomax"
+        }
       }
     ],
     "familyId": "Caratroc"
@@ -2058,7 +2478,10 @@
         "power": 17,
         "durationMs": 1500,
         "energyDelta": 12,
-        "vfxName": "rock_smash_fast"
+        "vfxName": "rock_smash_fast",
+        "names": {
+          "fr": "Éclate-Roc"
+        }
       },
       "COUNTER_FAST": {
         "id": "V0243_MOVE_COUNTER_FAST",
@@ -2067,7 +2490,10 @@
         "power": 13,
         "durationMs": 1000,
         "energyDelta": 9,
-        "vfxName": "counter_fast"
+        "vfxName": "counter_fast",
+        "names": {
+          "fr": "Riposte"
+        }
       }
     },
     "dynamaxMove": [
@@ -2081,7 +2507,10 @@
           350,
           450
         ],
-        "vfxName": "max_knuckle"
+        "vfxName": "max_knuckle",
+        "names": {
+          "fr": "Pugilomax"
+        }
       }
     ],
     "familyId": "Debugant"
@@ -2109,7 +2538,10 @@
         "power": 6,
         "durationMs": 500,
         "energyDelta": 5,
-        "vfxName": "pound_fast"
+        "vfxName": "pound_fast",
+        "names": {
+          "fr": "Écras’Face"
+        }
       },
       "ZEN_HEADBUTT_FAST": {
         "id": "V0234_MOVE_ZEN_HEADBUTT_FAST",
@@ -2118,7 +2550,10 @@
         "power": 11,
         "durationMs": 1000,
         "energyDelta": 9,
-        "vfxName": "zen_headbutt_fast"
+        "vfxName": "zen_headbutt_fast",
+        "names": {
+          "fr": "Psykoud’Boul"
+        }
       }
     },
     "dynamaxMove": [
@@ -2132,7 +2567,10 @@
           350,
           450
         ],
-        "vfxName": "max_strike"
+        "vfxName": "max_strike",
+        "names": {
+          "fr": "Normalomax"
+        }
       },
       {
         "id": "VN_BM_013",
@@ -2144,7 +2582,10 @@
           350,
           450
         ],
-        "vfxName": "max_mindstorm"
+        "vfxName": "max_mindstorm",
+        "names": {
+          "fr": "Psychomax"
+        }
       }
     ],
     "familyId": "Leveinard"
@@ -2172,7 +2613,10 @@
         "power": 4,
         "durationMs": 500,
         "energyDelta": 7,
-        "vfxName": "thunder_shock_fast"
+        "vfxName": "thunder_shock_fast",
+        "names": {
+          "fr": "Éclair"
+        }
       },
       "VOLT_SWITCH_FAST": {
         "id": "V0250_MOVE_VOLT_SWITCH_FAST",
@@ -2181,7 +2625,10 @@
         "power": 13,
         "durationMs": 1500,
         "energyDelta": 20,
-        "vfxName": "volt_switch_fast"
+        "vfxName": "volt_switch_fast",
+        "names": {
+          "fr": "Change Éclair"
+        }
       }
     },
     "dynamaxMove": [
@@ -2195,7 +2642,10 @@
           350,
           450
         ],
-        "vfxName": "max_lightning"
+        "vfxName": "max_lightning",
+        "names": {
+          "fr": "Fulguromax"
+        }
       }
     ],
     "familyId": "Raikou"
@@ -2223,7 +2673,10 @@
         "power": 13,
         "durationMs": 1000,
         "energyDelta": 9,
-        "vfxName": "fire_spin_fast"
+        "vfxName": "fire_spin_fast",
+        "names": {
+          "fr": "Danse Flammes"
+        }
       },
       "FIRE_FANG_FAST": {
         "id": "V0240_MOVE_FIRE_FANG_FAST",
@@ -2232,7 +2685,10 @@
         "power": 13,
         "durationMs": 1000,
         "energyDelta": 9,
-        "vfxName": "fire_fang_fast"
+        "vfxName": "fire_fang_fast",
+        "names": {
+          "fr": "Crocs Feu"
+        }
       }
     },
     "dynamaxMove": [
@@ -2246,7 +2702,10 @@
           350,
           450
         ],
-        "vfxName": "max_flare"
+        "vfxName": "max_flare",
+        "names": {
+          "fr": "Pyromax"
+        }
       }
     ],
     "familyId": "Entei"
@@ -2274,7 +2733,10 @@
         "power": 11,
         "durationMs": 1000,
         "energyDelta": 11,
-        "vfxName": "extrasensory_fast"
+        "vfxName": "extrasensory_fast",
+        "names": {
+          "fr": "Extrasenseur"
+        }
       },
       "SNARL_FAST": {
         "id": "V0278_MOVE_SNARL_FAST",
@@ -2283,7 +2745,10 @@
         "power": 11,
         "durationMs": 1000,
         "energyDelta": 13,
-        "vfxName": "snarl_fast"
+        "vfxName": "snarl_fast",
+        "names": {
+          "fr": "Aboiement"
+        }
       },
       "ICE_FANG_FAST": {
         "id": "V0327_MOVE_ICE_FANG_FAST",
@@ -2292,7 +2757,10 @@
         "power": 12,
         "durationMs": 1500,
         "energyDelta": 20,
-        "vfxName": "ice_fang_fast"
+        "vfxName": "ice_fang_fast",
+        "names": {
+          "fr": "Crocs Givre"
+        }
       },
       "WATER_GUN_FAST": {
         "id": "V0230_MOVE_WATER_GUN_FAST",
@@ -2301,7 +2769,10 @@
         "power": 5,
         "durationMs": 500,
         "energyDelta": 5,
-        "vfxName": "water_gun_fast"
+        "vfxName": "water_gun_fast",
+        "names": {
+          "fr": "Pistolet à O"
+        }
       },
       "HIDDEN_POWER_FAST": {
         "id": "V0281_MOVE_HIDDEN_POWER_FAST",
@@ -2310,7 +2781,10 @@
         "power": 15,
         "durationMs": 1500,
         "energyDelta": 15,
-        "vfxName": "hidden_power_fast"
+        "vfxName": "hidden_power_fast",
+        "names": {
+          "fr": "Puissance Cachée"
+        }
       }
     },
     "dynamaxMove": [
@@ -2324,7 +2798,10 @@
           350,
           450
         ],
-        "vfxName": "max_mindstorm"
+        "vfxName": "max_mindstorm",
+        "names": {
+          "fr": "Psychomax"
+        }
       },
       {
         "id": "VN_BM_016",
@@ -2336,7 +2813,10 @@
           350,
           450
         ],
-        "vfxName": "max_darkness"
+        "vfxName": "max_darkness",
+        "names": {
+          "fr": "Sinistromax"
+        }
       },
       {
         "id": "VN_BM_007",
@@ -2348,7 +2828,10 @@
           350,
           450
         ],
-        "vfxName": "max_hailstorm"
+        "vfxName": "max_hailstorm",
+        "names": {
+          "fr": "Cryomax"
+        }
       },
       {
         "id": "VN_BM_009",
@@ -2360,7 +2843,10 @@
           350,
           450
         ],
-        "vfxName": "max_geyser"
+        "vfxName": "max_geyser",
+        "names": {
+          "fr": "Hydromax"
+        }
       },
       {
         "id": "VN_BM_004",
@@ -2372,7 +2858,10 @@
           350,
           450
         ],
-        "vfxName": "max_strike"
+        "vfxName": "max_strike",
+        "names": {
+          "fr": "Normalomax"
+        }
       }
     ],
     "familyId": "Suicune"
@@ -2401,7 +2890,10 @@
         "power": 11,
         "durationMs": 1000,
         "energyDelta": 11,
-        "vfxName": "extrasensory_fast"
+        "vfxName": "extrasensory_fast",
+        "names": {
+          "fr": "Extrasenseur"
+        }
       },
       "DRAGON_TAIL_FAST": {
         "id": "V0253_MOVE_DRAGON_TAIL_FAST",
@@ -2410,7 +2902,10 @@
         "power": 14,
         "durationMs": 1000,
         "energyDelta": 8,
-        "vfxName": "dragon_tail_fast"
+        "vfxName": "dragon_tail_fast",
+        "names": {
+          "fr": "Draco-Queue"
+        }
       }
     },
     "dynamaxMove": [
@@ -2424,7 +2919,10 @@
           350,
           450
         ],
-        "vfxName": "max_mindstorm"
+        "vfxName": "max_mindstorm",
+        "names": {
+          "fr": "Psychomax"
+        }
       },
       {
         "id": "VN_BM_012",
@@ -2436,7 +2934,10 @@
           350,
           450
         ],
-        "vfxName": "max_wyrmwind"
+        "vfxName": "max_wyrmwind",
+        "names": {
+          "fr": "Dracomax"
+        }
       }
     ],
     "familyId": "Lugia"
@@ -2465,7 +2966,10 @@
         "power": 11,
         "durationMs": 1000,
         "energyDelta": 11,
-        "vfxName": "extrasensory_fast"
+        "vfxName": "extrasensory_fast",
+        "names": {
+          "fr": "Extrasenseur"
+        }
       },
       "STEEL_WING_FAST": {
         "id": "V0239_MOVE_STEEL_WING_FAST",
@@ -2474,7 +2978,10 @@
         "power": 14,
         "durationMs": 1000,
         "energyDelta": 8,
-        "vfxName": "steel_wing_fast"
+        "vfxName": "steel_wing_fast",
+        "names": {
+          "fr": "Ailes d’Acier"
+        }
       },
       "HIDDEN_POWER_FAST": {
         "id": "V0281_MOVE_HIDDEN_POWER_FAST",
@@ -2483,7 +2990,10 @@
         "power": 15,
         "durationMs": 1500,
         "energyDelta": 15,
-        "vfxName": "hidden_power_fast"
+        "vfxName": "hidden_power_fast",
+        "names": {
+          "fr": "Puissance Cachée"
+        }
       },
       "INCINERATE_FAST": {
         "id": "V0346_MOVE_INCINERATE_FAST",
@@ -2492,7 +3002,10 @@
         "power": 32,
         "durationMs": 2500,
         "energyDelta": 22,
-        "vfxName": "incinerate_fast"
+        "vfxName": "incinerate_fast",
+        "names": {
+          "fr": "Calcination"
+        }
       }
     },
     "dynamaxMove": [
@@ -2506,7 +3019,10 @@
           350,
           450
         ],
-        "vfxName": "max_mindstorm"
+        "vfxName": "max_mindstorm",
+        "names": {
+          "fr": "Psychomax"
+        }
       },
       {
         "id": "VN_BM_018",
@@ -2518,7 +3034,10 @@
           350,
           450
         ],
-        "vfxName": "max_steelspike"
+        "vfxName": "max_steelspike",
+        "names": {
+          "fr": "Métallomax"
+        }
       },
       {
         "id": "VN_BM_004",
@@ -2530,7 +3049,10 @@
           350,
           450
         ],
-        "vfxName": "max_strike"
+        "vfxName": "max_strike",
+        "names": {
+          "fr": "Normalomax"
+        }
       },
       {
         "id": "VN_BM_001",
@@ -2542,7 +3064,10 @@
           350,
           450
         ],
-        "vfxName": "max_flare"
+        "vfxName": "max_flare",
+        "names": {
+          "fr": "Pyromax"
+        }
       }
     ],
     "familyId": "Ho-Oh"
@@ -2571,7 +3096,10 @@
         "power": 19,
         "durationMs": 1500,
         "energyDelta": 14,
-        "vfxName": "confusion_fast"
+        "vfxName": "confusion_fast",
+        "names": {
+          "fr": "Choc Mental"
+        }
       },
       "CHARGE_BEAM_FAST": {
         "id": "V0249_MOVE_CHARGE_BEAM_FAST",
@@ -2580,7 +3108,10 @@
         "power": 7,
         "durationMs": 1000,
         "energyDelta": 14,
-        "vfxName": "charge_beam_fast"
+        "vfxName": "charge_beam_fast",
+        "names": {
+          "fr": "Rayon Chargé"
+        }
       },
       "CHARM_FAST": {
         "id": "V0320_MOVE_CHARM_FAST",
@@ -2589,7 +3120,10 @@
         "power": 20,
         "durationMs": 1500,
         "energyDelta": 11,
-        "vfxName": "charm_fast"
+        "vfxName": "charm_fast",
+        "names": {
+          "fr": "Charme"
+        }
       },
       "MAGICAL_LEAF_FAST": {
         "id": "V0357_MOVE_MAGICAL_LEAF_FAST",
@@ -2598,7 +3132,10 @@
         "power": 17,
         "durationMs": 1500,
         "energyDelta": 17,
-        "vfxName": "magical_leaf_fast"
+        "vfxName": "magical_leaf_fast",
+        "names": {
+          "fr": "Feuille Magik"
+        }
       }
     },
     "dynamaxMove": [
@@ -2612,7 +3149,10 @@
           350,
           450
         ],
-        "vfxName": "max_mindstorm"
+        "vfxName": "max_mindstorm",
+        "names": {
+          "fr": "Psychomax"
+        }
       },
       {
         "id": "VN_BM_003",
@@ -2624,7 +3164,10 @@
           350,
           450
         ],
-        "vfxName": "max_lightning"
+        "vfxName": "max_lightning",
+        "names": {
+          "fr": "Fulguromax"
+        }
       },
       {
         "id": "VN_BM_011",
@@ -2636,7 +3179,10 @@
           350,
           450
         ],
-        "vfxName": "max_starfall"
+        "vfxName": "max_starfall",
+        "names": {
+          "fr": "Enchantomax"
+        }
       },
       {
         "id": "VN_BM_017",
@@ -2648,7 +3194,10 @@
           350,
           450
         ],
-        "vfxName": "max_overgrowth"
+        "vfxName": "max_overgrowth",
+        "names": {
+          "fr": "Phytomax"
+        }
       }
     ],
     "familyId": "Tarsal"
@@ -2677,7 +3226,10 @@
         "power": 6,
         "durationMs": 500,
         "energyDelta": 4,
-        "vfxName": "shadow_claw_fast"
+        "vfxName": "shadow_claw_fast",
+        "names": {
+          "fr": "Griffe Ombre"
+        }
       },
       "FEINT_ATTACK_FAST": {
         "id": "V0238_MOVE_FEINT_ATTACK_FAST",
@@ -2686,7 +3238,10 @@
         "power": 11,
         "durationMs": 1000,
         "energyDelta": 10,
-        "vfxName": "feint_attack_fast"
+        "vfxName": "feint_attack_fast",
+        "names": {
+          "fr": "Feinte"
+        }
       }
     },
     "dynamaxMove": [
@@ -2700,7 +3255,10 @@
           350,
           450
         ],
-        "vfxName": "max_phantasm"
+        "vfxName": "max_phantasm",
+        "names": {
+          "fr": "Spectromax"
+        }
       },
       {
         "id": "VN_BM_016",
@@ -2712,7 +3270,10 @@
           350,
           450
         ],
-        "vfxName": "max_darkness"
+        "vfxName": "max_darkness",
+        "names": {
+          "fr": "Sinistromax"
+        }
       }
     ],
     "familyId": "Ténéfix"
@@ -2740,7 +3301,10 @@
         "power": 11,
         "durationMs": 1000,
         "energyDelta": 9,
-        "vfxName": "zen_headbutt_fast"
+        "vfxName": "zen_headbutt_fast",
+        "names": {
+          "fr": "Psykoud’Boul"
+        }
       },
       "WATER_GUN_FAST": {
         "id": "V0230_MOVE_WATER_GUN_FAST",
@@ -2749,7 +3313,10 @@
         "power": 5,
         "durationMs": 500,
         "energyDelta": 5,
-        "vfxName": "water_gun_fast"
+        "vfxName": "water_gun_fast",
+        "names": {
+          "fr": "Pistolet à O"
+        }
       },
       "ROLLOUT_FAST": {
         "id": "V0368_MOVE_ROLLOUT_FAST",
@@ -2758,7 +3325,10 @@
         "power": 15,
         "durationMs": 1500,
         "energyDelta": 19,
-        "vfxName": "rollout_fast"
+        "vfxName": "rollout_fast",
+        "names": {
+          "fr": "Roulade"
+        }
       }
     },
     "dynamaxMove": [
@@ -2772,7 +3342,10 @@
           350,
           450
         ],
-        "vfxName": "max_mindstorm"
+        "vfxName": "max_mindstorm",
+        "names": {
+          "fr": "Psychomax"
+        }
       },
       {
         "id": "VN_BM_009",
@@ -2784,7 +3357,10 @@
           350,
           450
         ],
-        "vfxName": "max_geyser"
+        "vfxName": "max_geyser",
+        "names": {
+          "fr": "Hydromax"
+        }
       },
       {
         "id": "VN_BM_014",
@@ -2796,7 +3372,10 @@
           350,
           450
         ],
-        "vfxName": "max_rockfall"
+        "vfxName": "max_rockfall",
+        "names": {
+          "fr": "Lithomax"
+        }
       }
     ],
     "familyId": "Wailmer"
@@ -2825,7 +3404,10 @@
         "power": 4,
         "durationMs": 500,
         "energyDelta": 6,
-        "vfxName": "mud_shot_fast"
+        "vfxName": "mud_shot_fast",
+        "names": {
+          "fr": "Tir de Boue"
+        }
       },
       "DRAGON_TAIL_FAST": {
         "id": "V0253_MOVE_DRAGON_TAIL_FAST",
@@ -2834,7 +3416,10 @@
         "power": 14,
         "durationMs": 1000,
         "energyDelta": 8,
-        "vfxName": "dragon_tail_fast"
+        "vfxName": "dragon_tail_fast",
+        "names": {
+          "fr": "Draco-Queue"
+        }
       },
       "SAND_ATTACK_FAST": {
         "id": "V0403_MOVE_SAND_ATTACK_FAST",
@@ -2843,7 +3428,10 @@
         "power": 4,
         "durationMs": 500,
         "energyDelta": 7,
-        "vfxName": "sand_attack"
+        "vfxName": "sand_attack",
+        "names": {
+          "fr": "Jet de Sable"
+        }
       }
     },
     "dynamaxMove": [
@@ -2857,7 +3445,10 @@
           350,
           450
         ],
-        "vfxName": "max_quake"
+        "vfxName": "max_quake",
+        "names": {
+          "fr": "Sismomax"
+        }
       },
       {
         "id": "VN_BM_012",
@@ -2869,7 +3460,10 @@
           350,
           450
         ],
-        "vfxName": "max_wyrmwind"
+        "vfxName": "max_wyrmwind",
+        "names": {
+          "fr": "Dracomax"
+        }
       }
     ],
     "familyId": "Kraknoix"
@@ -2897,7 +3491,10 @@
         "power": 13,
         "durationMs": 1000,
         "energyDelta": 7,
-        "vfxName": "waterfall_fast"
+        "vfxName": "waterfall_fast",
+        "names": {
+          "fr": "Cascade"
+        }
       },
       "DRAGON_TAIL_FAST": {
         "id": "V0253_MOVE_DRAGON_TAIL_FAST",
@@ -2906,7 +3503,10 @@
         "power": 14,
         "durationMs": 1000,
         "energyDelta": 8,
-        "vfxName": "dragon_tail_fast"
+        "vfxName": "dragon_tail_fast",
+        "names": {
+          "fr": "Draco-Queue"
+        }
       }
     },
     "dynamaxMove": [
@@ -2920,7 +3520,10 @@
           350,
           450
         ],
-        "vfxName": "max_geyser"
+        "vfxName": "max_geyser",
+        "names": {
+          "fr": "Hydromax"
+        }
       },
       {
         "id": "VN_BM_012",
@@ -2932,7 +3535,10 @@
           350,
           450
         ],
-        "vfxName": "max_wyrmwind"
+        "vfxName": "max_wyrmwind",
+        "names": {
+          "fr": "Dracomax"
+        }
       }
     ],
     "familyId": "Barpau"
@@ -2961,7 +3567,10 @@
         "power": 13,
         "durationMs": 1000,
         "energyDelta": 7,
-        "vfxName": "waterfall_fast"
+        "vfxName": "waterfall_fast",
+        "names": {
+          "fr": "Cascade"
+        }
       },
       "FROST_BREATH_FAST": {
         "id": "V0218_MOVE_FROST_BREATH_FAST",
@@ -2970,7 +3579,10 @@
         "power": 11,
         "durationMs": 1000,
         "energyDelta": 9,
-        "vfxName": "frost_breath_fast"
+        "vfxName": "frost_breath_fast",
+        "names": {
+          "fr": "Souffle Glacé"
+        }
       },
       "POWDER_SNOW_FAST": {
         "id": "V0244_MOVE_POWDER_SNOW_FAST",
@@ -2979,7 +3591,10 @@
         "power": 6,
         "durationMs": 1000,
         "energyDelta": 15,
-        "vfxName": "powder_snow_fast"
+        "vfxName": "powder_snow_fast",
+        "names": {
+          "fr": "Poudreuse"
+        }
       }
     },
     "dynamaxMove": [
@@ -2993,7 +3608,10 @@
           350,
           450
         ],
-        "vfxName": "max_geyser"
+        "vfxName": "max_geyser",
+        "names": {
+          "fr": "Hydromax"
+        }
       },
       {
         "id": "VN_BM_007",
@@ -3005,7 +3623,10 @@
           350,
           450
         ],
-        "vfxName": "max_hailstorm"
+        "vfxName": "max_hailstorm",
+        "names": {
+          "fr": "Cryomax"
+        }
       }
     ],
     "familyId": "Obalie"
@@ -3034,7 +3655,10 @@
         "power": 10,
         "durationMs": 1000,
         "energyDelta": 11,
-        "vfxName": "bullet_punch_fast"
+        "vfxName": "bullet_punch_fast",
+        "names": {
+          "fr": "Pisto-Poing"
+        }
       },
       "ZEN_HEADBUTT_FAST": {
         "id": "V0234_MOVE_ZEN_HEADBUTT_FAST",
@@ -3043,7 +3667,10 @@
         "power": 11,
         "durationMs": 1000,
         "energyDelta": 9,
-        "vfxName": "zen_headbutt_fast"
+        "vfxName": "zen_headbutt_fast",
+        "names": {
+          "fr": "Psykoud’Boul"
+        }
       },
       "FURY_CUTTER_FAST": {
         "id": "V0200_MOVE_FURY_CUTTER_FAST",
@@ -3052,7 +3679,10 @@
         "power": 4,
         "durationMs": 500,
         "energyDelta": 8,
-        "vfxName": "fury_cutter_fast"
+        "vfxName": "fury_cutter_fast",
+        "names": {
+          "fr": "Taillade"
+        }
       },
       "SHADOW_CLAW_FAST": {
         "id": "V0213_MOVE_SHADOW_CLAW_FAST",
@@ -3061,7 +3691,10 @@
         "power": 6,
         "durationMs": 500,
         "energyDelta": 4,
-        "vfxName": "shadow_claw_fast"
+        "vfxName": "shadow_claw_fast",
+        "names": {
+          "fr": "Griffe Ombre"
+        }
       }
     },
     "dynamaxMove": [
@@ -3075,7 +3708,10 @@
           350,
           450
         ],
-        "vfxName": "max_steelspike"
+        "vfxName": "max_steelspike",
+        "names": {
+          "fr": "Métallomax"
+        }
       },
       {
         "id": "VN_BM_013",
@@ -3087,7 +3723,10 @@
           350,
           450
         ],
-        "vfxName": "max_mindstorm"
+        "vfxName": "max_mindstorm",
+        "names": {
+          "fr": "Psychomax"
+        }
       },
       {
         "id": "VN_BM_002",
@@ -3099,7 +3738,10 @@
           350,
           450
         ],
-        "vfxName": "max_flutterby"
+        "vfxName": "max_flutterby",
+        "names": {
+          "fr": "Insectomax"
+        }
       },
       {
         "id": "VN_BM_006",
@@ -3111,7 +3753,10 @@
           350,
           450
         ],
-        "vfxName": "max_phantasm"
+        "vfxName": "max_phantasm",
+        "names": {
+          "fr": "Spectromax"
+        }
       }
     ],
     "familyId": "Terhal"
@@ -3139,7 +3784,10 @@
         "power": 13,
         "durationMs": 1000,
         "energyDelta": 8,
-        "vfxName": "rock_throw_fast"
+        "vfxName": "rock_throw_fast",
+        "names": {
+          "fr": "Jet-Pierres"
+        }
       },
       "ROCK_SMASH_FAST": {
         "id": "V0241_MOVE_ROCK_SMASH_FAST",
@@ -3148,7 +3796,10 @@
         "power": 17,
         "durationMs": 1500,
         "energyDelta": 12,
-        "vfxName": "rock_smash_fast"
+        "vfxName": "rock_smash_fast",
+        "names": {
+          "fr": "Éclate-Roc"
+        }
       },
       "LOCK_ON_FAST": {
         "id": "V0325_MOVE_LOCK_ON_FAST",
@@ -3157,7 +3808,10 @@
         "power": 2,
         "durationMs": 500,
         "energyDelta": 10,
-        "vfxName": "lock_on_fast"
+        "vfxName": "lock_on_fast",
+        "names": {
+          "fr": "Verrouillage"
+        }
       }
     },
     "dynamaxMove": [
@@ -3171,7 +3825,10 @@
           350,
           450
         ],
-        "vfxName": "max_rockfall"
+        "vfxName": "max_rockfall",
+        "names": {
+          "fr": "Lithomax"
+        }
       },
       {
         "id": "VN_BM_005",
@@ -3183,7 +3840,10 @@
           350,
           450
         ],
-        "vfxName": "max_knuckle"
+        "vfxName": "max_knuckle",
+        "names": {
+          "fr": "Pugilomax"
+        }
       },
       {
         "id": "VN_BM_004",
@@ -3195,7 +3855,10 @@
           350,
           450
         ],
-        "vfxName": "max_strike"
+        "vfxName": "max_strike",
+        "names": {
+          "fr": "Normalomax"
+        }
       }
     ],
     "familyId": "Regirock"
@@ -3223,7 +3886,10 @@
         "power": 11,
         "durationMs": 1000,
         "energyDelta": 9,
-        "vfxName": "frost_breath_fast"
+        "vfxName": "frost_breath_fast",
+        "names": {
+          "fr": "Souffle Glacé"
+        }
       },
       "ROCK_SMASH_FAST": {
         "id": "V0241_MOVE_ROCK_SMASH_FAST",
@@ -3232,7 +3898,10 @@
         "power": 17,
         "durationMs": 1500,
         "energyDelta": 12,
-        "vfxName": "rock_smash_fast"
+        "vfxName": "rock_smash_fast",
+        "names": {
+          "fr": "Éclate-Roc"
+        }
       },
       "LOCK_ON_FAST": {
         "id": "V0325_MOVE_LOCK_ON_FAST",
@@ -3241,7 +3910,10 @@
         "power": 2,
         "durationMs": 500,
         "energyDelta": 10,
-        "vfxName": "lock_on_fast"
+        "vfxName": "lock_on_fast",
+        "names": {
+          "fr": "Verrouillage"
+        }
       }
     },
     "dynamaxMove": [
@@ -3255,7 +3927,10 @@
           350,
           450
         ],
-        "vfxName": "max_hailstorm"
+        "vfxName": "max_hailstorm",
+        "names": {
+          "fr": "Cryomax"
+        }
       },
       {
         "id": "VN_BM_005",
@@ -3267,7 +3942,10 @@
           350,
           450
         ],
-        "vfxName": "max_knuckle"
+        "vfxName": "max_knuckle",
+        "names": {
+          "fr": "Pugilomax"
+        }
       },
       {
         "id": "VN_BM_004",
@@ -3279,7 +3957,10 @@
           350,
           450
         ],
-        "vfxName": "max_strike"
+        "vfxName": "max_strike",
+        "names": {
+          "fr": "Normalomax"
+        }
       }
     ],
     "familyId": "Regice"
@@ -3307,7 +3988,10 @@
         "power": 6,
         "durationMs": 500,
         "energyDelta": 5,
-        "vfxName": "metal_claw_fast"
+        "vfxName": "metal_claw_fast",
+        "names": {
+          "fr": "Griffe Acier"
+        }
       },
       "ROCK_SMASH_FAST": {
         "id": "V0241_MOVE_ROCK_SMASH_FAST",
@@ -3316,7 +4000,10 @@
         "power": 17,
         "durationMs": 1500,
         "energyDelta": 12,
-        "vfxName": "rock_smash_fast"
+        "vfxName": "rock_smash_fast",
+        "names": {
+          "fr": "Éclate-Roc"
+        }
       },
       "LOCK_ON_FAST": {
         "id": "V0325_MOVE_LOCK_ON_FAST",
@@ -3325,7 +4012,10 @@
         "power": 2,
         "durationMs": 500,
         "energyDelta": 10,
-        "vfxName": "lock_on_fast"
+        "vfxName": "lock_on_fast",
+        "names": {
+          "fr": "Verrouillage"
+        }
       }
     },
     "dynamaxMove": [
@@ -3339,7 +4029,10 @@
           350,
           450
         ],
-        "vfxName": "max_steelspike"
+        "vfxName": "max_steelspike",
+        "names": {
+          "fr": "Métallomax"
+        }
       },
       {
         "id": "VN_BM_005",
@@ -3351,7 +4044,10 @@
           350,
           450
         ],
-        "vfxName": "max_knuckle"
+        "vfxName": "max_knuckle",
+        "names": {
+          "fr": "Pugilomax"
+        }
       },
       {
         "id": "VN_BM_004",
@@ -3363,7 +4059,10 @@
           350,
           450
         ],
-        "vfxName": "max_strike"
+        "vfxName": "max_strike",
+        "names": {
+          "fr": "Normalomax"
+        }
       }
     ],
     "familyId": "Registeel"
@@ -3392,7 +4091,10 @@
         "power": 6,
         "durationMs": 500,
         "energyDelta": 4,
-        "vfxName": "dragon_breath_fast"
+        "vfxName": "dragon_breath_fast",
+        "names": {
+          "fr": "Draco-Souffle"
+        }
       },
       "ZEN_HEADBUTT_FAST": {
         "id": "V0234_MOVE_ZEN_HEADBUTT_FAST",
@@ -3401,7 +4103,10 @@
         "power": 11,
         "durationMs": 1000,
         "energyDelta": 9,
-        "vfxName": "zen_headbutt_fast"
+        "vfxName": "zen_headbutt_fast",
+        "names": {
+          "fr": "Psykoud’Boul"
+        }
       },
       "CHARM_FAST": {
         "id": "V0320_MOVE_CHARM_FAST",
@@ -3410,7 +4115,10 @@
         "power": 20,
         "durationMs": 1500,
         "energyDelta": 11,
-        "vfxName": "charm_fast"
+        "vfxName": "charm_fast",
+        "names": {
+          "fr": "Charme"
+        }
       }
     },
     "dynamaxMove": [
@@ -3424,7 +4132,10 @@
           350,
           450
         ],
-        "vfxName": "max_wyrmwind"
+        "vfxName": "max_wyrmwind",
+        "names": {
+          "fr": "Dracomax"
+        }
       },
       {
         "id": "VN_BM_013",
@@ -3436,7 +4147,10 @@
           350,
           450
         ],
-        "vfxName": "max_mindstorm"
+        "vfxName": "max_mindstorm",
+        "names": {
+          "fr": "Psychomax"
+        }
       },
       {
         "id": "VN_BM_011",
@@ -3448,7 +4162,10 @@
           350,
           450
         ],
-        "vfxName": "max_starfall"
+        "vfxName": "max_starfall",
+        "names": {
+          "fr": "Enchantomax"
+        }
       }
     ],
     "familyId": "Latias"
@@ -3477,7 +4194,10 @@
         "power": 6,
         "durationMs": 500,
         "energyDelta": 4,
-        "vfxName": "dragon_breath_fast"
+        "vfxName": "dragon_breath_fast",
+        "names": {
+          "fr": "Draco-Souffle"
+        }
       },
       "ZEN_HEADBUTT_FAST": {
         "id": "V0234_MOVE_ZEN_HEADBUTT_FAST",
@@ -3486,7 +4206,10 @@
         "power": 11,
         "durationMs": 1000,
         "energyDelta": 9,
-        "vfxName": "zen_headbutt_fast"
+        "vfxName": "zen_headbutt_fast",
+        "names": {
+          "fr": "Psykoud’Boul"
+        }
       }
     },
     "dynamaxMove": [
@@ -3500,7 +4223,10 @@
           350,
           450
         ],
-        "vfxName": "max_wyrmwind"
+        "vfxName": "max_wyrmwind",
+        "names": {
+          "fr": "Dracomax"
+        }
       },
       {
         "id": "VN_BM_013",
@@ -3512,7 +4238,10 @@
           350,
           450
         ],
-        "vfxName": "max_mindstorm"
+        "vfxName": "max_mindstorm",
+        "names": {
+          "fr": "Psychomax"
+        }
       }
     ],
     "familyId": "Latios"
@@ -3541,7 +4270,10 @@
         "power": 5,
         "durationMs": 500,
         "energyDelta": 6,
-        "vfxName": "bug_bite_fast"
+        "vfxName": "bug_bite_fast",
+        "names": {
+          "fr": "Piqûre"
+        }
       },
       "POISON_STING_FAST": {
         "id": "V0236_MOVE_POISON_STING_FAST",
@@ -3550,7 +4282,10 @@
         "power": 4,
         "durationMs": 500,
         "energyDelta": 6,
-        "vfxName": "poison_sting_fast"
+        "vfxName": "poison_sting_fast",
+        "names": {
+          "fr": "Dard-Venin"
+        }
       },
       "FURY_CUTTER_FAST": {
         "id": "V0200_MOVE_FURY_CUTTER_FAST",
@@ -3559,7 +4294,10 @@
         "power": 4,
         "durationMs": 500,
         "energyDelta": 8,
-        "vfxName": "fury_cutter_fast"
+        "vfxName": "fury_cutter_fast",
+        "names": {
+          "fr": "Taillade"
+        }
       },
       "AIR_SLASH_FAST": {
         "id": "V0255_MOVE_AIR_SLASH_FAST",
@@ -3568,7 +4306,10 @@
         "power": 12,
         "durationMs": 1000,
         "energyDelta": 8,
-        "vfxName": "air_slash_fast"
+        "vfxName": "air_slash_fast",
+        "names": {
+          "fr": "Lame d’Air"
+        }
       }
     },
     "dynamaxMove": [
@@ -3582,7 +4323,10 @@
           350,
           450
         ],
-        "vfxName": "max_flutterby"
+        "vfxName": "max_flutterby",
+        "names": {
+          "fr": "Insectomax"
+        }
       },
       {
         "id": "VN_BM_008",
@@ -3594,7 +4338,10 @@
           350,
           450
         ],
-        "vfxName": "max_ooze"
+        "vfxName": "max_ooze",
+        "names": {
+          "fr": "Toxinomax"
+        }
       },
       {
         "id": "VN_BM_010",
@@ -3606,7 +4353,10 @@
           350,
           450
         ],
-        "vfxName": "max_airstream"
+        "vfxName": "max_airstream",
+        "names": {
+          "fr": "Aéromax"
+        }
       }
     ],
     "familyId": "Apitrini"
@@ -3635,7 +4385,10 @@
         "power": 10,
         "durationMs": 1000,
         "energyDelta": 10,
-        "vfxName": "ice_shard_fast"
+        "vfxName": "ice_shard_fast",
+        "names": {
+          "fr": "Éclats Glace"
+        }
       },
       "FEINT_ATTACK_FAST": {
         "id": "V0238_MOVE_FEINT_ATTACK_FAST",
@@ -3644,7 +4397,10 @@
         "power": 11,
         "durationMs": 1000,
         "energyDelta": 10,
-        "vfxName": "feint_attack_fast"
+        "vfxName": "feint_attack_fast",
+        "names": {
+          "fr": "Feinte"
+        }
       },
       "SNARL_FAST": {
         "id": "V0278_MOVE_SNARL_FAST",
@@ -3653,7 +4409,10 @@
         "power": 11,
         "durationMs": 1000,
         "energyDelta": 13,
-        "vfxName": "snarl_fast"
+        "vfxName": "snarl_fast",
+        "names": {
+          "fr": "Aboiement"
+        }
       }
     },
     "dynamaxMove": [
@@ -3667,7 +4426,10 @@
           350,
           450
         ],
-        "vfxName": "max_hailstorm"
+        "vfxName": "max_hailstorm",
+        "names": {
+          "fr": "Cryomax"
+        }
       },
       {
         "id": "VN_BM_016",
@@ -3679,7 +4441,10 @@
           350,
           450
         ],
-        "vfxName": "max_darkness"
+        "vfxName": "max_darkness",
+        "names": {
+          "fr": "Sinistromax"
+        }
       }
     ],
     "familyId": "Farfuret"
@@ -3708,7 +4473,10 @@
         "power": 19,
         "durationMs": 1500,
         "energyDelta": 13,
-        "vfxName": "mud_slap_fast"
+        "vfxName": "mud_slap_fast",
+        "names": {
+          "fr": "Coud’Boue"
+        }
       },
       "SMACK_DOWN_FAST": {
         "id": "V0297_MOVE_SMACK_DOWN_FAST",
@@ -3717,7 +4485,10 @@
         "power": 13,
         "durationMs": 1000,
         "energyDelta": 7,
-        "vfxName": "smack_down_fast"
+        "vfxName": "smack_down_fast",
+        "names": {
+          "fr": "Anti-Air"
+        }
       }
     },
     "dynamaxMove": [
@@ -3731,7 +4502,10 @@
           350,
           450
         ],
-        "vfxName": "max_quake"
+        "vfxName": "max_quake",
+        "names": {
+          "fr": "Sismomax"
+        }
       },
       {
         "id": "VN_BM_014",
@@ -3743,7 +4517,10 @@
           350,
           450
         ],
-        "vfxName": "max_rockfall"
+        "vfxName": "max_rockfall",
+        "names": {
+          "fr": "Lithomax"
+        }
       }
     ],
     "familyId": "Rhinocorne"
@@ -3771,7 +4548,10 @@
         "power": 4,
         "durationMs": 500,
         "energyDelta": 7,
-        "vfxName": "thunder_shock_fast"
+        "vfxName": "thunder_shock_fast",
+        "names": {
+          "fr": "Éclair"
+        }
       },
       "LOW_KICK_FAST": {
         "id": "V0207_MOVE_LOW_KICK_FAST",
@@ -3780,7 +4560,10 @@
         "power": 5,
         "durationMs": 500,
         "energyDelta": 5,
-        "vfxName": "low_kick_fast"
+        "vfxName": "low_kick_fast",
+        "names": {
+          "fr": "Balayage"
+        }
       }
     },
     "dynamaxMove": [
@@ -3794,7 +4577,10 @@
           350,
           450
         ],
-        "vfxName": "max_lightning"
+        "vfxName": "max_lightning",
+        "names": {
+          "fr": "Fulguromax"
+        }
       },
       {
         "id": "VN_BM_005",
@@ -3806,7 +4592,10 @@
           350,
           450
         ],
-        "vfxName": "max_knuckle"
+        "vfxName": "max_knuckle",
+        "names": {
+          "fr": "Pugilomax"
+        }
       }
     ],
     "familyId": "Élektek"
@@ -3834,7 +4623,10 @@
         "power": 13,
         "durationMs": 1000,
         "energyDelta": 9,
-        "vfxName": "fire_spin_fast"
+        "vfxName": "fire_spin_fast",
+        "names": {
+          "fr": "Danse Flammes"
+        }
       },
       "KARATE_CHOP_FAST": {
         "id": "V0208_MOVE_KARATE_CHOP_FAST",
@@ -3843,7 +4635,10 @@
         "power": 10,
         "durationMs": 1000,
         "energyDelta": 13,
-        "vfxName": "karate_chop_fast"
+        "vfxName": "karate_chop_fast",
+        "names": {
+          "fr": "Poing Karaté"
+        }
       }
     },
     "dynamaxMove": [
@@ -3857,7 +4652,10 @@
           350,
           450
         ],
-        "vfxName": "max_flare"
+        "vfxName": "max_flare",
+        "names": {
+          "fr": "Pyromax"
+        }
       },
       {
         "id": "VN_BM_005",
@@ -3869,7 +4667,10 @@
           350,
           450
         ],
-        "vfxName": "max_knuckle"
+        "vfxName": "max_knuckle",
+        "names": {
+          "fr": "Pugilomax"
+        }
       }
     ],
     "familyId": "Magmar"
@@ -3897,7 +4698,10 @@
         "power": 13,
         "durationMs": 1000,
         "energyDelta": 7,
-        "vfxName": "razor_leaf_fast"
+        "vfxName": "razor_leaf_fast",
+        "names": {
+          "fr": "Tranch’Herbe"
+        }
       },
       "QUICK_ATTACK_FAST": {
         "id": "V0219_MOVE_QUICK_ATTACK_FAST",
@@ -3906,7 +4710,10 @@
         "power": 10,
         "durationMs": 1000,
         "energyDelta": 13,
-        "vfxName": "quick_attack_fast"
+        "vfxName": "quick_attack_fast",
+        "names": {
+          "fr": "Vive-Attaque"
+        }
       },
       "BULLET_SEED_FAST": {
         "id": "V0271_MOVE_BULLET_SEED_FAST",
@@ -3915,7 +4722,10 @@
         "power": 7,
         "durationMs": 1000,
         "energyDelta": 13,
-        "vfxName": "bullet_seed_fast"
+        "vfxName": "bullet_seed_fast",
+        "names": {
+          "fr": "Balle Graine"
+        }
       }
     },
     "dynamaxMove": [
@@ -3929,7 +4739,10 @@
           350,
           450
         ],
-        "vfxName": "max_overgrowth"
+        "vfxName": "max_overgrowth",
+        "names": {
+          "fr": "Phytomax"
+        }
       },
       {
         "id": "VN_BM_004",
@@ -3941,7 +4754,10 @@
           350,
           450
         ],
-        "vfxName": "max_strike"
+        "vfxName": "max_strike",
+        "names": {
+          "fr": "Normalomax"
+        }
       }
     ],
     "familyId": "Évoli"
@@ -3969,7 +4785,10 @@
         "power": 10,
         "durationMs": 1000,
         "energyDelta": 10,
-        "vfxName": "ice_shard_fast"
+        "vfxName": "ice_shard_fast",
+        "names": {
+          "fr": "Éclats Glace"
+        }
       },
       "FROST_BREATH_FAST": {
         "id": "V0218_MOVE_FROST_BREATH_FAST",
@@ -3978,7 +4797,10 @@
         "power": 11,
         "durationMs": 1000,
         "energyDelta": 9,
-        "vfxName": "frost_breath_fast"
+        "vfxName": "frost_breath_fast",
+        "names": {
+          "fr": "Souffle Glacé"
+        }
       }
     },
     "dynamaxMove": [
@@ -3992,7 +4814,10 @@
           350,
           450
         ],
-        "vfxName": "max_hailstorm"
+        "vfxName": "max_hailstorm",
+        "names": {
+          "fr": "Cryomax"
+        }
       }
     ],
     "familyId": "Évoli"
@@ -4021,7 +4846,10 @@
         "power": 19,
         "durationMs": 1500,
         "energyDelta": 14,
-        "vfxName": "confusion_fast"
+        "vfxName": "confusion_fast",
+        "names": {
+          "fr": "Choc Mental"
+        }
       },
       "LOW_KICK_FAST": {
         "id": "V0207_MOVE_LOW_KICK_FAST",
@@ -4030,7 +4858,10 @@
         "power": 5,
         "durationMs": 500,
         "energyDelta": 5,
-        "vfxName": "low_kick_fast"
+        "vfxName": "low_kick_fast",
+        "names": {
+          "fr": "Balayage"
+        }
       },
       "CHARM_FAST": {
         "id": "V0320_MOVE_CHARM_FAST",
@@ -4039,7 +4870,10 @@
         "power": 20,
         "durationMs": 1500,
         "energyDelta": 11,
-        "vfxName": "charm_fast"
+        "vfxName": "charm_fast",
+        "names": {
+          "fr": "Charme"
+        }
       },
       "PSYCHO_CUT_FAST": {
         "id": "V0226_MOVE_PSYCHO_CUT_FAST",
@@ -4048,7 +4882,10 @@
         "power": 4,
         "durationMs": 500,
         "energyDelta": 7,
-        "vfxName": "psycho_cut_fast"
+        "vfxName": "psycho_cut_fast",
+        "names": {
+          "fr": "Coupe Psycho"
+        }
       }
     },
     "dynamaxMove": [
@@ -4062,7 +4899,10 @@
           350,
           450
         ],
-        "vfxName": "max_mindstorm"
+        "vfxName": "max_mindstorm",
+        "names": {
+          "fr": "Psychomax"
+        }
       },
       {
         "id": "VN_BM_005",
@@ -4074,7 +4914,10 @@
           350,
           450
         ],
-        "vfxName": "max_knuckle"
+        "vfxName": "max_knuckle",
+        "names": {
+          "fr": "Pugilomax"
+        }
       },
       {
         "id": "VN_BM_011",
@@ -4086,7 +4929,10 @@
           350,
           450
         ],
-        "vfxName": "max_starfall"
+        "vfxName": "max_starfall",
+        "names": {
+          "fr": "Enchantomax"
+        }
       }
     ],
     "familyId": "Tarsal"
@@ -4115,7 +4961,10 @@
         "power": 12,
         "durationMs": 1000,
         "energyDelta": 8,
-        "vfxName": "air_slash_fast"
+        "vfxName": "air_slash_fast",
+        "names": {
+          "fr": "Lame d’Air"
+        }
       },
       "STEEL_WING_FAST": {
         "id": "V0239_MOVE_STEEL_WING_FAST",
@@ -4124,7 +4973,10 @@
         "power": 14,
         "durationMs": 1000,
         "energyDelta": 8,
-        "vfxName": "steel_wing_fast"
+        "vfxName": "steel_wing_fast",
+        "names": {
+          "fr": "Ailes d’Acier"
+        }
       }
     },
     "dynamaxMove": [
@@ -4138,7 +4990,10 @@
           350,
           450
         ],
-        "vfxName": "max_airstream"
+        "vfxName": "max_airstream",
+        "names": {
+          "fr": "Aéromax"
+        }
       },
       {
         "id": "VN_BM_018",
@@ -4150,7 +5005,10 @@
           350,
           450
         ],
-        "vfxName": "max_steelspike"
+        "vfxName": "max_steelspike",
+        "names": {
+          "fr": "Métallomax"
+        }
       }
     ],
     "familyId": "Poichigeon"
@@ -4178,7 +5036,10 @@
         "power": 19,
         "durationMs": 1500,
         "energyDelta": 13,
-        "vfxName": "mud_slap_fast"
+        "vfxName": "mud_slap_fast",
+        "names": {
+          "fr": "Coud’Boue"
+        }
       },
       "SMACK_DOWN_FAST": {
         "id": "V0297_MOVE_SMACK_DOWN_FAST",
@@ -4187,7 +5048,10 @@
         "power": 13,
         "durationMs": 1000,
         "energyDelta": 7,
-        "vfxName": "smack_down_fast"
+        "vfxName": "smack_down_fast",
+        "names": {
+          "fr": "Anti-Air"
+        }
       },
       "LOCK_ON_FAST": {
         "id": "V0325_MOVE_LOCK_ON_FAST",
@@ -4196,7 +5060,10 @@
         "power": 2,
         "durationMs": 500,
         "energyDelta": 10,
-        "vfxName": "lock_on_fast"
+        "vfxName": "lock_on_fast",
+        "names": {
+          "fr": "Verrouillage"
+        }
       }
     },
     "dynamaxMove": [
@@ -4210,7 +5077,10 @@
           350,
           450
         ],
-        "vfxName": "max_quake"
+        "vfxName": "max_quake",
+        "names": {
+          "fr": "Sismomax"
+        }
       },
       {
         "id": "VN_BM_014",
@@ -4222,7 +5092,10 @@
           350,
           450
         ],
-        "vfxName": "max_rockfall"
+        "vfxName": "max_rockfall",
+        "names": {
+          "fr": "Lithomax"
+        }
       },
       {
         "id": "VN_BM_004",
@@ -4234,7 +5107,10 @@
           350,
           450
         ],
-        "vfxName": "max_strike"
+        "vfxName": "max_strike",
+        "names": {
+          "fr": "Normalomax"
+        }
       }
     ],
     "familyId": "Nodulithe"
@@ -4263,7 +5139,10 @@
         "power": 19,
         "durationMs": 1500,
         "energyDelta": 14,
-        "vfxName": "confusion_fast"
+        "vfxName": "confusion_fast",
+        "names": {
+          "fr": "Choc Mental"
+        }
       },
       "AIR_SLASH_FAST": {
         "id": "V0255_MOVE_AIR_SLASH_FAST",
@@ -4272,7 +5151,10 @@
         "power": 12,
         "durationMs": 1000,
         "energyDelta": 8,
-        "vfxName": "air_slash_fast"
+        "vfxName": "air_slash_fast",
+        "names": {
+          "fr": "Lame d’Air"
+        }
       }
     },
     "dynamaxMove": [
@@ -4286,7 +5168,10 @@
           350,
           450
         ],
-        "vfxName": "max_mindstorm"
+        "vfxName": "max_mindstorm",
+        "names": {
+          "fr": "Psychomax"
+        }
       },
       {
         "id": "VN_BM_010",
@@ -4298,7 +5183,10 @@
           350,
           450
         ],
-        "vfxName": "max_airstream"
+        "vfxName": "max_airstream",
+        "names": {
+          "fr": "Aéromax"
+        }
       }
     ],
     "familyId": "Chovsourir"
@@ -4327,7 +5215,10 @@
         "power": 6,
         "durationMs": 500,
         "energyDelta": 5,
-        "vfxName": "metal_claw_fast"
+        "vfxName": "metal_claw_fast",
+        "names": {
+          "fr": "Griffe Acier"
+        }
       },
       "MUD_SLAP_FAST": {
         "id": "V0233_MOVE_MUD_SLAP_FAST",
@@ -4336,7 +5227,10 @@
         "power": 19,
         "durationMs": 1500,
         "energyDelta": 13,
-        "vfxName": "mud_slap_fast"
+        "vfxName": "mud_slap_fast",
+        "names": {
+          "fr": "Coud’Boue"
+        }
       },
       "MUD_SHOT_FAST": {
         "id": "V0216_MOVE_MUD_SHOT_FAST",
@@ -4345,7 +5239,10 @@
         "power": 4,
         "durationMs": 500,
         "energyDelta": 6,
-        "vfxName": "mud_shot_fast"
+        "vfxName": "mud_shot_fast",
+        "names": {
+          "fr": "Tir de Boue"
+        }
       }
     },
     "dynamaxMove": [
@@ -4359,7 +5256,10 @@
           350,
           450
         ],
-        "vfxName": "max_steelspike"
+        "vfxName": "max_steelspike",
+        "names": {
+          "fr": "Métallomax"
+        }
       },
       {
         "id": "VN_BM_015",
@@ -4371,7 +5271,10 @@
           350,
           450
         ],
-        "vfxName": "max_quake"
+        "vfxName": "max_quake",
+        "names": {
+          "fr": "Sismomax"
+        }
       }
     ],
     "familyId": "Rototaupe"
@@ -4400,7 +5303,10 @@
         "power": 20,
         "durationMs": 1500,
         "energyDelta": 11,
-        "vfxName": "charm_fast"
+        "vfxName": "charm_fast",
+        "names": {
+          "fr": "Charme"
+        }
       },
       "RAZOR_LEAF_FAST": {
         "id": "V0215_MOVE_RAZOR_LEAF_FAST",
@@ -4409,7 +5315,10 @@
         "power": 13,
         "durationMs": 1000,
         "energyDelta": 7,
-        "vfxName": "razor_leaf_fast"
+        "vfxName": "razor_leaf_fast",
+        "names": {
+          "fr": "Tranch’Herbe"
+        }
       },
       "FAIRY_WIND_FAST": {
         "id": "V0350_MOVE_FAIRY_WIND_FAST",
@@ -4418,7 +5327,10 @@
         "power": 9,
         "durationMs": 1000,
         "energyDelta": 13,
-        "vfxName": "fairy_wind_fast"
+        "vfxName": "fairy_wind_fast",
+        "names": {
+          "fr": "Vent Féérique"
+        }
       }
     },
     "dynamaxMove": [
@@ -4432,7 +5344,10 @@
           350,
           450
         ],
-        "vfxName": "max_starfall"
+        "vfxName": "max_starfall",
+        "names": {
+          "fr": "Enchantomax"
+        }
       },
       {
         "id": "VN_BM_017",
@@ -4444,7 +5359,10 @@
           350,
           450
         ],
-        "vfxName": "max_overgrowth"
+        "vfxName": "max_overgrowth",
+        "names": {
+          "fr": "Phytomax"
+        }
       }
     ],
     "familyId": "Doudouvet"
@@ -4472,7 +5390,10 @@
         "power": 5,
         "durationMs": 500,
         "energyDelta": 5,
-        "vfxName": "tackle_fast"
+        "vfxName": "tackle_fast",
+        "names": {
+          "fr": "Charge"
+        }
       },
       "FIRE_FANG_FAST": {
         "id": "V0240_MOVE_FIRE_FANG_FAST",
@@ -4481,7 +5402,10 @@
         "power": 13,
         "durationMs": 1000,
         "energyDelta": 9,
-        "vfxName": "fire_fang_fast"
+        "vfxName": "fire_fang_fast",
+        "names": {
+          "fr": "Crocs Feu"
+        }
       },
       "INCINERATE_FAST": {
         "id": "V0346_MOVE_INCINERATE_FAST",
@@ -4490,7 +5414,10 @@
         "power": 32,
         "durationMs": 2500,
         "energyDelta": 22,
-        "vfxName": "incinerate_fast"
+        "vfxName": "incinerate_fast",
+        "names": {
+          "fr": "Calcination"
+        }
       }
     },
     "dynamaxMove": [
@@ -4504,7 +5431,10 @@
           350,
           450
         ],
-        "vfxName": "max_strike"
+        "vfxName": "max_strike",
+        "names": {
+          "fr": "Normalomax"
+        }
       },
       {
         "id": "VN_BM_001",
@@ -4516,7 +5446,10 @@
           350,
           450
         ],
-        "vfxName": "max_flare"
+        "vfxName": "max_flare",
+        "names": {
+          "fr": "Pyromax"
+        }
       }
     ],
     "familyId": "Darumarond"
@@ -4544,7 +5477,10 @@
         "power": 9,
         "durationMs": 1000,
         "energyDelta": 13,
-        "vfxName": "infestation_fast"
+        "vfxName": "infestation_fast",
+        "names": {
+          "fr": "Harcèlement"
+        }
       },
       "TAKE_DOWN_FAST": {
         "id": "V0282_MOVE_TAKE_DOWN_FAST",
@@ -4553,7 +5489,10 @@
         "power": 7,
         "durationMs": 1000,
         "energyDelta": 8,
-        "vfxName": "take_down_fast"
+        "vfxName": "take_down_fast",
+        "names": {
+          "fr": "Bélier"
+        }
       }
     },
     "dynamaxMove": [
@@ -4567,7 +5506,10 @@
           350,
           450
         ],
-        "vfxName": "max_flutterby"
+        "vfxName": "max_flutterby",
+        "names": {
+          "fr": "Insectomax"
+        }
       },
       {
         "id": "VN_BM_004",
@@ -4579,7 +5521,10 @@
           350,
           450
         ],
-        "vfxName": "max_strike"
+        "vfxName": "max_strike",
+        "names": {
+          "fr": "Normalomax"
+        }
       }
     ],
     "familyId": "Miamiasme"
@@ -4607,7 +5552,10 @@
         "power": 10,
         "durationMs": 1000,
         "energyDelta": 10,
-        "vfxName": "ice_shard_fast"
+        "vfxName": "ice_shard_fast",
+        "names": {
+          "fr": "Éclats Glace"
+        }
       },
       "FROST_BREATH_FAST": {
         "id": "V0218_MOVE_FROST_BREATH_FAST",
@@ -4616,7 +5564,10 @@
         "power": 11,
         "durationMs": 1000,
         "energyDelta": 9,
-        "vfxName": "frost_breath_fast"
+        "vfxName": "frost_breath_fast",
+        "names": {
+          "fr": "Souffle Glacé"
+        }
       }
     },
     "dynamaxMove": [
@@ -4630,7 +5581,10 @@
           350,
           450
         ],
-        "vfxName": "max_hailstorm"
+        "vfxName": "max_hailstorm",
+        "names": {
+          "fr": "Cryomax"
+        }
       }
     ],
     "familyId": "Hexagel"
@@ -4659,7 +5613,10 @@
         "power": 6,
         "durationMs": 500,
         "energyDelta": 4,
-        "vfxName": "bite_fast"
+        "vfxName": "bite_fast",
+        "names": {
+          "fr": "Morsure"
+        }
       },
       "DRAGON_BREATH_FAST": {
         "id": "V0204_MOVE_DRAGON_BREATH_FAST",
@@ -4668,7 +5625,10 @@
         "power": 6,
         "durationMs": 500,
         "energyDelta": 4,
-        "vfxName": "dragon_breath_fast"
+        "vfxName": "dragon_breath_fast",
+        "names": {
+          "fr": "Draco-Souffle"
+        }
       }
     },
     "dynamaxMove": [
@@ -4682,7 +5642,10 @@
           350,
           450
         ],
-        "vfxName": "max_darkness"
+        "vfxName": "max_darkness",
+        "names": {
+          "fr": "Sinistromax"
+        }
       },
       {
         "id": "VN_BM_012",
@@ -4694,7 +5657,10 @@
           350,
           450
         ],
-        "vfxName": "max_wyrmwind"
+        "vfxName": "max_wyrmwind",
+        "names": {
+          "fr": "Dracomax"
+        }
       }
     ],
     "familyId": "Solochi"
@@ -4722,7 +5688,10 @@
         "power": 19,
         "durationMs": 1500,
         "energyDelta": 14,
-        "vfxName": "confusion_fast"
+        "vfxName": "confusion_fast",
+        "names": {
+          "fr": "Choc Mental"
+        }
       },
       "SUCKER_PUNCH_FAST": {
         "id": "V0203_MOVE_SUCKER_PUNCH_FAST",
@@ -4731,7 +5700,10 @@
         "power": 5,
         "durationMs": 500,
         "energyDelta": 6,
-        "vfxName": "sucker_punch_fast"
+        "vfxName": "sucker_punch_fast",
+        "names": {
+          "fr": "Coup Bas"
+        }
       }
     },
     "dynamaxMove": [
@@ -4745,7 +5717,10 @@
           350,
           450
         ],
-        "vfxName": "max_mindstorm"
+        "vfxName": "max_mindstorm",
+        "names": {
+          "fr": "Psychomax"
+        }
       },
       {
         "id": "VN_BM_016",
@@ -4757,7 +5732,10 @@
           350,
           450
         ],
-        "vfxName": "max_darkness"
+        "vfxName": "max_darkness",
+        "names": {
+          "fr": "Sinistromax"
+        }
       }
     ],
     "familyId": "Psystigri"
@@ -4786,7 +5764,10 @@
         "power": 10,
         "durationMs": 1000,
         "energyDelta": 10,
-        "vfxName": "peck_fast"
+        "vfxName": "peck_fast",
+        "names": {
+          "fr": "Picpic"
+        }
       },
       "PSYCHO_CUT_FAST": {
         "id": "V0226_MOVE_PSYCHO_CUT_FAST",
@@ -4795,7 +5776,10 @@
         "power": 4,
         "durationMs": 500,
         "energyDelta": 7,
-        "vfxName": "psycho_cut_fast"
+        "vfxName": "psycho_cut_fast",
+        "names": {
+          "fr": "Coupe Psycho"
+        }
       },
       "PSYWAVE_FAST": {
         "id": "V0401_MOVE_PSYWAVE_FAST",
@@ -4804,7 +5788,10 @@
         "power": 4,
         "durationMs": 500,
         "energyDelta": 7,
-        "vfxName": "psywave"
+        "vfxName": "psywave",
+        "names": {
+          "fr": "Vague Psy"
+        }
       }
     },
     "dynamaxMove": [
@@ -4818,7 +5805,10 @@
           350,
           450
         ],
-        "vfxName": "max_airstream"
+        "vfxName": "max_airstream",
+        "names": {
+          "fr": "Aéromax"
+        }
       },
       {
         "id": "VN_BM_013",
@@ -4830,7 +5820,10 @@
           350,
           450
         ],
-        "vfxName": "max_mindstorm"
+        "vfxName": "max_mindstorm",
+        "names": {
+          "fr": "Psychomax"
+        }
       }
     ],
     "familyId": "Sepiatop"
@@ -4858,7 +5851,10 @@
         "power": 20,
         "durationMs": 1500,
         "energyDelta": 11,
-        "vfxName": "charm_fast"
+        "vfxName": "charm_fast",
+        "names": {
+          "fr": "Charme"
+        }
       },
       "QUICK_ATTACK_FAST": {
         "id": "V0219_MOVE_QUICK_ATTACK_FAST",
@@ -4867,7 +5863,10 @@
         "power": 10,
         "durationMs": 1000,
         "energyDelta": 13,
-        "vfxName": "quick_attack_fast"
+        "vfxName": "quick_attack_fast",
+        "names": {
+          "fr": "Vive-Attaque"
+        }
       },
       "FAIRY_WIND_FAST": {
         "id": "V0350_MOVE_FAIRY_WIND_FAST",
@@ -4876,7 +5875,10 @@
         "power": 9,
         "durationMs": 1000,
         "energyDelta": 13,
-        "vfxName": "fairy_wind_fast"
+        "vfxName": "fairy_wind_fast",
+        "names": {
+          "fr": "Vent Féérique"
+        }
       }
     },
     "dynamaxMove": [
@@ -4890,7 +5892,10 @@
           350,
           450
         ],
-        "vfxName": "max_starfall"
+        "vfxName": "max_starfall",
+        "names": {
+          "fr": "Enchantomax"
+        }
       },
       {
         "id": "VN_BM_004",
@@ -4902,7 +5907,10 @@
           350,
           450
         ],
-        "vfxName": "max_strike"
+        "vfxName": "max_strike",
+        "names": {
+          "fr": "Normalomax"
+        }
       }
     ],
     "familyId": "Évoli"
@@ -4930,7 +5938,10 @@
         "power": 13,
         "durationMs": 1000,
         "energyDelta": 7,
-        "vfxName": "razor_leaf_fast"
+        "vfxName": "razor_leaf_fast",
+        "names": {
+          "fr": "Tranch’Herbe"
+        }
       },
       "CHARM_FAST": {
         "id": "V0320_MOVE_CHARM_FAST",
@@ -4939,7 +5950,10 @@
         "power": 20,
         "durationMs": 1500,
         "energyDelta": 11,
-        "vfxName": "charm_fast"
+        "vfxName": "charm_fast",
+        "names": {
+          "fr": "Charme"
+        }
       },
       "MAGICAL_LEAF_FAST": {
         "id": "V0357_MOVE_MAGICAL_LEAF_FAST",
@@ -4948,7 +5962,10 @@
         "power": 17,
         "durationMs": 1500,
         "energyDelta": 17,
-        "vfxName": "magical_leaf_fast"
+        "vfxName": "magical_leaf_fast",
+        "names": {
+          "fr": "Feuille Magik"
+        }
       }
     },
     "dynamaxMove": [
@@ -4962,7 +5979,10 @@
           350,
           450
         ],
-        "vfxName": "max_overgrowth"
+        "vfxName": "max_overgrowth",
+        "names": {
+          "fr": "Phytomax"
+        }
       },
       {
         "id": "VN_BM_011",
@@ -4974,7 +5994,10 @@
           350,
           450
         ],
-        "vfxName": "max_starfall"
+        "vfxName": "max_starfall",
+        "names": {
+          "fr": "Enchantomax"
+        }
       }
     ],
     "familyId": "Croquine"
@@ -5002,7 +6025,10 @@
         "power": 13,
         "durationMs": 1000,
         "energyDelta": 9,
-        "vfxName": "counter_fast"
+        "vfxName": "counter_fast",
+        "names": {
+          "fr": "Riposte"
+        }
       },
       "ROCK_SMASH_FAST": {
         "id": "V0241_MOVE_ROCK_SMASH_FAST",
@@ -5011,7 +6037,10 @@
         "power": 17,
         "durationMs": 1500,
         "energyDelta": 12,
-        "vfxName": "rock_smash_fast"
+        "vfxName": "rock_smash_fast",
+        "names": {
+          "fr": "Éclate-Roc"
+        }
       },
       "TAKE_DOWN_FAST": {
         "id": "V0282_MOVE_TAKE_DOWN_FAST",
@@ -5020,7 +6049,10 @@
         "power": 7,
         "durationMs": 1000,
         "energyDelta": 8,
-        "vfxName": "take_down_fast"
+        "vfxName": "take_down_fast",
+        "names": {
+          "fr": "Bélier"
+        }
       }
     },
     "dynamaxMove": [
@@ -5034,7 +6066,10 @@
           350,
           450
         ],
-        "vfxName": "max_knuckle"
+        "vfxName": "max_knuckle",
+        "names": {
+          "fr": "Pugilomax"
+        }
       },
       {
         "id": "VN_BM_004",
@@ -5046,7 +6081,10 @@
           350,
           450
         ],
-        "vfxName": "max_strike"
+        "vfxName": "max_strike",
+        "names": {
+          "fr": "Normalomax"
+        }
       }
     ],
     "familyId": "Quartermac"
@@ -5075,7 +6113,10 @@
         "power": 6,
         "durationMs": 500,
         "energyDelta": 4,
-        "vfxName": "dragon_breath_fast"
+        "vfxName": "dragon_breath_fast",
+        "names": {
+          "fr": "Draco-Souffle"
+        }
       },
       "EXTRASENSORY_FAST": {
         "id": "V0274_MOVE_EXTRASENSORY_FAST",
@@ -5084,7 +6125,10 @@
         "power": 11,
         "durationMs": 1000,
         "energyDelta": 11,
-        "vfxName": "extrasensory_fast"
+        "vfxName": "extrasensory_fast",
+        "names": {
+          "fr": "Extrasenseur"
+        }
       }
     },
     "dynamaxMove": [
@@ -5098,7 +6142,10 @@
           350,
           450
         ],
-        "vfxName": "max_wyrmwind"
+        "vfxName": "max_wyrmwind",
+        "names": {
+          "fr": "Dracomax"
+        }
       },
       {
         "id": "VN_BM_013",
@@ -5110,7 +6157,10 @@
           350,
           450
         ],
-        "vfxName": "max_mindstorm"
+        "vfxName": "max_mindstorm",
+        "names": {
+          "fr": "Psychomax"
+        }
       }
     ],
     "familyId": "Draïeul"
@@ -5138,7 +6188,10 @@
         "power": 6,
         "durationMs": 500,
         "energyDelta": 4,
-        "vfxName": "scratch_fast"
+        "vfxName": "scratch_fast",
+        "names": {
+          "fr": "Griffe"
+        }
       },
       "RAZOR_LEAF_FAST": {
         "id": "V0215_MOVE_RAZOR_LEAF_FAST",
@@ -5147,7 +6200,10 @@
         "power": 13,
         "durationMs": 1000,
         "energyDelta": 7,
-        "vfxName": "razor_leaf_fast"
+        "vfxName": "razor_leaf_fast",
+        "names": {
+          "fr": "Tranch’Herbe"
+        }
       }
     },
     "dynamaxMove": [
@@ -5161,7 +6217,10 @@
           350,
           450
         ],
-        "vfxName": "max_strike"
+        "vfxName": "max_strike",
+        "names": {
+          "fr": "Normalomax"
+        }
       },
       {
         "id": "VN_BM_017",
@@ -5173,7 +6232,10 @@
           350,
           450
         ],
-        "vfxName": "max_overgrowth"
+        "vfxName": "max_overgrowth",
+        "names": {
+          "fr": "Phytomax"
+        }
       }
     ],
     "familyId": "Ouistempo"
@@ -5201,7 +6263,10 @@
         "power": 5,
         "durationMs": 500,
         "energyDelta": 5,
-        "vfxName": "tackle_fast"
+        "vfxName": "tackle_fast",
+        "names": {
+          "fr": "Charge"
+        }
       },
       "FIRE_SPIN_FAST": {
         "id": "V0269_MOVE_FIRE_SPIN_FAST",
@@ -5210,7 +6275,10 @@
         "power": 13,
         "durationMs": 1000,
         "energyDelta": 9,
-        "vfxName": "fire_spin_fast"
+        "vfxName": "fire_spin_fast",
+        "names": {
+          "fr": "Danse Flammes"
+        }
       }
     },
     "dynamaxMove": [
@@ -5224,7 +6292,10 @@
           350,
           450
         ],
-        "vfxName": "max_strike"
+        "vfxName": "max_strike",
+        "names": {
+          "fr": "Normalomax"
+        }
       },
       {
         "id": "VN_BM_001",
@@ -5236,7 +6307,10 @@
           350,
           450
         ],
-        "vfxName": "max_flare"
+        "vfxName": "max_flare",
+        "names": {
+          "fr": "Pyromax"
+        }
       }
     ],
     "familyId": "Flambino"
@@ -5264,7 +6338,10 @@
         "power": 6,
         "durationMs": 500,
         "energyDelta": 5,
-        "vfxName": "pound_fast"
+        "vfxName": "pound_fast",
+        "names": {
+          "fr": "Écras’Face"
+        }
       },
       "WATER_GUN_FAST": {
         "id": "V0230_MOVE_WATER_GUN_FAST",
@@ -5273,7 +6350,10 @@
         "power": 5,
         "durationMs": 500,
         "energyDelta": 5,
-        "vfxName": "water_gun_fast"
+        "vfxName": "water_gun_fast",
+        "names": {
+          "fr": "Pistolet à O"
+        }
       }
     },
     "dynamaxMove": [
@@ -5287,7 +6367,10 @@
           350,
           450
         ],
-        "vfxName": "max_strike"
+        "vfxName": "max_strike",
+        "names": {
+          "fr": "Normalomax"
+        }
       },
       {
         "id": "VN_BM_009",
@@ -5299,7 +6382,10 @@
           350,
           450
         ],
-        "vfxName": "max_geyser"
+        "vfxName": "max_geyser",
+        "names": {
+          "fr": "Hydromax"
+        }
       }
     ],
     "familyId": "Larméléon"
@@ -5327,7 +6413,10 @@
         "power": 5,
         "durationMs": 500,
         "energyDelta": 5,
-        "vfxName": "tackle_fast"
+        "vfxName": "tackle_fast",
+        "names": {
+          "fr": "Charge"
+        }
       },
       "BITE_FAST": {
         "id": "V0202_MOVE_BITE_FAST",
@@ -5336,7 +6425,10 @@
         "power": 6,
         "durationMs": 500,
         "energyDelta": 4,
-        "vfxName": "bite_fast"
+        "vfxName": "bite_fast",
+        "names": {
+          "fr": "Morsure"
+        }
       },
       "BULLET_SEED_FAST": {
         "id": "V0271_MOVE_BULLET_SEED_FAST",
@@ -5345,7 +6437,10 @@
         "power": 7,
         "durationMs": 1000,
         "energyDelta": 13,
-        "vfxName": "bullet_seed_fast"
+        "vfxName": "bullet_seed_fast",
+        "names": {
+          "fr": "Balle Graine"
+        }
       },
       "MUD_SHOT_FAST": {
         "id": "V0216_MOVE_MUD_SHOT_FAST",
@@ -5354,7 +6449,10 @@
         "power": 4,
         "durationMs": 500,
         "energyDelta": 6,
-        "vfxName": "mud_shot_fast"
+        "vfxName": "mud_shot_fast",
+        "names": {
+          "fr": "Tir de Boue"
+        }
       }
     },
     "dynamaxMove": [
@@ -5368,7 +6466,10 @@
           350,
           450
         ],
-        "vfxName": "max_strike"
+        "vfxName": "max_strike",
+        "names": {
+          "fr": "Normalomax"
+        }
       },
       {
         "id": "VN_BM_016",
@@ -5380,7 +6481,10 @@
           350,
           450
         ],
-        "vfxName": "max_darkness"
+        "vfxName": "max_darkness",
+        "names": {
+          "fr": "Sinistromax"
+        }
       },
       {
         "id": "VN_BM_017",
@@ -5392,7 +6496,10 @@
           350,
           450
         ],
-        "vfxName": "max_overgrowth"
+        "vfxName": "max_overgrowth",
+        "names": {
+          "fr": "Phytomax"
+        }
       },
       {
         "id": "VN_BM_015",
@@ -5404,7 +6511,10 @@
           350,
           450
         ],
-        "vfxName": "max_quake"
+        "vfxName": "max_quake",
+        "names": {
+          "fr": "Sismomax"
+        }
       }
     ],
     "familyId": "Rongourmand"
@@ -5433,7 +6543,10 @@
         "power": 14,
         "durationMs": 1000,
         "energyDelta": 8,
-        "vfxName": "steel_wing_fast"
+        "vfxName": "steel_wing_fast",
+        "names": {
+          "fr": "Ailes d’Acier"
+        }
       },
       "AIR_SLASH_FAST": {
         "id": "V0255_MOVE_AIR_SLASH_FAST",
@@ -5442,7 +6555,10 @@
         "power": 12,
         "durationMs": 1000,
         "energyDelta": 8,
-        "vfxName": "air_slash_fast"
+        "vfxName": "air_slash_fast",
+        "names": {
+          "fr": "Lame d’Air"
+        }
       },
       "SAND_ATTACK_FAST": {
         "id": "V0403_MOVE_SAND_ATTACK_FAST",
@@ -5451,7 +6567,10 @@
         "power": 4,
         "durationMs": 500,
         "energyDelta": 7,
-        "vfxName": "sand_attack"
+        "vfxName": "sand_attack",
+        "names": {
+          "fr": "Jet de Sable"
+        }
       }
     },
     "dynamaxMove": [
@@ -5465,7 +6584,10 @@
           350,
           450
         ],
-        "vfxName": "max_steelspike"
+        "vfxName": "max_steelspike",
+        "names": {
+          "fr": "Métallomax"
+        }
       },
       {
         "id": "VN_BM_010",
@@ -5477,7 +6599,10 @@
           350,
           450
         ],
-        "vfxName": "max_airstream"
+        "vfxName": "max_airstream",
+        "names": {
+          "fr": "Aéromax"
+        }
       },
       {
         "id": "VN_BM_015",
@@ -5489,7 +6614,10 @@
           350,
           450
         ],
-        "vfxName": "max_quake"
+        "vfxName": "max_quake",
+        "names": {
+          "fr": "Sismomax"
+        }
       }
     ],
     "familyId": "Minisange"
@@ -5517,7 +6645,10 @@
         "power": 5,
         "durationMs": 500,
         "energyDelta": 5,
-        "vfxName": "tackle_fast"
+        "vfxName": "tackle_fast",
+        "names": {
+          "fr": "Charge"
+        }
       },
       "TAKE_DOWN_FAST": {
         "id": "V0282_MOVE_TAKE_DOWN_FAST",
@@ -5526,7 +6657,10 @@
         "power": 7,
         "durationMs": 1000,
         "energyDelta": 8,
-        "vfxName": "take_down_fast"
+        "vfxName": "take_down_fast",
+        "names": {
+          "fr": "Bélier"
+        }
       },
       "DOUBLE_KICK_FAST": {
         "id": "V0356_MOVE_DOUBLE_KICK_FAST",
@@ -5535,7 +6669,10 @@
         "power": 10,
         "durationMs": 1000,
         "energyDelta": 13,
-        "vfxName": "double_kick_fast"
+        "vfxName": "double_kick_fast",
+        "names": {
+          "fr": "Double Pied"
+        }
       }
     },
     "dynamaxMove": [
@@ -5549,7 +6686,10 @@
           350,
           450
         ],
-        "vfxName": "max_strike"
+        "vfxName": "max_strike",
+        "names": {
+          "fr": "Normalomax"
+        }
       },
       {
         "id": "VN_BM_005",
@@ -5561,7 +6701,10 @@
           350,
           450
         ],
-        "vfxName": "max_knuckle"
+        "vfxName": "max_knuckle",
+        "names": {
+          "fr": "Pugilomax"
+        }
       }
     ],
     "familyId": "Moumouton"
@@ -5590,7 +6733,10 @@
         "power": 11,
         "durationMs": 1000,
         "energyDelta": 10,
-        "vfxName": "acid_fast"
+        "vfxName": "acid_fast",
+        "names": {
+          "fr": "Acide"
+        }
       },
       "SPARK_FAST": {
         "id": "V0206_MOVE_SPARK_FAST",
@@ -5599,7 +6745,10 @@
         "power": 4,
         "durationMs": 500,
         "energyDelta": 6,
-        "vfxName": "spark_fast"
+        "vfxName": "spark_fast",
+        "names": {
+          "fr": "Étincelle"
+        }
       },
       "POISON_JAB_FAST": {
         "id": "V0224_MOVE_POISON_JAB_FAST",
@@ -5608,7 +6757,10 @@
         "power": 13,
         "durationMs": 1000,
         "energyDelta": 9,
-        "vfxName": "poison_jab_fast"
+        "vfxName": "poison_jab_fast",
+        "names": {
+          "fr": "Direct Toxik"
+        }
       }
     },
     "dynamaxMove": [
@@ -5622,7 +6774,10 @@
           350,
           450
         ],
-        "vfxName": "max_ooze"
+        "vfxName": "max_ooze",
+        "names": {
+          "fr": "Toxinomax"
+        }
       },
       {
         "id": "VN_BM_003",
@@ -5634,7 +6789,10 @@
           350,
           450
         ],
-        "vfxName": "max_lightning"
+        "vfxName": "max_lightning",
+        "names": {
+          "fr": "Fulguromax"
+        }
       }
     ],
     "familyId": "Toxizap"
@@ -5663,7 +6821,10 @@
         "power": 5,
         "durationMs": 500,
         "energyDelta": 6,
-        "vfxName": "bug_bite_fast"
+        "vfxName": "bug_bite_fast",
+        "names": {
+          "fr": "Piqûre"
+        }
       },
       "EMBER_FAST": {
         "id": "V0209_MOVE_EMBER_FAST",
@@ -5672,7 +6833,10 @@
         "power": 10,
         "durationMs": 1000,
         "energyDelta": 10,
-        "vfxName": "ember_fast"
+        "vfxName": "ember_fast",
+        "names": {
+          "fr": "Flammèche"
+        }
       }
     },
     "dynamaxMove": [
@@ -5686,7 +6850,10 @@
           350,
           450
         ],
-        "vfxName": "max_flutterby"
+        "vfxName": "max_flutterby",
+        "names": {
+          "fr": "Insectomax"
+        }
       },
       {
         "id": "VN_BM_001",
@@ -5698,7 +6865,10 @@
           350,
           450
         ],
-        "vfxName": "max_flare"
+        "vfxName": "max_flare",
+        "names": {
+          "fr": "Pyromax"
+        }
       }
     ],
     "familyId": "Grillepattes"
@@ -5727,7 +6897,10 @@
         "power": 19,
         "durationMs": 1500,
         "energyDelta": 14,
-        "vfxName": "confusion_fast"
+        "vfxName": "confusion_fast",
+        "names": {
+          "fr": "Choc Mental"
+        }
       },
       "CHARM_FAST": {
         "id": "V0320_MOVE_CHARM_FAST",
@@ -5736,7 +6909,10 @@
         "power": 20,
         "durationMs": 1500,
         "energyDelta": 11,
-        "vfxName": "charm_fast"
+        "vfxName": "charm_fast",
+        "names": {
+          "fr": "Charme"
+        }
       },
       "PSYCHO_CUT_FAST": {
         "id": "V0226_MOVE_PSYCHO_CUT_FAST",
@@ -5745,7 +6921,10 @@
         "power": 4,
         "durationMs": 500,
         "energyDelta": 7,
-        "vfxName": "psycho_cut_fast"
+        "vfxName": "psycho_cut_fast",
+        "names": {
+          "fr": "Coupe Psycho"
+        }
       }
     },
     "dynamaxMove": [
@@ -5759,7 +6938,10 @@
           350,
           450
         ],
-        "vfxName": "max_mindstorm"
+        "vfxName": "max_mindstorm",
+        "names": {
+          "fr": "Psychomax"
+        }
       },
       {
         "id": "VN_BM_011",
@@ -5771,7 +6953,10 @@
           350,
           450
         ],
-        "vfxName": "max_starfall"
+        "vfxName": "max_starfall",
+        "names": {
+          "fr": "Enchantomax"
+        }
       }
     ],
     "familyId": "Bibichut"
@@ -5800,7 +6985,10 @@
         "power": 6,
         "durationMs": 500,
         "energyDelta": 4,
-        "vfxName": "bite_fast"
+        "vfxName": "bite_fast",
+        "names": {
+          "fr": "Morsure"
+        }
       },
       "SUCKER_PUNCH_FAST": {
         "id": "V0203_MOVE_SUCKER_PUNCH_FAST",
@@ -5809,7 +6997,10 @@
         "power": 5,
         "durationMs": 500,
         "energyDelta": 6,
-        "vfxName": "sucker_punch_fast"
+        "vfxName": "sucker_punch_fast",
+        "names": {
+          "fr": "Coup Bas"
+        }
       },
       "LOW_KICK_FAST": {
         "id": "V0207_MOVE_LOW_KICK_FAST",
@@ -5818,7 +7009,10 @@
         "power": 5,
         "durationMs": 500,
         "energyDelta": 5,
-        "vfxName": "low_kick_fast"
+        "vfxName": "low_kick_fast",
+        "names": {
+          "fr": "Balayage"
+        }
       }
     },
     "dynamaxMove": [
@@ -5832,7 +7026,10 @@
           350,
           450
         ],
-        "vfxName": "max_darkness"
+        "vfxName": "max_darkness",
+        "names": {
+          "fr": "Sinistromax"
+        }
       },
       {
         "id": "VN_BM_005",
@@ -5844,7 +7041,10 @@
           350,
           450
         ],
-        "vfxName": "max_knuckle"
+        "vfxName": "max_knuckle",
+        "names": {
+          "fr": "Pugilomax"
+        }
       }
     ],
     "familyId": "Grimalin"
@@ -5872,7 +7072,10 @@
         "power": 17,
         "durationMs": 1500,
         "energyDelta": 12,
-        "vfxName": "rock_smash_fast"
+        "vfxName": "rock_smash_fast",
+        "names": {
+          "fr": "Éclate-Roc"
+        }
       },
       "COUNTER_FAST": {
         "id": "V0243_MOVE_COUNTER_FAST",
@@ -5881,7 +7084,10 @@
         "power": 13,
         "durationMs": 1000,
         "energyDelta": 9,
-        "vfxName": "counter_fast"
+        "vfxName": "counter_fast",
+        "names": {
+          "fr": "Riposte"
+        }
       }
     },
     "dynamaxMove": [
@@ -5895,7 +7101,10 @@
           350,
           450
         ],
-        "vfxName": "max_knuckle"
+        "vfxName": "max_knuckle",
+        "names": {
+          "fr": "Pugilomax"
+        }
       }
     ],
     "familyId": "Hexadron"
@@ -5924,7 +7133,10 @@
         "power": 14,
         "durationMs": 1000,
         "energyDelta": 8,
-        "vfxName": "dragon_tail_fast"
+        "vfxName": "dragon_tail_fast",
+        "names": {
+          "fr": "Draco-Queue"
+        }
       },
       "METAL_CLAW_FAST": {
         "id": "V0228_MOVE_METAL_CLAW_FAST",
@@ -5933,7 +7145,10 @@
         "power": 6,
         "durationMs": 500,
         "energyDelta": 5,
-        "vfxName": "metal_claw_fast"
+        "vfxName": "metal_claw_fast",
+        "names": {
+          "fr": "Griffe Acier"
+        }
       }
     },
     "dynamaxMove": [
@@ -5947,7 +7162,10 @@
           350,
           450
         ],
-        "vfxName": "max_wyrmwind"
+        "vfxName": "max_wyrmwind",
+        "names": {
+          "fr": "Dracomax"
+        }
       },
       {
         "id": "VN_BM_018",
@@ -5959,7 +7177,10 @@
           350,
           450
         ],
-        "vfxName": "max_steelspike"
+        "vfxName": "max_steelspike",
+        "names": {
+          "fr": "Métallomax"
+        }
       }
     ],
     "familyId": "Duralugon"
@@ -5988,7 +7209,10 @@
         "power": 17,
         "durationMs": 1500,
         "energyDelta": 12,
-        "vfxName": "rock_smash_fast"
+        "vfxName": "rock_smash_fast",
+        "names": {
+          "fr": "Éclate-Roc"
+        }
       },
       "COUNTER_FAST": {
         "id": "V0243_MOVE_COUNTER_FAST",
@@ -5997,7 +7221,10 @@
         "power": 13,
         "durationMs": 1000,
         "energyDelta": 9,
-        "vfxName": "counter_fast"
+        "vfxName": "counter_fast",
+        "names": {
+          "fr": "Riposte"
+        }
       },
       "SUCKER_PUNCH_FAST": {
         "id": "V0203_MOVE_SUCKER_PUNCH_FAST",
@@ -6006,7 +7233,10 @@
         "power": 5,
         "durationMs": 500,
         "energyDelta": 6,
-        "vfxName": "sucker_punch_fast"
+        "vfxName": "sucker_punch_fast",
+        "names": {
+          "fr": "Coup Bas"
+        }
       }
     },
     "dynamaxMove": [
@@ -6020,7 +7250,10 @@
           350,
           450
         ],
-        "vfxName": "max_knuckle"
+        "vfxName": "max_knuckle",
+        "names": {
+          "fr": "Pugilomax"
+        }
       },
       {
         "id": "VN_BM_016",
@@ -6032,7 +7265,10 @@
           350,
           450
         ],
-        "vfxName": "max_darkness"
+        "vfxName": "max_darkness",
+        "names": {
+          "fr": "Sinistromax"
+        }
       }
     ],
     "familyId": "Wushours"
@@ -6061,7 +7297,10 @@
         "power": 17,
         "durationMs": 1500,
         "energyDelta": 12,
-        "vfxName": "rock_smash_fast"
+        "vfxName": "rock_smash_fast",
+        "names": {
+          "fr": "Éclate-Roc"
+        }
       },
       "COUNTER_FAST": {
         "id": "V0243_MOVE_COUNTER_FAST",
@@ -6070,7 +7309,10 @@
         "power": 13,
         "durationMs": 1000,
         "energyDelta": 9,
-        "vfxName": "counter_fast"
+        "vfxName": "counter_fast",
+        "names": {
+          "fr": "Riposte"
+        }
       },
       "WATERFALL_FAST": {
         "id": "V0283_MOVE_WATERFALL_FAST",
@@ -6079,7 +7321,10 @@
         "power": 13,
         "durationMs": 1000,
         "energyDelta": 7,
-        "vfxName": "waterfall_fast"
+        "vfxName": "waterfall_fast",
+        "names": {
+          "fr": "Cascade"
+        }
       }
     },
     "dynamaxMove": [
@@ -6093,7 +7338,10 @@
           350,
           450
         ],
-        "vfxName": "max_knuckle"
+        "vfxName": "max_knuckle",
+        "names": {
+          "fr": "Pugilomax"
+        }
       },
       {
         "id": "VN_BM_009",
@@ -6105,7 +7353,10 @@
           350,
           450
         ],
-        "vfxName": "max_geyser"
+        "vfxName": "max_geyser",
+        "names": {
+          "fr": "Hydromax"
+        }
       }
     ],
     "familyId": "Wushours"
@@ -6134,7 +7385,10 @@
         "power": 13,
         "durationMs": 1000,
         "energyDelta": 7,
-        "vfxName": "razor_leaf_fast"
+        "vfxName": "razor_leaf_fast",
+        "names": {
+          "fr": "Tranch’Herbe"
+        }
       },
       "VINE_WHIP_FAST": {
         "id": "V0214_MOVE_VINE_WHIP_FAST",
@@ -6143,7 +7397,10 @@
         "power": 6,
         "durationMs": 500,
         "energyDelta": 5,
-        "vfxName": "vine_whip_fast"
+        "vfxName": "vine_whip_fast",
+        "names": {
+          "fr": "Fouet Lianes"
+        }
       }
     },
     "dynamaxMove": [
@@ -6157,7 +7414,10 @@
           450,
           550
         ],
-        "vfxName": "gmax_vinelash"
+        "vfxName": "gmax_vinelash",
+        "names": {
+          "fr": "Gmax Vinelash"
+        }
       }
     ],
     "familyId": "Bulbizarre",
@@ -6187,7 +7447,10 @@
         "power": 13,
         "durationMs": 1000,
         "energyDelta": 9,
-        "vfxName": "fire_spin_fast"
+        "vfxName": "fire_spin_fast",
+        "names": {
+          "fr": "Danse Flammes"
+        }
       },
       "AIR_SLASH_FAST": {
         "id": "V0255_MOVE_AIR_SLASH_FAST",
@@ -6196,7 +7459,10 @@
         "power": 12,
         "durationMs": 1000,
         "energyDelta": 8,
-        "vfxName": "air_slash_fast"
+        "vfxName": "air_slash_fast",
+        "names": {
+          "fr": "Lame d’Air"
+        }
       },
       "EMBER_FAST": {
         "id": "V0209_MOVE_EMBER_FAST",
@@ -6205,7 +7471,10 @@
         "power": 10,
         "durationMs": 1000,
         "energyDelta": 10,
-        "vfxName": "ember_fast"
+        "vfxName": "ember_fast",
+        "names": {
+          "fr": "Flammèche"
+        }
       },
       "WING_ATTACK_FAST": {
         "id": "V0210_MOVE_WING_ATTACK_FAST",
@@ -6214,7 +7483,10 @@
         "power": 10,
         "durationMs": 1000,
         "energyDelta": 11,
-        "vfxName": "wing_attack_fast"
+        "vfxName": "wing_attack_fast",
+        "names": {
+          "fr": "Cru-Ailes"
+        }
       },
       "DRAGON_BREATH_FAST": {
         "id": "V0204_MOVE_DRAGON_BREATH_FAST",
@@ -6223,7 +7495,10 @@
         "power": 6,
         "durationMs": 500,
         "energyDelta": 4,
-        "vfxName": "dragon_breath_fast"
+        "vfxName": "dragon_breath_fast",
+        "names": {
+          "fr": "Draco-Souffle"
+        }
       }
     },
     "dynamaxMove": [
@@ -6237,7 +7512,10 @@
           450,
           550
         ],
-        "vfxName": "gmax_wildfire"
+        "vfxName": "gmax_wildfire",
+        "names": {
+          "fr": "Gmax Wildfire"
+        }
       }
     ],
     "familyId": "Salamèche",
@@ -6266,7 +7544,10 @@
         "power": 5,
         "durationMs": 500,
         "energyDelta": 5,
-        "vfxName": "water_gun_fast"
+        "vfxName": "water_gun_fast",
+        "names": {
+          "fr": "Pistolet à O"
+        }
       },
       "BITE_FAST": {
         "id": "V0202_MOVE_BITE_FAST",
@@ -6275,7 +7556,10 @@
         "power": 6,
         "durationMs": 500,
         "energyDelta": 4,
-        "vfxName": "bite_fast"
+        "vfxName": "bite_fast",
+        "names": {
+          "fr": "Morsure"
+        }
       },
       "ROLLOUT_FAST": {
         "id": "V0368_MOVE_ROLLOUT_FAST",
@@ -6284,7 +7568,10 @@
         "power": 15,
         "durationMs": 1500,
         "energyDelta": 19,
-        "vfxName": "rollout_fast"
+        "vfxName": "rollout_fast",
+        "names": {
+          "fr": "Roulade"
+        }
       }
     },
     "dynamaxMove": [
@@ -6298,7 +7585,10 @@
           450,
           550
         ],
-        "vfxName": "gmax_cannonade"
+        "vfxName": "gmax_cannonade",
+        "names": {
+          "fr": "Gmax Cannonade"
+        }
       }
     ],
     "familyId": "Carapuce",
@@ -6328,7 +7618,10 @@
         "power": 15,
         "durationMs": 1500,
         "energyDelta": 15,
-        "vfxName": "struggle_bug_fast"
+        "vfxName": "struggle_bug_fast",
+        "names": {
+          "fr": "Survinsecte"
+        }
       },
       "CONFUSION_FAST": {
         "id": "V0235_MOVE_CONFUSION_FAST",
@@ -6337,7 +7630,10 @@
         "power": 19,
         "durationMs": 1500,
         "energyDelta": 14,
-        "vfxName": "confusion_fast"
+        "vfxName": "confusion_fast",
+        "names": {
+          "fr": "Choc Mental"
+        }
       },
       "BUG_BITE_FAST": {
         "id": "V0201_MOVE_BUG_BITE_FAST",
@@ -6346,7 +7642,10 @@
         "power": 5,
         "durationMs": 500,
         "energyDelta": 6,
-        "vfxName": "bug_bite_fast"
+        "vfxName": "bug_bite_fast",
+        "names": {
+          "fr": "Piqûre"
+        }
       }
     },
     "dynamaxMove": [
@@ -6360,7 +7659,10 @@
           450,
           550
         ],
-        "vfxName": "gmax_befuddle"
+        "vfxName": "gmax_befuddle",
+        "names": {
+          "fr": "Gmax Befuddle"
+        }
       }
     ],
     "familyId": "Chenipan",
@@ -6389,7 +7691,10 @@
         "power": 4,
         "durationMs": 500,
         "energyDelta": 7,
-        "vfxName": "thunder_shock_fast"
+        "vfxName": "thunder_shock_fast",
+        "names": {
+          "fr": "Éclair"
+        }
       },
       "QUICK_ATTACK_FAST": {
         "id": "V0219_MOVE_QUICK_ATTACK_FAST",
@@ -6398,7 +7703,10 @@
         "power": 10,
         "durationMs": 1000,
         "energyDelta": 13,
-        "vfxName": "quick_attack_fast"
+        "vfxName": "quick_attack_fast",
+        "names": {
+          "fr": "Vive-Attaque"
+        }
       },
       "PRESENT_FAST": {
         "id": "V0291_MOVE_PRESENT_FAST",
@@ -6407,7 +7715,10 @@
         "power": 6,
         "durationMs": 1500,
         "energyDelta": 23,
-        "vfxName": "present_fast"
+        "vfxName": "present_fast",
+        "names": {
+          "fr": "Cadeau"
+        }
       }
     },
     "dynamaxMove": [
@@ -6421,7 +7732,10 @@
           450,
           550
         ],
-        "vfxName": "gmax_voltcrash"
+        "vfxName": "gmax_voltcrash",
+        "names": {
+          "fr": "Gmax Voltcrash"
+        }
       }
     ],
     "familyId": "Pikachu",
@@ -6450,7 +7764,10 @@
         "power": 6,
         "durationMs": 500,
         "energyDelta": 4,
-        "vfxName": "scratch_fast"
+        "vfxName": "scratch_fast",
+        "names": {
+          "fr": "Griffe"
+        }
       },
       "BITE_FAST": {
         "id": "V0202_MOVE_BITE_FAST",
@@ -6459,7 +7776,10 @@
         "power": 6,
         "durationMs": 500,
         "energyDelta": 4,
-        "vfxName": "bite_fast"
+        "vfxName": "bite_fast",
+        "names": {
+          "fr": "Morsure"
+        }
       }
     },
     "dynamaxMove": [
@@ -6473,7 +7793,10 @@
           450,
           550
         ],
-        "vfxName": "gmax_goldrush"
+        "vfxName": "gmax_goldrush",
+        "names": {
+          "fr": "Gmax Goldrush"
+        }
       }
     ],
     "familyId": "Miaouss",
@@ -6502,7 +7825,10 @@
         "power": 10,
         "durationMs": 1000,
         "energyDelta": 11,
-        "vfxName": "bullet_punch_fast"
+        "vfxName": "bullet_punch_fast",
+        "names": {
+          "fr": "Pisto-Poing"
+        }
       },
       "COUNTER_FAST": {
         "id": "V0243_MOVE_COUNTER_FAST",
@@ -6511,7 +7837,10 @@
         "power": 13,
         "durationMs": 1000,
         "energyDelta": 9,
-        "vfxName": "counter_fast"
+        "vfxName": "counter_fast",
+        "names": {
+          "fr": "Riposte"
+        }
       },
       "KARATE_CHOP_FAST": {
         "id": "V0208_MOVE_KARATE_CHOP_FAST",
@@ -6520,7 +7849,10 @@
         "power": 10,
         "durationMs": 1000,
         "energyDelta": 13,
-        "vfxName": "karate_chop_fast"
+        "vfxName": "karate_chop_fast",
+        "names": {
+          "fr": "Poing Karaté"
+        }
       }
     },
     "dynamaxMove": [
@@ -6534,7 +7866,10 @@
           450,
           550
         ],
-        "vfxName": "gmax_chistrike"
+        "vfxName": "gmax_chistrike",
+        "names": {
+          "fr": "Gmax Chistrike"
+        }
       }
     ],
     "familyId": "Machoc",
@@ -6564,7 +7899,10 @@
         "power": 5,
         "durationMs": 500,
         "energyDelta": 6,
-        "vfxName": "sucker_punch_fast"
+        "vfxName": "sucker_punch_fast",
+        "names": {
+          "fr": "Coup Bas"
+        }
       },
       "HEX_FAST": {
         "id": "V0264_MOVE_HEX_FAST",
@@ -6573,7 +7911,10 @@
         "power": 8,
         "durationMs": 1000,
         "energyDelta": 13,
-        "vfxName": "hex_fast"
+        "vfxName": "hex_fast",
+        "names": {
+          "fr": "Châtiment"
+        }
       },
       "SHADOW_CLAW_FAST": {
         "id": "V0213_MOVE_SHADOW_CLAW_FAST",
@@ -6582,7 +7923,10 @@
         "power": 6,
         "durationMs": 500,
         "energyDelta": 4,
-        "vfxName": "shadow_claw_fast"
+        "vfxName": "shadow_claw_fast",
+        "names": {
+          "fr": "Griffe Ombre"
+        }
       },
       "LICK_FAST": {
         "id": "V0212_MOVE_LICK_FAST",
@@ -6591,7 +7935,10 @@
         "power": 5,
         "durationMs": 500,
         "energyDelta": 6,
-        "vfxName": "lick_fast"
+        "vfxName": "lick_fast",
+        "names": {
+          "fr": "Léchouille"
+        }
       }
     },
     "dynamaxMove": [
@@ -6605,7 +7952,10 @@
           450,
           550
         ],
-        "vfxName": "gmax_terror"
+        "vfxName": "gmax_terror",
+        "names": {
+          "fr": "Gmax Terror"
+        }
       }
     ],
     "familyId": "Fantominus",
@@ -6634,7 +7984,10 @@
         "power": 10,
         "durationMs": 1000,
         "energyDelta": 12,
-        "vfxName": "bubble_fast"
+        "vfxName": "bubble_fast",
+        "names": {
+          "fr": "Écume"
+        }
       },
       "METAL_CLAW_FAST": {
         "id": "V0228_MOVE_METAL_CLAW_FAST",
@@ -6643,7 +7996,10 @@
         "power": 6,
         "durationMs": 500,
         "energyDelta": 5,
-        "vfxName": "metal_claw_fast"
+        "vfxName": "metal_claw_fast",
+        "names": {
+          "fr": "Griffe Acier"
+        }
       },
       "MUD_SHOT_FAST": {
         "id": "V0216_MOVE_MUD_SHOT_FAST",
@@ -6652,7 +8008,10 @@
         "power": 4,
         "durationMs": 500,
         "energyDelta": 6,
-        "vfxName": "mud_shot_fast"
+        "vfxName": "mud_shot_fast",
+        "names": {
+          "fr": "Tir de Boue"
+        }
       }
     },
     "dynamaxMove": [
@@ -6666,7 +8025,10 @@
           450,
           550
         ],
-        "vfxName": "gmax_foamburst"
+        "vfxName": "gmax_foamburst",
+        "names": {
+          "fr": "Gmax Foamburst"
+        }
       }
     ],
     "familyId": "Krabby",
@@ -6696,7 +8058,10 @@
         "power": 11,
         "durationMs": 1000,
         "energyDelta": 9,
-        "vfxName": "frost_breath_fast"
+        "vfxName": "frost_breath_fast",
+        "names": {
+          "fr": "Souffle Glacé"
+        }
       },
       "WATER_GUN_FAST": {
         "id": "V0230_MOVE_WATER_GUN_FAST",
@@ -6705,7 +8070,10 @@
         "power": 5,
         "durationMs": 500,
         "energyDelta": 5,
-        "vfxName": "water_gun_fast"
+        "vfxName": "water_gun_fast",
+        "names": {
+          "fr": "Pistolet à O"
+        }
       },
       "PSYWAVE_FAST": {
         "id": "V0401_MOVE_PSYWAVE_FAST",
@@ -6714,7 +8082,10 @@
         "power": 4,
         "durationMs": 500,
         "energyDelta": 7,
-        "vfxName": "psywave"
+        "vfxName": "psywave",
+        "names": {
+          "fr": "Vague Psy"
+        }
       },
       "ICE_SHARD_FAST": {
         "id": "V0217_MOVE_ICE_SHARD_FAST",
@@ -6723,7 +8094,10 @@
         "power": 10,
         "durationMs": 1000,
         "energyDelta": 10,
-        "vfxName": "ice_shard_fast"
+        "vfxName": "ice_shard_fast",
+        "names": {
+          "fr": "Éclats Glace"
+        }
       }
     },
     "dynamaxMove": [
@@ -6737,7 +8111,10 @@
           450,
           550
         ],
-        "vfxName": "gmax_resonance"
+        "vfxName": "gmax_resonance",
+        "names": {
+          "fr": "Gmax Resonance"
+        }
       }
     ],
     "familyId": "Lokhlass",
@@ -6766,7 +8143,10 @@
         "power": 11,
         "durationMs": 1000,
         "energyDelta": 9,
-        "vfxName": "zen_headbutt_fast"
+        "vfxName": "zen_headbutt_fast",
+        "names": {
+          "fr": "Psykoud’Boul"
+        }
       },
       "LICK_FAST": {
         "id": "V0212_MOVE_LICK_FAST",
@@ -6775,7 +8155,10 @@
         "power": 5,
         "durationMs": 500,
         "energyDelta": 6,
-        "vfxName": "lick_fast"
+        "vfxName": "lick_fast",
+        "names": {
+          "fr": "Léchouille"
+        }
       },
       "YAWN_FAST": {
         "id": "V0287_MOVE_YAWN_FAST",
@@ -6784,7 +8167,10 @@
         "power": 0,
         "durationMs": 1500,
         "energyDelta": 13,
-        "vfxName": "yawn_fast"
+        "vfxName": "yawn_fast",
+        "names": {
+          "fr": "Bâillement"
+        }
       }
     },
     "dynamaxMove": [
@@ -6798,7 +8184,10 @@
           450,
           550
         ],
-        "vfxName": "gmax_replenish"
+        "vfxName": "gmax_replenish",
+        "names": {
+          "fr": "Gmax Replenish"
+        }
       }
     ],
     "familyId": "Ronflex",
@@ -6827,7 +8216,10 @@
         "power": 9,
         "durationMs": 1000,
         "energyDelta": 13,
-        "vfxName": "infestation_fast"
+        "vfxName": "infestation_fast",
+        "names": {
+          "fr": "Harcèlement"
+        }
       },
       "TAKE_DOWN_FAST": {
         "id": "V0282_MOVE_TAKE_DOWN_FAST",
@@ -6836,7 +8228,10 @@
         "power": 7,
         "durationMs": 1000,
         "energyDelta": 8,
-        "vfxName": "take_down_fast"
+        "vfxName": "take_down_fast",
+        "names": {
+          "fr": "Bélier"
+        }
       }
     },
     "dynamaxMove": [
@@ -6850,7 +8245,10 @@
           450,
           550
         ],
-        "vfxName": "gmax_malodor"
+        "vfxName": "gmax_malodor",
+        "names": {
+          "fr": "Gmax Malodor"
+        }
       }
     ],
     "familyId": "Miamiasme",
@@ -6879,7 +8277,10 @@
         "power": 6,
         "durationMs": 500,
         "energyDelta": 4,
-        "vfxName": "scratch_fast"
+        "vfxName": "scratch_fast",
+        "names": {
+          "fr": "Griffe"
+        }
       },
       "RAZOR_LEAF_FAST": {
         "id": "V0215_MOVE_RAZOR_LEAF_FAST",
@@ -6888,7 +8289,10 @@
         "power": 13,
         "durationMs": 1000,
         "energyDelta": 7,
-        "vfxName": "razor_leaf_fast"
+        "vfxName": "razor_leaf_fast",
+        "names": {
+          "fr": "Tranch’Herbe"
+        }
       }
     },
     "dynamaxMove": [
@@ -6902,7 +8306,10 @@
           450,
           550
         ],
-        "vfxName": "gmax_drumsolo"
+        "vfxName": "gmax_drumsolo",
+        "names": {
+          "fr": "Gmax Drumsolo"
+        }
       }
     ],
     "familyId": "Ouistempo",
@@ -6931,7 +8338,10 @@
         "power": 5,
         "durationMs": 500,
         "energyDelta": 5,
-        "vfxName": "tackle_fast"
+        "vfxName": "tackle_fast",
+        "names": {
+          "fr": "Charge"
+        }
       },
       "FIRE_SPIN_FAST": {
         "id": "V0269_MOVE_FIRE_SPIN_FAST",
@@ -6940,7 +8350,10 @@
         "power": 13,
         "durationMs": 1000,
         "energyDelta": 9,
-        "vfxName": "fire_spin_fast"
+        "vfxName": "fire_spin_fast",
+        "names": {
+          "fr": "Danse Flammes"
+        }
       }
     },
     "dynamaxMove": [
@@ -6954,7 +8367,10 @@
           450,
           550
         ],
-        "vfxName": "gmax_fireball"
+        "vfxName": "gmax_fireball",
+        "names": {
+          "fr": "Gmax Fireball"
+        }
       }
     ],
     "familyId": "Flambino",
@@ -6983,7 +8399,10 @@
         "power": 6,
         "durationMs": 500,
         "energyDelta": 5,
-        "vfxName": "pound_fast"
+        "vfxName": "pound_fast",
+        "names": {
+          "fr": "Écras’Face"
+        }
       },
       "WATER_GUN_FAST": {
         "id": "V0230_MOVE_WATER_GUN_FAST",
@@ -6992,7 +8411,10 @@
         "power": 5,
         "durationMs": 500,
         "energyDelta": 5,
-        "vfxName": "water_gun_fast"
+        "vfxName": "water_gun_fast",
+        "names": {
+          "fr": "Pistolet à O"
+        }
       }
     },
     "dynamaxMove": [
@@ -7006,7 +8428,10 @@
           450,
           550
         ],
-        "vfxName": "gmax_hydrosnipe"
+        "vfxName": "gmax_hydrosnipe",
+        "names": {
+          "fr": "Gmax Hydrosnipe"
+        }
       }
     ],
     "familyId": "Larméléon",
@@ -7036,7 +8461,10 @@
         "power": 11,
         "durationMs": 1000,
         "energyDelta": 10,
-        "vfxName": "acid_fast"
+        "vfxName": "acid_fast",
+        "names": {
+          "fr": "Acide"
+        }
       },
       "SPARK_FAST": {
         "id": "V0206_MOVE_SPARK_FAST",
@@ -7045,7 +8473,10 @@
         "power": 4,
         "durationMs": 500,
         "energyDelta": 6,
-        "vfxName": "spark_fast"
+        "vfxName": "spark_fast",
+        "names": {
+          "fr": "Étincelle"
+        }
       },
       "POISON_JAB_FAST": {
         "id": "V0224_MOVE_POISON_JAB_FAST",
@@ -7054,7 +8485,10 @@
         "power": 13,
         "durationMs": 1000,
         "energyDelta": 9,
-        "vfxName": "poison_jab_fast"
+        "vfxName": "poison_jab_fast",
+        "names": {
+          "fr": "Direct Toxik"
+        }
       }
     },
     "dynamaxMove": [
@@ -7068,7 +8502,10 @@
           450,
           550
         ],
-        "vfxName": "gmax_stun_shock"
+        "vfxName": "gmax_stun_shock",
+        "names": {
+          "fr": "Gmax Stun Shock"
+        }
       }
     ],
     "familyId": "Toxizap",
@@ -7098,7 +8535,10 @@
         "power": 6,
         "durationMs": 500,
         "energyDelta": 4,
-        "vfxName": "bite_fast"
+        "vfxName": "bite_fast",
+        "names": {
+          "fr": "Morsure"
+        }
       },
       "SUCKER_PUNCH_FAST": {
         "id": "V0203_MOVE_SUCKER_PUNCH_FAST",
@@ -7107,7 +8547,10 @@
         "power": 5,
         "durationMs": 500,
         "energyDelta": 6,
-        "vfxName": "sucker_punch_fast"
+        "vfxName": "sucker_punch_fast",
+        "names": {
+          "fr": "Coup Bas"
+        }
       },
       "LOW_KICK_FAST": {
         "id": "V0207_MOVE_LOW_KICK_FAST",
@@ -7116,7 +8559,10 @@
         "power": 5,
         "durationMs": 500,
         "energyDelta": 5,
-        "vfxName": "low_kick_fast"
+        "vfxName": "low_kick_fast",
+        "names": {
+          "fr": "Balayage"
+        }
       }
     },
     "dynamaxMove": [
@@ -7130,7 +8576,10 @@
           450,
           550
         ],
-        "vfxName": "gmax_snooze"
+        "vfxName": "gmax_snooze",
+        "names": {
+          "fr": "Gmax Snooze"
+        }
       }
     ],
     "familyId": "Grimalin",
@@ -7160,7 +8609,10 @@
         "power": 6,
         "durationMs": 500,
         "energyDelta": 5,
-        "vfxName": "metal_claw_fast"
+        "vfxName": "metal_claw_fast",
+        "names": {
+          "fr": "Griffe Acier"
+        }
       },
       "AIR_SLASH_FAST": {
         "id": "V0255_MOVE_AIR_SLASH_FAST",
@@ -7169,7 +8621,10 @@
         "power": 12,
         "durationMs": 1000,
         "energyDelta": 8,
-        "vfxName": "air_slash_fast"
+        "vfxName": "air_slash_fast",
+        "names": {
+          "fr": "Lame d’Air"
+        }
       }
     },
     "dynamaxMove": [
@@ -7183,7 +8638,10 @@
           350,
           450
         ],
-        "vfxName": "max_behemoth_blade"
+        "vfxName": "max_behemoth_blade",
+        "names": {
+          "fr": "Max Behemoth Blade"
+        }
       }
     ],
     "familyId": "Zacian",
@@ -7213,7 +8671,10 @@
         "power": 6,
         "durationMs": 500,
         "energyDelta": 5,
-        "vfxName": "metal_claw_fast"
+        "vfxName": "metal_claw_fast",
+        "names": {
+          "fr": "Griffe Acier"
+        }
       },
       "ICE_FANG_FAST": {
         "id": "V0327_MOVE_ICE_FANG_FAST",
@@ -7222,7 +8683,10 @@
         "power": 12,
         "durationMs": 1500,
         "energyDelta": 20,
-        "vfxName": "ice_fang_fast"
+        "vfxName": "ice_fang_fast",
+        "names": {
+          "fr": "Crocs Givre"
+        }
       }
     },
     "dynamaxMove": [
@@ -7236,7 +8700,10 @@
           350,
           450
         ],
-        "vfxName": "max_behemoth_bash"
+        "vfxName": "max_behemoth_bash",
+        "names": {
+          "fr": "Max Behemoth Bash"
+        }
       }
     ],
     "familyId": "Zamazenta",
@@ -7266,7 +8733,10 @@
         "power": 14,
         "durationMs": 1000,
         "energyDelta": 8,
-        "vfxName": "dragon_tail_fast"
+        "vfxName": "dragon_tail_fast",
+        "names": {
+          "fr": "Draco-Queue"
+        }
       },
       "POISON_JAB_FAST": {
         "id": "V0224_MOVE_POISON_JAB_FAST",
@@ -7275,7 +8745,10 @@
         "power": 13,
         "durationMs": 1000,
         "energyDelta": 9,
-        "vfxName": "poison_jab_fast"
+        "vfxName": "poison_jab_fast",
+        "names": {
+          "fr": "Direct Toxik"
+        }
       }
     },
     "dynamaxMove": [
@@ -7289,7 +8762,10 @@
           450,
           550
         ],
-        "vfxName": "max_dynamax_cannon"
+        "vfxName": "max_dynamax_cannon",
+        "names": {
+          "fr": "Max Dynamax Cannon"
+        }
       }
     ],
     "familyId": "Éthernatos",
@@ -7318,7 +8794,10 @@
         "power": 4,
         "durationMs": 500,
         "energyDelta": 7,
-        "vfxName": "thunder_shock_fast"
+        "vfxName": "thunder_shock_fast",
+        "names": {
+          "fr": "Éclair"
+        }
       }
     },
     "dynamaxMove": [
@@ -7332,7 +8811,10 @@
           450,
           550
         ],
-        "vfxName": "gmax_meltdown"
+        "vfxName": "gmax_meltdown",
+        "names": {
+          "fr": "Gmax Meltdown"
+        }
       }
     ],
     "familyId": "Meltan",
@@ -7362,7 +8844,10 @@
         "power": 14,
         "durationMs": 1000,
         "energyDelta": 8,
-        "vfxName": "steel_wing_fast"
+        "vfxName": "steel_wing_fast",
+        "names": {
+          "fr": "Ailes d’Acier"
+        }
       },
       "AIR_SLASH_FAST": {
         "id": "V0255_MOVE_AIR_SLASH_FAST",
@@ -7371,7 +8856,10 @@
         "power": 12,
         "durationMs": 1000,
         "energyDelta": 8,
-        "vfxName": "air_slash_fast"
+        "vfxName": "air_slash_fast",
+        "names": {
+          "fr": "Lame d’Air"
+        }
       },
       "SAND_ATTACK_FAST": {
         "id": "V0403_MOVE_SAND_ATTACK_FAST",
@@ -7380,7 +8868,10 @@
         "power": 4,
         "durationMs": 500,
         "energyDelta": 7,
-        "vfxName": "sand_attack"
+        "vfxName": "sand_attack",
+        "names": {
+          "fr": "Jet de Sable"
+        }
       }
     },
     "dynamaxMove": [
@@ -7394,7 +8885,10 @@
           450,
           550
         ],
-        "vfxName": "gmax_windrage"
+        "vfxName": "gmax_windrage",
+        "names": {
+          "fr": "Gmax Windrage"
+        }
       }
     ],
     "familyId": "Minisange",
@@ -7424,7 +8918,10 @@
         "power": 15,
         "durationMs": 1500,
         "energyDelta": 15,
-        "vfxName": "struggle_bug_fast"
+        "vfxName": "struggle_bug_fast",
+        "names": {
+          "fr": "Survinsecte"
+        }
       },
       "CONFUSION_FAST": {
         "id": "V0235_MOVE_CONFUSION_FAST",
@@ -7433,7 +8930,10 @@
         "power": 19,
         "durationMs": 1500,
         "energyDelta": 14,
-        "vfxName": "confusion_fast"
+        "vfxName": "confusion_fast",
+        "names": {
+          "fr": "Choc Mental"
+        }
       },
       "PSYCHO_CUT_FAST": {
         "id": "V0226_MOVE_PSYCHO_CUT_FAST",
@@ -7442,7 +8942,10 @@
         "power": 4,
         "durationMs": 500,
         "energyDelta": 7,
-        "vfxName": "psycho_cut_fast"
+        "vfxName": "psycho_cut_fast",
+        "names": {
+          "fr": "Coupe Psycho"
+        }
       }
     },
     "dynamaxMove": [
@@ -7456,7 +8959,10 @@
           450,
           550
         ],
-        "vfxName": "gmax_gravitas"
+        "vfxName": "gmax_gravitas",
+        "names": {
+          "fr": "Gmax Gravitas"
+        }
       }
     ],
     "familyId": "Larvadar",
@@ -7486,7 +8992,10 @@
         "power": 13,
         "durationMs": 1000,
         "energyDelta": 7,
-        "vfxName": "waterfall_fast"
+        "vfxName": "waterfall_fast",
+        "names": {
+          "fr": "Cascade"
+        }
       },
       "BITE_FAST": {
         "id": "V0202_MOVE_BITE_FAST",
@@ -7495,7 +9004,10 @@
         "power": 6,
         "durationMs": 500,
         "energyDelta": 4,
-        "vfxName": "bite_fast"
+        "vfxName": "bite_fast",
+        "names": {
+          "fr": "Morsure"
+        }
       }
     },
     "dynamaxMove": [
@@ -7509,7 +9021,10 @@
           450,
           550
         ],
-        "vfxName": "gmax_stonesurge"
+        "vfxName": "gmax_stonesurge",
+        "names": {
+          "fr": "Gmax Stonesurge"
+        }
       }
     ],
     "familyId": "Khélocrok",
@@ -7539,7 +9054,10 @@
         "power": 13,
         "durationMs": 1000,
         "energyDelta": 7,
-        "vfxName": "smack_down_fast"
+        "vfxName": "smack_down_fast",
+        "names": {
+          "fr": "Anti-Air"
+        }
       },
       "FIRE_SPIN_FAST": {
         "id": "V0269_MOVE_FIRE_SPIN_FAST",
@@ -7548,7 +9066,10 @@
         "power": 13,
         "durationMs": 1000,
         "energyDelta": 9,
-        "vfxName": "fire_spin_fast"
+        "vfxName": "fire_spin_fast",
+        "names": {
+          "fr": "Danse Flammes"
+        }
       }
     },
     "dynamaxMove": [
@@ -7562,7 +9083,10 @@
           450,
           550
         ],
-        "vfxName": "gmax_volcalith"
+        "vfxName": "gmax_volcalith",
+        "names": {
+          "fr": "Gmax Volcalith"
+        }
       }
     ],
     "familyId": "Charbi",
@@ -7592,7 +9116,10 @@
         "power": 7,
         "durationMs": 1000,
         "energyDelta": 13,
-        "vfxName": "bullet_seed_fast"
+        "vfxName": "bullet_seed_fast",
+        "names": {
+          "fr": "Balle Graine"
+        }
       },
       "DRAGON_BREATH_FAST": {
         "id": "V0204_MOVE_DRAGON_BREATH_FAST",
@@ -7601,7 +9128,10 @@
         "power": 6,
         "durationMs": 500,
         "energyDelta": 4,
-        "vfxName": "dragon_breath_fast"
+        "vfxName": "dragon_breath_fast",
+        "names": {
+          "fr": "Draco-Souffle"
+        }
       }
     },
     "dynamaxMove": [
@@ -7615,7 +9145,10 @@
           450,
           550
         ],
-        "vfxName": "gmax_tartness"
+        "vfxName": "gmax_tartness",
+        "names": {
+          "fr": "Gmax Tartness"
+        }
       }
     ],
     "familyId": "Verpom",
@@ -7645,7 +9178,10 @@
         "power": 7,
         "durationMs": 1000,
         "energyDelta": 13,
-        "vfxName": "bullet_seed_fast"
+        "vfxName": "bullet_seed_fast",
+        "names": {
+          "fr": "Balle Graine"
+        }
       },
       "ASTONISH_FAST": {
         "id": "V0263_MOVE_ASTONISH_FAST",
@@ -7654,7 +9190,10 @@
         "power": 7,
         "durationMs": 1000,
         "energyDelta": 13,
-        "vfxName": "astonish_fast"
+        "vfxName": "astonish_fast",
+        "names": {
+          "fr": "Étonnement"
+        }
       }
     },
     "dynamaxMove": [
@@ -7668,7 +9207,10 @@
           450,
           550
         ],
-        "vfxName": "gmax_sweetness"
+        "vfxName": "gmax_sweetness",
+        "names": {
+          "fr": "Gmax Sweetness"
+        }
       }
     ],
     "familyId": "Verpom",
@@ -7697,7 +9239,10 @@
         "power": 19,
         "durationMs": 1500,
         "energyDelta": 13,
-        "vfxName": "mud_slap_fast"
+        "vfxName": "mud_slap_fast",
+        "names": {
+          "fr": "Coud’Boue"
+        }
       },
       "MUD_SHOT_FAST": {
         "id": "V0216_MOVE_MUD_SHOT_FAST",
@@ -7706,7 +9251,10 @@
         "power": 4,
         "durationMs": 500,
         "energyDelta": 6,
-        "vfxName": "mud_shot_fast"
+        "vfxName": "mud_shot_fast",
+        "names": {
+          "fr": "Tir de Boue"
+        }
       }
     },
     "dynamaxMove": [
@@ -7720,7 +9268,10 @@
           450,
           550
         ],
-        "vfxName": "gmax_sandblast"
+        "vfxName": "gmax_sandblast",
+        "names": {
+          "fr": "Gmax Sandblast"
+        }
       }
     ],
     "familyId": "Dunaja",
@@ -7750,7 +9301,10 @@
         "power": 5,
         "durationMs": 500,
         "energyDelta": 6,
-        "vfxName": "bug_bite_fast"
+        "vfxName": "bug_bite_fast",
+        "names": {
+          "fr": "Piqûre"
+        }
       },
       "EMBER_FAST": {
         "id": "V0209_MOVE_EMBER_FAST",
@@ -7759,7 +9313,10 @@
         "power": 10,
         "durationMs": 1000,
         "energyDelta": 10,
-        "vfxName": "ember_fast"
+        "vfxName": "ember_fast",
+        "names": {
+          "fr": "Flammèche"
+        }
       }
     },
     "dynamaxMove": [
@@ -7773,7 +9330,10 @@
           450,
           550
         ],
-        "vfxName": "gmax_centiferno"
+        "vfxName": "gmax_centiferno",
+        "names": {
+          "fr": "Gmax Centiferno"
+        }
       }
     ],
     "familyId": "Grillepattes",
@@ -7803,7 +9363,10 @@
         "power": 19,
         "durationMs": 1500,
         "energyDelta": 14,
-        "vfxName": "confusion_fast"
+        "vfxName": "confusion_fast",
+        "names": {
+          "fr": "Choc Mental"
+        }
       },
       "CHARM_FAST": {
         "id": "V0320_MOVE_CHARM_FAST",
@@ -7812,7 +9375,10 @@
         "power": 20,
         "durationMs": 1500,
         "energyDelta": 11,
-        "vfxName": "charm_fast"
+        "vfxName": "charm_fast",
+        "names": {
+          "fr": "Charme"
+        }
       },
       "PSYCHO_CUT_FAST": {
         "id": "V0226_MOVE_PSYCHO_CUT_FAST",
@@ -7821,7 +9387,10 @@
         "power": 4,
         "durationMs": 500,
         "energyDelta": 7,
-        "vfxName": "psycho_cut_fast"
+        "vfxName": "psycho_cut_fast",
+        "names": {
+          "fr": "Coupe Psycho"
+        }
       }
     },
     "dynamaxMove": [
@@ -7835,7 +9404,10 @@
           450,
           550
         ],
-        "vfxName": "gmax_smite"
+        "vfxName": "gmax_smite",
+        "names": {
+          "fr": "Gmax Smite"
+        }
       }
     ],
     "familyId": "Bibichut",
@@ -7864,7 +9436,10 @@
         "power": 5,
         "durationMs": 500,
         "energyDelta": 5,
-        "vfxName": "tackle_fast"
+        "vfxName": "tackle_fast",
+        "names": {
+          "fr": "Charge"
+        }
       },
       "CHARM_FAST": {
         "id": "V0320_MOVE_CHARM_FAST",
@@ -7873,7 +9448,10 @@
         "power": 20,
         "durationMs": 1500,
         "energyDelta": 11,
-        "vfxName": "charm_fast"
+        "vfxName": "charm_fast",
+        "names": {
+          "fr": "Charme"
+        }
       }
     },
     "dynamaxMove": [
@@ -7887,7 +9465,10 @@
           450,
           550
         ],
-        "vfxName": "gmax_finale"
+        "vfxName": "gmax_finale",
+        "names": {
+          "fr": "Gmax Finale"
+        }
       }
     ],
     "familyId": "Crèmy",
@@ -7916,7 +9497,10 @@
         "power": 5,
         "durationMs": 500,
         "energyDelta": 5,
-        "vfxName": "tackle_fast"
+        "vfxName": "tackle_fast",
+        "names": {
+          "fr": "Charge"
+        }
       },
       "ROCK_SMASH_FAST": {
         "id": "V0241_MOVE_ROCK_SMASH_FAST",
@@ -7925,7 +9509,10 @@
         "power": 17,
         "durationMs": 1500,
         "energyDelta": 12,
-        "vfxName": "rock_smash_fast"
+        "vfxName": "rock_smash_fast",
+        "names": {
+          "fr": "Éclate-Roc"
+        }
       }
     },
     "dynamaxMove": [
@@ -7939,7 +9526,10 @@
           450,
           550
         ],
-        "vfxName": "gmax_steelsurge"
+        "vfxName": "gmax_steelsurge",
+        "names": {
+          "fr": "Gmax Steelsurge"
+        }
       }
     ],
     "familyId": "Charibari",
@@ -7969,7 +9559,10 @@
         "power": 14,
         "durationMs": 1000,
         "energyDelta": 8,
-        "vfxName": "dragon_tail_fast"
+        "vfxName": "dragon_tail_fast",
+        "names": {
+          "fr": "Draco-Queue"
+        }
       },
       "METAL_CLAW_FAST": {
         "id": "V0228_MOVE_METAL_CLAW_FAST",
@@ -7978,7 +9571,10 @@
         "power": 6,
         "durationMs": 500,
         "energyDelta": 5,
-        "vfxName": "metal_claw_fast"
+        "vfxName": "metal_claw_fast",
+        "names": {
+          "fr": "Griffe Acier"
+        }
       }
     },
     "dynamaxMove": [
@@ -7992,7 +9588,10 @@
           450,
           550
         ],
-        "vfxName": "gmax_depletion"
+        "vfxName": "gmax_depletion",
+        "names": {
+          "fr": "Gmax Depletion"
+        }
       }
     ],
     "familyId": "Duralugon",
@@ -8022,7 +9621,10 @@
         "power": 17,
         "durationMs": 1500,
         "energyDelta": 12,
-        "vfxName": "rock_smash_fast"
+        "vfxName": "rock_smash_fast",
+        "names": {
+          "fr": "Éclate-Roc"
+        }
       },
       "COUNTER_FAST": {
         "id": "V0243_MOVE_COUNTER_FAST",
@@ -8031,7 +9633,10 @@
         "power": 13,
         "durationMs": 1000,
         "energyDelta": 9,
-        "vfxName": "counter_fast"
+        "vfxName": "counter_fast",
+        "names": {
+          "fr": "Riposte"
+        }
       },
       "SUCKER_PUNCH_FAST": {
         "id": "V0203_MOVE_SUCKER_PUNCH_FAST",
@@ -8040,7 +9645,10 @@
         "power": 5,
         "durationMs": 500,
         "energyDelta": 6,
-        "vfxName": "sucker_punch_fast"
+        "vfxName": "sucker_punch_fast",
+        "names": {
+          "fr": "Coup Bas"
+        }
       }
     },
     "dynamaxMove": [
@@ -8054,7 +9662,10 @@
           450,
           550
         ],
-        "vfxName": "gmax_oneblow"
+        "vfxName": "gmax_oneblow",
+        "names": {
+          "fr": "Gmax Oneblow"
+        }
       }
     ],
     "familyId": "Wushours",
@@ -8084,7 +9695,10 @@
         "power": 17,
         "durationMs": 1500,
         "energyDelta": 12,
-        "vfxName": "rock_smash_fast"
+        "vfxName": "rock_smash_fast",
+        "names": {
+          "fr": "Éclate-Roc"
+        }
       },
       "COUNTER_FAST": {
         "id": "V0243_MOVE_COUNTER_FAST",
@@ -8093,7 +9707,10 @@
         "power": 13,
         "durationMs": 1000,
         "energyDelta": 9,
-        "vfxName": "counter_fast"
+        "vfxName": "counter_fast",
+        "names": {
+          "fr": "Riposte"
+        }
       },
       "WATERFALL_FAST": {
         "id": "V0283_MOVE_WATERFALL_FAST",
@@ -8102,7 +9719,10 @@
         "power": 13,
         "durationMs": 1000,
         "energyDelta": 7,
-        "vfxName": "waterfall_fast"
+        "vfxName": "waterfall_fast",
+        "names": {
+          "fr": "Cascade"
+        }
       }
     },
     "dynamaxMove": [
@@ -8116,7 +9736,10 @@
           450,
           550
         ],
-        "vfxName": "gmax_rapidflow"
+        "vfxName": "gmax_rapidflow",
+        "names": {
+          "fr": "Gmax Rapidflow"
+        }
       }
     ],
     "familyId": "Wushours",

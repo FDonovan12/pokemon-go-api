@@ -9,7 +9,10 @@
       350,
       450
     ],
-    "vfxName": "max_flare"
+    "vfxName": "max_flare",
+    "names": {
+      "fr": "Pyromax"
+    }
   },
   "VN_BM_002": {
     "id": "VN_BM_002",
@@ -21,7 +24,10 @@
       350,
       450
     ],
-    "vfxName": "max_flutterby"
+    "vfxName": "max_flutterby",
+    "names": {
+      "fr": "Insectomax"
+    }
   },
   "VN_BM_003": {
     "id": "VN_BM_003",
@@ -33,7 +39,10 @@
       350,
       450
     ],
-    "vfxName": "max_lightning"
+    "vfxName": "max_lightning",
+    "names": {
+      "fr": "Fulguromax"
+    }
   },
   "VN_BM_004": {
     "id": "VN_BM_004",
@@ -45,7 +54,10 @@
       350,
       450
     ],
-    "vfxName": "max_strike"
+    "vfxName": "max_strike",
+    "names": {
+      "fr": "Normalomax"
+    }
   },
   "VN_BM_005": {
     "id": "VN_BM_005",
@@ -57,7 +69,10 @@
       350,
       450
     ],
-    "vfxName": "max_knuckle"
+    "vfxName": "max_knuckle",
+    "names": {
+      "fr": "Pugilomax"
+    }
   },
   "VN_BM_006": {
     "id": "VN_BM_006",
@@ -69,7 +84,10 @@
       350,
       450
     ],
-    "vfxName": "max_phantasm"
+    "vfxName": "max_phantasm",
+    "names": {
+      "fr": "Spectromax"
+    }
   },
   "VN_BM_007": {
     "id": "VN_BM_007",
@@ -81,7 +99,10 @@
       350,
       450
     ],
-    "vfxName": "max_hailstorm"
+    "vfxName": "max_hailstorm",
+    "names": {
+      "fr": "Cryomax"
+    }
   },
   "VN_BM_008": {
     "id": "VN_BM_008",
@@ -93,7 +114,10 @@
       350,
       450
     ],
-    "vfxName": "max_ooze"
+    "vfxName": "max_ooze",
+    "names": {
+      "fr": "Toxinomax"
+    }
   },
   "VN_BM_009": {
     "id": "VN_BM_009",
@@ -105,7 +129,10 @@
       350,
       450
     ],
-    "vfxName": "max_geyser"
+    "vfxName": "max_geyser",
+    "names": {
+      "fr": "Hydromax"
+    }
   },
   "VN_BM_010": {
     "id": "VN_BM_010",
@@ -117,7 +144,10 @@
       350,
       450
     ],
-    "vfxName": "max_airstream"
+    "vfxName": "max_airstream",
+    "names": {
+      "fr": "Aéromax"
+    }
   },
   "VN_BM_011": {
     "id": "VN_BM_011",
@@ -129,7 +159,10 @@
       350,
       450
     ],
-    "vfxName": "max_starfall"
+    "vfxName": "max_starfall",
+    "names": {
+      "fr": "Enchantomax"
+    }
   },
   "VN_BM_012": {
     "id": "VN_BM_012",
@@ -141,7 +174,10 @@
       350,
       450
     ],
-    "vfxName": "max_wyrmwind"
+    "vfxName": "max_wyrmwind",
+    "names": {
+      "fr": "Dracomax"
+    }
   },
   "VN_BM_013": {
     "id": "VN_BM_013",
@@ -153,7 +189,10 @@
       350,
       450
     ],
-    "vfxName": "max_mindstorm"
+    "vfxName": "max_mindstorm",
+    "names": {
+      "fr": "Psychomax"
+    }
   },
   "VN_BM_014": {
     "id": "VN_BM_014",
@@ -165,7 +204,10 @@
       350,
       450
     ],
-    "vfxName": "max_rockfall"
+    "vfxName": "max_rockfall",
+    "names": {
+      "fr": "Lithomax"
+    }
   },
   "VN_BM_015": {
     "id": "VN_BM_015",
@@ -177,7 +219,10 @@
       350,
       450
     ],
-    "vfxName": "max_quake"
+    "vfxName": "max_quake",
+    "names": {
+      "fr": "Sismomax"
+    }
   },
   "VN_BM_016": {
     "id": "VN_BM_016",
@@ -189,7 +234,10 @@
       350,
       450
     ],
-    "vfxName": "max_darkness"
+    "vfxName": "max_darkness",
+    "names": {
+      "fr": "Sinistromax"
+    }
   },
   "VN_BM_017": {
     "id": "VN_BM_017",
@@ -201,7 +249,10 @@
       350,
       450
     ],
-    "vfxName": "max_overgrowth"
+    "vfxName": "max_overgrowth",
+    "names": {
+      "fr": "Phytomax"
+    }
   },
   "VN_BM_018": {
     "id": "VN_BM_018",
@@ -213,7 +264,10 @@
       350,
       450
     ],
-    "vfxName": "max_steelspike"
+    "vfxName": "max_steelspike",
+    "names": {
+      "fr": "Métallomax"
+    }
   },
   "VN_BM_019": {
     "id": "VN_BM_019",
@@ -225,7 +279,10 @@
       450,
       550
     ],
-    "vfxName": "gmax_wildfire"
+    "vfxName": "gmax_wildfire",
+    "names": {
+      "fr": "Gmax Wildfire"
+    }
   },
   "VN_BM_020": {
     "id": "VN_BM_020",
@@ -237,7 +294,10 @@
       450,
       550
     ],
-    "vfxName": "gmax_befuddle"
+    "vfxName": "gmax_befuddle",
+    "names": {
+      "fr": "Gmax Befuddle"
+    }
   },
   "VN_BM_021": {
     "id": "VN_BM_021",
@@ -249,7 +309,10 @@
       450,
       550
     ],
-    "vfxName": "gmax_voltcrash"
+    "vfxName": "gmax_voltcrash",
+    "names": {
+      "fr": "Gmax Voltcrash"
+    }
   },
   "VN_BM_022": {
     "id": "VN_BM_022",
@@ -261,7 +324,10 @@
       450,
       550
     ],
-    "vfxName": "gmax_goldrush"
+    "vfxName": "gmax_goldrush",
+    "names": {
+      "fr": "Gmax Goldrush"
+    }
   },
   "VN_BM_023": {
     "id": "VN_BM_023",
@@ -273,7 +339,10 @@
       450,
       550
     ],
-    "vfxName": "gmax_chistrike"
+    "vfxName": "gmax_chistrike",
+    "names": {
+      "fr": "Gmax Chistrike"
+    }
   },
   "VN_BM_024": {
     "id": "VN_BM_024",
@@ -285,7 +354,10 @@
       450,
       550
     ],
-    "vfxName": "gmax_terror"
+    "vfxName": "gmax_terror",
+    "names": {
+      "fr": "Gmax Terror"
+    }
   },
   "VN_BM_025": {
     "id": "VN_BM_025",
@@ -297,7 +369,10 @@
       450,
       550
     ],
-    "vfxName": "gmax_foamburst"
+    "vfxName": "gmax_foamburst",
+    "names": {
+      "fr": "Gmax Foamburst"
+    }
   },
   "VN_BM_026": {
     "id": "VN_BM_026",
@@ -309,7 +384,10 @@
       450,
       550
     ],
-    "vfxName": "gmax_resonance"
+    "vfxName": "gmax_resonance",
+    "names": {
+      "fr": "Gmax Resonance"
+    }
   },
   "VN_BM_027": {
     "id": "VN_BM_027",
@@ -321,7 +399,10 @@
       450,
       550
     ],
-    "vfxName": "gmax_cuddle"
+    "vfxName": "gmax_cuddle",
+    "names": {
+      "fr": "Gmax Cuddle"
+    }
   },
   "VN_BM_028": {
     "id": "VN_BM_028",
@@ -333,7 +414,10 @@
       450,
       550
     ],
-    "vfxName": "gmax_replenish"
+    "vfxName": "gmax_replenish",
+    "names": {
+      "fr": "Gmax Replenish"
+    }
   },
   "VN_BM_029": {
     "id": "VN_BM_029",
@@ -345,7 +429,10 @@
       450,
       550
     ],
-    "vfxName": "gmax_malodor"
+    "vfxName": "gmax_malodor",
+    "names": {
+      "fr": "Gmax Malodor"
+    }
   },
   "VN_BM_030": {
     "id": "VN_BM_030",
@@ -357,7 +444,10 @@
       450,
       550
     ],
-    "vfxName": "gmax_meltdown"
+    "vfxName": "gmax_meltdown",
+    "names": {
+      "fr": "Gmax Meltdown"
+    }
   },
   "VN_BM_031": {
     "id": "VN_BM_031",
@@ -369,7 +459,10 @@
       450,
       550
     ],
-    "vfxName": "gmax_windrage"
+    "vfxName": "gmax_windrage",
+    "names": {
+      "fr": "Gmax Windrage"
+    }
   },
   "VN_BM_032": {
     "id": "VN_BM_032",
@@ -381,7 +474,10 @@
       450,
       550
     ],
-    "vfxName": "gmax_gravitas"
+    "vfxName": "gmax_gravitas",
+    "names": {
+      "fr": "Gmax Gravitas"
+    }
   },
   "VN_BM_033": {
     "id": "VN_BM_033",
@@ -393,7 +489,10 @@
       450,
       550
     ],
-    "vfxName": "gmax_stonesurge"
+    "vfxName": "gmax_stonesurge",
+    "names": {
+      "fr": "Gmax Stonesurge"
+    }
   },
   "VN_BM_034": {
     "id": "VN_BM_034",
@@ -405,7 +504,10 @@
       450,
       550
     ],
-    "vfxName": "gmax_volcalith"
+    "vfxName": "gmax_volcalith",
+    "names": {
+      "fr": "Gmax Volcalith"
+    }
   },
   "VN_BM_035": {
     "id": "VN_BM_035",
@@ -417,7 +519,10 @@
       450,
       550
     ],
-    "vfxName": "gmax_tartness"
+    "vfxName": "gmax_tartness",
+    "names": {
+      "fr": "Gmax Tartness"
+    }
   },
   "VN_BM_036": {
     "id": "VN_BM_036",
@@ -429,7 +534,10 @@
       450,
       550
     ],
-    "vfxName": "gmax_sweetness"
+    "vfxName": "gmax_sweetness",
+    "names": {
+      "fr": "Gmax Sweetness"
+    }
   },
   "VN_BM_037": {
     "id": "VN_BM_037",
@@ -441,7 +549,10 @@
       450,
       550
     ],
-    "vfxName": "gmax_sandblast"
+    "vfxName": "gmax_sandblast",
+    "names": {
+      "fr": "Gmax Sandblast"
+    }
   },
   "VN_BM_038": {
     "id": "VN_BM_038",
@@ -453,7 +564,10 @@
       450,
       550
     ],
-    "vfxName": "gmax_stun_shock"
+    "vfxName": "gmax_stun_shock",
+    "names": {
+      "fr": "Gmax Stun Shock"
+    }
   },
   "VN_BM_039": {
     "id": "VN_BM_039",
@@ -465,7 +579,10 @@
       450,
       550
     ],
-    "vfxName": "gmax_centiferno"
+    "vfxName": "gmax_centiferno",
+    "names": {
+      "fr": "Gmax Centiferno"
+    }
   },
   "VN_BM_040": {
     "id": "VN_BM_040",
@@ -477,7 +594,10 @@
       450,
       550
     ],
-    "vfxName": "gmax_smite"
+    "vfxName": "gmax_smite",
+    "names": {
+      "fr": "Gmax Smite"
+    }
   },
   "VN_BM_041": {
     "id": "VN_BM_041",
@@ -489,7 +609,10 @@
       450,
       550
     ],
-    "vfxName": "gmax_snooze"
+    "vfxName": "gmax_snooze",
+    "names": {
+      "fr": "Gmax Snooze"
+    }
   },
   "VN_BM_042": {
     "id": "VN_BM_042",
@@ -501,7 +624,10 @@
       450,
       550
     ],
-    "vfxName": "gmax_finale"
+    "vfxName": "gmax_finale",
+    "names": {
+      "fr": "Gmax Finale"
+    }
   },
   "VN_BM_043": {
     "id": "VN_BM_043",
@@ -513,7 +639,10 @@
       450,
       550
     ],
-    "vfxName": "gmax_steelsurge"
+    "vfxName": "gmax_steelsurge",
+    "names": {
+      "fr": "Gmax Steelsurge"
+    }
   },
   "VN_BM_044": {
     "id": "VN_BM_044",
@@ -525,7 +654,10 @@
       450,
       550
     ],
-    "vfxName": "gmax_depletion"
+    "vfxName": "gmax_depletion",
+    "names": {
+      "fr": "Gmax Depletion"
+    }
   },
   "VN_BM_045": {
     "id": "VN_BM_045",
@@ -537,7 +669,10 @@
       450,
       550
     ],
-    "vfxName": "gmax_vinelash"
+    "vfxName": "gmax_vinelash",
+    "names": {
+      "fr": "Gmax Vinelash"
+    }
   },
   "VN_BM_046": {
     "id": "VN_BM_046",
@@ -549,7 +684,10 @@
       450,
       550
     ],
-    "vfxName": "gmax_cannonade"
+    "vfxName": "gmax_cannonade",
+    "names": {
+      "fr": "Gmax Cannonade"
+    }
   },
   "VN_BM_047": {
     "id": "VN_BM_047",
@@ -561,7 +699,10 @@
       450,
       550
     ],
-    "vfxName": "gmax_drumsolo"
+    "vfxName": "gmax_drumsolo",
+    "names": {
+      "fr": "Gmax Drumsolo"
+    }
   },
   "VN_BM_048": {
     "id": "VN_BM_048",
@@ -573,7 +714,10 @@
       450,
       550
     ],
-    "vfxName": "gmax_fireball"
+    "vfxName": "gmax_fireball",
+    "names": {
+      "fr": "Gmax Fireball"
+    }
   },
   "VN_BM_049": {
     "id": "VN_BM_049",
@@ -585,7 +729,10 @@
       450,
       550
     ],
-    "vfxName": "gmax_hydrosnipe"
+    "vfxName": "gmax_hydrosnipe",
+    "names": {
+      "fr": "Gmax Hydrosnipe"
+    }
   },
   "VN_BM_050": {
     "id": "VN_BM_050",
@@ -597,7 +744,10 @@
       450,
       550
     ],
-    "vfxName": "gmax_oneblow"
+    "vfxName": "gmax_oneblow",
+    "names": {
+      "fr": "Gmax Oneblow"
+    }
   },
   "VN_BM_051": {
     "id": "VN_BM_051",
@@ -609,7 +759,10 @@
       450,
       550
     ],
-    "vfxName": "gmax_rapidflow"
+    "vfxName": "gmax_rapidflow",
+    "names": {
+      "fr": "Gmax Rapidflow"
+    }
   },
   "VN_BM_052": {
     "id": "VN_BM_052",
@@ -621,7 +774,10 @@
       0,
       0
     ],
-    "vfxName": "max_shield"
+    "vfxName": "max_shield",
+    "names": {
+      "fr": "Max Shield"
+    }
   },
   "VN_BM_053": {
     "id": "VN_BM_053",
@@ -633,7 +789,10 @@
       0,
       0
     ],
-    "vfxName": "max_heal"
+    "vfxName": "max_heal",
+    "names": {
+      "fr": "Max Heal"
+    }
   },
   "VN_BM_054": {
     "id": "VN_BM_054",
@@ -645,7 +804,10 @@
       0,
       0
     ],
-    "vfxName": "max_shield"
+    "vfxName": "max_shield",
+    "names": {
+      "fr": "Max Shield"
+    }
   },
   "VN_BM_055": {
     "id": "VN_BM_055",
@@ -657,7 +819,10 @@
       0,
       0
     ],
-    "vfxName": "max_heal"
+    "vfxName": "max_heal",
+    "names": {
+      "fr": "Max Heal"
+    }
   },
   "VN_BM_056": {
     "id": "VN_BM_056",
@@ -669,7 +834,10 @@
       0,
       0
     ],
-    "vfxName": "max_shield"
+    "vfxName": "max_shield",
+    "names": {
+      "fr": "Max Shield"
+    }
   },
   "VN_BM_057": {
     "id": "VN_BM_057",
@@ -681,7 +849,10 @@
       0,
       0
     ],
-    "vfxName": "max_heal"
+    "vfxName": "max_heal",
+    "names": {
+      "fr": "Max Heal"
+    }
   },
   "VN_BM_058": {
     "id": "VN_BM_058",
@@ -693,7 +864,10 @@
       0,
       0
     ],
-    "vfxName": "max_shield"
+    "vfxName": "max_shield",
+    "names": {
+      "fr": "Max Shield"
+    }
   },
   "VN_BM_059": {
     "id": "VN_BM_059",
@@ -705,7 +879,10 @@
       0,
       0
     ],
-    "vfxName": "max_heal"
+    "vfxName": "max_heal",
+    "names": {
+      "fr": "Max Heal"
+    }
   },
   "VN_BM_060": {
     "id": "VN_BM_060",
@@ -717,7 +894,10 @@
       350,
       450
     ],
-    "vfxName": "max_behemoth_blade"
+    "vfxName": "max_behemoth_blade",
+    "names": {
+      "fr": "Max Behemoth Blade"
+    }
   },
   "VN_BM_061": {
     "id": "VN_BM_061",
@@ -729,7 +909,10 @@
       350,
       450
     ],
-    "vfxName": "max_behemoth_bash"
+    "vfxName": "max_behemoth_bash",
+    "names": {
+      "fr": "Max Behemoth Bash"
+    }
   },
   "VN_BM_062": {
     "id": "VN_BM_062",
@@ -741,6 +924,9 @@
       450,
       550
     ],
-    "vfxName": "max_dynamax_cannon"
+    "vfxName": "max_dynamax_cannon",
+    "names": {
+      "fr": "Max Dynamax Cannon"
+    }
   }
 }
