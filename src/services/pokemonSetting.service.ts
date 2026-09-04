@@ -108,6 +108,7 @@ class PokemonSettingGeneratorService {
                         formField === 'base'
                             ? name.slugify()
                             : formField.replace(pokemon.data.pokemonId, name).slugify();
+
                     rawPokemons.push({
                         id: pokemon.templateId,
                         pokemonId: pokemon.data.pokemonId,
@@ -162,7 +163,11 @@ class PokemonSettingGeneratorService {
         );
 
         const pokemons = rawPokemons
-            .map((pokemon) => ({ ...pokemon, family: familyToFrenchName.get(pokemon.family)! }))
+            .map((pokemon) => ({
+                ...pokemon,
+                family: familyToFrenchName.get(pokemon.family)!,
+                name: pokemon.form === 'base' ? pokemon.name.titleCase() : pokemon.slug.titleCase(),
+            }))
             .groupBy('pokemonId')
             .toList('values');
 
@@ -272,6 +277,20 @@ class PokemonSettingGeneratorService {
         if (formField.includes('ORIGIN')) {
             if (templateId.includes('DIALGA')) pokemon.data.nonTmCinematicMoves = ['ROAR_OF_TIME'];
             if (templateId.includes('PALKIA')) pokemon.data.nonTmCinematicMoves = ['SPACIAL_REND'];
+        }
+
+        if (formField.includes('NECROZMA_DUSK')) {
+            pokemon.data.cinematicMoves = [
+                ...(pokemon.data.cinematicMoves ?? []),
+                'SUNSTEEL_STRIKE',
+            ];
+        }
+
+        if (formField.includes('NECROZMA_DAWN')) {
+            pokemon.data.cinematicMoves = [
+                ...(pokemon.data.cinematicMoves ?? []),
+                'MOONGEIST_BEAM',
+            ];
         }
 
         if (templateId.includes('ZYGARDE')) {
