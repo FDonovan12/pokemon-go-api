@@ -2443,7 +2443,7 @@
   },
   {
     "pokemonId": "HO_OH",
-    "name": "Ho Oh",
+    "name": "Ho-Oh",
     "dexNumber": 250,
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/250.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/250.png",
@@ -5966,80 +5966,7 @@
   },
   {
     "pokemonId": "URSHIFU",
-    "name": "Shifours Rapid Strike",
-    "dexNumber": 892,
-    "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/892.png",
-    "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/892.png",
-    "slug": "shifours-rapid-strike",
-    "types": [
-      "Combat",
-      "Eau"
-    ],
-    "stats": {
-      "baseStamina": 225,
-      "baseAttack": 254,
-      "baseDefense": 177
-    },
-    "quickMoves": {
-      "ROCK_SMASH_FAST": {
-        "id": "V0241_MOVE_ROCK_SMASH_FAST",
-        "movementId": "ROCK_SMASH_FAST",
-        "pokemonType": "Combat",
-        "power": 17,
-        "durationMs": 1500,
-        "energyDelta": 12,
-        "vfxName": "rock_smash_fast"
-      },
-      "COUNTER_FAST": {
-        "id": "V0243_MOVE_COUNTER_FAST",
-        "movementId": "COUNTER_FAST",
-        "pokemonType": "Combat",
-        "power": 13,
-        "durationMs": 1000,
-        "energyDelta": 9,
-        "vfxName": "counter_fast"
-      },
-      "WATERFALL_FAST": {
-        "id": "V0283_MOVE_WATERFALL_FAST",
-        "movementId": "WATERFALL_FAST",
-        "pokemonType": "Eau",
-        "power": 13,
-        "durationMs": 1000,
-        "energyDelta": 7,
-        "vfxName": "waterfall_fast"
-      }
-    },
-    "dynamaxMove": [
-      {
-        "id": "VN_BM_005",
-        "movementId": "VN_BM_005",
-        "pokemonType": "Combat",
-        "powerLevels": [
-          250,
-          300,
-          350,
-          450
-        ],
-        "vfxName": "max_knuckle"
-      },
-      {
-        "id": "VN_BM_009",
-        "movementId": "VN_BM_009",
-        "pokemonType": "Eau",
-        "powerLevels": [
-          250,
-          300,
-          350,
-          450
-        ],
-        "vfxName": "max_geyser"
-      }
-    ],
-    "familyId": "Wushours"
-  },
-  {
-    "pokemonId": "URSHIFU",
-    "name": "Shifours Single Strike",
+    "name": "Shifours",
     "dexNumber": 892,
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/892.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/892.png",
@@ -6106,6 +6033,79 @@
           450
         ],
         "vfxName": "max_darkness"
+      }
+    ],
+    "familyId": "Wushours"
+  },
+  {
+    "pokemonId": "URSHIFU",
+    "name": "Shifours Style Mille Poings",
+    "dexNumber": 892,
+    "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/892.png",
+    "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/892.png",
+    "slug": "shifours-rapid-strike",
+    "types": [
+      "Combat",
+      "Eau"
+    ],
+    "stats": {
+      "baseStamina": 225,
+      "baseAttack": 254,
+      "baseDefense": 177
+    },
+    "quickMoves": {
+      "ROCK_SMASH_FAST": {
+        "id": "V0241_MOVE_ROCK_SMASH_FAST",
+        "movementId": "ROCK_SMASH_FAST",
+        "pokemonType": "Combat",
+        "power": 17,
+        "durationMs": 1500,
+        "energyDelta": 12,
+        "vfxName": "rock_smash_fast"
+      },
+      "COUNTER_FAST": {
+        "id": "V0243_MOVE_COUNTER_FAST",
+        "movementId": "COUNTER_FAST",
+        "pokemonType": "Combat",
+        "power": 13,
+        "durationMs": 1000,
+        "energyDelta": 9,
+        "vfxName": "counter_fast"
+      },
+      "WATERFALL_FAST": {
+        "id": "V0283_MOVE_WATERFALL_FAST",
+        "movementId": "WATERFALL_FAST",
+        "pokemonType": "Eau",
+        "power": 13,
+        "durationMs": 1000,
+        "energyDelta": 7,
+        "vfxName": "waterfall_fast"
+      }
+    },
+    "dynamaxMove": [
+      {
+        "id": "VN_BM_005",
+        "movementId": "VN_BM_005",
+        "pokemonType": "Combat",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_knuckle"
+      },
+      {
+        "id": "VN_BM_009",
+        "movementId": "VN_BM_009",
+        "pokemonType": "Eau",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_geyser"
       }
     ],
     "familyId": "Wushours"
@@ -7138,7 +7138,7 @@
   },
   {
     "pokemonId": "ZACIAN",
-    "name": "Zacian Crowned",
+    "name": "Zacian Épée Suprême",
     "dexNumber": 888,
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/888.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/888.png",
@@ -7191,7 +7191,7 @@
   },
   {
     "pokemonId": "ZAMAZENTA",
-    "name": "Zamazenta Crowned",
+    "name": "Zamazenta Bouclier Suprême",
     "dexNumber": 889,
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/889.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/889.png",
@@ -8000,69 +8000,7 @@
   },
   {
     "pokemonId": "URSHIFU",
-    "name": "Shifours Rapid Strike",
-    "dexNumber": 892,
-    "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/10227.png",
-    "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/10227.png",
-    "slug": "shifours-rapid-strike",
-    "types": [
-      "Combat",
-      "Eau"
-    ],
-    "stats": {
-      "baseStamina": 225,
-      "baseAttack": 254,
-      "baseDefense": 177
-    },
-    "quickMoves": {
-      "ROCK_SMASH_FAST": {
-        "id": "V0241_MOVE_ROCK_SMASH_FAST",
-        "movementId": "ROCK_SMASH_FAST",
-        "pokemonType": "Combat",
-        "power": 17,
-        "durationMs": 1500,
-        "energyDelta": 12,
-        "vfxName": "rock_smash_fast"
-      },
-      "COUNTER_FAST": {
-        "id": "V0243_MOVE_COUNTER_FAST",
-        "movementId": "COUNTER_FAST",
-        "pokemonType": "Combat",
-        "power": 13,
-        "durationMs": 1000,
-        "energyDelta": 9,
-        "vfxName": "counter_fast"
-      },
-      "WATERFALL_FAST": {
-        "id": "V0283_MOVE_WATERFALL_FAST",
-        "movementId": "WATERFALL_FAST",
-        "pokemonType": "Eau",
-        "power": 13,
-        "durationMs": 1000,
-        "energyDelta": 7,
-        "vfxName": "waterfall_fast"
-      }
-    },
-    "dynamaxMove": [
-      {
-        "id": "VN_BM_051",
-        "movementId": "VN_BM_051",
-        "pokemonType": "Eau",
-        "powerLevels": [
-          350,
-          400,
-          450,
-          550
-        ],
-        "vfxName": "gmax_rapidflow"
-      }
-    ],
-    "familyId": "Wushours",
-    "isReleased": false
-  },
-  {
-    "pokemonId": "URSHIFU",
-    "name": "Shifours Single Strike",
+    "name": "Shifours",
     "dexNumber": 892,
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/10226.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/10226.png",
@@ -8117,6 +8055,68 @@
           550
         ],
         "vfxName": "gmax_oneblow"
+      }
+    ],
+    "familyId": "Wushours",
+    "isReleased": false
+  },
+  {
+    "pokemonId": "URSHIFU",
+    "name": "Shifours Style Mille Poings",
+    "dexNumber": 892,
+    "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/10227.png",
+    "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/10227.png",
+    "slug": "shifours-rapid-strike",
+    "types": [
+      "Combat",
+      "Eau"
+    ],
+    "stats": {
+      "baseStamina": 225,
+      "baseAttack": 254,
+      "baseDefense": 177
+    },
+    "quickMoves": {
+      "ROCK_SMASH_FAST": {
+        "id": "V0241_MOVE_ROCK_SMASH_FAST",
+        "movementId": "ROCK_SMASH_FAST",
+        "pokemonType": "Combat",
+        "power": 17,
+        "durationMs": 1500,
+        "energyDelta": 12,
+        "vfxName": "rock_smash_fast"
+      },
+      "COUNTER_FAST": {
+        "id": "V0243_MOVE_COUNTER_FAST",
+        "movementId": "COUNTER_FAST",
+        "pokemonType": "Combat",
+        "power": 13,
+        "durationMs": 1000,
+        "energyDelta": 9,
+        "vfxName": "counter_fast"
+      },
+      "WATERFALL_FAST": {
+        "id": "V0283_MOVE_WATERFALL_FAST",
+        "movementId": "WATERFALL_FAST",
+        "pokemonType": "Eau",
+        "power": 13,
+        "durationMs": 1000,
+        "energyDelta": 7,
+        "vfxName": "waterfall_fast"
+      }
+    },
+    "dynamaxMove": [
+      {
+        "id": "VN_BM_051",
+        "movementId": "VN_BM_051",
+        "pokemonType": "Eau",
+        "powerLevels": [
+          350,
+          400,
+          450,
+          550
+        ],
+        "vfxName": "gmax_rapidflow"
       }
     ],
     "familyId": "Wushours",
