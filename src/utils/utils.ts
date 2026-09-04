@@ -1,4 +1,5 @@
-export function pokemonTypeToFrench(type: string): string | undefined {
+export function pokemonTypeToFrench(type: string | undefined): string | undefined {
+    if (!type) return undefined;
     return POKEMON_TYPE_TO_FRENCH[type];
 }
 
