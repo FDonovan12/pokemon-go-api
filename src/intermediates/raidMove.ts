@@ -17,9 +17,9 @@ export default class PokemonSettingIntermediate extends IntermediateGenerator {
                 id: move.templateId,
                 movementId: move.data.movementId,
                 pokemonType: pokemonTypeToFrench(move.data.pokemonType),
-                power: move.data.power,
+                power: move.data.power ?? 0,
                 durationMs: move.data.durationMs,
-                energyDelta: move.data.energyDelta,
+                energyDelta: move.data.energyDelta ?? 0,
                 vfxName: move.data.vfxName,
             }))
             .toObject((move) => move.movementId);
@@ -33,9 +33,9 @@ export default class PokemonSettingIntermediate extends IntermediateGenerator {
                 id: move.templateId,
                 movementId: move.data.movementId,
                 pokemonType: pokemonTypeToFrench(move.data.pokemonType),
-                power: move.data.power,
+                power: move.data.power ?? 0,
                 durationMs: move.data.durationMs,
-                energyDelta: move.data.energyDelta,
+                energyDelta: move.data.energyDelta ?? 0,
                 vfxName: move.data.vfxName,
             }))
             .toObject((move) => move.movementId);
