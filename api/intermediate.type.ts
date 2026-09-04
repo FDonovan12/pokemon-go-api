@@ -14,7 +14,7 @@ export interface BaseElement {
     imageId:             number;
     image:               string;
     imageShiny:          string;
-    type:                Type[];
+    types:               Type[];
     stats:               Stats;
     quickMoves:          string[];
     cinematicMoves:      string[];
@@ -114,7 +114,7 @@ export interface PurpleBase {
     imageId:             number;
     image:               string;
     imageShiny:          string;
-    type:                Type[];
+    types:               Type[];
     stats:               Stats;
     quickMoves:          string[];
     cinematicMoves:      string[];

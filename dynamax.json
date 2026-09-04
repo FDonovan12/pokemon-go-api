@@ -6,7 +6,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/3.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/3.png",
     "slug": "florizarre",
-    "type": [
+    "types": [
       "Plante",
       "Poison"
     ],
@@ -58,7 +58,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/6.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/6.png",
     "slug": "dracaufeu",
-    "type": [
+    "types": [
       "Feu",
       "Vol"
     ],
@@ -161,7 +161,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/9.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/9.png",
     "slug": "tortank",
-    "type": [
+    "types": [
       "Eau"
     ],
     "stats": {
@@ -245,7 +245,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/12.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/12.png",
     "slug": "papilusion",
-    "type": [
+    "types": [
       "Insecte",
       "Vol"
     ],
@@ -318,7 +318,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/26.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/26.png",
     "slug": "raichu",
-    "type": [
+    "types": [
       "Électrik"
     ],
     "stats": {
@@ -399,7 +399,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/59.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/59.png",
     "slug": "arcanin",
-    "type": [
+    "types": [
       "Feu"
     ],
     "stats": {
@@ -492,7 +492,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/65.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/65.png",
     "slug": "alakazam",
-    "type": [
+    "types": [
       "Psy"
     ],
     "stats": {
@@ -564,7 +564,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/68.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/68.png",
     "slug": "mackogneur",
-    "type": [
+    "types": [
       "Combat"
     ],
     "stats": {
@@ -636,7 +636,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/94.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/94.png",
     "slug": "ectoplasma",
-    "type": [
+    "types": [
       "Spectre",
       "Poison"
     ],
@@ -718,7 +718,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/99.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/99.png",
     "slug": "krabboss",
-    "type": [
+    "types": [
       "Eau"
     ],
     "stats": {
@@ -802,7 +802,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/106.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/106.png",
     "slug": "kicklee",
-    "type": [
+    "types": [
       "Combat"
     ],
     "stats": {
@@ -862,7 +862,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/107.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/107.png",
     "slug": "tygnon",
-    "type": [
+    "types": [
       "Combat"
     ],
     "stats": {
@@ -934,7 +934,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/121.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/121.png",
     "slug": "staross",
-    "type": [
+    "types": [
       "Eau",
       "Psy"
     ],
@@ -1028,7 +1028,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/130.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/130.png",
     "slug": "leviator",
-    "type": [
+    "types": [
       "Eau",
       "Vol"
     ],
@@ -1122,7 +1122,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/131.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/131.png",
     "slug": "lokhlass",
-    "type": [
+    "types": [
       "Eau",
       "Glace"
     ],
@@ -1216,7 +1216,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/134.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/134.png",
     "slug": "aquali",
-    "type": [
+    "types": [
       "Eau"
     ],
     "stats": {
@@ -1258,7 +1258,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/135.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/135.png",
     "slug": "voltali",
-    "type": [
+    "types": [
       "Électrik"
     ],
     "stats": {
@@ -1309,7 +1309,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/136.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/136.png",
     "slug": "pyroli",
-    "type": [
+    "types": [
       "Feu"
     ],
     "stats": {
@@ -1360,7 +1360,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/139.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/139.png",
     "slug": "amonistar",
-    "type": [
+    "types": [
       "Roche",
       "Eau"
     ],
@@ -1445,7 +1445,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/141.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/141.png",
     "slug": "kabutops",
-    "type": [
+    "types": [
       "Roche",
       "Eau"
     ],
@@ -1551,7 +1551,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/143.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/143.png",
     "slug": "ronflex",
-    "type": [
+    "types": [
       "Normal"
     ],
     "stats": {
@@ -1634,7 +1634,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/144.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/144.png",
     "slug": "artikodin",
-    "type": [
+    "types": [
       "Glace",
       "Vol"
     ],
@@ -1695,7 +1695,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/145.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/145.png",
     "slug": "electhor",
-    "type": [
+    "types": [
       "Électrik",
       "Vol"
     ],
@@ -1747,7 +1747,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/146.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/146.png",
     "slug": "sulfura",
-    "type": [
+    "types": [
       "Feu",
       "Vol"
     ],
@@ -1811,7 +1811,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/164.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/164.png",
     "slug": "noarfang",
-    "type": [
+    "types": [
       "Normal",
       "Vol"
     ],
@@ -1875,7 +1875,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/196.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/196.png",
     "slug": "mentali",
-    "type": [
+    "types": [
       "Psy"
     ],
     "stats": {
@@ -1926,7 +1926,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/197.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/197.png",
     "slug": "noctali",
-    "type": [
+    "types": [
       "Ténèbres"
     ],
     "stats": {
@@ -1977,7 +1977,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/213.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/213.png",
     "slug": "caratroc",
-    "type": [
+    "types": [
       "Insecte",
       "Roche"
     ],
@@ -2041,7 +2041,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/237.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/237.png",
     "slug": "kapoera",
-    "type": [
+    "types": [
       "Combat"
     ],
     "stats": {
@@ -2092,7 +2092,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/242.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/242.png",
     "slug": "leuphorie",
-    "type": [
+    "types": [
       "Normal"
     ],
     "stats": {
@@ -2155,7 +2155,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/243.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/243.png",
     "slug": "raikou",
-    "type": [
+    "types": [
       "Électrik"
     ],
     "stats": {
@@ -2206,7 +2206,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/244.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/244.png",
     "slug": "entei",
-    "type": [
+    "types": [
       "Feu"
     ],
     "stats": {
@@ -2257,7 +2257,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/245.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/245.png",
     "slug": "suicune",
-    "type": [
+    "types": [
       "Eau"
     ],
     "stats": {
@@ -2383,7 +2383,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/249.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/249.png",
     "slug": "lugia",
-    "type": [
+    "types": [
       "Psy",
       "Vol"
     ],
@@ -2447,7 +2447,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/250.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/250.png",
     "slug": "ho-oh",
-    "type": [
+    "types": [
       "Feu",
       "Vol"
     ],
@@ -2553,7 +2553,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/282.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/282.png",
     "slug": "gardevoir",
-    "type": [
+    "types": [
       "Psy",
       "Fée"
     ],
@@ -2659,7 +2659,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/302.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/302.png",
     "slug": "tenefix",
-    "type": [
+    "types": [
       "Ténèbres",
       "Spectre"
     ],
@@ -2723,7 +2723,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/321.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/321.png",
     "slug": "wailord",
-    "type": [
+    "types": [
       "Eau"
     ],
     "stats": {
@@ -2807,7 +2807,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/330.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/330.png",
     "slug": "libegon",
-    "type": [
+    "types": [
       "Sol",
       "Dragon"
     ],
@@ -2880,7 +2880,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/350.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/350.png",
     "slug": "milobellus",
-    "type": [
+    "types": [
       "Eau"
     ],
     "stats": {
@@ -2943,7 +2943,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/365.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/365.png",
     "slug": "kaimorse",
-    "type": [
+    "types": [
       "Glace",
       "Eau"
     ],
@@ -3016,7 +3016,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/376.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/376.png",
     "slug": "metalosse",
-    "type": [
+    "types": [
       "Acier",
       "Psy"
     ],
@@ -3122,7 +3122,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/377.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/377.png",
     "slug": "regirock",
-    "type": [
+    "types": [
       "Roche"
     ],
     "stats": {
@@ -3206,7 +3206,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/378.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/378.png",
     "slug": "regice",
-    "type": [
+    "types": [
       "Glace"
     ],
     "stats": {
@@ -3290,7 +3290,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/379.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/379.png",
     "slug": "registeel",
-    "type": [
+    "types": [
       "Acier"
     ],
     "stats": {
@@ -3374,7 +3374,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/380.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/380.png",
     "slug": "latias",
-    "type": [
+    "types": [
       "Dragon",
       "Psy"
     ],
@@ -3459,7 +3459,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/381.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/381.png",
     "slug": "latios",
-    "type": [
+    "types": [
       "Dragon",
       "Psy"
     ],
@@ -3523,7 +3523,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/416.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/416.png",
     "slug": "apireine",
-    "type": [
+    "types": [
       "Insecte",
       "Vol"
     ],
@@ -3617,7 +3617,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/461.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/461.png",
     "slug": "dimoret",
-    "type": [
+    "types": [
       "Ténèbres",
       "Glace"
     ],
@@ -3690,7 +3690,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/464.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/464.png",
     "slug": "rhinastoc",
-    "type": [
+    "types": [
       "Sol",
       "Roche"
     ],
@@ -3754,7 +3754,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/466.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/466.png",
     "slug": "elekable",
-    "type": [
+    "types": [
       "Électrik"
     ],
     "stats": {
@@ -3817,7 +3817,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/467.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/467.png",
     "slug": "maganon",
-    "type": [
+    "types": [
       "Feu"
     ],
     "stats": {
@@ -3880,7 +3880,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/470.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/470.png",
     "slug": "phyllali",
-    "type": [
+    "types": [
       "Plante"
     ],
     "stats": {
@@ -3952,7 +3952,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/471.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/471.png",
     "slug": "givrali",
-    "type": [
+    "types": [
       "Glace"
     ],
     "stats": {
@@ -4003,7 +4003,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/475.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/475.png",
     "slug": "gallame",
-    "type": [
+    "types": [
       "Psy",
       "Combat"
     ],
@@ -4097,7 +4097,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/521.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/521.png",
     "slug": "deflaisan",
-    "type": [
+    "types": [
       "Normal",
       "Vol"
     ],
@@ -4161,7 +4161,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/526.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/526.png",
     "slug": "gigalithe",
-    "type": [
+    "types": [
       "Roche"
     ],
     "stats": {
@@ -4245,7 +4245,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/528.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/528.png",
     "slug": "rhinolove",
-    "type": [
+    "types": [
       "Psy",
       "Vol"
     ],
@@ -4309,7 +4309,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/530.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/530.png",
     "slug": "minotaupe",
-    "type": [
+    "types": [
       "Sol",
       "Acier"
     ],
@@ -4382,7 +4382,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/547.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/547.png",
     "slug": "farfaduvet",
-    "type": [
+    "types": [
       "Plante",
       "Fée"
     ],
@@ -4455,7 +4455,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/555.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/555.png",
     "slug": "darumacho",
-    "type": [
+    "types": [
       "Feu"
     ],
     "stats": {
@@ -4527,7 +4527,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/569.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/569.png",
     "slug": "miasmax",
-    "type": [
+    "types": [
       "Poison"
     ],
     "stats": {
@@ -4590,7 +4590,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/615.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/615.png",
     "slug": "hexagel",
-    "type": [
+    "types": [
       "Glace"
     ],
     "stats": {
@@ -4641,7 +4641,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/635.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/635.png",
     "slug": "trioxhydre",
-    "type": [
+    "types": [
       "Ténèbres",
       "Dragon"
     ],
@@ -4705,7 +4705,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/678.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/678.png",
     "slug": "mistigrix",
-    "type": [
+    "types": [
       "Psy"
     ],
     "stats": {
@@ -4768,7 +4768,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/687.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/687.png",
     "slug": "sepiatroce",
-    "type": [
+    "types": [
       "Ténèbres",
       "Psy"
     ],
@@ -4841,7 +4841,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/700.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/700.png",
     "slug": "nymphali",
-    "type": [
+    "types": [
       "Fée"
     ],
     "stats": {
@@ -4913,7 +4913,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/763.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/763.png",
     "slug": "sucreine",
-    "type": [
+    "types": [
       "Plante"
     ],
     "stats": {
@@ -4985,7 +4985,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/766.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/766.png",
     "slug": "quartermac",
-    "type": [
+    "types": [
       "Combat"
     ],
     "stats": {
@@ -5057,7 +5057,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/780.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/780.png",
     "slug": "draieul",
-    "type": [
+    "types": [
       "Normal",
       "Dragon"
     ],
@@ -5121,7 +5121,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/812.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/812.png",
     "slug": "gorythmic",
-    "type": [
+    "types": [
       "Plante"
     ],
     "stats": {
@@ -5184,7 +5184,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/815.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/815.png",
     "slug": "pyrobut",
-    "type": [
+    "types": [
       "Feu"
     ],
     "stats": {
@@ -5247,7 +5247,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/818.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/818.png",
     "slug": "lezargus",
-    "type": [
+    "types": [
       "Eau"
     ],
     "stats": {
@@ -5310,7 +5310,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/820.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/820.png",
     "slug": "rongrigou",
-    "type": [
+    "types": [
       "Normal"
     ],
     "stats": {
@@ -5415,7 +5415,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/823.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/823.png",
     "slug": "corvaillus",
-    "type": [
+    "types": [
       "Vol",
       "Acier"
     ],
@@ -5500,7 +5500,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/832.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/832.png",
     "slug": "moumouflon",
-    "type": [
+    "types": [
       "Normal"
     ],
     "stats": {
@@ -5572,7 +5572,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/849.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/849.png",
     "slug": "salarsen",
-    "type": [
+    "types": [
       "Électrik",
       "Poison"
     ],
@@ -5645,7 +5645,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/851.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/851.png",
     "slug": "scolocendre",
-    "type": [
+    "types": [
       "Feu",
       "Insecte"
     ],
@@ -5709,7 +5709,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/858.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/858.png",
     "slug": "sorcilence",
-    "type": [
+    "types": [
       "Psy",
       "Fée"
     ],
@@ -5782,7 +5782,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/861.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/861.png",
     "slug": "angoliath",
-    "type": [
+    "types": [
       "Ténèbres",
       "Fée"
     ],
@@ -5855,7 +5855,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/870.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/870.png",
     "slug": "hexadron",
-    "type": [
+    "types": [
       "Combat"
     ],
     "stats": {
@@ -5906,7 +5906,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/884.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/884.png",
     "slug": "duralugon",
-    "type": [
+    "types": [
       "Acier",
       "Dragon"
     ],
@@ -5970,7 +5970,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/892.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/892.png",
     "slug": "shifours-rapid-strike",
-    "type": [
+    "types": [
       "Combat",
       "Eau"
     ],
@@ -6043,7 +6043,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/892.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/892.png",
     "slug": "shifours-single-strike",
-    "type": [
+    "types": [
       "Combat",
       "Ténèbres"
     ],
@@ -6116,7 +6116,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/10195.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/10195.png",
     "slug": "florizarre",
-    "type": [
+    "types": [
       "Plante",
       "Poison"
     ],
@@ -6169,7 +6169,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/10196.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/10196.png",
     "slug": "dracaufeu",
-    "type": [
+    "types": [
       "Feu",
       "Vol"
     ],
@@ -6249,7 +6249,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/10197.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/10197.png",
     "slug": "tortank",
-    "type": [
+    "types": [
       "Eau"
     ],
     "stats": {
@@ -6310,7 +6310,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/10198.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/10198.png",
     "slug": "papilusion",
-    "type": [
+    "types": [
       "Insecte",
       "Vol"
     ],
@@ -6372,7 +6372,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/10199.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/10199.png",
     "slug": "pikachu",
-    "type": [
+    "types": [
       "Électrik"
     ],
     "stats": {
@@ -6433,7 +6433,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/10200.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/10200.png",
     "slug": "miaouss",
-    "type": [
+    "types": [
       "Normal"
     ],
     "stats": {
@@ -6485,7 +6485,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/10201.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/10201.png",
     "slug": "mackogneur",
-    "type": [
+    "types": [
       "Combat"
     ],
     "stats": {
@@ -6546,7 +6546,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/10202.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/10202.png",
     "slug": "ectoplasma",
-    "type": [
+    "types": [
       "Spectre",
       "Poison"
     ],
@@ -6617,7 +6617,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/10203.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/10203.png",
     "slug": "krabboss",
-    "type": [
+    "types": [
       "Eau"
     ],
     "stats": {
@@ -6678,7 +6678,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/10204.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/10204.png",
     "slug": "lokhlass",
-    "type": [
+    "types": [
       "Eau",
       "Glace"
     ],
@@ -6749,7 +6749,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/10206.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/10206.png",
     "slug": "ronflex",
-    "type": [
+    "types": [
       "Normal"
     ],
     "stats": {
@@ -6809,7 +6809,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/10207.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/10207.png",
     "slug": "miasmax",
-    "type": [
+    "types": [
       "Poison"
     ],
     "stats": {
@@ -6861,7 +6861,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/10209.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/10209.png",
     "slug": "gorythmic",
-    "type": [
+    "types": [
       "Plante"
     ],
     "stats": {
@@ -6913,7 +6913,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/10210.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/10210.png",
     "slug": "pyrobut",
-    "type": [
+    "types": [
       "Feu"
     ],
     "stats": {
@@ -6965,7 +6965,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/10211.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/10211.png",
     "slug": "lezargus",
-    "type": [
+    "types": [
       "Eau"
     ],
     "stats": {
@@ -7017,7 +7017,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/10219.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/10219.png",
     "slug": "salarsen",
-    "type": [
+    "types": [
       "Électrik",
       "Poison"
     ],
@@ -7079,7 +7079,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/10222.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/10222.png",
     "slug": "angoliath",
-    "type": [
+    "types": [
       "Ténèbres",
       "Fée"
     ],
@@ -7141,7 +7141,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/888.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/888.png",
     "slug": "zacian-crowned",
-    "type": [
+    "types": [
       "Fée",
       "Acier"
     ],
@@ -7194,7 +7194,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/889.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/889.png",
     "slug": "zamazenta-crowned",
-    "type": [
+    "types": [
       "Combat",
       "Acier"
     ],
@@ -7247,7 +7247,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/890.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/890.png",
     "slug": "ethernatos",
-    "type": [
+    "types": [
       "Poison",
       "Dragon"
     ],
@@ -7300,7 +7300,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/10208.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/10208.png",
     "slug": "melmetal",
-    "type": [
+    "types": [
       "Acier"
     ],
     "stats": {
@@ -7343,7 +7343,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/10212.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/10212.png",
     "slug": "corvaillus",
-    "type": [
+    "types": [
       "Vol",
       "Acier"
     ],
@@ -7405,7 +7405,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/10213.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/10213.png",
     "slug": "astronelle",
-    "type": [
+    "types": [
       "Insecte",
       "Psy"
     ],
@@ -7467,7 +7467,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/10214.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/10214.png",
     "slug": "torgamord",
-    "type": [
+    "types": [
       "Eau",
       "Roche"
     ],
@@ -7520,7 +7520,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/10215.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/10215.png",
     "slug": "monthracite",
-    "type": [
+    "types": [
       "Roche",
       "Feu"
     ],
@@ -7573,7 +7573,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/10216.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/10216.png",
     "slug": "pomdrapi",
-    "type": [
+    "types": [
       "Plante",
       "Dragon"
     ],
@@ -7626,7 +7626,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/10217.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/10217.png",
     "slug": "dratatin",
-    "type": [
+    "types": [
       "Plante",
       "Dragon"
     ],
@@ -7679,7 +7679,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/10218.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/10218.png",
     "slug": "dunaconda",
-    "type": [
+    "types": [
       "Sol"
     ],
     "stats": {
@@ -7731,7 +7731,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/10220.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/10220.png",
     "slug": "scolocendre",
-    "type": [
+    "types": [
       "Feu",
       "Insecte"
     ],
@@ -7784,7 +7784,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/10221.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/10221.png",
     "slug": "sorcilence",
-    "type": [
+    "types": [
       "Psy",
       "Fée"
     ],
@@ -7846,7 +7846,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/10223.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/10223.png",
     "slug": "charmilly",
-    "type": [
+    "types": [
       "Fée"
     ],
     "stats": {
@@ -7898,7 +7898,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/10224.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/10224.png",
     "slug": "pachyradjah",
-    "type": [
+    "types": [
       "Acier"
     ],
     "stats": {
@@ -7950,7 +7950,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/10225.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/10225.png",
     "slug": "duralugon",
-    "type": [
+    "types": [
       "Acier",
       "Dragon"
     ],
@@ -8003,7 +8003,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/10227.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/10227.png",
     "slug": "shifours-rapid-strike",
-    "type": [
+    "types": [
       "Combat",
       "Eau"
     ],
@@ -8065,7 +8065,7 @@
     "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/10226.png",
     "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/10226.png",
     "slug": "shifours-single-strike",
-    "type": [
+    "types": [
       "Combat",
       "Ténèbres"
     ],

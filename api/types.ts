@@ -470,7 +470,7 @@ export interface Dynamax {
     image:       string;
     imageShiny:  string;
     slug:        string;
-    type:        Type[];
+    types:       Type[];
     stats:       Stats;
     quickMoves:  { [key: string]: AcidSpray };
     dynamaxMove: CrushClaw[];
@@ -565,7 +565,7 @@ export interface BaseElement {
     imageId:             number;
     image:               string;
     imageShiny:          string;
-    type:                Type[];
+    types:               Type[];
     stats:               Stats;
     quickMoves:          string[];
     cinematicMoves:      string[];
@@ -599,7 +599,7 @@ export interface Mega {
     slug:        string;
     stats:       Stats;
     image:       string;
-    types:       string[];
+    types:       Type[];
     hasLevel4:   boolean;
     megaAttack?: AcidSpray;
 }
@@ -649,7 +649,7 @@ export interface PurpleBase {
     imageId:             number;
     image:               string;
     imageShiny:          string;
-    type:                Type[];
+    types:               Type[];
     stats:               Stats;
     quickMoves:          string[];
     cinematicMoves:      string[];
