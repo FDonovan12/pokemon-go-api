@@ -121,7 +121,7 @@ class PokemonSettingGeneratorService {
                         // image: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${imageId}.png`,
                         image: getImage(imageId),
                         imageShiny: getImage(imageId, true),
-                        type: [
+                        types: [
                             pokemonTypeToFrench(pokemon.data.type),
                             pokemonTypeToFrench(pokemon.data.type2 ?? ''),
                         ].compact(),

@@ -8,7 +8,7 @@ import { IntermediateData } from '#generated/intermediate.index.js';
 import { RawGameMaster } from '#generated/raw.index.js';
 import { FileGenerator, GeneratorSpeed } from '../type/fileGenerator.js';
 import { pokeApiClient } from '../utils/pokeApiClient.js';
-import { getImage } from '../utils/utils.js';
+import { getImage, pokemonTypeToFrench } from '../utils/utils.js';
 export default class PokemonSettingGenerator extends FileGenerator {
     getFileName(): string {
         return 'pokemon-setting.json';
@@ -50,7 +50,10 @@ export default class PokemonSettingGenerator extends FileGenerator {
                     const megaId = await this.getMegaId(pokemon, mega);
                     const stats = mega.stats;
                     const image = getImage(megaId);
-                    const types = [mega.typeOverride1, mega.typeOverride2].compact();
+                    const types = [
+                        pokemonTypeToFrench(mega.typeOverride1),
+                        pokemonTypeToFrench(mega.typeOverride2),
+                    ].compact();
                     const megaType =
                         mega.tempEvoId?.replace('TEMP_EVOLUTION_', '').split('_') ?? [];
                     const name =
