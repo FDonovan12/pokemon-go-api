@@ -1,57 +1,63 @@
 import { httpRetryClient } from './httpRetryClient.js';
 
 class PokeApiClient {
-    private readonly speciesCache = new Map<number, Promise<any>>();
+    private createCachedFetcher<T, K extends string | number>(
+        urlBuilder: (key: K) => string,
+    ): (key: K) => Promise<T | null> {
+        const cache = new Map<string, Promise<T | null>>();
 
-    fetchPokemonSpecies(dexNumber: number): Promise<any | null> {
-        const cached = this.speciesCache.get(dexNumber);
+        return (key: K): Promise<T | null> => {
+            const cacheKey = `${key}`;
+            const cached = cache.get(cacheKey);
+            if (cached) {
+                return cached;
+            }
 
-        if (cached) {
-            return cached;
-        }
-
-        const request = httpRetryClient.fetchJson(
-            `https://pokeapi.co/api/v2/pokemon-species/${dexNumber}`,
-        );
-
-        this.speciesCache.set(dexNumber, request);
-
-        return request;
+            const request = httpRetryClient.fetchJson<T>(urlBuilder(key));
+            cache.set(cacheKey, request);
+            return request;
+        };
     }
 
-    private readonly formCache = new Map<string, Promise<any>>();
+    fetchPokemonSpecies = this.createCachedFetcher<PokeApiPokemonSpecies, number>(
+        (dexNumber) => `https://pokeapi.co/api/v2/pokemon-species/${dexNumber}`,
+    );
 
-    fetchPokemonForm(formName: string): Promise<any | null> {
-        const cached = this.formCache.get(formName);
+    fetchPokemonForm = this.createCachedFetcher<PokeApiPokemonForm, string>(
+        (formName) => `https://pokeapi.co/api/v2/pokemon-form/${formName}`,
+    );
 
-        if (cached) {
-            return cached;
-        }
+    fetchPokemon = this.createCachedFetcher<PokeApiPokemon, string>(
+        (formName) => `https://pokeapi.co/api/v2/pokemon/${formName}`,
+    );
 
-        const request = httpRetryClient.fetchJson(
-            `https://pokeapi.co/api/v2/pokemon-form/${formName}`,
-        );
-
-        this.formCache.set(formName, request);
-
-        return request;
-    }
-
-    private readonly cache = new Map<string, Promise<any>>();
-
-    fetchPokemon(formName: string): Promise<any | null> {
-        const cached = this.cache.get(formName);
-
-        if (cached) {
-            return cached;
-        }
-
-        const request = httpRetryClient.fetchJson(`https://pokeapi.co/api/v2/pokemon/${formName}`);
-
-        this.cache.set(formName, request);
-
-        return request;
-    }
+    fetchMove = this.createCachedFetcher<PokeApiMove, string>(
+        (moveName) => `https://pokeapi.co/api/v2/move/${moveName}`,
+    );
+}
+interface PokeApiMove {
+    names: { language: { name: string }; name: string }[];
 }
 
+export interface PokeApiPokemon {
+    id: number;
+}
+
+export interface PokeApiPokemonForm {
+    names: { name: string; language: { name: string } }[];
+}
+
+export interface PokeApiPokemonSpecies {
+    names: { name: string; language: { name: string } }[];
+    varieties: {
+        pokemon: {
+            name: string;
+            url: string;
+        };
+    }[];
+    generation: {
+        name: string;
+        url: string;
+    };
+}
 export const pokeApiClient = new PokeApiClient();

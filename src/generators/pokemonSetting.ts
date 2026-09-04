@@ -28,12 +28,13 @@ export default class PokemonSettingGenerator extends FileGenerator {
         const name = pokemon.base.pokemonId;
         const data = await pokeApiClient.fetchPokemonSpecies(dexNumber);
         const evotype = tempEvo.tempEvoId?.replace('TEMP_EVOLUTION_', '') ?? 'non-defini';
+        if (!data) return dexNumber;
         const variety = data.varieties.filter(
             (variety: any) =>
                 variety.pokemon.name.slugifyIncludes(evotype) &&
                 variety.pokemon.name.slugifyIncludes(name.kebabCase()),
         );
-        return +variety[0]?.pokemon.url.split('/')?.filter(Boolean)?.last() || dexNumber;
+        return +(variety[0]?.pokemon.url.split('/')?.filter(Boolean)?.last() || dexNumber);
     }
 
     private async buildMega(pokemon: PokemonSetting) {
