@@ -194,7 +194,14 @@ class PokemonSettingGeneratorService {
             const alternateGroups = [];
             let remainingForms = mainGroup.different;
             while (remainingForms.length > 0) {
-                const currentGroup = this.extractBaseSameDifferentForm(remainingForms, 0);
+                const isCorsolaGalarGroup = remainingForms[0].pokemonId.slugifyIncludes('corsola');
+                const indexToCheck = isCorsolaGalarGroup
+                    ? (remainingForms.findIndex((form) => form.form.slugifyIncludes('GALAR')) ?? 0)
+                    : 0;
+                const currentGroup = this.extractBaseSameDifferentForm(
+                    remainingForms,
+                    indexToCheck,
+                );
 
                 alternateGroups.push({
                     base: currentGroup.base,
