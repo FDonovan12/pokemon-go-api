@@ -100,6 +100,16 @@
     }
   },
   {
+    "templateId": "SPAWN_V0004_POKEMON_CHARMANDER_GOGGLES_2026",
+    "data": {
+      "pokemon": "CHARMANDER",
+      "gender": {
+        "malePercent": 0.875,
+        "femalePercent": 0.125
+      }
+    }
+  },
+  {
     "templateId": "SPAWN_V0004_POKEMON_CHARMANDER_NORMAL",
     "data": {
       "pokemon": "CHARMANDER",
@@ -111,6 +121,16 @@
   },
   {
     "templateId": "SPAWN_V0005_POKEMON_CHARMELEON",
+    "data": {
+      "pokemon": "CHARMELEON",
+      "gender": {
+        "malePercent": 0.875,
+        "femalePercent": 0.125
+      }
+    }
+  },
+  {
+    "templateId": "SPAWN_V0005_POKEMON_CHARMELEON_GOGGLES_2026",
     "data": {
       "pokemon": "CHARMELEON",
       "gender": {
@@ -141,6 +161,16 @@
   },
   {
     "templateId": "SPAWN_V0006_POKEMON_CHARIZARD_COPY_2019",
+    "data": {
+      "pokemon": "CHARIZARD",
+      "gender": {
+        "malePercent": 0.875,
+        "femalePercent": 0.125
+      }
+    }
+  },
+  {
+    "templateId": "SPAWN_V0006_POKEMON_CHARIZARD_GOGGLES_2026",
     "data": {
       "pokemon": "CHARIZARD",
       "gender": {

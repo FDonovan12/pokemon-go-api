@@ -276,21 +276,6 @@ export interface PokemonWithExcludedForm {
     excludedForms: string[];
 }
 
-export interface CodeGateProto {
-    templateId: string;
-    data:       CodeGateProtoData;
-}
-
-export interface CodeGateProtoData {
-    isEnabled:        boolean;
-    subCodeGateList?: SubCodeGateList;
-}
-
-export interface SubCodeGateList {
-    name:      string;
-    isEnabled: boolean;
-}
-
 export interface ArTelemetrySettings {
     templateId: string;
     data:       ArTelemetrySettingData;
@@ -1190,6 +1175,21 @@ export interface Buffs {
     attackerAttackStatStageChange?:  number;
     targetAttackStatStageChange?:    number;
     attackerDefenseStatStageChange?: number;
+}
+
+export interface CodeGateProto {
+    templateId: string;
+    data:       CodeGateProtoData;
+}
+
+export interface CodeGateProtoData {
+    isEnabled:        boolean;
+    subCodeGateList?: SubCodeGateList;
+}
+
+export interface SubCodeGateList {
+    name:      string;
+    isEnabled: boolean;
 }
 
 export interface ContestSettings {
@@ -2479,9 +2479,9 @@ export interface Effects {
     differentTypeAttackBoost:         number;
     sameTypeAttackBoost:              number;
     sameTypeExtraCatchCandy:          number;
+    selfCpBoostAdditionalLevel?:      number;
     sameTypeExtraCatchXp?:            number;
     sameTypeExtraCatchCandyXlChance?: number;
-    selfCpBoostAdditionalLevel?:      number;
 }
 
 export interface Progression {
@@ -3259,7 +3259,6 @@ export interface RaidSettingData {
     friendRequestsEnabled:                 boolean;
     remoteRaidDistanceValidation:          boolean;
     popupTimeMs:                           number;
-    failedFriendInviteInfoEnabled:         boolean;
     minPlayersToBoot:                      number;
     bootCutoffMs:                          number;
     bootSoloMs:                            number;
@@ -3372,7 +3371,6 @@ export interface SquashSettings {
 }
 
 export interface SquashSettingData {
-    enabled:          boolean;
     dailySquashLimit: number;
 }
 
@@ -4240,7 +4238,6 @@ export interface VerboseLogCombatSettings {
 }
 
 export interface VerboseLogCombatSettingData {
-    enabled:                    boolean;
     enableCoreCombat:           boolean;
     enableCombatChallengeSetup: boolean;
     enableCombatVsSeekerSetup:  boolean;

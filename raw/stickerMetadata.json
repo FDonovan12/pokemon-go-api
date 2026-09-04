@@ -2960,6 +2960,18 @@
     }
   },
   {
+    "templateId": "STICKER_HANBOK_PIKACHU",
+    "data": {
+      "stickerId": "STICKER_HANBOK_PIKACHU",
+      "maxCount": 25,
+      "pokemonId": "PIKACHU",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20260903
+    }
+  },
+  {
     "templateId": "STICKER_HARU_CHERRIM",
     "data": {
       "stickerId": "STICKER_HARU_CHERRIM",

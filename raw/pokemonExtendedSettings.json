@@ -359,6 +359,21 @@
     }
   },
   {
+    "templateId": "EXTENDED_V0004_POKEMON_CHARMANDER_GOGGLES_2026",
+    "data": {
+      "uniqueId": "CHARMANDER",
+      "form": "CHARMANDER_GOGGLES_2026",
+      "sizeSettings": {
+        "xxsLowerBound": 0.294,
+        "xsLowerBound": 0.3,
+        "mLowerBound": 0.45,
+        "mUpperBound": 0.75,
+        "xlUpperBound": 0.9,
+        "xxlUpperBound": 1.05
+      }
+    }
+  },
+  {
     "templateId": "EXTENDED_V0004_POKEMON_CHARMANDER_NORMAL",
     "data": {
       "uniqueId": "CHARMANDER",
@@ -423,6 +438,21 @@
           }
         }
       ]
+    }
+  },
+  {
+    "templateId": "EXTENDED_V0005_POKEMON_CHARMELEON_GOGGLES_2026",
+    "data": {
+      "uniqueId": "CHARMELEON",
+      "form": "CHARMELEON_GOGGLES_2026",
+      "sizeSettings": {
+        "xxsLowerBound": 0.539,
+        "xsLowerBound": 0.55,
+        "mLowerBound": 0.825,
+        "mUpperBound": 1.375,
+        "xlUpperBound": 1.65,
+        "xxlUpperBound": 1.925
+      }
     }
   },
   {
@@ -542,6 +572,21 @@
     "data": {
       "uniqueId": "CHARIZARD",
       "form": "CHARIZARD_COPY_2019",
+      "sizeSettings": {
+        "xxsLowerBound": 0.833,
+        "xsLowerBound": 0.85,
+        "mLowerBound": 1.275,
+        "mUpperBound": 2.125,
+        "xlUpperBound": 2.55,
+        "xxlUpperBound": 2.975
+      }
+    }
+  },
+  {
+    "templateId": "EXTENDED_V0006_POKEMON_CHARIZARD_GOGGLES_2026",
+    "data": {
+      "uniqueId": "CHARIZARD",
+      "form": "CHARIZARD_GOGGLES_2026",
       "sizeSettings": {
         "xxsLowerBound": 0.833,
         "xsLowerBound": 0.85,

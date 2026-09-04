@@ -1771,6 +1771,15 @@
     }
   },
   {
+    "templateId": "LC_SPECIALBACKGROUND_S24_SEP_2026",
+    "data": {
+      "locationCard": 349,
+      "imageUrl": "sb_s24_sep_2026",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_Horizons_2026"
+    }
+  },
+  {
     "templateId": "LC_SPECIALBACKGROUND_TEAM_BLUE",
     "data": {
       "locationCard": "LC_SPECIALBACKGROUND_TEAM_BLUE",

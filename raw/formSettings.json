@@ -53,6 +53,9 @@
           "form": "CHARMANDER_FALL_2019",
           "assetBundleSuffix": "pm0004_00_pgo_fall2019",
           "isCostume": true
+        },
+        {
+          "form": "CHARMANDER_GOGGLES_2026"
         }
       ]
     }
@@ -64,6 +67,9 @@
       "forms": [
         {
           "form": "CHARMELEON_NORMAL"
+        },
+        {
+          "form": "CHARMELEON_GOGGLES_2026"
         }
       ]
     }
@@ -79,6 +85,9 @@
         {
           "form": "CHARIZARD_COPY_2019",
           "assetBundleSuffix": "pm0006_00_pgo_copy2019"
+        },
+        {
+          "form": "CHARIZARD_GOGGLES_2026"
         }
       ]
     }

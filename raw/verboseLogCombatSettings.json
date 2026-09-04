@@ -2,7 +2,6 @@
   {
     "templateId": "VERBOSE_LOG_COMBAT_SETTINGS",
     "data": {
-      "enabled": true,
       "enableCoreCombat": true,
       "enableCombatChallengeSetup": true,
       "enableCombatVsSeekerSetup": true,

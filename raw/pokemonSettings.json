@@ -1197,6 +1197,121 @@
     }
   },
   {
+    "templateId": "V0004_POKEMON_CHARMANDER_GOGGLES_2026",
+    "data": {
+      "pokemonId": "CHARMANDER",
+      "modelScale": 1.25,
+      "type": "POKEMON_TYPE_FIRE",
+      "camera": {
+        "diskRadiusM": 0.4688,
+        "cylinderRadiusM": 0.3125,
+        "cylinderHeightM": 0.65,
+        "shoulderModeScale": 0.5
+      },
+      "encounter": {
+        "collisionRadiusM": 0.15625,
+        "collisionHeightM": 0.46875,
+        "collisionHeadRadiusM": 0.15625,
+        "movementType": "MOVEMENT_JUMP",
+        "movementTimerS": 29,
+        "jumpTimeS": 1.25,
+        "attackTimerS": 10,
+        "attackProbability": 0.1,
+        "dodgeProbability": 0.15,
+        "dodgeDurationS": 1,
+        "dodgeDistance": 1,
+        "cameraDistance": 2.8125,
+        "minPokemonActionFrequencyS": 0.2,
+        "maxPokemonActionFrequencyS": 1.6,
+        "shadowBaseCaptureRate": 0.2,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
+      },
+      "stats": {
+        "baseStamina": 118,
+        "baseAttack": 116,
+        "baseDefense": 93
+      },
+      "quickMoves": [
+        "EMBER_FAST",
+        "SCRATCH_FAST"
+      ],
+      "cinematicMoves": [
+        "FLAME_CHARGE",
+        "FLAME_BURST",
+        "FLAMETHROWER"
+      ],
+      "animationTime": [
+        2.1333,
+        0.6667,
+        1.6667,
+        1.8333,
+        0,
+        2.1333,
+        1.1667,
+        1.333333
+      ],
+      "evolutionPips": 1,
+      "pokedexHeightM": 0.6,
+      "pokedexWeightKg": 8.5,
+      "heightStdDev": 0.075,
+      "weightStdDev": 1.0625,
+      "familyId": "FAMILY_CHARMANDER",
+      "kmBuddyDistance": 3,
+      "modelHeight": 0.6,
+      "evolutionBranch": [
+        {
+          "evolution": "CHARMELEON",
+          "candyCost": 25,
+          "form": "CHARMELEON_GOGGLES_2026",
+          "candyCostPurified": 22
+        }
+      ],
+      "modelScaleV2": 1,
+      "form": "CHARMANDER_GOGGLES_2026",
+      "buddyOffsetMale": [
+        0,
+        0,
+        0
+      ],
+      "buddyOffsetFemale": [
+        0,
+        0,
+        0
+      ],
+      "buddyScale": 19,
+      "thirdMove": {
+        "stardustToUnlock": 10000,
+        "candyToUnlock": 25
+      },
+      "isTransferable": true,
+      "isDeployable": true,
+      "isTradable": true,
+      "shadow": {
+        "purificationStardustNeeded": 3000,
+        "purificationCandyNeeded": 3,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
+      "buddyGroupNumber": 2,
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "CHARIZARD",
+          "megaEnergyAwardAmount": 15,
+          "tempEvoId": "TEMP_EVOLUTION_MEGA_X"
+        },
+        {
+          "megaPokemonId": "CHARIZARD",
+          "megaEnergyAwardAmount": 15,
+          "tempEvoId": "TEMP_EVOLUTION_MEGA_Y"
+        }
+      ],
+      "disableTransferToPokemonHome": true,
+      "ibfc": {},
+      "breadTierGroup": "GROUP_1"
+    }
+  },
+  {
     "templateId": "V0004_POKEMON_CHARMANDER_NORMAL",
     "data": {
       "pokemonId": "CHARMANDER",
@@ -1442,6 +1557,132 @@
         "JAN_2020_NOEVOLVE",
         "SPRING_2020_NOEVOLVE"
       ],
+      "ibfc": {},
+      "breadTierGroup": "GROUP_1"
+    }
+  },
+  {
+    "templateId": "V0005_POKEMON_CHARMELEON_GOGGLES_2026",
+    "data": {
+      "pokemonId": "CHARMELEON",
+      "modelScale": 1.03,
+      "type": "POKEMON_TYPE_FIRE",
+      "camera": {
+        "diskRadiusM": 0.6953,
+        "cylinderRadiusM": 0.4635,
+        "cylinderHeightM": 1.133,
+        "shoulderModeScale": 0.5
+      },
+      "encounter": {
+        "collisionRadiusM": 0.2575,
+        "collisionHeightM": 0.7725,
+        "collisionHeadRadiusM": 0.23175,
+        "movementType": "MOVEMENT_JUMP",
+        "movementTimerS": 23,
+        "jumpTimeS": 1,
+        "attackTimerS": 8,
+        "bonusCandyCaptureReward": 2,
+        "bonusStardustCaptureReward": 200,
+        "attackProbability": 0.1,
+        "dodgeProbability": 0.15,
+        "dodgeDurationS": 1,
+        "dodgeDistance": 1,
+        "cameraDistance": 4.24875,
+        "minPokemonActionFrequencyS": 0.2,
+        "maxPokemonActionFrequencyS": 1.6,
+        "bonusXlCandyCaptureReward": 1,
+        "shadowBaseCaptureRate": 0.1,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
+      },
+      "stats": {
+        "baseStamina": 151,
+        "baseAttack": 158,
+        "baseDefense": 126
+      },
+      "quickMoves": [
+        "EMBER_FAST",
+        "FIRE_FANG_FAST"
+      ],
+      "cinematicMoves": [
+        "FIRE_PUNCH",
+        "FLAME_BURST",
+        "FLAMETHROWER"
+      ],
+      "animationTime": [
+        1.8667,
+        0.6667,
+        1.8333,
+        1.5,
+        6.666667,
+        2.3333,
+        2,
+        2.533334
+      ],
+      "evolutionIds": [
+        "CHARIZARD"
+      ],
+      "evolutionPips": 1,
+      "pokedexHeightM": 1.1,
+      "pokedexWeightKg": 19,
+      "parentPokemonId": "CHARMANDER",
+      "heightStdDev": 0.1375,
+      "weightStdDev": 2.375,
+      "familyId": "FAMILY_CHARMANDER",
+      "candyToEvolve": 100,
+      "kmBuddyDistance": 3,
+      "modelHeight": 1.03,
+      "evolutionBranch": [
+        {
+          "evolution": "CHARIZARD",
+          "candyCost": 100,
+          "form": "CHARIZARD_GOGGLES_2026",
+          "candyCostPurified": 90
+        }
+      ],
+      "modelScaleV2": 1.07,
+      "form": "CHARMELEON_GOGGLES_2026",
+      "buddyOffsetMale": [
+        8.8,
+        0,
+        0.3
+      ],
+      "buddyOffsetFemale": [
+        8.8,
+        0,
+        0.3
+      ],
+      "buddyScale": 19,
+      "thirdMove": {
+        "stardustToUnlock": 10000,
+        "candyToUnlock": 25
+      },
+      "isTransferable": true,
+      "isDeployable": true,
+      "isTradable": true,
+      "shadow": {
+        "purificationStardustNeeded": 3000,
+        "purificationCandyNeeded": 3,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
+      "buddyGroupNumber": 2,
+      "eliteQuickMove": [
+        "SCRATCH_FAST"
+      ],
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "CHARIZARD",
+          "megaEnergyAwardAmount": 15,
+          "tempEvoId": "TEMP_EVOLUTION_MEGA_X"
+        },
+        {
+          "megaPokemonId": "CHARIZARD",
+          "megaEnergyAwardAmount": 15,
+          "tempEvoId": "TEMP_EVOLUTION_MEGA_Y"
+        }
+      ],
+      "disableTransferToPokemonHome": true,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
     }
@@ -1867,6 +2108,170 @@
       "eliteCinematicMove": [
         "BLAST_BURN",
         "FLAMETHROWER"
+      ],
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "CHARIZARD",
+          "megaEnergyAwardAmount": 15,
+          "tempEvoId": "TEMP_EVOLUTION_MEGA_X"
+        },
+        {
+          "megaPokemonId": "CHARIZARD",
+          "megaEnergyAwardAmount": 15,
+          "tempEvoId": "TEMP_EVOLUTION_MEGA_Y"
+        }
+      ],
+      "disableTransferToPokemonHome": true,
+      "useIrisFlyingPlacement": true,
+      "irisPhotoEmote1": "PhysicalAttack",
+      "ibfc": {},
+      "breadTierGroup": "GROUP_1"
+    }
+  },
+  {
+    "templateId": "V0006_POKEMON_CHARIZARD_GOGGLES_2026",
+    "data": {
+      "pokemonId": "CHARIZARD",
+      "modelScale": 0.81,
+      "type": "POKEMON_TYPE_FIRE",
+      "type2": "POKEMON_TYPE_FLYING",
+      "camera": {
+        "diskRadiusM": 1.215,
+        "cylinderRadiusM": 1.25,
+        "cylinderHeightM": 1.5,
+        "cylinderGroundM": 0.5,
+        "shoulderModeScale": 0.5
+      },
+      "encounter": {
+        "collisionRadiusM": 0.405,
+        "collisionHeightM": 1.0125,
+        "collisionHeadRadiusM": 0.2025,
+        "movementType": "MOVEMENT_FLYING",
+        "movementTimerS": 11,
+        "jumpTimeS": 1,
+        "attackTimerS": 4,
+        "bonusCandyCaptureReward": 7,
+        "bonusStardustCaptureReward": 400,
+        "attackProbability": 0.2,
+        "dodgeProbability": 0.15,
+        "dodgeDurationS": 0.7,
+        "dodgeDistance": 1,
+        "cameraDistance": 5,
+        "minPokemonActionFrequencyS": 0.2,
+        "maxPokemonActionFrequencyS": 1.6,
+        "bonusXlCandyCaptureReward": 2,
+        "shadowBaseCaptureRate": 0.05,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
+      },
+      "stats": {
+        "baseStamina": 186,
+        "baseAttack": 223,
+        "baseDefense": 173
+      },
+      "quickMoves": [
+        "FIRE_SPIN_FAST",
+        "AIR_SLASH_FAST"
+      ],
+      "cinematicMoves": [
+        "FIRE_BLAST",
+        "DRAGON_CLAW",
+        "OVERHEAT",
+        "AIR_CUTTER"
+      ],
+      "animationTime": [
+        2.2,
+        0.6667,
+        1.6667,
+        0.8667,
+        6.666667,
+        2,
+        1.6,
+        2
+      ],
+      "evolutionPips": 1,
+      "pokedexHeightM": 1.7,
+      "pokedexWeightKg": 90.5,
+      "parentPokemonId": "CHARMELEON",
+      "heightStdDev": 0.2125,
+      "weightStdDev": 11.3125,
+      "familyId": "FAMILY_CHARMANDER",
+      "kmBuddyDistance": 3,
+      "buddySize": "BUDDY_BIG",
+      "modelHeight": 1.91,
+      "evolutionBranch": [
+        {
+          "temporaryEvolution": "TEMP_EVOLUTION_MEGA_X",
+          "temporaryEvolutionEnergyCost": 200,
+          "temporaryEvolutionEnergyCostSubsequent": 40
+        },
+        {
+          "temporaryEvolution": "TEMP_EVOLUTION_MEGA_Y",
+          "temporaryEvolutionEnergyCost": 200,
+          "temporaryEvolutionEnergyCostSubsequent": 40
+        }
+      ],
+      "modelScaleV2": 1.1,
+      "form": "CHARIZARD_GOGGLES_2026",
+      "buddyOffsetMale": [
+        1.8,
+        -11.4,
+        36.04
+      ],
+      "buddyOffsetFemale": [
+        1.9,
+        -11.4,
+        36.04
+      ],
+      "buddyScale": 19,
+      "thirdMove": {
+        "stardustToUnlock": 10000,
+        "candyToUnlock": 25
+      },
+      "isTransferable": true,
+      "isDeployable": true,
+      "isTradable": true,
+      "shadow": {
+        "purificationStardustNeeded": 3000,
+        "purificationCandyNeeded": 3,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
+      "buddyGroupNumber": 3,
+      "eliteQuickMove": [
+        "EMBER_FAST",
+        "WING_ATTACK_FAST",
+        "DRAGON_BREATH_FAST"
+      ],
+      "eliteCinematicMove": [
+        "BLAST_BURN",
+        "FLAMETHROWER"
+      ],
+      "tempEvoOverrides": [
+        {
+          "tempEvoId": "TEMP_EVOLUTION_MEGA_X",
+          "stats": {
+            "baseStamina": 186,
+            "baseAttack": 273,
+            "baseDefense": 213
+          },
+          "averageHeightM": 1.7,
+          "averageWeightKg": 110.5,
+          "typeOverride1": "POKEMON_TYPE_FIRE",
+          "typeOverride2": "POKEMON_TYPE_DRAGON"
+        },
+        {
+          "tempEvoId": "TEMP_EVOLUTION_MEGA_Y",
+          "stats": {
+            "baseStamina": 186,
+            "baseAttack": 319,
+            "baseDefense": 212
+          },
+          "averageHeightM": 1.7,
+          "averageWeightKg": 100.5,
+          "typeOverride1": "POKEMON_TYPE_FIRE",
+          "typeOverride2": "POKEMON_TYPE_FLYING"
+        }
       ],
       "buddyWalkedMegaEnergyAwards": [
         {
@@ -11920,7 +12325,6 @@
       "heightStdDev": 0.05,
       "weightStdDev": 0.75,
       "familyId": "FAMILY_PIKACHU",
-      "candyToEvolve": 50,
       "kmBuddyDistance": 1,
       "buddySize": "BUDDY_SHOULDER",
       "modelHeight": 0.4,

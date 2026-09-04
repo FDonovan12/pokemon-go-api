@@ -1,11 +1,5 @@
 [
   {
-    "templateId": "AR_PHOTO_MULTIPLE_CONCURRENT_CAMPAIGN_CODE_GATE",
-    "data": {
-      "isEnabled": true
-    }
-  },
-  {
     "templateId": "COMBAT_VNEXT_CODE_GATE",
     "data": {
       "isEnabled": true,

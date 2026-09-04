@@ -675,7 +675,8 @@
       "effects": {
         "differentTypeAttackBoost": 1.1,
         "sameTypeAttackBoost": 1.3,
-        "sameTypeExtraCatchCandy": 1
+        "sameTypeExtraCatchCandy": 1,
+        "selfCpBoostAdditionalLevel": 2
       }
     }
   },
@@ -697,7 +698,8 @@
       "effects": {
         "differentTypeAttackBoost": 1.1,
         "sameTypeAttackBoost": 1.3,
-        "sameTypeExtraCatchCandy": 1
+        "sameTypeExtraCatchCandy": 1,
+        "selfCpBoostAdditionalLevel": 2
       }
     }
   },
@@ -719,7 +721,8 @@
       "effects": {
         "differentTypeAttackBoost": 1.1,
         "sameTypeAttackBoost": 1.3,
-        "sameTypeExtraCatchCandy": 1
+        "sameTypeExtraCatchCandy": 1,
+        "selfCpBoostAdditionalLevel": 2
       }
     }
   },
@@ -741,7 +744,8 @@
       "effects": {
         "differentTypeAttackBoost": 1.1,
         "sameTypeAttackBoost": 1.3,
-        "sameTypeExtraCatchCandy": 1
+        "sameTypeExtraCatchCandy": 1,
+        "selfCpBoostAdditionalLevel": 2
       }
     }
   },
@@ -763,7 +767,8 @@
       "effects": {
         "differentTypeAttackBoost": 1.1,
         "sameTypeAttackBoost": 1.3,
-        "sameTypeExtraCatchCandy": 1
+        "sameTypeExtraCatchCandy": 1,
+        "selfCpBoostAdditionalLevel": 2
       }
     }
   },
@@ -785,7 +790,8 @@
       "effects": {
         "differentTypeAttackBoost": 1.1,
         "sameTypeAttackBoost": 1.3,
-        "sameTypeExtraCatchCandy": 1
+        "sameTypeExtraCatchCandy": 1,
+        "selfCpBoostAdditionalLevel": 2
       }
     }
   },
@@ -807,7 +813,8 @@
       "effects": {
         "differentTypeAttackBoost": 1.1,
         "sameTypeAttackBoost": 1.3,
-        "sameTypeExtraCatchCandy": 1
+        "sameTypeExtraCatchCandy": 1,
+        "selfCpBoostAdditionalLevel": 2
       }
     }
   },
@@ -829,7 +836,8 @@
       "effects": {
         "differentTypeAttackBoost": 1.1,
         "sameTypeAttackBoost": 1.3,
-        "sameTypeExtraCatchCandy": 1
+        "sameTypeExtraCatchCandy": 1,
+        "selfCpBoostAdditionalLevel": 2
       }
     }
   },
@@ -851,7 +859,8 @@
       "effects": {
         "differentTypeAttackBoost": 1.1,
         "sameTypeAttackBoost": 1.3,
-        "sameTypeExtraCatchCandy": 1
+        "sameTypeExtraCatchCandy": 1,
+        "selfCpBoostAdditionalLevel": 2
       }
     }
   },
@@ -873,7 +882,8 @@
       "effects": {
         "differentTypeAttackBoost": 1.1,
         "sameTypeAttackBoost": 1.3,
-        "sameTypeExtraCatchCandy": 1
+        "sameTypeExtraCatchCandy": 1,
+        "selfCpBoostAdditionalLevel": 2
       }
     }
   },
@@ -895,7 +905,8 @@
       "effects": {
         "differentTypeAttackBoost": 1.1,
         "sameTypeAttackBoost": 1.3,
-        "sameTypeExtraCatchCandy": 1
+        "sameTypeExtraCatchCandy": 1,
+        "selfCpBoostAdditionalLevel": 2
       }
     }
   },
@@ -917,7 +928,8 @@
       "effects": {
         "differentTypeAttackBoost": 1.1,
         "sameTypeAttackBoost": 1.3,
-        "sameTypeExtraCatchCandy": 1
+        "sameTypeExtraCatchCandy": 1,
+        "selfCpBoostAdditionalLevel": 2
       }
     }
   },
@@ -939,7 +951,8 @@
       "effects": {
         "differentTypeAttackBoost": 1.1,
         "sameTypeAttackBoost": 1.3,
-        "sameTypeExtraCatchCandy": 1
+        "sameTypeExtraCatchCandy": 1,
+        "selfCpBoostAdditionalLevel": 2
       }
     }
   },
@@ -961,7 +974,8 @@
       "effects": {
         "differentTypeAttackBoost": 1.1,
         "sameTypeAttackBoost": 1.3,
-        "sameTypeExtraCatchCandy": 1
+        "sameTypeExtraCatchCandy": 1,
+        "selfCpBoostAdditionalLevel": 2
       }
     }
   },
@@ -983,7 +997,8 @@
       "effects": {
         "differentTypeAttackBoost": 1.1,
         "sameTypeAttackBoost": 1.3,
-        "sameTypeExtraCatchCandy": 1
+        "sameTypeExtraCatchCandy": 1,
+        "selfCpBoostAdditionalLevel": 2
       }
     }
   },
@@ -1005,7 +1020,8 @@
       "effects": {
         "differentTypeAttackBoost": 1.1,
         "sameTypeAttackBoost": 1.3,
-        "sameTypeExtraCatchCandy": 1
+        "sameTypeExtraCatchCandy": 1,
+        "selfCpBoostAdditionalLevel": 2
       }
     }
   },
@@ -1027,7 +1043,8 @@
       "effects": {
         "differentTypeAttackBoost": 1.1,
         "sameTypeAttackBoost": 1.3,
-        "sameTypeExtraCatchCandy": 1
+        "sameTypeExtraCatchCandy": 1,
+        "selfCpBoostAdditionalLevel": 2
       }
     }
   },
@@ -1049,7 +1066,8 @@
       "effects": {
         "differentTypeAttackBoost": 1.1,
         "sameTypeAttackBoost": 1.3,
-        "sameTypeExtraCatchCandy": 1
+        "sameTypeExtraCatchCandy": 1,
+        "selfCpBoostAdditionalLevel": 2
       }
     }
   },
@@ -1071,7 +1089,8 @@
       "effects": {
         "differentTypeAttackBoost": 1.1,
         "sameTypeAttackBoost": 1.3,
-        "sameTypeExtraCatchCandy": 1
+        "sameTypeExtraCatchCandy": 1,
+        "selfCpBoostAdditionalLevel": 2
       }
     }
   },
@@ -1093,7 +1112,8 @@
       "effects": {
         "differentTypeAttackBoost": 1.1,
         "sameTypeAttackBoost": 1.3,
-        "sameTypeExtraCatchCandy": 1
+        "sameTypeExtraCatchCandy": 1,
+        "selfCpBoostAdditionalLevel": 2
       }
     }
   },
@@ -1115,7 +1135,8 @@
       "effects": {
         "differentTypeAttackBoost": 1.1,
         "sameTypeAttackBoost": 1.3,
-        "sameTypeExtraCatchCandy": 1
+        "sameTypeExtraCatchCandy": 1,
+        "selfCpBoostAdditionalLevel": 2
       }
     }
   },
@@ -1137,7 +1158,8 @@
       "effects": {
         "differentTypeAttackBoost": 1.1,
         "sameTypeAttackBoost": 1.3,
-        "sameTypeExtraCatchCandy": 1
+        "sameTypeExtraCatchCandy": 1,
+        "selfCpBoostAdditionalLevel": 2
       }
     }
   },
@@ -1159,7 +1181,8 @@
       "effects": {
         "differentTypeAttackBoost": 1.1,
         "sameTypeAttackBoost": 1.3,
-        "sameTypeExtraCatchCandy": 1
+        "sameTypeExtraCatchCandy": 1,
+        "selfCpBoostAdditionalLevel": 2
       }
     }
   },
@@ -1181,7 +1204,8 @@
       "effects": {
         "differentTypeAttackBoost": 1.1,
         "sameTypeAttackBoost": 1.3,
-        "sameTypeExtraCatchCandy": 1
+        "sameTypeExtraCatchCandy": 1,
+        "selfCpBoostAdditionalLevel": 2
       }
     }
   },
@@ -1203,7 +1227,8 @@
       "effects": {
         "differentTypeAttackBoost": 1.1,
         "sameTypeAttackBoost": 1.3,
-        "sameTypeExtraCatchCandy": 1
+        "sameTypeExtraCatchCandy": 1,
+        "selfCpBoostAdditionalLevel": 2
       }
     }
   },
@@ -1247,7 +1272,8 @@
       "effects": {
         "differentTypeAttackBoost": 1.1,
         "sameTypeAttackBoost": 1.3,
-        "sameTypeExtraCatchCandy": 1
+        "sameTypeExtraCatchCandy": 1,
+        "selfCpBoostAdditionalLevel": 2
       }
     }
   },
@@ -1269,7 +1295,8 @@
       "effects": {
         "differentTypeAttackBoost": 1.1,
         "sameTypeAttackBoost": 1.3,
-        "sameTypeExtraCatchCandy": 1
+        "sameTypeExtraCatchCandy": 1,
+        "selfCpBoostAdditionalLevel": 2
       }
     }
   },
@@ -1291,7 +1318,8 @@
       "effects": {
         "differentTypeAttackBoost": 1.1,
         "sameTypeAttackBoost": 1.3,
-        "sameTypeExtraCatchCandy": 1
+        "sameTypeExtraCatchCandy": 1,
+        "selfCpBoostAdditionalLevel": 2
       }
     }
   },
@@ -1313,7 +1341,8 @@
       "effects": {
         "differentTypeAttackBoost": 1.1,
         "sameTypeAttackBoost": 1.3,
-        "sameTypeExtraCatchCandy": 1
+        "sameTypeExtraCatchCandy": 1,
+        "selfCpBoostAdditionalLevel": 2
       }
     }
   },
@@ -1335,7 +1364,8 @@
       "effects": {
         "differentTypeAttackBoost": 1.1,
         "sameTypeAttackBoost": 1.3,
-        "sameTypeExtraCatchCandy": 1
+        "sameTypeExtraCatchCandy": 1,
+        "selfCpBoostAdditionalLevel": 2
       }
     }
   },
@@ -1357,7 +1387,8 @@
       "effects": {
         "differentTypeAttackBoost": 1.1,
         "sameTypeAttackBoost": 1.3,
-        "sameTypeExtraCatchCandy": 1
+        "sameTypeExtraCatchCandy": 1,
+        "selfCpBoostAdditionalLevel": 2
       }
     }
   },
@@ -1379,7 +1410,8 @@
       "effects": {
         "differentTypeAttackBoost": 1.1,
         "sameTypeAttackBoost": 1.3,
-        "sameTypeExtraCatchCandy": 1
+        "sameTypeExtraCatchCandy": 1,
+        "selfCpBoostAdditionalLevel": 2
       }
     }
   },
@@ -1402,7 +1434,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 1,
         "sameTypeExtraCatchXp": 50,
-        "sameTypeExtraCatchCandyXlChance": 0.1
+        "sameTypeExtraCatchCandyXlChance": 0.1,
+        "selfCpBoostAdditionalLevel": 4
       },
       "megaEnergyCostPerPoint": 80
     }
@@ -1427,7 +1460,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 1,
         "sameTypeExtraCatchXp": 50,
-        "sameTypeExtraCatchCandyXlChance": 0.1
+        "sameTypeExtraCatchCandyXlChance": 0.1,
+        "selfCpBoostAdditionalLevel": 4
       },
       "megaEnergyCostPerPoint": 80
     }
@@ -1452,7 +1486,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 1,
         "sameTypeExtraCatchXp": 50,
-        "sameTypeExtraCatchCandyXlChance": 0.1
+        "sameTypeExtraCatchCandyXlChance": 0.1,
+        "selfCpBoostAdditionalLevel": 4
       },
       "megaEnergyCostPerPoint": 80
     }
@@ -1477,7 +1512,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 1,
         "sameTypeExtraCatchXp": 50,
-        "sameTypeExtraCatchCandyXlChance": 0.1
+        "sameTypeExtraCatchCandyXlChance": 0.1,
+        "selfCpBoostAdditionalLevel": 4
       },
       "megaEnergyCostPerPoint": 160
     }
@@ -1502,7 +1538,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 1,
         "sameTypeExtraCatchXp": 50,
-        "sameTypeExtraCatchCandyXlChance": 0.1
+        "sameTypeExtraCatchCandyXlChance": 0.1,
+        "selfCpBoostAdditionalLevel": 4
       },
       "megaEnergyCostPerPoint": 160
     }
@@ -1527,7 +1564,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 1,
         "sameTypeExtraCatchXp": 50,
-        "sameTypeExtraCatchCandyXlChance": 0.1
+        "sameTypeExtraCatchCandyXlChance": 0.1,
+        "selfCpBoostAdditionalLevel": 4
       },
       "megaEnergyCostPerPoint": 80
     }
@@ -1552,7 +1590,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 1,
         "sameTypeExtraCatchXp": 50,
-        "sameTypeExtraCatchCandyXlChance": 0.1
+        "sameTypeExtraCatchCandyXlChance": 0.1,
+        "selfCpBoostAdditionalLevel": 4
       },
       "megaEnergyCostPerPoint": 160
     }
@@ -1577,7 +1616,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 1,
         "sameTypeExtraCatchXp": 50,
-        "sameTypeExtraCatchCandyXlChance": 0.1
+        "sameTypeExtraCatchCandyXlChance": 0.1,
+        "selfCpBoostAdditionalLevel": 4
       },
       "megaEnergyCostPerPoint": 160
     }
@@ -1602,7 +1642,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 1,
         "sameTypeExtraCatchXp": 50,
-        "sameTypeExtraCatchCandyXlChance": 0.1
+        "sameTypeExtraCatchCandyXlChance": 0.1,
+        "selfCpBoostAdditionalLevel": 4
       },
       "megaEnergyCostPerPoint": 160
     }
@@ -1627,7 +1668,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 1,
         "sameTypeExtraCatchXp": 50,
-        "sameTypeExtraCatchCandyXlChance": 0.1
+        "sameTypeExtraCatchCandyXlChance": 0.1,
+        "selfCpBoostAdditionalLevel": 4
       },
       "megaEnergyCostPerPoint": 160
     }
@@ -1652,7 +1694,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 1,
         "sameTypeExtraCatchXp": 50,
-        "sameTypeExtraCatchCandyXlChance": 0.1
+        "sameTypeExtraCatchCandyXlChance": 0.1,
+        "selfCpBoostAdditionalLevel": 4
       },
       "megaEnergyCostPerPoint": 160
     }
@@ -1677,7 +1720,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 1,
         "sameTypeExtraCatchXp": 50,
-        "sameTypeExtraCatchCandyXlChance": 0.1
+        "sameTypeExtraCatchCandyXlChance": 0.1,
+        "selfCpBoostAdditionalLevel": 4
       },
       "megaEnergyCostPerPoint": 80
     }
@@ -1702,7 +1746,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 1,
         "sameTypeExtraCatchXp": 50,
-        "sameTypeExtraCatchCandyXlChance": 0.1
+        "sameTypeExtraCatchCandyXlChance": 0.1,
+        "selfCpBoostAdditionalLevel": 4
       },
       "megaEnergyCostPerPoint": 160
     }
@@ -1727,7 +1772,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 1,
         "sameTypeExtraCatchXp": 50,
-        "sameTypeExtraCatchCandyXlChance": 0.1
+        "sameTypeExtraCatchCandyXlChance": 0.1,
+        "selfCpBoostAdditionalLevel": 4
       },
       "megaEnergyCostPerPoint": 80
     }
@@ -1752,7 +1798,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 1,
         "sameTypeExtraCatchXp": 50,
-        "sameTypeExtraCatchCandyXlChance": 0.1
+        "sameTypeExtraCatchCandyXlChance": 0.1,
+        "selfCpBoostAdditionalLevel": 4
       },
       "megaEnergyCostPerPoint": 80
     }
@@ -1777,7 +1824,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 1,
         "sameTypeExtraCatchXp": 50,
-        "sameTypeExtraCatchCandyXlChance": 0.1
+        "sameTypeExtraCatchCandyXlChance": 0.1,
+        "selfCpBoostAdditionalLevel": 4
       },
       "megaEnergyCostPerPoint": 80
     }
@@ -1802,7 +1850,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 1,
         "sameTypeExtraCatchXp": 50,
-        "sameTypeExtraCatchCandyXlChance": 0.1
+        "sameTypeExtraCatchCandyXlChance": 0.1,
+        "selfCpBoostAdditionalLevel": 4
       },
       "megaEnergyCostPerPoint": 160
     }
@@ -1827,7 +1876,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 1,
         "sameTypeExtraCatchXp": 50,
-        "sameTypeExtraCatchCandyXlChance": 0.1
+        "sameTypeExtraCatchCandyXlChance": 0.1,
+        "selfCpBoostAdditionalLevel": 4
       },
       "megaEnergyCostPerPoint": 80
     }
@@ -1852,7 +1902,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 1,
         "sameTypeExtraCatchXp": 50,
-        "sameTypeExtraCatchCandyXlChance": 0.1
+        "sameTypeExtraCatchCandyXlChance": 0.1,
+        "selfCpBoostAdditionalLevel": 4
       },
       "megaEnergyCostPerPoint": 160
     }
@@ -1877,7 +1928,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 1,
         "sameTypeExtraCatchXp": 50,
-        "sameTypeExtraCatchCandyXlChance": 0.1
+        "sameTypeExtraCatchCandyXlChance": 0.1,
+        "selfCpBoostAdditionalLevel": 4
       },
       "megaEnergyCostPerPoint": 160
     }
@@ -1902,7 +1954,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 1,
         "sameTypeExtraCatchXp": 50,
-        "sameTypeExtraCatchCandyXlChance": 0.1
+        "sameTypeExtraCatchCandyXlChance": 0.1,
+        "selfCpBoostAdditionalLevel": 4
       },
       "megaEnergyCostPerPoint": 160
     }
@@ -1927,7 +1980,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 1,
         "sameTypeExtraCatchXp": 50,
-        "sameTypeExtraCatchCandyXlChance": 0.1
+        "sameTypeExtraCatchCandyXlChance": 0.1,
+        "selfCpBoostAdditionalLevel": 4
       },
       "megaEnergyCostPerPoint": 160
     }
@@ -1952,7 +2006,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 1,
         "sameTypeExtraCatchXp": 50,
-        "sameTypeExtraCatchCandyXlChance": 0.1
+        "sameTypeExtraCatchCandyXlChance": 0.1,
+        "selfCpBoostAdditionalLevel": 4
       },
       "megaEnergyCostPerPoint": 160
     }
@@ -1977,7 +2032,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 1,
         "sameTypeExtraCatchXp": 50,
-        "sameTypeExtraCatchCandyXlChance": 0.1
+        "sameTypeExtraCatchCandyXlChance": 0.1,
+        "selfCpBoostAdditionalLevel": 4
       },
       "megaEnergyCostPerPoint": 160
     }
@@ -2002,7 +2058,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 1,
         "sameTypeExtraCatchXp": 50,
-        "sameTypeExtraCatchCandyXlChance": 0.1
+        "sameTypeExtraCatchCandyXlChance": 0.1,
+        "selfCpBoostAdditionalLevel": 4
       },
       "megaEnergyCostPerPoint": 160
     }
@@ -2052,7 +2109,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 1,
         "sameTypeExtraCatchXp": 50,
-        "sameTypeExtraCatchCandyXlChance": 0.1
+        "sameTypeExtraCatchCandyXlChance": 0.1,
+        "selfCpBoostAdditionalLevel": 4
       },
       "megaEnergyCostPerPoint": 160
     }
@@ -2077,7 +2135,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 1,
         "sameTypeExtraCatchXp": 50,
-        "sameTypeExtraCatchCandyXlChance": 0.1
+        "sameTypeExtraCatchCandyXlChance": 0.1,
+        "selfCpBoostAdditionalLevel": 4
       },
       "megaEnergyCostPerPoint": 160
     }
@@ -2102,7 +2161,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 1,
         "sameTypeExtraCatchXp": 50,
-        "sameTypeExtraCatchCandyXlChance": 0.1
+        "sameTypeExtraCatchCandyXlChance": 0.1,
+        "selfCpBoostAdditionalLevel": 4
       },
       "megaEnergyCostPerPoint": 160
     }
@@ -2127,7 +2187,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 1,
         "sameTypeExtraCatchXp": 50,
-        "sameTypeExtraCatchCandyXlChance": 0.1
+        "sameTypeExtraCatchCandyXlChance": 0.1,
+        "selfCpBoostAdditionalLevel": 4
       },
       "megaEnergyCostPerPoint": 160
     }
@@ -2152,7 +2213,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 1,
         "sameTypeExtraCatchXp": 50,
-        "sameTypeExtraCatchCandyXlChance": 0.1
+        "sameTypeExtraCatchCandyXlChance": 0.1,
+        "selfCpBoostAdditionalLevel": 4
       },
       "megaEnergyCostPerPoint": 160
     }
@@ -2177,7 +2239,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 1,
         "sameTypeExtraCatchXp": 50,
-        "sameTypeExtraCatchCandyXlChance": 0.1
+        "sameTypeExtraCatchCandyXlChance": 0.1,
+        "selfCpBoostAdditionalLevel": 4
       },
       "megaEnergyCostPerPoint": 160
     }
@@ -2202,7 +2265,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 1,
         "sameTypeExtraCatchXp": 50,
-        "sameTypeExtraCatchCandyXlChance": 0.1
+        "sameTypeExtraCatchCandyXlChance": 0.1,
+        "selfCpBoostAdditionalLevel": 4
       },
       "megaEnergyCostPerPoint": 160
     }
@@ -2226,7 +2290,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 2,
         "sameTypeExtraCatchXp": 100,
-        "sameTypeExtraCatchCandyXlChance": 0.25
+        "sameTypeExtraCatchCandyXlChance": 0.25,
+        "selfCpBoostAdditionalLevel": 6
       },
       "megaEnergyCostPerPoint": 40
     }
@@ -2251,7 +2316,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 2,
         "sameTypeExtraCatchXp": 100,
-        "sameTypeExtraCatchCandyXlChance": 0.25
+        "sameTypeExtraCatchCandyXlChance": 0.25,
+        "selfCpBoostAdditionalLevel": 6
       },
       "megaEnergyCostPerPoint": 40
     }
@@ -2276,7 +2342,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 2,
         "sameTypeExtraCatchXp": 100,
-        "sameTypeExtraCatchCandyXlChance": 0.25
+        "sameTypeExtraCatchCandyXlChance": 0.25,
+        "selfCpBoostAdditionalLevel": 6
       },
       "megaEnergyCostPerPoint": 40
     }
@@ -2301,7 +2368,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 2,
         "sameTypeExtraCatchXp": 100,
-        "sameTypeExtraCatchCandyXlChance": 0.25
+        "sameTypeExtraCatchCandyXlChance": 0.25,
+        "selfCpBoostAdditionalLevel": 6
       },
       "megaEnergyCostPerPoint": 80
     }
@@ -2326,7 +2394,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 2,
         "sameTypeExtraCatchXp": 100,
-        "sameTypeExtraCatchCandyXlChance": 0.25
+        "sameTypeExtraCatchCandyXlChance": 0.25,
+        "selfCpBoostAdditionalLevel": 6
       },
       "megaEnergyCostPerPoint": 80
     }
@@ -2351,7 +2420,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 2,
         "sameTypeExtraCatchXp": 100,
-        "sameTypeExtraCatchCandyXlChance": 0.25
+        "sameTypeExtraCatchCandyXlChance": 0.25,
+        "selfCpBoostAdditionalLevel": 6
       },
       "megaEnergyCostPerPoint": 40
     }
@@ -2376,7 +2446,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 2,
         "sameTypeExtraCatchXp": 100,
-        "sameTypeExtraCatchCandyXlChance": 0.25
+        "sameTypeExtraCatchCandyXlChance": 0.25,
+        "selfCpBoostAdditionalLevel": 6
       },
       "megaEnergyCostPerPoint": 80
     }
@@ -2401,7 +2472,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 2,
         "sameTypeExtraCatchXp": 100,
-        "sameTypeExtraCatchCandyXlChance": 0.25
+        "sameTypeExtraCatchCandyXlChance": 0.25,
+        "selfCpBoostAdditionalLevel": 6
       },
       "megaEnergyCostPerPoint": 80
     }
@@ -2426,7 +2498,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 2,
         "sameTypeExtraCatchXp": 100,
-        "sameTypeExtraCatchCandyXlChance": 0.25
+        "sameTypeExtraCatchCandyXlChance": 0.25,
+        "selfCpBoostAdditionalLevel": 6
       },
       "megaEnergyCostPerPoint": 80
     }
@@ -2451,7 +2524,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 2,
         "sameTypeExtraCatchXp": 100,
-        "sameTypeExtraCatchCandyXlChance": 0.25
+        "sameTypeExtraCatchCandyXlChance": 0.25,
+        "selfCpBoostAdditionalLevel": 6
       },
       "megaEnergyCostPerPoint": 80
     }
@@ -2476,7 +2550,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 2,
         "sameTypeExtraCatchXp": 100,
-        "sameTypeExtraCatchCandyXlChance": 0.25
+        "sameTypeExtraCatchCandyXlChance": 0.25,
+        "selfCpBoostAdditionalLevel": 6
       },
       "megaEnergyCostPerPoint": 80
     }
@@ -2501,7 +2576,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 2,
         "sameTypeExtraCatchXp": 100,
-        "sameTypeExtraCatchCandyXlChance": 0.25
+        "sameTypeExtraCatchCandyXlChance": 0.25,
+        "selfCpBoostAdditionalLevel": 6
       },
       "megaEnergyCostPerPoint": 40
     }
@@ -2526,7 +2602,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 2,
         "sameTypeExtraCatchXp": 100,
-        "sameTypeExtraCatchCandyXlChance": 0.25
+        "sameTypeExtraCatchCandyXlChance": 0.25,
+        "selfCpBoostAdditionalLevel": 6
       },
       "megaEnergyCostPerPoint": 80
     }
@@ -2551,7 +2628,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 2,
         "sameTypeExtraCatchXp": 100,
-        "sameTypeExtraCatchCandyXlChance": 0.25
+        "sameTypeExtraCatchCandyXlChance": 0.25,
+        "selfCpBoostAdditionalLevel": 6
       },
       "megaEnergyCostPerPoint": 40
     }
@@ -2576,7 +2654,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 2,
         "sameTypeExtraCatchXp": 100,
-        "sameTypeExtraCatchCandyXlChance": 0.25
+        "sameTypeExtraCatchCandyXlChance": 0.25,
+        "selfCpBoostAdditionalLevel": 6
       },
       "megaEnergyCostPerPoint": 40
     }
@@ -2601,7 +2680,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 2,
         "sameTypeExtraCatchXp": 100,
-        "sameTypeExtraCatchCandyXlChance": 0.25
+        "sameTypeExtraCatchCandyXlChance": 0.25,
+        "selfCpBoostAdditionalLevel": 6
       },
       "megaEnergyCostPerPoint": 40
     }
@@ -2626,7 +2706,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 2,
         "sameTypeExtraCatchXp": 100,
-        "sameTypeExtraCatchCandyXlChance": 0.25
+        "sameTypeExtraCatchCandyXlChance": 0.25,
+        "selfCpBoostAdditionalLevel": 6
       },
       "megaEnergyCostPerPoint": 80
     }
@@ -2651,7 +2732,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 2,
         "sameTypeExtraCatchXp": 100,
-        "sameTypeExtraCatchCandyXlChance": 0.25
+        "sameTypeExtraCatchCandyXlChance": 0.25,
+        "selfCpBoostAdditionalLevel": 6
       },
       "megaEnergyCostPerPoint": 40
     }
@@ -2676,7 +2758,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 2,
         "sameTypeExtraCatchXp": 100,
-        "sameTypeExtraCatchCandyXlChance": 0.25
+        "sameTypeExtraCatchCandyXlChance": 0.25,
+        "selfCpBoostAdditionalLevel": 6
       },
       "megaEnergyCostPerPoint": 80
     }
@@ -2701,7 +2784,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 2,
         "sameTypeExtraCatchXp": 100,
-        "sameTypeExtraCatchCandyXlChance": 0.25
+        "sameTypeExtraCatchCandyXlChance": 0.25,
+        "selfCpBoostAdditionalLevel": 6
       },
       "megaEnergyCostPerPoint": 80
     }
@@ -2726,7 +2810,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 2,
         "sameTypeExtraCatchXp": 100,
-        "sameTypeExtraCatchCandyXlChance": 0.25
+        "sameTypeExtraCatchCandyXlChance": 0.25,
+        "selfCpBoostAdditionalLevel": 6
       },
       "megaEnergyCostPerPoint": 80
     }
@@ -2751,7 +2836,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 2,
         "sameTypeExtraCatchXp": 100,
-        "sameTypeExtraCatchCandyXlChance": 0.25
+        "sameTypeExtraCatchCandyXlChance": 0.25,
+        "selfCpBoostAdditionalLevel": 6
       },
       "megaEnergyCostPerPoint": 80
     }
@@ -2776,7 +2862,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 2,
         "sameTypeExtraCatchXp": 100,
-        "sameTypeExtraCatchCandyXlChance": 0.25
+        "sameTypeExtraCatchCandyXlChance": 0.25,
+        "selfCpBoostAdditionalLevel": 6
       },
       "megaEnergyCostPerPoint": 80
     }
@@ -2801,7 +2888,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 2,
         "sameTypeExtraCatchXp": 100,
-        "sameTypeExtraCatchCandyXlChance": 0.25
+        "sameTypeExtraCatchCandyXlChance": 0.25,
+        "selfCpBoostAdditionalLevel": 6
       },
       "megaEnergyCostPerPoint": 80
     }
@@ -2826,7 +2914,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 2,
         "sameTypeExtraCatchXp": 100,
-        "sameTypeExtraCatchCandyXlChance": 0.25
+        "sameTypeExtraCatchCandyXlChance": 0.25,
+        "selfCpBoostAdditionalLevel": 6
       },
       "megaEnergyCostPerPoint": 80
     }
@@ -2876,7 +2965,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 2,
         "sameTypeExtraCatchXp": 100,
-        "sameTypeExtraCatchCandyXlChance": 0.25
+        "sameTypeExtraCatchCandyXlChance": 0.25,
+        "selfCpBoostAdditionalLevel": 6
       },
       "megaEnergyCostPerPoint": 80
     }
@@ -2901,7 +2991,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 2,
         "sameTypeExtraCatchXp": 100,
-        "sameTypeExtraCatchCandyXlChance": 0.25
+        "sameTypeExtraCatchCandyXlChance": 0.25,
+        "selfCpBoostAdditionalLevel": 6
       },
       "megaEnergyCostPerPoint": 80
     }
@@ -2926,7 +3017,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 2,
         "sameTypeExtraCatchXp": 100,
-        "sameTypeExtraCatchCandyXlChance": 0.25
+        "sameTypeExtraCatchCandyXlChance": 0.25,
+        "selfCpBoostAdditionalLevel": 6
       },
       "megaEnergyCostPerPoint": 80
     }
@@ -2951,7 +3043,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 2,
         "sameTypeExtraCatchXp": 100,
-        "sameTypeExtraCatchCandyXlChance": 0.25
+        "sameTypeExtraCatchCandyXlChance": 0.25,
+        "selfCpBoostAdditionalLevel": 6
       },
       "megaEnergyCostPerPoint": 80
     }
@@ -2976,7 +3069,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 2,
         "sameTypeExtraCatchXp": 100,
-        "sameTypeExtraCatchCandyXlChance": 0.25
+        "sameTypeExtraCatchCandyXlChance": 0.25,
+        "selfCpBoostAdditionalLevel": 6
       },
       "megaEnergyCostPerPoint": 80
     }
@@ -3001,7 +3095,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 2,
         "sameTypeExtraCatchXp": 100,
-        "sameTypeExtraCatchCandyXlChance": 0.25
+        "sameTypeExtraCatchCandyXlChance": 0.25,
+        "selfCpBoostAdditionalLevel": 6
       },
       "megaEnergyCostPerPoint": 80
     }
@@ -3026,7 +3121,8 @@
         "sameTypeAttackBoost": 1.3,
         "sameTypeExtraCatchCandy": 2,
         "sameTypeExtraCatchXp": 100,
-        "sameTypeExtraCatchCandyXlChance": 0.25
+        "sameTypeExtraCatchCandyXlChance": 0.25,
+        "selfCpBoostAdditionalLevel": 6
       },
       "megaEnergyCostPerPoint": 80
     }
@@ -3052,7 +3148,7 @@
         "sameTypeExtraCatchCandy": 3,
         "sameTypeExtraCatchXp": 200,
         "sameTypeExtraCatchCandyXlChance": 0.3,
-        "selfCpBoostAdditionalLevel": 2
+        "selfCpBoostAdditionalLevel": 8
       },
       "megaEnergyCostToUnlock": 5000,
       "ftueExpirationTimestamp": "1775001600000"
@@ -3079,7 +3175,7 @@
         "sameTypeExtraCatchCandy": 3,
         "sameTypeExtraCatchXp": 200,
         "sameTypeExtraCatchCandyXlChance": 0.3,
-        "selfCpBoostAdditionalLevel": 2
+        "selfCpBoostAdditionalLevel": 8
       },
       "megaEnergyCostToUnlock": 5000,
       "ftueExpirationTimestamp": "1775001600000"
@@ -3106,7 +3202,7 @@
         "sameTypeExtraCatchCandy": 3,
         "sameTypeExtraCatchXp": 200,
         "sameTypeExtraCatchCandyXlChance": 0.3,
-        "selfCpBoostAdditionalLevel": 2
+        "selfCpBoostAdditionalLevel": 8
       },
       "megaEnergyCostToUnlock": 5000,
       "ftueExpirationTimestamp": "1775001600000"
@@ -3133,7 +3229,7 @@
         "sameTypeExtraCatchCandy": 3,
         "sameTypeExtraCatchXp": 200,
         "sameTypeExtraCatchCandyXlChance": 0.3,
-        "selfCpBoostAdditionalLevel": 2
+        "selfCpBoostAdditionalLevel": 8
       },
       "megaEnergyCostToUnlock": 5000,
       "ftueExpirationTimestamp": "1775001600000"
@@ -3160,7 +3256,7 @@
         "sameTypeExtraCatchCandy": 3,
         "sameTypeExtraCatchXp": 200,
         "sameTypeExtraCatchCandyXlChance": 0.3,
-        "selfCpBoostAdditionalLevel": 2
+        "selfCpBoostAdditionalLevel": 8
       },
       "megaEnergyCostToUnlock": 5000,
       "ftueExpirationTimestamp": "4083189477000"
@@ -3187,7 +3283,7 @@
         "sameTypeExtraCatchCandy": 3,
         "sameTypeExtraCatchXp": 200,
         "sameTypeExtraCatchCandyXlChance": 0.3,
-        "selfCpBoostAdditionalLevel": 2
+        "selfCpBoostAdditionalLevel": 8
       },
       "megaEnergyCostToUnlock": 5000,
       "ftueExpirationTimestamp": "1775001600000"
@@ -3241,7 +3337,7 @@
         "sameTypeExtraCatchCandy": 3,
         "sameTypeExtraCatchXp": 200,
         "sameTypeExtraCatchCandyXlChance": 0.3,
-        "selfCpBoostAdditionalLevel": 2
+        "selfCpBoostAdditionalLevel": 8
       },
       "megaEnergyCostToUnlock": 5000,
       "ftueExpirationTimestamp": "1775001600000"
@@ -3268,7 +3364,7 @@
         "sameTypeExtraCatchCandy": 3,
         "sameTypeExtraCatchXp": 200,
         "sameTypeExtraCatchCandyXlChance": 0.3,
-        "selfCpBoostAdditionalLevel": 2
+        "selfCpBoostAdditionalLevel": 8
       },
       "megaEnergyCostToUnlock": 5000,
       "ftueExpirationTimestamp": "1775001600000"
@@ -3295,7 +3391,7 @@
         "sameTypeExtraCatchCandy": 3,
         "sameTypeExtraCatchXp": 200,
         "sameTypeExtraCatchCandyXlChance": 0.3,
-        "selfCpBoostAdditionalLevel": 2
+        "selfCpBoostAdditionalLevel": 8
       },
       "megaEnergyCostToUnlock": 5000,
       "ftueExpirationTimestamp": "1775001600000"
@@ -3322,7 +3418,7 @@
         "sameTypeExtraCatchCandy": 3,
         "sameTypeExtraCatchXp": 200,
         "sameTypeExtraCatchCandyXlChance": 0.3,
-        "selfCpBoostAdditionalLevel": 2
+        "selfCpBoostAdditionalLevel": 8
       },
       "megaEnergyCostToUnlock": 5000,
       "ftueExpirationTimestamp": "1775001600000"
@@ -3349,7 +3445,7 @@
         "sameTypeExtraCatchCandy": 3,
         "sameTypeExtraCatchXp": 200,
         "sameTypeExtraCatchCandyXlChance": 0.3,
-        "selfCpBoostAdditionalLevel": 2
+        "selfCpBoostAdditionalLevel": 8
       },
       "megaEnergyCostToUnlock": 5000,
       "ftueExpirationTimestamp": "1775001600000"
