@@ -55,8 +55,8 @@ class PokemonSettingGeneratorService {
         const hasSameStats = hasSameStatsStamina && hasSameStatsAttack && hasSameStatsDefense;
 
         const hasSameTypes =
-            form.type.length === otherForm.type.length &&
-            form.type.every((t: any) => otherForm.type.includes(t));
+            form.types.length === otherForm.types.length &&
+            form.types.every((t: any) => otherForm.types.includes(t));
 
         const isSameMoveList = (a: string[], b: string[]) =>
             a.length === b.length && a.every((m) => b.includes(m));
