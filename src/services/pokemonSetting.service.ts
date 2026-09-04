@@ -14,16 +14,17 @@ export function getPokemonSetting() {
 }
 
 class PokemonSettingGeneratorService {
-    private async fetchFrenchName(dexNumber: number): Promise<string> {
+    private async fetchFrenchName(dexNumber: number): Promise<string | null> {
         const data = await pokeApiClient.fetchPokemonSpecies(dexNumber);
+        if (!data) return null;
         const raw = data.names.find((n: any) => n.language.name === 'fr')?.name;
         if (!raw) {
             // console.log('fetchFrenchName : ', dexNumber);
         }
-        return raw ?? '';
+        return raw ?? null;
     }
 
-    private async fetchGeneration(dexNumber: number, form?: string): Promise<number> {
+    private async fetchGeneration(dexNumber: number, form?: string): Promise<number | null> {
         if (form) {
             if (form.includes('ALOLA')) return 7;
             if (form.includes('GALARIAN')) return 8;
@@ -31,39 +32,26 @@ class PokemonSettingGeneratorService {
             if (form.includes('PALDEA')) return 9;
         }
         const data = await pokeApiClient.fetchPokemonSpecies(dexNumber);
-        return +data.generation.url.split('/').filter(Boolean).last();
+        if (!data) return null;
+        const generation = data.generation.url.split('/').filter(Boolean).last();
+        return generation ? +generation : null;
     }
 
     private async fetchFormFrenchName(formSlug: string): Promise<string | null> {
         const data = await pokeApiClient.fetchPokemonForm(formSlug);
+        if (!data) return null;
         const raw = data.names.find((n: any) => n.language.name === 'fr')?.name;
-        if (!raw) {
-            // console.log('fetchFrenchName : ', dexNumber);
-        }
-        return raw ?? '';
+        return raw ?? null;
     }
     private async fetchFormId(formSlug: string): Promise<number | null> {
         try {
             const data = await pokeApiClient.fetchPokemon(formSlug);
-
+            if (!data) return null;
             const raw = data.id;
-            if (!raw) {
-                // console.log('fetchFrenchName : ', dexNumber);
-            }
-            return raw ?? null;
+            return raw;
         } catch (error) {
             return null;
         }
-        // try {
-        // const res = await fetch(`https://pokeapi.co/api/v2/pokemon/${formSlug}`);
-        //     if (!res.ok) {
-        //         return null;
-        //     }
-        //     const data = await res.json();
-        //     return data.id;
-        // } catch {
-        //     return null;
-        // }
     }
 
     private isSameForm(form: any, otherForm: any) {
@@ -120,7 +108,7 @@ class PokemonSettingGeneratorService {
                         const slug = formField.slugify();
                         imageId = (await this.fetchFormId(slug)) ?? dexNumber;
                     }
-                    let name = await this.fetchFrenchName(dexNumber);
+                    let name = (await this.fetchFrenchName(dexNumber)) ?? formField.slugify();
 
                     const slug =
                         formField === 'base'

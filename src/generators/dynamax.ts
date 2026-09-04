@@ -52,13 +52,14 @@ export default class PokemonSettingGenerator extends FileGenerator {
             const dexNumber: number = pokemon.base.dexNumber;
             const data = await pokeApiClient.fetchPokemonSpecies(dexNumber);
             const name = pokemon.base.form === 'base' ? pokemon.base.pokemonId : pokemon.base.form;
-            return (
-                +data.varieties
-                    .filter(
+
+            return +(
+                data?.varieties
+                    ?.filter(
                         (variety: any) =>
                             variety.pokemon.name.includes('gmax') &&
                             variety.pokemon.name.includes(name.kebabCase()),
-                    )[0]
+                    )?.[0]
                     ?.pokemon.url.split('/')
                     ?.filter(Boolean)
                     ?.last() || dexNumber
