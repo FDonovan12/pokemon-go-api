@@ -34,18 +34,36 @@ class PokemonSettingGeneratorService {
         return +data.generation.url.split('/').filter(Boolean).last();
     }
 
+    private async fetchFormFrenchName(formSlug: string): Promise<string | null> {
+        const data = await pokeApiClient.fetchPokemonForm(formSlug);
+        const raw = data.names.find((n: any) => n.language.name === 'fr')?.name;
+        if (!raw) {
+            // console.log('fetchFrenchName : ', dexNumber);
+        }
+        return raw ?? '';
+    }
     private async fetchFormId(formSlug: string): Promise<number | null> {
         try {
-            const res = await fetch(`https://pokeapi.co/api/v2/pokemon/${formSlug}`);
-            if (!res.ok) {
-                // console.log('fetchFormId : ', formSlug);
-                return null;
+            const data = await pokeApiClient.fetchPokemon(formSlug);
+
+            const raw = data.id;
+            if (!raw) {
+                // console.log('fetchFrenchName : ', dexNumber);
             }
-            const data = await res.json();
-            return data.id;
-        } catch {
+            return raw ?? null;
+        } catch (error) {
             return null;
         }
+        // try {
+        // const res = await fetch(`https://pokeapi.co/api/v2/pokemon/${formSlug}`);
+        //     if (!res.ok) {
+        //         return null;
+        //     }
+        //     const data = await res.json();
+        //     return data.id;
+        // } catch {
+        //     return null;
+        // }
     }
 
     private isSameForm(form: any, otherForm: any) {
@@ -95,7 +113,6 @@ class PokemonSettingGeneratorService {
                     this.alterPokemon(pokemon);
                     let formField = String(pokemon.data.form ?? 'base'); // have to convert number to string even most of the time never number here
 
-                    const name = await this.fetchFrenchName(dexNumber);
                     const generation = await this.fetchGeneration(dexNumber, formField);
 
                     let imageId: number = dexNumber;
@@ -103,11 +120,18 @@ class PokemonSettingGeneratorService {
                         const slug = formField.slugify();
                         imageId = (await this.fetchFormId(slug)) ?? dexNumber;
                     }
+                    let name = await this.fetchFrenchName(dexNumber);
 
                     const slug =
                         formField === 'base'
                             ? name.slugify()
                             : formField.replace(pokemon.data.pokemonId, name).slugify();
+
+                    if (imageId !== dexNumber) {
+                        name =
+                            (await this.fetchFormFrenchName(formField.slugify())) ??
+                            slug.titleCase();
+                    }
 
                     rawPokemons.push({
                         id: pokemon.templateId,
@@ -158,15 +182,17 @@ class PokemonSettingGeneratorService {
         }
         const familyToFrenchName = new Map<string, string>(
             rawPokemons
-                .filter((pokemon) => pokemon.pokemonId === pokemon.family.replace('FAMILY_', ''))
+                .filter(
+                    (pokemon) =>
+                        pokemon.pokemonId === pokemon.family.replace('FAMILY_', '') &&
+                        pokemon.form === 'base',
+                )
                 .map((pokemon) => [pokemon.family, pokemon.name]),
         );
-
         const pokemons = rawPokemons
             .map((pokemon) => ({
                 ...pokemon,
                 family: familyToFrenchName.get(pokemon.family)!,
-                name: pokemon.form === 'base' ? pokemon.name.titleCase() : pokemon.slug.titleCase(),
             }))
             .groupBy('pokemonId')
             .toList('values');
