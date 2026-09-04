@@ -282,6 +282,7 @@
     "id": "V0231_MOVE_SPLASH_FAST",
     "movementId": "SPLASH_FAST",
     "pokemonType": "Eau",
+    "power": 0,
     "durationMs": 1500,
     "energyDelta": 17,
     "vfxName": "splash_fast"
@@ -380,7 +381,9 @@
     "id": "V0242_MOVE_TRANSFORM_FAST",
     "movementId": "TRANSFORM_FAST",
     "pokemonType": "Normal",
+    "power": 0,
     "durationMs": 2000,
+    "energyDelta": 0,
     "vfxName": "transform_fast"
   },
   "COUNTER_FAST": {
@@ -549,6 +552,7 @@
     "id": "V0287_MOVE_YAWN_FAST",
     "movementId": "YAWN_FAST",
     "pokemonType": "Normal",
+    "power": 0,
     "durationMs": 1500,
     "energyDelta": 13,
     "vfxName": "yawn_fast"

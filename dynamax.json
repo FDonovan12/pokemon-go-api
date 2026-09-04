@@ -1582,6 +1582,7 @@
         "id": "V0287_MOVE_YAWN_FAST",
         "movementId": "YAWN_FAST",
         "pokemonType": "Normal",
+        "power": 0,
         "durationMs": 1500,
         "energyDelta": 13,
         "vfxName": "yawn_fast"
@@ -6780,6 +6781,7 @@
         "id": "V0287_MOVE_YAWN_FAST",
         "movementId": "YAWN_FAST",
         "pokemonType": "Normal",
+        "power": 0,
         "durationMs": 1500,
         "energyDelta": 13,
         "vfxName": "yawn_fast"

@@ -815,6 +815,7 @@
     "pokemonType": "Normal",
     "power": 35,
     "durationMs": 2000,
+    "energyDelta": 0,
     "vfxName": "struggle"
   },
   "SCALD_BLASTOISE": {
@@ -1244,7 +1245,9 @@
     "id": "V0307_MOVE_CRUSH_CLAW",
     "movementId": "CRUSH_CLAW",
     "pokemonType": "Normal",
+    "power": 0,
     "durationMs": 2000,
+    "energyDelta": 0,
     "vfxName": "crush_claw"
   },
   "OCTAZOOKA": {
@@ -1296,7 +1299,9 @@
     "id": "V0313_MOVE_LEECH_LIFE",
     "movementId": "LEECH_LIFE",
     "pokemonType": "Insecte",
+    "power": 0,
     "durationMs": 2500,
+    "energyDelta": 0,
     "vfxName": "leech_life"
   },
   "DRAIN_PUNCH": {
@@ -2203,14 +2208,18 @@
     "id": "V0594_MOVE_GULP_MISSILE_GULPING",
     "movementId": "GULP_MISSILE_GULPING",
     "pokemonType": "Normal",
+    "power": 0,
     "durationMs": 2500,
+    "energyDelta": 0,
     "vfxName": "gulp_missile_gulping"
   },
   "GULP_MISSILE_GORGING": {
     "id": "V0595_MOVE_GULP_MISSILE_GORGING",
     "movementId": "GULP_MISSILE_GORGING",
     "pokemonType": "Normal",
+    "power": 0,
     "durationMs": 2500,
+    "energyDelta": 0,
     "vfxName": "gulp_missile_gorging"
   },
   "TEMP_EVOLUTION_MEGA_V0071_POKEMON_VICTREEBEL": {

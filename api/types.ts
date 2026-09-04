@@ -137,13 +137,13 @@ export interface RaidMoveChargedMove {
     EARTH_POWER:                                  AcidSpray;
     CRABHAMMER:                                   AcidSpray;
     LUNGE:                                        AcidSpray;
-    CRUSH_CLAW:                                   CrushClaw;
+    CRUSH_CLAW:                                   AcidSpray;
     OCTAZOOKA:                                    AcidSpray;
     MIRROR_SHOT:                                  AcidSpray;
     SUPER_POWER:                                  AcidSpray;
     FELL_STINGER:                                 AcidSpray;
     LEAF_TORNADO:                                 AcidSpray;
-    LEECH_LIFE:                                   CrushClaw;
+    LEECH_LIFE:                                   AcidSpray;
     DRAIN_PUNCH:                                  AcidSpray;
     SHADOW_BONE:                                  AcidSpray;
     MUDDY_WATER:                                  AcidSpray;
@@ -244,8 +244,8 @@ export interface RaidMoveChargedMove {
     GLAIVE_RUSH:                                  AcidSpray;
     SNIPE_SHOT:                                   AcidSpray;
     DIVE:                                         AcidSpray;
-    GULP_MISSILE_GULPING:                         CrushClaw;
-    GULP_MISSILE_GORGING:                         CrushClaw;
+    GULP_MISSILE_GULPING:                         AcidSpray;
+    GULP_MISSILE_GORGING:                         AcidSpray;
     TEMP_EVOLUTION_MEGA_V0071_POKEMON_VICTREEBEL: AcidSpray;
     TEMP_EVOLUTION_MEGA_V0121_POKEMON_STARMIE:    AcidSpray;
     TEMP_EVOLUTION_MEGA_V0149_POKEMON_DRAGONITE:  AcidSpray;
@@ -262,13 +262,13 @@ export interface RaidMoveChargedMove {
 }
 
 export interface AcidSpray {
-    id:           string;
-    movementId:   string;
-    pokemonType:  Type;
-    power?:       number;
-    durationMs:   number;
-    energyDelta?: number;
-    vfxName:      string;
+    id:          string;
+    movementId:  string;
+    pokemonType: Type;
+    power:       number;
+    durationMs:  number;
+    energyDelta: number;
+    vfxName:     string;
 }
 
 export enum Type {
@@ -290,15 +290,6 @@ export enum Type {
     Ténèbres = "Ténèbres",
     Vol = "Vol",
     Électrik = "Électrik",
-}
-
-export interface CrushClaw {
-    id:           string;
-    movementId:   string;
-    pokemonType:  Type;
-    durationMs?:  number;
-    vfxName:      string;
-    powerLevels?: number[];
 }
 
 export interface PokemonCpMultiplier {
@@ -473,9 +464,17 @@ export interface Dynamax {
     types:       Type[];
     stats:       Stats;
     quickMoves:  { [key: string]: AcidSpray };
-    dynamaxMove: CrushClaw[];
+    dynamaxMove: VnBm001[];
     familyId:    string;
     isReleased?: boolean;
+}
+
+export interface VnBm001 {
+    id:          string;
+    movementId:  string;
+    pokemonType: Type;
+    powerLevels: number[];
+    vfxName:     string;
 }
 
 export interface Stats {
@@ -485,68 +484,68 @@ export interface Stats {
 }
 
 export interface RaidMoveDynamaxMove {
-    VN_BM_001: CrushClaw;
-    VN_BM_002: CrushClaw;
-    VN_BM_003: CrushClaw;
-    VN_BM_004: CrushClaw;
-    VN_BM_005: CrushClaw;
-    VN_BM_006: CrushClaw;
-    VN_BM_007: CrushClaw;
-    VN_BM_008: CrushClaw;
-    VN_BM_009: CrushClaw;
-    VN_BM_010: CrushClaw;
-    VN_BM_011: CrushClaw;
-    VN_BM_012: CrushClaw;
-    VN_BM_013: CrushClaw;
-    VN_BM_014: CrushClaw;
-    VN_BM_015: CrushClaw;
-    VN_BM_016: CrushClaw;
-    VN_BM_017: CrushClaw;
-    VN_BM_018: CrushClaw;
-    VN_BM_019: CrushClaw;
-    VN_BM_020: CrushClaw;
-    VN_BM_021: CrushClaw;
-    VN_BM_022: CrushClaw;
-    VN_BM_023: CrushClaw;
-    VN_BM_024: CrushClaw;
-    VN_BM_025: CrushClaw;
-    VN_BM_026: CrushClaw;
-    VN_BM_027: CrushClaw;
-    VN_BM_028: CrushClaw;
-    VN_BM_029: CrushClaw;
-    VN_BM_030: CrushClaw;
-    VN_BM_031: CrushClaw;
-    VN_BM_032: CrushClaw;
-    VN_BM_033: CrushClaw;
-    VN_BM_034: CrushClaw;
-    VN_BM_035: CrushClaw;
-    VN_BM_036: CrushClaw;
-    VN_BM_037: CrushClaw;
-    VN_BM_038: CrushClaw;
-    VN_BM_039: CrushClaw;
-    VN_BM_040: CrushClaw;
-    VN_BM_041: CrushClaw;
-    VN_BM_042: CrushClaw;
-    VN_BM_043: CrushClaw;
-    VN_BM_044: CrushClaw;
-    VN_BM_045: CrushClaw;
-    VN_BM_046: CrushClaw;
-    VN_BM_047: CrushClaw;
-    VN_BM_048: CrushClaw;
-    VN_BM_049: CrushClaw;
-    VN_BM_050: CrushClaw;
-    VN_BM_051: CrushClaw;
-    VN_BM_052: CrushClaw;
-    VN_BM_053: CrushClaw;
-    VN_BM_054: CrushClaw;
-    VN_BM_055: CrushClaw;
-    VN_BM_056: CrushClaw;
-    VN_BM_057: CrushClaw;
-    VN_BM_058: CrushClaw;
-    VN_BM_059: CrushClaw;
-    VN_BM_060: CrushClaw;
-    VN_BM_061: CrushClaw;
-    VN_BM_062: CrushClaw;
+    VN_BM_001: VnBm001;
+    VN_BM_002: VnBm001;
+    VN_BM_003: VnBm001;
+    VN_BM_004: VnBm001;
+    VN_BM_005: VnBm001;
+    VN_BM_006: VnBm001;
+    VN_BM_007: VnBm001;
+    VN_BM_008: VnBm001;
+    VN_BM_009: VnBm001;
+    VN_BM_010: VnBm001;
+    VN_BM_011: VnBm001;
+    VN_BM_012: VnBm001;
+    VN_BM_013: VnBm001;
+    VN_BM_014: VnBm001;
+    VN_BM_015: VnBm001;
+    VN_BM_016: VnBm001;
+    VN_BM_017: VnBm001;
+    VN_BM_018: VnBm001;
+    VN_BM_019: VnBm001;
+    VN_BM_020: VnBm001;
+    VN_BM_021: VnBm001;
+    VN_BM_022: VnBm001;
+    VN_BM_023: VnBm001;
+    VN_BM_024: VnBm001;
+    VN_BM_025: VnBm001;
+    VN_BM_026: VnBm001;
+    VN_BM_027: VnBm001;
+    VN_BM_028: VnBm001;
+    VN_BM_029: VnBm001;
+    VN_BM_030: VnBm001;
+    VN_BM_031: VnBm001;
+    VN_BM_032: VnBm001;
+    VN_BM_033: VnBm001;
+    VN_BM_034: VnBm001;
+    VN_BM_035: VnBm001;
+    VN_BM_036: VnBm001;
+    VN_BM_037: VnBm001;
+    VN_BM_038: VnBm001;
+    VN_BM_039: VnBm001;
+    VN_BM_040: VnBm001;
+    VN_BM_041: VnBm001;
+    VN_BM_042: VnBm001;
+    VN_BM_043: VnBm001;
+    VN_BM_044: VnBm001;
+    VN_BM_045: VnBm001;
+    VN_BM_046: VnBm001;
+    VN_BM_047: VnBm001;
+    VN_BM_048: VnBm001;
+    VN_BM_049: VnBm001;
+    VN_BM_050: VnBm001;
+    VN_BM_051: VnBm001;
+    VN_BM_052: VnBm001;
+    VN_BM_053: VnBm001;
+    VN_BM_054: VnBm001;
+    VN_BM_055: VnBm001;
+    VN_BM_056: VnBm001;
+    VN_BM_057: VnBm001;
+    VN_BM_058: VnBm001;
+    VN_BM_059: VnBm001;
+    VN_BM_060: VnBm001;
+    VN_BM_061: VnBm001;
+    VN_BM_062: VnBm001;
 }
 
 export interface PokemonSetting {
