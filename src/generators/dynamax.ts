@@ -1,4 +1,4 @@
-import { CrushClaw, PokemonSetting } from '#generated/data/api/intermediate.type.js';
+import { PokemonSetting, RaidMove } from '#generated/data/api/intermediate.type.js';
 import { IntermediateData } from '#generated/intermediate.index.js';
 import { RawGameMaster } from '#generated/raw.index.js';
 import { FileGenerator } from '../type/fileGenerator.js';
@@ -23,6 +23,7 @@ const GIGAMAX_NOT_RELEASED = [
 ];
 const OTHER_FORM_IDS = ['zacian', 'zamazenta', 'eternatus'];
 
+type DynamaxMove = RaidMove['dynamaxMove'][string];
 export default class PokemonSettingGenerator extends FileGenerator {
     getFileName(): string {
         return 'dynamax.json';
@@ -104,11 +105,11 @@ export default class PokemonSettingGenerator extends FileGenerator {
         ];
 
         const NORMAL_MOVE_POWER = 250;
-        const isGigamaxMove = (dynamaxMove: CrushClaw[]) =>
+        const isGigamaxMove = (dynamaxMove: DynamaxMove[]) =>
             (dynamaxMove[0]?.powerLevels?.[0] ?? NORMAL_MOVE_POWER) !== NORMAL_MOVE_POWER;
         const toOutput = async (
             pokemon: PokemonSetting,
-            dynamaxMove: CrushClaw[],
+            dynamaxMove: DynamaxMove[],
             isReleased?: boolean,
         ) => {
             const imageId = isGigamaxMove(dynamaxMove)
