@@ -597,7 +597,7 @@ export interface EvolutionId {
 export interface Mega {
     name:        string;
     slug:        string;
-    stats?:      Stats;
+    stats:       Stats;
     image:       string;
     types:       string[];
     hasLevel4:   boolean;
