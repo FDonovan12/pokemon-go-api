@@ -164,9 +164,7 @@
         "eventPassId": "EVENT_PASS_GOFEST2026_FINALE"
       },
       "timePeriodCounters": {
-        "playerActivity": {
-          "limit": 1000
-        }
+        "playerActivity": {}
       },
       "hideItemInInventory": true
     }
@@ -251,7 +249,7 @@
       "ignoreInventorySpace": true,
       "itemCap": 999999,
       "eventPassPoint": {
-        "eventPassId": "EVENT_PASS_BLANCHE2026_EVENT"
+        "eventPassId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT"
       },
       "timePeriodCounters": {
         "playerActivity": {
@@ -465,9 +463,7 @@
         "eventPassId": "EVENT_PASS_AUGUST2026_SEASON"
       },
       "timePeriodCounters": {
-        "playerActivity": {
-          "limit": 250
-        }
+        "playerActivity": {}
       },
       "hideItemInInventory": true
     }
