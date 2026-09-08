@@ -100,6 +100,7 @@ class PokemonSettingGeneratorService {
                     const dexNumber = extractDexNumberFromId(pokemon.templateId);
                     this.alterPokemon(pokemon);
                     let formField = String(pokemon.data.form ?? 'base'); // have to convert number to string even most of the time never number here
+                    formField = formField === 'ORICORIO_POMPOM' ? 'ORICORIO_POM_POM' : formField;
 
                     const generation = await this.fetchGeneration(dexNumber, formField);
 
