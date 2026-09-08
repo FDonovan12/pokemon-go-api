@@ -246,6 +246,7 @@ export interface RaidMoveChargedMove {
     DIVE:                                         AcidSpray;
     GULP_MISSILE_GULPING:                         AcidSpray;
     GULP_MISSILE_GORGING:                         AcidSpray;
+    TEMP_EVOLUTION_MEGA_V0015_POKEMON_BEEDRILL:   AcidSpray;
     TEMP_EVOLUTION_MEGA_V0071_POKEMON_VICTREEBEL: AcidSpray;
     TEMP_EVOLUTION_MEGA_V0121_POKEMON_STARMIE:    AcidSpray;
     TEMP_EVOLUTION_MEGA_V0149_POKEMON_DRAGONITE:  AcidSpray;
@@ -621,6 +622,7 @@ export interface SameTempEvoOverride {
     modelHeight?:            number;
     buddyOffsetMale?:        number[];
     buddyOffsetFemale?:      number[];
+    specialMove?:            string;
     buddyPortraitOffset?:    number[];
     raidBossDistanceOffset?: number;
     buddyPortraitRotation?:  number[];

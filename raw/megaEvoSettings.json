@@ -13,6 +13,7 @@
       "numMegaLevels": 4,
       "clientMegaCooldownBufferMs": 2000,
       "enableMegaLevelLegacyAward": true,
+      "minLevelForSpecialMove": 1,
       "separatedTempEvoBranches": [
         {
           "pokedexId": "CHARIZARD",
@@ -38,7 +39,8 @@
           "pokedexId": "RAICHU",
           "tempEvoId": "TEMP_EVOLUTION_MEGA_Y"
         }
-      ]
+      ],
+      "enableSpecialMove": true
     }
   }
 ]

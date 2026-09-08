@@ -125,7 +125,7 @@
       "category": "ITEM_CATEGORY_ENHANCED_CURRENCY",
       "dropTrainerLevel": 1,
       "ignoreInventorySpace": true,
-      "itemCap": 2000
+      "itemCap": 600
     }
   },
   {
@@ -164,7 +164,9 @@
         "eventPassId": "EVENT_PASS_GOFEST2026_FINALE"
       },
       "timePeriodCounters": {
-        "playerActivity": {}
+        "playerActivity": {
+          "limit": 1000
+        }
       },
       "hideItemInInventory": true
     }
@@ -234,7 +236,7 @@
       },
       "timePeriodCounters": {
         "playerActivity": {
-          "limit": 300
+          "limit": 500
         }
       },
       "hideItemInInventory": true
@@ -382,6 +384,7 @@
       "ignoreInventorySpace": true,
       "itemCap": 999999,
       "nameOverride": "ITEM_EVENT_PASS_POINT_GO_TOUR_01_name",
+      "namePluralOverride": "ITEM_EVENT_PASS_POINT_GO_TOUR_01_name",
       "eventPassPoint": {
         "eventPassId": "EVENT_PASS_SUMMER_MARATHON_2026_EVENT"
       },
@@ -402,6 +405,7 @@
       "ignoreInventorySpace": true,
       "itemCap": 999999,
       "nameOverride": "ITEM_EVENT_PASS_POINT_GO_TOUR_01_name",
+      "namePluralOverride": "ITEM_EVENT_PASS_POINT_GO_TOUR_01_name",
       "eventPassPoint": {
         "eventPassId": "EVENT_PASS_UU_WATER_FESTIVAL_2026_EVENT"
       },
@@ -463,7 +467,9 @@
         "eventPassId": "EVENT_PASS_AUGUST2026_SEASON"
       },
       "timePeriodCounters": {
-        "playerActivity": {}
+        "playerActivity": {
+          "limit": 250
+        }
       },
       "hideItemInInventory": true
     }
@@ -1777,7 +1783,7 @@
   {
     "templateId": "ITEM_EVENT_TICKET_S24_SEP_12_COMMUNITY",
     "data": {
-      "itemId": 2253,
+      "itemId": "ITEM_EVENT_TICKET_S24_SEP_12_COMMUNITY",
       "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
       "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
       "globalEventTicket": {
@@ -1785,7 +1791,7 @@
         "eventEndTime": "2026-09-12T17:00:00",
         "itemBagDescriptionKey": "item_event_ticket_pink_desc_CDC_Gible26",
         "giftable": true,
-        "giftItem": 2254,
+        "giftItem": "ITEM_EVENT_TICKET_S24_SEP_12_COMMUNITY_TO_GIFT",
         "eventBannerUrl": "https://storage.googleapis.com/prod-public-images/1024x512.jpg",
         "displayV2Enabled": true,
         "backgroundImageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fdaa6a9dd_PGO_MCS_CD_Classic_KeyArt_Gible_v1-1024x576.jpg",
@@ -1827,14 +1833,14 @@
   {
     "templateId": "ITEM_EVENT_TICKET_S24_SEP_12_COMMUNITY_TO_GIFT",
     "data": {
-      "itemId": 2254,
+      "itemId": "ITEM_EVENT_TICKET_S24_SEP_12_COMMUNITY_TO_GIFT",
       "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
       "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
       "globalEventTicket": {
         "eventStartTime": "2026-09-12T14:00:00",
         "eventEndTime": "2026-09-12T17:00:00",
         "itemBagDescriptionKey": "item_event_ticket_pink_desc_CDC_Gible26",
-        "ticketItem": 2253,
+        "ticketItem": "ITEM_EVENT_TICKET_S24_SEP_12_COMMUNITY",
         "eventBannerUrl": "https://storage.googleapis.com/prod-public-images/1024x512.jpg",
         "clientEventStartTimeUtcMs": "1789221600000",
         "clientEventEndTimeUtcMs": "1789232400000"
@@ -1847,7 +1853,7 @@
   {
     "templateId": "ITEM_EVENT_TICKET_S24_SEP_19_MEGARAID",
     "data": {
-      "itemId": 2255,
+      "itemId": "ITEM_EVENT_TICKET_S24_SEP_19_MEGARAID",
       "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
       "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
       "globalEventTicket": {
@@ -1855,7 +1861,7 @@
         "eventEndTime": "2026-09-19T17:00:00",
         "itemBagDescriptionKey": "item_event_ticket_gray_desc_MegaStaraptorRaidDay",
         "giftable": true,
-        "giftItem": 2256,
+        "giftItem": "ITEM_EVENT_TICKET_S24_SEP_19_MEGARAID_TO_GIFT",
         "eventBannerUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fc397eb56_PGO-MCS_Staraptor_Super_Mega_Raid_Day_v1-1024x576.jpg",
         "displayV2Enabled": true,
         "backgroundImageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fc397eb56_PGO-MCS_Staraptor_Super_Mega_Raid_Day_v1-1024x576.jpg",
@@ -2164,7 +2170,7 @@
       "category": "ITEM_CATEGORY_INCENSE",
       "dropTrainerLevel": 6,
       "incense": {
-        "incenseLifetimeSeconds": 1800,
+        "incenseLifetimeSeconds": 900,
         "spawnTableProbability": 0.25
       },
       "ignoreInventorySpace": true

@@ -72,8 +72,9 @@ export interface WelcomeBackRewardsSettings {
 }
 
 export interface WelcomeBackRewardsSettingData {
-    enableMultiDayRewards:   boolean;
-    carouselDisplaySettings: CarouselDisplaySettings;
+    enableWelcomeBackRewards: boolean;
+    enableMultiDayRewards:    boolean;
+    carouselDisplaySettings:  CarouselDisplaySettings;
 }
 
 export interface CarouselDisplaySettings {
@@ -222,6 +223,20 @@ export enum CategoryEnum {
     IapCategoryTeamChange = "IAP_CATEGORY_TEAM_CHANGE",
     IapCategoryTransporterEnergy = "IAP_CATEGORY_TRANSPORTER_ENERGY",
     IapCategoryUpgrades = "IAP_CATEGORY_UPGRADES",
+}
+
+export interface ArBackendSettings {
+    templateId: string;
+    data:       ArBackendSettingData;
+}
+
+export interface ArBackendSettingData {
+    featureBackendConfigs: FeatureBackendConfig[];
+}
+
+export interface FeatureBackendConfig {
+    arFeature:  string;
+    arBackend?: string;
 }
 
 export interface ArPhotoFeatureFlags {
@@ -407,7 +422,7 @@ export interface LevelUpRewardData {
     level:                       number;
     items:                       string[];
     itemsCount:                  number[];
-    featuresUnlocked?:           BadgeTypeElement[];
+    featuresUnlocked?:           BonusType[];
     clientOverrideDisplayOrder?: boolean;
     itemsUnlocked?:              string[];
     neutralAvatarItemTemplates?: NeutralAvatarItemTemplate;
@@ -415,7 +430,7 @@ export interface LevelUpRewardData {
     isBackfill?:                 boolean;
 }
 
-export type BadgeTypeElement = number | string;
+export type BonusType = number | string;
 
 export interface NeutralAvatarItemTemplate {
     itemTemplateId:    string;
@@ -441,7 +456,7 @@ export interface BadgeSettings {
 }
 
 export interface BadgeSettingData {
-    badgeType:           BadgeTypeElement;
+    badgeType:           string;
     badgeRank:           number;
     targets:             number[];
     eventBadge?:         boolean;
@@ -1125,7 +1140,7 @@ export interface CombatSettingData {
     shadowPokemonAttackBonusMultiplier:      number;
     shadowPokemonDefenseBonusMultiplier:     number;
     purifiedPokemonAttackMultiplierVsShadow: number;
-    combatExperiment:                        BadgeTypeElement[];
+    combatExperiment:                        BonusType[];
     showQuickSwapButtonsDuringCountdown:     boolean;
     obCombatSettingsNotPushedBool2:          boolean;
     clockSyncSettings:                       ClockSyncSettings;
@@ -1289,6 +1304,7 @@ export interface DailyAdventureIncenseSettingData {
     localDeliveryTime:         string;
     enablePushNotification:    boolean;
     pushNotificationHourOfDay: number;
+    mapIconDisabled:           boolean;
 }
 
 export interface PokeballGrant {
@@ -1308,8 +1324,8 @@ export interface DeepLinkingSettings {
 export interface DeepLinkingSettingData {
     minPlayerLevelForExternalLink:     number;
     minPlayerLevelForNotificationLink: number;
-    actionsThatIgnoreMinLevel:         BadgeTypeElement[];
-    actionsThatExecuteBeforeMapLoads:  BadgeTypeElement[];
+    actionsThatIgnoreMinLevel:         BonusType[];
+    actionsThatExecuteBeforeMapLoads:  BonusType[];
     iosActionButtonEnabled:            boolean;
 }
 
@@ -1414,14 +1430,31 @@ export interface EventPassDisplaySettings {
     premiumRewardBannerBottom?:        string;
     premiumRewardBannerImageUrl?:      string;
     premiumRewardsDescription?:        string;
-    todayViewSection:                  BadgeTypeElement;
+    todayViewSection:                  string;
     sectionDisplayPriority?:           number;
+    backgroundConfiguration?:          string;
 }
 
 export interface EventPassDisplaySettingsBonusBox {
-    text:     string;
-    iconType: string;
+    text:     Text;
+    iconType: IconTypeEnum;
     quantity: number;
+}
+
+export enum IconTypeEnum {
+    Egg = "EGG",
+    EggIncubator = "EGG_INCUBATOR",
+    Gift = "GIFT",
+    Incense = "INCENSE",
+    Raid = "RAID",
+    SpawnUnknown = "SPAWN_UNKNOWN",
+    Trade = "TRADE",
+}
+
+export enum Text {
+    QuestCatchPokemonSingular = "quest_catch_pokemon_singular",
+    QuestHatchEggSingular = "quest_hatch_egg_singular",
+    QuestWinRaidSingular = "quest_win_raid_singular",
 }
 
 export interface EventPassTrackUpgradeDescription {
@@ -1445,7 +1478,7 @@ export enum Track {
 export interface TrackCondition {
     track:         Track;
     trackTitleKey: string;
-    badge?:        BadgeTypeElement;
+    badge?:        string;
 }
 
 export interface EventPassTierSettings {
@@ -1460,6 +1493,7 @@ export interface EventPassTierSettingData {
     rewards?:                    PurpleReward[];
     bonusSettings?:              Settings;
     activeBonusDisplaySettings?: Settings;
+    isMilestoneRank?:            boolean;
 }
 
 export interface Settings {
@@ -1474,15 +1508,6 @@ export interface ActiveBonusDisplaySettingsBonusBox {
 
 export type IconTypeUnion = IconTypeEnum | number;
 
-export enum IconTypeEnum {
-    EggIncubator = "EGG_INCUBATOR",
-    Gift = "GIFT",
-    Incense = "INCENSE",
-    Raid = "RAID",
-    SpawnUnknown = "SPAWN_UNKNOWN",
-    Trade = "TRADE",
-}
-
 export interface PurpleReward {
     type:                       TypeUnion;
     pokemonEncounter?:          RewardPokemonEncounter;
@@ -1494,6 +1519,7 @@ export interface PurpleReward {
     playerAttribute?:           PlayerAttribute;
     megaResource?:              Candy;
     neutralAvatarItemTemplate?: NeutralAvatarItemTemplate;
+    tempEvoResource?:           TempEvoResource;
 }
 
 export interface Candy {
@@ -1510,7 +1536,7 @@ export interface RewardPokemonEncounter {
     pokemonId:            string;
     pokemonDisplay?:      PurplePokemonDisplay;
     statsLimitsOverride?: StatsLimitsOverride;
-    isFeaturedPokemon:    boolean;
+    isFeaturedPokemon?:   boolean;
 }
 
 export interface PurplePokemonDisplay {
@@ -1530,6 +1556,32 @@ export enum LocationCardEnum {
 export interface StatsLimitsOverride {
     minPokemonLevel: number;
     maxPokemonLevel: number;
+}
+
+export interface TempEvoResource {
+    tempEvoPokemonBranch: Branch;
+    amount:               number;
+}
+
+export interface Branch {
+    pokedexId: Id;
+    tempEvoId: Temp;
+}
+
+export enum Id {
+    Charizard = "CHARIZARD",
+    Gallade = "GALLADE",
+    Gardevoir = "GARDEVOIR",
+    Mewtwo = "MEWTWO",
+    Raichu = "RAICHU",
+    Staraptor = "STARAPTOR",
+}
+
+export enum Temp {
+    TempEvolutionMega = "TEMP_EVOLUTION_MEGA",
+    TempEvolutionMegaX = "TEMP_EVOLUTION_MEGA_X",
+    TempEvolutionMegaY = "TEMP_EVOLUTION_MEGA_Y",
+    TempEvolutionPrimal = "TEMP_EVOLUTION_PRIMAL",
 }
 
 export type TypeUnion = RewardTypeElement | number;
@@ -1634,7 +1686,7 @@ export interface PokemonExtendedSettingData {
     uniqueId:          string;
     sizeSettings:      DataSizeSettings;
     breadOverrides?:   BreadOverride[];
-    form?:             BadgeTypeElement;
+    form?:             string;
     tempEvoOverrides?: PurpleTempEvoOverride[];
 }
 
@@ -1708,13 +1760,6 @@ export interface PurpleTempEvoOverride {
     sizeSettings: BreadOverrideSizeSettings;
 }
 
-export enum Temp {
-    TempEvolutionMega = "TEMP_EVOLUTION_MEGA",
-    TempEvolutionMegaX = "TEMP_EVOLUTION_MEGA_X",
-    TempEvolutionMegaY = "TEMP_EVOLUTION_MEGA_Y",
-    TempEvolutionPrimal = "TEMP_EVOLUTION_PRIMAL",
-}
-
 export interface ExternalAddressableAssetsSettings {
     templateId: string;
     data:       FastAttackSettingsClass;
@@ -1744,7 +1789,7 @@ export interface FormSettingData {
 }
 
 export interface Form {
-    form:                        BadgeTypeElement;
+    form:                        string;
     assetBundleSuffix?:          string;
     isCostume?:                  boolean;
     assetBundleValue?:           number;
@@ -1799,7 +1844,7 @@ export interface ItemSettings {
 }
 
 export interface ItemSettingData {
-    itemId:                BadgeTypeElement;
+    itemId:                string;
     itemType:              string;
     category:              string;
     dropTrainerLevel?:     number;
@@ -1811,6 +1856,7 @@ export interface ItemSettingData {
     hideItemInInventory?:  boolean;
     timePeriodCounters?:   TimePeriodCounters;
     nameOverride?:         string;
+    namePluralOverride?:   string;
     descriptionOverride?:  string;
     incidentTicket?:       IncidentTicket;
     potion?:               Potion;
@@ -1862,14 +1908,14 @@ export interface GlobalEventTicket {
     clientEventStartTimeUtcMs:     string;
     clientEventEndTimeUtcMs:       string;
     giftable?:                     boolean;
-    giftItem?:                     BadgeTypeElement;
+    giftItem?:                     string;
     displayV2Enabled?:             boolean;
     backgroundImageUrl?:           string;
     eventDatetimeRangeKey?:        string;
     textRewardsKey?:               string;
     iconRewards?:                  IconReward[];
     detailsLinkKey?:               string;
-    ticketItem?:                   BadgeTypeElement;
+    ticketItem?:                   string;
     eventBadge?:                   string;
     grantBadgeBeforeEventStartMs?: string;
     titleImageUrl?:                string;
@@ -1943,7 +1989,7 @@ export interface TimePeriodCounters {
 }
 
 export interface PlayerActivity {
-    limit?: number;
+    limit: number;
 }
 
 export interface XpBoost {
@@ -2191,7 +2237,7 @@ export interface IrisSocialUxFunnelSettingData {
 
 export interface EventStep {
     stepNumber: number;
-    event:      BadgeTypeElement;
+    event:      BonusType;
 }
 
 export interface ItemCurrencyValues {
@@ -2284,7 +2330,7 @@ export interface LocationCardSettings {
 }
 
 export interface LocationCardSettingData {
-    locationCard: BadgeTypeElement;
+    locationCard: string;
     imageUrl:     string;
     cardType?:    CardType;
     vfxAddress?:  string;
@@ -2479,9 +2525,9 @@ export interface Effects {
     differentTypeAttackBoost:         number;
     sameTypeAttackBoost:              number;
     sameTypeExtraCatchCandy:          number;
-    selfCpBoostAdditionalLevel?:      number;
     sameTypeExtraCatchXp?:            number;
     sameTypeExtraCatchCandyXlChance?: number;
+    selfCpBoostAdditionalLevel?:      number;
 }
 
 export interface Progression {
@@ -2507,21 +2553,9 @@ export interface MegaEvoSettingData {
     numMegaLevels:                     number;
     clientMegaCooldownBufferMs:        number;
     enableMegaLevelLegacyAward:        boolean;
-    separatedTempEvoBranches:          SeparatedTempEvoBranch[];
-}
-
-export interface SeparatedTempEvoBranch {
-    pokedexId: Id;
-    tempEvoId: Temp;
-}
-
-export enum Id {
-    Charizard = "CHARIZARD",
-    Gallade = "GALLADE",
-    Gardevoir = "GARDEVOIR",
-    Mewtwo = "MEWTWO",
-    Raichu = "RAICHU",
-    Staraptor = "STARAPTOR",
+    minLevelForSpecialMove:            number;
+    separatedTempEvoBranches:          Branch[];
+    enableSpecialMove:                 boolean;
 }
 
 export interface MonodepthSettings {
@@ -2557,7 +2591,7 @@ export interface MpSettingData {
 
 export interface BattleMpCostPerTier {
     breadBattleCatchMpCost:       number;
-    battleLevel:                  BadgeTypeElement;
+    battleLevel:                  BonusType;
     breadBattleRemoteCatchMpCost: number;
 }
 
@@ -2684,14 +2718,15 @@ export interface NonCombatMoveSettings {
 }
 
 export interface NonCombatMoveSettingData {
-    uniqueId:            string;
-    cost:                Cost;
-    bonusEffect:         BonusEffect;
-    durationMs:          string;
-    bonusType:           BadgeTypeElement;
-    enableMultiUse:      boolean;
-    extraDurationMs:     string;
-    enableNonCombatMove: boolean;
+    uniqueId:                    string;
+    cost:                        Cost;
+    bonusEffect:                 BonusEffect;
+    durationMs:                  string;
+    bonusType:                   BonusType;
+    enableMultiUse:              boolean;
+    extraDurationMs:             string;
+    enableNonCombatMove:         boolean;
+    innLobbyActivationSettings?: InnLobbyActivationSettings;
 }
 
 export interface BonusEffect {
@@ -2701,6 +2736,7 @@ export interface BonusEffect {
     slowFreezeBonus?:    SlowFreezeBonus;
     attackDefenseBonus?: AttackDefenseBonus;
     maxMoveBonus?:       MaxMoveBonus;
+    megaMoveBonus?:      MegaMoveBonus;
 }
 
 export interface AttackDefenseBonus {
@@ -2722,6 +2758,13 @@ export interface MaxMoveBonus {
     numAllMaxMoveLevelIncrease: number;
 }
 
+export interface MegaMoveBonus {
+    specialMove:                string;
+    attackMultiplier?:          number;
+    extraMegaRaidShieldBreak?:  number;
+    visibleAppraisalStarTiers?: number[];
+}
+
 export interface SlowFreezeBonus {
     catchCircleTimeScaleOverride:      number;
     catchRateIncreaseMultiplier:       number;
@@ -2740,8 +2783,20 @@ export interface TimeBonus {
 }
 
 export interface Cost {
-    candyCost:     number;
-    stardustCost?: number;
+    candyCost:            number;
+    stardustCost?:        number;
+    tempEvoResourceCost?: TempEvoResourceCost;
+}
+
+export interface TempEvoResourceCost {
+    tempEvoPokemonBranch: Branch;
+    megaEnergyCost:       number;
+}
+
+export interface InnLobbyActivationSettings {
+    enableActivationInMegaRaidLobby?: boolean;
+    enableActivationInRaidLobby?:     boolean;
+    enableActivationInMaxLobby?:      boolean;
 }
 
 export interface AvatarItemDisplay {
@@ -3024,7 +3079,7 @@ export interface PokedexCategoriesSettingData {
 }
 
 export interface PokedexCategorySettingsInOrder {
-    pokedexCategory: BadgeTypeElement;
+    pokedexCategory: BonusType;
     milestoneGoal:   number;
     visuallyHidden?: boolean;
 }
@@ -3259,6 +3314,7 @@ export interface RaidSettingData {
     friendRequestsEnabled:                 boolean;
     remoteRaidDistanceValidation:          boolean;
     popupTimeMs:                           number;
+    failedFriendInviteInfoEnabled:         boolean;
     minPlayersToBoot:                      number;
     bootCutoffMs:                          number;
     bootSoloMs:                            number;
@@ -3360,7 +3416,7 @@ export interface ReferralSettingData {
 }
 
 export interface RecentFeature {
-    iconType:    BadgeTypeElement;
+    iconType:    BonusType;
     featureName: string;
     description: string;
 }
@@ -3371,6 +3427,7 @@ export interface SquashSettings {
 }
 
 export interface SquashSettingData {
+    enabled:          boolean;
     dailySquashLimit: number;
 }
 
@@ -3595,6 +3652,7 @@ export interface SoftSfidaSettings {
 }
 
 export interface SoftSfidaSettingData {
+    enable:                boolean;
     minPlayerLevel:        number;
     catchActionDelayMs:    number;
     spinActionDelayMs:     number;
@@ -3873,7 +3931,7 @@ export interface TutorialSettingData {
 }
 
 export interface TutorialItemReward {
-    tutorial: BadgeTypeElement;
+    tutorial: BonusType;
     item?:    ItemElement[];
 }
 
@@ -3936,7 +3994,7 @@ export interface PokemonSettingData {
     allowNoevolveEvolution?:            string[];
     ibfc:                               Ibfc;
     breadTierGroup?:                    BreadTierGroupEnum;
-    form?:                              BadgeTypeElement;
+    form?:                              string;
     disableTransferToPokemonHome?:      boolean;
     parentPokemonId?:                   string;
     buddySize?:                         BuddySize;
@@ -4181,6 +4239,7 @@ export interface FluffyTempEvoOverride {
     modelHeight?:            number;
     buddyOffsetMale?:        number[];
     buddyOffsetFemale?:      number[];
+    specialMove?:            string;
     buddyPortraitOffset?:    number[];
     raidBossDistanceOffset?: number;
     buddyPortraitRotation?:  number[];

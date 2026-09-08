@@ -5988,6 +5988,25 @@
     }
   },
   {
+    "templateId": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0015_POKEMON_BEEDRILL",
+    "data": {
+      "movementId": "TEMP_EVOLUTION_MEGA_V0015_POKEMON_BEEDRILL",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_BUG",
+      "power": 140,
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "fell_stinger",
+      "durationMs": 2000,
+      "damageWindowStartMs": 1600,
+      "damageWindowEndMs": 1800,
+      "energyDelta": -100,
+      "isLocked": true
+    }
+  },
+  {
     "templateId": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0071_POKEMON_VICTREEBEL",
     "data": {
       "movementId": "TEMP_EVOLUTION_MEGA_V0071_POKEMON_VICTREEBEL",

@@ -56,6 +56,7 @@
       "friendRequestsEnabled": true,
       "remoteRaidDistanceValidation": true,
       "popupTimeMs": 30000,
+      "failedFriendInviteInfoEnabled": true,
       "minPlayersToBoot": 2,
       "bootCutoffMs": 15000,
       "bootSoloMs": 30000,

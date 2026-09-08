@@ -229,14 +229,30 @@
     "data": {
       "uniqueId": "TEMP_EVOLUTION_MEGA_X_V0150_POKEMON_MEWTWO",
       "cost": {
-        "candyCost": 5
+        "candyCost": 5,
+        "tempEvoResourceCost": {
+          "tempEvoPokemonBranch": {
+            "pokedexId": "MEWTWO",
+            "tempEvoId": "TEMP_EVOLUTION_MEGA_X"
+          },
+          "megaEnergyCost": 75
+        }
       },
-      "bonusEffect": {},
+      "bonusEffect": {
+        "megaMoveBonus": {
+          "specialMove": "TEMP_EVOLUTION_MEGA_X_V0150_POKEMON_MEWTWO",
+          "attackMultiplier": 1.15,
+          "extraMegaRaidShieldBreak": 1
+        }
+      },
       "durationMs": "600000",
       "bonusType": 10,
       "enableMultiUse": true,
       "extraDurationMs": "4000",
-      "enableNonCombatMove": true
+      "enableNonCombatMove": true,
+      "innLobbyActivationSettings": {
+        "enableActivationInMegaRaidLobby": true
+      }
     }
   },
   {
@@ -244,14 +260,33 @@
     "data": {
       "uniqueId": "TEMP_EVOLUTION_MEGA_Y_V0150_POKEMON_MEWTWO",
       "cost": {
-        "candyCost": 5
+        "candyCost": 5,
+        "tempEvoResourceCost": {
+          "tempEvoPokemonBranch": {
+            "pokedexId": "MEWTWO",
+            "tempEvoId": "TEMP_EVOLUTION_MEGA_Y"
+          },
+          "megaEnergyCost": 75
+        }
       },
-      "bonusEffect": {},
+      "bonusEffect": {
+        "megaMoveBonus": {
+          "specialMove": "TEMP_EVOLUTION_MEGA_Y_V0150_POKEMON_MEWTWO",
+          "visibleAppraisalStarTiers": [
+            3,
+            4
+          ]
+        }
+      },
       "durationMs": "720000",
       "bonusType": 11,
       "enableMultiUse": true,
       "extraDurationMs": "4000",
-      "enableNonCombatMove": true
+      "enableNonCombatMove": true,
+      "innLobbyActivationSettings": {
+        "enableActivationInRaidLobby": true,
+        "enableActivationInMaxLobby": true
+      }
     }
   }
 ]

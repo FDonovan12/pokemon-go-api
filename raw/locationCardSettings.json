@@ -1549,7 +1549,7 @@
   {
     "templateId": "LC_SPECIALBACKGROUND_2026_10TH_ANNIVERSARY_001",
     "data": {
-      "locationCard": 407,
+      "locationCard": "LC_SPECIALBACKGROUND_2026_10TH_ANNIVERSARY_001",
       "imageUrl": "sb_GoTour2025_black",
       "cardType": "SPECIAL_BACKGROUND",
       "vfxAddress": "bgfx_10thAnniGlobe"
@@ -1750,7 +1750,7 @@
   {
     "templateId": "LC_SPECIALBACKGROUND_MIDAUTUMN_2026",
     "data": {
-      "locationCard": 350,
+      "locationCard": "LC_SPECIALBACKGROUND_MIDAUTUMN_2026",
       "imageUrl": "lc_specialbackground_midautumn_2026"
     }
   },
@@ -1773,7 +1773,7 @@
   {
     "templateId": "LC_SPECIALBACKGROUND_S24_SEP_2026",
     "data": {
-      "locationCard": 349,
+      "locationCard": "LC_SPECIALBACKGROUND_S24_SEP_2026",
       "imageUrl": "sb_s24_sep_2026",
       "cardType": "SPECIAL_BACKGROUND",
       "vfxAddress": "bgfx_Horizons_2026"

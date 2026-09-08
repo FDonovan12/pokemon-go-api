@@ -2,6 +2,7 @@
   {
     "templateId": "SOFT_SFIDA_SETTINGS",
     "data": {
+      "enable": true,
       "minPlayerLevel": 20,
       "catchActionDelayMs": 8000,
       "spinActionDelayMs": 8000,

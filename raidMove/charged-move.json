@@ -2963,6 +2963,18 @@
       "fr": "Gulp Missile Gorging"
     }
   },
+  "TEMP_EVOLUTION_MEGA_V0015_POKEMON_BEEDRILL": {
+    "id": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0015_POKEMON_BEEDRILL",
+    "movementId": "TEMP_EVOLUTION_MEGA_V0015_POKEMON_BEEDRILL",
+    "pokemonType": "Insecte",
+    "power": 140,
+    "durationMs": 2000,
+    "energyDelta": -100,
+    "vfxName": "fell_stinger",
+    "names": {
+      "fr": "Dard Mortel+"
+    }
+  },
   "TEMP_EVOLUTION_MEGA_V0071_POKEMON_VICTREEBEL": {
     "id": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0071_POKEMON_VICTREEBEL",
     "movementId": "TEMP_EVOLUTION_MEGA_V0071_POKEMON_VICTREEBEL",

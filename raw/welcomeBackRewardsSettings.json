@@ -2,6 +2,7 @@
   {
     "templateId": "AMUSE_BOUCHE_WELCOME_BACK_REWARDS",
     "data": {
+      "enableWelcomeBackRewards": true,
       "enableMultiDayRewards": true,
       "carouselDisplaySettings": {
         "questIconCarousels": [

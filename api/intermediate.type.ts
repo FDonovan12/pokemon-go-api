@@ -60,6 +60,7 @@ export interface SameTempEvoOverride {
     modelHeight?:            number;
     buddyOffsetMale?:        number[];
     buddyOffsetFemale?:      number[];
+    specialMove?:            string;
     buddyPortraitOffset?:    number[];
     raidBossDistanceOffset?: number;
     buddyPortraitRotation?:  number[];

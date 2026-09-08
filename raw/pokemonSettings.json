@@ -4692,7 +4692,8 @@
             "cylinderGroundM": 0.3
           },
           "modelScaleV2": 0.77,
-          "modelHeight": 1.28
+          "modelHeight": 1.28,
+          "specialMove": "TEMP_EVOLUTION_MEGA_V0015_POKEMON_BEEDRILL"
         }
       ],
       "buddyWalkedMegaEnergyAward": 5,
@@ -4831,7 +4832,8 @@
             "cylinderGroundM": 0.3
           },
           "modelScaleV2": 0.77,
-          "modelHeight": 1.28
+          "modelHeight": 1.28,
+          "specialMove": "TEMP_EVOLUTION_MEGA_V0015_POKEMON_BEEDRILL"
         }
       ],
       "buddyWalkedMegaEnergyAward": 5,
@@ -7416,7 +7418,7 @@
       "buddySize": "BUDDY_SHOULDER",
       "modelHeight": 0.4,
       "modelScaleV2": 1.1,
-      "form": 3358,
+      "form": "PIKACHU_ANNIVERSARY_2026_MALAYSIA_01",
       "buddyOffsetMale": [
         0,
         0,
@@ -7527,7 +7529,7 @@
       "buddySize": "BUDDY_SHOULDER",
       "modelHeight": 0.4,
       "modelScaleV2": 1.1,
-      "form": 3375,
+      "form": "PIKACHU_ANNIVERSARY_2026_PHILIPPINE_01",
       "buddyOffsetMale": [
         0,
         0,
@@ -7638,7 +7640,7 @@
       "buddySize": "BUDDY_SHOULDER",
       "modelHeight": 0.4,
       "modelScaleV2": 1.1,
-      "form": 3359,
+      "form": "PIKACHU_ANNIVERSARY_2026_SINGAPORE_01",
       "buddyOffsetMale": [
         0,
         0,
@@ -7749,7 +7751,7 @@
       "buddySize": "BUDDY_SHOULDER",
       "modelHeight": 0.4,
       "modelScaleV2": 1.1,
-      "form": 3360,
+      "form": "PIKACHU_ANNIVERSARY_2026_TAIWAN_01",
       "buddyOffsetMale": [
         0,
         0,
@@ -12329,7 +12331,7 @@
       "buddySize": "BUDDY_SHOULDER",
       "modelHeight": 0.4,
       "modelScaleV2": 1.1,
-      "form": 3361,
+      "form": "PIKACHU_K_2026_A_01",
       "buddyOffsetMale": [
         0,
         0,
@@ -14619,7 +14621,8 @@
             0,
             0,
             -1100
-          ]
+          ],
+          "specialMove": "TEMP_EVOLUTION_MEGA_X_V0026_POKEMON_RAICHU"
         },
         {
           "tempEvoId": "TEMP_EVOLUTION_MEGA_Y",
@@ -14630,7 +14633,8 @@
           },
           "averageHeightM": 1,
           "averageWeightKg": 26,
-          "typeOverride1": "POKEMON_TYPE_ELECTRIC"
+          "typeOverride1": "POKEMON_TYPE_ELECTRIC",
+          "specialMove": "TEMP_EVOLUTION_MEGA_Y_V0026_POKEMON_RAICHU"
         }
       ],
       "buddyWalkedMegaEnergyAwards": [
@@ -14880,7 +14884,8 @@
             0,
             0,
             -1100
-          ]
+          ],
+          "specialMove": "TEMP_EVOLUTION_MEGA_X_V0026_POKEMON_RAICHU"
         },
         {
           "tempEvoId": "TEMP_EVOLUTION_MEGA_Y",
@@ -14891,7 +14896,8 @@
           },
           "averageHeightM": 1,
           "averageWeightKg": 26,
-          "typeOverride1": "POKEMON_TYPE_ELECTRIC"
+          "typeOverride1": "POKEMON_TYPE_ELECTRIC",
+          "specialMove": "TEMP_EVOLUTION_MEGA_Y_V0026_POKEMON_RAICHU"
         }
       ],
       "buddyWalkedMegaEnergyAwards": [
@@ -25804,7 +25810,8 @@
           },
           "modelScaleV2": 0.7,
           "modelHeight": 4.5,
-          "raidBossDistanceOffset": 4.5
+          "raidBossDistanceOffset": 4.5,
+          "specialMove": "TEMP_EVOLUTION_MEGA_V0071_POKEMON_VICTREEBEL"
         }
       ],
       "buddyWalkedMegaEnergyAward": 15,
@@ -25939,7 +25946,8 @@
           },
           "modelScaleV2": 0.7,
           "modelHeight": 4.5,
-          "raidBossDistanceOffset": 4.5
+          "raidBossDistanceOffset": 4.5,
+          "specialMove": "TEMP_EVOLUTION_MEGA_V0071_POKEMON_VICTREEBEL"
         }
       ],
       "buddyWalkedMegaEnergyAward": 15,
@@ -38804,7 +38812,8 @@
             0,
             220,
             0
-          ]
+          ],
+          "specialMove": "TEMP_EVOLUTION_MEGA_V0121_POKEMON_STARMIE"
         }
       ],
       "buddyWalkedMegaEnergyAward": 15,
@@ -38946,7 +38955,8 @@
             0,
             220,
             0
-          ]
+          ],
+          "specialMove": "TEMP_EVOLUTION_MEGA_V0121_POKEMON_STARMIE"
         }
       ],
       "buddyWalkedMegaEnergyAward": 15,
@@ -46333,7 +46343,8 @@
             "cylinderGroundM": 1.25
           },
           "modelScaleV2": 0.9,
-          "modelHeight": 2.2
+          "modelHeight": 2.2,
+          "specialMove": "TEMP_EVOLUTION_MEGA_V0149_POKEMON_DRAGONITE"
         }
       ],
       "buddyWalkedMegaEnergyAward": 25,
@@ -46479,7 +46490,8 @@
             "cylinderGroundM": 1.25
           },
           "modelScaleV2": 0.9,
-          "modelHeight": 2.2
+          "modelHeight": 2.2,
+          "specialMove": "TEMP_EVOLUTION_MEGA_V0149_POKEMON_DRAGONITE"
         }
       ],
       "buddyWalkedMegaEnergyAward": 25,
@@ -46620,7 +46632,8 @@
             "cylinderHeightM": 2.4
           },
           "modelScaleV2": 0.86,
-          "modelHeight": 2.3
+          "modelHeight": 2.3,
+          "specialMove": "TEMP_EVOLUTION_MEGA_X_V0150_POKEMON_MEWTWO"
         },
         {
           "tempEvoId": "TEMP_EVOLUTION_MEGA_Y",
@@ -46637,7 +46650,8 @@
             "cylinderHeightM": 2
           },
           "modelScaleV2": 1.2,
-          "modelHeight": 1.7
+          "modelHeight": 1.7,
+          "specialMove": "TEMP_EVOLUTION_MEGA_Y_V0150_POKEMON_MEWTWO"
         }
       ],
       "buddyWalkedMegaEnergyAwards": [
@@ -46900,7 +46914,8 @@
             "cylinderHeightM": 2.4
           },
           "modelScaleV2": 0.86,
-          "modelHeight": 2.3
+          "modelHeight": 2.3,
+          "specialMove": "TEMP_EVOLUTION_MEGA_X_V0150_POKEMON_MEWTWO"
         },
         {
           "tempEvoId": "TEMP_EVOLUTION_MEGA_Y",
@@ -46917,7 +46932,8 @@
             "cylinderHeightM": 2
           },
           "modelScaleV2": 1.2,
-          "modelHeight": 1.7
+          "modelHeight": 1.7,
+          "specialMove": "TEMP_EVOLUTION_MEGA_Y_V0150_POKEMON_MEWTWO"
         }
       ],
       "buddyWalkedMegaEnergyAwards": [
@@ -66205,7 +66221,8 @@
             "cylinderGroundM": 2.1
           },
           "modelScaleV2": 1,
-          "modelHeight": 1.1
+          "modelHeight": 1.1,
+          "specialMove": "TEMP_EVOLUTION_MEGA_V0227_POKEMON_SKARMORY"
         }
       ],
       "buddyWalkedMegaEnergyAward": 25,
@@ -66333,7 +66350,8 @@
             "cylinderGroundM": 2.1
           },
           "modelScaleV2": 1,
-          "modelHeight": 1.1
+          "modelHeight": 1.1,
+          "specialMove": "TEMP_EVOLUTION_MEGA_V0227_POKEMON_SKARMORY"
         }
       ],
       "buddyWalkedMegaEnergyAward": 25,
@@ -105477,7 +105495,8 @@
             0,
             0,
             300
-          ]
+          ],
+          "specialMove": "TEMP_EVOLUTION_MEGA_V0398_POKEMON_STARAPTOR"
         }
       ],
       "buddyWalkedMegaEnergyAward": 5,
@@ -105618,7 +105637,8 @@
             0,
             0,
             300
-          ]
+          ],
+          "specialMove": "TEMP_EVOLUTION_MEGA_V0398_POKEMON_STARAPTOR"
         }
       ],
       "buddyWalkedMegaEnergyAward": 5,
@@ -161918,6 +161938,7 @@
         "shadowChargeMove": "FRUSTRATION"
       },
       "buddyGroupNumber": 1,
+      "buddyWalkedMegaEnergyAward": 15,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
     }
@@ -162016,6 +162037,7 @@
         "shadowChargeMove": "FRUSTRATION"
       },
       "buddyGroupNumber": 1,
+      "buddyWalkedMegaEnergyAward": 15,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
     }
@@ -162116,6 +162138,7 @@
         "shadowChargeMove": "FRUSTRATION"
       },
       "buddyGroupNumber": 2,
+      "buddyWalkedMegaEnergyAward": 15,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
     }
@@ -162218,6 +162241,7 @@
         "shadowChargeMove": "FRUSTRATION"
       },
       "buddyGroupNumber": 2,
+      "buddyWalkedMegaEnergyAward": 15,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
     }
@@ -162337,7 +162361,8 @@
           "averageHeightM": 1.6,
           "averageWeightKg": 90,
           "typeOverride1": "POKEMON_TYPE_GRASS",
-          "typeOverride2": "POKEMON_TYPE_FIGHTING"
+          "typeOverride2": "POKEMON_TYPE_FIGHTING",
+          "specialMove": "TEMP_EVOLUTION_MEGA_V0652_POKEMON_CHESNAUGHT"
         }
       ],
       "buddyWalkedMegaEnergyAward": 15,
@@ -162461,7 +162486,8 @@
           "averageHeightM": 1.6,
           "averageWeightKg": 90,
           "typeOverride1": "POKEMON_TYPE_GRASS",
-          "typeOverride2": "POKEMON_TYPE_FIGHTING"
+          "typeOverride2": "POKEMON_TYPE_FIGHTING",
+          "specialMove": "TEMP_EVOLUTION_MEGA_V0652_POKEMON_CHESNAUGHT"
         }
       ],
       "buddyWalkedMegaEnergyAward": 15,
@@ -162561,6 +162587,7 @@
         "shadowChargeMove": "FRUSTRATION"
       },
       "buddyGroupNumber": 1,
+      "buddyWalkedMegaEnergyAward": 15,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
     }
@@ -162659,6 +162686,7 @@
         "shadowChargeMove": "FRUSTRATION"
       },
       "buddyGroupNumber": 1,
+      "buddyWalkedMegaEnergyAward": 15,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
     }
@@ -162757,6 +162785,7 @@
         "shadowChargeMove": "FRUSTRATION"
       },
       "buddyGroupNumber": 2,
+      "buddyWalkedMegaEnergyAward": 15,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
     }
@@ -162857,6 +162886,7 @@
         "shadowChargeMove": "FRUSTRATION"
       },
       "buddyGroupNumber": 2,
+      "buddyWalkedMegaEnergyAward": 15,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
     }
@@ -162986,7 +163016,8 @@
             0,
             0,
             -300
-          ]
+          ],
+          "specialMove": "TEMP_EVOLUTION_MEGA_V0655_POKEMON_DELPHOX"
         }
       ],
       "buddyWalkedMegaEnergyAward": 15,
@@ -163120,7 +163151,8 @@
             0,
             0,
             -300
-          ]
+          ],
+          "specialMove": "TEMP_EVOLUTION_MEGA_V0655_POKEMON_DELPHOX"
         }
       ],
       "buddyWalkedMegaEnergyAward": 15,
@@ -163225,6 +163257,7 @@
         "shadowChargeMove": "FRUSTRATION"
       },
       "buddyGroupNumber": 1,
+      "buddyWalkedMegaEnergyAward": 15,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
     }
@@ -163328,6 +163361,7 @@
         "shadowChargeMove": "FRUSTRATION"
       },
       "buddyGroupNumber": 1,
+      "buddyWalkedMegaEnergyAward": 15,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
     }
@@ -163428,6 +163462,7 @@
         "shadowChargeMove": "FRUSTRATION"
       },
       "buddyGroupNumber": 2,
+      "buddyWalkedMegaEnergyAward": 15,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
     }
@@ -163530,6 +163565,7 @@
         "shadowChargeMove": "FRUSTRATION"
       },
       "buddyGroupNumber": 2,
+      "buddyWalkedMegaEnergyAward": 15,
       "ibfc": {},
       "breadTierGroup": "GROUP_1"
     }
@@ -163659,7 +163695,8 @@
             0,
             0,
             -2000
-          ]
+          ],
+          "specialMove": "TEMP_EVOLUTION_MEGA_V0658_POKEMON_GRENINJA"
         }
       ],
       "buddyWalkedMegaEnergyAward": 15,
@@ -163794,7 +163831,8 @@
             0,
             0,
             -2000
-          ]
+          ],
+          "specialMove": "TEMP_EVOLUTION_MEGA_V0658_POKEMON_GRENINJA"
         }
       ],
       "buddyWalkedMegaEnergyAward": 15,
@@ -175366,7 +175404,8 @@
             "cylinderGroundM": 1.55
           },
           "modelScaleV2": 0.8,
-          "modelHeight": 2.9
+          "modelHeight": 2.9,
+          "specialMove": "TEMP_EVOLUTION_MEGA_V0687_POKEMON_MALAMAR"
         }
       ],
       "buddyWalkedMegaEnergyAward": 15,
@@ -175490,7 +175529,8 @@
             "cylinderGroundM": 1.55
           },
           "modelScaleV2": 0.8,
-          "modelHeight": 2.9
+          "modelHeight": 2.9,
+          "specialMove": "TEMP_EVOLUTION_MEGA_V0687_POKEMON_MALAMAR"
         }
       ],
       "buddyWalkedMegaEnergyAward": 15,
@@ -210823,7 +210863,8 @@
             0,
             -200,
             0
-          ]
+          ],
+          "specialMove": "TEMP_EVOLUTION_MEGA_V0870_POKEMON_FALINKS"
         }
       ],
       "buddyWalkedMegaEnergyAward": 25,
@@ -210930,7 +210971,8 @@
             0,
             -200,
             0
-          ]
+          ],
+          "specialMove": "TEMP_EVOLUTION_MEGA_V0870_POKEMON_FALINKS"
         }
       ],
       "buddyWalkedMegaEnergyAward": 25,
@@ -211038,7 +211080,8 @@
             0,
             -200,
             0
-          ]
+          ],
+          "specialMove": "TEMP_EVOLUTION_MEGA_V0870_POKEMON_FALINKS"
         }
       ],
       "buddyWalkedMegaEnergyAward": 25,

@@ -1677,7 +1677,7 @@
     "templateId": "EXTENDED_V0025_PIKACHU_ANNIVERSARY_2026_MALAYSIA_01",
     "data": {
       "uniqueId": "PIKACHU",
-      "form": 3358,
+      "form": "PIKACHU_ANNIVERSARY_2026_MALAYSIA_01",
       "sizeSettings": {
         "xxsLowerBound": 0.196,
         "xsLowerBound": 0.2,
@@ -1738,7 +1738,7 @@
     "templateId": "EXTENDED_V0025_PIKACHU_ANNIVERSARY_2026_PHILIPPINE_01",
     "data": {
       "uniqueId": "PIKACHU",
-      "form": 3375,
+      "form": "PIKACHU_ANNIVERSARY_2026_PHILIPPINE_01",
       "sizeSettings": {
         "xxsLowerBound": 0.196,
         "xsLowerBound": 0.2,
@@ -1799,7 +1799,7 @@
     "templateId": "EXTENDED_V0025_PIKACHU_ANNIVERSARY_2026_SINGAPORE_01",
     "data": {
       "uniqueId": "PIKACHU",
-      "form": 3359,
+      "form": "PIKACHU_ANNIVERSARY_2026_SINGAPORE_01",
       "sizeSettings": {
         "xxsLowerBound": 0.196,
         "xsLowerBound": 0.2,
@@ -1860,7 +1860,7 @@
     "templateId": "EXTENDED_V0025_PIKACHU_ANNIVERSARY_2026_TAIWAN_01",
     "data": {
       "uniqueId": "PIKACHU",
-      "form": 3360,
+      "form": "PIKACHU_ANNIVERSARY_2026_TAIWAN_01",
       "sizeSettings": {
         "xxsLowerBound": 0.196,
         "xsLowerBound": 0.2,
@@ -4726,7 +4726,7 @@
     "templateId": "EXTENDED_V0025_POKEMON_PIKACHU_K_2026_A_01",
     "data": {
       "uniqueId": "PIKACHU",
-      "form": 3361,
+      "form": "PIKACHU_K_2026_A_01",
       "sizeSettings": {
         "xxsLowerBound": 0.196,
         "xsLowerBound": 0.2,

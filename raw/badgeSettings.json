@@ -6813,7 +6813,7 @@
   {
     "templateId": "BADGE_GOFEST_FINALE_2026_EVENT_PASS_DELUXE",
     "data": {
-      "badgeType": 6261,
+      "badgeType": "BADGE_GOFEST_FINALE_2026_EVENT_PASS_DELUXE",
       "badgeRank": 2,
       "targets": [
         100

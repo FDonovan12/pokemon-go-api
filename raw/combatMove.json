@@ -3693,6 +3693,20 @@
     }
   },
   {
+    "templateId": "COMBAT_VM_MOVE_TEMP_EVOLUTION_MEGA_V0015_POKEMON_BEEDRILL",
+    "data": {
+      "uniqueId": "TEMP_EVOLUTION_MEGA_V0015_POKEMON_BEEDRILL",
+      "type": "POKEMON_TYPE_BUG",
+      "power": 40,
+      "vfxName": "fell_stinger",
+      "energyDelta": -35,
+      "buffs": {
+        "attackerAttackStatStageChange": 1,
+        "buffActivationChance": 1
+      }
+    }
+  },
+  {
     "templateId": "COMBAT_VM_MOVE_TEMP_EVOLUTION_MEGA_V0071_POKEMON_VICTREEBEL",
     "data": {
       "uniqueId": "TEMP_EVOLUTION_MEGA_V0071_POKEMON_VICTREEBEL",

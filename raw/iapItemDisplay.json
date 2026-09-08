@@ -425,8 +425,8 @@
     "templateId": "EVENT_PASS_MONTH1_SEASON_STORE_REDIRECT",
     "data": {
       "sku": "pgorelease.month1_deluxe_event_pass_track_redirect",
+      "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 1,
-      "hidden": true,
       "title": "season_pass_premium_track_title_sep",
       "description": "deluxe_event_pass_track_unlock_description",
       "skuEnableTime": "2025-06-02T10:00:00",
@@ -485,14 +485,14 @@
     "templateId": "EVENT_PASS_SEPTEMBER1_EVENT_STORE_REDIRECT",
     "data": {
       "sku": "pgorelease.september1_2026_deluxe_event_pass_track_unlock_redirect",
+      "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 1,
-      "hidden": true,
       "title": "season_pass_premium_track_title_mega_squads_2026",
       "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
       "skuEnableTime": "2025-09-08T10:00:00",
-      "skuDisableTime": "2025-09-16T20:00:00",
+      "skuDisableTime": "2026-09-16T20:00:00",
       "skuEnableTimeUtcMs": "1757325600000",
-      "skuDisableTimeUtcMs": "1758052800000",
+      "skuDisableTimeUtcMs": "1789588800000",
       "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F13d4dacd_PGO-MCS_Avatar_Maschiff_Top_v2-1024x576%20no%20logo.png"
     }
   },
@@ -1046,7 +1046,6 @@
     "data": {
       "sku": "pgorelease.month1_deluxe_event_pass_track_unlock",
       "sortOrder": 1,
-      "hidden": true,
       "title": "season_pass_premium_track_title_sep",
       "description": "deluxe_event_pass_track_unlock_description",
       "skuEnableTime": "2025-06-02T10:00:00",
@@ -1061,7 +1060,6 @@
     "data": {
       "sku": "pgorelease.month1_deluxe_event_pass_track_unlock_plus_points",
       "sortOrder": 1,
-      "hidden": true,
       "title": "season_pass_premium_track_plus_ten_ranks_title_sep",
       "description": "deluxe_event_pass_track_unlock_plus_points_description",
       "skuEnableTime": "2025-06-02T10:00:00",
@@ -1134,13 +1132,12 @@
     "data": {
       "sku": "pgorelease.september1_2026_deluxe_event_pass_track_unlock",
       "sortOrder": 1,
-      "hidden": true,
       "title": "season_pass_premium_track_title_mega_squads_2026",
       "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
       "skuEnableTime": "2025-09-08T10:00:00",
-      "skuDisableTime": "2025-09-16T20:00:00",
+      "skuDisableTime": "2026-09-16T20:00:00",
       "skuEnableTimeUtcMs": "1757325600000",
-      "skuDisableTimeUtcMs": "1758052800000",
+      "skuDisableTimeUtcMs": "1789588800000",
       "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F13d4dacd_PGO-MCS_Avatar_Maschiff_Top_v2-1024x576%20no%20logo.png"
     }
   },
@@ -1149,13 +1146,12 @@
     "data": {
       "sku": "pgorelease.september1_2026_deluxe_event_pass_track_unlock_plus_points",
       "sortOrder": 1,
-      "hidden": true,
       "title": "season_pass_premium_track_plus_six_ranks_title_mega_squads_2026",
       "description": "event_pass_plus_points_6_ranks_description",
       "skuEnableTime": "2025-09-08T10:00:00",
-      "skuDisableTime": "2025-09-16T20:00:00",
+      "skuDisableTime": "2026-09-16T20:00:00",
       "skuEnableTimeUtcMs": "1757325600000",
-      "skuDisableTimeUtcMs": "1758052800000",
+      "skuDisableTimeUtcMs": "1789588800000",
       "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F13d4dacd_PGO-MCS_Avatar_Maschiff_Top_v2-1024x576%20no%20logo.png"
     }
   },
@@ -7302,12 +7298,13 @@
       "sku": "bundle.GOFest2026Finale.1",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 1,
+      "hidden": true,
       "spriteId": "bundle.general.remotebox.small.1",
       "title": "box_goraid",
       "skuEnableTime": "2026-01-02T20:00:00",
-      "skuDisableTime": "2026-09-06T22:00:00",
+      "skuDisableTime": "2026-01-02T22:00:00",
       "skuEnableTimeUtcMs": "1767384000000",
-      "skuDisableTimeUtcMs": "1788732000000",
+      "skuDisableTimeUtcMs": "1767391200000",
       "showDiscountTag": true,
       "showStrikethroughPrice": true
     }
@@ -7318,12 +7315,13 @@
       "sku": "bundle.GOFest2026Finale.2",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 2,
+      "hidden": true,
       "spriteId": "bundle.general1.small.2",
       "title": "box_gocatch",
       "skuEnableTime": "2026-01-02T20:00:00",
-      "skuDisableTime": "2026-09-06T22:00:00",
+      "skuDisableTime": "2026-01-02T22:00:00",
       "skuEnableTimeUtcMs": "1767384000000",
-      "skuDisableTimeUtcMs": "1788732000000",
+      "skuDisableTimeUtcMs": "1767391200000",
       "showDiscountTag": true,
       "showStrikethroughPrice": true
     }
@@ -7334,12 +7332,13 @@
       "sku": "bundle.GOFest2026Finale.3",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 3,
+      "hidden": true,
       "spriteId": "bundle.general.premiumbox.large.1",
       "title": "box_gomaster",
       "skuEnableTime": "2026-01-02T20:00:00",
-      "skuDisableTime": "2026-09-06T22:00:00",
+      "skuDisableTime": "2026-01-02T22:00:00",
       "skuEnableTimeUtcMs": "1767384000000",
-      "skuDisableTimeUtcMs": "1788732000000"
+      "skuDisableTimeUtcMs": "1767391200000"
     }
   },
   {
@@ -7348,12 +7347,13 @@
       "sku": "bundle.GOFest2026Finale.4",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 4,
+      "hidden": true,
       "spriteId": "bundle.general.adventure.1",
       "title": "box_gosticker",
       "skuEnableTime": "2026-01-02T20:00:00",
-      "skuDisableTime": "2026-09-06T22:00:00",
+      "skuDisableTime": "2026-01-02T22:00:00",
       "skuEnableTimeUtcMs": "1767384000000",
-      "skuDisableTimeUtcMs": "1788732000000",
+      "skuDisableTimeUtcMs": "1767391200000",
       "showDiscountTag": true,
       "showStrikethroughPrice": true
     }
@@ -11927,6 +11927,34 @@
     }
   },
   {
+    "templateId": "pgorelease.month1_deluxe_event_pass_track_unlock",
+    "data": {
+      "sku": "pgorelease.month1_deluxe_event_pass_track_unlock",
+      "sortOrder": 1,
+      "title": "season_pass_premium_track_title_sep",
+      "description": "deluxe_event_pass_track_unlock_description",
+      "skuEnableTime": "2025-06-02T10:00:00",
+      "skuDisableTime": "2026-10-08T10:00:00",
+      "skuEnableTimeUtcMs": "1748858400000",
+      "skuDisableTimeUtcMs": "1791453600000",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fb8786503_PGO-MCS_GO_Pass_September_2026_TICKET_v1-1024x576.jpg"
+    }
+  },
+  {
+    "templateId": "pgorelease.month1_deluxe_event_pass_track_unlock_plus_points",
+    "data": {
+      "sku": "pgorelease.month1_deluxe_event_pass_track_unlock_plus_points",
+      "sortOrder": 1,
+      "title": "season_pass_premium_track_plus_ten_ranks_title_sep",
+      "description": "deluxe_event_pass_track_unlock_plus_points_description",
+      "skuEnableTime": "2025-06-02T10:00:00",
+      "skuDisableTime": "2026-10-08T10:00:00",
+      "skuEnableTimeUtcMs": "1748858400000",
+      "skuDisableTimeUtcMs": "1791453600000",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fb8786503_PGO-MCS_GO_Pass_September_2026_TICKET_v1-1024x576.jpg"
+    }
+  },
+  {
     "templateId": "pgorelease.month3_deluxe_event_pass_track_unlock",
     "data": {
       "sku": "pgorelease.month3_deluxe_event_pass_track_unlock",
@@ -11989,6 +12017,34 @@
       "sortOrder": 5,
       "hidden": true,
       "spriteId": "pokecoin.5200"
+    }
+  },
+  {
+    "templateId": "pgorelease.september1_2026_deluxe_event_pass_track_unlock",
+    "data": {
+      "sku": "pgorelease.september1_2026_deluxe_event_pass_track_unlock",
+      "sortOrder": 1,
+      "title": "season_pass_premium_track_title_mega_squads_2026",
+      "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
+      "skuEnableTime": "2025-09-08T10:00:00",
+      "skuDisableTime": "2026-09-16T20:00:00",
+      "skuEnableTimeUtcMs": "1757325600000",
+      "skuDisableTimeUtcMs": "1789588800000",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F13d4dacd_PGO-MCS_Avatar_Maschiff_Top_v2-1024x576%20no%20logo.png"
+    }
+  },
+  {
+    "templateId": "pgorelease.september1_2026_deluxe_event_pass_track_unlock_plus_points",
+    "data": {
+      "sku": "pgorelease.september1_2026_deluxe_event_pass_track_unlock_plus_points",
+      "sortOrder": 1,
+      "title": "season_pass_premium_track_plus_six_ranks_title_mega_squads_2026",
+      "description": "event_pass_plus_points_6_ranks_description",
+      "skuEnableTime": "2025-09-08T10:00:00",
+      "skuDisableTime": "2026-09-16T20:00:00",
+      "skuEnableTimeUtcMs": "1757325600000",
+      "skuDisableTimeUtcMs": "1789588800000",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F13d4dacd_PGO-MCS_Avatar_Maschiff_Top_v2-1024x576%20no%20logo.png"
     }
   },
   {

@@ -1,0 +1,22 @@
+[
+  {
+    "templateId": "AR_BACKEND_SETTINGS",
+    "data": {
+      "featureBackendConfigs": [
+        {
+          "arFeature": "ENCOUNTER"
+        },
+        {
+          "arFeature": "BUDDY"
+        },
+        {
+          "arFeature": "IRIS"
+        },
+        {
+          "arFeature": "AR_PHOTO_SOCIAL",
+          "arBackend": "CUSTOM"
+        }
+      ]
+    }
+  }
+]

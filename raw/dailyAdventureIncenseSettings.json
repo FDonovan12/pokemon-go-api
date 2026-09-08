@@ -14,7 +14,8 @@
       },
       "localDeliveryTime": "0:00:00",
       "enablePushNotification": true,
-      "pushNotificationHourOfDay": 16
+      "pushNotificationHourOfDay": 16,
+      "mapIconDisabled": true
     }
   }
 ]
