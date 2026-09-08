@@ -135,6 +135,14 @@ export interface PurpleBase {
 }
 
 export interface PurpleTempEvoOverride {
+    tempEvoId?:             TempEvoId;
+    stats?:                 Stats;
+    averageHeightM?:        number;
+    averageWeightKg?:       number;
+    typeOverride1?:         string;
+    typeOverride2?:         string;
+    buddyOffsetMale?:       number[];
+    buddyOffsetFemale?:     number[];
     raidBossDistanceOffset: number;
 }
 

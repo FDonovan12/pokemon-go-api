@@ -3414,7 +3414,7 @@
       "movementId": "PSYCHO_BOOST",
       "animationId": 5,
       "pokemonType": "POKEMON_TYPE_PSYCHIC",
-      "power": 70,
+      "power": 130,
       "accuracyChance": 1,
       "staminaLossScalar": 0.01,
       "trainerLevelMin": 1,
@@ -3423,7 +3423,7 @@
       "durationMs": 4000,
       "damageWindowStartMs": 3500,
       "damageWindowEndMs": 4000,
-      "energyDelta": -50
+      "energyDelta": -33
     }
   },
   {

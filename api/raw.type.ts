@@ -4445,7 +4445,7 @@ export interface FluffyAvailablePokemon {
     attackIvOverride:                IvOverride;
     defenseIvOverride:               IvOverride;
     staminaIvOverride:               IvOverride;
-    pokemon?:                        PokemonEncounterClass;
+    pokemon?:                        AvailablePokemonPokemon;
 }
 
 export interface IvOverride {
@@ -4460,8 +4460,14 @@ export interface Range {
 export interface GuaranteedLimitedPokemonReward {
     pokemon:                             PokemonEncounterClass;
     identifier:                          string;
-    perCompetitiveCombatSeasonMaxCount?: number;
     lifetimeMaxCount?:                   number;
+    perCompetitiveCombatSeasonMaxCount?: number;
+}
+
+export interface AvailablePokemonPokemon {
+    pokemonId:         string;
+    pokemonDisplay:    PokemonPokemonDisplay;
+    shinyProbability?: number;
 }
 
 export interface VsSeekerScheduleSettings {
@@ -4480,6 +4486,7 @@ export interface SeasonSchedule {
     seasonTitle:       string;
     descriptionKey:    string;
     vsSeekerSchedules: VsSeekerSchedule[];
+    blogUrl:           string;
 }
 
 export interface VsSeekerSchedule {

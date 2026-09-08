@@ -2430,9 +2430,9 @@
       "id": "V0288_MOVE_PSYCHO_BOOST",
       "movementId": "PSYCHO_BOOST",
       "pokemonType": "Psy",
-      "power": 70,
+      "power": 130,
       "durationMs": 4000,
-      "energyDelta": -50,
+      "energyDelta": -33,
       "vfxName": "psycho_boost",
       "names": {
         "fr": "Psycho-Boost"

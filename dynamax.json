@@ -1911,6 +1911,18 @@
           "fr": "Léchouille"
         }
       },
+      "PSYWAVE_FAST": {
+        "id": "V0401_MOVE_PSYWAVE_FAST",
+        "movementId": "PSYWAVE_FAST",
+        "pokemonType": "Psy",
+        "power": 4,
+        "durationMs": 500,
+        "energyDelta": 7,
+        "vfxName": "psywave",
+        "names": {
+          "fr": "Vague Psy"
+        }
+      },
       "YAWN_FAST": {
         "id": "V0287_MOVE_YAWN_FAST",
         "movementId": "YAWN_FAST",
@@ -8158,6 +8170,18 @@
         "vfxName": "lick_fast",
         "names": {
           "fr": "Léchouille"
+        }
+      },
+      "PSYWAVE_FAST": {
+        "id": "V0401_MOVE_PSYWAVE_FAST",
+        "movementId": "PSYWAVE_FAST",
+        "pokemonType": "Psy",
+        "power": 4,
+        "durationMs": 500,
+        "energyDelta": 7,
+        "vfxName": "psywave",
+        "names": {
+          "fr": "Vague Psy"
         }
       },
       "YAWN_FAST": {

@@ -6866,7 +6866,9 @@
         "DARK_PULSE",
         "SLUDGE_WAVE",
         "GUNK_SHOT",
-        "ACID_SPRAY"
+        "ACID_SPRAY",
+        "WRAP",
+        "BRUTAL_SWING"
       ],
       "animationTime": [
         2.6667,
@@ -6967,7 +6969,9 @@
         "DARK_PULSE",
         "SLUDGE_WAVE",
         "GUNK_SHOT",
-        "ACID_SPRAY"
+        "ACID_SPRAY",
+        "WRAP",
+        "BRUTAL_SWING"
       ],
       "animationTime": [
         2.6667,
@@ -14546,7 +14550,8 @@
         "WILD_CHARGE",
         "SKULL_BASH",
         "TRAILBLAZE",
-        "SURF"
+        "SURF",
+        "VOLT_TACKLE"
       ],
       "animationTime": [
         2.2333,
@@ -14702,7 +14707,8 @@
         "GRASS_KNOT",
         "TRAILBLAZE",
         "SURF",
-        "PSYSHOCK"
+        "PSYSHOCK",
+        "VOLT_TACKLE"
       ],
       "animationTime": [
         2.2333,
@@ -14808,7 +14814,8 @@
         "WILD_CHARGE",
         "SKULL_BASH",
         "TRAILBLAZE",
-        "SURF"
+        "SURF",
+        "VOLT_TACKLE"
       ],
       "animationTime": [
         2.2333,
@@ -16684,7 +16691,8 @@
         "SLUDGE_WAVE",
         "MEGAHORN",
         "EARTH_POWER",
-        "SAND_TOMB"
+        "SAND_TOMB",
+        "AVALANCHE"
       ],
       "animationTime": [
         2,
@@ -16790,7 +16798,8 @@
         "SLUDGE_WAVE",
         "MEGAHORN",
         "EARTH_POWER",
-        "SAND_TOMB"
+        "SAND_TOMB",
+        "AVALANCHE"
       ],
       "animationTime": [
         2,
@@ -25727,7 +25736,8 @@
       },
       "quickMoves": [
         "RAZOR_LEAF_FAST",
-        "ACID_FAST"
+        "ACID_FAST",
+        "SUCKER_PUNCH_FAST"
       ],
       "cinematicMoves": [
         "LEAF_BLADE",
@@ -25862,7 +25872,8 @@
       },
       "quickMoves": [
         "RAZOR_LEAF_FAST",
-        "ACID_FAST"
+        "ACID_FAST",
+        "SUCKER_PUNCH_FAST"
       ],
       "cinematicMoves": [
         "LEAF_BLADE",
@@ -31066,7 +31077,9 @@
         "DARK_PULSE",
         "GUNK_SHOT",
         "SLUDGE_WAVE",
-        "ACID_SPRAY"
+        "ACID_SPRAY",
+        "ICE_PUNCH",
+        "BRUTAL_SWING"
       ],
       "animationTime": [
         2,
@@ -44143,7 +44156,8 @@
         "IRON_HEAD",
         "HYPER_BEAM",
         "ROCK_SLIDE",
-        "EARTH_POWER"
+        "EARTH_POWER",
+        "BRUTAL_SWING"
       ],
       "animationTime": [
         2.1667,
@@ -44278,7 +44292,8 @@
         "IRON_HEAD",
         "HYPER_BEAM",
         "ROCK_SLIDE",
-        "EARTH_POWER"
+        "EARTH_POWER",
+        "BRUTAL_SWING"
       ],
       "animationTime": [
         2.1667,
@@ -44539,7 +44554,8 @@
       },
       "quickMoves": [
         "ZEN_HEADBUTT_FAST",
-        "LICK_FAST"
+        "LICK_FAST",
+        "PSYWAVE_FAST"
       ],
       "cinematicMoves": [
         "HEAVY_SLAM",
@@ -44651,7 +44667,8 @@
       },
       "quickMoves": [
         "ZEN_HEADBUTT_FAST",
-        "LICK_FAST"
+        "LICK_FAST",
+        "PSYWAVE_FAST"
       ],
       "cinematicMoves": [
         "HEAVY_SLAM",
@@ -50674,7 +50691,8 @@
         "MEGAHORN",
         "CROSS_POISON",
         "LUNGE",
-        "TRAILBLAZE"
+        "TRAILBLAZE",
+        "FOUL_PLAY"
       ],
       "animationTime": [
         1.3333,
@@ -50765,7 +50783,8 @@
         "MEGAHORN",
         "CROSS_POISON",
         "LUNGE",
-        "TRAILBLAZE"
+        "TRAILBLAZE",
+        "FOUL_PLAY"
       ],
       "animationTime": [
         1.3333,
@@ -50854,7 +50873,8 @@
       },
       "quickMoves": [
         "AIR_SLASH_FAST",
-        "BITE_FAST"
+        "BITE_FAST",
+        "GUST_FAST"
       ],
       "cinematicMoves": [
         "SHADOW_BALL",
@@ -50957,7 +50977,8 @@
       },
       "quickMoves": [
         "AIR_SLASH_FAST",
-        "BITE_FAST"
+        "BITE_FAST",
+        "GUST_FAST"
       ],
       "cinematicMoves": [
         "SHADOW_BALL",
@@ -66149,7 +66170,8 @@
       "cinematicMoves": [
         "BRAVE_BIRD",
         "SKY_ATTACK",
-        "FLASH_CANNON"
+        "FLASH_CANNON",
+        "DRILL_RUN"
       ],
       "animationTime": [
         1.3333,
@@ -66277,7 +66299,8 @@
       "cinematicMoves": [
         "BRAVE_BIRD",
         "SKY_ATTACK",
-        "FLASH_CANNON"
+        "FLASH_CANNON",
+        "DRILL_RUN"
       ],
       "animationTime": [
         1.3333,
@@ -66618,13 +66641,15 @@
       },
       "quickMoves": [
         "SNARL_FAST",
-        "FIRE_FANG_FAST"
+        "FIRE_FANG_FAST",
+        "INCINERATE_FAST"
       ],
       "cinematicMoves": [
         "CRUNCH",
         "FIRE_BLAST",
         "FOUL_PLAY",
-        "FLAMETHROWER"
+        "FLAMETHROWER",
+        "TRAILBLAZE"
       ],
       "animationTime": [
         1.3333,
@@ -66755,13 +66780,15 @@
       },
       "quickMoves": [
         "SNARL_FAST",
-        "FIRE_FANG_FAST"
+        "FIRE_FANG_FAST",
+        "INCINERATE_FAST"
       ],
       "cinematicMoves": [
         "CRUNCH",
         "FIRE_BLAST",
         "FOUL_PLAY",
-        "FLAMETHROWER"
+        "FLAMETHROWER",
+        "TRAILBLAZE"
       ],
       "animationTime": [
         1.3333,
@@ -69082,7 +69109,8 @@
         "BODY_SLAM",
         "GYRO_BALL",
         "THUNDERBOLT",
-        "ICE_BEAM"
+        "ICE_BEAM",
+        "HIGH_HORSEPOWER"
       ],
       "animationTime": [
         1.3333,
@@ -69170,7 +69198,8 @@
         "BODY_SLAM",
         "GYRO_BALL",
         "THUNDERBOLT",
-        "ICE_BEAM"
+        "ICE_BEAM",
+        "HIGH_HORSEPOWER"
       ],
       "animationTime": [
         1.3333,
@@ -71060,7 +71089,8 @@
         "SKY_ATTACK",
         "HYDRO_PUMP",
         "FUTURESIGHT",
-        "FLY"
+        "FLY",
+        "EARTH_POWER"
       ],
       "animationTime": [
         1.3333,
@@ -71163,7 +71193,8 @@
         "SKY_ATTACK",
         "HYDRO_PUMP",
         "FUTURESIGHT",
-        "FLY"
+        "FLY",
+        "EARTH_POWER"
       ],
       "animationTime": [
         1.3333,
@@ -83472,7 +83503,8 @@
         "STONE_EDGE",
         "HEAVY_SLAM",
         "ROCK_TOMB",
-        "METEOR_BEAM"
+        "METEOR_BEAM",
+        "BRICK_BREAK"
       ],
       "animationTime": [
         1.3333,
@@ -83607,7 +83639,8 @@
         "STONE_EDGE",
         "HEAVY_SLAM",
         "ROCK_TOMB",
-        "METEOR_BEAM"
+        "METEOR_BEAM",
+        "BRICK_BREAK"
       ],
       "animationTime": [
         1.3333,
@@ -84942,12 +84975,14 @@
       },
       "quickMoves": [
         "STRUGGLE_BUG_FAST",
-        "TACKLE_FAST"
+        "TACKLE_FAST",
+        "INFESTATION_FAST"
       ],
       "cinematicMoves": [
         "SIGNAL_BEAM",
         "BUG_BUZZ",
-        "THUNDERBOLT"
+        "THUNDERBOLT",
+        "LUNGE"
       ],
       "animationTime": [
         1.3333,
@@ -85027,12 +85062,14 @@
       },
       "quickMoves": [
         "STRUGGLE_BUG_FAST",
-        "TACKLE_FAST"
+        "TACKLE_FAST",
+        "INFESTATION_FAST"
       ],
       "cinematicMoves": [
         "SIGNAL_BEAM",
         "BUG_BUZZ",
-        "THUNDERBOLT"
+        "THUNDERBOLT",
+        "LUNGE"
       ],
       "animationTime": [
         1.3333,
@@ -85113,12 +85150,14 @@
       },
       "quickMoves": [
         "STRUGGLE_BUG_FAST",
-        "TACKLE_FAST"
+        "TACKLE_FAST",
+        "INFESTATION_FAST"
       ],
       "cinematicMoves": [
         "SILVER_WIND",
         "BUG_BUZZ",
-        "DAZZLING_GLEAM"
+        "DAZZLING_GLEAM",
+        "SHADOW_BALL"
       ],
       "animationTime": [
         1.3333,
@@ -85198,12 +85237,14 @@
       },
       "quickMoves": [
         "STRUGGLE_BUG_FAST",
-        "TACKLE_FAST"
+        "TACKLE_FAST",
+        "INFESTATION_FAST"
       ],
       "cinematicMoves": [
         "SILVER_WIND",
         "BUG_BUZZ",
-        "DAZZLING_GLEAM"
+        "DAZZLING_GLEAM",
+        "SHADOW_BALL"
       ],
       "animationTime": [
         1.3333,
@@ -102812,7 +102853,8 @@
       },
       "quickMoves": [
         "ZEN_HEADBUTT_FAST",
-        "COUNTER_FAST"
+        "COUNTER_FAST",
+        "LOW_KICK_FAST"
       ],
       "cinematicMoves": [
         "PSYCHO_BOOST",
@@ -112298,7 +112340,8 @@
       "cinematicMoves": [
         "SHADOW_BALL",
         "DARK_PULSE",
-        "DAZZLING_GLEAM"
+        "DAZZLING_GLEAM",
+        "MYSTICAL_FIRE"
       ],
       "animationTime": [
         1.9,
@@ -112401,7 +112444,8 @@
       "cinematicMoves": [
         "SHADOW_BALL",
         "DARK_PULSE",
-        "DAZZLING_GLEAM"
+        "DAZZLING_GLEAM",
+        "MYSTICAL_FIRE"
       ],
       "animationTime": [
         1.9,
@@ -121762,7 +121806,8 @@
       "cinematicMoves": [
         "CLOSE_COMBAT",
         "PSYCHIC",
-        "LEAF_BLADE"
+        "LEAF_BLADE",
+        "SACRED_SWORD"
       ],
       "animationTime": [
         1.9,
@@ -121904,7 +121949,8 @@
       "cinematicMoves": [
         "CLOSE_COMBAT",
         "PSYCHIC",
-        "LEAF_BLADE"
+        "LEAF_BLADE",
+        "SACRED_SWORD"
       ],
       "animationTime": [
         1.9,
@@ -125715,12 +125761,14 @@
       },
       "quickMoves": [
         "SNARL_FAST",
-        "FEINT_ATTACK_FAST"
+        "FEINT_ATTACK_FAST",
+        "SUCKER_PUNCH_FAST"
       ],
       "cinematicMoves": [
         "FOCUS_BLAST",
         "SHADOW_BALL",
-        "DARK_PULSE"
+        "DARK_PULSE",
+        "FOUL_PLAY"
       ],
       "animationTime": [
         1.9,
@@ -125814,12 +125862,14 @@
       },
       "quickMoves": [
         "SNARL_FAST",
-        "FEINT_ATTACK_FAST"
+        "FEINT_ATTACK_FAST",
+        "SUCKER_PUNCH_FAST"
       ],
       "cinematicMoves": [
         "FOCUS_BLAST",
         "SHADOW_BALL",
-        "DARK_PULSE"
+        "DARK_PULSE",
+        "FOUL_PLAY"
       ],
       "animationTime": [
         1.9,
@@ -135265,7 +135315,8 @@
       },
       "quickMoves": [
         "POUND_FAST",
-        "ZEN_HEADBUTT_FAST"
+        "ZEN_HEADBUTT_FAST",
+        "CHARGE_BEAM_FAST"
       ],
       "cinematicMoves": [
         "DISARMING_VOICE",
@@ -135374,7 +135425,8 @@
       },
       "quickMoves": [
         "POUND_FAST",
-        "ZEN_HEADBUTT_FAST"
+        "ZEN_HEADBUTT_FAST",
+        "CHARGE_BEAM_FAST"
       ],
       "cinematicMoves": [
         "DISARMING_VOICE",
@@ -142284,7 +142336,8 @@
       "cinematicMoves": [
         "SHADOW_BALL",
         "DARK_PULSE",
-        "PSYCHIC"
+        "PSYCHIC",
+        "ENERGY_BALL"
       ],
       "animationTime": [
         1.9,
@@ -142384,7 +142437,8 @@
       "cinematicMoves": [
         "SHADOW_BALL",
         "DARK_PULSE",
-        "PSYCHIC"
+        "PSYCHIC",
+        "ENERGY_BALL"
       ],
       "animationTime": [
         1.9,
@@ -143995,7 +144049,8 @@
       },
       "quickMoves": [
         "SHADOW_CLAW_FAST",
-        "SNARL_FAST"
+        "SNARL_FAST",
+        "SUCKER_PUNCH_FAST"
       ],
       "cinematicMoves": [
         "FOUL_PLAY",
@@ -144092,7 +144147,8 @@
         "FOUL_PLAY",
         "SLUDGE_BOMB",
         "FLAMETHROWER",
-        "SHADOW_BALL"
+        "SHADOW_BALL",
+        "SWIFT"
       ],
       "animationTime": [
         1.9,
@@ -144186,7 +144242,8 @@
       },
       "quickMoves": [
         "SHADOW_CLAW_FAST",
-        "SNARL_FAST"
+        "SNARL_FAST",
+        "SUCKER_PUNCH_FAST"
       ],
       "cinematicMoves": [
         "FOUL_PLAY",
@@ -152359,7 +152416,8 @@
       "quickMoves": [
         "HEX_FAST",
         "FIRE_SPIN_FAST",
-        "INCINERATE_FAST"
+        "INCINERATE_FAST",
+        "ASTONISH_FAST"
       ],
       "cinematicMoves": [
         "ENERGY_BALL",
@@ -152467,7 +152525,8 @@
       "quickMoves": [
         "HEX_FAST",
         "FIRE_SPIN_FAST",
-        "INCINERATE_FAST"
+        "INCINERATE_FAST",
+        "ASTONISH_FAST"
       ],
       "cinematicMoves": [
         "ENERGY_BALL",
@@ -194926,12 +194985,12 @@
         "defaultForm": "MIMIKYU_DISGUISED",
         "alternateForm": "MIMIKYU_BUSTED",
         "defaultToAlternateIbfcSettings": {
-          "animationDurationTurns": 5,
+          "animationDurationTurns": 4,
           "animationPlayPoint": "BEFORE_CM_ATTACKER",
           "ibfcVfxKey": "DEFAULT_TO_ALTERNATE"
         },
         "alternateToDefaultIbfcSettings": {
-          "animationDurationTurns": 5,
+          "animationDurationTurns": 4,
           "animationPlayPoint": "BEFORE_CM_ATTACKER",
           "ibfcVfxKey": "ALTERNATE_TO_DEFAULT"
         }
@@ -200009,7 +200068,8 @@
         "THUNDER_PUNCH",
         "DISCHARGE",
         "WILD_CHARGE",
-        "PLASMA_FISTS"
+        "PLASMA_FISTS",
+        "DYNAMIC_PUNCH"
       ],
       "pokemonClass": "POKEMON_CLASS_MYTHIC",
       "pokedexHeightM": 1.5,
@@ -200081,7 +200141,8 @@
         "THUNDER_PUNCH",
         "DISCHARGE",
         "WILD_CHARGE",
-        "PLASMA_FISTS"
+        "PLASMA_FISTS",
+        "DYNAMIC_PUNCH"
       ],
       "pokemonClass": "POKEMON_CLASS_MYTHIC",
       "pokedexHeightM": 1.5,
@@ -207231,7 +207292,8 @@
         "ACID_SPRAY",
         "DISCHARGE",
         "WILD_CHARGE",
-        "POWER_UP_PUNCH"
+        "POWER_UP_PUNCH",
+        "SWIFT"
       ],
       "pokedexHeightM": 1.6,
       "pokedexWeightKg": 40,
@@ -207312,7 +207374,8 @@
         "ACID_SPRAY",
         "DISCHARGE",
         "WILD_CHARGE",
-        "POWER_UP_PUNCH"
+        "POWER_UP_PUNCH",
+        "SWIFT"
       ],
       "pokedexHeightM": 1.6,
       "pokedexWeightKg": 40,
@@ -209220,7 +209283,8 @@
         "FOUL_PLAY",
         "DARK_PULSE",
         "PLAY_ROUGH",
-        "POWER_UP_PUNCH"
+        "POWER_UP_PUNCH",
+        "DRAINING_KISS"
       ],
       "pokedexHeightM": 1.5,
       "pokedexWeightKg": 61,
@@ -209299,7 +209363,8 @@
         "FOUL_PLAY",
         "DARK_PULSE",
         "PLAY_ROUGH",
-        "POWER_UP_PUNCH"
+        "POWER_UP_PUNCH",
+        "DRAINING_KISS"
       ],
       "pokedexHeightM": 1.5,
       "pokedexWeightKg": 61,
@@ -212157,14 +212222,14 @@
         "defaultForm": "MORPEKO_FULL_BELLY",
         "alternateForm": "MORPEKO_HANGRY",
         "defaultToAlternateIbfcSettings": {
-          "animationDurationTurns": 5,
+          "animationDurationTurns": 4,
           "animationPlayPoint": "AFTER_CM_ATTACKER",
           "ibfcVfxKey": "DEFAULT_TO_ALTERNATE",
           "currentMove": "AURA_WHEEL_ELECTRIC",
           "replacementMove": "AURA_WHEEL_DARK"
         },
         "alternateToDefaultIbfcSettings": {
-          "animationDurationTurns": 5,
+          "animationDurationTurns": 4,
           "animationPlayPoint": "AFTER_CM_ATTACKER",
           "ibfcVfxKey": "ALTERNATE_TO_DEFAULT",
           "currentMove": "AURA_WHEEL_DARK",
@@ -216709,7 +216774,8 @@
       "quickMoves": [
         "TACKLE_FAST",
         "ROCK_SMASH_FAST",
-        "SMACK_DOWN_FAST"
+        "SMACK_DOWN_FAST",
+        "SCRATCH_FAST"
       ],
       "cinematicMoves": [
         "FIRE_PUNCH",
@@ -216827,7 +216893,8 @@
       "quickMoves": [
         "TACKLE_FAST",
         "ROCK_SMASH_FAST",
-        "SMACK_DOWN_FAST"
+        "SMACK_DOWN_FAST",
+        "SCRATCH_FAST"
       ],
       "cinematicMoves": [
         "FIRE_PUNCH",
@@ -223615,12 +223682,14 @@
       },
       "quickMoves": [
         "MUD_SLAP_FAST",
-        "POISON_JAB_FAST"
+        "POISON_JAB_FAST",
+        "SCRATCH_FAST"
       ],
       "cinematicMoves": [
         "ACID_SPRAY",
         "POISON_FANG",
-        "SLUDGE_BOMB"
+        "SLUDGE_BOMB",
+        "FOUL_PLAY"
       ],
       "pokedexHeightM": 0.7,
       "pokedexWeightKg": 27.2,
@@ -223677,12 +223746,14 @@
       },
       "quickMoves": [
         "MUD_SLAP_FAST",
-        "POISON_JAB_FAST"
+        "POISON_JAB_FAST",
+        "SCRATCH_FAST"
       ],
       "cinematicMoves": [
         "ACID_SPRAY",
         "POISON_FANG",
-        "SLUDGE_BOMB"
+        "SLUDGE_BOMB",
+        "FOUL_PLAY"
       ],
       "pokedexHeightM": 0.7,
       "pokedexWeightKg": 27.2,
@@ -225740,7 +225811,8 @@
         "PAYBACK",
         "AERIAL_ACE",
         "FLY",
-        "ROCK_TOMB"
+        "ROCK_TOMB",
+        "DRILL_RUN"
       ],
       "pokedexHeightM": 1.5,
       "pokedexWeightKg": 42.9,
@@ -225811,7 +225883,8 @@
         "PAYBACK",
         "AERIAL_ACE",
         "FLY",
-        "ROCK_TOMB"
+        "ROCK_TOMB",
+        "DRILL_RUN"
       ],
       "pokedexHeightM": 1.5,
       "pokedexWeightKg": 42.9,
@@ -227281,7 +227354,8 @@
       },
       "quickMoves": [
         "WING_ATTACK_FAST",
-        "DOUBLE_KICK_FAST"
+        "DOUBLE_KICK_FAST",
+        "PECK_FAST"
       ],
       "cinematicMoves": [
         "AERIAL_ACE",
@@ -227346,7 +227420,8 @@
       },
       "quickMoves": [
         "WING_ATTACK_FAST",
-        "DOUBLE_KICK_FAST"
+        "DOUBLE_KICK_FAST",
+        "PECK_FAST"
       ],
       "cinematicMoves": [
         "AERIAL_ACE",
@@ -228874,7 +228949,8 @@
       "quickMoves": [
         "SNARL_FAST",
         "METAL_CLAW_FAST",
-        "METAL_SOUND_FAST"
+        "METAL_SOUND_FAST",
+        "LOW_KICK_FAST"
       ],
       "cinematicMoves": [
         "DARK_PULSE",
@@ -228939,7 +229015,8 @@
       "quickMoves": [
         "SNARL_FAST",
         "METAL_CLAW_FAST",
-        "METAL_SOUND_FAST"
+        "METAL_SOUND_FAST",
+        "LOW_KICK_FAST"
       ],
       "cinematicMoves": [
         "DARK_PULSE",
