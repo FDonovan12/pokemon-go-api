@@ -68,69 +68,6 @@
     }
   },
   {
-    "templateId": "EVENT_PASS_GOFEST2026_FINALE",
-    "data": {
-      "prefix": "EVENT_PASS_GOFEST2026_FINALE",
-      "pointsItemId": "ITEM_EVENT_PASS_POINT_GO_FEST_02",
-      "trackConditions": [
-        {
-          "track": "FREE",
-          "trackTitleKey": "event_pass_gofest2026_finale_base_track_title"
-        },
-        {
-          "track": "PREMIUM",
-          "badge": "BADGE_GOFEST_FINALE_2026_EVENT_PASS_DELUXE",
-          "trackTitleKey": "event_pass_gofest2026_finale_premium_track_title"
-        }
-      ],
-      "expirationTime": "2026-09-06T23:59:59",
-      "maxTierLevel": 600,
-      "additionalBonusTiersLevel": 101,
-      "eventPassDisplaySettings": {
-        "bonusBoxes": [
-          {
-            "text": "quest_catch_pokemon_singular",
-            "iconType": "SPAWN_UNKNOWN",
-            "quantity": 5
-          },
-          {
-            "text": "quest_win_raid_singular",
-            "iconType": "RAID",
-            "quantity": 100
-          },
-          {
-            "text": "quest_hatch_egg_singular",
-            "iconType": "EGG",
-            "quantity": 250
-          }
-        ],
-        "eventPassTrackUpgradeDescriptions": [
-          {
-            "passTrackUpgradeHeaderDescription": "event_pass_gofest2026_finale_track_upgrade_header_description",
-            "eventPassTrackToUpgradeTo": "PREMIUM",
-            "trackUnlockSkuId": "pgorelease.gofest_finale_2025_deluxe_event_pass_track_unlock",
-            "trackUnlockPlusPointsSkuId": "pgorelease.gofest_finale_2025_deluxe_event_pass_track_unlock_plus_points",
-            "eventDurationKey": "event_pass_gofest2026_finale_event_duration",
-            "upgradeDescriptionKey": "event_pass_gofest2026_finale_upgrade_description",
-            "ranksToHighlightRewards": [
-              20,
-              40,
-              100
-            ],
-            "detailsLinkKey": "gofest2026_finale_details_link",
-            "trackUnlockImageUrl": "https://storage.googleapis.com/prod-public-images/ic_eventpass_deluxe.png",
-            "trackUnlockPlusPointsImageUrl": "https://storage.googleapis.com/prod-public-images/ic_eventpass_deluxe_plus_points.png"
-          }
-        ],
-        "eventPassTitleKey": "event_pass_gofest2026_finale_base_track_title",
-        "headerIconUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fe7045957_PGO_Fest_Finale_Logo_512x512.png",
-        "todayViewSection": "GLOBAL_EVENT_PASS_SECTION",
-        "backgroundConfiguration": "EVENT_PASS_BACKGROUND_GO_FEST_01"
-      },
-      "gracePeriodEndTime": "2026-09-08T23:59:59"
-    }
-  },
-  {
     "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT",
     "data": {
       "prefix": "EVENT_PASS_MEGASQUADS2026_EVENT",

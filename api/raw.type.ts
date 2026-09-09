@@ -87,7 +87,7 @@ export interface QuestIconCarousel {
 }
 
 export interface RewardDatum {
-    type: RewardTypeElement;
+    type: TypeElement;
     item: RewardDatumItem;
 }
 
@@ -96,7 +96,7 @@ export interface RewardDatumItem {
     amount?: number;
 }
 
-export enum RewardTypeElement {
+export enum TypeElement {
     AvatarClothing = "AVATAR_CLOTHING",
     Candy = "CANDY",
     Experience = "EXPERIENCE",
@@ -465,7 +465,7 @@ export interface BadgeSettingData {
 }
 
 export interface CaptureReward {
-    rewardTypes?: RewardTypeElement[];
+    rewardTypes?: TypeElement[];
 }
 
 export interface EventBadgeSettings {
@@ -1425,36 +1425,19 @@ export interface EventPassDisplaySettings {
     eventPassTrackUpgradeDescriptions: EventPassTrackUpgradeDescription[];
     eventPassTitleKey:                 string;
     headerIconUrl:                     string;
-    premiumRewardBannerTop?:           string;
-    premiumRewardBannerMiddle?:        string;
-    premiumRewardBannerBottom?:        string;
-    premiumRewardBannerImageUrl?:      string;
-    premiumRewardsDescription?:        string;
+    premiumRewardBannerTop:            string;
+    premiumRewardBannerMiddle:         string;
+    premiumRewardBannerBottom:         string;
+    premiumRewardBannerImageUrl:       string;
+    premiumRewardsDescription:         string;
     todayViewSection:                  string;
-    sectionDisplayPriority?:           number;
-    backgroundConfiguration?:          string;
+    sectionDisplayPriority:            number;
 }
 
 export interface EventPassDisplaySettingsBonusBox {
-    text:     Text;
-    iconType: IconTypeEnum;
+    text:     string;
+    iconType: string;
     quantity: number;
-}
-
-export enum IconTypeEnum {
-    Egg = "EGG",
-    EggIncubator = "EGG_INCUBATOR",
-    Gift = "GIFT",
-    Incense = "INCENSE",
-    Raid = "RAID",
-    SpawnUnknown = "SPAWN_UNKNOWN",
-    Trade = "TRADE",
-}
-
-export enum Text {
-    QuestCatchPokemonSingular = "quest_catch_pokemon_singular",
-    QuestHatchEggSingular = "quest_hatch_egg_singular",
-    QuestWinRaidSingular = "quest_win_raid_singular",
 }
 
 export interface EventPassTrackUpgradeDescription {
@@ -1497,19 +1480,34 @@ export interface EventPassTierSettingData {
 }
 
 export interface Settings {
-    eventName:  string;
+    eventName:  EventName;
     bonusBoxes: ActiveBonusDisplaySettingsBonusBox[];
 }
 
 export interface ActiveBonusDisplaySettingsBonusBox {
     text:     string;
-    iconType: IconTypeUnion;
+    iconType: IconType;
 }
 
-export type IconTypeUnion = IconTypeEnum | number;
+export enum IconType {
+    Egg = "EGG",
+    EggIncubator = "EGG_INCUBATOR",
+    Gift = "GIFT",
+    Incense = "INCENSE",
+    SpawnUnknown = "SPAWN_UNKNOWN",
+    Trade = "TRADE",
+}
+
+export enum EventName {
+    GoPassCumulativeBonusesHeader = "go_pass_cumulative_bonuses_header",
+    SeasonPassMilestoneBonusTitle01 = "season_pass_milestone_bonus_title_01",
+    SeasonPassMilestoneBonusTitle02 = "season_pass_milestone_bonus_title_02",
+    SeasonPassMilestoneBonusTitle03 = "season_pass_milestone_bonus_title_03",
+    SeasonPassMilestoneBonusTitle04 = "season_pass_milestone_bonus_title_04",
+}
 
 export interface PurpleReward {
-    type:                       TypeUnion;
+    type:                       TypeElement;
     pokemonEncounter?:          RewardPokemonEncounter;
     item?:                      RewardDatumItem;
     stardust?:                  number;
@@ -1517,9 +1515,8 @@ export interface PurpleReward {
     xlCandy?:                   Candy;
     exp?:                       number;
     playerAttribute?:           PlayerAttribute;
-    megaResource?:              Candy;
     neutralAvatarItemTemplate?: NeutralAvatarItemTemplate;
-    tempEvoResource?:           TempEvoResource;
+    megaResource?:              Candy;
 }
 
 export interface Candy {
@@ -1542,49 +1539,12 @@ export interface RewardPokemonEncounter {
 export interface PurplePokemonDisplay {
     form:           string;
     breadModeEnum?: BreadMode;
-    locationCard?:  LocationCardClass;
-}
-
-export interface LocationCardClass {
-    locationCard: LocationCardEnum;
-}
-
-export enum LocationCardEnum {
-    LcSpecialbackground2026_GlobalMega001 = "LC_SPECIALBACKGROUND_2026_GLOBAL_MEGA_001",
 }
 
 export interface StatsLimitsOverride {
     minPokemonLevel: number;
     maxPokemonLevel: number;
 }
-
-export interface TempEvoResource {
-    tempEvoPokemonBranch: Branch;
-    amount:               number;
-}
-
-export interface Branch {
-    pokedexId: Id;
-    tempEvoId: Temp;
-}
-
-export enum Id {
-    Charizard = "CHARIZARD",
-    Gallade = "GALLADE",
-    Gardevoir = "GARDEVOIR",
-    Mewtwo = "MEWTWO",
-    Raichu = "RAICHU",
-    Staraptor = "STARAPTOR",
-}
-
-export enum Temp {
-    TempEvolutionMega = "TEMP_EVOLUTION_MEGA",
-    TempEvolutionMegaX = "TEMP_EVOLUTION_MEGA_X",
-    TempEvolutionMegaY = "TEMP_EVOLUTION_MEGA_Y",
-    TempEvolutionPrimal = "TEMP_EVOLUTION_PRIMAL",
-}
-
-export type TypeUnion = RewardTypeElement | number;
 
 export interface EventPlannerPopularNotificationSettings {
     templateId: string;
@@ -1760,6 +1720,13 @@ export interface PurpleTempEvoOverride {
     sizeSettings: BreadOverrideSizeSettings;
 }
 
+export enum Temp {
+    TempEvolutionMega = "TEMP_EVOLUTION_MEGA",
+    TempEvolutionMegaX = "TEMP_EVOLUTION_MEGA_X",
+    TempEvolutionMegaY = "TEMP_EVOLUTION_MEGA_Y",
+    TempEvolutionPrimal = "TEMP_EVOLUTION_PRIMAL",
+}
+
 export interface ExternalAddressableAssetsSettings {
     templateId: string;
     data:       FastAttackSettingsClass;
@@ -1923,7 +1890,7 @@ export interface GlobalEventTicket {
 }
 
 export interface IconReward {
-    type:                       RewardTypeElement;
+    type:                       TypeElement;
     exp?:                       number;
     stardust?:                  number;
     pokemonEncounter?:          IconRewardPokemonEncounter;
@@ -2556,6 +2523,20 @@ export interface MegaEvoSettingData {
     minLevelForSpecialMove:            number;
     separatedTempEvoBranches:          Branch[];
     enableSpecialMove:                 boolean;
+}
+
+export interface Branch {
+    pokedexId: Id;
+    tempEvoId: Temp;
+}
+
+export enum Id {
+    Charizard = "CHARIZARD",
+    Gallade = "GALLADE",
+    Gardevoir = "GARDEVOIR",
+    Mewtwo = "MEWTWO",
+    Raichu = "RAICHU",
+    Staraptor = "STARAPTOR",
 }
 
 export interface MonodepthSettings {

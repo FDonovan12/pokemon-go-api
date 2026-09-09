@@ -165,7 +165,7 @@
       },
       "timePeriodCounters": {
         "playerActivity": {
-          "limit": 1000
+          "limit": 50
         }
       },
       "hideItemInInventory": true
@@ -1778,6 +1778,61 @@
       "ignoreInventorySpace": true,
       "nameOverride": "general2.ticket.5_MegaStarmieRaidDay",
       "descriptionOverride": "item_event_ticket_desc_MegaStarmieRaidDay"
+    }
+  },
+  {
+    "templateId": "ITEM_EVENT_TICKET_S24_NOV9_GOWAOL",
+    "data": {
+      "itemId": "ITEM_EVENT_TICKET_S24_NOV9_GOWAOL",
+      "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
+      "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
+      "globalEventTicket": {
+        "eventStartTime": "2026-11-14T10:00:00",
+        "eventEndTime": "2026-11-15T18:00:00",
+        "itemBagDescriptionKey": "item_global_event_ticket_details_GOWA26",
+        "giftable": true,
+        "giftItem": "ITEM_EVENT_TICKET_S24_NOV9_GOWAOL_TO_GIFT",
+        "eventBannerUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F833d6091_PGO_GOWA-2026-Global-KeyArt_1024x512_sku.png",
+        "displayV2Enabled": true,
+        "backgroundImageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F833d6091_PGO_GOWA-2026-Global-KeyArt_1024x512_sku.png",
+        "eventDatetimeRangeKey": "event_datetime_range_key_GOWA26",
+        "textRewardsKey": "text_rewards_key_GOWA26",
+        "iconRewards": [
+          {
+            "type": "ITEM",
+            "item": {
+              "item": "ITEM_FREE_RAID_TICKET",
+              "amount": 6
+            }
+          }
+        ],
+        "clientEventStartTimeUtcMs": "1794650400000",
+        "clientEventEndTimeUtcMs": "1794765600000"
+      },
+      "nameOverride": "general2.ticket._GOWA26_title",
+      "descriptionOverride": "item_global_event_ticket_details_GOWA26"
+    }
+  },
+  {
+    "templateId": "ITEM_EVENT_TICKET_S24_NOV9_GOWAOL_TO_GIFT",
+    "data": {
+      "itemId": "ITEM_EVENT_TICKET_S24_NOV9_GOWAOL_TO_GIFT",
+      "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
+      "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
+      "globalEventTicket": {
+        "eventStartTime": "2026-11-14T10:00:00",
+        "eventEndTime": "2026-11-15T18:00:00",
+        "itemBagDescriptionKey": "item_global_event_ticket_details_GOWA26",
+        "ticketItem": "ITEM_EVENT_TICKET_S24_NOV9_GOWAOL",
+        "eventBannerUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F833d6091_PGO_GOWA-2026-Global-KeyArt_1024x512_sku.png",
+        "backgroundImageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F833d6091_PGO_GOWA-2026-Global-KeyArt_1024x512_sku.png",
+        "detailsLinkKey": "gowa_2026_global_ticket_details_link",
+        "clientEventStartTimeUtcMs": "1794650400000",
+        "clientEventEndTimeUtcMs": "1794765600000"
+      },
+      "ignoreInventorySpace": true,
+      "nameOverride": "general2.ticket._GOWA26_title",
+      "descriptionOverride": "item_global_event_ticket_details_GOWA26"
     }
   },
   {

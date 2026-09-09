@@ -3191,7 +3191,7 @@
     "templateId": "N_DISPLAY_n_hat_ryme",
     "data": {
       "iconAddress": "n_hat_ryme_icon",
-      "displayStringId": "avatar_hat_ryme"
+      "displayStringId": "avatar_hat_s24ryme"
     }
   },
   {
@@ -7447,7 +7447,7 @@
     "templateId": "N_DISPLAY_n_shirt_ryme",
     "data": {
       "iconAddress": "n_shirt_ryme_icon",
-      "displayStringId": "avatar_shirt_ryme"
+      "displayStringId": "avatar_dress_s24ryme"
     }
   },
   {
@@ -9344,7 +9344,7 @@
     "templateId": "N_DISPLAY_n_shoes_ryme",
     "data": {
       "iconAddress": "n_shoes_ryme_icon",
-      "displayStringId": "avatar_shoes_ryme"
+      "displayStringId": "avatar_shoes_s24ryme"
     }
   },
   {
