@@ -79,6 +79,7 @@ class PokemonSettingGeneratorService {
 
     private extractBaseSameDifferentForm(lists: any[], baseFormIndex: number) {
         const baseForm = lists[baseFormIndex];
+        console.log(lists, baseFormIndex);
         const otherFormSameAsBase = lists.filter(
             (form, id) => this.isSameForm(form, baseForm) && id !== baseFormIndex,
         );
@@ -93,10 +94,14 @@ class PokemonSettingGeneratorService {
     async getFileContent(): Promise<any> {
         const raw: PokemonSettings[] = await RawGameMaster.getPokemonSettings();
         const rawPokemons: any[] = [];
-        for (let i = 0; i < raw.length; i += 20) {
-            const batch = raw.slice(i, i + 20);
+        const filteredRaw = raw.filter(
+            (pokemon) => pokemon.templateId !== 'V0849_POKEMON_TOXTRICITY',
+        );
+        for (let i = 0; i < filteredRaw.length; i += 20) {
+            const batch = filteredRaw.slice(i, i + 20);
             await Promise.all(
                 batch.map(async (pokemon) => {
+                    // if (pokemon.templateId === 'V0849_POKEMON_TOXTRICITY') return;
                     const dexNumber = extractDexNumberFromId(pokemon.templateId);
                     this.alterPokemon(pokemon);
                     let formField = String(pokemon.data.form ?? 'base'); // have to convert number to string even most of the time never number here
@@ -189,7 +194,9 @@ class PokemonSettingGeneratorService {
         const finalPokemons = pokemons.map((pokemonForms) => {
             const filteredForms = pokemonForms.filter((form) => !form.id.includes('NORMAL'));
 
-            const baseFormIndex = filteredForms.findIndex((form) => form.form === 'base');
+            const baseFormIndex = filteredForms.findIndex(
+                (form) => form.form === 'base' || form.form === 'TOXTRICITY_AMPED',
+            );
             const mainGroup = this.extractBaseSameDifferentForm(filteredForms, baseFormIndex);
 
             const alternateGroups = [];
