@@ -6085,6 +6085,26 @@
     }
   },
   {
+    "templateId": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0229_POKEMON_HOUNDOOM",
+    "data": {
+      "movementId": "TEMP_EVOLUTION_MEGA_V0229_POKEMON_HOUNDOOM",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_DARK",
+      "power": 150,
+      "accuracyChance": 1,
+      "criticalChance": 0.05,
+      "staminaLossScalar": 0.08,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "dark_pulse",
+      "durationMs": 3000,
+      "damageWindowStartMs": 1400,
+      "damageWindowEndMs": 2300,
+      "energyDelta": -100,
+      "isLocked": true
+    }
+  },
+  {
     "templateId": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0652_POKEMON_CHESNAUGHT",
     "data": {
       "movementId": "TEMP_EVOLUTION_MEGA_V0652_POKEMON_CHESNAUGHT",

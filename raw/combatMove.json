@@ -3759,6 +3759,16 @@
     }
   },
   {
+    "templateId": "COMBAT_VM_MOVE_TEMP_EVOLUTION_MEGA_V0229_POKEMON_HOUNDOOM",
+    "data": {
+      "uniqueId": "TEMP_EVOLUTION_MEGA_V0229_POKEMON_HOUNDOOM",
+      "type": "POKEMON_TYPE_DARK",
+      "power": 60,
+      "vfxName": "dark_pulse",
+      "energyDelta": -40
+    }
+  },
+  {
     "templateId": "COMBAT_VM_MOVE_TEMP_EVOLUTION_MEGA_V0652_POKEMON_CHESNAUGHT",
     "data": {
       "uniqueId": "TEMP_EVOLUTION_MEGA_V0652_POKEMON_CHESNAUGHT",

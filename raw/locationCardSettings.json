@@ -521,6 +521,13 @@
     }
   },
   {
+    "templateId": "LC_2026_JP_GREEN",
+    "data": {
+      "locationCard": "LC_2026_JP_GREEN",
+      "imageUrl": "lc_2026_jp_green"
+    }
+  },
+  {
     "templateId": "LC_2026_JP_RED",
     "data": {
       "locationCard": "LC_2026_JP_RED",
@@ -1316,6 +1323,48 @@
     }
   },
   {
+    "templateId": "LC_SAFARI_2026_BOSTON",
+    "data": {
+      "locationCard": "LC_SAFARI_2026_BOSTON",
+      "imageUrl": "lc_CitySafari2026_boston"
+    }
+  },
+  {
+    "templateId": "LC_SAFARI_2026_BRISBANE",
+    "data": {
+      "locationCard": "LC_SAFARI_2026_BRISBANE",
+      "imageUrl": "lc_CitySafari2026_brisbane"
+    }
+  },
+  {
+    "templateId": "LC_SAFARI_2026_LISBON",
+    "data": {
+      "locationCard": "LC_SAFARI_2026_LISBON",
+      "imageUrl": "lc_CitySafari2026_lisbon"
+    }
+  },
+  {
+    "templateId": "LC_SAFARI_2026_MARSEILLE",
+    "data": {
+      "locationCard": "LC_SAFARI_2026_MARSEILLE",
+      "imageUrl": "lc_CitySafari2026_marseille"
+    }
+  },
+  {
+    "templateId": "LC_SAFARI_2026_MUNICH",
+    "data": {
+      "locationCard": "LC_SAFARI_2026_MUNICH",
+      "imageUrl": "lc_CitySafari2026_munich"
+    }
+  },
+  {
+    "templateId": "LC_SAFARI_2026_RDJ",
+    "data": {
+      "locationCard": "LC_SAFARI_2026_RDJ",
+      "imageUrl": "lc_CitySafari2026_rio"
+    }
+  },
+  {
     "templateId": "LC_SPECIALBACKGROUND_10ANI2026",
     "data": {
       "locationCard": "LC_SPECIALBACKGROUND_10ANI2026",
@@ -1858,28 +1907,28 @@
     "templateId": "LC_TPC30_MY",
     "data": {
       "locationCard": "LC_TPC30_MY",
-      "imageUrl": "lc_tpc30_my"
+      "imageUrl": "lc_tpc30th_malaysia"
     }
   },
   {
     "templateId": "LC_TPC30_PH",
     "data": {
       "locationCard": "LC_TPC30_PH",
-      "imageUrl": "lc_tpc30_ph"
+      "imageUrl": "lc_tpc30th_philippines"
     }
   },
   {
     "templateId": "LC_TPC30_SG",
     "data": {
       "locationCard": "LC_TPC30_SG",
-      "imageUrl": "lc_tpc30_sg"
+      "imageUrl": "lc_tpc30th_singapore"
     }
   },
   {
     "templateId": "LC_TPC30_TW",
     "data": {
       "locationCard": "LC_TPC30_TW",
-      "imageUrl": "lc_tpc30_tw"
+      "imageUrl": "lc_tpc30th_taiwan"
     }
   }
 ]

@@ -3221,6 +3221,33 @@
     }
   },
   {
+    "templateId": "MEGA_EVOLUTION_LEVEL_4_V0229_POKEMON_HOUNDOOM",
+    "data": {
+      "level": 4,
+      "pokemonId": "HOUNDOOM",
+      "progression": {
+        "pointsRequired": 30,
+        "pointsLimitPerPeriod": 1,
+        "pointsPerMegaEvoAction": 1
+      },
+      "cooldown": {
+        "durationMs": "86400000",
+        "bypassCostInitial": 5,
+        "bypassCostRoundingValue": 1
+      },
+      "effects": {
+        "differentTypeAttackBoost": 1.1,
+        "sameTypeAttackBoost": 1.3,
+        "sameTypeExtraCatchCandy": 3,
+        "sameTypeExtraCatchXp": 200,
+        "sameTypeExtraCatchCandyXlChance": 0.3,
+        "selfCpBoostAdditionalLevel": 2
+      },
+      "megaEnergyCostToUnlock": 5000,
+      "ftueExpirationTimestamp": "1775001600000"
+    }
+  },
+  {
     "templateId": "MEGA_EVOLUTION_LEVEL_4_V0398_POKEMON_STARAPTOR",
     "data": {
       "level": 4,

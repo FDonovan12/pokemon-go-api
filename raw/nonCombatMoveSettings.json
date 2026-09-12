@@ -246,7 +246,7 @@
         }
       },
       "durationMs": "600000",
-      "bonusType": 10,
+      "bonusType": "MEGA_X_BONUS",
       "enableMultiUse": true,
       "extraDurationMs": "4000",
       "enableNonCombatMove": true,
@@ -279,7 +279,7 @@
         }
       },
       "durationMs": "720000",
-      "bonusType": 11,
+      "bonusType": "MEGA_Y_BONUS",
       "enableMultiUse": true,
       "extraDurationMs": "4000",
       "enableNonCombatMove": true,

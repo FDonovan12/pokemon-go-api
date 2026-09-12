@@ -455,14 +455,14 @@
     "templateId": "EVENT_PASS_MONTH3_SEASON_STORE_REDIRECT",
     "data": {
       "sku": "pgorelease.month3_deluxe_event_pass_track_redirect",
-      "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 1,
+      "hidden": true,
       "title": "season_pass_premium_track_title_aug",
       "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
       "skuEnableTime": "2025-08-04T10:00:00",
-      "skuDisableTime": "2026-09-10T10:00:00",
+      "skuDisableTime": "2025-09-10T10:00:00",
       "skuEnableTimeUtcMs": "1754301600000",
-      "skuDisableTimeUtcMs": "1789034400000",
+      "skuDisableTimeUtcMs": "1757498400000",
       "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F84f00147_PGO-MCS_GO_Pass_August_2026_TICKET_v1-1024x576.jpg"
     }
   },
@@ -1104,12 +1104,13 @@
     "data": {
       "sku": "pgorelease.month3_deluxe_event_pass_track_unlock",
       "sortOrder": 1,
+      "hidden": true,
       "title": "season_pass_premium_track_title_aug",
       "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
       "skuEnableTime": "2025-08-04T10:00:00",
-      "skuDisableTime": "2026-09-10T10:00:00",
+      "skuDisableTime": "2025-09-10T10:00:00",
       "skuEnableTimeUtcMs": "1754301600000",
-      "skuDisableTimeUtcMs": "1789034400000",
+      "skuDisableTimeUtcMs": "1757498400000",
       "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F84f00147_PGO-MCS_GO_Pass_August_2026_TICKET_v1-1024x576.jpg"
     }
   },
@@ -1118,12 +1119,13 @@
     "data": {
       "sku": "pgorelease.month3_deluxe_event_pass_track_unlock_plus_points",
       "sortOrder": 1,
+      "hidden": true,
       "title": "season_pass_premium_track_plus_ten_ranks_title_aug",
       "description": "gotour_2025_deluxe_event_pass_track_unlock_plus_points_description",
       "skuEnableTime": "2025-08-04T10:00:00",
-      "skuDisableTime": "2026-09-10T10:00:00",
+      "skuDisableTime": "2025-09-10T10:00:00",
       "skuEnableTimeUtcMs": "1754301600000",
-      "skuDisableTimeUtcMs": "1789034400000",
+      "skuDisableTimeUtcMs": "1757498400000",
       "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F84f00147_PGO-MCS_GO_Pass_August_2026_TICKET_v1-1024x576.jpg"
     }
   },
@@ -1153,6 +1155,36 @@
       "skuEnableTimeUtcMs": "1757325600000",
       "skuDisableTimeUtcMs": "1789588800000",
       "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F13d4dacd_PGO-MCS_Avatar_Maschiff_Top_v2-1024x576%20no%20logo.png"
+    }
+  },
+  {
+    "templateId": "SEPTEMBER2_2026_DELUXE_EVENT_PASS_TRACK_UNLOCK",
+    "data": {
+      "sku": "pgorelease.september2_2026_deluxe_event_pass_track_unlock",
+      "sortOrder": 1,
+      "hidden": true,
+      "title": "season_pass_premium_track_title_horizons_fall_2026",
+      "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
+      "skuEnableTime": "2025-09-16T10:00:00",
+      "skuDisableTime": "2026-09-24T20:00:00",
+      "skuEnableTimeUtcMs": "1758016800000",
+      "skuDisableTimeUtcMs": "1790280000000",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fec63551c_PGO-MCS_Horizon_Celebration_2026_TICKET_v1-1024x576.jpg"
+    }
+  },
+  {
+    "templateId": "SEPTEMBER2_2026_DELUXE_EVENT_PASS_TRACK_UNLOCK_PLUS_POINTS",
+    "data": {
+      "sku": "pgorelease.september2_2026_deluxe_event_pass_track_unlock_plus_points",
+      "sortOrder": 1,
+      "hidden": true,
+      "title": "season_pass_premium_track_plus_six_ranks_title_horizons_fall_2026",
+      "description": "event_pass_plus_points_6_ranks_description",
+      "skuEnableTime": "2025-09-16T10:00:00",
+      "skuDisableTime": "2026-09-24T20:00:00",
+      "skuEnableTimeUtcMs": "1758016800000",
+      "skuDisableTimeUtcMs": "1790280000000",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fec63551c_PGO-MCS_Horizon_Celebration_2026_TICKET_v1-1024x576.jpg"
     }
   },
   {
@@ -7634,10 +7666,13 @@
       "sku": "bundle.cd2022.1",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 1,
-      "hidden": true,
       "sale": true,
-      "spriteId": "bundle.halloween.small.1",
-      "title": "bundle.halloween.small.1_title"
+      "spriteId": "bundle.general4.small.1",
+      "title": "bundle.general4.small.1_title",
+      "skuEnableTime": "2022-10-13T12:00:00",
+      "skuDisableTime": "2026-09-13T23:59:59",
+      "skuEnableTimeUtcMs": "1665662400000",
+      "skuDisableTimeUtcMs": "1789343999000"
     }
   },
   {
@@ -7646,10 +7681,13 @@
       "sku": "bundle.cd2022.2",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 2,
-      "hidden": true,
       "sale": true,
-      "spriteId": "bundle.halloween.adventure.1",
-      "title": "bundle.halloween.adventure.1_title"
+      "spriteId": "bundle.general1.medium.1",
+      "title": "bundle.general1.medium.1_title",
+      "skuEnableTime": "2022-10-13T12:00:00",
+      "skuDisableTime": "2026-09-13T23:59:59",
+      "skuEnableTimeUtcMs": "1665662400000",
+      "skuDisableTimeUtcMs": "1789343999000"
     }
   },
   {
@@ -8414,6 +8452,28 @@
       "hidden": true,
       "spriteId": "bundle.general2.free.1",
       "title": "bundle.general2.free.1_title"
+    }
+  },
+  {
+    "templateId": "bundle.googlefeatured2026.1",
+    "data": {
+      "sku": "bundle.googlefeatured2026.1",
+      "category": "IAP_CATEGORY_BUNDLE",
+      "sortOrder": 1,
+      "hidden": true,
+      "spriteId": "bundle.latam.small.1",
+      "title": "bundle.wicker.box.1_title"
+    }
+  },
+  {
+    "templateId": "bundle.googlefeatured2026.2",
+    "data": {
+      "sku": "bundle.googlefeatured2026.2",
+      "category": "IAP_CATEGORY_BUNDLE",
+      "sortOrder": 1,
+      "hidden": true,
+      "spriteId": "bundle.latam.small.1",
+      "title": "bundle.wicker.box.1_title"
     }
   },
   {
@@ -10330,7 +10390,7 @@
       "sku": "general2.ticket.11",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 1,
-      "hidden": true,
+      "spriteId": "general1.ticket.4",
       "title": "general2.ticket._GOWA26_title",
       "skuEnableTime": "2020-01-01T00:00:00",
       "skuDisableTime": "2026-11-15T20:00:00",
@@ -10338,22 +10398,6 @@
       "skuDisableTimeUtcMs": "1794772800000",
       "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F833d6091_PGO_GOWA-2026-Global-KeyArt_1024x512_sku.png",
       "webstoreSkuId": "web-gowa-global-2026-ticket",
-      "webstoreSkuPriceE6": 11990000
-    }
-  },
-  {
-    "templateId": "general2.ticket.11.giftable",
-    "data": {
-      "sku": "general2.ticket.11.giftable",
-      "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
-      "sortOrder": 1,
-      "hidden": true,
-      "title": "general2.ticket._GOWA26_title",
-      "skuEnableTime": "2020-01-01T00:00:00",
-      "skuDisableTime": "2026-11-15T20:00:00",
-      "skuEnableTimeUtcMs": "1577836800000",
-      "skuDisableTimeUtcMs": "1794772800000",
-      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F833d6091_PGO_GOWA-2026-Global-KeyArt_1024x512_sku.png",
       "webstoreSkuPriceE6": 11990000
     }
   },
@@ -10406,40 +10450,6 @@
       "skuDisableTimeUtcMs": "1789232400000",
       "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fdaa6a9dd_PGO_MCS_CD_Classic_KeyArt_Gible_v1-1024x576.jpg",
       "useEnvironmentPrefix": true
-    }
-  },
-  {
-    "templateId": "general2.ticket.4",
-    "data": {
-      "sku": "general2.ticket.4",
-      "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
-      "sortOrder": 1,
-      "hidden": true,
-      "spriteId": "general2.ticket.2",
-      "title": "general1.ticket.2_WaterRRD26_title",
-      "skuEnableTime": "2023-01-01T11:00:01",
-      "skuDisableTime": "2026-03-21T17:00:00",
-      "skuEnableTimeUtcMs": "1672570801000",
-      "skuDisableTimeUtcMs": "1774112400000",
-      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-replay-water-research-day-2026-nologo.jpg",
-      "webstoreSkuId": "web-water-research-day-ticket-box",
-      "webstoreSkuPriceE6": 1990000
-    }
-  },
-  {
-    "templateId": "general2.ticket.4.giftable",
-    "data": {
-      "sku": "general2.ticket.4.giftable",
-      "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
-      "sortOrder": 1,
-      "hidden": true,
-      "spriteId": "general2.ticket.2",
-      "title": "general1.ticket.2_WaterRRD26_title",
-      "skuEnableTime": "2023-01-01T11:00:01",
-      "skuDisableTime": "2026-03-21T17:00:00",
-      "skuEnableTimeUtcMs": "1672570801000",
-      "skuDisableTimeUtcMs": "1774112400000",
-      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-replay-water-research-day-2026-nologo.jpg"
     }
   },
   {
@@ -11745,40 +11755,6 @@
     }
   },
   {
-    "templateId": "pgorelease.general2.ticket.4",
-    "data": {
-      "sku": "pgorelease.general2.ticket.4",
-      "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
-      "sortOrder": 1,
-      "hidden": true,
-      "spriteId": "general2.ticket.2",
-      "title": "general1.ticket.2_WaterRRD26_title",
-      "skuEnableTime": "2023-01-01T11:00:01",
-      "skuDisableTime": "2026-03-21T17:00:00",
-      "skuEnableTimeUtcMs": "1672570801000",
-      "skuDisableTimeUtcMs": "1774112400000",
-      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-replay-water-research-day-2026-nologo.jpg",
-      "webstoreSkuId": "web-water-research-day-ticket-box",
-      "webstoreSkuPriceE6": 1990000
-    }
-  },
-  {
-    "templateId": "pgorelease.general2.ticket.4.giftable",
-    "data": {
-      "sku": "pgorelease.general2.ticket.4.giftable",
-      "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
-      "sortOrder": 1,
-      "hidden": true,
-      "spriteId": "general2.ticket.2",
-      "title": "general1.ticket.2_WaterRRD26_title",
-      "skuEnableTime": "2023-01-01T11:00:01",
-      "skuDisableTime": "2026-03-21T17:00:00",
-      "skuEnableTimeUtcMs": "1672570801000",
-      "skuDisableTimeUtcMs": "1774112400000",
-      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-replay-water-research-day-2026-nologo.jpg"
-    }
-  },
-  {
     "templateId": "pgorelease.general2.ticket.7",
     "data": {
       "sku": "pgorelease.general2.ticket.7",
@@ -11935,32 +11911,6 @@
     }
   },
   {
-    "templateId": "pgorelease.month3_deluxe_event_pass_track_unlock",
-    "data": {
-      "sku": "pgorelease.month3_deluxe_event_pass_track_unlock",
-      "sortOrder": 1,
-      "title": "season_pass_premium_track_title_aug",
-      "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
-      "skuEnableTime": "2025-07-28T10:00:00",
-      "skuDisableTime": "2026-09-10T10:00:00",
-      "skuEnableTimeUtcMs": "1753696800000",
-      "skuDisableTimeUtcMs": "1789034400000"
-    }
-  },
-  {
-    "templateId": "pgorelease.month3_deluxe_event_pass_track_unlock_plus_points",
-    "data": {
-      "sku": "pgorelease.month3_deluxe_event_pass_track_unlock_plus_points",
-      "sortOrder": 1,
-      "title": "season_pass_premium_track_plus_ten_ranks_title_aug",
-      "description": "gotour_2025_deluxe_event_pass_track_unlock_plus_points_description",
-      "skuEnableTime": "2025-07-28T10:00:00",
-      "skuDisableTime": "2026-09-10T10:00:00",
-      "skuEnableTimeUtcMs": "1753696800000",
-      "skuDisableTimeUtcMs": "1789034400000"
-    }
-  },
-  {
     "templateId": "pgorelease.pokecoin.15950",
     "data": {
       "sku": "pgorelease.pokecoin.15950",
@@ -12025,6 +11975,21 @@
       "skuEnableTimeUtcMs": "1757325600000",
       "skuDisableTimeUtcMs": "1789588800000",
       "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F13d4dacd_PGO-MCS_Avatar_Maschiff_Top_v2-1024x576%20no%20logo.png"
+    }
+  },
+  {
+    "templateId": "pgorelease.september2_2026_deluxe_event_pass_track_unlock_redirect",
+    "data": {
+      "sku": "pgorelease.september2_2026_deluxe_event_pass_track_unlock_redirect",
+      "sortOrder": 1,
+      "hidden": true,
+      "title": "season_pass_premium_track_title_horizons_fall_2026",
+      "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
+      "skuEnableTime": "2025-09-16T10:00:00",
+      "skuDisableTime": "2026-09-24T20:00:00",
+      "skuEnableTimeUtcMs": "1758016800000",
+      "skuDisableTimeUtcMs": "1790280000000",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fec63551c_PGO-MCS_Horizon_Celebration_2026_TICKET_v1-1024x576.jpg"
     }
   },
   {

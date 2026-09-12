@@ -235,8 +235,7 @@ export interface ArBackendSettingData {
 }
 
 export interface FeatureBackendConfig {
-    arFeature:  string;
-    arBackend?: string;
+    arFeature: string;
 }
 
 export interface ArPhotoFeatureFlags {
@@ -422,7 +421,7 @@ export interface LevelUpRewardData {
     level:                       number;
     items:                       string[];
     itemsCount:                  number[];
-    featuresUnlocked?:           BonusType[];
+    featuresUnlocked?:           FeaturesUnlocked[];
     clientOverrideDisplayOrder?: boolean;
     itemsUnlocked?:              string[];
     neutralAvatarItemTemplates?: NeutralAvatarItemTemplate;
@@ -430,7 +429,7 @@ export interface LevelUpRewardData {
     isBackfill?:                 boolean;
 }
 
-export type BonusType = number | string;
+export type FeaturesUnlocked = number | string;
 
 export interface NeutralAvatarItemTemplate {
     itemTemplateId:    string;
@@ -1140,7 +1139,7 @@ export interface CombatSettingData {
     shadowPokemonAttackBonusMultiplier:      number;
     shadowPokemonDefenseBonusMultiplier:     number;
     purifiedPokemonAttackMultiplierVsShadow: number;
-    combatExperiment:                        BonusType[];
+    combatExperiment:                        FeaturesUnlocked[];
     showQuickSwapButtonsDuringCountdown:     boolean;
     obCombatSettingsNotPushedBool2:          boolean;
     clockSyncSettings:                       ClockSyncSettings;
@@ -1324,8 +1323,8 @@ export interface DeepLinkingSettings {
 export interface DeepLinkingSettingData {
     minPlayerLevelForExternalLink:     number;
     minPlayerLevelForNotificationLink: number;
-    actionsThatIgnoreMinLevel:         BonusType[];
-    actionsThatExecuteBeforeMapLoads:  BonusType[];
+    actionsThatIgnoreMinLevel:         FeaturesUnlocked[];
+    actionsThatExecuteBeforeMapLoads:  FeaturesUnlocked[];
     iosActionButtonEnabled:            boolean;
 }
 
@@ -1480,7 +1479,7 @@ export interface EventPassTierSettingData {
 }
 
 export interface Settings {
-    eventName:  EventName;
+    eventName:  string;
     bonusBoxes: ActiveBonusDisplaySettingsBonusBox[];
 }
 
@@ -1498,25 +1497,17 @@ export enum IconType {
     Trade = "TRADE",
 }
 
-export enum EventName {
-    GoPassCumulativeBonusesHeader = "go_pass_cumulative_bonuses_header",
-    SeasonPassMilestoneBonusTitle01 = "season_pass_milestone_bonus_title_01",
-    SeasonPassMilestoneBonusTitle02 = "season_pass_milestone_bonus_title_02",
-    SeasonPassMilestoneBonusTitle03 = "season_pass_milestone_bonus_title_03",
-    SeasonPassMilestoneBonusTitle04 = "season_pass_milestone_bonus_title_04",
-}
-
 export interface PurpleReward {
     type:                       TypeElement;
     pokemonEncounter?:          RewardPokemonEncounter;
-    item?:                      RewardDatumItem;
-    stardust?:                  number;
-    candy?:                     Candy;
-    xlCandy?:                   Candy;
     exp?:                       number;
+    stardust?:                  number;
+    item?:                      RewardDatumItem;
     playerAttribute?:           PlayerAttribute;
     neutralAvatarItemTemplate?: NeutralAvatarItemTemplate;
     megaResource?:              Candy;
+    candy?:                     Candy;
+    xlCandy?:                   Candy;
 }
 
 export interface Candy {
@@ -1531,9 +1522,9 @@ export interface PlayerAttribute {
 
 export interface RewardPokemonEncounter {
     pokemonId:            string;
-    pokemonDisplay?:      PurplePokemonDisplay;
-    statsLimitsOverride?: StatsLimitsOverride;
+    pokemonDisplay:       PurplePokemonDisplay;
     isFeaturedPokemon?:   boolean;
+    statsLimitsOverride?: StatsLimitsOverride;
 }
 
 export interface PurplePokemonDisplay {
@@ -1956,7 +1947,7 @@ export interface TimePeriodCounters {
 }
 
 export interface PlayerActivity {
-    limit: number;
+    limit?: number;
 }
 
 export interface XpBoost {
@@ -2204,7 +2195,7 @@ export interface IrisSocialUxFunnelSettingData {
 
 export interface EventStep {
     stepNumber: number;
-    event:      BonusType;
+    event:      FeaturesUnlocked;
 }
 
 export interface ItemCurrencyValues {
@@ -2572,7 +2563,7 @@ export interface MpSettingData {
 
 export interface BattleMpCostPerTier {
     breadBattleCatchMpCost:       number;
-    battleLevel:                  BonusType;
+    battleLevel:                  FeaturesUnlocked;
     breadBattleRemoteCatchMpCost: number;
 }
 
@@ -2703,7 +2694,7 @@ export interface NonCombatMoveSettingData {
     cost:                        Cost;
     bonusEffect:                 BonusEffect;
     durationMs:                  string;
-    bonusType:                   BonusType;
+    bonusType:                   string;
     enableMultiUse:              boolean;
     extraDurationMs:             string;
     enableNonCombatMove:         boolean;
@@ -3060,7 +3051,7 @@ export interface PokedexCategoriesSettingData {
 }
 
 export interface PokedexCategorySettingsInOrder {
-    pokedexCategory: BonusType;
+    pokedexCategory: FeaturesUnlocked;
     milestoneGoal:   number;
     visuallyHidden?: boolean;
 }
@@ -3397,7 +3388,7 @@ export interface ReferralSettingData {
 }
 
 export interface RecentFeature {
-    iconType:    BonusType;
+    iconType:    FeaturesUnlocked;
     featureName: string;
     description: string;
 }
@@ -3912,7 +3903,7 @@ export interface TutorialSettingData {
 }
 
 export interface TutorialItemReward {
-    tutorial: BonusType;
+    tutorial: FeaturesUnlocked;
     item?:    ItemElement[];
 }
 

@@ -13,8 +13,7 @@
           "arFeature": "IRIS"
         },
         {
-          "arFeature": "AR_PHOTO_SOCIAL",
-          "arBackend": "CUSTOM"
+          "arFeature": "AR_PHOTO_SOCIAL"
         }
       ]
     }

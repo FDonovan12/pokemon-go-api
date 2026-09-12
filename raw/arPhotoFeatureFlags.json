@@ -90,7 +90,8 @@
         {
           "pokemonId": "CHARIZARD",
           "excludedForms": [
-            "CHARIZARD_COPY_2019"
+            "CHARIZARD_COPY_2019",
+            "CHARIZARD_GOGGLES_2026"
           ]
         },
         {
@@ -447,6 +448,18 @@
           "pokemonId": "GIMMIGHOUL",
           "excludedForms": [
             "GIMMIGHOUL_NORMAL"
+          ]
+        },
+        {
+          "pokemonId": "CHARMANDER",
+          "excludedForms": [
+            "CHARMANDER_GOGGLES_2026"
+          ]
+        },
+        {
+          "pokemonId": "CHARMELEON",
+          "excludedForms": [
+            "CHARMELEON_GOGGLES_2026"
           ]
         }
       ],

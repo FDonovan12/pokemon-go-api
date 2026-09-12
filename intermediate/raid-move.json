@@ -3998,6 +3998,18 @@
         "fr": "Bec Vrille+"
       }
     },
+    "TEMP_EVOLUTION_MEGA_V0229_POKEMON_HOUNDOOM": {
+      "id": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0229_POKEMON_HOUNDOOM",
+      "movementId": "TEMP_EVOLUTION_MEGA_V0229_POKEMON_HOUNDOOM",
+      "pokemonType": "Ténèbres",
+      "power": 150,
+      "durationMs": 3000,
+      "energyDelta": -100,
+      "vfxName": "dark_pulse",
+      "names": {
+        "fr": "Vibrobscur+"
+      }
+    },
     "TEMP_EVOLUTION_MEGA_V0652_POKEMON_CHESNAUGHT": {
       "id": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0652_POKEMON_CHESNAUGHT",
       "movementId": "TEMP_EVOLUTION_MEGA_V0652_POKEMON_CHESNAUGHT",

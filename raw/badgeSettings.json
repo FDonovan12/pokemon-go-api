@@ -11012,6 +11012,468 @@
     }
   },
   {
+    "templateId": "BADGE_SAFARI_2026_BOSTON_ADD_ON_HATCH",
+    "data": {
+      "badgeType": "BADGE_SAFARI_2026_BOSTON_ADD_ON_HATCH",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_SAFARI_2026_BOSTON_ADD_ON_HATCH_TEST",
+    "data": {
+      "badgeType": "BADGE_SAFARI_2026_BOSTON_ADD_ON_HATCH_TEST",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_SAFARI_2026_BOSTON_ADD_ON_RAID",
+    "data": {
+      "badgeType": "BADGE_SAFARI_2026_BOSTON_ADD_ON_RAID",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_SAFARI_2026_BOSTON_ADD_ON_RAID_TEST",
+    "data": {
+      "badgeType": "BADGE_SAFARI_2026_BOSTON_ADD_ON_RAID_TEST",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_SAFARI_2026_BOSTON_DAY_00",
+    "data": {
+      "badgeType": "BADGE_SAFARI_2026_BOSTON_DAY_00",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_SAFARI_2026_BOSTON_DAY_01",
+    "data": {
+      "badgeType": "BADGE_SAFARI_2026_BOSTON_DAY_01",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_SAFARI_2026_BOSTON_DAY_02",
+    "data": {
+      "badgeType": "BADGE_SAFARI_2026_BOSTON_DAY_02",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_SAFARI_2026_BRISBANE_ADD_ON_HATCH",
+    "data": {
+      "badgeType": "BADGE_SAFARI_2026_BRISBANE_ADD_ON_HATCH",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_SAFARI_2026_BRISBANE_ADD_ON_HATCH_TEST",
+    "data": {
+      "badgeType": "BADGE_SAFARI_2026_BRISBANE_ADD_ON_HATCH_TEST",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_SAFARI_2026_BRISBANE_ADD_ON_RAID",
+    "data": {
+      "badgeType": "BADGE_SAFARI_2026_BRISBANE_ADD_ON_RAID",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_SAFARI_2026_BRISBANE_ADD_ON_RAID_TEST",
+    "data": {
+      "badgeType": "BADGE_SAFARI_2026_BRISBANE_ADD_ON_RAID_TEST",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_SAFARI_2026_BRISBANE_DAY_00",
+    "data": {
+      "badgeType": "BADGE_SAFARI_2026_BRISBANE_DAY_00",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_SAFARI_2026_BRISBANE_DAY_01",
+    "data": {
+      "badgeType": "BADGE_SAFARI_2026_BRISBANE_DAY_01",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_SAFARI_2026_BRISBANE_DAY_02",
+    "data": {
+      "badgeType": "BADGE_SAFARI_2026_BRISBANE_DAY_02",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_SAFARI_2026_LISBON_ADD_ON_HATCH",
+    "data": {
+      "badgeType": "BADGE_SAFARI_2026_LISBON_ADD_ON_HATCH",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_SAFARI_2026_LISBON_ADD_ON_HATCH_TEST",
+    "data": {
+      "badgeType": "BADGE_SAFARI_2026_LISBON_ADD_ON_HATCH_TEST",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_SAFARI_2026_LISBON_ADD_ON_RAID",
+    "data": {
+      "badgeType": "BADGE_SAFARI_2026_LISBON_ADD_ON_RAID",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_SAFARI_2026_LISBON_ADD_ON_RAID_TEST",
+    "data": {
+      "badgeType": "BADGE_SAFARI_2026_LISBON_ADD_ON_RAID_TEST",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_SAFARI_2026_LISBON_DAY_00",
+    "data": {
+      "badgeType": "BADGE_SAFARI_2026_LISBON_DAY_00",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_SAFARI_2026_LISBON_DAY_01",
+    "data": {
+      "badgeType": "BADGE_SAFARI_2026_LISBON_DAY_01",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_SAFARI_2026_LISBON_DAY_02",
+    "data": {
+      "badgeType": "BADGE_SAFARI_2026_LISBON_DAY_02",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_SAFARI_2026_MARSEILLE_ADD_ON_HATCH",
+    "data": {
+      "badgeType": "BADGE_SAFARI_2026_MARSEILLE_ADD_ON_HATCH",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_SAFARI_2026_MARSEILLE_ADD_ON_HATCH_TEST",
+    "data": {
+      "badgeType": "BADGE_SAFARI_2026_MARSEILLE_ADD_ON_HATCH_TEST",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_SAFARI_2026_MARSEILLE_ADD_ON_RAID",
+    "data": {
+      "badgeType": "BADGE_SAFARI_2026_MARSEILLE_ADD_ON_RAID",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_SAFARI_2026_MARSEILLE_ADD_ON_RAID_TEST",
+    "data": {
+      "badgeType": "BADGE_SAFARI_2026_MARSEILLE_ADD_ON_RAID_TEST",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_SAFARI_2026_MARSEILLE_DAY_00",
+    "data": {
+      "badgeType": "BADGE_SAFARI_2026_MARSEILLE_DAY_00",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_SAFARI_2026_MARSEILLE_DAY_01",
+    "data": {
+      "badgeType": "BADGE_SAFARI_2026_MARSEILLE_DAY_01",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_SAFARI_2026_MARSEILLE_DAY_02",
+    "data": {
+      "badgeType": "BADGE_SAFARI_2026_MARSEILLE_DAY_02",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_SAFARI_2026_MUNICH_ADD_ON_HATCH",
+    "data": {
+      "badgeType": "BADGE_SAFARI_2026_MUNICH_ADD_ON_HATCH",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_SAFARI_2026_MUNICH_ADD_ON_HATCH_TEST",
+    "data": {
+      "badgeType": "BADGE_SAFARI_2026_MUNICH_ADD_ON_HATCH_TEST",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_SAFARI_2026_MUNICH_ADD_ON_RAID",
+    "data": {
+      "badgeType": "BADGE_SAFARI_2026_MUNICH_ADD_ON_RAID",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_SAFARI_2026_MUNICH_ADD_ON_RAID_TEST",
+    "data": {
+      "badgeType": "BADGE_SAFARI_2026_MUNICH_ADD_ON_RAID_TEST",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_SAFARI_2026_MUNICH_DAY_00",
+    "data": {
+      "badgeType": "BADGE_SAFARI_2026_MUNICH_DAY_00",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_SAFARI_2026_MUNICH_DAY_01",
+    "data": {
+      "badgeType": "BADGE_SAFARI_2026_MUNICH_DAY_01",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_SAFARI_2026_MUNICH_DAY_02",
+    "data": {
+      "badgeType": "BADGE_SAFARI_2026_MUNICH_DAY_02",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_SAFARI_2026_RDJ_ADD_ON_HATCH",
+    "data": {
+      "badgeType": "BADGE_SAFARI_2026_RDJ_ADD_ON_HATCH",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_SAFARI_2026_RDJ_ADD_ON_HATCH_TEST",
+    "data": {
+      "badgeType": "BADGE_SAFARI_2026_RDJ_ADD_ON_HATCH_TEST",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_SAFARI_2026_RDJ_ADD_ON_RAID",
+    "data": {
+      "badgeType": "BADGE_SAFARI_2026_RDJ_ADD_ON_RAID",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_SAFARI_2026_RDJ_ADD_ON_RAID_TEST",
+    "data": {
+      "badgeType": "BADGE_SAFARI_2026_RDJ_ADD_ON_RAID_TEST",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_SAFARI_2026_RDJ_DAY_00",
+    "data": {
+      "badgeType": "BADGE_SAFARI_2026_RDJ_DAY_00",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_SAFARI_2026_RDJ_DAY_01",
+    "data": {
+      "badgeType": "BADGE_SAFARI_2026_RDJ_DAY_01",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_SAFARI_2026_RDJ_DAY_02",
+    "data": {
+      "badgeType": "BADGE_SAFARI_2026_RDJ_DAY_02",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
     "templateId": "BADGE_SAFARI_ZONE_EUROPE_2017",
     "data": {
       "badgeType": "BADGE_SAFARI_ZONE_EUROPE_2017",

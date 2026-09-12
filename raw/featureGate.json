@@ -56,6 +56,13 @@
     }
   },
   {
+    "templateId": "EVENT_PASS_BONUS_MILESTONE_SEPARATION_FEATURE_GATE",
+    "data": {
+      "status": 1,
+      "rolloutPercentage": 100
+    }
+  },
+  {
     "templateId": "EVENT_PASS_BONUS_RANKS_FEATURE_GATE",
     "data": {
       "status": 1,
@@ -119,6 +126,13 @@
           "rolloutPercentage": 100
         }
       ]
+    }
+  },
+  {
+    "templateId": "GET_GMT_ANALYSIS_FOR_PLAYER_FEATURE_GATE",
+    "data": {
+      "status": 1,
+      "rolloutPercentage": 100
     }
   },
   {
