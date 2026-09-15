@@ -421,15 +421,13 @@ export interface LevelUpRewardData {
     level:                       number;
     items:                       string[];
     itemsCount:                  number[];
-    featuresUnlocked?:           FeaturesUnlocked[];
+    featuresUnlocked?:           string[];
     clientOverrideDisplayOrder?: boolean;
     itemsUnlocked?:              string[];
     neutralAvatarItemTemplates?: NeutralAvatarItemTemplate;
     obLevelUpRewardsNumber9?:    number;
     isBackfill?:                 boolean;
 }
-
-export type FeaturesUnlocked = number | string;
 
 export interface NeutralAvatarItemTemplate {
     itemTemplateId:    string;
@@ -1139,7 +1137,7 @@ export interface CombatSettingData {
     shadowPokemonAttackBonusMultiplier:      number;
     shadowPokemonDefenseBonusMultiplier:     number;
     purifiedPokemonAttackMultiplierVsShadow: number;
-    combatExperiment:                        FeaturesUnlocked[];
+    combatExperiment:                        CombatExperiment[];
     showQuickSwapButtonsDuringCountdown:     boolean;
     obCombatSettingsNotPushedBool2:          boolean;
     clockSyncSettings:                       ClockSyncSettings;
@@ -1151,6 +1149,8 @@ export interface ClockSyncSettings {
     syncAttemptCount: number;
     enabled:          boolean;
 }
+
+export type CombatExperiment = number | string;
 
 export interface CombatFeatureFlags {
     realDeviceTimeEnabled: boolean;
@@ -1323,8 +1323,8 @@ export interface DeepLinkingSettings {
 export interface DeepLinkingSettingData {
     minPlayerLevelForExternalLink:     number;
     minPlayerLevelForNotificationLink: number;
-    actionsThatIgnoreMinLevel:         FeaturesUnlocked[];
-    actionsThatExecuteBeforeMapLoads:  FeaturesUnlocked[];
+    actionsThatIgnoreMinLevel:         CombatExperiment[];
+    actionsThatExecuteBeforeMapLoads:  CombatExperiment[];
     iosActionButtonEnabled:            boolean;
 }
 
@@ -1947,7 +1947,7 @@ export interface TimePeriodCounters {
 }
 
 export interface PlayerActivity {
-    limit?: number;
+    limit: number;
 }
 
 export interface XpBoost {
@@ -2195,7 +2195,7 @@ export interface IrisSocialUxFunnelSettingData {
 
 export interface EventStep {
     stepNumber: number;
-    event:      FeaturesUnlocked;
+    event:      CombatExperiment;
 }
 
 export interface ItemCurrencyValues {
@@ -2563,7 +2563,7 @@ export interface MpSettingData {
 
 export interface BattleMpCostPerTier {
     breadBattleCatchMpCost:       number;
-    battleLevel:                  FeaturesUnlocked;
+    battleLevel:                  CombatExperiment;
     breadBattleRemoteCatchMpCost: number;
 }
 
@@ -3051,7 +3051,7 @@ export interface PokedexCategoriesSettingData {
 }
 
 export interface PokedexCategorySettingsInOrder {
-    pokedexCategory: FeaturesUnlocked;
+    pokedexCategory: CombatExperiment;
     milestoneGoal:   number;
     visuallyHidden?: boolean;
 }
@@ -3388,7 +3388,7 @@ export interface ReferralSettingData {
 }
 
 export interface RecentFeature {
-    iconType:    FeaturesUnlocked;
+    iconType:    CombatExperiment;
     featureName: string;
     description: string;
 }
@@ -3903,7 +3903,7 @@ export interface TutorialSettingData {
 }
 
 export interface TutorialItemReward {
-    tutorial: FeaturesUnlocked;
+    tutorial: CombatExperiment;
     item?:    ItemElement[];
 }
 
