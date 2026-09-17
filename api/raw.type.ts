@@ -101,7 +101,6 @@ export enum TypeElement {
     Candy = "CANDY",
     Experience = "EXPERIENCE",
     Item = "ITEM",
-    MegaResource = "MEGA_RESOURCE",
     PlayerAttribute = "PLAYER_ATTRIBUTE",
     PokemonEncounter = "POKEMON_ENCOUNTER",
     Stardust = "STARDUST",
@@ -179,50 +178,6 @@ export interface WithPokemonType {
 
 export interface WithThrowType {
     throwType: string;
-}
-
-export interface IapItemDisplay {
-    templateId: string;
-    data:       IapItemDisplayData;
-}
-
-export interface IapItemDisplayData {
-    sku:                     string;
-    sortOrder?:              number;
-    hidden?:                 boolean;
-    title?:                  string;
-    description?:            string;
-    skuEnableTime?:          Date;
-    skuDisableTime?:         Date;
-    skuEnableTimeUtcMs?:     string;
-    skuDisableTimeUtcMs?:    string;
-    imageUrl?:               string;
-    spriteId?:               string;
-    showDiscountTag?:        boolean;
-    showStrikethroughPrice?: boolean;
-    totalValue?:             number;
-    category?:               CategoryEnum;
-    sale?:                   boolean;
-    maxLevel?:               number;
-    webstoreSkuId?:          string;
-    webstoreSkuPriceE6?:     number;
-    useEnvironmentPrefix?:   boolean;
-}
-
-export enum CategoryEnum {
-    IapCategoryAvatar = "IAP_CATEGORY_AVATAR",
-    IapCategoryBundle = "IAP_CATEGORY_BUNDLE",
-    IapCategoryFlairBundle = "IAP_CATEGORY_FLAIR_BUNDLE",
-    IapCategoryFree = "IAP_CATEGORY_FREE",
-    IapCategoryGlobalEventTicket = "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
-    IapCategoryItems = "IAP_CATEGORY_ITEMS",
-    IapCategoryNone = "IAP_CATEGORY_NONE",
-    IapCategoryPokecoins = "IAP_CATEGORY_POKECOINS",
-    IapCategoryRewardedSpend = "IAP_CATEGORY_REWARDED_SPEND",
-    IapCategorySticker = "IAP_CATEGORY_STICKER",
-    IapCategoryTeamChange = "IAP_CATEGORY_TEAM_CHANGE",
-    IapCategoryTransporterEnergy = "IAP_CATEGORY_TRANSPORTER_ENERGY",
-    IapCategoryUpgrades = "IAP_CATEGORY_UPGRADES",
 }
 
 export interface ArBackendSettings {
@@ -424,12 +379,12 @@ export interface LevelUpRewardData {
     featuresUnlocked?:           string[];
     clientOverrideDisplayOrder?: boolean;
     itemsUnlocked?:              string[];
-    neutralAvatarItemTemplates?: NeutralAvatarItemTemplate;
+    neutralAvatarItemTemplates?: NeutralAvatarItemTemplates;
     obLevelUpRewardsNumber9?:    number;
     isBackfill?:                 boolean;
 }
 
-export interface NeutralAvatarItemTemplate {
+export interface NeutralAvatarItemTemplates {
     itemTemplateId:    string;
     displayTemplateId: string;
 }
@@ -845,6 +800,50 @@ export interface BulkHealingSettings {
 export interface BulkHealingSettingData {
     enabled:            boolean;
     maxPokemonsPerHeal: number;
+}
+
+export interface IapItemDisplay {
+    templateId: string;
+    data:       IapItemDisplayData;
+}
+
+export interface IapItemDisplayData {
+    sku:                     string;
+    spriteId?:               string;
+    showDiscountTag?:        boolean;
+    showStrikethroughPrice?: boolean;
+    totalValue?:             number;
+    category?:               CategoryEnum;
+    sortOrder?:              number;
+    title?:                  string;
+    description?:            string;
+    skuEnableTime?:          Date;
+    skuDisableTime?:         Date;
+    skuEnableTimeUtcMs?:     string;
+    skuDisableTimeUtcMs?:    string;
+    imageUrl?:               string;
+    hidden?:                 boolean;
+    sale?:                   boolean;
+    maxLevel?:               number;
+    useEnvironmentPrefix?:   boolean;
+    webstoreSkuId?:          string;
+    webstoreSkuPriceE6?:     number;
+}
+
+export enum CategoryEnum {
+    IapCategoryAvatar = "IAP_CATEGORY_AVATAR",
+    IapCategoryBundle = "IAP_CATEGORY_BUNDLE",
+    IapCategoryFlairBundle = "IAP_CATEGORY_FLAIR_BUNDLE",
+    IapCategoryFree = "IAP_CATEGORY_FREE",
+    IapCategoryGlobalEventTicket = "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
+    IapCategoryItems = "IAP_CATEGORY_ITEMS",
+    IapCategoryNone = "IAP_CATEGORY_NONE",
+    IapCategoryPokecoins = "IAP_CATEGORY_POKECOINS",
+    IapCategoryRewardedSpend = "IAP_CATEGORY_REWARDED_SPEND",
+    IapCategorySticker = "IAP_CATEGORY_STICKER",
+    IapCategoryTeamChange = "IAP_CATEGORY_TEAM_CHANGE",
+    IapCategoryTransporterEnergy = "IAP_CATEGORY_TRANSPORTER_ENERGY",
+    IapCategoryUpgrades = "IAP_CATEGORY_UPGRADES",
 }
 
 export interface ButterflyCollectorSettings {
@@ -1489,25 +1488,24 @@ export interface ActiveBonusDisplaySettingsBonusBox {
 }
 
 export enum IconType {
-    Egg = "EGG",
+    CandyGeneral = "CANDY_GENERAL",
     EggIncubator = "EGG_INCUBATOR",
     Gift = "GIFT",
     Incense = "INCENSE",
-    SpawnUnknown = "SPAWN_UNKNOWN",
+    LureModule = "LURE_MODULE",
+    Stardust = "STARDUST",
     Trade = "TRADE",
 }
 
 export interface PurpleReward {
-    type:                       TypeElement;
-    pokemonEncounter?:          RewardPokemonEncounter;
-    exp?:                       number;
-    stardust?:                  number;
-    item?:                      RewardDatumItem;
-    playerAttribute?:           PlayerAttribute;
-    neutralAvatarItemTemplate?: NeutralAvatarItemTemplate;
-    megaResource?:              Candy;
-    candy?:                     Candy;
-    xlCandy?:                   Candy;
+    type:              TypeElement;
+    playerAttribute?:  PlayerAttribute;
+    exp?:              number;
+    stardust?:         number;
+    item?:             RewardDatumItem;
+    pokemonEncounter?: RewardPokemonEncounter;
+    candy?:            Candy;
+    xlCandy?:          Candy;
 }
 
 export interface Candy {
@@ -1522,7 +1520,7 @@ export interface PlayerAttribute {
 
 export interface RewardPokemonEncounter {
     pokemonId:            string;
-    pokemonDisplay:       PurplePokemonDisplay;
+    pokemonDisplay?:      PurplePokemonDisplay;
     isFeaturedPokemon?:   boolean;
     statsLimitsOverride?: StatsLimitsOverride;
 }
@@ -1887,10 +1885,10 @@ export interface IconReward {
     pokemonEncounter?:          IconRewardPokemonEncounter;
     item?:                      RewardDatumItem;
     candy?:                     Candy;
-    neutralAvatarItemTemplate?: IconRewardNeutralAvatarItemTemplate;
+    neutralAvatarItemTemplate?: NeutralAvatarItemTemplate;
 }
 
-export interface IconRewardNeutralAvatarItemTemplate {
+export interface NeutralAvatarItemTemplate {
     displayTemplateId: string;
 }
 

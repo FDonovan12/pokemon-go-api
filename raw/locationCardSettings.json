@@ -1749,6 +1749,15 @@
     }
   },
   {
+    "templateId": "LC_SPECIALBACKGROUND_BATIK_2026",
+    "data": {
+      "locationCard": "LC_SPECIALBACKGROUND_BATIK_2026",
+      "imageUrl": "sb_PatternWild",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_PatternsWild"
+    }
+  },
+  {
     "templateId": "LC_SPECIALBACKGROUND_CON2025",
     "data": {
       "locationCard": "LC_SPECIALBACKGROUND_CON2025",
@@ -1800,7 +1809,9 @@
     "templateId": "LC_SPECIALBACKGROUND_MIDAUTUMN_2026",
     "data": {
       "locationCard": "LC_SPECIALBACKGROUND_MIDAUTUMN_2026",
-      "imageUrl": "lc_specialbackground_midautumn_2026"
+      "imageUrl": "sb_MidAutumn",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_MidAutumn"
     }
   },
   {

@@ -4010,6 +4010,18 @@
         "fr": "Vibrobscur+"
       }
     },
+    "TEMP_EVOLUTION_MEGA_V0398_POKEMON_STARAPTOR": {
+      "id": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0398_POKEMON_STARAPTOR",
+      "movementId": "TEMP_EVOLUTION_MEGA_V0398_POKEMON_STARAPTOR",
+      "pokemonType": "Vol",
+      "power": 150,
+      "durationMs": 2000,
+      "energyDelta": -100,
+      "vfxName": "brave_bird",
+      "names": {
+        "fr": "Rapace+"
+      }
+    },
     "TEMP_EVOLUTION_MEGA_V0652_POKEMON_CHESNAUGHT": {
       "id": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0652_POKEMON_CHESNAUGHT",
       "movementId": "TEMP_EVOLUTION_MEGA_V0652_POKEMON_CHESNAUGHT",

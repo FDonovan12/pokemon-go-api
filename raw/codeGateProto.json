@@ -10,16 +10,6 @@
     }
   },
   {
-    "templateId": "INPUT_TRACKER_CODE_GATE",
-    "data": {
-      "isEnabled": true,
-      "subCodeGateList": {
-        "name": "trade_sub_code_gate",
-        "isEnabled": true
-      }
-    }
-  },
-  {
     "templateId": "IS_SKU_AVAILABLE_NO_APP_ID_CODE_GATE",
     "data": {
       "isEnabled": true

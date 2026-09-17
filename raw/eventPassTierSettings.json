@@ -1,45 +1,53 @@
 [
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_10_FREE",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_10_FREE",
     "data": {
       "rank": 10,
       "track": "FREE",
       "minPointsRequired": 900,
       "rewards": [
         {
-          "type": "POKEMON_ENCOUNTER",
-          "pokemonEncounter": {
-            "pokemonId": "FLAMIGO",
-            "pokemonDisplay": {
-              "form": "FLAMIGO_NORMAL"
-            },
-            "isFeaturedPokemon": true
+          "type": "PLAYER_ATTRIBUTE",
+          "playerAttribute": {
+            "key": "horizonsfall2026_season_pass_rank_02",
+            "durationMins": 131487
           }
         }
-      ]
+      ],
+      "bonusSettings": {
+        "eventName": "season_pass_milestone_bonus_title_02",
+        "bonusBoxes": [
+          {
+            "text": "lure_duration_double",
+            "iconType": "LURE_MODULE"
+          }
+        ]
+      },
+      "activeBonusDisplaySettings": {
+        "eventName": "go_pass_cumulative_bonuses_header",
+        "bonusBoxes": [
+          {
+            "text": "catch_candy_double",
+            "iconType": "CANDY_GENERAL"
+          },
+          {
+            "text": "lure_duration_double",
+            "iconType": "LURE_MODULE"
+          }
+        ]
+      },
+      "isMilestoneRank": true
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_10_PREMIUM",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_10_PREMIUM",
     "data": {
       "rank": 10,
-      "track": "PREMIUM",
-      "rewards": [
-        {
-          "type": "POKEMON_ENCOUNTER",
-          "pokemonEncounter": {
-            "pokemonId": "FLAMIGO",
-            "pokemonDisplay": {
-              "form": "FLAMIGO_NORMAL"
-            },
-            "isFeaturedPokemon": true
-          }
-        }
-      ]
+      "track": "PREMIUM"
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_11_FREE",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_11_FREE",
     "data": {
       "rank": 11,
       "track": "FREE",
@@ -53,7 +61,7 @@
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_11_PREMIUM",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_11_PREMIUM",
     "data": {
       "rank": 11,
       "track": "PREMIUM",
@@ -66,7 +74,7 @@
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_12_FREE",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_12_FREE",
     "data": {
       "rank": 12,
       "track": "FREE",
@@ -83,7 +91,7 @@
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_12_PREMIUM",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_12_PREMIUM",
     "data": {
       "rank": 12,
       "track": "PREMIUM",
@@ -99,7 +107,7 @@
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_13_FREE",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_13_FREE",
     "data": {
       "rank": 13,
       "track": "FREE",
@@ -108,15 +116,16 @@
         {
           "type": "ITEM",
           "item": {
-            "item": "ITEM_RARE_CANDY",
-            "amount": 1
+            "item": "ITEM_PINAP_BERRY",
+            "amount": 5
           }
         }
-      ]
+      ],
+      "isMilestoneRank": true
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_13_PREMIUM",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_13_PREMIUM",
     "data": {
       "rank": 13,
       "track": "PREMIUM",
@@ -132,7 +141,7 @@
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_14_FREE",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_14_FREE",
     "data": {
       "rank": 14,
       "track": "FREE",
@@ -141,9 +150,9 @@
         {
           "type": "POKEMON_ENCOUNTER",
           "pokemonEncounter": {
-            "pokemonId": "WEEDLE",
+            "pokemonId": "SPRIGATITO",
             "pokemonDisplay": {
-              "form": "WEEDLE_NORMAL"
+              "form": "SPRIGATITO_NORMAL"
             },
             "isFeaturedPokemon": true
           }
@@ -152,7 +161,7 @@
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_14_PREMIUM",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_14_PREMIUM",
     "data": {
       "rank": 14,
       "track": "PREMIUM",
@@ -160,9 +169,9 @@
         {
           "type": "POKEMON_ENCOUNTER",
           "pokemonEncounter": {
-            "pokemonId": "BEEDRILL",
+            "pokemonId": "FLORAGATO",
             "pokemonDisplay": {
-              "form": "BEEDRILL_NORMAL"
+              "form": "FLORAGATO_NORMAL"
             },
             "isFeaturedPokemon": true
           }
@@ -171,130 +180,11 @@
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_15_FREE",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_15_FREE",
     "data": {
       "rank": 15,
       "track": "FREE",
       "minPointsRequired": 1400,
-      "rewards": [
-        {
-          "type": "PLAYER_ATTRIBUTE",
-          "playerAttribute": {
-            "key": "megasquads2026_season_pass_rank_02",
-            "durationMins": 131487
-          }
-        }
-      ],
-      "bonusSettings": {
-        "eventName": "season_pass_milestone_bonus_title_02",
-        "bonusBoxes": [
-          {
-            "text": "hatch_stardust_double",
-            "iconType": "EGG"
-          }
-        ]
-      },
-      "activeBonusDisplaySettings": {
-        "eventName": "go_pass_cumulative_bonuses_header",
-        "bonusBoxes": [
-          {
-            "text": "hatch_stardust_double",
-            "iconType": "EGG"
-          },
-          {
-            "text": "mega_energy_weedle_pidgey_houndour_carvanha",
-            "iconType": "SPAWN_UNKNOWN"
-          }
-        ]
-      },
-      "isMilestoneRank": true
-    }
-  },
-  {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_15_PREMIUM",
-    "data": {
-      "rank": 15,
-      "track": "PREMIUM",
-      "rewards": [
-        {
-          "type": "PLAYER_ATTRIBUTE",
-          "playerAttribute": {
-            "key": "megasquads2026_season_pass_rank_02_paid",
-            "durationMins": 131487
-          }
-        }
-      ],
-      "bonusSettings": {
-        "eventName": "season_pass_milestone_bonus_title_02",
-        "bonusBoxes": [
-          {
-            "text": "hatch_stardust_double",
-            "iconType": "EGG"
-          },
-          {
-            "text": "incubator_distance_half",
-            "iconType": "EGG"
-          }
-        ]
-      },
-      "activeBonusDisplaySettings": {
-        "eventName": "go_pass_cumulative_bonuses_header",
-        "bonusBoxes": [
-          {
-            "text": "hatch_stardust_double",
-            "iconType": "EGG"
-          },
-          {
-            "text": "incubator_distance_half",
-            "iconType": "EGG"
-          },
-          {
-            "text": "mega_energy_weedle_pidgey_houndour_carvanha",
-            "iconType": "SPAWN_UNKNOWN"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_16_FREE",
-    "data": {
-      "rank": 16,
-      "track": "FREE",
-      "minPointsRequired": 1500,
-      "rewards": [
-        {
-          "type": "ITEM",
-          "item": {
-            "item": "ITEM_INCUBATOR_BASIC",
-            "amount": 1
-          }
-        }
-      ]
-    }
-  },
-  {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_16_PREMIUM",
-    "data": {
-      "rank": 16,
-      "track": "PREMIUM",
-      "rewards": [
-        {
-          "type": "ITEM",
-          "item": {
-            "item": "ITEM_INCUBATOR_SUPER",
-            "amount": 1
-          }
-        }
-      ]
-    }
-  },
-  {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_17_FREE",
-    "data": {
-      "rank": 17,
-      "track": "FREE",
-      "minPointsRequired": 1600,
       "rewards": [
         {
           "type": "EXPERIENCE",
@@ -304,9 +194,9 @@
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_17_PREMIUM",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_15_PREMIUM",
     "data": {
-      "rank": 17,
+      "rank": 15,
       "track": "PREMIUM",
       "rewards": [
         {
@@ -317,11 +207,122 @@
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_18_FREE",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_16_FREE",
+    "data": {
+      "rank": 16,
+      "track": "FREE",
+      "minPointsRequired": 1500,
+      "rewards": [
+        {
+          "type": "POKEMON_ENCOUNTER",
+          "pokemonEncounter": {
+            "pokemonId": "FUECOCO",
+            "pokemonDisplay": {
+              "form": "FUECOCO_NORMAL"
+            },
+            "isFeaturedPokemon": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_16_PREMIUM",
+    "data": {
+      "rank": 16,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "POKEMON_ENCOUNTER",
+          "pokemonEncounter": {
+            "pokemonId": "CROCALOR",
+            "pokemonDisplay": {
+              "form": "CROCALOR_NORMAL"
+            },
+            "isFeaturedPokemon": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_17_FREE",
+    "data": {
+      "rank": 17,
+      "track": "FREE",
+      "minPointsRequired": 1600,
+      "rewards": [
+        {
+          "type": "ITEM",
+          "item": {
+            "item": "ITEM_GOLDEN_PINAP_BERRY",
+            "amount": 1
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_17_PREMIUM",
+    "data": {
+      "rank": 17,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "ITEM",
+          "item": {
+            "item": "ITEM_PAID_RAID_TICKET",
+            "amount": 1
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_18_FREE",
     "data": {
       "rank": 18,
       "track": "FREE",
       "minPointsRequired": 1700,
+      "rewards": [
+        {
+          "type": "POKEMON_ENCOUNTER",
+          "pokemonEncounter": {
+            "pokemonId": "QUAXLY",
+            "pokemonDisplay": {
+              "form": "QUAXLY_NORMAL"
+            },
+            "isFeaturedPokemon": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_18_PREMIUM",
+    "data": {
+      "rank": 18,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "POKEMON_ENCOUNTER",
+          "pokemonEncounter": {
+            "pokemonId": "QUAXWELL",
+            "pokemonDisplay": {
+              "form": "QUAXWELL_NORMAL"
+            },
+            "isFeaturedPokemon": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_19_FREE",
+    "data": {
+      "rank": 19,
+      "track": "FREE",
+      "minPointsRequired": 1800,
       "rewards": [
         {
           "type": "ITEM",
@@ -334,9 +335,9 @@
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_18_PREMIUM",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_19_PREMIUM",
     "data": {
-      "rank": 18,
+      "rank": 19,
       "track": "PREMIUM",
       "rewards": [
         {
@@ -350,46 +351,7 @@
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_19_FREE",
-    "data": {
-      "rank": 19,
-      "track": "FREE",
-      "minPointsRequired": 1800,
-      "rewards": [
-        {
-          "type": "POKEMON_ENCOUNTER",
-          "pokemonEncounter": {
-            "pokemonId": "PIDGEY",
-            "pokemonDisplay": {
-              "form": "PIDGEY_NORMAL"
-            },
-            "isFeaturedPokemon": true
-          }
-        }
-      ]
-    }
-  },
-  {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_19_PREMIUM",
-    "data": {
-      "rank": 19,
-      "track": "PREMIUM",
-      "rewards": [
-        {
-          "type": "POKEMON_ENCOUNTER",
-          "pokemonEncounter": {
-            "pokemonId": "PIDGEOTTO",
-            "pokemonDisplay": {
-              "form": "PIDGEOTTO_NORMAL"
-            },
-            "isFeaturedPokemon": true
-          }
-        }
-      ]
-    }
-  },
-  {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_1_FREE",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_1_FREE",
     "data": {
       "rank": 1,
       "track": "FREE",
@@ -397,14 +359,14 @@
         {
           "type": "PLAYER_ATTRIBUTE",
           "playerAttribute": {
-            "key": "megasquads2026_season_pass_rank_01",
+            "key": "horizonsfall2026_season_pass_rank_01",
             "durationMins": 131487
           }
         },
         {
           "type": "PLAYER_ATTRIBUTE",
           "playerAttribute": {
-            "key": "megasquads2026_season_pass_entitlement",
+            "key": "horizonsfall2026_season_pass_entitlement",
             "durationMins": 131487
           }
         }
@@ -413,8 +375,8 @@
         "eventName": "season_pass_milestone_bonus_title_01",
         "bonusBoxes": [
           {
-            "text": "mega_energy_weedle_pidgey_houndour_carvanha",
-            "iconType": "SPAWN_UNKNOWN"
+            "text": "catch_candy_double",
+            "iconType": "CANDY_GENERAL"
           }
         ]
       },
@@ -422,8 +384,85 @@
         "eventName": "go_pass_cumulative_bonuses_header",
         "bonusBoxes": [
           {
-            "text": "mega_energy_weedle_pidgey_houndour_carvanha",
-            "iconType": "SPAWN_UNKNOWN"
+            "text": "catch_candy_double",
+            "iconType": "CANDY_GENERAL"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_1_PREMIUM",
+    "data": {
+      "rank": 1,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "PLAYER_ATTRIBUTE",
+          "playerAttribute": {
+            "key": "horizonsfall2026_season_pass_rank_01_paid",
+            "durationMins": 131487
+          }
+        }
+      ],
+      "bonusSettings": {
+        "eventName": "season_pass_milestone_bonus_title_01",
+        "bonusBoxes": [
+          {
+            "text": "catch_candy_triple",
+            "iconType": "CANDY_GENERAL"
+          }
+        ]
+      },
+      "activeBonusDisplaySettings": {
+        "eventName": "go_pass_cumulative_bonuses_header",
+        "bonusBoxes": [
+          {
+            "text": "catch_candy_triple",
+            "iconType": "CANDY_GENERAL"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_20_FREE",
+    "data": {
+      "rank": 20,
+      "track": "FREE",
+      "minPointsRequired": 1900,
+      "rewards": [
+        {
+          "type": "PLAYER_ATTRIBUTE",
+          "playerAttribute": {
+            "key": "horizonsfall2026_season_pass_rank_03",
+            "durationMins": 131487
+          }
+        }
+      ],
+      "bonusSettings": {
+        "eventName": "season_pass_milestone_bonus_title_03",
+        "bonusBoxes": [
+          {
+            "text": "hatenna_wattrel_stardust_catch",
+            "iconType": "STARDUST"
+          }
+        ]
+      },
+      "activeBonusDisplaySettings": {
+        "eventName": "go_pass_cumulative_bonuses_header",
+        "bonusBoxes": [
+          {
+            "text": "catch_candy_double",
+            "iconType": "CANDY_GENERAL"
+          },
+          {
+            "text": "lure_duration_double",
+            "iconType": "LURE_MODULE"
+          },
+          {
+            "text": "hatenna_wattrel_stardust_catch",
+            "iconType": "STARDUST"
           }
         ]
       },
@@ -431,123 +470,23 @@
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_1_PREMIUM",
-    "data": {
-      "rank": 1,
-      "track": "PREMIUM",
-      "rewards": [
-        {
-          "type": "PLAYER_ATTRIBUTE",
-          "playerAttribute": {
-            "key": "megasquads2026_season_pass_rank_01_paid_not_used",
-            "durationMins": 131487
-          }
-        },
-        {
-          "type": "PLAYER_ATTRIBUTE",
-          "playerAttribute": {
-            "key": "megasquads2026_season_pass_entitlement",
-            "durationMins": 131487
-          }
-        }
-      ],
-      "bonusSettings": {
-        "eventName": "season_pass_milestone_bonus_title_01",
-        "bonusBoxes": [
-          {
-            "text": "mega_energy_weedle_pidgey_houndour_carvanha",
-            "iconType": "SPAWN_UNKNOWN"
-          }
-        ]
-      },
-      "activeBonusDisplaySettings": {
-        "eventName": "go_pass_cumulative_bonuses_header",
-        "bonusBoxes": [
-          {
-            "text": "mega_energy_weedle_pidgey_houndour_carvanha",
-            "iconType": "SPAWN_UNKNOWN"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_20_FREE",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_20_PREMIUM",
     "data": {
       "rank": 20,
-      "track": "FREE",
-      "minPointsRequired": 1900,
-      "rewards": [
-        {
-          "type": "POKEMON_ENCOUNTER",
-          "pokemonEncounter": {
-            "pokemonId": "FLAMIGO",
-            "pokemonDisplay": {
-              "form": "FLAMIGO_NORMAL"
-            },
-            "isFeaturedPokemon": true
-          }
-        }
-      ]
+      "track": "PREMIUM"
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_20_PREMIUM",
-    "data": {
-      "rank": 20,
-      "track": "PREMIUM",
-      "rewards": [
-        {
-          "type": "POKEMON_ENCOUNTER",
-          "pokemonEncounter": {
-            "pokemonId": "FLAMIGO",
-            "pokemonDisplay": {
-              "form": "FLAMIGO_NORMAL"
-            },
-            "isFeaturedPokemon": true
-          }
-        }
-      ]
-    }
-  },
-  {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_21_FREE",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_21_FREE",
     "data": {
       "rank": 21,
       "track": "FREE",
       "minPointsRequired": 2000,
       "rewards": [
         {
-          "type": "EXPERIENCE",
-          "exp": 7500
-        }
-      ]
-    }
-  },
-  {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_21_PREMIUM",
-    "data": {
-      "rank": 21,
-      "track": "PREMIUM",
-      "rewards": [
-        {
-          "type": "STARDUST",
-          "stardust": 10000
-        }
-      ]
-    }
-  },
-  {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_22_FREE",
-    "data": {
-      "rank": 22,
-      "track": "FREE",
-      "minPointsRequired": 2100,
-      "rewards": [
-        {
-          "type": "ITEM",
-          "item": {
-            "item": "ITEM_ULTRA_BALL",
+          "type": "CANDY",
+          "candy": {
+            "pokemonId": "HATENNA",
             "amount": 10
           }
         }
@@ -555,43 +494,82 @@
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_22_PREMIUM",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_21_PREMIUM",
     "data": {
-      "rank": 22,
+      "rank": 21,
       "track": "PREMIUM",
       "rewards": [
         {
-          "type": "ITEM",
-          "item": {
-            "item": "ITEM_ULTRA_BALL",
-            "amount": 20
+          "type": "POKEMON_ENCOUNTER",
+          "pokemonEncounter": {
+            "pokemonId": "HATENNA",
+            "pokemonDisplay": {
+              "form": "HATENNA_NORMAL"
+            },
+            "isFeaturedPokemon": true
           }
         }
       ]
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_23_FREE",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_22_FREE",
+    "data": {
+      "rank": 22,
+      "track": "FREE",
+      "minPointsRequired": 2100,
+      "rewards": [
+        {
+          "type": "POKEMON_ENCOUNTER",
+          "pokemonEncounter": {
+            "pokemonId": "HATENNA",
+            "pokemonDisplay": {
+              "form": "HATENNA_NORMAL"
+            },
+            "isFeaturedPokemon": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_22_PREMIUM",
+    "data": {
+      "rank": 22,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "POKEMON_ENCOUNTER",
+          "pokemonEncounter": {
+            "pokemonId": "HATENNA",
+            "pokemonDisplay": {
+              "form": "HATENNA_NORMAL"
+            },
+            "isFeaturedPokemon": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_23_FREE",
     "data": {
       "rank": 23,
       "track": "FREE",
       "minPointsRequired": 2200,
       "rewards": [
         {
-          "type": "POKEMON_ENCOUNTER",
-          "pokemonEncounter": {
-            "pokemonId": "CARVANHA",
-            "pokemonDisplay": {
-              "form": "CARVANHA_NORMAL"
-            },
-            "isFeaturedPokemon": true
+          "type": "CANDY",
+          "candy": {
+            "pokemonId": "HATENNA",
+            "amount": 10
           }
         }
       ]
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_23_PREMIUM",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_23_PREMIUM",
     "data": {
       "rank": 23,
       "track": "PREMIUM",
@@ -599,9 +577,9 @@
         {
           "type": "POKEMON_ENCOUNTER",
           "pokemonEncounter": {
-            "pokemonId": "CARVANHA",
+            "pokemonId": "HATENNA",
             "pokemonDisplay": {
-              "form": "CARVANHA_NORMAL"
+              "form": "HATENNA_NORMAL"
             },
             "isFeaturedPokemon": true
           }
@@ -610,7 +588,7 @@
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_24_FREE",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_24_FREE",
     "data": {
       "rank": 24,
       "track": "FREE",
@@ -619,9 +597,9 @@
         {
           "type": "POKEMON_ENCOUNTER",
           "pokemonEncounter": {
-            "pokemonId": "HOUNDOUR",
+            "pokemonId": "HATENNA",
             "pokemonDisplay": {
-              "form": "HOUNDOUR_NORMAL"
+              "form": "HATENNA_NORMAL"
             },
             "isFeaturedPokemon": true
           }
@@ -630,7 +608,7 @@
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_24_PREMIUM",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_24_PREMIUM",
     "data": {
       "rank": 24,
       "track": "PREMIUM",
@@ -638,9 +616,9 @@
         {
           "type": "POKEMON_ENCOUNTER",
           "pokemonEncounter": {
-            "pokemonId": "HOUNDOOM",
+            "pokemonId": "HATENNA",
             "pokemonDisplay": {
-              "form": "HOUNDOOM_NORMAL"
+              "form": "HATENNA_NORMAL"
             },
             "isFeaturedPokemon": true
           }
@@ -649,208 +627,67 @@
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_25_FREE",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_25_FREE",
     "data": {
       "rank": 25,
       "track": "FREE",
       "minPointsRequired": 2400,
       "rewards": [
         {
-          "type": "POKEMON_ENCOUNTER",
-          "pokemonEncounter": {
-            "pokemonId": "FLAMIGO",
-            "pokemonDisplay": {
-              "form": "FLAMIGO_NORMAL"
-            },
-            "isFeaturedPokemon": true
-          }
-        }
-      ],
-      "isMilestoneRank": true
-    }
-  },
-  {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_25_PREMIUM",
-    "data": {
-      "rank": 25,
-      "track": "PREMIUM",
-      "rewards": [
-        {
-          "type": "AVATAR_CLOTHING",
-          "neutralAvatarItemTemplate": {
-            "itemTemplateId": "N_AVATAR_n_shirt_maschiff",
-            "displayTemplateId": "N_DISPLAY_n_shirt_maschiff"
+          "type": "ITEM",
+          "item": {
+            "item": "ITEM_TROY_DISK",
+            "amount": 1
           }
         }
       ]
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_26_FREE",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_25_PREMIUM",
+    "data": {
+      "rank": 25,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "ITEM",
+          "item": {
+            "item": "ITEM_PAID_RAID_TICKET",
+            "amount": 2
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_26_FREE",
     "data": {
       "rank": 26,
       "track": "FREE",
       "minPointsRequired": 2500,
       "rewards": [
         {
-          "type": "EXPERIENCE",
-          "exp": 7500
+          "type": "CANDY",
+          "candy": {
+            "pokemonId": "WATTREL",
+            "amount": 10
+          }
         }
       ]
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_26_PREMIUM",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_26_PREMIUM",
     "data": {
       "rank": 26,
       "track": "PREMIUM",
       "rewards": [
         {
-          "type": "STARDUST",
-          "stardust": 10000
-        }
-      ]
-    }
-  },
-  {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_27_FREE",
-    "data": {
-      "rank": 27,
-      "track": "FREE",
-      "minPointsRequired": 2600,
-      "rewards": [
-        {
-          "type": "ITEM",
-          "item": {
-            "item": "ITEM_RARE_CANDY",
-            "amount": 1
-          }
-        }
-      ]
-    }
-  },
-  {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_27_PREMIUM",
-    "data": {
-      "rank": 27,
-      "track": "PREMIUM",
-      "rewards": [
-        {
-          "type": "ITEM",
-          "item": {
-            "item": "ITEM_XL_RARE_CANDY",
-            "amount": 1
-          }
-        }
-      ]
-    }
-  },
-  {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_28_FREE",
-    "data": {
-      "rank": 28,
-      "track": "FREE",
-      "minPointsRequired": 2700,
-      "rewards": [
-        {
-          "type": "MEGA_RESOURCE",
-          "megaResource": {
-            "pokemonId": "BEEDRILL",
-            "amount": 100
-          }
-        }
-      ]
-    }
-  },
-  {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_28_PREMIUM",
-    "data": {
-      "rank": 28,
-      "track": "PREMIUM",
-      "rewards": [
-        {
-          "type": "MEGA_RESOURCE",
-          "megaResource": {
-            "pokemonId": "BEEDRILL",
-            "amount": 1000
-          }
-        }
-      ]
-    }
-  },
-  {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_29_FREE",
-    "data": {
-      "rank": 29,
-      "track": "FREE",
-      "minPointsRequired": 2800,
-      "rewards": [
-        {
-          "type": "MEGA_RESOURCE",
-          "megaResource": {
-            "pokemonId": "HOUNDOOM",
-            "amount": 100
-          }
-        }
-      ]
-    }
-  },
-  {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_29_PREMIUM",
-    "data": {
-      "rank": 29,
-      "track": "PREMIUM",
-      "rewards": [
-        {
-          "type": "MEGA_RESOURCE",
-          "megaResource": {
-            "pokemonId": "HOUNDOOM",
-            "amount": 1000
-          }
-        }
-      ]
-    }
-  },
-  {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_2_FREE",
-    "data": {
-      "rank": 2,
-      "track": "FREE",
-      "minPointsRequired": 100,
-      "rewards": [
-        {
-          "type": "EXPERIENCE",
-          "exp": 2500
-        }
-      ]
-    }
-  },
-  {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_2_PREMIUM",
-    "data": {
-      "rank": 2,
-      "track": "PREMIUM",
-      "rewards": [
-        {
-          "type": "STARDUST",
-          "stardust": 5000
-        }
-      ]
-    }
-  },
-  {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_30_FREE",
-    "data": {
-      "rank": 30,
-      "track": "FREE",
-      "minPointsRequired": 2900,
-      "rewards": [
-        {
           "type": "POKEMON_ENCOUNTER",
           "pokemonEncounter": {
-            "pokemonId": "MASCHIFF",
+            "pokemonId": "WATTREL",
             "pokemonDisplay": {
-              "form": "MASCHIFF_NORMAL"
+              "form": "WATTREL_NORMAL"
             },
             "isFeaturedPokemon": true
           }
@@ -859,270 +696,125 @@
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_30_PREMIUM",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_27_FREE",
     "data": {
-      "rank": 30,
-      "track": "PREMIUM",
+      "rank": 27,
+      "track": "FREE",
+      "minPointsRequired": 2600,
       "rewards": [
         {
-          "type": "ITEM",
-          "item": {
-            "item": "ITEM_INCUBATOR_SUPER",
-            "amount": 1
+          "type": "POKEMON_ENCOUNTER",
+          "pokemonEncounter": {
+            "pokemonId": "WATTREL",
+            "pokemonDisplay": {
+              "form": "WATTREL_NORMAL"
+            },
+            "isFeaturedPokemon": true
           }
         }
       ]
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_31_FREE",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_27_PREMIUM",
     "data": {
-      "rank": 31,
-      "track": "FREE",
-      "minPointsRequired": 3000,
-      "rewards": [
-        {
-          "type": "STARDUST",
-          "stardust": 50
-        }
-      ]
-    }
-  },
-  {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_31_PREMIUM",
-    "data": {
-      "rank": 31,
+      "rank": 27,
       "track": "PREMIUM",
       "rewards": [
         {
-          "type": "STARDUST",
-          "stardust": 100
+          "type": "POKEMON_ENCOUNTER",
+          "pokemonEncounter": {
+            "pokemonId": "WATTREL",
+            "pokemonDisplay": {
+              "form": "WATTREL_NORMAL"
+            },
+            "isFeaturedPokemon": true
+          }
         }
       ]
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_32_FREE",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_28_FREE",
     "data": {
-      "rank": 32,
+      "rank": 28,
       "track": "FREE",
-      "minPointsRequired": 3100,
+      "minPointsRequired": 2700,
       "rewards": [
         {
-          "type": "STARDUST",
-          "stardust": 50
+          "type": "CANDY",
+          "candy": {
+            "pokemonId": "WATTREL",
+            "amount": 10
+          }
         }
       ]
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_32_PREMIUM",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_28_PREMIUM",
     "data": {
-      "rank": 32,
+      "rank": 28,
       "track": "PREMIUM",
       "rewards": [
         {
-          "type": "STARDUST",
-          "stardust": 100
+          "type": "POKEMON_ENCOUNTER",
+          "pokemonEncounter": {
+            "pokemonId": "WATTREL",
+            "pokemonDisplay": {
+              "form": "WATTREL_NORMAL"
+            },
+            "isFeaturedPokemon": true
+          }
         }
       ]
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_33_FREE",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_29_FREE",
     "data": {
-      "rank": 33,
+      "rank": 29,
       "track": "FREE",
-      "minPointsRequired": 3200,
+      "minPointsRequired": 2800,
       "rewards": [
         {
-          "type": "STARDUST",
-          "stardust": 50
+          "type": "POKEMON_ENCOUNTER",
+          "pokemonEncounter": {
+            "pokemonId": "WATTREL",
+            "pokemonDisplay": {
+              "form": "WATTREL_NORMAL"
+            },
+            "isFeaturedPokemon": true
+          }
         }
       ]
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_33_PREMIUM",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_29_PREMIUM",
     "data": {
-      "rank": 33,
+      "rank": 29,
       "track": "PREMIUM",
       "rewards": [
         {
-          "type": "STARDUST",
-          "stardust": 100
+          "type": "POKEMON_ENCOUNTER",
+          "pokemonEncounter": {
+            "pokemonId": "WATTREL",
+            "pokemonDisplay": {
+              "form": "WATTREL_NORMAL"
+            },
+            "isFeaturedPokemon": true
+          }
         }
       ]
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_34_FREE",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_2_FREE",
     "data": {
-      "rank": 34,
+      "rank": 2,
       "track": "FREE",
-      "minPointsRequired": 3300,
-      "rewards": [
-        {
-          "type": "STARDUST",
-          "stardust": 50
-        }
-      ]
-    }
-  },
-  {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_34_PREMIUM",
-    "data": {
-      "rank": 34,
-      "track": "PREMIUM",
-      "rewards": [
-        {
-          "type": "STARDUST",
-          "stardust": 100
-        }
-      ]
-    }
-  },
-  {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_35_FREE",
-    "data": {
-      "rank": 35,
-      "track": "FREE",
-      "minPointsRequired": 3400,
-      "rewards": [
-        {
-          "type": "STARDUST",
-          "stardust": 50
-        }
-      ]
-    }
-  },
-  {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_35_PREMIUM",
-    "data": {
-      "rank": 35,
-      "track": "PREMIUM",
-      "rewards": [
-        {
-          "type": "STARDUST",
-          "stardust": 100
-        }
-      ]
-    }
-  },
-  {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_36_FREE",
-    "data": {
-      "rank": 36,
-      "track": "FREE",
-      "minPointsRequired": 3500,
-      "rewards": [
-        {
-          "type": "STARDUST",
-          "stardust": 50
-        }
-      ]
-    }
-  },
-  {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_36_PREMIUM",
-    "data": {
-      "rank": 36,
-      "track": "PREMIUM",
-      "rewards": [
-        {
-          "type": "STARDUST",
-          "stardust": 100
-        }
-      ]
-    }
-  },
-  {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_37_FREE",
-    "data": {
-      "rank": 37,
-      "track": "FREE",
-      "minPointsRequired": 3600,
-      "rewards": [
-        {
-          "type": "STARDUST",
-          "stardust": 50
-        }
-      ]
-    }
-  },
-  {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_37_PREMIUM",
-    "data": {
-      "rank": 37,
-      "track": "PREMIUM",
-      "rewards": [
-        {
-          "type": "STARDUST",
-          "stardust": 100
-        }
-      ]
-    }
-  },
-  {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_38_FREE",
-    "data": {
-      "rank": 38,
-      "track": "FREE",
-      "minPointsRequired": 3700,
-      "rewards": [
-        {
-          "type": "STARDUST",
-          "stardust": 50
-        }
-      ]
-    }
-  },
-  {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_38_PREMIUM",
-    "data": {
-      "rank": 38,
-      "track": "PREMIUM",
-      "rewards": [
-        {
-          "type": "STARDUST",
-          "stardust": 100
-        }
-      ]
-    }
-  },
-  {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_39_FREE",
-    "data": {
-      "rank": 39,
-      "track": "FREE",
-      "minPointsRequired": 3800,
-      "rewards": [
-        {
-          "type": "STARDUST",
-          "stardust": 50
-        }
-      ]
-    }
-  },
-  {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_39_PREMIUM",
-    "data": {
-      "rank": 39,
-      "track": "PREMIUM",
-      "rewards": [
-        {
-          "type": "STARDUST",
-          "stardust": 100
-        }
-      ]
-    }
-  },
-  {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_3_FREE",
-    "data": {
-      "rank": 3,
-      "track": "FREE",
-      "minPointsRequired": 200,
+      "minPointsRequired": 100,
       "rewards": [
         {
           "type": "ITEM",
@@ -1135,9 +827,9 @@
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_3_PREMIUM",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_2_PREMIUM",
     "data": {
-      "rank": 3,
+      "rank": 2,
       "track": "PREMIUM",
       "rewards": [
         {
@@ -1151,296 +843,306 @@
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_40_FREE",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_30_FREE",
     "data": {
-      "rank": 40,
+      "rank": 30,
       "track": "FREE",
-      "minPointsRequired": 3900,
+      "minPointsRequired": 2900,
       "rewards": [
         {
-          "type": "STARDUST",
-          "stardust": 50
+          "type": "POKEMON_ENCOUNTER",
+          "pokemonEncounter": {
+            "pokemonId": "CHARMANDER",
+            "pokemonDisplay": {
+              "form": "CHARMANDER_GOGGLES_2026"
+            },
+            "isFeaturedPokemon": true
+          }
         }
-      ]
+      ],
+      "isMilestoneRank": true
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_40_PREMIUM",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_30_PREMIUM",
     "data": {
-      "rank": 40,
+      "rank": 30,
       "track": "PREMIUM",
-      "rewards": [
-        {
-          "type": "STARDUST",
-          "stardust": 100
-        }
-      ]
-    }
-  },
-  {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_41_FREE",
-    "data": {
-      "rank": 41,
-      "track": "FREE",
-      "minPointsRequired": 4000,
-      "rewards": [
-        {
-          "type": "STARDUST",
-          "stardust": 50
-        }
-      ]
-    }
-  },
-  {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_41_PREMIUM",
-    "data": {
-      "rank": 41,
-      "track": "PREMIUM",
-      "rewards": [
-        {
-          "type": "STARDUST",
-          "stardust": 100
-        }
-      ]
-    }
-  },
-  {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_42_FREE",
-    "data": {
-      "rank": 42,
-      "track": "FREE",
-      "minPointsRequired": 4100,
-      "rewards": [
-        {
-          "type": "STARDUST",
-          "stardust": 50
-        }
-      ]
-    }
-  },
-  {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_42_PREMIUM",
-    "data": {
-      "rank": 42,
-      "track": "PREMIUM",
-      "rewards": [
-        {
-          "type": "STARDUST",
-          "stardust": 100
-        }
-      ]
-    }
-  },
-  {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_43_FREE",
-    "data": {
-      "rank": 43,
-      "track": "FREE",
-      "minPointsRequired": 4200,
-      "rewards": [
-        {
-          "type": "STARDUST",
-          "stardust": 50
-        }
-      ]
-    }
-  },
-  {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_43_PREMIUM",
-    "data": {
-      "rank": 43,
-      "track": "PREMIUM",
-      "rewards": [
-        {
-          "type": "STARDUST",
-          "stardust": 100
-        }
-      ]
-    }
-  },
-  {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_44_FREE",
-    "data": {
-      "rank": 44,
-      "track": "FREE",
-      "minPointsRequired": 4300,
-      "rewards": [
-        {
-          "type": "STARDUST",
-          "stardust": 50
-        }
-      ]
-    }
-  },
-  {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_44_PREMIUM",
-    "data": {
-      "rank": 44,
-      "track": "PREMIUM",
-      "rewards": [
-        {
-          "type": "STARDUST",
-          "stardust": 100
-        }
-      ]
-    }
-  },
-  {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_45_FREE",
-    "data": {
-      "rank": 45,
-      "track": "FREE",
-      "minPointsRequired": 4400,
-      "rewards": [
-        {
-          "type": "STARDUST",
-          "stardust": 50
-        }
-      ]
-    }
-  },
-  {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_45_PREMIUM",
-    "data": {
-      "rank": 45,
-      "track": "PREMIUM",
-      "rewards": [
-        {
-          "type": "STARDUST",
-          "stardust": 100
-        }
-      ]
-    }
-  },
-  {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_46_FREE",
-    "data": {
-      "rank": 46,
-      "track": "FREE",
-      "minPointsRequired": 4500,
-      "rewards": [
-        {
-          "type": "STARDUST",
-          "stardust": 50
-        }
-      ]
-    }
-  },
-  {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_46_PREMIUM",
-    "data": {
-      "rank": 46,
-      "track": "PREMIUM",
-      "rewards": [
-        {
-          "type": "STARDUST",
-          "stardust": 100
-        }
-      ]
-    }
-  },
-  {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_47_FREE",
-    "data": {
-      "rank": 47,
-      "track": "FREE",
-      "minPointsRequired": 4600,
-      "rewards": [
-        {
-          "type": "STARDUST",
-          "stardust": 50
-        }
-      ]
-    }
-  },
-  {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_47_PREMIUM",
-    "data": {
-      "rank": 47,
-      "track": "PREMIUM",
-      "rewards": [
-        {
-          "type": "STARDUST",
-          "stardust": 100
-        }
-      ]
-    }
-  },
-  {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_48_FREE",
-    "data": {
-      "rank": 48,
-      "track": "FREE",
-      "minPointsRequired": 4700,
-      "rewards": [
-        {
-          "type": "STARDUST",
-          "stardust": 50
-        }
-      ]
-    }
-  },
-  {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_48_PREMIUM",
-    "data": {
-      "rank": 48,
-      "track": "PREMIUM",
-      "rewards": [
-        {
-          "type": "STARDUST",
-          "stardust": 100
-        }
-      ]
-    }
-  },
-  {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_49_FREE",
-    "data": {
-      "rank": 49,
-      "track": "FREE",
-      "minPointsRequired": 4800,
-      "rewards": [
-        {
-          "type": "STARDUST",
-          "stardust": 50
-        }
-      ]
-    }
-  },
-  {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_49_PREMIUM",
-    "data": {
-      "rank": 49,
-      "track": "PREMIUM",
-      "rewards": [
-        {
-          "type": "STARDUST",
-          "stardust": 100
-        }
-      ]
-    }
-  },
-  {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_4_FREE",
-    "data": {
-      "rank": 4,
-      "track": "FREE",
-      "minPointsRequired": 300,
       "rewards": [
         {
           "type": "ITEM",
           "item": {
-            "item": "ITEM_RARE_CANDY",
-            "amount": 1
+            "item": "ITEM_TROY_DISK",
+            "amount": 2
           }
         }
       ]
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_4_PREMIUM",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_31_FREE",
     "data": {
-      "rank": 4,
+      "rank": 31,
+      "track": "FREE",
+      "minPointsRequired": 3000,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_31_PREMIUM",
+    "data": {
+      "rank": 31,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 100
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_32_FREE",
+    "data": {
+      "rank": 32,
+      "track": "FREE",
+      "minPointsRequired": 3100,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_32_PREMIUM",
+    "data": {
+      "rank": 32,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 100
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_33_FREE",
+    "data": {
+      "rank": 33,
+      "track": "FREE",
+      "minPointsRequired": 3200,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_33_PREMIUM",
+    "data": {
+      "rank": 33,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 100
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_34_FREE",
+    "data": {
+      "rank": 34,
+      "track": "FREE",
+      "minPointsRequired": 3300,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_34_PREMIUM",
+    "data": {
+      "rank": 34,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 100
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_35_FREE",
+    "data": {
+      "rank": 35,
+      "track": "FREE",
+      "minPointsRequired": 3400,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_35_PREMIUM",
+    "data": {
+      "rank": 35,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 100
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_36_FREE",
+    "data": {
+      "rank": 36,
+      "track": "FREE",
+      "minPointsRequired": 3500,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_36_PREMIUM",
+    "data": {
+      "rank": 36,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 100
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_37_FREE",
+    "data": {
+      "rank": 37,
+      "track": "FREE",
+      "minPointsRequired": 3600,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_37_PREMIUM",
+    "data": {
+      "rank": 37,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 100
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_38_FREE",
+    "data": {
+      "rank": 38,
+      "track": "FREE",
+      "minPointsRequired": 3700,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_38_PREMIUM",
+    "data": {
+      "rank": 38,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 100
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_39_FREE",
+    "data": {
+      "rank": 39,
+      "track": "FREE",
+      "minPointsRequired": 3800,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_39_PREMIUM",
+    "data": {
+      "rank": 39,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 100
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_3_FREE",
+    "data": {
+      "rank": 3,
+      "track": "FREE",
+      "minPointsRequired": 200,
+      "rewards": [
+        {
+          "type": "ITEM",
+          "item": {
+            "item": "ITEM_RAZZ_BERRY",
+            "amount": 5
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_3_PREMIUM",
+    "data": {
+      "rank": 3,
       "track": "PREMIUM",
       "rewards": [
         {
@@ -1454,7 +1156,316 @@
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_50_FREE",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_40_FREE",
+    "data": {
+      "rank": 40,
+      "track": "FREE",
+      "minPointsRequired": 3900,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_40_PREMIUM",
+    "data": {
+      "rank": 40,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 100
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_41_FREE",
+    "data": {
+      "rank": 41,
+      "track": "FREE",
+      "minPointsRequired": 4000,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_41_PREMIUM",
+    "data": {
+      "rank": 41,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 100
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_42_FREE",
+    "data": {
+      "rank": 42,
+      "track": "FREE",
+      "minPointsRequired": 4100,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_42_PREMIUM",
+    "data": {
+      "rank": 42,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 100
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_43_FREE",
+    "data": {
+      "rank": 43,
+      "track": "FREE",
+      "minPointsRequired": 4200,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_43_PREMIUM",
+    "data": {
+      "rank": 43,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 100
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_44_FREE",
+    "data": {
+      "rank": 44,
+      "track": "FREE",
+      "minPointsRequired": 4300,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_44_PREMIUM",
+    "data": {
+      "rank": 44,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 100
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_45_FREE",
+    "data": {
+      "rank": 45,
+      "track": "FREE",
+      "minPointsRequired": 4400,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_45_PREMIUM",
+    "data": {
+      "rank": 45,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 100
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_46_FREE",
+    "data": {
+      "rank": 46,
+      "track": "FREE",
+      "minPointsRequired": 4500,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_46_PREMIUM",
+    "data": {
+      "rank": 46,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 100
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_47_FREE",
+    "data": {
+      "rank": 47,
+      "track": "FREE",
+      "minPointsRequired": 4600,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_47_PREMIUM",
+    "data": {
+      "rank": 47,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 100
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_48_FREE",
+    "data": {
+      "rank": 48,
+      "track": "FREE",
+      "minPointsRequired": 4700,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_48_PREMIUM",
+    "data": {
+      "rank": 48,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 100
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_49_FREE",
+    "data": {
+      "rank": 49,
+      "track": "FREE",
+      "minPointsRequired": 4800,
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 50
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_49_PREMIUM",
+    "data": {
+      "rank": 49,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "STARDUST",
+          "stardust": 100
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_4_FREE",
+    "data": {
+      "rank": 4,
+      "track": "FREE",
+      "minPointsRequired": 300,
+      "rewards": [
+        {
+          "type": "POKEMON_ENCOUNTER",
+          "pokemonEncounter": {
+            "pokemonId": "EEVEE",
+            "pokemonDisplay": {
+              "form": "EEVEE_NORMAL"
+            },
+            "isFeaturedPokemon": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_4_PREMIUM",
+    "data": {
+      "rank": 4,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "POKEMON_ENCOUNTER",
+          "pokemonEncounter": {
+            "pokemonId": "EEVEE",
+            "pokemonDisplay": {
+              "form": "EEVEE_NORMAL"
+            },
+            "isFeaturedPokemon": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_50_FREE",
     "data": {
       "rank": 50,
       "track": "FREE",
@@ -1468,7 +1479,7 @@
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_50_PREMIUM",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_50_PREMIUM",
     "data": {
       "rank": 50,
       "track": "PREMIUM",
@@ -1481,7 +1492,7 @@
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_51_FREE",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_51_FREE",
     "data": {
       "rank": 51,
       "track": "FREE",
@@ -1495,7 +1506,7 @@
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_51_PREMIUM",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_51_PREMIUM",
     "data": {
       "rank": 51,
       "track": "PREMIUM",
@@ -1508,7 +1519,7 @@
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_52_FREE",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_52_FREE",
     "data": {
       "rank": 52,
       "track": "FREE",
@@ -1522,7 +1533,7 @@
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_52_PREMIUM",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_52_PREMIUM",
     "data": {
       "rank": 52,
       "track": "PREMIUM",
@@ -1535,7 +1546,7 @@
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_53_FREE",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_53_FREE",
     "data": {
       "rank": 53,
       "track": "FREE",
@@ -1549,7 +1560,7 @@
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_53_PREMIUM",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_53_PREMIUM",
     "data": {
       "rank": 53,
       "track": "PREMIUM",
@@ -1562,7 +1573,7 @@
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_54_FREE",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_54_FREE",
     "data": {
       "rank": 54,
       "track": "FREE",
@@ -1576,7 +1587,7 @@
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_54_PREMIUM",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_54_PREMIUM",
     "data": {
       "rank": 54,
       "track": "PREMIUM",
@@ -1589,7 +1600,7 @@
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_55_FREE",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_55_FREE",
     "data": {
       "rank": 55,
       "track": "FREE",
@@ -1603,7 +1614,7 @@
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_55_PREMIUM",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_55_PREMIUM",
     "data": {
       "rank": 55,
       "track": "PREMIUM",
@@ -1616,7 +1627,7 @@
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_56_FREE",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_56_FREE",
     "data": {
       "rank": 56,
       "track": "FREE",
@@ -1630,7 +1641,7 @@
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_56_PREMIUM",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_56_PREMIUM",
     "data": {
       "rank": 56,
       "track": "PREMIUM",
@@ -1643,7 +1654,7 @@
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_57_FREE",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_57_FREE",
     "data": {
       "rank": 57,
       "track": "FREE",
@@ -1657,7 +1668,7 @@
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_57_PREMIUM",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_57_PREMIUM",
     "data": {
       "rank": 57,
       "track": "PREMIUM",
@@ -1670,7 +1681,7 @@
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_58_FREE",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_58_FREE",
     "data": {
       "rank": 58,
       "track": "FREE",
@@ -1684,7 +1695,7 @@
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_58_PREMIUM",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_58_PREMIUM",
     "data": {
       "rank": 58,
       "track": "PREMIUM",
@@ -1697,7 +1708,7 @@
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_59_FREE",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_59_FREE",
     "data": {
       "rank": 59,
       "track": "FREE",
@@ -1711,7 +1722,7 @@
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_59_PREMIUM",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_59_PREMIUM",
     "data": {
       "rank": 59,
       "track": "PREMIUM",
@@ -1724,46 +1735,34 @@
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_5_FREE",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_5_FREE",
     "data": {
       "rank": 5,
       "track": "FREE",
       "minPointsRequired": 400,
       "rewards": [
         {
-          "type": "POKEMON_ENCOUNTER",
-          "pokemonEncounter": {
-            "pokemonId": "FLETCHLING",
-            "pokemonDisplay": {
-              "form": "FLETCHLING_NORMAL"
-            },
-            "isFeaturedPokemon": true
-          }
+          "type": "EXPERIENCE",
+          "exp": 2500
         }
       ]
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_5_PREMIUM",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_5_PREMIUM",
     "data": {
       "rank": 5,
       "track": "PREMIUM",
       "rewards": [
         {
-          "type": "POKEMON_ENCOUNTER",
-          "pokemonEncounter": {
-            "pokemonId": "FLETCHINDER",
-            "pokemonDisplay": {
-              "form": "FLETCHINDER_NORMAL"
-            },
-            "isFeaturedPokemon": true
-          }
+          "type": "STARDUST",
+          "stardust": 5000
         }
       ]
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_60_FREE",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_60_FREE",
     "data": {
       "rank": 60,
       "track": "FREE",
@@ -1772,9 +1771,9 @@
         {
           "type": "POKEMON_ENCOUNTER",
           "pokemonEncounter": {
-            "pokemonId": "FLAMIGO",
+            "pokemonId": "PIKACHU",
             "pokemonDisplay": {
-              "form": "FLAMIGO_NORMAL"
+              "form": "PIKACHU_HORIZONS"
             },
             "isFeaturedPokemon": true
           }
@@ -1783,7 +1782,7 @@
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_60_PREMIUM",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_60_PREMIUM",
     "data": {
       "rank": 60,
       "track": "PREMIUM",
@@ -1791,10 +1790,7 @@
         {
           "type": "POKEMON_ENCOUNTER",
           "pokemonEncounter": {
-            "pokemonId": "MASCHIFF",
-            "pokemonDisplay": {
-              "form": "MASCHIFF_NORMAL"
-            },
+            "pokemonId": "ROCKRUFF",
             "isFeaturedPokemon": true
           }
         }
@@ -1802,7 +1798,7 @@
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_6_FREE",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_6_FREE",
     "data": {
       "rank": 6,
       "track": "FREE",
@@ -1815,11 +1811,12 @@
             "amount": 1
           }
         }
-      ]
+      ],
+      "isMilestoneRank": true
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_6_PREMIUM",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_6_PREMIUM",
     "data": {
       "rank": 6,
       "track": "PREMIUM",
@@ -1827,7 +1824,7 @@
         {
           "type": "ITEM",
           "item": {
-            "item": "ITEM_INCUBATOR_SUPER",
+            "item": "ITEM_PAID_RAID_TICKET",
             "amount": 1
           }
         }
@@ -1835,38 +1832,11 @@
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_7_FREE",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_7_FREE",
     "data": {
       "rank": 7,
       "track": "FREE",
       "minPointsRequired": 600,
-      "rewards": [
-        {
-          "type": "EXPERIENCE",
-          "exp": 2500
-        }
-      ]
-    }
-  },
-  {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_7_PREMIUM",
-    "data": {
-      "rank": 7,
-      "track": "PREMIUM",
-      "rewards": [
-        {
-          "type": "STARDUST",
-          "stardust": 5000
-        }
-      ]
-    }
-  },
-  {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_8_FREE",
-    "data": {
-      "rank": 8,
-      "track": "FREE",
-      "minPointsRequired": 700,
       "rewards": [
         {
           "type": "ITEM",
@@ -1879,9 +1849,9 @@
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_8_PREMIUM",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_7_PREMIUM",
     "data": {
-      "rank": 8,
+      "rank": 7,
       "track": "PREMIUM",
       "rewards": [
         {
@@ -1895,18 +1865,18 @@
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_9_FREE",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_8_FREE",
     "data": {
-      "rank": 9,
+      "rank": 8,
       "track": "FREE",
-      "minPointsRequired": 800,
+      "minPointsRequired": 700,
       "rewards": [
         {
           "type": "POKEMON_ENCOUNTER",
           "pokemonEncounter": {
-            "pokemonId": "ROOKIDEE",
+            "pokemonId": "FIDOUGH",
             "pokemonDisplay": {
-              "form": "ROOKIDEE_NORMAL"
+              "form": "FIDOUGH_NORMAL"
             },
             "isFeaturedPokemon": true
           }
@@ -1915,19 +1885,55 @@
     }
   },
   {
-    "templateId": "EVENT_PASS_MEGASQUADS2026_EVENT_9_PREMIUM",
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_8_PREMIUM",
     "data": {
-      "rank": 9,
+      "rank": 8,
       "track": "PREMIUM",
       "rewards": [
         {
           "type": "POKEMON_ENCOUNTER",
           "pokemonEncounter": {
-            "pokemonId": "CORVISQUIRE",
+            "pokemonId": "FIDOUGH",
             "pokemonDisplay": {
-              "form": "CORVISQUIRE_NORMAL"
+              "form": "FIDOUGH_NORMAL"
             },
             "isFeaturedPokemon": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_9_FREE",
+    "data": {
+      "rank": 9,
+      "track": "FREE",
+      "minPointsRequired": 800,
+      "rewards": [
+        {
+          "type": "POKEMON_ENCOUNTER",
+          "pokemonEncounter": {
+            "pokemonId": "CHARMANDER",
+            "pokemonDisplay": {
+              "form": "CHARMANDER_GOGGLES_2026"
+            },
+            "isFeaturedPokemon": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "EVENT_PASS_HORIZONS_FALL_2026_EVENT_9_PREMIUM",
+    "data": {
+      "rank": 9,
+      "track": "PREMIUM",
+      "rewards": [
+        {
+          "type": "ITEM",
+          "item": {
+            "item": "ITEM_TROY_DISK",
+            "amount": 2
           }
         }
       ]

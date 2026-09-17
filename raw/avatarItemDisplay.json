@@ -2019,6 +2019,13 @@
     }
   },
   {
+    "templateId": "N_DISPLAY_n_hat_adidas",
+    "data": {
+      "iconAddress": "n_hat_adidas_icon",
+      "displayStringId": "avatar_hat_adidas2026"
+    }
+  },
+  {
     "templateId": "N_DISPLAY_n_hat_adventure_0",
     "data": {
       "iconAddress": "n_hat_adventure_0_icon",
@@ -5456,6 +5463,13 @@
     }
   },
   {
+    "templateId": "N_DISPLAY_n_shirt_adidasjacket",
+    "data": {
+      "iconAddress": "n_shirt_adidasjacket_icon",
+      "displayStringId": "avatar_shirt_adidas2026"
+    }
+  },
+  {
     "templateId": "N_DISPLAY_n_shirt_allister_0",
     "data": {
       "iconAddress": "n_shirt_allister_0_icon",
@@ -8645,6 +8659,13 @@
     "data": {
       "iconAddress": "n_shoes_acetrainersm_b_0_icon",
       "displayStringId": "n_shoes_acetrainersm_b_0_display_name"
+    }
+  },
+  {
+    "templateId": "N_DISPLAY_n_shoes_adidas",
+    "data": {
+      "iconAddress": "n_shoes_adidas_icon",
+      "displayStringId": "avatar_shoes_adidas2026"
     }
   },
   {

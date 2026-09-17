@@ -3769,6 +3769,20 @@
     }
   },
   {
+    "templateId": "COMBAT_VM_MOVE_TEMP_EVOLUTION_MEGA_V0398_POKEMON_STARAPTOR",
+    "data": {
+      "uniqueId": "TEMP_EVOLUTION_MEGA_V0398_POKEMON_STARAPTOR",
+      "type": "POKEMON_TYPE_FLYING",
+      "power": 70,
+      "vfxName": "brave_bird",
+      "energyDelta": -40,
+      "buffs": {
+        "attackerDefenseStatStageChange": -3,
+        "buffActivationChance": 1
+      }
+    }
+  },
+  {
     "templateId": "COMBAT_VM_MOVE_TEMP_EVOLUTION_MEGA_V0652_POKEMON_CHESNAUGHT",
     "data": {
       "uniqueId": "TEMP_EVOLUTION_MEGA_V0652_POKEMON_CHESNAUGHT",

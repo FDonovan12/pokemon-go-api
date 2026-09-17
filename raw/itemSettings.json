@@ -236,7 +236,7 @@
       },
       "timePeriodCounters": {
         "playerActivity": {
-          "limit": 500
+          "limit": 300
         }
       },
       "hideItemInInventory": true
@@ -255,7 +255,7 @@
       },
       "timePeriodCounters": {
         "playerActivity": {
-          "limit": 300
+          "limit": 500
         }
       },
       "hideItemInInventory": true
@@ -1811,6 +1811,49 @@
       },
       "nameOverride": "general2.ticket._GOWA26_title",
       "descriptionOverride": "item_global_event_ticket_details_GOWA26"
+    }
+  },
+  {
+    "templateId": "ITEM_EVENT_TICKET_S24_OCT_3_MAXBATTLE",
+    "data": {
+      "itemId": "ITEM_EVENT_TICKET_S24_OCT_3_MAXBATTLE",
+      "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
+      "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
+      "globalEventTicket": {
+        "eventStartTime": "2026-10-03T14:00:00",
+        "eventEndTime": "2026-10-03T17:00:00",
+        "itemBagDescriptionKey": "ITEM_EVENT_TICKET_S24_OCT_3_MAXBATTLE_desc_gmaxCinderace26",
+        "giftable": true,
+        "giftItem": "ITEM_EVENT_TICKET_S24_OCT_3_MAXBATTLE_TO_GIFT",
+        "displayV2Enabled": true,
+        "eventDatetimeRangeKey": "event_datetime_range_key_gmaxCinderace26",
+        "textRewardsKey": "text_rewards_key_gmaxCinderace26",
+        "iconRewards": [
+          {
+            "type": "ITEM",
+            "item": {
+              "item": "ITEM_MAX_BOOST",
+              "amount": 1
+            }
+          },
+          {
+            "type": "EXPERIENCE",
+            "exp": 25000
+          },
+          {
+            "type": "ITEM",
+            "item": {
+              "item": "ITEM_MP",
+              "amount": 6400
+            }
+          }
+        ],
+        "detailsLinkKey": "details_link_key",
+        "clientEventStartTimeUtcMs": "1791036000000",
+        "clientEventEndTimeUtcMs": "1791046800000"
+      },
+      "nameOverride": "general1.ticket.4_gmaxCinderace26_title",
+      "descriptionOverride": "ITEM_EVENT_TICKET_S24_OCT_3_MAXBATTLE_desc_gmaxCinderace26"
     }
   },
   {
