@@ -28,6 +28,13 @@
     }
   },
   {
+    "templateId": "COMBAT_VNEXT_INITIALIZE_BD_LAST_FEATURE_GATE",
+    "data": {
+      "status": 1,
+      "rolloutPercentage": 100
+    }
+  },
+  {
     "templateId": "ENABLE_PVP_CHALLENGE_SPANNER_FEATURE_GATE",
     "data": {
       "status": 1,
@@ -187,6 +194,13 @@
     "data": {
       "status": 1,
       "rolloutPercentage": 100
+    }
+  },
+  {
+    "templateId": "REGISTER_DEVICE_FEATURE_GATE",
+    "data": {
+      "status": 1,
+      "rolloutPercentage": 30
     }
   },
   {

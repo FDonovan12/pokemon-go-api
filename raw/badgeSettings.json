@@ -2359,6 +2359,20 @@
     }
   },
   {
+    "templateId": "BADGE_EVENT_0243",
+    "data": {
+      "badgeType": "BADGE_EVENT_0243",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true,
+      "eventBadgeSettings": {
+        "obEventBadgeSettingsNumber6": 1
+      }
+    }
+  },
+  {
     "templateId": "BADGE_EVENT_0253",
     "data": {
       "badgeType": "BADGE_EVENT_0253",
