@@ -825,9 +825,9 @@ export interface IapItemDisplayData {
     hidden?:                 boolean;
     sale?:                   boolean;
     maxLevel?:               number;
-    useEnvironmentPrefix?:   boolean;
     webstoreSkuId?:          string;
     webstoreSkuPriceE6?:     number;
+    useEnvironmentPrefix?:   boolean;
 }
 
 export enum CategoryEnum {
@@ -2525,7 +2525,6 @@ export enum Id {
     Gardevoir = "GARDEVOIR",
     Mewtwo = "MEWTWO",
     Raichu = "RAICHU",
-    Staraptor = "STARAPTOR",
 }
 
 export interface MonodepthSettings {
@@ -2785,9 +2784,8 @@ export interface OnboardingSettings {
 }
 
 export interface OnboardingSettingData {
-    disableInitialArPrompt:  boolean;
-    arPromptPlayerLevel:     number;
-    adventureSyncPromptStep: number;
+    disableInitialArPrompt: boolean;
+    arPromptPlayerLevel:    number;
 }
 
 export interface OptimizationsProto {

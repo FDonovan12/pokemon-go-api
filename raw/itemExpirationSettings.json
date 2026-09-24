@@ -54,16 +54,16 @@
     "templateId": "ITEM_EXPIRATION_ITEM_EVENT_PASS_POINT_LIVE_OPS_03",
     "data": {
       "item": "ITEM_EVENT_PASS_POINT_LIVE_OPS_03",
-      "expirationTime": "2026-10-07T20:00:00",
-      "emergencyExpirationTime": "2026-10-08T10:00:00"
+      "expirationTime": "2026-10-09T20:00:00",
+      "emergencyExpirationTime": "2026-10-10T10:00:00"
     }
   },
   {
     "templateId": "ITEM_EXPIRATION_ITEM_EVENT_PASS_POINT_LIVE_OPS_04",
     "data": {
       "item": "ITEM_EVENT_PASS_POINT_LIVE_OPS_04",
-      "expirationTime": "2026-05-08T20:00:00",
-      "emergencyExpirationTime": "2026-05-09T10:00:00"
+      "expirationTime": "2026-10-23T20:00:00",
+      "emergencyExpirationTime": "2026-10-24T10:00:00"
     }
   },
   {
@@ -125,8 +125,8 @@
     "templateId": "ITEM_EXPIRATION_ITEM_EVENT_PASS_POINT_MONTHLY_02",
     "data": {
       "item": "ITEM_EVENT_PASS_POINT_MONTHLY_02",
-      "expirationTime": "2026-08-06T10:00:00",
-      "emergencyExpirationTime": "2026-08-08T10:00:00"
+      "expirationTime": "2026-11-05T10:00:00",
+      "emergencyExpirationTime": "2026-11-07T10:00:00"
     }
   },
   {
@@ -149,7 +149,7 @@
     "templateId": "ITEM_EXPIRATION_ITEM_LUCKY_FRIEND_APPLICATOR",
     "data": {
       "item": "ITEM_LUCKY_FRIEND_APPLICATOR",
-      "expirationTime": "2026-09-20T23:59:00",
+      "expirationTime": "2026-09-20T23:59:59",
       "emergencyExpirationTime": "2026-09-21T10:00:00"
     }
   },

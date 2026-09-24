@@ -1,6 +1,41 @@
 [
   {
+    "templateId": "QUICK_INVITE_SETTINGS_DMAX",
+    "data": {
+      "enabled": true,
+      "suggestedPlayersVariation": "PGO_RAID_A_TEST_0611"
+    }
+  },
+  {
+    "templateId": "QUICK_INVITE_SETTINGS_GMAX",
+    "data": {
+      "enabled": true,
+      "suggestedPlayersVariation": "PGO_RAID_A_TEST_0611"
+    }
+  },
+  {
+    "templateId": "QUICK_INVITE_SETTINGS_GMAX_RSVP",
+    "data": {
+      "enabled": true,
+      "suggestedPlayersVariation": "PGO_RAID_A_TEST_0611"
+    }
+  },
+  {
     "templateId": "QUICK_INVITE_SETTINGS_RAID",
+    "data": {
+      "enabled": true,
+      "suggestedPlayersVariation": "PGO_RAID_A_TEST_0611"
+    }
+  },
+  {
+    "templateId": "QUICK_INVITE_SETTINGS_RAID_RSVP",
+    "data": {
+      "enabled": true,
+      "suggestedPlayersVariation": "PGO_RAID_A_TEST_0611"
+    }
+  },
+  {
+    "templateId": "QUICK_INVITE_SETTINGS_WEEKLY_CHALLENGE",
     "data": {
       "enabled": true,
       "suggestedPlayersVariation": "PGO_RAID_A_TEST_0611"

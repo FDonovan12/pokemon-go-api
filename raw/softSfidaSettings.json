@@ -4,8 +4,8 @@
     "data": {
       "enable": true,
       "minPlayerLevel": 20,
-      "catchActionDelayMs": 8000,
-      "spinActionDelayMs": 8000,
+      "catchActionDelayMs": 3000,
+      "spinActionDelayMs": 3000,
       "reservedGeofenceCount": 4,
       "geofenceSizeM": 50
     }

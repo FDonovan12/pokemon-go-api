@@ -1494,9 +1494,7 @@
     "data": {
       "familyId": "FAMILY_STARLY",
       "candyPerXlCandy": 100,
-      "megaEvolvablePokemonIds": [
-        "STARAPTOR"
-      ]
+      "megaEvolvablePokemonId": "STARAPTOR"
     }
   },
   {

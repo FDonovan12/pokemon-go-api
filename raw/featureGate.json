@@ -35,6 +35,20 @@
     }
   },
   {
+    "templateId": "DISABLE_LEGACY_NEARBY_POKEMON_FEATURE_GATE",
+    "data": {
+      "status": 1,
+      "rolloutPercentage": 100
+    }
+  },
+  {
+    "templateId": "ENABLE_NEARBY_POKEMON_SNAPSHOT_FEATURE_GATE",
+    "data": {
+      "status": 1,
+      "rolloutPercentage": 100
+    }
+  },
+  {
     "templateId": "ENABLE_PVP_CHALLENGE_SPANNER_FEATURE_GATE",
     "data": {
       "status": 1,
@@ -136,6 +150,20 @@
     }
   },
   {
+    "templateId": "GMO_WILD_POKEMON_S2_LOCATION_FEATURE_GATE",
+    "data": {
+      "status": 1,
+      "rolloutPercentage": 100
+    }
+  },
+  {
+    "templateId": "GMO_WILD_POKEMON_S2_LOCATION_SERVER_FEATURE_GATE",
+    "data": {
+      "status": 1,
+      "rolloutPercentage": 100
+    }
+  },
+  {
     "templateId": "HIDE_CAMPFIRE_MAP_BUTTONS_FEATURE_GATE",
     "data": {
       "status": 1,
@@ -185,7 +213,7 @@
   {
     "templateId": "MEP_EGG_WRITE_MIGRATION_FEATURE_GATE",
     "data": {
-      "status": 11,
+      "status": 12,
       "rolloutPercentage": 100
     }
   },
@@ -200,7 +228,7 @@
     "templateId": "REGISTER_DEVICE_FEATURE_GATE",
     "data": {
       "status": 1,
-      "rolloutPercentage": 30
+      "rolloutPercentage": 60
     }
   },
   {

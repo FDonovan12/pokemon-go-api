@@ -289,7 +289,7 @@
       "ignoreInventorySpace": true,
       "itemCap": 999999,
       "eventPassPoint": {
-        "eventPassId": "EVENT_PASS_STEELEDRESOLVE2026_EVENT"
+        "eventPassId": "EVENT_PASS_FALLMARATHON2026_EVENT"
       },
       "timePeriodCounters": {
         "playerActivity": {
@@ -445,11 +445,11 @@
       "ignoreInventorySpace": true,
       "itemCap": 999999,
       "eventPassPoint": {
-        "eventPassId": "EVENT_PASS_JULY2026_SEASON"
+        "eventPassId": "EVENT_PASS_OCTOBER2026_SEASON"
       },
       "timePeriodCounters": {
         "playerActivity": {
-          "limit": 300
+          "limit": 250
         }
       },
       "hideItemInInventory": true
@@ -1811,6 +1811,76 @@
       },
       "nameOverride": "general2.ticket._GOWA26_title",
       "descriptionOverride": "item_global_event_ticket_details_GOWA26"
+    }
+  },
+  {
+    "templateId": "ITEM_EVENT_TICKET_S24_OCT_10_COMMUNITY",
+    "data": {
+      "itemId": "ITEM_EVENT_TICKET_S24_OCT_10_COMMUNITY",
+      "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
+      "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
+      "globalEventTicket": {
+        "eventStartTime": "2026-10-10T14:00:00",
+        "eventEndTime": "2026-10-10T17:00:00",
+        "itemBagDescriptionKey": "item_event_ticket_pink_desc_CD_Zorua26",
+        "giftable": true,
+        "giftItem": "ITEM_EVENT_TICKET_S24_OCT_10_COMMUNITY_TO_GIFT",
+        "eventBannerUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F7278ea4f_PGO_MCS_CD_KeyArt_Zorua_v3-1024x576-nologo.jpg",
+        "displayV2Enabled": true,
+        "backgroundImageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F7278ea4f_PGO_MCS_CD_KeyArt_Zorua_v3-1024x576-nologo.jpg",
+        "eventDatetimeRangeKey": "event_datetime_range_key_CD_Zorua26",
+        "textRewardsKey": "text_rewards_key_CD_Zorua26",
+        "iconRewards": [
+          {
+            "type": "POKEMON_ENCOUNTER",
+            "pokemonEncounter": {
+              "pokemonId": "ZOROARK",
+              "pokemonDisplay": {
+                "form": "ZOROARK_NORMAL"
+              }
+            }
+          },
+          {
+            "type": "ITEM",
+            "item": {
+              "item": "ITEM_LUCKY_EGG",
+              "amount": 1
+            }
+          },
+          {
+            "type": "ITEM",
+            "item": {
+              "item": "ITEM_XL_RARE_CANDY",
+              "amount": 1
+            }
+          }
+        ],
+        "detailsLinkKey": "details_link_key",
+        "clientEventStartTimeUtcMs": "1791640800000",
+        "clientEventEndTimeUtcMs": "1791651600000"
+      },
+      "nameOverride": "general1.ticket_CD_Zorua26_title",
+      "descriptionOverride": "item_event_ticket_pink_details_CD_Zorua26"
+    }
+  },
+  {
+    "templateId": "ITEM_EVENT_TICKET_S24_OCT_10_COMMUNITY_TO_GIFT",
+    "data": {
+      "itemId": "ITEM_EVENT_TICKET_S24_OCT_10_COMMUNITY_TO_GIFT",
+      "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
+      "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
+      "globalEventTicket": {
+        "eventStartTime": "2026-10-10T14:00:00",
+        "eventEndTime": "2026-10-10T17:00:00",
+        "itemBagDescriptionKey": "item_event_ticket_pink_desc_CD_Zorua26",
+        "ticketItem": "ITEM_EVENT_TICKET_S24_OCT_10_COMMUNITY",
+        "eventBannerUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F7278ea4f_PGO_MCS_CD_KeyArt_Zorua_v3-1024x576-nologo.jpg",
+        "clientEventStartTimeUtcMs": "1791640800000",
+        "clientEventEndTimeUtcMs": "1791651600000"
+      },
+      "ignoreInventorySpace": true,
+      "nameOverride": "general1.ticket_CD_Zorua26_title",
+      "descriptionOverride": "item_event_ticket_pink_details_CD_Zorua26"
     }
   },
   {
