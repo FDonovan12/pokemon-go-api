@@ -1488,24 +1488,21 @@ export interface ActiveBonusDisplaySettingsBonusBox {
 }
 
 export enum IconType {
-    CandyGeneral = "CANDY_GENERAL",
     EggIncubator = "EGG_INCUBATOR",
     Gift = "GIFT",
     Incense = "INCENSE",
-    LureModule = "LURE_MODULE",
-    Stardust = "STARDUST",
     Trade = "TRADE",
 }
 
 export interface PurpleReward {
     type:              TypeElement;
-    playerAttribute?:  PlayerAttribute;
+    pokemonEncounter?: RewardPokemonEncounter;
     exp?:              number;
     stardust?:         number;
     item?:             RewardDatumItem;
-    pokemonEncounter?: RewardPokemonEncounter;
     candy?:            Candy;
     xlCandy?:          Candy;
+    playerAttribute?:  PlayerAttribute;
 }
 
 export interface Candy {
@@ -1520,9 +1517,9 @@ export interface PlayerAttribute {
 
 export interface RewardPokemonEncounter {
     pokemonId:            string;
-    pokemonDisplay?:      PurplePokemonDisplay;
-    isFeaturedPokemon?:   boolean;
+    pokemonDisplay:       PurplePokemonDisplay;
     statsLimitsOverride?: StatsLimitsOverride;
+    isFeaturedPokemon?:   boolean;
 }
 
 export interface PurplePokemonDisplay {

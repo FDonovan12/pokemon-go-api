@@ -218,6 +218,13 @@
     }
   },
   {
+    "templateId": "POKEMON_SPAWN_AVOIDANCE_REWORK_FEATURE_GATE",
+    "data": {
+      "status": 67485911,
+      "rolloutPercentage": 10
+    }
+  },
+  {
     "templateId": "PRELOADED_MEGA_STATUS_STRING_FEATURE_GATE",
     "data": {
       "status": 1,

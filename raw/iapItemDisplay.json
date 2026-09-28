@@ -249,6 +249,7 @@
     "data": {
       "sku": "pgorelease.september2_2026_deluxe_event_pass_track_unlock",
       "sortOrder": 1,
+      "hidden": true,
       "title": "season_pass_premium_track_title_horizons_fall_2026",
       "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
       "skuEnableTime": "2025-09-16T10:00:00",
@@ -263,6 +264,7 @@
     "data": {
       "sku": "pgorelease.september2_2026_deluxe_event_pass_track_unlock_plus_points",
       "sortOrder": 1,
+      "hidden": true,
       "title": "season_pass_premium_track_plus_six_ranks_title_horizons_fall_2026",
       "description": "event_pass_plus_points_6_ranks_description",
       "skuEnableTime": "2025-09-16T10:00:00",
@@ -9203,22 +9205,6 @@
     }
   },
   {
-    "templateId": "general2.ticket.4",
-    "data": {
-      "sku": "pgorelease.general2.ticket.4",
-      "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
-      "sortOrder": 2,
-      "spriteId": "general2.ticket.4",
-      "title": "general2.ticket4.catch_mastery_Phantump",
-      "skuEnableTime": "2019-03-14T08:00:00",
-      "skuDisableTime": "2026-09-26T20:00:00",
-      "skuEnableTimeUtcMs": "1552550400000",
-      "skuDisableTimeUtcMs": "1790452800000",
-      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fe4d25391_PGO-MCS_Phantump_Catch_Mastery_v1-1024x576.jpg",
-      "useEnvironmentPrefix": true
-    }
-  },
-  {
     "templateId": "general4.medium.1",
     "data": {
       "sku": "general4.medium.1",
@@ -10174,39 +10160,11 @@
     }
   },
   {
-    "templateId": "pgorelease.september2_2026_deluxe_event_pass_track_unlock",
-    "data": {
-      "sku": "pgorelease.september2_2026_deluxe_event_pass_track_unlock",
-      "sortOrder": 1,
-      "title": "season_pass_premium_track_title_horizons_fall_2026",
-      "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
-      "skuEnableTime": "2025-09-16T10:00:00",
-      "skuDisableTime": "2026-09-24T20:00:00",
-      "skuEnableTimeUtcMs": "1758016800000",
-      "skuDisableTimeUtcMs": "1790280000000",
-      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fec63551c_PGO-MCS_Horizon_Celebration_2026_TICKET_v1-1024x576.jpg"
-    }
-  },
-  {
-    "templateId": "pgorelease.september2_2026_deluxe_event_pass_track_unlock_plus_points",
-    "data": {
-      "sku": "pgorelease.september2_2026_deluxe_event_pass_track_unlock_plus_points",
-      "sortOrder": 1,
-      "title": "season_pass_premium_track_plus_six_ranks_title_horizons_fall_2026",
-      "description": "event_pass_plus_points_6_ranks_description",
-      "skuEnableTime": "2025-09-16T10:00:00",
-      "skuDisableTime": "2026-09-24T20:00:00",
-      "skuEnableTimeUtcMs": "1758016800000",
-      "skuDisableTimeUtcMs": "1790280000000",
-      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fec63551c_PGO-MCS_Horizon_Celebration_2026_TICKET_v1-1024x576.jpg"
-    }
-  },
-  {
     "templateId": "pgorelease.september2_2026_deluxe_event_pass_track_unlock_redirect",
     "data": {
       "sku": "pgorelease.september2_2026_deluxe_event_pass_track_unlock_redirect",
-      "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 1,
+      "hidden": true,
       "title": "season_pass_premium_track_title_horizons_fall_2026",
       "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
       "skuEnableTime": "2025-09-16T10:00:00",
