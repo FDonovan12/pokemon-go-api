@@ -1190,6 +1190,13 @@
     }
   },
   {
+    "templateId": "LC_POKELID_NAGANO",
+    "data": {
+      "locationCard": "LC_POKELID_NAGANO",
+      "imageUrl": "lc_pokelid_nagano"
+    }
+  },
+  {
     "templateId": "LC_POKELID_NAGASAKI",
     "data": {
       "locationCard": "LC_POKELID_NAGASAKI",

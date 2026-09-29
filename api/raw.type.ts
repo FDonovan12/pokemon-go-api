@@ -1491,18 +1491,21 @@ export enum IconType {
     EggIncubator = "EGG_INCUBATOR",
     Gift = "GIFT",
     Incense = "INCENSE",
+    LureModule = "LURE_MODULE",
+    SpawnUnknown = "SPAWN_UNKNOWN",
+    TeamRocket = "TEAM_ROCKET",
     Trade = "TRADE",
 }
 
 export interface PurpleReward {
     type:              TypeElement;
-    pokemonEncounter?: RewardPokemonEncounter;
+    playerAttribute?:  PlayerAttribute;
     exp?:              number;
     stardust?:         number;
     item?:             RewardDatumItem;
+    pokemonEncounter?: RewardPokemonEncounter;
     candy?:            Candy;
     xlCandy?:          Candy;
-    playerAttribute?:  PlayerAttribute;
 }
 
 export interface Candy {
@@ -1518,12 +1521,13 @@ export interface PlayerAttribute {
 export interface RewardPokemonEncounter {
     pokemonId:            string;
     pokemonDisplay:       PurplePokemonDisplay;
-    statsLimitsOverride?: StatsLimitsOverride;
     isFeaturedPokemon?:   boolean;
+    statsLimitsOverride?: StatsLimitsOverride;
 }
 
 export interface PurplePokemonDisplay {
     form:           string;
+    costume?:       string;
     breadModeEnum?: BreadMode;
 }
 

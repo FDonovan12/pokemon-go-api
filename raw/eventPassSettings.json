@@ -1,5 +1,73 @@
 [
   {
+    "templateId": "EVENT_PASS_HARVESTFESTIVAL2026_EVENT",
+    "data": {
+      "prefix": "EVENT_PASS_HARVESTFESTIVAL2026_EVENT",
+      "pointsItemId": "ITEM_EVENT_PASS_POINT_LIVE_OPS_03",
+      "trackConditions": [
+        {
+          "track": "FREE",
+          "trackTitleKey": "season_pass_base_track_title_harvest_festival_2026"
+        },
+        {
+          "track": "PREMIUM",
+          "badge": "BADGE_EVENT_0243",
+          "trackTitleKey": "season_pass_premium_track_title_harvest_festival_2026"
+        }
+      ],
+      "expirationTime": "2026-10-05T20:00:00",
+      "maxTierLevel": 60,
+      "additionalBonusTiersLevel": 31,
+      "eventPassDisplaySettings": {
+        "bonusBoxes": [
+          {
+            "text": "quest_catch_pokemon_singular",
+            "iconType": "SPAWN_UNKNOWN",
+            "quantity": 5
+          },
+          {
+            "text": "quest_hatch_egg_singular",
+            "iconType": "EGG",
+            "quantity": 40
+          },
+          {
+            "text": "quest_win_raid_singular",
+            "iconType": "RAID",
+            "quantity": 100
+          }
+        ],
+        "eventPassTrackUpgradeDescriptions": [
+          {
+            "passTrackUpgradeHeaderDescription": "deluxe_event_pass_track_unlock_description",
+            "eventPassTrackToUpgradeTo": "PREMIUM",
+            "trackUnlockSkuId": "pgorelease.september3_2026_deluxe_event_pass_track_unlock",
+            "trackUnlockPlusPointsSkuId": "pgorelease.september3_2026_deluxe_event_pass_track_unlock_plus_points",
+            "eventDurationKey": "season_pass_harvest_festival_2026_event_duration",
+            "upgradeDescriptionKey": "season_pass_harvest_festival_2026_upgrade_description",
+            "ranksToHighlightRewards": [
+              2,
+              15,
+              30
+            ],
+            "detailsLinkKey": "season_pass_details_link_harvest_festival_2026",
+            "trackUnlockImageUrl": "https://storage.googleapis.com/prod-public-images/ic_eventpass_deluxe.png",
+            "trackUnlockPlusPointsImageUrl": "https://storage.googleapis.com/prod-public-images/ic_eventpass_deluxe_plus.png"
+          }
+        ],
+        "eventPassTitleKey": "season_pass_base_track_title_harvest_festival_2026",
+        "headerIconUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F7150419b_s24-logo-512x512.png",
+        "premiumRewardBannerTop": "event_pass_premium_reward_banner_top_text",
+        "premiumRewardBannerMiddle": "item_flying_taxi_milestone_name",
+        "premiumRewardBannerBottom": "event_pass_premium_reward_banner_bottom_text_steeled_resolve_2026",
+        "premiumRewardBannerImageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F7150419b_s24-logo-512x512.png",
+        "premiumRewardsDescription": "season_pass_premium_rewards_desc_monthly_no_disclaimer",
+        "todayViewSection": "SEASONAL_EVENT_PASS_SECTION",
+        "sectionDisplayPriority": 50
+      },
+      "gracePeriodEndTime": "2026-10-07T20:00:00"
+    }
+  },
+  {
     "templateId": "EVENT_PASS_SEPTEMBER2026_SEASON",
     "data": {
       "prefix": "EVENT_PASS_SEPTEMBER2026_SEASON",
