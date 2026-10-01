@@ -87,7 +87,7 @@ export default class PokemonSettingIntermediate extends IntermediateGenerator {
         //     )
         // ).toObject((move) => move.movementId);
 
-        const healAndGuardPowers = [1, 0, 0, 0];
+        const healAndGuardPowers = [0, 0, 0, 0];
         const dynamaxAttackPowers = [250, 300, 350, 450];
         const gigamaxAttackPowers = [350, 400, 450, 550];
 
