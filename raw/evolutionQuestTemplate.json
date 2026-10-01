@@ -95,6 +95,23 @@
     }
   },
   {
+    "templateId": "BRAMBLEGHAST_EVOLUTION_QUEST",
+    "data": {
+      "questTemplateId": "BRAMBLEGHAST_EVOLUTION_QUEST",
+      "questType": "QUEST_BUDDY_EVOLUTION_WALK",
+      "goals": [
+        {
+          "target": 20
+        }
+      ],
+      "context": "EVOLUTION_QUEST",
+      "display": {
+        "description": "quest_buddy_walk_km_plural",
+        "title": "quest_buddy_walk_km_plural"
+      }
+    }
+  },
+  {
     "templateId": "CHANSEY_EVOLUTION_QUEST",
     "data": {
       "questTemplateId": "CHANSEY_EVOLUTION_QUEST",

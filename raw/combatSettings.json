@@ -48,7 +48,6 @@
         22
       ],
       "showQuickSwapButtonsDuringCountdown": true,
-      "obCombatSettingsNotPushedBool2": true,
       "clockSyncSettings": {
         "syncAttemptCount": 10,
         "enabled": true

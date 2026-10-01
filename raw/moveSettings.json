@@ -6314,13 +6314,7 @@
       "vfxName": "max_flare",
       "durationMs": 2500,
       "damageWindowStartMs": 2000,
-      "damageWindowEndMs": 3400,
-      "obMoveSettingsNumber18": [
-        250,
-        300,
-        350,
-        450
-      ]
+      "damageWindowEndMs": 3400
     }
   },
   {
@@ -6336,13 +6330,7 @@
       "vfxName": "max_flutterby",
       "durationMs": 2500,
       "damageWindowStartMs": 2000,
-      "damageWindowEndMs": 3400,
-      "obMoveSettingsNumber18": [
-        250,
-        300,
-        350,
-        450
-      ]
+      "damageWindowEndMs": 3400
     }
   },
   {
@@ -6358,13 +6346,7 @@
       "vfxName": "max_lightning",
       "durationMs": 2500,
       "damageWindowStartMs": 2000,
-      "damageWindowEndMs": 3400,
-      "obMoveSettingsNumber18": [
-        250,
-        300,
-        350,
-        450
-      ]
+      "damageWindowEndMs": 3400
     }
   },
   {
@@ -6380,13 +6362,7 @@
       "vfxName": "max_strike",
       "durationMs": 2500,
       "damageWindowStartMs": 2000,
-      "damageWindowEndMs": 3400,
-      "obMoveSettingsNumber18": [
-        250,
-        300,
-        350,
-        450
-      ]
+      "damageWindowEndMs": 3400
     }
   },
   {
@@ -6402,13 +6378,7 @@
       "vfxName": "max_knuckle",
       "durationMs": 2500,
       "damageWindowStartMs": 2000,
-      "damageWindowEndMs": 3400,
-      "obMoveSettingsNumber18": [
-        250,
-        300,
-        350,
-        450
-      ]
+      "damageWindowEndMs": 3400
     }
   },
   {
@@ -6424,13 +6394,7 @@
       "vfxName": "max_phantasm",
       "durationMs": 2500,
       "damageWindowStartMs": 2000,
-      "damageWindowEndMs": 3400,
-      "obMoveSettingsNumber18": [
-        250,
-        300,
-        350,
-        450
-      ]
+      "damageWindowEndMs": 3400
     }
   },
   {
@@ -6446,13 +6410,7 @@
       "vfxName": "max_hailstorm",
       "durationMs": 2500,
       "damageWindowStartMs": 2000,
-      "damageWindowEndMs": 3400,
-      "obMoveSettingsNumber18": [
-        250,
-        300,
-        350,
-        450
-      ]
+      "damageWindowEndMs": 3400
     }
   },
   {
@@ -6468,13 +6426,7 @@
       "vfxName": "max_ooze",
       "durationMs": 2500,
       "damageWindowStartMs": 2000,
-      "damageWindowEndMs": 3400,
-      "obMoveSettingsNumber18": [
-        250,
-        300,
-        350,
-        450
-      ]
+      "damageWindowEndMs": 3400
     }
   },
   {
@@ -6490,13 +6442,7 @@
       "vfxName": "max_geyser",
       "durationMs": 2500,
       "damageWindowStartMs": 2000,
-      "damageWindowEndMs": 3400,
-      "obMoveSettingsNumber18": [
-        250,
-        300,
-        350,
-        450
-      ]
+      "damageWindowEndMs": 3400
     }
   },
   {
@@ -6512,13 +6458,7 @@
       "vfxName": "max_airstream",
       "durationMs": 2500,
       "damageWindowStartMs": 2000,
-      "damageWindowEndMs": 3400,
-      "obMoveSettingsNumber18": [
-        250,
-        300,
-        350,
-        450
-      ]
+      "damageWindowEndMs": 3400
     }
   },
   {
@@ -6534,13 +6474,7 @@
       "vfxName": "max_starfall",
       "durationMs": 2500,
       "damageWindowStartMs": 2000,
-      "damageWindowEndMs": 3400,
-      "obMoveSettingsNumber18": [
-        250,
-        300,
-        350,
-        450
-      ]
+      "damageWindowEndMs": 3400
     }
   },
   {
@@ -6556,13 +6490,7 @@
       "vfxName": "max_wyrmwind",
       "durationMs": 2500,
       "damageWindowStartMs": 2000,
-      "damageWindowEndMs": 3400,
-      "obMoveSettingsNumber18": [
-        250,
-        300,
-        350,
-        450
-      ]
+      "damageWindowEndMs": 3400
     }
   },
   {
@@ -6578,13 +6506,7 @@
       "vfxName": "max_mindstorm",
       "durationMs": 2500,
       "damageWindowStartMs": 2000,
-      "damageWindowEndMs": 3400,
-      "obMoveSettingsNumber18": [
-        250,
-        300,
-        350,
-        450
-      ]
+      "damageWindowEndMs": 3400
     }
   },
   {
@@ -6600,13 +6522,7 @@
       "vfxName": "max_rockfall",
       "durationMs": 2500,
       "damageWindowStartMs": 2000,
-      "damageWindowEndMs": 3400,
-      "obMoveSettingsNumber18": [
-        250,
-        300,
-        350,
-        450
-      ]
+      "damageWindowEndMs": 3400
     }
   },
   {
@@ -6622,13 +6538,7 @@
       "vfxName": "max_quake",
       "durationMs": 2500,
       "damageWindowStartMs": 2000,
-      "damageWindowEndMs": 3400,
-      "obMoveSettingsNumber18": [
-        250,
-        300,
-        350,
-        450
-      ]
+      "damageWindowEndMs": 3400
     }
   },
   {
@@ -6644,13 +6554,7 @@
       "vfxName": "max_darkness",
       "durationMs": 2500,
       "damageWindowStartMs": 2000,
-      "damageWindowEndMs": 3400,
-      "obMoveSettingsNumber18": [
-        250,
-        300,
-        350,
-        450
-      ]
+      "damageWindowEndMs": 3400
     }
   },
   {
@@ -6666,13 +6570,7 @@
       "vfxName": "max_overgrowth",
       "durationMs": 2500,
       "damageWindowStartMs": 2000,
-      "damageWindowEndMs": 3400,
-      "obMoveSettingsNumber18": [
-        250,
-        300,
-        350,
-        450
-      ]
+      "damageWindowEndMs": 3400
     }
   },
   {
@@ -6688,13 +6586,7 @@
       "vfxName": "max_steelspike",
       "durationMs": 2500,
       "damageWindowStartMs": 2000,
-      "damageWindowEndMs": 3400,
-      "obMoveSettingsNumber18": [
-        250,
-        300,
-        350,
-        450
-      ]
+      "damageWindowEndMs": 3400
     }
   },
   {
@@ -6710,13 +6602,7 @@
       "vfxName": "gmax_wildfire",
       "durationMs": 2500,
       "damageWindowStartMs": 2000,
-      "damageWindowEndMs": 3400,
-      "obMoveSettingsNumber18": [
-        350,
-        400,
-        450,
-        550
-      ]
+      "damageWindowEndMs": 3400
     }
   },
   {
@@ -6732,13 +6618,7 @@
       "vfxName": "gmax_befuddle",
       "durationMs": 2500,
       "damageWindowStartMs": 2000,
-      "damageWindowEndMs": 3400,
-      "obMoveSettingsNumber18": [
-        350,
-        400,
-        450,
-        550
-      ]
+      "damageWindowEndMs": 3400
     }
   },
   {
@@ -6754,13 +6634,7 @@
       "vfxName": "gmax_voltcrash",
       "durationMs": 2500,
       "damageWindowStartMs": 2000,
-      "damageWindowEndMs": 3400,
-      "obMoveSettingsNumber18": [
-        350,
-        400,
-        450,
-        550
-      ]
+      "damageWindowEndMs": 3400
     }
   },
   {
@@ -6776,13 +6650,7 @@
       "vfxName": "gmax_goldrush",
       "durationMs": 2500,
       "damageWindowStartMs": 2000,
-      "damageWindowEndMs": 3400,
-      "obMoveSettingsNumber18": [
-        350,
-        400,
-        450,
-        550
-      ]
+      "damageWindowEndMs": 3400
     }
   },
   {
@@ -6798,13 +6666,7 @@
       "vfxName": "gmax_chistrike",
       "durationMs": 2500,
       "damageWindowStartMs": 2000,
-      "damageWindowEndMs": 3400,
-      "obMoveSettingsNumber18": [
-        350,
-        400,
-        450,
-        550
-      ]
+      "damageWindowEndMs": 3400
     }
   },
   {
@@ -6820,13 +6682,7 @@
       "vfxName": "gmax_terror",
       "durationMs": 2500,
       "damageWindowStartMs": 2000,
-      "damageWindowEndMs": 3400,
-      "obMoveSettingsNumber18": [
-        350,
-        400,
-        450,
-        550
-      ]
+      "damageWindowEndMs": 3400
     }
   },
   {
@@ -6842,13 +6698,7 @@
       "vfxName": "gmax_foamburst",
       "durationMs": 2500,
       "damageWindowStartMs": 2000,
-      "damageWindowEndMs": 3400,
-      "obMoveSettingsNumber18": [
-        350,
-        400,
-        450,
-        550
-      ]
+      "damageWindowEndMs": 3400
     }
   },
   {
@@ -6864,13 +6714,7 @@
       "vfxName": "gmax_resonance",
       "durationMs": 2500,
       "damageWindowStartMs": 2000,
-      "damageWindowEndMs": 3400,
-      "obMoveSettingsNumber18": [
-        350,
-        400,
-        450,
-        550
-      ]
+      "damageWindowEndMs": 3400
     }
   },
   {
@@ -6886,13 +6730,7 @@
       "vfxName": "gmax_cuddle",
       "durationMs": 2500,
       "damageWindowStartMs": 2000,
-      "damageWindowEndMs": 3400,
-      "obMoveSettingsNumber18": [
-        350,
-        400,
-        450,
-        550
-      ]
+      "damageWindowEndMs": 3400
     }
   },
   {
@@ -6908,13 +6746,7 @@
       "vfxName": "gmax_replenish",
       "durationMs": 2500,
       "damageWindowStartMs": 2000,
-      "damageWindowEndMs": 3400,
-      "obMoveSettingsNumber18": [
-        350,
-        400,
-        450,
-        550
-      ]
+      "damageWindowEndMs": 3400
     }
   },
   {
@@ -6930,13 +6762,7 @@
       "vfxName": "gmax_malodor",
       "durationMs": 2500,
       "damageWindowStartMs": 2000,
-      "damageWindowEndMs": 3400,
-      "obMoveSettingsNumber18": [
-        350,
-        400,
-        450,
-        550
-      ]
+      "damageWindowEndMs": 3400
     }
   },
   {
@@ -6952,13 +6778,7 @@
       "vfxName": "gmax_meltdown",
       "durationMs": 2500,
       "damageWindowStartMs": 2000,
-      "damageWindowEndMs": 3400,
-      "obMoveSettingsNumber18": [
-        350,
-        400,
-        450,
-        550
-      ]
+      "damageWindowEndMs": 3400
     }
   },
   {
@@ -6974,13 +6794,7 @@
       "vfxName": "gmax_windrage",
       "durationMs": 2500,
       "damageWindowStartMs": 2000,
-      "damageWindowEndMs": 3400,
-      "obMoveSettingsNumber18": [
-        350,
-        400,
-        450,
-        550
-      ]
+      "damageWindowEndMs": 3400
     }
   },
   {
@@ -6996,13 +6810,7 @@
       "vfxName": "gmax_gravitas",
       "durationMs": 2500,
       "damageWindowStartMs": 2000,
-      "damageWindowEndMs": 3400,
-      "obMoveSettingsNumber18": [
-        350,
-        400,
-        450,
-        550
-      ]
+      "damageWindowEndMs": 3400
     }
   },
   {
@@ -7018,13 +6826,7 @@
       "vfxName": "gmax_stonesurge",
       "durationMs": 2500,
       "damageWindowStartMs": 2000,
-      "damageWindowEndMs": 3400,
-      "obMoveSettingsNumber18": [
-        350,
-        400,
-        450,
-        550
-      ]
+      "damageWindowEndMs": 3400
     }
   },
   {
@@ -7040,13 +6842,7 @@
       "vfxName": "gmax_volcalith",
       "durationMs": 2500,
       "damageWindowStartMs": 2000,
-      "damageWindowEndMs": 3400,
-      "obMoveSettingsNumber18": [
-        350,
-        400,
-        450,
-        550
-      ]
+      "damageWindowEndMs": 3400
     }
   },
   {
@@ -7062,13 +6858,7 @@
       "vfxName": "gmax_tartness",
       "durationMs": 2500,
       "damageWindowStartMs": 2000,
-      "damageWindowEndMs": 3400,
-      "obMoveSettingsNumber18": [
-        350,
-        400,
-        450,
-        550
-      ]
+      "damageWindowEndMs": 3400
     }
   },
   {
@@ -7084,13 +6874,7 @@
       "vfxName": "gmax_sweetness",
       "durationMs": 2500,
       "damageWindowStartMs": 2000,
-      "damageWindowEndMs": 3400,
-      "obMoveSettingsNumber18": [
-        350,
-        400,
-        450,
-        550
-      ]
+      "damageWindowEndMs": 3400
     }
   },
   {
@@ -7106,13 +6890,7 @@
       "vfxName": "gmax_sandblast",
       "durationMs": 2500,
       "damageWindowStartMs": 2000,
-      "damageWindowEndMs": 3400,
-      "obMoveSettingsNumber18": [
-        350,
-        400,
-        450,
-        550
-      ]
+      "damageWindowEndMs": 3400
     }
   },
   {
@@ -7128,13 +6906,7 @@
       "vfxName": "gmax_stun_shock",
       "durationMs": 2500,
       "damageWindowStartMs": 2000,
-      "damageWindowEndMs": 3400,
-      "obMoveSettingsNumber18": [
-        350,
-        400,
-        450,
-        550
-      ]
+      "damageWindowEndMs": 3400
     }
   },
   {
@@ -7150,13 +6922,7 @@
       "vfxName": "gmax_centiferno",
       "durationMs": 2500,
       "damageWindowStartMs": 2000,
-      "damageWindowEndMs": 3400,
-      "obMoveSettingsNumber18": [
-        350,
-        400,
-        450,
-        550
-      ]
+      "damageWindowEndMs": 3400
     }
   },
   {
@@ -7172,13 +6938,7 @@
       "vfxName": "gmax_smite",
       "durationMs": 2500,
       "damageWindowStartMs": 2000,
-      "damageWindowEndMs": 3400,
-      "obMoveSettingsNumber18": [
-        350,
-        400,
-        450,
-        550
-      ]
+      "damageWindowEndMs": 3400
     }
   },
   {
@@ -7194,13 +6954,7 @@
       "vfxName": "gmax_snooze",
       "durationMs": 2500,
       "damageWindowStartMs": 2000,
-      "damageWindowEndMs": 3400,
-      "obMoveSettingsNumber18": [
-        350,
-        400,
-        450,
-        550
-      ]
+      "damageWindowEndMs": 3400
     }
   },
   {
@@ -7216,13 +6970,7 @@
       "vfxName": "gmax_finale",
       "durationMs": 2500,
       "damageWindowStartMs": 2000,
-      "damageWindowEndMs": 3400,
-      "obMoveSettingsNumber18": [
-        350,
-        400,
-        450,
-        550
-      ]
+      "damageWindowEndMs": 3400
     }
   },
   {
@@ -7238,13 +6986,7 @@
       "vfxName": "gmax_steelsurge",
       "durationMs": 2500,
       "damageWindowStartMs": 2000,
-      "damageWindowEndMs": 3400,
-      "obMoveSettingsNumber18": [
-        350,
-        400,
-        450,
-        550
-      ]
+      "damageWindowEndMs": 3400
     }
   },
   {
@@ -7260,13 +7002,7 @@
       "vfxName": "gmax_depletion",
       "durationMs": 2500,
       "damageWindowStartMs": 2000,
-      "damageWindowEndMs": 3400,
-      "obMoveSettingsNumber18": [
-        350,
-        400,
-        450,
-        550
-      ]
+      "damageWindowEndMs": 3400
     }
   },
   {
@@ -7282,13 +7018,7 @@
       "vfxName": "gmax_vinelash",
       "durationMs": 2500,
       "damageWindowStartMs": 2000,
-      "damageWindowEndMs": 3400,
-      "obMoveSettingsNumber18": [
-        350,
-        400,
-        450,
-        550
-      ]
+      "damageWindowEndMs": 3400
     }
   },
   {
@@ -7304,13 +7034,7 @@
       "vfxName": "gmax_cannonade",
       "durationMs": 2500,
       "damageWindowStartMs": 2000,
-      "damageWindowEndMs": 3400,
-      "obMoveSettingsNumber18": [
-        350,
-        400,
-        450,
-        550
-      ]
+      "damageWindowEndMs": 3400
     }
   },
   {
@@ -7326,13 +7050,7 @@
       "vfxName": "gmax_drumsolo",
       "durationMs": 2500,
       "damageWindowStartMs": 2000,
-      "damageWindowEndMs": 3400,
-      "obMoveSettingsNumber18": [
-        350,
-        400,
-        450,
-        550
-      ]
+      "damageWindowEndMs": 3400
     }
   },
   {
@@ -7348,13 +7066,7 @@
       "vfxName": "gmax_fireball",
       "durationMs": 2500,
       "damageWindowStartMs": 2000,
-      "damageWindowEndMs": 3400,
-      "obMoveSettingsNumber18": [
-        350,
-        400,
-        450,
-        550
-      ]
+      "damageWindowEndMs": 3400
     }
   },
   {
@@ -7370,13 +7082,7 @@
       "vfxName": "gmax_hydrosnipe",
       "durationMs": 2500,
       "damageWindowStartMs": 2000,
-      "damageWindowEndMs": 3400,
-      "obMoveSettingsNumber18": [
-        350,
-        400,
-        450,
-        550
-      ]
+      "damageWindowEndMs": 3400
     }
   },
   {
@@ -7392,13 +7098,7 @@
       "vfxName": "gmax_oneblow",
       "durationMs": 2500,
       "damageWindowStartMs": 2000,
-      "damageWindowEndMs": 3400,
-      "obMoveSettingsNumber18": [
-        350,
-        400,
-        450,
-        550
-      ]
+      "damageWindowEndMs": 3400
     }
   },
   {
@@ -7414,13 +7114,7 @@
       "vfxName": "gmax_rapidflow",
       "durationMs": 2500,
       "damageWindowStartMs": 2000,
-      "damageWindowEndMs": 3400,
-      "obMoveSettingsNumber18": [
-        350,
-        400,
-        450,
-        550
-      ]
+      "damageWindowEndMs": 3400
     }
   },
   {
@@ -7436,13 +7130,7 @@
       "vfxName": "max_shield",
       "durationMs": 2500,
       "damageWindowStartMs": 2000,
-      "damageWindowEndMs": 3400,
-      "obMoveSettingsNumber18": [
-        0,
-        0,
-        0,
-        0
-      ]
+      "damageWindowEndMs": 3400
     }
   },
   {
@@ -7458,13 +7146,7 @@
       "vfxName": "max_heal",
       "durationMs": 2500,
       "damageWindowStartMs": 2000,
-      "damageWindowEndMs": 3400,
-      "obMoveSettingsNumber18": [
-        0,
-        0,
-        0,
-        0
-      ]
+      "damageWindowEndMs": 3400
     }
   },
   {
@@ -7480,13 +7162,7 @@
       "vfxName": "max_shield",
       "durationMs": 2500,
       "damageWindowStartMs": 2000,
-      "damageWindowEndMs": 3400,
-      "obMoveSettingsNumber18": [
-        0,
-        0,
-        0,
-        0
-      ]
+      "damageWindowEndMs": 3400
     }
   },
   {
@@ -7502,13 +7178,7 @@
       "vfxName": "max_heal",
       "durationMs": 2500,
       "damageWindowStartMs": 2000,
-      "damageWindowEndMs": 3400,
-      "obMoveSettingsNumber18": [
-        0,
-        0,
-        0,
-        0
-      ]
+      "damageWindowEndMs": 3400
     }
   },
   {
@@ -7524,13 +7194,7 @@
       "vfxName": "max_shield",
       "durationMs": 2500,
       "damageWindowStartMs": 2000,
-      "damageWindowEndMs": 3400,
-      "obMoveSettingsNumber18": [
-        0,
-        0,
-        0,
-        0
-      ]
+      "damageWindowEndMs": 3400
     }
   },
   {
@@ -7546,13 +7210,7 @@
       "vfxName": "max_heal",
       "durationMs": 2500,
       "damageWindowStartMs": 2000,
-      "damageWindowEndMs": 3400,
-      "obMoveSettingsNumber18": [
-        0,
-        0,
-        0,
-        0
-      ]
+      "damageWindowEndMs": 3400
     }
   },
   {
@@ -7568,13 +7226,7 @@
       "vfxName": "max_shield",
       "durationMs": 2500,
       "damageWindowStartMs": 2000,
-      "damageWindowEndMs": 3400,
-      "obMoveSettingsNumber18": [
-        0,
-        0,
-        0,
-        0
-      ]
+      "damageWindowEndMs": 3400
     }
   },
   {
@@ -7590,13 +7242,7 @@
       "vfxName": "max_heal",
       "durationMs": 2500,
       "damageWindowStartMs": 2000,
-      "damageWindowEndMs": 3400,
-      "obMoveSettingsNumber18": [
-        0,
-        0,
-        0,
-        0
-      ]
+      "damageWindowEndMs": 3400
     }
   },
   {
@@ -7612,13 +7258,7 @@
       "vfxName": "max_behemoth_blade",
       "durationMs": 2500,
       "damageWindowStartMs": 2000,
-      "damageWindowEndMs": 3400,
-      "obMoveSettingsNumber18": [
-        250,
-        300,
-        350,
-        450
-      ]
+      "damageWindowEndMs": 3400
     }
   },
   {
@@ -7634,13 +7274,7 @@
       "vfxName": "max_behemoth_bash",
       "durationMs": 2500,
       "damageWindowStartMs": 2000,
-      "damageWindowEndMs": 3400,
-      "obMoveSettingsNumber18": [
-        250,
-        300,
-        350,
-        450
-      ]
+      "damageWindowEndMs": 3400
     }
   },
   {
@@ -7656,13 +7290,7 @@
       "vfxName": "max_dynamax_cannon",
       "durationMs": 2500,
       "damageWindowStartMs": 2000,
-      "damageWindowEndMs": 3400,
-      "obMoveSettingsNumber18": [
-        350,
-        400,
-        450,
-        550
-      ]
+      "damageWindowEndMs": 3400
     }
   }
 ]

@@ -10,11 +10,7 @@
       "marginMinimumMeters": 80,
       "resumeRangeMeters": 40,
       "routeEngagementStatsShardCount": 3,
-      "enableRouteRatingDetails": true,
-      "obRoutePlaySettingsNumber29": 1,
-      "obRoutePlaySettingsNumber30": 27,
-      "obRoutePlaySettingsNumber33": 7,
-      "obRoutePlaySettingsNumber45": 1
+      "enableRouteRatingDetails": true
     }
   }
 ]

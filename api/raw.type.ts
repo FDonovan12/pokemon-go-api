@@ -380,7 +380,6 @@ export interface LevelUpRewardData {
     clientOverrideDisplayOrder?: boolean;
     itemsUnlocked?:              string[];
     neutralAvatarItemTemplates?: NeutralAvatarItemTemplates;
-    obLevelUpRewardsNumber9?:    number;
     isBackfill?:                 boolean;
 }
 
@@ -1136,9 +1135,8 @@ export interface CombatSettingData {
     shadowPokemonAttackBonusMultiplier:      number;
     shadowPokemonDefenseBonusMultiplier:     number;
     purifiedPokemonAttackMultiplierVsShadow: number;
-    combatExperiment:                        CombatExperiment[];
+    combatExperiment:                        LocationCard[];
     showQuickSwapButtonsDuringCountdown:     boolean;
-    obCombatSettingsNotPushedBool2:          boolean;
     clockSyncSettings:                       ClockSyncSettings;
     combatFeatureFlags:                      CombatFeatureFlags;
     flyinDurationTurns:                      number;
@@ -1149,7 +1147,7 @@ export interface ClockSyncSettings {
     enabled:          boolean;
 }
 
-export type CombatExperiment = number | string;
+export type LocationCard = number | string;
 
 export interface CombatFeatureFlags {
     realDeviceTimeEnabled: boolean;
@@ -1322,8 +1320,8 @@ export interface DeepLinkingSettings {
 export interface DeepLinkingSettingData {
     minPlayerLevelForExternalLink:     number;
     minPlayerLevelForNotificationLink: number;
-    actionsThatIgnoreMinLevel:         CombatExperiment[];
-    actionsThatExecuteBeforeMapLoads:  CombatExperiment[];
+    actionsThatIgnoreMinLevel:         LocationCard[];
+    actionsThatExecuteBeforeMapLoads:  LocationCard[];
     iosActionButtonEnabled:            boolean;
 }
 
@@ -2194,7 +2192,7 @@ export interface IrisSocialUxFunnelSettingData {
 
 export interface EventStep {
     stepNumber: number;
-    event:      CombatExperiment;
+    event:      LocationCard;
 }
 
 export interface ItemCurrencyValues {
@@ -2287,7 +2285,7 @@ export interface LocationCardSettings {
 }
 
 export interface LocationCardSettingData {
-    locationCard: string;
+    locationCard: LocationCard;
     imageUrl:     string;
     cardType?:    CardType;
     vfxAddress?:  string;
@@ -2561,7 +2559,7 @@ export interface MpSettingData {
 
 export interface BattleMpCostPerTier {
     breadBattleCatchMpCost:       number;
-    battleLevel:                  CombatExperiment;
+    battleLevel:                  LocationCard;
     breadBattleRemoteCatchMpCost: number;
 }
 
@@ -3048,7 +3046,7 @@ export interface PokedexCategoriesSettingData {
 }
 
 export interface PokedexCategorySettingsInOrder {
-    pokedexCategory: CombatExperiment;
+    pokedexCategory: LocationCard;
     milestoneGoal:   number;
     visuallyHidden?: boolean;
 }
@@ -3385,7 +3383,7 @@ export interface ReferralSettingData {
 }
 
 export interface RecentFeature {
-    iconType:    CombatExperiment;
+    iconType:    LocationCard;
     featureName: string;
     description: string;
 }
@@ -3537,10 +3535,6 @@ export interface RoutePlaySettingData {
     resumeRangeMeters:                  number;
     routeEngagementStatsShardCount:     number;
     enableRouteRatingDetails:           boolean;
-    obRoutePlaySettingsNumber29:        number;
-    obRoutePlaySettingsNumber30:        number;
-    obRoutePlaySettingsNumber33:        number;
-    obRoutePlaySettingsNumber45:        number;
 }
 
 export interface RouteStampCategorySettings {
@@ -3900,7 +3894,7 @@ export interface TutorialSettingData {
 }
 
 export interface TutorialItemReward {
-    tutorial: CombatExperiment;
+    tutorial: LocationCard;
     item?:    ItemElement[];
 }
 
@@ -4225,23 +4219,22 @@ export interface MoveSettings {
 }
 
 export interface MoveSettingData {
-    movementId:              string;
-    animationId:             number;
-    pokemonType:             TemplateIdElement;
-    power?:                  number;
-    accuracyChance?:         number;
-    criticalChance?:         number;
-    staminaLossScalar?:      number;
-    trainerLevelMin?:        number;
-    trainerLevelMax?:        number;
-    vfxName:                 string;
-    durationMs:              number;
-    damageWindowStartMs?:    number;
-    damageWindowEndMs?:      number;
-    energyDelta?:            number;
-    healScalar?:             number;
-    isLocked?:               boolean;
-    obMoveSettingsNumber18?: number[];
+    movementId:           string;
+    animationId:          number;
+    pokemonType:          TemplateIdElement;
+    power?:               number;
+    accuracyChance?:      number;
+    criticalChance?:      number;
+    staminaLossScalar?:   number;
+    trainerLevelMin?:     number;
+    trainerLevelMax?:     number;
+    vfxName:              string;
+    durationMs:           number;
+    damageWindowStartMs?: number;
+    damageWindowEndMs?:   number;
+    energyDelta?:         number;
+    healScalar?:          number;
+    isLocked?:            boolean;
 }
 
 export interface PokemonHomeFormReversions {

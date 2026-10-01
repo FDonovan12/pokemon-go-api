@@ -159917,7 +159917,10 @@
         "cameraDistance": 7,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6,
-        "bonusXlCandyCaptureReward": 3
+        "bonusXlCandyCaptureReward": 3,
+        "shadowBaseCaptureRate": 0.02,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
       },
       "stats": {
         "baseStamina": 205,
@@ -159973,6 +159976,12 @@
       },
       "isTransferable": true,
       "isTradable": true,
+      "shadow": {
+        "purificationStardustNeeded": 20000,
+        "purificationCandyNeeded": 20,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
       "buddyGroupNumber": 7,
       "eliteCinematicMove": [
         "FUSION_BOLT"
@@ -160009,7 +160018,10 @@
         "cameraDistance": 7,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6,
-        "bonusXlCandyCaptureReward": 3
+        "bonusXlCandyCaptureReward": 3,
+        "shadowBaseCaptureRate": 0.02,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
       },
       "stats": {
         "baseStamina": 205,
@@ -160066,6 +160078,12 @@
       },
       "isTransferable": true,
       "isTradable": true,
+      "shadow": {
+        "purificationStardustNeeded": 20000,
+        "purificationCandyNeeded": 20,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
       "buddyGroupNumber": 7,
       "eliteCinematicMove": [
         "FUSION_BOLT"
@@ -172442,7 +172460,10 @@
         "dodgeProbability": 0.15,
         "cameraDistance": 2.5,
         "minPokemonActionFrequencyS": 0.2,
-        "maxPokemonActionFrequencyS": 1.6
+        "maxPokemonActionFrequencyS": 1.6,
+        "shadowBaseCaptureRate": 0.3,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
       },
       "stats": {
         "baseStamina": 167,
@@ -172482,7 +172503,8 @@
             {
               "questRequirementTemplateId": "PANCHAM_EVOLUTION_QUEST"
             }
-          ]
+          ],
+          "candyCostPurified": 45
         }
       ],
       "modelScaleV2": 1,
@@ -172498,6 +172520,12 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "shadow": {
+        "purificationStardustNeeded": 5000,
+        "purificationCandyNeeded": 5,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
       "ibfc": {},
       "breadTierGroup": "GROUP_2"
     }
@@ -172524,7 +172552,10 @@
         "dodgeProbability": 0.15,
         "cameraDistance": 2.5,
         "minPokemonActionFrequencyS": 0.2,
-        "maxPokemonActionFrequencyS": 1.6
+        "maxPokemonActionFrequencyS": 1.6,
+        "shadowBaseCaptureRate": 0.3,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
       },
       "stats": {
         "baseStamina": 167,
@@ -172565,7 +172596,8 @@
             {
               "questRequirementTemplateId": "PANCHAM_EVOLUTION_QUEST"
             }
-          ]
+          ],
+          "candyCostPurified": 45
         }
       ],
       "modelScaleV2": 1,
@@ -172582,6 +172614,12 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "shadow": {
+        "purificationStardustNeeded": 5000,
+        "purificationCandyNeeded": 5,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
       "ibfc": {},
       "breadTierGroup": "GROUP_2"
     }
@@ -172612,7 +172650,10 @@
         "cameraDistance": 4,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6,
-        "bonusXlCandyCaptureReward": 1
+        "bonusXlCandyCaptureReward": 1,
+        "shadowBaseCaptureRate": 0.1,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
       },
       "stats": {
         "baseStamina": 216,
@@ -172657,6 +172698,12 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "shadow": {
+        "purificationStardustNeeded": 5000,
+        "purificationCandyNeeded": 5,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
       "ibfc": {},
       "breadTierGroup": "GROUP_2"
     }
@@ -172687,7 +172734,10 @@
         "cameraDistance": 4,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6,
-        "bonusXlCandyCaptureReward": 1
+        "bonusXlCandyCaptureReward": 1,
+        "shadowBaseCaptureRate": 0.1,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
       },
       "stats": {
         "baseStamina": 216,
@@ -172733,6 +172783,12 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "shadow": {
+        "purificationStardustNeeded": 5000,
+        "purificationCandyNeeded": 5,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
       "ibfc": {},
       "breadTierGroup": "GROUP_2"
     }
@@ -189332,7 +189388,10 @@
         "dodgeDistance": 0.5,
         "cameraDistance": 2,
         "minPokemonActionFrequencyS": 0.2,
-        "maxPokemonActionFrequencyS": 1.6
+        "maxPokemonActionFrequencyS": 1.6,
+        "shadowBaseCaptureRate": 0.2,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
       },
       "stats": {
         "baseStamina": 120,
@@ -189361,7 +189420,8 @@
         {
           "evolution": "LURANTIS",
           "candyCost": 50,
-          "onlyDaytime": true
+          "onlyDaytime": true,
+          "candyCostPurified": 45
         }
       ],
       "modelScaleV2": 1.03,
@@ -189413,6 +189473,12 @@
         0,
         0
       ],
+      "shadow": {
+        "purificationStardustNeeded": 3000,
+        "purificationCandyNeeded": 3,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
       "buddyGroupNumber": 1,
       "ibfc": {},
       "breadTierGroup": "GROUP_2"
@@ -189439,7 +189505,10 @@
         "dodgeDistance": 0.5,
         "cameraDistance": 2,
         "minPokemonActionFrequencyS": 0.2,
-        "maxPokemonActionFrequencyS": 1.6
+        "maxPokemonActionFrequencyS": 1.6,
+        "shadowBaseCaptureRate": 0.2,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
       },
       "stats": {
         "baseStamina": 120,
@@ -189469,7 +189538,8 @@
           "evolution": "LURANTIS",
           "candyCost": 50,
           "form": "LURANTIS_NORMAL",
-          "onlyDaytime": true
+          "onlyDaytime": true,
+          "candyCostPurified": 45
         }
       ],
       "modelScaleV2": 1.03,
@@ -189522,6 +189592,12 @@
         0,
         0
       ],
+      "shadow": {
+        "purificationStardustNeeded": 3000,
+        "purificationCandyNeeded": 3,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
       "buddyGroupNumber": 1,
       "ibfc": {},
       "breadTierGroup": "GROUP_2"
@@ -189551,7 +189627,10 @@
         "cameraDistance": 3,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6,
-        "bonusXlCandyCaptureReward": 1
+        "bonusXlCandyCaptureReward": 1,
+        "shadowBaseCaptureRate": 0.2,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
       },
       "stats": {
         "baseStamina": 172,
@@ -189602,6 +189681,12 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "shadow": {
+        "purificationStardustNeeded": 3000,
+        "purificationCandyNeeded": 3,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
       "buddyGroupNumber": 2,
       "raidBossDistanceOffset": 2,
       "ibfc": {},
@@ -189632,7 +189717,10 @@
         "cameraDistance": 3,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6,
-        "bonusXlCandyCaptureReward": 1
+        "bonusXlCandyCaptureReward": 1,
+        "shadowBaseCaptureRate": 0.2,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
       },
       "stats": {
         "baseStamina": 172,
@@ -189684,6 +189772,12 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "shadow": {
+        "purificationStardustNeeded": 3000,
+        "purificationCandyNeeded": 3,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
       "buddyGroupNumber": 2,
       "raidBossDistanceOffset": 2,
       "ibfc": {},
@@ -191917,7 +192011,10 @@
         "dodgeDistance": 0.5,
         "cameraDistance": 2.5,
         "minPokemonActionFrequencyS": 0.2,
-        "maxPokemonActionFrequencyS": 1.6
+        "maxPokemonActionFrequencyS": 1.6,
+        "shadowBaseCaptureRate": 0.5,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
       },
       "stats": {
         "baseStamina": 93,
@@ -191940,7 +192037,8 @@
       "evolutionBranch": [
         {
           "evolution": "GOLISOPOD",
-          "candyCost": 400
+          "candyCost": 400,
+          "candyCostPurified": 360
         }
       ],
       "modelScaleV2": 1,
@@ -191967,6 +192065,12 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "shadow": {
+        "purificationStardustNeeded": 1000,
+        "purificationCandyNeeded": 1,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
       "buddyGroupNumber": 1,
       "raidBossDistanceOffset": 3,
       "ibfc": {},
@@ -191995,7 +192099,10 @@
         "dodgeDistance": 0.5,
         "cameraDistance": 2.5,
         "minPokemonActionFrequencyS": 0.2,
-        "maxPokemonActionFrequencyS": 1.6
+        "maxPokemonActionFrequencyS": 1.6,
+        "shadowBaseCaptureRate": 0.5,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
       },
       "stats": {
         "baseStamina": 93,
@@ -192019,7 +192126,8 @@
         {
           "evolution": "GOLISOPOD",
           "candyCost": 400,
-          "form": "GOLISOPOD_NORMAL"
+          "form": "GOLISOPOD_NORMAL",
+          "candyCostPurified": 360
         }
       ],
       "modelScaleV2": 1,
@@ -192047,6 +192155,12 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "shadow": {
+        "purificationStardustNeeded": 1000,
+        "purificationCandyNeeded": 1,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
       "buddyGroupNumber": 1,
       "raidBossDistanceOffset": 3,
       "ibfc": {},
@@ -192078,7 +192192,10 @@
         "cameraDistance": 4,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6,
-        "bonusXlCandyCaptureReward": 1
+        "bonusXlCandyCaptureReward": 1,
+        "shadowBaseCaptureRate": 0.2,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
       },
       "stats": {
         "baseStamina": 181,
@@ -192131,6 +192248,12 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "shadow": {
+        "purificationStardustNeeded": 1000,
+        "purificationCandyNeeded": 1,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
       "buddyGroupNumber": 3,
       "raidBossDistanceOffset": 1.7,
       "ibfc": {},
@@ -192162,7 +192285,10 @@
         "cameraDistance": 4,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6,
-        "bonusXlCandyCaptureReward": 1
+        "bonusXlCandyCaptureReward": 1,
+        "shadowBaseCaptureRate": 0.2,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
       },
       "stats": {
         "baseStamina": 181,
@@ -192216,6 +192342,12 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "shadow": {
+        "purificationStardustNeeded": 1000,
+        "purificationCandyNeeded": 1,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
       "buddyGroupNumber": 3,
       "raidBossDistanceOffset": 1.7,
       "ibfc": {},
@@ -192243,83 +192375,10 @@
         "dodgeDistance": 0.5,
         "cameraDistance": 4,
         "minPokemonActionFrequencyS": 0.2,
-        "maxPokemonActionFrequencyS": 1.6
-      },
-      "stats": {
-        "baseStamina": 146,
-        "baseAttack": 120,
-        "baseDefense": 118
-      },
-      "quickMoves": [
-        "ASTONISH_FAST",
-        "MUD_SHOT_FAST",
-        "SAND_ATTACK_FAST"
-      ],
-      "cinematicMoves": [
-        "SAND_TOMB",
-        "SHADOW_BALL",
-        "EARTH_POWER",
-        "SCORCHING_SANDS"
-      ],
-      "pokedexHeightM": 0.5,
-      "pokedexWeightKg": 70,
-      "heightStdDev": 0.0625,
-      "weightStdDev": 8.75,
-      "familyId": "FAMILY_SANDYGAST",
-      "kmBuddyDistance": 3,
-      "modelHeight": 1,
-      "evolutionBranch": [
-        {
-          "evolution": "PALOSSAND",
-          "candyCost": 50
-        }
-      ],
-      "modelScaleV2": 1,
-      "buddyOffsetMale": [
-        38.8,
-        0,
-        -44.7
-      ],
-      "buddyOffsetFemale": [
-        38.8,
-        0,
-        -44.7
-      ],
-      "buddyScale": 19,
-      "thirdMove": {
-        "stardustToUnlock": 50000,
-        "candyToUnlock": 50
-      },
-      "isTransferable": true,
-      "isDeployable": true,
-      "isTradable": true,
-      "buddyGroupNumber": 2,
-      "ibfc": {},
-      "breadTierGroup": "GROUP_2"
-    }
-  },
-  {
-    "templateId": "V0769_POKEMON_SANDYGAST_NORMAL",
-    "data": {
-      "pokemonId": "SANDYGAST",
-      "type": "POKEMON_TYPE_GHOST",
-      "type2": "POKEMON_TYPE_GROUND",
-      "camera": {
-        "cylinderRadiusM": 0.4,
-        "cylinderHeightM": 0.5
-      },
-      "encounter": {
-        "collisionRadiusM": 0.3,
-        "collisionHeightM": 0.9,
-        "collisionHeadRadiusM": 0.3,
-        "movementType": "MOVEMENT_JUMP",
-        "attackProbability": 0.1,
-        "dodgeProbability": 0.15,
-        "dodgeDurationS": 1,
-        "dodgeDistance": 0.5,
-        "cameraDistance": 4,
-        "minPokemonActionFrequencyS": 0.2,
-        "maxPokemonActionFrequencyS": 1.6
+        "maxPokemonActionFrequencyS": 1.6,
+        "shadowBaseCaptureRate": 0.2,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
       },
       "stats": {
         "baseStamina": 146,
@@ -192348,7 +192407,94 @@
         {
           "evolution": "PALOSSAND",
           "candyCost": 50,
-          "form": "PALOSSAND_NORMAL"
+          "candyCostPurified": 45
+        }
+      ],
+      "modelScaleV2": 1,
+      "buddyOffsetMale": [
+        38.8,
+        0,
+        -44.7
+      ],
+      "buddyOffsetFemale": [
+        38.8,
+        0,
+        -44.7
+      ],
+      "buddyScale": 19,
+      "thirdMove": {
+        "stardustToUnlock": 50000,
+        "candyToUnlock": 50
+      },
+      "isTransferable": true,
+      "isDeployable": true,
+      "isTradable": true,
+      "shadow": {
+        "purificationStardustNeeded": 3000,
+        "purificationCandyNeeded": 3,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
+      "buddyGroupNumber": 2,
+      "ibfc": {},
+      "breadTierGroup": "GROUP_2"
+    }
+  },
+  {
+    "templateId": "V0769_POKEMON_SANDYGAST_NORMAL",
+    "data": {
+      "pokemonId": "SANDYGAST",
+      "type": "POKEMON_TYPE_GHOST",
+      "type2": "POKEMON_TYPE_GROUND",
+      "camera": {
+        "cylinderRadiusM": 0.4,
+        "cylinderHeightM": 0.5
+      },
+      "encounter": {
+        "collisionRadiusM": 0.3,
+        "collisionHeightM": 0.9,
+        "collisionHeadRadiusM": 0.3,
+        "movementType": "MOVEMENT_JUMP",
+        "attackProbability": 0.1,
+        "dodgeProbability": 0.15,
+        "dodgeDurationS": 1,
+        "dodgeDistance": 0.5,
+        "cameraDistance": 4,
+        "minPokemonActionFrequencyS": 0.2,
+        "maxPokemonActionFrequencyS": 1.6,
+        "shadowBaseCaptureRate": 0.2,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
+      },
+      "stats": {
+        "baseStamina": 146,
+        "baseAttack": 120,
+        "baseDefense": 118
+      },
+      "quickMoves": [
+        "ASTONISH_FAST",
+        "MUD_SHOT_FAST",
+        "SAND_ATTACK_FAST"
+      ],
+      "cinematicMoves": [
+        "SAND_TOMB",
+        "SHADOW_BALL",
+        "EARTH_POWER",
+        "SCORCHING_SANDS"
+      ],
+      "pokedexHeightM": 0.5,
+      "pokedexWeightKg": 70,
+      "heightStdDev": 0.0625,
+      "weightStdDev": 8.75,
+      "familyId": "FAMILY_SANDYGAST",
+      "kmBuddyDistance": 3,
+      "modelHeight": 1,
+      "evolutionBranch": [
+        {
+          "evolution": "PALOSSAND",
+          "candyCost": 50,
+          "form": "PALOSSAND_NORMAL",
+          "candyCostPurified": 45
         }
       ],
       "modelScaleV2": 1,
@@ -192371,6 +192517,12 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "shadow": {
+        "purificationStardustNeeded": 3000,
+        "purificationCandyNeeded": 3,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
       "buddyGroupNumber": 2,
       "ibfc": {},
       "breadTierGroup": "GROUP_2"
@@ -192400,7 +192552,10 @@
         "cameraDistance": 4,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6,
-        "bonusXlCandyCaptureReward": 1
+        "bonusXlCandyCaptureReward": 1,
+        "shadowBaseCaptureRate": 0.2,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
       },
       "stats": {
         "baseStamina": 198,
@@ -192446,6 +192601,12 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "shadow": {
+        "purificationStardustNeeded": 3000,
+        "purificationCandyNeeded": 3,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
       "buddyGroupNumber": 2,
       "ibfc": {},
       "breadTierGroup": "GROUP_2"
@@ -192475,7 +192636,10 @@
         "cameraDistance": 4,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6,
-        "bonusXlCandyCaptureReward": 1
+        "bonusXlCandyCaptureReward": 1,
+        "shadowBaseCaptureRate": 0.2,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
       },
       "stats": {
         "baseStamina": 198,
@@ -192522,6 +192686,12 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "shadow": {
+        "purificationStardustNeeded": 3000,
+        "purificationCandyNeeded": 3,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
       "buddyGroupNumber": 2,
       "ibfc": {},
       "breadTierGroup": "GROUP_2"
@@ -223933,7 +224103,13 @@
       "evolutionBranch": [
         {
           "evolution": "BRAMBLEGHAST",
-          "candyCost": 50
+          "candyCost": 50,
+          "kmBuddyDistanceRequirement": 20,
+          "questDisplay": [
+            {
+              "questRequirementTemplateId": "BRAMBLEGHAST_EVOLUTION_QUEST"
+            }
+          ]
         }
       ],
       "thirdMove": {
@@ -223987,7 +224163,13 @@
         {
           "evolution": "BRAMBLEGHAST",
           "candyCost": 50,
-          "form": "BRAMBLEGHAST_NORMAL"
+          "kmBuddyDistanceRequirement": 20,
+          "form": "BRAMBLEGHAST_NORMAL",
+          "questDisplay": [
+            {
+              "questRequirementTemplateId": "BRAMBLEGHAST_EVOLUTION_QUEST"
+            }
+          ]
         }
       ],
       "form": "BRAMBLIN_NORMAL",

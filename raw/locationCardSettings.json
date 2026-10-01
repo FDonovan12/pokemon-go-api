@@ -513,6 +513,13 @@
     }
   },
   {
+    "templateId": "LC_2026_COMICCON_MALAGA",
+    "data": {
+      "locationCard": 416,
+      "imageUrl": "lc_2026_ComicCon_Malaga"
+    }
+  },
+  {
     "templateId": "LC_2026_COPENHAGEN_GOFEST_001",
     "data": {
       "locationCard": "LC_2026_COPENHAGEN_GOFEST_001",

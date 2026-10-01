@@ -1445,7 +1445,6 @@
       "featuresUnlocked": [
         "FEATURE_LUCKY_CHANCE_INCREASE"
       ],
-      "obLevelUpRewardsNumber9": 0.01,
       "clientOverrideDisplayOrder": true
     }
   },
@@ -2026,7 +2025,6 @@
       "itemsCount": [
         75
       ],
-      "obLevelUpRewardsNumber9": 0.01,
       "isBackfill": true
     }
   }
