@@ -206711,7 +206711,7 @@
       "ibfc": {
         "combatEnable": true,
         "defaultForm": "CRAMORANT_NORMAL",
-        "aternateForms": [
+        "AlternateForms": [
           "CRAMORANT_GULPING",
           "CRAMORANT_GORGING"
         ]

@@ -515,7 +515,7 @@
   {
     "templateId": "LC_2026_COMICCON_MALAGA",
     "data": {
-      "locationCard": 416,
+      "locationCard": "LC_2026_COMICCON_MALAGA",
       "imageUrl": "lc_2026_ComicCon_Malaga"
     }
   },
