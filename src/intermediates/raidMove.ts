@@ -1,4 +1,5 @@
 // src/intermediates/pokemonSetting.intermediate.ts
+import { MoveSettings } from '#generated/data/api/raw.type.js';
 import { RawGameMaster } from '#generated/raw.index.js';
 import { IntermediateGenerator } from '../type/intermediateGenerator.js';
 import { pokeApiClient } from '../utils/pokeApiClient.js';
@@ -25,10 +26,16 @@ export default class PokemonSettingIntermediate extends IntermediateGenerator {
     async compute(): Promise<any> {
         const raw = await RawGameMaster.getMoveSettings();
 
+        // const isDynamaxMove = (move: MoveSettings) => 'obMoveSettingsNumber18' in move.data
+        const isDynamaxMove = (move: MoveSettings) => move.templateId.includes('VN_BM');
+        const isFastMove = (move: MoveSettings) => move.templateId.includes('FAST');
+        const ischargedMove = (move: MoveSettings) =>
+            !isDynamaxMove(move) && !move.templateId.includes('FAST');
+
         const fastMove = (
             await Promise.all(
                 raw
-                    .filter((move) => move.templateId.includes('FAST'))
+                    .filter((move) => isFastMove(move))
                     .map(async (move) => ({
                         id: move.templateId,
                         movementId: move.data.movementId,
@@ -47,11 +54,7 @@ export default class PokemonSettingIntermediate extends IntermediateGenerator {
         const chargedMove = (
             await Promise.all(
                 raw
-                    .filter(
-                        (move) =>
-                            !('obMoveSettingsNumber18' in move.data) &&
-                            !move.templateId.includes('FAST'),
-                    )
+                    .filter((move) => ischargedMove(move))
                     .map(async (move) => ({
                         id: move.templateId,
                         movementId: move.data.movementId,
@@ -67,15 +70,48 @@ export default class PokemonSettingIntermediate extends IntermediateGenerator {
             )
         ).toObject((move) => move.movementId);
 
+        // const dynamaxMove = (
+        //     await Promise.all(
+        //         raw
+        //             .filter((move) => 'obMoveSettingsNumber18' in move.data)
+        //             .map(async (move) => ({
+        //                 id: move.templateId,
+        //                 movementId: move.data.movementId,
+        //                 pokemonType: pokemonTypeToFrench(move.data.pokemonType),
+        //                 powerLevels: move.data.obMoveSettingsNumber18,
+        //                 vfxName: move.data.vfxName,
+        //                 names: {
+        //                     fr: await this.getMoveFrenchName(move),
+        //                 },
+        //             })),
+        //     )
+        // ).toObject((move) => move.movementId);
+
+        const healAndGuardPowers = [0, 0, 0, 0];
+        const dynamaxAttackPowers = [250, 300, 350, 450];
+        const gigamaxAttackPowers = [350, 400, 450, 550];
+
+        const isGigamax = (move: MoveSettings) =>
+            move.data.vfxName.includes('max_dynamax_cannon') || move.data.vfxName.includes('gmax');
+        const isHealOrGuard = (move: MoveSettings) =>
+            move.data.vfxName.includes('max_shield') || move.data.vfxName.includes('max_heal');
+
+        const getPowerLevels = (move: MoveSettings) =>
+            isGigamax(move)
+                ? gigamaxAttackPowers
+                : isHealOrGuard(move)
+                  ? healAndGuardPowers
+                  : dynamaxAttackPowers;
+
         const dynamaxMove = (
             await Promise.all(
                 raw
-                    .filter((move) => 'obMoveSettingsNumber18' in move.data)
+                    .filter((move) => isDynamaxMove(move))
                     .map(async (move) => ({
                         id: move.templateId,
                         movementId: move.data.movementId,
                         pokemonType: pokemonTypeToFrench(move.data.pokemonType),
-                        powerLevels: move.data.obMoveSettingsNumber18,
+                        powerLevels: getPowerLevels(move),
                         vfxName: move.data.vfxName,
                         names: {
                             fr: await this.getMoveFrenchName(move),

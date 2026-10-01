@@ -79,7 +79,6 @@ class PokemonSettingGeneratorService {
 
     private extractBaseSameDifferentForm(lists: any[], baseFormIndex: number) {
         const baseForm = lists[baseFormIndex];
-        console.log(lists, baseFormIndex);
         const otherFormSameAsBase = lists.filter(
             (form, id) => this.isSameForm(form, baseForm) && id !== baseFormIndex,
         );
