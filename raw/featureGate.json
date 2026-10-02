@@ -1,5 +1,26 @@
 [
   {
+    "templateId": "AC_FOREGROUND_CATCH_ENCOUNTER_FEATURE_GATE",
+    "data": {
+      "status": 1284637195,
+      "rolloutPercentage": 100
+    }
+  },
+  {
+    "templateId": "AC_FOREGROUND_CATCH_MAP_FOCUS_FEATURE_GATE",
+    "data": {
+      "status": 471823352,
+      "rolloutPercentage": 100
+    }
+  },
+  {
+    "templateId": "AC_FOREGROUND_CATCH_POI_FOCUS_FEATURE_GATE",
+    "data": {
+      "status": 812739461,
+      "rolloutPercentage": 100
+    }
+  },
+  {
     "templateId": "ADMIN_GM_NIA_OPS_ONLY_FILTER_AMS_FEATURE_GATE",
     "data": {
       "status": 1,

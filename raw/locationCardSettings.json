@@ -714,6 +714,48 @@
     }
   },
   {
+    "templateId": "LC_EMEA_MUSEUM_01",
+    "data": {
+      "locationCard": 410,
+      "imageUrl": "lc_ESA_spaceExpoNL"
+    }
+  },
+  {
+    "templateId": "LC_EMEA_MUSEUM_02",
+    "data": {
+      "locationCard": 411,
+      "imageUrl": "lc_ESA_spaceCenterGermany"
+    }
+  },
+  {
+    "templateId": "LC_EMEA_MUSEUM_03",
+    "data": {
+      "locationCard": 412,
+      "imageUrl": "lc_ESA_scienceMuseumLondon"
+    }
+  },
+  {
+    "templateId": "LC_EMEA_MUSEUM_04",
+    "data": {
+      "locationCard": 413,
+      "imageUrl": "lc_ESA_euroSpaceCenter"
+    }
+  },
+  {
+    "templateId": "LC_EMEA_MUSEUM_05",
+    "data": {
+      "locationCard": 414,
+      "imageUrl": "lc_ESA_ciudadDeLasArtes"
+    }
+  },
+  {
+    "templateId": "LC_EMEA_MUSEUM_06",
+    "data": {
+      "locationCard": 415,
+      "imageUrl": "lc_ESA_citeDeEspace"
+    }
+  },
+  {
     "templateId": "LC_ID_CAR_FREE_DAY",
     "data": {
       "locationCard": "LC_ID_CAR_FREE_DAY",

@@ -2310,6 +2310,17 @@
     }
   },
   {
+    "templateId": "SPAWN_V0068_POKEMON_MACHAMP_WILDAREA_2026_01",
+    "data": {
+      "pokemon": "MACHAMP",
+      "gender": {
+        "malePercent": 0.75,
+        "femalePercent": 0.25
+      },
+      "form": 3369
+    }
+  },
+  {
     "templateId": "SPAWN_V0069_POKEMON_BELLSPROUT",
     "data": {
       "pokemon": "BELLSPROUT",

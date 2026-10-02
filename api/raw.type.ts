@@ -8,6 +8,23 @@ export interface AccessibilitySettingData {
     pluginEnabled: boolean;
 }
 
+export interface FeatureGate {
+    templateId: string;
+    data:       FeatureGateData;
+}
+
+export interface FeatureGateData {
+    status:              number;
+    rolloutPercentage:   number;
+    subFeatureGateList?: SubFeatureGateList[];
+}
+
+export interface SubFeatureGateList {
+    name:              string;
+    status:            number;
+    rolloutPercentage: number;
+}
+
 export interface AdditiveSceneSettings {
     templateId: string;
     data:       AdditiveSceneSettingData;
@@ -36,23 +53,6 @@ export interface AddressBookImportSettingData {
     onboardingScreenLevel:   number;
     showOptOutCheckbox:      boolean;
     repromptOnboardingForV1: boolean;
-}
-
-export interface FeatureGate {
-    templateId: string;
-    data:       FeatureGateData;
-}
-
-export interface FeatureGateData {
-    status:              number;
-    rolloutPercentage:   number;
-    subFeatureGateList?: SubFeatureGateList[];
-}
-
-export interface SubFeatureGateList {
-    name:              string;
-    status:            number;
-    rolloutPercentage: number;
 }
 
 export interface AdvancedSettings {
@@ -407,13 +407,15 @@ export interface BadgeSettings {
 }
 
 export interface BadgeSettingData {
-    badgeType:           string;
+    badgeType:           BadgeTypeElement;
     badgeRank:           number;
     targets:             number[];
     eventBadge?:         boolean;
     eventBadgeSettings?: EventBadgeSettings;
     captureReward?:      CaptureReward[];
 }
+
+export type BadgeTypeElement = number | string;
 
 export interface CaptureReward {
     rewardTypes?: TypeElement[];
@@ -1002,12 +1004,13 @@ export interface PokemonCondition {
     pokemonCaughtTimestamp?: PokemonCaughtTimestamp;
     pokemonWhiteList?:       PokemonWhiteList;
     withPokemonType?:        WithPokemonType;
-    pokemonLevelRange?:      PokemonLevelRange;
     pokemonBanList?:         PokemonBanList;
+    pokemonLevelRange?:      PokemonLevelRange;
 }
 
 export interface PokemonBanList {
-    pokemon: PokemonBanListPokemon[];
+    lgdbihdlhod?: string;
+    pokemon:      PokemonBanListPokemon[];
 }
 
 export interface PokemonBanListPokemon {
@@ -1135,7 +1138,7 @@ export interface CombatSettingData {
     shadowPokemonAttackBonusMultiplier:      number;
     shadowPokemonDefenseBonusMultiplier:     number;
     purifiedPokemonAttackMultiplierVsShadow: number;
-    combatExperiment:                        CombatExperiment[];
+    combatExperiment:                        BadgeTypeElement[];
     showQuickSwapButtonsDuringCountdown:     boolean;
     clockSyncSettings:                       ClockSyncSettings;
     combatFeatureFlags:                      CombatFeatureFlags;
@@ -1146,8 +1149,6 @@ export interface ClockSyncSettings {
     syncAttemptCount: number;
     enabled:          boolean;
 }
-
-export type CombatExperiment = number | string;
 
 export interface CombatFeatureFlags {
     realDeviceTimeEnabled: boolean;
@@ -1320,8 +1321,8 @@ export interface DeepLinkingSettings {
 export interface DeepLinkingSettingData {
     minPlayerLevelForExternalLink:     number;
     minPlayerLevelForNotificationLink: number;
-    actionsThatIgnoreMinLevel:         CombatExperiment[];
-    actionsThatExecuteBeforeMapLoads:  CombatExperiment[];
+    actionsThatIgnoreMinLevel:         BadgeTypeElement[];
+    actionsThatExecuteBeforeMapLoads:  BadgeTypeElement[];
     iosActionButtonEnabled:            boolean;
 }
 
@@ -1634,7 +1635,7 @@ export interface PokemonExtendedSettingData {
     uniqueId:          string;
     sizeSettings:      DataSizeSettings;
     breadOverrides?:   BreadOverride[];
-    form?:             string;
+    form?:             BadgeTypeElement;
     tempEvoOverrides?: PurpleTempEvoOverride[];
 }
 
@@ -1744,7 +1745,7 @@ export interface FormSettingData {
 }
 
 export interface Form {
-    form:                        string;
+    form:                        BadgeTypeElement;
     assetBundleSuffix?:          string;
     isCostume?:                  boolean;
     assetBundleValue?:           number;
@@ -2192,7 +2193,7 @@ export interface IrisSocialUxFunnelSettingData {
 
 export interface EventStep {
     stepNumber: number;
-    event:      CombatExperiment;
+    event:      BadgeTypeElement;
 }
 
 export interface ItemCurrencyValues {
@@ -2285,7 +2286,7 @@ export interface LocationCardSettings {
 }
 
 export interface LocationCardSettingData {
-    locationCard: string;
+    locationCard: BadgeTypeElement;
     imageUrl:     string;
     cardType?:    CardType;
     vfxAddress?:  string;
@@ -2559,7 +2560,7 @@ export interface MpSettingData {
 
 export interface BattleMpCostPerTier {
     breadBattleCatchMpCost:       number;
-    battleLevel:                  CombatExperiment;
+    battleLevel:                  BadgeTypeElement;
     breadBattleRemoteCatchMpCost: number;
 }
 
@@ -3046,7 +3047,7 @@ export interface PokedexCategoriesSettingData {
 }
 
 export interface PokedexCategorySettingsInOrder {
-    pokedexCategory: CombatExperiment;
+    pokedexCategory: BadgeTypeElement;
     milestoneGoal:   number;
     visuallyHidden?: boolean;
 }
@@ -3383,7 +3384,7 @@ export interface ReferralSettingData {
 }
 
 export interface RecentFeature {
-    iconType:    CombatExperiment;
+    iconType:    BadgeTypeElement;
     featureName: string;
     description: string;
 }
@@ -3653,7 +3654,7 @@ export interface GenderSettings {
 export interface GenderSettingData {
     pokemon: string;
     gender:  GenderClass;
-    form?:   string;
+    form?:   BadgeTypeElement;
 }
 
 export interface GenderClass {
@@ -3894,7 +3895,7 @@ export interface TutorialSettingData {
 }
 
 export interface TutorialItemReward {
-    tutorial: CombatExperiment;
+    tutorial: BadgeTypeElement;
     item?:    ItemElement[];
 }
 
@@ -3957,7 +3958,7 @@ export interface PokemonSettingData {
     allowNoevolveEvolution?:            string[];
     ibfc:                               Ibfc;
     breadTierGroup?:                    BreadTierGroupEnum;
-    form?:                              string;
+    form?:                              BadgeTypeElement;
     disableTransferToPokemonHome?:      boolean;
     parentPokemonId?:                   string;
     buddySize?:                         BuddySize;

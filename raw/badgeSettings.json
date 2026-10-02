@@ -7742,6 +7742,470 @@
     }
   },
   {
+    "templateId": "BADGE_GOWA_2026_CDMX_ADDON_BATTLE",
+    "data": {
+      "badgeType": 6289,
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOWA_2026_CDMX_ADDON_FRIDAY",
+    "data": {
+      "badgeType": 6285,
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOWA_2026_CDMX_ADDON_HATCH",
+    "data": {
+      "badgeType": 6288,
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOWA_2026_CDMX_ADDON_SATURDAY",
+    "data": {
+      "badgeType": 6286,
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOWA_2026_CDMX_ADDON_SUNDAY",
+    "data": {
+      "badgeType": 6287,
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOWA_2026_CDMX_FRIDAY",
+    "data": {
+      "badgeType": 6279,
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOWA_2026_CDMX_FRIDAY_ESSENTIAL",
+    "data": {
+      "badgeType": 6280,
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true,
+      "eventBadgeSettings": {
+        "obEventBadgeSettingsNumber6": 1
+      }
+    }
+  },
+  {
+    "templateId": "BADGE_GOWA_2026_CDMX_SATURDAY",
+    "data": {
+      "badgeType": 6281,
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOWA_2026_CDMX_SATURDAY_ESSENTIAL",
+    "data": {
+      "badgeType": 6282,
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true,
+      "eventBadgeSettings": {
+        "obEventBadgeSettingsNumber6": 1
+      }
+    }
+  },
+  {
+    "templateId": "BADGE_GOWA_2026_CDMX_SUNDAY",
+    "data": {
+      "badgeType": 6283,
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOWA_2026_CDMX_SUNDAY_ESSENTIAL",
+    "data": {
+      "badgeType": 6284,
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true,
+      "eventBadgeSettings": {
+        "obEventBadgeSettingsNumber6": 1
+      }
+    }
+  },
+  {
+    "templateId": "BADGE_GOWA_2026_CDMX_TEST",
+    "data": {
+      "badgeType": 6291,
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOWA_2026_CDMX_TEST_ADDON_BATTLE",
+    "data": {
+      "badgeType": 6295,
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOWA_2026_CDMX_TEST_ADDON_EXTRA_DAY",
+    "data": {
+      "badgeType": 6293,
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOWA_2026_CDMX_TEST_ADDON_HATCH",
+    "data": {
+      "badgeType": 6294,
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOWA_2026_CDMX_TEST_ESSENTIAL",
+    "data": {
+      "badgeType": 6292,
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOWA_2026_CDMX_VIP",
+    "data": {
+      "badgeType": 6290,
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOWA_2026_EVENT_01",
+    "data": {
+      "badgeType": 6296,
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true,
+      "eventBadgeSettings": {
+        "obEventBadgeSettingsNumber6": 1
+      }
+    }
+  },
+  {
+    "templateId": "BADGE_GOWA_2026_EVENT_02",
+    "data": {
+      "badgeType": 6297,
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true,
+      "eventBadgeSettings": {
+        "obEventBadgeSettingsNumber6": 1
+      }
+    }
+  },
+  {
+    "templateId": "BADGE_GOWA_2026_GLOBAL",
+    "data": {
+      "badgeType": 6298,
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOWA_2026_GLOBAL_TEST",
+    "data": {
+      "badgeType": 6299,
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOWA_2026_SENDAI_ADDON_BATTLE",
+    "data": {
+      "badgeType": 6272,
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOWA_2026_SENDAI_ADDON_FRIDAY",
+    "data": {
+      "badgeType": 6268,
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOWA_2026_SENDAI_ADDON_HATCH",
+    "data": {
+      "badgeType": 6271,
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOWA_2026_SENDAI_ADDON_SATURDAY",
+    "data": {
+      "badgeType": 6269,
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOWA_2026_SENDAI_ADDON_SUNDAY",
+    "data": {
+      "badgeType": 6270,
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOWA_2026_SENDAI_FRIDAY",
+    "data": {
+      "badgeType": 6262,
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOWA_2026_SENDAI_FRIDAY_ESSENTIAL",
+    "data": {
+      "badgeType": 6263,
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true,
+      "eventBadgeSettings": {
+        "obEventBadgeSettingsNumber6": 1
+      }
+    }
+  },
+  {
+    "templateId": "BADGE_GOWA_2026_SENDAI_SATURDAY",
+    "data": {
+      "badgeType": 6264,
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOWA_2026_SENDAI_SATURDAY_ESSENTIAL",
+    "data": {
+      "badgeType": 6265,
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true,
+      "eventBadgeSettings": {
+        "obEventBadgeSettingsNumber6": 1
+      }
+    }
+  },
+  {
+    "templateId": "BADGE_GOWA_2026_SENDAI_SUNDAY",
+    "data": {
+      "badgeType": 6266,
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOWA_2026_SENDAI_SUNDAY_ESSENTIAL",
+    "data": {
+      "badgeType": 6267,
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true,
+      "eventBadgeSettings": {
+        "obEventBadgeSettingsNumber6": 1
+      }
+    }
+  },
+  {
+    "templateId": "BADGE_GOWA_2026_SENDAI_TEST",
+    "data": {
+      "badgeType": 6274,
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOWA_2026_SENDAI_TEST_ADDON_BATTLE",
+    "data": {
+      "badgeType": 6278,
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOWA_2026_SENDAI_TEST_ADDON_EXTRA_DAY",
+    "data": {
+      "badgeType": 6276,
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOWA_2026_SENDAI_TEST_ADDON_HATCH",
+    "data": {
+      "badgeType": 6277,
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOWA_2026_SENDAI_TEST_ESSENTIAL",
+    "data": {
+      "badgeType": 6275,
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOWA_2026_SENDAI_VIP",
+    "data": {
+      "badgeType": 6273,
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOWA_2026_SPECIAL_RESEARCH_A",
+    "data": {
+      "badgeType": 6300,
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
+    "templateId": "BADGE_GOWA_2026_SPECIAL_RESEARCH_B",
+    "data": {
+      "badgeType": 6301,
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
     "templateId": "BADGE_GO_TOUR_2025_GLOBAL_BLACK_VERSION",
     "data": {
       "badgeType": "BADGE_GO_TOUR_2025_GLOBAL_BLACK_VERSION",

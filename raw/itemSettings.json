@@ -1929,6 +1929,41 @@
     }
   },
   {
+    "templateId": "ITEM_EVENT_TICKET_S24_OCT_24_MAXBATTLE",
+    "data": {
+      "itemId": "ITEM_EVENT_TICKET_S24_OCT_24_MAXBATTLE",
+      "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
+      "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
+      "globalEventTicket": {
+        "eventStartTime": "2026-10-24T14:00:00",
+        "eventEndTime": "2026-10-24T17:00:00",
+        "itemBagDescriptionKey": "ITEM_EVENT_TICKET_S24_OCT_24_MAXBATTLE_details",
+        "eventBannerUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fafa245c1_PGO-MCS_Lake_Guardians_Max_Battle_Day_v1-1025x576.jpg",
+        "displayV2Enabled": true,
+        "backgroundImageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fafa245c1_PGO-MCS_Lake_Guardians_Max_Battle_Day_v1-1025x576.jpg",
+        "textRewardsKey": "text_rewards_key_dmaxSinnohLakeMaxBattle26",
+        "iconRewards": [
+          {
+            "type": "ITEM",
+            "item": {
+              "item": "ITEM_MAX_BOOST",
+              "amount": 1
+            }
+          },
+          {
+            "type": "EXPERIENCE",
+            "exp": 25000
+          }
+        ],
+        "detailsLinkKey": "details_link_key_dmax_sinnoh_lake_max_battle",
+        "clientEventStartTimeUtcMs": "1792850400000",
+        "clientEventEndTimeUtcMs": "1792861200000"
+      },
+      "nameOverride": "general2.ticket.6.DMAX_SINNOH_LAKE_MAX_BATTLE",
+      "descriptionOverride": "ITEM_EVENT_TICKET_S24_OCT_24_MAXBATTLE_desc"
+    }
+  },
+  {
     "templateId": "ITEM_EVENT_TICKET_S24_OCT_3_MAXBATTLE",
     "data": {
       "itemId": "ITEM_EVENT_TICKET_S24_OCT_3_MAXBATTLE",

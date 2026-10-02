@@ -4034,8 +4034,7 @@
       "durationMs": 2000,
       "damageWindowStartMs": 1000,
       "damageWindowEndMs": 1800,
-      "energyDelta": -33,
-      "isLocked": true
+      "energyDelta": -33
     }
   },
   {

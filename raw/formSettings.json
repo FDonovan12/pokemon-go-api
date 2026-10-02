@@ -1133,6 +1133,10 @@
       "forms": [
         {
           "form": "MACHAMP_NORMAL"
+        },
+        {
+          "form": 3369,
+          "isCostume": true
         }
       ]
     }

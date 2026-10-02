@@ -8067,6 +8067,67 @@
     }
   },
   {
+    "templateId": "EXTENDED_V0068_POKEMON_MACHAMP_WILDAREA_2026_01",
+    "data": {
+      "uniqueId": "MACHAMP",
+      "form": 3369,
+      "sizeSettings": {
+        "xxsLowerBound": 0.784,
+        "xsLowerBound": 0.8,
+        "mLowerBound": 1.2,
+        "mUpperBound": 2,
+        "xlUpperBound": 2.4,
+        "xxlUpperBound": 2.8
+      },
+      "breadOverrides": [
+        {
+          "breadMode": "BREAD_MODE",
+          "maxEncounterVisualSettings": {
+            "scale": 12.06,
+            "cameraDistance": 32.5,
+            "maxReticleSize": 14
+          },
+          "maxBattleVisualSettings": {
+            "scale": 24.122
+          },
+          "maxStationVisualSettings": {
+            "scale": 1.64
+          }
+        },
+        {
+          "breadMode": "BREAD_DOUGH_MODE",
+          "averageHeightM": 25,
+          "camera": {
+            "cylinderRadiusM": 1.5,
+            "cylinderHeightM": 2.55
+          },
+          "modelScaleV2": 0.86,
+          "modelHeight": 2.57,
+          "catchOverrideSettings": {
+            "collisionRadiusM": 1,
+            "collisionHeightM": 1.246,
+            "collisionHeadRadiusM": 0.1335
+          },
+          "maxEncounterVisualSettings": {
+            "scale": 5.672,
+            "cameraDistance": 24,
+            "maxReticleSize": 10
+          },
+          "maxBattleVisualSettings": {
+            "scale": 17.5,
+            "yOffset": -6
+          },
+          "maxStationVisualSettings": {
+            "scale": 1
+          },
+          "maxPowerspotTopperVisualSettings": {
+            "scale": 0.68
+          }
+        }
+      ]
+    }
+  },
+  {
     "templateId": "EXTENDED_V0069_POKEMON_BELLSPROUT",
     "data": {
       "uniqueId": "BELLSPROUT",
