@@ -187,37 +187,17 @@
     "templateId": "ITEM_EXPIRATION_ITEM_WILD_BALL",
     "data": {
       "item": "ITEM_WILD_BALL",
-      "expirationTime": "2025-11-16T18:00:00",
-      "emergencyExpirationTime": "2025-11-16T18:00:00",
+      "expirationTime": "2026-11-15T18:00:00",
+      "emergencyExpirationTime": "2026-11-15T18:00:00",
       "itemEnablementSettings": {
         "enabledTimePeriods": [
           {
-            "enabledStartTime": "2025-11-15T10:00:00",
-            "enabledEndTime": "2025-11-15T18:00:00"
+            "enabledStartTime": "2026-11-14T10:00:00",
+            "enabledEndTime": "2026-11-14T18:00:00"
           },
           {
-            "enabledStartTime": "2025-11-16T10:00:00",
-            "enabledEndTime": "2025-11-16T18:00:00"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "templateId": "ITEM_EXPIRATION_ITEM_WILD_BALL_PREMIER",
-    "data": {
-      "item": "ITEM_WILD_BALL_PREMIER",
-      "expirationTime": "2025-11-16T18:00:00",
-      "emergencyExpirationTime": "2025-11-16T18:00:00",
-      "itemEnablementSettings": {
-        "enabledTimePeriods": [
-          {
-            "enabledStartTime": "2025-11-15T10:00:00",
-            "enabledEndTime": "2025-11-15T18:00:00"
-          },
-          {
-            "enabledStartTime": "2025-11-16T10:00:00",
-            "enabledEndTime": "2025-11-16T18:00:00"
+            "enabledStartTime": "2026-11-15T10:00:00",
+            "enabledEndTime": "2026-11-15T18:00:00"
           }
         ]
       }

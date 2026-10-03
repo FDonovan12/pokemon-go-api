@@ -8070,7 +8070,7 @@
     "templateId": "EXTENDED_V0068_POKEMON_MACHAMP_WILDAREA_2026_01",
     "data": {
       "uniqueId": "MACHAMP",
-      "form": 3369,
+      "form": "MACHAMP_WILDAREA_2026_01",
       "sizeSettings": {
         "xxsLowerBound": 0.784,
         "xsLowerBound": 0.8,
@@ -35850,6 +35850,21 @@
     }
   },
   {
+    "templateId": "EXTENDED_V0705_POKEMON_SLIGGOO_HISUIAN",
+    "data": {
+      "uniqueId": "SLIGGOO",
+      "form": "SLIGGOO_HISUIAN",
+      "sizeSettings": {
+        "xxsLowerBound": 0.392,
+        "xsLowerBound": 0.4,
+        "mLowerBound": 0.6,
+        "mUpperBound": 1,
+        "xlUpperBound": 1.2,
+        "xxlUpperBound": 1.4
+      }
+    }
+  },
+  {
     "templateId": "EXTENDED_V0705_POKEMON_SLIGGOO_NORMAL",
     "data": {
       "uniqueId": "SLIGGOO",
@@ -35868,6 +35883,21 @@
     "templateId": "EXTENDED_V0706_POKEMON_GOODRA",
     "data": {
       "uniqueId": "GOODRA",
+      "sizeSettings": {
+        "xxsLowerBound": 0.98,
+        "xsLowerBound": 1,
+        "mLowerBound": 1.5,
+        "mUpperBound": 2.5,
+        "xlUpperBound": 3,
+        "xxlUpperBound": 3.1
+      }
+    }
+  },
+  {
+    "templateId": "EXTENDED_V0706_POKEMON_GOODRA_HISUIAN",
+    "data": {
+      "uniqueId": "GOODRA",
+      "form": "GOODRA_HISUIAN",
       "sizeSettings": {
         "xxsLowerBound": 0.98,
         "xsLowerBound": 1,

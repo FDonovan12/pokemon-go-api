@@ -273,9 +273,7 @@
         "eventPassId": "EVENT_PASS_HARVESTFESTIVAL2026_EVENT"
       },
       "timePeriodCounters": {
-        "playerActivity": {
-          "limit": 500
-        }
+        "playerActivity": {}
       },
       "hideItemInInventory": true
     }
@@ -429,9 +427,7 @@
         "eventPassId": "EVENT_PASS_SEPTEMBER2026_SEASON"
       },
       "timePeriodCounters": {
-        "playerActivity": {
-          "limit": 250
-        }
+        "playerActivity": {}
       },
       "hideItemInInventory": true
     }

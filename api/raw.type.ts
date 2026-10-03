@@ -407,15 +407,13 @@ export interface BadgeSettings {
 }
 
 export interface BadgeSettingData {
-    badgeType:           BadgeTypeElement;
+    badgeType:           string;
     badgeRank:           number;
     targets:             number[];
     eventBadge?:         boolean;
     eventBadgeSettings?: EventBadgeSettings;
     captureReward?:      CaptureReward[];
 }
-
-export type BadgeTypeElement = number | string;
 
 export interface CaptureReward {
     rewardTypes?: TypeElement[];
@@ -1138,7 +1136,7 @@ export interface CombatSettingData {
     shadowPokemonAttackBonusMultiplier:      number;
     shadowPokemonDefenseBonusMultiplier:     number;
     purifiedPokemonAttackMultiplierVsShadow: number;
-    combatExperiment:                        BadgeTypeElement[];
+    combatExperiment:                        CombatExperiment[];
     showQuickSwapButtonsDuringCountdown:     boolean;
     clockSyncSettings:                       ClockSyncSettings;
     combatFeatureFlags:                      CombatFeatureFlags;
@@ -1149,6 +1147,8 @@ export interface ClockSyncSettings {
     syncAttemptCount: number;
     enabled:          boolean;
 }
+
+export type CombatExperiment = number | string;
 
 export interface CombatFeatureFlags {
     realDeviceTimeEnabled: boolean;
@@ -1321,8 +1321,8 @@ export interface DeepLinkingSettings {
 export interface DeepLinkingSettingData {
     minPlayerLevelForExternalLink:     number;
     minPlayerLevelForNotificationLink: number;
-    actionsThatIgnoreMinLevel:         BadgeTypeElement[];
-    actionsThatExecuteBeforeMapLoads:  BadgeTypeElement[];
+    actionsThatIgnoreMinLevel:         CombatExperiment[];
+    actionsThatExecuteBeforeMapLoads:  CombatExperiment[];
     iosActionButtonEnabled:            boolean;
 }
 
@@ -1635,7 +1635,7 @@ export interface PokemonExtendedSettingData {
     uniqueId:          string;
     sizeSettings:      DataSizeSettings;
     breadOverrides?:   BreadOverride[];
-    form?:             BadgeTypeElement;
+    form?:             string;
     tempEvoOverrides?: PurpleTempEvoOverride[];
 }
 
@@ -1745,7 +1745,7 @@ export interface FormSettingData {
 }
 
 export interface Form {
-    form:                        BadgeTypeElement;
+    form:                        string;
     assetBundleSuffix?:          string;
     isCostume?:                  boolean;
     assetBundleValue?:           number;
@@ -1945,7 +1945,7 @@ export interface TimePeriodCounters {
 }
 
 export interface PlayerActivity {
-    limit: number;
+    limit?: number;
 }
 
 export interface XpBoost {
@@ -2193,7 +2193,7 @@ export interface IrisSocialUxFunnelSettingData {
 
 export interface EventStep {
     stepNumber: number;
-    event:      BadgeTypeElement;
+    event:      CombatExperiment;
 }
 
 export interface ItemCurrencyValues {
@@ -2286,7 +2286,7 @@ export interface LocationCardSettings {
 }
 
 export interface LocationCardSettingData {
-    locationCard: BadgeTypeElement;
+    locationCard: string;
     imageUrl:     string;
     cardType?:    CardType;
     vfxAddress?:  string;
@@ -2560,7 +2560,7 @@ export interface MpSettingData {
 
 export interface BattleMpCostPerTier {
     breadBattleCatchMpCost:       number;
-    battleLevel:                  BadgeTypeElement;
+    battleLevel:                  CombatExperiment;
     breadBattleRemoteCatchMpCost: number;
 }
 
@@ -3047,7 +3047,7 @@ export interface PokedexCategoriesSettingData {
 }
 
 export interface PokedexCategorySettingsInOrder {
-    pokedexCategory: BadgeTypeElement;
+    pokedexCategory: CombatExperiment;
     milestoneGoal:   number;
     visuallyHidden?: boolean;
 }
@@ -3384,7 +3384,7 @@ export interface ReferralSettingData {
 }
 
 export interface RecentFeature {
-    iconType:    BadgeTypeElement;
+    iconType:    CombatExperiment;
     featureName: string;
     description: string;
 }
@@ -3654,7 +3654,7 @@ export interface GenderSettings {
 export interface GenderSettingData {
     pokemon: string;
     gender:  GenderClass;
-    form?:   BadgeTypeElement;
+    form?:   string;
 }
 
 export interface GenderClass {
@@ -3895,7 +3895,7 @@ export interface TutorialSettingData {
 }
 
 export interface TutorialItemReward {
-    tutorial: BadgeTypeElement;
+    tutorial: CombatExperiment;
     item?:    ItemElement[];
 }
 
@@ -3958,7 +3958,7 @@ export interface PokemonSettingData {
     allowNoevolveEvolution?:            string[];
     ibfc:                               Ibfc;
     breadTierGroup?:                    BreadTierGroupEnum;
-    form?:                              BadgeTypeElement;
+    form?:                              string;
     disableTransferToPokemonHome?:      boolean;
     parentPokemonId?:                   string;
     buddySize?:                         BuddySize;

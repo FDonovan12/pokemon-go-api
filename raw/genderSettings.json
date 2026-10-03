@@ -2317,7 +2317,7 @@
         "malePercent": 0.75,
         "femalePercent": 0.25
       },
-      "form": 3369
+      "form": "MACHAMP_WILDAREA_2026_01"
     }
   },
   {
@@ -17337,6 +17337,16 @@
     }
   },
   {
+    "templateId": "SPAWN_V0705_POKEMON_SLIGGOO_HISUIAN",
+    "data": {
+      "pokemon": "SLIGGOO",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  },
+  {
     "templateId": "SPAWN_V0705_POKEMON_SLIGGOO_NORMAL",
     "data": {
       "pokemon": "SLIGGOO",
@@ -17348,6 +17358,16 @@
   },
   {
     "templateId": "SPAWN_V0706_POKEMON_GOODRA",
+    "data": {
+      "pokemon": "GOODRA",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  },
+  {
+    "templateId": "SPAWN_V0706_POKEMON_GOODRA_HISUIAN",
     "data": {
       "pokemon": "GOODRA",
       "gender": {

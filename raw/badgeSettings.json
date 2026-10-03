@@ -7744,7 +7744,7 @@
   {
     "templateId": "BADGE_GOWA_2026_CDMX_ADDON_BATTLE",
     "data": {
-      "badgeType": 6289,
+      "badgeType": "BADGE_GOWA_2026_CDMX_ADDON_BATTLE",
       "badgeRank": 2,
       "targets": [
         100
@@ -7755,7 +7755,7 @@
   {
     "templateId": "BADGE_GOWA_2026_CDMX_ADDON_FRIDAY",
     "data": {
-      "badgeType": 6285,
+      "badgeType": "BADGE_GOWA_2026_CDMX_ADDON_FRIDAY",
       "badgeRank": 2,
       "targets": [
         100
@@ -7766,7 +7766,7 @@
   {
     "templateId": "BADGE_GOWA_2026_CDMX_ADDON_HATCH",
     "data": {
-      "badgeType": 6288,
+      "badgeType": "BADGE_GOWA_2026_CDMX_ADDON_HATCH",
       "badgeRank": 2,
       "targets": [
         100
@@ -7777,7 +7777,7 @@
   {
     "templateId": "BADGE_GOWA_2026_CDMX_ADDON_SATURDAY",
     "data": {
-      "badgeType": 6286,
+      "badgeType": "BADGE_GOWA_2026_CDMX_ADDON_SATURDAY",
       "badgeRank": 2,
       "targets": [
         100
@@ -7788,7 +7788,7 @@
   {
     "templateId": "BADGE_GOWA_2026_CDMX_ADDON_SUNDAY",
     "data": {
-      "badgeType": 6287,
+      "badgeType": "BADGE_GOWA_2026_CDMX_ADDON_SUNDAY",
       "badgeRank": 2,
       "targets": [
         100
@@ -7799,7 +7799,7 @@
   {
     "templateId": "BADGE_GOWA_2026_CDMX_FRIDAY",
     "data": {
-      "badgeType": 6279,
+      "badgeType": "BADGE_GOWA_2026_CDMX_FRIDAY",
       "badgeRank": 2,
       "targets": [
         100
@@ -7810,7 +7810,7 @@
   {
     "templateId": "BADGE_GOWA_2026_CDMX_FRIDAY_ESSENTIAL",
     "data": {
-      "badgeType": 6280,
+      "badgeType": "BADGE_GOWA_2026_CDMX_FRIDAY_ESSENTIAL",
       "badgeRank": 2,
       "targets": [
         100
@@ -7824,7 +7824,7 @@
   {
     "templateId": "BADGE_GOWA_2026_CDMX_SATURDAY",
     "data": {
-      "badgeType": 6281,
+      "badgeType": "BADGE_GOWA_2026_CDMX_SATURDAY",
       "badgeRank": 2,
       "targets": [
         100
@@ -7835,7 +7835,7 @@
   {
     "templateId": "BADGE_GOWA_2026_CDMX_SATURDAY_ESSENTIAL",
     "data": {
-      "badgeType": 6282,
+      "badgeType": "BADGE_GOWA_2026_CDMX_SATURDAY_ESSENTIAL",
       "badgeRank": 2,
       "targets": [
         100
@@ -7849,7 +7849,7 @@
   {
     "templateId": "BADGE_GOWA_2026_CDMX_SUNDAY",
     "data": {
-      "badgeType": 6283,
+      "badgeType": "BADGE_GOWA_2026_CDMX_SUNDAY",
       "badgeRank": 2,
       "targets": [
         100
@@ -7860,7 +7860,7 @@
   {
     "templateId": "BADGE_GOWA_2026_CDMX_SUNDAY_ESSENTIAL",
     "data": {
-      "badgeType": 6284,
+      "badgeType": "BADGE_GOWA_2026_CDMX_SUNDAY_ESSENTIAL",
       "badgeRank": 2,
       "targets": [
         100
@@ -7874,7 +7874,7 @@
   {
     "templateId": "BADGE_GOWA_2026_CDMX_TEST",
     "data": {
-      "badgeType": 6291,
+      "badgeType": "BADGE_GOWA_2026_CDMX_TEST",
       "badgeRank": 2,
       "targets": [
         100
@@ -7885,7 +7885,7 @@
   {
     "templateId": "BADGE_GOWA_2026_CDMX_TEST_ADDON_BATTLE",
     "data": {
-      "badgeType": 6295,
+      "badgeType": "BADGE_GOWA_2026_CDMX_TEST_ADDON_BATTLE",
       "badgeRank": 2,
       "targets": [
         100
@@ -7896,7 +7896,7 @@
   {
     "templateId": "BADGE_GOWA_2026_CDMX_TEST_ADDON_EXTRA_DAY",
     "data": {
-      "badgeType": 6293,
+      "badgeType": "BADGE_GOWA_2026_CDMX_TEST_ADDON_EXTRA_DAY",
       "badgeRank": 2,
       "targets": [
         100
@@ -7907,7 +7907,7 @@
   {
     "templateId": "BADGE_GOWA_2026_CDMX_TEST_ADDON_HATCH",
     "data": {
-      "badgeType": 6294,
+      "badgeType": "BADGE_GOWA_2026_CDMX_TEST_ADDON_HATCH",
       "badgeRank": 2,
       "targets": [
         100
@@ -7918,7 +7918,7 @@
   {
     "templateId": "BADGE_GOWA_2026_CDMX_TEST_ESSENTIAL",
     "data": {
-      "badgeType": 6292,
+      "badgeType": "BADGE_GOWA_2026_CDMX_TEST_ESSENTIAL",
       "badgeRank": 2,
       "targets": [
         100
@@ -7929,7 +7929,7 @@
   {
     "templateId": "BADGE_GOWA_2026_CDMX_VIP",
     "data": {
-      "badgeType": 6290,
+      "badgeType": "BADGE_GOWA_2026_CDMX_VIP",
       "badgeRank": 2,
       "targets": [
         100
@@ -7940,7 +7940,7 @@
   {
     "templateId": "BADGE_GOWA_2026_EVENT_01",
     "data": {
-      "badgeType": 6296,
+      "badgeType": "BADGE_GOWA_2026_EVENT_01",
       "badgeRank": 2,
       "targets": [
         100
@@ -7954,7 +7954,7 @@
   {
     "templateId": "BADGE_GOWA_2026_EVENT_02",
     "data": {
-      "badgeType": 6297,
+      "badgeType": "BADGE_GOWA_2026_EVENT_02",
       "badgeRank": 2,
       "targets": [
         100
@@ -7968,7 +7968,7 @@
   {
     "templateId": "BADGE_GOWA_2026_GLOBAL",
     "data": {
-      "badgeType": 6298,
+      "badgeType": "BADGE_GOWA_2026_GLOBAL",
       "badgeRank": 2,
       "targets": [
         100
@@ -7979,7 +7979,7 @@
   {
     "templateId": "BADGE_GOWA_2026_GLOBAL_TEST",
     "data": {
-      "badgeType": 6299,
+      "badgeType": "BADGE_GOWA_2026_GLOBAL_TEST",
       "badgeRank": 2,
       "targets": [
         100
@@ -7990,7 +7990,7 @@
   {
     "templateId": "BADGE_GOWA_2026_SENDAI_ADDON_BATTLE",
     "data": {
-      "badgeType": 6272,
+      "badgeType": "BADGE_GOWA_2026_SENDAI_ADDON_BATTLE",
       "badgeRank": 2,
       "targets": [
         100
@@ -8001,7 +8001,7 @@
   {
     "templateId": "BADGE_GOWA_2026_SENDAI_ADDON_FRIDAY",
     "data": {
-      "badgeType": 6268,
+      "badgeType": "BADGE_GOWA_2026_SENDAI_ADDON_FRIDAY",
       "badgeRank": 2,
       "targets": [
         100
@@ -8012,7 +8012,7 @@
   {
     "templateId": "BADGE_GOWA_2026_SENDAI_ADDON_HATCH",
     "data": {
-      "badgeType": 6271,
+      "badgeType": "BADGE_GOWA_2026_SENDAI_ADDON_HATCH",
       "badgeRank": 2,
       "targets": [
         100
@@ -8023,7 +8023,7 @@
   {
     "templateId": "BADGE_GOWA_2026_SENDAI_ADDON_SATURDAY",
     "data": {
-      "badgeType": 6269,
+      "badgeType": "BADGE_GOWA_2026_SENDAI_ADDON_SATURDAY",
       "badgeRank": 2,
       "targets": [
         100
@@ -8034,7 +8034,7 @@
   {
     "templateId": "BADGE_GOWA_2026_SENDAI_ADDON_SUNDAY",
     "data": {
-      "badgeType": 6270,
+      "badgeType": "BADGE_GOWA_2026_SENDAI_ADDON_SUNDAY",
       "badgeRank": 2,
       "targets": [
         100
@@ -8045,7 +8045,7 @@
   {
     "templateId": "BADGE_GOWA_2026_SENDAI_FRIDAY",
     "data": {
-      "badgeType": 6262,
+      "badgeType": "BADGE_GOWA_2026_SENDAI_FRIDAY",
       "badgeRank": 2,
       "targets": [
         100
@@ -8056,7 +8056,7 @@
   {
     "templateId": "BADGE_GOWA_2026_SENDAI_FRIDAY_ESSENTIAL",
     "data": {
-      "badgeType": 6263,
+      "badgeType": "BADGE_GOWA_2026_SENDAI_FRIDAY_ESSENTIAL",
       "badgeRank": 2,
       "targets": [
         100
@@ -8070,7 +8070,7 @@
   {
     "templateId": "BADGE_GOWA_2026_SENDAI_SATURDAY",
     "data": {
-      "badgeType": 6264,
+      "badgeType": "BADGE_GOWA_2026_SENDAI_SATURDAY",
       "badgeRank": 2,
       "targets": [
         100
@@ -8081,7 +8081,7 @@
   {
     "templateId": "BADGE_GOWA_2026_SENDAI_SATURDAY_ESSENTIAL",
     "data": {
-      "badgeType": 6265,
+      "badgeType": "BADGE_GOWA_2026_SENDAI_SATURDAY_ESSENTIAL",
       "badgeRank": 2,
       "targets": [
         100
@@ -8095,7 +8095,7 @@
   {
     "templateId": "BADGE_GOWA_2026_SENDAI_SUNDAY",
     "data": {
-      "badgeType": 6266,
+      "badgeType": "BADGE_GOWA_2026_SENDAI_SUNDAY",
       "badgeRank": 2,
       "targets": [
         100
@@ -8106,7 +8106,7 @@
   {
     "templateId": "BADGE_GOWA_2026_SENDAI_SUNDAY_ESSENTIAL",
     "data": {
-      "badgeType": 6267,
+      "badgeType": "BADGE_GOWA_2026_SENDAI_SUNDAY_ESSENTIAL",
       "badgeRank": 2,
       "targets": [
         100
@@ -8120,7 +8120,7 @@
   {
     "templateId": "BADGE_GOWA_2026_SENDAI_TEST",
     "data": {
-      "badgeType": 6274,
+      "badgeType": "BADGE_GOWA_2026_SENDAI_TEST",
       "badgeRank": 2,
       "targets": [
         100
@@ -8131,7 +8131,7 @@
   {
     "templateId": "BADGE_GOWA_2026_SENDAI_TEST_ADDON_BATTLE",
     "data": {
-      "badgeType": 6278,
+      "badgeType": "BADGE_GOWA_2026_SENDAI_TEST_ADDON_BATTLE",
       "badgeRank": 2,
       "targets": [
         100
@@ -8142,7 +8142,7 @@
   {
     "templateId": "BADGE_GOWA_2026_SENDAI_TEST_ADDON_EXTRA_DAY",
     "data": {
-      "badgeType": 6276,
+      "badgeType": "BADGE_GOWA_2026_SENDAI_TEST_ADDON_EXTRA_DAY",
       "badgeRank": 2,
       "targets": [
         100
@@ -8153,7 +8153,7 @@
   {
     "templateId": "BADGE_GOWA_2026_SENDAI_TEST_ADDON_HATCH",
     "data": {
-      "badgeType": 6277,
+      "badgeType": "BADGE_GOWA_2026_SENDAI_TEST_ADDON_HATCH",
       "badgeRank": 2,
       "targets": [
         100
@@ -8164,7 +8164,7 @@
   {
     "templateId": "BADGE_GOWA_2026_SENDAI_TEST_ESSENTIAL",
     "data": {
-      "badgeType": 6275,
+      "badgeType": "BADGE_GOWA_2026_SENDAI_TEST_ESSENTIAL",
       "badgeRank": 2,
       "targets": [
         100
@@ -8175,7 +8175,7 @@
   {
     "templateId": "BADGE_GOWA_2026_SENDAI_VIP",
     "data": {
-      "badgeType": 6273,
+      "badgeType": "BADGE_GOWA_2026_SENDAI_VIP",
       "badgeRank": 2,
       "targets": [
         100
@@ -8186,7 +8186,7 @@
   {
     "templateId": "BADGE_GOWA_2026_SPECIAL_RESEARCH_A",
     "data": {
-      "badgeType": 6300,
+      "badgeType": "BADGE_GOWA_2026_SPECIAL_RESEARCH_A",
       "badgeRank": 2,
       "targets": [
         100
@@ -8197,7 +8197,7 @@
   {
     "templateId": "BADGE_GOWA_2026_SPECIAL_RESEARCH_B",
     "data": {
-      "badgeType": 6301,
+      "badgeType": "BADGE_GOWA_2026_SPECIAL_RESEARCH_B",
       "badgeRank": 2,
       "targets": [
         100
