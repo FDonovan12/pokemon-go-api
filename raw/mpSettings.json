@@ -2,8 +2,8 @@
   {
     "templateId": "MP_SHARED_SETTINGS",
     "data": {
-      "numMpFromWalkQuest": 600,
-      "numMetersGoal": 500,
+      "numMpFromWalkQuest": 300,
+      "numMetersGoal": 2000,
       "debugAllowRemoveWalkQuest": true,
       "numMpFromLootStation": 100,
       "numExtraMpFromFirstLootStation": 20,

@@ -2961,12 +2961,14 @@ export interface PlayerLevelData {
     maxEggPlayerLevel:            number;
     maxEncounterPlayerLevel:      number;
     maxQuestEncounterPlayerLevel: number;
+    defaultLevelCap:              number;
     milestoneLevels:              number[];
-    xpRewardV2Thresholds:         XpRewardV2Thresholds;
+    xpRewardV2Thresholds:         XpRewardV2Threshold[];
+    nextLevelPreviewIntervalS:    number;
     smoreFtueImageUrl:            string;
 }
 
-export interface XpRewardV2Thresholds {
+export interface XpRewardV2Threshold {
     source:    string;
     threshold: number;
 }
