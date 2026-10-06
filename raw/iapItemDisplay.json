@@ -9369,6 +9369,52 @@
     }
   },
   {
+    "templateId": "month2_deluxe_event_pass_track_redirect",
+    "data": {
+      "sku": "pgorelease.month2_deluxe_event_pass_track_redirect",
+      "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
+      "sortOrder": 1,
+      "title": "season_pass_premium_track_title_oct",
+      "description": "deluxe_event_pass_track_unlock_description",
+      "skuEnableTime": "2025-10-06T10:00:00",
+      "skuDisableTime": "2026-11-05T10:00:00",
+      "skuEnableTimeUtcMs": "1759744800000",
+      "skuDisableTimeUtcMs": "1793872800000",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F918345fc_PGO-MCS_S24_GO_Pass_TICKET_v1-1024x576.jpg",
+      "useEnvironmentPrefix": true
+    }
+  },
+  {
+    "templateId": "month2_deluxe_event_pass_track_unlock",
+    "data": {
+      "sku": "pgorelease.month2_deluxe_event_pass_track_unlock",
+      "sortOrder": 1,
+      "title": "season_pass_premium_track_title_oct",
+      "description": "deluxe_event_pass_track_unlock_description",
+      "skuEnableTime": "2025-10-06T10:00:00",
+      "skuDisableTime": "2026-11-05T10:00:00",
+      "skuEnableTimeUtcMs": "1759744800000",
+      "skuDisableTimeUtcMs": "1793872800000",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F918345fc_PGO-MCS_S24_GO_Pass_TICKET_v1-1024x576.jpg",
+      "useEnvironmentPrefix": true
+    }
+  },
+  {
+    "templateId": "month2_deluxe_event_pass_track_unlock_plus_points",
+    "data": {
+      "sku": "pgorelease.month2_deluxe_event_pass_track_unlock_plus_points",
+      "sortOrder": 1,
+      "title": "season_pass_premium_track_plus_ten_ranks_title_oct",
+      "description": "deluxe_event_pass_track_unlock_plus_points_description",
+      "skuEnableTime": "2025-10-06T10:00:00",
+      "skuDisableTime": "2026-11-05T10:00:00",
+      "skuEnableTimeUtcMs": "1759744800000",
+      "skuDisableTimeUtcMs": "1793872800000",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F918345fc_PGO-MCS_S24_GO_Pass_TICKET_v1-1024x576.jpg",
+      "useEnvironmentPrefix": true
+    }
+  },
+  {
     "templateId": "mp_replenish.1",
     "data": {
       "sku": "mp_replenish.1",

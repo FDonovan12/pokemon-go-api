@@ -2964,6 +2964,13 @@
     }
   },
   {
+    "templateId": "N_DISPLAY_n_hat_nflhelmet-arizonacardinals",
+    "data": {
+      "iconAddress": "n_hat_nflhelmet-arizonacardinals_icon",
+      "displayStringId": "avatar_hat_nflhelmet-arizonacardinals"
+    }
+  },
+  {
     "templateId": "N_DISPLAY_n_hat_nihilegoitems_0",
     "data": {
       "iconAddress": "n_hat_nihilegoitems_0_icon",
@@ -3801,6 +3808,13 @@
     "data": {
       "iconAddress": "n_pants_dp_b_0_icon",
       "displayStringId": "n_pants_dp_b_0_display_name"
+    }
+  },
+  {
+    "templateId": "N_DISPLAY_n_pants_duraludon",
+    "data": {
+      "iconAddress": "n_pants_duraludon_icon",
+      "displayStringId": "avatar_pants_duraludon"
     }
   },
   {
@@ -5295,6 +5309,13 @@
     }
   },
   {
+    "templateId": "N_DISPLAY_n_pose_machamp",
+    "data": {
+      "iconAddress": "n_pose_machamp_icon",
+      "displayStringId": "avatar_pose_machamp"
+    }
+  },
+  {
     "templateId": "N_DISPLAY_n_pose_mustard",
     "data": {
       "iconAddress": "n_pose_mustard_icon",
@@ -6457,6 +6478,20 @@
     }
   },
   {
+    "templateId": "N_DISPLAY_n_shirt_gowa2026-maroon",
+    "data": {
+      "iconAddress": "n_shirt_gowa2026-maroon_icon",
+      "displayStringId": "avatar_shirt_gowa2026-maroon"
+    }
+  },
+  {
+    "templateId": "N_DISPLAY_n_shirt_gowa2026-navy",
+    "data": {
+      "iconAddress": "n_shirt_gowa2026-navy_icon",
+      "displayStringId": "avatar_shirt_gowa2026-navy"
+    }
+  },
+  {
     "templateId": "N_DISPLAY_n_shirt_greedentsweater_0",
     "data": {
       "iconAddress": "n_shirt_greedentsweater_0_icon",
@@ -7098,6 +7133,13 @@
     "data": {
       "iconAddress": "n_shirt_necrozmaitems_0_icon",
       "displayStringId": "AVATAR_NecrozmaJacket"
+    }
+  },
+  {
+    "templateId": "N_DISPLAY_n_shirt_nightout",
+    "data": {
+      "iconAddress": "n_shirt_nightout_icon",
+      "displayStringId": "avatar_shirt_nightout"
     }
   },
   {

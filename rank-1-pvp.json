@@ -587,7 +587,7 @@
       }
     ]
   },
-  "pikachu-flying-02": {
+  "pikachu-flying-01": {
     "super": [
       {
         "attack": 15,
@@ -3347,24 +3347,6 @@
       }
     ]
   },
-  "tauros-paldea-blaze-breed": {
-    "super": [
-      {
-        "attack": 0,
-        "defense": 11,
-        "stamina": 15,
-        "level": 20
-      }
-    ],
-    "hyper": [
-      {
-        "attack": 0,
-        "defense": 15,
-        "stamina": 15,
-        "level": 36
-      }
-    ]
-  },
   "tauros-paldea-combat-breed": {
     "super": [
       {
@@ -3384,6 +3366,24 @@
     ]
   },
   "tauros-paldea-aqua-breed": {
+    "super": [
+      {
+        "attack": 0,
+        "defense": 11,
+        "stamina": 15,
+        "level": 20
+      }
+    ],
+    "hyper": [
+      {
+        "attack": 0,
+        "defense": 15,
+        "stamina": 15,
+        "level": 36
+      }
+    ]
+  },
+  "tauros-paldea-blaze-breed": {
     "super": [
       {
         "attack": 0,
@@ -8753,24 +8753,6 @@
       }
     ]
   },
-  "deoxys-defense": {
-    "super": [
-      {
-        "attack": 0,
-        "defense": 15,
-        "stamina": 15,
-        "level": 25.5
-      }
-    ],
-    "hyper": [
-      {
-        "attack": 12,
-        "defense": 13,
-        "stamina": 15,
-        "level": 49.5
-      }
-    ]
-  },
   "deoxys-attack": {
     "super": [
       {
@@ -8786,6 +8768,24 @@
         "defense": 15,
         "stamina": 15,
         "level": 40
+      }
+    ]
+  },
+  "deoxys-defense": {
+    "super": [
+      {
+        "attack": 0,
+        "defense": 15,
+        "stamina": 15,
+        "level": 25.5
+      }
+    ],
+    "hyper": [
+      {
+        "attack": 12,
+        "defense": 13,
+        "stamina": 15,
+        "level": 49.5
       }
     ]
   },
@@ -9365,13 +9365,19 @@
       }
     ]
   },
-  "cheniselle-trash": {
+  "cheniselle-sandy": {
     "super": [
       {
         "attack": 0,
-        "defense": 13,
+        "defense": 15,
+        "stamina": 14,
+        "level": 35.5
+      },
+      {
+        "attack": 0,
+        "defense": 15,
         "stamina": 15,
-        "level": 44.5
+        "level": 35.5
       }
     ],
     "hyper": [
@@ -9389,19 +9395,13 @@
       }
     ]
   },
-  "cheniselle-sandy": {
+  "cheniselle-trash": {
     "super": [
       {
         "attack": 0,
-        "defense": 15,
-        "stamina": 14,
-        "level": 35.5
-      },
-      {
-        "attack": 0,
-        "defense": 15,
+        "defense": 13,
         "stamina": 15,
-        "level": 35.5
+        "level": 44.5
       }
     ],
     "hyper": [
@@ -10679,25 +10679,7 @@
       }
     ]
   },
-  "motisma-heat": {
-    "super": [
-      {
-        "attack": 0,
-        "defense": 12,
-        "stamina": 15,
-        "level": 22
-      }
-    ],
-    "hyper": [
-      {
-        "attack": 0,
-        "defense": 15,
-        "stamina": 15,
-        "level": 43
-      }
-    ]
-  },
-  "motisma-frost": {
+  "motisma-fan": {
     "super": [
       {
         "attack": 0,
@@ -10733,7 +10715,7 @@
       }
     ]
   },
-  "motisma-fan": {
+  "motisma-frost": {
     "super": [
       {
         "attack": 0,
@@ -10752,6 +10734,24 @@
     ]
   },
   "motisma-wash": {
+    "super": [
+      {
+        "attack": 0,
+        "defense": 12,
+        "stamina": 15,
+        "level": 22
+      }
+    ],
+    "hyper": [
+      {
+        "attack": 0,
+        "defense": 15,
+        "stamina": 15,
+        "level": 43
+      }
+    ]
+  },
+  "motisma-heat": {
     "super": [
       {
         "attack": 0,
@@ -11093,7 +11093,25 @@
       }
     ]
   },
-  "arceus-flying": {
+  "arceus-fairy": {
+    "super": [
+      {
+        "attack": 0,
+        "defense": 15,
+        "stamina": 14,
+        "level": 14
+      }
+    ],
+    "hyper": [
+      {
+        "attack": 0,
+        "defense": 11,
+        "stamina": 15,
+        "level": 23.5
+      }
+    ]
+  },
+  "arceus-ice": {
     "super": [
       {
         "attack": 0,
@@ -11129,97 +11147,7 @@
       }
     ]
   },
-  "arceus-ghost": {
-    "super": [
-      {
-        "attack": 0,
-        "defense": 15,
-        "stamina": 14,
-        "level": 14
-      }
-    ],
-    "hyper": [
-      {
-        "attack": 0,
-        "defense": 11,
-        "stamina": 15,
-        "level": 23.5
-      }
-    ]
-  },
-  "arceus-fire": {
-    "super": [
-      {
-        "attack": 0,
-        "defense": 15,
-        "stamina": 14,
-        "level": 14
-      }
-    ],
-    "hyper": [
-      {
-        "attack": 0,
-        "defense": 11,
-        "stamina": 15,
-        "level": 23.5
-      }
-    ]
-  },
-  "arceus-ground": {
-    "super": [
-      {
-        "attack": 0,
-        "defense": 15,
-        "stamina": 14,
-        "level": 14
-      }
-    ],
-    "hyper": [
-      {
-        "attack": 0,
-        "defense": 11,
-        "stamina": 15,
-        "level": 23.5
-      }
-    ]
-  },
-  "arceus-fairy": {
-    "super": [
-      {
-        "attack": 0,
-        "defense": 15,
-        "stamina": 14,
-        "level": 14
-      }
-    ],
-    "hyper": [
-      {
-        "attack": 0,
-        "defense": 11,
-        "stamina": 15,
-        "level": 23.5
-      }
-    ]
-  },
-  "arceus-grass": {
-    "super": [
-      {
-        "attack": 0,
-        "defense": 15,
-        "stamina": 14,
-        "level": 14
-      }
-    ],
-    "hyper": [
-      {
-        "attack": 0,
-        "defense": 11,
-        "stamina": 15,
-        "level": 23.5
-      }
-    ]
-  },
-  "arceus-dark": {
+  "arceus-flying": {
     "super": [
       {
         "attack": 0,
@@ -11273,7 +11201,7 @@
       }
     ]
   },
-  "arceus-electric": {
+  "arceus-grass": {
     "super": [
       {
         "attack": 0,
@@ -11291,7 +11219,25 @@
       }
     ]
   },
-  "arceus-ice": {
+  "arceus-dark": {
+    "super": [
+      {
+        "attack": 0,
+        "defense": 15,
+        "stamina": 14,
+        "level": 14
+      }
+    ],
+    "hyper": [
+      {
+        "attack": 0,
+        "defense": 11,
+        "stamina": 15,
+        "level": 23.5
+      }
+    ]
+  },
+  "arceus-electric": {
     "super": [
       {
         "attack": 0,
@@ -11345,6 +11291,24 @@
       }
     ]
   },
+  "arceus-fire": {
+    "super": [
+      {
+        "attack": 0,
+        "defense": 15,
+        "stamina": 14,
+        "level": 14
+      }
+    ],
+    "hyper": [
+      {
+        "attack": 0,
+        "defense": 11,
+        "stamina": 15,
+        "level": 23.5
+      }
+    ]
+  },
   "arceus-poison": {
     "super": [
       {
@@ -11363,7 +11327,25 @@
       }
     ]
   },
-  "arceus-water": {
+  "arceus-ground": {
+    "super": [
+      {
+        "attack": 0,
+        "defense": 15,
+        "stamina": 14,
+        "level": 14
+      }
+    ],
+    "hyper": [
+      {
+        "attack": 0,
+        "defense": 11,
+        "stamina": 15,
+        "level": 23.5
+      }
+    ]
+  },
+  "arceus-ghost": {
     "super": [
       {
         "attack": 0,
@@ -11382,6 +11364,24 @@
     ]
   },
   "arceus-steel": {
+    "super": [
+      {
+        "attack": 0,
+        "defense": 15,
+        "stamina": 14,
+        "level": 14
+      }
+    ],
+    "hyper": [
+      {
+        "attack": 0,
+        "defense": 11,
+        "stamina": 15,
+        "level": 23.5
+      }
+    ]
+  },
+  "arceus-water": {
     "super": [
       {
         "attack": 0,
@@ -12641,27 +12641,21 @@
       }
     ]
   },
-  "darumacho-galar-zen": {
+  "darumacho-galar-standard": {
     "super": [
       {
-        "attack": 2,
+        "attack": 0,
         "defense": 15,
-        "stamina": 14,
-        "level": 14
+        "stamina": 11,
+        "level": 18
       }
     ],
     "hyper": [
       {
         "attack": 0,
-        "defense": 15,
-        "stamina": 13,
-        "level": 23.5
-      },
-      {
-        "attack": 0,
-        "defense": 15,
-        "stamina": 14,
-        "level": 23.5
+        "defense": 13,
+        "stamina": 15,
+        "level": 30
       }
     ]
   },
@@ -12683,21 +12677,27 @@
       }
     ]
   },
-  "darumacho-galar-standard": {
+  "darumacho-galar-zen": {
     "super": [
       {
-        "attack": 0,
+        "attack": 2,
         "defense": 15,
-        "stamina": 11,
-        "level": 18
+        "stamina": 14,
+        "level": 14
       }
     ],
     "hyper": [
       {
         "attack": 0,
-        "defense": 13,
-        "stamina": 15,
-        "level": 30
+        "defense": 15,
+        "stamina": 13,
+        "level": 23.5
+      },
+      {
+        "attack": 0,
+        "defense": 15,
+        "stamina": 14,
+        "level": 23.5
       }
     ]
   },
@@ -14759,42 +14759,6 @@
       }
     ]
   },
-  "genesect-douse": {
-    "super": [
-      {
-        "attack": 2,
-        "defense": 15,
-        "stamina": 14,
-        "level": 16.5
-      }
-    ],
-    "hyper": [
-      {
-        "attack": 1,
-        "defense": 15,
-        "stamina": 15,
-        "level": 27.5
-      }
-    ]
-  },
-  "genesect-shock": {
-    "super": [
-      {
-        "attack": 2,
-        "defense": 15,
-        "stamina": 14,
-        "level": 16.5
-      }
-    ],
-    "hyper": [
-      {
-        "attack": 1,
-        "defense": 15,
-        "stamina": 15,
-        "level": 27.5
-      }
-    ]
-  },
   "genesect-burn": {
     "super": [
       {
@@ -14814,6 +14778,42 @@
     ]
   },
   "genesect-chill": {
+    "super": [
+      {
+        "attack": 2,
+        "defense": 15,
+        "stamina": 14,
+        "level": 16.5
+      }
+    ],
+    "hyper": [
+      {
+        "attack": 1,
+        "defense": 15,
+        "stamina": 15,
+        "level": 27.5
+      }
+    ]
+  },
+  "genesect-douse": {
+    "super": [
+      {
+        "attack": 2,
+        "defense": 15,
+        "stamina": 14,
+        "level": 16.5
+      }
+    ],
+    "hyper": [
+      {
+        "attack": 1,
+        "defense": 15,
+        "stamina": 15,
+        "level": 27.5
+      }
+    ]
+  },
+  "genesect-shock": {
     "super": [
       {
         "attack": 2,
@@ -16121,7 +16121,7 @@
       }
     ]
   },
-  "pitrouille-large": {
+  "pitrouille-super": {
     "super": [
       {
         "attack": 15,
@@ -16139,7 +16139,7 @@
       }
     ]
   },
-  "pitrouille-super": {
+  "pitrouille-large": {
     "super": [
       {
         "attack": 15,
@@ -16373,6 +16373,24 @@
       }
     ]
   },
+  "zygarde-10": {
+    "super": [
+      {
+        "attack": 0,
+        "defense": 14,
+        "stamina": 12,
+        "level": 24
+      }
+    ],
+    "hyper": [
+      {
+        "attack": 1,
+        "defense": 15,
+        "stamina": 15,
+        "level": 49.5
+      }
+    ]
+  },
   "zygarde-complete": {
     "super": [
       {
@@ -16388,24 +16406,6 @@
         "defense": 15,
         "stamina": 12,
         "level": 25.5
-      }
-    ]
-  },
-  "zygarde-10-power-construct": {
-    "super": [
-      {
-        "attack": 0,
-        "defense": 14,
-        "stamina": 12,
-        "level": 24
-      }
-    ],
-    "hyper": [
-      {
-        "attack": 1,
-        "defense": 15,
-        "stamina": 15,
-        "level": 49.5
       }
     ]
   },
@@ -16889,7 +16889,7 @@
       }
     ]
   },
-  "plumeline-pau": {
+  "plumeline-sensu": {
     "super": [
       {
         "attack": 0,
@@ -16907,7 +16907,7 @@
       }
     ]
   },
-  "plumeline-sensu": {
+  "plumeline-pau": {
     "super": [
       {
         "attack": 0,
@@ -17609,60 +17609,6 @@
       }
     ]
   },
-  "silvallie-fire": {
-    "super": [
-      {
-        "attack": 2,
-        "defense": 14,
-        "stamina": 15,
-        "level": 19
-      }
-    ],
-    "hyper": [
-      {
-        "attack": 0,
-        "defense": 15,
-        "stamina": 13,
-        "level": 34
-      }
-    ]
-  },
-  "silvallie-grass": {
-    "super": [
-      {
-        "attack": 2,
-        "defense": 14,
-        "stamina": 15,
-        "level": 19
-      }
-    ],
-    "hyper": [
-      {
-        "attack": 0,
-        "defense": 15,
-        "stamina": 13,
-        "level": 34
-      }
-    ]
-  },
-  "silvallie-fighting": {
-    "super": [
-      {
-        "attack": 2,
-        "defense": 14,
-        "stamina": 15,
-        "level": 19
-      }
-    ],
-    "hyper": [
-      {
-        "attack": 0,
-        "defense": 15,
-        "stamina": 13,
-        "level": 34
-      }
-    ]
-  },
   "silvallie-ground": {
     "super": [
       {
@@ -17681,79 +17627,7 @@
       }
     ]
   },
-  "silvallie-fairy": {
-    "super": [
-      {
-        "attack": 2,
-        "defense": 14,
-        "stamina": 15,
-        "level": 19
-      }
-    ],
-    "hyper": [
-      {
-        "attack": 0,
-        "defense": 15,
-        "stamina": 13,
-        "level": 34
-      }
-    ]
-  },
-  "silvallie-ghost": {
-    "super": [
-      {
-        "attack": 2,
-        "defense": 14,
-        "stamina": 15,
-        "level": 19
-      }
-    ],
-    "hyper": [
-      {
-        "attack": 0,
-        "defense": 15,
-        "stamina": 13,
-        "level": 34
-      }
-    ]
-  },
-  "silvallie-dark": {
-    "super": [
-      {
-        "attack": 2,
-        "defense": 14,
-        "stamina": 15,
-        "level": 19
-      }
-    ],
-    "hyper": [
-      {
-        "attack": 0,
-        "defense": 15,
-        "stamina": 13,
-        "level": 34
-      }
-    ]
-  },
-  "silvallie-dragon": {
-    "super": [
-      {
-        "attack": 2,
-        "defense": 14,
-        "stamina": 15,
-        "level": 19
-      }
-    ],
-    "hyper": [
-      {
-        "attack": 0,
-        "defense": 15,
-        "stamina": 13,
-        "level": 34
-      }
-    ]
-  },
-  "silvallie-electric": {
+  "silvallie-fighting": {
     "super": [
       {
         "attack": 2,
@@ -17807,7 +17681,115 @@
       }
     ]
   },
-  "silvallie-psychic": {
+  "silvallie-ice": {
+    "super": [
+      {
+        "attack": 2,
+        "defense": 14,
+        "stamina": 15,
+        "level": 19
+      }
+    ],
+    "hyper": [
+      {
+        "attack": 0,
+        "defense": 15,
+        "stamina": 13,
+        "level": 34
+      }
+    ]
+  },
+  "silvallie-dark": {
+    "super": [
+      {
+        "attack": 2,
+        "defense": 14,
+        "stamina": 15,
+        "level": 19
+      }
+    ],
+    "hyper": [
+      {
+        "attack": 0,
+        "defense": 15,
+        "stamina": 13,
+        "level": 34
+      }
+    ]
+  },
+  "silvallie-fairy": {
+    "super": [
+      {
+        "attack": 2,
+        "defense": 14,
+        "stamina": 15,
+        "level": 19
+      }
+    ],
+    "hyper": [
+      {
+        "attack": 0,
+        "defense": 15,
+        "stamina": 13,
+        "level": 34
+      }
+    ]
+  },
+  "silvallie-fire": {
+    "super": [
+      {
+        "attack": 2,
+        "defense": 14,
+        "stamina": 15,
+        "level": 19
+      }
+    ],
+    "hyper": [
+      {
+        "attack": 0,
+        "defense": 15,
+        "stamina": 13,
+        "level": 34
+      }
+    ]
+  },
+  "silvallie-ghost": {
+    "super": [
+      {
+        "attack": 2,
+        "defense": 14,
+        "stamina": 15,
+        "level": 19
+      }
+    ],
+    "hyper": [
+      {
+        "attack": 0,
+        "defense": 15,
+        "stamina": 13,
+        "level": 34
+      }
+    ]
+  },
+  "silvallie-dragon": {
+    "super": [
+      {
+        "attack": 2,
+        "defense": 14,
+        "stamina": 15,
+        "level": 19
+      }
+    ],
+    "hyper": [
+      {
+        "attack": 0,
+        "defense": 15,
+        "stamina": 13,
+        "level": 34
+      }
+    ]
+  },
+  "silvallie-electric": {
     "super": [
       {
         "attack": 2,
@@ -17843,7 +17825,25 @@
       }
     ]
   },
-  "silvallie-ice": {
+  "silvallie-psychic": {
+    "super": [
+      {
+        "attack": 2,
+        "defense": 14,
+        "stamina": 15,
+        "level": 19
+      }
+    ],
+    "hyper": [
+      {
+        "attack": 0,
+        "defense": 15,
+        "stamina": 13,
+        "level": 34
+      }
+    ]
+  },
+  "silvallie-poison": {
     "super": [
       {
         "attack": 2,
@@ -17897,7 +17897,7 @@
       }
     ]
   },
-  "silvallie-poison": {
+  "silvallie-grass": {
     "super": [
       {
         "attack": 2,
@@ -17939,7 +17939,7 @@
       }
     ]
   },
-  "meteno-red": {
+  "meteno-green": {
     "super": [
       {
         "attack": 1,
@@ -18455,6 +18455,24 @@
       }
     ]
   },
+  "necrozma-ultra": {
+    "super": [
+      {
+        "attack": 0,
+        "defense": 6,
+        "stamina": 14,
+        "level": 12
+      }
+    ],
+    "hyper": [
+      {
+        "attack": 1,
+        "defense": 15,
+        "stamina": 14,
+        "level": 19.5
+      }
+    ]
+  },
   "necrozma-dusk": {
     "super": [
       {
@@ -18476,24 +18494,6 @@
         "defense": 15,
         "stamina": 15,
         "level": 22.5
-      }
-    ]
-  },
-  "necrozma-ultra": {
-    "super": [
-      {
-        "attack": 0,
-        "defense": 6,
-        "stamina": 14,
-        "level": 12
-      }
-    ],
-    "hyper": [
-      {
-        "attack": 1,
-        "defense": 15,
-        "stamina": 14,
-        "level": 19.5
       }
     ]
   },
@@ -20489,24 +20489,6 @@
       }
     ]
   },
-  "sylveroy-ice": {
-    "super": [
-      {
-        "attack": 3,
-        "defense": 15,
-        "stamina": 13,
-        "level": 13
-      }
-    ],
-    "hyper": [
-      {
-        "attack": 0,
-        "defense": 12,
-        "stamina": 14,
-        "level": 22
-      }
-    ]
-  },
   "sylveroy-shadow": {
     "super": [
       {
@@ -20522,6 +20504,24 @@
         "defense": 13,
         "stamina": 10,
         "level": 20.5
+      }
+    ]
+  },
+  "sylveroy-ice": {
+    "super": [
+      {
+        "attack": 3,
+        "defense": 15,
+        "stamina": 13,
+        "level": 13
+      }
+    ],
+    "hyper": [
+      {
+        "attack": 0,
+        "defense": 12,
+        "stamina": 14,
+        "level": 22
       }
     ]
   },

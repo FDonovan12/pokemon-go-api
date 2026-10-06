@@ -273,7 +273,9 @@
         "eventPassId": "EVENT_PASS_HARVESTFESTIVAL2026_EVENT"
       },
       "timePeriodCounters": {
-        "playerActivity": {}
+        "playerActivity": {
+          "limit": 500
+        }
       },
       "hideItemInInventory": true
     }
@@ -2427,7 +2429,8 @@
       "incense": {
         "incenseLifetimeSeconds": 3600,
         "spawnTableProbability": 1
-      }
+      },
+      "ignoreInventorySpace": true
     }
   },
   {
@@ -2438,7 +2441,7 @@
       "category": "ITEM_CATEGORY_INCENSE",
       "dropTrainerLevel": 6,
       "incense": {
-        "incenseLifetimeSeconds": 1800,
+        "incenseLifetimeSeconds": 900,
         "spawnTableProbability": 0.25
       },
       "ignoreInventorySpace": true
@@ -2494,7 +2497,8 @@
       "incense": {
         "incenseLifetimeSeconds": 1800,
         "spawnTableProbability": 1
-      }
+      },
+      "ignoreInventorySpace": true
     }
   },
   {

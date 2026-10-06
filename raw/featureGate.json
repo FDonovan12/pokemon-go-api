@@ -63,6 +63,20 @@
     }
   },
   {
+    "templateId": "DISABLE_LEGACY_NEARBY_POKEMON_FEATURE_GATE",
+    "data": {
+      "status": 1,
+      "rolloutPercentage": 100
+    }
+  },
+  {
+    "templateId": "ENABLE_NEARBY_POKEMON_SNAPSHOT_FEATURE_GATE",
+    "data": {
+      "status": 1,
+      "rolloutPercentage": 100
+    }
+  },
+  {
     "templateId": "ENABLE_PVP_CHALLENGE_SPANNER_FEATURE_GATE",
     "data": {
       "status": 1,
@@ -73,13 +87,6 @@
     "templateId": "ENHANCED_CURRENCY_OVERFLOW_STARDUST_FEATURE_GATE",
     "data": {
       "status": 1,
-      "rolloutPercentage": 100
-    }
-  },
-  {
-    "templateId": "ENHANCED_MEGA_RAID_READY_CHECK_FEATURE_GATE",
-    "data": {
-      "status": 195735672,
       "rolloutPercentage": 100
     }
   },
@@ -123,6 +130,13 @@
           "rolloutPercentage": 100
         }
       ]
+    }
+  },
+  {
+    "templateId": "FORT_STABLE_DATA_DIFFING_FEATURE_GATE",
+    "data": {
+      "status": 1,
+      "rolloutPercentage": 100
     }
   },
   {
@@ -199,25 +213,6 @@
     }
   },
   {
-    "templateId": "MEGA_2026_FEATURE_GATE",
-    "data": {
-      "status": 216426293,
-      "rolloutPercentage": 100,
-      "subFeatureGateList": [
-        {
-          "name": "MEGA_LEVEL_SPEEDUP_SUB_FEATURE_GATE",
-          "status": 344171892,
-          "rolloutPercentage": 100
-        },
-        {
-          "name": "MEGA_COMBAT_BUTTONS_SUB_FEATURE_GATE",
-          "status": 276593972,
-          "rolloutPercentage": 100
-        }
-      ]
-    }
-  },
-  {
     "templateId": "MEP_EGG_READ_MIGRATION_FEATURE_GATE",
     "data": {
       "status": 13,
@@ -235,14 +230,7 @@
     "templateId": "POKEMON_SPAWN_AVOIDANCE_REWORK_FEATURE_GATE",
     "data": {
       "status": 67485911,
-      "rolloutPercentage": 10
-    }
-  },
-  {
-    "templateId": "PRELOADED_MEGA_STATUS_STRING_FEATURE_GATE",
-    "data": {
-      "status": 1,
-      "rolloutPercentage": 100
+      "rolloutPercentage": 30
     }
   },
   {
@@ -261,20 +249,6 @@
   },
   {
     "templateId": "SEAF_GET_MAP_OBJECTS_RATE_LIMITER_FEATURE_GATE",
-    "data": {
-      "status": 1,
-      "rolloutPercentage": 100
-    }
-  },
-  {
-    "templateId": "SHIELD_BREAK_POWER_DISPLAY_FEATURE_GATE",
-    "data": {
-      "status": 1,
-      "rolloutPercentage": 100
-    }
-  },
-  {
-    "templateId": "UPDATED_PRELOADED_MEGA_ANIMATION_FEATURE_GATE",
     "data": {
       "status": 1,
       "rolloutPercentage": 100

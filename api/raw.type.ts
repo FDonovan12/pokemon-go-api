@@ -376,12 +376,14 @@ export interface LevelUpRewardData {
     level:                       number;
     items:                       string[];
     itemsCount:                  number[];
-    featuresUnlocked?:           string[];
+    featuresUnlocked?:           FeaturesUnlocked[];
     clientOverrideDisplayOrder?: boolean;
     itemsUnlocked?:              string[];
     neutralAvatarItemTemplates?: NeutralAvatarItemTemplates;
     isBackfill?:                 boolean;
 }
+
+export type FeaturesUnlocked = number | string;
 
 export interface NeutralAvatarItemTemplates {
     itemTemplateId:    string;
@@ -1136,7 +1138,7 @@ export interface CombatSettingData {
     shadowPokemonAttackBonusMultiplier:      number;
     shadowPokemonDefenseBonusMultiplier:     number;
     purifiedPokemonAttackMultiplierVsShadow: number;
-    combatExperiment:                        CombatExperiment[];
+    combatExperiment:                        FeaturesUnlocked[];
     showQuickSwapButtonsDuringCountdown:     boolean;
     clockSyncSettings:                       ClockSyncSettings;
     combatFeatureFlags:                      CombatFeatureFlags;
@@ -1147,8 +1149,6 @@ export interface ClockSyncSettings {
     syncAttemptCount: number;
     enabled:          boolean;
 }
-
-export type CombatExperiment = number | string;
 
 export interface CombatFeatureFlags {
     realDeviceTimeEnabled: boolean;
@@ -1321,8 +1321,8 @@ export interface DeepLinkingSettings {
 export interface DeepLinkingSettingData {
     minPlayerLevelForExternalLink:     number;
     minPlayerLevelForNotificationLink: number;
-    actionsThatIgnoreMinLevel:         CombatExperiment[];
-    actionsThatExecuteBeforeMapLoads:  CombatExperiment[];
+    actionsThatIgnoreMinLevel:         FeaturesUnlocked[];
+    actionsThatExecuteBeforeMapLoads:  FeaturesUnlocked[];
     iosActionButtonEnabled:            boolean;
 }
 
@@ -1477,7 +1477,7 @@ export interface EventPassTierSettingData {
 }
 
 export interface Settings {
-    eventName:  string;
+    eventName:  EventName;
     bonusBoxes: ActiveBonusDisplaySettingsBonusBox[];
 }
 
@@ -1494,6 +1494,14 @@ export enum IconType {
     SpawnUnknown = "SPAWN_UNKNOWN",
     TeamRocket = "TEAM_ROCKET",
     Trade = "TRADE",
+}
+
+export enum EventName {
+    GoPassCumulativeBonusesHeader = "go_pass_cumulative_bonuses_header",
+    SeasonPassMilestoneBonusTitle01 = "season_pass_milestone_bonus_title_01",
+    SeasonPassMilestoneBonusTitle02 = "season_pass_milestone_bonus_title_02",
+    SeasonPassMilestoneBonusTitle03 = "season_pass_milestone_bonus_title_03",
+    SeasonPassMilestoneBonusTitle04 = "season_pass_milestone_bonus_title_04",
 }
 
 export interface PurpleReward {
@@ -1519,7 +1527,7 @@ export interface PlayerAttribute {
 
 export interface RewardPokemonEncounter {
     pokemonId:            string;
-    pokemonDisplay:       PurplePokemonDisplay;
+    pokemonDisplay?:      PurplePokemonDisplay;
     isFeaturedPokemon?:   boolean;
     statsLimitsOverride?: StatsLimitsOverride;
 }
@@ -1945,7 +1953,7 @@ export interface TimePeriodCounters {
 }
 
 export interface PlayerActivity {
-    limit?: number;
+    limit: number;
 }
 
 export interface XpBoost {
@@ -2193,7 +2201,7 @@ export interface IrisSocialUxFunnelSettingData {
 
 export interface EventStep {
     stepNumber: number;
-    event:      CombatExperiment;
+    event:      FeaturesUnlocked;
 }
 
 export interface ItemCurrencyValues {
@@ -2560,7 +2568,7 @@ export interface MpSettingData {
 
 export interface BattleMpCostPerTier {
     breadBattleCatchMpCost:       number;
-    battleLevel:                  CombatExperiment;
+    battleLevel:                  FeaturesUnlocked;
     breadBattleRemoteCatchMpCost: number;
 }
 
@@ -3049,7 +3057,7 @@ export interface PokedexCategoriesSettingData {
 }
 
 export interface PokedexCategorySettingsInOrder {
-    pokedexCategory: CombatExperiment;
+    pokedexCategory: FeaturesUnlocked;
     milestoneGoal:   number;
     visuallyHidden?: boolean;
 }
@@ -3386,7 +3394,7 @@ export interface ReferralSettingData {
 }
 
 export interface RecentFeature {
-    iconType:    CombatExperiment;
+    iconType:    FeaturesUnlocked;
     featureName: string;
     description: string;
 }
@@ -3897,7 +3905,7 @@ export interface TutorialSettingData {
 }
 
 export interface TutorialItemReward {
-    tutorial: CombatExperiment;
+    tutorial: FeaturesUnlocked;
     item?:    ItemElement[];
 }
 
