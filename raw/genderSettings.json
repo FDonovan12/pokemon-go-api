@@ -19121,6 +19121,79 @@
     }
   },
   {
+    "templateId": "SPAWN_V0774_POKEMON_MINIOR_METEOR",
+    "data": {
+      "pokemon": "MINIOR",
+      "gender": {
+        "genderlessPercent": 1
+      },
+      "form": "MINIOR_METEOR"
+    }
+  },
+  {
+    "templateId": "SPAWN_V0774_POKEMON_MINIOR_METEOR_BLUE",
+    "data": {
+      "pokemon": "MINIOR",
+      "gender": {
+        "genderlessPercent": 1
+      }
+    }
+  },
+  {
+    "templateId": "SPAWN_V0774_POKEMON_MINIOR_METEOR_GREEN",
+    "data": {
+      "pokemon": "MINIOR",
+      "gender": {
+        "genderlessPercent": 1
+      }
+    }
+  },
+  {
+    "templateId": "SPAWN_V0774_POKEMON_MINIOR_METEOR_INDIGO",
+    "data": {
+      "pokemon": "MINIOR",
+      "gender": {
+        "genderlessPercent": 1
+      }
+    }
+  },
+  {
+    "templateId": "SPAWN_V0774_POKEMON_MINIOR_METEOR_ORANGE",
+    "data": {
+      "pokemon": "MINIOR",
+      "gender": {
+        "genderlessPercent": 1
+      }
+    }
+  },
+  {
+    "templateId": "SPAWN_V0774_POKEMON_MINIOR_METEOR_RED",
+    "data": {
+      "pokemon": "MINIOR",
+      "gender": {
+        "genderlessPercent": 1
+      }
+    }
+  },
+  {
+    "templateId": "SPAWN_V0774_POKEMON_MINIOR_METEOR_VIOLET",
+    "data": {
+      "pokemon": "MINIOR",
+      "gender": {
+        "genderlessPercent": 1
+      }
+    }
+  },
+  {
+    "templateId": "SPAWN_V0774_POKEMON_MINIOR_METEOR_YELLOW",
+    "data": {
+      "pokemon": "MINIOR",
+      "gender": {
+        "genderlessPercent": 1
+      }
+    }
+  },
+  {
     "templateId": "SPAWN_V0774_POKEMON_MINIOR_ORANGE",
     "data": {
       "pokemon": "MINIOR",
