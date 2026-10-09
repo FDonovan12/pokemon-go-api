@@ -4021,6 +4021,13 @@
     }
   },
   {
+    "templateId": "N_DISPLAY_n_pants_halloween2026",
+    "data": {
+      "iconAddress": "n_pants_halloween2026_icon",
+      "displayStringId": "avatar_pants_halloween2026"
+    }
+  },
+  {
     "templateId": "N_DISPLAY_n_pants_hgss_a_0",
     "data": {
       "iconAddress": "n_pants_hgss_a_0_icon",
@@ -6615,6 +6622,13 @@
     "data": {
       "iconAddress": "n_shirt_halloween2024_0_icon",
       "displayStringId": "avatar_shirt_halloween2024"
+    }
+  },
+  {
+    "templateId": "N_DISPLAY_n_shirt_halloween2026",
+    "data": {
+      "iconAddress": "n_shirt_halloween2026_icon",
+      "displayStringId": "avatar_shirt_halloween2026"
     }
   },
   {

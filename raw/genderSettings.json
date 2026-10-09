@@ -1087,6 +1087,16 @@
     }
   },
   {
+    "templateId": "SPAWN_V0025_POKEMON_PIKACHU_HALLOWEEN_2026",
+    "data": {
+      "pokemon": "PIKACHU",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  },
+  {
     "templateId": "SPAWN_V0025_POKEMON_PIKACHU_HORIZONS",
     "data": {
       "pokemon": "PIKACHU",
@@ -1680,6 +1690,16 @@
     }
   },
   {
+    "templateId": "SPAWN_V0041_POKEMON_ZUBAT_HALLOWEEN_2026_01",
+    "data": {
+      "pokemon": "ZUBAT",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  },
+  {
     "templateId": "SPAWN_V0041_POKEMON_ZUBAT_NORMAL",
     "data": {
       "pokemon": "ZUBAT",
@@ -1691,6 +1711,16 @@
   },
   {
     "templateId": "SPAWN_V0042_POKEMON_GOLBAT",
+    "data": {
+      "pokemon": "GOLBAT",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  },
+  {
+    "templateId": "SPAWN_V0042_POKEMON_GOLBAT_HALLOWEEN_2026_01",
     "data": {
       "pokemon": "GOLBAT",
       "gender": {
@@ -4621,6 +4651,16 @@
   },
   {
     "templateId": "SPAWN_V0169_POKEMON_CROBAT",
+    "data": {
+      "pokemon": "CROBAT",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  },
+  {
+    "templateId": "SPAWN_V0169_POKEMON_CROBAT_HALLOWEEN_2026_01",
     "data": {
       "pokemon": "CROBAT",
       "gender": {
@@ -20852,7 +20892,25 @@
     }
   },
   {
+    "templateId": "SPAWN_V0854_POKEMON_SINISTEA_A_HALLOWEEN_2026_01",
+    "data": {
+      "pokemon": "SINISTEA",
+      "gender": {
+        "genderlessPercent": 1
+      }
+    }
+  },
+  {
     "templateId": "SPAWN_V0854_POKEMON_SINISTEA_PHONY",
+    "data": {
+      "pokemon": "SINISTEA",
+      "gender": {
+        "genderlessPercent": 1
+      }
+    }
+  },
+  {
+    "templateId": "SPAWN_V0854_POKEMON_SINISTEA_P_HALLOWEEN_2026_01",
     "data": {
       "pokemon": "SINISTEA",
       "gender": {
@@ -20879,7 +20937,25 @@
     }
   },
   {
+    "templateId": "SPAWN_V0855_POKEMON_POLTEAGEIST_A_HALLOWEEN_2026_01",
+    "data": {
+      "pokemon": "POLTEAGEIST",
+      "gender": {
+        "genderlessPercent": 1
+      }
+    }
+  },
+  {
     "templateId": "SPAWN_V0855_POKEMON_POLTEAGEIST_PHONY",
+    "data": {
+      "pokemon": "POLTEAGEIST",
+      "gender": {
+        "genderlessPercent": 1
+      }
+    }
+  },
+  {
+    "templateId": "SPAWN_V0855_POKEMON_POLTEAGEIST_P_HALLOWEEN_2026_01",
     "data": {
       "pokemon": "POLTEAGEIST",
       "gender": {

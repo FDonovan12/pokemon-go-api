@@ -4950,6 +4950,186 @@
     "familyId": "Tarsal"
   },
   {
+    "pokemonId": "UXIE",
+    "name": "Créhelf",
+    "dexNumber": 480,
+    "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/480.png",
+    "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/480.png",
+    "slug": "crehelf",
+    "types": [
+      "Psy"
+    ],
+    "stats": {
+      "baseStamina": 181,
+      "baseAttack": 156,
+      "baseDefense": 270
+    },
+    "quickMoves": {
+      "CONFUSION_FAST": {
+        "id": "V0235_MOVE_CONFUSION_FAST",
+        "movementId": "CONFUSION_FAST",
+        "pokemonType": "Psy",
+        "power": 19,
+        "durationMs": 1500,
+        "energyDelta": 14,
+        "vfxName": "confusion_fast",
+        "names": {
+          "fr": "Choc Mental"
+        }
+      },
+      "EXTRASENSORY_FAST": {
+        "id": "V0274_MOVE_EXTRASENSORY_FAST",
+        "movementId": "EXTRASENSORY_FAST",
+        "pokemonType": "Psy",
+        "power": 11,
+        "durationMs": 1000,
+        "energyDelta": 11,
+        "vfxName": "extrasensory_fast",
+        "names": {
+          "fr": "Extrasenseur"
+        }
+      }
+    },
+    "dynamaxMove": [
+      {
+        "id": "VN_BM_013",
+        "movementId": "VN_BM_013",
+        "pokemonType": "Psy",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_mindstorm",
+        "names": {
+          "fr": "Psychomax"
+        }
+      }
+    ],
+    "familyId": "Créhelf"
+  },
+  {
+    "pokemonId": "MESPRIT",
+    "name": "Créfollet",
+    "dexNumber": 481,
+    "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/481.png",
+    "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/481.png",
+    "slug": "crefollet",
+    "types": [
+      "Psy"
+    ],
+    "stats": {
+      "baseStamina": 190,
+      "baseAttack": 212,
+      "baseDefense": 212
+    },
+    "quickMoves": {
+      "CONFUSION_FAST": {
+        "id": "V0235_MOVE_CONFUSION_FAST",
+        "movementId": "CONFUSION_FAST",
+        "pokemonType": "Psy",
+        "power": 19,
+        "durationMs": 1500,
+        "energyDelta": 14,
+        "vfxName": "confusion_fast",
+        "names": {
+          "fr": "Choc Mental"
+        }
+      },
+      "EXTRASENSORY_FAST": {
+        "id": "V0274_MOVE_EXTRASENSORY_FAST",
+        "movementId": "EXTRASENSORY_FAST",
+        "pokemonType": "Psy",
+        "power": 11,
+        "durationMs": 1000,
+        "energyDelta": 11,
+        "vfxName": "extrasensory_fast",
+        "names": {
+          "fr": "Extrasenseur"
+        }
+      }
+    },
+    "dynamaxMove": [
+      {
+        "id": "VN_BM_013",
+        "movementId": "VN_BM_013",
+        "pokemonType": "Psy",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_mindstorm",
+        "names": {
+          "fr": "Psychomax"
+        }
+      }
+    ],
+    "familyId": "Créfollet"
+  },
+  {
+    "pokemonId": "AZELF",
+    "name": "Créfadet",
+    "dexNumber": 482,
+    "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/482.png",
+    "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/482.png",
+    "slug": "crefadet",
+    "types": [
+      "Psy"
+    ],
+    "stats": {
+      "baseStamina": 181,
+      "baseAttack": 270,
+      "baseDefense": 151
+    },
+    "quickMoves": {
+      "CONFUSION_FAST": {
+        "id": "V0235_MOVE_CONFUSION_FAST",
+        "movementId": "CONFUSION_FAST",
+        "pokemonType": "Psy",
+        "power": 19,
+        "durationMs": 1500,
+        "energyDelta": 14,
+        "vfxName": "confusion_fast",
+        "names": {
+          "fr": "Choc Mental"
+        }
+      },
+      "EXTRASENSORY_FAST": {
+        "id": "V0274_MOVE_EXTRASENSORY_FAST",
+        "movementId": "EXTRASENSORY_FAST",
+        "pokemonType": "Psy",
+        "power": 11,
+        "durationMs": 1000,
+        "energyDelta": 11,
+        "vfxName": "extrasensory_fast",
+        "names": {
+          "fr": "Extrasenseur"
+        }
+      }
+    },
+    "dynamaxMove": [
+      {
+        "id": "VN_BM_013",
+        "movementId": "VN_BM_013",
+        "pokemonType": "Psy",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_mindstorm",
+        "names": {
+          "fr": "Psychomax"
+        }
+      }
+    ],
+    "familyId": "Créfadet"
+  },
+  {
     "pokemonId": "UNFEZANT",
     "name": "Déflaisan",
     "dexNumber": 521,

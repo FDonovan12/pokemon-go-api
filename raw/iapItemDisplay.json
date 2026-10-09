@@ -20,8 +20,8 @@
     "templateId": "EVENT_PASS_MONTH1_SEASON_STORE_REDIRECT",
     "data": {
       "sku": "pgorelease.month1_deluxe_event_pass_track_redirect",
-      "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 1,
+      "hidden": true,
       "title": "season_pass_premium_track_title_sep",
       "description": "deluxe_event_pass_track_unlock_description",
       "skuEnableTime": "2025-06-02T10:00:00",
@@ -50,14 +50,14 @@
     "templateId": "EVENT_PASS_SEPTEMBER3_EVENT_STORE_REDIRECT",
     "data": {
       "sku": "pgorelease.september3_2026_deluxe_event_pass_track_unlock_redirect",
-      "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 1,
+      "hidden": true,
       "title": "season_pass_premium_track_title_harvest_festival_2026",
       "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
       "skuEnableTime": "2025-09-29T10:00:00",
-      "skuDisableTime": "2026-10-07T20:00:00",
+      "skuDisableTime": "2025-10-07T20:00:00",
       "skuEnableTimeUtcMs": "1759140000000",
-      "skuDisableTimeUtcMs": "1791403200000",
+      "skuDisableTimeUtcMs": "1759867200000",
       "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F3cd7734c_PGO-MCS_Harvest_Festival_2026_TICKET_v1-1024x512_nologo.png"
     }
   },
@@ -146,6 +146,7 @@
     "data": {
       "sku": "pgorelease.month1_deluxe_event_pass_track_unlock",
       "sortOrder": 1,
+      "hidden": true,
       "title": "season_pass_premium_track_title_sep",
       "description": "deluxe_event_pass_track_unlock_description",
       "skuEnableTime": "2025-06-02T10:00:00",
@@ -160,6 +161,7 @@
     "data": {
       "sku": "pgorelease.month1_deluxe_event_pass_track_unlock_plus_points",
       "sortOrder": 1,
+      "hidden": true,
       "title": "season_pass_premium_track_plus_ten_ranks_title_sep",
       "description": "deluxe_event_pass_track_unlock_plus_points_description",
       "skuEnableTime": "2025-06-02T10:00:00",
@@ -279,12 +281,13 @@
     "data": {
       "sku": "pgorelease.september3_2026_deluxe_event_pass_track_unlock",
       "sortOrder": 1,
+      "hidden": true,
       "title": "season_pass_premium_track_title_harvest_festival_2026",
       "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
       "skuEnableTime": "2025-09-29T10:00:00",
-      "skuDisableTime": "2026-10-07T20:00:00",
+      "skuDisableTime": "2025-10-07T20:00:00",
       "skuEnableTimeUtcMs": "1759140000000",
-      "skuDisableTimeUtcMs": "1791403200000",
+      "skuDisableTimeUtcMs": "1759867200000",
       "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F3cd7734c_PGO-MCS_Harvest_Festival_2026_TICKET_v1-1024x512_nologo.png"
     }
   },
@@ -293,12 +296,13 @@
     "data": {
       "sku": "pgorelease.september3_2026_deluxe_event_pass_track_unlock_plus_points",
       "sortOrder": 1,
+      "hidden": true,
       "title": "season_pass_premium_track_plus_six_ranks_title_harvest_festival_2026",
       "description": "event_pass_plus_points_6_ranks_description",
       "skuEnableTime": "2025-09-29T10:00:00",
-      "skuDisableTime": "2026-10-07T20:00:00",
+      "skuDisableTime": "2025-10-07T20:00:00",
       "skuEnableTimeUtcMs": "1759140000000",
-      "skuDisableTimeUtcMs": "1791403200000",
+      "skuDisableTimeUtcMs": "1759867200000",
       "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F3cd7734c_PGO-MCS_Harvest_Festival_2026_TICKET_v1-1024x512_nologo.png"
     }
   },
@@ -6671,10 +6675,13 @@
       "sku": "bundle.cd2022.1",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 1,
-      "hidden": true,
       "sale": true,
-      "spriteId": "bundle.halloween.small.1",
-      "title": "bundle.halloween.small.1_title"
+      "spriteId": "bundle.general4.small.1",
+      "title": "bundle.general4.small.1_title",
+      "skuEnableTime": "2022-10-13T12:00:00",
+      "skuDisableTime": "2026-10-11T23:59:59",
+      "skuEnableTimeUtcMs": "1665662400000",
+      "skuDisableTimeUtcMs": "1791763199000"
     }
   },
   {
@@ -6683,10 +6690,13 @@
       "sku": "bundle.cd2022.2",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 2,
-      "hidden": true,
       "sale": true,
-      "spriteId": "bundle.halloween.adventure.1",
-      "title": "bundle.halloween.adventure.1_title"
+      "spriteId": "bundle.general1.medium.1",
+      "title": "bundle.general1.medium.1_title",
+      "skuEnableTime": "2022-10-13T12:00:00",
+      "skuDisableTime": "2026-10-11T23:59:59",
+      "skuEnableTimeUtcMs": "1665662400000",
+      "skuDisableTimeUtcMs": "1791763199000"
     }
   },
   {
@@ -9191,7 +9201,6 @@
       "sku": "pgorelease.general2.ticket.3",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 2,
-      "hidden": true,
       "spriteId": "general1.ticket.2",
       "title": "general1.ticket_CD_Zorua26_title",
       "skuEnableTime": "2019-03-14T08:00:00",
@@ -10137,34 +10146,6 @@
     }
   },
   {
-    "templateId": "pgorelease.month1_deluxe_event_pass_track_unlock",
-    "data": {
-      "sku": "pgorelease.month1_deluxe_event_pass_track_unlock",
-      "sortOrder": 1,
-      "title": "season_pass_premium_track_title_sep",
-      "description": "deluxe_event_pass_track_unlock_description",
-      "skuEnableTime": "2025-06-02T10:00:00",
-      "skuDisableTime": "2026-10-08T10:00:00",
-      "skuEnableTimeUtcMs": "1748858400000",
-      "skuDisableTimeUtcMs": "1791453600000",
-      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fb8786503_PGO-MCS_GO_Pass_September_2026_TICKET_v1-1024x576.jpg"
-    }
-  },
-  {
-    "templateId": "pgorelease.month1_deluxe_event_pass_track_unlock_plus_points",
-    "data": {
-      "sku": "pgorelease.month1_deluxe_event_pass_track_unlock_plus_points",
-      "sortOrder": 1,
-      "title": "season_pass_premium_track_plus_ten_ranks_title_sep",
-      "description": "deluxe_event_pass_track_unlock_plus_points_description",
-      "skuEnableTime": "2025-06-02T10:00:00",
-      "skuDisableTime": "2026-10-08T10:00:00",
-      "skuEnableTimeUtcMs": "1748858400000",
-      "skuDisableTimeUtcMs": "1791453600000",
-      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fb8786503_PGO-MCS_GO_Pass_September_2026_TICKET_v1-1024x576.jpg"
-    }
-  },
-  {
     "templateId": "pgorelease.pokecoin.15950",
     "data": {
       "sku": "pgorelease.pokecoin.15950",
@@ -10216,34 +10197,6 @@
       "skuEnableTimeUtcMs": "1758016800000",
       "skuDisableTimeUtcMs": "1790280000000",
       "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fec63551c_PGO-MCS_Horizon_Celebration_2026_TICKET_v1-1024x576.jpg"
-    }
-  },
-  {
-    "templateId": "pgorelease.september3_2026_deluxe_event_pass_track_unlock",
-    "data": {
-      "sku": "pgorelease.september3_2026_deluxe_event_pass_track_unlock",
-      "sortOrder": 1,
-      "title": "season_pass_premium_track_title_harvest_festival_2026",
-      "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
-      "skuEnableTime": "2025-09-29T10:00:00",
-      "skuDisableTime": "2026-10-07T20:00:00",
-      "skuEnableTimeUtcMs": "1759140000000",
-      "skuDisableTimeUtcMs": "1791403200000",
-      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F3cd7734c_PGO-MCS_Harvest_Festival_2026_TICKET_v1-1024x512_nologo.png"
-    }
-  },
-  {
-    "templateId": "pgorelease.september3_2026_deluxe_event_pass_track_unlock_plus_points",
-    "data": {
-      "sku": "pgorelease.september3_2026_deluxe_event_pass_track_unlock_plus_points",
-      "sortOrder": 1,
-      "title": "season_pass_premium_track_plus_six_ranks_title_harvest_festival_2026",
-      "description": "event_pass_plus_points_6_ranks_description",
-      "skuEnableTime": "2025-09-29T10:00:00",
-      "skuDisableTime": "2026-10-07T20:00:00",
-      "skuEnableTimeUtcMs": "1759140000000",
-      "skuDisableTimeUtcMs": "1791403200000",
-      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F3cd7734c_PGO-MCS_Harvest_Festival_2026_TICKET_v1-1024x512_nologo.png"
     }
   },
   {

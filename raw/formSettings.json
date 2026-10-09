@@ -611,6 +611,10 @@
         {
           "form": "PIKACHU_GLASS_HELMET_2026",
           "isCostume": true
+        },
+        {
+          "form": "PIKACHU_HALLOWEEN_2026",
+          "isCostume": true
         }
       ]
     }
@@ -807,6 +811,10 @@
       "forms": [
         {
           "form": "ZUBAT_NORMAL"
+        },
+        {
+          "form": 3362,
+          "isCostume": true
         }
       ]
     }
@@ -818,6 +826,10 @@
       "forms": [
         {
           "form": "GOLBAT_NORMAL"
+        },
+        {
+          "form": 3363,
+          "isCostume": true
         }
       ]
     }
@@ -2382,6 +2394,10 @@
       "forms": [
         {
           "form": "CROBAT_NORMAL"
+        },
+        {
+          "form": 3364,
+          "isCostume": true
         }
       ]
     }
@@ -10982,6 +10998,14 @@
             "groupNumber": 1,
             "overrideDisplayForm": "SINISTEA_PHONY"
           }
+        },
+        {
+          "form": 3365,
+          "isCostume": true
+        },
+        {
+          "form": 3366,
+          "isCostume": true
         }
       ]
     }
@@ -10996,6 +11020,14 @@
         },
         {
           "form": "POLTEAGEIST_ANTIQUE"
+        },
+        {
+          "form": 3367,
+          "isCostume": true
+        },
+        {
+          "form": 3368,
+          "isCostume": true
         }
       ]
     }

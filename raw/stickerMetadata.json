@@ -2635,6 +2635,40 @@
     }
   },
   {
+    "templateId": "STICKER_GOWA2026_1",
+    "data": {
+      "stickerId": "STICKER_GOWA2026_1",
+      "maxCount": 25,
+      "pokemonId": "DURALUDON",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20261105,
+      "regionId": 7
+    }
+  },
+  {
+    "templateId": "STICKER_GOWA2026_2",
+    "data": {
+      "stickerId": "STICKER_GOWA2026_2",
+      "maxCount": 25,
+      "releaseDate": 20261105
+    }
+  },
+  {
+    "templateId": "STICKER_GOWA2026_3",
+    "data": {
+      "stickerId": "STICKER_GOWA2026_3",
+      "maxCount": 25,
+      "pokemonId": "DURALUDON",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20261105,
+      "regionId": 7
+    }
+  },
+  {
     "templateId": "STICKER_GRUBBIN_1",
     "data": {
       "stickerId": "STICKER_GRUBBIN_1",

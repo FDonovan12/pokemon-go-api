@@ -376,14 +376,14 @@ export interface LevelUpRewardData {
     level:                       number;
     items:                       string[];
     itemsCount:                  number[];
-    featuresUnlocked?:           FeaturesUnlocked[];
+    featuresUnlocked?:           LocationCardElement[];
     clientOverrideDisplayOrder?: boolean;
     itemsUnlocked?:              string[];
     neutralAvatarItemTemplates?: NeutralAvatarItemTemplates;
     isBackfill?:                 boolean;
 }
 
-export type FeaturesUnlocked = number | string;
+export type LocationCardElement = number | string;
 
 export interface NeutralAvatarItemTemplates {
     itemTemplateId:    string;
@@ -814,8 +814,8 @@ export interface IapItemDisplayData {
     showDiscountTag?:        boolean;
     showStrikethroughPrice?: boolean;
     totalValue?:             number;
-    category?:               CategoryEnum;
     sortOrder?:              number;
+    hidden?:                 boolean;
     title?:                  string;
     description?:            string;
     skuEnableTime?:          Date;
@@ -823,7 +823,7 @@ export interface IapItemDisplayData {
     skuEnableTimeUtcMs?:     string;
     skuDisableTimeUtcMs?:    string;
     imageUrl?:               string;
-    hidden?:                 boolean;
+    category?:               CategoryEnum;
     sale?:                   boolean;
     maxLevel?:               number;
     webstoreSkuId?:          string;
@@ -1138,7 +1138,7 @@ export interface CombatSettingData {
     shadowPokemonAttackBonusMultiplier:      number;
     shadowPokemonDefenseBonusMultiplier:     number;
     purifiedPokemonAttackMultiplierVsShadow: number;
-    combatExperiment:                        FeaturesUnlocked[];
+    combatExperiment:                        LocationCardElement[];
     showQuickSwapButtonsDuringCountdown:     boolean;
     clockSyncSettings:                       ClockSyncSettings;
     combatFeatureFlags:                      CombatFeatureFlags;
@@ -1321,8 +1321,8 @@ export interface DeepLinkingSettings {
 export interface DeepLinkingSettingData {
     minPlayerLevelForExternalLink:     number;
     minPlayerLevelForNotificationLink: number;
-    actionsThatIgnoreMinLevel:         FeaturesUnlocked[];
-    actionsThatExecuteBeforeMapLoads:  FeaturesUnlocked[];
+    actionsThatIgnoreMinLevel:         LocationCardElement[];
+    actionsThatExecuteBeforeMapLoads:  LocationCardElement[];
     iosActionButtonEnabled:            boolean;
 }
 
@@ -1471,13 +1471,13 @@ export interface EventPassTierSettingData {
     track:                       Track;
     minPointsRequired?:          number;
     rewards?:                    PurpleReward[];
+    isMilestoneRank?:            boolean;
     bonusSettings?:              Settings;
     activeBonusDisplaySettings?: Settings;
-    isMilestoneRank?:            boolean;
 }
 
 export interface Settings {
-    eventName:  EventName;
+    eventName:  string;
     bonusBoxes: ActiveBonusDisplaySettingsBonusBox[];
 }
 
@@ -1490,29 +1490,18 @@ export enum IconType {
     EggIncubator = "EGG_INCUBATOR",
     Gift = "GIFT",
     Incense = "INCENSE",
-    LureModule = "LURE_MODULE",
-    SpawnUnknown = "SPAWN_UNKNOWN",
-    TeamRocket = "TEAM_ROCKET",
     Trade = "TRADE",
-}
-
-export enum EventName {
-    GoPassCumulativeBonusesHeader = "go_pass_cumulative_bonuses_header",
-    SeasonPassMilestoneBonusTitle01 = "season_pass_milestone_bonus_title_01",
-    SeasonPassMilestoneBonusTitle02 = "season_pass_milestone_bonus_title_02",
-    SeasonPassMilestoneBonusTitle03 = "season_pass_milestone_bonus_title_03",
-    SeasonPassMilestoneBonusTitle04 = "season_pass_milestone_bonus_title_04",
 }
 
 export interface PurpleReward {
     type:              TypeElement;
-    playerAttribute?:  PlayerAttribute;
-    exp?:              number;
-    stardust?:         number;
-    item?:             RewardDatumItem;
     pokemonEncounter?: RewardPokemonEncounter;
+    item?:             RewardDatumItem;
+    stardust?:         number;
     candy?:            Candy;
     xlCandy?:          Candy;
+    exp?:              number;
+    playerAttribute?:  PlayerAttribute;
 }
 
 export interface Candy {
@@ -1528,13 +1517,12 @@ export interface PlayerAttribute {
 export interface RewardPokemonEncounter {
     pokemonId:            string;
     pokemonDisplay?:      PurplePokemonDisplay;
-    isFeaturedPokemon?:   boolean;
     statsLimitsOverride?: StatsLimitsOverride;
+    isFeaturedPokemon?:   boolean;
 }
 
 export interface PurplePokemonDisplay {
     form:           string;
-    costume?:       string;
     breadModeEnum?: BreadMode;
 }
 
@@ -1643,7 +1631,7 @@ export interface PokemonExtendedSettingData {
     uniqueId:          string;
     sizeSettings:      DataSizeSettings;
     breadOverrides?:   BreadOverride[];
-    form?:             string;
+    form?:             LocationCardElement;
     tempEvoOverrides?: PurpleTempEvoOverride[];
 }
 
@@ -1749,11 +1737,11 @@ export interface FormSettings {
 
 export interface FormSettingData {
     pokemon: string;
-    forms?:  Form[];
+    forms?:  FormClass[];
 }
 
-export interface Form {
-    form:                        string;
+export interface FormClass {
+    form:                        LocationCardElement;
     assetBundleSuffix?:          string;
     isCostume?:                  boolean;
     assetBundleValue?:           number;
@@ -2201,7 +2189,7 @@ export interface IrisSocialUxFunnelSettingData {
 
 export interface EventStep {
     stepNumber: number;
-    event:      FeaturesUnlocked;
+    event:      LocationCardElement;
 }
 
 export interface ItemCurrencyValues {
@@ -2294,7 +2282,7 @@ export interface LocationCardSettings {
 }
 
 export interface LocationCardSettingData {
-    locationCard: string;
+    locationCard: LocationCardElement;
     imageUrl:     string;
     cardType?:    CardType;
     vfxAddress?:  string;
@@ -2568,7 +2556,7 @@ export interface MpSettingData {
 
 export interface BattleMpCostPerTier {
     breadBattleCatchMpCost:       number;
-    battleLevel:                  FeaturesUnlocked;
+    battleLevel:                  LocationCardElement;
     breadBattleRemoteCatchMpCost: number;
 }
 
@@ -3057,7 +3045,7 @@ export interface PokedexCategoriesSettingData {
 }
 
 export interface PokedexCategorySettingsInOrder {
-    pokedexCategory: FeaturesUnlocked;
+    pokedexCategory: LocationCardElement;
     milestoneGoal:   number;
     visuallyHidden?: boolean;
 }
@@ -3394,7 +3382,7 @@ export interface ReferralSettingData {
 }
 
 export interface RecentFeature {
-    iconType:    FeaturesUnlocked;
+    iconType:    LocationCardElement;
     featureName: string;
     description: string;
 }
@@ -3754,7 +3742,7 @@ export interface StickerMetadatumData {
     stickerId:    string;
     maxCount:     number;
     pokemonId?:   string;
-    category:     CategoryElement[];
+    category?:    CategoryElement[];
     releaseDate?: number;
     regionId?:    number;
     stickerUrl?:  string;
@@ -3905,7 +3893,7 @@ export interface TutorialSettingData {
 }
 
 export interface TutorialItemReward {
-    tutorial: FeaturesUnlocked;
+    tutorial: LocationCardElement;
     item?:    ItemElement[];
 }
 
@@ -3968,7 +3956,7 @@ export interface PokemonSettingData {
     allowNoevolveEvolution?:            string[];
     ibfc:                               Ibfc;
     breadTierGroup?:                    BreadTierGroupEnum;
-    form?:                              string;
+    form?:                              LocationCardElement;
     disableTransferToPokemonHome?:      boolean;
     parentPokemonId?:                   string;
     buddySize?:                         BuddySize;
@@ -4052,7 +4040,7 @@ export enum MovementType {
 export interface EvolutionBranch {
     evolution?:                              string;
     candyCost?:                              number;
-    form?:                                   string;
+    form?:                                   LocationCardElement;
     candyCostPurified?:                      number;
     temporaryEvolution?:                     Temp;
     temporaryEvolutionEnergyCost?:           number;

@@ -1979,6 +1979,67 @@
     }
   },
   {
+    "templateId": "EXTENDED_V0025_PIKACHU_HALLOWEEN_2026",
+    "data": {
+      "uniqueId": "PIKACHU",
+      "form": "PIKACHU_HALLOWEEN_2026",
+      "sizeSettings": {
+        "xxsLowerBound": 0.196,
+        "xsLowerBound": 0.2,
+        "mLowerBound": 0.3,
+        "mUpperBound": 0.5,
+        "xlUpperBound": 0.6,
+        "xxlUpperBound": 0.7
+      },
+      "breadOverrides": [
+        {
+          "breadMode": "BREAD_MODE",
+          "maxEncounterVisualSettings": {
+            "scale": 31,
+            "cameraDistance": 27.5,
+            "maxReticleSize": 14
+          },
+          "maxBattleVisualSettings": {
+            "scale": 62
+          },
+          "maxStationVisualSettings": {
+            "scale": 4.22
+          }
+        },
+        {
+          "breadMode": "BREAD_DOUGH_MODE",
+          "averageHeightM": 21,
+          "camera": {
+            "cylinderRadiusM": 1.3,
+            "cylinderHeightM": 1.1
+          },
+          "modelScaleV2": 0.86,
+          "modelHeight": 2.57,
+          "catchOverrideSettings": {
+            "collisionRadiusM": 0.25,
+            "collisionHeadRadiusM": 0.25
+          },
+          "maxEncounterVisualSettings": {
+            "scale": 10.5,
+            "cameraDistance": 32.5,
+            "maxReticleSize": 14
+          },
+          "maxBattleVisualSettings": {
+            "scale": 20,
+            "xOffset": 3
+          },
+          "maxBattleTrainerVisualSettings": {
+            "xOffset": -5,
+            "yOffset": -5
+          },
+          "maxStationVisualSettings": {
+            "scale": 1.25
+          }
+        }
+      ]
+    }
+  },
+  {
     "templateId": "EXTENDED_V0025_POKEMON_PIKACHU",
     "data": {
       "uniqueId": "PIKACHU",
@@ -6675,6 +6736,21 @@
     }
   },
   {
+    "templateId": "EXTENDED_V0041_POKEMON_ZUBAT_HALLOWEEN_2026_01",
+    "data": {
+      "uniqueId": "ZUBAT",
+      "form": 3362,
+      "sizeSettings": {
+        "xxsLowerBound": 0.392,
+        "xsLowerBound": 0.4,
+        "mLowerBound": 0.6,
+        "mUpperBound": 1,
+        "xlUpperBound": 1.2,
+        "xxlUpperBound": 1.4
+      }
+    }
+  },
+  {
     "templateId": "EXTENDED_V0041_POKEMON_ZUBAT_NORMAL",
     "data": {
       "uniqueId": "ZUBAT",
@@ -6693,6 +6769,21 @@
     "templateId": "EXTENDED_V0042_POKEMON_GOLBAT",
     "data": {
       "uniqueId": "GOLBAT",
+      "sizeSettings": {
+        "xxsLowerBound": 0.784,
+        "xsLowerBound": 0.8,
+        "mLowerBound": 1.2,
+        "mUpperBound": 2,
+        "xlUpperBound": 2.4,
+        "xxlUpperBound": 2.8
+      }
+    }
+  },
+  {
+    "templateId": "EXTENDED_V0042_POKEMON_GOLBAT_HALLOWEEN_2026_01",
+    "data": {
+      "uniqueId": "GOLBAT",
+      "form": 3363,
       "sizeSettings": {
         "xxsLowerBound": 0.784,
         "xsLowerBound": 0.8,
@@ -13100,6 +13191,21 @@
     "templateId": "EXTENDED_V0169_POKEMON_CROBAT",
     "data": {
       "uniqueId": "CROBAT",
+      "sizeSettings": {
+        "xxsLowerBound": 0.882,
+        "xsLowerBound": 0.9,
+        "mLowerBound": 1.35,
+        "mUpperBound": 2.25,
+        "xlUpperBound": 2.7,
+        "xxlUpperBound": 3.15
+      }
+    }
+  },
+  {
+    "templateId": "EXTENDED_V0169_POKEMON_CROBAT_HALLOWEEN_2026_01",
+    "data": {
+      "uniqueId": "CROBAT",
+      "form": 3364,
       "sizeSettings": {
         "xxsLowerBound": 0.882,
         "xsLowerBound": 0.9,
@@ -26083,7 +26189,29 @@
         "mUpperBound": 0.375,
         "xlUpperBound": 0.45,
         "xxlUpperBound": 0.525
-      }
+      },
+      "breadOverrides": [
+        {
+          "breadMode": "BREAD_MODE",
+          "maxEncounterVisualSettings": {
+            "scale": 39.2,
+            "cameraDistance": 30,
+            "maxReticleSize": 14
+          },
+          "maxBattleVisualSettings": {
+            "scale": 78.4
+          },
+          "maxBattleTrainerVisualSettings": {
+            "xOffset": -8
+          },
+          "maxStationVisualSettings": {
+            "scale": 5.33
+          },
+          "maxPowerspotTopperVisualSettings": {
+            "scale": 0.72
+          }
+        }
+      ]
     }
   },
   {
@@ -26098,7 +26226,29 @@
         "mUpperBound": 0.375,
         "xlUpperBound": 0.45,
         "xxlUpperBound": 0.525
-      }
+      },
+      "breadOverrides": [
+        {
+          "breadMode": "BREAD_MODE",
+          "maxEncounterVisualSettings": {
+            "scale": 39.2,
+            "cameraDistance": 30,
+            "maxReticleSize": 14
+          },
+          "maxBattleVisualSettings": {
+            "scale": 78.4
+          },
+          "maxBattleTrainerVisualSettings": {
+            "xOffset": -8
+          },
+          "maxStationVisualSettings": {
+            "scale": 5.33
+          },
+          "maxPowerspotTopperVisualSettings": {
+            "scale": 0.72
+          }
+        }
+      ]
     }
   },
   {
@@ -26112,7 +26262,29 @@
         "mUpperBound": 0.375,
         "xlUpperBound": 0.45,
         "xxlUpperBound": 0.525
-      }
+      },
+      "breadOverrides": [
+        {
+          "breadMode": "BREAD_MODE",
+          "maxEncounterVisualSettings": {
+            "scale": 39.2,
+            "cameraDistance": 28,
+            "maxReticleSize": 14
+          },
+          "maxBattleVisualSettings": {
+            "scale": 78.4
+          },
+          "maxBattleTrainerVisualSettings": {
+            "xOffset": -10
+          },
+          "maxStationVisualSettings": {
+            "scale": 5.33
+          },
+          "maxPowerspotTopperVisualSettings": {
+            "scale": 0.75
+          }
+        }
+      ]
     }
   },
   {
@@ -26127,7 +26299,29 @@
         "mUpperBound": 0.375,
         "xlUpperBound": 0.45,
         "xxlUpperBound": 0.525
-      }
+      },
+      "breadOverrides": [
+        {
+          "breadMode": "BREAD_MODE",
+          "maxEncounterVisualSettings": {
+            "scale": 39.2,
+            "cameraDistance": 28,
+            "maxReticleSize": 14
+          },
+          "maxBattleVisualSettings": {
+            "scale": 78.4
+          },
+          "maxBattleTrainerVisualSettings": {
+            "xOffset": -10
+          },
+          "maxStationVisualSettings": {
+            "scale": 5.33
+          },
+          "maxPowerspotTopperVisualSettings": {
+            "scale": 0.75
+          }
+        }
+      ]
     }
   },
   {
@@ -26141,7 +26335,26 @@
         "mUpperBound": 0.375,
         "xlUpperBound": 0.45,
         "xxlUpperBound": 0.525
-      }
+      },
+      "breadOverrides": [
+        {
+          "breadMode": "BREAD_MODE",
+          "maxEncounterVisualSettings": {
+            "scale": 39.2,
+            "cameraDistance": 30,
+            "maxReticleSize": 12
+          },
+          "maxBattleVisualSettings": {
+            "scale": 78.4
+          },
+          "maxBattleTrainerVisualSettings": {
+            "yOffset": 7
+          },
+          "maxStationVisualSettings": {
+            "scale": 5.33
+          }
+        }
+      ]
     }
   },
   {
@@ -26156,7 +26369,26 @@
         "mUpperBound": 0.375,
         "xlUpperBound": 0.45,
         "xxlUpperBound": 0.525
-      }
+      },
+      "breadOverrides": [
+        {
+          "breadMode": "BREAD_MODE",
+          "maxEncounterVisualSettings": {
+            "scale": 39.2,
+            "cameraDistance": 30,
+            "maxReticleSize": 12
+          },
+          "maxBattleVisualSettings": {
+            "scale": 78.4
+          },
+          "maxBattleTrainerVisualSettings": {
+            "yOffset": 7
+          },
+          "maxStationVisualSettings": {
+            "scale": 5.33
+          }
+        }
+      ]
     }
   },
   {
@@ -42310,10 +42542,40 @@
     }
   },
   {
+    "templateId": "EXTENDED_V0854_POKEMON_SINISTEA_A_HALLOWEEN_2026_01",
+    "data": {
+      "uniqueId": "SINISTEA",
+      "form": 3366,
+      "sizeSettings": {
+        "xxsLowerBound": 0.049,
+        "xsLowerBound": 0.05,
+        "mLowerBound": 0.075,
+        "mUpperBound": 0.125,
+        "xlUpperBound": 0.15,
+        "xxlUpperBound": 0.175
+      }
+    }
+  },
+  {
     "templateId": "EXTENDED_V0854_POKEMON_SINISTEA_PHONY",
     "data": {
       "uniqueId": "SINISTEA",
       "form": "SINISTEA_PHONY",
+      "sizeSettings": {
+        "xxsLowerBound": 0.049,
+        "xsLowerBound": 0.05,
+        "mLowerBound": 0.075,
+        "mUpperBound": 0.125,
+        "xlUpperBound": 0.15,
+        "xxlUpperBound": 0.175
+      }
+    }
+  },
+  {
+    "templateId": "EXTENDED_V0854_POKEMON_SINISTEA_P_HALLOWEEN_2026_01",
+    "data": {
+      "uniqueId": "SINISTEA",
+      "form": 3365,
       "sizeSettings": {
         "xxsLowerBound": 0.049,
         "xsLowerBound": 0.05,
@@ -42354,10 +42616,40 @@
     }
   },
   {
+    "templateId": "EXTENDED_V0855_POKEMON_POLTEAGEIST_A_HALLOWEEN_2026_01",
+    "data": {
+      "uniqueId": "POLTEAGEIST",
+      "form": 3368,
+      "sizeSettings": {
+        "xxsLowerBound": 0.098,
+        "xsLowerBound": 0.1,
+        "mLowerBound": 0.15,
+        "mUpperBound": 0.25,
+        "xlUpperBound": 0.3,
+        "xxlUpperBound": 0.35
+      }
+    }
+  },
+  {
     "templateId": "EXTENDED_V0855_POKEMON_POLTEAGEIST_PHONY",
     "data": {
       "uniqueId": "POLTEAGEIST",
       "form": "POLTEAGEIST_PHONY",
+      "sizeSettings": {
+        "xxsLowerBound": 0.098,
+        "xsLowerBound": 0.1,
+        "mLowerBound": 0.15,
+        "mUpperBound": 0.25,
+        "xlUpperBound": 0.3,
+        "xxlUpperBound": 0.35
+      }
+    }
+  },
+  {
+    "templateId": "EXTENDED_V0855_POKEMON_POLTEAGEIST_P_HALLOWEEN_2026_01",
+    "data": {
+      "uniqueId": "POLTEAGEIST",
+      "form": 3367,
       "sizeSettings": {
         "xxsLowerBound": 0.098,
         "xsLowerBound": 0.1,

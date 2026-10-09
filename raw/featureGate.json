@@ -63,6 +63,20 @@
     }
   },
   {
+    "templateId": "COMBINE_COMPASS_AND_WEATHER_FEATURE_GATE",
+    "data": {
+      "status": 2059828614,
+      "rolloutPercentage": 100
+    }
+  },
+  {
+    "templateId": "DAILY_ENCOUNTER_GENERATION_CONTEXT_FEATURE_GATE",
+    "data": {
+      "status": 2,
+      "rolloutPercentage": 100
+    }
+  },
+  {
     "templateId": "DISABLE_LEGACY_NEARBY_POKEMON_FEATURE_GATE",
     "data": {
       "status": 1,
@@ -227,10 +241,24 @@
     }
   },
   {
+    "templateId": "MICHELIN_MAP_LURE_BOTTOM_RING_REMOVAL_FEATURE_GATE",
+    "data": {
+      "status": 1,
+      "rolloutPercentage": 100
+    }
+  },
+  {
+    "templateId": "MICHELIN_MAP_ZYGARDE_CELL_REWARD_FEATURE_GATE",
+    "data": {
+      "status": 58439049,
+      "rolloutPercentage": 100
+    }
+  },
+  {
     "templateId": "POKEMON_SPAWN_AVOIDANCE_REWORK_FEATURE_GATE",
     "data": {
       "status": 67485911,
-      "rolloutPercentage": 30
+      "rolloutPercentage": 100
     }
   },
   {
@@ -252,6 +280,27 @@
     "data": {
       "status": 1,
       "rolloutPercentage": 100
+    }
+  },
+  {
+    "templateId": "TRANSFER_FEATURE_GATE",
+    "data": {
+      "status": 899172904,
+      "rolloutPercentage": 100
+    }
+  },
+  {
+    "templateId": "VNEXT_FAST_ATTACK_INPUT_TYPE_FEATURE_GATE",
+    "data": {
+      "status": 1,
+      "rolloutPercentage": 100,
+      "subFeatureGateList": [
+        {
+          "name": "COMBAT",
+          "status": 2,
+          "rolloutPercentage": 100
+        }
+      ]
     }
   },
   {

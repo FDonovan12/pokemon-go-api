@@ -405,6 +405,13 @@
     }
   },
   {
+    "templateId": "LC_2025_NFL_002",
+    "data": {
+      "locationCard": "LC_2025_NFL_002",
+      "imageUrl": "lc_NFL_cardinals_2026"
+    }
+  },
+  {
     "templateId": "LC_2025_OSAKA_EVENT_001",
     "data": {
       "locationCard": "LC_2025_OSAKA_EVENT_001",
@@ -524,6 +531,22 @@
     "data": {
       "locationCard": "LC_2026_COPENHAGEN_GOFEST_001",
       "imageUrl": "lc_GoFest2026_copenhagen",
+      "cardType": "LOCATION_CARD"
+    }
+  },
+  {
+    "templateId": "LC_2026_GOWA_MEXICOCITY",
+    "data": {
+      "locationCard": 419,
+      "imageUrl": "lc_2026_gowa_mexicocity",
+      "cardType": "LOCATION_CARD"
+    }
+  },
+  {
+    "templateId": "LC_2026_GOWA_SENDAI",
+    "data": {
+      "locationCard": 418,
+      "imageUrl": "lc_2026_gowa_sendai",
       "cardType": "LOCATION_CARD"
     }
   },
@@ -1775,6 +1798,15 @@
       "imageUrl": "sb_GoTour2026_y",
       "cardType": "SPECIAL_BACKGROUND",
       "vfxAddress": "bgfx_Y"
+    }
+  },
+  {
+    "templateId": "LC_SPECIALBACKGROUND_2026_GOWA",
+    "data": {
+      "locationCard": 420,
+      "imageUrl": "sb_black",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_gowa_2026"
     }
   },
   {

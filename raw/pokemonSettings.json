@@ -11973,6 +11973,117 @@
     }
   },
   {
+    "templateId": "V0025_POKEMON_PIKACHU_HALLOWEEN_2026",
+    "data": {
+      "pokemonId": "PIKACHU",
+      "modelScale": 1.48,
+      "type": "POKEMON_TYPE_ELECTRIC",
+      "camera": {
+        "diskRadiusM": 0.555,
+        "cylinderRadiusM": 0.37,
+        "cylinderHeightM": 0.5,
+        "shoulderModeScale": 0.5
+      },
+      "encounter": {
+        "collisionRadiusM": 0.16,
+        "collisionHeightM": 0.16,
+        "collisionHeadRadiusM": 0.13,
+        "movementType": "MOVEMENT_JUMP",
+        "movementTimerS": 10,
+        "jumpTimeS": 1,
+        "attackTimerS": 29,
+        "attackProbability": 0.1,
+        "dodgeProbability": 0.15,
+        "dodgeDurationS": 1,
+        "dodgeDistance": 1,
+        "cameraDistance": 2.775,
+        "minPokemonActionFrequencyS": 0.2,
+        "maxPokemonActionFrequencyS": 1.6
+      },
+      "stats": {
+        "baseStamina": 111,
+        "baseAttack": 112,
+        "baseDefense": 96
+      },
+      "quickMoves": [
+        "THUNDER_SHOCK_FAST",
+        "QUICK_ATTACK_FAST"
+      ],
+      "cinematicMoves": [
+        "DISCHARGE",
+        "THUNDERBOLT",
+        "WILD_CHARGE"
+      ],
+      "animationTime": [
+        1.8333,
+        0.6667,
+        1.6,
+        1.5667,
+        0,
+        1.8,
+        1.1333,
+        1.066667
+      ],
+      "evolutionIds": [
+        "RAICHU"
+      ],
+      "evolutionPips": 1,
+      "pokedexHeightM": 0.4,
+      "pokedexWeightKg": 6,
+      "parentPokemonId": "PICHU",
+      "heightStdDev": 0.05,
+      "weightStdDev": 0.75,
+      "familyId": "FAMILY_PIKACHU",
+      "candyToEvolve": 50,
+      "kmBuddyDistance": 1,
+      "buddySize": "BUDDY_SHOULDER",
+      "modelHeight": 0.4,
+      "modelScaleV2": 1.1,
+      "form": "PIKACHU_HALLOWEEN_2026",
+      "buddyOffsetMale": [
+        0,
+        0,
+        0
+      ],
+      "buddyOffsetFemale": [
+        0,
+        0,
+        0
+      ],
+      "buddyScale": 11,
+      "thirdMove": {
+        "stardustToUnlock": 10000,
+        "candyToUnlock": 25
+      },
+      "isTransferable": true,
+      "isDeployable": true,
+      "isTradable": true,
+      "buddyGroupNumber": 1,
+      "eliteQuickMove": [
+        "PRESENT_FAST"
+      ],
+      "eliteCinematicMove": [
+        "SURF",
+        "THUNDER"
+      ],
+      "buddyWalkedMegaEnergyAwards": [
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5,
+          "tempEvoId": "TEMP_EVOLUTION_MEGA_X"
+        },
+        {
+          "megaPokemonId": "RAICHU",
+          "megaEnergyAwardAmount": 5,
+          "tempEvoId": "TEMP_EVOLUTION_MEGA_Y"
+        }
+      ],
+      "disableTransferToPokemonHome": true,
+      "ibfc": {},
+      "breadTierGroup": "GROUP_1"
+    }
+  },
+  {
     "templateId": "V0025_POKEMON_PIKACHU_HORIZONS",
     "data": {
       "pokemonId": "PIKACHU",
@@ -18538,6 +18649,119 @@
     }
   },
   {
+    "templateId": "V0041_POKEMON_ZUBAT_HALLOWEEN_2026_01",
+    "data": {
+      "pokemonId": "ZUBAT",
+      "modelScale": 1.07,
+      "type": "POKEMON_TYPE_POISON",
+      "type2": "POKEMON_TYPE_FLYING",
+      "camera": {
+        "diskRadiusM": 0.963,
+        "cylinderRadiusM": 0.642,
+        "cylinderHeightM": 0.6955,
+        "cylinderGroundM": 0.5,
+        "shoulderModeScale": 0.5
+      },
+      "encounter": {
+        "collisionRadiusM": 0.0535,
+        "collisionHeightM": 0.0535,
+        "collisionHeadRadiusM": 0.1605,
+        "movementType": "MOVEMENT_ELECTRIC",
+        "movementTimerS": 10,
+        "jumpTimeS": 1,
+        "attackTimerS": 29,
+        "attackProbability": 0.1,
+        "dodgeProbability": 0.2,
+        "dodgeDurationS": 0.7,
+        "dodgeDistance": 0.125,
+        "cameraDistance": 4.8150005,
+        "minPokemonActionFrequencyS": 0.2,
+        "maxPokemonActionFrequencyS": 1.6,
+        "shadowBaseCaptureRate": 0.5,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
+      },
+      "stats": {
+        "baseStamina": 120,
+        "baseAttack": 83,
+        "baseDefense": 73
+      },
+      "quickMoves": [
+        "QUICK_ATTACK_FAST",
+        "BITE_FAST"
+      ],
+      "cinematicMoves": [
+        "POISON_FANG",
+        "AIR_CUTTER",
+        "SWIFT"
+      ],
+      "animationTime": [
+        1.3333,
+        0.6667,
+        1.3333,
+        0.6667,
+        0,
+        1.5,
+        1.3333,
+        0
+      ],
+      "evolutionIds": [
+        "GOLBAT"
+      ],
+      "evolutionPips": 1,
+      "pokedexHeightM": 0.8,
+      "pokedexWeightKg": 7.5,
+      "heightStdDev": 0.1,
+      "weightStdDev": 0.9375,
+      "familyId": "FAMILY_ZUBAT",
+      "candyToEvolve": 50,
+      "kmBuddyDistance": 1,
+      "buddySize": "BUDDY_FLYING",
+      "modelHeight": 0.85,
+      "evolutionBranch": [
+        {
+          "evolution": "GOLBAT",
+          "candyCost": 25,
+          "form": 3363,
+          "candyCostPurified": 22
+        }
+      ],
+      "modelScaleV2": 1,
+      "form": 3362,
+      "buddyOffsetMale": [
+        6.13,
+        31.63,
+        32.8
+      ],
+      "buddyOffsetFemale": [
+        6.13,
+        31.63,
+        32.8
+      ],
+      "buddyScale": 19,
+      "thirdMove": {
+        "stardustToUnlock": 10000,
+        "candyToUnlock": 25
+      },
+      "isTransferable": true,
+      "isDeployable": true,
+      "isTradable": true,
+      "shadow": {
+        "purificationStardustNeeded": 1000,
+        "purificationCandyNeeded": 1,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
+      "buddyGroupNumber": 4,
+      "eliteCinematicMove": [
+        "SLUDGE_BOMB"
+      ],
+      "useIrisFlyingPlacement": true,
+      "ibfc": {},
+      "breadTierGroup": "GROUP_1"
+    }
+  },
+  {
     "templateId": "V0041_POKEMON_ZUBAT_NORMAL",
     "data": {
       "pokemonId": "ZUBAT",
@@ -18729,6 +18953,120 @@
         }
       ],
       "modelScaleV2": 0.9,
+      "buddyOffsetMale": [
+        45,
+        -40,
+        -70
+      ],
+      "buddyOffsetFemale": [
+        45,
+        -40,
+        -70
+      ],
+      "buddyScale": 19,
+      "thirdMove": {
+        "stardustToUnlock": 10000,
+        "candyToUnlock": 25
+      },
+      "isTransferable": true,
+      "isDeployable": true,
+      "isTradable": true,
+      "shadow": {
+        "purificationStardustNeeded": 1000,
+        "purificationCandyNeeded": 1,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
+      "buddyGroupNumber": 5,
+      "eliteCinematicMove": [
+        "OMINOUS_WIND"
+      ],
+      "useIrisFlyingPlacement": true,
+      "irisPhotoEmote1": "PhysicalAttack",
+      "ibfc": {},
+      "breadTierGroup": "GROUP_1"
+    }
+  },
+  {
+    "templateId": "V0042_POKEMON_GOLBAT_HALLOWEEN_2026_01",
+    "data": {
+      "pokemonId": "GOLBAT",
+      "modelScale": 0.71,
+      "type": "POKEMON_TYPE_POISON",
+      "type2": "POKEMON_TYPE_FLYING",
+      "camera": {
+        "diskRadiusM": 1.5975,
+        "cylinderRadiusM": 1.7,
+        "cylinderHeightM": 1.2425,
+        "cylinderGroundM": 1.6,
+        "shoulderModeScale": 0.5
+      },
+      "encounter": {
+        "collisionRadiusM": 0.0355,
+        "collisionHeightM": 0.0355,
+        "collisionHeadRadiusM": 0.355,
+        "movementType": "MOVEMENT_FLYING",
+        "movementTimerS": 6,
+        "jumpTimeS": 1,
+        "attackTimerS": 17,
+        "bonusCandyCaptureReward": 2,
+        "bonusStardustCaptureReward": 200,
+        "attackProbability": 0.1,
+        "dodgeProbability": 0.15,
+        "dodgeDurationS": 0.7,
+        "dodgeDistance": 1,
+        "cameraDistance": 5,
+        "minPokemonActionFrequencyS": 0.2,
+        "maxPokemonActionFrequencyS": 1.6,
+        "bonusXlCandyCaptureReward": 1,
+        "shadowBaseCaptureRate": 0.2,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
+      },
+      "stats": {
+        "baseStamina": 181,
+        "baseAttack": 161,
+        "baseDefense": 150
+      },
+      "quickMoves": [
+        "WING_ATTACK_FAST",
+        "BITE_FAST"
+      ],
+      "cinematicMoves": [
+        "SHADOW_BALL",
+        "AIR_CUTTER",
+        "POISON_FANG"
+      ],
+      "animationTime": [
+        1.5,
+        0.6667,
+        1.3333,
+        0.6667,
+        0,
+        2,
+        2,
+        0
+      ],
+      "evolutionPips": 1,
+      "pokedexHeightM": 1.6,
+      "pokedexWeightKg": 55,
+      "parentPokemonId": "ZUBAT",
+      "heightStdDev": 0.2,
+      "weightStdDev": 6.875,
+      "familyId": "FAMILY_ZUBAT",
+      "kmBuddyDistance": 1,
+      "buddySize": "BUDDY_FLYING",
+      "modelHeight": 1.95,
+      "evolutionBranch": [
+        {
+          "evolution": "CROBAT",
+          "candyCost": 100,
+          "form": 3364,
+          "candyCostPurified": 90
+        }
+      ],
+      "modelScaleV2": 0.9,
+      "form": 3363,
       "buddyOffsetMale": [
         45,
         -40,
@@ -51126,6 +51464,110 @@
       "buddySize": "BUDDY_FLYING",
       "modelHeight": 2.65,
       "modelScaleV2": 0.9,
+      "buddyOffsetMale": [
+        40,
+        -20,
+        -40
+      ],
+      "buddyOffsetFemale": [
+        40,
+        -20,
+        -40
+      ],
+      "buddyScale": 19,
+      "thirdMove": {
+        "stardustToUnlock": 10000,
+        "candyToUnlock": 25
+      },
+      "isTransferable": true,
+      "isDeployable": true,
+      "isTradable": true,
+      "shadow": {
+        "purificationStardustNeeded": 1000,
+        "purificationCandyNeeded": 1,
+        "purifiedChargeMove": "RETURN",
+        "shadowChargeMove": "FRUSTRATION"
+      },
+      "buddyGroupNumber": 5,
+      "useIrisFlyingPlacement": true,
+      "ibfc": {},
+      "breadTierGroup": "GROUP_1"
+    }
+  },
+  {
+    "templateId": "V0169_POKEMON_CROBAT_HALLOWEEN_2026_01",
+    "data": {
+      "pokemonId": "CROBAT",
+      "modelScale": 0.66,
+      "type": "POKEMON_TYPE_POISON",
+      "type2": "POKEMON_TYPE_FLYING",
+      "camera": {
+        "diskRadiusM": 0.555,
+        "cylinderRadiusM": 2,
+        "cylinderHeightM": 1.5105,
+        "cylinderGroundM": 1.1363636,
+        "shoulderModeScale": 0.5
+      },
+      "encounter": {
+        "collisionRadiusM": 0.364,
+        "collisionHeightM": 1.5,
+        "collisionHeadRadiusM": 0.5,
+        "movementType": "MOVEMENT_FLYING",
+        "movementTimerS": 11,
+        "jumpTimeS": 1.3,
+        "attackTimerS": 20,
+        "bonusCandyCaptureReward": 7,
+        "bonusStardustCaptureReward": 400,
+        "attackProbability": 0.1,
+        "dodgeProbability": 0.2,
+        "dodgeDurationS": 1,
+        "dodgeDistance": 1,
+        "cameraDistance": 5,
+        "minPokemonActionFrequencyS": 0.2,
+        "maxPokemonActionFrequencyS": 1.6,
+        "bonusXlCandyCaptureReward": 2,
+        "shadowBaseCaptureRate": 0.1,
+        "shadowAttackProbability": 0.7,
+        "shadowDodgeProbability": 0.2
+      },
+      "stats": {
+        "baseStamina": 198,
+        "baseAttack": 194,
+        "baseDefense": 178
+      },
+      "quickMoves": [
+        "AIR_SLASH_FAST",
+        "BITE_FAST"
+      ],
+      "cinematicMoves": [
+        "SHADOW_BALL",
+        "AIR_CUTTER",
+        "SLUDGE_BOMB",
+        "POISON_FANG",
+        "CROSS_POISON"
+      ],
+      "animationTime": [
+        1.3333,
+        0.6667,
+        1.6667,
+        2,
+        0,
+        2,
+        3,
+        3
+      ],
+      "evolutionPips": 1,
+      "pokedexHeightM": 1.8,
+      "pokedexWeightKg": 75,
+      "parentPokemonId": "GOLBAT",
+      "heightStdDev": 0.225,
+      "weightStdDev": 9.375,
+      "familyId": "FAMILY_ZUBAT",
+      "kmBuddyDistance": 1,
+      "buddySize": "BUDDY_FLYING",
+      "modelHeight": 2.65,
+      "modelScaleV2": 0.9,
+      "form": 3364,
       "buddyOffsetMale": [
         40,
         -20,
@@ -209368,6 +209810,87 @@
     }
   },
   {
+    "templateId": "V0854_POKEMON_SINISTEA_A_HALLOWEEN_2026_01",
+    "data": {
+      "pokemonId": "SINISTEA",
+      "type": "POKEMON_TYPE_GHOST",
+      "camera": {
+        "cylinderRadiusM": 0.2,
+        "cylinderHeightM": 0.2,
+        "cylinderGroundM": 0.1
+      },
+      "encounter": {
+        "collisionRadiusM": 0.15,
+        "collisionHeightM": 0.1,
+        "collisionHeadRadiusM": 0.1,
+        "movementType": "MOVEMENT_HOVERING",
+        "attackProbability": 0.3,
+        "dodgeProbability": 0.15,
+        "dodgeDurationS": 1,
+        "dodgeDistance": 0.5,
+        "cameraDistance": 4,
+        "minPokemonActionFrequencyS": 0.2,
+        "maxPokemonActionFrequencyS": 1.6
+      },
+      "stats": {
+        "baseStamina": 120,
+        "baseAttack": 134,
+        "baseDefense": 96
+      },
+      "quickMoves": [
+        "ASTONISH_FAST",
+        "SUCKER_PUNCH_FAST"
+      ],
+      "cinematicMoves": [
+        "SHADOW_BALL",
+        "DARK_PULSE",
+        "PSYCHIC"
+      ],
+      "pokedexHeightM": 0.1,
+      "pokedexWeightKg": 0.2,
+      "heightStdDev": 0.0125,
+      "weightStdDev": 0.025,
+      "familyId": "FAMILY_SINISTEA",
+      "kmBuddyDistance": 3,
+      "modelHeight": 1.38,
+      "evolutionBranch": [
+        {
+          "evolution": "POLTEAGEIST",
+          "candyCost": 400,
+          "form": 3368
+        }
+      ],
+      "modelScaleV2": 2.45,
+      "form": 3366,
+      "buddyOffsetMale": [
+        0,
+        0,
+        0
+      ],
+      "buddyOffsetFemale": [
+        0,
+        0,
+        0
+      ],
+      "buddyScale": 19,
+      "buddyPortraitOffset": [
+        0,
+        100,
+        0
+      ],
+      "thirdMove": {
+        "stardustToUnlock": 50000,
+        "candyToUnlock": 50
+      },
+      "isTransferable": true,
+      "isDeployable": true,
+      "isTradable": true,
+      "buddyGroupNumber": 2,
+      "ibfc": {},
+      "breadTierGroup": "GROUP_2"
+    }
+  },
+  {
     "templateId": "V0854_POKEMON_SINISTEA_PHONY",
     "data": {
       "pokemonId": "SINISTEA",
@@ -209431,6 +209954,87 @@
         0
       ],
       "buddyScale": 19,
+      "thirdMove": {
+        "stardustToUnlock": 50000,
+        "candyToUnlock": 50
+      },
+      "isTransferable": true,
+      "isDeployable": true,
+      "isTradable": true,
+      "buddyGroupNumber": 2,
+      "ibfc": {},
+      "breadTierGroup": "GROUP_2"
+    }
+  },
+  {
+    "templateId": "V0854_POKEMON_SINISTEA_P_HALLOWEEN_2026_01",
+    "data": {
+      "pokemonId": "SINISTEA",
+      "type": "POKEMON_TYPE_GHOST",
+      "camera": {
+        "cylinderRadiusM": 0.2,
+        "cylinderHeightM": 0.2,
+        "cylinderGroundM": 0.1
+      },
+      "encounter": {
+        "collisionRadiusM": 0.15,
+        "collisionHeightM": 0.1,
+        "collisionHeadRadiusM": 0.1,
+        "movementType": "MOVEMENT_HOVERING",
+        "attackProbability": 0.3,
+        "dodgeProbability": 0.15,
+        "dodgeDurationS": 1,
+        "dodgeDistance": 0.5,
+        "cameraDistance": 4,
+        "minPokemonActionFrequencyS": 0.2,
+        "maxPokemonActionFrequencyS": 1.6
+      },
+      "stats": {
+        "baseStamina": 120,
+        "baseAttack": 134,
+        "baseDefense": 96
+      },
+      "quickMoves": [
+        "ASTONISH_FAST",
+        "SUCKER_PUNCH_FAST"
+      ],
+      "cinematicMoves": [
+        "SHADOW_BALL",
+        "DARK_PULSE",
+        "PSYCHIC"
+      ],
+      "pokedexHeightM": 0.1,
+      "pokedexWeightKg": 0.2,
+      "heightStdDev": 0.0125,
+      "weightStdDev": 0.025,
+      "familyId": "FAMILY_SINISTEA",
+      "kmBuddyDistance": 3,
+      "modelHeight": 1.38,
+      "evolutionBranch": [
+        {
+          "evolution": "POLTEAGEIST",
+          "candyCost": 50,
+          "form": 3367
+        }
+      ],
+      "modelScaleV2": 2.45,
+      "form": 3365,
+      "buddyOffsetMale": [
+        0,
+        0,
+        0
+      ],
+      "buddyOffsetFemale": [
+        0,
+        0,
+        0
+      ],
+      "buddyScale": 19,
+      "buddyPortraitOffset": [
+        0,
+        100,
+        0
+      ],
       "thirdMove": {
         "stardustToUnlock": 50000,
         "candyToUnlock": 50
@@ -209591,6 +210195,80 @@
     }
   },
   {
+    "templateId": "V0855_POKEMON_POLTEAGEIST_A_HALLOWEEN_2026_01",
+    "data": {
+      "pokemonId": "POLTEAGEIST",
+      "type": "POKEMON_TYPE_GHOST",
+      "camera": {
+        "cylinderRadiusM": 0.3,
+        "cylinderHeightM": 0.4,
+        "cylinderGroundM": 0.1
+      },
+      "encounter": {
+        "collisionRadiusM": 0.2,
+        "collisionHeightM": 0.2,
+        "collisionHeadRadiusM": 0.1,
+        "movementType": "MOVEMENT_HOVERING",
+        "bonusCandyCaptureReward": 2,
+        "bonusStardustCaptureReward": 200,
+        "attackProbability": 0.1,
+        "dodgeProbability": 0.15,
+        "dodgeDurationS": 1,
+        "dodgeDistance": 0.5,
+        "cameraDistance": 4,
+        "minPokemonActionFrequencyS": 0.2,
+        "maxPokemonActionFrequencyS": 1.6,
+        "bonusXlCandyCaptureReward": 1
+      },
+      "stats": {
+        "baseStamina": 155,
+        "baseAttack": 248,
+        "baseDefense": 189
+      },
+      "quickMoves": [
+        "ASTONISH_FAST",
+        "SUCKER_PUNCH_FAST",
+        "HEX_FAST"
+      ],
+      "cinematicMoves": [
+        "SHADOW_BALL",
+        "DARK_PULSE",
+        "PSYCHIC"
+      ],
+      "pokedexHeightM": 0.2,
+      "pokedexWeightKg": 0.4,
+      "parentPokemonId": "SINISTEA",
+      "heightStdDev": 0.025,
+      "weightStdDev": 0.05,
+      "familyId": "FAMILY_SINISTEA",
+      "kmBuddyDistance": 3,
+      "modelHeight": 1,
+      "modelScaleV2": 1.22,
+      "form": 3368,
+      "buddyOffsetMale": [
+        0,
+        0,
+        0
+      ],
+      "buddyOffsetFemale": [
+        0,
+        0,
+        0
+      ],
+      "buddyScale": 19,
+      "thirdMove": {
+        "stardustToUnlock": 50000,
+        "candyToUnlock": 50
+      },
+      "isTransferable": true,
+      "isDeployable": true,
+      "isTradable": true,
+      "buddyGroupNumber": 2,
+      "ibfc": {},
+      "breadTierGroup": "GROUP_2"
+    }
+  },
+  {
     "templateId": "V0855_POKEMON_POLTEAGEIST_PHONY",
     "data": {
       "pokemonId": "POLTEAGEIST",
@@ -209641,6 +210319,80 @@
       "modelHeight": 1,
       "modelScaleV2": 1.22,
       "form": "POLTEAGEIST_PHONY",
+      "buddyOffsetMale": [
+        0,
+        0,
+        0
+      ],
+      "buddyOffsetFemale": [
+        0,
+        0,
+        0
+      ],
+      "buddyScale": 19,
+      "thirdMove": {
+        "stardustToUnlock": 50000,
+        "candyToUnlock": 50
+      },
+      "isTransferable": true,
+      "isDeployable": true,
+      "isTradable": true,
+      "buddyGroupNumber": 2,
+      "ibfc": {},
+      "breadTierGroup": "GROUP_2"
+    }
+  },
+  {
+    "templateId": "V0855_POKEMON_POLTEAGEIST_P_HALLOWEEN_2026_01",
+    "data": {
+      "pokemonId": "POLTEAGEIST",
+      "type": "POKEMON_TYPE_GHOST",
+      "camera": {
+        "cylinderRadiusM": 0.3,
+        "cylinderHeightM": 0.4,
+        "cylinderGroundM": 0.1
+      },
+      "encounter": {
+        "collisionRadiusM": 0.2,
+        "collisionHeightM": 0.2,
+        "collisionHeadRadiusM": 0.1,
+        "movementType": "MOVEMENT_HOVERING",
+        "bonusCandyCaptureReward": 2,
+        "bonusStardustCaptureReward": 200,
+        "attackProbability": 0.1,
+        "dodgeProbability": 0.15,
+        "dodgeDurationS": 1,
+        "dodgeDistance": 0.5,
+        "cameraDistance": 4,
+        "minPokemonActionFrequencyS": 0.2,
+        "maxPokemonActionFrequencyS": 1.6,
+        "bonusXlCandyCaptureReward": 1
+      },
+      "stats": {
+        "baseStamina": 155,
+        "baseAttack": 248,
+        "baseDefense": 189
+      },
+      "quickMoves": [
+        "ASTONISH_FAST",
+        "SUCKER_PUNCH_FAST",
+        "HEX_FAST"
+      ],
+      "cinematicMoves": [
+        "SHADOW_BALL",
+        "DARK_PULSE",
+        "PSYCHIC"
+      ],
+      "pokedexHeightM": 0.2,
+      "pokedexWeightKg": 0.4,
+      "parentPokemonId": "SINISTEA",
+      "heightStdDev": 0.025,
+      "weightStdDev": 0.05,
+      "familyId": "FAMILY_SINISTEA",
+      "kmBuddyDistance": 3,
+      "modelHeight": 1,
+      "modelScaleV2": 1.22,
+      "form": 3367,
       "buddyOffsetMale": [
         0,
         0,
@@ -224986,13 +225738,16 @@
       "pokemonId": "BRAMBLIN",
       "type": "POKEMON_TYPE_GRASS",
       "type2": "POKEMON_TYPE_GHOST",
-      "camera": {},
+      "camera": {
+        "cylinderRadiusM": 0.5,
+        "cylinderHeightM": 0.6
+      },
       "encounter": {
-        "movementType": "MOVEMENT_HOVERING",
+        "collisionHeadRadiusM": 0.325,
         "jumpTimeS": 1,
         "attackProbability": 0.1,
-        "dodgeProbability": 0.15,
         "dodgeDurationS": 1,
+        "cameraDistance": 3.5,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
@@ -225016,6 +225771,7 @@
       "weightStdDev": 0.075,
       "familyId": "FAMILY_BRAMBLIN",
       "kmBuddyDistance": 5,
+      "modelHeight": 0.6,
       "evolutionBranch": [
         {
           "evolution": "BRAMBLEGHAST",
@@ -225028,6 +225784,13 @@
           ]
         }
       ],
+      "modelScaleV2": 1,
+      "buddyScale": 19,
+      "buddyPortraitOffset": [
+        0,
+        100,
+        50
+      ],
       "thirdMove": {
         "stardustToUnlock": 75000,
         "candyToUnlock": 75
@@ -225035,6 +225798,13 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "buddyGroupNumber": 2,
+      "raidBossDistanceOffset": 2,
+      "buddyPortraitRotation": [
+        0,
+        15,
+        0
+      ],
       "ibfc": {},
       "breadTierGroup": "GROUP_3"
     }
@@ -225045,13 +225815,16 @@
       "pokemonId": "BRAMBLIN",
       "type": "POKEMON_TYPE_GRASS",
       "type2": "POKEMON_TYPE_GHOST",
-      "camera": {},
+      "camera": {
+        "cylinderRadiusM": 0.5,
+        "cylinderHeightM": 0.6
+      },
       "encounter": {
-        "movementType": "MOVEMENT_HOVERING",
+        "collisionHeadRadiusM": 0.325,
         "jumpTimeS": 1,
         "attackProbability": 0.1,
-        "dodgeProbability": 0.15,
         "dodgeDurationS": 1,
+        "cameraDistance": 3.5,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
@@ -225075,6 +225848,7 @@
       "weightStdDev": 0.075,
       "familyId": "FAMILY_BRAMBLIN",
       "kmBuddyDistance": 5,
+      "modelHeight": 0.6,
       "evolutionBranch": [
         {
           "evolution": "BRAMBLEGHAST",
@@ -225088,7 +225862,14 @@
           ]
         }
       ],
+      "modelScaleV2": 1,
       "form": "BRAMBLIN_NORMAL",
+      "buddyScale": 19,
+      "buddyPortraitOffset": [
+        0,
+        100,
+        50
+      ],
       "thirdMove": {
         "stardustToUnlock": 75000,
         "candyToUnlock": 75
@@ -225096,6 +225877,13 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "buddyGroupNumber": 2,
+      "raidBossDistanceOffset": 2,
+      "buddyPortraitRotation": [
+        0,
+        15,
+        0
+      ],
       "ibfc": {},
       "breadTierGroup": "GROUP_3"
     }
@@ -225106,15 +225894,18 @@
       "pokemonId": "BRAMBLEGHAST",
       "type": "POKEMON_TYPE_GRASS",
       "type2": "POKEMON_TYPE_GHOST",
-      "camera": {},
+      "camera": {
+        "cylinderRadiusM": 1,
+        "cylinderHeightM": 1.2
+      },
       "encounter": {
-        "movementType": "MOVEMENT_HOVERING",
+        "collisionHeadRadiusM": 0.625,
         "jumpTimeS": 1,
         "bonusCandyCaptureReward": 2,
         "bonusStardustCaptureReward": 200,
         "attackProbability": 0.1,
-        "dodgeProbability": 0.15,
         "dodgeDurationS": 1,
+        "cameraDistance": 4,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6,
         "bonusXlCandyCaptureReward": 1
@@ -225140,6 +225931,14 @@
       "weightStdDev": 0.75,
       "familyId": "FAMILY_BRAMBLIN",
       "kmBuddyDistance": 5,
+      "modelHeight": 1.2,
+      "modelScaleV2": 1,
+      "buddyScale": 19,
+      "buddyPortraitOffset": [
+        0,
+        180,
+        125
+      ],
       "thirdMove": {
         "stardustToUnlock": 75000,
         "candyToUnlock": 75
@@ -225147,6 +225946,13 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "buddyGroupNumber": 2,
+      "raidBossDistanceOffset": 2,
+      "buddyPortraitRotation": [
+        0,
+        15,
+        0
+      ],
       "ibfc": {},
       "breadTierGroup": "GROUP_3"
     }
@@ -225157,15 +225963,18 @@
       "pokemonId": "BRAMBLEGHAST",
       "type": "POKEMON_TYPE_GRASS",
       "type2": "POKEMON_TYPE_GHOST",
-      "camera": {},
+      "camera": {
+        "cylinderRadiusM": 1,
+        "cylinderHeightM": 1.2
+      },
       "encounter": {
-        "movementType": "MOVEMENT_HOVERING",
+        "collisionHeadRadiusM": 0.625,
         "jumpTimeS": 1,
         "bonusCandyCaptureReward": 2,
         "bonusStardustCaptureReward": 200,
         "attackProbability": 0.1,
-        "dodgeProbability": 0.15,
         "dodgeDurationS": 1,
+        "cameraDistance": 4,
         "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6,
         "bonusXlCandyCaptureReward": 1
@@ -225191,7 +226000,15 @@
       "weightStdDev": 0.75,
       "familyId": "FAMILY_BRAMBLIN",
       "kmBuddyDistance": 5,
+      "modelHeight": 1.2,
+      "modelScaleV2": 1,
       "form": "BRAMBLEGHAST_NORMAL",
+      "buddyScale": 19,
+      "buddyPortraitOffset": [
+        0,
+        180,
+        125
+      ],
       "thirdMove": {
         "stardustToUnlock": 75000,
         "candyToUnlock": 75
@@ -225199,6 +226016,13 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "buddyGroupNumber": 2,
+      "raidBossDistanceOffset": 2,
+      "buddyPortraitRotation": [
+        0,
+        15,
+        0
+      ],
       "ibfc": {},
       "breadTierGroup": "GROUP_3"
     }
