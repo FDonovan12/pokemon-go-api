@@ -3742,7 +3742,7 @@ export interface StickerMetadatumData {
     stickerId:    string;
     maxCount:     number;
     pokemonId?:   string;
-    category?:    CategoryElement[];
+    category:     CategoryElement[];
     releaseDate?: number;
     regionId?:    number;
     stickerUrl?:  string;

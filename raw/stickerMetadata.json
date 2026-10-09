@@ -2652,6 +2652,9 @@
     "data": {
       "stickerId": "STICKER_GOWA2026_2",
       "maxCount": 25,
+      "category": [
+        "Misc"
+      ],
       "releaseDate": 20261105
     }
   },
@@ -2941,6 +2944,19 @@
     }
   },
   {
+    "templateId": "STICKER_HALLOWEEN_CROBAT",
+    "data": {
+      "stickerId": "STICKER_HALLOWEEN_CROBAT",
+      "maxCount": 25,
+      "pokemonId": "CROBAT",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20261027,
+      "regionId": 1
+    }
+  },
+  {
     "templateId": "STICKER_HALLOWEEN_GENGARMD",
     "data": {
       "stickerId": "STICKER_HALLOWEEN_GENGARMD",
@@ -2964,6 +2980,31 @@
         "Pokemon"
       ],
       "releaseDate": 20201027
+    }
+  },
+  {
+    "templateId": "STICKER_HALLOWEEN_PIKACHU_PANCAKE",
+    "data": {
+      "stickerId": "STICKER_HALLOWEEN_PIKACHU_PANCAKE",
+      "maxCount": 25,
+      "pokemonId": "PIKACHU",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20261027
+    }
+  },
+  {
+    "templateId": "STICKER_HALLOWEEN_POLTEAGEIST",
+    "data": {
+      "stickerId": "STICKER_HALLOWEEN_POLTEAGEIST",
+      "maxCount": 25,
+      "pokemonId": "POLTEAGEIST",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20261027,
+      "regionId": 7
     }
   },
   {

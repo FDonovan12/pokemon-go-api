@@ -2169,6 +2169,54 @@
     }
   },
   {
+    "templateId": "STICKER_GOWA2026_1.3",
+    "data": {
+      "sku": "STICKER_GOWA2026_1.3",
+      "category": "IAP_CATEGORY_STICKER",
+      "sortOrder": 6
+    }
+  },
+  {
+    "templateId": "STICKER_GOWA2026_1.5",
+    "data": {
+      "sku": "STICKER_GOWA2026_1.5",
+      "category": "IAP_CATEGORY_STICKER",
+      "sortOrder": 5
+    }
+  },
+  {
+    "templateId": "STICKER_GOWA2026_2.3",
+    "data": {
+      "sku": "STICKER_GOWA2026_2.3",
+      "category": "IAP_CATEGORY_STICKER",
+      "sortOrder": 4
+    }
+  },
+  {
+    "templateId": "STICKER_GOWA2026_2.5",
+    "data": {
+      "sku": "STICKER_GOWA2026_2.5",
+      "category": "IAP_CATEGORY_STICKER",
+      "sortOrder": 3
+    }
+  },
+  {
+    "templateId": "STICKER_GOWA2026_3.3",
+    "data": {
+      "sku": "STICKER_GOWA2026_3.3",
+      "category": "IAP_CATEGORY_STICKER",
+      "sortOrder": 2
+    }
+  },
+  {
+    "templateId": "STICKER_GOWA2026_3.5",
+    "data": {
+      "sku": "STICKER_GOWA2026_3.5",
+      "category": "IAP_CATEGORY_STICKER",
+      "sortOrder": 1
+    }
+  },
+  {
     "templateId": "STICKER_HALLOWEEN2025_NOIBAT.3",
     "data": {
       "sku": "STICKER_HALLOWEEN2025_NOIBAT.3",
@@ -2329,6 +2377,22 @@
     }
   },
   {
+    "templateId": "STICKER_HALLOWEEN_CROBAT_1.3",
+    "data": {
+      "sku": "STICKER_HALLOWEEN_CROBAT_1.3",
+      "category": "IAP_CATEGORY_STICKER",
+      "sortOrder": 10
+    }
+  },
+  {
+    "templateId": "STICKER_HALLOWEEN_CROBAT_1.5",
+    "data": {
+      "sku": "STICKER_HALLOWEEN_CROBAT_1.5",
+      "category": "IAP_CATEGORY_STICKER",
+      "sortOrder": 9
+    }
+  },
+  {
     "templateId": "STICKER_HALLOWEEN_GENGARMD.3",
     "data": {
       "sku": "STICKER_HALLOWEEN_GENGARMD.3",
@@ -2358,6 +2422,38 @@
       "sku": "STICKER_HALLOWEEN_PIKA.5",
       "category": "IAP_CATEGORY_STICKER",
       "sortOrder": 1
+    }
+  },
+  {
+    "templateId": "STICKER_HALLOWEEN_PIKACHU_PANCAKE_1.3",
+    "data": {
+      "sku": "STICKER_HALLOWEEN_PIKACHU_PANCAKE_1.3",
+      "category": "IAP_CATEGORY_STICKER",
+      "sortOrder": 12
+    }
+  },
+  {
+    "templateId": "STICKER_HALLOWEEN_PIKACHU_PANCAKE_1.5",
+    "data": {
+      "sku": "STICKER_HALLOWEEN_PIKACHU_PANCAKE_1.5",
+      "category": "IAP_CATEGORY_STICKER",
+      "sortOrder": 11
+    }
+  },
+  {
+    "templateId": "STICKER_HALLOWEEN_POLTEAGEIST_1.3",
+    "data": {
+      "sku": "STICKER_HALLOWEEN_POLTEAGEIST_1.3",
+      "category": "IAP_CATEGORY_STICKER",
+      "sortOrder": 8
+    }
+  },
+  {
+    "templateId": "STICKER_HALLOWEEN_POLTEAGEIST_1.5",
+    "data": {
+      "sku": "STICKER_HALLOWEEN_POLTEAGEIST_1.5",
+      "category": "IAP_CATEGORY_STICKER",
+      "sortOrder": 7
     }
   },
   {
