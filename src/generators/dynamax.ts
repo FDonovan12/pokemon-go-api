@@ -18,7 +18,6 @@ const GIGAMAX_NOT_RELEASED = [
     'HATTERENE',
     'ALCREMIE',
     'COPPERAJAH',
-    'DURALUDON',
     'URSHIFU',
 ];
 const OTHER_FORM_IDS = ['zacian', 'zamazenta', 'eternatus'];
