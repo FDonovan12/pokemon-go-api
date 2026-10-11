@@ -9939,68 +9939,6 @@
     "isReleased": false
   },
   {
-    "pokemonId": "DURALUDON",
-    "name": "Duralugon",
-    "dexNumber": 884,
-    "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/10225.png",
-    "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/10225.png",
-    "slug": "duralugon",
-    "types": [
-      "Acier",
-      "Dragon"
-    ],
-    "stats": {
-      "baseStamina": 172,
-      "baseAttack": 239,
-      "baseDefense": 185
-    },
-    "quickMoves": {
-      "DRAGON_TAIL_FAST": {
-        "id": "V0253_MOVE_DRAGON_TAIL_FAST",
-        "movementId": "DRAGON_TAIL_FAST",
-        "pokemonType": "Dragon",
-        "power": 14,
-        "durationMs": 1000,
-        "energyDelta": 8,
-        "vfxName": "dragon_tail_fast",
-        "names": {
-          "fr": "Draco-Queue"
-        }
-      },
-      "METAL_CLAW_FAST": {
-        "id": "V0228_MOVE_METAL_CLAW_FAST",
-        "movementId": "METAL_CLAW_FAST",
-        "pokemonType": "Acier",
-        "power": 6,
-        "durationMs": 500,
-        "energyDelta": 5,
-        "vfxName": "metal_claw_fast",
-        "names": {
-          "fr": "Griffe Acier"
-        }
-      }
-    },
-    "dynamaxMove": [
-      {
-        "id": "VN_BM_044",
-        "movementId": "VN_BM_044",
-        "pokemonType": "Dragon",
-        "powerLevels": [
-          350,
-          400,
-          450,
-          550
-        ],
-        "vfxName": "gmax_depletion",
-        "names": {
-          "fr": "Gmax Depletion"
-        }
-      }
-    ],
-    "familyId": "Duralugon",
-    "isReleased": false
-  },
-  {
     "pokemonId": "URSHIFU",
     "name": "Shifours",
     "dexNumber": 892,
