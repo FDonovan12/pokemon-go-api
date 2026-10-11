@@ -1855,7 +1855,7 @@
             }
           }
         ],
-        "detailsLinkKey": "details_link_key",
+        "detailsLinkKey": "zorua_website_link",
         "clientEventStartTimeUtcMs": "1791640800000",
         "clientEventEndTimeUtcMs": "1791651600000"
       },

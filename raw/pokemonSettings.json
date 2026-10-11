@@ -144764,6 +144764,9 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 2,
+      "eliteQuickMove": [
+        "SUCKER_PUNCH_FAST"
+      ],
       "ibfc": {},
       "breadTierGroup": "GROUP_3"
     }
@@ -144957,6 +144960,9 @@
       "isDeployable": true,
       "isTradable": true,
       "buddyGroupNumber": 2,
+      "eliteQuickMove": [
+        "SUCKER_PUNCH_FAST"
+      ],
       "ibfc": {},
       "breadTierGroup": "GROUP_3"
     }

@@ -63,6 +63,13 @@
     }
   },
   {
+    "templateId": "COMBAT_VNEXT_SHOW_MINIOR_IBFC_TOASTS_FEATURE_GATE",
+    "data": {
+      "status": 1,
+      "rolloutPercentage": 100
+    }
+  },
+  {
     "templateId": "COMBINE_COMPASS_AND_WEATHER_FEATURE_GATE",
     "data": {
       "status": 2059828614,
@@ -207,6 +214,13 @@
   },
   {
     "templateId": "HIDE_CAMPFIRE_MAP_BUTTONS_FEATURE_GATE",
+    "data": {
+      "status": 1,
+      "rolloutPercentage": 100
+    }
+  },
+  {
+    "templateId": "HIDE_UI_IN_MINIOR_IBFC_FEATURE_GATE",
     "data": {
       "status": 1,
       "rolloutPercentage": 100
