@@ -1,6 +1,7 @@
 import path from 'path';
 
 import 'utilitish';
+import { setSlugifyConfig, SlugifyConfig } from 'utilitish';
 import { isDev } from './config.js';
 import { IntermediateRunner } from './IntermediateRunner.js';
 import { loadIntermediates } from './loadIntermediates.js';
@@ -11,6 +12,10 @@ runIntermediates().catch((err) => {
 });
 
 async function runIntermediates() {
+    setSlugifyConfig(
+        SlugifyConfig.builder().withCustomReplacements({ '♂': '_male', '♀': '_female' }).build(),
+    );
+
     const intermediatesFolder = isDev
         ? path.resolve('./src/intermediates')
         : path.resolve('./src/intermediates');

@@ -16,7 +16,7 @@ const SPEED_NAMES: Record<string, GeneratorSpeed> = {
 
 async function main() {
     setSlugifyConfig(
-        SlugifyConfig.builder().withCustomReplacements({ '♂': '_male', '♀': '_male' }).build(),
+        SlugifyConfig.builder().withCustomReplacements({ '♂': '_male', '♀': '_female' }).build(),
     );
 
     const onlyArg = process.argv.find((arg) => arg.startsWith('--only='));
