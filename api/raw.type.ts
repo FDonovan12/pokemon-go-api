@@ -101,6 +101,7 @@ export enum TypeElement {
     Candy = "CANDY",
     Experience = "EXPERIENCE",
     Item = "ITEM",
+    MegaResource = "MEGA_RESOURCE",
     PlayerAttribute = "PLAYER_ATTRIBUTE",
     PokemonEncounter = "POKEMON_ENCOUNTER",
     Stardust = "STARDUST",
@@ -1442,12 +1443,12 @@ export interface EventPassTrackUpgradeDescription {
     eventPassTrackToUpgradeTo:         Track;
     trackUnlockSkuId:                  string;
     trackUnlockPlusPointsSkuId:        string;
-    eventDurationKey:                  string;
     upgradeDescriptionKey:             string;
     ranksToHighlightRewards:           number[];
     detailsLinkKey:                    string;
     trackUnlockImageUrl:               string;
     trackUnlockPlusPointsImageUrl:     string;
+    eventDurationKey?:                 string;
 }
 
 export enum Track {
@@ -1471,9 +1472,9 @@ export interface EventPassTierSettingData {
     track:                       Track;
     minPointsRequired?:          number;
     rewards?:                    PurpleReward[];
-    isMilestoneRank?:            boolean;
     bonusSettings?:              Settings;
     activeBonusDisplaySettings?: Settings;
+    isMilestoneRank?:            boolean;
 }
 
 export interface Settings {
@@ -1487,6 +1488,7 @@ export interface ActiveBonusDisplaySettingsBonusBox {
 }
 
 export enum IconType {
+    Buddy = "BUDDY",
     EggIncubator = "EGG_INCUBATOR",
     Gift = "GIFT",
     Incense = "INCENSE",
@@ -1495,13 +1497,14 @@ export enum IconType {
 
 export interface PurpleReward {
     type:              TypeElement;
-    pokemonEncounter?: RewardPokemonEncounter;
-    item?:             RewardDatumItem;
+    playerAttribute?:  PlayerAttribute;
+    exp?:              number;
     stardust?:         number;
+    item?:             RewardDatumItem;
+    pokemonEncounter?: RewardPokemonEncounter;
+    megaResource?:     Candy;
     candy?:            Candy;
     xlCandy?:          Candy;
-    exp?:              number;
-    playerAttribute?:  PlayerAttribute;
 }
 
 export interface Candy {
@@ -1517,8 +1520,8 @@ export interface PlayerAttribute {
 export interface RewardPokemonEncounter {
     pokemonId:            string;
     pokemonDisplay?:      PurplePokemonDisplay;
-    statsLimitsOverride?: StatsLimitsOverride;
     isFeaturedPokemon?:   boolean;
+    statsLimitsOverride?: StatsLimitsOverride;
 }
 
 export interface PurplePokemonDisplay {
@@ -1900,7 +1903,7 @@ export interface FluffyPokemonDisplay {
 
 export interface Incense {
     incenseLifetimeSeconds: number;
-    spawnTableProbability?: number;
+    spawnTableProbability:  number;
 }
 
 export interface IncidentTicket {

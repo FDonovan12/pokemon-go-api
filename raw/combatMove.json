@@ -3769,6 +3769,16 @@
     }
   },
   {
+    "templateId": "COMBAT_VM_MOVE_TEMP_EVOLUTION_MEGA_V0310_POKEMON_MANECTRIC",
+    "data": {
+      "uniqueId": "TEMP_EVOLUTION_MEGA_V0310_POKEMON_MANECTRIC",
+      "type": "POKEMON_TYPE_ELECTRIC",
+      "power": 50,
+      "vfxName": "discharge",
+      "energyDelta": -35
+    }
+  },
+  {
     "templateId": "COMBAT_VM_MOVE_TEMP_EVOLUTION_MEGA_V0398_POKEMON_STARAPTOR",
     "data": {
       "uniqueId": "TEMP_EVOLUTION_MEGA_V0398_POKEMON_STARAPTOR",

@@ -293,7 +293,7 @@
       },
       "timePeriodCounters": {
         "playerActivity": {
-          "limit": 300
+          "limit": 500
         }
       },
       "hideItemInInventory": true
@@ -2483,7 +2483,8 @@
       "category": "ITEM_CATEGORY_INCENSE",
       "dropTrainerLevel": 1,
       "incense": {
-        "incenseLifetimeSeconds": 3600
+        "incenseLifetimeSeconds": 3600,
+        "spawnTableProbability": 0.6
       }
     }
   },

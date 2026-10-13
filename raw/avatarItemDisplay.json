@@ -6408,6 +6408,20 @@
     }
   },
   {
+    "templateId": "N_DISPLAY_n_shirt_gothiclolita-shorts",
+    "data": {
+      "iconAddress": "n_shirt_gothiclolita-shorts_icon",
+      "displayStringId": "avatar_shirt_gothiclolitashorts"
+    }
+  },
+  {
+    "templateId": "N_DISPLAY_n_shirt_gothiclolita-skirt",
+    "data": {
+      "iconAddress": "n_shirt_gothiclolita-skirt_icon",
+      "displayStringId": "avatar_shirt_gothiclolitaskirt"
+    }
+  },
+  {
     "templateId": "N_DISPLAY_n_shirt_gothitelleitems_0",
     "data": {
       "iconAddress": "n_shirt_gothitelleitems_0_icon",
@@ -9033,6 +9047,13 @@
     }
   },
   {
+    "templateId": "N_DISPLAY_n_shoes_gothiclolita",
+    "data": {
+      "iconAddress": "n_shoes_gothiclolita_icon",
+      "displayStringId": "avatar_shoes_gothiclolita"
+    }
+  },
+  {
     "templateId": "N_DISPLAY_n_shoes_gothitelleitems_0",
     "data": {
       "iconAddress": "n_shoes_gothitelleitems_0_icon",
@@ -9870,6 +9891,13 @@
     "data": {
       "iconAddress": "n_socks_fw2022_b_0_icon",
       "displayStringId": "n_socks_fw2022_b_0_display_name"
+    }
+  },
+  {
+    "templateId": "N_DISPLAY_n_socks_gothiclolita",
+    "data": {
+      "iconAddress": "n_socks_gothiclolita_icon",
+      "displayStringId": "avatar_socks_gothiclolita"
     }
   },
   {

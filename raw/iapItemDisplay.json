@@ -176,13 +176,12 @@
     "data": {
       "sku": "pgorelease.october1_2026_deluxe_event_pass_track_unlock",
       "sortOrder": 1,
-      "hidden": true,
       "title": "season_pass_premium_track_title_fall_marathon_2026",
       "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
       "skuEnableTime": "2025-10-13T10:00:00",
-      "skuDisableTime": "2025-10-21T20:00:00",
+      "skuDisableTime": "2026-10-21T20:00:00",
       "skuEnableTimeUtcMs": "1760349600000",
-      "skuDisableTimeUtcMs": "1761076800000",
+      "skuDisableTimeUtcMs": "1792612800000",
       "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F9272deab_PGO-MCS_Fall_Marathon_Buddy_Trek_TICKET_v1-1024x576.jpg"
     }
   },
@@ -191,13 +190,12 @@
     "data": {
       "sku": "pgorelease.october1_2026_deluxe_event_pass_track_unlock_plus_points",
       "sortOrder": 1,
-      "hidden": true,
       "title": "season_pass_premium_track_plus_six_ranks_title_fall_marathon_2026",
       "description": "event_pass_plus_points_6_ranks_description",
       "skuEnableTime": "2025-10-13T10:00:00",
-      "skuDisableTime": "2025-10-21T20:00:00",
+      "skuDisableTime": "2026-10-21T20:00:00",
       "skuEnableTimeUtcMs": "1760349600000",
-      "skuDisableTimeUtcMs": "1761076800000",
+      "skuDisableTimeUtcMs": "1792612800000",
       "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F9272deab_PGO-MCS_Fall_Marathon_Buddy_Trek_TICKET_v1-1024x576.jpg"
     }
   },
@@ -205,14 +203,14 @@
     "templateId": "OCTOBER1_2026_DELUXE_EVENT_PASS_TRACK_UNLOCK_REDIRECT",
     "data": {
       "sku": "pgorelease.october1_2026_deluxe_event_pass_track_unlock_redirect",
+      "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 1,
-      "hidden": true,
       "title": "season_pass_premium_track_title_fall_marathon_2026",
       "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
       "skuEnableTime": "2025-10-13T10:00:00",
-      "skuDisableTime": "2025-10-21T20:00:00",
+      "skuDisableTime": "2026-10-21T20:00:00",
       "skuEnableTimeUtcMs": "1760349600000",
-      "skuDisableTimeUtcMs": "1761076800000",
+      "skuDisableTimeUtcMs": "1792612800000",
       "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F9272deab_PGO-MCS_Fall_Marathon_Buddy_Trek_TICKET_v1-1024x576.jpg"
     }
   },
@@ -6771,13 +6769,10 @@
       "sku": "bundle.cd2022.1",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 1,
+      "hidden": true,
       "sale": true,
-      "spriteId": "bundle.general4.small.1",
-      "title": "bundle.general4.small.1_title",
-      "skuEnableTime": "2022-10-13T12:00:00",
-      "skuDisableTime": "2026-10-11T23:59:59",
-      "skuEnableTimeUtcMs": "1665662400000",
-      "skuDisableTimeUtcMs": "1791763199000"
+      "spriteId": "bundle.halloween.small.1",
+      "title": "bundle.halloween.small.1_title"
     }
   },
   {
@@ -6786,13 +6781,10 @@
       "sku": "bundle.cd2022.2",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 2,
+      "hidden": true,
       "sale": true,
-      "spriteId": "bundle.general1.medium.1",
-      "title": "bundle.general1.medium.1_title",
-      "skuEnableTime": "2022-10-13T12:00:00",
-      "skuDisableTime": "2026-10-11T23:59:59",
-      "skuEnableTimeUtcMs": "1665662400000",
-      "skuDisableTimeUtcMs": "1791763199000"
+      "spriteId": "bundle.halloween.adventure.1",
+      "title": "bundle.halloween.adventure.1_title"
     }
   },
   {
@@ -7874,9 +7866,14 @@
       "sku": "bundle.hatchbox2024.1",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 1,
-      "hidden": true,
       "spriteId": "bundle.general.adventure.1",
-      "title": "bundle.xmas.large.1_title"
+      "title": "bundle.xmas.large.1_title",
+      "skuEnableTime": "2022-10-13T12:00:00",
+      "skuDisableTime": "2026-10-19T20:00:00",
+      "skuEnableTimeUtcMs": "1665662400000",
+      "skuDisableTimeUtcMs": "1792440000000",
+      "showDiscountTag": true,
+      "showStrikethroughPrice": true
     }
   },
   {
@@ -10240,6 +10237,34 @@
       "sale": true,
       "spriteId": "bundle.general1.small.2",
       "title": "boost_box_title"
+    }
+  },
+  {
+    "templateId": "pgorelease.october1_2026_deluxe_event_pass_track_unlock",
+    "data": {
+      "sku": "pgorelease.october1_2026_deluxe_event_pass_track_unlock",
+      "sortOrder": 1,
+      "title": "season_pass_premium_track_title_fall_marathon_2026",
+      "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
+      "skuEnableTime": "2025-10-13T10:00:00",
+      "skuDisableTime": "2026-10-21T20:00:00",
+      "skuEnableTimeUtcMs": "1760349600000",
+      "skuDisableTimeUtcMs": "1792612800000",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F9272deab_PGO-MCS_Fall_Marathon_Buddy_Trek_TICKET_v1-1024x576.jpg"
+    }
+  },
+  {
+    "templateId": "pgorelease.october1_2026_deluxe_event_pass_track_unlock_plus_points",
+    "data": {
+      "sku": "pgorelease.october1_2026_deluxe_event_pass_track_unlock_plus_points",
+      "sortOrder": 1,
+      "title": "season_pass_premium_track_plus_six_ranks_title_fall_marathon_2026",
+      "description": "event_pass_plus_points_6_ranks_description",
+      "skuEnableTime": "2025-10-13T10:00:00",
+      "skuDisableTime": "2026-10-21T20:00:00",
+      "skuEnableTimeUtcMs": "1760349600000",
+      "skuDisableTimeUtcMs": "1792612800000",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F9272deab_PGO-MCS_Fall_Marathon_Buddy_Trek_TICKET_v1-1024x576.jpg"
     }
   },
   {

@@ -85127,7 +85127,8 @@
           "averageHeightM": 1.8,
           "averageWeightKg": 44,
           "typeOverride1": "POKEMON_TYPE_ELECTRIC",
-          "raidBossDistanceOffset": 9
+          "raidBossDistanceOffset": 9,
+          "specialMove": "TEMP_EVOLUTION_MEGA_V0310_POKEMON_MANECTRIC"
         }
       ],
       "buddyWalkedMegaEnergyAward": 15,
@@ -85252,7 +85253,8 @@
           "averageHeightM": 1.8,
           "averageWeightKg": 44,
           "typeOverride1": "POKEMON_TYPE_ELECTRIC",
-          "raidBossDistanceOffset": 9
+          "raidBossDistanceOffset": 9,
+          "specialMove": "TEMP_EVOLUTION_MEGA_V0310_POKEMON_MANECTRIC"
         }
       ],
       "buddyWalkedMegaEnergyAward": 15,

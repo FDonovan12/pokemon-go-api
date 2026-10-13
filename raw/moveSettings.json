@@ -6105,6 +6105,26 @@
     }
   },
   {
+    "templateId": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0310_POKEMON_MANECTRIC",
+    "data": {
+      "movementId": "TEMP_EVOLUTION_MEGA_V0310_POKEMON_MANECTRIC",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_ELECTRIC",
+      "power": 150,
+      "accuracyChance": 1,
+      "criticalChance": 0.05,
+      "staminaLossScalar": 0.08,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "discharge",
+      "durationMs": 2500,
+      "damageWindowStartMs": 1700,
+      "damageWindowEndMs": 2100,
+      "energyDelta": -100,
+      "isLocked": true
+    }
+  },
+  {
     "templateId": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0398_POKEMON_STARAPTOR",
     "data": {
       "movementId": "TEMP_EVOLUTION_MEGA_V0398_POKEMON_STARAPTOR",
