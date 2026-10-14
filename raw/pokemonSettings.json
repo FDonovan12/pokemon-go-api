@@ -152714,6 +152714,7 @@
         "shadowChargeMove": "FRUSTRATION"
       },
       "buddyGroupNumber": 2,
+      "buddyWalkedMegaEnergyAward": 25,
       "ibfc": {},
       "breadTierGroup": "GROUP_3"
     }
@@ -152819,6 +152820,7 @@
         "shadowChargeMove": "FRUSTRATION"
       },
       "buddyGroupNumber": 2,
+      "buddyWalkedMegaEnergyAward": 25,
       "ibfc": {},
       "breadTierGroup": "GROUP_3"
     }
@@ -152927,6 +152929,7 @@
         "shadowChargeMove": "FRUSTRATION"
       },
       "buddyGroupNumber": 2,
+      "buddyWalkedMegaEnergyAward": 25,
       "useIrisFlyingPlacement": true,
       "irisFlyingHeightLimitMeters": 3,
       "ibfc": {},
@@ -153039,6 +153042,7 @@
         "shadowChargeMove": "FRUSTRATION"
       },
       "buddyGroupNumber": 2,
+      "buddyWalkedMegaEnergyAward": 25,
       "useIrisFlyingPlacement": true,
       "irisFlyingHeightLimitMeters": 3,
       "ibfc": {},
@@ -153119,6 +153123,13 @@
       "kmBuddyDistance": 5,
       "buddySize": "BUDDY_FLYING",
       "modelHeight": 2.3,
+      "evolutionBranch": [
+        {
+          "temporaryEvolution": "TEMP_EVOLUTION_MEGA",
+          "temporaryEvolutionEnergyCost": 300,
+          "temporaryEvolutionEnergyCostSubsequent": 60
+        }
+      ],
       "modelScaleV2": 0.96,
       "buddyOffsetMale": [
         70.1,
@@ -153148,6 +153159,29 @@
       "eliteCinematicMove": [
         "POLTERGEIST"
       ],
+      "tempEvoOverrides": [
+        {
+          "tempEvoId": "TEMP_EVOLUTION_MEGA",
+          "stats": {
+            "baseStamina": 155,
+            "baseAttack": 335,
+            "baseDefense": 227
+          },
+          "averageHeightM": 2.5,
+          "averageWeightKg": 69.6,
+          "typeOverride1": "POKEMON_TYPE_GHOST",
+          "typeOverride2": "POKEMON_TYPE_FIRE",
+          "camera": {
+            "cylinderRadiusM": 1.7,
+            "cylinderHeightM": 3,
+            "cylinderGroundM": 1.2
+          },
+          "modelScaleV2": 0.8,
+          "modelHeight": 2.5,
+          "specialMove": "TEMP_EVOLUTION_MEGA_V0609_POKEMON_CHANDELURE"
+        }
+      ],
+      "buddyWalkedMegaEnergyAward": 25,
       "useIrisFlyingPlacement": true,
       "irisFlyingHeightLimitMeters": 2,
       "ibfc": {},
@@ -153228,6 +153262,13 @@
       "kmBuddyDistance": 5,
       "buddySize": "BUDDY_FLYING",
       "modelHeight": 2.3,
+      "evolutionBranch": [
+        {
+          "temporaryEvolution": "TEMP_EVOLUTION_MEGA",
+          "temporaryEvolutionEnergyCost": 300,
+          "temporaryEvolutionEnergyCostSubsequent": 60
+        }
+      ],
       "modelScaleV2": 0.96,
       "form": "CHANDELURE_NORMAL",
       "buddyOffsetMale": [
@@ -153258,6 +153299,29 @@
       "eliteCinematicMove": [
         "POLTERGEIST"
       ],
+      "tempEvoOverrides": [
+        {
+          "tempEvoId": "TEMP_EVOLUTION_MEGA",
+          "stats": {
+            "baseStamina": 155,
+            "baseAttack": 335,
+            "baseDefense": 227
+          },
+          "averageHeightM": 2.5,
+          "averageWeightKg": 69.6,
+          "typeOverride1": "POKEMON_TYPE_GHOST",
+          "typeOverride2": "POKEMON_TYPE_FIRE",
+          "camera": {
+            "cylinderRadiusM": 1.7,
+            "cylinderHeightM": 3,
+            "cylinderGroundM": 1.2
+          },
+          "modelScaleV2": 0.8,
+          "modelHeight": 2.5,
+          "specialMove": "TEMP_EVOLUTION_MEGA_V0609_POKEMON_CHANDELURE"
+        }
+      ],
+      "buddyWalkedMegaEnergyAward": 25,
       "useIrisFlyingPlacement": true,
       "irisFlyingHeightLimitMeters": 2,
       "ibfc": {},

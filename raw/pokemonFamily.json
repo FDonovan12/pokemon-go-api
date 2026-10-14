@@ -2164,7 +2164,8 @@
     "templateId": "V0607_FAMILY_LITWICK",
     "data": {
       "familyId": "FAMILY_LITWICK",
-      "candyPerXlCandy": 100
+      "candyPerXlCandy": 100,
+      "megaEvolvablePokemonId": "CHANDELURE"
     }
   },
   {

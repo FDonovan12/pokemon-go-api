@@ -63,6 +63,13 @@
     }
   },
   {
+    "templateId": "COMBAT_VNEXT_PLAY_MISSED_FM_FEATURE_GATE",
+    "data": {
+      "status": 1,
+      "rolloutPercentage": 100
+    }
+  },
+  {
     "templateId": "COMBAT_VNEXT_SHOW_MINIOR_IBFC_TOASTS_FEATURE_GATE",
     "data": {
       "status": 1,
