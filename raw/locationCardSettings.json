@@ -535,6 +535,13 @@
     }
   },
   {
+    "templateId": "LC_2026_FC_SEOUL",
+    "data": {
+      "locationCard": 417,
+      "imageUrl": "lc_fc2026_seoul"
+    }
+  },
+  {
     "templateId": "LC_2026_GOWA_MEXICOCITY",
     "data": {
       "locationCard": 419,
@@ -565,11 +572,25 @@
     }
   },
   {
+    "templateId": "LC_2026_LONDON_NO_001",
+    "data": {
+      "locationCard": 422,
+      "imageUrl": "lc_nightOut2026_London"
+    }
+  },
+  {
     "templateId": "LC_2026_LOSANGELES_GOTOUR_001",
     "data": {
       "locationCard": "LC_2026_LOSANGELES_GOTOUR_001",
       "imageUrl": "lc_GoTour2026_losAngeles",
       "cardType": "LOCATION_CARD"
+    }
+  },
+  {
+    "templateId": "LC_2026_LOSANGELES_NO_001",
+    "data": {
+      "locationCard": 421,
+      "imageUrl": "lc_nightOut2026_LA"
     }
   },
   {

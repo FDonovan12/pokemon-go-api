@@ -1275,7 +1275,7 @@ export interface ConversationSettingData {
 
 export interface PokemonFormAppraisalOverride {
     id:           string;
-    form:         string;
+    form:         LocationCardElement;
     appraisalKey: string;
     addToStart:   boolean;
 }
@@ -1897,8 +1897,9 @@ export interface IconRewardPokemonEncounter {
 }
 
 export interface FluffyPokemonDisplay {
-    form:   string;
-    shiny?: boolean;
+    form:           string;
+    shiny?:         boolean;
+    breadModeEnum?: BreadMode;
 }
 
 export interface Incense {
@@ -1944,7 +1945,7 @@ export interface TimePeriodCounters {
 }
 
 export interface PlayerActivity {
-    limit: number;
+    limit?: number;
 }
 
 export interface XpBoost {

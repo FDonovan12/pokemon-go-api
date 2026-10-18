@@ -7691,6 +7691,81 @@
     "familyId": "Wushours"
   },
   {
+    "pokemonId": "REGIDRAGO",
+    "name": "Regidrago",
+    "dexNumber": 895,
+    "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/895.png",
+    "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/895.png",
+    "slug": "regidrago",
+    "types": [
+      "Dragon"
+    ],
+    "stats": {
+      "baseStamina": 400,
+      "baseAttack": 202,
+      "baseDefense": 101
+    },
+    "quickMoves": {
+      "BITE_FAST": {
+        "id": "V0202_MOVE_BITE_FAST",
+        "movementId": "BITE_FAST",
+        "pokemonType": "Ténèbres",
+        "power": 6,
+        "durationMs": 500,
+        "energyDelta": 4,
+        "vfxName": "bite_fast",
+        "names": {
+          "fr": "Morsure"
+        }
+      },
+      "DRAGON_BREATH_FAST": {
+        "id": "V0204_MOVE_DRAGON_BREATH_FAST",
+        "movementId": "DRAGON_BREATH_FAST",
+        "pokemonType": "Dragon",
+        "power": 6,
+        "durationMs": 500,
+        "energyDelta": 4,
+        "vfxName": "dragon_breath_fast",
+        "names": {
+          "fr": "Draco-Souffle"
+        }
+      }
+    },
+    "dynamaxMove": [
+      {
+        "id": "VN_BM_016",
+        "movementId": "VN_BM_016",
+        "pokemonType": "Ténèbres",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_darkness",
+        "names": {
+          "fr": "Sinistromax"
+        }
+      },
+      {
+        "id": "VN_BM_012",
+        "movementId": "VN_BM_012",
+        "pokemonType": "Dragon",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_wyrmwind",
+        "names": {
+          "fr": "Dracomax"
+        }
+      }
+    ],
+    "familyId": "Regidrago"
+  },
+  {
     "pokemonId": "VENUSAUR",
     "name": "Florizarre",
     "dexNumber": 3,

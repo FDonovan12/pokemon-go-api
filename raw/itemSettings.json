@@ -292,9 +292,7 @@
         "eventPassId": "EVENT_PASS_FALLMARATHON2026_EVENT"
       },
       "timePeriodCounters": {
-        "playerActivity": {
-          "limit": 500
-        }
+        "playerActivity": {}
       },
       "hideItemInInventory": true
     }
@@ -308,7 +306,7 @@
       "ignoreInventorySpace": true,
       "itemCap": 999999,
       "eventPassPoint": {
-        "eventPassId": "EVENT_PASS_EMEA2026_EVENT"
+        "eventPassId": "EVENT_PASS_HALLOWEEN_2026_EVENT"
       },
       "timePeriodCounters": {
         "playerActivity": {
@@ -464,11 +462,11 @@
       "ignoreInventorySpace": true,
       "itemCap": 999999,
       "eventPassPoint": {
-        "eventPassId": "EVENT_PASS_AUGUST2026_SEASON"
+        "eventPassId": "EVENT_PASS_NOVEMBER2026_SEASON"
       },
       "timePeriodCounters": {
         "playerActivity": {
-          "limit": 300
+          "limit": 250
         }
       },
       "hideItemInInventory": true
@@ -1804,6 +1802,25 @@
               "item": "ITEM_FREE_RAID_TICKET",
               "amount": 6
             }
+          },
+          {
+            "type": "POKEMON_ENCOUNTER",
+            "pokemonEncounter": {
+              "pokemonId": "DURALUDON",
+              "pokemonDisplay": {
+                "form": "DURALUDON_NORMAL",
+                "breadModeEnum": "BREAD_DOUGH_MODE"
+              }
+            }
+          },
+          {
+            "type": "POKEMON_ENCOUNTER",
+            "pokemonEncounter": {
+              "pokemonId": "MACHAMP",
+              "pokemonDisplay": {
+                "form": "MACHAMP_WILDAREA_2026_01"
+              }
+            }
           }
         ],
         "clientEventStartTimeUtcMs": "1794650400000",
@@ -1824,7 +1841,7 @@
         "eventEndTime": "2026-10-31T17:00:00",
         "itemBagDescriptionKey": "item_event_ticket_gray_desc_MegaChandelureRaidDay",
         "giftable": true,
-        "giftItem": "ITEM_EVENT_TICKET_S24_OCT31_MEGARAID",
+        "giftItem": "ITEM_EVENT_TICKET_S24_OCT31_MEGARAID_TO_GIFT",
         "eventBannerUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F452fd1a0_PGO-MCS_Chandelure_Super_Mega_Raid_Day_v3_1024x576.jpg",
         "displayV2Enabled": true,
         "backgroundImageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F452fd1a0_PGO-MCS_Chandelure_Super_Mega_Raid_Day_v3_1024x576.jpg",
@@ -1960,7 +1977,6 @@
             "exp": 10000
           }
         ],
-        "detailsLinkKey": "details_link_key",
         "clientEventStartTimeUtcMs": "1792234800000",
         "clientEventEndTimeUtcMs": "1792256400000"
       },
@@ -2483,7 +2499,7 @@
       "category": "ITEM_CATEGORY_INCENSE",
       "dropTrainerLevel": 6,
       "incense": {
-        "incenseLifetimeSeconds": 900,
+        "incenseLifetimeSeconds": 1800,
         "spawnTableProbability": 0.25
       },
       "ignoreInventorySpace": true

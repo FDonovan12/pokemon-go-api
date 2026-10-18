@@ -50,6 +50,30 @@
           "form": "SINISTCHA_UNREMARKABLE",
           "appraisalKey": "appraise_sinistcha_unremarkable",
           "addToStart": true
+        },
+        {
+          "id": "SINISTEA",
+          "form": 3365,
+          "appraisalKey": "appraise_sinistea_phony",
+          "addToStart": true
+        },
+        {
+          "id": "SINISTEA",
+          "form": 3366,
+          "appraisalKey": "appraise_sinistea_antique",
+          "addToStart": true
+        },
+        {
+          "id": "POLTEAGEIST",
+          "form": 3367,
+          "appraisalKey": "appraise_polteageist_phony",
+          "addToStart": true
+        },
+        {
+          "id": "POLTEAGEIST",
+          "form": 3368,
+          "appraisalKey": "appraise_polteageist_antique",
+          "addToStart": true
         }
       ]
     }
