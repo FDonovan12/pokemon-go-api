@@ -155,7 +155,9 @@ class PokemonSettingGeneratorService {
                             .map((branch) => ({
                                 pokemonId: branch.evolution,
                                 form:
-                                    (String(branch.form).endsWith('_NORMAL') || formField === 'base'
+                                    ((String(branch.form).endsWith('_NORMAL') ||
+                                        formField === 'base') &&
+                                    pokemon.data.pokemonId !== 'TOXEL'
                                         ? 'base'
                                         : branch.form) ?? 'base',
                             }))
@@ -265,6 +267,15 @@ class PokemonSettingGeneratorService {
 
         if (formField.includes('NECROZMA')) {
             formField = formField.replace('_MANE', '').replace('_WINGS', '');
+        }
+
+        if (templateId.includes('V0585_POKEMON_DEERLING')) {
+            pokemon.data.evolutionBranch = [
+                {
+                    evolution: 'SAWSBUCK',
+                    form: 'base',
+                },
+            ];
         }
 
         if (formField.includes('CALYREX')) {
