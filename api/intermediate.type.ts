@@ -39,10 +39,10 @@ export interface Encounter {
 
 export interface SameEvolutionId {
     pokemonId: string;
-    form:      FormUnion;
+    form:      Form;
 }
 
-export type FormUnion = number | string;
+export type Form = number | string;
 
 export interface Stats {
     baseStamina: number;
@@ -138,31 +138,7 @@ export interface PurpleBase {
 
 export interface PurpleEvolutionId {
     pokemonId: string;
-    form:      FormEnum;
-}
-
-export enum FormEnum {
-    ArcanineHisuian = "ARCANINE_HISUIAN",
-    Base = "base",
-    DarmanitanGalarianStandard = "DARMANITAN_GALARIAN_STANDARD",
-    DugtrioAlola = "DUGTRIO_ALOLA",
-    ElectrodeHisuian = "ELECTRODE_HISUIAN",
-    GolemAlola = "GOLEM_ALOLA",
-    GoodraHisuian = "GOODRA_HISUIAN",
-    GourgeistAverage = "GOURGEIST_AVERAGE",
-    GourgeistLarge = "GOURGEIST_LARGE",
-    GourgeistSuper = "GOURGEIST_SUPER",
-    GravelerAlola = "GRAVELER_ALOLA",
-    LinooneGalarian = "LINOONE_GALARIAN",
-    MukAlola = "MUK_ALOLA",
-    NinetalesAlola = "NINETALES_ALOLA",
-    PersianAlola = "PERSIAN_ALOLA",
-    RapidashGalarian = "RAPIDASH_GALARIAN",
-    RaticateAlola = "RATICATE_ALOLA",
-    SandslashAlola = "SANDSLASH_ALOLA",
-    SlowbroGalarian = "SLOWBRO_GALARIAN",
-    SlowkingGalarian = "SLOWKING_GALARIAN",
-    ZoroarkHisuian = "ZOROARK_HISUIAN",
+    form:      string;
 }
 
 export interface PurpleTempEvoOverride {
