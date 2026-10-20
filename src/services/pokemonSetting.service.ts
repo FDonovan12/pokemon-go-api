@@ -155,7 +155,7 @@ class PokemonSettingGeneratorService {
                             .map((branch) => ({
                                 pokemonId: branch.evolution,
                                 form:
-                                    (String(branch.form).endsWith('_NORMAL')
+                                    (String(branch.form).endsWith('_NORMAL') || formField === 'base'
                                         ? 'base'
                                         : branch.form) ?? 'base',
                             }))
