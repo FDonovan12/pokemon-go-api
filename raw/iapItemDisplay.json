@@ -7027,6 +7027,20 @@
     }
   },
   {
+    "templateId": "bundle.festival.of.lights.2026.1",
+    "data": {
+      "sku": "bundle.festival.of.lights.2026.1",
+      "category": "IAP_CATEGORY_BUNDLE",
+      "sortOrder": 1,
+      "hidden": true,
+      "spriteId": "bundle2.sprite.a",
+      "title": "in.fol.2026.bundle_title",
+      "showDiscountTag": true,
+      "showStrikethroughPrice": true,
+      "totalValue": 500
+    }
+  },
+  {
     "templateId": "bundle.fol2022.1",
     "data": {
       "sku": "bundle.fol2022.1",
@@ -7866,14 +7880,9 @@
       "sku": "bundle.hatchbox2024.1",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 1,
+      "hidden": true,
       "spriteId": "bundle.general.adventure.1",
-      "title": "bundle.xmas.large.1_title",
-      "skuEnableTime": "2022-10-13T12:00:00",
-      "skuDisableTime": "2026-10-19T20:00:00",
-      "skuEnableTimeUtcMs": "1665662400000",
-      "skuDisableTimeUtcMs": "1792440000000",
-      "showDiscountTag": true,
-      "showStrikethroughPrice": true
+      "title": "bundle.xmas.large.1_title"
     }
   },
   {

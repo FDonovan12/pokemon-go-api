@@ -292,7 +292,9 @@
         "eventPassId": "EVENT_PASS_FALLMARATHON2026_EVENT"
       },
       "timePeriodCounters": {
-        "playerActivity": {}
+        "playerActivity": {
+          "limit": 500
+        }
       },
       "hideItemInInventory": true
     }
@@ -2541,8 +2543,7 @@
       "category": "ITEM_CATEGORY_INCENSE",
       "dropTrainerLevel": 1,
       "incense": {
-        "incenseLifetimeSeconds": 7200,
-        "spawnTableProbability": 0.6
+        "incenseLifetimeSeconds": 3600
       }
     }
   },

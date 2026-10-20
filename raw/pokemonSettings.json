@@ -84903,7 +84903,7 @@
         "shadowChargeMove": "FRUSTRATION"
       },
       "buddyGroupNumber": 3,
-      "buddyWalkedMegaEnergyAward": 75,
+      "buddyWalkedMegaEnergyAward": 15,
       "ibfc": {},
       "breadTierGroup": "GROUP_2"
     }
@@ -85007,7 +85007,7 @@
         "shadowChargeMove": "FRUSTRATION"
       },
       "buddyGroupNumber": 3,
-      "buddyWalkedMegaEnergyAward": 75,
+      "buddyWalkedMegaEnergyAward": 15,
       "ibfc": {},
       "breadTierGroup": "GROUP_2"
     }
@@ -85131,7 +85131,7 @@
           "specialMove": "TEMP_EVOLUTION_MEGA_V0310_POKEMON_MANECTRIC"
         }
       ],
-      "buddyWalkedMegaEnergyAward": 75,
+      "buddyWalkedMegaEnergyAward": 15,
       "raidBossDistanceOffset": 3,
       "ibfc": {},
       "breadTierGroup": "GROUP_2"
@@ -85257,7 +85257,7 @@
           "specialMove": "TEMP_EVOLUTION_MEGA_V0310_POKEMON_MANECTRIC"
         }
       ],
-      "buddyWalkedMegaEnergyAward": 75,
+      "buddyWalkedMegaEnergyAward": 15,
       "raidBossDistanceOffset": 3,
       "ibfc": {},
       "breadTierGroup": "GROUP_2"

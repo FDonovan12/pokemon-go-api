@@ -1904,7 +1904,7 @@ export interface FluffyPokemonDisplay {
 
 export interface Incense {
     incenseLifetimeSeconds: number;
-    spawnTableProbability:  number;
+    spawnTableProbability?: number;
 }
 
 export interface IncidentTicket {
@@ -1945,7 +1945,7 @@ export interface TimePeriodCounters {
 }
 
 export interface PlayerActivity {
-    limit?: number;
+    limit: number;
 }
 
 export interface XpBoost {
