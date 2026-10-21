@@ -2429,6 +2429,20 @@
     }
   },
   {
+    "templateId": "BADGE_EVENT_0252",
+    "data": {
+      "badgeType": "BADGE_EVENT_0252",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true,
+      "eventBadgeSettings": {
+        "obEventBadgeSettingsNumber6": 1
+      }
+    }
+  },
+  {
     "templateId": "BADGE_EVENT_0253",
     "data": {
       "badgeType": "BADGE_EVENT_0253",
@@ -2530,6 +2544,146 @@
     "templateId": "BADGE_EVENT_0280",
     "data": {
       "badgeType": "BADGE_EVENT_0280",
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true,
+      "eventBadgeSettings": {
+        "obEventBadgeSettingsNumber6": 1
+      }
+    }
+  },
+  {
+    "templateId": "BADGE_EVENT_0281",
+    "data": {
+      "badgeType": 6302,
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true,
+      "eventBadgeSettings": {
+        "obEventBadgeSettingsNumber6": 1
+      }
+    }
+  },
+  {
+    "templateId": "BADGE_EVENT_0282",
+    "data": {
+      "badgeType": 6303,
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true,
+      "eventBadgeSettings": {
+        "obEventBadgeSettingsNumber6": 1
+      }
+    }
+  },
+  {
+    "templateId": "BADGE_EVENT_0283",
+    "data": {
+      "badgeType": 6304,
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true,
+      "eventBadgeSettings": {
+        "obEventBadgeSettingsNumber6": 1
+      }
+    }
+  },
+  {
+    "templateId": "BADGE_EVENT_0284",
+    "data": {
+      "badgeType": 6305,
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true,
+      "eventBadgeSettings": {
+        "obEventBadgeSettingsNumber6": 1
+      }
+    }
+  },
+  {
+    "templateId": "BADGE_EVENT_0285",
+    "data": {
+      "badgeType": 6306,
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true,
+      "eventBadgeSettings": {
+        "obEventBadgeSettingsNumber6": 1
+      }
+    }
+  },
+  {
+    "templateId": "BADGE_EVENT_0286",
+    "data": {
+      "badgeType": 6307,
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true,
+      "eventBadgeSettings": {
+        "obEventBadgeSettingsNumber6": 1
+      }
+    }
+  },
+  {
+    "templateId": "BADGE_EVENT_0287",
+    "data": {
+      "badgeType": 6308,
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true,
+      "eventBadgeSettings": {
+        "obEventBadgeSettingsNumber6": 1
+      }
+    }
+  },
+  {
+    "templateId": "BADGE_EVENT_0288",
+    "data": {
+      "badgeType": 6309,
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true,
+      "eventBadgeSettings": {
+        "obEventBadgeSettingsNumber6": 1
+      }
+    }
+  },
+  {
+    "templateId": "BADGE_EVENT_0289",
+    "data": {
+      "badgeType": 6310,
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true,
+      "eventBadgeSettings": {
+        "obEventBadgeSettingsNumber6": 1
+      }
+    }
+  },
+  {
+    "templateId": "BADGE_EVENT_0290",
+    "data": {
+      "badgeType": 6311,
       "badgeRank": 2,
       "targets": [
         100

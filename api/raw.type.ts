@@ -377,14 +377,14 @@ export interface LevelUpRewardData {
     level:                       number;
     items:                       string[];
     itemsCount:                  number[];
-    featuresUnlocked?:           LocationCardElement[];
+    featuresUnlocked?:           BadgeTypeElement[];
     clientOverrideDisplayOrder?: boolean;
     itemsUnlocked?:              string[];
     neutralAvatarItemTemplates?: NeutralAvatarItemTemplates;
     isBackfill?:                 boolean;
 }
 
-export type LocationCardElement = number | string;
+export type BadgeTypeElement = number | string;
 
 export interface NeutralAvatarItemTemplates {
     itemTemplateId:    string;
@@ -410,7 +410,7 @@ export interface BadgeSettings {
 }
 
 export interface BadgeSettingData {
-    badgeType:           string;
+    badgeType:           BadgeTypeElement;
     badgeRank:           number;
     targets:             number[];
     eventBadge?:         boolean;
@@ -1139,7 +1139,7 @@ export interface CombatSettingData {
     shadowPokemonAttackBonusMultiplier:      number;
     shadowPokemonDefenseBonusMultiplier:     number;
     purifiedPokemonAttackMultiplierVsShadow: number;
-    combatExperiment:                        LocationCardElement[];
+    combatExperiment:                        BadgeTypeElement[];
     showQuickSwapButtonsDuringCountdown:     boolean;
     clockSyncSettings:                       ClockSyncSettings;
     combatFeatureFlags:                      CombatFeatureFlags;
@@ -1275,7 +1275,7 @@ export interface ConversationSettingData {
 
 export interface PokemonFormAppraisalOverride {
     id:           string;
-    form:         LocationCardElement;
+    form:         BadgeTypeElement;
     appraisalKey: string;
     addToStart:   boolean;
 }
@@ -1322,8 +1322,8 @@ export interface DeepLinkingSettings {
 export interface DeepLinkingSettingData {
     minPlayerLevelForExternalLink:     number;
     minPlayerLevelForNotificationLink: number;
-    actionsThatIgnoreMinLevel:         LocationCardElement[];
-    actionsThatExecuteBeforeMapLoads:  LocationCardElement[];
+    actionsThatIgnoreMinLevel:         BadgeTypeElement[];
+    actionsThatExecuteBeforeMapLoads:  BadgeTypeElement[];
     iosActionButtonEnabled:            boolean;
 }
 
@@ -1634,7 +1634,7 @@ export interface PokemonExtendedSettingData {
     uniqueId:          string;
     sizeSettings:      DataSizeSettings;
     breadOverrides?:   BreadOverride[];
-    form?:             LocationCardElement;
+    form?:             BadgeTypeElement;
     tempEvoOverrides?: PurpleTempEvoOverride[];
 }
 
@@ -1740,11 +1740,11 @@ export interface FormSettings {
 
 export interface FormSettingData {
     pokemon: string;
-    forms?:  FormClass[];
+    forms?:  Form[];
 }
 
-export interface FormClass {
-    form:                        LocationCardElement;
+export interface Form {
+    form:                        BadgeTypeElement;
     assetBundleSuffix?:          string;
     isCostume?:                  boolean;
     assetBundleValue?:           number;
@@ -2193,7 +2193,7 @@ export interface IrisSocialUxFunnelSettingData {
 
 export interface EventStep {
     stepNumber: number;
-    event:      LocationCardElement;
+    event:      BadgeTypeElement;
 }
 
 export interface ItemCurrencyValues {
@@ -2286,7 +2286,7 @@ export interface LocationCardSettings {
 }
 
 export interface LocationCardSettingData {
-    locationCard: LocationCardElement;
+    locationCard: BadgeTypeElement;
     imageUrl:     string;
     cardType?:    CardType;
     vfxAddress?:  string;
@@ -2560,7 +2560,7 @@ export interface MpSettingData {
 
 export interface BattleMpCostPerTier {
     breadBattleCatchMpCost:       number;
-    battleLevel:                  LocationCardElement;
+    battleLevel:                  BadgeTypeElement;
     breadBattleRemoteCatchMpCost: number;
 }
 
@@ -3049,7 +3049,7 @@ export interface PokedexCategoriesSettingData {
 }
 
 export interface PokedexCategorySettingsInOrder {
-    pokedexCategory: LocationCardElement;
+    pokedexCategory: BadgeTypeElement;
     milestoneGoal:   number;
     visuallyHidden?: boolean;
 }
@@ -3202,17 +3202,6 @@ export interface CommonTempSettings {
 export interface TypeBoost {
     pokemonId: string;
     boostType: TemplateIdElement[];
-}
-
-export interface PtcOauthSettings {
-    templateId: string;
-    data:       PtcOauthSettingData;
-}
-
-export interface PtcOauthSettingData {
-    ptcAccountLinkingEnabled: boolean;
-    endTimeMs:                string;
-    linkingRewardItem:        string;
 }
 
 export interface QuestDialogueInboxSettings {
@@ -3386,7 +3375,7 @@ export interface ReferralSettingData {
 }
 
 export interface RecentFeature {
-    iconType:    LocationCardElement;
+    iconType:    BadgeTypeElement;
     featureName: string;
     description: string;
 }
@@ -3897,7 +3886,7 @@ export interface TutorialSettingData {
 }
 
 export interface TutorialItemReward {
-    tutorial: LocationCardElement;
+    tutorial: BadgeTypeElement;
     item?:    ItemElement[];
 }
 
@@ -3960,7 +3949,7 @@ export interface PokemonSettingData {
     allowNoevolveEvolution?:            string[];
     ibfc:                               Ibfc;
     breadTierGroup?:                    BreadTierGroupEnum;
-    form?:                              LocationCardElement;
+    form?:                              BadgeTypeElement;
     disableTransferToPokemonHome?:      boolean;
     parentPokemonId?:                   string;
     buddySize?:                         BuddySize;
@@ -4044,7 +4033,7 @@ export enum MovementType {
 export interface EvolutionBranch {
     evolution?:                              string;
     candyCost?:                              number;
-    form?:                                   LocationCardElement;
+    form?:                                   BadgeTypeElement;
     candyCostPurified?:                      number;
     temporaryEvolution?:                     Temp;
     temporaryEvolutionEnergyCost?:           number;

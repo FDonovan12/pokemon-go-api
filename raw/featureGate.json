@@ -175,13 +175,6 @@
     }
   },
   {
-    "templateId": "FRIENDSHIP_RESYNC_ON_READ_FEATURE_GATE",
-    "data": {
-      "status": 1,
-      "rolloutPercentage": 100
-    }
-  },
-  {
     "templateId": "GAMESITE_WEBVIEW_NEARBY_BUTTONS_FEATURE_GATE",
     "data": {
       "status": 1,
@@ -255,20 +248,6 @@
     }
   },
   {
-    "templateId": "MEP_EGG_READ_MIGRATION_FEATURE_GATE",
-    "data": {
-      "status": 13,
-      "rolloutPercentage": 100
-    }
-  },
-  {
-    "templateId": "MEP_EGG_WRITE_MIGRATION_FEATURE_GATE",
-    "data": {
-      "status": 12,
-      "rolloutPercentage": 100
-    }
-  },
-  {
     "templateId": "MICHELIN_MAP_LURE_BOTTOM_RING_REMOVAL_FEATURE_GATE",
     "data": {
       "status": 1,
@@ -308,6 +287,20 @@
     "data": {
       "status": 1,
       "rolloutPercentage": 100
+    }
+  },
+  {
+    "templateId": "TODAY_VIEW_V3_MULTI_PAGE_GO_PASS_FEATURE_GATE",
+    "data": {
+      "status": 1,
+      "rolloutPercentage": 100,
+      "subFeatureGateList": [
+        {
+          "name": "TODAY_VIEW_V3_GO_PASS_NEIGHBOR_PRELOAD_SUB_FEATURE_GATE",
+          "status": 1,
+          "rolloutPercentage": 100
+        }
+      ]
     }
   },
   {
