@@ -8130,7 +8130,10 @@
       "targets": [
         100
       ],
-      "eventBadge": true
+      "eventBadge": true,
+      "eventBadgeSettings": {
+        "obEventBadgeSettingsNumber6": 1
+      }
     }
   },
   {
@@ -8376,7 +8379,10 @@
       "targets": [
         100
       ],
-      "eventBadge": true
+      "eventBadge": true,
+      "eventBadgeSettings": {
+        "obEventBadgeSettingsNumber6": 1
+      }
     }
   },
   {

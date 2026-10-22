@@ -173480,9 +173480,11 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "raidBossDistanceOffset": 3,
       "formChange": [
         {
           "availableForm": [
+            "FURFROU_DIAMOND",
             "FURFROU_MATRON",
             "FURFROU_DANDY"
           ],
@@ -173490,8 +173492,7 @@
           "stardustCost": 10000
         }
       ],
-      "ibfc": {},
-      "breadTierGroup": "GROUP_3"
+      "ibfc": {}
     }
   },
   {
@@ -173564,14 +173565,14 @@
         {
           "availableForm": [
             "FURFROU_NATURAL",
+            "FURFROU_DIAMOND",
             "FURFROU_MATRON"
           ],
           "candyCost": 25,
           "stardustCost": 10000
         }
       ],
-      "ibfc": {},
-      "breadTierGroup": "GROUP_3"
+      "ibfc": {}
     }
   },
   {
@@ -173644,6 +173645,7 @@
         {
           "availableForm": [
             "FURFROU_NATURAL",
+            "FURFROU_DIAMOND",
             "FURFROU_MATRON",
             "FURFROU_DANDY"
           ],
@@ -173651,8 +173653,7 @@
           "stardustCost": 10000
         }
       ],
-      "ibfc": {},
-      "breadTierGroup": "GROUP_3"
+      "ibfc": {}
     }
   },
   {
@@ -173732,8 +173733,7 @@
           "stardustCost": 10000
         }
       ],
-      "ibfc": {},
-      "breadTierGroup": "GROUP_3"
+      "ibfc": {}
     }
   },
   {
@@ -173806,6 +173806,7 @@
         {
           "availableForm": [
             "FURFROU_NATURAL",
+            "FURFROU_DIAMOND",
             "FURFROU_MATRON",
             "FURFROU_DANDY"
           ],
@@ -173813,8 +173814,7 @@
           "stardustCost": 10000
         }
       ],
-      "ibfc": {},
-      "breadTierGroup": "GROUP_3"
+      "ibfc": {}
     }
   },
   {
@@ -173887,6 +173887,7 @@
         {
           "availableForm": [
             "FURFROU_NATURAL",
+            "FURFROU_DIAMOND",
             "FURFROU_MATRON",
             "FURFROU_DANDY"
           ],
@@ -173894,8 +173895,7 @@
           "stardustCost": 10000
         }
       ],
-      "ibfc": {},
-      "breadTierGroup": "GROUP_3"
+      "ibfc": {}
     }
   },
   {
@@ -173968,6 +173968,7 @@
         {
           "availableForm": [
             "FURFROU_NATURAL",
+            "FURFROU_DIAMOND",
             "FURFROU_MATRON",
             "FURFROU_DANDY"
           ],
@@ -173975,8 +173976,7 @@
           "stardustCost": 10000
         }
       ],
-      "ibfc": {},
-      "breadTierGroup": "GROUP_3"
+      "ibfc": {}
     }
   },
   {
@@ -174049,14 +174049,14 @@
         {
           "availableForm": [
             "FURFROU_NATURAL",
+            "FURFROU_DIAMOND",
             "FURFROU_DANDY"
           ],
           "candyCost": 25,
           "stardustCost": 10000
         }
       ],
-      "ibfc": {},
-      "breadTierGroup": "GROUP_3"
+      "ibfc": {}
     }
   },
   {
@@ -174128,6 +174128,7 @@
       "formChange": [
         {
           "availableForm": [
+            "FURFROU_DIAMOND",
             "FURFROU_MATRON",
             "FURFROU_DANDY"
           ],
@@ -174135,8 +174136,7 @@
           "stardustCost": 10000
         }
       ],
-      "ibfc": {},
-      "breadTierGroup": "GROUP_3"
+      "ibfc": {}
     }
   },
   {
@@ -174209,6 +174209,7 @@
         {
           "availableForm": [
             "FURFROU_NATURAL",
+            "FURFROU_DIAMOND",
             "FURFROU_MATRON",
             "FURFROU_DANDY"
           ],
@@ -174216,8 +174217,7 @@
           "stardustCost": 10000
         }
       ],
-      "ibfc": {},
-      "breadTierGroup": "GROUP_3"
+      "ibfc": {}
     }
   },
   {
@@ -174290,6 +174290,7 @@
         {
           "availableForm": [
             "FURFROU_NATURAL",
+            "FURFROU_DIAMOND",
             "FURFROU_MATRON",
             "FURFROU_DANDY"
           ],
@@ -174297,8 +174298,7 @@
           "stardustCost": 10000
         }
       ],
-      "ibfc": {},
-      "breadTierGroup": "GROUP_3"
+      "ibfc": {}
     }
   },
   {

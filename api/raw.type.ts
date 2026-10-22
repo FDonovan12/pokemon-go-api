@@ -101,7 +101,6 @@ export enum TypeElement {
     Candy = "CANDY",
     Experience = "EXPERIENCE",
     Item = "ITEM",
-    MegaResource = "MEGA_RESOURCE",
     PlayerAttribute = "PLAYER_ATTRIBUTE",
     PokemonEncounter = "POKEMON_ENCOUNTER",
     Stardust = "STARDUST",
@@ -1443,12 +1442,12 @@ export interface EventPassTrackUpgradeDescription {
     eventPassTrackToUpgradeTo:         Track;
     trackUnlockSkuId:                  string;
     trackUnlockPlusPointsSkuId:        string;
+    eventDurationKey:                  string;
     upgradeDescriptionKey:             string;
     ranksToHighlightRewards:           number[];
     detailsLinkKey:                    string;
     trackUnlockImageUrl:               string;
     trackUnlockPlusPointsImageUrl:     string;
-    eventDurationKey?:                 string;
 }
 
 export enum Track {
@@ -1472,9 +1471,9 @@ export interface EventPassTierSettingData {
     track:                       Track;
     minPointsRequired?:          number;
     rewards?:                    PurpleReward[];
+    isMilestoneRank?:            boolean;
     bonusSettings?:              Settings;
     activeBonusDisplaySettings?: Settings;
-    isMilestoneRank?:            boolean;
 }
 
 export interface Settings {
@@ -1488,7 +1487,6 @@ export interface ActiveBonusDisplaySettingsBonusBox {
 }
 
 export enum IconType {
-    Buddy = "BUDDY",
     EggIncubator = "EGG_INCUBATOR",
     Gift = "GIFT",
     Incense = "INCENSE",
@@ -1497,14 +1495,13 @@ export enum IconType {
 
 export interface PurpleReward {
     type:              TypeElement;
-    playerAttribute?:  PlayerAttribute;
-    exp?:              number;
-    stardust?:         number;
-    item?:             RewardDatumItem;
     pokemonEncounter?: RewardPokemonEncounter;
-    megaResource?:     Candy;
+    item?:             RewardDatumItem;
+    stardust?:         number;
     candy?:            Candy;
     xlCandy?:          Candy;
+    exp?:              number;
+    playerAttribute?:  PlayerAttribute;
 }
 
 export interface Candy {
@@ -1520,8 +1517,8 @@ export interface PlayerAttribute {
 export interface RewardPokemonEncounter {
     pokemonId:            string;
     pokemonDisplay?:      PurplePokemonDisplay;
-    isFeaturedPokemon?:   boolean;
     statsLimitsOverride?: StatsLimitsOverride;
+    isFeaturedPokemon?:   boolean;
 }
 
 export interface PurplePokemonDisplay {
@@ -3202,6 +3199,17 @@ export interface CommonTempSettings {
 export interface TypeBoost {
     pokemonId: string;
     boostType: TemplateIdElement[];
+}
+
+export interface PtcOauthSettings {
+    templateId: string;
+    data:       PtcOauthSettingData;
+}
+
+export interface PtcOauthSettingData {
+    ptcAccountLinkingEnabled: boolean;
+    endTimeMs:                string;
+    linkingRewardItem:        string;
 }
 
 export interface QuestDialogueInboxSettings {

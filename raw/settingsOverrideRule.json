@@ -2891,6 +2891,54 @@
     }
   },
   {
+    "templateId": "SETTINGS_RULES_DENY_GOOGLEPIXEL10",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Google Pixel 10",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_DENY_GOOGLEPIXEL10PRO",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Google Pixel 10 Pro",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_DENY_GOOGLEPIXEL10PROFOLD",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Google Pixel 10 Pro Fold",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
+    "templateId": "SETTINGS_RULES_DENY_GOOGLEPIXEL10PROXL",
+    "data": {
+      "ruleType": "DEVICE_MODEL",
+      "sortOrder": 50,
+      "ruleValue": "Google Pixel 10 Pro XL",
+      "meshingEnabled": "TRUE",
+      "occlusionEnabled": "TRUE",
+      "semanticsEnabled": "TRUE",
+      "vpsEnabled": "TRUE"
+    }
+  },
+  {
     "templateId": "SETTINGS_RULES_DENY_IPAD4",
     "data": {
       "ruleType": "DEVICE_MODEL_CONTAINS",

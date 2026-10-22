@@ -1,0 +1,10 @@
+[
+  {
+    "templateId": "PTC_OAUTH_SETTINGS",
+    "data": {
+      "ptcAccountLinkingEnabled": true,
+      "endTimeMs": "2022190740000",
+      "linkingRewardItem": "ITEM_INCUBATOR_BASIC"
+    }
+  }
+]

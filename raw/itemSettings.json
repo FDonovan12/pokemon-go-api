@@ -213,7 +213,7 @@
       "ignoreInventorySpace": true,
       "itemCap": 6000,
       "eventPassPoint": {
-        "eventPassId": "EVENT_PASS_GOWA_2025"
+        "eventPassId": "EVENT_PASS_GOWA2026_GLOBAL"
       },
       "timePeriodCounters": {
         "playerActivity": {
@@ -293,7 +293,7 @@
       },
       "timePeriodCounters": {
         "playerActivity": {
-          "limit": 500
+          "limit": 300
         }
       },
       "hideItemInInventory": true
