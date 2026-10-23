@@ -1875,6 +1875,15 @@
     }
   },
   {
+    "templateId": "LC_SPECIALBACKGROUND_DIA_DE_LOS_MUERTOS_2026",
+    "data": {
+      "locationCard": 340,
+      "imageUrl": "sb_DiaDeMuertos_2026",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_diaDeMuertos_2026"
+    }
+  },
+  {
     "templateId": "LC_SPECIALBACKGROUND_EXTRA_2025_01",
     "data": {
       "locationCard": "LC_SPECIALBACKGROUND_EXTRA_2025_01",

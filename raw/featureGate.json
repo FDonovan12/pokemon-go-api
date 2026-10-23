@@ -175,30 +175,6 @@
     }
   },
   {
-    "templateId": "GAMESITE_WEBVIEW_NEARBY_BUTTONS_FEATURE_GATE",
-    "data": {
-      "status": 1,
-      "rolloutPercentage": 100,
-      "subFeatureGateList": [
-        {
-          "name": "RAIDS",
-          "status": 1,
-          "rolloutPercentage": 100
-        },
-        {
-          "name": "STATIONS",
-          "status": 1,
-          "rolloutPercentage": 100
-        },
-        {
-          "name": "ROUTES",
-          "status": 1,
-          "rolloutPercentage": 100
-        }
-      ]
-    }
-  },
-  {
     "templateId": "GET_GMT_ANALYSIS_FOR_PLAYER_FEATURE_GATE",
     "data": {
       "status": 1,
@@ -220,7 +196,7 @@
     }
   },
   {
-    "templateId": "HIDE_CAMPFIRE_MAP_BUTTONS_FEATURE_GATE",
+    "templateId": "GRANT_CHECK_IN_BADGE_WITHOUT_REWARDS_FEATURE_GATE",
     "data": {
       "status": 1,
       "rolloutPercentage": 100
@@ -262,10 +238,36 @@
     }
   },
   {
+    "templateId": "PLAYER_ENCOUNTER_RANDOMIZATION_SALT_FEATURE_GATE",
+    "data": {
+      "status": 1,
+      "rolloutPercentage": 100
+    }
+  },
+  {
     "templateId": "POKEMON_SPAWN_AVOIDANCE_REWORK_FEATURE_GATE",
     "data": {
       "status": 67485911,
       "rolloutPercentage": 100
+    }
+  },
+  {
+    "templateId": "PRIVATE_MAX_LOBBIES_FEATURE_GATE",
+    "data": {
+      "status": 1,
+      "rolloutPercentage": 100,
+      "subFeatureGateList": [
+        {
+          "name": "INVITE_BY_CODE",
+          "status": 1,
+          "rolloutPercentage": 100
+        },
+        {
+          "name": "INVITE_FRIENDS",
+          "status": 1,
+          "rolloutPercentage": 100
+        }
+      ]
     }
   },
   {

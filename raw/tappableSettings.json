@@ -22,6 +22,14 @@
     }
   },
   {
+    "templateId": "TAPPABLE_TYPE_BOX",
+    "data": {
+      "visibleRadiusMeters": 150,
+      "removeWhenTapped": true,
+      "tappableAssetKey": "TAPPABLE_TYPE_BOX"
+    }
+  },
+  {
     "templateId": "TAPPABLE_TYPE_HAT",
     "data": {
       "visibleRadiusMeters": 150,
