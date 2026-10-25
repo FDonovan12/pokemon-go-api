@@ -9317,24 +9317,6 @@
     }
   },
   {
-    "templateId": "general2.ticket.6",
-    "data": {
-      "sku": "pgorelease.general2.ticket.6",
-      "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
-      "sortOrder": 1,
-      "spriteId": "general2.ticket.6",
-      "title": "general2.ticket.6.DMAX_SINNOH_LAKE_MAX_BATTLE",
-      "skuEnableTime": "2025-10-22T10:00:00",
-      "skuDisableTime": "2026-10-24T17:00:00",
-      "skuEnableTimeUtcMs": "1761127200000",
-      "skuDisableTimeUtcMs": "1792861200000",
-      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fafa245c1_PGO-MCS_Lake_Guardians_Max_Battle_Day_v1-1025x576.jpg",
-      "webstoreSkuId": "web-lake-guardians-max-battle-ultra",
-      "webstoreSkuPriceE6": 4990000,
-      "useEnvironmentPrefix": true
-    }
-  },
-  {
     "templateId": "general4.medium.1",
     "data": {
       "sku": "general4.medium.1",

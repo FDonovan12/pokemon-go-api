@@ -133,27 +133,6 @@
     }
   },
   {
-    "templateId": "EVENT_PASS_BONUS_RANKS_FEATURE_GATE",
-    "data": {
-      "status": 1,
-      "rolloutPercentage": 100
-    }
-  },
-  {
-    "templateId": "EVENT_PASS_CLAIMABLE_REWARD_TOGGLE_FEATURE_GATE",
-    "data": {
-      "status": 1,
-      "rolloutPercentage": 100
-    }
-  },
-  {
-    "templateId": "EVENT_PASS_MILESTONE_REWARDS_FEATURE_GATE",
-    "data": {
-      "status": 1,
-      "rolloutPercentage": 100
-    }
-  },
-  {
     "templateId": "EVENT_TICKET_DATETIME_RANGE_FEATURE_GATE",
     "data": {
       "status": 1,
@@ -320,20 +299,6 @@
       "subFeatureGateList": [
         {
           "name": "COMBAT",
-          "status": 2,
-          "rolloutPercentage": 100
-        }
-      ]
-    }
-  },
-  {
-    "templateId": "VNEXT_PRE_RESPONSE_INPUT_BLOCKING_BEHAVIOR_FEATURE_GATE",
-    "data": {
-      "status": 1,
-      "rolloutPercentage": 100,
-      "subFeatureGateList": [
-        {
-          "name": "PVP",
           "status": 2,
           "rolloutPercentage": 100
         }
