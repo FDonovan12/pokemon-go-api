@@ -10,15 +10,16 @@ export default class PokemonSettingIntermediate extends IntermediateGenerator {
         return 'raid-move';
     }
 
-    async getMoveFrenchName(move: any) {
+    async getMoveFrenchName(move: MoveSettings) {
+        const movementId = String(move.data.movementId);
         const englishName = move.data.vfxName.replace('_fast', '').slugify();
         const data = await pokeApiClient.fetchMove(englishName);
         const frenchName = data?.names.find((n: any) => n.language.name === 'fr')?.name;
         const baseName = frenchName ?? englishName.titleCase();
 
-        const suffix = move.data.movementId.slugifyIncludes('TEMP_EVOLUTION')
+        const suffix = movementId.slugifyIncludes('TEMP_EVOLUTION')
             ? '+'
-            : '+'.repeat(move.data.movementId.split('PLUS').length - 1);
+            : '+'.repeat(movementId.split('PLUS').length - 1);
 
         return baseName + suffix;
     }
