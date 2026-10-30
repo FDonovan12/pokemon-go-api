@@ -51537,7 +51537,8 @@
       },
       "quickMoves": [
         "AIR_SLASH_FAST",
-        "BITE_FAST"
+        "BITE_FAST",
+        "GUST_FAST"
       ],
       "cinematicMoves": [
         "SHADOW_BALL",
@@ -231086,6 +231087,16 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "combatOpponentFocusCameraAngle": [
+        0.6,
+        -1,
+        0
+      ],
+      "combatPlayerFocusCameraAngle": [
+        -0.6,
+        -1,
+        0
+      ],
       "buddyGroupNumber": 2,
       "raidBossDistanceOffset": 4,
       "ibfc": {},
@@ -231153,6 +231164,16 @@
       "isTransferable": true,
       "isDeployable": true,
       "isTradable": true,
+      "combatOpponentFocusCameraAngle": [
+        0.6,
+        -1,
+        0
+      ],
+      "combatPlayerFocusCameraAngle": [
+        -0.6,
+        -1,
+        0
+      ],
       "buddyGroupNumber": 2,
       "raidBossDistanceOffset": 4,
       "ibfc": {},

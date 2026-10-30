@@ -379,13 +379,13 @@ export interface LevelUpRewardData {
     featuresUnlocked?:           BadgeTypeElement[];
     clientOverrideDisplayOrder?: boolean;
     itemsUnlocked?:              string[];
-    neutralAvatarItemTemplates?: NeutralAvatarItemTemplates;
+    neutralAvatarItemTemplates?: NeutralAvatarItemTemplate;
     isBackfill?:                 boolean;
 }
 
 export type BadgeTypeElement = number | string;
 
-export interface NeutralAvatarItemTemplates {
+export interface NeutralAvatarItemTemplate {
     itemTemplateId:    string;
     displayTemplateId: string;
 }
@@ -824,11 +824,11 @@ export interface IapItemDisplayData {
     skuDisableTimeUtcMs?:    string;
     imageUrl?:               string;
     category?:               CategoryEnum;
+    useEnvironmentPrefix?:   boolean;
     sale?:                   boolean;
     maxLevel?:               number;
     webstoreSkuId?:          string;
     webstoreSkuPriceE6?:     number;
-    useEnvironmentPrefix?:   boolean;
 }
 
 export enum CategoryEnum {
@@ -1172,7 +1172,7 @@ export interface CombatMove {
 }
 
 export interface CombatMoveData {
-    uniqueId:       string;
+    uniqueId:       BadgeTypeElement;
     type:           TemplateIdElement;
     power?:         number;
     vfxName:        string;
@@ -1471,9 +1471,9 @@ export interface EventPassTierSettingData {
     track:                       Track;
     minPointsRequired?:          number;
     rewards?:                    PurpleReward[];
-    isMilestoneRank?:            boolean;
     bonusSettings?:              Settings;
     activeBonusDisplaySettings?: Settings;
+    isMilestoneRank?:            boolean;
 }
 
 export interface Settings {
@@ -1487,21 +1487,24 @@ export interface ActiveBonusDisplaySettingsBonusBox {
 }
 
 export enum IconType {
+    CandyGeneral = "CANDY_GENERAL",
     EggIncubator = "EGG_INCUBATOR",
     Gift = "GIFT",
     Incense = "INCENSE",
+    Stardust = "STARDUST",
     Trade = "TRADE",
 }
 
 export interface PurpleReward {
-    type:              TypeElement;
-    pokemonEncounter?: RewardPokemonEncounter;
-    item?:             RewardDatumItem;
-    stardust?:         number;
-    candy?:            Candy;
-    xlCandy?:          Candy;
-    exp?:              number;
-    playerAttribute?:  PlayerAttribute;
+    type:                       TypeElement;
+    stardust?:                  number;
+    pokemonEncounter?:          RewardPokemonEncounter;
+    playerAttribute?:           PlayerAttribute;
+    exp?:                       number;
+    item?:                      RewardDatumItem;
+    candy?:                     Candy;
+    neutralAvatarItemTemplate?: NeutralAvatarItemTemplate;
+    xlCandy?:                   Candy;
 }
 
 export interface Candy {
@@ -1510,19 +1513,20 @@ export interface Candy {
 }
 
 export interface PlayerAttribute {
-    key:          string;
-    durationMins: number;
+    key:           string;
+    durationMins?: number;
 }
 
 export interface RewardPokemonEncounter {
     pokemonId:            string;
     pokemonDisplay?:      PurplePokemonDisplay;
-    statsLimitsOverride?: StatsLimitsOverride;
     isFeaturedPokemon?:   boolean;
+    statsLimitsOverride?: StatsLimitsOverride;
 }
 
 export interface PurplePokemonDisplay {
-    form:           string;
+    form:           BadgeTypeElement;
+    costume?:       string;
     breadModeEnum?: BreadMode;
 }
 
@@ -1881,10 +1885,10 @@ export interface IconReward {
     pokemonEncounter?:          IconRewardPokemonEncounter;
     item?:                      RewardDatumItem;
     candy?:                     Candy;
-    neutralAvatarItemTemplate?: NeutralAvatarItemTemplate;
+    neutralAvatarItemTemplate?: IconRewardNeutralAvatarItemTemplate;
 }
 
-export interface NeutralAvatarItemTemplate {
+export interface IconRewardNeutralAvatarItemTemplate {
     displayTemplateId: string;
 }
 
@@ -2438,6 +2442,8 @@ export interface MapDisplaySettings {
 
 export interface MapDisplaySettingData {
     showEnhancedSky: boolean;
+    skyEffectName:   string;
+    eventThemeName:  string;
 }
 
 export interface MapObjectsInteractionRangeSettings {
@@ -2559,6 +2565,15 @@ export interface BattleMpCostPerTier {
     breadBattleCatchMpCost:       number;
     battleLevel:                  BadgeTypeElement;
     breadBattleRemoteCatchMpCost: number;
+}
+
+export interface MusicSettings {
+    templateId: string;
+    data:       MusicSettingData;
+}
+
+export interface MusicSettingData {
+    mapMusicNightOverride: string;
 }
 
 export interface NaturalArtDayNightFeatureSettings {
@@ -4219,7 +4234,7 @@ export interface MoveSettings {
 }
 
 export interface MoveSettingData {
-    movementId:           string;
+    movementId:           BadgeTypeElement;
     animationId:          number;
     pokemonType:          TemplateIdElement;
     power?:               number;
@@ -4288,6 +4303,8 @@ export interface VistaGeneralSettingData {
     isVistaEncounterEnabled: boolean;
     isVistaMapEnabled:       boolean;
     isVistaSpawnsEnabled:    boolean;
+    themeOverride:           string;
+    environmentSeason:       string;
 }
 
 export interface BattleAnimationSettings {

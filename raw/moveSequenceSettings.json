@@ -2112,6 +2112,20 @@
     }
   },
   {
+    "templateId": "sequence_kowtow_cleave",
+    "data": {
+      "sequence": [
+        "anim attacker atk-move",
+        "wait 0.5",
+        "vfx kowtow_cleave",
+        "sfx attacker 018-0_darkest_lariat",
+        "wait 1.0",
+        "sys ui-sync",
+        "sys complete"
+      ]
+    }
+  },
+  {
     "templateId": "sequence_last_resort",
     "data": {
       "sequence": [

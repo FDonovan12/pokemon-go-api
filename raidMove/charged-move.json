@@ -1,4 +1,16 @@
 {
+  "615": {
+    "id": "V0615_MOVE_KOWTOW_CLEAVE",
+    "movementId": 615,
+    "pokemonType": "Ténèbres",
+    "power": 85,
+    "durationMs": 2000,
+    "energyDelta": -50,
+    "vfxName": "kowtow_cleave",
+    "names": {
+      "fr": "Génusection"
+    }
+  },
   "WRAP": {
     "id": "V0013_MOVE_WRAP",
     "movementId": "WRAP",

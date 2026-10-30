@@ -40232,7 +40232,30 @@
         "mUpperBound": 0.25,
         "xlUpperBound": 0.3,
         "xxlUpperBound": 0.35
-      }
+      },
+      "breadOverrides": [
+        {
+          "breadMode": "BREAD_MODE",
+          "maxEncounterVisualSettings": {
+            "scale": 52,
+            "cameraDistance": 28,
+            "maxReticleSize": 14
+          },
+          "maxBattleVisualSettings": {
+            "scale": 104
+          },
+          "maxBattleTrainerVisualSettings": {
+            "xOffset": -8,
+            "yOffset": -2.5
+          },
+          "maxStationVisualSettings": {
+            "scale": 8
+          },
+          "maxPowerspotTopperVisualSettings": {
+            "scale": 1.1
+          }
+        }
+      ]
     }
   },
   {
@@ -40247,7 +40270,30 @@
         "mUpperBound": 0.25,
         "xlUpperBound": 0.3,
         "xxlUpperBound": 0.35
-      }
+      },
+      "breadOverrides": [
+        {
+          "breadMode": "BREAD_MODE",
+          "maxEncounterVisualSettings": {
+            "scale": 52,
+            "cameraDistance": 28,
+            "maxReticleSize": 14
+          },
+          "maxBattleVisualSettings": {
+            "scale": 104
+          },
+          "maxBattleTrainerVisualSettings": {
+            "xOffset": -8,
+            "yOffset": -2.5
+          },
+          "maxStationVisualSettings": {
+            "scale": 8
+          },
+          "maxPowerspotTopperVisualSettings": {
+            "scale": 1.1
+          }
+        }
+      ]
     }
   },
   {
@@ -40261,7 +40307,26 @@
         "mUpperBound": 3.125,
         "xlUpperBound": 3.75,
         "xxlUpperBound": 3.875
-      }
+      },
+      "breadOverrides": [
+        {
+          "breadMode": "BREAD_MODE",
+          "maxEncounterVisualSettings": {
+            "scale": 6,
+            "cameraDistance": 35,
+            "maxReticleSize": 14
+          },
+          "maxBattleVisualSettings": {
+            "scale": 10.5
+          },
+          "maxStationVisualSettings": {
+            "scale": 0.825
+          },
+          "maxPowerspotTopperVisualSettings": {
+            "scale": 1.15
+          }
+        }
+      ]
     }
   },
   {
@@ -40276,7 +40341,26 @@
         "mUpperBound": 3.125,
         "xlUpperBound": 3.75,
         "xxlUpperBound": 3.875
-      }
+      },
+      "breadOverrides": [
+        {
+          "breadMode": "BREAD_MODE",
+          "maxEncounterVisualSettings": {
+            "scale": 6,
+            "cameraDistance": 35,
+            "maxReticleSize": 14
+          },
+          "maxBattleVisualSettings": {
+            "scale": 10.5
+          },
+          "maxStationVisualSettings": {
+            "scale": 0.825
+          },
+          "maxPowerspotTopperVisualSettings": {
+            "scale": 1.15
+          }
+        }
+      ]
     }
   },
   {

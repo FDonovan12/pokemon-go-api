@@ -5988,6 +5988,24 @@
     }
   },
   {
+    "templateId": "V0615_MOVE_KOWTOW_CLEAVE",
+    "data": {
+      "movementId": 615,
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_DARK",
+      "power": 85,
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "kowtow_cleave",
+      "durationMs": 2000,
+      "damageWindowStartMs": 1300,
+      "damageWindowEndMs": 1900,
+      "energyDelta": -50
+    }
+  },
+  {
     "templateId": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0015_POKEMON_BEEDRILL",
     "data": {
       "movementId": "TEMP_EVOLUTION_MEGA_V0015_POKEMON_BEEDRILL",

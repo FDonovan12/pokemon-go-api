@@ -1,0 +1,8 @@
+[
+  {
+    "templateId": "MUSIC_SETTINGS",
+    "data": {
+      "mapMusicNightOverride": "MapHalloweenNightMusic"
+    }
+  }
+]

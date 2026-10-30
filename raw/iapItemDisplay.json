@@ -217,6 +217,52 @@
     }
   },
   {
+    "templateId": "OCTOBER2_2026_DELUXE_EVENT_PASS_TRACK_UNLOCK",
+    "data": {
+      "sku": "pgorelease.october2_2026_deluxe_event_pass_track_unlock",
+      "sortOrder": 1,
+      "title": "season_pass_premium_track_title_halloween2026",
+      "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
+      "skuEnableTime": "2025-10-27T10:00:00",
+      "skuDisableTime": "2026-11-07T20:00:00",
+      "skuEnableTimeUtcMs": "1761559200000",
+      "skuDisableTimeUtcMs": "1794081600000",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fb20824cf_PGO-MCS_GO_Pass_Halloween_2026-v2-1024x576.jpg",
+      "useEnvironmentPrefix": true
+    }
+  },
+  {
+    "templateId": "OCTOBER2_2026_DELUXE_EVENT_PASS_TRACK_UNLOCK_PLUS_POINTS",
+    "data": {
+      "sku": "pgorelease.october2_2026_deluxe_event_pass_track_unlock_plus_points",
+      "sortOrder": 1,
+      "title": "season_pass_premium_track_plus_ten_ranks_title_halloween2026",
+      "description": "deluxe_event_pass_track_unlock_plus_points_description",
+      "skuEnableTime": "2025-10-27T10:00:00",
+      "skuDisableTime": "2026-11-07T20:00:00",
+      "skuEnableTimeUtcMs": "1761559200000",
+      "skuDisableTimeUtcMs": "1794081600000",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fb20824cf_PGO-MCS_GO_Pass_Halloween_2026-v2-1024x576.jpg",
+      "useEnvironmentPrefix": true
+    }
+  },
+  {
+    "templateId": "OCTOBER2_2026_DELUXE_EVENT_PASS_TRACK_UNLOCK_REDIRECT",
+    "data": {
+      "sku": "pgorelease.october2_2026_deluxe_event_pass_track_unlock_redirect",
+      "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
+      "sortOrder": 1,
+      "title": "season_pass_premium_track_title_halloween2026",
+      "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
+      "skuEnableTime": "2025-10-27T10:00:00",
+      "skuDisableTime": "2026-11-07T20:00:00",
+      "skuEnableTimeUtcMs": "1761559200000",
+      "skuDisableTimeUtcMs": "1794081600000",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fb20824cf_PGO-MCS_GO_Pass_Halloween_2026-v2-1024x576.jpg",
+      "useEnvironmentPrefix": true
+    }
+  },
+  {
     "templateId": "SEPTEMBER1_2026_DELUXE_EVENT_PASS_TRACK_UNLOCK",
     "data": {
       "sku": "pgorelease.september1_2026_deluxe_event_pass_track_unlock",
@@ -8276,9 +8322,14 @@
       "sku": "bundle.mheracrossraidday2024.1",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 1,
-      "hidden": true,
       "spriteId": "bundle.general.premiumbox.small.1",
-      "title": "raiding_box"
+      "title": "raiding_box",
+      "skuEnableTime": "2022-10-13T12:00:00",
+      "skuDisableTime": "2026-09-20T17:00:00",
+      "skuEnableTimeUtcMs": "1665662400000",
+      "skuDisableTimeUtcMs": "1789923600000",
+      "showDiscountTag": true,
+      "showStrikethroughPrice": true
     }
   },
   {
@@ -8351,9 +8402,15 @@
       "sku": "bundle.primalraidday2023.1",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 1,
-      "hidden": true,
       "spriteId": "bundle.general.premiumbox.small.1",
-      "title": "raiding_box"
+      "title": "raiding_box",
+      "skuEnableTime": "2022-10-13T12:00:00",
+      "skuDisableTime": "2026-11-01T22:00:00",
+      "skuEnableTimeUtcMs": "1665662400000",
+      "skuDisableTimeUtcMs": "1793570400000",
+      "showDiscountTag": true,
+      "showStrikethroughPrice": true,
+      "totalValue": 725
     }
   },
   {
@@ -9307,12 +9364,28 @@
       "sortOrder": 2,
       "hidden": true,
       "spriteId": "general1.ticket.2",
-      "title": "general1.ticket_CD_Zorua26_title",
+      "title": "general1.ticket_CD_Pawniard26_title",
       "skuEnableTime": "2019-03-14T08:00:00",
-      "skuDisableTime": "2026-10-10T17:00:00",
+      "skuDisableTime": "2026-11-21T17:00:00",
       "skuEnableTimeUtcMs": "1552550400000",
-      "skuDisableTimeUtcMs": "1791651600000",
-      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F7278ea4f_PGO_MCS_CD_KeyArt_Zorua_v3-1024x576-nologo.jpg",
+      "skuDisableTimeUtcMs": "1795280400000",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Ff0183154_PGO_MCS_CD_KeyArt_Pawniard_v2_1024x576_nologo.jpg",
+      "useEnvironmentPrefix": true
+    }
+  },
+  {
+    "templateId": "general2.ticket.5",
+    "data": {
+      "sku": "pgorelease.general2.ticket.5",
+      "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
+      "sortOrder": 2,
+      "spriteId": "general2.ticket.5",
+      "title": "general2.ticket.5_MegaChandelureRaidDay",
+      "skuEnableTime": "2019-03-14T08:00:00",
+      "skuDisableTime": "2026-10-31T17:00:00",
+      "skuEnableTimeUtcMs": "1552550400000",
+      "skuDisableTimeUtcMs": "1793466000000",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F452fd1a0_PGO-MCS_Chandelure_Super_Mega_Raid_Day_v3_1024x576.jpg",
       "useEnvironmentPrefix": true
     }
   },

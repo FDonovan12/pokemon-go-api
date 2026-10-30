@@ -1,4 +1,5 @@
 export interface RaidMoveChargedMove {
+    "615":                                        The615;
     WRAP:                                         AcidSpray;
     HYPER_BEAM:                                   AcidSpray;
     DARK_PULSE:                                   AcidSpray;
@@ -266,9 +267,9 @@ export interface RaidMoveChargedMove {
     TEMP_EVOLUTION_MEGA_Y_V0150_POKEMON_MEWTWO:   AcidSpray;
 }
 
-export interface AcidSpray {
+export interface The615 {
     id:          string;
-    movementId:  string;
+    movementId:  number;
     pokemonType: Type;
     power:       number;
     durationMs:  number;
@@ -300,6 +301,17 @@ export enum Type {
     Ténèbres = "Ténèbres",
     Vol = "Vol",
     Électrik = "Électrik",
+}
+
+export interface AcidSpray {
+    id:          string;
+    movementId:  string;
+    pokemonType: Type;
+    power:       number;
+    durationMs:  number;
+    energyDelta: number;
+    vfxName:     string;
+    names:       Names;
 }
 
 export interface PokemonCpMultiplier {

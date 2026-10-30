@@ -312,7 +312,7 @@
       },
       "timePeriodCounters": {
         "playerActivity": {
-          "limit": 300
+          "limit": 500
         }
       },
       "hideItemInInventory": true
@@ -1778,6 +1778,76 @@
       "ignoreInventorySpace": true,
       "nameOverride": "general2.ticket.5_MegaStarmieRaidDay",
       "descriptionOverride": "item_event_ticket_desc_MegaStarmieRaidDay"
+    }
+  },
+  {
+    "templateId": "ITEM_EVENT_TICKET_S24_NOV21_COMMUNITY",
+    "data": {
+      "itemId": "ITEM_EVENT_TICKET_S24_NOV21_COMMUNITY",
+      "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
+      "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
+      "globalEventTicket": {
+        "eventStartTime": "2026-11-21T14:00:00",
+        "eventEndTime": "2026-11-21T17:00:00",
+        "itemBagDescriptionKey": "item_event_ticket_pink_desc_CD_Pawniard26",
+        "giftable": true,
+        "giftItem": "ITEM_EVENT_TICKET_S24_NOV21_COMMUNITY_TO_GIFT",
+        "eventBannerUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Ff0183154_PGO_MCS_CD_KeyArt_Pawniard_v2_1024x576_nologo.jpg",
+        "displayV2Enabled": true,
+        "backgroundImageUrl": "https://storage.googleapis.com/prod-public-images/pink-ticket-generic1024x512.jpg",
+        "textRewardsKey": "text_rewards_key_CD_Pawniard26",
+        "iconRewards": [
+          {
+            "type": "POKEMON_ENCOUNTER",
+            "pokemonEncounter": {
+              "pokemonId": "KINGAMBIT",
+              "pokemonDisplay": {
+                "form": "KINGAMBIT_NORMAL"
+              }
+            }
+          },
+          {
+            "type": "ITEM",
+            "item": {
+              "item": "ITEM_INCUBATOR_BASIC",
+              "amount": 1
+            }
+          },
+          {
+            "type": "ITEM",
+            "item": {
+              "item": "ITEM_XL_RARE_CANDY",
+              "amount": 1
+            }
+          }
+        ],
+        "detailsLinkKey": "details_link_key",
+        "clientEventStartTimeUtcMs": "1795269600000",
+        "clientEventEndTimeUtcMs": "1795280400000"
+      },
+      "ignoreInventorySpace": true,
+      "nameOverride": "general1.ticket_CD_Pawniard26_title",
+      "descriptionOverride": "item_event_ticket_pink_details_CD_Pawniard26"
+    }
+  },
+  {
+    "templateId": "ITEM_EVENT_TICKET_S24_NOV21_COMMUNITY_TO_GIFT",
+    "data": {
+      "itemId": "ITEM_EVENT_TICKET_S24_NOV21_COMMUNITY_TO_GIFT",
+      "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
+      "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
+      "globalEventTicket": {
+        "eventStartTime": "2026-11-21T14:00:00",
+        "eventEndTime": "2026-11-21T17:00:00",
+        "itemBagDescriptionKey": "item_event_ticket_pink_desc_CD_Pawniard26",
+        "ticketItem": "ITEM_EVENT_TICKET_S24_NOV21_COMMUNITY",
+        "eventBannerUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Ff0183154_PGO_MCS_CD_KeyArt_Pawniard_v2_1024x576_nologo.jpg",
+        "clientEventStartTimeUtcMs": "1795269600000",
+        "clientEventEndTimeUtcMs": "1795280400000"
+      },
+      "ignoreInventorySpace": true,
+      "nameOverride": "general1.ticket_CD_Pawniard26_title",
+      "descriptionOverride": "item_event_ticket_pink_details_CD_Pawniard26"
     }
   },
   {
