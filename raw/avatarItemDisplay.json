@@ -3510,6 +3510,13 @@
     }
   },
   {
+    "templateId": "N_DISPLAY_n_hat_winona",
+    "data": {
+      "iconAddress": "n_hat_winona_icon",
+      "displayStringId": "avatar_hat_winona"
+    }
+  },
+  {
     "templateId": "N_DISPLAY_n_hat_woobatearrings_0",
     "data": {
       "iconAddress": "n_hat_woobatearrings_0_icon",
@@ -5390,6 +5397,13 @@
     "data": {
       "iconAddress": "n_pose_s24gbl_icon",
       "displayStringId": "avatar_pose_s24Ryme"
+    }
+  },
+  {
+    "templateId": "N_DISPLAY_n_pose_s25gbl",
+    "data": {
+      "iconAddress": "n_pose_s25gbl_icon",
+      "displayStringId": "avatar_pose_winona"
     }
   },
   {
@@ -8655,6 +8669,13 @@
     }
   },
   {
+    "templateId": "N_DISPLAY_n_shirt_winona",
+    "data": {
+      "iconAddress": "n_shirt_winona_icon",
+      "displayStringId": "avatar_shirt_winona"
+    }
+  },
+  {
     "templateId": "N_DISPLAY_n_shirt_wintersweater2023_0",
     "data": {
       "iconAddress": "n_shirt_wintersweater2023_0_icon",
@@ -9800,6 +9821,13 @@
     "data": {
       "iconAddress": "n_shoes_willow_icon",
       "displayStringId": "avatar_shirt_default_willow_shoes"
+    }
+  },
+  {
+    "templateId": "N_DISPLAY_n_shoes_winona",
+    "data": {
+      "iconAddress": "n_shoes_winona_icon",
+      "displayStringId": "avatar_shoes_winona"
     }
   },
   {

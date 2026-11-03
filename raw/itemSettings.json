@@ -224,6 +224,25 @@
     }
   },
   {
+    "templateId": "ITEM_EVENT_PASS_POINT_GO_WILD_AREA_02",
+    "data": {
+      "itemId": "ITEM_EVENT_PASS_POINT_GO_WILD_AREA_02",
+      "itemType": "ITEM_TYPE_EVENT_PASS_POINT",
+      "category": "ITEM_CATEGORY_EVENT_PASS_POINT",
+      "ignoreInventorySpace": true,
+      "itemCap": 999999,
+      "eventPassPoint": {
+        "eventPassId": "EVENT_PASS_GOWA2026_LEADOUT"
+      },
+      "timePeriodCounters": {
+        "playerActivity": {
+          "limit": 900
+        }
+      },
+      "hideItemInInventory": true
+    }
+  },
+  {
     "templateId": "ITEM_EVENT_PASS_POINT_LIVE_OPS_01",
     "data": {
       "itemId": "ITEM_EVENT_PASS_POINT_LIVE_OPS_01",
@@ -311,9 +330,7 @@
         "eventPassId": "EVENT_PASS_HALLOWEEN_2026_EVENT"
       },
       "timePeriodCounters": {
-        "playerActivity": {
-          "limit": 500
-        }
+        "playerActivity": {}
       },
       "hideItemInInventory": true
     }
@@ -2571,7 +2588,7 @@
       "category": "ITEM_CATEGORY_INCENSE",
       "dropTrainerLevel": 6,
       "incense": {
-        "incenseLifetimeSeconds": 1800,
+        "incenseLifetimeSeconds": 900,
         "spawnTableProbability": 0.25
       },
       "ignoreInventorySpace": true

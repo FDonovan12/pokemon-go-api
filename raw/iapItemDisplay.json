@@ -9575,6 +9575,52 @@
     }
   },
   {
+    "templateId": "month3_deluxe_event_pass_track_redirect",
+    "data": {
+      "sku": "pgorelease.month3_deluxe_event_pass_track_redirect",
+      "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
+      "sortOrder": 1,
+      "title": "season_pass_premium_track_title_nov",
+      "description": "deluxe_event_pass_track_unlock_description",
+      "skuEnableTime": "2025-11-03T10:00:00",
+      "skuDisableTime": "2026-12-03T10:00:00",
+      "skuEnableTimeUtcMs": "1762164000000",
+      "skuDisableTimeUtcMs": "1796292000000",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F25acca32_PGO-MCS_Ticket%20Art_Poke%CC%81Coin_1024x576.png",
+      "useEnvironmentPrefix": true
+    }
+  },
+  {
+    "templateId": "month3_deluxe_event_pass_track_unlock",
+    "data": {
+      "sku": "pgorelease.month3_deluxe_event_pass_track_unlock",
+      "sortOrder": 1,
+      "title": "season_pass_premium_track_title_nov",
+      "description": "deluxe_event_pass_track_unlock_description",
+      "skuEnableTime": "2025-11-03T10:00:00",
+      "skuDisableTime": "2026-12-03T10:00:00",
+      "skuEnableTimeUtcMs": "1762164000000",
+      "skuDisableTimeUtcMs": "1796292000000",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F25acca32_PGO-MCS_Ticket%20Art_Poke%CC%81Coin_1024x576.png",
+      "useEnvironmentPrefix": true
+    }
+  },
+  {
+    "templateId": "month3_deluxe_event_pass_track_unlock_plus_points",
+    "data": {
+      "sku": "pgorelease.month3_deluxe_event_pass_track_unlock_plus_points",
+      "sortOrder": 1,
+      "title": "season_pass_premium_track_plus_ten_ranks_title_nov",
+      "description": "deluxe_event_pass_track_unlock_plus_points_description",
+      "skuEnableTime": "2025-11-03T10:00:00",
+      "skuDisableTime": "2026-12-03T10:00:00",
+      "skuEnableTimeUtcMs": "1762164000000",
+      "skuDisableTimeUtcMs": "1796292000000",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F25acca32_PGO-MCS_Ticket%20Art_Poke%CC%81Coin_1024x576.png",
+      "useEnvironmentPrefix": true
+    }
+  },
+  {
     "templateId": "mp_replenish.1",
     "data": {
       "sku": "mp_replenish.1",

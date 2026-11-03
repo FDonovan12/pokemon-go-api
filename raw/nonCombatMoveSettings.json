@@ -106,7 +106,11 @@
       "bonusType": "FREEZE_BONUS",
       "enableMultiUse": true,
       "extraDurationMs": "4000",
-      "enableNonCombatMove": true
+      "enableNonCombatMove": true,
+      "innLobbyActivationSettings": {
+        "enableActivationInRaidLobby": true,
+        "enableActivationInMaxLobby": true
+      }
     }
   },
   {
@@ -129,7 +133,11 @@
       "bonusType": "SLOW_BONUS",
       "enableMultiUse": true,
       "extraDurationMs": "4000",
-      "enableNonCombatMove": true
+      "enableNonCombatMove": true,
+      "innLobbyActivationSettings": {
+        "enableActivationInRaidLobby": true,
+        "enableActivationInMaxLobby": true
+      }
     }
   },
   {
@@ -163,7 +171,11 @@
       "bonusType": "ATTACK_BONUS",
       "enableMultiUse": true,
       "extraDurationMs": "4000",
-      "enableNonCombatMove": true
+      "enableNonCombatMove": true,
+      "innLobbyActivationSettings": {
+        "enableActivationInRaidLobby": true,
+        "enableActivationInMaxLobby": true
+      }
     }
   },
   {
@@ -197,7 +209,11 @@
       "bonusType": "DEFENSE_BONUS",
       "enableMultiUse": true,
       "extraDurationMs": "4000",
-      "enableNonCombatMove": true
+      "enableNonCombatMove": true,
+      "innLobbyActivationSettings": {
+        "enableActivationInRaidLobby": true,
+        "enableActivationInMaxLobby": true
+      }
     }
   },
   {
@@ -221,7 +237,10 @@
       "bonusType": "MAX_MOVE_BONUS",
       "enableMultiUse": true,
       "extraDurationMs": "4000",
-      "enableNonCombatMove": true
+      "enableNonCombatMove": true,
+      "innLobbyActivationSettings": {
+        "enableActivationInMaxLobby": true
+      }
     }
   },
   {

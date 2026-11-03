@@ -3441,7 +3441,7 @@
         "sameTypeExtraCatchCandy": 3,
         "sameTypeExtraCatchXp": 200,
         "sameTypeExtraCatchCandyXlChance": 0.3,
-        "selfCpBoostAdditionalLevel": 2
+        "selfCpBoostAdditionalLevel": 10
       },
       "megaEnergyCostToUnlock": 5000,
       "ftueExpirationTimestamp": "1775001600000"

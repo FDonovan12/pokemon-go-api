@@ -87,7 +87,7 @@ export interface QuestIconCarousel {
 }
 
 export interface RewardDatum {
-    type: TypeElement;
+    type: DailyDefenderBonusCurrency;
     item: RewardDatumItem;
 }
 
@@ -96,12 +96,13 @@ export interface RewardDatumItem {
     amount?: number;
 }
 
-export enum TypeElement {
+export enum DailyDefenderBonusCurrency {
     AvatarClothing = "AVATAR_CLOTHING",
     Candy = "CANDY",
     Experience = "EXPERIENCE",
     Item = "ITEM",
     PlayerAttribute = "PLAYER_ATTRIBUTE",
+    Pokecoin = "POKECOIN",
     PokemonEncounter = "POKEMON_ENCOUNTER",
     Stardust = "STARDUST",
     XlCandy = "XL_CANDY",
@@ -418,7 +419,7 @@ export interface BadgeSettingData {
 }
 
 export interface CaptureReward {
-    rewardTypes?: TypeElement[];
+    rewardTypes?: DailyDefenderBonusCurrency[];
 }
 
 export interface EventBadgeSettings {
@@ -1189,21 +1190,6 @@ export interface Buffs {
     attackerDefenseStatStageChange?: number;
 }
 
-export interface CodeGateProto {
-    templateId: string;
-    data:       CodeGateProtoData;
-}
-
-export interface CodeGateProtoData {
-    isEnabled:        boolean;
-    subCodeGateList?: SubCodeGateList;
-}
-
-export interface SubCodeGateList {
-    name:      string;
-    isEnabled: boolean;
-}
-
 export interface ContestSettings {
     templateId: string;
     data:       ContestSettingData;
@@ -1477,7 +1463,7 @@ export interface EventPassTierSettingData {
 }
 
 export interface Settings {
-    eventName:  string;
+    eventName:  EventName;
     bonusBoxes: ActiveBonusDisplaySettingsBonusBox[];
 }
 
@@ -1495,8 +1481,16 @@ export enum IconType {
     Trade = "TRADE",
 }
 
+export enum EventName {
+    GoPassCumulativeBonusesHeader = "go_pass_cumulative_bonuses_header",
+    SeasonPassMilestoneBonusTitle01 = "season_pass_milestone_bonus_title_01",
+    SeasonPassMilestoneBonusTitle02 = "season_pass_milestone_bonus_title_02",
+    SeasonPassMilestoneBonusTitle03 = "season_pass_milestone_bonus_title_03",
+    SeasonPassMilestoneBonusTitle04 = "season_pass_milestone_bonus_title_04",
+}
+
 export interface PurpleReward {
-    type:                       TypeElement;
+    type:                       DailyDefenderBonusCurrency;
     stardust?:                  number;
     pokemonEncounter?:          RewardPokemonEncounter;
     playerAttribute?:           PlayerAttribute;
@@ -1505,6 +1499,7 @@ export interface PurpleReward {
     candy?:                     Candy;
     neutralAvatarItemTemplate?: NeutralAvatarItemTemplate;
     xlCandy?:                   Candy;
+    pokecoin?:                  number;
 }
 
 export interface Candy {
@@ -1879,7 +1874,7 @@ export interface GlobalEventTicket {
 }
 
 export interface IconReward {
-    type:                       TypeElement;
+    type:                       DailyDefenderBonusCurrency;
     exp?:                       number;
     stardust?:                  number;
     pokemonEncounter?:          IconRewardPokemonEncounter;
@@ -1946,7 +1941,7 @@ export interface TimePeriodCounters {
 }
 
 export interface PlayerActivity {
-    limit: number;
+    limit?: number;
 }
 
 export interface XpBoost {
@@ -2056,7 +2051,7 @@ export interface IapSettings {
 export interface IapSettingData {
     dailyDefenderBonusPerPokemon:     number[];
     dailyDefenderBonusMaxDefenders:   number;
-    dailyDefenderBonusCurrency:       string[];
+    dailyDefenderBonusCurrency:       DailyDefenderBonusCurrency[];
     minTimeBetweenClaimsMs:           string;
     prohibitPurchaseInTestEnvirnment: boolean;
 }
@@ -2195,6 +2190,15 @@ export interface IrisSocialUxFunnelSettingData {
 export interface EventStep {
     stepNumber: number;
     event:      BadgeTypeElement;
+}
+
+export interface CodeGateProto {
+    templateId: string;
+    data:       CodeGateProtoData;
+}
+
+export interface CodeGateProtoData {
+    isEnabled: boolean;
 }
 
 export interface ItemCurrencyValues {
@@ -2775,9 +2779,9 @@ export interface TempEvoResourceCost {
 }
 
 export interface InnLobbyActivationSettings {
-    enableActivationInMegaRaidLobby?: boolean;
     enableActivationInRaidLobby?:     boolean;
     enableActivationInMaxLobby?:      boolean;
+    enableActivationInMegaRaidLobby?: boolean;
 }
 
 export interface AvatarItemDisplay {
