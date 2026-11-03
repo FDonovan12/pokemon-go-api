@@ -6123,6 +6123,26 @@
     }
   },
   {
+    "templateId": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0302_POKEMON_SABLEYE",
+    "data": {
+      "movementId": "TEMP_EVOLUTION_MEGA_V0302_POKEMON_SABLEYE",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_GHOST",
+      "power": 160,
+      "accuracyChance": 1,
+      "criticalChance": 0.05,
+      "staminaLossScalar": 0.04,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "night_shade",
+      "durationMs": 2500,
+      "damageWindowStartMs": 2000,
+      "damageWindowEndMs": 2400,
+      "energyDelta": -100,
+      "isLocked": true
+    }
+  },
+  {
     "templateId": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0310_POKEMON_MANECTRIC",
     "data": {
       "movementId": "TEMP_EVOLUTION_MEGA_V0310_POKEMON_MANECTRIC",

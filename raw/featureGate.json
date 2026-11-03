@@ -247,7 +247,7 @@
   {
     "templateId": "PLAYER_ENCOUNTER_RANDOMIZATION_SALT_FEATURE_GATE",
     "data": {
-      "status": 1,
+      "status": 2,
       "rolloutPercentage": 100
     }
   },

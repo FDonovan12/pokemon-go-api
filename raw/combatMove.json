@@ -3779,6 +3779,16 @@
     }
   },
   {
+    "templateId": "COMBAT_VM_MOVE_TEMP_EVOLUTION_MEGA_V0302_POKEMON_SABLEYE",
+    "data": {
+      "uniqueId": "TEMP_EVOLUTION_MEGA_V0302_POKEMON_SABLEYE",
+      "type": "POKEMON_TYPE_GHOST",
+      "power": 55,
+      "vfxName": "night_shade",
+      "energyDelta": -45
+    }
+  },
+  {
     "templateId": "COMBAT_VM_MOVE_TEMP_EVOLUTION_MEGA_V0310_POKEMON_MANECTRIC",
     "data": {
       "uniqueId": "TEMP_EVOLUTION_MEGA_V0310_POKEMON_MANECTRIC",

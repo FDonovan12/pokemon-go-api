@@ -3047,6 +3047,18 @@
       "fr": "Vibrobscur+"
     }
   },
+  "TEMP_EVOLUTION_MEGA_V0302_POKEMON_SABLEYE": {
+    "id": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0302_POKEMON_SABLEYE",
+    "movementId": "TEMP_EVOLUTION_MEGA_V0302_POKEMON_SABLEYE",
+    "pokemonType": "Spectre",
+    "power": 160,
+    "durationMs": 2500,
+    "energyDelta": -100,
+    "vfxName": "night_shade",
+    "names": {
+      "fr": "Ombre Nocturne+"
+    }
+  },
   "TEMP_EVOLUTION_MEGA_V0310_POKEMON_MANECTRIC": {
     "id": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0310_POKEMON_MANECTRIC",
     "movementId": "TEMP_EVOLUTION_MEGA_V0310_POKEMON_MANECTRIC",

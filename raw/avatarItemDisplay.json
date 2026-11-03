@@ -252,6 +252,13 @@
     }
   },
   {
+    "templateId": "N_DISPLAY_n_backpack_gmaxduraludon",
+    "data": {
+      "iconAddress": "n_backpack_gmaxduraludon_icon",
+      "displayStringId": "avatar_backpack_gmaxduraludon"
+    }
+  },
+  {
     "templateId": "N_DISPLAY_n_backpack_goruckgengar_0",
     "data": {
       "iconAddress": "n_backpack_goruckgengar_0_icon",
@@ -2331,6 +2338,13 @@
     "data": {
       "iconAddress": "n_hat_drpikachu_0_icon",
       "displayStringId": "n_hat_drpikachu_0_display_name"
+    }
+  },
+  {
+    "templateId": "N_DISPLAY_n_hat_duraludon",
+    "data": {
+      "iconAddress": "n_hat_duraludon_icon",
+      "displayStringId": "avatar_hat_duraludon"
     }
   },
   {
@@ -6510,6 +6524,13 @@
     "data": {
       "iconAddress": "n_shirt_gowa2026-navy_icon",
       "displayStringId": "avatar_shirt_gowa2026-navy"
+    }
+  },
+  {
+    "templateId": "N_DISPLAY_n_shirt_gowamachamp",
+    "data": {
+      "iconAddress": "n_shirt_gowamachamp_icon",
+      "displayStringId": "avatar_shirt_gowamachamp"
     }
   },
   {
