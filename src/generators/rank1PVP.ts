@@ -20,9 +20,14 @@ export default class PokemonSettingGenerator extends FileGenerator {
         const rawPokemon: PokemonSetting[] = await IntermediateData.getPokemonSetting();
         const rawCpMultiplier = await getCpMultipliers();
 
-        const finalPokemon: PokemonBase[] = rawPokemon
-            .map((form: PokemonSetting) => [form.base, ...form.different.map((d: any) => d.base)])
-            .flat();
+        const finalPokemon: PokemonBase[] = rawPokemon.flatMap((form: PokemonSetting) => {
+            const forms = [form.base, ...form.different.map((d) => d.base)];
+            const megaForms = (form.base.mega ?? []).map((mega) => ({
+                ...form.base,
+                ...mega,
+            }));
+            return [...forms, ...megaForms];
+        });
 
         const result: Record<string, { super: any; hyper: any }> = {};
 
