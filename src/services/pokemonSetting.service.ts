@@ -1,9 +1,20 @@
 import { PokemonSettings } from '#generated/data/api/raw.type.js';
+import {
+    PokemonSetting,
+    RaidMove,
+    SameTempEvoOverride,
+} from '#generated/data/api/intermediate.type.js';
 import { RawGameMaster } from '#generated/raw.index.js';
+import { getRaidMove } from './raidMove.service.js';
 import { pokeApiClient } from '../utils/pokeApiClient.js';
-import { extractDexNumberFromId, getImage, pokemonTypeToFrench } from '../utils/utils.js';
+import {
+    extractDexNumberFromId,
+    getImage,
+    pokemonTypeToFrench,
+} from '../utils/utils.js';
 
 let cachedResult: Promise<any> | null = null;
+type ChargedMove = RaidMove['chargedMove'];
 
 export function getPokemonSetting() {
     if (!cachedResult) {
@@ -14,6 +25,61 @@ export function getPokemonSetting() {
 }
 
 class PokemonSettingGeneratorService {
+    private async getMegaId(pokemon: PokemonSetting, tempEvo: SameTempEvoOverride) {
+        const dexNumber = pokemon.base.dexNumber;
+        const name = pokemon.base.pokemonId;
+        const data = await pokeApiClient.fetchPokemonSpecies(dexNumber);
+        const evotype = tempEvo.tempEvoId?.replace('TEMP_EVOLUTION_', '') ?? 'non-defini';
+        if (!data) return dexNumber;
+        const variety = data.varieties.filter(
+            (variety: any) =>
+                variety.pokemon.name.slugifyIncludes(evotype) &&
+                variety.pokemon.name.slugifyIncludes(name.kebabCase()),
+        );
+        return +(variety[0]?.pokemon.url.split('/')?.filter(Boolean)?.last() || dexNumber);
+    }
+
+    private async buildMega(
+        pokemon: PokemonSetting,
+        chargedMove: ChargedMove,
+        evoLevel: Awaited<ReturnType<typeof RawGameMaster.getMegaEvoLevelSettings>>,
+    ) {
+        return (
+            await Promise.all(
+                pokemon.base.tempEvoOverrides?.map(async (mega) => {
+                    if (!mega.tempEvoId) return undefined;
+                    const megaAttackKey = Object.keys(chargedMove).find(
+                        (move) =>
+                            move.slugifyIncludes(pokemon.base.pokemonId) &&
+                            move.slugifyIncludes(mega.tempEvoId ?? 'non-defini'),
+                    );
+                    const megaAttack = megaAttackKey
+                        ? (chargedMove as Record<string, any>)[megaAttackKey]
+                        : undefined;
+                    const megaId = await this.getMegaId(pokemon, mega);
+                    const stats = mega.stats;
+                    const image = getImage(megaId);
+                    const types = [
+                        pokemonTypeToFrench(mega.typeOverride1),
+                        pokemonTypeToFrench(mega.typeOverride2),
+                    ].compact();
+                    const megaType =
+                        mega.tempEvoId?.replace('TEMP_EVOLUTION_', '').split('_') ?? [];
+                    const name =
+                        `${megaType[0]} ${pokemon.base.name}${megaType[1] ? ' ' + megaType[1] : ''}`?.titleCase();
+                    const slug = name?.slugify();
+                    const hasLevel4 =
+                        evoLevel?.some(
+                            (level) =>
+                                level.templateId.includes(pokemon.base.pokemonId) &&
+                                level.templateId.includes('MEGA_EVOLUTION_LEVEL_4'),
+                        ) ?? false;
+                    return { name, slug, megaAttack, stats, image, types, hasLevel4 };
+                }) ?? [],
+            )
+        ).compact();
+    }
+
     private async fetchFrenchName(dexNumber: number): Promise<string | null> {
         const data = await pokeApiClient.fetchPokemonSpecies(dexNumber);
         if (!data) return null;
@@ -236,7 +302,19 @@ class PokemonSettingGeneratorService {
             const formDifferentAsBase = lists.filter((form) => !this.isSameForm(form, baseForm));
             return { base: baseForm, same: otherFormSameAsBase, different: formDifferentAsBase };
         };
-        return finalPokemons.sortAsc((pokemon) => pokemon.base.dexNumber);
+        const raidMove = await getRaidMove();
+        const evoLevel = await RawGameMaster.getMegaEvoLevelSettings();
+        return Promise.all(
+            finalPokemons
+                .sortAsc((pokemon) => pokemon.base.dexNumber)
+                .map(async (pokemon) => ({
+                    ...pokemon,
+                    base: {
+                        ...pokemon.base,
+                        mega: await this.buildMega(pokemon, raidMove.chargedMove, evoLevel),
+                    },
+                })),
+        );
     }
     private alterPokemon(pokemon: PokemonSettings) {
         /* 

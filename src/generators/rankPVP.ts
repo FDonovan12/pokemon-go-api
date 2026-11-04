@@ -34,12 +34,14 @@ export default class PokemonSettingGenerator extends FileGenerator {
         const rawPokemon: PokemonSetting[] = await IntermediateData.getPokemonSetting();
         const rawCpMultiplier = await getCpMultipliers();
 
-        const finalPokemon = rawPokemon
-            .map((form: PokemonSetting) => [
-                form.base,
-                ...form.different.map((d: Different) => d.base),
-            ])
-            .flat();
+        const finalPokemon = rawPokemon.flatMap((form: PokemonSetting) => {
+            const forms = [form.base, ...form.different.map((d: Different) => d.base)];
+            const megaForms = (form.base.mega ?? []).map((mega) => ({
+                ...form.base,
+                ...mega,
+            }));
+            return [...forms, ...megaForms];
+        });
 
         const dir = 'generated/data/rank-pvp';
         fs.mkdirSync(path.dirname(dir + '/x'), { recursive: true });
