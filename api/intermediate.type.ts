@@ -29,6 +29,7 @@ export interface BaseElement {
     isUltraBeast:        boolean;
     form:                string;
     encounter:           Encounter;
+    mega?:               Mega[];
     parentPokemonId?:    string;
     tempEvoOverrides?:   SameTempEvoOverride[];
 }
@@ -43,6 +44,52 @@ export interface SameEvolutionId {
 }
 
 export type Form = number | string;
+
+export interface Mega {
+    name:        string;
+    slug:        string;
+    stats:       Stats;
+    image:       string;
+    types:       Type[];
+    hasLevel4:   boolean;
+    megaAttack?: AcidSpray;
+}
+
+export interface AcidSpray {
+    id:          string;
+    movementId:  string;
+    pokemonType: Type;
+    power:       number;
+    durationMs:  number;
+    energyDelta: number;
+    vfxName:     string;
+    names:       Names;
+}
+
+export interface Names {
+    fr: string;
+}
+
+export enum Type {
+    Acier = "Acier",
+    Combat = "Combat",
+    Dragon = "Dragon",
+    Eau = "Eau",
+    Feu = "Feu",
+    Fée = "Fée",
+    Glace = "Glace",
+    Insecte = "Insecte",
+    Normal = "Normal",
+    Plante = "Plante",
+    Poison = "Poison",
+    Psy = "Psy",
+    Roche = "Roche",
+    Sol = "Sol",
+    Spectre = "Spectre",
+    Ténèbres = "Ténèbres",
+    Vol = "Vol",
+    Électrik = "Électrik",
+}
 
 export interface Stats {
     baseStamina: number;
@@ -79,27 +126,6 @@ export enum TempEvoId {
     TempEvolutionMegaX = "TEMP_EVOLUTION_MEGA_X",
     TempEvolutionMegaY = "TEMP_EVOLUTION_MEGA_Y",
     TempEvolutionPrimal = "TEMP_EVOLUTION_PRIMAL",
-}
-
-export enum Type {
-    Acier = "Acier",
-    Combat = "Combat",
-    Dragon = "Dragon",
-    Eau = "Eau",
-    Feu = "Feu",
-    Fée = "Fée",
-    Glace = "Glace",
-    Insecte = "Insecte",
-    Normal = "Normal",
-    Plante = "Plante",
-    Poison = "Poison",
-    Psy = "Psy",
-    Roche = "Roche",
-    Sol = "Sol",
-    Spectre = "Spectre",
-    Ténèbres = "Ténèbres",
-    Vol = "Vol",
-    Électrik = "Électrik",
 }
 
 export interface Different {
@@ -424,21 +450,6 @@ export interface ChargedMove {
 export interface The615 {
     id:          string;
     movementId:  number;
-    pokemonType: Type;
-    power:       number;
-    durationMs:  number;
-    energyDelta: number;
-    vfxName:     string;
-    names:       Names;
-}
-
-export interface Names {
-    fr: string;
-}
-
-export interface AcidSpray {
-    id:          string;
-    movementId:  string;
     pokemonType: Type;
     power:       number;
     durationMs:  number;
