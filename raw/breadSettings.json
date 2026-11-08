@@ -216,6 +216,14 @@
           "breadMode": "BREAD_DOUGH_MODE"
         },
         {
+          "pokemonId": "DURALUDON",
+          "form": [
+            "FORM_UNSET",
+            "DURALUDON_NORMAL"
+          ],
+          "breadMode": "BREAD_DOUGH_MODE"
+        },
+        {
           "pokemonId": "URSHIFU",
           "form": [
             "URSHIFU_SINGLE_STRIKE"

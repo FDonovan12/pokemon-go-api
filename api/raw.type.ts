@@ -380,13 +380,13 @@ export interface LevelUpRewardData {
     featuresUnlocked?:           BadgeTypeElement[];
     clientOverrideDisplayOrder?: boolean;
     itemsUnlocked?:              string[];
-    neutralAvatarItemTemplates?: NeutralAvatarItemTemplate;
+    neutralAvatarItemTemplates?: NeutralAvatarItemTemplates;
     isBackfill?:                 boolean;
 }
 
 export type BadgeTypeElement = number | string;
 
-export interface NeutralAvatarItemTemplate {
+export interface NeutralAvatarItemTemplates {
     itemTemplateId:    string;
     displayTemplateId: string;
 }
@@ -825,11 +825,11 @@ export interface IapItemDisplayData {
     skuDisableTimeUtcMs?:    string;
     imageUrl?:               string;
     category?:               CategoryEnum;
-    useEnvironmentPrefix?:   boolean;
     sale?:                   boolean;
     maxLevel?:               number;
     webstoreSkuId?:          string;
     webstoreSkuPriceE6?:     number;
+    useEnvironmentPrefix?:   boolean;
 }
 
 export enum CategoryEnum {
@@ -1173,7 +1173,7 @@ export interface CombatMove {
 }
 
 export interface CombatMoveData {
-    uniqueId:       BadgeTypeElement;
+    uniqueId:       string;
     type:           TemplateIdElement;
     power?:         number;
     vfxName:        string;
@@ -1463,7 +1463,7 @@ export interface EventPassTierSettingData {
 }
 
 export interface Settings {
-    eventName:  EventName;
+    eventName:  string;
     bonusBoxes: ActiveBonusDisplaySettingsBonusBox[];
 }
 
@@ -1473,33 +1473,22 @@ export interface ActiveBonusDisplaySettingsBonusBox {
 }
 
 export enum IconType {
-    CandyGeneral = "CANDY_GENERAL",
     EggIncubator = "EGG_INCUBATOR",
     Gift = "GIFT",
     Incense = "INCENSE",
-    Stardust = "STARDUST",
     Trade = "TRADE",
 }
 
-export enum EventName {
-    GoPassCumulativeBonusesHeader = "go_pass_cumulative_bonuses_header",
-    SeasonPassMilestoneBonusTitle01 = "season_pass_milestone_bonus_title_01",
-    SeasonPassMilestoneBonusTitle02 = "season_pass_milestone_bonus_title_02",
-    SeasonPassMilestoneBonusTitle03 = "season_pass_milestone_bonus_title_03",
-    SeasonPassMilestoneBonusTitle04 = "season_pass_milestone_bonus_title_04",
-}
-
 export interface PurpleReward {
-    type:                       DailyDefenderBonusCurrency;
-    stardust?:                  number;
-    pokemonEncounter?:          RewardPokemonEncounter;
-    playerAttribute?:           PlayerAttribute;
-    exp?:                       number;
-    item?:                      RewardDatumItem;
-    candy?:                     Candy;
-    neutralAvatarItemTemplate?: NeutralAvatarItemTemplate;
-    xlCandy?:                   Candy;
-    pokecoin?:                  number;
+    type:              DailyDefenderBonusCurrency;
+    pokemonEncounter?: RewardPokemonEncounter;
+    pokecoin?:         number;
+    stardust?:         number;
+    item?:             RewardDatumItem;
+    candy?:            Candy;
+    xlCandy?:          Candy;
+    exp?:              number;
+    playerAttribute?:  PlayerAttribute;
 }
 
 export interface Candy {
@@ -1508,20 +1497,19 @@ export interface Candy {
 }
 
 export interface PlayerAttribute {
-    key:           string;
-    durationMins?: number;
+    key:          string;
+    durationMins: number;
 }
 
 export interface RewardPokemonEncounter {
     pokemonId:            string;
     pokemonDisplay?:      PurplePokemonDisplay;
-    isFeaturedPokemon?:   boolean;
     statsLimitsOverride?: StatsLimitsOverride;
+    isFeaturedPokemon:    boolean;
 }
 
 export interface PurplePokemonDisplay {
-    form:           BadgeTypeElement;
-    costume?:       string;
+    form:           string;
     breadModeEnum?: BreadMode;
 }
 
@@ -1880,10 +1868,10 @@ export interface IconReward {
     pokemonEncounter?:          IconRewardPokemonEncounter;
     item?:                      RewardDatumItem;
     candy?:                     Candy;
-    neutralAvatarItemTemplate?: IconRewardNeutralAvatarItemTemplate;
+    neutralAvatarItemTemplate?: NeutralAvatarItemTemplate;
 }
 
-export interface IconRewardNeutralAvatarItemTemplate {
+export interface NeutralAvatarItemTemplate {
     displayTemplateId: string;
 }
 
@@ -1941,7 +1929,7 @@ export interface TimePeriodCounters {
 }
 
 export interface PlayerActivity {
-    limit?: number;
+    limit: number;
 }
 
 export interface XpBoost {
@@ -2446,8 +2434,6 @@ export interface MapDisplaySettings {
 
 export interface MapDisplaySettingData {
     showEnhancedSky: boolean;
-    skyEffectName:   string;
-    eventThemeName:  string;
 }
 
 export interface MapObjectsInteractionRangeSettings {
@@ -2569,15 +2555,6 @@ export interface BattleMpCostPerTier {
     breadBattleCatchMpCost:       number;
     battleLevel:                  BadgeTypeElement;
     breadBattleRemoteCatchMpCost: number;
-}
-
-export interface MusicSettings {
-    templateId: string;
-    data:       MusicSettingData;
-}
-
-export interface MusicSettingData {
-    mapMusicNightOverride: string;
 }
 
 export interface NaturalArtDayNightFeatureSettings {
@@ -4238,7 +4215,7 @@ export interface MoveSettings {
 }
 
 export interface MoveSettingData {
-    movementId:           BadgeTypeElement;
+    movementId:           string;
     animationId:          number;
     pokemonType:          TemplateIdElement;
     power?:               number;
@@ -4307,8 +4284,6 @@ export interface VistaGeneralSettingData {
     isVistaEncounterEnabled: boolean;
     isVistaMapEnabled:       boolean;
     isVistaSpawnsEnabled:    boolean;
-    themeOverride:           string;
-    environmentSeason:       string;
 }
 
 export interface BattleAnimationSettings {

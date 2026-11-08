@@ -1,16 +1,4 @@
 {
-  "615": {
-    "id": "V0615_MOVE_KOWTOW_CLEAVE",
-    "movementId": 615,
-    "pokemonType": "Ténèbres",
-    "power": 85,
-    "durationMs": 2000,
-    "energyDelta": -50,
-    "vfxName": "kowtow_cleave",
-    "names": {
-      "fr": "Génusection"
-    }
-  },
   "WRAP": {
     "id": "V0013_MOVE_WRAP",
     "movementId": "WRAP",
@@ -2973,6 +2961,18 @@
     "vfxName": "gulp_missile_gorging",
     "names": {
       "fr": "Gulp Missile Gorging"
+    }
+  },
+  "KOWTOW_CLEAVE": {
+    "id": "V0615_MOVE_KOWTOW_CLEAVE",
+    "movementId": "KOWTOW_CLEAVE",
+    "pokemonType": "Ténèbres",
+    "power": 85,
+    "durationMs": 2000,
+    "energyDelta": -50,
+    "vfxName": "kowtow_cleave",
+    "names": {
+      "fr": "Génusection"
     }
   },
   "TEMP_EVOLUTION_MEGA_V0015_POKEMON_BEEDRILL": {

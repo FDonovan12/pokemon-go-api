@@ -6,6 +6,12 @@
     }
   },
   {
+    "templateId": "POKEMON_LEVEL_CEILING_CODE_GATE",
+    "data": {
+      "isEnabled": true
+    }
+  },
+  {
     "templateId": "SOFT_SFIDA_FOREGROUND_DESCRIPTION_TEXT_CODE_GATE",
     "data": {
       "isEnabled": true

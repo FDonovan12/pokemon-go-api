@@ -5407,6 +5407,13 @@
     }
   },
   {
+    "templateId": "N_DISPLAY_n_pose_starballoon",
+    "data": {
+      "iconAddress": "n_pose_starballoon_icon",
+      "displayStringId": "avatar_pose_starballoon"
+    }
+  },
+  {
     "templateId": "N_DISPLAY_n_pose_sustainability",
     "data": {
       "iconAddress": "n_pose_sustainability_icon",
@@ -8865,6 +8872,27 @@
     }
   },
   {
+    "templateId": "N_DISPLAY_n_shoes_crocsgengar",
+    "data": {
+      "iconAddress": "n_shoes_crocsgengar_icon",
+      "displayStringId": "avatar_shoes_crocs-gengar"
+    }
+  },
+  {
+    "templateId": "N_DISPLAY_n_shoes_crocsjigglypuff",
+    "data": {
+      "iconAddress": "n_shoes_crocsjigglypuff_icon",
+      "displayStringId": "avatar_shoes_crocs-jigglypuff"
+    }
+  },
+  {
+    "templateId": "N_DISPLAY_n_shoes_crocspikachu",
+    "data": {
+      "iconAddress": "n_shoes_crocspikachu_icon",
+      "displayStringId": "avatar_shoes_crocs-pikachu"
+    }
+  },
+  {
     "templateId": "N_DISPLAY_n_shoes_cynthia",
     "data": {
       "iconAddress": "n_shoes_cynthia_icon",
@@ -11612,6 +11640,12 @@
     "templateId": "N_DISPLAY_set_willow",
     "data": {
       "iconAddress": "set_willow"
+    }
+  },
+  {
+    "templateId": "N_DISPLAY_set_winona",
+    "data": {
+      "iconAddress": "set_winona"
     }
   },
   {

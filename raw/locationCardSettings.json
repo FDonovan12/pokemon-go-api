@@ -1192,6 +1192,13 @@
     }
   },
   {
+    "templateId": "LC_POKELID_GUNMA",
+    "data": {
+      "locationCard": "LC_POKELID_GUNMA",
+      "imageUrl": "lc_pokelid_gunma"
+    }
+  },
+  {
     "templateId": "LC_POKELID_HOKKAIDO",
     "data": {
       "locationCard": "LC_POKELID_HOKKAIDO",
@@ -1877,7 +1884,7 @@
   {
     "templateId": "LC_SPECIALBACKGROUND_DIA_DE_LOS_MUERTOS_2026",
     "data": {
-      "locationCard": 340,
+      "locationCard": "LC_SPECIALBACKGROUND_DIA_DE_LOS_MUERTOS_2026",
       "imageUrl": "sb_DiaDeMuertos_2026",
       "cardType": "SPECIAL_BACKGROUND",
       "vfxAddress": "bgfx_diaDeMuertos_2026"

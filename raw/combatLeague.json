@@ -14588,6 +14588,79 @@
     }
   },
   {
+    "templateId": "COMBAT_LEAGUE_VS_SEEKER_GREAT_CATCH_S25_MEGAS",
+    "data": {
+      "title": "mega_catch_cup_great_title",
+      "enabled": true,
+      "unlockCondition": [
+        {
+          "type": "WITH_UNIQUE_POKEMON",
+          "minPokemonCount": 3
+        }
+      ],
+      "pokemonCondition": [
+        {
+          "type": "WITH_POKEMON_CP_LIMIT",
+          "withPokemonCpLimit": {
+            "maxCp": 1500
+          }
+        },
+        {
+          "type": "WITH_UNIQUE_POKEMON"
+        },
+        {
+          "type": "POKEMON_CAUGHT_TIMESTAMP",
+          "pokemonCaughtTimestamp": {
+            "afterTimestamp": "1796158800000",
+            "beforeTimestamp": "1804021200000"
+          }
+        }
+      ],
+      "iconUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fb5bc1551_MegaCatchCup_icon.png",
+      "pokemonCount": 3,
+      "bannedPokemon": [
+        "DITTO",
+        "SHEDINJA",
+        "MEW",
+        "CELEBI",
+        "JIRACHI",
+        "DEOXYS",
+        "DARKRAI",
+        "VICTINI",
+        "MELOETTA",
+        "GENESECT",
+        "HOOPA",
+        "MELTAN",
+        "MELMETAL",
+        "ZARUDE",
+        "DIANCIE",
+        "SHAYMIN",
+        "KELDEO",
+        "VOLCANION",
+        "MARSHADOW",
+        "XERNEAS",
+        "YVELTAL",
+        "COBALION",
+        "TERRAKION",
+        "VIRIZION",
+        "KYUREM",
+        "TAPU_KOKO",
+        "TAPU_LELE",
+        "TAPU_BULU",
+        "SOLGALEO",
+        "LUNALA",
+        "ZACIAN",
+        "ZAMAZENTA",
+        "ENAMORUS",
+        "ZERAORA"
+      ],
+      "badgeType": "BADGE_GREAT_LEAGUE",
+      "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
+      "leagueType": "PREMIER",
+      "allowTempEvos": true
+    }
+  },
+  {
     "templateId": "COMBAT_LEAGUE_VS_SEEKER_GREAT_CATCH_S8",
     "data": {
       "title": "gofest_2022_catch_cup_title",
@@ -16663,6 +16736,240 @@
     }
   },
   {
+    "templateId": "COMBAT_LEAGUE_VS_SEEKER_GREAT_CHAMPIONSHIP_SERIES_EUIC",
+    "data": {
+      "title": "great_league_championship_series_2027",
+      "enabled": true,
+      "unlockCondition": [
+        {
+          "type": "WITH_UNIQUE_POKEMON",
+          "minPokemonCount": 3
+        }
+      ],
+      "pokemonCondition": [
+        {
+          "type": "WITH_POKEMON_CP_LIMIT",
+          "withPokemonCpLimit": {
+            "maxCp": 1500
+          }
+        },
+        {
+          "type": "WITH_UNIQUE_POKEMON"
+        },
+        {
+          "type": "POKEMON_WHITELIST",
+          "pokemonWhiteList": {
+            "pokemon": [
+              {
+                "id": "WEEDLE"
+              },
+              {
+                "id": "KAKUNA"
+              },
+              {
+                "id": "BEEDRILL"
+              },
+              {
+                "id": "VENONAT"
+              },
+              {
+                "id": "VENOMOTH"
+              },
+              {
+                "id": "SPINARAK"
+              },
+              {
+                "id": "ARIADOS"
+              },
+              {
+                "id": "SHUCKLE"
+              },
+              {
+                "id": "DUSTOX"
+              },
+              {
+                "id": "ANORITH"
+              },
+              {
+                "id": "ARMALDO"
+              },
+              {
+                "id": "SKORUPI"
+              },
+              {
+                "id": "FROSLASS"
+              },
+              {
+                "id": "VENIPEDE"
+              },
+              {
+                "id": "WHIRLIPEDE"
+              },
+              {
+                "id": "SCOLIPEDE"
+              },
+              {
+                "id": "DWEBBLE"
+              },
+              {
+                "id": "JOLTIK"
+              },
+              {
+                "id": "GALVANTULA"
+              },
+              {
+                "id": "DRAGALGE"
+              },
+              {
+                "id": "HELIOPTILE"
+              },
+              {
+                "id": "HELIOLISK"
+              },
+              {
+                "id": "TYRUNT"
+              },
+              {
+                "id": "TYRANTRUM"
+              },
+              {
+                "id": "CHARJABUG"
+              },
+              {
+                "id": "VIKAVOLT"
+              },
+              {
+                "id": "SNOM"
+              },
+              {
+                "id": "FROSMOTH"
+              },
+              {
+                "id": "DRACOZOLT"
+              },
+              {
+                "id": "KLEAVOR"
+              },
+              {
+                "id": "SHROODLE"
+              },
+              {
+                "id": "GRAFAIAI"
+              },
+              {
+                "id": "FRIGIBAX"
+              },
+              {
+                "id": "ARCTIBAX"
+              },
+              {
+                "id": "BAXCALIBUR"
+              }
+            ]
+          }
+        },
+        {
+          "type": "POKEMON_BANLIST",
+          "pokemonBanList": {
+            "lgdbihdlhod": "s25_euic_prohibited_pokemon",
+            "pokemon": [
+              {
+                "id": "CARKOL",
+                "forms": [
+                  "CARKOL_NORMAL"
+                ]
+              },
+              {
+                "id": "COALOSSAL",
+                "forms": [
+                  "COALOSSAL_NORMAL"
+                ]
+              },
+              {
+                "id": "CHARJABUG",
+                "forms": [
+                  "CHARJABUG_NORMAL"
+                ]
+              },
+              {
+                "id": "CRUSTLE",
+                "forms": [
+                  "CRUSTLE_NORMAL"
+                ]
+              },
+              {
+                "id": "DRAGALGE",
+                "forms": [
+                  "DRAGALGE_NORMAL"
+                ]
+              },
+              {
+                "id": "DRAPION",
+                "forms": [
+                  "DRAPION_NORMAL"
+                ]
+              },
+              {
+                "id": "GRIMER",
+                "forms": [
+                  "GRIMER_NORMAL"
+                ]
+              },
+              {
+                "id": "LANTURN",
+                "forms": [
+                  "LANTURN_NORMAL"
+                ]
+              },
+              {
+                "id": "MAGCARGO",
+                "forms": [
+                  "MAGCARGO_NORMAL"
+                ]
+              },
+              {
+                "id": "MALAMAR",
+                "forms": [
+                  "MALAMAR_NORMAL"
+                ]
+              },
+              {
+                "id": "MINIOR",
+                "forms": [
+                  "MINIOR_RED"
+                ]
+              },
+              {
+                "id": "NIDORINA",
+                "forms": [
+                  "NIDORINA_NORMAL"
+                ]
+              },
+              {
+                "id": "PACHIRISU",
+                "forms": [
+                  "PACHIRISU_NORMAL"
+                ]
+              },
+              {
+                "id": "SABLEYE",
+                "forms": [
+                  "SABLEYE_NORMAL"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "iconUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2FGBL_Pokemon_GO_Championship_Series_Logo.png",
+      "pokemonCount": 3,
+      "badgeType": "BADGE_GREAT_LEAGUE",
+      "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
+      "leagueType": "STANDARD",
+      "allowTempEvos": true
+    }
+  },
+  {
     "templateId": "COMBAT_LEAGUE_VS_SEEKER_GREAT_ELECTRIC",
     "data": {
       "title": "electric_cup_great_title",
@@ -17548,6 +17855,8 @@
         "COBALION",
         "TERRAKION",
         "VIRIZION",
+        "LANDORUS",
+        "RESHIRAM",
         "ZEKROM",
         "KYUREM",
         "TAPU_KOKO",
@@ -17559,7 +17868,13 @@
         "ZAMAZENTA",
         "ENAMORUS",
         "XERNEAS",
-        "YVELTAL"
+        "YVELTAL",
+        "MIMIKYU",
+        "ZAPDOS",
+        "HAWLUCHA",
+        "FLAMIGO",
+        "MARSHADOW",
+        "ANNIHILAPE"
       ],
       "badgeType": "BADGE_GREAT_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
@@ -19530,10 +19845,12 @@
       "bannedPokemon": [
         "DITTO",
         "SHEDINJA",
-        "SMEARGLE",
         "COBALION",
         "TERRAKION",
         "VIRIZION",
+        "LANDORUS",
+        "RESHIRAM",
+        "ZEKROM",
         "KYUREM",
         "TAPU_KOKO",
         "TAPU_LELE",
@@ -19544,7 +19861,8 @@
         "ZAMAZENTA",
         "ENAMORUS",
         "XERNEAS",
-        "YVELTAL"
+        "YVELTAL",
+        "MIMIKYU"
       ],
       "badgeType": "BADGE_GREAT_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
@@ -31196,10 +31514,12 @@
       "bannedPokemon": [
         "DITTO",
         "SHEDINJA",
-        "SWAMPERT",
         "COBALION",
         "TERRAKION",
         "VIRIZION",
+        "LANDORUS",
+        "RESHIRAM",
+        "ZEKROM",
         "KYUREM",
         "TAPU_KOKO",
         "TAPU_LELE",
@@ -31210,7 +31530,8 @@
         "ZAMAZENTA",
         "ENAMORUS",
         "XERNEAS",
-        "YVELTAL"
+        "YVELTAL",
+        "MIMIKYU"
       ],
       "badgeType": "BADGE_GREAT_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
