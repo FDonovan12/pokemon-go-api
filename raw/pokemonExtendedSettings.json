@@ -6739,7 +6739,7 @@
     "templateId": "EXTENDED_V0041_POKEMON_ZUBAT_HALLOWEEN_2026_01",
     "data": {
       "uniqueId": "ZUBAT",
-      "form": 3362,
+      "form": "ZUBAT_HALLOWEEN_2026_01",
       "sizeSettings": {
         "xxsLowerBound": 0.392,
         "xsLowerBound": 0.4,
@@ -6783,7 +6783,7 @@
     "templateId": "EXTENDED_V0042_POKEMON_GOLBAT_HALLOWEEN_2026_01",
     "data": {
       "uniqueId": "GOLBAT",
-      "form": 3363,
+      "form": "GOLBAT_HALLOWEEN_2026_01",
       "sizeSettings": {
         "xxsLowerBound": 0.784,
         "xsLowerBound": 0.8,
@@ -13205,7 +13205,7 @@
     "templateId": "EXTENDED_V0169_POKEMON_CROBAT_HALLOWEEN_2026_01",
     "data": {
       "uniqueId": "CROBAT",
-      "form": 3364,
+      "form": "CROBAT_HALLOWEEN_2026_01",
       "sizeSettings": {
         "xxsLowerBound": 0.882,
         "xsLowerBound": 0.9,
@@ -42741,7 +42741,7 @@
     "templateId": "EXTENDED_V0854_POKEMON_SINISTEA_A_HALLOWEEN_2026_01",
     "data": {
       "uniqueId": "SINISTEA",
-      "form": 3366,
+      "form": "SINISTEA_A_HALLOWEEN_2026_01",
       "sizeSettings": {
         "xxsLowerBound": 0.049,
         "xsLowerBound": 0.05,
@@ -42771,7 +42771,7 @@
     "templateId": "EXTENDED_V0854_POKEMON_SINISTEA_P_HALLOWEEN_2026_01",
     "data": {
       "uniqueId": "SINISTEA",
-      "form": 3365,
+      "form": "SINISTEA_P_HALLOWEEN_2026_01",
       "sizeSettings": {
         "xxsLowerBound": 0.049,
         "xsLowerBound": 0.05,
@@ -42815,7 +42815,7 @@
     "templateId": "EXTENDED_V0855_POKEMON_POLTEAGEIST_A_HALLOWEEN_2026_01",
     "data": {
       "uniqueId": "POLTEAGEIST",
-      "form": 3368,
+      "form": "POLTEAGEIST_A_HALLOWEEN_2026_01",
       "sizeSettings": {
         "xxsLowerBound": 0.098,
         "xsLowerBound": 0.1,
@@ -42845,7 +42845,7 @@
     "templateId": "EXTENDED_V0855_POKEMON_POLTEAGEIST_P_HALLOWEEN_2026_01",
     "data": {
       "uniqueId": "POLTEAGEIST",
-      "form": 3367,
+      "form": "POLTEAGEIST_P_HALLOWEEN_2026_01",
       "sizeSettings": {
         "xxsLowerBound": 0.098,
         "xsLowerBound": 0.1,

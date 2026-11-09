@@ -23,7 +23,8 @@
         "hi-IN,2",
         "id-ID,2",
         "es-MX,2"
-      ]
+      ],
+      "transferWarning100Enabled": true
     }
   }
 ]

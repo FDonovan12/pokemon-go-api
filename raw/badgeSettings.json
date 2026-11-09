@@ -2624,7 +2624,7 @@
   {
     "templateId": "BADGE_EVENT_0281",
     "data": {
-      "badgeType": 6302,
+      "badgeType": "BADGE_EVENT_0281",
       "badgeRank": 2,
       "targets": [
         100
@@ -2638,7 +2638,7 @@
   {
     "templateId": "BADGE_EVENT_0282",
     "data": {
-      "badgeType": 6303,
+      "badgeType": "BADGE_EVENT_0282",
       "badgeRank": 2,
       "targets": [
         100
@@ -2652,7 +2652,7 @@
   {
     "templateId": "BADGE_EVENT_0283",
     "data": {
-      "badgeType": 6304,
+      "badgeType": "BADGE_EVENT_0283",
       "badgeRank": 2,
       "targets": [
         100
@@ -2666,7 +2666,7 @@
   {
     "templateId": "BADGE_EVENT_0284",
     "data": {
-      "badgeType": 6305,
+      "badgeType": "BADGE_EVENT_0284",
       "badgeRank": 2,
       "targets": [
         100
@@ -2680,7 +2680,7 @@
   {
     "templateId": "BADGE_EVENT_0285",
     "data": {
-      "badgeType": 6306,
+      "badgeType": "BADGE_EVENT_0285",
       "badgeRank": 2,
       "targets": [
         100
@@ -2694,7 +2694,7 @@
   {
     "templateId": "BADGE_EVENT_0286",
     "data": {
-      "badgeType": 6307,
+      "badgeType": "BADGE_EVENT_0286",
       "badgeRank": 2,
       "targets": [
         100
@@ -2708,7 +2708,7 @@
   {
     "templateId": "BADGE_EVENT_0287",
     "data": {
-      "badgeType": 6308,
+      "badgeType": "BADGE_EVENT_0287",
       "badgeRank": 2,
       "targets": [
         100
@@ -2722,7 +2722,7 @@
   {
     "templateId": "BADGE_EVENT_0288",
     "data": {
-      "badgeType": 6309,
+      "badgeType": "BADGE_EVENT_0288",
       "badgeRank": 2,
       "targets": [
         100
@@ -2736,7 +2736,7 @@
   {
     "templateId": "BADGE_EVENT_0289",
     "data": {
-      "badgeType": 6310,
+      "badgeType": "BADGE_EVENT_0289",
       "badgeRank": 2,
       "targets": [
         100
@@ -2750,7 +2750,7 @@
   {
     "templateId": "BADGE_EVENT_0290",
     "data": {
-      "badgeType": 6311,
+      "badgeType": "BADGE_EVENT_0290",
       "badgeRank": 2,
       "targets": [
         100
@@ -2764,7 +2764,7 @@
   {
     "templateId": "BADGE_EVENT_0295",
     "data": {
-      "badgeType": 6316,
+      "badgeType": "BADGE_EVENT_0295",
       "badgeRank": 2,
       "targets": [
         100

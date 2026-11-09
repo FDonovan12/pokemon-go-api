@@ -28,10 +28,18 @@
     }
   },
   {
+    "templateId": "ADVENTURE_EFFECTS_IN_LOBBY_FEATURE_GATE",
+    "data": {
+      "status": 482931,
+      "rolloutPercentage": 100
+    }
+  },
+  {
     "templateId": "ADV_SYNC_TWO_FEATURE_GATE",
     "data": {
       "status": 952347117,
-      "rolloutPercentage": 100
+      "rolloutPercentage": 100,
+      "minClientVersion": "0.429.0"
     }
   },
   {

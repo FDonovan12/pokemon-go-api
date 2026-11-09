@@ -22,7 +22,7 @@ export interface BaseElement {
     eliteCinematicMove:  string[];
     nonTmCinematicMoves: string[];
     hasMega:             boolean;
-    evolutionIds:        SameEvolutionId[];
+    evolutionIds:        EvolutionId[];
     family:              string;
     isLegendary:         boolean;
     isMythical:          boolean;
@@ -38,12 +38,10 @@ export interface Encounter {
     stardustCaptureReward: number;
 }
 
-export interface SameEvolutionId {
+export interface EvolutionId {
     pokemonId: string;
-    form:      Form;
+    form:      string;
 }
-
-export type Form = number | string;
 
 export interface Mega {
     name:        string;
@@ -151,7 +149,7 @@ export interface PurpleBase {
     eliteCinematicMove:  string[];
     nonTmCinematicMoves: string[];
     hasMega:             boolean;
-    evolutionIds:        PurpleEvolutionId[];
+    evolutionIds:        EvolutionId[];
     family:              string;
     isLegendary:         boolean;
     isMythical:          boolean;
@@ -160,11 +158,6 @@ export interface PurpleBase {
     encounter:           Encounter;
     parentPokemonId?:    string;
     tempEvoOverrides?:   PurpleTempEvoOverride[];
-}
-
-export interface PurpleEvolutionId {
-    pokemonId: string;
-    form:      string;
 }
 
 export interface PurpleTempEvoOverride {

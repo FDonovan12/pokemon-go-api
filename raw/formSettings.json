@@ -813,7 +813,7 @@
           "form": "ZUBAT_NORMAL"
         },
         {
-          "form": 3362,
+          "form": "ZUBAT_HALLOWEEN_2026_01",
           "isCostume": true
         }
       ]
@@ -828,7 +828,7 @@
           "form": "GOLBAT_NORMAL"
         },
         {
-          "form": 3363,
+          "form": "GOLBAT_HALLOWEEN_2026_01",
           "isCostume": true
         }
       ]
@@ -2396,7 +2396,7 @@
           "form": "CROBAT_NORMAL"
         },
         {
-          "form": 3364,
+          "form": "CROBAT_HALLOWEEN_2026_01",
           "isCostume": true
         }
       ]
@@ -10082,7 +10082,8 @@
           "form": "MINIOR_METEOR_YELLOW"
         },
         {
-          "form": "MINIOR_METEOR"
+          "form": "MINIOR_METEOR",
+          "unsilhouetteOnSpeciesCapture": true
         }
       ]
     }
@@ -11000,11 +11001,11 @@
           }
         },
         {
-          "form": 3365,
+          "form": "SINISTEA_P_HALLOWEEN_2026_01",
           "isCostume": true
         },
         {
-          "form": 3366,
+          "form": "SINISTEA_A_HALLOWEEN_2026_01",
           "isCostume": true
         }
       ]
@@ -11022,11 +11023,11 @@
           "form": "POLTEAGEIST_ANTIQUE"
         },
         {
-          "form": 3367,
+          "form": "POLTEAGEIST_P_HALLOWEEN_2026_01",
           "isCostume": true
         },
         {
-          "form": 3368,
+          "form": "POLTEAGEIST_A_HALLOWEEN_2026_01",
           "isCostume": true
         }
       ]

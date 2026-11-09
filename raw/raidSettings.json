@@ -159,6 +159,10 @@
           "autoThrowCountdownStartSeconds": 20,
           "autoThrowSeconds": 20
         }
+      ],
+      "unsupportedRaidLevelsForRsvp": [
+        "RAID_LEVEL_COORDINATED_1",
+        "RAID_LEVEL_COORDINATED_2"
       ]
     }
   }

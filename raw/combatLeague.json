@@ -34,7 +34,8 @@
       ],
       "badgeType": "BADGE_GREAT_LEAGUE",
       "leagueType": "STANDARD",
-      "allowTempEvos": true
+      "allowTempEvos": true,
+      "removeTempEvoSelfCpBoostAdditionalLevels": true
     }
   },
   {
@@ -68,7 +69,8 @@
       ],
       "badgeType": "BADGE_MASTER_LEAGUE",
       "leagueType": "STANDARD",
-      "allowTempEvos": true
+      "allowTempEvos": true,
+      "removeTempEvoSelfCpBoostAdditionalLevels": true
     }
   },
   {
@@ -98,7 +100,8 @@
       "pokemonCount": 3,
       "badgeType": "BADGE_MASTER_LEAGUE",
       "leagueType": "STANDARD",
-      "allowTempEvos": true
+      "allowTempEvos": true,
+      "removeTempEvoSelfCpBoostAdditionalLevels": true
     }
   },
   {
@@ -132,7 +135,8 @@
       ],
       "badgeType": "BADGE_ULTRA_LEAGUE",
       "leagueType": "STANDARD",
-      "allowTempEvos": true
+      "allowTempEvos": true,
+      "removeTempEvoSelfCpBoostAdditionalLevels": true
     }
   },
   {
@@ -8037,7 +8041,8 @@
       "badgeType": "BADGE_GREAT_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
       "leagueType": "PREMIER",
-      "allowTempEvos": true
+      "allowTempEvos": true,
+      "removeTempEvoSelfCpBoostAdditionalLevels": true
     }
   },
   {
@@ -14584,7 +14589,8 @@
       "badgeType": "BADGE_GREAT_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
       "leagueType": "PREMIER",
-      "allowTempEvos": true
+      "allowTempEvos": true,
+      "removeTempEvoSelfCpBoostAdditionalLevels": true
     }
   },
   {
@@ -14811,7 +14817,8 @@
       ],
       "badgeType": "BADGE_GREAT_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
-      "leagueType": "STANDARD"
+      "leagueType": "STANDARD",
+      "allowTempEvoCpDownscaling": true
     }
   },
   {
@@ -16668,7 +16675,7 @@
         {
           "type": "POKEMON_BANLIST",
           "pokemonBanList": {
-            "lgdbihdlhod": "s24_laic_prohibited_pokemon_and_classes",
+            "name": "s24_laic_prohibited_pokemon_and_classes",
             "pokemon": [
               {
                 "id": "DITTO"
@@ -16724,7 +16731,14 @@
                   "CORSOLA_GALARIAN"
                 ]
               }
-            ]
+            ],
+            "groupCondition": {
+              "pokemonClass": [
+                "POKEMON_CLASS_LEGENDARY",
+                "POKEMON_CLASS_MYTHIC",
+                "POKEMON_CLASS_ULTRA_BEAST"
+              ]
+            }
           }
         }
       ],
@@ -16871,7 +16885,7 @@
         {
           "type": "POKEMON_BANLIST",
           "pokemonBanList": {
-            "lgdbihdlhod": "s25_euic_prohibited_pokemon",
+            "name": "s25_euic_prohibited_pokemon",
             "pokemon": [
               {
                 "id": "CARKOL",
@@ -18329,7 +18343,8 @@
       "badgeType": "BADGE_GREAT_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
       "leagueType": "PREMIER",
-      "allowTempEvos": true
+      "allowTempEvos": true,
+      "removeTempEvoSelfCpBoostAdditionalLevels": true
     }
   },
   {
@@ -25341,7 +25356,8 @@
       "badgeType": "BADGE_GREAT_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
       "leagueType": "STANDARD",
-      "allowTempEvos": true
+      "allowTempEvos": true,
+      "removeTempEvoSelfCpBoostAdditionalLevels": true
     }
   },
   {
@@ -31101,7 +31117,8 @@
       "badgeType": "BADGE_MASTER_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_MASTER",
       "leagueType": "STANDARD",
-      "allowTempEvos": true
+      "allowTempEvos": true,
+      "removeTempEvoSelfCpBoostAdditionalLevels": true
     }
   },
   {
@@ -31823,7 +31840,8 @@
       "badgeType": "BADGE_ULTRA_LEAGUE",
       "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_ULTRA",
       "leagueType": "STANDARD",
-      "allowTempEvos": true
+      "allowTempEvos": true,
+      "removeTempEvoSelfCpBoostAdditionalLevels": true
     }
   },
   {

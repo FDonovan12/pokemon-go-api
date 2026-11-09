@@ -1876,6 +1876,8 @@
       "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
       "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
       "globalEventTicket": {
+        "eventBadge": "BADGE_GOWA_2026_GLOBAL",
+        "grantBadgeBeforeEventStartMs": "640800000",
         "eventStartTime": "2026-11-14T10:00:00",
         "eventEndTime": "2026-11-15T18:00:00",
         "itemBagDescriptionKey": "item_global_event_ticket_details_GOWA26",
@@ -3417,7 +3419,7 @@
       "itemType": "ITEM_TYPE_DISK",
       "category": "ITEM_CATEGORY_DISK",
       "dropTrainerLevel": 1,
-      "itemCap": 1
+      "itemCap": 2
     }
   },
   {

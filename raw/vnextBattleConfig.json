@@ -19,8 +19,33 @@
         "badNetworkWarningThresholdTurns": "12",
         "deadNetworkDisconnectThresholdTurns": "120",
         "noOpponentConnectionDisconnectThresholdTurns": "21",
+        "latencyTrackingSettings": {
+          "maxNumberEvents": 200,
+          "maxNumberGetState": 200,
+          "isUpstreamEnabled": true,
+          "isDownstreamEnabled": true
+        },
         "submitTurnNumberWithPlayerAction": true,
-        "preResponseInputBlockDurationMs": "500"
+        "preResponseInputBlockDurationMs": "500",
+        "swapButtonEndOfCooldownInputBlockDurationMs": 250
+      },
+      "tgrBattleConfig": {
+        "battleEndTimeoutThresholdMs": "2000",
+        "badNetworkWarningThresholdTurns": "12",
+        "deadNetworkDisconnectThresholdTurns": "120",
+        "noOpponentConnectionDisconnectThresholdTurns": "21",
+        "submitTurnNumberWithPlayerAction": true,
+        "preResponseInputBlockDurationMs": "500",
+        "swapButtonEndOfCooldownInputBlockDurationMs": 250
+      },
+      "teamLeaderBattleConfig": {
+        "battleEndTimeoutThresholdMs": "2000",
+        "badNetworkWarningThresholdTurns": "12",
+        "deadNetworkDisconnectThresholdTurns": "120",
+        "noOpponentConnectionDisconnectThresholdTurns": "21",
+        "submitTurnNumberWithPlayerAction": true,
+        "preResponseInputBlockDurationMs": "500",
+        "swapButtonEndOfCooldownInputBlockDurationMs": 250
       }
     }
   }

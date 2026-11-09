@@ -1,0 +1,8 @@
+[
+  {
+    "templateId": "GYM_TOPPER_DISTANCE_SETTINGS",
+    "data": {
+      "guardPokemonMaxVisualDistanceMeters": 5000
+    }
+  }
+]

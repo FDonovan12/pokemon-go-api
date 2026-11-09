@@ -1,5 +1,72 @@
 [
   {
+    "templateId": "EVENT_PASS_GOWA2026_GLOBAL",
+    "data": {
+      "prefix": "EVENT_PASS_GOWA2026_GLOBAL",
+      "pointsItemId": "ITEM_EVENT_PASS_POINT_GO_WILD_AREA_01",
+      "trackConditions": [
+        {
+          "track": "FREE",
+          "trackTitleKey": "event_pass_gowa_2025_title"
+        },
+        {
+          "track": "PREMIUM",
+          "badge": "BADGE_GOWA_2026_EVENT_01",
+          "trackTitleKey": "event_pass_gowa_2025_premium_title"
+        }
+      ],
+      "expirationTime": "2026-11-15T18:00:00",
+      "maxTierLevel": 600,
+      "additionalBonusTiersLevel": 101,
+      "eventPassDisplaySettings": {
+        "bonusBoxes": [
+          {
+            "text": "quest_catch_pokemon_singular",
+            "iconType": "SPAWN_UNKNOWN",
+            "quantity": 1
+          },
+          {
+            "text": "quest_hatch_egg_singular",
+            "iconType": "EGG",
+            "quantity": 5
+          },
+          {
+            "text": "quest_win_raid_singular",
+            "iconType": "RAID",
+            "quantity": 15
+          },
+          {
+            "text": "win_max_battle_singular",
+            "iconType": "BATTLE",
+            "quantity": 15
+          }
+        ],
+        "eventPassTrackUpgradeDescriptions": [
+          {
+            "passTrackUpgradeHeaderDescription": "event_pass_gowa_2025_track_upgrade_header_description",
+            "eventPassTrackToUpgradeTo": "PREMIUM",
+            "trackUnlockSkuId": "pgorelease.gowa2026_event_pass_track_unlock",
+            "trackUnlockPlusPointsSkuId": "pgorelease.gowa2026_event_pass_track_unlock_plus_points",
+            "eventDurationKey": "event_pass_gowa_2026_event_duration",
+            "upgradeDescriptionKey": "event_pass_gowa_2026_upgrade_description",
+            "ranksToHighlightRewards": [
+              60,
+              75,
+              100
+            ],
+            "detailsLinkKey": "event_pass_gowa_2026_link_november2026",
+            "trackUnlockImageUrl": "https://storage.googleapis.com/prod-public-images/ic_eventpass_deluxe.png",
+            "trackUnlockPlusPointsImageUrl": "https://storage.googleapis.com/prod-public-images/ic_eventpass_deluxe_plus.png"
+          }
+        ],
+        "eventPassTitleKey": "event_pass_gowa_2025_title",
+        "headerIconUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F8614da1a_GOWA_2026.png",
+        "todayViewSection": "GLOBAL_EVENT_PASS_SECTION"
+      },
+      "gracePeriodEndTime": "2026-11-17T23:59:59"
+    }
+  },
+  {
     "templateId": "EVENT_PASS_NOVEMBER2026_SEASON",
     "data": {
       "prefix": "EVENT_PASS_NOVEMBER2026_SEASON",

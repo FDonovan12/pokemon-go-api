@@ -18722,12 +18722,12 @@
         {
           "evolution": "GOLBAT",
           "candyCost": 25,
-          "form": 3363,
+          "form": "GOLBAT_HALLOWEEN_2026_01",
           "candyCostPurified": 22
         }
       ],
       "modelScaleV2": 1,
-      "form": 3362,
+      "form": "ZUBAT_HALLOWEEN_2026_01",
       "buddyOffsetMale": [
         6.13,
         31.63,
@@ -19061,12 +19061,12 @@
         {
           "evolution": "CROBAT",
           "candyCost": 100,
-          "form": 3364,
+          "form": "CROBAT_HALLOWEEN_2026_01",
           "candyCostPurified": 90
         }
       ],
       "modelScaleV2": 0.9,
-      "form": 3363,
+      "form": "GOLBAT_HALLOWEEN_2026_01",
       "buddyOffsetMale": [
         45,
         -40,
@@ -51568,7 +51568,7 @@
       "buddySize": "BUDDY_FLYING",
       "modelHeight": 2.65,
       "modelScaleV2": 0.9,
-      "form": 3364,
+      "form": "CROBAT_HALLOWEEN_2026_01",
       "buddyOffsetMale": [
         40,
         -20,
@@ -195117,7 +195117,16 @@
           "animationDurationTurns": 5,
           "animationPlayPoint": "BEFORE_CM_ATTACKER",
           "ibfcVfxKey": "ALTERNATE_TO_DEFAULT"
-        }
+        },
+        "defaultForms": [
+          "MINIOR_BLUE",
+          "MINIOR_GREEN",
+          "MINIOR_INDIGO",
+          "MINIOR_ORANGE",
+          "MINIOR_RED",
+          "MINIOR_VIOLET",
+          "MINIOR_YELLOW"
+        ]
       },
       "breadTierGroup": "GROUP_2"
     }
@@ -208145,7 +208154,7 @@
       "ibfc": {
         "combatEnable": true,
         "defaultForm": "CRAMORANT_NORMAL",
-        "AlternateForms": [
+        "alternateForms": [
           "CRAMORANT_GULPING",
           "CRAMORANT_GORGING"
         ]
@@ -209933,11 +209942,11 @@
         {
           "evolution": "POLTEAGEIST",
           "candyCost": 400,
-          "form": 3368
+          "form": "POLTEAGEIST_A_HALLOWEEN_2026_01"
         }
       ],
       "modelScaleV2": 2.45,
-      "form": 3366,
+      "form": "SINISTEA_A_HALLOWEEN_2026_01",
       "buddyOffsetMale": [
         0,
         0,
@@ -210090,11 +210099,11 @@
         {
           "evolution": "POLTEAGEIST",
           "candyCost": 50,
-          "form": 3367
+          "form": "POLTEAGEIST_P_HALLOWEEN_2026_01"
         }
       ],
       "modelScaleV2": 2.45,
-      "form": 3365,
+      "form": "SINISTEA_P_HALLOWEEN_2026_01",
       "buddyOffsetMale": [
         0,
         0,
@@ -210320,7 +210329,7 @@
       "kmBuddyDistance": 3,
       "modelHeight": 1,
       "modelScaleV2": 1.22,
-      "form": 3368,
+      "form": "POLTEAGEIST_A_HALLOWEEN_2026_01",
       "buddyOffsetMale": [
         0,
         0,
@@ -210468,7 +210477,7 @@
       "kmBuddyDistance": 3,
       "modelHeight": 1,
       "modelScaleV2": 1.22,
-      "form": 3367,
+      "form": "POLTEAGEIST_P_HALLOWEEN_2026_01",
       "buddyOffsetMale": [
         0,
         0,

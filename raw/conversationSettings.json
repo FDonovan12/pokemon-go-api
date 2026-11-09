@@ -53,25 +53,25 @@
         },
         {
           "id": "SINISTEA",
-          "form": 3365,
+          "form": "SINISTEA_P_HALLOWEEN_2026_01",
           "appraisalKey": "appraise_sinistea_phony",
           "addToStart": true
         },
         {
           "id": "SINISTEA",
-          "form": 3366,
+          "form": "SINISTEA_A_HALLOWEEN_2026_01",
           "appraisalKey": "appraise_sinistea_antique",
           "addToStart": true
         },
         {
           "id": "POLTEAGEIST",
-          "form": 3367,
+          "form": "POLTEAGEIST_P_HALLOWEEN_2026_01",
           "appraisalKey": "appraise_polteageist_phony",
           "addToStart": true
         },
         {
           "id": "POLTEAGEIST",
-          "form": 3368,
+          "form": "POLTEAGEIST_A_HALLOWEEN_2026_01",
           "appraisalKey": "appraise_polteageist_antique",
           "addToStart": true
         }

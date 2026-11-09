@@ -1,0 +1,10 @@
+[
+  {
+    "templateId": "MAP_OBJECT_COLLISION_AVOIDANCE_SETTINGS",
+    "data": {
+      "mapPlaceCollisionBufferDistance": 1,
+      "pokemonCollisionBufferDistance": 0.25,
+      "pokemonCollisionRadiusScaleFactor": 6
+    }
+  }
+]

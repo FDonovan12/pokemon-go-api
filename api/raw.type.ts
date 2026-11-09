@@ -16,6 +16,7 @@ export interface FeatureGate {
 export interface FeatureGateData {
     status:              number;
     rolloutPercentage:   number;
+    minClientVersion?:   string;
     subFeatureGateList?: SubFeatureGateList[];
 }
 
@@ -99,6 +100,7 @@ export interface RewardDatumItem {
 export enum DailyDefenderBonusCurrency {
     AvatarClothing = "AVATAR_CLOTHING",
     Candy = "CANDY",
+    EventBadge = "EVENT_BADGE",
     Experience = "EXPERIENCE",
     Item = "ITEM",
     PlayerAttribute = "PLAYER_ATTRIBUTE",
@@ -219,6 +221,7 @@ export interface ArPhotoFeatureFlagData {
     downloadMessageEnabled:    boolean;
     shareMessageEnabled:       boolean;
     signInButtonEnabled:       boolean;
+    showShareCard:             boolean;
     reorderSummary:            boolean;
 }
 
@@ -377,16 +380,16 @@ export interface LevelUpRewardData {
     level:                       number;
     items:                       string[];
     itemsCount:                  number[];
-    featuresUnlocked?:           BadgeTypeElement[];
+    featuresUnlocked?:           FeaturesUnlocked[];
     clientOverrideDisplayOrder?: boolean;
     itemsUnlocked?:              string[];
-    neutralAvatarItemTemplates?: NeutralAvatarItemTemplates;
+    neutralAvatarItemTemplates?: NeutralAvatarItemTemplate;
     isBackfill?:                 boolean;
 }
 
-export type BadgeTypeElement = number | string;
+export type FeaturesUnlocked = number | string;
 
-export interface NeutralAvatarItemTemplates {
+export interface NeutralAvatarItemTemplate {
     itemTemplateId:    string;
     displayTemplateId: string;
 }
@@ -410,7 +413,7 @@ export interface BadgeSettings {
 }
 
 export interface BadgeSettingData {
-    badgeType:           BadgeTypeElement;
+    badgeType:           string;
     badgeRank:           number;
     targets:             number[];
     eventBadge?:         boolean;
@@ -825,11 +828,11 @@ export interface IapItemDisplayData {
     skuDisableTimeUtcMs?:    string;
     imageUrl?:               string;
     category?:               CategoryEnum;
+    useEnvironmentPrefix?:   boolean;
     sale?:                   boolean;
     maxLevel?:               number;
     webstoreSkuId?:          string;
     webstoreSkuPriceE6?:     number;
-    useEnvironmentPrefix?:   boolean;
 }
 
 export enum CategoryEnum {
@@ -968,17 +971,19 @@ export interface CombatLeague {
 }
 
 export interface CombatLeagueData {
-    title:                              string;
-    enabled:                            boolean;
-    pokemonCondition:                   PokemonCondition[];
-    iconUrl:                            string;
-    pokemonCount:                       number;
-    bannedPokemon?:                     string[];
-    badgeType:                          BadgeType;
-    leagueType:                         LeagueType;
-    allowTempEvos?:                     boolean;
-    unlockCondition?:                   UnlockCondition[];
-    battlePartyCombatLeagueTemplateId?: CombatLeagueTemplateId;
+    title:                                     string;
+    enabled:                                   boolean;
+    pokemonCondition:                          PokemonCondition[];
+    iconUrl:                                   string;
+    pokemonCount:                              number;
+    bannedPokemon?:                            string[];
+    badgeType:                                 BadgeType;
+    leagueType:                                LeagueType;
+    allowTempEvos?:                            boolean;
+    removeTempEvoSelfCpBoostAdditionalLevels?: boolean;
+    unlockCondition?:                          UnlockCondition[];
+    battlePartyCombatLeagueTemplateId?:        CombatLeagueTemplateId;
+    allowTempEvoCpDownscaling?:                boolean;
 }
 
 export enum BadgeType {
@@ -1010,8 +1015,19 @@ export interface PokemonCondition {
 }
 
 export interface PokemonBanList {
-    lgdbihdlhod?: string;
-    pokemon:      PokemonBanListPokemon[];
+    name?:           string;
+    pokemon:         PokemonBanListPokemon[];
+    groupCondition?: GroupCondition;
+}
+
+export interface GroupCondition {
+    pokemonClass: PokemonClass[];
+}
+
+export enum PokemonClass {
+    PokemonClassLegendary = "POKEMON_CLASS_LEGENDARY",
+    PokemonClassMythic = "POKEMON_CLASS_MYTHIC",
+    PokemonClassUltraBeast = "POKEMON_CLASS_ULTRA_BEAST",
 }
 
 export interface PokemonBanListPokemon {
@@ -1139,7 +1155,7 @@ export interface CombatSettingData {
     shadowPokemonAttackBonusMultiplier:      number;
     shadowPokemonDefenseBonusMultiplier:     number;
     purifiedPokemonAttackMultiplierVsShadow: number;
-    combatExperiment:                        BadgeTypeElement[];
+    combatExperiment:                        FeaturesUnlocked[];
     showQuickSwapButtonsDuringCountdown:     boolean;
     clockSyncSettings:                       ClockSyncSettings;
     combatFeatureFlags:                      CombatFeatureFlags;
@@ -1260,7 +1276,7 @@ export interface ConversationSettingData {
 
 export interface PokemonFormAppraisalOverride {
     id:           string;
-    form:         BadgeTypeElement;
+    form:         string;
     appraisalKey: string;
     addToStart:   boolean;
 }
@@ -1307,8 +1323,8 @@ export interface DeepLinkingSettings {
 export interface DeepLinkingSettingData {
     minPlayerLevelForExternalLink:     number;
     minPlayerLevelForNotificationLink: number;
-    actionsThatIgnoreMinLevel:         BadgeTypeElement[];
-    actionsThatExecuteBeforeMapLoads:  BadgeTypeElement[];
+    actionsThatIgnoreMinLevel:         FeaturesUnlocked[];
+    actionsThatExecuteBeforeMapLoads:  FeaturesUnlocked[];
     iosActionButtonEnabled:            boolean;
 }
 
@@ -1376,12 +1392,6 @@ export interface PokemonHomeEnergyCostData {
     cp2001ToInf:   number;
 }
 
-export enum PokemonClass {
-    PokemonClassLegendary = "POKEMON_CLASS_LEGENDARY",
-    PokemonClassMythic = "POKEMON_CLASS_MYTHIC",
-    PokemonClassUltraBeast = "POKEMON_CLASS_ULTRA_BEAST",
-}
-
 export interface ErrorReportingSettings {
     templateId: string;
     data:       ErrorReportingSettingsClass;
@@ -1408,13 +1418,13 @@ export interface EventPassDisplaySettings {
     eventPassTrackUpgradeDescriptions: EventPassTrackUpgradeDescription[];
     eventPassTitleKey:                 string;
     headerIconUrl:                     string;
-    premiumRewardBannerTop:            string;
-    premiumRewardBannerMiddle:         string;
-    premiumRewardBannerBottom:         string;
-    premiumRewardBannerImageUrl:       string;
-    premiumRewardsDescription:         string;
     todayViewSection:                  string;
-    sectionDisplayPriority:            number;
+    premiumRewardBannerTop?:           string;
+    premiumRewardBannerMiddle?:        string;
+    premiumRewardBannerBottom?:        string;
+    premiumRewardBannerImageUrl?:      string;
+    premiumRewardsDescription?:        string;
+    sectionDisplayPriority?:           number;
 }
 
 export interface EventPassDisplaySettingsBonusBox {
@@ -1457,9 +1467,9 @@ export interface EventPassTierSettingData {
     track:                       Track;
     minPointsRequired?:          number;
     rewards?:                    PurpleReward[];
+    isMilestoneRank?:            boolean;
     bonusSettings?:              Settings;
     activeBonusDisplaySettings?: Settings;
-    isMilestoneRank?:            boolean;
 }
 
 export interface Settings {
@@ -1473,22 +1483,28 @@ export interface ActiveBonusDisplaySettingsBonusBox {
 }
 
 export enum IconType {
+    CandyGeneral = "CANDY_GENERAL",
+    CandyXl = "CANDY_XL",
     EggIncubator = "EGG_INCUBATOR",
     Gift = "GIFT",
     Incense = "INCENSE",
+    MaxParticle = "MAX_PARTICLE",
     Trade = "TRADE",
+    Xp = "XP",
 }
 
 export interface PurpleReward {
-    type:              DailyDefenderBonusCurrency;
-    pokemonEncounter?: RewardPokemonEncounter;
-    pokecoin?:         number;
-    stardust?:         number;
-    item?:             RewardDatumItem;
-    candy?:            Candy;
-    xlCandy?:          Candy;
-    exp?:              number;
-    playerAttribute?:  PlayerAttribute;
+    type:                       DailyDefenderBonusCurrency;
+    pokemonEncounter?:          RewardPokemonEncounter;
+    item?:                      RewardDatumItem;
+    stardust?:                  number;
+    candy?:                     Candy;
+    xlCandy?:                   Candy;
+    neutralAvatarItemTemplate?: NeutralAvatarItemTemplate;
+    eventBadgeId?:              string;
+    playerAttribute?:           PlayerAttribute;
+    exp?:                       number;
+    pokecoin?:                  number;
 }
 
 export interface Candy {
@@ -1504,8 +1520,8 @@ export interface PlayerAttribute {
 export interface RewardPokemonEncounter {
     pokemonId:            string;
     pokemonDisplay?:      PurplePokemonDisplay;
-    statsLimitsOverride?: StatsLimitsOverride;
     isFeaturedPokemon:    boolean;
+    statsLimitsOverride?: StatsLimitsOverride;
 }
 
 export interface PurplePokemonDisplay {
@@ -1618,7 +1634,7 @@ export interface PokemonExtendedSettingData {
     uniqueId:          string;
     sizeSettings:      DataSizeSettings;
     breadOverrides?:   BreadOverride[];
-    form?:             BadgeTypeElement;
+    form?:             string;
     tempEvoOverrides?: PurpleTempEvoOverride[];
 }
 
@@ -1701,10 +1717,10 @@ export enum Temp {
 
 export interface ExternalAddressableAssetsSettings {
     templateId: string;
-    data:       FastAttackSettingsClass;
+    data:       ExternalAddressableAssetsSettingData;
 }
 
-export interface FastAttackSettingsClass {
+export interface ExternalAddressableAssetsSettingData {
 }
 
 export interface FeatureUnlockLevelSettings {
@@ -1728,11 +1744,12 @@ export interface FormSettingData {
 }
 
 export interface Form {
-    form:                        BadgeTypeElement;
-    assetBundleSuffix?:          string;
-    isCostume?:                  boolean;
-    assetBundleValue?:           number;
-    sillouetteObfuscationGroup?: SillouetteObfuscationGroup;
+    form:                          string;
+    assetBundleSuffix?:            string;
+    isCostume?:                    boolean;
+    assetBundleValue?:             number;
+    unsilhouetteOnSpeciesCapture?: boolean;
+    sillouetteObfuscationGroup?:   SillouetteObfuscationGroup;
 }
 
 export interface SillouetteObfuscationGroup {
@@ -1868,10 +1885,10 @@ export interface IconReward {
     pokemonEncounter?:          IconRewardPokemonEncounter;
     item?:                      RewardDatumItem;
     candy?:                     Candy;
-    neutralAvatarItemTemplate?: NeutralAvatarItemTemplate;
+    neutralAvatarItemTemplate?: IconRewardNeutralAvatarItemTemplate;
 }
 
-export interface NeutralAvatarItemTemplate {
+export interface IconRewardNeutralAvatarItemTemplate {
     displayTemplateId: string;
 }
 
@@ -1976,6 +1993,7 @@ export interface GuiSearchSettingData {
     maxQueryLength:                      number;
     searchHelpUrl:                       string;
     completeStartLetterCountPerLanguage: string[];
+    transferWarning100Enabled:           boolean;
 }
 
 export interface GymBadgeSettings {
@@ -1991,6 +2009,15 @@ export interface GymBadgeSettingData {
     pokemonDeployScore:              number;
     raidBattleWinningScore:          number;
     loseAllBattlesScore:             number;
+}
+
+export interface GymTopperDistanceSettings {
+    templateId: string;
+    data:       GymTopperDistanceSettingData;
+}
+
+export interface GymTopperDistanceSettingData {
+    guardPokemonMaxVisualDistanceMeters: number;
 }
 
 export interface HapticsSettings {
@@ -2177,7 +2204,7 @@ export interface IrisSocialUxFunnelSettingData {
 
 export interface EventStep {
     stepNumber: number;
-    event:      BadgeTypeElement;
+    event:      FeaturesUnlocked;
 }
 
 export interface CodeGateProto {
@@ -2279,10 +2306,21 @@ export interface LocationCardSettings {
 }
 
 export interface LocationCardSettingData {
-    locationCard: BadgeTypeElement;
-    imageUrl:     string;
-    cardType?:    CardType;
-    vfxAddress?:  string;
+    locationCard:                 string;
+    imageUrl:                     string;
+    backgroundEligibilityStatus?: BackgroundEligibilityStatus;
+    cardTreatment?:               CardTreatment;
+    cardType?:                    CardType;
+    vfxAddress?:                  string;
+}
+
+export enum BackgroundEligibilityStatus {
+    Eligible = "ELIGIBLE",
+}
+
+export enum CardTreatment {
+    CropBleed = "CROP_BLEED",
+    ExtendedHeight = "EXTENDED_HEIGHT",
 }
 
 export enum CardType {
@@ -2448,6 +2486,17 @@ export interface MapObjectsInteractionRangeSettingData {
     whitePulseRadiusMeters:       number;
 }
 
+export interface MapObjectCollisionAvoidanceSettings {
+    templateId: string;
+    data:       MapObjectCollisionAvoidanceSettingData;
+}
+
+export interface MapObjectCollisionAvoidanceSettingData {
+    mapPlaceCollisionBufferDistance:   number;
+    pokemonCollisionBufferDistance:    number;
+    pokemonCollisionRadiusScaleFactor: number;
+}
+
 export interface MegaEvoLevelSettings {
     templateId: string;
     data:       MegaEvoLevelSettingData;
@@ -2505,6 +2554,7 @@ export interface MegaEvoSettingData {
     minLevelForSpecialMove:            number;
     separatedTempEvoBranches:          Branch[];
     enableSpecialMove:                 boolean;
+    tempEvoSpecialAttackBoosts:        TempEvoSpecialAttackBoost[];
 }
 
 export interface Branch {
@@ -2518,6 +2568,11 @@ export enum Id {
     Gardevoir = "GARDEVOIR",
     Mewtwo = "MEWTWO",
     Raichu = "RAICHU",
+}
+
+export interface TempEvoSpecialAttackBoost {
+    gymsAndRaidsMultiplier:   number;
+    trainerBattlesMultiplier: number;
 }
 
 export interface MonodepthSettings {
@@ -2553,7 +2608,7 @@ export interface MpSettingData {
 
 export interface BattleMpCostPerTier {
     breadBattleCatchMpCost:       number;
-    battleLevel:                  BadgeTypeElement;
+    battleLevel:                  FeaturesUnlocked;
     breadBattleRemoteCatchMpCost: number;
 }
 
@@ -2706,9 +2761,7 @@ export interface AttackDefenseBonus {
 }
 
 export interface Attribute {
-    combatTypes:        string[];
-    attackMultiplier?:  number;
-    defenseMultiplier?: number;
+    combatTypes: string[];
 }
 
 export interface DayNightBonus {
@@ -3042,7 +3095,7 @@ export interface PokedexCategoriesSettingData {
 }
 
 export interface PokedexCategorySettingsInOrder {
-    pokedexCategory: BadgeTypeElement;
+    pokedexCategory: FeaturesUnlocked;
     milestoneGoal:   number;
     visuallyHidden?: boolean;
 }
@@ -3286,6 +3339,7 @@ export interface RaidSettingData {
     pokemonMusicOverrides:                 PokemonMusicOverride[];
     fetchProfileFromSocialEnabled:         boolean;
     raidLevelEncounterTimings:             RaidLevelEncounterTiming[];
+    unsupportedRaidLevelsForRsvp:          string[];
 }
 
 export interface PokemonMusicOverride {
@@ -3379,7 +3433,7 @@ export interface ReferralSettingData {
 }
 
 export interface RecentFeature {
-    iconType:    BadgeTypeElement;
+    iconType:    FeaturesUnlocked;
     featureName: string;
     description: string;
 }
@@ -3817,6 +3871,41 @@ export interface TicketGiftingSettingData {
     minRequiredFriendshipLevel: string;
 }
 
+export interface TimeBoxedSpawnEventsSettings {
+    templateId: string;
+    data:       TimeBoxedSpawnEventsSettingData;
+}
+
+export interface TimeBoxedSpawnEventsSettingData {
+    timeBoxedSpawnEvents: TimeBoxedSpawnEvent[];
+}
+
+export interface TimeBoxedSpawnEvent {
+    startDayLocal:           DayLocal;
+    startTimeLocal:          TimeLocal;
+    endDayLocal:             DayLocal;
+    endTimeLocal:            EndTimeLocal;
+    startPeakTimeLocal:      TimeLocal;
+    endPeakTimeLocal:        TimeLocal;
+    titleStringKey:          string;
+    descriptionStringKey:    string;
+    timeBoxedSpawnEventType: string;
+}
+
+export interface DayLocal {
+    month: number;
+    day:   number;
+}
+
+export interface TimeLocal {
+    hour: number;
+}
+
+export interface EndTimeLocal {
+    hour:   number;
+    minute: number;
+}
+
 export interface TodayViewSettings {
     templateId: string;
     data:       TodayViewSettingData;
@@ -3890,7 +3979,7 @@ export interface TutorialSettingData {
 }
 
 export interface TutorialItemReward {
-    tutorial: BadgeTypeElement;
+    tutorial: FeaturesUnlocked;
     item?:    ItemElement[];
 }
 
@@ -3953,7 +4042,7 @@ export interface PokemonSettingData {
     allowNoevolveEvolution?:            string[];
     ibfc:                               Ibfc;
     breadTierGroup?:                    BreadTierGroupEnum;
-    form?:                              BadgeTypeElement;
+    form?:                              string;
     disableTransferToPokemonHome?:      boolean;
     parentPokemonId?:                   string;
     buddySize?:                         BuddySize;
@@ -4037,7 +4126,7 @@ export enum MovementType {
 export interface EvolutionBranch {
     evolution?:                              string;
     candyCost?:                              number;
-    form?:                                   BadgeTypeElement;
+    form?:                                   string;
     candyCostPurified?:                      number;
     temporaryEvolution?:                     Temp;
     temporaryEvolutionEnergyCost?:           number;
@@ -4145,7 +4234,8 @@ export interface Ibfc {
     alternateForm?:                  string;
     defaultToAlternateIbfcSettings?: IbfcSettings;
     alternateToDefaultIbfcSettings?: IbfcSettings;
-    AlternateForms?:                 string[];
+    defaultForms?:                   string[];
+    alternateForms?:                 string[];
 }
 
 export interface IbfcSettings {
@@ -4298,10 +4388,14 @@ export interface BattleAnimationSettingData {
 }
 
 export interface CombatAnimationConfiguration {
-    fastAttackSettings:                      FastAttackSettingsClass;
+    fastAttackSettings:                      CombatAnimationConfigurationFastAttackSettings;
     projectedHealthAnimationDurationSeconds: number;
     uiCameraAnimationSettings:               UiCameraAnimationSettings;
     missedFastAttackRecoverySettings:        MissedFastAttackRecoverySettings;
+}
+
+export interface CombatAnimationConfigurationFastAttackSettings {
+    allowFastMoveAnimPriority: boolean;
 }
 
 export interface MissedFastAttackRecoverySettings {
@@ -4316,10 +4410,10 @@ export interface UiCameraAnimationSettings {
 }
 
 export interface AnimationConfiguration {
-    fastAttackSettings: FastAttackSettings;
+    fastAttackSettings: MaxBattleAnimationConfigurationFastAttackSettings;
 }
 
-export interface FastAttackSettings {
+export interface MaxBattleAnimationConfigurationFastAttackSettings {
     normalizedStartOffset:    number;
     crossFadeDurationSeconds: number;
 }
@@ -4330,25 +4424,36 @@ export interface VnextBattleConfig {
 }
 
 export interface VnextBattleConfigData {
-    raidsBattleConfig: BattleConfig;
-    maxBattleConfig:   BattleConfig;
-    pvpBattleConfig:   PvpBattleConfig;
+    raidsBattleConfig:      MaxBattleConfigClass;
+    maxBattleConfig:        MaxBattleConfigClass;
+    pvpBattleConfig:        PvpBattleConfigClass;
+    tgrBattleConfig:        PvpBattleConfigClass;
+    teamLeaderBattleConfig: PvpBattleConfigClass;
 }
 
-export interface BattleConfig {
+export interface MaxBattleConfigClass {
     battleEndTimeoutThresholdMs:                  string;
     badNetworkWarningThresholdTurns:              string;
     deadNetworkDisconnectThresholdTurns:          string;
     noOpponentConnectionDisconnectThresholdTurns: string;
 }
 
-export interface PvpBattleConfig {
+export interface PvpBattleConfigClass {
     battleEndTimeoutThresholdMs:                  string;
     badNetworkWarningThresholdTurns:              string;
     deadNetworkDisconnectThresholdTurns:          string;
     noOpponentConnectionDisconnectThresholdTurns: string;
+    latencyTrackingSettings?:                     LatencyTrackingSettings;
     submitTurnNumberWithPlayerAction:             boolean;
     preResponseInputBlockDurationMs:              string;
+    swapButtonEndOfCooldownInputBlockDurationMs:  number;
+}
+
+export interface LatencyTrackingSettings {
+    maxNumberEvents:     number;
+    maxNumberGetState:   number;
+    isUpstreamEnabled:   boolean;
+    isDownstreamEnabled: boolean;
 }
 
 export interface VsSeekerClientSettings {

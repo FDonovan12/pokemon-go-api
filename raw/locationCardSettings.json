@@ -3,105 +3,134 @@
     "templateId": "LC_2023_BARCELONA_CITYSAFARI_001",
     "data": {
       "locationCard": "LC_2023_BARCELONA_CITYSAFARI_001",
-      "imageUrl": "lc_CitySafari2023_barcelona_2023"
+      "imageUrl": "lc_CitySafari2023_barcelona_2023",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2023_JEJU_AIRADVENTURES_001",
     "data": {
       "locationCard": "LC_2023_JEJU_AIRADVENTURES_001",
-      "imageUrl": "lc_JejuAirAdv2023"
+      "imageUrl": "lc_JejuAirAdv2023",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2023_LASVEGAS_GOTOUR_001",
     "data": {
       "locationCard": "LC_2023_LASVEGAS_GOTOUR_001",
-      "imageUrl": "lc_GoTour2023"
+      "imageUrl": "lc_GoTour2023",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2023_LONDON_GOFEST_001",
     "data": {
       "locationCard": "LC_2023_LONDON_GOFEST_001",
-      "imageUrl": "lc_GoFest2023_london"
+      "imageUrl": "lc_GoFest2023_london",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2023_MEXICOCITY_CITYSAFARI_001",
     "data": {
       "locationCard": "LC_2023_MEXICOCITY_CITYSAFARI_001",
-      "imageUrl": "lc_CitySafari2023_mexicoCity_2023"
+      "imageUrl": "lc_CitySafari2023_mexicoCity_2023",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2023_NYC_GOFEST_001",
     "data": {
       "locationCard": "LC_2023_NYC_GOFEST_001",
-      "imageUrl": "lc_GoFest2023_newyork"
+      "imageUrl": "lc_GoFest2023_newyork",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2023_OSAKA_GOFEST_001",
     "data": {
       "locationCard": "LC_2023_OSAKA_GOFEST_001",
-      "imageUrl": "lc_GoFest2023_osaka"
+      "imageUrl": "lc_GoFest2023_osaka",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2023_SEOUL_CITYSAFARI_001",
     "data": {
       "locationCard": "LC_2023_SEOUL_CITYSAFARI_001",
-      "imageUrl": "lc_CitySafari2023_seoul_2023"
+      "imageUrl": "lc_CitySafari2023_seoul_2023",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2024_BALI_AIRADVENTURES_001",
     "data": {
       "locationCard": "LC_2024_BALI_AIRADVENTURES_001",
-      "imageUrl": "lc_AirAdv2024_bali"
+      "imageUrl": "lc_AirAdv2024_bali",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2024_FUKUOKA_GOWA_001",
     "data": {
       "locationCard": "LC_2024_FUKUOKA_GOWA_001",
-      "imageUrl": "lc_GOWA_fukuoka"
+      "imageUrl": "lc_GOWA_fukuoka",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2024_HONGKONG_CITYSAFARI_001",
     "data": {
       "locationCard": "LC_2024_HONGKONG_CITYSAFARI_001",
-      "imageUrl": "lc_CitySafari2024_hongkong"
+      "imageUrl": "lc_CitySafari2024_hongkong",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2024_HONOLULU_WORLD_CHAMPIONSHIPS_001",
     "data": {
       "locationCard": "LC_2024_HONOLULU_WORLD_CHAMPIONSHIPS_001",
-      "imageUrl": "lc_wcs2024"
+      "imageUrl": "lc_wcs2024",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2024_INCHEON_SAFARI_ZONE_001",
     "data": {
       "locationCard": "LC_2024_INCHEON_SAFARI_ZONE_001",
-      "imageUrl": "lc_CitySafari2024_incheon"
+      "imageUrl": "lc_CitySafari2024_incheon",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2024_JAKARTA_AIRADVENTURES_001",
     "data": {
       "locationCard": "LC_2024_JAKARTA_AIRADVENTURES_001",
-      "imageUrl": "lc_AirAdv2024_jakarta"
+      "imageUrl": "lc_AirAdv2024_jakarta",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2024_LOSANGELES_GOTOUR_001",
     "data": {
       "locationCard": "LC_2024_LOSANGELES_GOTOUR_001",
-      "imageUrl": "lc_GoTour2024_losAngeles"
+      "imageUrl": "lc_GoTour2024_losAngeles",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
@@ -109,119 +138,150 @@
     "data": {
       "locationCard": "LC_2024_MADRID_GOFEST_001",
       "imageUrl": "lc_GoFest2024_madrid",
-      "cardType": "LOCATION_CARD"
+      "cardType": "LOCATION_CARD",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2024_MILAN_CITYSAFARI_001",
     "data": {
       "locationCard": "LC_2024_MILAN_CITYSAFARI_001",
-      "imageUrl": "lc_CitySafari2024_milan"
+      "imageUrl": "lc_CitySafari2024_milan",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2024_MLB_001",
     "data": {
       "locationCard": "LC_2024_MLB_001",
-      "imageUrl": "lc_MLB_marlins"
+      "imageUrl": "lc_MLB_marlins",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2024_MLB_002",
     "data": {
       "locationCard": "LC_2024_MLB_002",
-      "imageUrl": "lc_MLB_mariners"
+      "imageUrl": "lc_MLB_mariners",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2024_MLB_003",
     "data": {
       "locationCard": "LC_2024_MLB_003",
-      "imageUrl": "lc_MLB_clevelandGuardians"
+      "imageUrl": "lc_MLB_clevelandGuardians",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2024_MLB_004",
     "data": {
       "locationCard": "LC_2024_MLB_004",
-      "imageUrl": "lc_MLB_tampaBayRays"
+      "imageUrl": "lc_MLB_tampaBayRays",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2024_MLB_005",
     "data": {
       "locationCard": "LC_2024_MLB_005",
-      "imageUrl": "lc_MLB_milwaukeeBrewers"
+      "imageUrl": "lc_MLB_milwaukeeBrewers",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2024_MLB_006",
     "data": {
       "locationCard": "LC_2024_MLB_006",
-      "imageUrl": "lc_MLB_washingtonNationals"
+      "imageUrl": "lc_MLB_washingtonNationals",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2024_MLB_007",
     "data": {
       "locationCard": "LC_2024_MLB_007",
-      "imageUrl": "lc_MLB_arizonaDiamondbacks"
+      "imageUrl": "lc_MLB_arizonaDiamondbacks",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2024_MLB_008",
     "data": {
       "locationCard": "LC_2024_MLB_008",
-      "imageUrl": "lc_MLB_chicagoWhiteSox"
+      "imageUrl": "lc_MLB_chicagoWhiteSox",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2024_MLB_009",
     "data": {
       "locationCard": "LC_2024_MLB_009",
-      "imageUrl": "lc_MLB_baltimoreOrioles"
+      "imageUrl": "lc_MLB_baltimoreOrioles",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2024_MLB_010",
     "data": {
       "locationCard": "LC_2024_MLB_010",
-      "imageUrl": "lc_MLB_newyorkMets"
+      "imageUrl": "lc_MLB_newyorkMets",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2024_MLB_011",
     "data": {
       "locationCard": "LC_2024_MLB_011",
-      "imageUrl": "lc_MLB_sanFranciscoGiants"
+      "imageUrl": "lc_MLB_sanFranciscoGiants",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2024_MLB_012",
     "data": {
       "locationCard": "LC_2024_MLB_012",
-      "imageUrl": "lc_MLB_bostonRedSox"
+      "imageUrl": "lc_MLB_bostonRedSox",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2024_MLB_013",
     "data": {
       "locationCard": "LC_2024_MLB_013",
-      "imageUrl": "lc_MLB_minnesotaTwins"
+      "imageUrl": "lc_MLB_minnesotaTwins",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2024_MLB_014",
     "data": {
       "locationCard": "LC_2024_MLB_014",
-      "imageUrl": "lc_MLB_texasRangers"
+      "imageUrl": "lc_MLB_texasRangers",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2024_MUMBAI_CITYSAFARI_001",
     "data": {
       "locationCard": "LC_2024_MUMBAI_CITYSAFARI_001",
-      "imageUrl": "lc_CitySafari2024_mumbai"
+      "imageUrl": "lc_CitySafari2024_mumbai",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
@@ -229,21 +289,26 @@
     "data": {
       "locationCard": "LC_2024_NYC_GOFEST_001",
       "imageUrl": "lc_GoFest2024_newyork",
-      "cardType": "LOCATION_CARD"
+      "cardType": "LOCATION_CARD",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2024_SANTIAGO_CITYSAFARI_001",
     "data": {
       "locationCard": "LC_2024_SANTIAGO_CITYSAFARI_001",
-      "imageUrl": "lc_CitySafari2024_santiago"
+      "imageUrl": "lc_CitySafari2024_santiago",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2024_SAOPAULO_CITYSAFARI_001",
     "data": {
       "locationCard": "LC_2024_SAOPAULO_CITYSAFARI_001",
-      "imageUrl": "lc_CitySafari2024_saopaulo"
+      "imageUrl": "lc_CitySafari2024_saopaulo",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
@@ -251,105 +316,129 @@
     "data": {
       "locationCard": "LC_2024_SENDAI_GOFEST_001",
       "imageUrl": "lc_GoFest2024_sendai",
-      "cardType": "LOCATION_CARD"
+      "cardType": "LOCATION_CARD",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2024_SINGAPORE_CITYSAFARI_001",
     "data": {
       "locationCard": "LC_2024_SINGAPORE_CITYSAFARI_001",
-      "imageUrl": "lc_CitySafari2024_singapore"
+      "imageUrl": "lc_CitySafari2024_singapore",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2024_SURABAYA_AIRADVENTURES_001",
     "data": {
       "locationCard": "LC_2024_SURABAYA_AIRADVENTURES_001",
-      "imageUrl": "lc_AirAdv2024_surabaya"
+      "imageUrl": "lc_AirAdv2024_surabaya",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2024_TAINAN_CITYSAFARI_001",
     "data": {
       "locationCard": "LC_2024_TAINAN_CITYSAFARI_001",
-      "imageUrl": "lc_CitySafari2024_tainan"
+      "imageUrl": "lc_CitySafari2024_tainan",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2024_YOGYAKARTA_AIRADVENTURES_001",
     "data": {
       "locationCard": "LC_2024_YOGYAKARTA_AIRADVENTURES_001",
-      "imageUrl": "lc_AirAdv2024_yogyakarta"
+      "imageUrl": "lc_AirAdv2024_yogyakarta",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2025_AMSTERDAM_CITYSAFARI_001",
     "data": {
       "locationCard": "LC_2025_AMSTERDAM_CITYSAFARI_001",
-      "imageUrl": "lc_citysafari2025_amsterdam"
+      "imageUrl": "lc_citysafari2025_amsterdam",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2025_ANAHEIM_WORLD_CHAMPIONSHIPS_001",
     "data": {
       "locationCard": "LC_2025_ANAHEIM_WORLD_CHAMPIONSHIPS_001",
-      "imageUrl": "lc_Wcs2025_anaheim"
+      "imageUrl": "lc_Wcs2025_anaheim",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2025_BANGKOK_CITYSAFARI_001",
     "data": {
       "locationCard": "LC_2025_BANGKOK_CITYSAFARI_001",
-      "imageUrl": "lc_citysafari2025_bangkok"
+      "imageUrl": "lc_citysafari2025_bangkok",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2025_BERLIN_ROADTRIP_001",
     "data": {
       "locationCard": "LC_2025_BERLIN_ROADTRIP_001",
-      "imageUrl": "lc_roadtrip2025_berlin"
+      "imageUrl": "lc_roadtrip2025_berlin",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2025_CANCUN_CITYSAFARI_001",
     "data": {
       "locationCard": "LC_2025_CANCUN_CITYSAFARI_001",
-      "imageUrl": "lc_citysafari2025_cancun"
+      "imageUrl": "lc_citysafari2025_cancun",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2025_CHERRY_BLOSSOM_FESTIVAL",
     "data": {
       "locationCard": "LC_2025_CHERRY_BLOSSOM_FESTIVAL",
-      "imageUrl": "lc_CherryBlossomFest2025_yeouido"
+      "imageUrl": "lc_CherryBlossomFest2025_yeouido",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2025_COLOGNE_ROADTRIP_001",
     "data": {
       "locationCard": "LC_2025_COLOGNE_ROADTRIP_001",
-      "imageUrl": "lc_roadtrip2025_cologne"
+      "imageUrl": "lc_roadtrip2025_cologne",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2025_GOWA_NAGASAKI",
     "data": {
       "locationCard": "LC_2025_GOWA_NAGASAKI",
-      "imageUrl": "lc_nagasaki2025"
+      "imageUrl": "lc_nagasaki2025",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2025_HAGUE_ROADTRIP_001",
     "data": {
       "locationCard": "LC_2025_HAGUE_ROADTRIP_001",
-      "imageUrl": "lc_roadtrip2025_hague"
+      "imageUrl": "lc_roadtrip2025_hague",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2025_JANGHEUNG_SUMMER_FESTIVAL",
     "data": {
       "locationCard": "LC_2025_JANGHEUNG_SUMMER_FESTIVAL",
-      "imageUrl": "lc_Jangheung_Water_Festival_2025"
+      "imageUrl": "lc_Jangheung_Water_Festival_2025",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
@@ -357,21 +446,24 @@
     "data": {
       "locationCard": "LC_2025_JERSEYCITY_GOFEST_001",
       "imageUrl": "lc_GoFest2025_jerseycity",
-      "cardType": "LOCATION_CARD"
+      "cardType": "LOCATION_CARD",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2025_KR_PYEONGCHANG_WINTER_FESTIVAL",
     "data": {
       "locationCard": "LC_2025_KR_PYEONGCHANG_WINTER_FESTIVAL",
-      "imageUrl": "lc_2025_kr_pyeongchangWinterFestival"
+      "imageUrl": "lc_2025_kr_pyeongchangWinterFestival",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2025_LONDON_ROADTRIP_001",
     "data": {
       "locationCard": "LC_2025_LONDON_ROADTRIP_001",
-      "imageUrl": "lc_roadtrip2025_london"
+      "imageUrl": "lc_roadtrip2025_london",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
@@ -379,14 +471,18 @@
     "data": {
       "locationCard": "LC_2025_LOSANGELES_GOTOUR_001",
       "imageUrl": "lc_GoTour2025_losAngeles",
-      "cardType": "LOCATION_CARD"
+      "cardType": "LOCATION_CARD",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2025_MANCHESTER_ROADTRIP_001",
     "data": {
       "locationCard": "LC_2025_MANCHESTER_ROADTRIP_001",
-      "imageUrl": "lc_roadtrip2025_manchester"
+      "imageUrl": "lc_roadtrip2025_manchester",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
@@ -394,14 +490,17 @@
     "data": {
       "locationCard": "LC_2025_NEWTAIPEICITY_GOTOUR_001",
       "imageUrl": "lc_GoTour2025_newTaipeiCity",
-      "cardType": "LOCATION_CARD"
+      "cardType": "LOCATION_CARD",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2025_NFL_001",
     "data": {
       "locationCard": "LC_2025_NFL_001",
-      "imageUrl": "lc_NFL_cardinals"
+      "imageUrl": "lc_NFL_cardinals",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
@@ -415,21 +514,27 @@
     "templateId": "LC_2025_OSAKA_EVENT_001",
     "data": {
       "locationCard": "LC_2025_OSAKA_EVENT_001",
-      "imageUrl": "lc_OsakaEvent2025_01"
+      "imageUrl": "lc_OsakaEvent2025_01",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2025_OSAKA_EVENT_002",
     "data": {
       "locationCard": "LC_2025_OSAKA_EVENT_002",
-      "imageUrl": "lc_OsakaEvent2025_02"
+      "imageUrl": "lc_OsakaEvent2025_02",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2025_OSAKA_EVENT_003",
     "data": {
       "locationCard": "LC_2025_OSAKA_EVENT_003",
-      "imageUrl": "lc_OsakaEvent2025_03"
+      "imageUrl": "lc_OsakaEvent2025_03",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
@@ -437,21 +542,26 @@
     "data": {
       "locationCard": "LC_2025_OSAKA_GOFEST_001",
       "imageUrl": "lc_GoFest2025_osaka",
-      "cardType": "LOCATION_CARD"
+      "cardType": "LOCATION_CARD",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2025_PARIS_001",
     "data": {
       "locationCard": "LC_2025_PARIS_001",
-      "imageUrl": "lc_Paris2025_01"
+      "imageUrl": "lc_Paris2025_01",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2025_PARIS_002",
     "data": {
       "locationCard": "LC_2025_PARIS_002",
-      "imageUrl": "lc_Paris2025_02"
+      "imageUrl": "lc_Paris2025_02",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
@@ -459,49 +569,59 @@
     "data": {
       "locationCard": "LC_2025_PARIS_GOFEST_001",
       "imageUrl": "lc_GoFest2025_paris",
-      "cardType": "LOCATION_CARD"
+      "cardType": "LOCATION_CARD",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2025_PARIS_ROADTRIP_001",
     "data": {
       "locationCard": "LC_2025_PARIS_ROADTRIP_001",
-      "imageUrl": "lc_roadtrip2025_paris"
+      "imageUrl": "lc_roadtrip2025_paris",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2025_TAIPEICITY_AMUSEMENT_PARK",
     "data": {
       "locationCard": "LC_2025_TAIPEICITY_AMUSEMENT_PARK",
-      "imageUrl": "lc_taipeiAmusementPark_2025"
+      "imageUrl": "lc_taipeiAmusementPark_2025",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2025_VALENCIA_CITYSAFARI_001",
     "data": {
       "locationCard": "LC_2025_VALENCIA_CITYSAFARI_001",
-      "imageUrl": "lc_citysafari2025_valencia"
+      "imageUrl": "lc_citysafari2025_valencia",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2025_VALENCIA_ROADTRIP_001",
     "data": {
       "locationCard": "LC_2025_VALENCIA_ROADTRIP_001",
-      "imageUrl": "lc_roadtrip2025_valencia"
+      "imageUrl": "lc_roadtrip2025_valencia",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2025_VANCOUVER_CITYSAFARI_001",
     "data": {
       "locationCard": "LC_2025_VANCOUVER_CITYSAFARI_001",
-      "imageUrl": "lc_citysafari2025_vancouver"
+      "imageUrl": "lc_citysafari2025_vancouver",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2026_BR_001",
     "data": {
       "locationCard": "LC_2026_BR_001",
-      "imageUrl": "lc_2026_br_001"
+      "imageUrl": "lc_2026_br_001",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
@@ -509,14 +629,17 @@
     "data": {
       "locationCard": "LC_2026_CHICAGO_GOFEST_001",
       "imageUrl": "lc_GoFest2026_chicago",
-      "cardType": "LOCATION_CARD"
+      "cardType": "LOCATION_CARD",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2026_COLOGNE_CARNIVAL_001",
     "data": {
       "locationCard": "LC_2026_COLOGNE_CARNIVAL_001",
-      "imageUrl": "lc_carnivalFlamigo_cologne_2026"
+      "imageUrl": "lc_carnivalFlamigo_cologne_2026",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
@@ -531,50 +654,57 @@
     "data": {
       "locationCard": "LC_2026_COPENHAGEN_GOFEST_001",
       "imageUrl": "lc_GoFest2026_copenhagen",
-      "cardType": "LOCATION_CARD"
+      "cardType": "LOCATION_CARD",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2026_FC_SEOUL",
     "data": {
-      "locationCard": 417,
+      "locationCard": "LC_2026_FC_SEOUL",
       "imageUrl": "lc_fc2026_seoul"
     }
   },
   {
     "templateId": "LC_2026_GOWA_MEXICOCITY",
     "data": {
-      "locationCard": 419,
+      "locationCard": "LC_2026_GOWA_MEXICOCITY",
       "imageUrl": "lc_2026_gowa_mexicocity",
-      "cardType": "LOCATION_CARD"
+      "cardType": "LOCATION_CARD",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2026_GOWA_SENDAI",
     "data": {
-      "locationCard": 418,
+      "locationCard": "LC_2026_GOWA_SENDAI",
       "imageUrl": "lc_2026_gowa_sendai",
-      "cardType": "LOCATION_CARD"
+      "cardType": "LOCATION_CARD",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2026_JP_GREEN",
     "data": {
       "locationCard": "LC_2026_JP_GREEN",
-      "imageUrl": "lc_2026_jp_green"
+      "imageUrl": "lc_2026_jp_green",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2026_JP_RED",
     "data": {
       "locationCard": "LC_2026_JP_RED",
-      "imageUrl": "lc_2026_jp_red"
+      "imageUrl": "lc_2026_jp_red",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2026_LONDON_NO_001",
     "data": {
-      "locationCard": 422,
+      "locationCard": "LC_2026_LONDON_NO_001",
       "imageUrl": "lc_nightOut2026_London"
     }
   },
@@ -583,13 +713,15 @@
     "data": {
       "locationCard": "LC_2026_LOSANGELES_GOTOUR_001",
       "imageUrl": "lc_GoTour2026_losAngeles",
-      "cardType": "LOCATION_CARD"
+      "cardType": "LOCATION_CARD",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2026_LOSANGELES_NO_001",
     "data": {
-      "locationCard": 421,
+      "locationCard": "LC_2026_LOSANGELES_NO_001",
       "imageUrl": "lc_nightOut2026_LA"
     }
   },
@@ -597,119 +729,143 @@
     "templateId": "LC_2026_MLB_TBRAYS",
     "data": {
       "locationCard": "LC_2026_MLB_TBRAYS",
-      "imageUrl": "lc_MLB_tampaBayRays2"
+      "imageUrl": "lc_MLB_tampaBayRays2",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2026_NPB_001",
     "data": {
       "locationCard": "LC_2026_NPB_001",
-      "imageUrl": "lc_2026_NPB_yokohamaStadium"
+      "imageUrl": "lc_2026_NPB_yokohamaStadium",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2026_NPB_002",
     "data": {
       "locationCard": "LC_2026_NPB_002",
-      "imageUrl": "lc_2026_NPB_yomiuriGiants"
+      "imageUrl": "lc_2026_NPB_yomiuriGiants",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2026_NPB_003",
     "data": {
       "locationCard": "LC_2026_NPB_003",
-      "imageUrl": "lc_2026_NPB_tokyoSwallows"
+      "imageUrl": "lc_2026_NPB_tokyoSwallows",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2026_NPB_004",
     "data": {
       "locationCard": "LC_2026_NPB_004",
-      "imageUrl": "lc_2026_NPB_koshienHanshinTigers"
+      "imageUrl": "lc_2026_NPB_koshienHanshinTigers",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2026_NPB_005",
     "data": {
       "locationCard": "LC_2026_NPB_005",
-      "imageUrl": "lc_2026_NPB_rakutenEagles"
+      "imageUrl": "lc_2026_NPB_rakutenEagles",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2026_NPB_006",
     "data": {
       "locationCard": "LC_2026_NPB_006",
-      "imageUrl": "lc_2026_NPB_hiroshimaCarp"
+      "imageUrl": "lc_2026_NPB_hiroshimaCarp",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2026_NPB_007",
     "data": {
       "locationCard": "LC_2026_NPB_007",
-      "imageUrl": "lc_2026_NPB_toyamaAllstars"
+      "imageUrl": "lc_2026_NPB_toyamaAllstars",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2026_NPB_008",
     "data": {
       "locationCard": "LC_2026_NPB_008",
-      "imageUrl": "lc_2026_NPB_softbankHawks"
+      "imageUrl": "lc_2026_NPB_softbankHawks",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2026_NPB_009",
     "data": {
       "locationCard": "LC_2026_NPB_009",
-      "imageUrl": "lc_2026_NPB_kyocera"
+      "imageUrl": "lc_2026_NPB_kyocera",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2026_NPB_010",
     "data": {
       "locationCard": "LC_2026_NPB_010",
-      "imageUrl": "lc_2026_NPB_belluna"
+      "imageUrl": "lc_2026_NPB_belluna",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2026_NPB_011",
     "data": {
       "locationCard": "LC_2026_NPB_011",
-      "imageUrl": "lc_2026_NPB_zozoMarine"
+      "imageUrl": "lc_2026_NPB_zozoMarine",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2026_NPB_012",
     "data": {
       "locationCard": "LC_2026_NPB_012",
-      "imageUrl": "lc_2026_NPB_chunichiDragons"
+      "imageUrl": "lc_2026_NPB_chunichiDragons",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2026_NPB_013",
     "data": {
       "locationCard": "LC_2026_NPB_013",
-      "imageUrl": "lc_2026_NPB_hokkaidoFighters"
+      "imageUrl": "lc_2026_NPB_hokkaidoFighters",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2026_PPK_001",
     "data": {
       "locationCard": "LC_2026_PPK_001",
-      "imageUrl": "lc_2026_ppk_001"
+      "imageUrl": "lc_2026_ppk_001",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2026_RIODEJANEIRO_CARNIVAL_001",
     "data": {
       "locationCard": "LC_2026_RIODEJANEIRO_CARNIVAL_001",
-      "imageUrl": "lc_carnivalFlamigo_rio_2026"
+      "imageUrl": "lc_carnivalFlamigo_rio_2026",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_2026_SANFRANCISCO_WCS_001",
     "data": {
       "locationCard": "LC_2026_SANFRANCISCO_WCS_001",
-      "imageUrl": "lc_Wcs2026_sanFrancisco"
+      "imageUrl": "lc_Wcs2026_sanFrancisco",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
@@ -717,7 +873,9 @@
     "data": {
       "locationCard": "LC_2026_TAINAN_GOTOUR_001",
       "imageUrl": "lc_GoTour2026_tainan",
-      "cardType": "LOCATION_CARD"
+      "cardType": "LOCATION_CARD",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
@@ -725,28 +883,33 @@
     "data": {
       "locationCard": "LC_2026_TOKYO_GOFEST_001",
       "imageUrl": "lc_GoFest2026_tokyo",
-      "cardType": "LOCATION_CARD"
+      "cardType": "LOCATION_CARD",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_CITYSAFARI2025_BUENOSAIRES",
     "data": {
       "locationCard": "LC_CITYSAFARI2025_BUENOSAIRES",
-      "imageUrl": "lc_CitySafari2025_buenosAires"
+      "imageUrl": "lc_CitySafari2025_buenosAires",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_CITYSAFARI2025_MIAMI",
     "data": {
       "locationCard": "LC_CITYSAFARI2025_MIAMI",
-      "imageUrl": "lc_CitySafari2025_miami"
+      "imageUrl": "lc_CitySafari2025_miami",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_CITYSAFARI2025_SYDNEY",
     "data": {
       "locationCard": "LC_CITYSAFARI2025_SYDNEY",
-      "imageUrl": "lc_CitySafari2025_sydney"
+      "imageUrl": "lc_CitySafari2025_sydney",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
@@ -754,7 +917,8 @@
     "data": {
       "locationCard": "LC_CR_2026_001",
       "imageUrl": "lc_CR_2026_001",
-      "cardType": "LOCATION_CARD"
+      "cardType": "LOCATION_CARD",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
@@ -803,490 +967,599 @@
     "templateId": "LC_ID_CAR_FREE_DAY",
     "data": {
       "locationCard": "LC_ID_CAR_FREE_DAY",
-      "imageUrl": "lc_ID_CarFreeDay"
+      "imageUrl": "lc_ID_CarFreeDay",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_JAPAN_STAMP_RALLY_1",
     "data": {
       "locationCard": "LC_JAPAN_STAMP_RALLY_1",
-      "imageUrl": "lc_pokecenter_sapporo"
+      "imageUrl": "lc_pokecenter_sapporo",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_JAPAN_STAMP_RALLY_10",
     "data": {
       "locationCard": "LC_JAPAN_STAMP_RALLY_10",
-      "imageUrl": "lc_pokecenter_kanazawa"
+      "imageUrl": "lc_pokecenter_kanazawa",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_JAPAN_STAMP_RALLY_11",
     "data": {
       "locationCard": "LC_JAPAN_STAMP_RALLY_11",
-      "imageUrl": "lc_pokecenter_kyoto"
+      "imageUrl": "lc_pokecenter_kyoto",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_JAPAN_STAMP_RALLY_12",
     "data": {
       "locationCard": "LC_JAPAN_STAMP_RALLY_12",
-      "imageUrl": "lc_pokecenter_osakaDX"
+      "imageUrl": "lc_pokecenter_osakaDX",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_JAPAN_STAMP_RALLY_13",
     "data": {
       "locationCard": "LC_JAPAN_STAMP_RALLY_13",
-      "imageUrl": "lc_pokecenter_osaka"
+      "imageUrl": "lc_pokecenter_osaka",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_JAPAN_STAMP_RALLY_14",
     "data": {
       "locationCard": "LC_JAPAN_STAMP_RALLY_14",
-      "imageUrl": "lc_pokecenter_hiroshima"
+      "imageUrl": "lc_pokecenter_hiroshima",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_JAPAN_STAMP_RALLY_15",
     "data": {
       "locationCard": "LC_JAPAN_STAMP_RALLY_15",
-      "imageUrl": "lc_pokecenter_kagawa"
+      "imageUrl": "lc_pokecenter_kagawa",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_JAPAN_STAMP_RALLY_16",
     "data": {
       "locationCard": "LC_JAPAN_STAMP_RALLY_16",
-      "imageUrl": "lc_pokecenter_fukuoka"
+      "imageUrl": "lc_pokecenter_fukuoka",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_JAPAN_STAMP_RALLY_17",
     "data": {
       "locationCard": "LC_JAPAN_STAMP_RALLY_17",
-      "imageUrl": "lc_pokecenter_okinawa"
+      "imageUrl": "lc_pokecenter_okinawa",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_JAPAN_STAMP_RALLY_18",
     "data": {
       "locationCard": "LC_JAPAN_STAMP_RALLY_18",
-      "imageUrl": "lc_pokecenter_GOLab"
+      "imageUrl": "lc_pokecenter_GOLab",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_JAPAN_STAMP_RALLY_2",
     "data": {
       "locationCard": "LC_JAPAN_STAMP_RALLY_2",
-      "imageUrl": "lc_pokecenter_tohoku"
+      "imageUrl": "lc_pokecenter_tohoku",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_JAPAN_STAMP_RALLY_3",
     "data": {
       "locationCard": "LC_JAPAN_STAMP_RALLY_3",
-      "imageUrl": "lc_pokecenter_tokyoDX"
+      "imageUrl": "lc_pokecenter_tokyoDX",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_JAPAN_STAMP_RALLY_4",
     "data": {
       "locationCard": "LC_JAPAN_STAMP_RALLY_4",
-      "imageUrl": "lc_pokecenter_megaTokyo"
+      "imageUrl": "lc_pokecenter_megaTokyo",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_JAPAN_STAMP_RALLY_5",
     "data": {
       "locationCard": "LC_JAPAN_STAMP_RALLY_5",
-      "imageUrl": "lc_pokecenter_shibuya"
+      "imageUrl": "lc_pokecenter_shibuya",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_JAPAN_STAMP_RALLY_6",
     "data": {
       "locationCard": "LC_JAPAN_STAMP_RALLY_6",
-      "imageUrl": "lc_pokecenter_skytreeTown"
+      "imageUrl": "lc_pokecenter_skytreeTown",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_JAPAN_STAMP_RALLY_7",
     "data": {
       "locationCard": "LC_JAPAN_STAMP_RALLY_7",
-      "imageUrl": "lc_pokecenter_tokyoBay"
+      "imageUrl": "lc_pokecenter_tokyoBay",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_JAPAN_STAMP_RALLY_8",
     "data": {
       "locationCard": "LC_JAPAN_STAMP_RALLY_8",
-      "imageUrl": "lc_pokecenter_yokohama"
+      "imageUrl": "lc_pokecenter_yokohama",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_JAPAN_STAMP_RALLY_9",
     "data": {
       "locationCard": "LC_JAPAN_STAMP_RALLY_9",
-      "imageUrl": "lc_pokecenter_nagoya"
+      "imageUrl": "lc_pokecenter_nagoya",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_JEJU_STAMP_RALLY",
     "data": {
       "locationCard": "LC_JEJU_STAMP_RALLY",
-      "imageUrl": "lc_stampRally2025_Jeju"
+      "imageUrl": "lc_stampRally2025_Jeju",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_NT_1",
     "data": {
       "locationCard": "LC_NT_1",
-      "imageUrl": "lc_nationalTrust_angleseyAbbey"
+      "imageUrl": "lc_nationalTrust_angleseyAbbey",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_NT_10",
     "data": {
       "locationCard": "LC_NT_10",
-      "imageUrl": "lc_nationalTrust_gibslide"
+      "imageUrl": "lc_nationalTrust_gibslide",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_NT_11",
     "data": {
       "locationCard": "LC_NT_11",
-      "imageUrl": "lc_nationalTrust_hanbury"
+      "imageUrl": "lc_nationalTrust_hanbury",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_NT_12",
     "data": {
       "locationCard": "LC_NT_12",
-      "imageUrl": "lc_nationalTrust_hardwick"
+      "imageUrl": "lc_nationalTrust_hardwick",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_NT_13",
     "data": {
       "locationCard": "LC_NT_13",
-      "imageUrl": "lc_nationalTrust_killerton"
+      "imageUrl": "lc_nationalTrust_killerton",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_NT_14",
     "data": {
       "locationCard": "LC_NT_14",
-      "imageUrl": "lc_nationalTrust_kingstonLacy"
+      "imageUrl": "lc_nationalTrust_kingstonLacy",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_NT_15",
     "data": {
       "locationCard": "LC_NT_15",
-      "imageUrl": "lc_nationalTrust_lacock"
+      "imageUrl": "lc_nationalTrust_lacock",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_NT_16",
     "data": {
       "locationCard": "LC_NT_16",
-      "imageUrl": "lc_nationalTrust_lymePark"
+      "imageUrl": "lc_nationalTrust_lymePark",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_NT_17",
     "data": {
       "locationCard": "LC_NT_17",
-      "imageUrl": "lc_nationalTrust_mottisfont"
+      "imageUrl": "lc_nationalTrust_mottisfont",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_NT_18",
     "data": {
       "locationCard": "LC_NT_18",
-      "imageUrl": "lc_nationalTrust_mountStewart"
+      "imageUrl": "lc_nationalTrust_mountStewart",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_NT_19",
     "data": {
       "locationCard": "LC_NT_19",
-      "imageUrl": "lc_nationalTrust_nymans"
+      "imageUrl": "lc_nationalTrust_nymans",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_NT_2",
     "data": {
       "locationCard": "LC_NT_2",
-      "imageUrl": "lc_nationalTrust_attinghamPark"
+      "imageUrl": "lc_nationalTrust_attinghamPark",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_NT_20",
     "data": {
       "locationCard": "LC_NT_20",
-      "imageUrl": "lc_nationalTrust_polesden"
+      "imageUrl": "lc_nationalTrust_polesden",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_NT_21",
     "data": {
       "locationCard": "LC_NT_21",
-      "imageUrl": "lc_nationalTrust_scotneyCastle"
+      "imageUrl": "lc_nationalTrust_scotneyCastle",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_NT_22",
     "data": {
       "locationCard": "LC_NT_22",
-      "imageUrl": "lc_nationalTrust_stourhead"
+      "imageUrl": "lc_nationalTrust_stourhead",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_NT_23",
     "data": {
       "locationCard": "LC_NT_23",
-      "imageUrl": "lc_nationalTrust_stoweGardenPark"
+      "imageUrl": "lc_nationalTrust_stoweGardenPark",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_NT_24",
     "data": {
       "locationCard": "LC_NT_24",
-      "imageUrl": "lc_nationalTrust_tredegarHouse"
+      "imageUrl": "lc_nationalTrust_tredegarHouse",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_NT_25",
     "data": {
       "locationCard": "LC_NT_25",
-      "imageUrl": "lc_nationalTrust_trelissick"
+      "imageUrl": "lc_nationalTrust_trelissick",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_NT_26",
     "data": {
       "locationCard": "LC_NT_26",
-      "imageUrl": "lc_nationalTrust_tyntesfield"
+      "imageUrl": "lc_nationalTrust_tyntesfield",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_NT_27",
     "data": {
       "locationCard": "LC_NT_27",
-      "imageUrl": "lc_nationalTrust_whimpole"
+      "imageUrl": "lc_nationalTrust_whimpole",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_NT_3",
     "data": {
       "locationCard": "LC_NT_3",
-      "imageUrl": "lc_nationalTrust_beltonHouse"
+      "imageUrl": "lc_nationalTrust_beltonHouse",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_NT_4",
     "data": {
       "locationCard": "LC_NT_4",
-      "imageUrl": "lc_nationalTrust_calkeAbbey"
+      "imageUrl": "lc_nationalTrust_calkeAbbey",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_NT_5",
     "data": {
       "locationCard": "LC_NT_5",
-      "imageUrl": "lc_nationalTrust_chirk"
+      "imageUrl": "lc_nationalTrust_chirk",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_NT_6",
     "data": {
       "locationCard": "LC_NT_6",
-      "imageUrl": "lc_nationalTrust_cliveden"
+      "imageUrl": "lc_nationalTrust_cliveden",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_NT_7",
     "data": {
       "locationCard": "LC_NT_7",
-      "imageUrl": "lc_nationalTrust_clumberPark"
+      "imageUrl": "lc_nationalTrust_clumberPark",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_NT_8",
     "data": {
       "locationCard": "LC_NT_8",
-      "imageUrl": "lc_nationalTrust_dunhamMassey"
+      "imageUrl": "lc_nationalTrust_dunhamMassey",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_NT_9",
     "data": {
       "locationCard": "LC_NT_9",
-      "imageUrl": "lc_nationalTrust_fountainsAbbeyEstate"
+      "imageUrl": "lc_nationalTrust_fountainsAbbeyEstate",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_POKELID_AICHI",
     "data": {
       "locationCard": "LC_POKELID_AICHI",
-      "imageUrl": "lc_pokelid_aichi"
+      "imageUrl": "lc_pokelid_aichi",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_POKELID_AKITA",
     "data": {
       "locationCard": "LC_POKELID_AKITA",
-      "imageUrl": "lc_pokelid_akita"
+      "imageUrl": "lc_pokelid_akita",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_POKELID_AOMORI",
     "data": {
       "locationCard": "LC_POKELID_AOMORI",
-      "imageUrl": "lc_pokelid_aomori"
+      "imageUrl": "lc_pokelid_aomori",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_POKELID_CHIBA",
     "data": {
       "locationCard": "LC_POKELID_CHIBA",
-      "imageUrl": "lc_pokelid_chiba"
+      "imageUrl": "lc_pokelid_chiba",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_POKELID_EHIME",
     "data": {
       "locationCard": "LC_POKELID_EHIME",
-      "imageUrl": "lc_pokelid_ehime"
+      "imageUrl": "lc_pokelid_ehime",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_POKELID_FUKUI",
     "data": {
       "locationCard": "LC_POKELID_FUKUI",
-      "imageUrl": "lc_pokelid_fukui"
+      "imageUrl": "lc_pokelid_fukui",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_POKELID_FUKUOKA",
     "data": {
       "locationCard": "LC_POKELID_FUKUOKA",
-      "imageUrl": "lc_pokelid_fukuoka"
+      "imageUrl": "lc_pokelid_fukuoka",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_POKELID_FUKUSHIMA",
     "data": {
       "locationCard": "LC_POKELID_FUKUSHIMA",
-      "imageUrl": "lc_pokelid_fukushima"
+      "imageUrl": "lc_pokelid_fukushima",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_POKELID_GIFU",
     "data": {
       "locationCard": "LC_POKELID_GIFU",
-      "imageUrl": "lc_pokelid_gifu"
+      "imageUrl": "lc_pokelid_gifu",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_POKELID_GUNMA",
     "data": {
       "locationCard": "LC_POKELID_GUNMA",
-      "imageUrl": "lc_pokelid_gunma"
+      "imageUrl": "lc_pokelid_gunma",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_POKELID_HOKKAIDO",
     "data": {
       "locationCard": "LC_POKELID_HOKKAIDO",
-      "imageUrl": "lc_pokelid_hokkaido"
+      "imageUrl": "lc_pokelid_hokkaido",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_POKELID_HYOGO",
     "data": {
       "locationCard": "LC_POKELID_HYOGO",
-      "imageUrl": "lc_pokelid_hyogo"
+      "imageUrl": "lc_pokelid_hyogo",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_POKELID_IBARAKI",
     "data": {
       "locationCard": "LC_POKELID_IBARAKI",
-      "imageUrl": "lc_pokelid_ibaraki"
+      "imageUrl": "lc_pokelid_ibaraki",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_POKELID_ISHIKAWA",
     "data": {
       "locationCard": "LC_POKELID_ISHIKAWA",
-      "imageUrl": "lc_pokelid_ishikawa"
+      "imageUrl": "lc_pokelid_ishikawa",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_POKELID_IWATE",
     "data": {
       "locationCard": "LC_POKELID_IWATE",
-      "imageUrl": "lc_pokelid_iwate"
+      "imageUrl": "lc_pokelid_iwate",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_POKELID_KAGAWA",
     "data": {
       "locationCard": "LC_POKELID_KAGAWA",
-      "imageUrl": "lc_pokelid_kagawa"
+      "imageUrl": "lc_pokelid_kagawa",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_POKELID_KAGOSHIMA",
     "data": {
       "locationCard": "LC_POKELID_KAGOSHIMA",
-      "imageUrl": "lc_pokelid_kagoshima"
+      "imageUrl": "lc_pokelid_kagoshima",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_POKELID_KANAGAWA",
     "data": {
       "locationCard": "LC_POKELID_KANAGAWA",
-      "imageUrl": "lc_pokelid_kanagawa"
+      "imageUrl": "lc_pokelid_kanagawa",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_POKELID_KOCHI",
     "data": {
       "locationCard": "LC_POKELID_KOCHI",
-      "imageUrl": "lc_pokelid_kochi"
+      "imageUrl": "lc_pokelid_kochi",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_POKELID_KYOTO",
     "data": {
       "locationCard": "LC_POKELID_KYOTO",
-      "imageUrl": "lc_pokelid_kyoto"
+      "imageUrl": "lc_pokelid_kyoto",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_POKELID_MIE",
     "data": {
       "locationCard": "LC_POKELID_MIE",
-      "imageUrl": "lc_pokelid_mie"
+      "imageUrl": "lc_pokelid_mie",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_POKELID_MIYAGI",
     "data": {
       "locationCard": "LC_POKELID_MIYAGI",
-      "imageUrl": "lc_pokelid_miyagi"
+      "imageUrl": "lc_pokelid_miyagi",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_POKELID_MIYAZAKI",
     "data": {
       "locationCard": "LC_POKELID_MIYAZAKI",
-      "imageUrl": "lc_pokelid_miyazaki"
+      "imageUrl": "lc_pokelid_miyazaki",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
@@ -1300,175 +1573,200 @@
     "templateId": "LC_POKELID_NAGASAKI",
     "data": {
       "locationCard": "LC_POKELID_NAGASAKI",
-      "imageUrl": "lc_pokelid_nagasaki"
+      "imageUrl": "lc_pokelid_nagasaki",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_POKELID_NARA",
     "data": {
       "locationCard": "LC_POKELID_NARA",
-      "imageUrl": "lc_pokelid_nara"
+      "imageUrl": "lc_pokelid_nara",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_POKELID_NIIGATA",
     "data": {
       "locationCard": "LC_POKELID_NIIGATA",
-      "imageUrl": "lc_pokelid_niigata"
+      "imageUrl": "lc_pokelid_niigata",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_POKELID_OKAYAMA",
     "data": {
       "locationCard": "LC_POKELID_OKAYAMA",
-      "imageUrl": "lc_pokelid_okayama"
+      "imageUrl": "lc_pokelid_okayama",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_POKELID_OKINAWA",
     "data": {
       "locationCard": "LC_POKELID_OKINAWA",
-      "imageUrl": "lc_pokelid_okinawa"
+      "imageUrl": "lc_pokelid_okinawa",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_POKELID_OSAKA",
     "data": {
       "locationCard": "LC_POKELID_OSAKA",
-      "imageUrl": "lc_pokelid_osaka"
+      "imageUrl": "lc_pokelid_osaka",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_POKELID_SAGA",
     "data": {
       "locationCard": "LC_POKELID_SAGA",
-      "imageUrl": "lc_pokelid_saga"
+      "imageUrl": "lc_pokelid_saga",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_POKELID_SAITAMA",
     "data": {
       "locationCard": "LC_POKELID_SAITAMA",
-      "imageUrl": "lc_pokelid_saitama"
+      "imageUrl": "lc_pokelid_saitama",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_POKELID_SHIGA",
     "data": {
       "locationCard": "LC_POKELID_SHIGA",
-      "imageUrl": "lc_pokelid_shiga"
+      "imageUrl": "lc_pokelid_shiga",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_POKELID_SHIMANE",
     "data": {
       "locationCard": "LC_POKELID_SHIMANE",
-      "imageUrl": "lc_pokelid_shimane"
+      "imageUrl": "lc_pokelid_shimane",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_POKELID_SHIZUOKA",
     "data": {
       "locationCard": "LC_POKELID_SHIZUOKA",
-      "imageUrl": "lc_pokelid_shizuoka"
+      "imageUrl": "lc_pokelid_shizuoka",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_POKELID_TOCHIGI",
     "data": {
       "locationCard": "LC_POKELID_TOCHIGI",
-      "imageUrl": "lc_pokelid_tochigi"
+      "imageUrl": "lc_pokelid_tochigi",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_POKELID_TOKUSHIMA",
     "data": {
       "locationCard": "LC_POKELID_TOKUSHIMA",
-      "imageUrl": "lc_pokelid_tokushima"
+      "imageUrl": "lc_pokelid_tokushima",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_POKELID_TOKYO",
     "data": {
       "locationCard": "LC_POKELID_TOKYO",
-      "imageUrl": "lc_pokelid_tokyo"
+      "imageUrl": "lc_pokelid_tokyo",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_POKELID_TOTTORI",
     "data": {
       "locationCard": "LC_POKELID_TOTTORI",
-      "imageUrl": "lc_pokelid_tottori"
+      "imageUrl": "lc_pokelid_tottori",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_POKELID_TOYAMA",
     "data": {
       "locationCard": "LC_POKELID_TOYAMA",
-      "imageUrl": "lc_pokelid_toyama"
+      "imageUrl": "lc_pokelid_toyama",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_POKELID_WAKAYAMA",
     "data": {
       "locationCard": "LC_POKELID_WAKAYAMA",
-      "imageUrl": "lc_pokelid_wakayama"
+      "imageUrl": "lc_pokelid_wakayama",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_POKELID_YAMAGATA",
     "data": {
       "locationCard": "LC_POKELID_YAMAGATA",
-      "imageUrl": "lc_pokelid_yamagata"
+      "imageUrl": "lc_pokelid_yamagata",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_POKELID_YAMAGUCHI",
     "data": {
       "locationCard": "LC_POKELID_YAMAGUCHI",
-      "imageUrl": "lc_pokelid_yamaguchi"
+      "imageUrl": "lc_pokelid_yamaguchi",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_SAFARI_2026_BOSTON",
     "data": {
       "locationCard": "LC_SAFARI_2026_BOSTON",
-      "imageUrl": "lc_CitySafari2026_boston"
+      "imageUrl": "lc_CitySafari2026_boston",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_SAFARI_2026_BRISBANE",
     "data": {
       "locationCard": "LC_SAFARI_2026_BRISBANE",
-      "imageUrl": "lc_CitySafari2026_brisbane"
+      "imageUrl": "lc_CitySafari2026_brisbane",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_SAFARI_2026_LISBON",
     "data": {
       "locationCard": "LC_SAFARI_2026_LISBON",
-      "imageUrl": "lc_CitySafari2026_lisbon"
+      "imageUrl": "lc_CitySafari2026_lisbon",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_SAFARI_2026_MARSEILLE",
     "data": {
       "locationCard": "LC_SAFARI_2026_MARSEILLE",
-      "imageUrl": "lc_CitySafari2026_marseille"
+      "imageUrl": "lc_CitySafari2026_marseille",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_SAFARI_2026_MUNICH",
     "data": {
       "locationCard": "LC_SAFARI_2026_MUNICH",
-      "imageUrl": "lc_CitySafari2026_munich"
+      "imageUrl": "lc_CitySafari2026_munich",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_SAFARI_2026_RDJ",
     "data": {
       "locationCard": "LC_SAFARI_2026_RDJ",
-      "imageUrl": "lc_CitySafari2026_rio"
+      "imageUrl": "lc_CitySafari2026_rio",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
@@ -1831,10 +2129,11 @@
   {
     "templateId": "LC_SPECIALBACKGROUND_2026_GOWA",
     "data": {
-      "locationCard": 420,
+      "locationCard": "LC_SPECIALBACKGROUND_2026_GOWA",
       "imageUrl": "sb_black",
       "cardType": "SPECIAL_BACKGROUND",
-      "vfxAddress": "bgfx_gowa_2026"
+      "vfxAddress": "bgfx_gowa_2026",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
@@ -1909,7 +2208,7 @@
   {
     "templateId": "LC_SPECIALBACKGROUND_FOL_2026",
     "data": {
-      "locationCard": 424,
+      "locationCard": "LC_SPECIALBACKGROUND_FOL_2026",
       "imageUrl": "sb_black",
       "cardType": "SPECIAL_BACKGROUND",
       "vfxAddress": "bgfx_Diwali_2026"
@@ -1979,7 +2278,8 @@
       "locationCard": "LC_SPECIALBACKGROUND_TEAM_BLUE",
       "imageUrl": "sb_TeamLeader_blue",
       "cardType": "SPECIAL_BACKGROUND",
-      "vfxAddress": "bgfx_TeamLeader_blue"
+      "vfxAddress": "bgfx_TeamLeader_blue",
+      "cardTreatment": "EXTENDED_HEIGHT"
     }
   },
   {
@@ -1988,7 +2288,8 @@
       "locationCard": "LC_SPECIALBACKGROUND_TEAM_RED",
       "imageUrl": "sb_TeamLeader_red",
       "cardType": "SPECIAL_BACKGROUND",
-      "vfxAddress": "bgfx_TeamLeader_red"
+      "vfxAddress": "bgfx_TeamLeader_red",
+      "cardTreatment": "EXTENDED_HEIGHT"
     }
   },
   {
@@ -1997,7 +2298,8 @@
       "locationCard": "LC_SPECIALBACKGROUND_TEAM_YELLOW",
       "imageUrl": "sb_TeamLeader_yellow",
       "cardType": "SPECIAL_BACKGROUND",
-      "vfxAddress": "bgfx_TeamLeader_yellow"
+      "vfxAddress": "bgfx_TeamLeader_yellow",
+      "cardTreatment": "EXTENDED_HEIGHT"
     }
   },
   {
@@ -2031,49 +2333,57 @@
     "templateId": "LC_TOKMUN_STAMP_01",
     "data": {
       "locationCard": "LC_TOKMUN_STAMP_01",
-      "imageUrl": "lc_TokMun_shinagawa"
+      "imageUrl": "lc_TokMun_shinagawa",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_TOKMUN_STAMP_02",
     "data": {
       "locationCard": "LC_TOKMUN_STAMP_02",
-      "imageUrl": "lc_TokMun_koto"
+      "imageUrl": "lc_TokMun_koto",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_TOKMUN_STAMP_03",
     "data": {
       "locationCard": "LC_TOKMUN_STAMP_03",
-      "imageUrl": "lc_TokMun_minato"
+      "imageUrl": "lc_TokMun_minato",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_TPC30_MY",
     "data": {
       "locationCard": "LC_TPC30_MY",
-      "imageUrl": "lc_tpc30th_malaysia"
+      "imageUrl": "lc_tpc30th_malaysia",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_TPC30_PH",
     "data": {
       "locationCard": "LC_TPC30_PH",
-      "imageUrl": "lc_tpc30th_philippines"
+      "imageUrl": "lc_tpc30th_philippines",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_TPC30_SG",
     "data": {
       "locationCard": "LC_TPC30_SG",
-      "imageUrl": "lc_tpc30th_singapore"
+      "imageUrl": "lc_tpc30th_singapore",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_TPC30_TW",
     "data": {
       "locationCard": "LC_TPC30_TW",
-      "imageUrl": "lc_tpc30th_taiwan"
+      "imageUrl": "lc_tpc30th_taiwan",
+      "cardTreatment": "CROP_BLEED"
     }
   }
 ]

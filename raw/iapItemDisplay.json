@@ -73,6 +73,52 @@
     }
   },
   {
+    "templateId": "GOWA2026_DELUXE_EVENT_PASS_TRACK_UNLOCK",
+    "data": {
+      "sku": "pgorelease.gowa2026_event_pass_track_unlock",
+      "sortOrder": 2,
+      "title": "event_pass_gowa_2025_premium_title",
+      "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
+      "skuEnableTime": "2025-10-14T00:00:00",
+      "skuDisableTime": "2026-11-17T23:59:59",
+      "skuEnableTimeUtcMs": "1760400000000",
+      "skuDisableTimeUtcMs": "1794959999000",
+      "imageUrl": "https://storage.googleapis.com/prod-public-images/ic_eventpass_deluxe.png",
+      "useEnvironmentPrefix": true
+    }
+  },
+  {
+    "templateId": "GOWA2026_DELUXE_EVENT_PASS_TRACK_UNLOCK_PLUS_POINTS",
+    "data": {
+      "sku": "pgorelease.gowa2026_event_pass_track_unlock_plus_points",
+      "sortOrder": 3,
+      "title": "gowa_2025_deluxe_event_pass_track_unlock_plus_points_title",
+      "description": "gotour_2025_deluxe_event_pass_track_unlock_plus_points_description",
+      "skuEnableTime": "2025-10-14T00:00:00",
+      "skuDisableTime": "2026-11-17T23:59:59",
+      "skuEnableTimeUtcMs": "1760400000000",
+      "skuDisableTimeUtcMs": "1794959999000",
+      "imageUrl": "https://storage.googleapis.com/prod-public-images/ic_eventpass_deluxe_plus_points.png",
+      "useEnvironmentPrefix": true
+    }
+  },
+  {
+    "templateId": "GOWA2026_EVENT_PASS_STORE_REDIRECT",
+    "data": {
+      "sku": "pgorelease.gowa2026_event_pass_track_redirect",
+      "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
+      "sortOrder": 1,
+      "title": "event_pass_gowa_2025_premium_title",
+      "description": "event_pass_gowa_2025_premium_title",
+      "skuEnableTime": "2025-10-14T00:00:00",
+      "skuDisableTime": "2026-11-17T23:59:59",
+      "skuEnableTimeUtcMs": "1760400000000",
+      "skuDisableTimeUtcMs": "1794959999000",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fcfa12bb9_PGO-GOWA_2026_GO_Pass_Deluxe.jpg",
+      "useEnvironmentPrefix": true
+    }
+  },
+  {
     "templateId": "GO_SAFARI_BALL_IAP_10",
     "data": {
       "sku": "pgorelease.safariball.10",
@@ -6514,6 +6560,16 @@
       "sortOrder": 1,
       "hidden": true,
       "sale": true,
+      "spriteId": "bundle.general.adventure.1",
+      "title": "sticker_box"
+    }
+  },
+  {
+    "templateId": "bundle.blackfridaystickers26.1",
+    "data": {
+      "sku": "bundle.blackfridaystickers26.1",
+      "category": "IAP_CATEGORY_BUNDLE",
+      "sortOrder": 1,
       "spriteId": "bundle.general.adventure.1",
       "title": "sticker_box"
     }

@@ -581,6 +581,7 @@
       "downloadMessageEnabled": true,
       "shareMessageEnabled": true,
       "signInButtonEnabled": true,
+      "showShareCard": true,
       "reorderSummary": true
     }
   }

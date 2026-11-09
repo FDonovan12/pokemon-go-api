@@ -40,7 +40,29 @@
           "tempEvoId": "TEMP_EVOLUTION_MEGA_Y"
         }
       ],
-      "enableSpecialMove": true
+      "enableSpecialMove": true,
+      "tempEvoSpecialAttackBoosts": [
+        {
+          "gymsAndRaidsMultiplier": 1,
+          "trainerBattlesMultiplier": 1
+        },
+        {
+          "gymsAndRaidsMultiplier": 1,
+          "trainerBattlesMultiplier": 1
+        },
+        {
+          "gymsAndRaidsMultiplier": 1.1,
+          "trainerBattlesMultiplier": 1.1
+        },
+        {
+          "gymsAndRaidsMultiplier": 1.2,
+          "trainerBattlesMultiplier": 1.2
+        },
+        {
+          "gymsAndRaidsMultiplier": 1.3,
+          "trainerBattlesMultiplier": 1.3
+        }
+      ]
     }
   }
 ]
