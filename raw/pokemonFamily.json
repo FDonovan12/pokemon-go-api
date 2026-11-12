@@ -104,7 +104,8 @@
     "templateId": "V0035_FAMILY_CLEFAIRY",
     "data": {
       "familyId": "FAMILY_CLEFAIRY",
-      "candyPerXlCandy": 100
+      "candyPerXlCandy": 100,
+      "megaEvolvablePokemonId": "CLEFABLE"
     }
   },
   {

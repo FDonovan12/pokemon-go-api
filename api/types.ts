@@ -248,6 +248,7 @@ export interface RaidMoveChargedMove {
     GULP_MISSILE_GORGING:                         AcidSpray;
     KOWTOW_CLEAVE:                                AcidSpray;
     TEMP_EVOLUTION_MEGA_V0015_POKEMON_BEEDRILL:   AcidSpray;
+    TEMP_EVOLUTION_MEGA_V0036_POKEMON_CLEFABLE:   AcidSpray;
     TEMP_EVOLUTION_MEGA_V0071_POKEMON_VICTREEBEL: AcidSpray;
     TEMP_EVOLUTION_MEGA_V0121_POKEMON_STARMIE:    AcidSpray;
     TEMP_EVOLUTION_MEGA_V0149_POKEMON_DRAGONITE:  AcidSpray;
@@ -775,6 +776,7 @@ export interface RaidMoveFastMove {
     METAL_SOUND_FAST:         AcidSpray;
     SAND_ATTACK_FAST:         AcidSpray;
     FORCE_PALM_FAST:          AcidSpray;
+    SOAK_FAST:                AcidSpray;
 }
 
 export interface Rank1Pvp {

@@ -80,6 +80,18 @@
     }
   },
   {
+    "templateId": "TEMPORARY_EVOLUTION_V0036_POKEMON_CLEFABLE",
+    "data": {
+      "pokemonId": "CLEFABLE",
+      "temporaryEvolutions": [
+        {
+          "temporaryEvolutionId": "TEMP_EVOLUTION_MEGA",
+          "assetBundleValue": 51
+        }
+      ]
+    }
+  },
+  {
     "templateId": "TEMPORARY_EVOLUTION_V0065_POKEMON_ALAKAZAM",
     "data": {
       "pokemonId": "ALAKAZAM",

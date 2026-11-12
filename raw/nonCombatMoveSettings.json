@@ -97,7 +97,6 @@
       "bonusEffect": {
         "slowFreezeBonus": {
           "catchCircleTimeScaleOverride": 0.5,
-          "catchRateIncreaseMultiplier": 1.25,
           "catchCircleSpeedChangeThreshold": 1,
           "catchCircleOuterTimeScaleOverride": 0.5
         }
@@ -124,7 +123,6 @@
       "bonusEffect": {
         "slowFreezeBonus": {
           "catchCircleTimeScaleOverride": 0.2,
-          "catchRateIncreaseMultiplier": 1.5,
           "catchCircleSpeedChangeThreshold": 1.6,
           "catchCircleOuterTimeScaleOverride": 4
         }
@@ -256,7 +254,6 @@
       "bonusEffect": {
         "megaMoveBonus": {
           "specialMove": "TEMP_EVOLUTION_MEGA_X_V0150_POKEMON_MEWTWO",
-          "attackMultiplier": 1.15,
           "extraMegaRaidShieldBreak": 1
         }
       },

@@ -6550,6 +6550,19 @@
     "templateId": "EXTENDED_V0036_POKEMON_CLEFABLE",
     "data": {
       "uniqueId": "CLEFABLE",
+      "tempEvoOverrides": [
+        {
+          "tempEvoId": "TEMP_EVOLUTION_MEGA",
+          "sizeSettings": {
+            "xxsLowerBound": 0.476,
+            "xsLowerBound": 0.85,
+            "mLowerBound": 1.275,
+            "mUpperBound": 2.125,
+            "xlUpperBound": 2.55,
+            "xxlUpperBound": 2.975
+          }
+        }
+      ],
       "sizeSettings": {
         "xxsLowerBound": 0.637,
         "xsLowerBound": 0.65,
@@ -6565,6 +6578,19 @@
     "data": {
       "uniqueId": "CLEFABLE",
       "form": "CLEFABLE_NORMAL",
+      "tempEvoOverrides": [
+        {
+          "tempEvoId": "TEMP_EVOLUTION_MEGA",
+          "sizeSettings": {
+            "xxsLowerBound": 0.476,
+            "xsLowerBound": 0.85,
+            "mLowerBound": 1.275,
+            "mUpperBound": 2.125,
+            "xlUpperBound": 2.55,
+            "xxlUpperBound": 2.975
+          }
+        }
+      ],
       "sizeSettings": {
         "xxsLowerBound": 0.637,
         "xsLowerBound": 0.65,

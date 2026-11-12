@@ -16096,578 +16096,2059 @@
           "type": "WITH_UNIQUE_POKEMON"
         },
         {
-          "type": "POKEMON_WHITELIST",
-          "pokemonWhiteList": {
+          "type": "POKEMON_BANLIST",
+          "pokemonBanList": {
+            "name": "s24_laic_prohibited_types",
             "pokemon": [
               {
-                "id": "CATERPIE"
+                "id": "CHARMANDER",
+                "forms": [
+                  "CHARMANDER_FALL_2019",
+                  "CHARMANDER_GOGGLES_2026",
+                  "CHARMANDER_NORMAL",
+                  "FORM_UNSET"
+                ]
               },
               {
-                "id": "METAPOD"
+                "id": "CHARMELEON",
+                "forms": [
+                  "CHARMELEON_GOGGLES_2026",
+                  "CHARMELEON_NORMAL",
+                  "FORM_UNSET"
+                ]
               },
               {
-                "id": "WEEDLE"
+                "id": "CHARIZARD",
+                "forms": [
+                  "CHARIZARD_COPY_2019",
+                  "CHARIZARD_GOGGLES_2026",
+                  "CHARIZARD_NORMAL",
+                  "FORM_UNSET"
+                ]
               },
               {
-                "id": "KAKUNA"
+                "id": "RATTATA",
+                "forms": [
+                  "RATTATA_ALOLA"
+                ]
               },
               {
-                "id": "BEEDRILL"
+                "id": "RATICATE",
+                "forms": [
+                  "RATICATE_ALOLA"
+                ]
               },
               {
-                "id": "RATTATA"
+                "id": "SANDSHREW",
+                "forms": [
+                  "SANDSHREW_ALOLA"
+                ]
               },
               {
-                "id": "RATICATE"
+                "id": "SANDSLASH",
+                "forms": [
+                  "SANDSLASH_ALOLA"
+                ]
               },
               {
-                "id": "PARAS"
+                "id": "CLEFAIRY",
+                "forms": [
+                  "CLEFAIRY_NORMAL",
+                  "FORM_UNSET"
+                ]
               },
               {
-                "id": "PARASECT"
+                "id": "CLEFABLE",
+                "forms": [
+                  "CLEFABLE_NORMAL",
+                  "FORM_UNSET"
+                ]
               },
               {
-                "id": "VENONAT"
+                "id": "VULPIX",
+                "forms": [
+                  "FORM_UNSET",
+                  "VULPIX_NORMAL"
+                ]
               },
               {
-                "id": "VENOMOTH"
+                "id": "NINETALES",
+                "forms": [
+                  "FORM_UNSET",
+                  "NINETALES_ALOLA",
+                  "NINETALES_NORMAL"
+                ]
+              },
+              {
+                "id": "JIGGLYPUFF",
+                "forms": [
+                  "FORM_UNSET",
+                  "JIGGLYPUFF_NORMAL"
+                ]
+              },
+              {
+                "id": "WIGGLYTUFF",
+                "forms": [
+                  "FORM_UNSET",
+                  "WIGGLYTUFF_NORMAL"
+                ]
+              },
+              {
+                "id": "DIGLETT",
+                "forms": [
+                  "DIGLETT_ALOLA"
+                ]
+              },
+              {
+                "id": "DUGTRIO",
+                "forms": [
+                  "DUGTRIO_ALOLA"
+                ]
               },
               {
                 "id": "MEOWTH",
                 "forms": [
-                  "FORM_UNSET",
-                  "MEOWTH_NORMAL"
+                  "MEOWTH_ALOLA",
+                  "MEOWTH_GALARIAN"
                 ]
               },
               {
                 "id": "PERSIAN",
                 "forms": [
-                  "FORM_UNSET",
-                  "PERSIAN_NORMAL"
+                  "PERSIAN_ALOLA"
                 ]
               },
               {
-                "id": "EXEGGUTOR",
+                "id": "GROWLITHE",
                 "forms": [
-                  "EXEGGUTOR_ALOLA"
+                  "FORM_UNSET",
+                  "GROWLITHE_HISUIAN",
+                  "GROWLITHE_NORMAL"
                 ]
               },
               {
-                "id": "LICKITUNG"
+                "id": "ARCANINE",
+                "forms": [
+                  "ARCANINE_HISUIAN",
+                  "ARCANINE_NORMAL",
+                  "FORM_UNSET"
+                ]
               },
               {
-                "id": "KANGASKHAN"
+                "id": "PONYTA",
+                "forms": [
+                  "FORM_UNSET",
+                  "PONYTA_NORMAL"
+                ]
               },
               {
-                "id": "SEAKING"
+                "id": "RAPIDASH",
+                "forms": [
+                  "FORM_UNSET",
+                  "RAPIDASH_GALARIAN",
+                  "RAPIDASH_NORMAL"
+                ]
               },
               {
-                "id": "PINSIR"
+                "id": "MAGNEMITE",
+                "forms": [
+                  "FORM_UNSET",
+                  "MAGNEMITE_NORMAL"
+                ]
+              },
+              {
+                "id": "MAGNETON",
+                "forms": [
+                  "FORM_UNSET",
+                  "MAGNETON_NORMAL"
+                ]
+              },
+              {
+                "id": "GRIMER",
+                "forms": [
+                  "GRIMER_ALOLA"
+                ]
+              },
+              {
+                "id": "MUK",
+                "forms": [
+                  "MUK_ALOLA"
+                ]
+              },
+              {
+                "id": "MAROWAK",
+                "forms": [
+                  "MAROWAK_ALOLA"
+                ]
+              },
+              {
+                "id": "WEEZING",
+                "forms": [
+                  "WEEZING_GALARIAN"
+                ]
+              },
+              {
+                "id": "MR_MIME",
+                "forms": [
+                  "FORM_UNSET",
+                  "MR_MIME_NORMAL"
+                ]
+              },
+              {
+                "id": "MAGMAR",
+                "forms": [
+                  "FORM_UNSET",
+                  "MAGMAR_NORMAL"
+                ]
               },
               {
                 "id": "TAUROS",
                 "forms": [
-                  "FORM_UNSET",
-                  "TAUROS_NORMAL"
+                  "TAUROS_PALDEA_BLAZE"
                 ]
               },
               {
-                "id": "EEVEE"
+                "id": "FLAREON",
+                "forms": [
+                  "FLAREON_NORMAL",
+                  "FORM_UNSET"
+                ]
               },
               {
-                "id": "PORYGON"
+                "id": "MOLTRES",
+                "forms": [
+                  "FORM_UNSET",
+                  "MOLTRES_GALARIAN",
+                  "MOLTRES_NORMAL"
+                ]
               },
               {
-                "id": "DRATINI"
+                "id": "CYNDAQUIL",
+                "forms": [
+                  "CYNDAQUIL_NORMAL",
+                  "FORM_UNSET"
+                ]
               },
               {
-                "id": "DRAGONAIR"
+                "id": "QUILAVA",
+                "forms": [
+                  "FORM_UNSET",
+                  "QUILAVA_NORMAL"
+                ]
               },
               {
-                "id": "SENTRET"
+                "id": "TYPHLOSION",
+                "forms": [
+                  "FORM_UNSET",
+                  "TYPHLOSION_HISUIAN",
+                  "TYPHLOSION_NORMAL"
+                ]
               },
               {
-                "id": "SPINARAK"
+                "id": "CLEFFA",
+                "forms": [
+                  "CLEFFA_NORMAL",
+                  "FORM_UNSET"
+                ]
               },
               {
-                "id": "ARIADOS"
+                "id": "IGGLYBUFF",
+                "forms": [
+                  "FORM_UNSET",
+                  "IGGLYBUFF_NORMAL"
+                ]
               },
               {
-                "id": "POLITOED"
+                "id": "TOGEPI",
+                "forms": [
+                  "FORM_UNSET",
+                  "TOGEPI_NORMAL"
+                ]
               },
               {
-                "id": "AIPOM"
+                "id": "TOGETIC",
+                "forms": [
+                  "FORM_UNSET",
+                  "TOGETIC_NORMAL"
+                ]
               },
               {
-                "id": "GIRAFARIG"
+                "id": "MARILL",
+                "forms": [
+                  "FORM_UNSET",
+                  "MARILL_NORMAL"
+                ]
               },
               {
-                "id": "PINECO"
+                "id": "AZUMARILL",
+                "forms": [
+                  "AZUMARILL_NORMAL",
+                  "FORM_UNSET"
+                ]
               },
               {
-                "id": "DUNSPARCE"
+                "id": "UMBREON",
+                "forms": [
+                  "FORM_UNSET",
+                  "UMBREON_GOFEST_2024_MSCARF",
+                  "UMBREON_NORMAL"
+                ]
               },
               {
-                "id": "SHUCKLE"
+                "id": "MURKROW",
+                "forms": [
+                  "FORM_UNSET",
+                  "MURKROW_NORMAL"
+                ]
               },
               {
-                "id": "TEDDIURSA"
+                "id": "FORRETRESS",
+                "forms": [
+                  "FORM_UNSET",
+                  "FORRETRESS_NORMAL"
+                ]
               },
               {
-                "id": "URSARING"
+                "id": "STEELIX",
+                "forms": [
+                  "FORM_UNSET",
+                  "STEELIX_NORMAL"
+                ]
               },
               {
-                "id": "PORYGON2"
+                "id": "SNUBBULL",
+                "forms": [
+                  "FORM_UNSET",
+                  "SNUBBULL_NORMAL"
+                ]
               },
               {
-                "id": "STANTLER"
+                "id": "GRANBULL",
+                "forms": [
+                  "FORM_UNSET",
+                  "GRANBULL_NORMAL"
+                ]
               },
               {
-                "id": "SMEARGLE"
+                "id": "QWILFISH",
+                "forms": [
+                  "QWILFISH_HISUIAN"
+                ]
               },
               {
-                "id": "MILTANK"
+                "id": "SCIZOR",
+                "forms": [
+                  "FORM_UNSET",
+                  "SCIZOR_NORMAL"
+                ]
               },
               {
-                "id": "BLISSEY"
+                "id": "SNEASEL",
+                "forms": [
+                  "FORM_UNSET",
+                  "SNEASEL_NORMAL"
+                ]
               },
               {
-                "id": "ZIGZAGOON"
+                "id": "SLUGMA",
+                "forms": [
+                  "FORM_UNSET",
+                  "SLUGMA_NORMAL"
+                ]
               },
               {
-                "id": "LINOONE"
+                "id": "MAGCARGO",
+                "forms": [
+                  "FORM_UNSET",
+                  "MAGCARGO_NORMAL"
+                ]
               },
               {
-                "id": "WURMPLE"
+                "id": "SKARMORY",
+                "forms": [
+                  "FORM_UNSET",
+                  "SKARMORY_NORMAL"
+                ]
               },
               {
-                "id": "SILCOON"
+                "id": "HOUNDOUR",
+                "forms": [
+                  "FORM_UNSET",
+                  "HOUNDOUR_NORMAL"
+                ]
               },
               {
-                "id": "CASCOON"
+                "id": "HOUNDOOM",
+                "forms": [
+                  "FORM_UNSET",
+                  "HOUNDOOM_NORMAL"
+                ]
               },
               {
-                "id": "DUSTOX"
+                "id": "MAGBY",
+                "forms": [
+                  "FORM_UNSET",
+                  "MAGBY_NORMAL"
+                ]
               },
               {
-                "id": "SURSKIT"
+                "id": "ENTEI",
+                "forms": [
+                  "ENTEI_NORMAL",
+                  "ENTEI_S",
+                  "FORM_UNSET"
+                ]
               },
               {
-                "id": "SLAKOTH"
+                "id": "TYRANITAR",
+                "forms": [
+                  "FORM_UNSET",
+                  "TYRANITAR_NORMAL"
+                ]
               },
               {
-                "id": "VIGOROTH"
+                "id": "HO_OH",
+                "forms": [
+                  "FORM_UNSET",
+                  "HO_OH_NORMAL",
+                  "HO_OH_S"
+                ]
               },
               {
-                "id": "SLAKING"
+                "id": "TORCHIC",
+                "forms": [
+                  "FORM_UNSET",
+                  "TORCHIC_NORMAL"
+                ]
               },
               {
-                "id": "NINCADA"
+                "id": "COMBUSKEN",
+                "forms": [
+                  "COMBUSKEN_NORMAL",
+                  "FORM_UNSET"
+                ]
               },
               {
-                "id": "WHISMUR"
+                "id": "BLAZIKEN",
+                "forms": [
+                  "BLAZIKEN_NORMAL",
+                  "FORM_UNSET"
+                ]
               },
               {
-                "id": "LOUDRED"
+                "id": "POOCHYENA",
+                "forms": [
+                  "FORM_UNSET",
+                  "POOCHYENA_NORMAL"
+                ]
               },
               {
-                "id": "EXPLOUD"
+                "id": "MIGHTYENA",
+                "forms": [
+                  "FORM_UNSET",
+                  "MIGHTYENA_NORMAL"
+                ]
               },
               {
-                "id": "SKITTY"
+                "id": "ZIGZAGOON",
+                "forms": [
+                  "ZIGZAGOON_GALARIAN"
+                ]
               },
               {
-                "id": "DELCATTY"
+                "id": "LINOONE",
+                "forms": [
+                  "LINOONE_GALARIAN"
+                ]
               },
               {
-                "id": "VOLBEAT"
+                "id": "NUZLEAF",
+                "forms": [
+                  "FORM_UNSET",
+                  "NUZLEAF_NORMAL"
+                ]
               },
               {
-                "id": "ILLUMISE"
+                "id": "SHIFTRY",
+                "forms": [
+                  "FORM_UNSET",
+                  "SHIFTRY_NORMAL"
+                ]
               },
               {
-                "id": "SPINDA"
+                "id": "RALTS",
+                "forms": [
+                  "FORM_UNSET",
+                  "RALTS_NORMAL"
+                ]
               },
               {
-                "id": "VIBRAVA"
+                "id": "KIRLIA",
+                "forms": [
+                  "FORM_UNSET",
+                  "KIRLIA_NORMAL"
+                ]
               },
               {
-                "id": "FLYGON"
+                "id": "GARDEVOIR",
+                "forms": [
+                  "FORM_UNSET",
+                  "GARDEVOIR_NORMAL"
+                ]
               },
               {
-                "id": "ZANGOOSE"
+                "id": "AZURILL",
+                "forms": [
+                  "AZURILL_NORMAL",
+                  "FORM_UNSET"
+                ]
               },
               {
-                "id": "ANORITH"
+                "id": "SABLEYE",
+                "forms": [
+                  "FORM_UNSET",
+                  "SABLEYE_COSTUME_2020",
+                  "SABLEYE_NORMAL"
+                ]
               },
               {
-                "id": "ARMALDO"
+                "id": "MAWILE",
+                "forms": [
+                  "FORM_UNSET",
+                  "MAWILE_NORMAL"
+                ]
               },
               {
-                "id": "MILOTIC"
+                "id": "ARON",
+                "forms": [
+                  "ARON_NORMAL",
+                  "FORM_UNSET"
+                ]
+              },
+              {
+                "id": "LAIRON",
+                "forms": [
+                  "FORM_UNSET",
+                  "LAIRON_NORMAL"
+                ]
+              },
+              {
+                "id": "AGGRON",
+                "forms": [
+                  "AGGRON_NORMAL",
+                  "FORM_UNSET"
+                ]
+              },
+              {
+                "id": "CARVANHA",
+                "forms": [
+                  "CARVANHA_NORMAL",
+                  "FORM_UNSET"
+                ]
+              },
+              {
+                "id": "SHARPEDO",
+                "forms": [
+                  "FORM_UNSET",
+                  "SHARPEDO_NORMAL"
+                ]
+              },
+              {
+                "id": "NUMEL",
+                "forms": [
+                  "FORM_UNSET",
+                  "NUMEL_NORMAL"
+                ]
+              },
+              {
+                "id": "CAMERUPT",
+                "forms": [
+                  "CAMERUPT_NORMAL",
+                  "FORM_UNSET"
+                ]
+              },
+              {
+                "id": "TORKOAL",
+                "forms": [
+                  "FORM_UNSET",
+                  "TORKOAL_NORMAL"
+                ]
+              },
+              {
+                "id": "CACTURNE",
+                "forms": [
+                  "CACTURNE_NORMAL",
+                  "FORM_UNSET"
+                ]
+              },
+              {
+                "id": "CRAWDAUNT",
+                "forms": [
+                  "CRAWDAUNT_NORMAL",
+                  "FORM_UNSET"
+                ]
               },
               {
                 "id": "CASTFORM",
                 "forms": [
-                  "FORM_UNSET",
-                  "CASTFORM_NORMAL"
+                  "CASTFORM_SUNNY"
                 ]
               },
               {
-                "id": "KECLEON"
+                "id": "ABSOL",
+                "forms": [
+                  "ABSOL_NORMAL",
+                  "FORM_UNSET"
+                ]
               },
               {
-                "id": "BAGON"
+                "id": "BELDUM",
+                "forms": [
+                  "BELDUM_NORMAL",
+                  "FORM_UNSET"
+                ]
               },
               {
-                "id": "SHELGON"
+                "id": "METANG",
+                "forms": [
+                  "FORM_UNSET",
+                  "METANG_NORMAL"
+                ]
               },
               {
-                "id": "BIDOOF"
+                "id": "METAGROSS",
+                "forms": [
+                  "FORM_UNSET",
+                  "METAGROSS_NORMAL"
+                ]
               },
               {
-                "id": "BIBAREL"
+                "id": "REGISTEEL",
+                "forms": [
+                  "FORM_UNSET",
+                  "REGISTEEL_NORMAL"
+                ]
               },
               {
-                "id": "KRICKETOT"
+                "id": "JIRACHI",
+                "forms": [
+                  "FORM_UNSET",
+                  "JIRACHI_NORMAL"
+                ]
               },
               {
-                "id": "KRICKETUNE"
+                "id": "CHIMCHAR",
+                "forms": [
+                  "CHIMCHAR_NORMAL",
+                  "FORM_UNSET"
+                ]
               },
               {
-                "id": "BURMY"
+                "id": "MONFERNO",
+                "forms": [
+                  "FORM_UNSET",
+                  "MONFERNO_NORMAL"
+                ]
+              },
+              {
+                "id": "INFERNAPE",
+                "forms": [
+                  "FORM_UNSET",
+                  "INFERNAPE_NORMAL"
+                ]
+              },
+              {
+                "id": "EMPOLEON",
+                "forms": [
+                  "EMPOLEON_NORMAL",
+                  "FORM_UNSET"
+                ]
+              },
+              {
+                "id": "SHIELDON",
+                "forms": [
+                  "FORM_UNSET",
+                  "SHIELDON_NORMAL"
+                ]
+              },
+              {
+                "id": "BASTIODON",
+                "forms": [
+                  "BASTIODON_NORMAL",
+                  "FORM_UNSET"
+                ]
               },
               {
                 "id": "WORMADAM",
                 "forms": [
-                  "FORM_UNSET",
-                  "WORMADAM_PLANT",
-                  "WORMADAM_SANDY"
+                  "WORMADAM_TRASH"
                 ]
               },
               {
-                "id": "AMBIPOM"
+                "id": "HONCHKROW",
+                "forms": [
+                  "FORM_UNSET",
+                  "HONCHKROW_NORMAL"
+                ]
               },
               {
-                "id": "BUNEARY"
+                "id": "STUNKY",
+                "forms": [
+                  "FORM_UNSET",
+                  "STUNKY_NORMAL"
+                ]
               },
               {
-                "id": "LOPUNNY"
+                "id": "SKUNTANK",
+                "forms": [
+                  "FORM_UNSET",
+                  "SKUNTANK_NORMAL"
+                ]
               },
               {
-                "id": "GLAMEOW"
+                "id": "BRONZOR",
+                "forms": [
+                  "BRONZOR_NORMAL",
+                  "FORM_UNSET"
+                ]
               },
               {
-                "id": "PURUGLY"
+                "id": "BRONZONG",
+                "forms": [
+                  "BRONZONG_NORMAL",
+                  "FORM_UNSET"
+                ]
               },
               {
-                "id": "HAPPINY"
+                "id": "MIME_JR",
+                "forms": [
+                  "FORM_UNSET",
+                  "MIME_JR_NORMAL"
+                ]
               },
               {
-                "id": "GIBLE"
+                "id": "SPIRITOMB",
+                "forms": [
+                  "FORM_UNSET",
+                  "SPIRITOMB_NORMAL"
+                ]
               },
               {
-                "id": "GABITE"
+                "id": "LUCARIO",
+                "forms": [
+                  "FORM_UNSET",
+                  "LUCARIO_NORMAL"
+                ]
               },
               {
-                "id": "GARCHOMP"
+                "id": "DRAPION",
+                "forms": [
+                  "DRAPION_NORMAL",
+                  "FORM_UNSET"
+                ]
               },
               {
-                "id": "MUNCHLAX"
+                "id": "WEAVILE",
+                "forms": [
+                  "FORM_UNSET",
+                  "WEAVILE_NORMAL"
+                ]
               },
               {
-                "id": "SKORUPI"
+                "id": "MAGNEZONE",
+                "forms": [
+                  "FORM_UNSET",
+                  "MAGNEZONE_NORMAL"
+                ]
               },
               {
-                "id": "LICKILICKY"
+                "id": "MAGMORTAR",
+                "forms": [
+                  "FORM_UNSET",
+                  "MAGMORTAR_NORMAL"
+                ]
               },
               {
-                "id": "PORYGON_Z"
+                "id": "TOGEKISS",
+                "forms": [
+                  "FORM_UNSET",
+                  "TOGEKISS_NORMAL"
+                ]
               },
               {
-                "id": "FROSLASS"
+                "id": "PROBOPASS",
+                "forms": [
+                  "FORM_UNSET",
+                  "PROBOPASS_NORMAL"
+                ]
               },
               {
-                "id": "PATRAT"
+                "id": "ROTOM",
+                "forms": [
+                  "ROTOM_HEAT"
+                ]
               },
               {
-                "id": "WATCHOG"
+                "id": "DIALGA",
+                "forms": [
+                  "DIALGA_NORMAL",
+                  "DIALGA_ORIGIN",
+                  "FORM_UNSET"
+                ]
               },
               {
-                "id": "LILLIPUP"
+                "id": "HEATRAN",
+                "forms": [
+                  "FORM_UNSET",
+                  "HEATRAN_NORMAL"
+                ]
               },
               {
-                "id": "HERDIER"
+                "id": "DARKRAI",
+                "forms": [
+                  "DARKRAI_NORMAL",
+                  "FORM_UNSET"
+                ]
               },
               {
-                "id": "STOUTLAND"
+                "id": "ARCEUS",
+                "forms": [
+                  "ARCEUS_DARK",
+                  "ARCEUS_FAIRY",
+                  "ARCEUS_FIRE",
+                  "ARCEUS_STEEL"
+                ]
               },
               {
-                "id": "AUDINO"
+                "id": "VICTINI",
+                "forms": [
+                  "FORM_UNSET",
+                  "VICTINI_NORMAL"
+                ]
               },
               {
-                "id": "SEWADDLE"
+                "id": "TEPIG",
+                "forms": [
+                  "FORM_UNSET",
+                  "TEPIG_NORMAL"
+                ]
               },
               {
-                "id": "SWADLOON"
+                "id": "PIGNITE",
+                "forms": [
+                  "FORM_UNSET",
+                  "PIGNITE_NORMAL"
+                ]
               },
               {
-                "id": "LEAVANNY"
+                "id": "EMBOAR",
+                "forms": [
+                  "EMBOAR_NORMAL",
+                  "FORM_UNSET"
+                ]
               },
               {
-                "id": "VENIPEDE"
+                "id": "SAMUROTT",
+                "forms": [
+                  "SAMUROTT_HISUIAN"
+                ]
               },
               {
-                "id": "WHIRLIPEDE"
+                "id": "PURRLOIN",
+                "forms": [
+                  "FORM_UNSET",
+                  "PURRLOIN_NORMAL"
+                ]
               },
               {
-                "id": "SCOLIPEDE"
+                "id": "LIEPARD",
+                "forms": [
+                  "FORM_UNSET",
+                  "LIEPARD_NORMAL"
+                ]
               },
               {
-                "id": "DWEBBLE"
+                "id": "PANSEAR",
+                "forms": [
+                  "FORM_UNSET",
+                  "PANSEAR_NORMAL"
+                ]
               },
               {
-                "id": "MINCCINO"
+                "id": "SIMISEAR",
+                "forms": [
+                  "FORM_UNSET",
+                  "SIMISEAR_NORMAL"
+                ]
               },
               {
-                "id": "CINCCINO"
+                "id": "EXCADRILL",
+                "forms": [
+                  "EXCADRILL_NORMAL",
+                  "FORM_UNSET"
+                ]
               },
               {
-                "id": "DEERLING"
+                "id": "COTTONEE",
+                "forms": [
+                  "COTTONEE_NORMAL",
+                  "FORM_UNSET"
+                ]
               },
               {
-                "id": "SAWSBUCK"
+                "id": "WHIMSICOTT",
+                "forms": [
+                  "FORM_UNSET",
+                  "WHIMSICOTT_NORMAL"
+                ]
               },
               {
-                "id": "KARRABLAST"
+                "id": "SANDILE",
+                "forms": [
+                  "FORM_UNSET",
+                  "SANDILE_NORMAL"
+                ]
               },
               {
-                "id": "JOLTIK"
+                "id": "KROKOROK",
+                "forms": [
+                  "FORM_UNSET",
+                  "KROKOROK_NORMAL"
+                ]
               },
               {
-                "id": "GALVANTULA"
+                "id": "KROOKODILE",
+                "forms": [
+                  "FORM_UNSET",
+                  "KROOKODILE_NORMAL"
+                ]
               },
               {
-                "id": "AXEW"
+                "id": "DARUMAKA",
+                "forms": [
+                  "DARUMAKA_NORMAL",
+                  "FORM_UNSET"
+                ]
               },
               {
-                "id": "FRAXURE"
+                "id": "DARMANITAN",
+                "forms": [
+                  "DARMANITAN_GALARIAN_ZEN",
+                  "DARMANITAN_STANDARD",
+                  "DARMANITAN_ZEN",
+                  "FORM_UNSET"
+                ]
               },
               {
-                "id": "HAXORUS"
+                "id": "SCRAGGY",
+                "forms": [
+                  "FORM_UNSET",
+                  "SCRAGGY_NORMAL"
+                ]
               },
               {
-                "id": "SHELMET"
+                "id": "SCRAFTY",
+                "forms": [
+                  "FORM_UNSET",
+                  "SCRAFTY_NORMAL"
+                ]
               },
               {
-                "id": "ACCELGOR"
+                "id": "ZORUA",
+                "forms": [
+                  "FORM_UNSET",
+                  "ZORUA_NORMAL"
+                ]
               },
               {
-                "id": "DRUDDIGON"
+                "id": "ZOROARK",
+                "forms": [
+                  "FORM_UNSET",
+                  "ZOROARK_NORMAL"
+                ]
               },
               {
-                "id": "BOUFFALANT"
+                "id": "ESCAVALIER",
+                "forms": [
+                  "ESCAVALIER_NORMAL",
+                  "FORM_UNSET"
+                ]
               },
               {
-                "id": "BUNNELBY"
+                "id": "FERROSEED",
+                "forms": [
+                  "FERROSEED_NORMAL",
+                  "FORM_UNSET"
+                ]
               },
               {
-                "id": "SCATTERBUG"
+                "id": "FERROTHORN",
+                "forms": [
+                  "FERROTHORN_NORMAL",
+                  "FORM_UNSET"
+                ]
               },
               {
-                "id": "SPEWPA"
+                "id": "KLINK",
+                "forms": [
+                  "FORM_UNSET",
+                  "KLINK_NORMAL"
+                ]
               },
               {
-                "id": "FURFROU"
+                "id": "KLANG",
+                "forms": [
+                  "FORM_UNSET",
+                  "KLANG_NORMAL"
+                ]
               },
               {
-                "id": "DRAGALGE"
+                "id": "KLINKLANG",
+                "forms": [
+                  "FORM_UNSET",
+                  "KLINKLANG_NORMAL"
+                ]
               },
               {
-                "id": "HELIOPTILE"
+                "id": "LITWICK",
+                "forms": [
+                  "FORM_UNSET",
+                  "LITWICK_NORMAL"
+                ]
               },
               {
-                "id": "HELIOLISK"
+                "id": "LAMPENT",
+                "forms": [
+                  "FORM_UNSET",
+                  "LAMPENT_NORMAL"
+                ]
               },
               {
-                "id": "TYRUNT"
+                "id": "CHANDELURE",
+                "forms": [
+                  "CHANDELURE_NORMAL",
+                  "FORM_UNSET"
+                ]
               },
               {
-                "id": "TYRANTRUM"
+                "id": "STUNFISK",
+                "forms": [
+                  "STUNFISK_GALARIAN"
+                ]
               },
               {
-                "id": "GOOMY"
+                "id": "PAWNIARD",
+                "forms": [
+                  "FORM_UNSET",
+                  "PAWNIARD_NORMAL"
+                ]
               },
               {
-                "id": "SLIGGOO"
+                "id": "BISHARP",
+                "forms": [
+                  "BISHARP_NORMAL",
+                  "FORM_UNSET"
+                ]
               },
               {
-                "id": "GOODRA"
+                "id": "VULLABY",
+                "forms": [
+                  "FORM_UNSET",
+                  "VULLABY_NORMAL"
+                ]
               },
               {
-                "id": "YUNGOOS"
+                "id": "MANDIBUZZ",
+                "forms": [
+                  "FORM_UNSET",
+                  "MANDIBUZZ_NORMAL"
+                ]
               },
               {
-                "id": "GUMSHOOS"
+                "id": "HEATMOR",
+                "forms": [
+                  "FORM_UNSET",
+                  "HEATMOR_NORMAL"
+                ]
               },
               {
-                "id": "GRUBBIN"
+                "id": "DURANT",
+                "forms": [
+                  "DURANT_NORMAL",
+                  "FORM_UNSET"
+                ]
               },
               {
-                "id": "CHARJABUG"
+                "id": "DEINO",
+                "forms": [
+                  "DEINO_NORMAL",
+                  "FORM_UNSET"
+                ]
               },
               {
-                "id": "VIKAVOLT"
+                "id": "ZWEILOUS",
+                "forms": [
+                  "FORM_UNSET",
+                  "ZWEILOUS_NORMAL"
+                ]
               },
               {
-                "id": "DEWPIDER"
+                "id": "HYDREIGON",
+                "forms": [
+                  "FORM_UNSET",
+                  "HYDREIGON_NORMAL"
+                ]
               },
               {
-                "id": "WIMPOD"
+                "id": "LARVESTA",
+                "forms": [
+                  "FORM_UNSET",
+                  "LARVESTA_NORMAL"
+                ]
               },
               {
-                "id": "GOLISOPOD"
+                "id": "VOLCARONA",
+                "forms": [
+                  "FORM_UNSET",
+                  "VOLCARONA_NORMAL"
+                ]
               },
               {
-                "id": "KOMALA"
+                "id": "COBALION",
+                "forms": [
+                  "COBALION_NORMAL",
+                  "FORM_UNSET"
+                ]
               },
               {
-                "id": "DRAMPA"
+                "id": "RESHIRAM",
+                "forms": [
+                  "FORM_UNSET",
+                  "RESHIRAM_NORMAL"
+                ]
               },
               {
-                "id": "JANGMO_O"
+                "id": "GENESECT",
+                "forms": [
+                  "FORM_UNSET",
+                  "GENESECT_BURN",
+                  "GENESECT_CHILL",
+                  "GENESECT_DOUSE",
+                  "GENESECT_NORMAL",
+                  "GENESECT_SHOCK"
+                ]
               },
               {
-                "id": "SKWOVET"
+                "id": "FENNEKIN",
+                "forms": [
+                  "FENNEKIN_NORMAL",
+                  "FORM_UNSET"
+                ]
               },
               {
-                "id": "GREEDENT"
+                "id": "BRAIXEN",
+                "forms": [
+                  "BRAIXEN_NORMAL",
+                  "FORM_UNSET"
+                ]
               },
               {
-                "id": "BLIPBUG"
+                "id": "DELPHOX",
+                "forms": [
+                  "DELPHOX_NORMAL",
+                  "FORM_UNSET"
+                ]
               },
               {
-                "id": "DOTTLER"
+                "id": "GRENINJA",
+                "forms": [
+                  "FORM_UNSET",
+                  "GRENINJA_NORMAL"
+                ]
               },
               {
-                "id": "ORBEETLE"
+                "id": "FLETCHINDER",
+                "forms": [
+                  "FLETCHINDER_NORMAL",
+                  "FORM_UNSET"
+                ]
               },
               {
-                "id": "WOOLOO"
+                "id": "TALONFLAME",
+                "forms": [
+                  "FORM_UNSET",
+                  "TALONFLAME_NORMAL"
+                ]
               },
               {
-                "id": "DUBWOOL"
+                "id": "LITLEO",
+                "forms": [
+                  "FORM_UNSET",
+                  "LITLEO_NORMAL"
+                ]
               },
               {
-                "id": "APPLIN"
+                "id": "PYROAR",
+                "forms": [
+                  "FORM_UNSET",
+                  "PYROAR_FEMALE",
+                  "PYROAR_NORMAL"
+                ]
               },
               {
-                "id": "FLAPPLE"
+                "id": "FLABEBE",
+                "forms": [
+                  "FLABEBE_BLUE",
+                  "FLABEBE_ORANGE",
+                  "FLABEBE_RED",
+                  "FLABEBE_WHITE",
+                  "FLABEBE_YELLOW",
+                  "FORM_UNSET"
+                ]
               },
               {
-                "id": "APPLETUN"
+                "id": "FLOETTE",
+                "forms": [
+                  "FLOETTE_BLUE",
+                  "FLOETTE_ORANGE",
+                  "FLOETTE_RED",
+                  "FLOETTE_WHITE",
+                  "FLOETTE_YELLOW",
+                  "FORM_UNSET"
+                ]
               },
               {
-                "id": "SNOM"
+                "id": "FLORGES",
+                "forms": [
+                  "FLORGES_BLUE",
+                  "FLORGES_ORANGE",
+                  "FLORGES_RED",
+                  "FLORGES_WHITE",
+                  "FLORGES_YELLOW",
+                  "FORM_UNSET"
+                ]
               },
               {
-                "id": "FROSMOTH"
+                "id": "PANGORO",
+                "forms": [
+                  "FORM_UNSET",
+                  "PANGORO_NORMAL"
+                ]
               },
               {
-                "id": "INDEEDEE"
+                "id": "HONEDGE",
+                "forms": [
+                  "FORM_UNSET",
+                  "HONEDGE_NORMAL"
+                ]
               },
               {
-                "id": "DRACOZOLT"
+                "id": "DOUBLADE",
+                "forms": [
+                  "DOUBLADE_NORMAL",
+                  "FORM_UNSET"
+                ]
               },
               {
-                "id": "DRACOVISH"
+                "id": "AEGISLASH",
+                "forms": [
+                  "AEGISLASH_BLADE",
+                  "AEGISLASH_SHIELD",
+                  "FORM_UNSET"
+                ]
               },
               {
-                "id": "DREEPY"
+                "id": "SPRITZEE",
+                "forms": [
+                  "FORM_UNSET",
+                  "SPRITZEE_NORMAL"
+                ]
               },
               {
-                "id": "DRAKLOAK"
+                "id": "AROMATISSE",
+                "forms": [
+                  "AROMATISSE_NORMAL",
+                  "FORM_UNSET"
+                ]
               },
               {
-                "id": "DRAGAPULT"
+                "id": "SWIRLIX",
+                "forms": [
+                  "FORM_UNSET",
+                  "SWIRLIX_NORMAL"
+                ]
               },
               {
-                "id": "WYRDEER"
+                "id": "SLURPUFF",
+                "forms": [
+                  "FORM_UNSET",
+                  "SLURPUFF_NORMAL"
+                ]
               },
               {
-                "id": "KLEAVOR"
+                "id": "INKAY",
+                "forms": [
+                  "FORM_UNSET",
+                  "INKAY_NORMAL"
+                ]
               },
               {
-                "id": "URSALUNA"
+                "id": "MALAMAR",
+                "forms": [
+                  "FORM_UNSET",
+                  "MALAMAR_NORMAL"
+                ]
               },
               {
-                "id": "LECHONK"
+                "id": "SYLVEON",
+                "forms": [
+                  "FORM_UNSET",
+                  "SYLVEON_NORMAL"
+                ]
               },
               {
-                "id": "OINKOLOGNE"
+                "id": "DEDENNE",
+                "forms": [
+                  "DEDENNE_NORMAL",
+                  "FORM_UNSET"
+                ]
               },
               {
-                "id": "TAROUNTULA"
+                "id": "CARBINK",
+                "forms": [
+                  "CARBINK_NORMAL",
+                  "FORM_UNSET"
+                ]
               },
               {
-                "id": "SPIDOPS"
+                "id": "SLIGGOO",
+                "forms": [
+                  "SLIGGOO_HISUIAN"
+                ]
               },
               {
-                "id": "NYMBLE"
+                "id": "GOODRA",
+                "forms": [
+                  "GOODRA_HISUIAN"
+                ]
               },
               {
-                "id": "TANDEMAUS"
+                "id": "KLEFKI",
+                "forms": [
+                  "FORM_UNSET",
+                  "KLEFKI_NORMAL"
+                ]
               },
               {
-                "id": "MAUSHOLD"
+                "id": "XERNEAS",
+                "forms": [
+                  "FORM_UNSET",
+                  "XERNEAS_NORMAL"
+                ]
               },
               {
-                "id": "SMOLIV"
+                "id": "YVELTAL",
+                "forms": [
+                  "FORM_UNSET",
+                  "YVELTAL_NORMAL"
+                ]
               },
               {
-                "id": "DOLLIV"
+                "id": "DIANCIE",
+                "forms": [
+                  "DIANCIE_NORMAL",
+                  "FORM_UNSET"
+                ]
               },
               {
-                "id": "ARBOLIVA"
+                "id": "HOOPA",
+                "forms": [
+                  "HOOPA_UNBOUND"
+                ]
               },
               {
-                "id": "SHROODLE"
+                "id": "VOLCANION",
+                "forms": [
+                  "FORM_UNSET",
+                  "VOLCANION_NORMAL"
+                ]
               },
               {
-                "id": "GRAFAIAI"
+                "id": "LITTEN",
+                "forms": [
+                  "FORM_UNSET",
+                  "LITTEN_NORMAL"
+                ]
               },
               {
-                "id": "RELLOR"
+                "id": "TORRACAT",
+                "forms": [
+                  "FORM_UNSET",
+                  "TORRACAT_NORMAL"
+                ]
               },
               {
-                "id": "RABSCA"
+                "id": "INCINEROAR",
+                "forms": [
+                  "FORM_UNSET",
+                  "INCINEROAR_NORMAL"
+                ]
               },
               {
-                "id": "CYCLIZAR"
+                "id": "PRIMARINA",
+                "forms": [
+                  "FORM_UNSET",
+                  "PRIMARINA_NORMAL"
+                ]
               },
               {
-                "id": "TATSUGIRI"
+                "id": "ORICORIO",
+                "forms": [
+                  "FORM_UNSET",
+                  "ORICORIO_BAILE"
+                ]
               },
               {
-                "id": "FARIGIRAF"
+                "id": "CUTIEFLY",
+                "forms": [
+                  "CUTIEFLY_NORMAL",
+                  "FORM_UNSET"
+                ]
               },
               {
-                "id": "DUDUNSPARCE"
+                "id": "RIBOMBEE",
+                "forms": [
+                  "FORM_UNSET",
+                  "RIBOMBEE_NORMAL"
+                ]
               },
               {
-                "id": "FRIGIBAX"
+                "id": "MORELULL",
+                "forms": [
+                  "FORM_UNSET",
+                  "MORELULL_NORMAL"
+                ]
               },
               {
-                "id": "ARCTIBAX"
+                "id": "SHIINOTIC",
+                "forms": [
+                  "FORM_UNSET",
+                  "SHIINOTIC_NORMAL"
+                ]
               },
               {
-                "id": "BAXCALIBUR"
+                "id": "SALANDIT",
+                "forms": [
+                  "FORM_UNSET",
+                  "SALANDIT_NORMAL"
+                ]
               },
               {
-                "id": "DIPPLIN"
+                "id": "SALAZZLE",
+                "forms": [
+                  "FORM_UNSET",
+                  "SALAZZLE_NORMAL"
+                ]
               },
               {
-                "id": "HYDRAPPLE"
+                "id": "COMFEY",
+                "forms": [
+                  "COMFEY_NORMAL",
+                  "FORM_UNSET"
+                ]
+              },
+              {
+                "id": "SILVALLY",
+                "forms": [
+                  "SILVALLY_DARK",
+                  "SILVALLY_FAIRY",
+                  "SILVALLY_FIRE",
+                  "SILVALLY_STEEL"
+                ]
+              },
+              {
+                "id": "TURTONATOR",
+                "forms": [
+                  "FORM_UNSET",
+                  "TURTONATOR_NORMAL"
+                ]
+              },
+              {
+                "id": "TOGEDEMARU",
+                "forms": [
+                  "FORM_UNSET",
+                  "TOGEDEMARU_NORMAL"
+                ]
+              },
+              {
+                "id": "MIMIKYU",
+                "forms": [
+                  "FORM_UNSET",
+                  "MIMIKYU_BUSTED",
+                  "MIMIKYU_DISGUISED"
+                ]
+              },
+              {
+                "id": "TAPU_KOKO",
+                "forms": [
+                  "FORM_UNSET",
+                  "TAPU_KOKO_NORMAL"
+                ]
+              },
+              {
+                "id": "TAPU_LELE",
+                "forms": [
+                  "FORM_UNSET",
+                  "TAPU_LELE_NORMAL"
+                ]
+              },
+              {
+                "id": "TAPU_BULU",
+                "forms": [
+                  "FORM_UNSET",
+                  "TAPU_BULU_NORMAL"
+                ]
+              },
+              {
+                "id": "TAPU_FINI",
+                "forms": [
+                  "FORM_UNSET",
+                  "TAPU_FINI_NORMAL"
+                ]
+              },
+              {
+                "id": "SOLGALEO",
+                "forms": [
+                  "FORM_UNSET",
+                  "SOLGALEO_NORMAL"
+                ]
+              },
+              {
+                "id": "CELESTEELA",
+                "forms": [
+                  "CELESTEELA_NORMAL",
+                  "FORM_UNSET"
+                ]
+              },
+              {
+                "id": "KARTANA",
+                "forms": [
+                  "FORM_UNSET",
+                  "KARTANA_NORMAL"
+                ]
+              },
+              {
+                "id": "GUZZLORD",
+                "forms": [
+                  "FORM_UNSET",
+                  "GUZZLORD_NORMAL"
+                ]
+              },
+              {
+                "id": "NECROZMA",
+                "forms": [
+                  "NECROZMA_DUSK_MANE"
+                ]
+              },
+              {
+                "id": "MAGEARNA",
+                "forms": [
+                  "FORM_UNSET",
+                  "MAGEARNA_NORMAL",
+                  "MAGEARNA_ORIGINAL_COLOR"
+                ]
+              },
+              {
+                "id": "STAKATAKA",
+                "forms": [
+                  "FORM_UNSET",
+                  "STAKATAKA_NORMAL"
+                ]
+              },
+              {
+                "id": "BLACEPHALON",
+                "forms": [
+                  "BLACEPHALON_NORMAL",
+                  "FORM_UNSET"
+                ]
+              },
+              {
+                "id": "MELTAN",
+                "forms": [
+                  "FORM_UNSET",
+                  "MELTAN_NORMAL"
+                ]
+              },
+              {
+                "id": "MELMETAL",
+                "forms": [
+                  "FORM_UNSET",
+                  "MELMETAL_NORMAL"
+                ]
+              },
+              {
+                "id": "SCORBUNNY",
+                "forms": [
+                  "FORM_UNSET",
+                  "SCORBUNNY_NORMAL"
+                ]
+              },
+              {
+                "id": "RABOOT",
+                "forms": [
+                  "FORM_UNSET",
+                  "RABOOT_NORMAL"
+                ]
+              },
+              {
+                "id": "CINDERACE",
+                "forms": [
+                  "CINDERACE_NORMAL",
+                  "FORM_UNSET"
+                ]
+              },
+              {
+                "id": "CORVIKNIGHT",
+                "forms": [
+                  "CORVIKNIGHT_NORMAL",
+                  "FORM_UNSET"
+                ]
+              },
+              {
+                "id": "NICKIT",
+                "forms": [
+                  "FORM_UNSET",
+                  "NICKIT_NORMAL"
+                ]
+              },
+              {
+                "id": "THIEVUL",
+                "forms": [
+                  "FORM_UNSET",
+                  "THIEVUL_NORMAL"
+                ]
+              },
+              {
+                "id": "CARKOL",
+                "forms": [
+                  "CARKOL_NORMAL",
+                  "FORM_UNSET"
+                ]
+              },
+              {
+                "id": "COALOSSAL",
+                "forms": [
+                  "COALOSSAL_NORMAL",
+                  "FORM_UNSET"
+                ]
+              },
+              {
+                "id": "SIZZLIPEDE",
+                "forms": [
+                  "FORM_UNSET",
+                  "SIZZLIPEDE_NORMAL"
+                ]
+              },
+              {
+                "id": "CENTISKORCH",
+                "forms": [
+                  "CENTISKORCH_NORMAL",
+                  "FORM_UNSET"
+                ]
+              },
+              {
+                "id": "HATTERENE",
+                "forms": [
+                  "FORM_UNSET",
+                  "HATTERENE_NORMAL"
+                ]
+              },
+              {
+                "id": "IMPIDIMP",
+                "forms": [
+                  "FORM_UNSET",
+                  "IMPIDIMP_NORMAL"
+                ]
+              },
+              {
+                "id": "MORGREM",
+                "forms": [
+                  "FORM_UNSET",
+                  "MORGREM_NORMAL"
+                ]
+              },
+              {
+                "id": "GRIMMSNARL",
+                "forms": [
+                  "FORM_UNSET",
+                  "GRIMMSNARL_NORMAL"
+                ]
+              },
+              {
+                "id": "OBSTAGOON",
+                "forms": [
+                  "FORM_UNSET",
+                  "OBSTAGOON_NORMAL"
+                ]
+              },
+              {
+                "id": "PERRSERKER",
+                "forms": [
+                  "FORM_UNSET",
+                  "PERRSERKER_NORMAL"
+                ]
+              },
+              {
+                "id": "MILCERY",
+                "forms": [
+                  "FORM_UNSET",
+                  "MILCERY_NORMAL"
+                ]
+              },
+              {
+                "id": "ALCREMIE",
+                "forms": [
+                  "ALCREMIE_NORMAL",
+                  "FORM_UNSET"
+                ]
+              },
+              {
+                "id": "MORPEKO",
+                "forms": [
+                  "FORM_UNSET",
+                  "MORPEKO_FULL_BELLY",
+                  "MORPEKO_HANGRY"
+                ]
+              },
+              {
+                "id": "CUFANT",
+                "forms": [
+                  "CUFANT_NORMAL",
+                  "FORM_UNSET"
+                ]
+              },
+              {
+                "id": "COPPERAJAH",
+                "forms": [
+                  "COPPERAJAH_NORMAL",
+                  "FORM_UNSET"
+                ]
+              },
+              {
+                "id": "DURALUDON",
+                "forms": [
+                  "DURALUDON_NORMAL",
+                  "FORM_UNSET"
+                ]
+              },
+              {
+                "id": "ZACIAN",
+                "forms": [
+                  "FORM_UNSET",
+                  "ZACIAN_CROWNED_SWORD",
+                  "ZACIAN_HERO"
+                ]
+              },
+              {
+                "id": "ZAMAZENTA",
+                "forms": [
+                  "FORM_UNSET",
+                  "ZAMAZENTA_CROWNED_SHIELD"
+                ]
+              },
+              {
+                "id": "URSHIFU",
+                "forms": [
+                  "URSHIFU_SINGLE_STRIKE"
+                ]
+              },
+              {
+                "id": "ZARUDE",
+                "forms": [
+                  "FORM_UNSET",
+                  "ZARUDE_NORMAL"
+                ]
+              },
+              {
+                "id": "OVERQWIL",
+                "forms": [
+                  "FORM_UNSET",
+                  "OVERQWIL_NORMAL"
+                ]
+              },
+              {
+                "id": "ENAMORUS",
+                "forms": [
+                  "ENAMORUS_INCARNATE",
+                  "ENAMORUS_THERIAN",
+                  "FORM_UNSET"
+                ]
+              },
+              {
+                "id": "MEOWSCARADA",
+                "forms": [
+                  "FORM_UNSET",
+                  "MEOWSCARADA_NORMAL"
+                ]
+              },
+              {
+                "id": "FUECOCO",
+                "forms": [
+                  "FORM_UNSET",
+                  "FUECOCO_NORMAL"
+                ]
+              },
+              {
+                "id": "CROCALOR",
+                "forms": [
+                  "CROCALOR_NORMAL",
+                  "FORM_UNSET"
+                ]
+              },
+              {
+                "id": "SKELEDIRGE",
+                "forms": [
+                  "FORM_UNSET",
+                  "SKELEDIRGE_NORMAL"
+                ]
+              },
+              {
+                "id": "LOKIX",
+                "forms": [
+                  "FORM_UNSET",
+                  "LOKIX_NORMAL"
+                ]
+              },
+              {
+                "id": "FIDOUGH",
+                "forms": [
+                  "FIDOUGH_NORMAL",
+                  "FORM_UNSET"
+                ]
+              },
+              {
+                "id": "DACHSBUN",
+                "forms": [
+                  "DACHSBUN_NORMAL",
+                  "FORM_UNSET"
+                ]
+              },
+              {
+                "id": "CHARCADET",
+                "forms": [
+                  "CHARCADET_NORMAL",
+                  "FORM_UNSET"
+                ]
+              },
+              {
+                "id": "ARMAROUGE",
+                "forms": [
+                  "ARMAROUGE_NORMAL",
+                  "FORM_UNSET"
+                ]
+              },
+              {
+                "id": "CERULEDGE",
+                "forms": [
+                  "CERULEDGE_NORMAL",
+                  "FORM_UNSET"
+                ]
+              },
+              {
+                "id": "MASCHIFF",
+                "forms": [
+                  "FORM_UNSET",
+                  "MASCHIFF_NORMAL"
+                ]
+              },
+              {
+                "id": "MABOSSTIFF",
+                "forms": [
+                  "FORM_UNSET",
+                  "MABOSSTIFF_NORMAL"
+                ]
+              },
+              {
+                "id": "SCOVILLAIN",
+                "forms": [
+                  "FORM_UNSET",
+                  "SCOVILLAIN_NORMAL"
+                ]
+              },
+              {
+                "id": "TINKATINK",
+                "forms": [
+                  "FORM_UNSET",
+                  "TINKATINK_NORMAL"
+                ]
+              },
+              {
+                "id": "TINKATUFF",
+                "forms": [
+                  "FORM_UNSET",
+                  "TINKATUFF_NORMAL"
+                ]
+              },
+              {
+                "id": "TINKATON",
+                "forms": [
+                  "FORM_UNSET",
+                  "TINKATON_NORMAL"
+                ]
+              },
+              {
+                "id": "BOMBIRDIER",
+                "forms": [
+                  "BOMBIRDIER_NORMAL",
+                  "FORM_UNSET"
+                ]
+              },
+              {
+                "id": "VAROOM",
+                "forms": [
+                  "FORM_UNSET",
+                  "VAROOM_NORMAL"
+                ]
+              },
+              {
+                "id": "REVAVROOM",
+                "forms": [
+                  "FORM_UNSET",
+                  "REVAVROOM_NORMAL"
+                ]
+              },
+              {
+                "id": "ORTHWORM",
+                "forms": [
+                  "FORM_UNSET",
+                  "ORTHWORM_NORMAL"
+                ]
+              },
+              {
+                "id": "KINGAMBIT",
+                "forms": [
+                  "FORM_UNSET",
+                  "KINGAMBIT_NORMAL"
+                ]
+              },
+              {
+                "id": "SCREAMTAIL",
+                "forms": [
+                  "FORM_UNSET",
+                  "SCREAMTAIL_NORMAL"
+                ]
+              },
+              {
+                "id": "BRUTEBONNET",
+                "forms": [
+                  "BRUTEBONNET_NORMAL",
+                  "FORM_UNSET"
+                ]
+              },
+              {
+                "id": "FLUTTERMANE",
+                "forms": [
+                  "FLUTTERMANE_NORMAL",
+                  "FORM_UNSET"
+                ]
+              },
+              {
+                "id": "IRONTREADS",
+                "forms": [
+                  "FORM_UNSET",
+                  "IRONTREADS_NORMAL"
+                ]
+              },
+              {
+                "id": "IRONJUGULIS",
+                "forms": [
+                  "FORM_UNSET",
+                  "IRONJUGULIS_NORMAL"
+                ]
+              },
+              {
+                "id": "IRONMOTH",
+                "forms": [
+                  "FORM_UNSET",
+                  "IRONMOTH_NORMAL"
+                ]
+              },
+              {
+                "id": "GHOLDENGO",
+                "forms": [
+                  "FORM_UNSET",
+                  "GHOLDENGO_NORMAL"
+                ]
+              },
+              {
+                "id": "WOCHIEN",
+                "forms": [
+                  "FORM_UNSET",
+                  "WOCHIEN_NORMAL"
+                ]
+              },
+              {
+                "id": "CHIENPAO",
+                "forms": [
+                  "CHIENPAO_NORMAL",
+                  "FORM_UNSET"
+                ]
+              },
+              {
+                "id": "TINGLU",
+                "forms": [
+                  "FORM_UNSET",
+                  "TINGLU_NORMAL"
+                ]
+              },
+              {
+                "id": "CHIYU",
+                "forms": [
+                  "CHIYU_NORMAL",
+                  "FORM_UNSET"
+                ]
+              },
+              {
+                "id": "ROARINGMOON",
+                "forms": [
+                  "FORM_UNSET",
+                  "ROARINGMOON_NORMAL"
+                ]
+              },
+              {
+                "id": "IRONVALIANT",
+                "forms": [
+                  "FORM_UNSET",
+                  "IRONVALIANT_NORMAL"
+                ]
+              },
+              {
+                "id": "FEZANDIPITI",
+                "forms": [
+                  "FEZANDIPITI_NORMAL",
+                  "FORM_UNSET"
+                ]
+              },
+              {
+                "id": "ARCHALUDON",
+                "forms": [
+                  "ARCHALUDON_NORMAL",
+                  "FORM_UNSET"
+                ]
+              },
+              {
+                "id": "GOUGINGFIRE",
+                "forms": [
+                  "FORM_UNSET",
+                  "GOUGINGFIRE_NORMAL"
+                ]
+              },
+              {
+                "id": "IRONCROWN",
+                "forms": [
+                  "FORM_UNSET",
+                  "IRONCROWN_NORMAL"
+                ]
               }
             ]
           }
@@ -16728,7 +18209,8 @@
               {
                 "id": "CORSOLA",
                 "forms": [
-                  "CORSOLA_GALARIAN"
+                  "CORSOLA_GALARIAN",
+                  "CORSOLA_SPRING_2026"
                 ]
               }
             ],

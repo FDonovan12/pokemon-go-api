@@ -507,7 +507,9 @@
     "templateId": "LC_2025_NFL_002",
     "data": {
       "locationCard": "LC_2025_NFL_002",
-      "imageUrl": "lc_NFL_cardinals_2026"
+      "imageUrl": "lc_NFL_cardinals_2026",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
@@ -646,7 +648,8 @@
     "templateId": "LC_2026_COMICCON_MALAGA",
     "data": {
       "locationCard": "LC_2026_COMICCON_MALAGA",
-      "imageUrl": "lc_2026_ComicCon_Malaga"
+      "imageUrl": "lc_2026_ComicCon_Malaga",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
@@ -663,7 +666,8 @@
     "templateId": "LC_2026_FC_SEOUL",
     "data": {
       "locationCard": "LC_2026_FC_SEOUL",
-      "imageUrl": "lc_fc2026_seoul"
+      "imageUrl": "lc_fc2026_seoul",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
@@ -705,7 +709,8 @@
     "templateId": "LC_2026_LONDON_NO_001",
     "data": {
       "locationCard": "LC_2026_LONDON_NO_001",
-      "imageUrl": "lc_nightOut2026_London"
+      "imageUrl": "lc_nightOut2026_London",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
@@ -722,7 +727,8 @@
     "templateId": "LC_2026_LOSANGELES_NO_001",
     "data": {
       "locationCard": "LC_2026_LOSANGELES_NO_001",
-      "imageUrl": "lc_nightOut2026_LA"
+      "imageUrl": "lc_nightOut2026_LA",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
@@ -925,42 +931,48 @@
     "templateId": "LC_EMEA_MUSEUM_01",
     "data": {
       "locationCard": "LC_EMEA_MUSEUM_01",
-      "imageUrl": "lc_ESA_spaceExpoNL"
+      "imageUrl": "lc_ESA_spaceExpoNL",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_EMEA_MUSEUM_02",
     "data": {
       "locationCard": "LC_EMEA_MUSEUM_02",
-      "imageUrl": "lc_ESA_spaceCenterGermany"
+      "imageUrl": "lc_ESA_spaceCenterGermany",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_EMEA_MUSEUM_03",
     "data": {
       "locationCard": "LC_EMEA_MUSEUM_03",
-      "imageUrl": "lc_ESA_scienceMuseumLondon"
+      "imageUrl": "lc_ESA_scienceMuseumLondon",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_EMEA_MUSEUM_04",
     "data": {
       "locationCard": "LC_EMEA_MUSEUM_04",
-      "imageUrl": "lc_ESA_euroSpaceCenter"
+      "imageUrl": "lc_ESA_euroSpaceCenter",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_EMEA_MUSEUM_05",
     "data": {
       "locationCard": "LC_EMEA_MUSEUM_05",
-      "imageUrl": "lc_ESA_ciudadDeLasArtes"
+      "imageUrl": "lc_ESA_ciudadDeLasArtes",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
     "templateId": "LC_EMEA_MUSEUM_06",
     "data": {
       "locationCard": "LC_EMEA_MUSEUM_06",
-      "imageUrl": "lc_ESA_citeDeEspace"
+      "imageUrl": "lc_ESA_citeDeEspace",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
@@ -1566,7 +1578,8 @@
     "templateId": "LC_POKELID_NAGANO",
     "data": {
       "locationCard": "LC_POKELID_NAGANO",
-      "imageUrl": "lc_pokelid_nagano"
+      "imageUrl": "lc_pokelid_nagano",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
@@ -1622,6 +1635,7 @@
     "data": {
       "locationCard": "LC_POKELID_SAGA",
       "imageUrl": "lc_pokelid_saga",
+      "backgroundEligibilityStatus": "ELIGIBLE",
       "cardTreatment": "CROP_BLEED"
     }
   },
@@ -2202,7 +2216,9 @@
     "templateId": "LC_SPECIALBACKGROUND_EXTRA_2025_02",
     "data": {
       "locationCard": "LC_SPECIALBACKGROUND_EXTRA_2025_02",
-      "imageUrl": "lc_taipeiFlowerFestival_2026"
+      "imageUrl": "lc_taipeiFlowerFestival_2026",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {
@@ -2227,7 +2243,9 @@
     "templateId": "LC_SPECIALBACKGROUND_KR2025_LOTTE_01",
     "data": {
       "locationCard": "LC_SPECIALBACKGROUND_KR2025_LOTTE_01",
-      "imageUrl": "lc_LotteGiants"
+      "imageUrl": "lc_LotteGiants",
+      "backgroundEligibilityStatus": "ELIGIBLE",
+      "cardTreatment": "CROP_BLEED"
     }
   },
   {

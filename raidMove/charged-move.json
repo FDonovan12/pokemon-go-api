@@ -2987,6 +2987,18 @@
       "fr": "Dard Mortel+"
     }
   },
+  "TEMP_EVOLUTION_MEGA_V0036_POKEMON_CLEFABLE": {
+    "id": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0036_POKEMON_CLEFABLE",
+    "movementId": "TEMP_EVOLUTION_MEGA_V0036_POKEMON_CLEFABLE",
+    "pokemonType": "Fée",
+    "power": 160,
+    "durationMs": 4000,
+    "energyDelta": -100,
+    "vfxName": "moonblast",
+    "names": {
+      "fr": "Pouvoir Lunaire+"
+    }
+  },
   "TEMP_EVOLUTION_MEGA_V0071_POKEMON_VICTREEBEL": {
     "id": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0071_POKEMON_VICTREEBEL",
     "movementId": "TEMP_EVOLUTION_MEGA_V0071_POKEMON_VICTREEBEL",

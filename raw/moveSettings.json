@@ -6006,6 +6006,24 @@
     }
   },
   {
+    "templateId": "V0616_MOVE_SOAK_FAST",
+    "data": {
+      "movementId": "SOAK_FAST",
+      "animationId": 4,
+      "pokemonType": "POKEMON_TYPE_WATER",
+      "power": 6,
+      "accuracyChance": 1,
+      "staminaLossScalar": 0.01,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "soak_fast",
+      "durationMs": 1000,
+      "damageWindowStartMs": 400,
+      "damageWindowEndMs": 1000,
+      "energyDelta": 18
+    }
+  },
+  {
     "templateId": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0015_POKEMON_BEEDRILL",
     "data": {
       "movementId": "TEMP_EVOLUTION_MEGA_V0015_POKEMON_BEEDRILL",
@@ -6020,6 +6038,26 @@
       "durationMs": 2000,
       "damageWindowStartMs": 1600,
       "damageWindowEndMs": 1800,
+      "energyDelta": -100,
+      "isLocked": true
+    }
+  },
+  {
+    "templateId": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0036_POKEMON_CLEFABLE",
+    "data": {
+      "movementId": "TEMP_EVOLUTION_MEGA_V0036_POKEMON_CLEFABLE",
+      "animationId": 5,
+      "pokemonType": "POKEMON_TYPE_FAIRY",
+      "power": 160,
+      "accuracyChance": 1,
+      "criticalChance": 0.05,
+      "staminaLossScalar": 0.095,
+      "trainerLevelMin": 1,
+      "trainerLevelMax": 100,
+      "vfxName": "moonblast",
+      "durationMs": 4000,
+      "damageWindowStartMs": 2300,
+      "damageWindowEndMs": 3800,
       "energyDelta": -100,
       "isLocked": true
     }

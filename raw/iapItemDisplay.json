@@ -7534,6 +7534,58 @@
     }
   },
   {
+    "templateId": "bundle.gowa2026.1",
+    "data": {
+      "sku": "bundle.gowa2026.1",
+      "category": "IAP_CATEGORY_BUNDLE",
+      "sortOrder": 1,
+      "hidden": true,
+      "spriteId": "bundle.general.premiumbox.medium.1",
+      "title": "sku.name.web-gowa-2024-box-1",
+      "showDiscountTag": true,
+      "showStrikethroughPrice": true
+    }
+  },
+  {
+    "templateId": "bundle.gowa2026.2",
+    "data": {
+      "sku": "bundle.gowa2026.2",
+      "category": "IAP_CATEGORY_BUNDLE",
+      "sortOrder": 1,
+      "hidden": true,
+      "spriteId": "bundle2.sprite.b",
+      "title": "sku.name.web-gowa-2024-box-2",
+      "showDiscountTag": true,
+      "showStrikethroughPrice": true
+    }
+  },
+  {
+    "templateId": "bundle.gowa2026.3",
+    "data": {
+      "sku": "bundle.gowa2026.3",
+      "category": "IAP_CATEGORY_BUNDLE",
+      "sortOrder": 1,
+      "hidden": true,
+      "spriteId": "bundle1.sprite.d",
+      "title": "sku.name.web-gowa-2024-box-3",
+      "showDiscountTag": true,
+      "showStrikethroughPrice": true
+    }
+  },
+  {
+    "templateId": "bundle.gowa2026.4",
+    "data": {
+      "sku": "bundle.gowa2026.4",
+      "category": "IAP_CATEGORY_BUNDLE",
+      "sortOrder": 1,
+      "hidden": true,
+      "spriteId": "bundle.general5.small.1",
+      "title": "sku.name.web-gowa-2024-box-4",
+      "showDiscountTag": true,
+      "showStrikethroughPrice": true
+    }
+  },
+  {
     "templateId": "bundle.gpdindialaunch.1",
     "data": {
       "sku": "bundle.gpdindialaunch.1",

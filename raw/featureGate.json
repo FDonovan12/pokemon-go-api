@@ -303,6 +303,13 @@
     }
   },
   {
+    "templateId": "EVENT_PASS_MISSING_TIER_PROTECTION_FEATURE_GATE_SR",
+    "data": {
+      "status": 1,
+      "rolloutPercentage": 100
+    }
+  },
+  {
     "templateId": "EVENT_PASS_WIDGET_FORCE_REBUILD_OPTIMIZATION_FEATURE_GATE",
     "data": {
       "status": 10,
@@ -411,6 +418,13 @@
     "templateId": "IMMERSIVE_CATCH_SUMMARY_FEATURE_GATE",
     "data": {
       "status": 73026,
+      "rolloutPercentage": 100
+    }
+  },
+  {
+    "templateId": "IMPERSONATION_STAT_SYNC_FEATURE_GATE_SR",
+    "data": {
+      "status": 1,
       "rolloutPercentage": 100
     }
   },
@@ -635,6 +649,13 @@
     }
   },
   {
+    "templateId": "PHOTOBOMB_TIME_PORTAL_FUTURE_FEATURE_GATE_SR",
+    "data": {
+      "status": 1,
+      "rolloutPercentage": 100
+    }
+  },
+  {
     "templateId": "PLAYER_ENCOUNTER_RANDOMIZATION_SALT_FEATURE_GATE",
     "data": {
       "status": 2,
@@ -703,7 +724,21 @@
     }
   },
   {
+    "templateId": "QUEST_PROGRESS_AGGREGATION_FEATURE_GATE_SR",
+    "data": {
+      "status": 1,
+      "rolloutPercentage": 100
+    }
+  },
+  {
     "templateId": "QUEST_TOTAL_DAYS_CATCH_RESULT_FIX_FEATURE_GATE",
+    "data": {
+      "status": 1,
+      "rolloutPercentage": 100
+    }
+  },
+  {
+    "templateId": "RAID_RSVP_REMOTE_JOIN_FIX_FEATURE_GATE_CR",
     "data": {
       "status": 1,
       "rolloutPercentage": 100
@@ -783,6 +818,13 @@
     "templateId": "STAMP_RALLY_TIME_TRAVEL_SERVER_FEATURE_GATE",
     "data": {
       "status": 293813,
+      "rolloutPercentage": 100
+    }
+  },
+  {
+    "templateId": "TIME_TRAVEL_POWERSPOT_SCHEDULING_FEATURE_GATE_SR",
+    "data": {
+      "status": 1,
       "rolloutPercentage": 100
     }
   },

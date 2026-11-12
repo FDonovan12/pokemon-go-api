@@ -2775,14 +2775,12 @@ export interface MaxMoveBonus {
 
 export interface MegaMoveBonus {
     specialMove:                string;
-    attackMultiplier?:          number;
     extraMegaRaidShieldBreak?:  number;
     visibleAppraisalStarTiers?: number[];
 }
 
 export interface SlowFreezeBonus {
     catchCircleTimeScaleOverride:      number;
-    catchRateIncreaseMultiplier:       number;
     catchCircleSpeedChangeThreshold:   number;
     catchCircleOuterTimeScaleOverride: number;
 }

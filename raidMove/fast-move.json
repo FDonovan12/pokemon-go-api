@@ -970,5 +970,17 @@
     "names": {
       "fr": "Forte-Paume"
     }
+  },
+  "SOAK_FAST": {
+    "id": "V0616_MOVE_SOAK_FAST",
+    "movementId": "SOAK_FAST",
+    "pokemonType": "Eau",
+    "power": 6,
+    "durationMs": 1000,
+    "energyDelta": 18,
+    "vfxName": "soak_fast",
+    "names": {
+      "fr": "Détrempage"
+    }
   }
 }

@@ -3707,6 +3707,17 @@
     }
   },
   {
+    "templateId": "COMBAT_V0616_MOVE_SOAK_FAST",
+    "data": {
+      "uniqueId": "SOAK_FAST",
+      "type": "POKEMON_TYPE_WATER",
+      "power": 6,
+      "vfxName": "soak_fast",
+      "durationTurns": 1,
+      "energyDelta": 8
+    }
+  },
+  {
     "templateId": "COMBAT_VM_MOVE_TEMP_EVOLUTION_MEGA_V0015_POKEMON_BEEDRILL",
     "data": {
       "uniqueId": "TEMP_EVOLUTION_MEGA_V0015_POKEMON_BEEDRILL",
@@ -3717,6 +3728,20 @@
       "buffs": {
         "attackerAttackStatStageChange": 1,
         "buffActivationChance": 1
+      }
+    }
+  },
+  {
+    "templateId": "COMBAT_VM_MOVE_TEMP_EVOLUTION_MEGA_V0036_POKEMON_CLEFABLE",
+    "data": {
+      "uniqueId": "TEMP_EVOLUTION_MEGA_V0036_POKEMON_CLEFABLE",
+      "type": "POKEMON_TYPE_FAIRY",
+      "power": 80,
+      "vfxName": "moonblast",
+      "energyDelta": -50,
+      "buffs": {
+        "targetAttackStatStageChange": -1,
+        "buffActivationChance": 0.1
       }
     }
   },
