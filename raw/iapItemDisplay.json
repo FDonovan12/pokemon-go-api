@@ -7538,7 +7538,7 @@
     "data": {
       "sku": "bundle.gowa2026.1",
       "category": "IAP_CATEGORY_BUNDLE",
-      "sortOrder": 1,
+      "sortOrder": -2000,
       "hidden": true,
       "spriteId": "bundle.general.premiumbox.medium.1",
       "title": "sku.name.web-gowa-2024-box-1",
@@ -7551,7 +7551,7 @@
     "data": {
       "sku": "bundle.gowa2026.2",
       "category": "IAP_CATEGORY_BUNDLE",
-      "sortOrder": 1,
+      "sortOrder": -2000,
       "hidden": true,
       "spriteId": "bundle2.sprite.b",
       "title": "sku.name.web-gowa-2024-box-2",
@@ -7564,7 +7564,7 @@
     "data": {
       "sku": "bundle.gowa2026.3",
       "category": "IAP_CATEGORY_BUNDLE",
-      "sortOrder": 1,
+      "sortOrder": -2000,
       "hidden": true,
       "spriteId": "bundle1.sprite.d",
       "title": "sku.name.web-gowa-2024-box-3",
@@ -7577,7 +7577,7 @@
     "data": {
       "sku": "bundle.gowa2026.4",
       "category": "IAP_CATEGORY_BUNDLE",
-      "sortOrder": 1,
+      "sortOrder": -2000,
       "hidden": true,
       "spriteId": "bundle.general5.small.1",
       "title": "sku.name.web-gowa-2024-box-4",
@@ -9228,6 +9228,7 @@
       "sku": "general2.ticket.11",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 1,
+      "hidden": true,
       "spriteId": "general1.ticket.4",
       "title": "general2.ticket._GOWA26_title",
       "skuEnableTime": "2020-01-01T00:00:00",
@@ -10188,6 +10189,35 @@
       "sale": true,
       "spriteId": "bundle.general1.small.2",
       "title": "boost_box_title"
+    }
+  },
+  {
+    "templateId": "pgorelease.gowa2026_leadout_event_pass_track_unlock",
+    "data": {
+      "sku": "pgorelease.gowa2026_leadout_event_pass_track_unlock",
+      "sortOrder": 1,
+      "title": "event_pass_premium_track_title_gowa_leadout_2026",
+      "description": "deluxe_event_pass_track_unlock_description",
+      "skuEnableTime": "2025-11-16T10:00:00",
+      "skuDisableTime": "2026-11-25T20:00:00",
+      "skuEnableTimeUtcMs": "1763287200000",
+      "skuDisableTimeUtcMs": "1795636800000",
+      "imageUrl": "https://storage.googleapis.com/prod-public-images/ic_eventpass_deluxe.png"
+    }
+  },
+  {
+    "templateId": "pgorelease.gowa2026_leadout_event_pass_track_unlock_redirect",
+    "data": {
+      "sku": "pgorelease.gowa2026_leadout_event_pass_track_unlock_redirect",
+      "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
+      "sortOrder": 1,
+      "title": "event_pass_premium_track_title_gowa_leadout_2026",
+      "description": "deluxe_event_pass_track_unlock_description",
+      "skuEnableTime": "2025-11-16T10:00:00",
+      "skuDisableTime": "2026-11-25T20:00:00",
+      "skuEnableTimeUtcMs": "1763287200000",
+      "skuDisableTimeUtcMs": "1795636800000",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F920494a5_PGO-GOWA_Eternatus.jpg"
     }
   },
   {

@@ -107,6 +107,7 @@ export enum DailyDefenderBonusCurrency {
     Pokecoin = "POKECOIN",
     PokemonEncounter = "POKEMON_ENCOUNTER",
     Stardust = "STARDUST",
+    Sticker = "STICKER",
     XlCandy = "XL_CANDY",
 }
 
@@ -1424,6 +1425,7 @@ export interface EventPassDisplaySettings {
     premiumRewardBannerBottom?:        string;
     premiumRewardBannerImageUrl?:      string;
     premiumRewardsDescription?:        string;
+    backgroundConfiguration?:          string;
     sectionDisplayPriority?:           number;
 }
 
@@ -1437,13 +1439,13 @@ export interface EventPassTrackUpgradeDescription {
     passTrackUpgradeHeaderDescription: string;
     eventPassTrackToUpgradeTo:         Track;
     trackUnlockSkuId:                  string;
-    trackUnlockPlusPointsSkuId:        string;
+    trackUnlockPlusPointsSkuId?:       string;
     eventDurationKey:                  string;
     upgradeDescriptionKey:             string;
     ranksToHighlightRewards:           number[];
     detailsLinkKey:                    string;
     trackUnlockImageUrl:               string;
-    trackUnlockPlusPointsImageUrl:     string;
+    trackUnlockPlusPointsImageUrl?:    string;
 }
 
 export enum Track {
@@ -1489,6 +1491,7 @@ export enum IconType {
     Gift = "GIFT",
     Incense = "INCENSE",
     MaxParticle = "MAX_PARTICLE",
+    Stardust = "STARDUST",
     Trade = "TRADE",
     Xp = "XP",
 }
@@ -1504,6 +1507,7 @@ export interface PurpleReward {
     eventBadgeId?:              string;
     playerAttribute?:           PlayerAttribute;
     exp?:                       number;
+    sticker?:                   Sticker;
     pokecoin?:                  number;
 }
 
@@ -1513,25 +1517,48 @@ export interface Candy {
 }
 
 export interface PlayerAttribute {
-    key:          string;
-    durationMins: number;
+    key:           string;
+    durationMins?: number;
 }
 
 export interface RewardPokemonEncounter {
-    pokemonId:            string;
-    pokemonDisplay?:      PurplePokemonDisplay;
-    isFeaturedPokemon:    boolean;
-    statsLimitsOverride?: StatsLimitsOverride;
+    pokemonId?:                    string;
+    pokemonDisplay?:               PurplePokemonDisplay;
+    isFeaturedPokemon?:            boolean;
+    pokemonEncounterDistribution?: PokemonEncounterDistribution;
+    statsLimitsOverride?:          StatsLimitsOverride;
 }
 
 export interface PurplePokemonDisplay {
-    form:           string;
+    form?:          string;
     breadModeEnum?: BreadMode;
+    locationCard?:  LocationCardClass;
+}
+
+export interface LocationCardClass {
+    locationCard: LocationCardEnum;
+}
+
+export enum LocationCardEnum {
+    LcSpecialbackground2025_GlobalGofestDd001 = "LC_SPECIALBACKGROUND_2025_GLOBAL_GOFEST_DD_001",
+}
+
+export interface PokemonEncounterDistribution {
+    questDistributionTemplateId: QuestDistributionTemplateId;
+}
+
+export enum QuestDistributionTemplateId {
+    QuestPokemonEncounterGowa2026_Leadout = "QUEST_POKEMON_ENCOUNTER_GOWA_2026_LEADOUT",
 }
 
 export interface StatsLimitsOverride {
     minPokemonLevel: number;
     maxPokemonLevel: number;
+}
+
+export interface Sticker {
+    stickerId: string;
+    amount:    number;
 }
 
 export interface EventPlannerPopularNotificationSettings {

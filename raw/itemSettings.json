@@ -251,11 +251,11 @@
       "ignoreInventorySpace": true,
       "itemCap": 999999,
       "eventPassPoint": {
-        "eventPassId": "EVENT_PASS_MEGASQUADS2026_EVENT"
+        "eventPassId": "EVENT_PASS_LIVE_OPS_2026_TROPICAL_PARADISE"
       },
       "timePeriodCounters": {
         "playerActivity": {
-          "limit": 300
+          "limit": 500
         }
       },
       "hideItemInInventory": true
@@ -1870,6 +1870,46 @@
     }
   },
   {
+    "templateId": "ITEM_EVENT_TICKET_S24_NOV28_MEGARAID",
+    "data": {
+      "itemId": "ITEM_EVENT_TICKET_S24_NOV28_MEGARAID",
+      "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
+      "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
+      "globalEventTicket": {
+        "eventStartTime": "2026-11-28T14:00:00",
+        "eventEndTime": "2026-11-28T17:00:00",
+        "itemBagDescriptionKey": "item_event_ticket_gray_desc_MegaClefableRaidDay",
+        "giftable": true,
+        "giftItem": "ITEM_EVENT_TICKET_S24_NOV28_MEGARAID_TO_GIFT",
+        "eventBannerUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F93565839_PGO-MCS_Clefable_Super_Mega_Raid_Day_v1-1024x576.jpg",
+        "displayV2Enabled": true,
+        "backgroundImageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F93565839_PGO-MCS_Clefable_Super_Mega_Raid_Day_v1-1024x576.jpg",
+        "eventDatetimeRangeKey": "event_datetime_range_key_MegaClefableRaidDay",
+        "textRewardsKey": "text_rewards_key_MegaClefableRaidDay",
+        "iconRewards": [
+          {
+            "type": "ITEM",
+            "item": {
+              "item": "ITEM_FREE_RAID_TICKET",
+              "amount": 8
+            }
+          },
+          {
+            "type": "ITEM",
+            "item": {
+              "item": "ITEM_XL_RARE_CANDY"
+            }
+          }
+        ],
+        "detailsLinkKey": "details_link_key_MegaClefableRaidDay",
+        "clientEventStartTimeUtcMs": "1795874400000",
+        "clientEventEndTimeUtcMs": "1795885200000"
+      },
+      "nameOverride": "general2.ticket.5_MegaClefableRaidDay",
+      "descriptionOverride": "item_event_ticket_gray_desc_MegaClefableRaidDay"
+    }
+  },
+  {
     "templateId": "ITEM_EVENT_TICKET_S24_NOV9_GOWAOL",
     "data": {
       "itemId": "ITEM_EVENT_TICKET_S24_NOV9_GOWAOL",
@@ -2592,7 +2632,7 @@
       "category": "ITEM_CATEGORY_INCENSE",
       "dropTrainerLevel": 6,
       "incense": {
-        "incenseLifetimeSeconds": 900,
+        "incenseLifetimeSeconds": 1800,
         "spawnTableProbability": 0.25
       },
       "ignoreInventorySpace": true

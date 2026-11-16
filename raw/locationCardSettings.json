@@ -2282,6 +2282,14 @@
     }
   },
   {
+    "templateId": "LC_SPECIALBACKGROUND_PTR_001",
+    "data": {
+      "locationCard": "LC_SPECIALBACKGROUND_PTR_001",
+      "imageUrl": "sb_PTR_001",
+      "cardType": "SPECIAL_BACKGROUND"
+    }
+  },
+  {
     "templateId": "LC_SPECIALBACKGROUND_S24_SEP_2026",
     "data": {
       "locationCard": "LC_SPECIALBACKGROUND_S24_SEP_2026",

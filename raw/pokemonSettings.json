@@ -119928,6 +119928,9 @@
         "shadowChargeMove": "FRUSTRATION"
       },
       "buddyGroupNumber": 2,
+      "eliteCinematicMove": [
+        "MAGNET_BOMB"
+      ],
       "useIrisFlyingPlacement": true,
       "ibfc": {},
       "breadTierGroup": "GROUP_2"
@@ -120033,6 +120036,9 @@
         "shadowChargeMove": "FRUSTRATION"
       },
       "buddyGroupNumber": 2,
+      "eliteCinematicMove": [
+        "MAGNET_BOMB"
+      ],
       "useIrisFlyingPlacement": true,
       "ibfc": {},
       "breadTierGroup": "GROUP_2"
