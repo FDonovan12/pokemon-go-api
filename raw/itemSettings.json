@@ -346,7 +346,7 @@
       "ignoreInventorySpace": true,
       "itemCap": 999999,
       "eventPassPoint": {
-        "eventPassId": "EVENT_PASS_FLYINGTAXI2026_EVENT"
+        "eventPassId": "EVENT_PASS_TWILIGHT_TRAILS_FINALE_2026"
       },
       "timePeriodCounters": {
         "playerActivity": {
