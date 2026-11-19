@@ -6281,7 +6281,29 @@
         "mUpperBound": 0.875,
         "xlUpperBound": 1.05,
         "xxlUpperBound": 1.225
-      }
+      },
+      "breadOverrides": [
+        {
+          "breadMode": "BREAD_MODE",
+          "maxEncounterVisualSettings": {
+            "scale": 24,
+            "cameraDistance": 25,
+            "maxReticleSize": 14
+          },
+          "maxBattleVisualSettings": {
+            "scale": 30
+          },
+          "maxStationVisualSettings": {
+            "scale": 3.75
+          },
+          "maxPowerspotTopperVisualSettings": {
+            "scale": 0.7
+          },
+          "maxLobbyVisualSettings": {
+            "scale": 50
+          }
+        }
+      ]
     }
   },
   {
@@ -6325,7 +6347,29 @@
         "mUpperBound": 1.5,
         "xlUpperBound": 1.8,
         "xxlUpperBound": 2.1
-      }
+      },
+      "breadOverrides": [
+        {
+          "breadMode": "BREAD_MODE",
+          "maxEncounterVisualSettings": {
+            "scale": 15,
+            "cameraDistance": 25,
+            "maxReticleSize": 14
+          },
+          "maxBattleVisualSettings": {
+            "scale": 32
+          },
+          "maxStationVisualSettings": {
+            "scale": 3
+          },
+          "maxPowerspotTopperVisualSettings": {
+            "scale": 1
+          },
+          "maxLobbyVisualSettings": {
+            "scale": 40
+          }
+        }
+      ]
     }
   },
   {

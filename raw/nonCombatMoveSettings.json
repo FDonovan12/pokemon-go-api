@@ -215,8 +215,8 @@
     "data": {
       "uniqueId": "DYNAMAX_CANNON",
       "cost": {
-        "candyCost": 30,
-        "stardustCost": 5000
+        "candyCost": 15,
+        "stardustCost": 2500
       },
       "bonusEffect": {
         "maxMoveBonus": {

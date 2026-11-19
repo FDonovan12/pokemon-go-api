@@ -2352,6 +2352,135 @@
     }
   },
   {
+    "templateId": "ITEM_EVENT_TICKET_S25_2026_01",
+    "data": {
+      "itemId": 2275,
+      "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
+      "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
+      "globalEventTicket": {
+        "eventStartTime": "2026-12-05T14:00:00",
+        "eventEndTime": "2026-12-05T17:00:00",
+        "itemBagDescriptionKey": "inteleon_gmax_2026_ticket_details",
+        "giftable": true,
+        "giftItem": 2291,
+        "eventBannerUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fbda72c6e_PGO-MCS_GMAX_Inteleon_v1_1024x576.jpg",
+        "displayV2Enabled": true,
+        "backgroundImageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fbda72c6e_PGO-MCS_GMAX_Inteleon_v1_1024x576.jpg",
+        "textRewardsKey": "inteleon_gmax_2026_ticket_rewards",
+        "iconRewards": [
+          {
+            "type": "ITEM",
+            "item": {
+              "item": "ITEM_MAX_BOOST",
+              "amount": 1
+            }
+          },
+          {
+            "type": "EXPERIENCE",
+            "exp": 25000
+          },
+          {
+            "type": "ITEM",
+            "item": {
+              "item": "ITEM_MP",
+              "amount": 6400
+            }
+          }
+        ],
+        "detailsLinkKey": "inteleon_gmax_2026_details_link",
+        "clientEventStartTimeUtcMs": "1796479200000",
+        "clientEventEndTimeUtcMs": "1796490000000"
+      },
+      "ignoreInventorySpace": true,
+      "nameOverride": "inteleon_gmax_2026_ticket_title",
+      "descriptionOverride": "inteleon_gmax_2026_ticket_description"
+    }
+  },
+  {
+    "templateId": "ITEM_EVENT_TICKET_S25_2026_02",
+    "data": {
+      "itemId": 2276,
+      "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
+      "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
+      "globalEventTicket": {
+        "eventStartTime": "2026-12-12T09:00:00",
+        "eventEndTime": "2026-12-13T21:00:00",
+        "itemBagDescriptionKey": "item_event_ticket_pink_desc_CD_Dec2026",
+        "giftable": true,
+        "giftItem": 2292,
+        "cnnkfighcfj": "community_day_Dec2026_event_name",
+        "eventBannerUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F31e2d68a_PGO-MCS_CD_December_Recap_2026_v5-1024x576.jpg",
+        "displayV2Enabled": true,
+        "backgroundImageUrl": "https://storage.googleapis.com/prod-public-images/pink-ticket-generic1024x512.jpg",
+        "textRewardsKey": "text_rewards_key_CD_Dec2026",
+        "iconRewards": [
+          {
+            "type": "ITEM",
+            "item": {
+              "item": "ITEM_MOVE_REROLL_ELITE_SPECIAL_ATTACK",
+              "amount": 1
+            }
+          },
+          {
+            "type": "ITEM",
+            "item": {
+              "item": "ITEM_MOVE_REROLL_ELITE_FAST_ATTACK",
+              "amount": 1
+            }
+          },
+          {
+            "type": "ITEM",
+            "item": {
+              "item": "ITEM_INCUBATOR_BASIC",
+              "amount": 2
+            }
+          }
+        ],
+        "detailsLinkKey": "details_link_key_CD_Dec2026",
+        "clientEventStartTimeUtcMs": "1797066000000",
+        "clientEventEndTimeUtcMs": "1797195600000"
+      },
+      "ignoreInventorySpace": true,
+      "nameOverride": "general1.ticket_CD_Dec2026_title",
+      "descriptionOverride": "item_event_ticket_pink_details_CD_Dec2026"
+    }
+  },
+  {
+    "templateId": "ITEM_EVENT_TICKET_S25_2026_16",
+    "data": {
+      "itemId": 2290,
+      "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
+      "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
+      "globalEventTicket": {
+        "eventBadge": 6446,
+        "grantBadgeBeforeEventStartMs": "36000000",
+        "eventStartTime": "2027-02-27T10:00:00",
+        "eventEndTime": "2027-02-28T18:00:00",
+        "itemBagDescriptionKey": "item_global_event_ticket_details_GOTour2027",
+        "giftable": true,
+        "giftItem": 2306,
+        "eventBannerUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F31519c82_pgo-generic-ticket-banner-682x384.jpg",
+        "displayV2Enabled": true,
+        "backgroundImageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F31519c82_pgo-generic-ticket-banner-682x384.jpg",
+        "textRewardsKey": "text_rewards_key_GOTour2027",
+        "iconRewards": [
+          {
+            "type": "ITEM",
+            "item": {
+              "item": "ITEM_FREE_RAID_TICKET",
+              "amount": 9
+            }
+          }
+        ],
+        "detailsLinkKey": "details_link_key_GOTour2026",
+        "clientEventStartTimeUtcMs": "1803722400000",
+        "clientEventEndTimeUtcMs": "1803837600000"
+      },
+      "nameOverride": "GOTour_2027_ticket_title",
+      "descriptionOverride": "item_global_event_ticket_details_GOTour2027"
+    }
+  },
+  {
     "templateId": "ITEM_EVERGREEN_TICKET",
     "data": {
       "itemId": "ITEM_EVERGREEN_TICKET",
@@ -3459,7 +3588,7 @@
       "itemType": "ITEM_TYPE_DISK",
       "category": "ITEM_CATEGORY_DISK",
       "dropTrainerLevel": 1,
-      "itemCap": 2
+      "itemCap": 1
     }
   },
   {

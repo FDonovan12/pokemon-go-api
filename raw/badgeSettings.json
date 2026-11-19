@@ -9257,6 +9257,17 @@
     }
   },
   {
+    "templateId": "BADGE_GO_TOUR_2027_GLOBAL",
+    "data": {
+      "badgeType": 6446,
+      "badgeRank": 2,
+      "targets": [
+        100
+      ],
+      "eventBadge": true
+    }
+  },
+  {
     "templateId": "BADGE_GREAT_LEAGUE",
     "data": {
       "badgeType": "BADGE_GREAT_LEAGUE",

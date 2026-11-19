@@ -85,6 +85,20 @@
     }
   },
   {
+    "templateId": "AVATAR_GLOWING_ARTICLES_OPTIMIZATION_FEATURE_GATE",
+    "data": {
+      "status": 838973830,
+      "rolloutPercentage": 100
+    }
+  },
+  {
+    "templateId": "AVATAR_PROP_OPTIMIZATION_FEATURE_GATE",
+    "data": {
+      "status": 838973831,
+      "rolloutPercentage": 100
+    }
+  },
+  {
     "templateId": "AVATAR_SUBCATEGORY_HEADER_FORCE_REBUILD_OPTIMIZATION_FEATURE_GATE",
     "data": {
       "status": 1,
@@ -106,7 +120,21 @@
     }
   },
   {
+    "templateId": "BUDDY_CANDY_QUEST_PROGRESS_AGGREGATION_FEATURE_GATE_SR",
+    "data": {
+      "status": 1,
+      "rolloutPercentage": 100
+    }
+  },
+  {
     "templateId": "BUDDY_SWAP_PLAYER_SNAPSHOT_FEATURE_GATE",
+    "data": {
+      "status": 1,
+      "rolloutPercentage": 100
+    }
+  },
+  {
+    "templateId": "BULK_HEAL_QUEST_PROGRESS_AGGREGATION_FEATURE_GATE_SR",
     "data": {
       "status": 1,
       "rolloutPercentage": 100
@@ -158,6 +186,13 @@
     "templateId": "COMBAT_VNEXT_SHOW_MINIOR_IBFC_TOASTS_FEATURE_GATE",
     "data": {
       "status": 1,
+      "rolloutPercentage": 100
+    }
+  },
+  {
+    "templateId": "COMBAT_VNEXT_STAT_CHANGE_BATCHING_FEATURE_GATE",
+    "data": {
+      "status": 1810303719,
       "rolloutPercentage": 100
     }
   },
@@ -450,6 +485,13 @@
     }
   },
   {
+    "templateId": "LEGACY_TAPPABLE_QUEST_PROGRESS_AGGREGATION_FEATURE_GATE_SR",
+    "data": {
+      "status": 1,
+      "rolloutPercentage": 100
+    }
+  },
+  {
     "templateId": "LOCATION_CARD_BACKGROUNDS_FEATURE_GATE",
     "data": {
       "status": 1,
@@ -642,6 +684,13 @@
     }
   },
   {
+    "templateId": "NEARBY_SILHOUTTE_FORM_FEATURE_GATE_SR",
+    "data": {
+      "status": 1,
+      "rolloutPercentage": 100
+    }
+  },
+  {
     "templateId": "NEUTRAL_AVATAR_SHOP_ITEM_FORCE_REBUILD_OPTIMIZATION_FEATURE_GATE",
     "data": {
       "status": 1,
@@ -787,6 +836,13 @@
     }
   },
   {
+    "templateId": "ROUTE_TRAVEL_QUEST_PROGRESS_AGGREGATION_FEATURE_GATE_SR",
+    "data": {
+      "status": 1,
+      "rolloutPercentage": 100
+    }
+  },
+  {
     "templateId": "RUN_CELL_UPDATES_BACKGROUND_THREAD_PROCESSING_FEATURE_GATE",
     "data": {
       "status": 384957201,
@@ -809,6 +865,13 @@
   },
   {
     "templateId": "SEAF_GET_MAP_OBJECTS_RATE_LIMITER_FEATURE_GATE",
+    "data": {
+      "status": 1,
+      "rolloutPercentage": 100
+    }
+  },
+  {
+    "templateId": "SKIP_ZERO_LEVEL_BADGES_FEATURE_GATE_SR",
     "data": {
       "status": 1,
       "rolloutPercentage": 100
@@ -1096,6 +1159,13 @@
   },
   {
     "templateId": "WAYFARER_SUBMIT_LINKOUT_FEATURE_GATE",
+    "data": {
+      "status": 1,
+      "rolloutPercentage": 100
+    }
+  },
+  {
+    "templateId": "ZYGARDE_CELL_REWARD_CELL_CAP_FEATURE_GATE_SR",
     "data": {
       "status": 1,
       "rolloutPercentage": 100

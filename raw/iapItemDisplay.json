@@ -73,52 +73,6 @@
     }
   },
   {
-    "templateId": "GOWA2026_DELUXE_EVENT_PASS_TRACK_UNLOCK",
-    "data": {
-      "sku": "pgorelease.gowa2026_event_pass_track_unlock",
-      "sortOrder": 2,
-      "title": "event_pass_gowa_2025_premium_title",
-      "description": "gotour_2025_deluxe_event_pass_track_unlock_description",
-      "skuEnableTime": "2025-10-14T00:00:00",
-      "skuDisableTime": "2026-11-17T23:59:59",
-      "skuEnableTimeUtcMs": "1760400000000",
-      "skuDisableTimeUtcMs": "1794959999000",
-      "imageUrl": "https://storage.googleapis.com/prod-public-images/ic_eventpass_deluxe.png",
-      "useEnvironmentPrefix": true
-    }
-  },
-  {
-    "templateId": "GOWA2026_DELUXE_EVENT_PASS_TRACK_UNLOCK_PLUS_POINTS",
-    "data": {
-      "sku": "pgorelease.gowa2026_event_pass_track_unlock_plus_points",
-      "sortOrder": 3,
-      "title": "gowa_2025_deluxe_event_pass_track_unlock_plus_points_title",
-      "description": "gotour_2025_deluxe_event_pass_track_unlock_plus_points_description",
-      "skuEnableTime": "2025-10-14T00:00:00",
-      "skuDisableTime": "2026-11-17T23:59:59",
-      "skuEnableTimeUtcMs": "1760400000000",
-      "skuDisableTimeUtcMs": "1794959999000",
-      "imageUrl": "https://storage.googleapis.com/prod-public-images/ic_eventpass_deluxe_plus_points.png",
-      "useEnvironmentPrefix": true
-    }
-  },
-  {
-    "templateId": "GOWA2026_EVENT_PASS_STORE_REDIRECT",
-    "data": {
-      "sku": "pgorelease.gowa2026_event_pass_track_redirect",
-      "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
-      "sortOrder": 1,
-      "title": "event_pass_gowa_2025_premium_title",
-      "description": "event_pass_gowa_2025_premium_title",
-      "skuEnableTime": "2025-10-14T00:00:00",
-      "skuDisableTime": "2026-11-17T23:59:59",
-      "skuEnableTimeUtcMs": "1760400000000",
-      "skuDisableTimeUtcMs": "1794959999000",
-      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fcfa12bb9_PGO-GOWA_2026_GO_Pass_Deluxe.jpg",
-      "useEnvironmentPrefix": true
-    }
-  },
-  {
     "templateId": "GO_SAFARI_BALL_IAP_10",
     "data": {
       "sku": "pgorelease.safariball.10",
@@ -6659,10 +6613,13 @@
       "sku": "bundle.cd2022.1",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 1,
-      "hidden": true,
       "sale": true,
-      "spriteId": "bundle.halloween.small.1",
-      "title": "bundle.halloween.small.1_title"
+      "spriteId": "bundle.general4.small.1",
+      "title": "bundle.general4.small.1_title",
+      "skuEnableTime": "2022-10-13T12:00:00",
+      "skuDisableTime": "2026-11-22T23:59:59",
+      "skuEnableTimeUtcMs": "1665662400000",
+      "skuDisableTimeUtcMs": "1795391999000"
     }
   },
   {
@@ -6671,10 +6628,13 @@
       "sku": "bundle.cd2022.2",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 2,
-      "hidden": true,
       "sale": true,
-      "spriteId": "bundle.halloween.adventure.1",
-      "title": "bundle.halloween.adventure.1_title"
+      "spriteId": "bundle.general1.medium.1",
+      "title": "bundle.general1.medium.1_title",
+      "skuEnableTime": "2022-10-13T12:00:00",
+      "skuDisableTime": "2026-11-22T23:59:59",
+      "skuEnableTimeUtcMs": "1665662400000",
+      "skuDisableTimeUtcMs": "1795391999000"
     }
   },
   {
@@ -9246,7 +9206,6 @@
       "sku": "pgorelease.general2.ticket.3",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 2,
-      "hidden": true,
       "spriteId": "general1.ticket.2",
       "title": "general1.ticket_CD_Pawniard26_title",
       "skuEnableTime": "2019-03-14T08:00:00",
@@ -9279,6 +9238,20 @@
       "sale": true,
       "spriteId": "bundle.general5.small.1",
       "title": "bundle.general1.small.1_title"
+    }
+  },
+  {
+    "templateId": "gotourticket.1",
+    "data": {
+      "sku": "pgorelease.gotourticket.1",
+      "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
+      "sortOrder": 1,
+      "hidden": true,
+      "spriteId": "general2.ticket.5",
+      "title": "GOTour_2027_ticket_title",
+      "description": "item_global_event_ticket_desc_GOTour2027",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F31519c82_pgo-generic-ticket-banner-682x384.jpg",
+      "useEnvironmentPrefix": true
     }
   },
   {

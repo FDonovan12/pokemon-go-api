@@ -477,6 +477,93 @@
     "familyId": "Pikachu"
   },
   {
+    "pokemonId": "SANDSLASH",
+    "name": "Sablaireau",
+    "dexNumber": 28,
+    "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/28.png",
+    "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/28.png",
+    "slug": "sablaireau",
+    "types": [
+      "Sol"
+    ],
+    "stats": {
+      "baseStamina": 181,
+      "baseAttack": 182,
+      "baseDefense": 175
+    },
+    "quickMoves": {
+      "METAL_CLAW_FAST": {
+        "id": "V0228_MOVE_METAL_CLAW_FAST",
+        "movementId": "METAL_CLAW_FAST",
+        "pokemonType": "Acier",
+        "power": 6,
+        "durationMs": 500,
+        "energyDelta": 5,
+        "vfxName": "metal_claw_fast",
+        "names": {
+          "fr": "Griffe Acier"
+        }
+      },
+      "MUD_SHOT_FAST": {
+        "id": "V0216_MOVE_MUD_SHOT_FAST",
+        "movementId": "MUD_SHOT_FAST",
+        "pokemonType": "Sol",
+        "power": 4,
+        "durationMs": 500,
+        "energyDelta": 6,
+        "vfxName": "mud_shot_fast",
+        "names": {
+          "fr": "Tir de Boue"
+        }
+      },
+      "SAND_ATTACK_FAST": {
+        "id": "V0403_MOVE_SAND_ATTACK_FAST",
+        "movementId": "SAND_ATTACK_FAST",
+        "pokemonType": "Sol",
+        "power": 4,
+        "durationMs": 500,
+        "energyDelta": 7,
+        "vfxName": "sand_attack",
+        "names": {
+          "fr": "Jet de Sable"
+        }
+      }
+    },
+    "dynamaxMove": [
+      {
+        "id": "VN_BM_018",
+        "movementId": "VN_BM_018",
+        "pokemonType": "Acier",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_steelspike",
+        "names": {
+          "fr": "Métallomax"
+        }
+      },
+      {
+        "id": "VN_BM_015",
+        "movementId": "VN_BM_015",
+        "pokemonType": "Sol",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_quake",
+        "names": {
+          "fr": "Sismomax"
+        }
+      }
+    ],
+    "familyId": "Sabelette"
+  },
+  {
     "pokemonId": "ARCANINE",
     "name": "Arcanin",
     "dexNumber": 59,
