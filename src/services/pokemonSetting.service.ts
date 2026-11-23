@@ -1,17 +1,13 @@
-import { PokemonSettings } from '#generated/data/api/raw.type.js';
 import {
     PokemonSetting,
     RaidMove,
     SameTempEvoOverride,
 } from '#generated/data/api/intermediate.type.js';
+import { FormSettings, PokemonSettings } from '#generated/data/api/raw.type.js';
 import { RawGameMaster } from '#generated/raw.index.js';
-import { getRaidMove } from './raidMove.service.js';
 import { pokeApiClient } from '../utils/pokeApiClient.js';
-import {
-    extractDexNumberFromId,
-    getImage,
-    pokemonTypeToFrench,
-} from '../utils/utils.js';
+import { extractDexNumberFromId, getImage, pokemonTypeToFrench } from '../utils/utils.js';
+import { getRaidMove } from './raidMove.service.js';
 
 let cachedResult: Promise<any> | null = null;
 type ChargedMove = RaidMove['chargedMove'];
@@ -158,6 +154,7 @@ class PokemonSettingGeneratorService {
 
     async getFileContent(): Promise<any> {
         const raw: PokemonSettings[] = await RawGameMaster.getPokemonSettings();
+        const rawForm: FormSettings[] = await RawGameMaster.getFormSettings();
         const rawPokemons: any[] = [];
         const filteredRaw = raw.filter(
             (pokemon) => pokemon.templateId !== 'V0849_POKEMON_TOXTRICITY',
@@ -191,6 +188,14 @@ class PokemonSettingGeneratorService {
                             (await this.fetchFormFrenchName(formField.slugify())) ??
                             slug.titleCase();
                     }
+
+                    const allPokemonForm = rawForm.find(
+                        (form) => form.data.pokemon === pokemon.data.pokemonId,
+                    );
+                    const formFind = allPokemonForm?.data.forms?.find(
+                        (form) => form.form === formField,
+                    );
+                    const isCostume = formFind?.isCostume ?? false;
 
                     rawPokemons.push({
                         id: pokemon.templateId,
@@ -233,6 +238,7 @@ class PokemonSettingGeneratorService {
                         isMythical: pokemon.data.pokemonClass === 'POKEMON_CLASS_MYTHIC',
                         isUltraBeast: pokemon.data.pokemonClass === 'POKEMON_CLASS_ULTRA_BEAST',
                         form: formField ?? 'base',
+                        isCostume,
                         parentPokemonId: pokemon.data.parentPokemonId,
                         encounter: {
                             stardustCaptureReward:
