@@ -28,6 +28,7 @@ export interface BaseElement {
     isMythical:          boolean;
     isUltraBeast:        boolean;
     form:                string;
+    isCostume:           boolean;
     encounter:           Encounter;
     mega?:               Mega[];
     parentPokemonId?:    string;
@@ -155,6 +156,7 @@ export interface PurpleBase {
     isMythical:          boolean;
     isUltraBeast:        boolean;
     form:                string;
+    isCostume:           boolean;
     encounter:           Encounter;
     parentPokemonId?:    string;
     tempEvoOverrides?:   PurpleTempEvoOverride[];
