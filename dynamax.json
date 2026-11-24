@@ -58,7 +58,8 @@
         }
       }
     ],
-    "familyId": "Bulbizarre"
+    "familyId": "Bulbizarre",
+    "form": "base"
   },
   {
     "pokemonId": "CHARIZARD",
@@ -185,7 +186,8 @@
         }
       }
     ],
-    "familyId": "Salamèche"
+    "familyId": "Salamèche",
+    "form": "base"
   },
   {
     "pokemonId": "BLASTOISE",
@@ -287,7 +289,8 @@
         }
       }
     ],
-    "familyId": "Carapuce"
+    "familyId": "Carapuce",
+    "form": "base"
   },
   {
     "pokemonId": "BUTTERFREE",
@@ -375,7 +378,552 @@
         }
       }
     ],
-    "familyId": "Chenipan"
+    "familyId": "Chenipan",
+    "form": "base"
+  },
+  {
+    "pokemonId": "PIKACHU",
+    "name": "Pikachu",
+    "dexNumber": 25,
+    "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/25.png",
+    "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/25.png",
+    "slug": "pikachu-bb-2026",
+    "types": [
+      "Électrik"
+    ],
+    "stats": {
+      "baseStamina": 111,
+      "baseAttack": 112,
+      "baseDefense": 96
+    },
+    "quickMoves": {
+      "THUNDER_SHOCK_FAST": {
+        "id": "V0205_MOVE_THUNDER_SHOCK_FAST",
+        "movementId": "THUNDER_SHOCK_FAST",
+        "pokemonType": "Électrik",
+        "power": 4,
+        "durationMs": 500,
+        "energyDelta": 7,
+        "vfxName": "thunder_shock_fast",
+        "names": {
+          "fr": "Éclair"
+        }
+      },
+      "QUICK_ATTACK_FAST": {
+        "id": "V0219_MOVE_QUICK_ATTACK_FAST",
+        "movementId": "QUICK_ATTACK_FAST",
+        "pokemonType": "Normal",
+        "power": 10,
+        "durationMs": 1000,
+        "energyDelta": 13,
+        "vfxName": "quick_attack_fast",
+        "names": {
+          "fr": "Vive-Attaque"
+        }
+      }
+    },
+    "dynamaxMove": [
+      {
+        "id": "VN_BM_003",
+        "movementId": "VN_BM_003",
+        "pokemonType": "Électrik",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_lightning",
+        "names": {
+          "fr": "Fulguromax"
+        }
+      },
+      {
+        "id": "VN_BM_004",
+        "movementId": "VN_BM_004",
+        "pokemonType": "Normal",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_strike",
+        "names": {
+          "fr": "Normalomax"
+        }
+      }
+    ],
+    "familyId": "Pikachu",
+    "form": "PIKACHU_BB_2026"
+  },
+  {
+    "pokemonId": "PIKACHU",
+    "name": "Pikachu",
+    "dexNumber": 25,
+    "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/25.png",
+    "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/25.png",
+    "slug": "pikachu-costume-2020",
+    "types": [
+      "Électrik"
+    ],
+    "stats": {
+      "baseStamina": 111,
+      "baseAttack": 112,
+      "baseDefense": 96
+    },
+    "quickMoves": {
+      "THUNDER_SHOCK_FAST": {
+        "id": "V0205_MOVE_THUNDER_SHOCK_FAST",
+        "movementId": "THUNDER_SHOCK_FAST",
+        "pokemonType": "Électrik",
+        "power": 4,
+        "durationMs": 500,
+        "energyDelta": 7,
+        "vfxName": "thunder_shock_fast",
+        "names": {
+          "fr": "Éclair"
+        }
+      },
+      "QUICK_ATTACK_FAST": {
+        "id": "V0219_MOVE_QUICK_ATTACK_FAST",
+        "movementId": "QUICK_ATTACK_FAST",
+        "pokemonType": "Normal",
+        "power": 10,
+        "durationMs": 1000,
+        "energyDelta": 13,
+        "vfxName": "quick_attack_fast",
+        "names": {
+          "fr": "Vive-Attaque"
+        }
+      }
+    },
+    "dynamaxMove": [
+      {
+        "id": "VN_BM_003",
+        "movementId": "VN_BM_003",
+        "pokemonType": "Électrik",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_lightning",
+        "names": {
+          "fr": "Fulguromax"
+        }
+      },
+      {
+        "id": "VN_BM_004",
+        "movementId": "VN_BM_004",
+        "pokemonType": "Normal",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_strike",
+        "names": {
+          "fr": "Normalomax"
+        }
+      }
+    ],
+    "familyId": "Pikachu",
+    "form": "PIKACHU_COSTUME_2020"
+  },
+  {
+    "pokemonId": "PIKACHU",
+    "name": "Pikachu",
+    "dexNumber": 25,
+    "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/25.png",
+    "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/25.png",
+    "slug": "pikachu-flying-01",
+    "types": [
+      "Électrik"
+    ],
+    "stats": {
+      "baseStamina": 111,
+      "baseAttack": 112,
+      "baseDefense": 96
+    },
+    "quickMoves": {
+      "THUNDER_SHOCK_FAST": {
+        "id": "V0205_MOVE_THUNDER_SHOCK_FAST",
+        "movementId": "THUNDER_SHOCK_FAST",
+        "pokemonType": "Électrik",
+        "power": 4,
+        "durationMs": 500,
+        "energyDelta": 7,
+        "vfxName": "thunder_shock_fast",
+        "names": {
+          "fr": "Éclair"
+        }
+      },
+      "QUICK_ATTACK_FAST": {
+        "id": "V0219_MOVE_QUICK_ATTACK_FAST",
+        "movementId": "QUICK_ATTACK_FAST",
+        "pokemonType": "Normal",
+        "power": 10,
+        "durationMs": 1000,
+        "energyDelta": 13,
+        "vfxName": "quick_attack_fast",
+        "names": {
+          "fr": "Vive-Attaque"
+        }
+      },
+      "PRESENT_FAST": {
+        "id": "V0291_MOVE_PRESENT_FAST",
+        "movementId": "PRESENT_FAST",
+        "pokemonType": "Normal",
+        "power": 6,
+        "durationMs": 1500,
+        "energyDelta": 23,
+        "vfxName": "present_fast",
+        "names": {
+          "fr": "Cadeau"
+        }
+      }
+    },
+    "dynamaxMove": [
+      {
+        "id": "VN_BM_003",
+        "movementId": "VN_BM_003",
+        "pokemonType": "Électrik",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_lightning",
+        "names": {
+          "fr": "Fulguromax"
+        }
+      },
+      {
+        "id": "VN_BM_004",
+        "movementId": "VN_BM_004",
+        "pokemonType": "Normal",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_strike",
+        "names": {
+          "fr": "Normalomax"
+        }
+      }
+    ],
+    "familyId": "Pikachu",
+    "form": "PIKACHU_FLYING_01"
+  },
+  {
+    "pokemonId": "PIKACHU",
+    "name": "Pikachu",
+    "dexNumber": 25,
+    "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/25.png",
+    "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/25.png",
+    "slug": "pikachu-horizons",
+    "types": [
+      "Électrik"
+    ],
+    "stats": {
+      "baseStamina": 111,
+      "baseAttack": 112,
+      "baseDefense": 96
+    },
+    "quickMoves": {
+      "THUNDER_SHOCK_FAST": {
+        "id": "V0205_MOVE_THUNDER_SHOCK_FAST",
+        "movementId": "THUNDER_SHOCK_FAST",
+        "pokemonType": "Électrik",
+        "power": 4,
+        "durationMs": 500,
+        "energyDelta": 7,
+        "vfxName": "thunder_shock_fast",
+        "names": {
+          "fr": "Éclair"
+        }
+      },
+      "QUICK_ATTACK_FAST": {
+        "id": "V0219_MOVE_QUICK_ATTACK_FAST",
+        "movementId": "QUICK_ATTACK_FAST",
+        "pokemonType": "Normal",
+        "power": 10,
+        "durationMs": 1000,
+        "energyDelta": 13,
+        "vfxName": "quick_attack_fast",
+        "names": {
+          "fr": "Vive-Attaque"
+        }
+      }
+    },
+    "dynamaxMove": [
+      {
+        "id": "VN_BM_003",
+        "movementId": "VN_BM_003",
+        "pokemonType": "Électrik",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_lightning",
+        "names": {
+          "fr": "Fulguromax"
+        }
+      },
+      {
+        "id": "VN_BM_004",
+        "movementId": "VN_BM_004",
+        "pokemonType": "Normal",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_strike",
+        "names": {
+          "fr": "Normalomax"
+        }
+      }
+    ],
+    "familyId": "Pikachu",
+    "form": "PIKACHU_HORIZONS"
+  },
+  {
+    "pokemonId": "PIKACHU",
+    "name": "Pikachu Star",
+    "dexNumber": 25,
+    "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/10082.png",
+    "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/10082.png",
+    "slug": "pikachu-pop-star",
+    "types": [
+      "Électrik"
+    ],
+    "stats": {
+      "baseStamina": 111,
+      "baseAttack": 112,
+      "baseDefense": 96
+    },
+    "quickMoves": {
+      "THUNDER_SHOCK_FAST": {
+        "id": "V0205_MOVE_THUNDER_SHOCK_FAST",
+        "movementId": "THUNDER_SHOCK_FAST",
+        "pokemonType": "Électrik",
+        "power": 4,
+        "durationMs": 500,
+        "energyDelta": 7,
+        "vfxName": "thunder_shock_fast",
+        "names": {
+          "fr": "Éclair"
+        }
+      },
+      "CHARM_FAST": {
+        "id": "V0320_MOVE_CHARM_FAST",
+        "movementId": "CHARM_FAST",
+        "pokemonType": "Fée",
+        "power": 20,
+        "durationMs": 1500,
+        "energyDelta": 11,
+        "vfxName": "charm_fast",
+        "names": {
+          "fr": "Charme"
+        }
+      }
+    },
+    "dynamaxMove": [
+      {
+        "id": "VN_BM_003",
+        "movementId": "VN_BM_003",
+        "pokemonType": "Électrik",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_lightning",
+        "names": {
+          "fr": "Fulguromax"
+        }
+      },
+      {
+        "id": "VN_BM_011",
+        "movementId": "VN_BM_011",
+        "pokemonType": "Fée",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_starfall",
+        "names": {
+          "fr": "Enchantomax"
+        }
+      }
+    ],
+    "familyId": "Pikachu",
+    "form": "PIKACHU_POP_STAR"
+  },
+  {
+    "pokemonId": "PIKACHU",
+    "name": "Pikachu Rockeur",
+    "dexNumber": 25,
+    "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/10080.png",
+    "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/10080.png",
+    "slug": "pikachu-rock-star",
+    "types": [
+      "Électrik"
+    ],
+    "stats": {
+      "baseStamina": 111,
+      "baseAttack": 112,
+      "baseDefense": 96
+    },
+    "quickMoves": {
+      "THUNDER_SHOCK_FAST": {
+        "id": "V0205_MOVE_THUNDER_SHOCK_FAST",
+        "movementId": "THUNDER_SHOCK_FAST",
+        "pokemonType": "Électrik",
+        "power": 4,
+        "durationMs": 500,
+        "energyDelta": 7,
+        "vfxName": "thunder_shock_fast",
+        "names": {
+          "fr": "Éclair"
+        }
+      },
+      "CHARM_FAST": {
+        "id": "V0320_MOVE_CHARM_FAST",
+        "movementId": "CHARM_FAST",
+        "pokemonType": "Fée",
+        "power": 20,
+        "durationMs": 1500,
+        "energyDelta": 11,
+        "vfxName": "charm_fast",
+        "names": {
+          "fr": "Charme"
+        }
+      }
+    },
+    "dynamaxMove": [
+      {
+        "id": "VN_BM_003",
+        "movementId": "VN_BM_003",
+        "pokemonType": "Électrik",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_lightning",
+        "names": {
+          "fr": "Fulguromax"
+        }
+      },
+      {
+        "id": "VN_BM_011",
+        "movementId": "VN_BM_011",
+        "pokemonType": "Fée",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_starfall",
+        "names": {
+          "fr": "Enchantomax"
+        }
+      }
+    ],
+    "familyId": "Pikachu",
+    "form": "PIKACHU_ROCK_STAR"
+  },
+  {
+    "pokemonId": "PIKACHU",
+    "name": "Pikachu",
+    "dexNumber": 25,
+    "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/25.png",
+    "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/25.png",
+    "slug": "pikachu-vs-2019",
+    "types": [
+      "Électrik"
+    ],
+    "stats": {
+      "baseStamina": 111,
+      "baseAttack": 112,
+      "baseDefense": 96
+    },
+    "quickMoves": {
+      "THUNDER_SHOCK_FAST": {
+        "id": "V0205_MOVE_THUNDER_SHOCK_FAST",
+        "movementId": "THUNDER_SHOCK_FAST",
+        "pokemonType": "Électrik",
+        "power": 4,
+        "durationMs": 500,
+        "energyDelta": 7,
+        "vfxName": "thunder_shock_fast",
+        "names": {
+          "fr": "Éclair"
+        }
+      },
+      "CHARM_FAST": {
+        "id": "V0320_MOVE_CHARM_FAST",
+        "movementId": "CHARM_FAST",
+        "pokemonType": "Fée",
+        "power": 20,
+        "durationMs": 1500,
+        "energyDelta": 11,
+        "vfxName": "charm_fast",
+        "names": {
+          "fr": "Charme"
+        }
+      }
+    },
+    "dynamaxMove": [
+      {
+        "id": "VN_BM_003",
+        "movementId": "VN_BM_003",
+        "pokemonType": "Électrik",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_lightning",
+        "names": {
+          "fr": "Fulguromax"
+        }
+      },
+      {
+        "id": "VN_BM_011",
+        "movementId": "VN_BM_011",
+        "pokemonType": "Fée",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_starfall",
+        "names": {
+          "fr": "Enchantomax"
+        }
+      }
+    ],
+    "familyId": "Pikachu",
+    "form": "PIKACHU_VS_2019"
   },
   {
     "pokemonId": "RAICHU",
@@ -474,22 +1022,24 @@
         }
       }
     ],
-    "familyId": "Pikachu"
+    "familyId": "Pikachu",
+    "form": "base"
   },
   {
     "pokemonId": "SANDSLASH",
-    "name": "Sablaireau",
+    "name": "Sablaireau d’Alola",
     "dexNumber": 28,
-    "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/28.png",
-    "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/28.png",
-    "slug": "sablaireau",
+    "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/10102.png",
+    "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/10102.png",
+    "slug": "sablaireau-alola",
     "types": [
-      "Sol"
+      "Glace",
+      "Acier"
     ],
     "stats": {
       "baseStamina": 181,
-      "baseAttack": 182,
-      "baseDefense": 175
+      "baseAttack": 177,
+      "baseDefense": 195
     },
     "quickMoves": {
       "METAL_CLAW_FAST": {
@@ -504,28 +1054,28 @@
           "fr": "Griffe Acier"
         }
       },
-      "MUD_SHOT_FAST": {
-        "id": "V0216_MOVE_MUD_SHOT_FAST",
-        "movementId": "MUD_SHOT_FAST",
-        "pokemonType": "Sol",
-        "power": 4,
-        "durationMs": 500,
-        "energyDelta": 6,
-        "vfxName": "mud_shot_fast",
+      "POWDER_SNOW_FAST": {
+        "id": "V0244_MOVE_POWDER_SNOW_FAST",
+        "movementId": "POWDER_SNOW_FAST",
+        "pokemonType": "Glace",
+        "power": 6,
+        "durationMs": 1000,
+        "energyDelta": 15,
+        "vfxName": "powder_snow_fast",
         "names": {
-          "fr": "Tir de Boue"
+          "fr": "Poudreuse"
         }
       },
-      "SAND_ATTACK_FAST": {
-        "id": "V0403_MOVE_SAND_ATTACK_FAST",
-        "movementId": "SAND_ATTACK_FAST",
-        "pokemonType": "Sol",
-        "power": 4,
+      "SHADOW_CLAW_FAST": {
+        "id": "V0213_MOVE_SHADOW_CLAW_FAST",
+        "movementId": "SHADOW_CLAW_FAST",
+        "pokemonType": "Spectre",
+        "power": 6,
         "durationMs": 500,
-        "energyDelta": 7,
-        "vfxName": "sand_attack",
+        "energyDelta": 4,
+        "vfxName": "shadow_claw_fast",
         "names": {
-          "fr": "Jet de Sable"
+          "fr": "Griffe Ombre"
         }
       }
     },
@@ -546,22 +1096,38 @@
         }
       },
       {
-        "id": "VN_BM_015",
-        "movementId": "VN_BM_015",
-        "pokemonType": "Sol",
+        "id": "VN_BM_007",
+        "movementId": "VN_BM_007",
+        "pokemonType": "Glace",
         "powerLevels": [
           250,
           300,
           350,
           450
         ],
-        "vfxName": "max_quake",
+        "vfxName": "max_hailstorm",
         "names": {
-          "fr": "Sismomax"
+          "fr": "Cryomax"
+        }
+      },
+      {
+        "id": "VN_BM_006",
+        "movementId": "VN_BM_006",
+        "pokemonType": "Spectre",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_phantasm",
+        "names": {
+          "fr": "Spectromax"
         }
       }
     ],
-    "familyId": "Sabelette"
+    "familyId": "Sabelette",
+    "form": "SANDSLASH_ALOLA"
   },
   {
     "pokemonId": "ARCANINE",
@@ -675,7 +1241,8 @@
         }
       }
     ],
-    "familyId": "Caninos"
+    "familyId": "Caninos",
+    "form": "base"
   },
   {
     "pokemonId": "ALAKAZAM",
@@ -762,7 +1329,8 @@
         }
       }
     ],
-    "familyId": "Abra"
+    "familyId": "Abra",
+    "form": "base"
   },
   {
     "pokemonId": "MACHAMP",
@@ -849,7 +1417,8 @@
         }
       }
     ],
-    "familyId": "Machoc"
+    "familyId": "Machoc",
+    "form": "base"
   },
   {
     "pokemonId": "GENGAR",
@@ -949,7 +1518,8 @@
         }
       }
     ],
-    "familyId": "Fantominus"
+    "familyId": "Fantominus",
+    "form": "base"
   },
   {
     "pokemonId": "KINGLER",
@@ -1051,7 +1621,8 @@
         }
       }
     ],
-    "familyId": "Krabby"
+    "familyId": "Krabby",
+    "form": "base"
   },
   {
     "pokemonId": "HITMONLEE",
@@ -1123,7 +1694,8 @@
         }
       }
     ],
-    "familyId": "Debugant"
+    "familyId": "Debugant",
+    "form": "base"
   },
   {
     "pokemonId": "HITMONCHAN",
@@ -1210,7 +1782,8 @@
         }
       }
     ],
-    "familyId": "Debugant"
+    "familyId": "Debugant",
+    "form": "base"
   },
   {
     "pokemonId": "STARMIE",
@@ -1325,7 +1898,8 @@
         }
       }
     ],
-    "familyId": "Stari"
+    "familyId": "Stari",
+    "form": "base"
   },
   {
     "pokemonId": "GYARADOS",
@@ -1440,7 +2014,8 @@
         }
       }
     ],
-    "familyId": "Magicarpe"
+    "familyId": "Magicarpe",
+    "form": "base"
   },
   {
     "pokemonId": "LAPRAS",
@@ -1555,7 +2130,8 @@
         }
       }
     ],
-    "familyId": "Lokhlass"
+    "familyId": "Lokhlass",
+    "form": "base"
   },
   {
     "pokemonId": "VAPOREON",
@@ -1603,7 +2179,8 @@
         }
       }
     ],
-    "familyId": "Évoli"
+    "familyId": "Évoli",
+    "form": "base"
   },
   {
     "pokemonId": "JOLTEON",
@@ -1663,7 +2240,8 @@
         }
       }
     ],
-    "familyId": "Évoli"
+    "familyId": "Évoli",
+    "form": "base"
   },
   {
     "pokemonId": "FLAREON",
@@ -1723,7 +2301,8 @@
         }
       }
     ],
-    "familyId": "Évoli"
+    "familyId": "Évoli",
+    "form": "base"
   },
   {
     "pokemonId": "OMASTAR",
@@ -1826,7 +2405,8 @@
         }
       }
     ],
-    "familyId": "Amonita"
+    "familyId": "Amonita",
+    "form": "base"
   },
   {
     "pokemonId": "KABUTOPS",
@@ -1956,7 +2536,8 @@
         }
       }
     ],
-    "familyId": "Kabuto"
+    "familyId": "Kabuto",
+    "form": "base"
   },
   {
     "pokemonId": "SNORLAX",
@@ -2070,7 +2651,8 @@
         }
       }
     ],
-    "familyId": "Ronflex"
+    "familyId": "Ronflex",
+    "form": "base"
   },
   {
     "pokemonId": "ARTICUNO",
@@ -2143,7 +2725,8 @@
         }
       }
     ],
-    "familyId": "Artikodin"
+    "familyId": "Artikodin",
+    "form": "base"
   },
   {
     "pokemonId": "ZAPDOS",
@@ -2204,7 +2787,8 @@
         }
       }
     ],
-    "familyId": "Électhor"
+    "familyId": "Électhor",
+    "form": "base"
   },
   {
     "pokemonId": "MOLTRES",
@@ -2280,7 +2864,8 @@
         }
       }
     ],
-    "familyId": "Sulfura"
+    "familyId": "Sulfura",
+    "form": "base"
   },
   {
     "pokemonId": "NOCTOWL",
@@ -2356,7 +2941,8 @@
         }
       }
     ],
-    "familyId": "Hoothoot"
+    "familyId": "Hoothoot",
+    "form": "base"
   },
   {
     "pokemonId": "ESPEON",
@@ -2416,7 +3002,8 @@
         }
       }
     ],
-    "familyId": "Évoli"
+    "familyId": "Évoli",
+    "form": "base"
   },
   {
     "pokemonId": "UMBREON",
@@ -2476,7 +3063,8 @@
         }
       }
     ],
-    "familyId": "Évoli"
+    "familyId": "Évoli",
+    "form": "base"
   },
   {
     "pokemonId": "SHUCKLE",
@@ -2552,7 +3140,8 @@
         }
       }
     ],
-    "familyId": "Caratroc"
+    "familyId": "Caratroc",
+    "form": "base"
   },
   {
     "pokemonId": "HITMONTOP",
@@ -2612,7 +3201,8 @@
         }
       }
     ],
-    "familyId": "Debugant"
+    "familyId": "Debugant",
+    "form": "base"
   },
   {
     "pokemonId": "BLISSEY",
@@ -2687,7 +3277,8 @@
         }
       }
     ],
-    "familyId": "Leveinard"
+    "familyId": "Leveinard",
+    "form": "base"
   },
   {
     "pokemonId": "RAIKOU",
@@ -2747,7 +3338,8 @@
         }
       }
     ],
-    "familyId": "Raikou"
+    "familyId": "Raikou",
+    "form": "base"
   },
   {
     "pokemonId": "ENTEI",
@@ -2807,7 +3399,8 @@
         }
       }
     ],
-    "familyId": "Entei"
+    "familyId": "Entei",
+    "form": "base"
   },
   {
     "pokemonId": "SUICUNE",
@@ -2963,7 +3556,8 @@
         }
       }
     ],
-    "familyId": "Suicune"
+    "familyId": "Suicune",
+    "form": "base"
   },
   {
     "pokemonId": "LUGIA",
@@ -3039,7 +3633,8 @@
         }
       }
     ],
-    "familyId": "Lugia"
+    "familyId": "Lugia",
+    "form": "base"
   },
   {
     "pokemonId": "HO_OH",
@@ -3169,7 +3764,8 @@
         }
       }
     ],
-    "familyId": "Ho-Oh"
+    "familyId": "Ho-Oh",
+    "form": "base"
   },
   {
     "pokemonId": "GARDEVOIR",
@@ -3299,7 +3895,8 @@
         }
       }
     ],
-    "familyId": "Tarsal"
+    "familyId": "Tarsal",
+    "form": "base"
   },
   {
     "pokemonId": "SABLEYE",
@@ -3375,7 +3972,8 @@
         }
       }
     ],
-    "familyId": "Ténéfix"
+    "familyId": "Ténéfix",
+    "form": "base"
   },
   {
     "pokemonId": "WAILORD",
@@ -3477,7 +4075,8 @@
         }
       }
     ],
-    "familyId": "Wailmer"
+    "familyId": "Wailmer",
+    "form": "base"
   },
   {
     "pokemonId": "FLYGON",
@@ -3565,7 +4164,8 @@
         }
       }
     ],
-    "familyId": "Kraknoix"
+    "familyId": "Kraknoix",
+    "form": "base"
   },
   {
     "pokemonId": "MILOTIC",
@@ -3640,7 +4240,8 @@
         }
       }
     ],
-    "familyId": "Barpau"
+    "familyId": "Barpau",
+    "form": "base"
   },
   {
     "pokemonId": "WALREIN",
@@ -3728,7 +4329,8 @@
         }
       }
     ],
-    "familyId": "Obalie"
+    "familyId": "Obalie",
+    "form": "base"
   },
   {
     "pokemonId": "METAGROSS",
@@ -3858,7 +4460,8 @@
         }
       }
     ],
-    "familyId": "Terhal"
+    "familyId": "Terhal",
+    "form": "base"
   },
   {
     "pokemonId": "REGIROCK",
@@ -3960,7 +4563,8 @@
         }
       }
     ],
-    "familyId": "Regirock"
+    "familyId": "Regirock",
+    "form": "base"
   },
   {
     "pokemonId": "REGICE",
@@ -4062,7 +4666,8 @@
         }
       }
     ],
-    "familyId": "Regice"
+    "familyId": "Regice",
+    "form": "base"
   },
   {
     "pokemonId": "REGISTEEL",
@@ -4164,7 +4769,8 @@
         }
       }
     ],
-    "familyId": "Registeel"
+    "familyId": "Registeel",
+    "form": "base"
   },
   {
     "pokemonId": "LATIAS",
@@ -4267,7 +4873,8 @@
         }
       }
     ],
-    "familyId": "Latias"
+    "familyId": "Latias",
+    "form": "base"
   },
   {
     "pokemonId": "LATIOS",
@@ -4343,7 +4950,8 @@
         }
       }
     ],
-    "familyId": "Latios"
+    "familyId": "Latios",
+    "form": "base"
   },
   {
     "pokemonId": "VESPIQUEN",
@@ -4458,7 +5066,8 @@
         }
       }
     ],
-    "familyId": "Apitrini"
+    "familyId": "Apitrini",
+    "form": "base"
   },
   {
     "pokemonId": "WEAVILE",
@@ -4546,7 +5155,8 @@
         }
       }
     ],
-    "familyId": "Farfuret"
+    "familyId": "Farfuret",
+    "form": "base"
   },
   {
     "pokemonId": "RHYPERIOR",
@@ -4622,7 +5232,8 @@
         }
       }
     ],
-    "familyId": "Rhinocorne"
+    "familyId": "Rhinocorne",
+    "form": "base"
   },
   {
     "pokemonId": "ELECTIVIRE",
@@ -4697,7 +5308,8 @@
         }
       }
     ],
-    "familyId": "Élektek"
+    "familyId": "Élektek",
+    "form": "base"
   },
   {
     "pokemonId": "MAGMORTAR",
@@ -4772,7 +5384,8 @@
         }
       }
     ],
-    "familyId": "Magmar"
+    "familyId": "Magmar",
+    "form": "base"
   },
   {
     "pokemonId": "LEAFEON",
@@ -4859,7 +5472,8 @@
         }
       }
     ],
-    "familyId": "Évoli"
+    "familyId": "Évoli",
+    "form": "base"
   },
   {
     "pokemonId": "GLACEON",
@@ -4919,7 +5533,8 @@
         }
       }
     ],
-    "familyId": "Évoli"
+    "familyId": "Évoli",
+    "form": "base"
   },
   {
     "pokemonId": "GALLADE",
@@ -5034,7 +5649,8 @@
         }
       }
     ],
-    "familyId": "Tarsal"
+    "familyId": "Tarsal",
+    "form": "base"
   },
   {
     "pokemonId": "UXIE",
@@ -5094,7 +5710,8 @@
         }
       }
     ],
-    "familyId": "Créhelf"
+    "familyId": "Créhelf",
+    "form": "base"
   },
   {
     "pokemonId": "MESPRIT",
@@ -5154,7 +5771,8 @@
         }
       }
     ],
-    "familyId": "Créfollet"
+    "familyId": "Créfollet",
+    "form": "base"
   },
   {
     "pokemonId": "AZELF",
@@ -5214,7 +5832,8 @@
         }
       }
     ],
-    "familyId": "Créfadet"
+    "familyId": "Créfadet",
+    "form": "base"
   },
   {
     "pokemonId": "DIALGA",
@@ -5290,7 +5909,8 @@
         }
       }
     ],
-    "familyId": "Dialga"
+    "familyId": "Dialga",
+    "form": "base"
   },
   {
     "pokemonId": "PALKIA",
@@ -5351,7 +5971,8 @@
         }
       }
     ],
-    "familyId": "Palkia"
+    "familyId": "Palkia",
+    "form": "base"
   },
   {
     "pokemonId": "UNFEZANT",
@@ -5427,7 +6048,8 @@
         }
       }
     ],
-    "familyId": "Poichigeon"
+    "familyId": "Poichigeon",
+    "form": "base"
   },
   {
     "pokemonId": "GIGALITH",
@@ -5529,7 +6151,8 @@
         }
       }
     ],
-    "familyId": "Nodulithe"
+    "familyId": "Nodulithe",
+    "form": "base"
   },
   {
     "pokemonId": "SWOOBAT",
@@ -5605,7 +6228,8 @@
         }
       }
     ],
-    "familyId": "Chovsourir"
+    "familyId": "Chovsourir",
+    "form": "base"
   },
   {
     "pokemonId": "EXCADRILL",
@@ -5693,7 +6317,8 @@
         }
       }
     ],
-    "familyId": "Rototaupe"
+    "familyId": "Rototaupe",
+    "form": "base"
   },
   {
     "pokemonId": "WHIMSICOTT",
@@ -5781,7 +6406,8 @@
         }
       }
     ],
-    "familyId": "Doudouvet"
+    "familyId": "Doudouvet",
+    "form": "base"
   },
   {
     "pokemonId": "DARMANITAN",
@@ -5868,7 +6494,8 @@
         }
       }
     ],
-    "familyId": "Darumarond"
+    "familyId": "Darumarond",
+    "form": "base"
   },
   {
     "pokemonId": "GARBODOR",
@@ -5943,7 +6570,8 @@
         }
       }
     ],
-    "familyId": "Miamiasme"
+    "familyId": "Miamiasme",
+    "form": "base"
   },
   {
     "pokemonId": "CRYOGONAL",
@@ -6003,7 +6631,8 @@
         }
       }
     ],
-    "familyId": "Hexagel"
+    "familyId": "Hexagel",
+    "form": "base"
   },
   {
     "pokemonId": "HYDREIGON",
@@ -6079,7 +6708,8 @@
         }
       }
     ],
-    "familyId": "Solochi"
+    "familyId": "Solochi",
+    "form": "base"
   },
   {
     "pokemonId": "MEOWSTIC",
@@ -6154,7 +6784,111 @@
         }
       }
     ],
-    "familyId": "Psystigri"
+    "familyId": "Psystigri",
+    "form": "base"
+  },
+  {
+    "pokemonId": "MEOWSTIC",
+    "name": "Mistigrix Femelle",
+    "dexNumber": 678,
+    "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/10025.png",
+    "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/10025.png",
+    "slug": "mistigrix-female",
+    "types": [
+      "Psy"
+    ],
+    "stats": {
+      "baseStamina": 179,
+      "baseAttack": 166,
+      "baseDefense": 167
+    },
+    "quickMoves": {
+      "CONFUSION_FAST": {
+        "id": "V0235_MOVE_CONFUSION_FAST",
+        "movementId": "CONFUSION_FAST",
+        "pokemonType": "Psy",
+        "power": 19,
+        "durationMs": 1500,
+        "energyDelta": 14,
+        "vfxName": "confusion_fast",
+        "names": {
+          "fr": "Choc Mental"
+        }
+      },
+      "CHARM_FAST": {
+        "id": "V0320_MOVE_CHARM_FAST",
+        "movementId": "CHARM_FAST",
+        "pokemonType": "Fée",
+        "power": 20,
+        "durationMs": 1500,
+        "energyDelta": 11,
+        "vfxName": "charm_fast",
+        "names": {
+          "fr": "Charme"
+        }
+      },
+      "MAGICAL_LEAF_FAST": {
+        "id": "V0357_MOVE_MAGICAL_LEAF_FAST",
+        "movementId": "MAGICAL_LEAF_FAST",
+        "pokemonType": "Plante",
+        "power": 17,
+        "durationMs": 1500,
+        "energyDelta": 17,
+        "vfxName": "magical_leaf_fast",
+        "names": {
+          "fr": "Feuille Magik"
+        }
+      }
+    },
+    "dynamaxMove": [
+      {
+        "id": "VN_BM_013",
+        "movementId": "VN_BM_013",
+        "pokemonType": "Psy",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_mindstorm",
+        "names": {
+          "fr": "Psychomax"
+        }
+      },
+      {
+        "id": "VN_BM_011",
+        "movementId": "VN_BM_011",
+        "pokemonType": "Fée",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_starfall",
+        "names": {
+          "fr": "Enchantomax"
+        }
+      },
+      {
+        "id": "VN_BM_017",
+        "movementId": "VN_BM_017",
+        "pokemonType": "Plante",
+        "powerLevels": [
+          250,
+          300,
+          350,
+          450
+        ],
+        "vfxName": "max_overgrowth",
+        "names": {
+          "fr": "Phytomax"
+        }
+      }
+    ],
+    "familyId": "Psystigri",
+    "form": "MEOWSTIC_FEMALE"
   },
   {
     "pokemonId": "MALAMAR",
@@ -6242,7 +6976,8 @@
         }
       }
     ],
-    "familyId": "Sepiatop"
+    "familyId": "Sepiatop",
+    "form": "base"
   },
   {
     "pokemonId": "SYLVEON",
@@ -6329,7 +7064,8 @@
         }
       }
     ],
-    "familyId": "Évoli"
+    "familyId": "Évoli",
+    "form": "base"
   },
   {
     "pokemonId": "TSAREENA",
@@ -6416,7 +7152,8 @@
         }
       }
     ],
-    "familyId": "Croquine"
+    "familyId": "Croquine",
+    "form": "base"
   },
   {
     "pokemonId": "PASSIMIAN",
@@ -6503,7 +7240,8 @@
         }
       }
     ],
-    "familyId": "Quartermac"
+    "familyId": "Quartermac",
+    "form": "base"
   },
   {
     "pokemonId": "DRAMPA",
@@ -6579,7 +7317,8 @@
         }
       }
     ],
-    "familyId": "Draïeul"
+    "familyId": "Draïeul",
+    "form": "base"
   },
   {
     "pokemonId": "MELMETAL",
@@ -6627,7 +7366,8 @@
         }
       }
     ],
-    "familyId": "Meltan"
+    "familyId": "Meltan",
+    "form": "base"
   },
   {
     "pokemonId": "RILLABOOM",
@@ -6702,7 +7442,8 @@
         }
       }
     ],
-    "familyId": "Ouistempo"
+    "familyId": "Ouistempo",
+    "form": "base"
   },
   {
     "pokemonId": "CINDERACE",
@@ -6777,7 +7518,8 @@
         }
       }
     ],
-    "familyId": "Flambino"
+    "familyId": "Flambino",
+    "form": "base"
   },
   {
     "pokemonId": "INTELEON",
@@ -6852,7 +7594,8 @@
         }
       }
     ],
-    "familyId": "Larméléon"
+    "familyId": "Larméléon",
+    "form": "base"
   },
   {
     "pokemonId": "GREEDENT",
@@ -6981,7 +7724,8 @@
         }
       }
     ],
-    "familyId": "Rongourmand"
+    "familyId": "Rongourmand",
+    "form": "base"
   },
   {
     "pokemonId": "CORVIKNIGHT",
@@ -7084,7 +7828,8 @@
         }
       }
     ],
-    "familyId": "Minisange"
+    "familyId": "Minisange",
+    "form": "base"
   },
   {
     "pokemonId": "DUBWOOL",
@@ -7171,7 +7916,8 @@
         }
       }
     ],
-    "familyId": "Moumouton"
+    "familyId": "Moumouton",
+    "form": "base"
   },
   {
     "pokemonId": "TOXTRICITY",
@@ -7259,7 +8005,8 @@
         }
       }
     ],
-    "familyId": "Toxizap"
+    "familyId": "Toxizap",
+    "form": "TOXTRICITY_AMPED"
   },
   {
     "pokemonId": "CENTISKORCH",
@@ -7335,7 +8082,8 @@
         }
       }
     ],
-    "familyId": "Grillepattes"
+    "familyId": "Grillepattes",
+    "form": "base"
   },
   {
     "pokemonId": "HATTERENE",
@@ -7423,7 +8171,8 @@
         }
       }
     ],
-    "familyId": "Bibichut"
+    "familyId": "Bibichut",
+    "form": "base"
   },
   {
     "pokemonId": "GRIMMSNARL",
@@ -7511,7 +8260,8 @@
         }
       }
     ],
-    "familyId": "Grimalin"
+    "familyId": "Grimalin",
+    "form": "base"
   },
   {
     "pokemonId": "FALINKS",
@@ -7571,7 +8321,8 @@
         }
       }
     ],
-    "familyId": "Hexadron"
+    "familyId": "Hexadron",
+    "form": "base"
   },
   {
     "pokemonId": "DURALUDON",
@@ -7647,7 +8398,8 @@
         }
       }
     ],
-    "familyId": "Duralugon"
+    "familyId": "Duralugon",
+    "form": "base"
   },
   {
     "pokemonId": "URSHIFU",
@@ -7735,14 +8487,15 @@
         }
       }
     ],
-    "familyId": "Wushours"
+    "familyId": "Wushours",
+    "form": "URSHIFU_SINGLE_STRIKE"
   },
   {
     "pokemonId": "URSHIFU",
     "name": "Shifours Style Mille Poings",
     "dexNumber": 892,
-    "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/892.png",
-    "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/892.png",
+    "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/10191.png",
+    "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/10191.png",
     "slug": "shifours-rapid-strike",
     "types": [
       "Combat",
@@ -7823,7 +8576,8 @@
         }
       }
     ],
-    "familyId": "Wushours"
+    "familyId": "Wushours",
+    "form": "URSHIFU_RAPID_STRIKE"
   },
   {
     "pokemonId": "REGIDRAGO",
@@ -7898,7 +8652,8 @@
         }
       }
     ],
-    "familyId": "Regidrago"
+    "familyId": "Regidrago",
+    "form": "base"
   },
   {
     "pokemonId": "VENUSAUR",
@@ -7960,6 +8715,7 @@
       }
     ],
     "familyId": "Bulbizarre",
+    "form": "base",
     "isReleased": true
   },
   {
@@ -8058,6 +8814,7 @@
       }
     ],
     "familyId": "Salamèche",
+    "form": "base",
     "isReleased": true
   },
   {
@@ -8131,6 +8888,7 @@
       }
     ],
     "familyId": "Carapuce",
+    "form": "base",
     "isReleased": true
   },
   {
@@ -8205,6 +8963,7 @@
       }
     ],
     "familyId": "Chenipan",
+    "form": "base",
     "isReleased": true
   },
   {
@@ -8278,6 +9037,453 @@
       }
     ],
     "familyId": "Pikachu",
+    "form": "base",
+    "isReleased": true
+  },
+  {
+    "pokemonId": "PIKACHU",
+    "name": "Pikachu",
+    "dexNumber": 25,
+    "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/25.png",
+    "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/25.png",
+    "slug": "pikachu-bb-2026",
+    "types": [
+      "Électrik"
+    ],
+    "stats": {
+      "baseStamina": 111,
+      "baseAttack": 112,
+      "baseDefense": 96
+    },
+    "quickMoves": {
+      "THUNDER_SHOCK_FAST": {
+        "id": "V0205_MOVE_THUNDER_SHOCK_FAST",
+        "movementId": "THUNDER_SHOCK_FAST",
+        "pokemonType": "Électrik",
+        "power": 4,
+        "durationMs": 500,
+        "energyDelta": 7,
+        "vfxName": "thunder_shock_fast",
+        "names": {
+          "fr": "Éclair"
+        }
+      },
+      "QUICK_ATTACK_FAST": {
+        "id": "V0219_MOVE_QUICK_ATTACK_FAST",
+        "movementId": "QUICK_ATTACK_FAST",
+        "pokemonType": "Normal",
+        "power": 10,
+        "durationMs": 1000,
+        "energyDelta": 13,
+        "vfxName": "quick_attack_fast",
+        "names": {
+          "fr": "Vive-Attaque"
+        }
+      }
+    },
+    "dynamaxMove": [
+      {
+        "id": "VN_BM_021",
+        "movementId": "VN_BM_021",
+        "pokemonType": "Électrik",
+        "powerLevels": [
+          350,
+          400,
+          450,
+          550
+        ],
+        "vfxName": "gmax_voltcrash",
+        "names": {
+          "fr": "Gmax Voltcrash"
+        }
+      }
+    ],
+    "familyId": "Pikachu",
+    "form": "PIKACHU_BB_2026",
+    "isReleased": true
+  },
+  {
+    "pokemonId": "PIKACHU",
+    "name": "Pikachu",
+    "dexNumber": 25,
+    "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/25.png",
+    "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/25.png",
+    "slug": "pikachu-costume-2020",
+    "types": [
+      "Électrik"
+    ],
+    "stats": {
+      "baseStamina": 111,
+      "baseAttack": 112,
+      "baseDefense": 96
+    },
+    "quickMoves": {
+      "THUNDER_SHOCK_FAST": {
+        "id": "V0205_MOVE_THUNDER_SHOCK_FAST",
+        "movementId": "THUNDER_SHOCK_FAST",
+        "pokemonType": "Électrik",
+        "power": 4,
+        "durationMs": 500,
+        "energyDelta": 7,
+        "vfxName": "thunder_shock_fast",
+        "names": {
+          "fr": "Éclair"
+        }
+      },
+      "QUICK_ATTACK_FAST": {
+        "id": "V0219_MOVE_QUICK_ATTACK_FAST",
+        "movementId": "QUICK_ATTACK_FAST",
+        "pokemonType": "Normal",
+        "power": 10,
+        "durationMs": 1000,
+        "energyDelta": 13,
+        "vfxName": "quick_attack_fast",
+        "names": {
+          "fr": "Vive-Attaque"
+        }
+      }
+    },
+    "dynamaxMove": [
+      {
+        "id": "VN_BM_021",
+        "movementId": "VN_BM_021",
+        "pokemonType": "Électrik",
+        "powerLevels": [
+          350,
+          400,
+          450,
+          550
+        ],
+        "vfxName": "gmax_voltcrash",
+        "names": {
+          "fr": "Gmax Voltcrash"
+        }
+      }
+    ],
+    "familyId": "Pikachu",
+    "form": "PIKACHU_COSTUME_2020",
+    "isReleased": true
+  },
+  {
+    "pokemonId": "PIKACHU",
+    "name": "Pikachu",
+    "dexNumber": 25,
+    "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/25.png",
+    "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/25.png",
+    "slug": "pikachu-flying-01",
+    "types": [
+      "Électrik"
+    ],
+    "stats": {
+      "baseStamina": 111,
+      "baseAttack": 112,
+      "baseDefense": 96
+    },
+    "quickMoves": {
+      "THUNDER_SHOCK_FAST": {
+        "id": "V0205_MOVE_THUNDER_SHOCK_FAST",
+        "movementId": "THUNDER_SHOCK_FAST",
+        "pokemonType": "Électrik",
+        "power": 4,
+        "durationMs": 500,
+        "energyDelta": 7,
+        "vfxName": "thunder_shock_fast",
+        "names": {
+          "fr": "Éclair"
+        }
+      },
+      "QUICK_ATTACK_FAST": {
+        "id": "V0219_MOVE_QUICK_ATTACK_FAST",
+        "movementId": "QUICK_ATTACK_FAST",
+        "pokemonType": "Normal",
+        "power": 10,
+        "durationMs": 1000,
+        "energyDelta": 13,
+        "vfxName": "quick_attack_fast",
+        "names": {
+          "fr": "Vive-Attaque"
+        }
+      },
+      "PRESENT_FAST": {
+        "id": "V0291_MOVE_PRESENT_FAST",
+        "movementId": "PRESENT_FAST",
+        "pokemonType": "Normal",
+        "power": 6,
+        "durationMs": 1500,
+        "energyDelta": 23,
+        "vfxName": "present_fast",
+        "names": {
+          "fr": "Cadeau"
+        }
+      }
+    },
+    "dynamaxMove": [
+      {
+        "id": "VN_BM_021",
+        "movementId": "VN_BM_021",
+        "pokemonType": "Électrik",
+        "powerLevels": [
+          350,
+          400,
+          450,
+          550
+        ],
+        "vfxName": "gmax_voltcrash",
+        "names": {
+          "fr": "Gmax Voltcrash"
+        }
+      }
+    ],
+    "familyId": "Pikachu",
+    "form": "PIKACHU_FLYING_01",
+    "isReleased": true
+  },
+  {
+    "pokemonId": "PIKACHU",
+    "name": "Pikachu",
+    "dexNumber": 25,
+    "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/25.png",
+    "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/25.png",
+    "slug": "pikachu-horizons",
+    "types": [
+      "Électrik"
+    ],
+    "stats": {
+      "baseStamina": 111,
+      "baseAttack": 112,
+      "baseDefense": 96
+    },
+    "quickMoves": {
+      "THUNDER_SHOCK_FAST": {
+        "id": "V0205_MOVE_THUNDER_SHOCK_FAST",
+        "movementId": "THUNDER_SHOCK_FAST",
+        "pokemonType": "Électrik",
+        "power": 4,
+        "durationMs": 500,
+        "energyDelta": 7,
+        "vfxName": "thunder_shock_fast",
+        "names": {
+          "fr": "Éclair"
+        }
+      },
+      "QUICK_ATTACK_FAST": {
+        "id": "V0219_MOVE_QUICK_ATTACK_FAST",
+        "movementId": "QUICK_ATTACK_FAST",
+        "pokemonType": "Normal",
+        "power": 10,
+        "durationMs": 1000,
+        "energyDelta": 13,
+        "vfxName": "quick_attack_fast",
+        "names": {
+          "fr": "Vive-Attaque"
+        }
+      }
+    },
+    "dynamaxMove": [
+      {
+        "id": "VN_BM_021",
+        "movementId": "VN_BM_021",
+        "pokemonType": "Électrik",
+        "powerLevels": [
+          350,
+          400,
+          450,
+          550
+        ],
+        "vfxName": "gmax_voltcrash",
+        "names": {
+          "fr": "Gmax Voltcrash"
+        }
+      }
+    ],
+    "familyId": "Pikachu",
+    "form": "PIKACHU_HORIZONS",
+    "isReleased": true
+  },
+  {
+    "pokemonId": "PIKACHU",
+    "name": "Pikachu Star",
+    "dexNumber": 25,
+    "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/25.png",
+    "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/25.png",
+    "slug": "pikachu-pop-star",
+    "types": [
+      "Électrik"
+    ],
+    "stats": {
+      "baseStamina": 111,
+      "baseAttack": 112,
+      "baseDefense": 96
+    },
+    "quickMoves": {
+      "THUNDER_SHOCK_FAST": {
+        "id": "V0205_MOVE_THUNDER_SHOCK_FAST",
+        "movementId": "THUNDER_SHOCK_FAST",
+        "pokemonType": "Électrik",
+        "power": 4,
+        "durationMs": 500,
+        "energyDelta": 7,
+        "vfxName": "thunder_shock_fast",
+        "names": {
+          "fr": "Éclair"
+        }
+      },
+      "CHARM_FAST": {
+        "id": "V0320_MOVE_CHARM_FAST",
+        "movementId": "CHARM_FAST",
+        "pokemonType": "Fée",
+        "power": 20,
+        "durationMs": 1500,
+        "energyDelta": 11,
+        "vfxName": "charm_fast",
+        "names": {
+          "fr": "Charme"
+        }
+      }
+    },
+    "dynamaxMove": [
+      {
+        "id": "VN_BM_021",
+        "movementId": "VN_BM_021",
+        "pokemonType": "Électrik",
+        "powerLevels": [
+          350,
+          400,
+          450,
+          550
+        ],
+        "vfxName": "gmax_voltcrash",
+        "names": {
+          "fr": "Gmax Voltcrash"
+        }
+      }
+    ],
+    "familyId": "Pikachu",
+    "form": "PIKACHU_POP_STAR",
+    "isReleased": true
+  },
+  {
+    "pokemonId": "PIKACHU",
+    "name": "Pikachu Rockeur",
+    "dexNumber": 25,
+    "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/25.png",
+    "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/25.png",
+    "slug": "pikachu-rock-star",
+    "types": [
+      "Électrik"
+    ],
+    "stats": {
+      "baseStamina": 111,
+      "baseAttack": 112,
+      "baseDefense": 96
+    },
+    "quickMoves": {
+      "THUNDER_SHOCK_FAST": {
+        "id": "V0205_MOVE_THUNDER_SHOCK_FAST",
+        "movementId": "THUNDER_SHOCK_FAST",
+        "pokemonType": "Électrik",
+        "power": 4,
+        "durationMs": 500,
+        "energyDelta": 7,
+        "vfxName": "thunder_shock_fast",
+        "names": {
+          "fr": "Éclair"
+        }
+      },
+      "CHARM_FAST": {
+        "id": "V0320_MOVE_CHARM_FAST",
+        "movementId": "CHARM_FAST",
+        "pokemonType": "Fée",
+        "power": 20,
+        "durationMs": 1500,
+        "energyDelta": 11,
+        "vfxName": "charm_fast",
+        "names": {
+          "fr": "Charme"
+        }
+      }
+    },
+    "dynamaxMove": [
+      {
+        "id": "VN_BM_021",
+        "movementId": "VN_BM_021",
+        "pokemonType": "Électrik",
+        "powerLevels": [
+          350,
+          400,
+          450,
+          550
+        ],
+        "vfxName": "gmax_voltcrash",
+        "names": {
+          "fr": "Gmax Voltcrash"
+        }
+      }
+    ],
+    "familyId": "Pikachu",
+    "form": "PIKACHU_ROCK_STAR",
+    "isReleased": true
+  },
+  {
+    "pokemonId": "PIKACHU",
+    "name": "Pikachu",
+    "dexNumber": 25,
+    "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/25.png",
+    "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/25.png",
+    "slug": "pikachu-vs-2019",
+    "types": [
+      "Électrik"
+    ],
+    "stats": {
+      "baseStamina": 111,
+      "baseAttack": 112,
+      "baseDefense": 96
+    },
+    "quickMoves": {
+      "THUNDER_SHOCK_FAST": {
+        "id": "V0205_MOVE_THUNDER_SHOCK_FAST",
+        "movementId": "THUNDER_SHOCK_FAST",
+        "pokemonType": "Électrik",
+        "power": 4,
+        "durationMs": 500,
+        "energyDelta": 7,
+        "vfxName": "thunder_shock_fast",
+        "names": {
+          "fr": "Éclair"
+        }
+      },
+      "CHARM_FAST": {
+        "id": "V0320_MOVE_CHARM_FAST",
+        "movementId": "CHARM_FAST",
+        "pokemonType": "Fée",
+        "power": 20,
+        "durationMs": 1500,
+        "energyDelta": 11,
+        "vfxName": "charm_fast",
+        "names": {
+          "fr": "Charme"
+        }
+      }
+    },
+    "dynamaxMove": [
+      {
+        "id": "VN_BM_021",
+        "movementId": "VN_BM_021",
+        "pokemonType": "Électrik",
+        "powerLevels": [
+          350,
+          400,
+          450,
+          550
+        ],
+        "vfxName": "gmax_voltcrash",
+        "names": {
+          "fr": "Gmax Voltcrash"
+        }
+      }
+    ],
+    "familyId": "Pikachu",
+    "form": "PIKACHU_VS_2019",
     "isReleased": true
   },
   {
@@ -8339,6 +9545,7 @@
       }
     ],
     "familyId": "Miaouss",
+    "form": "base",
     "isReleased": true
   },
   {
@@ -8412,6 +9619,7 @@
       }
     ],
     "familyId": "Machoc",
+    "form": "base",
     "isReleased": true
   },
   {
@@ -8498,6 +9706,7 @@
       }
     ],
     "familyId": "Fantominus",
+    "form": "base",
     "isReleased": true
   },
   {
@@ -8571,6 +9780,7 @@
       }
     ],
     "familyId": "Krabby",
+    "form": "base",
     "isReleased": true
   },
   {
@@ -8657,6 +9867,7 @@
       }
     ],
     "familyId": "Lokhlass",
+    "form": "base",
     "isReleased": true
   },
   {
@@ -8742,6 +9953,7 @@
       }
     ],
     "familyId": "Ronflex",
+    "form": "base",
     "isReleased": true
   },
   {
@@ -8803,6 +10015,7 @@
       }
     ],
     "familyId": "Miamiasme",
+    "form": "base",
     "isReleased": true
   },
   {
@@ -8864,6 +10077,7 @@
       }
     ],
     "familyId": "Ouistempo",
+    "form": "base",
     "isReleased": true
   },
   {
@@ -8925,6 +10139,7 @@
       }
     ],
     "familyId": "Flambino",
+    "form": "base",
     "isReleased": true
   },
   {
@@ -8986,6 +10201,7 @@
       }
     ],
     "familyId": "Larméléon",
+    "form": "base",
     "isReleased": true
   },
   {
@@ -9060,6 +10276,7 @@
       }
     ],
     "familyId": "Toxizap",
+    "form": "TOXTRICITY_AMPED",
     "isReleased": true
   },
   {
@@ -9134,6 +10351,7 @@
       }
     ],
     "familyId": "Grimalin",
+    "form": "base",
     "isReleased": true
   },
   {
@@ -9196,14 +10414,15 @@
       }
     ],
     "familyId": "Duralugon",
+    "form": "base",
     "isReleased": true
   },
   {
     "pokemonId": "ZACIAN",
     "name": "Zacian Épée Suprême",
     "dexNumber": 888,
-    "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/888.png",
-    "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/888.png",
+    "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/10188.png",
+    "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/10188.png",
     "slug": "zacian-crowned",
     "types": [
       "Fée",
@@ -9258,14 +10477,15 @@
       }
     ],
     "familyId": "Zacian",
+    "form": "ZACIAN_CROWNED",
     "isReleased": true
   },
   {
     "pokemonId": "ZAMAZENTA",
     "name": "Zamazenta Bouclier Suprême",
     "dexNumber": 889,
-    "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/889.png",
-    "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/889.png",
+    "image": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/10189.png",
+    "imageShiny": "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/10189.png",
     "slug": "zamazenta-crowned",
     "types": [
       "Combat",
@@ -9320,6 +10540,7 @@
       }
     ],
     "familyId": "Zamazenta",
+    "form": "ZAMAZENTA_CROWNED",
     "isReleased": true
   },
   {
@@ -9382,6 +10603,7 @@
       }
     ],
     "familyId": "Éthernatos",
+    "form": "base",
     "isReleased": true
   },
   {
@@ -9431,6 +10653,7 @@
       }
     ],
     "familyId": "Meltan",
+    "form": "base",
     "isReleased": false
   },
   {
@@ -9505,6 +10728,7 @@
       }
     ],
     "familyId": "Minisange",
+    "form": "base",
     "isReleased": false
   },
   {
@@ -9579,6 +10803,7 @@
       }
     ],
     "familyId": "Larvadar",
+    "form": "base",
     "isReleased": false
   },
   {
@@ -9641,6 +10866,7 @@
       }
     ],
     "familyId": "Khélocrok",
+    "form": "base",
     "isReleased": false
   },
   {
@@ -9703,6 +10929,7 @@
       }
     ],
     "familyId": "Charbi",
+    "form": "base",
     "isReleased": false
   },
   {
@@ -9765,6 +10992,7 @@
       }
     ],
     "familyId": "Verpom",
+    "form": "base",
     "isReleased": false
   },
   {
@@ -9827,6 +11055,7 @@
       }
     ],
     "familyId": "Verpom",
+    "form": "base",
     "isReleased": false
   },
   {
@@ -9888,6 +11117,7 @@
       }
     ],
     "familyId": "Dunaja",
+    "form": "base",
     "isReleased": false
   },
   {
@@ -9950,6 +11180,7 @@
       }
     ],
     "familyId": "Grillepattes",
+    "form": "base",
     "isReleased": false
   },
   {
@@ -10024,6 +11255,7 @@
       }
     ],
     "familyId": "Bibichut",
+    "form": "base",
     "isReleased": false
   },
   {
@@ -10085,6 +11317,7 @@
       }
     ],
     "familyId": "Crèmy",
+    "form": "base",
     "isReleased": false
   },
   {
@@ -10146,6 +11379,7 @@
       }
     ],
     "familyId": "Charibari",
+    "form": "base",
     "isReleased": false
   },
   {
@@ -10220,6 +11454,7 @@
       }
     ],
     "familyId": "Wushours",
+    "form": "URSHIFU_SINGLE_STRIKE",
     "isReleased": false
   },
   {
@@ -10294,6 +11529,7 @@
       }
     ],
     "familyId": "Wushours",
+    "form": "URSHIFU_RAPID_STRIKE",
     "isReleased": false
   }
 ]

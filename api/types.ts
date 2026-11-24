@@ -479,6 +479,7 @@ export interface Dynamax {
     quickMoves:  { [key: string]: AcidSpray };
     dynamaxMove: VnBm001[];
     familyId:    string;
+    form:        string;
     isReleased?: boolean;
 }
 
