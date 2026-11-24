@@ -38,12 +38,20 @@ export default class PokemonSettingGenerator extends FileGenerator {
                 IntermediateData.getRaidMove(),
             ]);
 
-        const resolveSettings = (pokemonId: string): PokemonSetting[] => {
-            const setting = pokemonSettings.find((s) => s.base.pokemonId === pokemonId);
-            return pokemonId === 'URSHIFU'
-                ? ((setting?.different as any as PokemonSetting[]) ?? [])
-                : setting
-                  ? [setting]
+        const resolveSettings = (pokemon: {
+            uniqueId: string;
+            form: string | undefined;
+        }): PokemonSetting[] => {
+            const setting = pokemonSettings.find((s) => s.base.pokemonId === pokemon.uniqueId);
+            const finalForm = (
+                pokemon.form
+                    ? setting?.different.find((p) => p.base.form === pokemon.form)
+                    : setting
+            ) as PokemonSetting;
+            return pokemon.uniqueId === 'URSHIFU'
+                ? ((finalForm?.different as any as PokemonSetting[]) ?? [])
+                : finalForm
+                  ? [finalForm]
                   : [];
         };
 
@@ -65,11 +73,23 @@ export default class PokemonSettingGenerator extends FileGenerator {
             );
         };
 
-        const idsWithBreadMode = (mode: string) =>
-            rawExtendedSettings
-                .filter((p) => p.data.breadOverrides?.some((b) => b.breadMode === mode))
-                .map((p) => p.data.uniqueId)
-                .unique();
+        // const idsWithBreadMode = (mode: string) =>
+        //     rawExtendedSettings
+        //         .filter((p) => p.data.breadOverrides?.some((b) => b.breadMode === mode))
+        //         .map((p) => ({ uniqueId: p.data.uniqueId, form: p.data.form })) //uniqueId)
+        //         .unique();
+
+        const idsWithBreadMode = (mode: string) => {
+            const seen = new Map<string, { uniqueId: string; form: string | undefined }>();
+            for (const p of rawExtendedSettings) {
+                if (!p.data.breadOverrides?.some((b) => b.breadMode === mode)) continue;
+                const key = `${p.data.uniqueId}|${p.data.form ?? ''}`;
+                if (!seen.has(key)) {
+                    seen.set(key, { uniqueId: p.data.uniqueId, form: p.data.form });
+                }
+            }
+            return [...seen.values()];
+        };
 
         const otherForms = OTHER_FORM_IDS.map((id) => {
             const setting = pokemonSettings.find((p) => p.base.pokemonId.slugifyEquals(id));
@@ -114,7 +134,7 @@ export default class PokemonSettingGenerator extends FileGenerator {
         ) => {
             const imageId = isGigamaxMove(dynamaxMove)
                 ? await getIdGigamax(pokemon)
-                : pokemon.base.dexNumber;
+                : pokemon.base.imageId;
             return {
                 pokemonId: pokemon.base.pokemonId,
                 name: pokemon.base.name,
@@ -127,6 +147,7 @@ export default class PokemonSettingGenerator extends FileGenerator {
                 quickMoves: quickMoves(pokemon).toObject((move) => move.movementId),
                 dynamaxMove,
                 familyId: pokemon.base.family,
+                form: pokemon.base.form,
                 ...(isReleased !== undefined && { isReleased }),
             };
         };
@@ -143,15 +164,15 @@ export default class PokemonSettingGenerator extends FileGenerator {
 
         // Gigamax non sortis (liste fixe)
         const gigamaxNotReleased = Promise.all(
-            GIGAMAX_NOT_RELEASED.flatMap(resolveSettings).map((pokemon) =>
-                toOutput(pokemon, dynamaxMoveByMapping(pokemon), false),
-            ),
+            GIGAMAX_NOT_RELEASED.map((gigamax) => ({ uniqueId: gigamax, form: undefined }))
+                .flatMap(resolveSettings)
+                .map((pokemon) => toOutput(pokemon, dynamaxMoveByMapping(pokemon), false)),
         );
 
         // Gigamax sortis
         const gigamaxReleased = Promise.all(
             gigamaxIds
-                .filter((id) => id !== 'URSHIFU') // TODO: retirer quand sorti
+                .filter((pokemon) => pokemon.uniqueId !== 'URSHIFU') // TODO: retirer quand sorti
                 .flatMap(resolveSettings)
                 .concat(otherForms)
                 .map((pokemon) => toOutput(pokemon, dynamaxMoveByMapping(pokemon), true)),
