@@ -350,7 +350,7 @@
       },
       "timePeriodCounters": {
         "playerActivity": {
-          "limit": 300
+          "limit": 500
         }
       },
       "hideItemInInventory": true
@@ -2459,9 +2459,9 @@
         "itemBagDescriptionKey": "item_global_event_ticket_details_GOTour2027",
         "giftable": true,
         "giftItem": 2306,
-        "eventBannerUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F31519c82_pgo-generic-ticket-banner-682x384.jpg",
+        "eventBannerUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F19ec3f96_PGO-MCS_GO_Tour_2027_Shiny_Poipole_v2-1025x512.jpg",
         "displayV2Enabled": true,
-        "backgroundImageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F31519c82_pgo-generic-ticket-banner-682x384.jpg",
+        "backgroundImageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F19ec3f96_PGO-MCS_GO_Tour_2027_Shiny_Poipole_v2-1025x512.jpg",
         "textRewardsKey": "text_rewards_key_GOTour2027",
         "iconRewards": [
           {
@@ -2469,6 +2469,16 @@
             "item": {
               "item": "ITEM_FREE_RAID_TICKET",
               "amount": 9
+            }
+          },
+          {
+            "type": "POKEMON_ENCOUNTER",
+            "pokemonEncounter": {
+              "pokemonId": "POIPOLE",
+              "pokemonDisplay": {
+                "shiny": true
+              },
+              "shinyProbability": 1
             }
           }
         ],

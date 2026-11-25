@@ -231190,6 +231190,9 @@
         0
       ],
       "buddyGroupNumber": 2,
+      "eliteCinematicMove": [
+        "KOWTOW_CLEAVE"
+      ],
       "raidBossDistanceOffset": 4,
       "ibfc": {},
       "breadTierGroup": "GROUP_3"
@@ -231267,6 +231270,9 @@
         0
       ],
       "buddyGroupNumber": 2,
+      "eliteCinematicMove": [
+        "KOWTOW_CLEAVE"
+      ],
       "raidBossDistanceOffset": 4,
       "ibfc": {},
       "breadTierGroup": "GROUP_3"

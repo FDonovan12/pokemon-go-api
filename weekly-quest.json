@@ -181,5 +181,132 @@
         }
       }
     ]
+  },
+  {
+    "id": "WEEKLY_CHALLENGE_S25_DEC2026_BERRIES",
+    "achievement": {
+      "type": "QUEST_USE_BERRY_IN_ENCOUNTER",
+      "goal": {
+        "target": 200
+      }
+    },
+    "reward": [
+      {
+        "type": "STARDUST",
+        "stardust": 6000
+      },
+      {
+        "type": "FRIENDSHIP_POINTS",
+        "friendshipPoints": 30
+      },
+      {
+        "type": "EXPERIENCE",
+        "exp": 20000
+      },
+      {
+        "type": "POKEMON_ENCOUNTER",
+        "pokemonEncounter": {
+          "pokemonId": "TANDEMAUS",
+          "pokemonDisplay": {
+            "form": "TANDEMAUS_NORMAL"
+          }
+        }
+      },
+      {
+        "type": "ITEM",
+        "item": {
+          "item": "ITEM_ENHANCED_CURRENCY",
+          "amount": 250
+        }
+      }
+    ]
+  },
+  {
+    "id": "WEEKLY_CHALLENGE_S25_DEC2026_CURVEBALLS",
+    "achievement": {
+      "type": "QUEST_LAND_THROW",
+      "goal": {
+        "condition": [
+          {
+            "type": "WITH_CURVE_BALL"
+          }
+        ],
+        "target": 270
+      }
+    },
+    "reward": [
+      {
+        "type": "STARDUST",
+        "stardust": 6000
+      },
+      {
+        "type": "FRIENDSHIP_POINTS",
+        "friendshipPoints": 30
+      },
+      {
+        "type": "EXPERIENCE",
+        "exp": 20000
+      },
+      {
+        "type": "POKEMON_ENCOUNTER",
+        "pokemonEncounter": {
+          "pokemonId": "TANDEMAUS",
+          "pokemonDisplay": {
+            "form": "TANDEMAUS_NORMAL"
+          }
+        }
+      },
+      {
+        "type": "ITEM",
+        "item": {
+          "item": "ITEM_ENHANCED_CURRENCY",
+          "amount": 250
+        }
+      }
+    ]
+  },
+  {
+    "id": "WEEKLY_CHALLENGE_S25_DEC2026_STICKERS",
+    "achievement": {
+      "type": "QUEST_SEND_GIFT",
+      "goal": {
+        "condition": [
+          {
+            "type": "WITH_STICKER"
+          }
+        ],
+        "target": 100
+      }
+    },
+    "reward": [
+      {
+        "type": "STARDUST",
+        "stardust": 6000
+      },
+      {
+        "type": "FRIENDSHIP_POINTS",
+        "friendshipPoints": 30
+      },
+      {
+        "type": "EXPERIENCE",
+        "exp": 20000
+      },
+      {
+        "type": "POKEMON_ENCOUNTER",
+        "pokemonEncounter": {
+          "pokemonId": "TANDEMAUS",
+          "pokemonDisplay": {
+            "form": "TANDEMAUS_NORMAL"
+          }
+        }
+      },
+      {
+        "type": "ITEM",
+        "item": {
+          "item": "ITEM_ENHANCED_CURRENCY",
+          "amount": 250
+        }
+      }
+    ]
   }
 ]

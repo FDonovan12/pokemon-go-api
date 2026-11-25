@@ -272,7 +272,7 @@ export interface RaidMoveChargedMove {
 export interface AcidSpray {
     id:          string;
     movementId:  string;
-    pokemonType: Type;
+    pokemonType: PokemonTypeElement;
     power:       number;
     durationMs:  number;
     energyDelta: number;
@@ -284,7 +284,7 @@ export interface Names {
     fr: string;
 }
 
-export enum Type {
+export enum PokemonTypeElement {
     Acier = "Acier",
     Combat = "Combat",
     Dragon = "Dragon",
@@ -474,7 +474,7 @@ export interface Dynamax {
     image:       string;
     imageShiny:  string;
     slug:        string;
-    types:       Type[];
+    types:       PokemonTypeElement[];
     stats:       Stats;
     quickMoves:  { [key: string]: AcidSpray };
     dynamaxMove: VnBm001[];
@@ -486,7 +486,7 @@ export interface Dynamax {
 export interface VnBm001 {
     id:          string;
     movementId:  string;
-    pokemonType: Type;
+    pokemonType: PokemonTypeElement;
     powerLevels: number[];
     vfxName:     string;
     names:       Names;
@@ -579,7 +579,7 @@ export interface BaseElement {
     imageId:             number;
     image:               string;
     imageShiny:          string;
-    types:               Type[];
+    types:               PokemonTypeElement[];
     stats:               Stats;
     quickMoves:          string[];
     cinematicMoves:      string[];
@@ -614,7 +614,7 @@ export interface Mega {
     slug:        string;
     stats:       Stats;
     image:       string;
-    types:       Type[];
+    types:       PokemonTypeElement[];
     hasLevel4:   boolean;
     megaAttack?: AcidSpray;
 }
@@ -665,7 +665,7 @@ export interface PurpleBase {
     imageId:             number;
     image:               string;
     imageShiny:          string;
-    types:               Type[];
+    types:               PokemonTypeElement[];
     stats:               Stats;
     quickMoves:          string[];
     cinematicMoves:      string[];
@@ -814,8 +814,8 @@ export interface Goal {
 }
 
 export interface Condition {
-    type:             string;
-    withQuestContext: WithQuestContext;
+    type:              string;
+    withQuestContext?: WithQuestContext;
 }
 
 export interface WithQuestContext {
@@ -823,7 +823,7 @@ export interface WithQuestContext {
 }
 
 export interface Reward {
-    type:              string;
+    type:              RewardType;
     stardust?:         number;
     friendshipPoints?: number;
     exp?:              number;
@@ -843,4 +843,12 @@ export interface PokemonEncounter {
 
 export interface PokemonDisplay {
     form: string;
+}
+
+export enum RewardType {
+    Experience = "EXPERIENCE",
+    FriendshipPoints = "FRIENDSHIP_POINTS",
+    Item = "ITEM",
+    PokemonEncounter = "POKEMON_ENCOUNTER",
+    Stardust = "STARDUST",
 }

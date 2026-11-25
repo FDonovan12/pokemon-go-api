@@ -102,6 +102,7 @@ export enum DailyDefenderBonusCurrency {
     Candy = "CANDY",
     Experience = "EXPERIENCE",
     Item = "ITEM",
+    MegaResource = "MEGA_RESOURCE",
     PlayerAttribute = "PLAYER_ATTRIBUTE",
     Pokecoin = "POKECOIN",
     PokemonEncounter = "POKEMON_ENCOUNTER",
@@ -383,13 +384,13 @@ export interface LevelUpRewardData {
     featuresUnlocked?:           BadgeTypeElement[];
     clientOverrideDisplayOrder?: boolean;
     itemsUnlocked?:              string[];
-    neutralAvatarItemTemplates?: NeutralAvatarItemTemplates;
+    neutralAvatarItemTemplates?: NeutralAvatarItemTemplate;
     isBackfill?:                 boolean;
 }
 
 export type BadgeTypeElement = number | string;
 
-export interface NeutralAvatarItemTemplates {
+export interface NeutralAvatarItemTemplate {
     itemTemplateId:    string;
     displayTemplateId: string;
 }
@@ -1494,16 +1495,18 @@ export enum IconType {
 }
 
 export interface PurpleReward {
-    type:              DailyDefenderBonusCurrency;
-    pokemonEncounter?: RewardPokemonEncounter;
-    candy?:            Candy;
-    stardust?:         number;
-    xlCandy?:          Candy;
-    exp?:              number;
-    item?:             RewardDatumItem;
-    playerAttribute?:  PlayerAttribute;
-    sticker?:          Sticker;
-    pokecoin?:         number;
+    type:                       DailyDefenderBonusCurrency;
+    pokemonEncounter?:          RewardPokemonEncounter;
+    candy?:                     Candy;
+    stardust?:                  number;
+    xlCandy?:                   Candy;
+    exp?:                       number;
+    item?:                      RewardDatumItem;
+    playerAttribute?:           PlayerAttribute;
+    sticker?:                   Sticker;
+    pokecoin?:                  number;
+    neutralAvatarItemTemplate?: NeutralAvatarItemTemplate;
+    megaResource?:              Candy;
 }
 
 export interface Candy {
@@ -1528,6 +1531,7 @@ export interface PurplePokemonDisplay {
     locationCard?:  LocationCardClass;
     breadModeEnum?: BreadMode;
     form?:          string;
+    costume?:       string;
 }
 
 export interface LocationCardClass {
@@ -1908,20 +1912,21 @@ export interface IconReward {
     pokemonEncounter?:          IconRewardPokemonEncounter;
     item?:                      RewardDatumItem;
     candy?:                     Candy;
-    neutralAvatarItemTemplate?: NeutralAvatarItemTemplate;
+    neutralAvatarItemTemplate?: IconRewardNeutralAvatarItemTemplate;
 }
 
-export interface NeutralAvatarItemTemplate {
+export interface IconRewardNeutralAvatarItemTemplate {
     displayTemplateId: string;
 }
 
 export interface IconRewardPokemonEncounter {
-    pokemonId:       string;
-    pokemonDisplay?: FluffyPokemonDisplay;
+    pokemonId:         string;
+    pokemonDisplay?:   FluffyPokemonDisplay;
+    shinyProbability?: number;
 }
 
 export interface FluffyPokemonDisplay {
-    form:           string;
+    form?:          string;
     shiny?:         boolean;
     breadModeEnum?: BreadMode;
 }
@@ -2284,6 +2289,17 @@ export interface EnabledTimePeriod {
     enabledEndTime:   Date;
 }
 
+export interface TicketGiftingSettings {
+    templateId: string;
+    data:       TicketGiftingSettingData;
+}
+
+export interface TicketGiftingSettingData {
+    minPlayerLevel:             number;
+    dailyPlayerGiftingLimit:    number;
+    minRequiredFriendshipLevel: string;
+}
+
 export interface ItemInventoryUpdateSettings {
     templateId: string;
     data:       ItemInventoryUpdateSettingData;
@@ -2495,6 +2511,7 @@ export interface MapDisplaySettings {
 
 export interface MapDisplaySettingData {
     showEnhancedSky: boolean;
+    skyEffectName:   string;
 }
 
 export interface MapObjectsInteractionRangeSettings {
@@ -3394,7 +3411,7 @@ export interface RaidEntryCostSettingData {
 }
 
 export interface RaidLevelEntryCost {
-    raidLevel:     string;
+    raidLevel?:    string;
     raidEntryCost: RaidEntryCost[];
 }
 
@@ -3879,17 +3896,6 @@ export interface TemporaryEvolutionSettingData {
 export interface TemporaryEvolution {
     temporaryEvolutionId: Temp;
     assetBundleValue:     number;
-}
-
-export interface TicketGiftingSettings {
-    templateId: string;
-    data:       TicketGiftingSettingData;
-}
-
-export interface TicketGiftingSettingData {
-    minPlayerLevel:             number;
-    dailyPlayerGiftingLimit:    number;
-    minRequiredFriendshipLevel: string;
 }
 
 export interface TimeBoxedSpawnEventsSettings {

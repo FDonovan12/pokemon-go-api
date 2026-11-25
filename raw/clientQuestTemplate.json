@@ -1961,5 +1961,162 @@
         "title": "quest_field_research_plural"
       }
     }
+  },
+  {
+    "templateId": "WEEKLY_CHALLENGE_S25_DEC2026_BERRIES",
+    "data": {
+      "quest": {
+        "questType": "QUEST_USE_BERRY_IN_ENCOUNTER",
+        "questId": "WEEKLY_CHALLENGE_S25_DEC2026_BERRIES",
+        "questContext": "WEEKLY_CHALLENGE_QUEST",
+        "templateId": "WEEKLY_CHALLENGE_S25_DEC2026_BERRIES",
+        "goal": {
+          "target": 200
+        },
+        "questRewards": [
+          {
+            "type": "STARDUST",
+            "stardust": 6000
+          },
+          {
+            "type": "FRIENDSHIP_POINTS",
+            "friendshipPoints": 30
+          },
+          {
+            "type": "EXPERIENCE",
+            "exp": 20000
+          },
+          {
+            "type": "POKEMON_ENCOUNTER",
+            "pokemonEncounter": {
+              "pokemonId": "TANDEMAUS",
+              "pokemonDisplay": {
+                "form": "TANDEMAUS_NORMAL"
+              }
+            }
+          },
+          {
+            "type": "ITEM",
+            "item": {
+              "item": "ITEM_ENHANCED_CURRENCY",
+              "amount": 250
+            }
+          }
+        ],
+        "difficulty": "EASY"
+      },
+      "questDisplay": {
+        "description": "quest_catch_feed_plural",
+        "title": "quest_catch_feed_plural"
+      }
+    }
+  },
+  {
+    "templateId": "WEEKLY_CHALLENGE_S25_DEC2026_CURVEBALLS",
+    "data": {
+      "quest": {
+        "questType": "QUEST_LAND_THROW",
+        "questId": "WEEKLY_CHALLENGE_S25_DEC2026_CURVEBALLS",
+        "questContext": "WEEKLY_CHALLENGE_QUEST",
+        "templateId": "WEEKLY_CHALLENGE_S25_DEC2026_CURVEBALLS",
+        "goal": {
+          "condition": [
+            {
+              "type": "WITH_CURVE_BALL"
+            }
+          ],
+          "target": 270
+        },
+        "questRewards": [
+          {
+            "type": "STARDUST",
+            "stardust": 6000
+          },
+          {
+            "type": "FRIENDSHIP_POINTS",
+            "friendshipPoints": 30
+          },
+          {
+            "type": "EXPERIENCE",
+            "exp": 20000
+          },
+          {
+            "type": "POKEMON_ENCOUNTER",
+            "pokemonEncounter": {
+              "pokemonId": "TANDEMAUS",
+              "pokemonDisplay": {
+                "form": "TANDEMAUS_NORMAL"
+              }
+            }
+          },
+          {
+            "type": "ITEM",
+            "item": {
+              "item": "ITEM_ENHANCED_CURRENCY",
+              "amount": 250
+            }
+          }
+        ],
+        "difficulty": "EASY"
+      },
+      "questDisplay": {
+        "description": "quest_land_curveball_plural",
+        "title": "quest_land_curveball_plural"
+      }
+    }
+  },
+  {
+    "templateId": "WEEKLY_CHALLENGE_S25_DEC2026_STICKERS",
+    "data": {
+      "quest": {
+        "questType": "QUEST_SEND_GIFT",
+        "questId": "WEEKLY_CHALLENGE_S25_DEC2026_STICKERS",
+        "questContext": "WEEKLY_CHALLENGE_QUEST",
+        "templateId": "WEEKLY_CHALLENGE_S25_DEC2026_STICKERS",
+        "goal": {
+          "condition": [
+            {
+              "type": "WITH_STICKER"
+            }
+          ],
+          "target": 100
+        },
+        "questRewards": [
+          {
+            "type": "STARDUST",
+            "stardust": 6000
+          },
+          {
+            "type": "FRIENDSHIP_POINTS",
+            "friendshipPoints": 30
+          },
+          {
+            "type": "EXPERIENCE",
+            "exp": 20000
+          },
+          {
+            "type": "POKEMON_ENCOUNTER",
+            "pokemonEncounter": {
+              "pokemonId": "TANDEMAUS",
+              "pokemonDisplay": {
+                "form": "TANDEMAUS_NORMAL"
+              }
+            }
+          },
+          {
+            "type": "ITEM",
+            "item": {
+              "item": "ITEM_ENHANCED_CURRENCY",
+              "amount": 250
+            }
+          }
+        ],
+        "difficulty": "EASY"
+      },
+      "questDisplay": {
+        "description": "quest_send_gifts_sticker_plural",
+        "title": "quest_send_gifts_sticker_plural"
+      }
+    }
   }
 ]

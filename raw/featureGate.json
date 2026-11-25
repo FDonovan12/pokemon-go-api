@@ -99,6 +99,13 @@
     }
   },
   {
+    "templateId": "AVATAR_STAGE_QUEUED_BUDDY_FEATURE_GATE_CR",
+    "data": {
+      "status": 1,
+      "rolloutPercentage": 100
+    }
+  },
+  {
     "templateId": "AVATAR_SUBCATEGORY_HEADER_FORCE_REBUILD_OPTIMIZATION_FEATURE_GATE",
     "data": {
       "status": 1,
@@ -121,6 +128,13 @@
   },
   {
     "templateId": "BUDDY_CANDY_QUEST_PROGRESS_AGGREGATION_FEATURE_GATE_SR",
+    "data": {
+      "status": 1,
+      "rolloutPercentage": 100
+    }
+  },
+  {
+    "templateId": "BUDDY_SCREEN_RENDERER_SLOT_FEATURE_GATE_CR",
     "data": {
       "status": 1,
       "rolloutPercentage": 100
@@ -162,6 +176,20 @@
     }
   },
   {
+    "templateId": "COMBAT_VNEXT_CLEAR_INPUT_BUFFER_ON_FAINTS_FEATURE_GATE_CR",
+    "data": {
+      "status": 1,
+      "rolloutPercentage": 100
+    }
+  },
+  {
+    "templateId": "COMBAT_VNEXT_FIX_FLASHING_CM_BUTTONS_FEATURE_GATE_CR",
+    "data": {
+      "status": 1,
+      "rolloutPercentage": 100
+    }
+  },
+  {
     "templateId": "COMBAT_VNEXT_INITIALIZE_BD_LAST_FEATURE_GATE",
     "data": {
       "status": 1,
@@ -177,6 +205,13 @@
   },
   {
     "templateId": "COMBAT_VNEXT_PRESERVE_ADDRESSABLE_DIRT_MATERIAL_BUG_FIX_FEATURE_GATE",
+    "data": {
+      "status": 1,
+      "rolloutPercentage": 100
+    }
+  },
+  {
+    "templateId": "COMBAT_VNEXT_REACT_TO_SHIELD_ACTION_RESPONSE_FEATURE_GATE_CR",
     "data": {
       "status": 1,
       "rolloutPercentage": 100
@@ -228,6 +263,20 @@
     "templateId": "COMPASS_SORTING_ORDER_FIX_FEATURE_GATE",
     "data": {
       "status": 738214905,
+      "rolloutPercentage": 100
+    }
+  },
+  {
+    "templateId": "CONDITION_STRING_FEATURE_GATE_CR",
+    "data": {
+      "status": 1,
+      "rolloutPercentage": 100
+    }
+  },
+  {
+    "templateId": "CUTSCENE_DISMISS_WAITS_FOR_PLAYED_STATE_FEATURE_GATE_CR",
+    "data": {
+      "status": 1,
       "rolloutPercentage": 100
     }
   },
@@ -450,6 +499,25 @@
     }
   },
   {
+    "templateId": "GYM_DEFAULT_RAID_LEVEL_FEATURE_GATE",
+    "data": {
+      "status": 838973827,
+      "rolloutPercentage": 100,
+      "subFeatureGateList": [
+        {
+          "name": "GYM_DEFAULT",
+          "status": 455134900,
+          "rolloutPercentage": 100
+        },
+        {
+          "name": "GYM_RAID",
+          "status": 677717643,
+          "rolloutPercentage": 100
+        }
+      ]
+    }
+  },
+  {
     "templateId": "GYM_SPRITE_FIX_FEATURE_GATE",
     "data": {
       "status": 742019384,
@@ -628,7 +696,28 @@
     }
   },
   {
+    "templateId": "MAP_HOTSPOT_OPTIMIZATIONS_FEATURE_GATE_CR",
+    "data": {
+      "status": 1,
+      "rolloutPercentage": 100
+    }
+  },
+  {
+    "templateId": "MAP_POKEMON_DISPOSE_CLEANUP_FEATURE_GATE_CR",
+    "data": {
+      "status": 1,
+      "rolloutPercentage": 100
+    }
+  },
+  {
     "templateId": "MAP_POKEMON_RINGS_FEATURE_GATE",
+    "data": {
+      "status": 1,
+      "rolloutPercentage": 100
+    }
+  },
+  {
+    "templateId": "MATERIAL_OVERRIDE_ENTRY_CHECKER_CACHE_FEATURE_GATE_CR",
     "data": {
       "status": 1,
       "rolloutPercentage": 100
@@ -649,7 +738,21 @@
     }
   },
   {
+    "templateId": "MICHELIN_MAP_GYM_HEART_REMOVAL_FEATURE_GATE",
+    "data": {
+      "status": 1,
+      "rolloutPercentage": 100
+    }
+  },
+  {
     "templateId": "MICHELIN_MAP_LURE_BOTTOM_RING_REMOVAL_FEATURE_GATE",
+    "data": {
+      "status": 1,
+      "rolloutPercentage": 100
+    }
+  },
+  {
+    "templateId": "MICHELIN_MAP_NEW_BATTLE_TOPPER_FEATURE_GATE",
     "data": {
       "status": 1,
       "rolloutPercentage": 100
@@ -673,6 +776,13 @@
     "templateId": "MICHELIN_MAP_ZYGARDE_CELL_REWARD_FEATURE_GATE",
     "data": {
       "status": 58439049,
+      "rolloutPercentage": 100
+    }
+  },
+  {
+    "templateId": "ML_PERSONALIZED_RESEARCH_FEATURE_GATE",
+    "data": {
+      "status": 1,
       "rolloutPercentage": 100
     }
   },
@@ -712,6 +822,13 @@
     }
   },
   {
+    "templateId": "PHONE_BOOTH_LATE_SPAWN_FEATURE_GATE_CR",
+    "data": {
+      "status": 1,
+      "rolloutPercentage": 100
+    }
+  },
+  {
     "templateId": "PHOTOBOMB_TIME_PORTAL_FUTURE_FEATURE_GATE_SR",
     "data": {
       "status": 1,
@@ -726,9 +843,30 @@
     }
   },
   {
+    "templateId": "PLAYER_PROFILE_SCALE_FEATURE_GATE_CR",
+    "data": {
+      "status": 1,
+      "rolloutPercentage": 100
+    }
+  },
+  {
+    "templateId": "PLAY_POKEMON_POOL_REUSE_FEATURE_GATE_CR",
+    "data": {
+      "status": 1,
+      "rolloutPercentage": 100
+    }
+  },
+  {
     "templateId": "POKEDEX_DEFENDER_GYM_FIX_FEATURE_GATE",
     "data": {
       "status": 305603001,
+      "rolloutPercentage": 100
+    }
+  },
+  {
+    "templateId": "POKEDEX_REGION_MATERIAL_MEMORY_LEAK_FIX_FEATURE_GATE_CR",
+    "data": {
+      "status": 1,
       "rolloutPercentage": 100
     }
   },
@@ -808,7 +946,21 @@
     }
   },
   {
+    "templateId": "RAIDCOIN_MATERIAL_MEMORY_LEAK_FIX_FEATURE_GATE_CR",
+    "data": {
+      "status": 1,
+      "rolloutPercentage": 100
+    }
+  },
+  {
     "templateId": "RAID_RSVP_REMOTE_JOIN_FIX_FEATURE_GATE_CR",
+    "data": {
+      "status": 1,
+      "rolloutPercentage": 100
+    }
+  },
+  {
+    "templateId": "REAPPLY_MATERIAL_STATE_DELEGATE_CACHE_FEATURE_GATE_CR",
     "data": {
       "status": 1,
       "rolloutPercentage": 100
@@ -832,6 +984,13 @@
     "templateId": "REMOTE_TRADE_SPEED_GIFT_FIX_FEATURE_GATE",
     "data": {
       "status": 2125789674,
+      "rolloutPercentage": 100
+    }
+  },
+  {
+    "templateId": "REPLAY_SB_VFX_FEATURE_GATE_CR",
+    "data": {
+      "status": 1,
       "rolloutPercentage": 100
     }
   },
@@ -878,6 +1037,13 @@
     }
   },
   {
+    "templateId": "SOFT_SFIDA_PAST_DAY_RECAP_FEATURE_GATE_CR",
+    "data": {
+      "status": 1,
+      "rolloutPercentage": 100
+    }
+  },
+  {
     "templateId": "SOFT_SFIDA_WIDGET_BACKGROUND_COLOR_FEATURE_GATE",
     "data": {
       "status": 1251877992,
@@ -902,6 +1068,20 @@
     "templateId": "STAMP_RALLY_TIME_TRAVEL_SERVER_FEATURE_GATE",
     "data": {
       "status": 293813,
+      "rolloutPercentage": 100
+    }
+  },
+  {
+    "templateId": "TGR_NO_LOCATION_EXIT_FEATURE_GATE_CR",
+    "data": {
+      "status": 1,
+      "rolloutPercentage": 100
+    }
+  },
+  {
+    "templateId": "THEME_CONFIG_CACHE_FEATURE_GATE_CR",
+    "data": {
+      "status": 1,
       "rolloutPercentage": 100
     }
   },
@@ -1082,6 +1262,13 @@
   },
   {
     "templateId": "UNCOSTUMED_OVERRIDE_FEATURE_GATE_CR",
+    "data": {
+      "status": 1,
+      "rolloutPercentage": 100
+    }
+  },
+  {
+    "templateId": "UNIFIED_SKU_FEATURE_GATE",
     "data": {
       "status": 1,
       "rolloutPercentage": 100

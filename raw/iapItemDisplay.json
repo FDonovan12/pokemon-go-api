@@ -6523,7 +6523,7 @@
     "data": {
       "sku": "bundle.blackfridaystickers26.1",
       "category": "IAP_CATEGORY_BUNDLE",
-      "sortOrder": 1,
+      "sortOrder": 9,
       "spriteId": "bundle.general.adventure.1",
       "title": "sticker_box"
     }
@@ -6613,13 +6613,10 @@
       "sku": "bundle.cd2022.1",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 1,
+      "hidden": true,
       "sale": true,
-      "spriteId": "bundle.general4.small.1",
-      "title": "bundle.general4.small.1_title",
-      "skuEnableTime": "2022-10-13T12:00:00",
-      "skuDisableTime": "2026-11-22T23:59:59",
-      "skuEnableTimeUtcMs": "1665662400000",
-      "skuDisableTimeUtcMs": "1795391999000"
+      "spriteId": "bundle.halloween.small.1",
+      "title": "bundle.halloween.small.1_title"
     }
   },
   {
@@ -6628,13 +6625,10 @@
       "sku": "bundle.cd2022.2",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 2,
+      "hidden": true,
       "sale": true,
-      "spriteId": "bundle.general1.medium.1",
-      "title": "bundle.general1.medium.1_title",
-      "skuEnableTime": "2022-10-13T12:00:00",
-      "skuDisableTime": "2026-11-22T23:59:59",
-      "skuEnableTimeUtcMs": "1665662400000",
-      "skuDisableTimeUtcMs": "1795391999000"
+      "spriteId": "bundle.halloween.adventure.1",
+      "title": "bundle.halloween.adventure.1_title"
     }
   },
   {
@@ -9206,6 +9200,7 @@
       "sku": "pgorelease.general2.ticket.3",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 2,
+      "hidden": true,
       "spriteId": "general1.ticket.2",
       "title": "general1.ticket_CD_Pawniard26_title",
       "skuEnableTime": "2019-03-14T08:00:00",
@@ -9250,7 +9245,7 @@
       "spriteId": "general2.ticket.5",
       "title": "GOTour_2027_ticket_title",
       "description": "item_global_event_ticket_desc_GOTour2027",
-      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F31519c82_pgo-generic-ticket-banner-682x384.jpg",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F19ec3f96_PGO-MCS_GO_Tour_2027_Shiny_Poipole_v2-1025x512.jpg",
       "useEnvironmentPrefix": true
     }
   },
@@ -9476,6 +9471,52 @@
     }
   },
   {
+    "templateId": "november1_2026_deluxe_event_pass_track_unlock",
+    "data": {
+      "sku": "pgorelease.november1_2026_deluxe_event_pass_track_unlock",
+      "sortOrder": 1,
+      "title": "twilight_trails_finale_event_pass_deluxe_title",
+      "description": "deluxe_event_pass_track_unlock_description",
+      "skuEnableTime": "2025-11-24T10:00:00",
+      "skuDisableTime": "2026-12-02T20:00:00",
+      "skuEnableTimeUtcMs": "1763978400000",
+      "skuDisableTimeUtcMs": "1796241600000",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F3b514292_PGO-MCS_S24_Finale_Key_Art_TICKET_v4_1024x576.jpg",
+      "useEnvironmentPrefix": true
+    }
+  },
+  {
+    "templateId": "november1_2026_deluxe_event_pass_track_unlock_plus_points",
+    "data": {
+      "sku": "pgorelease.november1_2026_deluxe_event_pass_track_unlock_plus_points",
+      "sortOrder": 1,
+      "title": "twilight_trails_finale_event_pass_plus_six_levels_title",
+      "description": "event_pass_plus_points_6_ranks_description",
+      "skuEnableTime": "2025-11-24T10:00:00",
+      "skuDisableTime": "2026-12-02T20:00:00",
+      "skuEnableTimeUtcMs": "1763978400000",
+      "skuDisableTimeUtcMs": "1796241600000",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F3b514292_PGO-MCS_S24_Finale_Key_Art_TICKET_v4_1024x576.jpg",
+      "useEnvironmentPrefix": true
+    }
+  },
+  {
+    "templateId": "november1_2026_deluxe_event_pass_track_unlock_redirect",
+    "data": {
+      "sku": "pgorelease.november1_2026_deluxe_event_pass_track_unlock_redirect",
+      "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
+      "sortOrder": 1,
+      "title": "twilight_trails_finale_event_pass_deluxe_title",
+      "description": "deluxe_event_pass_track_unlock_description",
+      "skuEnableTime": "2025-11-24T10:00:00",
+      "skuDisableTime": "2026-12-02T20:00:00",
+      "skuEnableTimeUtcMs": "1763978400000",
+      "skuDisableTimeUtcMs": "1796241600000",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F3b514292_PGO-MCS_S24_Finale_Key_Art_TICKET_v4_1024x576.jpg",
+      "useEnvironmentPrefix": true
+    }
+  },
+  {
     "templateId": "paidraidticket.1",
     "data": {
       "sku": "paidraidticket.1",
@@ -9610,6 +9651,35 @@
       "hidden": true,
       "spriteId": "bundle.general5.small.1",
       "title": "bundle.general2.free.1_title"
+    }
+  },
+  {
+    "templateId": "pgorelease.bundle.fiatevergreen.1",
+    "data": {
+      "sku": "pgorelease.bundle.fiatevergreen.1",
+      "category": "IAP_CATEGORY_BUNDLE",
+      "spriteId": "bundle.general3.large.1",
+      "title": "sku.name.59a44f3c1ace6b6f069a105fd2dccea0"
+    }
+  },
+  {
+    "templateId": "pgorelease.bundle.fiatevergreen.2",
+    "data": {
+      "sku": "pgorelease.bundle.fiatevergreen.2",
+      "category": "IAP_CATEGORY_BUNDLE",
+      "sortOrder": 1,
+      "spriteId": "bundle1.sprite.b",
+      "title": "sku.name.0afb00fcca4118f8649800a4e930db1a"
+    }
+  },
+  {
+    "templateId": "pgorelease.bundle.fiatevergreen.3",
+    "data": {
+      "sku": "pgorelease.bundle.fiatevergreen.3",
+      "category": "IAP_CATEGORY_BUNDLE",
+      "sortOrder": 2,
+      "spriteId": "bundle.general2.small.1",
+      "title": "sku.name.2bdfd5cb0af09322abd5ecc41fa28461"
     }
   },
   {
