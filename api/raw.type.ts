@@ -107,7 +107,6 @@ export enum DailyDefenderBonusCurrency {
     Pokecoin = "POKECOIN",
     PokemonEncounter = "POKEMON_ENCOUNTER",
     Stardust = "STARDUST",
-    Sticker = "STICKER",
     XlCandy = "XL_CANDY",
 }
 
@@ -831,9 +830,9 @@ export interface IapItemDisplayData {
     category?:               CategoryEnum;
     sale?:                   boolean;
     maxLevel?:               number;
+    useEnvironmentPrefix?:   boolean;
     webstoreSkuId?:          string;
     webstoreSkuPriceE6?:     number;
-    useEnvironmentPrefix?:   boolean;
 }
 
 export enum CategoryEnum {
@@ -1425,7 +1424,6 @@ export interface EventPassDisplaySettings {
     premiumRewardBannerImageUrl:       string;
     premiumRewardsDescription:         string;
     todayViewSection:                  string;
-    backgroundConfiguration?:          string;
     sectionDisplayPriority:            number;
 }
 
@@ -1439,13 +1437,13 @@ export interface EventPassTrackUpgradeDescription {
     passTrackUpgradeHeaderDescription: string;
     eventPassTrackToUpgradeTo:         Track;
     trackUnlockSkuId:                  string;
+    trackUnlockPlusPointsSkuId:        string;
     eventDurationKey:                  string;
     upgradeDescriptionKey:             string;
     ranksToHighlightRewards:           number[];
     detailsLinkKey:                    string;
     trackUnlockImageUrl:               string;
-    trackUnlockPlusPointsSkuId?:       string;
-    trackUnlockPlusPointsImageUrl?:    string;
+    trackUnlockPlusPointsImageUrl:     string;
 }
 
 export enum Track {
@@ -1469,9 +1467,9 @@ export interface EventPassTierSettingData {
     track:                       Track;
     minPointsRequired?:          number;
     rewards?:                    PurpleReward[];
-    isMilestoneRank?:            boolean;
     bonusSettings?:              Settings;
     activeBonusDisplaySettings?: Settings;
+    isMilestoneRank?:            boolean;
 }
 
 export interface Settings {
@@ -1485,8 +1483,6 @@ export interface ActiveBonusDisplaySettingsBonusBox {
 }
 
 export enum IconType {
-    CandyGeneral = "CANDY_GENERAL",
-    CandyXl = "CANDY_XL",
     EggIncubator = "EGG_INCUBATOR",
     Gift = "GIFT",
     Incense = "INCENSE",
@@ -1497,14 +1493,13 @@ export enum IconType {
 export interface PurpleReward {
     type:                       DailyDefenderBonusCurrency;
     pokemonEncounter?:          RewardPokemonEncounter;
-    candy?:                     Candy;
+    pokecoin?:                  number;
     stardust?:                  number;
+    item?:                      RewardDatumItem;
+    candy?:                     Candy;
     xlCandy?:                   Candy;
     exp?:                       number;
-    item?:                      RewardDatumItem;
     playerAttribute?:           PlayerAttribute;
-    sticker?:                   Sticker;
-    pokecoin?:                  number;
     neutralAvatarItemTemplate?: NeutralAvatarItemTemplate;
     megaResource?:              Candy;
 }
@@ -1515,49 +1510,26 @@ export interface Candy {
 }
 
 export interface PlayerAttribute {
-    key:           string;
-    durationMins?: number;
+    key:          string;
+    durationMins: number;
 }
 
 export interface RewardPokemonEncounter {
-    pokemonDisplay?:               PurplePokemonDisplay;
-    pokemonEncounterDistribution?: PokemonEncounterDistribution;
-    pokemonId?:                    string;
-    statsLimitsOverride?:          StatsLimitsOverride;
-    isFeaturedPokemon?:            boolean;
+    pokemonId:            string;
+    pokemonDisplay?:      PurplePokemonDisplay;
+    statsLimitsOverride?: StatsLimitsOverride;
+    isFeaturedPokemon:    boolean;
 }
 
 export interface PurplePokemonDisplay {
-    locationCard?:  LocationCardClass;
+    form:           string;
     breadModeEnum?: BreadMode;
-    form?:          string;
     costume?:       string;
-}
-
-export interface LocationCardClass {
-    locationCard: LocationCardEnum;
-}
-
-export enum LocationCardEnum {
-    LcSpecialbackground2025_GlobalGofestDd001 = "LC_SPECIALBACKGROUND_2025_GLOBAL_GOFEST_DD_001",
-}
-
-export interface PokemonEncounterDistribution {
-    questDistributionTemplateId: QuestDistributionTemplateId;
-}
-
-export enum QuestDistributionTemplateId {
-    QuestPokemonEncounterGowa2026_Leadout = "QUEST_POKEMON_ENCOUNTER_GOWA_2026_LEADOUT",
 }
 
 export interface StatsLimitsOverride {
     minPokemonLevel: number;
     maxPokemonLevel: number;
-}
-
-export interface Sticker {
-    stickerId: string;
-    amount:    number;
 }
 
 export interface EventPlannerPopularNotificationSettings {

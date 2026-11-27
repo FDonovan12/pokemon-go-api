@@ -457,13 +457,6 @@
     }
   },
   {
-    "templateId": "FRIEND_NICKNAME_SYMBOL_FILTER_FEATURE_GATE",
-    "data": {
-      "status": 618403927,
-      "rolloutPercentage": 100
-    }
-  },
-  {
     "templateId": "GET_GMT_ANALYSIS_FOR_PLAYER_FEATURE_GATE",
     "data": {
       "status": 1,
@@ -950,6 +943,20 @@
     "data": {
       "status": 1,
       "rolloutPercentage": 100
+    }
+  },
+  {
+    "templateId": "RAID_LOBBY_FULL_EARLY_START_CATCHUP_FEATURE_GATE",
+    "data": {
+      "status": 1,
+      "rolloutPercentage": 100,
+      "subFeatureGateList": [
+        {
+          "name": "RAID_LOBBY_ALL_READY_CATCHUP_SUB_FEATURE_GATE",
+          "status": 1,
+          "rolloutPercentage": 100
+        }
+      ]
     }
   },
   {

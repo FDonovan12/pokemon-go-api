@@ -7831,9 +7831,15 @@
       "sku": "bundle.hisuiraidday2023.1",
       "category": "IAP_CATEGORY_BUNDLE",
       "sortOrder": 1,
-      "hidden": true,
       "spriteId": "bundle.general.remotebox.medium.1",
-      "title": "great_raid_box_title"
+      "title": "great_raid_box_title",
+      "skuEnableTime": "2022-10-13T12:00:00",
+      "skuDisableTime": "2026-11-29T17:00:00",
+      "skuEnableTimeUtcMs": "1665662400000",
+      "skuDisableTimeUtcMs": "1795971600000",
+      "showDiscountTag": true,
+      "showStrikethroughPrice": true,
+      "totalValue": 1035
     }
   },
   {
@@ -9163,16 +9169,13 @@
       "sku": "pgorelease.general1.ticket.5",
       "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
       "sortOrder": 2,
-      "hidden": true,
-      "spriteId": "general1.ticket.5",
-      "title": "general1.ticket.5.ENTEI_SHADOW_RAID_DAY",
+      "spriteId": "general2.ticket.5",
+      "title": "general2.ticket.5_MegaClefableRaidDay",
       "skuEnableTime": "2019-03-14T08:00:00",
-      "skuDisableTime": "2026-05-02T17:00:00",
+      "skuDisableTime": "2026-11-28T17:00:00",
       "skuEnableTimeUtcMs": "1552550400000",
-      "skuDisableTimeUtcMs": "1777741200000",
-      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2Fpgo-entei-shadow-raid-day-2026-nologo.jpg",
-      "webstoreSkuId": "web-shadow-entei-raid-box-ultra",
-      "webstoreSkuPriceE6": 4990000,
+      "skuDisableTimeUtcMs": "1795885200000",
+      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F93565839_PGO-MCS_Clefable_Super_Mega_Raid_Day_v1-1024x576.jpg",
       "useEnvironmentPrefix": true
     }
   },
@@ -10232,35 +10235,6 @@
       "sale": true,
       "spriteId": "bundle.general1.small.2",
       "title": "boost_box_title"
-    }
-  },
-  {
-    "templateId": "pgorelease.gowa2026_leadout_event_pass_track_unlock",
-    "data": {
-      "sku": "pgorelease.gowa2026_leadout_event_pass_track_unlock",
-      "sortOrder": 1,
-      "title": "event_pass_premium_track_title_gowa_leadout_2026",
-      "description": "deluxe_event_pass_track_unlock_description",
-      "skuEnableTime": "2025-11-16T10:00:00",
-      "skuDisableTime": "2026-11-25T20:00:00",
-      "skuEnableTimeUtcMs": "1763287200000",
-      "skuDisableTimeUtcMs": "1795636800000",
-      "imageUrl": "https://storage.googleapis.com/prod-public-images/ic_eventpass_deluxe.png"
-    }
-  },
-  {
-    "templateId": "pgorelease.gowa2026_leadout_event_pass_track_unlock_redirect",
-    "data": {
-      "sku": "pgorelease.gowa2026_leadout_event_pass_track_unlock_redirect",
-      "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
-      "sortOrder": 1,
-      "title": "event_pass_premium_track_title_gowa_leadout_2026",
-      "description": "deluxe_event_pass_track_unlock_description",
-      "skuEnableTime": "2025-11-16T10:00:00",
-      "skuDisableTime": "2026-11-25T20:00:00",
-      "skuEnableTimeUtcMs": "1763287200000",
-      "skuDisableTimeUtcMs": "1795636800000",
-      "imageUrl": "https://asset-cdn-rel.nianticstatic.com/GameDesignAssets%2F920494a5_PGO-GOWA_Eternatus.jpg"
     }
   },
   {

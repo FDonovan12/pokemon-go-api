@@ -2187,6 +2187,15 @@
     }
   },
   {
+    "templateId": "LC_SPECIALBACKGROUND_CHA_2026",
+    "data": {
+      "locationCard": "LC_SPECIALBACKGROUND_CHA_2026",
+      "imageUrl": "sb_champions2026",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_Champions_2026"
+    }
+  },
+  {
     "templateId": "LC_SPECIALBACKGROUND_CON2025",
     "data": {
       "locationCard": "LC_SPECIALBACKGROUND_CON2025",

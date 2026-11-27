@@ -725,6 +725,44 @@
     }
   },
   {
+    "templateId": "STICKER_CHAMPIONS_GARCHOMP",
+    "data": {
+      "stickerId": "STICKER_CHAMPIONS_GARCHOMP",
+      "maxCount": 25,
+      "pokemonId": "GARCHOMP",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20261208,
+      "regionId": 3
+    }
+  },
+  {
+    "templateId": "STICKER_CHAMPIONS_INCINEROAR",
+    "data": {
+      "stickerId": "STICKER_CHAMPIONS_INCINEROAR",
+      "maxCount": 25,
+      "pokemonId": "INCINEROAR",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20261208,
+      "regionId": 6
+    }
+  },
+  {
+    "templateId": "STICKER_CHAMPIONS_PIKACHU",
+    "data": {
+      "stickerId": "STICKER_CHAMPIONS_PIKACHU",
+      "maxCount": 25,
+      "pokemonId": "PIKACHU",
+      "category": [
+        "Pokemon"
+      ],
+      "releaseDate": 20261208
+    }
+  },
+  {
     "templateId": "STICKER_CHANSEYCD_1",
     "data": {
       "stickerId": "STICKER_CHANSEYCD_1",
